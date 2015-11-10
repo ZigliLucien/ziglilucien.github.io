@@ -174,7 +174,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="o">%</span><span class="k">pylab</span> inline
@@ -201,23 +201,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">scipy</span> <span class="k">import</span> <span class="n">special</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="k">import</span> <span class="n">display</span><span class="p">,</span><span class="n">HTML</span><span class="p">,</span><span class="n">Math</span>
+<div class=" highlight hl-ipython3"><pre><span class="c">#from scipy import special</span>
 </pre></div>
 
 </div>
@@ -230,6 +217,19 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="k">import</span> <span class="n">display</span><span class="p">,</span><span class="n">HTML</span><span class="p">,</span><span class="n">Math</span><span class="p">,</span><span class="n">Latex</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="inner_cell">
+    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c">#%%capture Catal</span>
 <span class="k">def</span> <span class="nf">Catalan</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">n</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
@@ -237,9 +237,9 @@ div#notebook {
     <span class="k">elif</span> <span class="n">n</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
         <span class="k">return</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="p">(</span><span class="n">Catalan</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
+        <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">Catalan</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
 <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">11</span><span class="p">):</span>
-    <span class="n">display</span><span class="p">(</span><span class="n">Math</span><span class="p">(</span><span class="s">&quot;C_{&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="o">+</span> <span class="s">&quot;} = &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">Catalan</span><span class="p">(</span><span class="n">n</span><span class="p">)))))</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">Math</span><span class="p">(</span><span class="s">&quot;C_{&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="o">+</span> <span class="s">&quot;} = &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">Catalan</span><span class="p">(</span><span class="n">n</span><span class="p">))))</span>
 </pre></div>
 
 </div>
@@ -355,13 +355,13 @@ $$C_{10} = 16796$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">y</span><span class="o">=</span><span class="s">&quot;&quot;</span>
 <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">21</span><span class="p">):</span>
-    <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="o">+</span><span class="s">&quot;C_{&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="o">+</span> <span class="s">&quot;} = &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">Catalan</span><span class="p">(</span><span class="n">n</span><span class="p">)))</span><span class="o">+</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span>
-<span class="n">y</span>
+    <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="o">+</span><span class="s">&quot;\  C_{&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="o">+</span> <span class="s">&quot;} = &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">Catalan</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+<span class="n">Math</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -372,11 +372,11 @@ $$C_{10} = 16796$$
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[37]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[29]:</div>
 
 
-<div class="output_text output_subarea output_execute_result">
-<pre>&apos;C_{0} = 1\nC_{1} = 1\nC_{2} = 2\nC_{3} = 5\nC_{4} = 14\nC_{5} = 42\nC_{6} = 132\nC_{7} = 429\nC_{8} = 1430\nC_{9} = 4862\nC_{10} = 16796\nC_{11} = 58786\nC_{12} = 208012\nC_{13} = 742900\nC_{14} = 2674440\nC_{15} = 9694845\nC_{16} = 35357670\nC_{17} = 129644790\nC_{18} = 477638700\nC_{19} = 1767263190\nC_{20} = 6564120420\n&apos;</pre>
+<div class="output_latex output_subarea output_execute_result">
+$$\  C_{0} = 1\  C_{1} = 1\  C_{2} = 2\  C_{3} = 5\  C_{4} = 14\  C_{5} = 42\  C_{6} = 132\  C_{7} = 429\  C_{8} = 1430\  C_{9} = 4862\  C_{10} = 16796\  C_{11} = 58786\  C_{12} = 208012\  C_{13} = 742900\  C_{14} = 2674440\  C_{15} = 9694845\  C_{16} = 35357670\  C_{17} = 129644790\  C_{18} = 477638700\  C_{19} = 1767263190\  C_{20} = 6564120420$$
 </div>
 
 </div>
@@ -387,10 +387,23 @@ $$C_{10} = 16796$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="o">%</span><span class="k">store</span> _ &gt; Catalan.txt
+<div class=" highlight hl-ipython3"><pre><span class="c">#Catal()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="o">%</span><span class="k">store</span> y &gt; tester
 </pre></div>
 
 </div>
@@ -403,7 +416,7 @@ $$C_{10} = 16796$$
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Writing &apos;_&apos; (str) to file &apos;Catalan.txt&apos;.
+<pre>Writing &apos;y&apos; (str) to file &apos;tester&apos;.
 </pre>
 </div>
 </div>
@@ -414,13 +427,27 @@ $$C_{10} = 16796$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="c">#Catal()</span>
+<div class=" highlight hl-ipython3"><pre><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>\  C_{0} = 1\  C_{1} = 1\  C_{2} = 2\  C_{3} = 5\  C_{4} = 14\  C_{5} = 42\  C_{6} = 132\  C_{7} = 429\  C_{8} = 1430\  C_{9} = 4862\  C_{10} = 16796\  C_{11} = 58786\  C_{12} = 208012\  C_{13} = 742900\  C_{14} = 2674440\  C_{15} = 9694845\  C_{16} = 35357670\  C_{17} = 129644790\  C_{18} = 477638700\  C_{19} = 1767263190\  C_{20} = 6564120420
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
