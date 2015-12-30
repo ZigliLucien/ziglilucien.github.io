@@ -1,5 +1,20 @@
-<div class="menu">
-<div id="chapter"><a onclick="getText('Test_Book_for_the_Web	.html','main')">Test Book for the Web	</a></div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="/ServPak/css/outline.css">
+<script>	function getText(url, lbl){
+		
+try{
+			document.getElementById(lbl).innerHTML=
+'<iframe src="'+url+'" height="100%" width="100%" style="border-radius: 40px"></iframe>';
+
+}catch(e){alert(e);}
+	}
+</script>
+</head>
+<body onload="getText('idx.html','main')">
+<div class="menu" id="menuleft">
+<div id="chapter"><a onclick="getText('Test_Book_for_the_Web.html','main')">Test Book for the Web</a></div>
 <p></p>
 <section>
   
@@ -43,3 +58,6 @@
 </section>
 
 </div>
+<div id="main"></div>
+</body>
+</html>
