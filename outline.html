@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="/ServPak/css/outline.css">
+<script>
+
+function getTitle(e){
+	var path = document.location.pathname;
+	path = path.substr(0,path.length-1);
+	var y = 	path.substr(path.lastIndexOf("/")+1);
+	      y = y.replace(/_/g," ");
+	document.getElementById(e).innerHTML="<h1>"+y+"</h1>";
+	}
+
+	function GetText(url, lbl){
+		var req = new XMLHttpRequest();
+try{
+		req.onreadystatechange = 
+	function(){
+		if(req.readyState==4 && req.status==200)
+			document.getElementById(lbl).innerHTML=req.responseText;
+		}
+
+		req.open("GET",url,true);
+		req.send(null);
+}catch(e){alert(e);}
+	}
+
+	function getText(url, lbl){
+		
+try{
+			document.getElementById(lbl).innerHTML=
+'<iframe src="'+url+'" height="100%" width="100%" style="border-radius: 40px"></iframe>';
+
+}catch(e){alert(e);}
+	}
+</script>
+</head>
+<body onload="GetText('nav.html','menuright');GetText('list.html','menuleft');getTitle('main')">
+<div class="menu" id="menuleft"></div>
+<div id="main"></div>
+<div id="menuright"></div>
+</body>
+</html>
