@@ -1,47 +1,12 @@
-HELLO
+<head>
+<script type='text/javascript' src='/ServPak/js/jquery.js'></script>
+<script type='text/javascript' src='/ServPak/js/mathformat.js'></script>
+<link rel='stylesheet' type='text/css' href='/ServPak/css/math.css'/>
 
-*hello*
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}}); </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+     </script>
 
-**hello**
-
-## what?
-
-## OK  
-	Hey! <OK>&eacute;
-&eacute; here should work.
-
-
-a|b|c
--:|:-:|:-
-hello|goodbye|ciao
-p^2|q<sub>3</sub>|r
-|hello|
-|howdy|xyz|
-
-
-
-   [HERE](http://ch)  
-   [THERE][1]
-
-[1]: http://z:15001/home	"Zigli"
-
->> ***Here*** *A* **B** ****C****
-
-From this  
-
--	Jack
-- 	Jill
-- 	Bill  
-
- -> OR Hello<-
- 
-1. A
-2. B
-3. C
-
-
->>> THERE
-
-
- 
-	
+<title>TTTTLLLL</title>
+</head>
