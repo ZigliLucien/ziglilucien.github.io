@@ -2,17 +2,14 @@
 title: index
 ---
 
-<head>
-<title>/home/ph/ziglilucien.github.io/tester</title>
-</head>
 
 <h2> tester </h2>
 <blockquote>
-<a href="./header">header</a>
+<a href="./header">header</a>  
 <p>
-<a href="./MathJaxPrefix.txt">MathJaxPrefix.txt</a>
+<a href="./MathJaxPrefix.txt">MathJaxPrefix.txt</a>  
 <p>
-<a href="./test.md">test.md</a>
+<a href="./test.md">test.md</a>  
 <p>
 <a href="./tst.md">tst.md</a>
 <p>
