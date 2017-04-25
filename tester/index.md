@@ -9,7 +9,7 @@ title: index
 <p>
 <a href="./MathJaxPrefix.txt">MathJaxPrefix.txt</a>  
 <p>
-[test.md]("./test.md")
+[test.md](./test.md)
 <p>
 <a href="./tst.md">tst.md</a>
 <p>
