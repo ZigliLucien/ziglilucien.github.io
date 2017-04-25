@@ -2,12 +2,10 @@
 title: index
 ---
 
-<html>
 <head>
 <title>/home/ph/ziglilucien.github.io/tester</title>
 </head>
 
-<body>
 <h2> tester </h2>
 <blockquote>
 <a href="./header">header</a>
@@ -19,6 +17,3 @@ title: index
 <a href="./tst.md">tst.md</a>
 <p>
 
-</blockquote>
-</body>
-</html>
