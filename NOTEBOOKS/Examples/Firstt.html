@@ -11784,7 +11784,7 @@ GAM(A,N): Lie map for matrix A in degree N
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">11</span><span class="o">**</span><span class="mi">6</span>
@@ -11798,11 +11798,11 @@ GAM(A,N): Lie map for matrix A in degree N
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[2]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[1]:</div>
 
 
-<div class="output_latex output_subarea output_execute_result">
-$$1771561$$
+<div class="output_text output_subarea output_execute_result">
+<pre>1771561</pre>
 </div>
 
 </div>
@@ -11999,7 +11999,7 @@ $$\left [ 0, \quad 1, \quad 2, \quad 3, \quad 4, \quad 5, \quad 6\right ]$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">var</span><span class="p">(</span><span class="s1">&#39;alpha&#39;</span><span class="p">)</span>
@@ -12132,7 +12132,7 @@ $$\alpha^{5} \left(32 y^{5} + 320 y^{4} + 1120 y^{3} + 1600 y^{2} + 768 y\right)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Z</span><span class="o">=</span><span class="n">alpha</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">alpha</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">v</span><span class="p">))))</span>
@@ -12168,7 +12168,7 @@ p_5=x^{4} \left(- \frac{5}{8 \alpha^{4}} + \frac{5}{16 \alpha^{6}}\right) + x^{3
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">latex</span><span class="p">(</span><span class="n">Z</span><span class="p">))</span>
@@ -12240,12 +12240,12 @@ $$x^{2} \left(x - 4\right) \left(x - 2\right) \left(x + 2\right) \left(x + 4\rig
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span><span class="o">=</span><span class="p">[]</span>
-<span class="n">f</span><span class="o">=</span><span class="n">series</span><span class="p">(</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="p">(</span><span class="n">exp</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)),</span><span class="n">v</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">9</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">9</span><span class="p">):</span>
+<span class="n">f</span><span class="o">=</span><span class="n">series</span><span class="p">(</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="p">(</span><span class="n">exp</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)),</span><span class="n">v</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">8</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">8</span><span class="p">):</span>
     <span class="n">p</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">factorial</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">*</span><span class="n">f</span><span class="o">.</span><span class="n">coeff</span><span class="p">(</span><span class="n">v</span><span class="p">,</span><span class="n">i</span><span class="p">))</span>
 </pre></div>
 
@@ -12256,12 +12256,12 @@ $$x^{2} \left(x - 4\right) \left(x - 2\right) \left(x + 2\right) \left(x + 4\rig
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">q</span><span class="o">=</span><span class="p">[]</span>
-<span class="n">f</span><span class="o">=</span><span class="n">series</span><span class="p">(</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">v</span><span class="p">))),</span><span class="n">v</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">9</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">9</span><span class="p">):</span>
+<span class="n">f</span><span class="o">=</span><span class="n">series</span><span class="p">(</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">v</span><span class="p">))),</span><span class="n">v</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">8</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">8</span><span class="p">):</span>
     <span class="n">q</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">factorial</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">*</span><span class="n">f</span><span class="o">.</span><span class="n">coeff</span><span class="p">(</span><span class="n">v</span><span class="p">,</span><span class="n">i</span><span class="p">))</span>
 </pre></div>
 
@@ -12272,7 +12272,7 @@ $$x^{2} \left(x - 4\right) \left(x - 2\right) \left(x + 2\right) \left(x + 4\rig
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span>
@@ -12286,11 +12286,11 @@ $$x^{2} \left(x - 4\right) \left(x - 2\right) \left(x + 2\right) \left(x + 4\rig
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[35]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[17]:</div>
 
 
 <div class="output_latex output_subarea output_execute_result">
-$$\left [ 1, \quad x, \quad x^{2} + x, \quad x^{3} + 3 x^{2} + x, \quad x^{4} + 6 x^{3} + 7 x^{2} + x, \quad x^{5} + 10 x^{4} + 25 x^{3} + 15 x^{2} + x, \quad x^{6} + 15 x^{5} + 65 x^{4} + 90 x^{3} + 31 x^{2} + x, \quad x^{7} + 21 x^{6} + 140 x^{5} + 350 x^{4} + 301 x^{3} + 63 x^{2} + x, \quad x^{8} + 28 x^{7} + 266 x^{6} + 1050 x^{5} + 1701 x^{4} + 966 x^{3} + 127 x^{2} + x\right ]$$
+$$\left [ 1, \quad x, \quad x^{2} + x, \quad x^{3} + 3 x^{2} + x, \quad x^{4} + 6 x^{3} + 7 x^{2} + x, \quad x^{5} + 10 x^{4} + 25 x^{3} + 15 x^{2} + x, \quad x^{6} + 15 x^{5} + 65 x^{4} + 90 x^{3} + 31 x^{2} + x, \quad x^{7} + 21 x^{6} + 140 x^{5} + 350 x^{4} + 301 x^{3} + 63 x^{2} + x\right ]$$
 </div>
 
 </div>
@@ -12301,7 +12301,7 @@ $$\left [ 1, \quad x, \quad x^{2} + x, \quad x^{3} + 3 x^{2} + x, \quad x^{4} + 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">q</span>
@@ -12315,11 +12315,11 @@ $$\left [ 1, \quad x, \quad x^{2} + x, \quad x^{3} + 3 x^{2} + x, \quad x^{4} + 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[36]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
 
 
 <div class="output_latex output_subarea output_execute_result">
-$$\left [ 1, \quad x, \quad x^{2} - x, \quad x^{3} - 3 x^{2} + x, \quad x^{4} - 6 x^{3} + 7 x^{2} - x, \quad x^{5} - 10 x^{4} + 25 x^{3} - 15 x^{2} + x, \quad x^{6} - 15 x^{5} + 65 x^{4} - 90 x^{3} + 31 x^{2} - x, \quad x^{7} - 21 x^{6} + 140 x^{5} - 350 x^{4} + 301 x^{3} - 63 x^{2} + x, \quad x^{8} - 28 x^{7} + 266 x^{6} - 1050 x^{5} + 1701 x^{4} - 966 x^{3} + 127 x^{2} - x\right ]$$
+$$\left [ 1, \quad x, \quad x^{2} - x, \quad x^{3} - 3 x^{2} + x, \quad x^{4} - 6 x^{3} + 7 x^{2} - x, \quad x^{5} - 10 x^{4} + 25 x^{3} - 15 x^{2} + x, \quad x^{6} - 15 x^{5} + 65 x^{4} - 90 x^{3} + 31 x^{2} - x, \quad x^{7} - 21 x^{6} + 140 x^{5} - 350 x^{4} + 301 x^{3} - 63 x^{2} + x\right ]$$
 </div>
 
 </div>
@@ -12330,7 +12330,7 @@ $$\left [ 1, \quad x, \quad x^{2} - x, \quad x^{3} - 3 x^{2} + x, \quad x^{4} - 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pp</span><span class="o">=</span><span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">subs</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">t</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">p</span><span class="p">))]</span>
@@ -12344,10 +12344,10 @@ $$\left [ 1, \quad x, \quad x^{2} - x, \quad x^{3} - 3 x^{2} + x, \quad x^{4} - 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">n</span><span class="o">=</span><span class="mi">8</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">n</span><span class="o">=</span><span class="mi">6</span>
 <span class="n">simplify</span><span class="p">([</span><span class="nb">sum</span><span class="p">(</span><span class="n">simplify</span><span class="p">(</span><span class="n">binomial</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">i</span><span class="p">)</span><span class="o">*</span><span class="n">pp</span><span class="p">[</span><span class="n">n</span><span class="o">-</span><span class="n">i</span><span class="p">]</span><span class="o">*</span><span class="n">qq</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">))][</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
@@ -12359,11 +12359,11 @@ $$\left [ 1, \quad x, \quad x^{2} - x, \quad x^{3} - 3 x^{2} + x, \quad x^{4} - 
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[38]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[20]:</div>
 
 
 <div class="output_latex output_subarea output_execute_result">
-$$t^{2} \left(t^{6} + 56 t^{4} + 336 t^{2} + 64\right)$$
+$$t^{2} \left(t^{4} + 20 t^{2} + 16\right)$$
 </div>
 
 </div>
@@ -12374,7 +12374,7 @@ $$t^{2} \left(t^{6} + 56 t^{4} + 336 t^{2} + 64\right)$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span><span class="o">=</span><span class="n">asinh</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
@@ -12391,7 +12391,7 @@ $$t^{2} \left(t^{6} + 56 t^{4} + 336 t^{2} + 64\right)$$
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[39]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[21]:</div>
 
 
 <div class="output_latex output_subarea output_execute_result">
@@ -12406,7 +12406,7 @@ $$\frac{x}{x^{2} + 1}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">diff</span><span class="p">(</span><span class="n">sech</span><span class="p">(</span><span class="n">x</span><span class="p">),</span><span class="n">x</span><span class="p">)</span>
@@ -12420,7 +12420,7 @@ $$\frac{x}{x^{2} + 1}$$
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[40]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[22]:</div>
 
 
 <div class="output_latex output_subarea output_execute_result">
@@ -12435,7 +12435,7 @@ $$- \tanh{\left (x \right )} \operatorname{sech}{\left (x \right )}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span><span class="o">=</span><span class="n">series</span><span class="p">(</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="p">(</span><span class="n">exp</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)),</span><span class="n">v</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">8</span><span class="p">);</span><span class="n">f</span>
@@ -12449,7 +12449,7 @@ $$- \tanh{\left (x \right )} \operatorname{sech}{\left (x \right )}$$
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[41]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[40]:</div>
 
 
 <div class="output_latex output_subarea output_execute_result">
@@ -12464,7 +12464,7 @@ $$1 + v x + v^{2} \left(\frac{x^{2}}{2} + \frac{x}{2}\right) + v^{3} \left(\frac
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gegenbauer</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="n">x</span><span class="p">,</span><span class="n">alpha</span><span class="p">)</span>
@@ -12478,7 +12478,7 @@ $$1 + v x + v^{2} \left(\frac{x^{2}}{2} + \frac{x}{2}\right) + v^{3} \left(\frac
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[24]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[42]:</div>
 
 
 <div class="output_latex output_subarea output_execute_result">
@@ -12493,7 +12493,7 @@ $$\alpha^{3} \left(\frac{4 x^{3}}{3} + 4 x^{2} + \frac{8 x}{3}\right) + \alpha \
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">B</span><span class="o">=</span><span class="n">Matrix</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,[</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
@@ -12519,7 +12519,7 @@ $$\left [ \left[\begin{matrix}0\end{matrix}\right], \quad \left[\begin{matrix}1 
 
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[25]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
 
 
 <div class="output_latex output_subarea output_execute_result">
@@ -12534,7 +12534,7 @@ $$\left [ \left[\begin{matrix}0\end{matrix}\right], \quad \left[\begin{matrix}0 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">B</span><span class="o">=</span><span class="n">Matrix</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
@@ -12560,7 +12560,7 @@ $$\left [ \left[\begin{matrix}0\end{matrix}\right], \quad \left[\begin{matrix}0 
 
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[26]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
 
 
 <div class="output_latex output_subarea output_execute_result">
@@ -12586,35 +12586,6 @@ $$\left [ \left[\begin{matrix}0\end{matrix}\right], \quad \left[\begin{matrix}0 
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">exp</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">Out[27]:</div>
-
-
-<div class="output_latex output_subarea output_execute_result">
-$$e$$
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
