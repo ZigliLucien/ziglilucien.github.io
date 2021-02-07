@@ -1,0 +1,19 @@
+#!/usr/bin/perl
+
+@y = <*.md>;
+
+for (@y){
+
+print;
+
+($a,$b) = split(/\./);
+
+$c = system("markdown -f latex -f nostyle $_");
+
+open (OUT,">$a.html") ;
+select OUT;
+print $c;
+close OUT;
+
+}
+
