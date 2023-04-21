@@ -1,0 +1,47 @@
+<html>
+<head>
+<script type='text/javascript' src='/ServPak/js/jquery.js'></script>
+<script type='text/javascript' src='/ServPak/js/mathformat.js'></script>
+<link rel='stylesheet' type='text/css' href='/ServPak/css/math.css'/>
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}}); </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+     </script>
+
+<title>Math One</title>
+</head>
+
+<body>
+<h2> Math_One </h2>
+
+<section id="One" name="_1">
+Hello. What is
+$$\int \exp(-x^2/2)\,dx$$
+<def>This is the Gaussian integral.</def>
+
+$\text{A}\ {{\alpha^\beta}^\gamma}^{{\cdot}^{{\cdot}^{\cdot}}} \quad  \text{B} \quad \text{C}$
+
+<subsection id="One i" name="sub-one">
+<theorem id="A" name="th:A">
+$$\frac{A}{B}=\binom{C}{D}$$
+for general values of $n$.
+</theorem>
+<proof>
+B <quad></quad> C 
+<skip></skip>
+D
+</proof>
+<p/>
+<it>Hello</it> <tt>OK</tt>
+<subsubsection id="Details" name="sbsb:D">
+More details will be available here.
+</subsubsection>
+</subsection>
+Let's see some consequences.
+
+<em>Recall above <labelref name="_1"></labelref></em>
+</section>
+
+</body>
+</html>
