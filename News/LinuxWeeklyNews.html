@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/964392/" title="See Description">[$] Insecurity and Python pickles</a></li>
+<li><a href="#https://lwn.net/Articles/965113/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/965067/" title="See Description">Huston: KeyTrap!</a></li>
 <li><a href="#https://lwn.net/Articles/964106/" title="See Description">[$] Development statistics for 6.8</a></li>
 <li><a href="#https://lwn.net/Articles/965032/" title="See Description">Security updates for Monday</a></li>
@@ -51,11 +53,39 @@
 <li><a href="#https://lwn.net/Articles/964042/" title="See Description">[$] LWN.net Weekly Edition for March 7, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/960630/" title="See Description">[$] MySQL and MariaDB changes coming in Fedora 40</a></li>
 <li><a href="#https://lwn.net/Articles/964574/" title="See Description">Adding systemd to postmarketOS</a></li>
-<li><a href="#https://lwn.net/Articles/964377/" title="See Description">[$] Not so quickly extending QUIC</a></li>
-<li><a href="#https://lwn.net/Articles/964567/" title="See Description">Wednesday's stable kernel updates</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/964392/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 12 Mar 2024 15:35:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/964392/" title="https://lwn.net/Articles/964392/">[$] Insecurity and Python pickles</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Serialization is the process of transforming Python objects into a sequence of
+bytes which can be used to recreate a copy of the object later — or on another
+machine.
+<a href="https://docs.python.org/3/library/pickle.html">
+<tt>pickle</tt></a> is Python's native serialization module. It can store complex Python
+objects,
+making it an appealing prospect for moving data without having to write
+custom serialization code. For example, <tt>pickle</tt> is an integral component of
+<a href="https://github.com/trailofbits/ml-file-formats">several file
+formats</a> used for machine learning. However, using <tt>pickle</tt> to deserialize
+untrusted files is a major security risk, because doing so can invoke arbitrary
+Python functions. Consequently, the machine-learning community is working to address the
+security issues caused by widespread use of <tt>pickle</tt>.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/965113/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 12 Mar 2024 14:50:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/965113/" title="https://lwn.net/Articles/965113/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (qemu), <b>Mageia</b> (libtiff and thunderbird), <b>Red Hat</b> (kernel, kpatch-patch, postgresql, and rhc-worker-script), <b>SUSE</b> (compat-openssl098, openssl, openssl1, python-Django, python-Django1, and wpa_supplicant), and <b>Ubuntu</b> (accountsservice, libxml2, linux-bluefield, linux-raspi-5.4, linux-xilinx-zynqmp, linux-oem-6.1, openvswitch, postgresql-9.5, and ruby-rack).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/965067/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 12 Mar 2024 08:46:40 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -68,7 +98,7 @@ details</a> of the KeyTrap DNS vulnerability, which was <a
 href="https://lwn.net/Articles/962924/">disclosed</a> in February.
 <p>
 <blockquote class="bq">
-	It's by no means "devasting" for the DNS, and the fix is much the
+	It's by no means "[devastating]" for the DNS, and the fix is much the
 	same as the previous fix. As well as limiting the number of queries
 	that a resolver can generate to resolve a queried name, a careful
 	resolver will limit both the elapsed time and perhaps the amount of
@@ -312,37 +342,6 @@ unreliable, and NOT suitable for use on a device you rely on</q>". Those interes
 in helping with testing and development are encouraged to follow along and report
 bugs on the <a href="https://gitlab.com/postmarketOS/pmaports/-/issues/2632">systemd
 issue at GitLab</a>.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/964377/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 06 Mar 2024 18:30:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/964377/" title="https://lwn.net/Articles/964377/">[$] Not so quickly extending QUIC</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://en.wikipedia.org/wiki/QUIC">
-QUIC</a> is a UDP-based transport protocol that forms the foundation of
-<a href="https://lwn.net/Articles/814522">HTTP/3</a>.
-It was initially developed at Google in 2012, and became an
-<a href="https://www.ietf.org/">IETF</a> standard in
-2021. Work on the protocol did not stop with its standardization, however. The
-<a href="https://quicwg.org/">QUIC Working Group</a>
-published several follow-up standards. Now, it is working on
-four more extensions to QUIC intended to patch over various shortcomings in the
-current protocol — although progress has not been quick.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/964567/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 06 Mar 2024 17:44:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/964567/" title="https://lwn.net/Articles/964567/">Wednesday's stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has announced another round of stable kernel updates:
-<a href="https://lwn.net/Articles/964560">6.7.9</a>, <a href="https://lwn.net/Articles/964561">6.6.21</a>,
-<a href="https://lwn.net/Articles/964562/">6.1.81</a>, <a href="https://lwn.net/Articles/964564/">5.15.151</a>,
-<a href="https://lwn.net/Articles/964565/">5.10.212</a>, <a href="https://lwn.net/Articles/964563/">5.4.271</a>,
-and <a href="https://lwn.net/Articles/964566/">4.19.309</a> have all been
-released. Each contains a set of important fixes.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
