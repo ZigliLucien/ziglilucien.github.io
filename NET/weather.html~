@@ -1,16 +1,11 @@
 <html>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="38">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Weather at Carbondale</title>
 <style type="text/css">
 
  td.x { 
  font-family: helvetica; font-size: 130%;
-}
-
- center.big {
- font-family: helvetica; font-size: 250%;
 }
 
  td.big {
@@ -26,13 +21,51 @@
 }
 
 </style>
+
+<script type="text/javascript">
+
+function startTime()
+{
+
+var d = new Date();
+var mth = new Array(12);
+mth[0]="January";
+mth[1]="February";
+mth[2]="March";
+mth[3]="April";
+mth[4]="May";
+mth[5]="June";
+mth[6]="July";
+mth[7]="August";
+mth[8]="September";
+mth[9]="October";
+mth[10]="November";
+mth[11]="December";
+var dd = mth[d.getMonth()]+" "+d.getDate().toString()+", "+d.getFullYear().toString();
+
+var h=d.getHours()
+var m=d.getMinutes()
+// add a zero in front of numbers<10
+m=checkTime(m)
+
+document.getElementById('txt').innerHTML='The time is now '+h+':'+m+' on '+dd+'.'
+t=setTimeout('startTime()',500)
+}
+
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i}
+  return i
+}
+</script>
 <script type="text/javascript"> 
     document.captureEvents(Event.KEYDOWN);      
     document.onkeydown = goKey; 
 
 	function goKey(e) {
         var y = String.fromCharCode(e.which);
-	if(y=="Q" || y=="F" || y=="D" || (y=="T" && !e.ctrlKey) || y=="P"){
+	if( y=="F" || y=="D" || y=="T"){
 		e.stopPropagation();
 		e.preventDefault();
 		window.location = document.getElementById(y).href;
@@ -41,73 +74,43 @@
      }
 </script>
 </head>
-<body bgcolor="f0ffff">
+<body onload="startTime()" bgcolor="f0ffff">
 <h1><em><font color="darkblue">Weather at Carbondale</font></em></h1>
-<?
-
-%longday=("Mon"=&gt;"Monday","Tue"=&gt;"Tuesday","Wed"=&gt;"Wednesday",
-	  "Thu"=&gt;"Thursday","Fri"=&gt;"Friday","Sat"=&gt;"Saturday","Sun"=&gt;"Sunday");
-@date = split(/\s+/,scalar localtime);
-print '<font style="background:white"> Today is ';
-print "$longday{$date[0]}, $date[1] $date[2] . <p></p></font>";
-print '<center class="big">The time is ';
-print " $date[3].</center>";
-
-!>
-<center class="big">Temperature: 
-58.0 
-°
-</center>
+<p/>
+<div id='txt'></div>
+<p/><br/><p/>
 <table><tr>
 <td align="left" class="x">
-<i>Current Weather: </i><img height="0" width="50"><b>Fair</b>
+<i>Current Weather: </i><img height="0" width="50"><b>Overcast</b>
 </td>
-<td><img src="WeathIcons/skc.jpg"></td>
+<td><img src="WeathIcons/ovc.jpg"></td>
 </tr></table>
-<table style="margin-left: auto;margin-top: 5%;margin-right:auto">
-<tr>
-<td><table bgcolor="ffffee">
+<table style="margin-left: auto;margin-top: 5%;margin-right:auto"><tr><td><table bgcolor="ffffee">
 <tr><td align="left" class="big">Date: 
-&#160;Mar 11</td></tr>
+&#160;Jan 25</td></tr>
 <tr><td align="left" class="big">Time: 
-&#160;20:08:04</td></tr>
+&#160;09:08:02</td></tr>
 <tr><td align="left" class="big">Wind: 
-&#160;South at 15.0 MPH (13 KT)</td></tr>
+&#160;Southwest at 11.5 MPH (10 KT)</td></tr>
 <tr><td align="left" class="big">Visibility: 
 &#160;</td></tr>
 <tr><td align="left" class="big">Temperature: 
-&#160;58.0 F.</td></tr>
-<tr><td align="left" class="big">Dewpoint: 
 &#160;37.0 F.</td></tr>
+<tr><td align="left" class="big">Dewpoint: 
+&#160;10.9 F.</td></tr>
 <tr><td align="left" class="big">Relative Humidity: 
-&#160;46%</td></tr>
+&#160;34%</td></tr>
 <tr><td align="left" class="big">Pressure: 
-&#160;30.11 inches</td></tr>
+&#160;29.80 inches</td></tr>
 <tr><td align="left" class="big">Heat Index: 
 &#160;</td></tr>
 <tr><td align="left" class="big">Wind Chill: 
-&#160;55</td></tr>
+&#160;29</td></tr>
 <tr><td align="left" class="big">Sunrise: 
-&#160;0614 CST</td></tr>
+&#160;0706 CST</td></tr>
 <tr><td align="left" class="big">Sunset: 
-&#160;1800 CST</td></tr>
-</table></td>
-<td align="left" class="big">
-<b>Twenty-Four Hour Summary</b><p></p>
-<dl>
-<dt align="center">Temperature: μ = 45.5, 
-σ = 13.4</dt>
-<p></p>
-<dt align="center">Pressure: μ = 30.22,
-σ = 0.05</dt>
-</dl>
-</td>
-</tr>
-<tr>
-<td align="left"><img src="temp.png"></td>
-<td align="left"><img src="pres.png"></td>
-</tr>
-</table>
+&#160;1713 CST</td></tr>
+</table></td></tr></table>
 <p></p>
 <hr>
 <p></p>
@@ -115,17 +118,52 @@ print " $date[3].</center>";
  ------ 
 <a href="forecast.html" id="F"><b>CURRENT <u>F</u>ORECAST</b></a>
  ------ 
-<a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJ3ZWF0aGVyIiwiY2VudGVyIjpbLTg5LjIyMSwzNy43MjRdLCJ6b29tIjo3LCJsb2NhdGlvbiI6Wy04OS4yMjEsMzcuNzI0XX0sImJhc2UiOiJzdGFuZGFyZCIsImNvdW50eSI6ZmFsc2UsImN3YSI6ZmFsc2UsInN0YXRlIjpmYWxzZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOmZhbHNlfQ%3D%3D#/" id="D"><b> CURRENT RA<u>D</u>AR</b></a>
+<a href="http://radar.weather.gov/radar.php?rid=pah&amp;product=N0R&amp;overlay=11101111&amp;loop=no" id="D"><b> CURRENT RA<u>D</u>AR</b></a>
  ------ 
 <a href="temps.html" id="T"><b><u>T</u>EMPS AT A GLANCE </b></a>
  ------ 
-<a href="tango/DewPoint.md" id="P"><b> Dew <u>P</u>oint Data </b></a>
- ------ 
-<p></p>
-<a href="quickweather.html" id="Q"><b><u>Q</u>uick Forecast and Alerts</b></a>
 </center>
 <p></p>
 <hr>
 <p></p>
+Data from 
+<a href="http://weather.noaa.gov/weather/current/KMDH.html"><font color="darkblue">The National Weather Service.</font></a>
 </body>
 </html>
+<script type="text/javascript">
+
+function startTime()
+{
+
+var d = new Date();
+var mth = new Array(12);
+mth[0]="January";
+mth[1]="February";
+mth[2]="March";
+mth[3]="April";
+mth[4]="May";
+mth[5]="June";
+mth[6]="July";
+mth[7]="August";
+mth[8]="September";
+mth[9]="October";
+mth[10]="November";
+mth[11]="December";
+var dd = mth[d.getMonth()]+" "+d.getDate().toString()+", "+d.getFullYear().toString();
+
+var h=d.getHours()
+var m=d.getMinutes()
+// add a zero in front of numbers<10
+m=checkTime(m)
+
+document.getElementById('txt').innerHTML='The time is now '+h+':'+m+' on '+dd+'.'
+t=setTimeout('startTime()',500)
+}
+
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i}
+  return i
+}
+</script>

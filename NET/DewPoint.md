@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 58.0 F. <strong>Dew Point</strong> 37.0 F.</div>
+<div id='c'><strong>Temp</strong> 61.0 F. <strong>Dew Point</strong> 39.0 F.</div>
 
 <p/><br/><p/>
 
@@ -815,3 +815,18 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Mon Mar 11 18:08:06 2024 | 62.0 F. | 37.0 F.|
 | Mon Mar 11 19:08:06 2024 | 58.0 F. | 37.0 F.|
 | Mon Mar 11 20:08:07 2024 | 58.0 F. | 37.0 F.|
+| Mon Mar 11 21:08:05 2024 | 51.0 F. | 36.0 F.|
+| Mon Mar 11 22:08:06 2024 | 50.0 F. | 35.1 F.|
+| Mon Mar 11 23:08:05 2024 | 50.0 F. | 35.1 F.|
+| Tue Mar 12 00:08:05 2024 | 50.0 F. | 35.1 F.|
+| Tue Mar 12 01:08:06 2024 | 48.0 F. | 35.1 F.|
+| Tue Mar 12 02:08:05 2024 | 47.0 F. | 34.0 F.|
+| Tue Mar 12 03:08:06 2024 | 47.0 F. | 34.0 F.|
+| Tue Mar 12 04:08:05 2024 | 47.0 F. | 34.0 F.|
+| Tue Mar 12 05:08:05 2024 | 50.0 F. | 33.1 F.|
+| Tue Mar 12 06:08:05 2024 | 50.0 F. | 33.1 F.|
+| Tue Mar 12 07:09:01 2024 |  | |
+| Tue Mar 12 08:09:00 2024 |  | |
+| Tue Mar 12 09:08:59 2024 |  | |
+| Tue Mar 12 10:08:08 2024 | 51.0 F. | 37.0 F.|
+| Tue Mar 12 11:08:05 2024 | 61.0 F. | 39.0 F.|
