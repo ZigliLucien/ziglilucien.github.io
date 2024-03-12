@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/965167/" title="See Description">Today's hardware vulnerability: register file data sampling</a></li>
 <li><a href="#https://lwn.net/Articles/965147/" title="See Description">Herb Sutter on increasing safety in C++</a></li>
 <li><a href="#https://lwn.net/Articles/964392/" title="See Description">[$] Insecurity and Python pickles</a></li>
 <li><a href="#https://lwn.net/Articles/965113/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/964075/" title="See Description">[$] Vale: enforcing style guidelines for text</a></li>
 <li><a href="#https://lwn.net/Articles/964725/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/964042/" title="See Description">[$] LWN.net Weekly Edition for March 7, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/960630/" title="See Description">[$] MySQL and MariaDB changes coming in Fedora 40</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/965167/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 12 Mar 2024 20:38:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/965167/" title="https://lwn.net/Articles/965167/">Today's hardware vulnerability: register file data sampling</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The mainline kernel has just received a set of commits addressing the
+"register file data sampling" hardware vulnerability.
+<p>
+<blockquote class="bq">
+	RFDS may allow a malicious actor to infer data values previously
+	used in floating point registers, vector registers, or integer
+	registers. RFDS does not provide the ability to choose which data
+	is inferred
+</blockquote>
+<p>
+Only Atom cores are affected, but those cores can be found inside a number
+of processors.  See <a
+href="https://git.kernel.org/linus/4e42765d1be0">this documentation
+commit</a> for more information.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/965147/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 12 Mar 2024 19:21:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -326,23 +346,6 @@ prose.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for March 7, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/960630/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 06 Mar 2024 21:02:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/960630/" title="https://lwn.net/Articles/960630/">[$] MySQL and MariaDB changes coming in Fedora 40</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Fedora Project <a href="https://fedoraproject.org/wiki/Features/ReplaceMySQLwithMariaDB">switched
-to MariaDB</a> as the default implementation of MySQL in Fedora&nbsp;19 <a
-href="https://lwn.net/Articles/534204/">in 2013</a>. Once a drop-in
-replacement for MySQL, MariaDB has diverged enough that this is no longer
-the case&mdash;and, despite concerns about Oracle
-and optimism that MariaDB would supplant MySQL, the reality is that MySQL
-and MariaDB seem to be here to stay. With that in mind, Fedora developer
-Michal Schorm
-<a href="https://discussion.fedoraproject.org/t/f40-change-proposal-f40-mariadb-mysql-repackaging-self-contained/92810">proposed</a> that the project revise the way MySQL and MariaDB
-are packaged in Fedora starting with Fedora&nbsp;40.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
