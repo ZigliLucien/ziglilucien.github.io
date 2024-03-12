@@ -2,20 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 66, with temperatures falling to around 64 in the afternoon. South southwest wind around 10 mph.<br></div>
+         <h3>Tonight</h3>Clear, with a low around 41. South southwest wind around 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Clear, with a low around 41. South southwest wind 7 to 10 mph.<br></div>
+         <h3>Tuesday</h3>Sunny, with a high near 70. South southwest wind 8 to 16 mph, with gusts as high as 24 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Mostly sunny, with a high near 70. South southwest wind 7 to 15 mph, with gusts as high as 21 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A slight chance of showers and thunderstorms after 1am. Partly cloudy, with a low around 51. South southwest wind 12 to 15
-         mph, with gusts as high as 23 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Tuesday Night</h3>A slight chance of showers and thunderstorms after 1am. Partly cloudy, with a low around 51. South southwest wind 10 to 14
+         mph, with gusts as high as 22 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -36,7 +32,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday Night</h3>A chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 1am, then showers
-         and thunderstorms likely. Mostly cloudy, with a low around 53. Southwest wind 14 to 21 mph, with gusts as high as 31 mph.<br></div>
+         and thunderstorms likely. Mostly cloudy, with a low around 53. Southwest wind 14 to 21 mph, with gusts as high as 31 mph.
+         Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -63,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday Night</h3>Partly cloudy, with a low around 35. Northwest wind around 14 mph, with gusts as high as 21 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday</h3>Mostly sunny, with a high near 50. Northwest wind 12 to 17 mph, with gusts as high as 26 mph.<br></div>
    </p>
 </div>
