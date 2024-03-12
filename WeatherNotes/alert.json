@@ -1,0 +1,134 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4773626-3852492",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4773626-3852492",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4773626-3852492",
+        "areaDesc": "Saline; Jefferson; Spencer; Gibson; Henderson; Williamson; Pike; Jackson; Union; White; Wabash; Hamilton; Edwards; Posey; Franklin; Gallatin; Vanderburgh; Wayne; Warrick; Perry",
+        "geocode": {
+            "UGC": [
+                "ILZ086",
+                "ILZ075",
+                "INZ088",
+                "INZ081",
+                "KYZ018",
+                "ILZ085",
+                "INZ082",
+                "ILZ084",
+                "KYZ014",
+                "ILZ083",
+                "ILZ078",
+                "ILZ082",
+                "ILZ077",
+                "INZ085",
+                "ILZ081",
+                "ILZ087",
+                "INZ086",
+                "ILZ076",
+                "INZ087",
+                "ILZ080"
+            ],
+            "SAME": [
+                "017165",
+                "017081",
+                "018147",
+                "018051",
+                "021101",
+                "017199",
+                "018125",
+                "017077",
+                "021225",
+                "017193",
+                "017185",
+                "017065",
+                "017047",
+                "018129",
+                "017055",
+                "017059",
+                "018163",
+                "017191",
+                "018173",
+                "017145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ILZ086",
+            "https://api.weather.gov/zones/forecast/ILZ075",
+            "https://api.weather.gov/zones/forecast/INZ088",
+            "https://api.weather.gov/zones/forecast/INZ081",
+            "https://api.weather.gov/zones/forecast/KYZ018",
+            "https://api.weather.gov/zones/forecast/ILZ085",
+            "https://api.weather.gov/zones/forecast/INZ082",
+            "https://api.weather.gov/zones/forecast/ILZ084",
+            "https://api.weather.gov/zones/forecast/KYZ014",
+            "https://api.weather.gov/zones/forecast/ILZ083",
+            "https://api.weather.gov/zones/forecast/ILZ078",
+            "https://api.weather.gov/zones/forecast/ILZ082",
+            "https://api.weather.gov/zones/forecast/ILZ077",
+            "https://api.weather.gov/zones/forecast/INZ085",
+            "https://api.weather.gov/zones/forecast/ILZ081",
+            "https://api.weather.gov/zones/forecast/ILZ087",
+            "https://api.weather.gov/zones/forecast/INZ086",
+            "https://api.weather.gov/zones/forecast/ILZ076",
+            "https://api.weather.gov/zones/forecast/INZ087",
+            "https://api.weather.gov/zones/forecast/ILZ080"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4772885-3852184",
+                "identifier": "NWS-IDP-PROD-4772885-3852184",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2021-02-08T03:54:00-06:00"
+            }
+        ],
+        "sent": "2021-02-08T11:05:00-06:00",
+        "effective": "2021-02-08T11:05:00-06:00",
+        "onset": "2021-02-08T15:00:00-06:00",
+        "expires": "2021-02-08T19:15:00-06:00",
+        "ends": "2021-02-09T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Winter Weather Advisory issued February 8 at 11:05AM CST until February 9 at 6:00AM CST by NWS Paducah KY",
+        "description": "...Snow and Freezing Rain Expected This Afternoon and Tonight...\n\n.A band of snow is expected to spread eastward into portions much\nof southeast Missouri and areas along the Interstate 64 corridor\nin southern Illinois and southwest Indiana late this afternoon\nthrough this evening. Later this evening and overnight, light\nfreezing drizzle or freezing rain is expected to create a thin\nglaze on top of the snow.\n\n* WHAT...Snow will change to light freezing rain late this\nevening. Snow accumulations will average an inch, with some\nlocally higher amounts. A light glaze of ice accumulation is\nexpected on top of the snow.\n\n* WHERE...This is for southwest Indiana, portions of southern\nIllinois along and north of Highway 13, as well as Union and\nHenderson counties in western Kentucky.\n\n* WHEN...In effect from 3 PM this afternoon to 6 AM CST Tuesday.\n\n* IMPACTS...Plan on slick roads and sidewalks. The hazardous\nconditions could impact the evening commute.",
+        "instruction": "Slow down and use caution while traveling.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM 3 PM THIS AFTERNOON TO 6 AM CST TUESDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.WW.Y.0003.210208T2100Z-210209T1200Z/"
+            ],
+            "PIL": [
+                "PAHWSWPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2021-02-09T12:00:00+00:00"
+            ]
+        },
+        "replacedBy": "https://api.weather.gov/alerts/NWS-IDP-PROD-4773997-3852640",
+        "replacedAt": "2021-02-08T14:47:00-06:00"
+    }
+}

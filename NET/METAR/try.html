@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Weather at Carbondale</title>
+<style type="text/css">
+
+ td.big {
+ font-family: helvetica; font-size: 143%;
+}
+
+ td {
+ font-family: helvetica;
+}
+
+</style>
+</head>
+<body bgcolor="FFFFFF">
+<h1><em><font color="red">Weather at Carbondale</font></em></h1>
+<?
+
+%longday=("Mon"=&gt;"Monday","Tue"=&gt;"Tuesday","Wed"=&gt;"Wednesday",
+	  "Thu"=&gt;"Thursday","Fri"=&gt;"Friday","Sat"=&gt;"Saturday","Sun"=&gt;"Sunday");
+@date = split(/\s+/,scalar localtime);
+print "Today is $longday{$date[0]}, $date[1] $date[2].<p></p> The time is now $date[3].<p></p>";
+
+
+!>
+<table align="center"><tr><tbody>
+<td><table bgcolor="ffffee"><tr>
+<tr><td align="left" class="big">currentweather: 
+&#160;Overcast</td></tr>
+<tr><td align="left" class="big">Date: 
+&#160;Jan 13</td></tr>
+<tr><td align="left" class="big">Time: 
+&#160;03:21:52</td></tr>
+<tr><td align="left" class="big">Wind: 
+&#160;From the South at 16 MPH</td></tr>
+<tr><td align="left" class="big">Visibility: 
+&#160;9.00 mi.</td></tr>
+<tr><td align="left" class="big">Temperature: 
+&#160;61 F.</td></tr>
+<tr><td align="left" class="big">Dewpoint: 
+&#160;58 F.</td></tr>
+<tr><td align="left" class="big">Relative Humidity: 
+&#160;90%</td></tr>
+<tr><td align="left" class="big">Pressure: 
+&#160;29.93 inches</td></tr>
+<tr><td align="left" class="big">Heat Index: 
+&#160;Not Applicable</td></tr>
+<tr><td align="left" class="big">Wind Chill: 
+&#160;59</td></tr>
+<tr><td align="left" class="big">Sunrise: 
+&#160;0712 CST</td></tr>
+<tr><td align="left" class="big">Sunset: 
+&#160;1700 CST</td></tr>
+</tr></table></td>
+<td><br></td>
+
+  <td>
+<table bgcolor="ddffff">
+<tr>
+<th>Time</th>
+<th>Temperature</th>
+<th><br></th>
+<th>Pressure</th>
+</tr>
+<tr>
+<td>   <br>   </td>
+<td>   <br>   </td>
+<td> <br>  </td>
+<td> <br>  </td>
+</tr> 
+<tr>
+<td align="center"> Thu Jan 13 03:21:52 2005  </td>
+<td align="center">  61 F. F.  </td>
+<td> <br>  </td>
+<td align="center">  29.93 inches inches.  </td>
+</tr>
+<tr>
+<td align="center"> Average </td>
+<td align="center"> 61 </td>
+<td> <br>  </td>
+<td align="center"> 29.9  </td>
+</tr>
+<tr>
+<td align="center"> Std Deviation </td>
+<td align="center"> 0.00 </td>
+<td> <br>  </td>
+<td align="center"> 0.00  </td>
+</tr>
+</table>
+<p></p>
+</td>
+
+</tbody></tr></table>
+<hr>
+<p></p>
+<a href="temp.png"> Graph of Temperature over the last 24 hours </a><br><a href="pres.png"> Graph of Pressure over the last 24 hours </a><p></p>
+<hr>
+<p></p>
+<table align="center"><tr>
+<th> - </th>
+<th align="left">
+<p></p>
+<a href="forecast.html"> CURRENT FORECAST </a><p></p>
+</th>
+<th> ---------- </th>
+<th align="center">
+<a href="http://www.crh.noaa.gov/radar/latest/DS.p19r0/si.kpah.shtml"> CURRENT RADAR</a><p></p>
+</th>
+<th> ---------- </th>
+<th align="right">
+<a href="http://www.rap.ucar.edu/weather/satellite/latest_EVV.jpg"> CURRENT SATELLITE</a><p></p>
+</th>
+<th> - </th>
+</tr></table>
+<p></p>
+<hr>
+Data from 
+<a href="http://weather.noaa.gov/weather/current/KMDH.html">
+  The National Weather Service.
+</a>
+</body>
+</html>

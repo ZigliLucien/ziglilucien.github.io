@@ -1,0 +1,1 @@
+`/usr/bin/graph -T png --bitmap-size 480x480 -Y "Temperature" -X "Time" -L "Temperature over the last 24 hours" -y  $mintemp $maxtemp $tempstep < tempgraph > temp.png`;

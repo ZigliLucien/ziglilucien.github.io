@@ -1,0 +1,161 @@
+#!/usr/bin/perl
+
+$site = $ARGV[0];
+
+&readlabels;
+
+$tt = time;
+
+$name = "weather_".$tt ;
+
+############### Process Weather Data ################
+
+$ttt = scalar localtime;
+
+@ttu = localtime;
+
+@date = split(/\s+/,$ttt);
+
+$el[0] = "$date[1] $date[2]";
+$el[1] = "$date[3]";
+
+&DoSun;
+
+$srise += 00; $sset += 00; $srise = "0".$srise;
+
+$el[2] = "$srise CST";
+$el[3] = "$sset CST";
+
+system("xsltproc -o wth.xml --stringparam date \'$el[0]\' --stringparam time $el[1] --stringparam sunrise \'$el[2]\' --stringparam sunset \'$el[3]\' weath.xsl k.xml");
+
+system("cp wth.xml $name.xml");
+
+$dat = '<?xml version="1.0"?>',"\n";
+$dat .= "<Weather>\n<Data>\n";
+
+open WW,"wth.xml";
+
+while(<WW>) { $dat .= $_; }
+close WW;
+
+$dat.=<<'QQQ';
+</Data>
+
+  <td>
+<table bgcolor="ddffff">
+<tr><th>Time</th><th>Temperature</th><th><br/></th><th>Pressure</th></tr>
+<tr><td>   <br/>   </td><td>   <br/>   </td><td> <br/>  </td><td> <br/>  </td></tr> 
+QQQ
+
+###########################################
+#Save temperature and pressure information
+
+$txx = time;
+
+$weatherdata{$txx} = $ttt." + ".$temp."&#x0020\;F. + ".$press." inches."; 
+
+open(AUX,">$site.aux");
+
+$auxout = $site."26";
+
+open(AUX26,">>$auxout.aux");
+print AUX26 $weatherdata{$txx},"\n";
+close AUX26;
+
+@keyswd=sort {$b<=>$a} keys %weatherdata;
+
+$n=0;
+
+for (@keyswd) {
+print AUX $_."@".$weatherdata{$_},"\n";
+
+$n++; last if $n >23;            
+
+  }
+close AUX ;
+#######################################################
+
+@keyswd=sort {$b<=>$a} keys %weatherdata;
+
+for $key (@keyswd) {
+
+@tempre = split(/\+/,$weatherdata{$key});
+
+$dat .= "<tr><td align=\"center\"> $tempre[0] <\/td><td align=\"center\"> $tempre[1] <\/td>
+<td> <br/>  </td><td align=\"center\"> $tempre[2]  <\/td><\/tr>\n";
+
+($Temp = $tempre[1]) =~  s/(\d{2}).*/$1/;
+($Pres = $tempre[2]) =~ s/(\d{2}\.\d{2}).*/$1/;
+
+$totTemp += $Temp;
+$totPres += $Pres; 
+
+$sqsumTemp += $Temp*$Temp;
+$sqsumPres += $Pres*$Pres;
+
+$num++;
+
+} 
+
+$avgTemp = $totTemp/$num; $avgTempOut = substr($avgTemp,0,4);
+$avgPres = $totPres/$num; $avgPresOut = substr($avgPres,0,4);
+
+$avgsqsumTemp = $sqsumTemp/$num;
+$avgsqsumPres = $sqsumPres/$num;
+
+$varTemp = $avgsqsumTemp - ($avgTemp**2);
+$varPres = $avgsqsumPres - ($avgPres**2);
+
+$stdTemp = substr(sqrt($varTemp+0.00001),0,4);
+$stdPres = substr(sqrt($varPres+0.00001),0,4);
+
+
+$dat .=<<RRR;
+<tr><td align="center"> Average </td><td align="center"> $avgTempOut </td>
+<td> <br/>  </td><td align="center"> $avgPresOut  </td></tr>
+<tr><td align="center"> Std Deviation <\/td><td align="center"> $stdTemp </td>
+<td> <br/>  </td><td align="center"> $stdPres  </td></tr>
+</table>
+<p/>
+</td>
+
+</Weather>
+RRR
+
+open(TMP,">wthr.xml");
+
+print TMP $dat;
+
+close TMP;
+
+###################### Procedures ########################
+
+sub DoSun{
+open(SUNIN,"sunrisesunset.data");
+while (<SUNIN>) {
+
+next unless /^0?$date[2]\s/;
+
+@suninfo = split;
+
+$idx = 2*$ttu[4];
+
+$srise = $suninfo[$idx+1]; $sset = $suninfo[$idx+2];
+
+}
+
+close SUNIN;
+
+}
+
+sub readlabels {
+open(AUXIN,"$site.aux");
+while (<AUXIN>) {
+chomp;
+($kk,$vl)=split(/\@/);
+$weatherdata{$kk}=$vl;
+}
+close AUXIN ;
+}
+
+

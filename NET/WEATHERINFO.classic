@@ -1,0 +1,434 @@
+#!/usr/bin/perl
+
+@input = split(/\//,$ARGV[0]);
+
+($site,$ext) = split(/\./,$input[-1]);
+
+# use XML::Sablotron qw(:all);
+
+&readlabels;
+
+$tt = time;
+
+$name = "weather_".$tt ;
+
+while (<>){
+
+next unless /$site /;
+
+($x,$y,@infox) = split;
+}
+
+############### Process METAR Line################
+
+for (@infox) {
+
+$nn++;
+
+$Xtime = $_ if /\dZ/;
+$Xwind = $_ if /KT/;
+$Xvisibility = $_ if /SM/;
+$Xtempdewp = $_ if /\bM?\d{2}\/M?\d{2}\b/;
+$Xpressure = $_ if /A\d/;
+$RMKidx = $nn if /RMK/;
+
+}
+
+$ttt = scalar localtime;
+
+@ttu = localtime;
+
+@date = split(/\s+/,$ttt);
+
+for (@infox[$RMKidx..$#infox]) {
+
+chomp;
+
+$remarks .= $_." ";
+
+if (/(T\d{8})/)  { ($pretemp = $1) =~ s/T//; }
+
+}
+
+
+$document = "Weather";
+
+$data = '<?xml version="1.0"?>';
+
+$data .= "\n\n<$document>\n\n";
+
+$sitentime = $site."_".$Xtime;
+
+$data .= "\t<$sitentime>\n";
+
+$element[0] = "\t\t<Date> $date[1] $date[2] <\/Date>\n";
+$element[1] = "\t\t<Time> $date[3] <\/Time>\n";
+
+#if ($Xwind=~/AUTO/) { shift @info;}
+
+$winddir = substr($Xwind,0,3); 
+
+$windspeed = substr($Xwind,3,2)+0;
+#if (substr($windspeed,0,1) == "0") { $windspeed = substr($windspeed,1,1);}
+
+if ($winddir < 15) {
+$dir = "N";
+} elsif ($winddir < 30 ) {
+$dir = "NNE";
+} elsif ($winddir < 60 ) {
+$dir = "NE";
+} elsif ($winddir < 75 ) {
+$dir = "ENE";
+} elsif ($winddir < 105 ) {
+$dir = "E";
+} elsif ($winddir < 120 ) {
+$dir = "ESE";
+} elsif ($winddir < 150 ) {
+$dir = "SE";
+} elsif ($winddir < 165 ) {
+$dir = "SSE";
+} elsif ($winddir < 195 ) {
+$dir = "S";
+} elsif ($winddir < 210 ) {
+$dir = "SSW";
+} elsif ($winddir < 240 ) {
+$dir = "SW";
+} elsif ($winddir < 255 ) {
+$dir = "WSW";
+} elsif ($winddir < 285 ) {
+$dir = "W";
+} elsif ($winddir < 300 ) {
+$dir = "WNW";
+} elsif ($winddir < 330 ) {
+$dir = "NW";
+} elsif ($winddir < 345 ) {
+$dir = "NNW";
+} else {
+$dir = "N";
+}
+
+if ($winddir=~/VRB/) {$dir = "Variable";}
+
+$element[2] = "\t\t<Wind> $dir at $windspeed MPH <\/Wind>\n";
+
+($visi=$Xvisibility) =~ s/SM/ miles/; 
+
+$element[3]= "\t\t<Visibility> $visi <\/Visibility>\n";
+
+($temp,$dewp) = split(/\//,$Xtempdewp); 
+$temp =~s/M/-/; $dewp =~s/M/-/;
+
+
+#if ($pretemp) { 
+#$temp = substr($pretemp,1,3); $dewp = substr($pretemp,-3,3);
+#$temp /=10; $dewp /=10;
+#}
+
+$absk = 237.7; 
+
+$texp = ($dewp-$temp)*$absk/($absk+$temp)/($absk+$dewp);
+
+for ($temp,$dewp) { $_ =1.8*$_ +32;}
+
+$element[4]= "\t\t<Temperature> $temp F <\/Temperature>\n";
+$element[5]= "\t\t<Dewpoint> $dewp F <\/Dewpoint>\n";
+
+$RH = 10.0 ** (7.5*$texp+2) ; $relhumout = substr($RH,0,4)." %"; 
+
+$element[6] = "\t\t<Relative_Humidity> $relhumout <\/Relative_Humidity>\n";
+
+($press=$Xpressure) =~s/A//;
+
+$press /= 100;
+
+$element[7] = "\t\t<Pressure> $press inches<\/Pressure>\n";
+
+&HeatIndex; $htindex = substr($htx,0,4);
+
+$element[8] = "\t\t<Heat_Index> $htindex F <\/Heat_Index>\n";
+
+&WindChill; $wndchill = substr($wch,0,4);
+
+$element[9] = "\t\t<Wind_Chill> $wndchill F <\/Wind_Chill>\n";
+
+&DoSun;
+
+$srise += 00; $sset += 00; $srise = "0".$srise;
+
+$element[10] = "\t\t<Sunrise> $srise CST <\/Sunrise>\n";
+$element[11] = "\t\t<Sunset> $sset CST <\/Sunset>\n";
+
+$element[12] = "\t\t<Remarks> $remarks<\/Remarks>\n";
+
+  for (@element) {
+$data .= $_;
+}
+
+
+$data .= "\t</$sitentime>\n\n";
+
+$data .= "</$document>";
+
+open(OUTXML,">$name.xml");
+
+print OUTXML $data;
+
+$dat = substr($data,0,rindex($data,"<"));
+
+close OUTXML;
+
+$dat.=<<'QQQ';
+  <td>
+<table bgcolor="ddffff">
+<tr><th>Time</th><th>Temperature</th><th><br/></th><th>Pressure</th></tr>
+<tr><td>   <br/>   </td><td>   <br/>   </td><td> <br/>  </td><td> <br/>  </td></tr> 
+QQQ
+
+###########################################
+#Save temperature and pressure information
+
+$txx = time;
+
+$weatherdata{$txx} = $ttt." + ".$temp."&#x0020\;F. + ".$press." inches."; 
+
+open(AUX,">$site.aux");
+
+$auxout = $site."26";
+
+open(AUX26,">>$auxout.aux");
+print AUX26 $weatherdata{$txx},"\n";
+close AUX26;
+
+@keyswd=sort {$b<=>$a} keys %weatherdata;
+
+$n=0;
+
+for (@keyswd) {
+print AUX $_."@".$weatherdata{$_},"\n";
+
+$n++; last if $n >23;            
+
+  }
+close AUX ;
+#######################################################
+
+@keyswd=sort {$b<=>$a} keys %weatherdata;
+
+for $key (@keyswd) {
+
+@tempre = split(/\+/,$weatherdata{$key});
+
+$dat .= "<tr><td align=\"center\"> $tempre[0] <\/td><td align=\"center\"> $tempre[1] <\/td>
+<td> <br/>  </td><td align=\"center\"> $tempre[2]  <\/td><\/tr>\n";
+
+($Temp = $tempre[1]) =~  s/(\d{2}).*/$1/;
+($Pres = $tempre[2]) =~ s/(\d{2}\.\d{2}).*/$1/;
+
+$totTemp += $Temp;
+$totPres += $Pres; 
+
+$sqsumTemp += $Temp*$Temp;
+$sqsumPres += $Pres*$Pres;
+
+$num++;
+
+} 
+
+$avgTemp = $totTemp/$num; $avgTempOut = substr($avgTemp,0,4);
+$avgPres = $totPres/$num; $avgPresOut = substr($avgPres,0,4);
+
+$avgsqsumTemp = $sqsumTemp/$num;
+$avgsqsumPres = $sqsumPres/$num;
+
+$varTemp = $avgsqsumTemp - ($avgTemp**2);
+$varPres = $avgsqsumPres - ($avgPres**2);
+
+$stdTemp = substr(sqrt($varTemp+0.00001),0,4);
+$stdPres = substr(sqrt($varPres+0.00001),0,4);
+
+
+$dat .=<<RRR;
+<tr><td align="center"> Average </td><td align="center"> $avgTempOut </td>
+<td> <br/>  </td><td align="center"> $avgPresOut  </td></tr>
+<tr><td align="center"> Std Deviation <\/td><td align="center"> $stdTemp </td>
+<td> <br/>  </td><td align="center"> $stdPres  </td></tr>
+</table>
+<p/>
+</td>
+
+</$document>
+RRR
+
+
+########## STYLESHEET  #####################################
+
+
+$xsl=<<'QQ';
+<?xml version="1.0"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+  <xsl:output method="html"/>
+
+  <xsl:template match="/">
+    <html>
+      <head><title>Weather at Carbondale</title>
+<style type="text/css">
+
+ td.big {
+ font-family: helvetica; font-size: 143%;
+}
+
+ td {
+ font-family: helvetica;
+}
+
+</style>
+</head>
+      <body bgcolor="FFFFFF">   
+	<h1><em> <font color="red">Weather at Carbondale</font></em></h1>
+
+<xsl:text disable-output-escaping="yes">
+&lt;?
+</xsl:text>
+%longday=("Mon"=>"Monday","Tue"=>"Tuesday","Wed"=>"Wednesday",
+	  "Thu"=>"Thursday","Fri"=>"Friday","Sat"=>"Saturday","Sun"=>"Sunday");
+@date = split(/\s+/,scalar localtime);
+print "Today is $longday{$date[0]}, $date[1] $date[2].<p/> The time is now $date[3].<p/>";
+
+<xsl:text disable-output-escaping="yes">
+!&gt;
+</xsl:text>
+
+	<table align="center"><tr>
+	<xsl:apply-templates/>
+      </tr>
+    </table>
+	<hr/>
+<p/>
+<a href="temp.png"> Graph of Temperature over the last 24 hours </a>
+<br/>
+<a href="pres.png"> Graph of Pressure over the last 24 hours </a>
+<p/>
+<hr/>
+<p/>
+<table align="center">
+<tr><th> - </th><th align="left">
+<!-- a href="http://www.crh.noaa.gov/arx/fcst/zfp/IL/IL084.html"> CURRENT FORECAST </a--><p/>
+  <a href="forecast.html"> CURRENT FORECAST </a><p/>
+</th><th> ---------- </th><th align="center">
+<a href="http://www.crh.noaa.gov/radar/latest/DS.p19r0/si.kpah.shtml"> CURRENT RADAR</a><p/>
+</th><th> ---------- </th><th align="right">
+<a href="http://www.rap.ucar.edu/weather/satellite/latest_EVV.jpg"> CURRENT SATELLITE</a><p/>
+</th><th> - </th></tr>
+</table>
+<p/>
+<hr/>
+Data from 
+<a href="http://weather.noaa.gov/weather/current/KMDH.html">
+  The National Weather Service.
+</a>
+</body>
+</html>
+  </xsl:template>
+QQ
+
+$xsl .="<xsl:template match=\"Weather\/*[contains(name(),\'$site\')]\">";
+
+$xsl .=<<'WWW';  
+<td><table bgcolor="ffffee">
+<tr>
+<xsl:for-each select="*[name()!='Remarks']">
+  <tr>
+<td align="left" class="big">
+      <xsl:value-of select="translate(name(),'_',' ')"/>: 
+<xsl:text disable-output-escaping="yes">&amp;#160;</xsl:text>
+<xsl:value-of select="(.)"/>
+  </td>
+</tr>
+</xsl:for-each>
+</tr>
+</table>
+</td><td><br/></td>
+</xsl:template>
+
+  <xsl:template match="table//td">
+    <xsl:copy>
+<xsl:apply-templates select="@*"/>
+	<xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="*|@*"> 
+<xsl:copy><xsl:apply-templates select="node()|@*"/></xsl:copy>
+  </xsl:template>
+
+</xsl:stylesheet>
+WWW
+
+
+open(OUTW,">weather.xsl");
+
+print OUTW $xsl;
+
+close OUTW;
+
+$xresult = "";
+
+# ProcessStrings($xsl,$dat,$xresult);
+
+#print $xresult;
+
+open(TMP,">wthr.xml");
+
+print TMP $dat;
+
+close TMP;
+
+###################### Procedures ########################
+
+sub HeatIndex{
+
+$htx = " ";
+
+#$htx = -42.379 +2.04901523*($temp) + 10.14333127*($RH) - 0.22475541*($temp)*($RH) - 6.83783*10**(-3)*($temp**(2)) - 5.481717*10**(-2)*($RH**(2)) + 1.22874*10**(-3)*($temp**(2))*($RH) + 8.5282*10**(-4)*($temp)*($RH**(2)) - 1.99*10**(-6)*($temp**(2))*($RH**(2)) ;
+
+}
+
+sub WindChill{
+
+$wch = " ";
+
+}
+
+sub DoSun{
+open(SUNIN,"sunrisesunset.data");
+while (<SUNIN>) {
+
+next unless /^0?$date[2]\s/;
+
+@suninfo = split;
+
+$idx = 2*$ttu[4];
+
+$srise = $suninfo[$idx+1]; $sset = $suninfo[$idx+2];
+
+}
+
+close SUNIN;
+
+}
+
+
+
+
+sub readlabels {
+open(AUXIN,"$site.aux");
+while (<AUXIN>) {
+chomp;
+($kk,$vl)=split(/\@/);
+$weatherdata{$kk}=$vl;
+}
+close AUXIN ;
+}
+
+

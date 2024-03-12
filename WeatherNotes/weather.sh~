@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd /home/ph/WeatherNotes
+
+/home/ph/WeatherNotes/alert.py
+/usr/local/bin/Query alert.xql alert.xml alert.md
+/home/ph/WeatherNotes/fcast.py
+/usr/local/bin/Query fcast.xql fcast.xml fcast.md
+makepage fcast.md |./mathjaxfilterr > fcast.html
+makepage alert.md |./mathjaxfilterr > alert.html
+#su ph
+#scp alert.html fcast.html rpi0:/home/ph
+

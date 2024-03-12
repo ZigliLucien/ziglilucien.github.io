@@ -1,0 +1,37 @@
+<script type="text/javascript">
+
+function startTime()
+{
+
+var d = new Date();
+var mth = new Array(12);
+mth[0]="January";
+mth[1]="February";
+mth[2]="March";
+mth[3]="April";
+mth[4]="May";
+mth[5]="June";
+mth[6]="July";
+mth[7]="August";
+mth[8]="September";
+mth[9]="October";
+mth[10]="November";
+mth[11]="December";
+var dd = mth[d.getMonth()]+" "+d.getDate().toString()+", "+d.getFullYear().toString();
+
+var h=d.getHours()
+var m=d.getMinutes()
+// add a zero in front of numbers<10
+m=checkTime(m)
+
+document.getElementById('txt').innerHTML='The time is now '+h+':'+m+' on '+dd+'.'
+t=setTimeout('startTime()',500)
+}
+
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i}
+  return i
+}
+</script>

@@ -1,0 +1,207 @@
+#!/usr/bin/perl
+
+$site = $ARGV[0];
+
+&readlabels;
+
+$tt = time;
+
+$name = "weather_".$tt ;
+
+############### Process Weather Data ################
+
+$ttt = scalar localtime;
+
+@ttu = localtime;
+
+@date = split(/\s+/,$ttt);
+
+$el[0] = "$date[1] $date[2]";
+$el[1] = "$date[3]";
+
+&DoSun;
+
+$srise += 00; $sset += 00; $srise = "0".$srise;
+
+$el[2] = "$srise CST";
+$el[3] = "$sset CST";
+
+$result = `xsltproc --stringparam date \'$el[0]\' --stringparam time $el[1] --stringparam sunrise \'$el[2]\' --stringparam sunset \'$el[3]\' weath.xsl k.xml`;
+
+open OO,">$name.xml";
+print OO $result;
+close OO;
+
+
+$dat = '<?xml version="1.0"?>',"\n";
+$dat .= "<Weather>\n<Data>\n";
+
+for ($result) { 
+$dat .= $_;
+$temp = $1 if (/<Temperature>(.*)<\/Temperature>/);
+$press = $1 if (/<Pressure>(.*)<\/Pressure>/);
+$current = $1 if (/<currentweather>(.*)<\/currentweather>/);
+}
+
+$icon = `./QueryString weath.xql weathIconsDB.xml $current`;
+
+$dat .= "\n</Data>\n</Weather>\n";
+
+open(TMP,">wthr.xml");
+
+print TMP $dat;
+
+close TMP;
+
+###########################################
+#Save temperature and pressure information
+
+$txx = time;
+
+$weatherdata{$txx} = $ttt." + ".$temp." + ".$press; 
+
+open(AUX,">$site.aux");
+
+$auxout = $site."26";
+
+open(AUX26,">>$auxout.aux");
+print AUX26 $weatherdata{$txx},"\n";
+close AUX26;
+
+@keyswd=sort {$b<=>$a} keys %weatherdata;
+
+$n=0;
+
+for (@keyswd) {
+print AUX $_."@".$weatherdata{$_},"\n";
+
+$n++; last if $n >23;            
+
+  }
+close AUX ;
+
+open(IN,"$site.aux");
+open(OUT1,">tempgraph");
+select OUT1;
+
+while (<IN>) {
+
+split(/:|\&|\s+/);
+
+@x = ($_[3],$_[8]);
+
+$maxtime = $x[0] unless $maxtime;
+if ($x[0] > $maxtime) { $x[0] -=24;}
+
+
+$Temp = $_[8]; 
+$Pres = $_[11];
+
+$mintemp = $_[8] unless $mintemp; $mintemp = $mintemp > $_[8]? $_[8]:$mintemp;
+$maxtemp = $_[8] unless $maxtemp; $maxtemp = $maxtemp < $_[8]? $_[8]:$maxtemp;
+
+$minpres = $_[11] unless $minpres; $minpres = $minpres > $_[11]? $_[11]:$minpres;
+$maxpres = $_[11] unless $maxpres; $maxpres = $maxpres < $_[11]? $_[11]:$maxpres;
+
+
+$totTemp += $Temp;
+$totPres += $Pres; 
+
+$sqsumTemp += $Temp*$Temp;
+$sqsumPres += $Pres*$Pres;
+
+$num++;
+
+
+
+
+for (@x) { 
+print;print "\t";
+
+}
+print "\n";
+}
+
+close IN;close OUT1;
+
+print "\n\n";
+
+$avgTemp = $totTemp/$num;
+$avgPres = $totPres/$num;
+
+$avgsqsumTemp = $sqsumTemp/$num;
+$avgsqsumPres = $sqsumPres/$num;
+
+$varTemp = $avgsqsumTemp - ($avgTemp**2);
+$varPres = $avgsqsumPres - ($avgPres**2);
+
+$stdTemp = substr(sqrt($varTemp+0.000001),0,4);
+$stdPres = substr(sqrt($varPres+0.000001),0,4);
+
+$avgTemp = substr($avgTemp,0,5);
+$avgPres   = substr($avgPres,0,5);
+
+open(IN2,"$site.aux");
+open(OUT2,">pressgraph");
+select OUT2;
+
+while (<IN2>) {
+split(/:|\&|\s+/);
+
+@x = ($_[3],$_[11]);
+
+$maxtime = $x[0] unless $maxtime;
+if ($x[0] > $maxtime) { $x[0] -=24;}
+
+for (@x) { 
+print;print "\t";
+
+}
+print "\n";
+}
+close IN2;close OUT2;
+
+$tempstep = $stdTemp/2;
+$presstep = $stdPres/2;
+
+$mintemp -= $tempstep; $maxtemp += $tempstep;
+$minpres -= $presstep; $maxpres += $presstep;
+
+`/usr/local/bin/graph -T png --bitmap-size 480x480 -Y "Temperature" -X "Time" -L "Temperature over the last 24 hours" -y  $mintemp $maxtemp $tempstep < tempgraph > temp.png`;
+`/usr/local/bin/graph -T png --bitmap-size 480x480 -Y "Pressure" -X "Time" -L "Pressure over the last 24 hours" -y  $minpres $maxpres $presstep < pressgraph> pres.png `;
+
+
+`xsltproc -o try.phtml --stringparam avgtemp $avgTemp --stringparam sdtemp $stdTemp  --stringparam avgpress $avgPres --stringparam sdpress $stdPres --stringparam icon $icon weather.xsl wthr.xml`;
+#######################################################
+###################### Procedures ########################
+#######################################################
+
+sub DoSun{
+open(SUNIN,"sunrisesunset.data");
+while (<SUNIN>) {
+
+next unless /^0?$date[2]\s/;
+
+@suninfo = split;
+
+$idx = 2*$ttu[4];
+
+$srise = $suninfo[$idx+1]; $sset = $suninfo[$idx+2];
+
+}
+
+close SUNIN;
+
+}
+
+sub readlabels {
+open(AUXIN,"$site.aux");
+while (<AUXIN>) {
+chomp;
+($kk,$vl)=split(/\@/);
+$weatherdata{$kk}=$vl;
+}
+close AUXIN ;
+}
+
+

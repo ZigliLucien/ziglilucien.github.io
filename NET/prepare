@@ -1,0 +1,23 @@
+#!/bin/bash
+
+cd /home/p/NET
+
+### wget -O try 'http://www.crh.noaa.gov/pah/wxdata/SDFZFPPAH'
+
+wget -O try 'https://forecast.weather.gov/product.php?site=pah&product=zfp&issuedby=PAH'
+#curl -o forecast.html 'http://forecast.weather.gov/MapClick.php?CityName=Carbondale&state=IL&site=PAH&lat=37.7246&lon=-89.2174'
+
+
+cp try forecast.xml
+
+/home/p/NET/PreClean.pl forecast.xml
+
+/usr/local/bin/Query forecast.xql forecast.xml temps.html
+
+/usr/bin/xsltproc -o /home/p/NET/forecast.html /home/p/NET/forecast.xsl /home/p/NET/forecast.xml
+
+/home/p/NET/PostClean.pl temps.html
+
+# sftp -q ph@la:/home/ph/WeatherNotes/fcast.html > /home/p/NET/fcast.html
+# sftp -q ph@la:/home/ph/WeatherNotes/alert.html > /home/p/NET/alert.html
+

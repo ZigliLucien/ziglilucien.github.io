@@ -1,0 +1,69 @@
+
+An unexpected exception has been detected in native code outside the VM.
+Unexpected Signal : 11 occurred at PC=0x40022E2B
+Function=sem_unlink+0x1DF
+Library=/lib/libpthread.so.0
+
+Current Java thread:
+	at com.icl.saxon.tinytree.TinyDocumentImpl.<init>(TinyDocumentImpl.java:51)
+	at com.icl.saxon.tinytree.TinyBuilder.createDocument(TinyBuilder.java:33)
+	at com.icl.saxon.tinytree.TinyBuilder.startDocument(TinyBuilder.java:58)
+	at com.icl.saxon.output.ProxyEmitter.startDocument(ProxyEmitter.java:61)
+	at com.icl.saxon.om.Stripper.startDocument(Stripper.java:145)
+	at com.icl.saxon.ContentEmitter.startDocument(ContentEmitter.java:63)
+	at com.icl.saxon.aelfred.SAXDriver.startDocument(SAXDriver.java:529)
+	at com.icl.saxon.aelfred.XmlParser.doParse(XmlParser.java:157)
+	at com.icl.saxon.aelfred.SAXDriver.parse(SAXDriver.java:320)
+	- locked <0x441f6790> (a com.icl.saxon.aelfred.DefaultHandler)
+	at com.icl.saxon.om.Builder.build(Builder.java:258)
+	at com.icl.saxon.Controller.transform(Controller.java:934)
+	at Traxit.simpleTrans(Traxit.java:128)
+	at Traxit.<init>(Traxit.java:39)
+	at Traxit.<init>(Traxit.java:51)
+	at Traxit.main(Traxit.java:160)
+
+Dynamic libraries:
+08048000-0804e000 r-xp 00000000 03:44 217122     /usr/local/java/bin/java
+0804e000-0804f000 rw-p 00005000 03:44 217122     /usr/local/java/bin/java
+40000000-40012000 r-xp 00000000 03:41 42355      /lib/ld-2.1.2.so
+40012000-40013000 rw-p 00011000 03:41 42355      /lib/ld-2.1.2.so
+40014000-40017000 r--s 00000000 03:44 667652     /usr/local/java/lib/ext/dnsns.jar
+4001b000-40025000 r-xp 00000000 03:41 42354      /lib/libpthread-0.8.so
+40025000-4002c000 rw-p 00009000 03:41 42354      /lib/libpthread-0.8.so
+4002c000-4002e000 r-xp 00000000 03:41 42361      /lib/libdl-2.1.2.so
+4002e000-4002f000 rw-p 00001000 03:41 42361      /lib/libdl-2.1.2.so
+4002f000-40104000 r-xp 00000000 03:44 573598     /usr/local/lib/libc-2.1.3.so
+40104000-40108000 rw-p 000d4000 03:44 573598     /usr/local/lib/libc-2.1.3.so
+4010c000-40424000 r-xp 00000000 03:44 217136     /usr/local/java/lib/i386/client/libjvm.so
+40424000-405d9000 rw-p 00317000 03:44 217136     /usr/local/java/lib/i386/client/libjvm.so
+405ea000-405fb000 r-xp 00000000 03:41 42363      /lib/libnsl-2.1.2.so
+405fb000-405fd000 rw-p 00010000 03:41 42363      /lib/libnsl-2.1.2.so
+405ff000-4061a000 r-xp 00000000 03:41 42362      /lib/libm-2.1.2.so
+4061a000-4061b000 rw-p 0001a000 03:41 42362      /lib/libm-2.1.2.so
+4061b000-40624000 r-xp 00000000 03:44 233743     /usr/local/java/lib/i386/native_threads/libhpi.so
+40624000-40625000 rw-p 00008000 03:44 233743     /usr/local/java/lib/i386/native_threads/libhpi.so
+40626000-40636000 r-xp 00000000 03:44 233749     /usr/local/java/lib/i386/libverify.so
+40636000-40638000 rw-p 0000f000 03:44 233749     /usr/local/java/lib/i386/libverify.so
+40638000-40659000 r-xp 00000000 03:44 233750     /usr/local/java/lib/i386/libjava.so
+40659000-4065b000 rw-p 00020000 03:44 233750     /usr/local/java/lib/i386/libjava.so
+4065b000-40670000 r-xp 00000000 03:44 233752     /usr/local/java/lib/i386/libzip.so
+40670000-40672000 rw-p 00014000 03:44 233752     /usr/local/java/lib/i386/libzip.so
+40672000-41d40000 r--s 00000000 03:44 233821     /usr/local/java/lib/rt.jar
+41d83000-41d9a000 r--s 00000000 03:44 233773     /usr/local/java/lib/sunrsasign.jar
+41d9a000-41e0b000 r--s 00000000 03:44 233775     /usr/local/java/lib/jsse.jar
+41e0b000-41e1e000 r--s 00000000 03:44 233774     /usr/local/java/lib/jce.jar
+41e1e000-420da000 r--s 00000000 03:44 233819     /usr/local/java/lib/charsets.jar
+44182000-4418b000 r-xp 00000000 03:41 42364      /lib/libnss_compat-2.1.2.so
+4418b000-4418d000 rw-p 00008000 03:41 42364      /lib/libnss_compat-2.1.2.so
+4c210000-4c22d000 r--s 00000000 03:44 667651     /usr/local/java/lib/ext/sunjce_provider.jar
+4c22d000-4c2cc000 r--s 00000000 03:44 667653     /usr/local/java/lib/ext/localedata.jar
+4c2cc000-4c2da000 r--s 00000000 03:44 667654     /usr/local/java/lib/ext/ldapsec.jar
+4c2da000-4c373000 r--s 00000000 03:44 667977     /usr/local/java/lib/ext/saxon.jar
+
+Local Time = Fri Sep 27 10:16:23 2002
+Elapsed Time = 50
+#
+# The exception above was detected in native code outside the VM
+#
+# Java VM: Java HotSpot(TM) Client VM (1.4.1-rc-b19 mixed mode)
+#

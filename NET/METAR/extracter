@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+
+$Tc  = 18.9;
+$Tdc = 18.3;
+
+$Es= 10.0**(7.5*$Tc/(237.7+$Tc)) ;
+
+$E=  10.0**(7.5*$Tdc/(237.7+$Tdc)) ;
+
+$absk = 237.7; 
+
+$texp = ($Tdc-$Tc)*$absk/($absk+$Tc)/($absk+$Tdc);
+
+$RH = 10.0 ** (7.5*$texp+2) ;
+
+print $RH;

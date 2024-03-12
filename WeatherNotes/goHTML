@@ -1,0 +1,2 @@
+makepage -f latex -f nostyle <$1|./mathjaxfilterr>r.html;java GTLT r.html $2.html
+rm r.html

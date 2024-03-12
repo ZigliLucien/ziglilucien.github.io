@@ -1,0 +1,49 @@
+#!/usr/bin/perl
+
+$flag = 0;
+$atflag = 0;
+$at3flag = 0;
+
+$in = shift;
+$out = shift;
+
+open INN,"$in";
+
+while(<INN>){
+
+if(/rdf:RDF/){ $flag = 1;}
+if(/http:\/\/www.w3.org\/2005\/Atom/){ $atflag = 1;}
+if($data=~/http:\/\/purl.org\/atom/){ $at3flag = 1;}
+
+$data .= $_;
+	}
+close INN;
+
+if(length($data)<5) { print " Feed not found."; die "Feed not found"; }
+
+
+if($atflag){ 
+		$atresult = `xsltproc  atom2rss.xsl $in`;
+if(length($atresult)<5) { print " Atom Not found."; die "Atom Not found"; }
+		open OUT,">/tmp/atom";
+		print OUT $atresult;
+		close OUT;
+	}
+
+if($flag or $atflag or $at3flag){
+if($flag) {$result = `xsltproc  rss1.xsl $in`;}
+if($atflag) {$result = `xsltproc  rss.xsl /tmp/atom`;} 
+if($at3flag) {$result = `xsltproc  atom03.xsl $in`;}
+	} else { 
+           $result = `xsltproc  rss.xsl $in`;
+	}
+
+
+if(length($result)<5) { print " Not found."; die "Not found"; }
+
+open OUT,">/tmp/out";
+print OUT $result;
+close OUT;
+
+system("/usr/local/bin/GTLT /tmp/out $out");
+

@@ -1,0 +1,17 @@
+#!/usr/bin/perl
+
+$name = shift;
+
+open(IN,$name);
+
+while (<IN>) {
+split(/:|\&|\s+/);
+
+if ($_[8] eq "F.") { print "HERE";}
+if ($_[11] eq "inches") { print "HERE11";}
+if ($_[11] eq "") { print "HEREX";}
+
+print;
+print "\n";
+}
+close IN;

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd /home/p/NET
+
+### wget -O try 'http://www.crh.noaa.gov/pah/wxdata/SDFZFPPAH'
+
+wget -O try 'https://forecast.weather.gov/product.php?site=pah&product=zfp&issuedby=PAH'
+#curl -o forecast.html 'http://forecast.weather.gov/MapClick.php?CityName=Carbondale&state=IL&site=PAH&lat=37.7246&lon=-89.2174'
+
+

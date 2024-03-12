@@ -1,0 +1,48 @@
+<html>
+<head>
+<style> 
+h1{text-align:center} table{
+border:1px solid
+black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
+}
+</style>
+
+<script type="text/javascript">
+    document.captureEvents(Event.KEYDOWN);      
+    document.onkeydown = goKey; 
+	function goKey(e) {
+		var y=String.fromCharCode(e.which);
+	if(y=="B"){
+		e.stopPropagation();
+		e.preventDefault();
+		history.back();
+		}
+			}
+</script>
+</head>
+<body>
+ 
+# DewPoint Data
+<p/><br/><p/>
+
+|Date, Time| Temperature|Dew Point|
+|:---:|:---:|
+| Thu Jul 27 00:08:04 2017 | 81.0 F. | 75.9 F.|
+| Thu Jul 27 01:08:05 2017 | 80.0 F. | 75.9 F.|
+| Thu Jul 27 02:08:05 2017 | 80.0 F. | 75.0 F.|
+| Thu Jul 27 03:08:05 2017 | 79.0 F. | 75.0 F.|
+| Thu Jul 27 04:08:05 2017 | 79.0 F. | 75.9 F.|
+| Thu Jul 27 05:08:05 2017 | 80.0 F. | 75.9 F.|
+| Thu Jul 27 06:08:04 2017 | 79.0 F. | 75.9 F.|
+| Thu Jul 27 07:08:05 2017 | 78.0 F. | 78.1 F.|
+| Thu Jul 27 08:08:05 2017 | 79.0 F. | 78.1 F.|
+| Thu Jul 27 09:08:05 2017 | 80.0 F. | 77.0 F.|
+| Thu Jul 27 10:08:05 2017 | 80.0 F. | 78.1 F.|
+| Thu Jul 27 11:08:04 2017 | 82.0 F. | 77.0 F.|
+| Thu Jul 27 12:08:05 2017 | 83.0 F. | 77.0 F.|
+| Thu Jul 27 13:08:05 2017 | 83.0 F. | 77.0 F.|
+| Thu Jul 27 14:08:04 2017 | 84.0 F. | 77.0 F.|
+| Thu Jul 27 15:08:05 2017 | 85.0 F. | 75.9 F.|
+| Thu Jul 27 16:08:05 2017 | 81.0 F. | 77.0 F.|
+| Thu Jul 27 17:08:05 2017 | 84.0 F. | 75.9 F.|
+| Thu Jul 27 18:08:04 2017 | 84.0 F. | 73.9 F.|

@@ -1,0 +1,95 @@
+#!/usr/bin/perl
+
+$name = shift;
+
+open(IN,$name);
+open(OUT1,">tempgraph");
+select OUT1;
+
+while (<IN>) {
+
+split(/:|\&|\s+/);
+
+@x = ($_[3],$_[8]);
+
+$maxtime = $x[0] unless $maxtime;
+if ($x[0] > $maxtime) { $x[0] -=24;}
+
+
+$Temp = $_[8]; 
+$Pres = $_[11];
+
+$mintemp = $_[8] unless $mintemp; $mintemp = $mintemp > $_[8]? $_[8]:$mintemp;
+$maxtemp = $_[8] unless $maxtemp; $maxtemp = $maxtemp < $_[8]? $_[8]:$maxtemp;
+
+$minpres = $_[11] unless $minpres; $minpres = $minpres > $_[11]? $_[11]:$minpres;
+$maxpres = $_[11] unless $maxpres; $maxpres = $maxpres < $_[11]? $_[11]:$maxpres;
+
+
+$totTemp += $Temp;
+$totPres += $Pres; 
+
+$sqsumTemp += $Temp*$Temp;
+$sqsumPres += $Pres*$Pres;
+
+$num++;
+
+
+
+
+for (@x) { 
+print;print "\t";
+
+}
+print "\n";
+}
+
+close IN;close OUT1;
+
+print "\n\n";
+
+$avgTemp = $totTemp/$num;
+$avgPres = $totPres/$num;
+
+$avgsqsumTemp = $sqsumTemp/$num;
+$avgsqsumPres = $sqsumPres/$num;
+
+$varTemp = $avgsqsumTemp - ($avgTemp**2);
+$varPres = $avgsqsumPres - ($avgPres**2);
+
+$stdTemp = substr(sqrt($varTemp+0.000001),0,4);
+$stdPres = substr(sqrt($varPres+0.000001),0,4);
+
+$avgTemp = substr($avgTemp,0,5);
+$avgPres   = substr($avgPres,0,5);
+
+open(IN2,$name);
+open(OUT2,">pressgraph");
+select OUT2;
+
+while (<IN2>) {
+split(/:|\&|\s+/);
+
+@x = ($_[3],$_[11]);
+
+$maxtime = $x[0] unless $maxtime;
+if ($x[0] > $maxtime) { $x[0] -=24;}
+
+for (@x) { 
+print;print "\t";
+
+}
+print "\n";
+}
+close IN2;close OUT2;
+
+$tempstep = $stdTemp/2;
+$presstep = $stdPres/2;
+
+$mintemp -= $tempstep; $maxtemp += $tempstep;
+$minpres -= $presstep; $maxpres += $presstep;
+
+`/usr/local/bin/graph -T png --bitmap-size 480x480 -Y "Temperature" -X "Time" -L "Temperature over the last 24 hours" -y  $mintemp $maxtemp $tempstep < tempgraph > temp.png`;
+`/usr/local/bin/graph -T png --bitmap-size 480x480 -Y "Pressure" -X "Time" -L "Pressure over the last 24 hours" -y  $minpres $maxpres $presstep < pressgraph> pres.png `;
+ 
+`xsltproc -o try.phtml --stringparam avgtemp $avgTemp --stringparam sdtemp $stdTemp  --stringparam avgpress $avgPres --stringparam sdpress $stdPres weather.xsl wthr.xml`;

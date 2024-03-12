@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+
+while(<>){
+$dp = $1 if (/<Dewpoint>(.*)<\/Dewpoint>/);
+$temp = $1 if (/<Temperature>(.*)<\/Temperature>/);
+}
+open OUT,">>DewPoint.md";
+select OUT;
+$tt=scalar localtime;
+print "| $tt | $temp | $dp|\n";
+close OUT;
+
+open OUT1,">>tmp";
+select OUT1;
+
+open IN,"DewPoint.md";
+while(<IN>){
+next if(/div/);
+if(/Current/){
+print;
+print "<div id='c'><strong>Temp</strong> $temp <strong>Dew Point</strong> $dp</div>\n";
+next;
+}
+print;
+}
+close IN;
+close OUT1;
+system("mv tmp DewPoint.md");

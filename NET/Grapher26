@@ -1,0 +1,113 @@
+#!/usr/bin/perl
+
+$name = shift;
+
+open(README,$name);
+
+open(OUT1,">tempgraph");
+select OUT1;
+
+$flag = "";
+
+while (<README>) {
+
+split(/:|\&|\s+/);
+
+push @weatherdata,$_ ;
+$flag++;
+last if $flag > 26; 
+
+$_[3] /=25;
+
+$zz = substr($_[3],2);
+
+@x = ("",$_[8]);
+
+$x[0] = $_[2].".".$zz;
+
+$Temp = $_[8]; 
+$Pres = $_[11];
+
+$mintemp = $_[8] unless $mintemp; $mintemp = $mintemp > $_[8]? $_[8]:$mintemp;
+$maxtemp = $_[8] unless $maxtemp; $maxtemp = $maxtemp < $_[8]? $_[8]:$maxtemp;
+
+$minpres = $_[11] unless $minpres; $minpres = $minpres > $_[11]? $_[11]:$minpres;
+$maxpres = $_[11] unless $maxpres; $maxpres = $maxpres < $_[11]? $_[11]:$maxpres;
+
+
+$totTemp += $Temp;
+$totPres += $Pres; 
+
+$sqsumTemp += $Temp*$Temp;
+$sqsumPres += $Pres*$Pres;
+
+$num++;
+
+
+
+
+for (@x) { 
+print;print "\t";
+
+}
+print "\n";
+}
+
+close IN;close OUT1;
+
+print "\n\n";
+
+$avgTemp = $totTemp/$num;
+$avgPres = $totPres/$num;
+
+$avgsqsumTemp = $sqsumTemp/$num;
+$avgsqsumPres = $sqsumPres/$num;
+
+$varTemp = $avgsqsumTemp - ($avgTemp**2);
+$varPres = $avgsqsumPres - ($avgPres**2);
+
+$stdTemp = substr(sqrt($varTemp+0.000001),0,4);
+$stdPres = substr(sqrt($varPres+0.000001),0,4);
+
+
+open(OUT26,">$name"); 
+
+for(@weatherdata) {
+print OUT26; 
+}
+
+close OUT26;
+
+
+open(OUT2,">pressgraph");
+select OUT2;
+
+for (@weatherdata) {
+
+split(/:|\&|\s+/);
+
+$_[3] /=25;
+
+$zz = substr($_[3],2);
+
+@x = ("",$_[11]);
+
+$x[0] = $_[2].".".$zz;
+
+for (@x) { 
+print;print "\t";
+
+}
+print "\n";
+}
+close IN2;close OUT2;
+
+$tempstep = $stdTemp/2;
+$presstep = $stdPres/2;
+
+$mintemp -= $tempstep; $maxtemp += $tempstep;
+$minpres -= $presstep; $maxpres += $presstep;
+
+`/usr/local/bin/graph -T png -Y "Temperature" -X "Time" -L "Temperature over the last 12 hours" -y  $mintemp $maxtemp $tempstep < tempgraph > temp.png`;
+`/usr/local/bin/graph -T png -Y "Pressure" -X "Time" -L "Pressure over the last 12 hours" -y  $minpres $maxpres $presstep < pressgraph> pres.png `;
+ 

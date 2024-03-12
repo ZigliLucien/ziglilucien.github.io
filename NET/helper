@@ -1,0 +1,86 @@
+#!/usr/bin/perl
+
+$name = shift;
+
+open(IN,$name);
+open(OUT1,">tempgraph");
+select OUT1;
+
+while (<IN>) {
+split(/:|\+|\&|\s/);
+
+@x = ($_[4],$_[10]);
+$Temp = $_[10]; 
+$Pres = $_[14];
+
+$mintemp = $_[10] unless $mintemp; $mintemp = $mintemp > $_[10]? $_[10]:$mintemp;
+$maxtemp = $_[10] unless $maxtemp; $maxtemp = $maxtemp < $_[10]? $_[10]:$maxtemp;
+
+$minpres = $_[14] unless $minpres; $minpres = $minpres > $_[14]? $_[14]:$minpres;
+$maxpres = $_[14] unless $maxpres; $maxpres = $maxpres < $_[14]? $_[14]:$maxpres;
+
+
+$totTemp += $Temp;
+$totPres += $Pres; 
+
+$sqsumTemp += $Temp*$Temp;
+$sqsumPres += $Pres*$Pres;
+
+$num++;
+
+
+
+
+for (@x) { 
+print;print "\t";
+
+}
+print "\n";
+}
+
+close IN;close OUT1;
+
+print "\n\n";
+
+
+
+$avgTemp = $totTemp/$num;
+$avgPres = $totPres/$num;
+
+$avgsqsumTemp = $sqsumTemp/$num;
+$avgsqsumPres = $sqsumPres/$num;
+
+$varTemp = $avgsqsumTemp - ($avgTemp**2);
+$varPres = $avgsqsumPres - ($avgPres**2);
+
+$stdTemp = substr(sqrt($varTemp+0.00001),0,4);
+$stdPres = substr(sqrt($varPres+0.00001),0,4);
+
+
+
+open(IN2,$name);
+open(OUT2,">pressgraph");
+select OUT2;
+
+while (<IN2>) {
+split(/:|\+|\&|\s/);
+
+@x = ($_[4],$_[14]);
+
+for (@x) { 
+print;print "\t";
+
+}
+print "\n";
+}
+close IN2;close OUT2;
+
+#$lowpres = $avgPres-2.5*$stdPres;$hipres = $avgPres+2.5*$stdPres;
+#$lowtemp = $avgTemp-2.5*$stdTemp;$hitemp = $avgTemp+2.5*$stdTemp;
+
+$tempstep = $stdTemp/2;
+$presstep = $stdPres/2;
+
+`graph -T png -y  $mintemp $maxtemp $tempstep < tempgraph > temp.png`;
+`graph -T png -y  $minpres $maxpres $presstep < pressgraph> pres.png `;
+ 

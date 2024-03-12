@@ -1,0 +1,131 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="refresh" content="38">
+<head>
+<title>Weather at Carbondale</title>
+<style type="text/css">
+
+ td.x { 
+ font-family: helvetica; font-size: 130%;
+}
+
+ center.big {
+ font-family: helvetica; font-size: 250%;
+}
+
+ td.big {
+ font-family: helvetica; font-size: 143%;
+}
+
+ td {
+ font-family: helvetica;
+}
+
+ th {
+ font-weight: normal;
+}
+
+</style>
+<script type="text/javascript"> 
+    document.captureEvents(Event.KEYDOWN);      
+    document.onkeydown = goKey; 
+
+	function goKey(e) {
+        var y = String.fromCharCode(e.which);
+	if(y=="Q" || y=="F" || y=="D" || (y=="T" && !e.ctrlKey) || y=="P"){
+		e.stopPropagation();
+		e.preventDefault();
+		window.location = document.getElementById(y).href;
+	}
+
+     }
+</script>
+</head>
+<body bgcolor="f0ffff">
+<h1><em><font color="darkblue">Weather at Carbondale</font></em></h1>
+<?
+
+%longday=("Mon"=&gt;"Monday","Tue"=&gt;"Tuesday","Wed"=&gt;"Wednesday",
+	  "Thu"=&gt;"Thursday","Fri"=&gt;"Friday","Sat"=&gt;"Saturday","Sun"=&gt;"Sunday");
+@date = split(/\s+/,scalar localtime);
+print '<font style="background:white"> Today is ';
+print "$longday{$date[0]}, $date[1] $date[2] . <p></p></font>";
+print '<center class="big">The time is ';
+print " $date[3].</center>";
+
+!>
+<center class="big">Temperature: 
+58.0 
+°
+</center>
+<table><tr>
+<td align="left" class="x">
+<i>Current Weather: </i><img height="0" width="50"><b>Fair</b>
+</td>
+<td><img src="WeathIcons/skc.jpg"></td>
+</tr></table>
+<table style="margin-left: auto;margin-top: 5%;margin-right:auto">
+<tr>
+<td><table bgcolor="ffffee">
+<tr><td align="left" class="big">Date: 
+&#160;Mar 11</td></tr>
+<tr><td align="left" class="big">Time: 
+&#160;19:08:03</td></tr>
+<tr><td align="left" class="big">Wind: 
+&#160;South at 15.0 MPH (13 KT)</td></tr>
+<tr><td align="left" class="big">Visibility: 
+&#160;</td></tr>
+<tr><td align="left" class="big">Temperature: 
+&#160;58.0 F.</td></tr>
+<tr><td align="left" class="big">Dewpoint: 
+&#160;37.0 F.</td></tr>
+<tr><td align="left" class="big">Relative Humidity: 
+&#160;46%</td></tr>
+<tr><td align="left" class="big">Pressure: 
+&#160;30.11 inches</td></tr>
+<tr><td align="left" class="big">Heat Index: 
+&#160;</td></tr>
+<tr><td align="left" class="big">Wind Chill: 
+&#160;55</td></tr>
+<tr><td align="left" class="big">Sunrise: 
+&#160;0614 CST</td></tr>
+<tr><td align="left" class="big">Sunset: 
+&#160;1800 CST</td></tr>
+</table></td>
+<td align="left" class="big">
+<b>Twenty-Four Hour Summary</b><p></p>
+<dl>
+<dt align="center">Temperature: μ = 44.91, 
+σ = 13.1</dt>
+<p></p>
+<dt align="center">Pressure: μ = 30.22,
+σ = 0.04</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td align="left"><img src="temp.png"></td>
+<td align="left"><img src="pres.png"></td>
+</tr>
+</table>
+<p></p>
+<hr>
+<p></p>
+<center>
+ ------ 
+<a href="forecast.html" id="F"><b>CURRENT <u>F</u>ORECAST</b></a>
+ ------ 
+<a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJ3ZWF0aGVyIiwiY2VudGVyIjpbLTg5LjIyMSwzNy43MjRdLCJ6b29tIjo3LCJsb2NhdGlvbiI6Wy04OS4yMjEsMzcuNzI0XX0sImJhc2UiOiJzdGFuZGFyZCIsImNvdW50eSI6ZmFsc2UsImN3YSI6ZmFsc2UsInN0YXRlIjpmYWxzZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOmZhbHNlfQ%3D%3D#/" id="D"><b> CURRENT RA<u>D</u>AR</b></a>
+ ------ 
+<a href="temps.html" id="T"><b><u>T</u>EMPS AT A GLANCE </b></a>
+ ------ 
+<a href="tango/DewPoint.md" id="P"><b> Dew <u>P</u>oint Data </b></a>
+ ------ 
+<p></p>
+<a href="quickweather.html" id="Q"><b><u>Q</u>uick Forecast and Alerts</b></a>
+</center>
+<p></p>
+<hr>
+<p></p>
+</body>
+</html>

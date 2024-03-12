@@ -1,0 +1,265 @@
+<?xml version="1.0" ?>
+<all>
+	<key name="@context" type="list">
+		<item type="str">https://geojson.org/geojson-ld/geojson-context.jsonld</item>
+		<item type="dict">
+			<key name="@version" type="str">1.1</key>
+			<wx type="str">https://api.weather.gov/ontology#</wx>
+			<geo type="str">http://www.opengis.net/ont/geosparql#</geo>
+			<unit type="str">http://codes.wmo.int/common/unit/</unit>
+			<key name="@vocab" type="str">https://api.weather.gov/ontology#</key>
+		</item>
+	</key>
+	<type type="str">Feature</type>
+	<geometry type="dict">
+		<type type="str">Polygon</type>
+		<coordinates type="list">
+			<item type="list">
+				<item type="list">
+					<item type="float">-89.2435488</item>
+					<item type="float">37.7334931</item>
+				</item>
+				<item type="list">
+					<item type="float">-89.2447429</item>
+					<item type="float">37.71125919999999</item>
+				</item>
+				<item type="list">
+					<item type="float">-89.2166356</item>
+					<item type="float">37.71031239999999</item>
+				</item>
+				<item type="list">
+					<item type="float">-89.2154357</item>
+					<item type="float">37.732546199999994</item>
+				</item>
+				<item type="list">
+					<item type="float">-89.2435488</item>
+					<item type="float">37.7334931</item>
+				</item>
+			</item>
+		</coordinates>
+	</geometry>
+	<properties type="dict">
+		<updated type="str">2021-02-10T17:16:34+00:00</updated>
+		<units type="str">us</units>
+		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
+		<generatedAt type="str">2021-02-10T17:44:19+00:00</generatedAt>
+		<updateTime type="str">2021-02-10T17:16:34+00:00</updateTime>
+		<validTimes type="str">2021-02-10T11:00:00+00:00/P8DT2H</validTimes>
+		<elevation type="dict">
+			<value type="float">132.8928</value>
+			<unitCode type="str">unit:m</unitCode>
+		</elevation>
+		<periods type="list">
+			<item type="dict">
+				<number type="int">1</number>
+				<name type="str">Today</name>
+				<startTime type="str">2021-02-10T11:00:00-06:00</startTime>
+				<endTime type="str">2021-02-10T18:00:00-06:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">28</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">9 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/fzra,30/snow_fzra,80?size=medium</icon>
+				<shortForecast type="str">Freezing Rain</shortForecast>
+				<detailedForecast type="str">A chance of freezing rain before noon, then freezing rain and a chance of snow and a chance of sleet. Cloudy, with a high near 28. North wind around 9 mph. Chance of precipitation is 80%. Little or no snow accumulation expected. Little or no ice accumulation expected.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">2</number>
+				<name type="str">Tonight</name>
+				<startTime type="str">2021-02-10T18:00:00-06:00</startTime>
+				<endTime type="str">2021-02-11T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">20</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">10 mph</windSpeed>
+				<windDirection type="str">NNE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow_fzra,50/snow_fzra,30?size=medium</icon>
+				<shortForecast type="str">Chance Sleet then Chance Freezing Rain</shortForecast>
+				<detailedForecast type="str">A chance of sleet and a chance of freezing rain and a slight chance of snow before midnight, then a chance of freezing rain and a slight chance of snow and a slight chance of sleet between midnight and 5am, then a chance of snow and a chance of freezing rain. Cloudy, with a low around 20. North northeast wind around 10 mph. Chance of precipitation is 50%. Little or no ice accumulation expected.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">3</number>
+				<name type="str">Thursday</name>
+				<startTime type="str">2021-02-11T06:00:00-06:00</startTime>
+				<endTime type="str">2021-02-11T18:00:00-06:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">28</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">12 mph</windSpeed>
+				<windDirection type="str">NNE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/snow_fzra,30/snow_fzra,20?size=medium</icon>
+				<shortForecast type="str">Chance Light Snow then Chance Freezing Rain</shortForecast>
+				<detailedForecast type="str">A chance of snow and a chance of freezing rain before 10am, then a chance of freezing rain and a slight chance of snow between 10am and 3pm, then a slight chance of snow and a slight chance of freezing rain. Cloudy, with a high near 28. North northeast wind around 12 mph, with gusts as high as 20 mph. Chance of precipitation is 30%.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">4</number>
+				<name type="str">Thursday Night</name>
+				<startTime type="str">2021-02-11T18:00:00-06:00</startTime>
+				<endTime type="str">2021-02-12T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">14</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">10 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 14. North wind around 10 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">5</number>
+				<name type="str">Friday</name>
+				<startTime type="str">2021-02-12T06:00:00-06:00</startTime>
+				<endTime type="str">2021-02-12T18:00:00-06:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">27</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">10 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
+				<shortForecast type="str">Partly Sunny</shortForecast>
+				<detailedForecast type="str">Partly sunny, with a high near 27. North wind around 10 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">6</number>
+				<name type="str">Friday Night</name>
+				<startTime type="str">2021-02-12T18:00:00-06:00</startTime>
+				<endTime type="str">2021-02-13T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">13</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">9 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 13. North wind around 9 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">7</number>
+				<name type="str">Saturday</name>
+				<startTime type="str">2021-02-13T06:00:00-06:00</startTime>
+				<endTime type="str">2021-02-13T18:00:00-06:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">21</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">8 to 13 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a high near 21. North wind 8 to 13 mph, with gusts as high as 20 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">8</number>
+				<name type="str">Saturday Night</name>
+				<startTime type="str">2021-02-13T18:00:00-06:00</startTime>
+				<endTime type="str">2021-02-14T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">2</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">13 mph</windSpeed>
+				<windDirection type="str">NNW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/cold?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 2. North northwest wind around 13 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">9</number>
+				<name type="str">Sunday</name>
+				<startTime type="str">2021-02-14T06:00:00-06:00</startTime>
+				<endTime type="str">2021-02-14T18:00:00-06:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">14</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">13 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
+				<shortForecast type="str">Mostly Sunny</shortForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 14. North wind around 13 mph, with gusts as high as 20 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">10</number>
+				<name type="str">Sunday Night</name>
+				<startTime type="str">2021-02-14T18:00:00-06:00</startTime>
+				<endTime type="str">2021-02-15T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">1</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">8 to 12 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/cold?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 1. North wind 8 to 12 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">11</number>
+				<name type="str">Washington's Birthday</name>
+				<startTime type="str">2021-02-15T06:00:00-06:00</startTime>
+				<endTime type="str">2021-02-15T18:00:00-06:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">13</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">9 mph</windSpeed>
+				<windDirection type="str">NNE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/snow?size=medium</icon>
+				<shortForecast type="str">Chance Snow Showers</shortForecast>
+				<detailedForecast type="str">A chance of snow showers. Mostly cloudy, with a high near 13. North northeast wind around 9 mph. New snow accumulation of around one inch possible.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">12</number>
+				<name type="str">Monday Night</name>
+				<startTime type="str">2021-02-15T18:00:00-06:00</startTime>
+				<endTime type="str">2021-02-16T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">7</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">8 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow?size=medium</icon>
+				<shortForecast type="str">Chance Snow Showers</shortForecast>
+				<detailedForecast type="str">A chance of snow showers. Mostly cloudy, with a low around 7. North wind around 8 mph. New snow accumulation of 1 to 2 inches possible.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">13</number>
+				<name type="str">Tuesday</name>
+				<startTime type="str">2021-02-16T06:00:00-06:00</startTime>
+				<endTime type="str">2021-02-16T18:00:00-06:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">24</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">6 mph</windSpeed>
+				<windDirection type="str">NNW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
+				<shortForecast type="str">Partly Sunny</shortForecast>
+				<detailedForecast type="str">Partly sunny, with a high near 24. North northwest wind around 6 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Tuesday Night</name>
+				<startTime type="str">2021-02-16T18:00:00-06:00</startTime>
+				<endTime type="str">2021-02-17T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">11</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<windSpeed type="str">6 mph</windSpeed>
+				<windDirection type="str">NNE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 11. North northeast wind around 6 mph.</detailedForecast>
+			</item>
+		</periods>
+	</properties>
+</all>

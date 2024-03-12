@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sftp -q ph:p@bob:/home/ph/WeatherNotes/fcast.html > /home/p/NET/fcast.html
+sftp -q ph:p@bob:/home/ph/WeatherNotes/alert.html > /home/p/NET/alert.html

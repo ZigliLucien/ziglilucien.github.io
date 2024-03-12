@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Weather at Carbondale</title>
+<style type="text/css">
+
+ td.x { 
+ font-family: helvetica; font-size: 130%;
+}
+
+ td.big {
+ font-family: helvetica; font-size: 143%;
+}
+
+ td {
+ font-family: helvetica;
+}
+
+ th {
+ font-weight: normal;
+}
+
+</style>
+</head>
+<body bgcolor="f0ffff">
+<h1><em><font color="darkblue">Weather at Carbondale</font></em></h1>
+<?
+
+%longday=("Mon"=&gt;"Monday","Tue"=&gt;"Tuesday","Wed"=&gt;"Wednesday",
+	  "Thu"=&gt;"Thursday","Fri"=&gt;"Friday","Sat"=&gt;"Saturday","Sun"=&gt;"Sunday");
+@date = split(/\s+/,scalar localtime);
+print '<font style="background:white"> Today is ';
+print "$longday{$date[0]}, $date[1] $date[2] <br>The time is now $date[3] <p></p></font>";
+
+
+!>
+<table>
+<tr>
+<td align="left" class="x">
+<i>Current Weather: </i><img height="0" width="50"><b>Overcast</b>
+</td>
+<td><img src="WeathIcons/ovc.jpg"></td>
+</tr>
+<tr>
+<td><table bgcolor="ffffee">
+<tr><td align="left" class="big">Date: 
+&#160;Jan 15</td></tr>
+<tr><td align="left" class="big">Time: 
+&#160;16:03:37</td></tr>
+<tr><td align="left" class="big">Wind: 
+&#160;From the South at 16 MPH</td></tr>
+<tr><td align="left" class="big">Visibility: 
+&#160;9.00 mi.</td></tr>
+<tr><td align="left" class="big">Temperature: 
+&#160;61 F.</td></tr>
+<tr><td align="left" class="big">Dewpoint: 
+&#160;58 F.</td></tr>
+<tr><td align="left" class="big">Relative Humidity: 
+&#160;90%</td></tr>
+<tr><td align="left" class="big">Pressure: 
+&#160;29.93 inches</td></tr>
+<tr><td align="left" class="big">Heat Index: 
+&#160;Not Applicable</td></tr>
+<tr><td align="left" class="big">Wind Chill: 
+&#160;59</td></tr>
+<tr><td align="left" class="big">Sunrise: 
+&#160;0711 CST</td></tr>
+<tr><td align="left" class="big">Sunset: 
+&#160;1702 CST</td></tr>
+</table></td>
+<td align="left" class="big">
+<b>Twenty-Four Hour Summary</b><p></p>
+<dl>
+<dt align="center">Temperature: μ = 62.62, 
+σ = 1.95</dt>
+<p></p>
+<dt align="center">Pressure: μ = 29.80,
+σ = 0.15</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td align="left"><img src="temp.png"></td>
+<td align="left"><img src="pres.png"></td>
+</tr>
+</table>
+<p></p>
+<hr>
+<p></p>
+<center>
+ ------ 
+<a href="forecast.html"><b>CURRENT FORECAST</b></a>
+ ---------- 
+<a href="http://www.crh.noaa.gov/radar/latest/DS.p19r0/si.kpah.shtml"><b> CURRENT RADAR</b></a>
+ ------ 
+</center>
+<p></p>
+<hr>
+<p></p>
+Data from 
+<a href="http://weather.noaa.gov/weather/current/KMDH.html"><font color="darkblue">The National Weather Service.</font></a>
+</body>
+</html>

@@ -1,0 +1,17 @@
+#!/usr/bin/perl
+
+$ttime = time;
+
+@x = `ls -t KMWA*.html KMDH*.html *.xml`;
+
+for (@x) {
+chop;
+
+$nk++ if /KMDH|KMWA/;
+
+$nx++ if (/weather/ and /xml/);
+
+unlink $_ if (/KMDH|KMWA/ and $nk>3);
+
+unlink $_ if (/weather/ and /xml/ and $nx>12);
+}
