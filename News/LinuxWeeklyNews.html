@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/964739/" title="See Description">[$] Questions about machine-learning models for Fedora</a></li>
 <li><a href="#https://lwn.net/Articles/965278/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/963749/" title="See Description">[$] A new filesystem for pidfds</a></li>
 <li><a href="#https://lwn.net/Articles/965167/" title="See Description">Today's hardware vulnerability: register file data sampling</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/964402/" title="See Description">[$] Untangling the Open Collectives</a></li>
 <li><a href="#https://lwn.net/Articles/964381/" title="See Description">[$] Better linked-list traversal in BPF</a></li>
 <li><a href="#https://lwn.net/Articles/964832/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/964075/" title="See Description">[$] Vale: enforcing style guidelines for text</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/964739/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 Mar 2024 18:08:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/964739/" title="https://lwn.net/Articles/964739/">[$] Questions about machine-learning models for Fedora</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Kaitlyn Abdo of Fedora's <a href="https://fedoraproject.org/wiki/SIGs/AI-ML">AI/ML
+SIG</a> opened <a href="https://pagure.io/fesco/issue/3175">an issue</a> with the
+Fedora Engineering Steering Committee (FESCo) recently that carried a few tricky
+questions about packaging machine-learning (ML) models for Fedora. 
+Specifically, the SIG is looking for guidance on whether pre-trained weights for
+<a href="https://pytorch.org/">PyTorch</a> constitute code or content. And, if the models are released under a
+<a href="https://opensource.org/licenses">license approved</a> by the
+<a href="https://opensource.org/">Open Source Initiative</a> (OSI),
+does it matter what data the models were trained on? The issue was quickly
+tossed over to Fedora's <a href="https://lwn.net/ml/fedora-legal/821ab2c0-61a0-4a31-b6f5-c1ab0826100c@fedoraproject.org/">legal
+mailing list</a> and sparked an interesting discussion about how to
+handle these items, and a temporary path forward.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/965278/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 13 Mar 2024 12:54:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -330,26 +349,6 @@ installation of what can be seen as a sort of circuit breaker.
  linux-azure-fde-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop,
  linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15,
  linux-lowlatency-hwe-5.15, linux-nvidia, linux-azure, linux-azure-6.5, linux-hwe-6.5, mqtt-client, ncurses, and puma).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/964075/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 07 Mar 2024 15:46:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/964075/" title="https://lwn.net/Articles/964075/">[$] Vale: enforcing style guidelines for text</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>While programmers are used to having tools to check their code for
-stylistic problems, writers often limit automatic checks of their texts to
-spelling and, sometimes, grammar, because there are not a lot of options
-for further checking. If that is the case, <a
-href="https://vale.sh">Vale</a>, an 
-open-source, command-line tool to enforce editorial-style guidelines, would
-make a
-useful addition to their toolbox. The recent <a
-href="https://github.com/errata-ai/vale/releases/tag/v3.0.0">release of
-Vale&nbsp;3.0</a> 
-warrants a look at this versatile tool, which assists writers by
-identifying common errors and helping them maintain a consistent voice in their
-prose.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
