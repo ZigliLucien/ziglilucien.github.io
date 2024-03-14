@@ -19,16 +19,14 @@ mth[8]="September";
 mth[9]="October";
 mth[10]="November";
 mth[11]="December";
-var dd = mth[d.getMonth()]+" "+d.getDate().toString()+",
-"+d.getFullYear().toString();
+var dd = mth[d.getMonth()]+" "+d.getDate().toString()+", "+d.getFullYear().toString();
 
 var h=d.getHours()
 var m=d.getMinutes()
 // add a zero in front of numbers<10
 m=checkTime(m)
 
-document.getElementById('txt').innerHTML='The time is now '+h+':'+m+' on
-'+dd+'.'
+document.getElementById('txt').innerHTML='The time is now '+h+':'+m+' on '+dd+'.'
 t=setTimeout('startTime()',500)
 }
 
@@ -39,7 +37,9 @@ if (i<10)
   return i
 }
 </script>
-  </head><body onload="startTime()" bgcolor="#ffffee">
+  </head>
+
+<body onload="startTime()" bgcolor="#eeffee">
 <div id="txt"></div>
 <h2> News and Weather </h2>
 
