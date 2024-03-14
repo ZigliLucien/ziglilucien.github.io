@@ -39,10 +39,45 @@
 	}
 
      }
+function startTime()
+{
+
+var d = new Date();
+var mth = new Array(12);
+mth[0]="January";
+mth[1]="February";
+mth[2]="March";
+mth[3]="April";
+mth[4]="May";
+mth[5]="June";
+mth[6]="July";
+mth[7]="August";
+mth[8]="September";
+mth[9]="October";
+mth[10]="November";
+mth[11]="December";
+var dd = mth[d.getMonth()]+" "+d.getDate().toString()+", "+d.getFullYear().toString();
+
+var h=d.getHours()
+var m=d.getMinutes()
+
+m=checkTime(m)
+
+document.getElementById('txt').innerHTML='The time is now '+h+':'+m+' on '+dd+'.'
+t=setTimeout('startTime()',500)
+}
+
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i}
+  return i
+}
 </script>
 </head>
-<body bgcolor="f0ffff">
+<body onload="startTime()" bgcolor="f0ffff">
 <h1><em><font color="darkblue">Weather at Carbondale</font></em></h1>
+<div id="txt"></div>
 <center class="big">Temperature: 
 74.0 
 °
@@ -51,7 +86,7 @@
 <td align="left" class="x">
 <i>Current Weather: </i><img height="0" width="50"><b>Overcast</b>
 </td>
-<td><img src="WeathIcons/ovc.jpg"></td>
+<td><img src="WeathIcons/"></td>
 </tr></table>
 <table style="margin-left: auto;margin-top: 5%;margin-right:auto">
 <tr>
@@ -84,11 +119,11 @@
 <td align="left" class="big">
 <b>Twenty-Four Hour Summary</b><p></p>
 <dl>
-<dt align="center">Temperature: μ = 54.4, 
-σ = 15.5</dt>
+<dt align="center">Temperature: μ = , 
+σ = </dt>
 <p></p>
-<dt align="center">Pressure: μ = 29.89,
-σ = 0.11</dt>
+<dt align="center">Pressure: μ = ,
+σ = </dt>
 </dl>
 </td>
 </tr>

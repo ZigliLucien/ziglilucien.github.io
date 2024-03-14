@@ -50,11 +50,47 @@
 	}
 
      }
+function startTime()
+{
+
+var d = new Date();
+var mth = new Array(12);
+mth[0]="January";
+mth[1]="February";
+mth[2]="March";
+mth[3]="April";
+mth[4]="May";
+mth[5]="June";
+mth[6]="July";
+mth[7]="August";
+mth[8]="September";
+mth[9]="October";
+mth[10]="November";
+mth[11]="December";
+var dd = mth[d.getMonth()]+" "+d.getDate().toString()+", "+d.getFullYear().toString();
+
+var h=d.getHours()
+var m=d.getMinutes()
+
+m=checkTime(m)
+
+document.getElementById('txt').innerHTML='The time is now '+h+':'+m+' on '+dd+'.'
+t=setTimeout('startTime()',500)
+}
+
+function checkTime(i)
+{
+if (i&lt;10) 
+  {i="0" + i}
+  return i
+}
 </script>
-</head>
-      <body bgcolor="f0ffff">   
+  </head>
+
+      <body onload="startTime()" bgcolor="f0ffff">   
 	<h1><em> <font color="darkblue">Weather at Carbondale</font></em></h1>
 
+<div id="txt"></div>
 <center class="big">Temperature: 
 <xsl:value-of select="substring-before(Weather/Data/Temperature,'F')"/>
 &#176;
