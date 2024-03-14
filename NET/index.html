@@ -1,13 +1,49 @@
 <html>
 <head>
-<title>/home/p/NET</title>
-</head>
+<script type="text/javascript">
 
-<body>
-<h2> NET </h2>
+function startTime()
+{
+
+var d = new Date();
+var mth = new Array(12);
+mth[0]="January";
+mth[1]="February";
+mth[2]="March";
+mth[3]="April";
+mth[4]="May";
+mth[5]="June";
+mth[6]="July";
+mth[7]="August";
+mth[8]="September";
+mth[9]="October";
+mth[10]="November";
+mth[11]="December";
+var dd = mth[d.getMonth()]+" "+d.getDate().toString()+",
+"+d.getFullYear().toString();
+
+var h=d.getHours()
+var m=d.getMinutes()
+// add a zero in front of numbers<10
+m=checkTime(m)
+
+document.getElementById('txt').innerHTML='The time is now '+h+':'+m+' on
+'+dd+'.'
+t=setTimeout('startTime()',500)
+}
+
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i}
+  return i
+}
+</script>
+  </head><body onload="startTime()" bgcolor="#ffffee">
+<div id="txt"></div>
+<h2> News and Weather </h2>
+
 <blockquote>
-<a href="alert.html">alert.html</a>
-<p>
 <a href="androidnews.html">androidnews.html</a>
 <p>
 <a href="DewPoint.html">DewPoint.html</a>
@@ -16,13 +52,13 @@
 <p>
 <a href="francenews.html">francenews.html</a>
 <p>
-<a href="jewishnews.html">jewishnews.html</a>
+<a href="https://www.jta.org">jewishnews.html</a>
 <p>
 <a href="polishnews.html">polishnews.html</a>
 <p>
 <a href="technews.html">technews.html</a>
 <p>
-<a href="topnews.html">topnews.html</a>
+<a href="https://www.commondreams.org">topnews.html</a>
 <p>
 <a href="weather.html">weather.html</a>
 <p>
