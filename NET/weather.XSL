@@ -54,6 +54,19 @@
 </head>
       <body bgcolor="f0ffff">   
 	<h1><em> <font color="darkblue">Weather at Carbondale</font></em></h1>
+<xsl:text disable-output-escaping="yes">
+&lt;?
+</xsl:text>
+%longday=("Mon"=>"Monday","Tue"=>"Tuesday","Wed"=>"Wednesday",
+	  "Thu"=>"Thursday","Fri"=>"Friday","Sat"=>"Saturday","Sun"=>"Sunday");
+@date = split(/\s+/,scalar localtime);
+print '<font style="background:white"> Today is ';
+print "$longday{$date[0]}, $date[1] $date[2] . <p/></font>";
+print '<center class="big">The time is ';
+print " $date[3].</center>";
+<xsl:text disable-output-escaping="yes">
+!&gt;
+</xsl:text>
 
 <center class="big">Temperature: 
 <xsl:value-of select="substring-before(Weather/Data/Temperature,'F')"/>
