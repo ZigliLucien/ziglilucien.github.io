@@ -139,7 +139,7 @@ id="D">
 <a href="tango/DewPoint.md" id="P"> <b> Dew <u>P</u>oint Data </b> </a>
  ------ 
 <p/>
-<a href="quickweather.html" id="Q"><b><u>Q</u>uick Forecast and Alerts</b></a>
+<a href="WeatherNotes" id="Q"><b><u>Q</u>uick Forecast and Alerts</b></a>
 </center>
 <p/>
 <hr/>
