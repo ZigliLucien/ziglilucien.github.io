@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-03-19T03:03:44+00:00</updated>
+		<updated type="str">2024-03-19T04:48:03+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-03-19T04:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-03-19T03:03:44+00:00</updateTime>
-		<validTimes type="str">2024-03-18T21:00:00+00:00/P7DT4H</validTimes>
+		<generatedAt type="str">2024-03-19T05:36:02+00:00</generatedAt>
+		<updateTime type="str">2024-03-19T04:48:03+00:00</updateTime>
+		<validTimes type="str">2024-03-18T22:00:00+00:00/P7DT3H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -52,8 +52,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2024-03-18T23:00:00-05:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2024-03-19T00:00:00-05:00</startTime>
 				<endTime type="str">2024-03-19T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">25</temperature>
@@ -65,17 +65,17 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">-8.333333333333334</value>
+					<value type="float">-7.777777777777778</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">71</value>
 				</relativeHumidity>
-				<windSpeed type="str">5 mph</windSpeed>
+				<windSpeed type="str">1 to 5 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
 				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear, with a low around 25. West southwest wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Clear, with a low around 25. West southwest wind 1 to 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
