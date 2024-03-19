@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/964839/" title="See Description">[$] "Real" anonymous functions for Python</a></li>
 <li><a href="#https://lwn.net/Articles/965959/" title="See Description">Firefox 124.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/965958/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/965926/" title="See Description">Man Yue Mo: Gaining kernel code execution on an MTE-enabled Pixel 8</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/964623/" title="See Description">[$] LWN.net Weekly Edition for March 14, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/964739/" title="See Description">[$] Questions about machine-learning models for Fedora</a></li>
 <li><a href="#https://lwn.net/Articles/965278/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/963749/" title="See Description">[$] A new filesystem for pidfds</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/964839/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 19 Mar 2024 21:18:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/964839/" title="https://lwn.net/Articles/964839/">[$] "Real" anonymous functions for Python</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>There are a number of different language-enhancement ideas that crop up
+with some 
+regularity in 
+the Python community; many of them have been debated and shot down multiple
+times over the years.  When one inevitably arises anew, it can sometimes be
+difficult to tamp it down, even if it is unlikely that the idea will go
+any further than the last N times it cropped up.  A recent discussion about
+"real" anonymous functions follows a somewhat predictable path, but there
+are still reasons to participate in vetting these "new" ideas, despite the
+tiresome, repetitive 
+nature of the exercise—examples of 
+recurring feature ideas that were eventually adopted <a
+href="https://lwn.net/Articles/808836/">definitely exist</a>.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/965959/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 19 Mar 2024 16:57:36 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -222,23 +242,6 @@ handle these items, and a temporary path forward.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (edk2, freeipa, kernel, and liblas), <b>Oracle</b> (kernel), <b>Red Hat</b> (docker, edk2, kernel, kernel-rt, and kpatch-patch), <b>SUSE</b> (axis, fontforge, gnutls, java-1_8_0-openjdk, kernel, python3, sudo, and zabbix), and <b>Ubuntu</b> (dotnet7, dotnet8, libgoogle-gson-java, openssl, and ovn).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/963749/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 13 Mar 2024 08:20:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/963749/" title="https://lwn.net/Articles/963749/">[$] A new filesystem for pidfds</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/794707/">pidfd</a> abstraction is a Linux-specific
-way of referring to processes that avoids the race conditions inherent in
-Unix process ID numbers.  Since a pidfd is a file descriptor, it needs a
-filesystem to implement the usual operations performed on files.  As the
-use of pidfds has grown, they have stressed the limits of the simple
-filesystem that was created for them.  Christian Brauner has <a
-href="https://lwn.net/ml/linux-fsdevel/20240213-vfs-pidfd_fs-v1-0-f863f58cfce1@kernel.org/">created
-a new filesystem for pidfds</a> that seems likely to debut in the 6.9
-kernel, but it ran into a little bump along the way, demonstrating that
-things you cannot see can still hurt you.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
