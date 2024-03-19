@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/965926/" title="See Description">Man Yue Mo: Gaining kernel code execution on an MTE-enabled Pixel 8</a></li>
 <li><a href="#https://lwn.net/Articles/964793/" title="See Description">[$] Toward a real "too small to fail" rule</a></li>
 <li><a href="#https://lwn.net/Articles/965829/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/964735/" title="See Description">[$] Cranelift code generation comes to Rust</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/963749/" title="See Description">[$] A new filesystem for pidfds</a></li>
 <li><a href="#https://lwn.net/Articles/965167/" title="See Description">Today's hardware vulnerability: register file data sampling</a></li>
 <li><a href="#https://lwn.net/Articles/965147/" title="See Description">Herb Sutter on increasing safety in C++</a></li>
-<li><a href="#https://lwn.net/Articles/964392/" title="See Description">[$] Insecurity and Python pickles</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/965926/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 19 Mar 2024 13:39:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/965926/" title="https://lwn.net/Articles/965926/">Man Yue Mo: Gaining kernel code execution on an MTE-enabled Pixel 8</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Man Yue Mo <a
+href="https://github.blog/2024-03-18-gaining-kernel-code-execution-on-an-mte-enabled-pixel-8/">explains
+how to compromise a Pixel&nbsp;8 phone</a> even when the Arm <a
+href="https://lwn.net/Articles/834289/">memory-tagging extension</a> is in use, by taking
+advantage of the Mali GPU.
+<p>
+<blockquote class="bq">
+	So, by using the GPU to access physical addresses directly, I'm
+	able to completely bypass the protection that MTE
+	offers. Ultimately, there is no memory safe code in the code that
+	manages memory accesses. At some point, physical addresses will
+	have to be used directly to access memory.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/964793/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 18 Mar 2024 15:17:14 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -255,28 +274,6 @@ adopt the improvements in existing C++ projects as easily as we can adopt other
 new editions of C++. — After that, we can pursue additional improvements to
 other buckets, such as thread safety and overflow safety.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/964392/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 12 Mar 2024 15:35:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/964392/" title="https://lwn.net/Articles/964392/">[$] Insecurity and Python pickles</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Serialization is the process of transforming Python objects into a sequence of
-bytes which can be used to recreate a copy of the object later — or on another
-machine.
-<a href="https://docs.python.org/3/library/pickle.html">
-<tt>pickle</tt></a> is Python's native serialization module. It can store complex Python
-objects,
-making it an appealing prospect for moving data without having to write
-custom serialization code. For example, <tt>pickle</tt> is an integral component of
-<a href="https://github.com/trailofbits/ml-file-formats">several file
-formats</a> used for machine learning. However, using <tt>pickle</tt> to deserialize
-untrusted files is a major security risk, because doing so can invoke arbitrary
-Python functions. Consequently, the machine-learning community is working to address the
-security issues caused by widespread use of <tt>pickle</tt>.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
