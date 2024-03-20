@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/966056/" title="See Description">Python announces first security releases since becoming a CNA</a></li>
 <li><a href="#https://lwn.net/Articles/966053/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/964839/" title="See Description">[$] "Real" anonymous functions for Python</a></li>
 <li><a href="#https://lwn.net/Articles/965959/" title="See Description">Firefox 124.0 released</a></li>
@@ -52,10 +53,40 @@
 <li><a href="#https://lwn.net/Articles/965141/" title="See Description">[$] The first half of the 6.9 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/965470/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/964623/" title="See Description">[$] LWN.net Weekly Edition for March 14, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/964739/" title="See Description">[$] Questions about machine-learning models for Fedora</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/966056/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 Mar 2024 16:42:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966056/" title="https://lwn.net/Articles/966056/">Python announces first security releases since becoming a CNA</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Python project has <a
+href="https://lwn.net/Articles/966069/">announced</a> three security releases, <a
+href="https://www.python.org/downloads/release/python-31014/">3.10.14</a>,
+<a href="https://www.python.org/downloads/release/python-3919/">3.9.19</a>,
+and <a href="https://www.python.org/downloads/release/python-3819/">3.8.19</a>.
+In addition to the security fixes, these releases are notable for two reasons;
+they are the first to make use of GitHub Actions to <a
+href="https://github.com/python/release-tools/actions/runs/8350750234">perform
+public builds</a> instead of building artifacts "<q>on a local computer of one
+of the release managers</q>", and the first since Python <a
+href="https://pyfound.blogspot.com/2023/08/psf-authorized-as-cna.html">became a
+CVE Numbering Authority</a> (CNA).</p>
+
+<p>Python release team member Łukasz Langa said
+that being a CNA means Python is able to "<q>ensure the quality of the vulnerability
+reports is high, and that the severity estimates are accurate.</q>" It also
+allows Python to coordinate CVE announcements with the patched versions of
+Python, as it has with two CVEs addressed in these releases. <a
+href="https://www.cve.org/CVERecord?id=CVE-2023-6597">CVE-2023-6597</a> 
+describes a flaw in CPython's <tt>zipfile</tt> module that made it vulnerable to a <a
+href="https://en.wikipedia.org/wiki/Zip_bomb">zip-bomb</a> exploit. <a
+href="https://www.cve.org/CVERecord?id=CVE-2024-0450">CVE-2024-0450</a> is an
+issue with Python's <tt>tempfile.TemporaryDirectory</tt> class which could be
+exploited to modify permissions of files referenced by symbolic links. 
+Users of affected versions should upgrade soon.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/966053/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 20 Mar 2024 12:51:11 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -224,25 +255,6 @@ significant work merged during the first part of the 6.9 merge window.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for March 14, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/964739/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 13 Mar 2024 18:08:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/964739/" title="https://lwn.net/Articles/964739/">[$] Questions about machine-learning models for Fedora</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Kaitlyn Abdo of Fedora's <a href="https://fedoraproject.org/wiki/SIGs/AI-ML">AI/ML
-SIG</a> opened <a href="https://pagure.io/fesco/issue/3175">an issue</a> with the
-Fedora Engineering Steering Committee (FESCo) recently that carried a few tricky
-questions about packaging machine-learning (ML) models for Fedora. 
-Specifically, the SIG is looking for guidance on whether pre-trained weights for
-<a href="https://pytorch.org/">PyTorch</a> constitute code or content. And, if the models are released under a
-<a href="https://opensource.org/licenses">license approved</a> by the
-<a href="https://opensource.org/">Open Source Initiative</a> (OSI),
-does it matter what data the models were trained on? The issue was quickly
-tossed over to Fedora's <a href="https://lwn.net/ml/fedora-legal/821ab2c0-61a0-4a31-b6f5-c1ab0826100c@fedoraproject.org/">legal
-mailing list</a> and sparked an interesting discussion about how to
-handle these items, and a temporary path forward.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
