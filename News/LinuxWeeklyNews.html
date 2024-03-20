@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/966096/" title="See Description">GNOME 46 released</a></li>
 <li><a href="#https://lwn.net/Articles/965434/" title="See Description">[$] Managing Linux servers with Cockpit</a></li>
 <li><a href="#https://lwn.net/Articles/966056/" title="See Description">Python announces first security releases since becoming a CNA</a></li>
 <li><a href="#https://lwn.net/Articles/966053/" title="See Description">Security updates for Wednesday</a></li>
@@ -52,10 +53,20 @@
 <li><a href="#https://lwn.net/Articles/965603/" title="See Description">Eight stable kernel updates for the weekend</a></li>
 <li><a href="#https://lwn.net/Articles/965576/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/965141/" title="See Description">[$] The first half of the 6.9 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/965470/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/966096/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 Mar 2024 21:07:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966096/" title="https://lwn.net/Articles/966096/">GNOME 46 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://release.gnome.org/46/">Version 46</a> of the GNOME desktop
+has been released.  "<q>GNOME 46 is code-named 'Kathmandu', in recognition
+of the amazing work done by the organizers of GNOME.Asia 2023.</q>"
+Significant changes include a new global search feature, enhancements to
+the Files app, improved remote login support, and more.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/965434/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 20 Mar 2024 17:53:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -93,11 +104,11 @@ CVE Numbering Authority</a> (CNA).</p>
 that being a CNA means Python is able to "<q>ensure the quality of the vulnerability
 reports is high, and that the severity estimates are accurate.</q>" It also
 allows Python to coordinate CVE announcements with the patched versions of
-Python, as it has with two CVEs addressed in these releases. <a
-href="https://www.cve.org/CVERecord?id=CVE-2023-6597">CVE-2023-6597</a> 
+Python, as it has with two CVEs addressed in these releases. <s>CVE-2023-6597</s> <a
+href="https://www.cve.org/CVERecord?id=CVE-2024-0450">CVE-2024-0450</a>
 describes a flaw in CPython's <tt>zipfile</tt> module that made it vulnerable to a <a
-href="https://en.wikipedia.org/wiki/Zip_bomb">zip-bomb</a> exploit. <a
-href="https://www.cve.org/CVERecord?id=CVE-2024-0450">CVE-2024-0450</a> is an
+href="https://en.wikipedia.org/wiki/Zip_bomb">zip-bomb</a> exploit. <s>CVE-2024-0450</s> <a
+href="https://www.cve.org/CVERecord?id=CVE-2023-6597">CVE-2023-6597</a> is an
 issue with Python's <tt>tempfile.TemporaryDirectory</tt> class which could be
 exploited to modify permissions of files referenced by symbolic links. 
 Users of affected versions should upgrade soon.</p></blockquote></blockquote></div></td></tr>
@@ -253,14 +264,6 @@ and <a href="https://lwn.net/Articles/965611/">4.19.310</a> stable kernels. As a
 into the mainline for the 6.9 release.  This work includes the usual array
 of changes all over the kernel tree; read on for a summary of the most
 significant work merged during the first part of the 6.9 merge window.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/965470/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 14 Mar 2024 14:06:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/965470/" title="https://lwn.net/Articles/965470/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium and openvswitch), <b>Fedora</b> (chromium, python-multipart, thunderbird, and xen), <b>Mageia</b> (java-17-openjdk and screen), <b>Red Hat</b> (.NET 7.0, .NET 8.0, kernel-rt, kpatch-patch, postgresql:13, and postgresql:15), <b>Slackware</b> (expat), <b>SUSE</b> (glibc, python-Django, python-Django1, sudo, and vim), and <b>Ubuntu</b> (expat, linux-ibm, linux-ibm-5.4, linux-oracle, linux-oracle-5.4, linux-lowlatency, linux-raspi, python-cryptography, texlive-bin, and xorg-server).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
