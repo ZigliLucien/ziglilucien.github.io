@@ -27,12 +27,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of rain showers before 7pm. Mostly cloudy, with a low around 35. East northeast wind 6 to 18 mph, with gusts as high
+         <h3>Friday Night</h3>A chance of rain showers before 7pm. Mostly cloudy, with a low around 35. East northeast wind 6 to 17 mph, with gusts as high
          as 24 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny, with a high near 55. North wind 13 to 20 mph, with gusts as high as 28 mph.<br></div>
+         <h3>Saturday</h3>Sunny, with a high near 55. North wind 13 to 18 mph, with gusts as high as 28 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
