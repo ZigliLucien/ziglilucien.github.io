@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/966133/" title="See Description">Redis is no longer free software</a></li>
+<li><a href="#https://lwn.net/Articles/966129/" title="See Description">The "Nova" driver for NVIDIA chipsets</a></li>
 <li><a href="#https://lwn.net/Articles/965368/" title="See Description">[$] LWN.net Weekly Edition for March 21, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/966096/" title="See Description">GNOME 46 released</a></li>
 <li><a href="#https://lwn.net/Articles/965434/" title="See Description">[$] Managing Linux servers with Cockpit</a></li>
@@ -51,11 +53,66 @@
 <li><a href="#https://lwn.net/Articles/965829/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/964735/" title="See Description">[$] Cranelift code generation comes to Rust</a></li>
 <li><a href="#https://lwn.net/Articles/965584/" title="See Description">Mitchell: Today we launched Flox 1.0</a></li>
-<li><a href="#https://lwn.net/Articles/965603/" title="See Description">Eight stable kernel updates for the weekend</a></li>
-<li><a href="#https://lwn.net/Articles/965576/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/966133/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 21 Mar 2024 07:33:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966133/" title="https://lwn.net/Articles/966133/">Redis is no longer free software</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Redis in-memory database system has <a
+href="https://redis.com/blog/redis-adopts-dual-source-available-licensing/">had
+its license changed</a> to either the <a
+href="https://redis.com/legal/rsalv2-agreement/">Redis Source Available
+License</a> or the <a
+href="https://redis.com/legal/server-side-public-license-sspl/">Server Side
+Public License</a> (<a href="https://lwn.net/Articles/768670/">covered here</a> in 2018);
+neither license qualifies as free software.
+<p>
+<blockquote class="bq">
+	Under the new license, cloud service providers hosting Redis
+	offerings will no longer be permitted to use the source code of
+	Redis free of charge. For example, cloud service providers will be
+	able to deliver Redis 7.4 only after agreeing to licensing terms
+	with Redis, the maintainers of the Redis code.
+</blockquote>
+<p>
+Distributors like Fedora are already <a
+href="https://lwn.net/ml/fedora-devel/CAEg-Je_GoiJN6kOj1_K5WqTvA6n0j8r4fi9=C7-WbXLHovM3ow@mail.gmail.com/">looking
+at</a> removing Redis as a consequence.  (Thanks to  Emmanuel Seyman).</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/966129/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 21 Mar 2024 07:10:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966129/" title="https://lwn.net/Articles/966129/">The "Nova" driver for NVIDIA chipsets</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Danilo Krummrich has <a
+href="https://lwn.net/ml/nouveau/Zfsj0_tb-0-tNrJy@cassiopeiae/">announced</a> the
+existence of the "Nova" project within Red Hat.
+<p>
+<blockquote class="bq">
+	We just started to work on Nova, a Rust-based GSP-only driver for
+	Nvidia GPUs. Nova, in the long term, is intended to serve as the
+	successor of Nouveau for GSP-firmware-based GPUs.
+<p>
+	With Nova we see the chance to significantly decrease the
+	complexity of the driver compared to Nouveau for mainly two
+	reasons. First, Nouveau's historic architecture, especially around
+	nvif/nvkm, is rather complicated and inflexible and requires major
+	rework to solve certain problems (such as locking hierarchy in VMM
+	/ MMU code for VM_BIND currently being solved with a workaround)
+	and second, with a GSP-only driver there is no need to maintain
+	compatibility with pre-GSP code.
+<p>
+	Besides that, we also want to take the chance to contribute to the
+	Rust efforts in the kernel and benefit from from more memory safety
+	offered by the Rust programming language.
+</blockquote>
+<p>
+Given that the effort has just begun, it will be a while before this driver
+shows up in a distribution release.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/965368/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 21 Mar 2024 00:50:37 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -243,25 +300,6 @@ With Flox we're providing a substantially better user experience. We provide the
 </blockquote>
 
 <p>Flox is GPLv2-licensed, and <a href="https://github.com/flox/flox/releases">releases</a> are available as RPMs and Debian packages for x86_64 and arm64 systems.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/965603/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 Mar 2024 19:26:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/965603/" title="https://lwn.net/Articles/965603/">Eight stable kernel updates for the weekend</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Sasha Levin has announced the release of the <a href="https://lwn.net/Articles/965604/">6.8.1</a>,
-<a href="https://lwn.net/Articles/965605/">6.7.10</a>, <a href="https://lwn.net/Articles/965606/">6.6.22</a>,
-<a href="https://lwn.net/Articles/965607/">6.1.82</a>, <a href="https://lwn.net/Articles/965608/">5.15.152</a>,
-<a href="https://lwn.net/Articles/965609/">5.10.213</a>, <a href="https://lwn.net/Articles/965610/">5.4.272</a>,
-and <a href="https://lwn.net/Articles/965611/">4.19.310</a> stable kernels. As always, they contain important fixes throughout the tree. Users of those kernels should upgrade.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/965576/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 Mar 2024 13:12:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/965576/" title="https://lwn.net/Articles/965576/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (composer and node-xml2js), <b>Fedora</b> (baresip), <b>Mageia</b> (fonttools, libgit2, mplayer, open-vm-tools, and packages), <b>Red Hat</b> (dnsmasq, gimp:2.8, and kernel-rt), and <b>SUSE</b> (389-ds, gdb, kernel, python-Django, python3, python36-pip, spectre-meltdown-checker, sudo, and thunderbird).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
