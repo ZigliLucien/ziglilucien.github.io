@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/965837/" title="See Description">[$] Hardening the kernel against heap-spraying attacks</a></li>
+<li><a href="#https://lwn.net/Articles/966246/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/966205/" title="See Description">Rust 1.77.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/966181/" title="See Description">Perl 5.39.9 released</a></li>
 <li><a href="#https://lwn.net/Articles/966133/" title="See Description">Redis is no longer free software</a></li>
@@ -51,11 +53,39 @@
 <li><a href="#https://lwn.net/Articles/965959/" title="See Description">Firefox 124.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/965958/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/965926/" title="See Description">Man Yue Mo: Gaining kernel code execution on an MTE-enabled Pixel 8</a></li>
-<li><a href="#https://lwn.net/Articles/964793/" title="See Description">[$] Toward a real "too small to fail" rule</a></li>
-<li><a href="#https://lwn.net/Articles/965829/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/965837/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 21 Mar 2024 15:07:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/965837/" title="https://lwn.net/Articles/965837/">[$] Hardening the kernel against heap-spraying attacks</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>While a programming error in the kernel may be subject to direct
+exploitation, usually a more roundabout approach is required to take
+advantage of a security bug.  One popular approach for those wishing to
+take advantage of vulnerabilities  is <a
+href="https://en.wikipedia.org/wiki/Heap_spraying">heap spraying</a>, and
+it has often been employed to compromise the kernel.  In the future,
+though, heap-spraying attacks may be a bit harder to pull off, thanks to <a
+href="https://lwn.net/ml/linux-kernel/20240305100933.it.923-kees@kernel.org/">the
+"dedicated bucket allocator"</a> proposed by Kees Cook.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/966246/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 21 Mar 2024 14:57:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966246/" title="https://lwn.net/Articles/966246/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (pdns-recursor and php-dompdf-svg-lib), <b>Fedora</b> (grub2, libreswan, rubygem-yard, and thunderbird), <b>Mageia</b> (libtiff and python-scipy), <b>Red Hat</b> (golang, nodejs, and nodejs:16), <b>Slackware</b> (python3), and <b>Ubuntu</b> (linux, linux-azure, linux-azure-5.15, linux-azure-fde,
+ linux-azure-fde-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop,
+ linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-kvm,
+ linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux, linux-azure, linux-gcp, linux-gcp-6.5, linux-hwe-6.5,
+ linux-lowlatency, linux-lowlatency-hwe-6.5, linux-oem-6.5, linux-oracle,
+ linux-oracle-6.5, linux-raspi, linux-starfive, linux-starfive-6.5, linux-aws, linux-aws-5.15, linux-aws, linux-aws-5.4, linux-gcp-5.4, linux-raspi, linux-raspi-5.4,
+ linux-xilinx-zynqmp, linux-gcp, linux-gcp-4.15, linux-kvm, linux-laptop, linux-oem-6.1, and linux-raspi).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/966205/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 21 Mar 2024 13:48:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,29 +296,6 @@ advantage of the Mali GPU.
 	manages memory accesses. At some point, physical addresses will
 	have to be used directly to access memory.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/964793/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 18 Mar 2024 15:17:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/964793/" title="https://lwn.net/Articles/964793/">[$] Toward a real "too small to fail" rule</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Kernel developers have long been told that any attempt to allocate memory
-might fail, so their code must be prepared for memory to be unavailable.
-Informally, though, the kernel's memory-management subsystem implements a
-policy whereby requests below a certain size will not fail (in process
-context, at least), regardless of
-how tight memory may be.  A recent discussion on the linux-mm list has
-looked at the idea of making <a href="https://lwn.net/Articles/723317/">the "too small to
-fail" rule</a> a policy that developers can rely on.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/965829/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 18 Mar 2024 14:17:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/965829/" title="https://lwn.net/Articles/965829/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (curl, spip, and unadf), <b>Fedora</b> (chromium, iwd, opensc, openvswitch, python3.6, shim, shim-unsigned-aarch64, and shim-unsigned-x64), <b>Mageia</b> (batik, imagemagick, irssi, jackson-databind, jupyter-notebook, ncurses, and yajl), <b>Oracle</b> (.NET 7.0, .NET 8.0, and dnsmasq), <b>Red Hat</b> (postgresql:10), <b>SUSE</b> (chromium, kernel, openvswitch, python-rpyc, and tiff), and <b>Ubuntu</b> (openjdk-8).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
