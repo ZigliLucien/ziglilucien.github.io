@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/966205/" title="See Description">Rust 1.77.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/966181/" title="See Description">Perl 5.39.9 released</a></li>
 <li><a href="#https://lwn.net/Articles/966133/" title="See Description">Redis is no longer free software</a></li>
 <li><a href="#https://lwn.net/Articles/966129/" title="See Description">The "Nova" driver for NVIDIA chipsets</a></li>
 <li><a href="#https://lwn.net/Articles/965368/" title="See Description">[$] LWN.net Weekly Edition for March 21, 2024</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/965926/" title="See Description">Man Yue Mo: Gaining kernel code execution on an MTE-enabled Pixel 8</a></li>
 <li><a href="#https://lwn.net/Articles/964793/" title="See Description">[$] Toward a real "too small to fail" rule</a></li>
 <li><a href="#https://lwn.net/Articles/965829/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/964735/" title="See Description">[$] Cranelift code generation comes to Rust</a></li>
-<li><a href="#https://lwn.net/Articles/965584/" title="See Description">Mitchell: Today we launched Flox 1.0</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/966205/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 21 Mar 2024 13:48:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966205/" title="https://lwn.net/Articles/966205/">Rust 1.77.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2024/03/21/Rust-1.77.0.html">Version
+1.77.0</a> of the Rust language has been released.  Changes include support
+for NUL-terminated C-string literals, the ability for <tt>async</tt>
+functions to call themselves recursively, the stabilization of the
+<tt>offset_of!()</tt> macro, and more.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/966181/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 21 Mar 2024 11:16:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966181/" title="https://lwn.net/Articles/966181/">Perl 5.39.9 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Verson 5.39.9 of the Perl language has been released.  Changes this time
+include a new "medium-precedence" logical exclusive-or operator, a number
+of updated modules, and more; see <a
+href="https://metacpan.org/release/PEVANS/perl-5.39.9/view/pod/perldelta.pod">this
+page</a> for details.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/966133/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 21 Mar 2024 07:33:03 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,40 +289,6 @@ fail" rule</a> a policy that developers can rely on.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (curl, spip, and unadf), <b>Fedora</b> (chromium, iwd, opensc, openvswitch, python3.6, shim, shim-unsigned-aarch64, and shim-unsigned-x64), <b>Mageia</b> (batik, imagemagick, irssi, jackson-databind, jupyter-notebook, ncurses, and yajl), <b>Oracle</b> (.NET 7.0, .NET 8.0, and dnsmasq), <b>Red Hat</b> (postgresql:10), <b>SUSE</b> (chromium, kernel, openvswitch, python-rpyc, and tiff), and <b>Ubuntu</b> (openjdk-8).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/964735/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 Mar 2024 20:05:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/964735/" title="https://lwn.net/Articles/964735/">[$] Cranelift code generation comes to Rust</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://cranelift.dev/">Cranelift</a> is an Apache-2.0-licensed
-code-generation backend being developed as part
-of the <a href="https://wasmtime.dev/">Wasmtime</a> runtime for
-<a href="https://webassembly.org/">WebAssembly</a>.
-In October 2023, the Rust project made Cranelift available as an optional
-component in its nightly toolchain.
-Users can now use Cranelift as the code-generation backend for debug builds of
-projects written in Rust,
-making it an opportune time to look at what makes Cranelift different.
-Cranelift is designed to compete with existing compilers by generating
-code more quickly than they can, thanks to a stripped-down design that prioritizes
-only the most important optimizations.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/965584/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 Mar 2024 19:49:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/965584/" title="https://lwn.net/Articles/965584/">Mitchell: Today we launched Flox 1.0</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Zach Mitchell has <a href="https://tinkering.xyz/releasing-flox/">announced</a> the 1.0 release of <a href="https://github.com/flox/flox">Flox</a>, a tool that lets its users install packages from <a href="https://flox.dev/blog/nixpkgs">nixpkgs</a> inside portable virtual environments, and share those virtual environments with others as an <a href="https://tinkering.xyz/releasing-flox/#containers-are-fine-right">alternative</a> to Docker-style containers. Flox is based on Nix but allows users to skip learning how to work with the Nix language:</p>
-
-<blockquote class="bq">
-With Flox we're providing a substantially better user experience. We provide the suite of package manager functionality with <tt>install</tt>, <tt>uninstall</tt>, etc, but we also provide an entire new suite of functionality with the ability to share environments via <tt>flox push</tt>, <tt>flox pull</tt>, and <tt>flox activate --remote</tt>.
-</blockquote>
-
-<p>Flox is GPLv2-licensed, and <a href="https://github.com/flox/flox/releases">releases</a> are available as RPMs and Debian packages for x86_64 and arm64 systems.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
