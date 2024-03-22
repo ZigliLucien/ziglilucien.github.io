@@ -1,0 +1,2242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /><title>Text Products for zfp Issued by PAH</title>
+<meta name="DC.title" content="Text Products for zfp Issued by PAH" />
+<meta name="DC.description" content="National Weather Service is your source for the most complete weather forecast and weather related information on the web" />
+<meta name="DC.creator" content="US Department of Commerce, NOAA, National Weather Service" />
+<meta name="DC.date.created" scheme="ISO8601" content="2023-09-19" />
+<meta name="DC.date.reviewed" scheme="ISO8601" content="2021-06-16" />
+<meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
+<meta name="DC.keywords" content="weather, local weather forecast, local forecast, weather forecasts, local weather, radar, fire weather, center weather service units, hamweather" />
+<meta name="DC.publisher" content="NOAA's National Weather Service" />
+<meta name="DC.contributor" content="National Weather Service" />
+<meta name="DC.rights" content="http://www.weather.gov/disclaimer.php" />
+<meta name="rating" content="General" />
+<meta name="robots" content="index,follow" />
+<meta name="Distribution" content="Global" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link href="/css/main_1024.css" title="nwsstyle" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/product/main.css" title="nwsstyle" rel="stylesheet" type="text/css" media="all">        <script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NOAA"></script>
+        <script type="text/javascript">
+            // GoogleAnalyticsObject is defined in the federated analytics script, but PUA option not used as forecast UA needs sampleRate
+            window[window['GoogleAnalyticsObject']]('create', 'UA-40768555-1', 'weather.gov', {'sampleRate': 6});
+            window[window['GoogleAnalyticsObject']]('set', 'anonymizeIp', true);
+            window[window['GoogleAnalyticsObject']]('require', 'linkid');
+            window[window['GoogleAnalyticsObject']]('send', 'pageview');
+	</script></head>
+<body>
+<div id="container"><a href="#skipnav" class="skip">Skip Navigation</a>
+<div id="header">
+<div id="brand"><a href="http://www.noaa.gov/" class="noaalink">NOAA</a><div class="aligncenter"><a href="http://www.weather.gov/" class="wxlink">weather.gov</a></div>
+<h1>National Weather Service Weather Forecast Office</h1>
+<a href="https://www.weather.gov/pah" class="site">Paducah, KY</a>
+</div>
+<!--begin search code -->
+<div id="searchDiv">
+<ul>
+<li><a href="https://www.weather.gov/pah">Home</a></li>
+<li><a href="https://www.weather.gov/pah/sitemap.php">Site Map</a></li>
+<li><a href="http://www.weather.gov/pa/">News</a></li>
+<li><a href="http://weather.gov/organization.php">Organization</a></li>
+<li><form method="get" action="http://search.usa.gov/search" id="search"><div>
+    <input type="hidden" name="v:project" value="firstgov" />
+    <label for="query">Search for: <input type="text" name="query" id="query" class="input" size="10"/></label>
+    <input type="radio" name="affiliate" checked="checked" value="nws.noaa.gov" id="nws" />
+    <label for="nws">NWS</label><input type="radio" name="affiliate" value="noaa.gov" id="noaa" />
+    <label for="noaa">All NOAA</label>&nbsp;<input type="submit" class="input" value="Go" /></div></form></li>
+</ul>
+</div>
+<!--end search code -->
+</div>
+
+	<div id="menu">
+
+		<form id="fcst" action="/zipcity.php" method="post"><div>
+		  <label for="Go2">Local forecast by<br /> "City, St" or Zip Code</label>
+		  <input name="inputstring" type="text" value="City, St" size="8" onfocus="this.value='';" />
+		  <input name="Go2" id="Go2" type="submit" value="Go" />
+		  <input type="hidden" name="siteid" value="pah" /></div>
+		</form>
+		<ul>
+		<li><ul><li>
+			<a href="http://www.weather.gov/rss/"><img src="/images/xml.gif" alt="RSS Feeds" title="RSS Feeds" width="36" height="14" class="img" /> RSS Feeds</a>
+		</li></ul></li><li>Warnings
+<ul>
+<li><a href="http://www.weather.gov/view/nationalwarnings.php?map=on" title="Current">Current</a></li>
+<li><a href="http://www.weather.gov/alerts-beta/" title="By State/County...">By State/County...</a></li>
+<li><a href="http://www.cpc.ncep.noaa.gov/products/stratosphere/uv_index/uv_alert.shtml" title="UV Alerts">UV Alerts</a></li>
+<li><a href="http://www.weather.gov/warnings.php" title="More Warnings">more....</a></li>
+</ul>
+</li>
+<li>Observations
+<ul>
+<li><a href="http://www.weather.gov/radar_tab.php" title="Radar">Radar</a></li>
+<li><a href="http://www.goes.noaa.gov/" title="Satellite">Satellite</a></li>
+<li><a href="http://www.nohrsc.noaa.gov/" title="Snow Cover">Snow Cover</a></li>
+<li><a href="http://www.weather.gov/organization/afs" title="Surface Weather...">Surface Weather...</a></li>
+<li><a href="http://water.weather.gov/precip" title="Observed Precip">Observed Precip</a></li>
+<li><a href="http://www.weather.gov/observations.php" title="More Observations">more....</a></li>
+</ul>
+</li>
+<li>Forecasts
+<ul>
+<li><a href="http://www.weather.gov/forecasts/graphical/" title="Graphical">Graphical</a></li>
+<li><a href="http://aviationweather.gov/" title="Aviation">Aviation</a></li>
+<li><a href="http://www.weather.gov/marine/" title="Marine">Marine</a></li>
+<li><a href="http://www.nhc.noaa.gov/" title="Hurricanes">Hurricanes</a></li>
+<li><a href="http://www.spc.noaa.gov/" title="Severe Weather">Severe Weather</a></li>
+<li><a href="http://www.spc.noaa.gov/products/fire_wx/" title="Fire Weather">Fire Weather</a></li>
+<li><a href="http://www.weather.gov/forecasts.php" title="More Forecasts">more....</a></li>
+</ul>
+</li>
+<li>Text Messages
+<ul>
+<li><a href="http://www.weather.gov/view/states.php" title="Text messages by State">By State</a></li>
+<li><a href="http://www.weather.gov/view/validProds.php" title="Text messages by type">By Message Type</a></li>
+<li><a href="http://www.weather.gov/view/national.php?map=on" title="National text messages">National</a></li>
+</ul>
+</li>
+<li>Forecast Models
+<ul>
+<li><a href="http://www.nco.ncep.noaa.gov/pmb/nwprod/analysis/" title="Forecast numerical models">Numerical Models</a></li>
+<li><a href="http://www.weather.gov/mdl/synop/products.php" title="MOS Prod Statistical Model">MOS Prod Statistical Model</a></li>
+<li><a href="http://www.weather.gov/mdl/gfslamp/gfslamp.shtml" title="GFS-LAMP Prod Statistical Model">GFS-LAMP Prod Statistical Model</a></li>
+<li><a href="http://www.weather.gov/maps.php" title="Forecast Models more">more....</a></li>
+</ul>
+</li>
+<li>Climate
+<ul>
+<li><a href="http://www.weather.gov/climate/" title="Past Weather">Past Weather</a></li>
+<li><a href="http://www.weather.gov/predictions.php" title="Predictions">Predictions</a></li>
+</ul>
+</li>
+<li>Weather Safety
+<ul>
+<li><a href="http://www.weather.gov/nwr/" title="Weather Radio">Weather Radio</a></li>
+<li><a href="http://www.cpc.noaa.gov/products/expert_assessment/threats.html" title="Hazard Assmt...">Hazard Assmt...</a></li>
+<li><a href="http://www.stormready.noaa.gov/" title="StormReady">StormReady</a></li>
+<li><a href="http://www.stormready.noaa.gov/tsunamiready/" title="TsunamiReady ">TsunamiReady </a></li>
+<li><a href="http://weather.gov/skywarn/" title="Skywarn™">Skywarn™</a></li>
+<li><a href="http://www.weather.gov/safety.php" title="More weather safety">more....</a></li>
+</ul>
+</li>
+<li>Education/Outreach
+<ul>
+<li><a href="http://www.weather.gov/education.php" title="Education and Outreach Information">Information</a></li>
+</ul>
+</li>
+<li>Information Center
+<ul>
+<li><a href="http://tsunami.gov/" title="Tsunamis">Tsunamis</a></li>
+<li><a href="http://www.weather.gov/om/publications.shtml" title="Publications...">Publications...</a></li>
+<li><a href="http://www.weather.gov/information_center.php" title="More information center">more....</a></li>
+</ul>
+</li>
+<li>Contact Us
+<ul>
+<li><a href="http://www.weather.gov/pa/faq.php" title="FAQ">FAQ
+</a></li>
+<li><a href="http://www.weather.gov/feedback.php" title="Comments...">Comments...</a></li>
+</ul>
+</li>
+</ul><br /></div><a name="skipnav"></a>
+<div id="local"> <div id="localcontent">
+<!-- // CONTENT STARTS HERE -->
+
+<span style="font-size: 20px; font-weight:bold;">Zone Forecast Product </span><br />Issued by NWS Paducah, KY<br /><br /><div><a href="https://www.weather.gov/pah/">Home</a>&nbsp;|&nbsp;<b>Current Version</b>&nbsp;|&nbsp;<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=2&glossary=0">Previous Version</a>&nbsp;|&nbsp;<a href="?site=PAH&issuedby=PAH&product=ZFP&format=txt&version=1&glossary=0">Text Only</a>&nbsp;|&nbsp;<a href="javascript:window.print()">Print</a>&nbsp;|&nbsp;<a href="product_types.php?site=PAH">Product List</a>&nbsp;|&nbsp;<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=1&glossary=1">Glossary On</a></div><div>Versions: <b>1</b> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=2&glossary=0">2</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=3&glossary=0">3</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=4&glossary=0">4</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=5&glossary=0">5</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=6&glossary=0">6</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=7&glossary=0">7</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=8&glossary=0">8</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=9&glossary=0">9</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=10&glossary=0">10</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=11&glossary=0">11</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=12&glossary=0">12</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=13&glossary=0">13</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=14&glossary=0">14</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=15&glossary=0">15</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=16&glossary=0">16</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=17&glossary=0">17</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=18&glossary=0">18</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=19&glossary=0">19</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=20&glossary=0">20</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=21&glossary=0">21</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=22&glossary=0">22</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=23&glossary=0">23</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=24&glossary=0">24</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=25&glossary=0">25</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=26&glossary=0">26</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=27&glossary=0">27</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=28&glossary=0">28</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=29&glossary=0">29</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=30&glossary=0">30</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=31&glossary=0">31</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=32&glossary=0">32</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=33&glossary=0">33</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=34&glossary=0">34</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=35&glossary=0">35</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=36&glossary=0">36</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=37&glossary=0">37</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=38&glossary=0">38</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=39&glossary=0">39</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=40&glossary=0">40</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=41&glossary=0">41</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=42&glossary=0">42</a> 
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=43&glossary=0">43</a> <hr size="1" width="520"noshade="noshade" align="left" /></div><pre class="glossaryProduct">
+000
+FPUS53 KPAH 221102
+ZFPPAH
+
+Zone Forecast Product
+National Weather Service Paducah KY
+600 AM CDT Fri Mar 22 2024
+
+KYZ005-222100-
+McCracken-
+Including the city of Paducah
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A chance of sprinkles this morning, then a
+chance of showers this afternoon. Highs in the lower 70s. East
+winds 5 to 10 mph, becoming south this afternoon. Chance of rain
+30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 5 to 10 mph,
+increasing to 15 to 20 mph with gusts up to 30 mph after
+midnight. Chance of rain 20 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the upper 50s. North winds 15 to 20 mph with gusts
+up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the mid 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the lower
+50s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the upper 60s. Chance of rain 40 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the upper 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Mostly cloudy with a chance of showers in the morning,
+then partly sunny with a chance of showers in the afternoon.
+Highs in the upper 50s. Chance of rain 50 percent.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Cooler with lows in the mid 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+INZ086-222100-
+Vanderburgh-
+Including the city of Evansville
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles this morning,
+then mostly cloudy with a chance of showers this afternoon. Not
+as cool with highs around 70. East winds 5 to 10 mph, becoming
+south this afternoon. Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 5 to 10 mph, increasing
+to 15 to 20 mph with gusts up to 30 mph after midnight. Chance of
+rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the lower 30s. Chance of rain
+50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+KYZ019-222100-
+Daviess-
+Including the city of Owensboro
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A slight chance of showers this morning,
+then a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A chance of showers in the evening.
+Lows in the upper 30s. West winds 5 to 10 mph, increasing to
+north 15 to 20 mph after midnight. Chance of rain 30 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the mid 50s. North winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs around 60. East winds 10 to 15 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers likely in the evening, then showers after
+midnight. Breezy with lows in the upper 40s. Chance of rain near
+100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Mostly cloudy with a chance of rain showers in
+the evening, then partly cloudy after midnight. Cooler with lows
+in the mid 30s. Chance of rain 40 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+KYZ017-222100-
+Christian-
+Including the city of Hopkinsville
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 40 percent.
+.TONIGHT...Mostly cloudy. A chance of showers, mainly in the
+evening. Lows around 40. South winds 5 to 10 mph, increasing to
+north 15 to 20 mph after midnight. Chance of rain 50 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the upper 50s. North winds 15 to 20 mph with gusts
+up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers, breezy with lows around 50. Chance of
+rain near 100 percent.
+.TUESDAY...Showers likely. Highs in the lower 60s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the mid 30s. Chance of rain
+40 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ009-222100-
+Calloway-
+Including the city of Murray
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 40 percent.
+.TONIGHT...Mostly cloudy. A chance of showers in the evening.
+Lows in the lower 40s. Northeast winds around 5 mph, increasing
+to north 15 to 20 mph with gusts up to 30 mph after midnight.
+Chance of rain 40 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Highs in
+the upper 50s. North winds 15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the mid 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+lower 50s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers, breezy with lows around 50. Chance of
+rain near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+60 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of showers in the
+evening. Cooler with lows in the mid 30s. Chance of rain
+50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ006-222100-
+Graves-
+Including the city of Mayfield
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 40 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows around 40. North winds 5 to 10 mph, increasing to
+15 to 20 mph with gusts up to 30 mph after midnight. Chance of
+rain 20 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Highs in
+the upper 50s. North winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the mid 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the lower
+50s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 30 percent.
+.MONDAY NIGHT...A chance of thunderstorms in the evening.
+Showers, breezy with lows around 50. Chance of rain near
+100 percent.
+.TUESDAY...Mostly cloudy with a chance of showers in the morning,
+then partly sunny with a chance of showers in the afternoon.
+Highs in the upper 50s. Chance of rain 50 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the mid 30s. Chance of rain
+50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+MOZ087-222100-
+Cape Girardeau-
+Including the cities of Cape Girardeau and Jackson
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A chance of sprinkles this morning, then a
+chance of showers this afternoon. Highs in the upper 60s. East
+winds around 5 mph, becoming northwest this afternoon. Chance of
+rain 20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Breezy with lows in the mid 30s. North winds 15 to
+25 mph. Gusts up to 40 mph after midnight. Chance of rain
+20 percent.
+.SATURDAY...Sunny, breezy with highs in the mid 50s. North winds
+15 to 25 mph with gusts up to 35 mph, diminishing to 10 to 15 mph
+with gusts up to 25 mph in the afternoon.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. Northeast winds 5 to 10 mph.
+.SUNDAY...Mostly cloudy in the morning, then becoming partly
+sunny. Highs in the lower 60s. Southeast winds 10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the upper 40s.
+.MONDAY...Mostly cloudy. Showers likely in the afternoon. Breezy
+with highs in the mid 60s. Chance of rain 70 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the lower 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Partly sunny with a 40 percent chance of showers.
+Highs in the mid 50s.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the lower 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+MOZ109-222100-
+Butler-
+Including the city of Poplar Bluff
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A slight chance of showers this morning,
+then a chance of showers this afternoon. Highs around 70.
+Northeast winds around 5 mph. Chance of rain 20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 15 to 20 mph. Gusts
+up to 35 mph after midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the upper 50s. North winds 15 to
+20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. Northeast winds around
+10 mph.
+.SUNDAY...Mostly cloudy in the morning, then becoming partly
+sunny. Highs in the lower 60s. Southeast winds 10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy. A chance of showers after
+midnight. Breezy with lows in the upper 40s. Chance of rain
+30 percent.
+.MONDAY...Mostly cloudy. A chance of showers in the morning, then
+showers likely in the afternoon. Breezy with highs in the mid
+60s. Chance of rain 70 percent.
+.MONDAY NIGHT...Showers, mainly in the evening. Locally heavy
+rainfall possible in the evening. Breezy with lows in the lower
+40s. Chance of rain 90 percent.
+.TUESDAY...Partly sunny with a 50 percent chance of showers.
+Highs in the mid 50s.
+.TUESDAY NIGHT THROUGH WEDNESDAY NIGHT...Mostly clear. Lows in
+the mid 30s. Highs in the upper 50s.
+.THURSDAY...Sunny. Highs in the mid 60s.
+
+$$
+
+ILZ084-222100-
+Jackson-
+Including the cities of Carbondale and Murphysboro
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles. Highs around
+70. East winds around 5 mph, becoming northwest this afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph with gusts
+up to 30 mph. Chance of rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. Northeast winds 5 to 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. Southeast winds
+10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy. A chance of showers after
+midnight. Breezy and not as cool with lows in the upper 40s.
+Chance of rain 30 percent.
+.MONDAY...Mostly cloudy. Showers likely in the afternoon. Breezy
+with highs in the mid 60s. Chance of rain 70 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the mid 40s. Chance
+of rain near 100 percent.
+.TUESDAY...Partly sunny with a 40 percent chance of showers.
+Highs in the lower 50s.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows around 30.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ085-222100-
+Williamson-
+Including the city of Herrin
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles. Highs around
+70. Southeast winds around 5 mph, becoming west this afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph. Chance of
+rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 30s. Northeast winds 5 to
+10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. Southeast winds
+10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the upper 40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the mid 40s. Chance
+of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming partly
+sunny. A chance of showers. Highs in the mid 50s. Chance of rain
+50 percent.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the lower 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ075-222100-
+Jefferson-
+Including the city of Mount Vernon
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles. Highs in the
+upper 60s. East winds 5 to 10 mph, becoming northeast this
+afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of rain showers in the
+evening. Lows in the lower 30s. North winds 15 to 20 mph with
+gusts up to 30 mph. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the mid 50s. North winds 15 to
+20 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 30s. Northeast winds around
+10 mph.
+.SUNDAY...Partly sunny. Highs in the upper 50s. Southeast winds
+10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Lows in the mid 40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the lower 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the lower 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming partly
+sunny. A 50 percent chance of showers. Highs in the lower 50s.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the upper 20s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows around 30.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+INZ081-222100-
+Gibson-
+Including the city of Fort Branch
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly sunny with a chance of sprinkles this morning,
+then mostly cloudy with a chance of showers this afternoon. Not
+as cool with highs in the upper 60s. East winds 5 to 10 mph.
+Chance of rain 40 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph. Chance of
+rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the upper
+40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 30 percent.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely, mainly in the morning. Highs in the
+mid 50s. Chance of rain 70 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the lower 30s. Chance of rain
+50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+INZ082-222100-
+Pike-
+Including the city of Petersburg
+700 AM EDT Fri Mar 22 2024
+
+.TODAY...Mostly sunny with a chance of sprinkles this morning,
+then mostly cloudy with a chance of rain showers this afternoon.
+Not as cool with highs in the upper 60s. Southeast winds 5 to
+10 mph. Chance of rain 50 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 5 to 10 mph, increasing
+to 15 to 20 mph with gusts up to 30 mph after midnight. Chance of
+rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds 5 to 10 mph.
+.SUNDAY...Mostly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the lower 30s. Chance of rain
+50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the upper 50s.
+
+$$
+
+INZ085-222100-
+Posey-
+Including the city of Poseyville
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles this morning,
+then mostly cloudy with a slight chance of showers this
+afternoon. Not as cool with highs around 70. Southeast winds 5 to
+10 mph, becoming south this afternoon. Chance of rain 20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 5 to 10 mph, increasing
+to 15 to 20 mph with gusts up to 30 mph after midnight. Chance of
+rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the upper
+40s.
+.MONDAY...Partly sunny in the morning, then mostly cloudy with a
+chance of showers in the afternoon. Breezy with highs in the mid
+60s. Chance of rain 30 percent.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely in the morning, then partly sunny with
+a chance of showers in the afternoon. Highs in the mid 50s.
+Chance of rain 60 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+in the lower 30s. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+INZ087-222100-
+Warrick-
+Including the city of Boonville
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny this morning, then becoming mostly cloudy.
+A 50 percent chance of showers. Not as cool with highs around 70.
+East winds 5 to 10 mph, becoming south this afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 5 to 10 mph,
+increasing to 15 to 20 mph with gusts up to 30 mph after
+midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds 5 to 10 mph.
+.SUNDAY...Mostly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Mostly cloudy with a chance of rain showers in
+the evening, then partly cloudy after midnight. Cooler with lows
+in the lower 30s. Chance of rain 40 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+INZ088-222100-
+Spencer-
+Including the city of Rockport
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a slight chance of showers this
+morning, then mostly cloudy with a chance of showers this
+afternoon. Not as cool with highs around 70. East winds 5 to
+10 mph, becoming south this afternoon. Chance of rain 40 percent.
+.TONIGHT...Mostly cloudy. A chance of showers in the evening.
+Lows in the upper 30s. Northwest winds 5 to 10 mph, increasing to
+north 15 to 20 mph after midnight. Chance of rain 40 percent.
+.SATURDAY...Mostly sunny. Cooler with highs in the mid 50s. North
+winds 10 to 15 mph with gusts up to 25 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds 5 to 10 mph.
+.SUNDAY...Mostly sunny. Highs in the upper 50s. East winds around
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Mostly cloudy with a chance of rain showers in
+the evening, then partly cloudy after midnight. Lows in the mid
+30s. Chance of rain 40 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+KYZ014-222100-
+Union KY-
+Including the city of Morganfield
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles this morning,
+then mostly cloudy with a chance of showers this afternoon. Highs
+around 70. Southeast winds 5 to 10 mph, becoming south this
+afternoon. Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 5 to 10 mph, increasing
+to 15 to 20 mph after midnight. Chance of rain 20 percent.
+.SATURDAY...Mostly sunny. Cooler with highs in the mid 50s. North
+winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the upper 50s. East winds around
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely in the morning, then partly sunny with
+a chance of showers in the afternoon. Highs in the mid 50s.
+Chance of rain 60 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+in the lower 30s. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+KYZ018-222100-
+Henderson-
+Including the city of Henderson
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny this morning, then becoming mostly cloudy.
+A 30 percent chance of showers. Highs around 70. Southeast winds
+5 to 10 mph, becoming south this afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 5 to 10 mph,
+increasing to 15 to 20 mph with gusts up to 30 mph after
+midnight. Chance of rain 20 percent.
+.SATURDAY...Mostly sunny. Cooler with highs in the mid 50s. North
+winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the lower 30s. Chance of rain
+50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+KYZ010-222100-
+Crittenden-
+Including the city of Marion
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 5 to 10 mph,
+increasing to 15 to 20 mph with gusts up to 30 mph after
+midnight. Chance of rain 20 percent.
+.SATURDAY...Mostly sunny. Cooler with highs in the mid 50s. North
+winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers, breezy with lows in the upper 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+60 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the lower 30s. Chance of rain
+50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ015-222100-
+Webster-
+Including the city of Dixon
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles this morning,
+then mostly cloudy with a chance of showers this afternoon. Highs
+in the lower 70s. Southeast winds 5 to 10 mph, becoming south
+this afternoon. Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 5 to 10 mph,
+increasing to 15 to 20 mph after midnight. Chance of rain
+20 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the mid 50s. North winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds 5 to 10 mph.
+.SUNDAY...Mostly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Mostly cloudy with a chance of rain showers in
+the evening, then partly cloudy after midnight. Cooler with lows
+in the lower 30s. Chance of rain 30 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+KYZ020-222100-
+McLean-
+Including the city of Calhoun
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A slight chance of showers this morning,
+then a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A chance of showers in the evening.
+Lows in the upper 30s. West winds 5 to 10 mph, increasing to
+north 15 to 20 mph after midnight. Chance of rain 30 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the mid 50s. North winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the lower 60s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers likely in the evening, then showers after
+midnight. Breezy with lows in the upper 40s. Chance of rain near
+100 percent.
+.TUESDAY...Showers likely. Highs around 60. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Mostly cloudy with a chance of rain showers in
+the evening, then partly cloudy after midnight. Cooler with lows
+in the mid 30s. Chance of rain 40 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ011-222100-
+Lyon-
+Including the city of Eddyville
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A chance of showers in the evening.
+Lows around 40. Northeast winds around 5 mph, becoming north
+10 to 15 mph with gusts up to 25 mph after midnight. Chance of
+rain 30 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the upper 50s. North winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the mid 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+lower 50s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers, breezy with lows around 50. Chance of
+rain near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+60 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the mid 30s. Chance of rain
+30 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ013-222100-
+Caldwell-
+Including the city of Princeton
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A chance of showers in the evening.
+Lows in the upper 30s. North winds around 5 mph, increasing to
+15 to 20 mph after midnight. Chance of rain 30 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the upper 50s. North winds 15 to 20 mph with gusts
+up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds 5 to 10 mph.
+.SUNDAY...Mostly sunny. Highs in the lower 60s. East winds 5 to
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows around
+50. Highs in the mid 60s.
+.MONDAY NIGHT...Showers, breezy with lows in the upper 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the mid 30s. Chance of rain
+30 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ016-222100-
+Hopkins-
+Including the city of Madisonville
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A chance of showers in the evening.
+Lows in the upper 30s. North winds around 5 mph, increasing to
+10 to 15 mph with gusts up to 25 mph after midnight. Chance of
+rain 30 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the upper 50s. North winds 10 to 15 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds 5 to 10 mph.
+.SUNDAY...Mostly sunny. Highs in the lower 60s. East winds 5 to
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows around
+50. Highs in the mid 60s.
+.MONDAY NIGHT...Showers, breezy with lows around 50. Chance of
+rain near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Mostly cloudy with a chance of rain showers in
+the evening, then partly cloudy after midnight. Cooler with lows
+in the mid 30s. Chance of rain 40 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ021-222100-
+Muhlenberg-
+Including the city of Greenville
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A slight chance of showers this morning,
+then a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A chance of showers, mainly in the
+evening. Lows in the lower 40s. Southeast winds around 5 mph,
+becoming north 10 to 15 mph with gusts up to 25 mph after
+midnight. Chance of rain 40 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the upper 50s. North winds 10 to 15 mph.
+.SATURDAY NIGHT...Clear. Lows in the lower 30s. Northeast winds
+5 to 10 mph.
+.SUNDAY...Mostly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers likely in the evening, then showers after
+midnight. Breezy with lows around 50. Chance of rain near
+100 percent.
+.TUESDAY...Showers likely. Highs in the lower 60s. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Mostly cloudy with a chance of showers in the
+evening, then partly cloudy after midnight. Cooler with lows in
+the mid 30s. Chance of rain 40 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ012-222100-
+Trigg-
+Including the city of Cadiz
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 40 percent.
+.TONIGHT...Mostly cloudy. A chance of showers in the evening.
+Lows in the lower 40s. Northeast winds around 5 mph, increasing
+to north 15 to 20 mph with gusts up to 30 mph after midnight.
+Chance of rain 40 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the upper 50s. North winds 15 to 20 mph with gusts
+up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the mid 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the lower 60s. East winds 5 to
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+lower 50s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers, breezy with lows around 50. Chance of
+rain near 100 percent.
+.TUESDAY...Showers likely. Highs around 60. Chance of rain
+70 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the mid 30s. Chance of rain
+40 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ022-222100-
+Todd-
+Including the city of Elkton
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 40 percent.
+.TONIGHT...Mostly cloudy. A chance of showers, mainly in the
+evening. Lows in the lower 40s. South winds 5 to 10 mph, becoming
+north 10 to 15 mph with gusts up to 25 mph after midnight. Chance
+of rain 50 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Highs in
+the upper 50s. North winds 15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Clear. Lows in the lower 30s. Northeast winds
+around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+upper 40s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers likely in the evening, then showers after
+midnight. Breezy with lows around 50. Chance of rain near
+100 percent.
+.TUESDAY...Showers likely. Breezy with highs in the lower 60s.
+Chance of rain 70 percent.
+.TUESDAY NIGHT...Mostly cloudy with a chance of showers in the
+evening, then partly cloudy after midnight. Lows in the mid 30s.
+Chance of rain 40 percent.
+.WEDNESDAY...Mostly sunny. Highs in the mid 50s.
+.WEDNESDAY NIGHT AND THURSDAY...Mostly clear. Lows in the lower
+30s. Highs in the lower 60s.
+
+$$
+
+KYZ008-222100-
+Marshall-
+Including the city of Benton
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds 5 to 10 mph, becoming south this afternoon.
+Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A chance of showers in the evening.
+Lows around 40. North winds around 5 mph, increasing to 10 to
+15 mph with gusts up to 25 mph after midnight. Chance of rain
+30 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the upper 50s. North winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the mid 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy and breezy. Lows in the
+lower 50s. Highs in the mid 60s.
+.MONDAY NIGHT...Showers, breezy with lows around 50. Chance of
+rain near 100 percent.
+.TUESDAY...Showers likely. Highs in the upper 50s. Chance of rain
+60 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the mid 30s. Chance of rain
+50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ007-222100-
+Livingston-
+Including the city of Smithland
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy. A chance of sprinkles this morning, then
+a chance of showers this afternoon. Highs in the lower 70s. East
+winds 5 to 10 mph, becoming south this afternoon. Chance of rain
+30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 5 to 10 mph,
+increasing to 15 to 20 mph with gusts up to 30 mph after
+midnight. Chance of rain 20 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Cooler
+with highs in the mid 50s. North winds 15 to 20 mph with gusts up
+to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the mid 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds 5 to
+10 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows around 50.
+.MONDAY...Partly sunny in the morning, then mostly cloudy with a
+chance of showers in the afternoon. Breezy with highs in the mid
+60s. Chance of rain 30 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the upper 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Showers likely in the morning, then partly sunny with
+a chance of showers in the afternoon. Highs in the upper 50s.
+Chance of rain 60 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+in the lower 30s. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ004-222100-
+Ballard-
+Including the city of Wickliffe
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A chance of sprinkles this morning, then a
+slight chance of showers this afternoon. Highs in the lower 70s.
+East winds 5 to 10 mph, becoming southwest this afternoon. Chance
+of rain 20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 5 to 10 mph,
+increasing to 15 to 20 mph with gusts up to 30 mph after
+midnight. Chance of rain 20 percent.
+.SATURDAY...Mostly sunny. Highs in the upper 50s. North winds
+15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Clear in the evening, then becoming partly
+cloudy. Lows in the mid 30s. Northeast winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the lower 50s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the upper 60s. Chance of rain 40 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the upper 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Partly sunny. A chance of showers. Highs in the upper
+50s. Chance of rain 50 percent.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the mid 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ003-222100-
+Carlisle-
+Including the city of Bardwell
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy with a chance of sprinkles this morning,
+then partly sunny with a chance of showers this afternoon. Highs
+in the lower 70s. Southeast winds 5 to 10 mph, becoming south
+this afternoon. Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows around 40. North winds 5 to 10 mph, increasing to
+15 to 20 mph with gusts up to 30 mph after midnight. Chance of
+rain 20 percent.
+.SATURDAY...Mostly sunny. Highs in the upper 50s. North winds
+15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Clear in the evening, then becoming partly
+cloudy. Lows in the mid 30s. Northeast winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the lower 50s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 40 percent.
+.MONDAY NIGHT...A chance of thunderstorms in the evening.
+Showers, breezy with lows in the upper 40s. Chance of rain near
+100 percent.
+.TUESDAY...Partly sunny. A chance of showers. Highs in the mid
+50s. Chance of rain 50 percent.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Cooler with lows in the mid 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ002-222100-
+Hickman-
+Including the city of Clinton
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy with a chance of sprinkles this morning,
+then partly sunny with a chance of showers this afternoon. Highs
+in the lower 70s. Southeast winds 5 to 10 mph, becoming south
+this afternoon. Chance of rain 40 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows around 40. North winds 5 to 10 mph, increasing to
+15 to 20 mph with gusts up to 30 mph after midnight. Chance of
+rain 20 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Highs in
+the upper 50s. North winds 15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Clear in the evening, then becoming partly
+cloudy. Lows in the mid 30s. Northeast winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the lower 50s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 40 percent.
+.MONDAY NIGHT...A chance of thunderstorms in the evening.
+Showers, breezy with lows in the upper 40s. Chance of rain near
+100 percent.
+.TUESDAY...Mostly cloudy with a chance of showers in the morning,
+then partly sunny with a chance of showers in the afternoon.
+Highs in the mid 50s. Chance of rain 50 percent.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Cooler with lows in the mid 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+KYZ001-222100-
+Fulton-
+Including the city of Hickman
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy with a chance of sprinkles this morning,
+then partly sunny with a chance of showers this afternoon. Highs
+around 70. Southeast winds 5 to 10 mph, becoming south this
+afternoon. Chance of rain 40 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows around 40. North winds 5 to 10 mph, increasing to
+15 to 20 mph with gusts up to 35 mph after midnight. Chance of
+rain 20 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Highs in
+the upper 50s. North winds 15 to 20 mph with gusts up to 35 mph.
+.SATURDAY NIGHT...Clear in the evening, then becoming partly
+cloudy. Lows in the mid 30s. Northeast winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the lower 50s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...A chance of thunderstorms in the evening.
+Showers, breezy with lows in the upper 40s. Chance of rain near
+100 percent.
+.TUESDAY...Mostly cloudy with a chance of showers in the morning,
+then partly sunny with a chance of showers in the afternoon.
+Highs in the mid 50s. Chance of rain 50 percent.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Cooler with lows in the mid 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+MOZ107-222100-
+Carter-
+Including the city of Van Buren
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a 20 percent chance of showers. Highs
+in the lower 70s. Northeast winds around 5 mph, becoming north
+this afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph with gusts
+up to 30 mph. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs around 60. North winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+mostly cloudy. Lows in the mid 30s. East winds 5 to 10 mph.
+.SUNDAY...Mostly cloudy in the morning, then becoming partly
+sunny. Highs in the lower 60s. Southeast winds 10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy. A chance of showers after
+midnight. Breezy with lows in the upper 40s. Chance of rain
+40 percent.
+.MONDAY AND MONDAY NIGHT...Showers, breezy. Highs in the lower
+60s. Lows around 40. Chance of rain 90 percent.
+.TUESDAY...Mostly sunny. Highs in the mid 50s.
+.TUESDAY NIGHT THROUGH WEDNESDAY NIGHT...Mostly clear. Lows in
+the lower 30s. Highs in the upper 50s.
+.THURSDAY...Sunny. Highs in the mid 60s.
+
+$$
+
+MOZ108-222100-
+Ripley-
+Including the city of Doniphan
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A slight chance of showers this morning,
+then a chance of sprinkles this afternoon. Highs in the lower
+70s. Northeast winds around 5 mph. Chance of rain 20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 15 to 20 mph with
+gusts up to 30 mph. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs around 60. North winds 15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+mostly cloudy. Lows in the upper 30s. East winds 5 to 10 mph.
+.SUNDAY...Mostly cloudy in the morning, then becoming partly
+sunny. Highs in the lower 60s. Southeast winds 10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy. A chance of showers after
+midnight. Breezy with lows in the upper 40s. Chance of rain
+30 percent.
+.MONDAY AND MONDAY NIGHT...Showers, breezy. Highs in the mid 60s.
+Lows in the lower 40s. Chance of rain 90 percent.
+.TUESDAY...Mostly sunny with a 40 percent chance of showers.
+Highs in the mid 50s.
+.TUESDAY NIGHT THROUGH WEDNESDAY NIGHT...Mostly clear. Lows in
+the mid 30s. Highs in the upper 50s.
+.THURSDAY...Sunny. Highs in the mid 60s.
+
+$$
+
+MOZ100-222100-
+Wayne MO-
+Including the city of Piedmont
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a 20 percent chance of showers. Highs
+in the lower 70s. Northeast winds around 5 mph, becoming north
+this afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph with gusts
+up to 30 mph. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the upper 50s. North winds 15 to
+20 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. East winds 5 to 10 mph.
+.SUNDAY...Mostly cloudy in the morning, then becoming partly
+sunny. Highs in the lower 60s. Southeast winds 10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy. A chance of showers after
+midnight. Breezy with lows in the upper 40s. Chance of rain
+30 percent.
+.MONDAY...Mostly cloudy. A chance of showers in the morning, then
+showers in the afternoon. Breezy with highs in the mid 60s.
+Chance of rain 80 percent.
+.MONDAY NIGHT...Showers, mainly in the evening. Breezy with lows
+in the lower 40s. Chance of rain 90 percent.
+.TUESDAY...Mostly sunny with a 50 percent chance of showers.
+Highs in the mid 50s.
+.TUESDAY NIGHT THROUGH WEDNESDAY NIGHT...Mostly clear. Lows in
+the lower 30s. Highs in the upper 50s.
+.THURSDAY...Sunny. Highs in the mid 60s.
+
+$$
+
+MOZ086-222100-
+Bollinger-
+Including the city of Marble Hill
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A chance of sprinkles this morning, then a
+chance of showers this afternoon. Highs around 70. East winds
+around 5 mph, becoming northwest this afternoon. Chance of rain
+20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of rain showers in the
+evening. Breezy with lows in the mid 30s. North winds 15 to
+25 mph. Gusts up to 40 mph after midnight. Chance of rain
+20 percent.
+.SATURDAY...Sunny. Highs in the mid 50s. North winds 15 to
+20 mph. Gusts up to 35 mph in the morning.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 30s. Northeast winds 5 to
+10 mph.
+.SUNDAY...Mostly cloudy in the morning, then becoming partly
+sunny. Highs in the lower 60s. Southeast winds 10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy. A chance of showers after
+midnight. Breezy with lows in the upper 40s. Chance of rain
+30 percent.
+.MONDAY...Mostly cloudy. A chance of showers in the morning, then
+showers likely in the afternoon. Breezy with highs in the mid
+60s. Chance of rain 70 percent.
+.MONDAY NIGHT...Showers, mainly in the evening. Locally heavy
+rainfall possible in the evening. Lows in the lower 40s. Chance
+of rain 90 percent.
+.TUESDAY...Partly sunny with a 50 percent chance of showers.
+Highs in the mid 50s.
+.TUESDAY NIGHT THROUGH WEDNESDAY NIGHT...Mostly clear. Lows in
+the lower 30s. Highs in the mid 50s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+MOZ076-222100-
+Perry MO-
+Including the city of Perryville
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles. Highs in the
+upper 60s. East winds around 5 mph, becoming north this
+afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph with gusts
+up to 35 mph. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the mid 50s. North winds 15 to
+20 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. East winds 5 to 10 mph.
+.SUNDAY...Mostly cloudy in the morning, then becoming partly
+sunny. Highs in the lower 60s. Southeast winds 10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy. A chance of showers after
+midnight. Breezy and not as cool with lows in the upper 40s.
+Chance of rain 40 percent.
+.MONDAY...Mostly cloudy. A chance of showers in the morning, then
+showers likely in the afternoon. Breezy with highs in the mid
+60s. Chance of rain 70 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the lower 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Partly sunny with a 50 percent chance of showers.
+Highs in the lower 50s.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows around 30.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+MOZ110-222100-
+Stoddard-
+Including the city of Bloomfield
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy with a slight chance of showers this
+morning, then partly sunny with a chance of showers this
+afternoon. Highs around 70. East winds around 5 mph, becoming
+north this afternoon. Chance of rain 20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Breezy with lows in the upper 30s. North winds 10 to
+15 mph with gusts up to 25 mph, increasing to 20 to 25 mph with
+gusts up to 40 mph after midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny, breezy with highs in the upper 50s. North
+winds 15 to 25 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. Northeast winds 5 to 10 mph.
+.SUNDAY...Mostly cloudy in the morning, then becoming partly
+sunny. Highs in the lower 60s. Southeast winds 10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Lows in the upper 40s.
+.MONDAY...Mostly cloudy. Showers likely in the afternoon. Breezy
+with highs in the mid 60s. Chance of rain 70 percent.
+.MONDAY NIGHT...Showers, mainly in the evening. Locally heavy
+rainfall possible in the evening. Breezy with lows in the mid
+40s. Chance of rain near 100 percent.
+.TUESDAY...Partly sunny with a 50 percent chance of showers.
+Highs in the mid 50s.
+.TUESDAY NIGHT THROUGH WEDNESDAY NIGHT...Mostly clear. Lows in
+the lower 30s. Highs in the mid 50s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+MOZ111-222100-
+Scott-
+Including the city of Sikeston
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy with a slight chance of showers this
+morning, then partly sunny with a chance of showers this
+afternoon. Highs around 70. East winds around 5 mph, becoming
+west this afternoon. Chance of rain 20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Breezy with lows in the upper 30s. North winds 10 to
+15 mph with gusts up to 25 mph, increasing to 15 to 25 mph with
+gusts up to 35 mph after midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the upper 50s. North winds 15 to
+20 mph. Gusts up to 35 mph in the morning.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. Northeast winds 5 to 10 mph.
+.SUNDAY...Mostly cloudy in the morning, then becoming partly
+sunny. Highs in the lower 60s. East winds 10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+around 50.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers, mainly in the evening. Locally heavy
+rainfall possible in the evening. Breezy with lows in the mid
+40s. Chance of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming mostly
+sunny. A 40 percent chance of showers. Highs in the mid 50s.
+.TUESDAY NIGHT THROUGH WEDNESDAY NIGHT...Mostly clear. Lows in
+the mid 30s. Highs in the mid 50s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+MOZ114-222100-
+New Madrid-
+Including the city of New Madrid
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy with a chance of sprinkles this morning,
+then partly sunny with a chance of showers this afternoon. Highs
+around 70. East winds 5 to 10 mph. Chance of rain 40 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Breezy with lows in the upper 30s. North winds 10 to
+15 mph, increasing to 15 to 25 mph with gusts up to 40 mph after
+midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny, breezy with highs in the upper 50s. North
+winds 15 to 25 mph. Gusts up to 40 mph in the morning.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. Northeast winds around
+10 mph.
+.SUNDAY...Mostly cloudy in the morning, then becoming partly
+sunny. Highs in the lower 60s. East winds 10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the lower 50s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Windy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers with a chance of thunderstorms in the
+evening, then showers likely after midnight. Locally heavy
+rainfall possible in the evening. Breezy with lows in the upper
+40s. Chance of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming mostly
+sunny. A 40 percent chance of showers. Highs in the mid 50s.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the mid 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+MOZ112-222100-
+Mississippi-
+Including the city of Charleston
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Mostly cloudy with a chance of sprinkles this morning,
+then partly sunny with a slight chance of showers this afternoon.
+Highs in the lower 70s. East winds 5 to 10 mph, becoming
+southwest this afternoon. Chance of rain 20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 15 to 20 mph. Gusts
+up to 35 mph after midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the upper 50s. North winds 15 to
+20 mph. Gusts up to 35 mph in the morning.
+.SATURDAY NIGHT...Clear in the evening, then becoming partly
+cloudy. Lows in the mid 30s. Northeast winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the lower 50s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...A chance of thunderstorms in the evening.
+Showers, breezy with lows in the upper 40s. Chance of rain near
+100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming partly
+sunny. A 50 percent chance of showers. Highs in the mid 50s.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the mid 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ092-222100-
+Alexander-
+Including the city of Cairo
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a 30 percent chance of showers. Highs
+in the lower 70s. East winds around 5 mph, becoming west this
+afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Breezy with lows in the upper 30s. North winds 10 to
+15 mph with gusts up to 25 mph, increasing to 15 to 25 mph with
+gusts up to 35 mph after midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the upper 50s. North winds 15 to
+20 mph. Gusts up to 35 mph in the morning.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. Northeast winds 5 to 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds 5 to
+10 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the lower 50s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers, mainly in the evening. Locally heavy
+rainfall possible in the evening. Breezy with lows in the mid
+40s. Chance of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming mostly
+sunny. A 40 percent chance of showers. Highs in the mid 50s.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the lower 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the mid 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ093-222100-
+Pulaski-
+Including the city of Mound City
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A chance of showers, mainly this morning.
+Highs in the lower 70s. East winds around 5 mph, becoming
+southwest this afternoon. Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 15 to 20 mph. Gusts
+up to 35 mph after midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the upper 50s. North winds 15 to
+20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. Northeast winds 5 to 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+around 50.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the upper 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming mostly
+sunny. A chance of showers. Highs in the mid 50s. Chance of rain
+50 percent.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the lower 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ094-222100-
+Massac-
+Including the city of Metropolis
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles this morning,
+then mostly cloudy with a chance of showers this afternoon. Highs
+in the lower 70s. East winds around 5 mph, becoming southwest
+this afternoon. Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 5 to 10 mph,
+increasing to 15 to 20 mph with gusts up to 30 mph after
+midnight. Chance of rain 20 percent.
+.SATURDAY...Partly sunny in the morning, then clearing. Highs in
+the upper 50s. North winds 15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the mid 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows around 50.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 40 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the upper 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Mostly cloudy with a chance of showers in the morning,
+then partly sunny with a chance of showers in the afternoon.
+Highs in the upper 50s. Chance of rain 50 percent.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Cooler with lows in the lower 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ088-222100-
+Union-
+Including the city of Jonesboro
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles. Highs around
+70. Southeast winds around 5 mph, becoming west this afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 10 to 15 mph with gusts
+up to 25 mph, increasing to around 20 mph with gusts up to 35 mph
+after midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the mid 50s. North winds 15 to
+20 mph. Gusts up to 35 mph in the morning.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the mid 30s. Northeast winds 5 to 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. Southeast winds
+10 to 15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Lows in the upper 40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the mid 40s. Chance
+of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming mostly
+sunny. A 40 percent chance of showers. Highs in the mid 50s.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the lower 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ089-222100-
+Johnson-
+Including the city of Vienna
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A chance of sprinkles this morning, then a
+chance of showers this afternoon. Highs in the lower 70s.
+Southeast winds around 5 mph, becoming southwest this afternoon.
+Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 15 to 20 mph. Gusts
+up to 35 mph after midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the mid 30s. Northeast
+winds 5 to 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the upper 40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the mid 40s. Chance
+of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming partly
+sunny. A chance of showers. Highs in the mid 50s. Chance of rain
+50 percent.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the lower 30s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the mid
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ090-222100-
+Pope-
+Including the city of Golconda
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles this morning,
+then mostly cloudy with a chance of showers this afternoon. Highs
+in the lower 70s. East winds 5 to 10 mph, becoming southwest this
+afternoon. Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 15 to 20 mph. Chance
+of rain 20 percent.
+.SATURDAY...Mostly sunny. Cooler with highs in the mid 50s. North
+winds 15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the mid 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the lower 60s. East winds around
+10 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the upper 40s.
+.MONDAY...Partly sunny in the morning, then mostly cloudy with a
+chance of showers in the afternoon. Breezy with highs in the mid
+60s. Chance of rain 40 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the upper 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming partly
+sunny. A chance of showers. Highs in the mid 50s. Chance of rain
+50 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+in the lower 30s. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ091-222100-
+Hardin-
+Including the city of Elizabethtown
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles this morning,
+then mostly cloudy with a chance of showers this afternoon. Highs
+around 70. East winds 5 to 10 mph, becoming southwest this
+afternoon. Chance of rain 30 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the upper 30s. North winds 5 to 10 mph,
+increasing to 15 to 20 mph with gusts up to 30 mph after
+midnight. Chance of rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs around 60. East winds around
+10 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the upper
+40s.
+.MONDAY...Partly sunny in the morning, then mostly cloudy with a
+chance of showers in the afternoon. Breezy with highs in the mid
+60s. Chance of rain 30 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the upper 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Showers likely in the morning, then partly sunny with
+a chance of showers in the afternoon. Highs in the mid 50s.
+Chance of rain 60 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+in the lower 30s. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+ILZ086-222100-
+Saline-
+Including the city of Harrisburg
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny this morning, then becoming mostly cloudy.
+A chance of sprinkles. Highs around 70. East winds 5 to 10 mph,
+becoming southwest this afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph. Chance of
+rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds 5 to 10 mph.
+.SUNDAY...Partly sunny. Highs around 60. East winds around
+10 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the upper 40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 40 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the mid 40s. Chance
+of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming partly
+sunny. A chance of showers. Highs in the mid 50s. Chance of rain
+50 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+in the lower 30s. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ087-222100-
+Gallatin-
+Including the city of Shawneetown
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny this morning, then becoming mostly cloudy.
+A chance of sprinkles. Not as cool with highs around 70. East
+winds 5 to 10 mph, becoming southwest this afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 5 to 10 mph, increasing
+to 15 to 20 mph with gusts up to 30 mph after midnight. Chance of
+rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs around 60. East winds around
+10 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the upper
+40s.
+.MONDAY...Partly sunny in the morning, then mostly cloudy with a
+chance of showers in the afternoon. Breezy with highs in the mid
+60s. Chance of rain 40 percent.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely in the morning, then partly sunny with
+a chance of showers in the afternoon. Highs in the mid 50s.
+Chance of rain 60 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+in the lower 30s. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+ILZ080-222100-
+Perry IL-
+Including the city of Pinckneyville
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles. Highs in the
+upper 60s. East winds 5 to 10 mph, becoming northwest this
+afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the lower 30s. North winds 15 to 20 mph with
+gusts up to 30 mph. Chance of rain 20 percent.
+.SATURDAY...Mostly sunny. Highs in the mid 50s. North winds 15 to
+20 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 30s. Northeast winds 5 to
+10 mph.
+.SUNDAY...Partly sunny. Highs around 60. Southeast winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy. A chance of showers after
+midnight. Breezy and not as cool with lows in the upper 40s.
+Chance of rain 30 percent.
+.MONDAY...Mostly cloudy. A chance of showers in the morning, then
+showers likely in the afternoon. Breezy with highs in the mid
+60s. Chance of rain 70 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the lower 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Partly sunny with a 40 percent chance of showers.
+Highs in the lower 50s.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the upper 20s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the lower 30s.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ081-222100-
+Franklin-
+Including the city of West Frankfort
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles. Highs in the
+upper 60s. East winds 5 to 10 mph, becoming northwest this
+afternoon.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph with gusts
+up to 30 mph. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the mid 50s. North winds 15 to
+20 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 30s. Northeast winds 5 to
+10 mph.
+.SUNDAY...Partly sunny. Highs around 60. Southeast winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the upper
+40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the lower 40s.
+Chance of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming partly
+sunny. A 50 percent chance of showers. Highs in the mid 50s.
+.TUESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the upper 20s.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows around 30.
+.THURSDAY...Sunny. Highs in the lower 60s.
+
+$$
+
+ILZ082-222100-
+Hamilton-
+Including the city of McLeansboro
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles. Not as cool
+with highs in the upper 60s. East winds around 5 mph.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph with gusts
+up to 30 mph. Chance of rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the mid
+40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers, breezy with lows in the mid 40s. Chance
+of rain near 100 percent.
+.TUESDAY...Mostly cloudy in the morning, then becoming partly
+sunny. A chance of showers. Highs in the mid 50s. Chance of rain
+50 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+in the upper 20s. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows around 30.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+ILZ083-222100-
+White-
+Including the city of Carmi
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A chance of sprinkles this morning, then a
+slight chance of showers this afternoon. Not as cool with highs
+in the upper 60s. East winds 5 to 10 mph. Chance of rain
+20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph. Chance of
+rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the mid 50s. North winds
+15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Partly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the upper
+40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 40 percent.
+.MONDAY NIGHT...Showers. Lows in the mid 40s. Chance of rain near
+100 percent.
+.TUESDAY...Showers likely in the morning, then partly sunny with
+a chance of showers in the afternoon. Highs in the mid 50s.
+Chance of rain 60 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+around 30. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows around 30.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+ILZ076-222100-
+Wayne IL-
+Including the city of Fairfield
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A chance of rain showers this morning,
+then a chance of sprinkles this afternoon. Highs in the upper
+60s. East winds 5 to 10 mph. Chance of rain 20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph with gusts
+up to 30 mph. Chance of rain 20 percent.
+.SATURDAY...Mostly sunny. Highs in the lower 50s. North winds
+15 to 20 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 30s. Northeast winds around
+10 mph.
+.SUNDAY...Partly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy and breezy. Not as cool with lows
+in the mid 40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the lower 60s. Chance of rain 50 percent.
+.MONDAY NIGHT...Showers. Lows in the mid 40s. Chance of rain near
+100 percent.
+.TUESDAY...Mostly cloudy with a chance of showers in the morning,
+then partly sunny with a chance of showers in the afternoon.
+Highs in the mid 50s. Chance of rain 50 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+in the upper 20s. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows in the upper 20s.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+ILZ077-222100-
+Edwards-
+Including the city of Albion
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny with a chance of sprinkles. Highs in the
+upper 60s. East winds 5 to 10 mph.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph with gusts
+up to 30 mph. Chance of rain 20 percent.
+.SATURDAY...Sunny. Highs in the lower 50s. North winds 15 to
+20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 30s. Northeast winds around
+10 mph.
+.SUNDAY...Partly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the upper
+40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 40 percent.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely in the morning, then partly sunny with
+a chance of showers in the afternoon. Highs in the mid 50s.
+Chance of rain 60 percent.
+.TUESDAY NIGHT...Partly cloudy with a chance of rain showers in
+the evening, then mostly clear after midnight. Cooler with lows
+around 30. Chance of rain 50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows around 30.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+ILZ078-222100-
+Wabash-
+Including the city of Mount Carmel
+600 AM CDT Fri Mar 22 2024
+
+.TODAY...Partly sunny. A chance of sprinkles this morning, then a
+slight chance of rain showers this afternoon. Not as cool with
+highs in the upper 60s. East winds 5 to 10 mph. Chance of rain
+20 percent.
+.TONIGHT...Mostly cloudy. A slight chance of showers in the
+evening. Lows in the mid 30s. North winds 15 to 20 mph. Chance of
+rain 20 percent.
+.SATURDAY...Sunny, cooler with highs in the lower 50s. North
+winds 15 to 20 mph with gusts up to 30 mph.
+.SATURDAY NIGHT...Mostly clear. Lows in the lower 30s. Northeast
+winds around 10 mph.
+.SUNDAY...Mostly sunny. Highs in the upper 50s. East winds 10 to
+15 mph.
+.SUNDAY NIGHT...Mostly cloudy. Not as cool with lows in the upper
+40s.
+.MONDAY...Mostly cloudy. A chance of showers in the afternoon.
+Breezy with highs in the mid 60s. Chance of rain 40 percent.
+.MONDAY NIGHT...Showers. Lows in the upper 40s. Chance of rain
+near 100 percent.
+.TUESDAY...Showers likely in the morning, then partly sunny with
+a chance of showers in the afternoon. Highs in the mid 50s.
+Chance of rain 60 percent.
+.TUESDAY NIGHT...Partly cloudy. A chance of rain showers in the
+evening. Cooler with lows in the lower 30s. Chance of rain
+50 percent.
+.WEDNESDAY AND WEDNESDAY NIGHT...Mostly clear. Highs in the lower
+50s. Lows around 30.
+.THURSDAY...Sunny. Highs around 60.
+
+$$
+
+
+</pre>
+
+
+
+<!-- // CONTENT ENDS HERE -->
+</div></div>
+<div id="required">
+<hr class="required" />
+<div id="firstgov"><a href="/nwsexit.php?url=http://www.usa.gov/"><img src="/css/default/images/usagov.gif" alt="USA.gov is the U.S. government's official web portal to all federal, state and local government web resources and services." class="img" width="110" height="30" /></a></div>
+<ul id="contact">
+<li>National Weather Service</li>
+<li>Paducah, KY Weather Forecast Office</li>
+<li>8250 Kentucky Highway 3520</li><li>West Paducah, KY  42086-9762</li>
+<li>270-744-6440</li>
+<li>Page Author: PAH Webmaster</li>
+<li>Web Master's E-mail: <a href="mailto:w-pah.webmaster@noaa.gov">w-pah.webmaster@noaa.gov</a></li>
+<li>Page last modified: Sep 19th, 2023 19:10 UTC</li>
+</ul>
+<ul id="disclaimer">
+<li><a href="http://www.weather.gov/disclaimer.php">Disclaimer</a></li>
+<li><a href="http://www.weather.gov/credits.php">Credits</a></li>
+<li><a href="http://www.weather.gov/glossary/">Glossary</a></li>
+</ul>
+<ul id="policy">
+<li><a href="http://www.weather.gov/privacy.php">Privacy Policy</a></li>
+<li><a href="http://www.weather.gov/admin.php">About Us</a></li>
+<li><a href="http://www.weather.gov/careers.php">Career Opportunities</a></li>
+</ul>
+</div></div>
+</body></html>
