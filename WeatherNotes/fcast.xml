@@ -42,7 +42,7 @@
 		<updated type="str">2024-03-23T04:16:42+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-03-23T05:36:03+00:00</generatedAt>
+		<generatedAt type="str">2024-03-23T06:36:03+00:00</generatedAt>
 		<updateTime type="str">2024-03-23T04:16:42+00:00</updateTime>
 		<validTimes type="str">2024-03-22T22:00:00+00:00/P7DT3H</validTimes>
 		<elevation type="dict">
@@ -53,7 +53,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2024-03-23T00:00:00-05:00</startTime>
+				<startTime type="str">2024-03-23T01:00:00-05:00</startTime>
 				<endTime type="str">2024-03-23T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">35</temperature>
@@ -61,21 +61,21 @@
 				<temperatureTrend type="str">rising</temperatureTrend>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">20</value>
+					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">1.1111111111111112</value>
+					<value type="float">0.5555555555555556</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">79</value>
 				</relativeHumidity>
-				<windSpeed type="str">13 to 16 mph</windSpeed>
-				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20?size=medium</icon>
-				<shortForecast type="str">Slight Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers before 1am. Mostly cloudy. Low around 35, with temperatures rising to around 37 overnight. North northwest wind 13 to 16 mph, with gusts as high as 28 mph. Chance of precipitation is 20%.</detailedForecast>
+				<windSpeed type="str">16 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy. Low around 35, with temperatures rising to around 37 overnight. North wind around 16 mph, with gusts as high as 26 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
