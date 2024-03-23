@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-03-23T11:16:24+00:00</updated>
+		<updated type="str">2024-03-23T13:33:42+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-03-23T13:36:02+00:00</generatedAt>
-		<updateTime type="str">2024-03-23T11:16:24+00:00</updateTime>
-		<validTimes type="str">2024-03-23T05:00:00+00:00/P7DT20H</validTimes>
+		<generatedAt type="str">2024-03-23T14:36:02+00:00</generatedAt>
+		<updateTime type="str">2024-03-23T13:33:42+00:00</updateTime>
+		<validTimes type="str">2024-03-23T07:00:00+00:00/P7DT18H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -53,7 +53,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2024-03-23T08:00:00-05:00</startTime>
+				<startTime type="str">2024-03-23T09:00:00-05:00</startTime>
 				<endTime type="str">2024-03-23T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">53</temperature>
@@ -65,17 +65,17 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">-1.1111111111111112</value>
+					<value type="float">-1.6666666666666667</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">82</value>
+					<value type="int">66</value>
 				</relativeHumidity>
-				<windSpeed type="str">10 to 16 mph</windSpeed>
+				<windSpeed type="str">10 to 14 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
-				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 53. North northeast wind 10 to 16 mph, with gusts as high as 23 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
+				<shortForecast type="str">Sunny</shortForecast>
+				<detailedForecast type="str">Sunny, with a high near 53. North northeast wind 10 to 14 mph, with gusts as high as 22 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -150,7 +150,7 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">67</value>
+					<value type="int">66</value>
 				</relativeHumidity>
 				<windSpeed type="str">13 to 22 mph</windSpeed>
 				<windDirection type="str">SE</windDirection>
@@ -177,13 +177,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">67</value>
+					<value type="int">69</value>
 				</relativeHumidity>
-				<windSpeed type="str">23 to 28 mph</windSpeed>
+				<windSpeed type="str">23 to 26 mph</windSpeed>
 				<windDirection type="str">SSE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,20/rain_showers,40?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers. Mostly cloudy, with a high near 65. South southeast wind 23 to 28 mph, with gusts as high as 41 mph. Chance of precipitation is 40%.</detailedForecast>
+				<detailedForecast type="str">A chance of rain showers. Mostly cloudy, with a high near 65. South southeast wind 23 to 26 mph, with gusts as high as 41 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">6</number>
@@ -204,13 +204,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">94</value>
+					<value type="int">96</value>
 				</relativeHumidity>
 				<windSpeed type="str">17 to 29 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,100/tsra,100?size=medium</icon>
 				<shortForecast type="str">Rain Showers</shortForecast>
-				<detailedForecast type="str">Rain showers before 1am, then showers and thunderstorms likely. Mostly cloudy, with a low around 48. South wind 17 to 29 mph, with gusts as high as 45 mph. Chance of precipitation is 100%.</detailedForecast>
+				<detailedForecast type="str">Rain showers before 1am, then showers and thunderstorms likely. Mostly cloudy, with a low around 48. South wind 17 to 29 mph, with gusts as high as 44 mph. Chance of precipitation is 100%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">7</number>
@@ -231,7 +231,7 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">93</value>
+					<value type="int">96</value>
 				</relativeHumidity>
 				<windSpeed type="str">12 to 17 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>
