@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/965541/" title="See Description">[$] The rest of the 6.9 merge window</a></li>
+<li><a href="#https://lwn.net/Articles/966611/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/966547/" title="See Description">Emacs 29.3 released</a></li>
 <li><a href="#https://lwn.net/Articles/966525/" title="See Description">Kernel prepatch 6.9-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/966415/" title="See Description">Security updates for Friday</a></li>
@@ -51,11 +53,34 @@
 <li><a href="#https://lwn.net/Articles/966096/" title="See Description">GNOME 46 released</a></li>
 <li><a href="#https://lwn.net/Articles/965434/" title="See Description">[$] Managing Linux servers with Cockpit</a></li>
 <li><a href="#https://lwn.net/Articles/966056/" title="See Description">Python announces first security releases since becoming a CNA</a></li>
-<li><a href="#https://lwn.net/Articles/966053/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/964839/" title="See Description">[$] "Real" anonymous functions for Python</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/965541/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 25 Mar 2024 16:08:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/965541/" title="https://lwn.net/Articles/965541/">[$] The rest of the 6.9 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://lwn.net/ml/linux-kernel/CAHk-=wgOw_13JuuX4khpn4K+n09cRG3EBQWufAPBWoa0GLLQ0A@mail.gmail.com/">6.9-rc1</a>
+kernel prepatch was released on March&nbsp;24, closing the merge window for
+this development cycle. By that time, 12,435 non-merge changesets had been
+merged into the mainline, making for a less-busy merge window than the last
+couple of kernel releases (but similar to the 12,492 seen for 6.5).  Well
+over 7,000 of those changes were merged after <a
+href="https://lwn.net/Articles/965141/">the first-half merge-window summary</a> was
+written, meaning that the latter part of the merge window brought many more
+interesting changes.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/966611/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 25 Mar 2024 15:11:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966611/" title="https://lwn.net/Articles/966611/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (cacti, firefox-esr, freeipa, gross, libnet-cidr-lite-perl, python2.7, python3.7, samba, and thunderbird), <b>Fedora</b> (amavis, chromium, clojure, firefox, gnutls, kubernetes, and tcpreplay), <b>Mageia</b> (freeimage, libreswan, nodejs-hawk, and python, python3), <b>Oracle</b> (golang, nodejs, nodejs:16, and postgresql-jdbc), <b>Slackware</b> (emacs and mozilla), <b>SUSE</b> (dav1d, ghostscript, go1.22, indent, kernel, openvswitch, PackageKit, python-uamqp, rubygem-rack-1_4, shadow, ucode-intel, xen, and zziplib), and <b>Ubuntu</b> (firefox, graphviz, libnet-cidr-lite-perl, and qpdf).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/966547/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 25 Mar 2024 11:11:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,35 +303,6 @@ href="https://www.cve.org/CVERecord?id=CVE-2023-6597">CVE-2023-6597</a> is an
 issue with Python's <tt>tempfile.TemporaryDirectory</tt> class which could be
 exploited to modify permissions of files referenced by symbolic links. 
 Users of affected versions should upgrade soon.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/966053/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 Mar 2024 12:51:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/966053/" title="https://lwn.net/Articles/966053/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (fontforge and imagemagick), <b>Fedora</b> (firefox), <b>Mageia</b> (cherrytree, python-django, qpdf, and sqlite3), <b>Red Hat</b> (bind, cups, emacs, fwupd, gmp, kernel, libreoffice, libX11, nodejs, opencryptoki, postgresql-jdbc, postgresql:10, postgresql:13, and ruby:3.1), <b>Slackware</b> (gnutls and mozilla), and <b>Ubuntu</b> (firefox, linux, linux-bluefield, linux-gcp, linux-gkeop, linux-hwe-5.4, linux-ibm,
- linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-aws, linux-aws-5.4, linux-aws, linux-aws-6.5, and linux-oracle, linux-oracle-5.15).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/964839/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 19 Mar 2024 21:18:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/964839/" title="https://lwn.net/Articles/964839/">[$] "Real" anonymous functions for Python</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There are a number of different language-enhancement ideas that crop up
-with some 
-regularity in 
-the Python community; many of them have been debated and shot down multiple
-times over the years.  When one inevitably arises anew, it can sometimes be
-difficult to tamp it down, even if it is unlikely that the idea will go
-any further than the last N times it cropped up.  A recent discussion about
-"real" anonymous functions follows a somewhat predictable path, but there
-are still reasons to participate in vetting these "new" ideas, despite the
-tiresome, repetitive 
-nature of the exercise—examples of 
-recurring feature ideas that were eventually adopted <a
-href="https://lwn.net/Articles/808836/">definitely exist</a>.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
