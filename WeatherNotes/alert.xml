@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f194ae34f8911dfce3e9bf43fb2b2be8be382e4.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ebcdbab89be6e9e094f4e7abf45177971165c60.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f194ae34f8911dfce3e9bf43fb2b2be8be382e4.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ebcdbab89be6e9e094f4e7abf45177971165c60.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.6f194ae34f8911dfce3e9bf43fb2b2be8be382e4.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.7ebcdbab89be6e9e094f4e7abf45177971165c60.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -201,14 +201,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2024-03-24T13:28:00-05:00</sent>
-				<effective type="str">2024-03-24T13:28:00-05:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6f194ae34f8911dfce3e9bf43fb2b2be8be382e4.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.6f194ae34f8911dfce3e9bf43fb2b2be8be382e4.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2024-03-24T13:28:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2024-03-25T02:54:00-05:00</sent>
+				<effective type="str">2024-03-25T02:54:00-05:00</effective>
 				<onset type="str">2024-03-25T05:00:00-05:00</onset>
-				<expires type="str">2024-03-25T04:00:00-05:00</expires>
+				<expires type="str">2024-03-25T11:00:00-05:00</expires>
 				<ends type="str">2024-03-26T05:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -216,12 +223,13 @@
 				<event type="str">Wind Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Wind Advisory issued March 24 at 1:28PM CDT until March 26 at 5:00AM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...South winds 20 to 30 mph with gusts up to 50 mph
-expected.
+				<headline type="str">Wind Advisory issued March 25 at 2:54AM CDT until March 26 at 5:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...South winds at 20 to 30 mph with gusts up to 50 mph
+are expected.
 
-* WHERE...All of southern Illinois, southwest Indiana, western
-Kentucky, and southeast Missouri.
+* WHERE...This advisory is in effect for all of southern
+Illinois, southwest Indiana, western Kentucky, and southeast
+Missouri.
 
 * WHEN...From 5 AM CDT /6 AM EDT/ Monday to 5 AM CDT /6 AM EDT/
 Tuesday.
@@ -231,10 +239,10 @@ Tree limbs could be blown down and a few power outages may
 result.
 
 * ADDITIONAL DETAILS...Higher gusts are possible. Be sure to
-prepare for potential minor damages and travel difficulties due
-to high winds, especially for high profile and towing vehicles.
-In addition, area lakes will experience dangerously high wave
-conditions.</description>
+prepare for potential minor damages and travel difficulties
+due to high winds, especially for high profile and towing
+vehicles. In addition, area lakes will experience dangerously
+high wave conditions.</description>
 				<instruction type="str">Use extra caution when driving, especially if operating a high
 profile vehicle. Secure outdoor objects.</instruction>
 				<response type="str">Execute</response>
@@ -243,10 +251,10 @@ profile vehicle. Secure outdoor objects.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 241828</item>
+						<item type="str">WWUS73 KPAH 250754</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WIND ADVISORY IN EFFECT FROM 5 AM CDT /6 AM EDT/ MONDAY TO 5 AM CDT /6 AM EDT/ TUESDAY</item>
+						<item type="str">WIND ADVISORY REMAINS IN EFFECT UNTIL 5 AM CDT /6 AM EDT/ TUESDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -254,7 +262,7 @@ profile vehicle. Secure outdoor objects.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.WI.Y.0005.240325T1000Z-240326T1000Z/</item>
+						<item type="str">/O.CON.KPAH.WI.Y.0005.240325T1000Z-240326T1000Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2024-03-26T10:00:00+00:00</item>
@@ -264,5 +272,5 @@ profile vehicle. Secure outdoor objects.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-03-24T18:37:25+00:00</updated>
+	<updated type="str">2024-03-25T07:54:37+00:00</updated>
 </all>
