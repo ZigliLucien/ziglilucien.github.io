@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of rain showers after 2pm. Cloudy. High near 65, with temperatures falling to around 63 in the afternoon. South southeast
-         wind 18 to 31 mph, with gusts as high as 47 mph. Chance of precipitation is 50%.<br></div>
+         wind 23 to 31 mph, with gusts as high as 47 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
