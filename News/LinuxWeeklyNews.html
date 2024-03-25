@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/965631/" title="See Description">[$] Nix at SCALE</a></li>
 <li><a href="#https://lwn.net/Articles/965541/" title="See Description">[$] The rest of the 6.9 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/966611/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/966547/" title="See Description">Emacs 29.3 released</a></li>
@@ -52,10 +53,33 @@
 <li><a href="#https://lwn.net/Articles/965368/" title="See Description">[$] LWN.net Weekly Edition for March 21, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/966096/" title="See Description">GNOME 46 released</a></li>
 <li><a href="#https://lwn.net/Articles/965434/" title="See Description">[$] Managing Linux servers with Cockpit</a></li>
-<li><a href="#https://lwn.net/Articles/966056/" title="See Description">Python announces first security releases since becoming a CNA</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/965631/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 25 Mar 2024 17:35:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/965631/" title="https://lwn.net/Articles/965631/">[$] Nix at SCALE</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The first-ever <a href="https://2024-na.nixcon.org/">NixCon</a>
+in North America was co-located with
+<a href="https://www.socallinuxexpo.org/scale/21x">SCALE</a> this year. The
+event drew a mix of experienced
+<a href="https://nixos.org/">Nix</a> users
+and people new to the project.
+I attended talks that covered using Nix to build Docker images, upcoming changes
+to how NixOS performs early booting, and ideas for making the set of services
+provided in <a href="https://github.com/NixOS/nixpkgs">nixpkgs</a>
+more useful for self hosting. (LWN covered the relationship between
+Nix, NixOS, and nixpkgs in a
+<a href="https://lwn.net/Articles/962788">recent article</a>.)
+Near the end of the
+conference, a collection of Nix contributors gave a "State of the Union"
+about the growth of the project and highlighting areas of concern.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/965541/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 25 Mar 2024 16:08:21 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -272,37 +296,6 @@ rather than larger releases with many new features. While the strategy
 has done little to garner headlines, it has delivered a useful and
 extensible tool to observe, manage, and troubleshoot Linux servers.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/966056/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 Mar 2024 16:42:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/966056/" title="https://lwn.net/Articles/966056/">Python announces first security releases since becoming a CNA</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Python project has <a
-href="https://lwn.net/Articles/966069/">announced</a> three security releases, <a
-href="https://www.python.org/downloads/release/python-31014/">3.10.14</a>,
-<a href="https://www.python.org/downloads/release/python-3919/">3.9.19</a>,
-and <a href="https://www.python.org/downloads/release/python-3819/">3.8.19</a>.
-In addition to the security fixes, these releases are notable for two reasons;
-they are the first to make use of GitHub Actions to <a
-href="https://github.com/python/release-tools/actions/runs/8350750234">perform
-public builds</a> instead of building artifacts "<q>on a local computer of one
-of the release managers</q>", and the first since Python <a
-href="https://pyfound.blogspot.com/2023/08/psf-authorized-as-cna.html">became a
-CVE Numbering Authority</a> (CNA).</p>
-
-<p>Python release team member Łukasz Langa said
-that being a CNA means Python is able to "<q>ensure the quality of the vulnerability
-reports is high, and that the severity estimates are accurate.</q>" It also
-allows Python to coordinate CVE announcements with the patched versions of
-Python, as it has with two CVEs addressed in these releases. <s>CVE-2023-6597</s> <a
-href="https://www.cve.org/CVERecord?id=CVE-2024-0450">CVE-2024-0450</a>
-describes a flaw in CPython's <tt>zipfile</tt> module that made it vulnerable to a <a
-href="https://en.wikipedia.org/wiki/Zip_bomb">zip-bomb</a> exploit. <s>CVE-2024-0450</s> <a
-href="https://www.cve.org/CVERecord?id=CVE-2023-6597">CVE-2023-6597</a> is an
-issue with Python's <tt>tempfile.TemporaryDirectory</tt> class which could be
-exploited to modify permissions of files referenced by symbolic links. 
-Users of affected versions should upgrade soon.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
