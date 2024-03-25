@@ -2,24 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A chance of rain showers after 2pm. Cloudy. High near 65, with temperatures falling to around 63 in the afternoon. South southeast
-         wind 26 to 31 mph, with gusts as high as 47 mph. Chance of precipitation is 50%.<br></div>
+         <h3>This Afternoon</h3>A chance of rain showers after 5pm. Mostly cloudy. High near 65, with temperatures falling to around 63 in the afternoon.
+         South southeast wind 22 to 28 mph, with gusts as high as 41 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Rain showers likely before 7pm, then showers and thunderstorms between 7pm and 1am, then a chance of showers and thunderstorms
-         between 1am and 4am, then a chance of showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy.
-         Low around 51, with temperatures rising to around 55 overnight. South wind 15 to 33 mph, with gusts as high as 48 mph. Chance
-         of precipitation is 100%.<br></div>
+         <h3>Tonight</h3>Rain showers before 7pm, then showers and thunderstorms between 7pm and 3am, then a slight chance of showers and thunderstorms
+         between 3am and 5am. Mostly cloudy. Low around 51, with temperatures rising to around 54 overnight. South wind 14 to 33 mph,
+         with gusts as high as 49 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of showers and thunderstorms before 1pm. Mostly sunny. High near 60, with temperatures falling to around 58 in the
-         afternoon. Southwest wind 14 to 18 mph, with gusts as high as 26 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tuesday</h3>Partly sunny. High near 60, with temperatures falling to around 57 in the afternoon. Southwest wind 14 to 18 mph, with gusts
+         as high as 29 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Partly cloudy, with a low around 34. West northwest wind 6 to 13 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Tuesday Night</h3>Mostly cloudy, with a low around 34. West wind 6 to 13 mph, with gusts as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
