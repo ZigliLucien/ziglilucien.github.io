@@ -1,5 +1,5 @@
 <p>
-   <h2>Wind Advisory issued March 25 at 7:27AM CDT until March 26 at 5:00AM CDT by NWS Paducah KY</h2>
+   <h2>Wind Advisory issued March 25 at 3:10PM CDT until March 26 at 5:00AM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...South winds at 20 to 30 mph with gusts up to 50 mph are
       expected.
       
@@ -15,8 +15,8 @@
       
       * ADDITIONAL DETAILS...Higher gusts are possible. Be sure to
       prepare for potential minor damage and travel difficulties due
-      to high winds, especially for high profile and towing vehicles.
-      In addition, area lakes will experience dangerously high wave
-      conditions.
+      to high winds, especially for high profile and towing
+      vehicles. In addition, area lakes will experience dangerously
+      high wave conditions.
    </div>
 </p>
