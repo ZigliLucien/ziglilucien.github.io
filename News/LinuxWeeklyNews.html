@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/966525/" title="See Description">Kernel prepatch 6.9-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/966415/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/965837/" title="See Description">[$] Hardening the kernel against heap-spraying attacks</a></li>
 <li><a href="#https://lwn.net/Articles/966246/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,30 @@
 <li><a href="#https://lwn.net/Articles/966053/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/964839/" title="See Description">[$] "Real" anonymous functions for Python</a></li>
 <li><a href="#https://lwn.net/Articles/965959/" title="See Description">Firefox 124.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/965958/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/966525/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 24 Mar 2024 23:10:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966525/" title="https://lwn.net/Articles/966525/">Kernel prepatch 6.9-rc1</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/966524/">6.9-rc1</a> kernel prepatch is out for
+testing.  Linus Torvalds described some rather large updates to the core
+kernel code that are coming for 6.9:
+
+<blockquote class="bq">
+The timer subsystem had a fairly big rewrite, to have per-cpu timer
+wheels to improve performance of timers, which can be a big deal
+particularly for networking. The other fairly notable core update is
+to the workqueue subsystem, where one notable addition is for BH
+workqueue support. That's notable mainly because it means we finally
+have a way away from tasklets. The tasklet interface has basically
+been deprecated for a long while, but we've never really had any good
+alternatives (with threaded interrupt handlers being one suggested
+use-case, but not realistic in many cases).
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/966415/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 22 Mar 2024 12:50:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -277,14 +298,6 @@ href="https://lwn.net/Articles/808836/">definitely exist</a>.
 124.0</a> of the Firefox browser is out.  Changes include support for
 "caret browsing mode" in the PDF viewer and the ability to control the
 sorting of tabs in the Firefox View screen.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/965958/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 19 Mar 2024 16:55:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/965958/" title="https://lwn.net/Articles/965958/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (cacti, postgresql-11, and zfs-linux), <b>Fedora</b> (freeimage, mingw-expat, and mingw-freeimage), <b>Mageia</b> (apache-mod_security-crs, expat, and multipath-tools), <b>Oracle</b> (.NET 7.0 and kernel), <b>Red Hat</b> (kernel, kernel-rt, and kpatch-patch), and <b>Ubuntu</b> (bash, kernel, linux, linux-aws, linux-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-kvm, linux-lts-xenial, and vim).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
