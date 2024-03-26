@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms before 4am. Mostly cloudy. Low around 51, with temperatures rising to around 55 overnight. South
-         wind 9 to 18 mph, with gusts as high as 38 mph. Chance of precipitation is 100%.<br></div>
+         wind 9 to 15 mph, with gusts as high as 28 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
