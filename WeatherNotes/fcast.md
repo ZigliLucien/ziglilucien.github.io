@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Mostly cloudy. High near 54, with temperatures falling to around 51 in the afternoon. West southwest wind 14 to 17 mph, with
-         gusts as high as 29 mph.<br></div>
+         <h3>This Afternoon</h3>Mostly cloudy. High near 54, with temperatures falling to around 51 in the afternoon. West southwest wind around 16 mph, with
+         gusts as high as 25 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
