@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-03-26T05:17:49+00:00</updated>
+		<updated type="str">2024-03-26T06:32:47+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-03-26T05:24:37+00:00</generatedAt>
-		<updateTime type="str">2024-03-26T05:17:49+00:00</updateTime>
-		<validTimes type="str">2024-03-25T23:00:00+00:00/P7DT2H</validTimes>
+		<generatedAt type="str">2024-03-26T06:36:02+00:00</generatedAt>
+		<updateTime type="str">2024-03-26T06:32:47+00:00</updateTime>
+		<validTimes type="str">2024-03-26T00:00:00+00:00/P7DT1H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -53,7 +53,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2024-03-26T00:00:00-05:00</startTime>
+				<startTime type="str">2024-03-26T01:00:00-05:00</startTime>
 				<endTime type="str">2024-03-26T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">51</temperature>
@@ -61,21 +61,21 @@
 				<temperatureTrend type="str">rising</temperatureTrend>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">90</value>
+					<value type="int">20</value>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">12.777777777777779</value>
+					<value type="float">11.666666666666666</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">100</value>
+					<value type="int">96</value>
 				</relativeHumidity>
-				<windSpeed type="str">9 to 13 mph</windSpeed>
-				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra,90?size=medium</icon>
-				<shortForecast type="str">Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms. Mostly cloudy. Low around 51, with temperatures rising to around 55 overnight. South wind 9 to 13 mph, with gusts as high as 25 mph. Chance of precipitation is 90%.</detailedForecast>
+				<windSpeed type="str">6 to 15 mph</windSpeed>
+				<windDirection type="str">SSE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A slight chance of rain showers after 5am. Mostly cloudy. Low around 51, with temperatures rising to around 54 overnight. South southeast wind 6 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -92,11 +92,11 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">10.555555555555555</value>
+					<value type="float">11.11111111111111</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">90</value>
+					<value type="int">93</value>
 				</relativeHumidity>
 				<windSpeed type="str">14 to 22 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
