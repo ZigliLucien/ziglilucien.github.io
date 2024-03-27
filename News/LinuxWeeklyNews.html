@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/966835/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/966755/" title="See Description">Eight new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/966187/" title="See Description">[$] GNOME 46 puts Flatpaks front and center</a></li>
 <li><a href="#https://lwn.net/Articles/966678/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/966205/" title="See Description">Rust 1.77.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/966181/" title="See Description">Perl 5.39.9 released</a></li>
 <li><a href="#https://lwn.net/Articles/966133/" title="See Description">Redis is no longer free software</a></li>
-<li><a href="#https://lwn.net/Articles/966129/" title="See Description">The "Nova" driver for NVIDIA chipsets</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/966835/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 27 Mar 2024 13:18:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966835/" title="https://lwn.net/Articles/966835/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (composer and nodejs), <b>Fedora</b> (w3m), <b>Mageia</b> (tomcat), <b>Oracle</b> (expat, firefox, go-toolset:ol8, grafana, grafana-pcp, nodejs:18, and thunderbird), <b>Red Hat</b> (dnsmasq, expat, kernel, kernel-rt, libreoffice, and squid), and <b>SUSE</b> (firefox, krb5, libvirt, and shadow).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/966755/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 26 Mar 2024 22:59:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -267,37 +275,6 @@ neither license qualifies as free software.
 Distributors like Fedora are already <a
 href="https://lwn.net/ml/fedora-devel/CAEg-Je_GoiJN6kOj1_K5WqTvA6n0j8r4fi9=C7-WbXLHovM3ow@mail.gmail.com/">looking
 at</a> removing Redis as a consequence.  (Thanks to  Emmanuel Seyman).</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/966129/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 21 Mar 2024 07:10:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/966129/" title="https://lwn.net/Articles/966129/">The "Nova" driver for NVIDIA chipsets</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Danilo Krummrich has <a
-href="https://lwn.net/ml/nouveau/Zfsj0_tb-0-tNrJy@cassiopeiae/">announced</a> the
-existence of the "Nova" project within Red Hat.
-<p>
-<blockquote class="bq">
-	We just started to work on Nova, a Rust-based GSP-only driver for
-	Nvidia GPUs. Nova, in the long term, is intended to serve as the
-	successor of Nouveau for GSP-firmware-based GPUs.
-<p>
-	With Nova we see the chance to significantly decrease the
-	complexity of the driver compared to Nouveau for mainly two
-	reasons. First, Nouveau's historic architecture, especially around
-	nvif/nvkm, is rather complicated and inflexible and requires major
-	rework to solve certain problems (such as locking hierarchy in VMM
-	/ MMU code for VM_BIND currently being solved with a workaround)
-	and second, with a GSP-only driver there is no need to maintain
-	compatibility with pre-GSP code.
-<p>
-	Besides that, we also want to take the chance to contribute to the
-	Rust efforts in the kernel and benefit from from more memory safety
-	offered by the Rust programming language.
-</blockquote>
-<p>
-Given that the effort has just begun, it will be a while before this driver
-shows up in a distribution release.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
