@@ -2,15 +2,11 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Widespread frost. Clear. Low around 31, with temperatures rising to around 33 overnight. South wind around 1 mph.<br></div>
+         <h3>Today</h3>Widespread frost before 9am. Sunny, with a high near 63. Southwest wind 2 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Widespread frost before 9am. Sunny, with a high near 63. Southwest wind 2 to 9 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 44. Southwest wind around 8 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear, with a low around 44. Southwest wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -34,7 +30,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>A slight chance of showers and thunderstorms. Partly sunny, with a high near 77. South wind 12 to 17 mph, with gusts as high
-         as 26 mph.<br></div>
+         as 26 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -64,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>Sunny, with a high near 59. North northwest wind 12 to 16 mph, with gusts as high as 25 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>Mostly clear, with a low around 40. West northwest wind 9 to 14 mph, with gusts as high as 22 mph.<br></div>
    </p>
 </div>
