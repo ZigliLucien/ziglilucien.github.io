@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/965508/" title="See Description">[$] Declarative partitioning in PostgreSQL</a></li>
+<li><a href="#https://lwn.net/Articles/966996/" title="See Description">Samba 4.20.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/966961/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/966118/" title="See Description">[$] LWN.net Weekly Edition for March 28, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/966868/" title="See Description">The PostgreSQL community mourns Simon Riggs</a></li>
@@ -51,11 +53,39 @@
 <li><a href="#https://lwn.net/Articles/966611/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/966547/" title="See Description">Emacs 29.3 released</a></li>
 <li><a href="#https://lwn.net/Articles/966525/" title="See Description">Kernel prepatch 6.9-rc1</a></li>
-<li><a href="#https://lwn.net/Articles/966415/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/965837/" title="See Description">[$] Hardening the kernel against heap-spraying attacks</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/965508/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 28 Mar 2024 15:34:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/965508/" title="https://lwn.net/Articles/965508/">[$] Declarative partitioning in PostgreSQL</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Keith Fiske gave a talk
+(with <a href="https://www.socallinuxexpo.org/sites/default/files/presentations/state_of_partitioning_0.pdf">
+slides</a>) about the state of partitioning — splitting a large
+table into smaller tables for performance reasons — in
+<a href="https://www.postgresql.org/">PostgreSQL</a> at
+<a href="https://www.socallinuxexpo.org/scale/21x">SCALE</a>
+this year. He spoke about the existing support for partitioning, what work still
+needs to be done, and what place existing partitioning tools, like his own
+<a href="https://github.com/pgpartman/pg_partman">
+<tt>pg_partman</tt></a>, still have as PostgreSQL gains more built-in features.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/966996/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 28 Mar 2024 14:19:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966996/" title="https://lwn.net/Articles/966996/">Samba 4.20.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Version 4.20.0 of the Samba Windows interoperability suite has been
+released.  Changes include better support for group-managed service
+accounts, an experimental Windows search protocol client, support for
+conditional access control entries, and more.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/966961/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 28 Mar 2024 13:54:43 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -244,30 +274,6 @@ been deprecated for a long while, but we've never really had any good
 alternatives (with threaded interrupt handlers being one suggested
 use-case, but not realistic in many cases).
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/966415/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 22 Mar 2024 12:50:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/966415/" title="https://lwn.net/Articles/966415/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr, pillow, and thunderbird), <b>Fedora</b> (apptainer, chromium, ovn, and webkitgtk), <b>Mageia</b> (apache-mod_auth_openidc, ffmpeg, fontforge, libuv, and nodejs-tough-cookie), <b>Oracle</b> (kernel, libreoffice, postgresql-jdbc, ruby:3.1, squid, and squid:4), <b>Red Hat</b> (go-toolset:rhel8 and libreoffice), <b>SUSE</b> (firefox, jbcrypt, trilead-ssh2, jsch-agent-proxy, kernel, tiff, and zziplib), and <b>Ubuntu</b> (linux-aws and openssl1.0).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/965837/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 21 Mar 2024 15:07:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/965837/" title="https://lwn.net/Articles/965837/">[$] Hardening the kernel against heap-spraying attacks</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>While a programming error in the kernel may be subject to direct
-exploitation, usually a more roundabout approach is required to take
-advantage of a security bug.  One popular approach for those wishing to
-take advantage of vulnerabilities  is <a
-href="https://en.wikipedia.org/wiki/Heap_spraying">heap spraying</a>, and
-it has often been employed to compromise the kernel.  In the future,
-though, heap-spraying attacks may be a bit harder to pull off, thanks to <a
-href="https://lwn.net/ml/linux-kernel/20240305100933.it.923-kees@kernel.org/">the
-"dedicated bucket allocator"</a> proposed by Kees Cook.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
