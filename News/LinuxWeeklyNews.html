@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/966631/" title="See Description">[$] The race to replace Redis</a></li>
 <li><a href="#https://lwn.net/Articles/965508/" title="See Description">[$] Declarative partitioning in PostgreSQL</a></li>
 <li><a href="#https://lwn.net/Articles/966996/" title="See Description">Samba 4.20.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/966961/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/965541/" title="See Description">[$] The rest of the 6.9 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/966611/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/966547/" title="See Description">Emacs 29.3 released</a></li>
-<li><a href="#https://lwn.net/Articles/966525/" title="See Description">Kernel prepatch 6.9-rc1</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/966631/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 28 Mar 2024 20:31:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/966631/" title="https://lwn.net/Articles/966631/">[$] The race to replace Redis</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>On March 21, <a href="https://redis.com/company/">Redis Ltd.</a> announced that the <a
+href="https://redis.io/">Redis</a> "<q>in-memory data store</q>" project would now be
+released under non-free, source-available licenses, starting with Redis&nbsp;7.4. The
+news is unwelcome, but not entirely unexpected. What is unusual with this situation is
+the number of Redis alternatives to choose from; there are at least
+four options to choose as a replacement for those who wish to stay
+with free software, including a pre-existing fork called <a
+href="https://docs.keydb.dev/">KeyDB</a> and the Linux Foundation's newly-announced <a href="https://www.linuxfoundation.org/press/linux-foundation-launches-open-source-valkey-community">Valkey</a> project. The question now is which one(s)
+Linux distributions, users, and providers will choose to take its place.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/965508/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 28 Mar 2024 15:34:47 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -253,27 +269,6 @@ Those vulnerabilities mostly have to do with executing untrusted Lisp code;
 see <a
 href="https://git.savannah.gnu.org/cgit/emacs.git/tree/etc/NEWS?h=emacs-29#n46">the
 NEWS file</a> for a bit more information.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/966525/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 24 Mar 2024 23:10:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/966525/" title="https://lwn.net/Articles/966525/">Kernel prepatch 6.9-rc1</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/966524/">6.9-rc1</a> kernel prepatch is out for
-testing.  Linus Torvalds described some rather large updates to the core
-kernel code that are coming for 6.9:
-
-<blockquote class="bq">
-The timer subsystem had a fairly big rewrite, to have per-cpu timer
-wheels to improve performance of timers, which can be a big deal
-particularly for networking. The other fairly notable core update is
-to the workqueue subsystem, where one notable addition is for BH
-workqueue support. That's notable mainly because it means we finally
-have a way away from tasklets. The tasklet interface has basically
-been deprecated for a long while, but we've never really had any good
-alternatives (with threaded interrupt handlers being one suggested
-use-case, but not realistic in many cases).
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
