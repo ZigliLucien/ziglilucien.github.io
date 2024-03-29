@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-03-29T13:49:02+00:00</updated>
+		<updated type="str">2024-03-29T16:34:50+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-03-29T16:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-03-29T13:49:02+00:00</updateTime>
-		<validTimes type="str">2024-03-29T07:00:00+00:00/P7DT18H</validTimes>
+		<generatedAt type="str">2024-03-29T17:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-03-29T16:34:50+00:00</updateTime>
+		<validTimes type="str">2024-03-29T10:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -52,8 +52,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2024-03-29T11:00:00-05:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2024-03-29T12:00:00-05:00</startTime>
 				<endTime type="str">2024-03-29T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">72</temperature>
@@ -69,13 +69,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">48</value>
+					<value type="int">45</value>
 				</relativeHumidity>
-				<windSpeed type="str">14 to 17 mph</windSpeed>
+				<windSpeed type="str">16 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 72. South southwest wind 14 to 17 mph, with gusts as high as 26 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 72. South southwest wind around 16 mph, with gusts as high as 25 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -88,7 +88,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">20</value>
+					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
@@ -98,11 +98,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">67</value>
 				</relativeHumidity>
-				<windSpeed type="str">15 to 18 mph</windSpeed>
+				<windSpeed type="str">14 to 17 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy then Slight Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers after 1am. Mostly cloudy, with a low around 56. South southwest wind 15 to 18 mph, with gusts as high as 29 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 56. South southwest wind 14 to 17 mph, with gusts as high as 28 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -115,7 +115,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">20</value>
+					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
@@ -125,11 +125,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">72</value>
 				</relativeHumidity>
-				<windSpeed type="str">10 to 18 mph</windSpeed>
+				<windSpeed type="str">9 to 16 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,20/sct?size=medium</icon>
-				<shortForecast type="str">Slight Chance Rain Showers then Mostly Sunny</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers before 7am. Mostly sunny, with a high near 76. Southwest wind 10 to 18 mph, with gusts as high as 29 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
+				<shortForecast type="str">Mostly Sunny</shortForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 76. Southwest wind 9 to 16 mph, with gusts as high as 26 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -152,11 +152,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">87</value>
 				</relativeHumidity>
-				<windSpeed type="str">6 to 9 mph</windSpeed>
+				<windSpeed type="str">8 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/bkn/tsra_hi,20?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy then Slight Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of showers and thunderstorms after 1am. Mostly cloudy, with a low around 58. Southwest wind 6 to 9 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A slight chance of showers and thunderstorms after 10pm. Mostly cloudy, with a low around 58. Southwest wind around 8 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
