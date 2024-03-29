@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/967180/" title="See Description">A backdoor in xz</a></li>
 <li><a href="#https://lwn.net/Articles/966869/" title="See Description">[$] Radicle: peer-to-peer collaboration with Git</a></li>
 <li><a href="#https://lwn.net/Articles/967134/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/967107/" title="See Description">Schaller: Fedora Workstation 40 – what are we working on</a></li>
@@ -52,10 +53,52 @@
 <li><a href="#https://lwn.net/Articles/966755/" title="See Description">Eight new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/966187/" title="See Description">[$] GNOME 46 puts Flatpaks front and center</a></li>
 <li><a href="#https://lwn.net/Articles/966678/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/965631/" title="See Description">[$] Nix at SCALE</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/967180/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 29 Mar 2024 17:33:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/967180/" title="https://lwn.net/Articles/967180/">A backdoor in xz</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Andres Freund has posted <a
+href="https://lwn.net/ml/oss-security/20240329155126.kjjfduxw2yrlxgzm@awork3.anarazel.de/">a
+detailed investigation</a> into a backdoor that was shipped with versions
+5.6.0 and 5.6.1 of the xz compression utility.  It appears that the
+malicious code may be aimed at allowing SSH authentication to be bypassed.
+<p>
+<blockquote class="bq">
+	I have not yet analyzed precisely what is being checked for in the
+	injected code, to allow unauthorized access. Since this is running
+	in a pre-authentication context, it seems likely to allow some form
+	of access or other form of remote code execution.
+</blockquote>
+<p>
+The affected versions are not yet widely shipped, but checking systems for
+the bad version would be a good idea.
+<p>
+<b>Update</b>: there are advisories out now from
+<a href="https://archlinux.org/news/the-xz-package-has-been-backdoored/">Arch</a>,
+<a
+href="https://lists.debian.org/debian-security-announce/2024/msg00057.html">Debian</a>,
+<a
+href="https://www.redhat.com/en/blog/urgent-security-alert-fedora-41-and-rawhide-users">Red
+Hat</a>, and
+<a
+href="https://lwn.net/ml/opensuse-factory/5d7acd45-7021-4c09-8c0b-6f4b8797aecd@suse.com/">openSUSE</a>.
+<p>
+<a href="https://news.opensuse.org/2024/03/29/xz-backdoor/">A further
+update from openSUSE</a>:
+<p>
+<blockquote class="bq">
+	For our openSUSE Tumbleweed users where SSH is exposed to the
+	internet we recommend installing fresh, as it’s unknown if the
+	backdoor has been exploited. Due to the sophisticated nature of the
+	backdoor an on-system detection of a breach is likely not
+	possible. Also rotation of any credentials that could have been
+	fetched from the system is highly recommended.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/966869/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 29 Mar 2024 13:40:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -245,30 +288,6 @@ Flatpaks as the way to acquire and update GNOME software.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>CentOS</b> (kernel), <b>Debian</b> (firefox-esr), <b>Fedora</b> (webkitgtk), <b>Mageia</b> (curaengine &amp; blender and gnutls), <b>Red Hat</b> (firefox, grafana, grafana-pcp, libreoffice, nodejs:18, and thunderbird), <b>SUSE</b> (glade), and <b>Ubuntu</b> (crmsh, debian-goodies, linux-aws, linux-aws-6.5, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-oracle, linux-azure, linux-azure-5.4, linux-oracle, linux-oracle-5.15, pam, and thunderbird).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/965631/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 25 Mar 2024 17:35:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/965631/" title="https://lwn.net/Articles/965631/">[$] Nix at SCALE</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The first-ever <a href="https://2024-na.nixcon.org/">NixCon</a>
-in North America was co-located with
-<a href="https://www.socallinuxexpo.org/scale/21x">SCALE</a> this year. The
-event drew a mix of experienced
-<a href="https://nixos.org/">Nix</a> users
-and people new to the project.
-I attended talks that covered using Nix to build Docker images, upcoming changes
-to how NixOS performs early booting, and ideas for making the set of services
-provided in <a href="https://github.com/NixOS/nixpkgs">nixpkgs</a>
-more useful for self hosting. (LWN covered the relationship between
-Nix, NixOS, and nixpkgs in a
-<a href="https://lwn.net/Articles/962788">recent article</a>.)
-Near the end of the
-conference, a collection of Nix contributors gave a "State of the Union"
-about the growth of the project and highlighting areas of concern.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
