@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/967192/" title="See Description">[$] How the XZ backdoor works</a></li>
 <li><a href="#https://lwn.net/Articles/967866/" title="See Description">[$] Free software's not-so-eXZellent adventure</a></li>
 <li><a href="#https://lwn.net/Articles/967959/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/966618/" title="See Description">[$] Improving performance with SCHED_EXT and IOCost</a></li>
@@ -52,10 +53,32 @@
 <li><a href="#https://lwn.net/Articles/966631/" title="See Description">[$] The race to replace Redis</a></li>
 <li><a href="#https://lwn.net/Articles/965508/" title="See Description">[$] Declarative partitioning in PostgreSQL</a></li>
 <li><a href="#https://lwn.net/Articles/966996/" title="See Description">Samba 4.20.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/966961/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/967192/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 02 Apr 2024 20:41:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/967192/" title="https://lwn.net/Articles/967192/">[$] How the XZ backdoor works</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Versions 5.6.0 and 5.6.1 of the
+<a href="https://git.tukaani.org/?p=xz.git;a=summary">XZ</a>
+compression utility and library
+were shipped with <a href="https://lwn.net/Articles/967180">a backdoor</a> that targeted
+<a href="https://www.openssh.com/">OpenSSH</a>.
+Andres Freund
+<a href="https://lwn.net/ml/oss-security/20240329155126.kjjfduxw2yrlxgzm@awork3.anarazel.de/">
+discovered</a> the backdoor by
+noticing that <a href="https://lwn.net/Articles/967194/">failed SSH logins were taking a lot of
+CPU time</a> while doing some
+micro-benchmarking, and tracking down the backdoor from there. It was introduced
+by XZ co-maintainer "Jia Tan" — a probable alias for person or persons unknown.
+The backdoor is a sophisticated attack with multiple parts, from the build
+system, to link time, to run time.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/967866/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 02 Apr 2024 16:22:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -330,14 +353,6 @@ needs to be done, and what place existing partitioning tools, like his own
 released.  Changes include better support for group-managed service
 accounts, an experimental Windows search protocol client, support for
 conditional access control entries, and more.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/966961/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 28 Mar 2024 13:54:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/966961/" title="https://lwn.net/Articles/966961/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (perl-Data-UUID, python-pygments, and thunderbird), <b>Mageia</b> (clojure, grub2, kernel,kmod-xtables-addons,kmod-virtualbox, kernel-linus, nss firefox, nss, python3, python, tcpreplay, and thunderbird), <b>Oracle</b> (nodejs:18), <b>Red Hat</b> (.NET 6.0 and dnsmasq), <b>SUSE</b> (avahi and python39), and <b>Ubuntu</b> (curl, linux-intel-iotg, linux-intel-iotg-5.15, unixodbc, and util-linux).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
