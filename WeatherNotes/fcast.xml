@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-04-02T07:46:54+00:00</updated>
+		<updated type="str">2024-04-02T10:01:28+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-04-02T09:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-04-02T07:46:54+00:00</updateTime>
-		<validTimes type="str">2024-04-02T01:00:00+00:00/P8D</validTimes>
+		<generatedAt type="str">2024-04-02T10:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-04-02T10:01:28+00:00</updateTime>
+		<validTimes type="str">2024-04-02T04:00:00+00:00/P7DT21H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -53,7 +53,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2024-04-02T04:00:00-05:00</startTime>
+				<startTime type="str">2024-04-02T05:00:00-05:00</startTime>
 				<endTime type="str">2024-04-02T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">63</temperature>
@@ -65,17 +65,17 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">17.77777777777778</value>
+					<value type="float">17.22222222222222</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">93</value>
+					<value type="int">83</value>
 				</relativeHumidity>
-				<windSpeed type="str">13 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
+				<windSpeed type="str">9 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/tsra,90?size=medium</icon>
 				<shortForecast type="str">Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms. Some of the storms could be severe. Cloudy. Low around 63, with temperatures rising to around 65 overnight. Southwest wind around 13 mph, with gusts as high as 21 mph. Chance of precipitation is 90%.</detailedForecast>
+				<detailedForecast type="str">Showers and thunderstorms. Some of the storms could be severe. Mostly cloudy. Low around 63, with temperatures rising to around 68 overnight. South southwest wind around 9 mph, with gusts as high as 20 mph. Chance of precipitation is 90%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -88,7 +88,7 @@
 				<temperatureTrend type="str">falling</temperatureTrend>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">80</value>
+					<value type="int">70</value>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
@@ -100,9 +100,9 @@
 				</relativeHumidity>
 				<windSpeed type="str">10 to 21 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,80/tsra_sct,30?size=medium</icon>
-				<shortForecast type="str">Showers And Thunderstorms then Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 9am, then showers and thunderstorms likely between 9am and 10am, then a chance of showers and thunderstorms between 10am and 4pm. Some of the storms could be severe. Partly sunny. High near 73, with temperatures falling to around 62 in the afternoon. Southwest wind 10 to 21 mph, with gusts as high as 30 mph. Chance of precipitation is 80%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,70/tsra_sct,30?size=medium</icon>
+				<shortForecast type="str">Showers And Thunderstorms Likely then Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">Showers and thunderstorms likely before 7am, then a chance of showers and thunderstorms between 7am and 9am, then showers and thunderstorms likely between 9am and 10am, then a chance of showers and thunderstorms between 10am and 4pm. Some of the storms could be severe. Partly sunny. High near 73, with temperatures falling to around 62 in the afternoon. Southwest wind 10 to 21 mph, with gusts as high as 30 mph. Chance of precipitation is 70%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
