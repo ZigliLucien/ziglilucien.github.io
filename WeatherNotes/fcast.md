@@ -4,8 +4,8 @@
       <div style="font-size:120%">
          <h3>Today</h3>A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms between 1pm and 2pm, then a chance
          of showers and thunderstorms between 2pm and 3pm, then a slight chance of showers and thunderstorms between 3pm and 5pm. Partly
-         sunny. High near 73, with temperatures falling to around 62 in the afternoon. Southwest wind 12 to 21 mph, with gusts as high
-         as 30 mph. Chance of precipitation is 50%.<br></div>
+         sunny. High near 70, with temperatures falling to around 62 in the afternoon. West southwest wind 15 to 21 mph, with gusts
+         as high as 30 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
