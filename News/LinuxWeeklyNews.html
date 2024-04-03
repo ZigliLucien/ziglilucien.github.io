@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/968297/" title="See Description">Malcolm: Improvements to static analysis in the GCC 14 compiler</a></li>
+<li><a href="#https://lwn.net/Articles/968250/" title="See Description">Four stable kernel updates</a></li>
+<li><a href="#https://lwn.net/Articles/967049/" title="See Description">[$] A memory model for Rust code in the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/968220/" title="See Description">KDE6 release: D-Bus and Polkit Galore (SUSE security team blog)</a></li>
 <li><a href="#https://lwn.net/Articles/968218/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/968183/" title="See Description">Redict 7.3.0 released</a></li>
@@ -50,12 +53,60 @@
 <li><a href="#https://lwn.net/Articles/967792/" title="See Description">Kernel prepatch 6.9-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/967420/" title="See Description">A few relevant quotes</a></li>
 <li><a href="#https://lwn.net/Articles/967180/" title="See Description">A backdoor in xz</a></li>
-<li><a href="#https://lwn.net/Articles/966869/" title="See Description">[$] Radicle: peer-to-peer collaboration with Git</a></li>
-<li><a href="#https://lwn.net/Articles/967134/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/967107/" title="See Description">Schaller: Fedora Workstation 40 – what are we working on</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/968297/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Apr 2024 16:44:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/968297/" title="https://lwn.net/Articles/968297/">Malcolm: Improvements to static analysis in the GCC 14 compiler</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>David Malcolm <a
+href="https://developers.redhat.com/articles/2024/04/03/improvements-static-analysis-gcc-14-compiler#">writes
+about some static-analyzer features</a> that are coming in the GCC&nbsp;14
+release.
+<p>
+<blockquote class="bq">
+	Solving the halting problem?
+<p>
+	Obviously I'm kidding with the title here, but for GCC 14 I've
+	implemented a new warning: -Wanalyzer-infinite-loop that's able to
+	detect some simple cases of infinite loops.
+</blockquote>
+<p>
+See also: <a href="https://lwn.net/Articles/946733/">this report</a> from the 2023 GNU
+Tools Cauldron.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/968250/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Apr 2024 14:53:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/968250/" title="https://lwn.net/Articles/968250/">Four stable kernel updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://lwn.net/Articles/968251/">6.8.3</a>, <a
+href="https://lwn.net/Articles/968252/">6.7.12</a>, <a
+href="https://lwn.net/Articles/968253/">6.6.24</a>, and <a
+href="https://lwn.net/Articles/968254/">6.1.84</a> stable kernel updates have been
+released. Each contains an important set of fixes. Note that 6.7.12 is
+the final release for the 6.7.y series, and that branch is now
+end-of-life. Users should move to the 6.8.y branch.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/967049/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Apr 2024 14:36:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/967049/" title="https://lwn.net/Articles/967049/">[$] A memory model for Rust code in the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Rust programming language differs from C in many ways; those
+differences tend to be what users admire in the language.  But those
+differences can also lead to an impedance mismatch when Rust code is
+integrated into a C-dominated system, and it can be even worse in the
+kernel, which is not a typical C program.  Memory models are a case in
+point.  A programming language's view of memory is sufficiently fundamental
+and arcane that many developers never have to learn much about it.  It is
+hard to maintain that sort of blissful ignorance while working in the
+kernel, though, so a recent discussion of how to choose a memory model for
+kernel code in Rust is of interest.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/968220/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 03 Apr 2024 13:45:43 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -323,51 +374,6 @@ update from openSUSE</a>:
 	backdoor an on-system detection of a breach is likely not
 	possible. Also rotation of any credentials that could have been
 	fetched from the system is highly recommended.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/966869/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 29 Mar 2024 13:40:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/966869/" title="https://lwn.net/Articles/966869/">[$] Radicle: peer-to-peer collaboration with Git</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://radicle.xyz/">Radicle</a> is a new, peer-to-peer,
-MIT/Apache-licensed collaboration platform written in Rust and built on top
-of Git. It adds support for issues and pull requests (which Radicle calls
-"patches") on top of core Git, which are stored in the Git repository
-itself. Unlike GitHub, GitLab, and similar forges, Radicle is distributed;
-it doesn't rely on having everyone use the same server. Instead, Radicle
-instances form a network that synchronizes changes between nodes.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/967134/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 29 Mar 2024 13:11:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/967134/" title="https://lwn.net/Articles/967134/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (apache-commons-configuration, chromium, csmock, ofono, onnx, php-tcpdf, and podman-tui), <b>Mageia</b> (curl), <b>Oracle</b> (libreoffice), <b>Slackware</b> (coreutils, seamonkey, and util), <b>SUSE</b> (minidlna, PackageKit, and podman), and <b>Ubuntu</b> (linux-azure-6.5 and linux-intel-iotg, linux-intel-iotg-5.15).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/967107/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 29 Mar 2024 12:56:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/967107/" title="https://lwn.net/Articles/967107/">Schaller: Fedora Workstation 40 – what are we working on</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Christian Schaller <a
-href="https://blogs.gnome.org/uraeus/2024/03/28/fedora-workstation-40-what-are-we-working-on/">writes
-about the desktop-oriented work</a> aimed at the upcoming Fedora&nbsp;40
-release.
-<p>
-<blockquote class="bq">
-	Another major feature landing in Fedora Workstation 40 that Jonas
-	Ådahl and Ray Strode has spent a lot of effort on is finalizing the
-	remote desktop support for GNOME on Wayland. So there has been
-	support for remote connections for already logged in sessions
-	already, but with these updates you can do the login remotely too
-	and thus the session do not need to be started already on the
-	remote machine. This work will also enable 3rd party solutions to
-	do remote logins on Wayland systems, so while I am not at liberty
-	to mention names, be on the lookout for more 3rd party Wayland
-	remoting software becoming available this year. 
 </blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
