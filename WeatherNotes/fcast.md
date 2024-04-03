@@ -2,17 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy. Low around 40, with temperatures rising to around 42 overnight. West wind around 13 mph, with gusts as high
-         as 18 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday</h3>Rain showers after 8am. Mostly cloudy. High near 50, with temperatures falling to around 47 in the afternoon. West wind 13
+         <h3>Today</h3>Rain showers after 8am. Mostly cloudy. High near 50, with temperatures falling to around 47 in the afternoon. West wind 8
          to 28 mph, with gusts as high as 37 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain showers before 1am. Mostly cloudy. Low around 36, with temperatures rising to around 38 overnight. West northwest
+         <h3>Tonight</h3>A chance of rain showers before 1am. Mostly cloudy. Low around 36, with temperatures rising to around 38 overnight. West northwest
          wind 13 to 25 mph, with gusts as high as 36 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
@@ -62,5 +57,10 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>A chance of rain showers. Partly sunny, with a high near 74. South wind 8 to 12 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>A chance of rain showers before 7pm, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 55. Southeast
+         wind around 10 mph.<br></div>
    </p>
 </div>
