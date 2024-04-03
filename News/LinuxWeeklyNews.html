@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/968299/" title="See Description">AlmaLinux OS - CVE-2024-1086 and XZ (AlmaLinux blog)</a></li>
 <li><a href="#https://lwn.net/Articles/968297/" title="See Description">Malcolm: Improvements to static analysis in the GCC 14 compiler</a></li>
 <li><a href="#https://lwn.net/Articles/968250/" title="See Description">Four stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/967049/" title="See Description">[$] A memory model for Rust code in the kernel</a></li>
@@ -52,10 +53,44 @@
 <li><a href="#https://lwn.net/Articles/967851/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/967792/" title="See Description">Kernel prepatch 6.9-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/967420/" title="See Description">A few relevant quotes</a></li>
-<li><a href="#https://lwn.net/Articles/967180/" title="See Description">A backdoor in xz</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/968299/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Apr 2024 18:39:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/968299/" title="https://lwn.net/Articles/968299/">AlmaLinux OS - CVE-2024-1086 and XZ (AlmaLinux blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://almalinux.org/">AlmaLinux</a> has <a
+href="https://almalinux.org/blog/2024-04-02-xz-and-cve-2024-1086/">announced</a>
+updated kernels for AlmaLinux 8 and 9 to address CVE-2024-1086, a
+use-after-free vulnerability in the kernel that could be exploited to
+gain local privilege escalation. This is notable because the fix
+marks a divergence between AlmaLinux and Red Hat Enterprise Linux (RHEL):</p>
+
+<blockquote class="bq">
+<p>In January of this year, a kernel flaw was disclosed and named <a
+href="https://nvd.nist.gov/vuln/detail/CVE-2024-1086">CVE-2024-1086</a>.
+This flaw is trivially exploitable on most RHEL-equivalent
+systems. There are many proof-of-concept posts available now,
+including one from our Infrastructure team lead, Jonathan Wright (<a
+href="https://jonathanspw.com/posts/2024-03-31-dealing-with-cve-2024-1086/">Dealing
+with CVE-2024-1086</a>). In multi-user scenarios, this flaw is
+especially problematic.
+</p>
+
+<p>Though this was flagged as something to be fixed in Red Hat
+Enterprise Linux, Red Hat has only rated this as a <a
+href="https://access.redhat.com/security/cve/CVE-2024-1086">moderate
+impact</a>.</p>
+</blockquote>
+
+<p>The AlmaLinux project would also like to note that it is not
+impacted by the XZ backdoor. "<q>Because enterprise Linux takes a bit
+longer to adopt those updates (sometimes to the chagrin of our users),
+the version of XZ that had the back door inserted hadn't made it
+further than Fedora in our ecosystem.</q>"</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/968297/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 03 Apr 2024 16:44:48 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -332,49 +367,6 @@ Deslauriers</a>
 	risks. Progress is made iteratively. Learn, adapt, repeat.
 </blockquote>
 — <a href="https://social.wildeboer.net/@jwildeboer/112184074379919145">Jan Wildeboer</a></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/967180/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 29 Mar 2024 17:33:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/967180/" title="https://lwn.net/Articles/967180/">A backdoor in xz</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Andres Freund has posted <a
-href="https://lwn.net/ml/oss-security/20240329155126.kjjfduxw2yrlxgzm@awork3.anarazel.de/">a
-detailed investigation</a> into a backdoor that was shipped with versions
-5.6.0 and 5.6.1 of the xz compression utility.  It appears that the
-malicious code may be aimed at allowing SSH authentication to be bypassed.
-<p>
-<blockquote class="bq">
-	I have not yet analyzed precisely what is being checked for in the
-	injected code, to allow unauthorized access. Since this is running
-	in a pre-authentication context, it seems likely to allow some form
-	of access or other form of remote code execution.
-</blockquote>
-<p>
-The affected versions are not yet widely shipped, but checking systems for
-the bad version would be a good idea.
-<p>
-<b>Update</b>: there are advisories out now from
-<a href="https://archlinux.org/news/the-xz-package-has-been-backdoored/">Arch</a>,
-<a
-href="https://lists.debian.org/debian-security-announce/2024/msg00057.html">Debian</a>,
-<a
-href="https://www.redhat.com/en/blog/urgent-security-alert-fedora-41-and-rawhide-users">Red
-Hat</a>, and
-<a
-href="https://lwn.net/ml/opensuse-factory/5d7acd45-7021-4c09-8c0b-6f4b8797aecd@suse.com/">openSUSE</a>.
-<p>
-<a href="https://news.opensuse.org/2024/03/29/xz-backdoor/">A further
-update from openSUSE</a>:
-<p>
-<blockquote class="bq">
-	For our openSUSE Tumbleweed users where SSH is exposed to the
-	internet we recommend installing fresh, as it’s unknown if the
-	backdoor has been exploited. Due to the sophisticated nature of the
-	backdoor an on-system detection of a breach is likely not
-	possible. Also rotation of any credentials that could have been
-	fetched from the system is highly recommended.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
