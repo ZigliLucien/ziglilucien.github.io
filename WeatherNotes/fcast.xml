@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-04-04T16:33:07+00:00</updated>
+		<updated type="str">2024-04-04T17:18:01+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-04-04T16:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-04-04T16:33:07+00:00</updateTime>
-		<validTimes type="str">2024-04-04T10:00:00+00:00/P7DT15H</validTimes>
+		<generatedAt type="str">2024-04-04T17:36:04+00:00</generatedAt>
+		<updateTime type="str">2024-04-04T17:18:01+00:00</updateTime>
+		<validTimes type="str">2024-04-04T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -52,8 +52,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2024-04-04T11:00:00-05:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2024-04-04T12:00:00-05:00</startTime>
 				<endTime type="str">2024-04-04T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">50</temperature>
@@ -69,13 +69,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">54</value>
+					<value type="int">52</value>
 				</relativeHumidity>
 				<windSpeed type="str">15 mph</windSpeed>
 				<windDirection type="str">NW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a high near 50. Northwest wind around 15 mph, with gusts as high as 22 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/ovc?size=medium</icon>
+				<shortForecast type="str">Cloudy</shortForecast>
+				<detailedForecast type="str">Cloudy, with a high near 50. Northwest wind around 15 mph, with gusts as high as 25 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -98,11 +98,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">92</value>
 				</relativeHumidity>
-				<windSpeed type="str">6 to 14 mph</windSpeed>
+				<windSpeed type="str">5 to 14 mph</windSpeed>
 				<windDirection type="str">NW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around 34. Northwest wind 6 to 14 mph, with gusts as high as 21 mph.</detailedForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 34. Northwest wind 5 to 14 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -125,11 +125,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">96</value>
 				</relativeHumidity>
-				<windSpeed type="str">6 to 9 mph</windSpeed>
+				<windSpeed type="str">3 to 9 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 56. North northwest wind 6 to 9 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 56. North northwest wind 3 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
