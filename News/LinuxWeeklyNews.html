@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/968565/" title="See Description">FFmpeg 7.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/968561/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/968468/" title="See Description">Stable kernels 6.8.4 and 6.6.25</a></li>
 <li><a href="#https://lwn.net/Articles/968429/" title="See Description">V8 incorporates new sandbox</a></li>
 <li><a href="#https://lwn.net/Articles/967001/" title="See Description">[$] A focus on FOSS funding</a></li>
@@ -51,11 +53,29 @@
 <li><a href="#https://lwn.net/Articles/968220/" title="See Description">KDE6 release: D-Bus and Polkit Galore (SUSE security team blog)</a></li>
 <li><a href="#https://lwn.net/Articles/968218/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/968183/" title="See Description">Redict 7.3.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/967192/" title="See Description">[$] How the XZ backdoor works</a></li>
-<li><a href="#https://lwn.net/Articles/967866/" title="See Description">[$] Free software's not-so-eXZellent adventure</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/968565/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 05 Apr 2024 13:47:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/968565/" title="https://lwn.net/Articles/968565/">FFmpeg 7.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://ffmpeg.org//index.html#pr7.0">Version 7.0</a> of the
+FFmpeg audio/video toolkit is out.  "<q>The most noteworthy changes for
+most users are a native VVC decoder (currently experimental, until more
+fuzzing is done), IAMF support, or a multi-threaded ffmpeg CLI tool</q>".
+There's also the usual list of new formats and codecs, and a few deprecated
+features have been removed.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/968561/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 05 Apr 2024 13:35:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/968561/" title="https://lwn.net/Articles/968561/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (cockpit), <b>Mageia</b> (python-pygments), <b>Red Hat</b> (nodejs), <b>Slackware</b> (httpd and nghttp2), <b>SUSE</b> (avahi, gradle, gradle-bootstrap, and squid), and <b>Ubuntu</b> (xorg-server, xwayland).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/968468/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 04 Apr 2024 19:13:44 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -276,44 +296,6 @@ href="https://redict.io/posts/2024-04-03-redict-7.3.0-released/">announced</a>.
 	scope and ambitions towards long-term stability rather than
 	focusing on long-term growth in scope and complexity.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/967192/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 02 Apr 2024 20:41:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/967192/" title="https://lwn.net/Articles/967192/">[$] How the XZ backdoor works</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Versions 5.6.0 and 5.6.1 of the
-<a href="https://git.tukaani.org/?p=xz.git;a=summary">XZ</a>
-compression utility and library
-were shipped with <a href="https://lwn.net/Articles/967180">a backdoor</a> that targeted
-<a href="https://www.openssh.com/">OpenSSH</a>.
-Andres Freund
-<a href="https://lwn.net/ml/oss-security/20240329155126.kjjfduxw2yrlxgzm@awork3.anarazel.de/">
-discovered</a> the backdoor by
-noticing that <a href="https://lwn.net/Articles/967194/">failed SSH logins were taking a lot of
-CPU time</a> while doing some
-micro-benchmarking, and tracking down the backdoor from there. It was introduced
-by XZ co-maintainer "Jia Tan" — a probable alias for person or persons unknown.
-The backdoor is a sophisticated attack with multiple parts, from the build
-system, to link time, to run time.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/967866/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 02 Apr 2024 16:22:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/967866/" title="https://lwn.net/Articles/967866/">[$] Free software's not-so-eXZellent adventure</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>A common theme in early-days anti-Linux FUD was that, since anybody can
-contribute to the code, it cannot be trusted.  Over two decades later, one
-rarely hears that line anymore; experience has shown that free-software
-communities are not prone to shipping overtly hostile code.  But, as <a
-href="https://lwn.net/Articles/967180/">the backdooring of XZ</a> has reminded us, the
-embedding of malicious code is, unfortunately, not limited to the
-proprietary realm.  Our community will be busy analyzing this incident for
-some time to come, but clear conclusions may be hard to come by.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
