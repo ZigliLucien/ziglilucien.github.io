@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Patchy frost between 7am and 8am. Mostly sunny, with a high near 58. North wind 2 to 9 mph.<br></div>
+         <h3>Today</h3>Patchy frost before 8am. Mostly sunny, with a high near 58. North northwest wind 5 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
