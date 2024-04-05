@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Patchy frost after 2am. Partly cloudy. Low around 34, with temperatures rising to around 36 overnight. Northwest wind 5 to
-         13 mph, with gusts as high as 20 mph.<br></div>
+         10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
