@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Widespread frost before 9am. Sunny, with a high near 62. East southeast wind 2 to 7 mph.<br></div>
+         <h3>Today</h3>Areas of frost before 9am. Sunny, with a high near 62. East southeast wind 3 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
