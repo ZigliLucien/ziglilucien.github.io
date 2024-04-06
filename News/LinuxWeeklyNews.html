@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/968732/" title="See Description">Tridge returns to rsync</a></li>
 <li><a href="#https://lwn.net/Articles/967981/" title="See Description">[$] A look at the 2024 Debian Project Leader election</a></li>
 <li><a href="#https://lwn.net/Articles/968584/" title="See Description">OpenBSD 7.5 released</a></li>
 <li><a href="#https://lwn.net/Articles/968566/" title="See Description">Eclipse Foundation announces collaboration for CRA compliance</a></li>
@@ -52,10 +53,35 @@
 <li><a href="#https://lwn.net/Articles/968299/" title="See Description">AlmaLinux OS - CVE-2024-1086 and XZ (AlmaLinux blog)</a></li>
 <li><a href="#https://lwn.net/Articles/968297/" title="See Description">Malcolm: Improvements to static analysis in the GCC 14 compiler</a></li>
 <li><a href="#https://lwn.net/Articles/968250/" title="See Description">Four stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/967049/" title="See Description">[$] A memory model for Rust code in the kernel</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/968732/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 06 Apr 2024 21:24:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/968732/" title="https://lwn.net/Articles/968732/">Tridge returns to rsync</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Wayne Davison has <a
+href="https://lists.samba.org/archive/rsync-announce/2024/000119.html">announced</a>
+the release of <a href="https://rsync.samba.org/">rsync</a> <a
+href="https://rsync.samba.org/ftp/rsync/NEWS#3.3.0">version 3.3.0</a>, which
+contains a number of bug fixes and minor enhancements. Davison has
+also announced a change in maintainers and a move to a new GitHub
+project:</p>
+
+<blockquote class="bq">
+The github repos have moved to a new RsyncProject organization. Because
+various life events have been monopolizing my time, I reached out to
+Tridge [Andrew Tridgell] (the original author) and he has graciously agreed to get back into rsync
+work, along with Paul Mackerras, who was also an early contributor to
+rsync. This new team will be working mainly on maintenance tasks, and not
+so much on new features. If you want to get involved, feel free to reach
+out on the new discord RsyncProject channels.
+</blockquote>
+
+<p>The new GitHub organization is <a
+href="https://github.com/RsyncProject/rsync">here</a>.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/967981/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 05 Apr 2024 18:11:45 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -277,23 +303,6 @@ href="https://lwn.net/Articles/968254/">6.1.84</a> stable kernel updates have be
 released. Each contains an important set of fixes. Note that 6.7.12 is
 the final release for the 6.7.y series, and that branch is now
 end-of-life. Users should move to the 6.8.y branch.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/967049/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 03 Apr 2024 14:36:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/967049/" title="https://lwn.net/Articles/967049/">[$] A memory model for Rust code in the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Rust programming language differs from C in many ways; those
-differences tend to be what users admire in the language.  But those
-differences can also lead to an impedance mismatch when Rust code is
-integrated into a C-dominated system, and it can be even worse in the
-kernel, which is not a typical C program.  Memory models are a case in
-point.  A programming language's view of memory is sufficiently fundamental
-and arcane that many developers never have to learn much about it.  It is
-hard to maintain that sort of blissful ignorance while working in the
-kernel, though, so a recent discussion of how to choose a memory model for
-kernel code in Rust is of interest.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
