@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Widespread frost after 3am. Mostly clear. Low around 32, with temperatures rising to around 34 overnight. Northeast wind 1
-         to 6 mph.<br></div>
+         to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
