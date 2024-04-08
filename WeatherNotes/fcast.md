@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Patchy fog before 9am. Mostly sunny. High near 78, with temperatures falling to around 76 in the afternoon. South wind 1 to
+         <h3>Today</h3>Patchy fog before 9am. Mostly sunny. High near 78, with temperatures falling to around 76 in the afternoon. South wind 2 to
          10 mph.<br></div>
    </p>
    <p>
