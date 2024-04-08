@@ -2,16 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Patchy fog. Mostly clear. Low around 46, with temperatures rising to around 49 overnight. South southeast wind around 2 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Monday</h3>Patchy fog before 10am. Mostly sunny. High near 78, with temperatures falling to around 76 in the afternoon. South wind 2
+         <h3>Today</h3>Patchy fog before 10am. Mostly sunny. High near 78, with temperatures falling to around 76 in the afternoon. South wind 2
          to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A slight chance of showers and thunderstorms between 4am and 5am, then a chance of showers and thunderstorms. Mostly cloudy.
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms between 4am and 5am, then a chance of showers and thunderstorms. Mostly cloudy.
          Low around 58, with temperatures rising to around 61 overnight. South wind around 9 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
@@ -37,7 +33,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>Rain showers before 7am, then showers and thunderstorms likely. Mostly cloudy, with a high near 65. Northwest wind around
-         22 mph, with gusts as high as 33 mph.<br></div>
+         22 mph, with gusts as high as 33 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -63,5 +59,10 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>Mostly sunny, with a high near 80. South southwest wind around 20 mph, with gusts as high as 30 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Sunday Night</h3>A slight chance of showers and thunderstorms after 7pm. Partly cloudy, with a low around 61. South southwest wind 14 to 20
+         mph, with gusts as high as 29 mph.<br></div>
    </p>
 </div>
