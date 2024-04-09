@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>A slight chance of showers and thunderstorms after 5am. Cloudy. Low around 64, with temperatures rising to around 66 overnight.
-         South southwest wind 7 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 20%.<br></div>
+         South southwest wind 7 to 10 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
