@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/967016/" title="See Description">[$] Diagnosing workqueues</a></li>
+<li><a href="#https://lwn.net/Articles/969141/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/969046/" title="See Description">Rivendell v4.2.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/969027/" title="See Description">Introducing Jpegli: A New JPEG Coding Library (Google Open Source Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/968300/" title="See Description">[$] The PostgreSQL community debates ALTER SYSTEM</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/968565/" title="See Description">FFmpeg 7.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/968561/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/968468/" title="See Description">Stable kernels 6.8.4 and 6.6.25</a></li>
-<li><a href="#https://lwn.net/Articles/968429/" title="See Description">V8 incorporates new sandbox</a></li>
-<li><a href="#https://lwn.net/Articles/967001/" title="See Description">[$] A focus on FOSS funding</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/967016/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Apr 2024 13:51:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/967016/" title="https://lwn.net/Articles/967016/">[$] Diagnosing workqueues</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+There are many mechanisms for deferred work in the Linux kernel. One of them,
+<a href="https://docs.kernel.org/core-api/workqueue.html">
+workqueues</a>, has seen increasing use as part of
+the move away from software interrupts. Alison Chaiken gave a talk
+at <a href="https://www.socallinuxexpo.org/scale/21x">SCALE</a>
+about how they compare to software interrupts, the new challenges they pose for
+system administrators, and what tools are available to
+kernel developers wishing to diagnose problems with workqueues as they become
+increasingly prevalent.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/969141/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Apr 2024 13:25:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/969141/" title="https://lwn.net/Articles/969141/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (expat), <b>Oracle</b> (less and nodejs:20), <b>Slackware</b> (libarchive), <b>SUSE</b> (kubernetes1.23, nghttp2, qt6-base, and util-linux), and <b>Ubuntu</b> (python-django).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/969046/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 08 Apr 2024 20:02:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,40 +292,6 @@ features have been removed.</blockquote></blockquote></div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/968469/">6.8.4</a> and <a
 href="https://lwn.net/Articles/968470/">6.6.25</a> stable kernels have been released.
 They both contain 11 reversions of workqueue patches.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/968429/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 04 Apr 2024 17:46:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/968429/" title="https://lwn.net/Articles/968429/">V8 incorporates new sandbox</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://v8.dev">V8</a>, the JavaScript engine used in Chrome,
-<a href="https://v8.dev/blog/sandbox">announced</a>
-that its memory sandbox is no longer experimental.
-</p>
-
-<blockquote class="bq">
-Chrome 123 could therefore be considered to be a sort of "beta"
-release for the sandbox. This blog post uses this opportunity to
-discuss the motivation behind the sandbox, show how it prevents
-memory corruption in V8 from spreading within the host process, and
-ultimately explain why it is a necessary step towards memory safety.  
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/967001/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 04 Apr 2024 17:38:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/967001/" title="https://lwn.net/Articles/967001/">[$] A focus on FOSS funding</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Among the numerous approaches to funding the development and advancement of
-open-source software, corporate sponsorship in the form of donations to umbrella
-organizations is perhaps the most visible. At <a href="https://www.socallinuxexpo.org/scale/21x/">SCALE21x</a> in Pasadena, California, Duane O'Brien
-<a
-href="https://www.socallinuxexpo.org/scale/21x/presentations/10-years-open-source-funding-trends-deep-dive">presented</a>
-a slice of his recent research into the landscape of such sponsorship arrangements,
-with an overview of the identifiable trends of the past ten years and some initial
-insights he hopes are valuable for sponsors and community members alike.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
