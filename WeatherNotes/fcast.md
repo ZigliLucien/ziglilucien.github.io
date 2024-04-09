@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A chance of showers and thunderstorms. Cloudy. High near 71, with temperatures falling to around 69 in the afternoon. South
-         southwest wind around 7 mph. Chance of precipitation is 30%.<br></div>
+         wind around 7 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
