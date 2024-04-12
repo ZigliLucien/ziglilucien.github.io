@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-04-11T23:34:25+00:00</updated>
+		<updated type="str">2024-04-12T02:18:21+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-04-12T01:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-04-11T23:34:25+00:00</updateTime>
-		<validTimes type="str">2024-04-11T17:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2024-04-12T02:36:02+00:00</generatedAt>
+		<updateTime type="str">2024-04-12T02:18:21+00:00</updateTime>
+		<validTimes type="str">2024-04-11T20:00:00+00:00/P7DT5H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -53,29 +53,29 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2024-04-11T20:00:00-05:00</startTime>
+				<startTime type="str">2024-04-11T21:00:00-05:00</startTime>
 				<endTime type="str">2024-04-12T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">46</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str">rising</temperatureTrend>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">5.555555555555555</value>
+					<value type="float">3.3333333333333335</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">71</value>
+					<value type="int">66</value>
 				</relativeHumidity>
-				<windSpeed type="str">15 mph</windSpeed>
-				<windDirection type="str">WNW</windDirection>
+				<windSpeed type="str">10 to 15 mph</windSpeed>
+				<windDirection type="str">W</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 46. West northwest wind around 15 mph, with gusts as high as 24 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear. Low around 46, with temperatures rising to around 49 overnight. West wind 10 to 15 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
