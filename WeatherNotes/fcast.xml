@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-04-12T06:20:54+00:00</updated>
+		<updated type="str">2024-04-12T06:33:40+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-04-12T06:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-04-12T06:20:54+00:00</updateTime>
-		<validTimes type="str">2024-04-12T00:00:00+00:00/P7DT1H</validTimes>
+		<generatedAt type="str">2024-04-12T07:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-04-12T06:33:40+00:00</updateTime>
+		<validTimes type="str">2024-04-12T00:00:00+00:00/P8DT1H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -53,7 +53,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2024-04-12T01:00:00-05:00</startTime>
+				<startTime type="str">2024-04-12T02:00:00-05:00</startTime>
 				<endTime type="str">2024-04-12T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">46</temperature>
@@ -69,13 +69,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">66</value>
+					<value type="int">63</value>
 				</relativeHumidity>
-				<windSpeed type="str">8 to 15 mph</windSpeed>
+				<windSpeed type="str">12 to 15 mph</windSpeed>
 				<windDirection type="str">W</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
 				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear. Low around 46, with temperatures rising to around 49 overnight. West wind 8 to 15 mph, with gusts as high as 21 mph.</detailedForecast>
+				<detailedForecast type="str">Clear. Low around 46, with temperatures rising to around 48 overnight. West wind 12 to 15 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -96,13 +96,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">71</value>
+					<value type="int">67</value>
 				</relativeHumidity>
 				<windSpeed type="str">14 to 22 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/wind_skc?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 67. West northwest wind 14 to 22 mph, with gusts as high as 31 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 67. West northwest wind 14 to 22 mph, with gusts as high as 35 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -112,24 +112,24 @@
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">44</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str">rising</temperatureTrend>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">3.3333333333333335</value>
+					<value type="float">2.7777777777777777</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">68</value>
+					<value type="int">69</value>
 				</relativeHumidity>
 				<windSpeed type="str">5 to 15 mph</windSpeed>
 				<windDirection type="str">W</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
 				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear, with a low around 44. West wind 5 to 15 mph, with gusts as high as 21 mph.</detailedForecast>
+				<detailedForecast type="str">Clear. Low around 44, with temperatures rising to around 46 overnight. West wind 5 to 15 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -150,13 +150,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">73</value>
+					<value type="int">74</value>
 				</relativeHumidity>
 				<windSpeed type="str">5 to 14 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 78. South southwest wind 5 to 14 mph, with gusts as high as 21 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 78. South southwest wind 5 to 14 mph, with gusts as high as 18 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
@@ -164,7 +164,7 @@
 				<startTime type="str">2024-04-13T18:00:00-05:00</startTime>
 				<endTime type="str">2024-04-14T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">60</temperature>
+				<temperature type="int">61</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -177,13 +177,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">67</value>
+					<value type="int">64</value>
 				</relativeHumidity>
-				<windSpeed type="str">12 to 18 mph</windSpeed>
+				<windSpeed type="str">10 to 18 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around 60. South southwest wind 12 to 18 mph, with gusts as high as 28 mph.</detailedForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 61. South southwest wind 10 to 18 mph, with gusts as high as 26 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">6</number>
@@ -204,13 +204,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">72</value>
+					<value type="int">68</value>
 				</relativeHumidity>
-				<windSpeed type="str">15 to 20 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
+				<windSpeed type="str">15 to 18 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 81. Southwest wind 15 to 20 mph, with gusts as high as 30 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 81. South southwest wind 15 to 18 mph, with gusts as high as 26 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">7</number>
@@ -218,7 +218,7 @@
 				<startTime type="str">2024-04-14T18:00:00-05:00</startTime>
 				<endTime type="str">2024-04-15T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">61</temperature>
+				<temperature type="int">60</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -227,17 +227,17 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">15.555555555555555</value>
+					<value type="int">15</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">86</value>
 				</relativeHumidity>
-				<windSpeed type="str">9 to 16 mph</windSpeed>
+				<windSpeed type="str">9 to 15 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 61. South southwest wind 9 to 16 mph, with gusts as high as 25 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 60. South southwest wind 9 to 15 mph, with gusts as high as 22 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">8</number>
@@ -254,17 +254,17 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">17.77777777777778</value>
+					<value type="float">17.22222222222222</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">87</value>
+					<value type="int">94</value>
 				</relativeHumidity>
-				<windSpeed type="str">9 to 17 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
+				<windSpeed type="str">9 to 16 mph</windSpeed>
+				<windDirection type="str">S</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 84. South southwest wind 9 to 17 mph, with gusts as high as 24 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 84. South wind 9 to 16 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">9</number>
@@ -272,7 +272,7 @@
 				<startTime type="str">2024-04-15T18:00:00-05:00</startTime>
 				<endTime type="str">2024-04-16T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">67</temperature>
+				<temperature type="int">66</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -285,13 +285,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">73</value>
+					<value type="int">79</value>
 				</relativeHumidity>
-				<windSpeed type="str">17 mph</windSpeed>
+				<windSpeed type="str">14 to 17 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct?size=medium</icon>
-				<shortForecast type="str">Slight Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of showers and thunderstorms between 7pm and 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 67. South wind around 17 mph, with gusts as high as 30 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn/tsra_sct?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy then Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms after 1am. Mostly cloudy, with a low around 66. South wind 14 to 17 mph, with gusts as high as 29 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">10</number>
@@ -299,7 +299,7 @@
 				<startTime type="str">2024-04-16T06:00:00-05:00</startTime>
 				<endTime type="str">2024-04-16T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">80</temperature>
+				<temperature type="int">79</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -308,17 +308,17 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">16.666666666666668</value>
+					<value type="float">16.11111111111111</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">78</value>
+					<value type="int">80</value>
 				</relativeHumidity>
-				<windSpeed type="str">18 to 26 mph</windSpeed>
+				<windSpeed type="str">18 to 29 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 80. South wind 18 to 26 mph, with gusts as high as 45 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 79. South wind 18 to 29 mph, with gusts as high as 44 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">11</number>
@@ -326,7 +326,7 @@
 				<startTime type="str">2024-04-16T18:00:00-05:00</startTime>
 				<endTime type="str">2024-04-17T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">64</temperature>
+				<temperature type="int">63</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -335,17 +335,17 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">15.555555555555555</value>
+					<value type="float">17.22222222222222</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">83</value>
+					<value type="int">90</value>
 				</relativeHumidity>
-				<windSpeed type="str">16 to 26 mph</windSpeed>
+				<windSpeed type="str">18 to 29 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Partly cloudy, with a low around 64. South southwest wind 16 to 26 mph, with gusts as high as 43 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly cloudy, with a low around 63. South southwest wind 18 to 29 mph, with gusts as high as 43 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">12</number>
@@ -362,17 +362,17 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">17.22222222222222</value>
+					<value type="float">16.11111111111111</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">85</value>
+					<value type="int">90</value>
 				</relativeHumidity>
-				<windSpeed type="str">16 mph</windSpeed>
+				<windSpeed type="str">17 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly sunny, with a high near 83. South southwest wind around 16 mph, with gusts as high as 24 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly sunny, with a high near 83. South southwest wind around 17 mph, with gusts as high as 28 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">13</number>
@@ -380,7 +380,7 @@
 				<startTime type="str">2024-04-17T18:00:00-05:00</startTime>
 				<endTime type="str">2024-04-18T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">66</temperature>
+				<temperature type="int">63</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -389,17 +389,17 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">17.77777777777778</value>
+					<value type="float">16.666666666666668</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">89</value>
+					<value type="int">88</value>
 				</relativeHumidity>
 				<windSpeed type="str">16 mph</windSpeed>
-				<windDirection type="str">S</windDirection>
+				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi?size=medium</icon>
-				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers before 7pm, then a chance of showers and thunderstorms. Partly cloudy, with a low around 66. South wind around 16 mph, with gusts as high as 24 mph.</detailedForecast>
+				<shortForecast type="str">Slight Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A slight chance of rain showers before 7pm, then a slight chance of showers and thunderstorms between 7pm and 1am, then a chance of showers and thunderstorms. Partly cloudy, with a low around 63. South southwest wind around 16 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">14</number>
@@ -407,7 +407,7 @@
 				<startTime type="str">2024-04-18T06:00:00-05:00</startTime>
 				<endTime type="str">2024-04-18T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">81</temperature>
+				<temperature type="int">82</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -416,17 +416,17 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">17.77777777777778</value>
+					<value type="float">17.22222222222222</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">91</value>
 				</relativeHumidity>
-				<windSpeed type="str">17 to 21 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
+				<windSpeed type="str">15 to 18 mph</windSpeed>
+				<windDirection type="str">SW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of rain showers before 7am, then a chance of showers and thunderstorms between 7am and 1pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 81. South southwest wind 17 to 21 mph, with gusts as high as 31 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms. Mostly sunny, with a high near 82. Southwest wind 15 to 18 mph, with gusts as high as 29 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
