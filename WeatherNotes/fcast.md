@@ -31,8 +31,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Showers and thunderstorms likely before 4am, then a slight chance of showers and thunderstorms. Mostly cloudy, with a low
-         around 65. South wind 25 to 30 mph, with gusts as high as 44 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Tuesday Night</h3>Showers and thunderstorms likely before 10pm, then showers and thunderstorms likely. Mostly cloudy, with a low around 65.
+         South wind 25 to 30 mph, with gusts as high as 44 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
