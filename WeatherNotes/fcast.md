@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A slight chance of showers and thunderstorms. Partly sunny. High near 86, with temperatures falling to around 84 in the afternoon.
-         South southeast wind 3 to 9 mph. Chance of precipitation is 20%.<br></div>
+         South wind 6 to 9 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
