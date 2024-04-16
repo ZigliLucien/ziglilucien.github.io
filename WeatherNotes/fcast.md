@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A slight chance of rain showers between 3pm and 4pm, then a chance of showers and thunderstorms. Mostly sunny. High near 82,
-         with temperatures falling to around 80 in the afternoon. South wind 18 to 23 mph, with gusts as high as 35 mph. Chance of
+         with temperatures falling to around 80 in the afternoon. South wind 20 to 23 mph, with gusts as high as 35 mph. Chance of
          precipitation is 50%.<br></div>
    </p>
    <p>
