@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/969145/" title="See Description">[$] Fedora 40 firms up for release</a></li>
+<li><a href="#https://lwn.net/Articles/970045/" title="See Description">PuTTY 0.81 security release</a></li>
 <li><a href="#https://lwn.net/Articles/970036/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/969919/" title="See Description">OpenSSF and OpenJS warn about social-engineering attacks</a></li>
 <li><a href="#https://lwn.net/Articles/969185/" title="See Description">[$] Cleaning up after BPF exceptions</a></li>
@@ -51,11 +53,46 @@
 <li><a href="#https://lwn.net/Articles/969468/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/968375/" title="See Description">[$] LWN.net Weekly Edition for April 11, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/969373/" title="See Description">Gentoo Linux becomes an SPI Associated Project</a></li>
-<li><a href="#https://lwn.net/Articles/969352/" title="See Description">Four stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/966684/" title="See Description">[$] Book review: Practical Julia</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/969145/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 16 Apr 2024 16:00:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/969145/" title="https://lwn.net/Articles/969145/">[$] Fedora 40 firms up for release</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Fedora&nbsp;40&nbsp;Beta was <a
+href="https://fedoramagazine.org/announcing-fedora-linux-40-beta/">released</a>
+on March&nbsp;26, and the final release is nearing completion. So far,
+the release is coming together nicely with major
+updates for GNOME, KDE&nbsp;Plasma, and the usual cavalcade of
+smaller updates and enhancements. As part of the release, the project also scuttled <a href="https://fedoraproject.org/wiki/Changes/Drop_Delta_RPMs">Delta
+RPMs</a> and <a href="https://fedoraproject.org/wiki/Changes/RemoveOpensslCompat">OpenSSL 1.1</a>.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/970045/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 16 Apr 2024 15:33:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/970045/" title="https://lwn.net/Articles/970045/">PuTTY 0.81 security release</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/">Version
+0.81</a> of the PuTTY SSH client is out with a fix for <a
+href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-31497">CVE-2024-31497</a>;
+some users will want to update and generate new keys:
+<p>
+<blockquote class="bq">
+	 PuTTY 0.81, released today, fixes a critical vulnerability
+	 CVE-2024-31497 in the use of 521-bit ECDSA keys
+	 (ecdsa-sha2-nistp521). If you have used a 521-bit ECDSA private
+	 key with any previous version of PuTTY, consider the private key
+	 compromised: remove the public key from authorized_keys files, and
+	 generate a new key pair.
+<p>
+	 However, this only affects that one algorithm and key size. No
+	 other size of ECDSA key is affected, and no other key type is
+	 affected.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/970036/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 16 Apr 2024 14:00:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -248,36 +285,6 @@ Foundation</q>". How to do that is still under discussion. This will
 not affect <a href="https://gentoo-ev.org/">Förderverein
 Gentoo e.V.</a>, which  has public-benefit status in Germany and can
 accept tax deductible donations in Europe.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/969352/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 10 Apr 2024 15:25:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/969352/" title="https://lwn.net/Articles/969352/">Four stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced another round of stable kernel
-updates: <a href="https://lwn.net/Articles/969353/">6.8.5</a>, <a
-href="https://lwn.net/Articles/969354/">6.6.26</a>, <a
-href="https://lwn.net/Articles/969355/">6.1.85</a>, and <a
-href="https://lwn.net/Articles/969357/">5.15.154</a> have all been released; each
-contains another set of important fixes, including the mitigations for the
-recently disclosed <a href="https://lwn.net/Articles/969210/">branch history injection</a>
-hardware vulnerability.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/966684/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 10 Apr 2024 14:31:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/966684/" title="https://lwn.net/Articles/966684/">[$] Book review: Practical Julia</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>A recent book by <a
-href="https://lwn.net/Archives/GuestIndex/#Phillips_Lee">LWN guest 
-author Lee Phillips</a> provides a nice introduction to the <a
-href="https://julialang.org/">Julia</a> programming language.
-<a href="https://nostarch.com/practical-julia"><i>Practical Julia</i></a>
-does more than that, however.  As its subtitle ("A Hands-On Introduction
-for Scientific Minds") implies, the book focuses on bringing Julia to
-scientists, rather than programmers, which gives it something of a
-different feel from most other books of this sort.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
