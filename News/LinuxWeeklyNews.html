@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/969908/" title="See Description">[$] Identifying dependencies used via dlopen()</a></li>
 <li><a href="#https://lwn.net/Articles/969145/" title="See Description">[$] Fedora 40 firms up for release</a></li>
 <li><a href="#https://lwn.net/Articles/970045/" title="See Description">PuTTY 0.81 security release</a></li>
 <li><a href="#https://lwn.net/Articles/970036/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,34 @@
 <li><a href="#https://lwn.net/Articles/969062/" title="See Description">[$] Completing the EEVDF scheduler</a></li>
 <li><a href="#https://lwn.net/Articles/969468/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/968375/" title="See Description">[$] LWN.net Weekly Edition for April 11, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/969373/" title="See Description">Gentoo Linux becomes an SPI Associated Project</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/969908/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 16 Apr 2024 19:54:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/969908/" title="https://lwn.net/Articles/969908/">[$] Identifying dependencies used via dlopen()</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://lwn.net/Articles/967180">
+The recent XZ backdoor</a> has sparked a lot of discussion about how the open-source
+community links and packages software. One possible
+security improvement being discussed
+is changing how
+projects like systemd link to dynamic libraries that are only used for
+optional functionality: using
+<a href="https://man7.org/linux/man-pages/man3/dlopen.3.html">
+<tt>dlopen()</tt></a> to load those libraries only
+when required. This could
+shrink the attack surface exposed by dependencies, but the approach is not
+without downsides — most prominently, it makes discovering which dynamic
+libraries a program depends on harder.
+On April 11, Lennart Poettering proposed one way to eliminate that problem
+<a href="https://github.com/systemd/systemd/pull/32234">
+in a systemd RFC on GitHub</a>.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/969145/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 16 Apr 2024 16:00:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -92,7 +117,9 @@ some users will want to update and generate new keys:
 	 However, this only affects that one algorithm and key size. No
 	 other size of ECDSA key is affected, and no other key type is
 	 affected.
-</blockquote></blockquote></blockquote></div></td></tr>
+</blockquote>
+<p>
+(Thanks to  Joe Nahmias).</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/970036/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 16 Apr 2024 14:00:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -253,38 +280,6 @@ latency-sensitive tasks.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for April 11, 2024 is available.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/969373/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 10 Apr 2024 19:10:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/969373/" title="https://lwn.net/Articles/969373/">Gentoo Linux becomes an SPI Associated Project</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.gentoo.org/">Gentoo Linux</a> project has <a
-href="https://www.gentoo.org/news/2024/04/10/SPI-associated-project.html">announced</a>
-that it is now an Associated Project of <a
-href="https://www.spi-inc.org/">Software in the Public Interest</a>
-(SPI), which will allow it to accept tax deductible donations in the
-US and reduce its "<q>non-technical workload</q>":</p>
-
-<blockquote class="bq">
-<p>The current Gentoo Foundation has bylaws restricting its behavior
-to that of a non-profit, is a recognized non-profit only in New
-Mexico, but a for-profit entity at the US federal level. A direct
-conversion to a federally recognized non-profit would be unlikely to
-succeed without significant effort and cost.</p>
-
-<p>[...] SPI is already now recognized at US federal level as a
-full-[fledged] non-profit 501(c)(3). It also handles several projects of
-similar type and size (e.g., Arch and Debian) and as such has exactly
-the experience and background that Gentoo needs.</p>
-</blockquote>
-
-<p>According to the announcement, the goal is to "<q>eventually
-transfer the existing assets to SPI and dissolve the Gentoo
-Foundation</q>". How to do that is still under discussion. This will
-not affect <a href="https://gentoo-ev.org/">Förderverein
-Gentoo e.V.</a>, which  has public-benefit status in Germany and can
-accept tax deductible donations in Europe.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
