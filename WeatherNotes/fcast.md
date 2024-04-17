@@ -4,7 +4,7 @@
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms likely before 9pm, then showers and thunderstorms between 9pm and 10pm, then showers and thunderstorms
          likely between 10pm and 1am. Some of the storms could be severe. Mostly cloudy, with a low around 66. South southwest wind
-         17 to 22 mph, with gusts as high as 35 mph. Chance of precipitation is 80%.<br></div>
+         17 to 21 mph, with gusts as high as 33 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
