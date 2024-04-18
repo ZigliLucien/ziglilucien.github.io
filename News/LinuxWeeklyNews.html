@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/970072/" title="See Description">[$] Gentoo bans AI-created contributions</a></li>
+<li><a href="#https://lwn.net/Articles/969923/" title="See Description">[$] Warning about WARN_ON()</a></li>
 <li><a href="#https://lwn.net/Articles/970324/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/969442/" title="See Description">[$] LWN.net Weekly Edition for April 18, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/969904/" title="See Description">[$] Managing to-do lists on the command line with Taskwarrior</a></li>
@@ -51,11 +53,40 @@
 <li><a href="#https://lwn.net/Articles/969185/" title="See Description">[$] Cleaning up after BPF exceptions</a></li>
 <li><a href="#https://lwn.net/Articles/969873/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/969791/" title="See Description">Kernel prepatch 6.9-rc4</a></li>
-<li><a href="#https://lwn.net/Articles/969732/" title="See Description">Saturday's stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/969383/" title="See Description">[$] A tale of two troublesome drivers</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/970072/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 18 Apr 2024 15:11:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/970072/" title="https://lwn.net/Articles/970072/">[$] Gentoo bans AI-created contributions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://wiki.gentoo.org/wiki/Project:Council">Gentoo Council</a> member Michał Górny <a
+href="https://lwn.net/ml/gentoo-dev/a2b8c68b1649213cf237f40e41f9a460a5667c34.camel@gentoo.org/">posted</a>
+an RFC to the gentoo-dev mailing
+list in late February about banning "<q>'AI'-backed (LLM/GPT/whatever)
+contributions</q>" to the Gentoo Linux project. Górny wrote that the spread of the
+"<q>AI&nbsp;bubble</q>" indicated a need for Gentoo to formally take a stand on AI
+tools. After a lengthy discussion, the Gentoo Council <a
+href="https://lwn.net/ml/gentoo-dev/f56698adfcd7eae64a82d1b367e8af71a1261819.camel%40gentoo.org/">voted</a>
+unanimously this week to adopt his proposal and ban contributions generated with AI/ML tools.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/969923/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 18 Apr 2024 14:24:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/969923/" title="https://lwn.net/Articles/969923/">[$] Warning about WARN_ON()</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Kernel developers, like conscientious developers for many projects, will
+often include checks in the code for conditions that are never expected to
+occur, but which would indicate a serious problem should that expectation
+turn out to be incorrect.  For years, developers have been encouraged (to
+put it politely) to avoid using assertions that crash the machine for such
+conditions unless there is truly no alternative.  Increasingly, though, use
+of the kernel's <tt>WARN_ON()</tt> family of macros, which developers were
+told to use instead, is also being discouraged.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/970324/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 18 Apr 2024 14:03:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -236,38 +267,6 @@ exception occurs. This makes exceptions usable in many more contexts.
 testing.  "<q>Nothing particularly unusual going on this week - some new hw
 mitigations may stand out, but after a decade of this I can't really call
 it 'unusual' any more, can I?</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/969732/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 13 Apr 2024 21:30:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/969732/" title="https://lwn.net/Articles/969732/">Saturday's stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The
-<a href="https://lwn.net/Articles/969733/">6.8.6</a>,
-<a href="https://lwn.net/Articles/969734/">6.6.27</a>,
-<a href="https://lwn.net/Articles/969735/">6.1.86</a>,
-<a href="https://lwn.net/Articles/969736/">5.15.155</a>,
-<a href="https://lwn.net/Articles/969737/">5.10.215</a>,
-<a href="https://lwn.net/Articles/969738/">5.4.274</a>, and
-<a href="https://lwn.net/Articles/969739/">4.19.312</a>
-stable kernel updates have all been released; each contains a relatively
-large number of important fixes.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/969383/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 12 Apr 2024 14:29:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/969383/" title="https://lwn.net/Articles/969383/">[$] A tale of two troublesome drivers</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel project merges dozens of drivers with every development cycle,
-and almost every one of those drivers is entirely uncontroversial.
-Occasionally, though, a driver submission raises wider questions, leading
-to lengthy discussion and, perhaps, opposition.  That is currently the case
-with two separate drivers, both with ties to the networking subsystem.  One
-of them is hung up on questions of whether (and how) all device
-functionality should be made available to user space, while the other has
-run into turbulence because it drives a device that is unobtainable outside
-of a single company.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
