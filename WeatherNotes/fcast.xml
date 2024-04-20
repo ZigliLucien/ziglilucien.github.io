@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-04-20T02:17:03+00:00</updated>
+		<updated type="str">2024-04-20T04:49:11+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-04-20T04:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-04-20T02:17:03+00:00</updateTime>
-		<validTimes type="str">2024-04-19T20:00:00+00:00/P7DT5H</validTimes>
+		<generatedAt type="str">2024-04-20T05:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-04-20T04:49:11+00:00</updateTime>
+		<validTimes type="str">2024-04-19T22:00:00+00:00/P7DT3H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -52,8 +52,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2024-04-19T23:00:00-05:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2024-04-20T00:00:00-05:00</startTime>
 				<endTime type="str">2024-04-20T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">42</temperature>
@@ -65,11 +65,11 @@
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">3.3333333333333335</value>
+					<value type="int">5</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">76</value>
+					<value type="int">82</value>
 				</relativeHumidity>
 				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
