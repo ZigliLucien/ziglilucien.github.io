@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0b1a08deb7acf6b103f29843640f23cb6d6f29f.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d34c6845438b8b962c95e183364a4e4546ca77c.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0b1a08deb7acf6b103f29843640f23cb6d6f29f.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d34c6845438b8b962c95e183364a4e4546ca77c.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.b0b1a08deb7acf6b103f29843640f23cb6d6f29f.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.4d34c6845438b8b962c95e183364a4e4546ca77c.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,15 +203,15 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e5054ad9b3eab71c076129ca667c9723f706268.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.2e5054ad9b3eab71c076129ca667c9723f706268.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b0b1a08deb7acf6b103f29843640f23cb6d6f29f.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.b0b1a08deb7acf6b103f29843640f23cb6d6f29f.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2024-04-21T02:24:00-05:00</sent>
+						<sent type="str">2024-04-21T14:03:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2024-04-21T14:03:00-05:00</sent>
-				<effective type="str">2024-04-21T14:03:00-05:00</effective>
-				<onset type="str">2024-04-22T00:00:00-05:00</onset>
+				<sent type="str">2024-04-22T01:37:00-05:00</sent>
+				<effective type="str">2024-04-22T01:37:00-05:00</effective>
+				<onset type="str">2024-04-22T01:37:00-05:00</onset>
 				<expires type="str">2024-04-22T08:00:00-05:00</expires>
 				<ends type="str">2024-04-22T08:00:00-05:00</ends>
 				<status type="str">Actual</status>
@@ -223,14 +223,14 @@
 				<event type="str">Frost Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Frost Advisory issued April 21 at 2:03PM CDT until April 22 at 8:00AM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Temperatures as low as 35 will result in frost formation.
+				<headline type="str">Frost Advisory issued April 22 at 1:37AM CDT until April 22 at 8:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Temperatures as low as 34 degrees will result in frost
+formation.
 
 * WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From midnight CDT /1 AM EDT/ tonight to 8 AM CDT /9 AM EDT/
-Monday.
+* WHEN...Until 8 AM CDT /9 AM EDT/ this morning.
 
 * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive
 outdoor plants may be killed if left uncovered.</description>
@@ -241,10 +241,10 @@ outdoor plants may be killed if left uncovered.</description>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 211903</item>
+						<item type="str">WWUS73 KPAH 220637</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">FROST ADVISORY REMAINS IN EFFECT FROM MIDNIGHT CDT /1 AM EDT/ TONIGHT TO 8 AM CDT /9 AM EDT/ MONDAY</item>
+						<item type="str">FROST ADVISORY REMAINS IN EFFECT UNTIL 8 AM CDT /9 AM EDT/ THIS MORNING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -252,15 +252,18 @@ outdoor plants may be killed if left uncovered.</description>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.FR.Y.0002.240422T0500Z-240422T1300Z/</item>
+						<item type="str">/O.CON.KPAH.FR.Y.0002.000000T0000Z-240422T1300Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2024-04-22T13:00:00+00:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2e5054ad9b3eab71c076129ca667c9723f706268.001.1,2024-04-21T02:24:00-05:00</item>
+					</expiredReferences>
 				</parameters>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-04-21T19:03:52+00:00</updated>
+	<updated type="str">2024-04-22T06:40:08+00:00</updated>
 </all>
