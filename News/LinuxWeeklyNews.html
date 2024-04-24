@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/971008/" title="See Description">GitHub comments used to distribute malware (BleepingComputer)</a></li>
+<li><a href="#https://lwn.net/Articles/971006/" title="See Description">A new crash reporter for Firefox</a></li>
 <li><a href="#https://lwn.net/Articles/971007/" title="See Description">QEMU 9.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/970186/" title="See Description">[$] Existential types in Rust</a></li>
 <li><a href="#https://lwn.net/Articles/971004/" title="See Description">Security updates for Wednesday</a></li>
@@ -51,11 +53,60 @@
 <li><a href="#https://lwn.net/Articles/970702/" title="See Description">Hutterer: udev-hid-bpf: quickstart tooling to fix your HID devices with eBPF</a></li>
 <li><a href="#https://lwn.net/Articles/970793/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/970667/" title="See Description">Kernel prepatch 6.9-rc5</a></li>
-<li><a href="#https://lwn.net/Articles/969379/" title="See Description">[$] Weighted memory interleaving and new system calls</a></li>
-<li><a href="#https://lwn.net/Articles/970508/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/971008/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 24 Apr 2024 14:25:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/971008/" title="https://lwn.net/Articles/971008/">GitHub comments used to distribute malware (BleepingComputer)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+BleepingComputer
+<a href="https://www.bleepingcomputer.com/news/security/github-comments-abused-to-push-malware-via-microsoft-repo-urls/">
+reported</a> on April 20 that some malware was being distributed via GitHub.
+Uploading files as part of a comment gives them a URL that appears to be
+associated with a repository, even if the comment is never posted.
+</p>
+
+<blockquote class="bq">
+<p>
+A GitHub flaw, or possibly a design decision, is being abused by threat actors
+to distribute malware using URLs associated with Microsoft repositories, making
+the files appear trustworthy.
+</p>
+
+<p>
+While most of the malware activity has been based around the Microsoft GitHub
+URLs, this "flaw" could be abused with any public repository on GitHub, allowing
+threat actors to create very convincing lures.
+</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/971006/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 24 Apr 2024 14:10:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/971006/" title="https://lwn.net/Articles/971006/">A new crash reporter for Firefox</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+On April 23, Mozilla
+<a href="https://hacks.mozilla.org/2024/04/porting-a-cross-platform-gui-application-to-rust/">
+announced</a> that Firefox's crash reporter has been rewritten in Rust, allowing the
+project to address a backlog of issues.
+</p>
+
+<blockquote class="bq">
+Even though it is important to properly handle main process crashes, the crash
+reporter hasn't received significant development in a while (aside from
+development to ensure that crash reports and telemetry continue to reliably be
+delivered)! It has long been stuck in a local maximum of "good enough" and
+"scary to maintain": it features 3 individual GUI implementations (for Windows,
+GTK+ for Linux, and macOS), glue code abstracting a few things (mostly in C++,
+and Objective-C for macOS), a binary blob produced by obsoleted Apple
+development tools, and no test suite. Because of this, there is a backlog of
+features and improvements which haven't been acted on.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/971007/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 24 Apr 2024 13:10:49 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -256,35 +307,6 @@ the BPF-HID mechanism.</blockquote></blockquote></div></td></tr>
 	part of the week I've been doing a passable imitation of the
 	Fontana di Trevi, except my medium is mucus.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/969379/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 19 Apr 2024 14:12:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/969379/" title="https://lwn.net/Articles/969379/">[$] Weighted memory interleaving and new system calls</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Gregory Price recently posted
-<a href="https://lwn.net/ml/linux-kernel/20231223181101.1954-1-gregory.price@memverge.com/">
-a patch set</a> that adds support for weighted memory interleaving — allowing a
-process's memory to be distributed between
-<a href="https://en.wikipedia.org/wiki/Non-uniform_memory_access">
-non-uniform memory access</a> (NUMA)
-nodes in a more controlled way.
-According to his performance measurements, the patch set could provide a
-significant improvement for computers with network-attached memory.
-The patch set also
-introduces new system calls and paves the way for future extensions
-intended to give processes more control over their own memory.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/970508/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 19 Apr 2024 13:08:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/970508/" title="https://lwn.net/Articles/970508/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gnutls, java-17-openjdk, mod_http2, and squid), <b>Debian</b> (firefox-esr), <b>Fedora</b> (editorconfig, perl-Clipboard, php, rust, and wordpress), <b>Mageia</b> (less, libreswan, puppet, and x11-server, x11-server-xwayland, and tigervnc), <b>Slackware</b> (aaa_glibc), and <b>SUSE</b> (firefox, graphviz, kernel, nodejs12, pgadmin4, tomcat, and wireshark).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
