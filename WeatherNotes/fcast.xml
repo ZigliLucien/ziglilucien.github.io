@@ -42,7 +42,7 @@
 		<updated type="str">2024-04-24T01:02:49+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-04-24T02:36:06+00:00</generatedAt>
+		<generatedAt type="str">2024-04-24T03:36:03+00:00</generatedAt>
 		<updateTime type="str">2024-04-24T01:02:49+00:00</updateTime>
 		<validTimes type="str">2024-04-23T19:00:00+00:00/P7DT17H</validTimes>
 		<elevation type="dict">
@@ -53,7 +53,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2024-04-23T21:00:00-05:00</startTime>
+				<startTime type="str">2024-04-23T22:00:00-05:00</startTime>
 				<endTime type="str">2024-04-24T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">48</temperature>
@@ -61,7 +61,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">50</value>
+					<value type="int">30</value>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
@@ -73,9 +73,9 @@
 				</relativeHumidity>
 				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,50/sct?size=medium</icon>
-				<shortForecast type="str">Chance Showers And Thunderstorms then Partly Cloudy</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 11pm. Partly cloudy, with a low around 48. West northwest wind around 6 mph. Chance of precipitation is 50%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,30/sct?size=medium</icon>
+				<shortForecast type="str">Chance Rain Showers then Partly Cloudy</shortForecast>
+				<detailedForecast type="str">A chance of rain showers before 11pm. Partly cloudy, with a low around 48. West northwest wind around 6 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
