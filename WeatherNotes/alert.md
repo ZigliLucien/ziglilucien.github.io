@@ -1,5 +1,5 @@
 <p>
-   <h2>Dense Fog Advisory issued April 24 at 12:34AM CDT until April 24 at 8:00AM CDT by NWS Paducah KY</h2>
+   <h2>Dense Fog Advisory issued April 24 at 2:54AM CDT until April 24 at 8:00AM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Visibility less than one quarter mile in dense fog.
       
       * WHERE...Portions of southern Illinois, southwest Indiana, western
