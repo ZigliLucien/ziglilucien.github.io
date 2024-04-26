@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/970907/" title="See Description">[$] Support for the TSO memory model on Arm CPUs</a></li>
+<li><a href="#https://lwn.net/Articles/971289/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/970397/" title="See Description">[$] Python JIT stabilization</a></li>
 <li><a href="#https://lwn.net/Articles/971175/" title="See Description">Ubuntu 24.04 LTS (Noble Numbat) released</a></li>
 <li><a href="#https://lwn.net/Articles/970555/" title="See Description">[$] The state of realtime and embedded Linux</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/970070/" title="See Description">[$] A change in direction for security-module stacking?</a></li>
 <li><a href="#https://lwn.net/Articles/970893/" title="See Description">Fedora 40 released</a></li>
 <li><a href="#https://lwn.net/Articles/970216/" title="See Description">[$] Rust for embedded Linux kernels</a></li>
-<li><a href="#https://lwn.net/Articles/970889/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/970835/" title="See Description">The Open Home Foundation launches</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/970907/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 26 Apr 2024 13:59:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/970907/" title="https://lwn.net/Articles/970907/">[$] Support for the TSO memory model on Arm CPUs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>At the CPU level, a memory model describes, among other things, the amount
+of freedom the processor has to reorder memory operations.  If low-level
+code does not take the memory model into account, unpleasant surprises are
+likely to follow.  Naturally, different CPUs offer different memory models,
+complicating the portability of certain types of concurrent software.  To
+make life easier, some Arm CPUs offer the ability to emulate the x86 memory
+model, but efforts to make that feature available in the kernel are running
+into opposition.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/971289/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 26 Apr 2024 13:52:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/971289/" title="https://lwn.net/Articles/971289/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (knot-resolver, pdns-recursor, and putty), <b>Fedora</b> (xen), <b>Mageia</b> (editorconfig-core-c, glibc, mbedtls, webkit2, and wireshark), <b>Oracle</b> (buildah), <b>Red Hat</b> (buildah and yajl), <b>Slackware</b> (libarchive), <b>SUSE</b> (dcmtk, openCryptoki, php7, php74, php8, python-gunicorn, python-idna, qemu, and thunderbird), and <b>Ubuntu</b> (cryptojs, freerdp2, nghttp2, and zabbix).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/970397/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 25 Apr 2024 17:57:46 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,40 +289,6 @@ work aimed at improving the infrastructure needed to write the device
 drivers needed by embedded systems in Rust; there is still some work to be
 done.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/970889/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 23 Apr 2024 13:30:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/970889/" title="https://lwn.net/Articles/970889/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (glibc and samba), <b>Fedora</b> (chromium, cjson, mingw-python-idna, and pgadmin4), <b>Mageia</b> (kernel, kmod-xtables-addons, kmod-virtualbox, kernel-linus, and perl-Clipboard), <b>Red Hat</b> (go-toolset:rhel8, golang, java-11-openjdk, kpatch-patch, and shim), <b>Slackware</b> (freerdp), <b>SUSE</b> (apache-commons-configuration, glibc, jasper, polkit, and qemu), and <b>Ubuntu</b> (google-guest-agent, google-osconfig-agent, linux-lowlatency-hwe-6.5, pillow, and squid).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/970835/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 22 Apr 2024 22:34:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/970835/" title="https://lwn.net/Articles/970835/">The Open Home Foundation launches</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Open Home Foundation has <a
-href="https://www.openhomefoundation.org/blog/announcing-the-open-home-foundation/">announced
-its existence</a> as a home and support resource for free home-automation
-projects.
-<p>
-<blockquote class="bq">
-	 We created the Open Home Foundation to fight for the fundamental
-	 principles of privacy, choice, and sustainability for smart
-	 homes. And every person who lives in one.
-<p>
-	 Ahead of today, we've transferred over 240 projects, standards,
-	 drivers, and libraries—Home Assistant, ESPHome, Zigpy, Piper,
-	 Improv Wi-Fi, Wyoming, and so many more—to the Open Home
-	 Foundation. This is all about looking into the future. We've done
-	 this to create a bulwark against surveillance capitalism, the risk
-	 of buyout, and open-source projects becoming abandonware. To an
-	 extent, this protection extends even against our future selves—so
-	 that smart home users can continue to benefit for years, if not
-	 decades. No matter what comes.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
