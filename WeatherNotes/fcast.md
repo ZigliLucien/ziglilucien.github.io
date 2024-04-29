@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms between midnight and 2am, then showers and thunderstorms. Mostly cloudy, with a low
-         around 63. South wind 12 to 16 mph, with gusts as high as 28 mph. Chance of precipitation is 90%.<br></div>
+         around 63. South wind 13 to 16 mph, with gusts as high as 28 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
