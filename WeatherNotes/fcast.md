@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>Showers and thunderstorms. Cloudy. Low around 65, with temperatures rising to around 67 overnight. South wind around 14 mph,
-         with gusts as high as 23 mph. Chance of precipitation is 100%.<br></div>
+         with gusts as high as 21 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
