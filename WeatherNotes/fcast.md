@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Areas of fog. Mostly cloudy, with a low around 56. West wind around 2 mph.<br></div>
+         <h3>Overnight</h3>Areas of fog. Mostly cloudy, with a low around 56. West northwest wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
