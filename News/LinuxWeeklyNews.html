@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/971745/" title="See Description">"run0" as a sudo replacement</a></li>
+<li><a href="#https://lwn.net/Articles/971742/" title="See Description">Git 2.45.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/971740/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/971568/" title="See Description">Amarok 3.0 "Castaway" released</a></li>
 <li><a href="#https://lwn.net/Articles/970824/" title="See Description">[$] A leadership crisis in the Nix community</a></li>
 <li><a href="#https://lwn.net/Articles/971487/" title="See Description">Security updates for Monday</a></li>
@@ -50,12 +53,50 @@
 <li><a href="#https://lwn.net/Articles/970397/" title="See Description">[$] Python JIT stabilization</a></li>
 <li><a href="#https://lwn.net/Articles/971175/" title="See Description">Ubuntu 24.04 LTS (Noble Numbat) released</a></li>
 <li><a href="#https://lwn.net/Articles/970555/" title="See Description">[$] The state of realtime and embedded Linux</a></li>
-<li><a href="#https://lwn.net/Articles/971140/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/970328/" title="See Description">[$] LWN.net Weekly Edition for April 25, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/971008/" title="See Description">GitHub comments used to distribute malware (BleepingComputer)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/971745/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 30 Apr 2024 14:01:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/971745/" title="https://lwn.net/Articles/971745/">"run0" as a sudo replacement</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://mastodon.social/@pid_eins/112353324518585654">This
+Mastodon stream</a> from Lennart Poettering describes a <tt>sudo</tt>
+replacement — called <tt>run0</tt> — that will be part of the upcoming
+systemd 256 release.  It takes a rather different approach to the execution
+of privileged commands, avoiding the use of setuid (which he calls "SUID")
+permissions entirely.
+<p>
+<blockquote class="bq">
+	So, in my ideal world, we'd have an OS entirely without SUID. Let's
+	throw out the concept of SUID on the dump of UNIX' bad ideas. An
+	execution context for privileged code that is half under the
+	control of unprivileged code and that needs careful manual clean-up
+	is just not how security engineering should be done in 2024
+	anymore.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/971742/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 30 Apr 2024 13:41:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/971742/" title="https://lwn.net/Articles/971742/">Git 2.45.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/git/xmqq8r0ww0sj.fsf@gitster.g/">Version 2.45.0</a> of the Git
+source-code management system has been released.  Changes include a new
+<tt>list</tt> command for <tt>git&nbsp;reflog</tt>, a couple of new
+configuration variables for <tt>git&nbsp;diff</tt>, the ability to drop
+redundant commits while cherry-picking, a number of performance
+improvements, and more.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/971740/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 30 Apr 2024 13:35:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/971740/" title="https://lwn.net/Articles/971740/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (org-mode), <b>Oracle</b> (shim and tigervnc), <b>Red Hat</b> (ansible-core, avahi, buildah, container-tools:4.0, containernetworking-plugins, edk2, exfatprogs, fence-agents, file, freeglut, freerdp, frr, grub2, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, harfbuzz, httpd, ipa, kernel, libjpeg-turbo, libnbd, LibRaw, libsndfile, libssh, libtiff, libvirt, libX11, libXpm, mingw components, mingw-glib2, mingw-pixman, mod_http2, mod_jk and mod_proxy_cluster, motif, mutt, openssl and openssl-fips-provider, osbuild and osbuild-composer, pam, pcp, pcs, perl, pmix, podman, python-jinja2, python3.11, python3.11-cryptography, python3.11-urllib3, qemu-kvm, qt5-qtbase, runc, skopeo, squashfs-tools, systemd, tcpdump, tigervnc, toolbox, traceroute, webkit2gtk3, wpa_supplicant, xorg-x11-server, xorg-x11-server-Xwayland, and zziplib), <b>SUSE</b> (docker, ffmpeg, ffmpeg-4, frr, and kernel), and <b>Ubuntu</b> (anope, freerdp3, and php7.0, php7.2, php7.4, php8.1).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/971568/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 29 Apr 2024 20:30:03 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,49 +302,6 @@ Linux is doing in those areas.  Work on realtime Linux appears to be nearing
 completion, while the embedded community is still pushing forward at full
 speed.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/971140/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Apr 2024 14:14:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/971140/" title="https://lwn.net/Articles/971140/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (curl, filezilla, flatpak, kubernetes, libfilezilla, thunderbird, and xen), <b>Oracle</b> (go-toolset:ol8, kernel, libreswan, shim, and tigervnc), <b>Red Hat</b> (buildah, gnutls, libreswan, tigervnc, and unbound), <b>SUSE</b> (cockpit-wicked, nrpe, and python-idna), and <b>Ubuntu</b> (dnsmasq, freerdp2, linux-azure-6.5, and thunderbird).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/970328/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Apr 2024 01:21:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/970328/" title="https://lwn.net/Articles/970328/">[$] LWN.net Weekly Edition for April 25, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for April 25, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/971008/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 24 Apr 2024 14:25:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/971008/" title="https://lwn.net/Articles/971008/">GitHub comments used to distribute malware (BleepingComputer)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-BleepingComputer
-<a href="https://www.bleepingcomputer.com/news/security/github-comments-abused-to-push-malware-via-microsoft-repo-urls/">
-reported</a> on April 20 that some malware was being distributed via GitHub.
-Uploading files as part of a comment gives them a URL that appears to be
-associated with a repository, even if the comment is never posted.
-</p>
-
-<blockquote class="bq">
-<p>
-A GitHub flaw, or possibly a design decision, is being abused by threat actors
-to distribute malware using URLs associated with Microsoft repositories, making
-the files appear trustworthy.
-</p>
-
-<p>
-While most of the malware activity has been based around the Microsoft GitHub
-URLs, this "flaw" could be abused with any public repository on GitHub, allowing
-threat actors to create very convincing lures.
-</p>
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
