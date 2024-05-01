@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/971143/" title="See Description">[$] A look at Ubuntu Desktop LTS 24.04</a></li>
+<li><a href="#https://lwn.net/Articles/971973/" title="See Description">Eelco Dolstra steps down from NixOS Foundation board</a></li>
 <li><a href="#https://lwn.net/Articles/972029/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/970818/" title="See Description">[$] Security patterns and anti-patterns in embedded development</a></li>
 <li><a href="#https://lwn.net/Articles/971785/" title="See Description">Yocto Project 5.0 released</a></li>
@@ -51,11 +53,58 @@
 <li><a href="#https://lwn.net/Articles/971414/" title="See Description">Kernel prepatch 6.9-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/971361/" title="See Description">Four weekend stable kernel releases</a></li>
 <li><a href="#https://lwn.net/Articles/970565/" title="See Description">[$] Giving Rust a chance for in-kernel codecs</a></li>
-<li><a href="#https://lwn.net/Articles/970907/" title="See Description">[$] Support for the TSO memory model on Arm CPUs</a></li>
-<li><a href="#https://lwn.net/Articles/971289/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/971143/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 01 May 2024 17:00:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/971143/" title="https://lwn.net/Articles/971143/">[$] A look at Ubuntu Desktop LTS 24.04</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Ubuntu&nbsp;24.04&nbsp;LTS, code-named "Noble&nbsp;Numbat", was <a
+href="https://lwn.net/Articles/971175/">released</a> on April&nbsp;25. This release includes <a
+href="https://release.gnome.org/46/">GNOME&nbsp;46</a>, installer updates,
+security enhancements, a lot of updated packages, and a new App Center
+that puts a heavy emphasis on using Snaps to install software. It is not an ambitious release, but it brings enough to the table that it's a worthwhile update.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/971973/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 01 May 2024 14:19:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/971973/" title="https://lwn.net/Articles/971973/">Eelco Dolstra steps down from NixOS Foundation board</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The NixOS Foundation board
+<a href="https://discourse.nixos.org/t/nixos-foundation-board-giving-power-to-the-community/44552">
+announced</a> on April 30 that Eelco Dolstra is stepping down from the board
+following the <a href="https://lwn.net/Articles/970824/">recent calls for his resignation</a>.
+</p>
+
+<blockquote class="bq">
+Eelco is the principal author of Nix and undoubtedly a central figure in the
+ecosystem that grew around it. We confirm that Eelco showed no intention to be
+perceived as or act like the BDFL [Benevolent Dictator for Life]
+of the Nix ecosystem, or the Nix code base. To
+commit to that in a timely manner, he has decided to formally step down from the
+board.
+</blockquote>
+
+<p>
+The board also announced its intent to set up new, explicit governance for the
+project, answerable to the community:
+</p>
+
+<blockquote class="bq">
+We will appoint a constitutional assembly within the next 14 days.
+Its task will be to set up a new governance structure, run by the
+community, that is capable of serving the community's needs. Once
+established, we will delegate our power to institutions within that
+new structure. This entire process will take place in a public space,
+such that it's traceable for anyone concerned. We are committed to
+listening to everyone who may help with solving the problems the
+community is facing.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/972029/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 01 May 2024 13:36:56 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -257,29 +306,6 @@ performance pressure, video codecs have become complex and hardware
 implementations are now common, but programming these devices is becoming
 increasingly difficult and fraught with opportunities for exploitation. I
 hope to convey how Rust can help fix this problem.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/970907/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 26 Apr 2024 13:59:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/970907/" title="https://lwn.net/Articles/970907/">[$] Support for the TSO memory model on Arm CPUs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>At the CPU level, a memory model describes, among other things, the amount
-of freedom the processor has to reorder memory operations.  If low-level
-code does not take the memory model into account, unpleasant surprises are
-likely to follow.  Naturally, different CPUs offer different memory models,
-complicating the portability of certain types of concurrent software.  To
-make life easier, some Arm CPUs offer the ability to emulate the x86 memory
-model, but efforts to make that feature available in the kernel are running
-into opposition.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/971289/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 26 Apr 2024 13:52:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/971289/" title="https://lwn.net/Articles/971289/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (knot-resolver, pdns-recursor, and putty), <b>Fedora</b> (xen), <b>Mageia</b> (editorconfig-core-c, glibc, mbedtls, webkit2, and wireshark), <b>Oracle</b> (buildah), <b>Red Hat</b> (buildah and yajl), <b>Slackware</b> (libarchive), <b>SUSE</b> (dcmtk, openCryptoki, php7, php74, php8, python-gunicorn, python-idna, qemu, and thunderbird), and <b>Ubuntu</b> (cryptojs, freerdp2, nghttp2, and zabbix).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
