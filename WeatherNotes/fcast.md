@@ -3,20 +3,21 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A slight chance of showers and thunderstorms after 3pm. Partly sunny. High near 85, with temperatures falling to around 83
-         in the afternoon. Southwest wind around 7 mph. Chance of precipitation is 20%.<br></div>
+         in the afternoon. Southwest wind around 6 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of showers and thunderstorms before 7pm. Partly cloudy. Low around 62, with temperatures rising to around
-         64 overnight. South southeast wind around 6 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms before 11pm. Partly cloudy. Low around 62, with temperatures rising to around
+         64 overnight. South southeast wind 2 to 6 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Mostly sunny, with a high near 86. South wind 6 to 13 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Thursday</h3>Sunny. High near 86, with temperatures falling to around 84 in the afternoon. South southeast wind 3 to 14 mph, with gusts
+         as high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Showers and thunderstorms likely after 7pm. Mostly cloudy, with a low around 63. South wind 7 to 10 mph. Chance of precipitation
+         <h3>Thursday Night</h3>Showers and thunderstorms likely after 7pm. Mostly cloudy, with a low around 63. South wind 7 to 12 mph. Chance of precipitation
          is 70%.<br></div>
    </p>
    <p>
