@@ -2,16 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy, with a low around 61. South wind around 5 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday</h3>A slight chance of showers and thunderstorms after 3pm. Mostly sunny. High near 85, with temperatures falling to around 83
+         <h3>Today</h3>A slight chance of showers and thunderstorms after 3pm. Mostly sunny. High near 85, with temperatures falling to around 83
          in the afternoon. South southwest wind around 7 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A slight chance of showers and thunderstorms before 7pm. Partly cloudy. Low around 62, with temperatures rising to around
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms before 7pm. Partly cloudy. Low around 62, with temperatures rising to around
          64 overnight. South southeast wind around 6 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
@@ -36,7 +32,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 81. South southeast wind 6 to 9 mph.<br></div>
+         <h3>Saturday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 81. South southeast wind 6 to 9 mph. Chance
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -65,5 +62,10 @@
       <div style="font-size:120%">
          <h3>Tuesday</h3>A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms. Mostly sunny, with a high near
          85. South southwest wind 17 to 23 mph, with gusts as high as 33 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 66. South southwest wind 15 to 21 mph, with gusts
+         as high as 31 mph.<br></div>
    </p>
 </div>
