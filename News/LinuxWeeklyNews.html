@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/972209/" title="See Description">A new set of stable kernels</a></li>
+<li><a href="#https://lwn.net/Articles/971825/" title="See Description">[$] Inheritable credentials for directory file descriptors</a></li>
+<li><a href="#https://lwn.net/Articles/972191/" title="See Description">Rust 1.78.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/972186/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/971093/" title="See Description">[$] LWN.net Weekly Edition for May 2, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/971980/" title="See Description">GNU nano 8.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/971143/" title="See Description">[$] A look at Ubuntu Desktop LTS 24.04</a></li>
@@ -49,13 +53,67 @@
 <li><a href="#https://lwn.net/Articles/971742/" title="See Description">Git 2.45.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/971740/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/971568/" title="See Description">Amarok 3.0 "Castaway" released</a></li>
-<li><a href="#https://lwn.net/Articles/970824/" title="See Description">[$] A leadership crisis in the Nix community</a></li>
-<li><a href="#https://lwn.net/Articles/971487/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/971436/" title="See Description">McQueen: Update from the GNOME board</a></li>
-<li><a href="#https://lwn.net/Articles/971414/" title="See Description">Kernel prepatch 6.9-rc6</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/972209/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 May 2024 15:16:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/972209/" title="https://lwn.net/Articles/972209/">A new set of stable kernels</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/972210/">6.8.9</a>, <a href="https://lwn.net/Articles/972211/">6.6.30</a>,
+<a href="https://lwn.net/Articles/972212/">6.1.90</a>, <a
+href="https://lwn.net/Articles/972213/">5.15.158</a>, <a
+href="https://lwn.net/Articles/972214/">5.10.216</a>, <a
+href="https://lwn.net/Articles/972215/">5.4.275</a>, and <a
+href="https://lwn.net/Articles/972216/">4.19.313</a> stable kernels.  As is the norm, they
+contain lots of important fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/971825/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 May 2024 15:10:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/971825/" title="https://lwn.net/Articles/971825/">[$] Inheritable credentials for directory file descriptors</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>In Unix-like systems, an open file descriptor carries the right to access
+the opened object in specific ways.  As a general rule, that file
+descriptor does <i>not</i> enable access to any other objects.  The
+recently merged <a href="https://lwn.net/Articles/947173/">BPF token feature</a> runs
+counter to this practice by creating file descriptors that carry specific
+BPF-related access rights.  A similar but different approach to
+capability-carrying file descriptors, in the form of directory file
+descriptors that include their own credentials, is currently under
+consideration in the kernel community.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/972191/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 May 2024 14:43:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/972191/" title="https://lwn.net/Articles/972191/">Rust 1.78.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2024/05/02/Rust-1.78.0.html">Version
+1.78.0</a> of the Rust language has been released.  Changes include a new
+mechanism for diagnostic attributes, changes to how assertions around
+<tt>unsafe</tt> blocks are handled, and more.
+<p>
+<blockquote class="bq">
+	Rust now supports a <tt>#[diagnostic]</tt> attribute namespace to
+	influence compiler error messages. These are treated as hints which
+	the compiler is not required to use, and it is also not an error to
+	provide a diagnostic that the compiler doesn't recognize. This
+	flexibility allows source code to provide diagnostics even when
+	they're not supported by all compilers, whether those are different
+	versions or entirely different implementations.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/972186/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 May 2024 14:22:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/972186/" title="https://lwn.net/Articles/972186/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium and distro-info-data), <b>Fedora</b> (et, php-tcpdf, python-aiohttp, python-openapi-core, thunderbird, tpm2-tools, and tpm2-tss), <b>Red Hat</b> (nodejs:16 and podman), and <b>Ubuntu</b> (firefox).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/971093/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 02 May 2024 01:11:26 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -240,68 +298,6 @@ now. It might well be that getting them in better state wouldn't require
 huge effort, however, so if you know your way with Qt and KDE Frameworks
 and your favourite Internet music service does not work with Amarok 3.0,
 you are extremely welcome to join in and help!
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/970824/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 29 Apr 2024 14:04:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/970824/" title="https://lwn.net/Articles/970824/">[$] A leadership crisis in the Nix community</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-On April 21, a group of anonymous authors and non-anonymous signatories published
-<a href="https://save-nix-together.org/">a lengthy open letter</a> to the
-<a href="https://nixos.org/">
-Nix</a> community
-and Nix founder Eelco Dolstra calling for his resignation from the project. They
-claimed ongoing problems with the project's leadership, primarily focusing on the
-way his actions have allegedly
-undermined people nominally empowered to perform various
-moderation and governance tasks. Since its release, the letter has gained
-more than 100 signatures.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/971487/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 29 Apr 2024 13:44:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/971487/" title="https://lwn.net/Articles/971487/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, go-toolset:rhel8, golang, java-11-openjdk, java-21-openjdk, libreswan, thunderbird, and tigervnc), <b>Debian</b> (chromium, emacs, frr, mediawiki, ruby-rack, trafficserver, and zabbix), <b>Fedora</b> (chromium, grub2, python-idna, and python-reportlab), <b>Mageia</b> (chromium-browser-stable, firefox, opencryptoki, and thunderbird), <b>Red Hat</b> (container-tools:4.0, container-tools:rhel8, git-lfs, and shim), <b>SUSE</b> (frr, java-11-openjdk, java-1_8_0-openjdk, kernel, pdns-recursor, and shim), and <b>Ubuntu</b> (apache2, cpio, curl, glibc, gnutls28, less, libvirt, and pillow).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/971436/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 29 Apr 2024 13:17:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/971436/" title="https://lwn.net/Articles/971436/">McQueen: Update from the GNOME board</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Robert McQueen has posted <a
-href="https://ramcq.net/2024/04/26/update-from-the-gnome-board/">a message
-from the GNOME Foundation board</a> describing the current financial
-situation, plans to improve it, and an increase in the size of the board.
-<p>
-<blockquote class="bq">
-	The Foundation has a reserves policy which specifies a minimum
-	amount of money we have to keep in our accounts. This is so that if
-	there is a significant interruption to our usual income, we can
-	preserve our core operations while we work on new funding
-	sources. We've now "hit the buffers" of this reserves policy,
-	meaning the Board can't approve any more deficit budgets – to keep
-	spending at the same level we must increase our income.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/971414/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 28 Apr 2024 22:17:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/971414/" title="https://lwn.net/Articles/971414/">Kernel prepatch 6.9-rc6</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/971413/">6.9-rc6</a> kernel prepatch is out for
-testing.
-<p>
-<blockquote class="bq">
-	Things continue to look pretty normal, and nothing here really
-	stands out. The biggest single change that stands out in the
-	diffstat is literally a documentation update, everything else looks
-	pretty small and spread out.
 </blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
