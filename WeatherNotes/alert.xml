@@ -1,10 +1,311 @@
 <?xml version="1.0" ?>
 <all>
-	<key name="@context" type="dict">
-		<key name="@version" type="str">1.1</key>
+	<key name="@context" type="list">
+		<item type="str">https://geojson.org/geojson-ld/geojson-context.jsonld</item>
+		<item type="dict">
+			<key name="@version" type="str">1.1</key>
+			<wx type="str">https://api.weather.gov/ontology#</wx>
+			<key name="@vocab" type="str">https://api.weather.gov/ontology#</key>
+		</item>
 	</key>
 	<type type="str">FeatureCollection</type>
-	<features type="list"/>
+	<features type="list">
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0efff88d9a9e68e8ea8c6e5baa4fab034e9766d3.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="dict">
+				<type type="str">Polygon</type>
+				<coordinates type="list">
+					<item type="list">
+						<item type="list">
+							<item type="float">-88.92</item>
+							<item type="float">38.37</item>
+						</item>
+						<item type="list">
+							<item type="float">-88.85000000000001</item>
+							<item type="float">37.9</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.51</item>
+							<item type="float">37.809999999999995</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.5699999</item>
+							<item type="float">38.21999999999999</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">38.209999999999994</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">38.46999999999999</item>
+						</item>
+						<item type="list">
+							<item type="float">-88.95</item>
+							<item type="float">38.47999989999999</item>
+						</item>
+						<item type="list">
+							<item type="float">-88.92</item>
+							<item type="float">38.37</item>
+						</item>
+					</item>
+				</coordinates>
+			</geometry>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0efff88d9a9e68e8ea8c6e5baa4fab034e9766d3.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.0efff88d9a9e68e8ea8c6e5baa4fab034e9766d3.001.1</id>
+				<areaDesc type="str">Jefferson; Perry; Franklin; Jackson</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017081</item>
+						<item type="str">017145</item>
+						<item type="str">017055</item>
+						<item type="str">017077</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ075</item>
+						<item type="str">ILZ080</item>
+						<item type="str">ILZ081</item>
+						<item type="str">ILZ084</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ075</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ081</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2024-05-04T18:18:00-05:00</sent>
+				<effective type="str">2024-05-04T18:18:00-05:00</effective>
+				<onset type="str">2024-05-04T18:18:00-05:00</onset>
+				<expires type="str">2024-05-04T19:00:00-05:00</expires>
+				<ends type="null"/>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Observed</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Special Weather Statement</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Special Weather Statement issued May 4 at 6:18PM CDT by NWS Paducah KY</headline>
+				<description type="str">At 618 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Albers to 6 miles northeast of
+Coulterville to near Ava. Movement was east at 25 mph.
+
+HAZARD...Wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hail damage to vegetation is
+possible.
+
+Locations impacted include...
+Mount Vernon, West Frankfort, Benton, Du Quoin, Pinckneyville,
+Christopher, Rend Lake Area, Sesser, Zeigler, Royalton, Elkville,
+Woodlawn, Valier, West City, Ava, Tamaroa, Ina, North City, Buckner,
+and Dix.
+
+This includes the following highways...
+Interstate 57 in Illinois between Mile Markers 64 and 105.
+Interstate 64 in Illinois between Mile Markers 63 and 79.</description>
+				<instruction type="str">If outdoors, consider seeking shelter inside a building.
+
+Torrential rainfall is also occurring with these storms and may lead
+to localized flooding. Do not drive your vehicle through flooded
+roadways.
+
+Frequent cloud to ground lightning is occurring with these storms.
+Lightning can strike 10 miles away from a thunderstorm. Seek a safe
+shelter inside a building or vehicle.</instruction>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">SPSPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS83 KPAH 042318</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">STRONG THUNDERSTORMS WILL IMPACT PERRY...WESTERN JEFFERSON... NORTHEASTERN JACKSON AND WESTERN FRANKLIN COUNTIES THROUGH 700 PM CDT</item>
+					</NWSheadline>
+					<eventMotionDescription type="list">
+						<item type="str">2024-05-04T23:18:00-00:00...storm...252DEG...20KT...38.52,-89.59 38.23,-89.51 37.91,-89.46</item>
+					</eventMotionDescription>
+					<maxWindGust type="list">
+						<item type="str">50 MPH</item>
+					</maxWindGust>
+					<maxHailSize type="list">
+						<item type="str">0.50</item>
+					</maxHailSize>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+				</parameters>
+			</properties>
+		</item>
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b6ee78f87886d0ba5f25d7d62e5bed6b7eb356b.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="dict">
+				<type type="str">Polygon</type>
+				<coordinates type="list">
+					<item type="list">
+						<item type="list">
+							<item type="float">-89.16</item>
+							<item type="float">38.21</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.14999999999999</item>
+							<item type="float">38.19</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.14999999999999</item>
+							<item type="float">38.129999999999995</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.13</item>
+							<item type="float">38.12</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.14</item>
+							<item type="float">38.099999999999994</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.12</item>
+							<item type="float">38.099999999999994</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.12</item>
+							<item type="float">38.059999999999995</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.14</item>
+							<item type="float">38.03999999999999</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.14</item>
+							<item type="float">38.01999999999999</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.58</item>
+							<item type="float">37.929999999999986</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.6</item>
+							<item type="float">37.94999999999999</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.58999999999999</item>
+							<item type="float">38.21999999999999</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.16</item>
+							<item type="float">38.21</item>
+						</item>
+					</item>
+				</coordinates>
+			</geometry>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b6ee78f87886d0ba5f25d7d62e5bed6b7eb356b.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.8b6ee78f87886d0ba5f25d7d62e5bed6b7eb356b.001.1</id>
+				<areaDesc type="str">Perry; Jackson</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017145</item>
+						<item type="str">017077</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ080</item>
+						<item type="str">ILZ084</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2024-05-04T18:00:00-05:00</sent>
+				<effective type="str">2024-05-04T18:00:00-05:00</effective>
+				<onset type="str">2024-05-04T18:00:00-05:00</onset>
+				<expires type="str">2024-05-04T18:45:00-05:00</expires>
+				<ends type="null"/>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Observed</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Special Weather Statement</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Special Weather Statement issued May 4 at 6:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">At 600 PM CDT, Doppler radar was tracking a strong thunderstorm near
+Coulterville, or 8 miles west of Pinckneyville, moving east at 20
+mph.
+
+HAZARD...Wind gusts up to 40 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hail damage to vegetation is
+possible.
+
+Locations impacted include...
+Du Quoin, Pinckneyville, Tamaroa, Willisville, Cutler, and St. Johns.</description>
+				<instruction type="str">If outdoors, consider seeking shelter inside a building.
+
+Torrential rainfall is also occurring with this storm and may lead to
+localized flooding. Do not drive your vehicle through flooded
+roadways.
+
+Frequent cloud to ground lightning is occurring with this storm.
+Lightning can strike 10 miles away from a thunderstorm. Seek a safe
+shelter inside a building or vehicle.</instruction>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">SPSPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS83 KPAH 042300</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">A STRONG THUNDERSTORM WILL IMPACT PERRY AND NORTH CENTRAL JACKSON COUNTIES THROUGH 645 PM CDT</item>
+					</NWSheadline>
+					<eventMotionDescription type="list">
+						<item type="str">2024-05-04T23:00:00-00:00...storm...249DEG...15KT...38.1,-89.53</item>
+					</eventMotionDescription>
+					<maxWindGust type="list">
+						<item type="str">40 MPH</item>
+					</maxWindGust>
+					<maxHailSize type="list">
+						<item type="str">0.50</item>
+					</maxHailSize>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+				</parameters>
+			</properties>
+		</item>
+	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-05-04T14:00:00+00:00</updated>
+	<updated type="str">2024-05-04T23:18:56+00:00</updated>
 </all>
