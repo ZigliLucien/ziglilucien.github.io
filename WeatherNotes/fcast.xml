@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-05-05T02:36:03+00:00</updated>
+		<updated type="str">2024-05-05T04:50:49+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-05-05T04:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-05-05T02:36:03+00:00</updateTime>
-		<validTimes type="str">2024-05-04T20:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2024-05-05T06:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-05-05T04:50:49+00:00</updateTime>
+		<validTimes type="str">2024-05-04T22:00:00+00:00/P7DT6H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -52,8 +52,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2024-05-04T23:00:00-05:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2024-05-05T01:00:00-05:00</startTime>
 				<endTime type="str">2024-05-05T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">60</temperature>
@@ -61,11 +61,11 @@
 				<temperatureTrend type="str">rising</temperatureTrend>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">20</value>
+					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">18.333333333333332</value>
+					<value type="float">17.22222222222222</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
@@ -73,9 +73,9 @@
 				</relativeHumidity>
 				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">NW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,20/sct?size=medium</icon>
-				<shortForecast type="str">Slight Chance Showers And Thunderstorms then Partly Cloudy</shortForecast>
-				<detailedForecast type="str">A slight chance of showers and thunderstorms before midnight. Partly cloudy. Low around 60, with temperatures rising to around 62 overnight. Northwest wind around 6 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy. Low around 60, with temperatures rising to around 62 overnight. Northwest wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
