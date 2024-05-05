@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before midnight. Mostly cloudy. Low around 60, with temperatures rising to around 62
-         overnight. West wind 3 to 7 mph. Chance of precipitation is 30%.<br></div>
+         overnight. West northwest wind around 6 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

@@ -11,81 +11,85 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.51e73d5ff46e398a65251d1cb243fe5d31dfae2f.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11d0b49b7209fa448d298882fb0944c89a17ee2e.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="dict">
 				<type type="str">Polygon</type>
 				<coordinates type="list">
 					<item type="list">
 						<item type="list">
-							<item type="float">-88.7</item>
-							<item type="float">38.3</item>
+							<item type="float">-88.38</item>
+							<item type="float">38.1</item>
 						</item>
 						<item type="list">
-							<item type="float">-88.72</item>
-							<item type="float">38.199999999999996</item>
+							<item type="float">-88.36999999999999</item>
+							<item type="float">37.72</item>
 						</item>
 						<item type="list">
-							<item type="float">-88.75</item>
-							<item type="float">37.879999999999995</item>
+							<item type="float">-88.58999999999999</item>
+							<item type="float">37.42</item>
 						</item>
 						<item type="list">
-							<item type="float">-89.25</item>
-							<item type="float">37.94</item>
+							<item type="float">-89.38</item>
+							<item type="float">37.45</item>
 						</item>
 						<item type="list">
-							<item type="float">-89.23</item>
-							<item type="float">38.22</item>
+							<item type="float">-89.13</item>
+							<item type="float">37.720000000000006</item>
 						</item>
 						<item type="list">
-							<item type="float">-89.15</item>
-							<item type="float">38.21</item>
+							<item type="float">-88.91</item>
+							<item type="float">38.120000000000005</item>
 						</item>
 						<item type="list">
-							<item type="float">-89.14</item>
-							<item type="float">38.47</item>
-						</item>
-						<item type="list">
-							<item type="float">-88.7</item>
-							<item type="float">38.47</item>
-						</item>
-						<item type="list">
-							<item type="float">-88.7</item>
-							<item type="float">38.3</item>
+							<item type="float">-88.38</item>
+							<item type="float">38.1</item>
 						</item>
 					</item>
 				</coordinates>
 			</geometry>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.51e73d5ff46e398a65251d1cb243fe5d31dfae2f.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11d0b49b7209fa448d298882fb0944c89a17ee2e.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.51e73d5ff46e398a65251d1cb243fe5d31dfae2f.001.1</id>
-				<areaDesc type="str">Jefferson; Perry; Franklin; Jackson</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.11d0b49b7209fa448d298882fb0944c89a17ee2e.001.1</id>
+				<areaDesc type="str">Franklin; Hamilton; Jackson; Williamson; Saline; Union; Johnson; Pope</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
-						<item type="str">017081</item>
-						<item type="str">017145</item>
 						<item type="str">017055</item>
+						<item type="str">017065</item>
 						<item type="str">017077</item>
+						<item type="str">017199</item>
+						<item type="str">017165</item>
+						<item type="str">017181</item>
+						<item type="str">017087</item>
+						<item type="str">017151</item>
 					</SAME>
 					<UGC type="list">
-						<item type="str">ILZ075</item>
-						<item type="str">ILZ080</item>
 						<item type="str">ILZ081</item>
+						<item type="str">ILZ082</item>
 						<item type="str">ILZ084</item>
+						<item type="str">ILZ085</item>
+						<item type="str">ILZ086</item>
+						<item type="str">ILZ088</item>
+						<item type="str">ILZ089</item>
+						<item type="str">ILZ090</item>
 					</UGC>
 				</geocode>
 				<affectedZones type="list">
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ075</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ081</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ082</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ090</item>
 				</affectedZones>
 				<references type="list"/>
-				<sent type="str">2024-05-04T19:04:00-05:00</sent>
-				<effective type="str">2024-05-04T19:04:00-05:00</effective>
-				<onset type="str">2024-05-04T19:04:00-05:00</onset>
-				<expires type="str">2024-05-04T20:00:00-05:00</expires>
+				<sent type="str">2024-05-04T20:15:00-05:00</sent>
+				<effective type="str">2024-05-04T20:15:00-05:00</effective>
+				<onset type="str">2024-05-04T20:15:00-05:00</onset>
+				<expires type="str">2024-05-04T21:00:00-05:00</expires>
 				<ends type="null"/>
 				<status type="str">Actual</status>
 				<messageType type="str">Alert</messageType>
@@ -96,56 +100,51 @@
 				<event type="str">Special Weather Statement</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Special Weather Statement issued May 4 at 7:04PM CDT by NWS Paducah KY</headline>
-				<description type="str">At 704 PM CDT, Doppler radar was tracking strong thunderstorms along
-a line extending from near Odin to 6 miles south of Ashley to near Du
-Quoin. Movement was east at 20 mph.
+				<headline type="str">Special Weather Statement issued May 4 at 8:15PM CDT by NWS Paducah KY</headline>
+				<description type="str">At 814 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Benton to near Carterville to near Cobden.
+Movement was east at 50 mph.
 
-HAZARD...Wind gusts up to 50 mph and penny size hail.
+HAZARD...Wind gusts up to 50 mph.
 
 SOURCE...Radar indicated.
 
 IMPACT...Gusty winds could knock down tree limbs and blow around
-unsecured objects. Minor hail damage to vegetation is
-possible.
+unsecured objects.
 
 Locations impacted include...
-Mount Vernon, West Frankfort, Benton, Du Quoin, Christopher, Rend
-Lake Area, Sesser, Woodlawn, Bluford, Valier, West City, Tamaroa,
-Thompsonville, Ina, North City, Buckner, Dix, Waltonville, Dowell,
-and Bonnie.
+Marion, Herrin, Harrisburg, West Frankfort, Benton, Carterville,
+Anna, Eldorado, Johnston City, Mcleansboro, Jonesboro, Rend Lake
+Area, Crainville, Cobden, Energy, Goreville, Galatia, West City,
+Pittsburg, and Creal Springs.
 
 This includes the following highways...
-Interstate 57 in Illinois between Mile Markers 65 and 105.
-Interstate 64 in Illinois between Mile Markers 63 and 90.</description>
+Interstate 24 in Illinois between Mile Markers 1 and 14.
+Interstate 57 in Illinois between Mile Markers 30 and 79.</description>
 				<instruction type="str">If outdoors, consider seeking shelter inside a building.
 
 Torrential rainfall is also occurring with these storms and may lead
 to localized flooding. Do not drive your vehicle through flooded
-roadways.
-
-Frequent cloud to ground lightning is occurring with these storms.
-Lightning can strike 10 miles away from a thunderstorm. Seek a safe
-shelter inside a building or vehicle.</instruction>
+roadways.</instruction>
 				<response type="str">Execute</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">SPSPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS83 KPAH 050004</item>
+						<item type="str">WWUS83 KPAH 050115</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">STRONG THUNDERSTORMS WILL IMPACT EASTERN PERRY...JEFFERSON... NORTHEASTERN JACKSON AND FRANKLIN COUNTIES THROUGH 800 PM CDT</item>
+						<item type="str">STRONG THUNDERSTORMS WILL IMPACT NORTHEASTERN UNION...NORTHWESTERN POPE...JOHNSON...WILLIAMSON...SALINE...SOUTHEASTERN JACKSON... SOUTHERN HAMILTON AND FRANKLIN COUNTIES THROUGH 900 PM CDT</item>
 					</NWSheadline>
 					<eventMotionDescription type="list">
-						<item type="str">2024-05-05T00:04:00-00:00...storm...274DEG...18KT...38.6,-89.02 38.24,-89.15 38.01,-89.17</item>
+						<item type="str">2024-05-05T01:14:00-00:00...storm...269DEG...42KT...38.06,-88.91 37.72,-89.1 37.51,-89.3</item>
 					</eventMotionDescription>
 					<maxWindGust type="list">
 						<item type="str">50 MPH</item>
 					</maxWindGust>
 					<maxHailSize type="list">
-						<item type="str">0.75</item>
+						<item type="str">0.00</item>
 					</maxHailSize>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -160,5 +159,5 @@ shelter inside a building or vehicle.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-05-05T00:04:49+00:00</updated>
+	<updated type="str">2024-05-05T01:15:37+00:00</updated>
 </all>
