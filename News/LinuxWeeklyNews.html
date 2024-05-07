@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/972683/" title="See Description">GCC 14.1 released</a></li>
+<li><a href="#https://lwn.net/Articles/972680/" title="See Description">Secure Randomness in Go 1.22 (Go Blog)</a></li>
+<li><a href="#https://lwn.net/Articles/972679/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/972596/" title="See Description">2023 PSF annual impact report</a></li>
 <li><a href="#https://lwn.net/Articles/972603/" title="See Description">Stenberg: I survived curl up 2024</a></li>
 <li><a href="#https://lwn.net/Articles/971541/" title="See Description">[$] Modernizing accessibility for desktop Linux</a></li>
@@ -50,12 +53,52 @@
 <li><a href="#https://lwn.net/Articles/971825/" title="See Description">[$] Inheritable credentials for directory file descriptors</a></li>
 <li><a href="#https://lwn.net/Articles/972191/" title="See Description">Rust 1.78.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/972186/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/971093/" title="See Description">[$] LWN.net Weekly Edition for May 2, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/971980/" title="See Description">GNU nano 8.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/971143/" title="See Description">[$] A look at Ubuntu Desktop LTS 24.04</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/972683/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 07 May 2024 12:57:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/972683/" title="https://lwn.net/Articles/972683/">GCC 14.1 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/gcc/7244o293-0qqs-65qq-6n7r-r374399qq79r@fhfr.qr/">Version
+14.1</a> of the GCC compiler suite has been released.  The list of changes
+is long; it includes support for more C++26 features, preparation for
+Fortran 2023 support, a new <tt>-fhardened</tt> flag to enable
+security-hardening features, vectorizer improvements, and a number of <a
+href="https://lwn.net/Articles/946733/">static-analyzer improvements</a>.  See <a
+href="https://gcc.gnu.org/gcc-14/changes.html">the release notes</a> for
+details.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/972680/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 07 May 2024 12:46:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/972680/" title="https://lwn.net/Articles/972680/">Secure Randomness in Go 1.22 (Go Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Go Blog has <a href="https://go.dev/blog/chacha8rand">a detailed
+article</a> on the new, more secure random-number generator implemented for
+the 1.22 release.
+<p>
+<blockquote class="bq">
+	For example, when Go 1.20 deprecated <a href="https://go.dev/pkg/math/rand/#Read"><tt>math/rand</tt>'s <tt>Read</tt></a>, we heard
+	from developers who discovered (thanks to tooling pointing out use
+	of deprecated functionality) they had been using it in places where
+	<a href="https://go.dev/pkg/crypto/rand/#Read"><tt>crypto/rand</tt>'s <tt>Read</tt></a> was definitely needed, like generating key
+	material. Using Go 1.20, that mistake is a serious security problem
+	that merits a detailed investigation to understand the
+	damage. Where were the keys used? How were the keys exposed? Were
+	other random outputs exposed that might allow an attacker to derive
+	the keys? And so on. Using Go 1.22, that mistake is just a mistake.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/972679/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 07 May 2024 12:29:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/972679/" title="https://lwn.net/Articles/972679/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (kernel), <b>Gentoo</b> (libjpeg-turbo, xar, and Xpdf), <b>Red Hat</b> (bind, dhcp and glibc), and <b>SUSE</b> (bouncycastle, curl, flatpak, less, and xen).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/972596/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 06 May 2024 21:21:51 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -235,47 +278,6 @@ mechanism for diagnostic attributes, changes to how assertions around
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium and distro-info-data), <b>Fedora</b> (et, php-tcpdf, python-aiohttp, python-openapi-core, thunderbird, tpm2-tools, and tpm2-tss), <b>Red Hat</b> (nodejs:16 and podman), and <b>Ubuntu</b> (firefox).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/971093/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 02 May 2024 01:11:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/971093/" title="https://lwn.net/Articles/971093/">[$] LWN.net Weekly Edition for May 2, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for May 2, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/971980/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 01 May 2024 17:54:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/971980/" title="https://lwn.net/Articles/971980/">GNU nano 8.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 8.0 of the terminal text editor <a href="https://www.nano-editor.org/">GNU nano</a> has been
-released. This update includes several changes to keybindings to be
-more newcomer-friendly, such as remapping Ctrl-F to forward-search and
-adding an option for modern bindings:</p>
-
-<blockquote class="bq">
-Command-line option --modernbindings (-/) makes ^Q quit, ^X cut,
-   ^C copy, ^V paste, ^Z undo, ^Y redo, ^O open a file, ^W write a
-   file, ^R replace, ^G find again, ^D find again backwards, ^A set
-   the mark, ^T jump to a line, ^P show the position, and ^E execute.
-</blockquote>
-
-<p>The release also provides access to 14 levels of gray scale in xterm (up
-from four), as well as many bug fixes.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/971143/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 01 May 2024 17:00:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/971143/" title="https://lwn.net/Articles/971143/">[$] A look at Ubuntu Desktop LTS 24.04</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Ubuntu&nbsp;24.04&nbsp;LTS, code-named "Noble&nbsp;Numbat", was <a
-href="https://lwn.net/Articles/971175/">released</a> on April&nbsp;25. This release includes <a
-href="https://release.gnome.org/46/">GNOME&nbsp;46</a>, installer updates,
-security enhancements, a lot of updated packages, and a new App Center
-that puts a heavy emphasis on using Snaps to install software. It is not an ambitious release, but it brings enough to the table that it's a worthwhile update.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
