@@ -1,0 +1,2292 @@
+<!DOCTYPE html><html class="no-js">
+    <head>
+        <!-- Meta -->
+        <meta name="viewport" content="width=device-width" />
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+        <title>National Weather Service</title>
+        <meta name="DC.title" content="National Weather Service" />
+        <meta name="DC.description" content="NOAA National Weather Service" />
+        <meta name="DC.creator" content="US Department of Commerce, NOAA, National Weather Service" />
+        <meta name="DC.date.created" scheme="ISO8601" content="2024-05-07T11:18:02+00:00" />
+        <meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
+        <meta name="DC.keywords" content="weather" />
+        <meta name="DC.publisher" content="NOAA's National Weather Service" />
+        <meta name="DC.contributor" content="National Weather Service" />
+        <meta name="DC.rights" content="/disclaimer.php" />
+        <meta name="rating" content="General" />
+        <meta name="robots" content="index,follow" />
+
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/build/images/favicon.eab6deff.ico" type="image/x-icon" />
+
+                    <link rel="stylesheet" href="/build/app.b5803bc3.css">
+        
+                    <script src="/build/runtime.5332280c.js"></script><script src="/build/662.4c16084d.js"></script><script src="/build/app.b0ab6b61.js"></script>
+            <script type="text/javascript" src="https://cdnmon.cfigroup.com/source/webmon/ce989efe8b1040/webmon.js" async></script>
+            <script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&amp;subagency=NOAA"></script>
+            <script type="text/javascript">
+                // GoogleAnalyticsObject is defined in the federated analytics script, but PUA option not used as forecast UA needs sampleRate
+                window[window['GoogleAnalyticsObject']]('create', 'UA-40768555-1', 'weather.gov', {'sampleRate': 6});
+                window[window['GoogleAnalyticsObject']]('set', 'anonymizeIp', true);
+                window[window['GoogleAnalyticsObject']]('require', 'linkid');
+                window[window['GoogleAnalyticsObject']]('send', 'pageview');
+            </script>
+            </head>
+    <body>
+        <main class="container">
+            <header class="row clearfix" id="page-header">
+    <a href="//www.noaa.gov" id="header-noaa" class="pull-left"><img src="/build/images/header/noaa.d87e0251.png" alt="National Oceanic and Atmospheric Administration"/></a>
+    <a href="https://www.weather.gov" id="header-nws" class="pull-left"><img src="/build/images/header/nws.4e6585d8.png" alt="National Weather Service"/></a>
+    <a href="//www.commerce.gov" id="header-doc" class="pull-right"><img src="/build/images/header/doc.b38ba91a.png" alt="United States Department of Commerce"/></a>
+</header>
+
+            <nav class="navbar navbar-default row" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="top-nav">
+            <ul class="nav navbar-nav">
+                <li><a href="//www.weather.gov">HOME</a></li>
+                                    <li class="dropdown">
+                        <a href="http://www.weather.gov/forecastmaps" class="dropdown-toggle" data-toggle="dropdown">
+                                                            FORECAST
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="http://www.weather.gov">Local</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://digital.weather.gov">Graphical</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.aviationweather.gov/">Aviation</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/marine">Marine</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://water.noaa.gov">Rivers and Lakes</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.nhc.noaa.gov/">Hurricanes</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.spc.noaa.gov/">Severe Weather</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/fire/">Fire Weather</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.esrl.noaa.gov/gmd/grad/solcalc/sunrise.html">Sun/Moon</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.cpc.ncep.noaa.gov/">Long Range Forecasts</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.cpc.ncep.noaa.gov">Climate Prediction</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.swpc.noaa.gov/">Space Weather</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="https://www.weather.gov/wrh/climate/" class="dropdown-toggle" data-toggle="dropdown">
+                                                            PAST WEATHER
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="https://www.weather.gov/wrh/climate/">Past Weather</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/wrh/climate/">Heating/Cooling Days</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/wrh/climate/">Monthly Temperatures</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/wrh/climate/">Records</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://aa.usno.navy.mil/">Astronomical Data</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="http://www.weather.gov/safety" class="dropdown-toggle" data-toggle="dropdown">
+                                                            SAFETY
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="https://www.weather.gov/safety/flood">Floods</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/tsunami">Tsunamis</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/beachhazards">Beach Hazards</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/wildfire">Wildfire</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/cold">Cold</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/tornado">Tornadoes</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/fog">Fog</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/airquality">Air Quality</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/heat">Heat</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/hurricane">Hurricanes</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/lightning">Lightning</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/ripcurrent">Rip Currents</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/safeboating">Safe Boating</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/thunderstorm">Thunderstorms</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/space">Space Weather</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/heat-uv">Sun (Ultraviolet Radiation)</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/safetycampaign">Safety Campaigns</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/wind">Wind</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/drought">Drought</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/winter">Winter Weather</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="http://www.weather.gov/informationcenter" class="dropdown-toggle" data-toggle="dropdown">
+                                                            INFORMATION
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="http://www.weather.gov/wrn/wea">Wireless Emergency Alerts</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/wrn/">Weather-Ready Nation</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/owlie/publication_brochures">Brochures</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/coop/">Cooperative Observers</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/briefing/">Daily Briefing</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.nws.noaa.gov/om/hazstats.shtml">Damage/Fatality/Injury Statistics</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://mag.ncep.noaa.gov/">Forecast Models</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/gis">GIS Data Portal</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/nwr/">NOAA Weather Radio</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://weather.gov/publications">Publications</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/SKYWARN">SKYWARN Storm Spotters</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/StormReady">StormReady</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/TsunamiReady/">TsunamiReady</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/notification/">Service Change Notices</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="http://www.weather.gov/education" class="dropdown-toggle" data-toggle="dropdown">
+                                                            EDUCATION
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="https://www.weather.gov/wrn/force">Be A Force of Nature</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/owlie">NWS Education Home</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="http://www.weather.gov/news/" class="dropdown-toggle" data-toggle="dropdown">
+                                                            NEWS
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="http://www.weather.gov/news">NWS News</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/wrn/calendar">Events</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/owlie/publication_brochures">Pubs/Brochures/Booklets </a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.noaa.gov/NOAA-Communications">NWS Media Contacts</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="http://www.weather.gov/search" class="dropdown-toggle" data-toggle="dropdown">
+                                                            SEARCH
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                            <li>
+                                    <div id="site-search">
+                                        <form method="get" action="//search.usa.gov/search" style="margin-bottom: 0; margin-top: 0;">
+                                            <input type="hidden" name="v:project" value="firstgov" />
+                                            <label for="query">Search For</label>
+                                            <input type="text" name="query" id="query" size="12" />
+                                            <input type="submit" value="Go" />
+                                            <p>
+                                                <input type="radio" name="affiliate" checked="checked" value="nws.noaa.gov" id="nws" />
+                                                <label for="nws" class="search-scope">NWS</label>
+                                                <input type="radio" name="affiliate" value="noaa.gov" id="noaa" />
+                                                <label for="noaa" class="search-scope">All NOAA</label>
+                                            </p>
+                                        </form>
+                                    </div>
+                                </li>
+                                                                                </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="http://www.weather.gov/about" class="dropdown-toggle" data-toggle="dropdown">
+                                                            ABOUT
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="http://www.weather.gov/about">About NWS</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/organization">Organization</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/media/wrn/NWS-2023-Strategic-Plan.pdf">Strategic Plan</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/careers/#diversity">Commitment to Diversity</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://sites.google.com/a/noaa.gov/nws-insider/">For NWS Employees</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/insider">International</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/ncep">National Centers</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/careers/">Careers</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://www.weather.gov/contact">Contact Us</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://w1.weather.gov/glossary">Glossary</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://weather.gov/socialmedia">Social Media</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</nav>
+
+            <div class="contentArea">
+                    
+        <span style="font-size: 20px; font-weight:bold;">Zone Forecast Product </span><br />Issued by NWS Paducah, KY
+        <br />
+        <br />
+        <div>
+                    <a href="/">Home</a>&nbsp;|&nbsp;
+                    <b>Current Version</b>&nbsp;|&nbsp;
+                    <a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=2&glossary=0">Previous Version</a>&nbsp;|&nbsp;
+                    <a href="site=PAH&issuedby=PAH&product=ZFP&format=txt&version=1&glossary=0">Text Only</a>&nbsp;|&nbsp;
+                    <a href="javascript:window.print()">Print</a>&nbsp;|&nbsp;<a href="product_types.php?site=PAH">Product List</a>&nbsp;|&nbsp;
+                    <a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=1&glossary=1">Glossary On</a></div>
+                <div>Versions:
+                            <b>1</b> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=2&glossary=0">2</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=3&glossary=0">3</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=4&glossary=0">4</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=5&glossary=0">5</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=6&glossary=0">6</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=7&glossary=0">7</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=8&glossary=0">8</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=9&glossary=0">9</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=10&glossary=0">10</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=11&glossary=0">11</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=12&glossary=0">12</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=13&glossary=0">13</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=14&glossary=0">14</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=15&glossary=0">15</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=16&glossary=0">16</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=17&glossary=0">17</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=18&glossary=0">18</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=19&glossary=0">19</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=20&glossary=0">20</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=21&glossary=0">21</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=22&glossary=0">22</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=23&glossary=0">23</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=24&glossary=0">24</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=25&glossary=0">25</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=26&glossary=0">26</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=27&glossary=0">27</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=28&glossary=0">28</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=29&glossary=0">29</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=30&glossary=0">30</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=31&glossary=0">31</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=32&glossary=0">32</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=33&glossary=0">33</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=34&glossary=0">34</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=35&glossary=0">35</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=36&glossary=0">36</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=37&glossary=0">37</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=38&glossary=0">38</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=39&glossary=0">39</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=40&glossary=0">40</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=41&glossary=0">41</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=42&glossary=0">42</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=43&glossary=0">43</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=44&glossary=0">44</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=45&glossary=0">45</a> 
+                            
+<a href="site=PAH&issuedby=PAH&product=ZFP&format=CI&version=46&glossary=0">46</a> 
+                    <hr size="1" width="520" noshade="noshade" align="left" />
+        </div>
+        <pre class="glossaryProduct">
+485
+FPUS53 KPAH 070930
+ZFPPAH
+
+Zone Forecast Product
+National Weather Service Paducah KY
+428 AM CDT Tue May 7 2024
+
+KYZ005-072100-
+McCracken-
+Including the city of Paducah
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers, mainly this morning. Highs in the mid
+80s. Southwest winds 15 to 20 mph with gusts up to 30 mph. Chance
+of rain 90 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers in the morning,
+then showers with thunderstorms likely in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+80 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms, mainly in the
+evening. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the lower 70s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the mid 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+INZ086-072100-
+Vanderburgh-
+Including the city of Evansville
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 35 mph.
+Chance of rain 70 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms
+in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 10 to 15 mph. Chance of rain 60 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 15 to
+20 mph with gusts up to 30 mph.
+.THURSDAY NIGHT...Partly cloudy. Lows in the lower 50s.
+.FRIDAY...Sunny. Highs in the upper 60s.
+.FRIDAY NIGHT...Partly cloudy in the evening, then clearing. Lows
+in the lower 50s.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 50 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+KYZ019-072100-
+Daviess-
+Including the city of Owensboro
+428 AM CDT Tue May 7 2024
+
+.TODAY...A chance of thunderstorms. Showers likely, mainly this
+morning. Highs in the lower 80s. South winds 15 to 20 mph with
+gusts up to 30 mph. Chance of rain 60 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 5 to 10 mph. Chance of rain 60 percent.
+.WEDNESDAY NIGHT...Thunderstorms likely. Showers. Lows in the mid
+60s. South winds 10 to 15 mph. Chance of rain 90 percent.
+.THURSDAY...Mostly sunny. Highs in the upper 70s. West winds
+10 to 15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 50s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows around 50.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the mid 70s.
+
+$$
+
+KYZ017-072100-
+Christian-
+Including the city of Hopkinsville
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of showers and thunderstorms. Highs in the lower 80s.
+Southwest winds 15 to 20 mph with gusts up to 30 mph. Chance of
+rain 50 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+cloudy. A chance of showers and thunderstorms. Lows in the mid
+60s. Southwest winds 10 to 15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers and thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 10 to 15 mph.
+Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely. Lows in the
+mid 60s. Southwest winds 10 to 15 mph. Chance of rain near
+100 percent.
+.THURSDAY...Partly sunny in the morning, then clearing. Highs
+around 80. West winds 10 to 15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 50s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows in the upper 40s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows in the lower 50s.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs in the upper 70s.
+Lows in the lower 50s.
+
+$$
+
+KYZ009-072100-
+Calloway-
+Including the city of Murray
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph. Chance of rain 70 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+cloudy. A chance of showers and thunderstorms. Lows in the mid
+60s. Southwest winds 10 to 15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 10 to 15 mph.
+Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely. Lows in the
+mid 60s. Southwest winds 10 to 15 mph. Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds around 10 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the upper 60s.
+.SATURDAY THROUGH MONDAY...Mostly clear. Highs in the upper 70s.
+Lows in the lower 50s.
+
+$$
+
+KYZ006-072100-
+Graves-
+Including the city of Mayfield
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers, mainly this morning. Highs in the lower
+80s. South winds 15 to 20 mph. Chance of rain 90 percent.
+.TONIGHT...Partly cloudy with a chance of showers and
+thunderstorms. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 10 to 15 mph.
+Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms. Lows in the mid
+60s. Southwest winds 10 to 15 mph. Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds around 10 mph.
+.THURSDAY NIGHT THROUGH SUNDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the lower 70s.
+.MONDAY...Sunny. Highs around 80.
+
+$$
+
+MOZ087-072100-
+Cape Girardeau-
+Including the cities of Cape Girardeau and Jackson
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy with showers likely with a chance of
+thunderstorms this morning, then partly sunny with a slight
+chance of showers and thunderstorms this afternoon. Highs in the
+lower 80s. Southwest winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 70 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+clear. Lows in the lower 60s. Southwest winds 10 to 15 mph,
+becoming south around 5 mph after midnight.
+.WEDNESDAY...Mostly sunny. A chance of showers in the morning,
+then showers with thunderstorms likely in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+80 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms likely in the
+evening, then partly cloudy after midnight. Lows around 60.
+Southwest winds 10 to 15 mph with gusts up to 25 mph, becoming
+west 5 to 10 mph after midnight. Chance of rain 70 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 50s.
+.FRIDAY THROUGH SATURDAY NIGHT...Mostly clear. Highs in the lower
+70s. Lows around 50.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs in the upper 70s.
+Lows in the lower 50s.
+
+$$
+
+MOZ109-072100-
+Butler-
+Including the city of Poplar Bluff
+428 AM CDT Tue May 7 2024
+
+...TORNADO WATCH 194 IN EFFECT UNTIL 8 AM CDT THIS MORNING...
+
+.TODAY...Mostly cloudy with showers likely with a chance of
+thunderstorms this morning, then mostly sunny this afternoon.
+Some thunderstorms may produce damaging winds, large hail, and
+tornadoes this morning. Highs in the mid 80s. Southwest winds
+15 to 20 mph with gusts up to 30 mph. Chance of rain 70 percent.
+.TONIGHT...Mostly clear. Lows in the lower 60s. Southwest winds
+10 to 15 mph, becoming south around 5 mph after midnight.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the mid 80s. South winds 15 to 20 mph with
+gusts up to 30 mph. Chance of rain 90 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms likely in the
+evening, then partly cloudy after midnight. Lows in the lower
+60s. Southwest winds 10 to 15 mph with gusts up to 25 mph,
+becoming west 5 to 10 mph after midnight. Chance of rain
+70 percent.
+.THURSDAY...Sunny. Less humid with highs in the lower 80s.
+Northwest winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH SUNDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the mid 70s.
+.MONDAY...Sunny. Highs in the lower 80s.
+
+$$
+
+ILZ084-072100-
+Jackson-
+Including the cities of Carbondale and Murphysboro
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy with showers with a chance of
+thunderstorms this morning, then mostly sunny with a slight
+chance of showers and thunderstorms this afternoon. Highs in the
+lower 80s. Southwest winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 80 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+clear. Lows around 60. Southwest winds 10 to 15 mph, becoming
+south around 5 mph after midnight.
+.WEDNESDAY...Sunny in the morning, then partly sunny with showers
+likely with a chance of thunderstorms in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+70 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms likely in the
+evening, then partly cloudy after midnight. Lows around 60. South
+winds 10 to 15 mph with gusts up to 25 mph, becoming west 5 to
+10 mph after midnight. Chance of rain 70 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows around 50.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs around 70. Lows in
+the lower 50s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ085-072100-
+Williamson-
+Including the city of Herrin
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming mostly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Breezy
+with highs in the lower 80s. Southwest winds 15 to 25 mph with
+gusts up to 35 mph. Chance of rain 90 percent.
+.TONIGHT...Partly cloudy with a slight chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows in the lower 60s. Southwest winds 10 to 15 mph with gusts up
+to 25 mph, becoming south around 5 mph after midnight. Chance of
+rain 20 percent.
+.WEDNESDAY...Sunny in the morning, then partly sunny with showers
+likely with a chance of thunderstorms in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening. Lows in the lower 60s. Southwest winds 10 to 15 mph.
+Chance of rain 80 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows around 50.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs around 70. Lows
+around 50.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ075-072100-
+Jefferson-
+Including the city of Mount Vernon
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. Southwest winds 15 to 20 mph with gusts up to
+30 mph. Chance of rain 80 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+clear. Lows in the upper 50s. Southwest winds 10 to 15 mph,
+diminishing to around 5 mph after midnight.
+.WEDNESDAY...Sunny in the morning, then partly sunny with showers
+likely with a chance of thunderstorms in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening. Lows in the lower 60s. South winds 10 to 15 mph,
+becoming west after midnight. Chance of rain 80 percent.
+.THURSDAY...Sunny. Highs in the mid 70s. West winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Partly cloudy. Lows around
+50. Highs in the upper 60s.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows around 50.
+Highs in the upper 70s.
+
+$$
+
+INZ081-072100-
+Gibson-
+Including the city of Fort Branch
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers likely, mainly this morning.
+Highs in the lower 80s. South winds 15 to 20 mph with gusts up to
+35 mph. Chance of rain 70 percent.
+.TONIGHT...Partly cloudy with a chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows in the lower 60s. Southwest winds 10 to 15 mph, diminishing
+to around 5 mph after midnight. Chance of rain 50 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 10 to 15 mph. Chance of rain 60 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 15 to
+20 mph with gusts up to 30 mph.
+.THURSDAY NIGHT...Partly cloudy. Lows around 50.
+.FRIDAY...Sunny. Highs in the upper 60s.
+.FRIDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows in the lower 50s.
+.SATURDAY...Mostly sunny with a chance of showers. Highs in the
+lower 70s. Chance of rain 50 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+INZ082-072100-
+Pike-
+Including the city of Petersburg
+528 AM EDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 70 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms
+in the evening. Lows in the lower 60s. Southwest winds 10 to
+15 mph, diminishing to around 5 mph after midnight. Chance of
+rain 50 percent.
+.WEDNESDAY...Mostly sunny. A chance of showers and thunderstorms
+in the afternoon. Highs in the lower 80s. South winds 5 to
+10 mph. Chance of rain 50 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds around 10 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 15 to
+20 mph.
+.THURSDAY NIGHT...Partly cloudy. Lows around 50.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows in the lower 50s.
+.SATURDAY...Mostly sunny with a chance of showers. Highs in the
+lower 70s. Chance of rain 50 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the mid 70s.
+
+$$
+
+INZ085-072100-
+Posey-
+Including the city of Poseyville
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers likely, mainly this morning.
+Breezy with highs in the lower 80s. South winds 15 to 25 mph with
+gusts up to 35 mph. Chance of rain 70 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms
+in the evening. Lows in the lower 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 10 to 15 mph. Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 15 to
+20 mph with gusts up to 30 mph.
+.THURSDAY NIGHT...Partly cloudy. Lows around 50.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows in the lower 50s.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+INZ087-072100-
+Warrick-
+Including the city of Boonville
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 35 mph.
+Chance of rain 60 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms
+in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 10 to 15 mph. Chance of rain 60 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 15 to
+20 mph.
+.THURSDAY NIGHT...Partly cloudy. Lows in the lower 50s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows in the lower 50s.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 50 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the mid 70s.
+
+$$
+
+INZ088-072100-
+Spencer-
+Including the city of Rockport
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 60 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms
+in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Mostly sunny. A chance of showers and thunderstorms
+in the afternoon. Highs in the lower 80s. South winds 5 to
+10 mph. Chance of rain 50 percent.
+.WEDNESDAY NIGHT...Thunderstorms likely. Showers. Lows in the mid
+60s. South winds 10 to 15 mph, becoming southwest after midnight.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 50s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows in the upper 40s.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 50 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the mid 70s.
+
+$$
+
+KYZ014-072100-
+Union KY-
+Including the city of Morganfield
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 70 percent.
+.TONIGHT...Partly cloudy with a chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows in the mid 60s. Southwest winds 10 to 15 mph. Chance of rain
+50 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 5 to 10 mph. Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 50s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows around 50.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the mid 70s.
+
+$$
+
+KYZ018-072100-
+Henderson-
+Including the city of Henderson
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 70 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms
+in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 10 to 15 mph. Chance of rain 60 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 15 to
+20 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 50s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows in the lower 50s.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the mid 70s.
+
+$$
+
+KYZ010-072100-
+Crittenden-
+Including the city of Marion
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 70 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers in the morning,
+then showers likely with a chance of thunderstorms in the
+afternoon. Highs in the lower 80s. South winds 5 to 10 mph.
+Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the upper 60s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+KYZ015-072100-
+Webster-
+Including the city of Dixon
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 60 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 5 to 10 mph. Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 50s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows around 50.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the mid 70s.
+
+$$
+
+KYZ020-072100-
+McLean-
+Including the city of Calhoun
+428 AM CDT Tue May 7 2024
+
+.TODAY...A chance of thunderstorms. Showers likely, mainly this
+morning. Highs in the lower 80s. South winds 15 to 20 mph with
+gusts up to 30 mph. Chance of rain 60 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 5 to 10 mph. Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Thunderstorms likely. Showers. Lows in the mid
+60s. Southwest winds 10 to 15 mph. Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the upper 60s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+KYZ011-072100-
+Lyon-
+Including the city of Eddyville
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 10 to 15 mph with gusts up to 25 mph.
+Chance of rain 60 percent.
+.TONIGHT...Partly cloudy with a chance of showers and
+thunderstorms in the evening, then mostly cloudy with a slight
+chance of showers and thunderstorms after midnight. Lows in the
+mid 60s. South winds 5 to 10 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers and thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 5 to 10 mph.
+Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Thunderstorms likely. Showers. Lows in the mid
+60s. Southwest winds 5 to 10 mph. Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds around 10 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the upper 60s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the mid 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the mid
+50s. Highs in the upper 70s.
+
+$$
+
+KYZ013-072100-
+Caldwell-
+Including the city of Princeton
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph. Chance of rain 60 percent.
+.TONIGHT...Partly cloudy with a chance of showers and
+thunderstorms in the evening, then mostly cloudy with a slight
+chance of showers and thunderstorms after midnight. Lows in the
+mid 60s. Southwest winds 10 to 15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny with a chance of thunderstorms. A
+chance of showers in the morning, then showers likely in the
+afternoon. Highs in the lower 80s. South winds 5 to 10 mph.
+Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Thunderstorms likely. Showers. Lows in the mid
+60s. Southwest winds 10 to 15 mph. Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the upper 60s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+KYZ016-072100-
+Hopkins-
+Including the city of Madisonville
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 60 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny with a chance of thunderstorms. A
+chance of showers in the morning, then showers likely in the
+afternoon. Highs in the lower 80s. South winds 5 to 10 mph.
+Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Thunderstorms likely. Showers. Lows in the mid
+60s. Southwest winds 10 to 15 mph. Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the upper 60s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows in the lower 50s.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs in the upper 70s.
+Lows in the lower 50s.
+
+$$
+
+KYZ021-072100-
+Muhlenberg-
+Including the city of Greenville
+428 AM CDT Tue May 7 2024
+
+.TODAY...Partly sunny with a chance of showers and thunderstorms.
+Highs in the lower 80s. South winds 15 to 20 mph. Chance of rain
+50 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+cloudy. A chance of thunderstorms. A chance of showers. Lows in
+the upper 60s. Southwest winds 10 to 15 mph. Chance of rain
+50 percent.
+.WEDNESDAY...Partly sunny with a chance of thunderstorms. A
+chance of showers in the morning, then showers likely in the
+afternoon. Highs in the lower 80s. South winds 5 to 10 mph.
+Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers. Thunderstorms likely, mainly in the
+evening. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Mostly sunny. Highs around 80. West winds 10 to
+15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the upper 60s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows in the lower 50s.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs in the upper 70s.
+Lows in the lower 50s.
+
+$$
+
+KYZ012-072100-
+Trigg-
+Including the city of Cadiz
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of showers and thunderstorms. Highs in the lower 80s.
+South winds 15 to 20 mph. Chance of rain 50 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+cloudy. A chance of showers and thunderstorms. Lows in the mid
+60s. Southwest winds 10 to 15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers and thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 10 to 15 mph.
+Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely. Lows in the
+mid 60s. Southwest winds 10 to 15 mph. Chance of rain near
+100 percent.
+.THURSDAY...Sunny. Highs around 80. West winds 5 to 10 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the upper 60s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the mid 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows in the lower 50s.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs in the upper 70s.
+Lows in the mid 50s.
+
+$$
+
+KYZ022-072100-
+Todd-
+Including the city of Elkton
+428 AM CDT Tue May 7 2024
+
+.TODAY...Partly sunny with a chance of showers and thunderstorms.
+Highs in the lower 80s. Southwest winds 15 to 20 mph. Chance of
+rain 50 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+cloudy. A chance of showers and thunderstorms. Lows in the upper
+60s. Southwest winds 10 to 15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers and thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 10 to 15 mph.
+Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers. Thunderstorms likely, mainly in the
+evening. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Partly sunny in the morning, then clearing. Highs
+around 80. West winds 10 to 15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 50s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows in the upper 40s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT...Partly cloudy. Lows in the lower 50s.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs in the mid 70s. Lows
+in the lower 50s.
+
+$$
+
+KYZ008-072100-
+Marshall-
+Including the city of Benton
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 10 to 15 mph with gusts up to 25 mph.
+Chance of rain 70 percent.
+.TONIGHT...Partly cloudy with a chance of showers and
+thunderstorms. Lows in the mid 60s. Southwest winds 5 to 10 mph.
+Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 5 to 10 mph.
+Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms. Lows in the mid
+60s. Southwest winds 10 to 15 mph. Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds around 10 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs around 70.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the mid 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+KYZ007-072100-
+Livingston-
+Including the city of Smithland
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 70 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers in the morning,
+then showers and thunderstorms likely in the afternoon. Highs in
+the lower 80s. South winds 5 to 10 mph. Chance of rain
+70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs around 70.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the mid 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+KYZ004-072100-
+Ballard-
+Including the city of Wickliffe
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the mid 80s. Southwest winds 15 to 20 mph with gusts up to
+30 mph. Chance of rain 90 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 40 percent.
+.WEDNESDAY...Partly sunny. A chance of showers in the morning,
+then showers with thunderstorms likely in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Locally heavy rainfall possible in the evening. Lows in
+the mid 60s. Southwest winds 10 to 15 mph. Chance of rain
+90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH SATURDAY NIGHT...Mostly clear. Lows in
+the lower 50s. Highs in the lower 70s.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs around 80. Lows in
+the mid 50s.
+
+$$
+
+KYZ003-072100-
+Carlisle-
+Including the city of Bardwell
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers, mainly this morning. Highs in the lower
+80s. Southwest winds 15 to 20 mph with gusts up to 30 mph. Chance
+of rain 90 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. South winds 10 to
+15 mph. Chance of rain 40 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 10 to 15 mph.
+Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms, mainly in the
+evening. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH SUNDAY NIGHT...Mostly clear. Lows in the
+mid 50s. Highs in the mid 70s.
+.MONDAY...Sunny. Highs around 80.
+
+$$
+
+KYZ002-072100-
+Hickman-
+Including the city of Clinton
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers, mainly this morning. Highs in the lower
+80s. South winds 15 to 20 mph with gusts up to 30 mph. Chance of
+rain 90 percent.
+.TONIGHT...Partly cloudy with a chance of showers and
+thunderstorms. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 40 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 10 to 15 mph.
+Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH SUNDAY NIGHT...Mostly clear. Lows in the
+mid 50s. Highs in the mid 70s.
+.MONDAY...Sunny. Highs around 80.
+
+$$
+
+KYZ001-072100-
+Fulton-
+Including the city of Hickman
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. Southwest winds 15 to 20 mph with gusts up to
+35 mph. Chance of rain 90 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. South winds 10 to
+15 mph. Chance of rain 40 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 15 to 20 mph with
+gusts up to 30 mph. Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH SUNDAY NIGHT...Mostly clear. Lows in the
+mid 50s. Highs in the mid 70s.
+.MONDAY...Sunny. Highs around 80.
+
+$$
+
+MOZ107-072100-
+Carter-
+Including the city of Van Buren
+428 AM CDT Tue May 7 2024
+
+...TORNADO WATCH 194 IN EFFECT UNTIL 8 AM CDT THIS MORNING...
+
+.TODAY...Partly sunny. A chance of showers and thunderstorms this
+morning. Some thunderstorms may produce damaging winds, large
+hail, and tornadoes this morning. Highs in the mid 80s. Southwest
+winds 15 to 20 mph with gusts up to 30 mph. Chance of rain
+50 percent.
+.TONIGHT...Mostly clear. Lows in the upper 50s. West winds 10 to
+15 mph, becoming south around 5 mph after midnight.
+.WEDNESDAY...Mostly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the mid 80s. South winds 15 to 20 mph. Chance
+of rain 90 percent.
+.WEDNESDAY NIGHT...Mostly cloudy with a chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows in the upper 50s. Southwest winds 10 to 15 mph with gusts up
+to 25 mph, becoming west 5 to 10 mph after midnight. Chance of
+rain 50 percent.
+.THURSDAY...Sunny. Less humid with highs around 80. Northwest
+winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH SUNDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the mid 70s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+MOZ108-072100-
+Ripley-
+Including the city of Doniphan
+428 AM CDT Tue May 7 2024
+
+...TORNADO WATCH 194 IN EFFECT UNTIL 8 AM CDT THIS MORNING...
+
+.TODAY...Mostly cloudy with showers likely with a chance of
+thunderstorms this morning, then mostly sunny this afternoon.
+Some thunderstorms may produce damaging winds, large hail, and
+tornadoes this morning. Highs in the mid 80s. Southwest winds
+15 to 20 mph with gusts up to 30 mph. Chance of rain 70 percent.
+.TONIGHT...Mostly clear. Lows in the lower 60s. Southwest winds
+10 to 15 mph, becoming south around 5 mph after midnight.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the mid 80s. South winds 15 to 20 mph. Chance
+of rain 80 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms likely in the
+evening, then partly cloudy after midnight. Lows around 60.
+Southwest winds 10 to 15 mph with gusts up to 25 mph, becoming
+west 5 to 10 mph after midnight. Chance of rain 70 percent.
+.THURSDAY...Sunny. Less humid with highs in the lower 80s.
+Northwest winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH SUNDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the mid 70s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+MOZ100-072100-
+Wayne MO-
+Including the city of Piedmont
+428 AM CDT Tue May 7 2024
+
+...TORNADO WATCH 194 IN EFFECT UNTIL 8 AM CDT THIS MORNING...
+
+.TODAY...Mostly cloudy with showers likely with a chance of
+thunderstorms this morning, then partly sunny with a slight
+chance of showers and thunderstorms this afternoon. Some
+thunderstorms may produce damaging winds, large hail, and
+tornadoes this morning. Highs in the mid 80s. Southwest winds
+10 to 15 mph with gusts up to 25 mph. Chance of rain 70 percent.
+.TONIGHT...Mostly clear. Lows in the upper 50s. West winds 10 to
+15 mph, becoming south around 5 mph after midnight.
+.WEDNESDAY...Partly sunny. A chance of showers in the morning,
+then showers with thunderstorms likely in the afternoon. Highs in
+the mid 80s. South winds 10 to 15 mph. Chance of rain 90 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms likely in the
+evening, then partly cloudy after midnight. Lows in the upper
+50s. Southwest winds 10 to 15 mph, becoming west 5 to 10 mph
+after midnight. Chance of rain 70 percent.
+.THURSDAY...Sunny. Less humid with highs around 80. Northwest
+winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH SUNDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the mid 70s.
+.MONDAY...Sunny. Highs in the lower 80s.
+
+$$
+
+MOZ086-072100-
+Bollinger-
+Including the city of Marble Hill
+428 AM CDT Tue May 7 2024
+
+...TORNADO WATCH 194 IN EFFECT UNTIL 8 AM CDT THIS MORNING...
+
+.TODAY...Mostly cloudy with showers likely with a chance of
+thunderstorms this morning, then mostly sunny with a slight
+chance of showers and thunderstorms this afternoon. Some
+thunderstorms may produce damaging winds, large hail, and
+tornadoes this morning. Highs in the mid 80s. Southwest winds
+15 to 20 mph with gusts up to 30 mph. Chance of rain 70 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+clear. Lows around 60. Southwest winds 10 to 15 mph, diminishing
+to around 5 mph after midnight.
+.WEDNESDAY...Mostly sunny. A chance of showers in the morning,
+then showers with thunderstorms likely in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+80 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms likely in the
+evening, then partly cloudy after midnight. Lows in the upper
+50s. Southwest winds 10 to 15 mph with gusts up to 25 mph,
+becoming west 5 to 10 mph after midnight. Chance of rain
+70 percent.
+.THURSDAY...Sunny. Less humid with highs in the upper 70s. West
+winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH SUNDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the mid 70s.
+.MONDAY...Sunny. Highs around 80.
+
+$$
+
+MOZ076-072100-
+Perry MO-
+Including the city of Perryville
+428 AM CDT Tue May 7 2024
+
+...TORNADO WATCH 194 IN EFFECT UNTIL 8 AM CDT THIS MORNING...
+
+.TODAY...Mostly cloudy with showers likely with a chance of
+thunderstorms this morning, then mostly sunny with a slight
+chance of showers and thunderstorms this afternoon. Some
+thunderstorms may produce damaging winds, large hail, and
+tornadoes this morning. Highs in the mid 80s. Southwest winds
+15 to 20 mph with gusts up to 30 mph. Chance of rain 70 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+clear. Lows in the upper 50s. Southwest winds 10 to 15 mph,
+becoming south around 5 mph after midnight.
+.WEDNESDAY...Sunny in the morning, then partly sunny with showers
+with thunderstorms likely in the afternoon. Highs in the lower
+80s. South winds 15 to 20 mph. Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms likely in the
+evening, then partly cloudy after midnight. Lows in the upper
+50s. South winds 10 to 15 mph with gusts up to 25 mph, becoming
+west 5 to 10 mph after midnight. Chance of rain 70 percent.
+.THURSDAY...Sunny. Less humid with highs in the upper 70s. West
+winds 10 to 15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows around 50.
+.FRIDAY THROUGH SATURDAY NIGHT...Mostly clear. Highs in the lower
+70s. Lows in the lower 50s.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs in the upper 70s.
+Lows in the mid 50s.
+
+$$
+
+MOZ110-072100-
+Stoddard-
+Including the city of Bloomfield
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy with showers with a chance of
+thunderstorms this morning, then mostly sunny with a slight
+chance of showers and thunderstorms this afternoon. Highs in the
+mid 80s. Southwest winds 15 to 20 mph with gusts up to 35 mph.
+Chance of rain 90 percent.
+.TONIGHT...Mostly clear. A slight chance of showers and
+thunderstorms in the evening. Lows in the lower 60s. Southwest
+winds 10 to 15 mph with gusts up to 25 mph, becoming south around
+5 mph after midnight. Chance of rain 20 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 15 to 20 mph with
+gusts up to 30 mph. Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then partly cloudy after midnight. Lows in the lower
+60s. Southwest winds 10 to 15 mph with gusts up to 25 mph,
+becoming west 5 to 10 mph after midnight. Chance of rain
+80 percent.
+.THURSDAY...Sunny. Less humid with highs around 80. West winds
+10 to 15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the lower 70s.
+.SATURDAY THROUGH MONDAY...Mostly clear. Highs in the upper 70s.
+Lows in the lower 50s.
+
+$$
+
+MOZ111-072100-
+Scott-
+Including the city of Sikeston
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy with showers with a chance of
+thunderstorms this morning, then partly sunny with a slight
+chance of showers and thunderstorms this afternoon. Highs in the
+mid 80s. Southwest winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 90 percent.
+.TONIGHT...Mostly clear with a slight chance of showers and
+thunderstorms in the evening, then partly cloudy after midnight.
+Lows in the mid 60s. Southwest winds 10 to 15 mph with gusts up
+to 25 mph, becoming south around 5 mph after midnight. Chance of
+rain 20 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 10 to 15 mph.
+Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening. Lows in the lower 60s. Southwest winds 10 to 15 mph with
+gusts up to 25 mph, becoming west 5 to 10 mph after midnight.
+Chance of rain 80 percent.
+.THURSDAY...Sunny. Less humid with highs around 80. West winds
+10 to 15 mph.
+.THURSDAY NIGHT THROUGH SATURDAY NIGHT...Mostly clear. Lows in
+the lower 50s. Highs in the lower 70s.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs around 80. Lows in
+the mid 50s.
+
+$$
+
+MOZ114-072100-
+New Madrid-
+Including the city of New Madrid
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy with showers with a chance of
+thunderstorms this morning, then mostly sunny with a slight
+chance of showers and thunderstorms this afternoon. Breezy with
+highs in the mid 80s. Southwest winds 15 to 25 mph with gusts up
+to 35 mph. Chance of rain 90 percent.
+.TONIGHT...Partly cloudy with a slight chance of showers and
+thunderstorms. Lows in the mid 60s. Southwest winds 10 to 15 mph
+with gusts up to 25 mph, becoming south 5 to 10 mph after
+midnight. Chance of rain 20 percent.
+.WEDNESDAY...Partly sunny with a chance of thunderstorms. A
+chance of showers in the morning, then showers in the afternoon.
+Highs in the mid 80s. South winds 15 to 20 mph with gusts up to
+30 mph. Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 15 to 20 mph with
+gusts up to 30 mph, becoming west 10 to 15 mph after midnight.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the lower 80s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+mid 50s. Highs in the lower 70s.
+.SATURDAY THROUGH MONDAY...Mostly clear. Highs in the upper 70s.
+Lows in the mid 50s.
+
+$$
+
+MOZ112-072100-
+Mississippi-
+Including the city of Charleston
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. South winds 15 to 20 mph with gusts up to 35 mph.
+Chance of rain 90 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. South winds 10 to
+15 mph. Chance of rain 40 percent.
+.WEDNESDAY...Partly sunny. A chance of showers and thunderstorms
+in the morning, then showers with thunderstorms likely in the
+afternoon. Highs in the lower 80s. South winds 15 to 20 mph.
+Chance of rain 80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH SATURDAY NIGHT...Mostly clear. Lows in
+the mid 50s. Highs in the lower 70s.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs around 80. Lows in
+the mid 50s.
+
+$$
+
+ILZ092-072100-
+Alexander-
+Including the city of Cairo
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the mid 80s. Southwest winds 15 to 20 mph with gusts up to
+30 mph. Chance of rain 90 percent.
+.TONIGHT...Mostly clear with a slight chance of showers and
+thunderstorms in the evening, then partly cloudy after midnight.
+Lows in the mid 60s. Southwest winds 10 to 15 mph, becoming south
+around 5 mph after midnight. Chance of rain 20 percent.
+.WEDNESDAY...Partly sunny. A chance of showers in the morning,
+then showers with thunderstorms likely in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening. Lows in the lower 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Less humid with highs around 80. West winds
+10 to 15 mph.
+.THURSDAY NIGHT THROUGH SATURDAY NIGHT...Mostly clear. Lows in
+the lower 50s. Highs in the lower 70s.
+.SUNDAY THROUGH MONDAY...Mostly clear. Highs around 80. Lows in
+the mid 50s.
+
+$$
+
+ILZ093-072100-
+Pulaski-
+Including the city of Mound City
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the mid 80s. Southwest winds 15 to 20 mph with gusts up to
+30 mph. Chance of rain 90 percent.
+.TONIGHT...Mostly clear with a slight chance of showers and
+thunderstorms in the evening, then partly cloudy after midnight.
+Lows in the mid 60s. Southwest winds 10 to 15 mph, becoming south
+around 5 mph after midnight. Chance of rain 20 percent.
+.WEDNESDAY...Partly sunny. A chance of showers in the morning,
+then showers with thunderstorms likely in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the lower 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the lower 70s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the mid 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ094-072100-
+Massac-
+Including the city of Metropolis
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 90 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms,
+mainly in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers in the morning,
+then showers with thunderstorms likely in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Locally heavy rainfall possible in the evening. Lows in
+the lower 60s. Southwest winds 10 to 15 mph. Chance of rain
+90 percent.
+.THURSDAY...Sunny. Highs around 80. West winds 10 to 15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the lower 70s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the mid 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ088-072100-
+Union-
+Including the city of Jonesboro
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. Southwest winds 15 to 20 mph with gusts up to
+30 mph. Chance of rain 90 percent.
+.TONIGHT...Partly cloudy with a slight chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows in the lower 60s. Southwest winds 10 to 15 mph, becoming
+south around 5 mph after midnight. Chance of rain 20 percent.
+.WEDNESDAY...Mostly sunny. A chance of showers in the morning,
+then showers with thunderstorms likely in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening. Lows in the lower 60s. South winds 10 to 15 mph with
+gusts up to 25 mph, becoming southwest 5 to 10 mph after
+midnight. Chance of rain 80 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs around 70.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the mid 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ089-072100-
+Johnson-
+Including the city of Vienna
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. Southwest winds 15 to 20 mph with gusts up to
+35 mph. Chance of rain 90 percent.
+.TONIGHT...Partly cloudy. A slight chance of showers and
+thunderstorms in the evening. Lows in the lower 60s. Southwest
+winds 10 to 15 mph with gusts up to 25 mph, becoming south around
+5 mph after midnight. Chance of rain 20 percent.
+.WEDNESDAY...Partly sunny. A chance of showers in the morning,
+then showers with a chance of thunderstorms in the afternoon.
+Highs in the lower 80s. South winds 10 to 15 mph. Chance of rain
+80 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the lower 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs around 70.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ090-072100-
+Pope-
+Including the city of Golconda
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 80 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms
+in the evening. Lows in the mid 60s. Southwest winds 10 to 15 mph
+with gusts up to 25 mph, diminishing to around 5 mph after
+midnight. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. A chance of showers in the morning,
+then showers likely with a chance of thunderstorms in the
+afternoon. Highs in the lower 80s. South winds 10 to 15 mph.
+Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the lower 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 50s. Highs in the upper 60s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ091-072100-
+Hardin-
+Including the city of Elizabethtown
+428 AM CDT Tue May 7 2024
+
+.TODAY...Becoming partly sunny this afternoon. A chance of
+thunderstorms. Showers likely, mainly this morning. Highs in the
+lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 70 percent.
+.TONIGHT...Partly cloudy. A chance of showers and thunderstorms
+in the evening. Lows in the mid 60s. Southwest winds 10 to
+15 mph. Chance of rain 50 percent.
+.WEDNESDAY...Partly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 10 to 15 mph. Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the lower 60s. South winds 10 to 15 mph,
+becoming southwest after midnight. Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 50s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows around 50.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the mid 70s.
+
+$$
+
+ILZ086-072100-
+Saline-
+Including the city of Harrisburg
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. Southwest winds 15 to 20 mph with gusts up to
+30 mph. Chance of rain 80 percent.
+.TONIGHT...Partly cloudy with a slight chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows in the lower 60s. Southwest winds 10 to 15 mph with gusts up
+to 25 mph, diminishing to around 5 mph after midnight. Chance of
+rain 20 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 10 to 15 mph. Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the lower 60s. Southwest winds 10 to 15 mph.
+Chance of rain 80 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows around 50.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows in the upper 40s.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ087-072100-
+Gallatin-
+Including the city of Shawneetown
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 80 percent.
+.TONIGHT...Partly cloudy with a slight chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows in the lower 60s. Southwest winds 10 to 15 mph. Chance of
+rain 20 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 10 to 15 mph. Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the lower 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 10 to
+15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows around 50.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows around 50.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ080-072100-
+Perry IL-
+Including the city of Pinckneyville
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy with showers likely with a chance of
+thunderstorms this morning, then mostly sunny with a slight
+chance of showers and thunderstorms this afternoon. Highs in the
+lower 80s. Southwest winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 70 percent.
+.TONIGHT...Partly cloudy in the evening, then becoming mostly
+clear. Lows in the upper 50s. Southwest winds 10 to 15 mph,
+becoming south around 5 mph after midnight.
+.WEDNESDAY...Sunny in the morning, then partly sunny with showers
+likely with a chance of thunderstorms in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+70 percent.
+.WEDNESDAY NIGHT...Showers and thunderstorms likely in the
+evening, then partly cloudy after midnight. Lows around 60. South
+winds 10 to 15 mph, becoming west after midnight. Chance of rain
+70 percent.
+.THURSDAY...Sunny. Highs in the mid 70s. West winds 10 to 15 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows around 50.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows in the lower 50s.
+.SATURDAY...Sunny. A chance of showers in the afternoon. Highs in
+the lower 70s. Chance of rain 30 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ081-072100-
+Franklin-
+Including the city of West Frankfort
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy with showers with a chance of
+thunderstorms this morning, then mostly sunny with a slight
+chance of showers and thunderstorms this afternoon. Highs in the
+lower 80s. Southwest winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 80 percent.
+.TONIGHT...Partly cloudy with a slight chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows around 60. Southwest winds 10 to 15 mph, becoming south
+around 5 mph after midnight. Chance of rain 20 percent.
+.WEDNESDAY...Sunny in the morning, then partly sunny with showers
+likely with a chance of thunderstorms in the afternoon. Highs in
+the lower 80s. South winds 10 to 15 mph. Chance of rain
+70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening. Lows around 60. South winds 10 to 15 mph with gusts up
+to 25 mph, becoming southwest after midnight. Chance of rain
+80 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 15 to
+20 mph.
+.THURSDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows around 50.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows around 50.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ082-072100-
+Hamilton-
+Including the city of McLeansboro
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming mostly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 80 percent.
+.TONIGHT...Partly cloudy with a slight chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows around 60. Southwest winds 10 to 15 mph, diminishing to
+around 5 mph after midnight. Chance of rain 20 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 10 to 15 mph. Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening. Lows in the lower 60s. Southwest winds 10 to 15 mph.
+Chance of rain 80 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 15 to
+20 mph.
+.THURSDAY NIGHT AND FRIDAY...Partly cloudy. Lows in the upper
+40s. Highs in the upper 60s.
+.FRIDAY NIGHT...Mostly clear. Lows in the upper 40s.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows around 50.
+Highs in the upper 70s.
+
+$$
+
+ILZ083-072100-
+White-
+Including the city of Carmi
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 80 percent.
+.TONIGHT...Partly cloudy with a slight chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows in the lower 60s. Southwest winds 10 to 15 mph. Chance of
+rain 20 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 10 to 15 mph. Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the lower 60s. Southwest winds 10 to 15 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 15 to
+20 mph.
+.THURSDAY NIGHT...Partly cloudy. Lows around 50.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 60s.
+Lows around 50.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ076-072100-
+Wayne IL-
+Including the city of Fairfield
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 90 percent.
+.TONIGHT...Partly cloudy with a slight chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows around 60. Southwest winds 10 to 15 mph, diminishing to
+around 5 mph after midnight. Chance of rain 20 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the lower 80s. South
+winds 5 to 10 mph. Chance of rain 70 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening. Lows in the lower 60s. South winds 10 to 15 mph with
+gusts up to 25 mph, becoming southwest after midnight. Chance of
+rain 80 percent.
+.THURSDAY...Sunny. Highs in the mid 70s. West winds 15 to 20 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Partly cloudy. Lows around
+50. Highs in the upper 60s.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 40 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows around 50.
+Highs in the upper 70s.
+
+$$
+
+ILZ077-072100-
+Edwards-
+Including the city of Albion
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers, mainly this morning. Highs in
+the lower 80s. South winds 15 to 20 mph with gusts up to 30 mph.
+Chance of rain 80 percent.
+.TONIGHT...Partly cloudy with a chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows in the lower 60s. Southwest winds 10 to 15 mph, diminishing
+to around 5 mph after midnight. Chance of rain 30 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the mid 80s. South winds
+10 to 15 mph. Chance of rain 60 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening. Lows in the lower 60s. South winds 10 to 15 mph with
+gusts up to 25 mph, becoming southwest after midnight. Chance of
+rain 80 percent.
+.THURSDAY...Sunny. Highs in the mid 70s. West winds 15 to 20 mph.
+.THURSDAY NIGHT...Partly cloudy. Lows around 50.
+.FRIDAY...Sunny. Highs in the upper 60s.
+.FRIDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows in the lower 50s.
+.SATURDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 70s. Chance of rain 50 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+ILZ078-072100-
+Wabash-
+Including the city of Mount Carmel
+428 AM CDT Tue May 7 2024
+
+.TODAY...Mostly cloudy this morning, then becoming partly sunny.
+A chance of thunderstorms. Showers likely, mainly this morning.
+Highs in the lower 80s. South winds 15 to 20 mph with gusts up to
+35 mph. Chance of rain 70 percent.
+.TONIGHT...Partly cloudy with a chance of showers and
+thunderstorms in the evening, then mostly clear after midnight.
+Lows in the lower 60s. Southwest winds 10 to 15 mph, diminishing
+to around 5 mph after midnight. Chance of rain 40 percent.
+.WEDNESDAY...Mostly sunny. Showers likely with a chance of
+thunderstorms in the afternoon. Highs in the mid 80s. South winds
+10 to 15 mph. Chance of rain 60 percent.
+.WEDNESDAY NIGHT...Showers with thunderstorms likely in the
+evening, then a chance of showers and thunderstorms after
+midnight. Lows in the mid 60s. Southwest winds 15 to 20 mph.
+Chance of rain 90 percent.
+.THURSDAY...Sunny. Highs in the upper 70s. West winds 15 to
+20 mph.
+.THURSDAY NIGHT...Partly cloudy. Lows around 50.
+.FRIDAY...Sunny. Highs in the upper 60s.
+.FRIDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows in the lower 50s.
+.SATURDAY...Mostly sunny with a chance of showers. Highs in the
+lower 70s. Chance of rain 50 percent.
+.SATURDAY NIGHT THROUGH MONDAY...Mostly clear. Lows in the lower
+50s. Highs in the upper 70s.
+
+$$
+
+
+
+</pre>
+
+                </div>
+            <footer>
+                                <div class="footer-legal">
+    <div id="footerLogo" class="col-xs-12 col-sm-2 col-md-2">
+        <a href="//www.usa.gov"><img src="/css/images/usa_gov.png" alt="usa.gov" width="110" height="30" /></a>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4">
+        <ul class="list-unstyled footer-legal-content">
+            <li><a href="//www.commerce.gov">US Dept of Commerce</a></li>
+            <li><a href="//www.noaa.gov">National Oceanic and Atmospheric Administration</a></li>
+            <li><a href="https://www.weather.gov">National Weather Service</a></li>
+                        <li>1325 East West Highway<br /></li>
+                        <li>Silver Spring, MD 20910</li>
+            <li><br /><a href="https://www.weather.gov/Contact">Comments? Questions? Please Contact Us.</a></li>
+        </ul>
+    </div>
+    <div class="col-xs-12 col-sm-3 col-md-3">
+        <ul class="list-unstyled">
+            <li><a href="https://www.weather.gov/disclaimer">Disclaimer</a></li>
+            <li><a href="//www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a></li>
+            <li><a href="https://www.weather.gov/help">Help</a></li>
+            <li><a href="//www.weather.gov/glossary">Glossary</a></li>
+        </ul>
+    </div>
+    <div class="col-xs-12 col-sm-3 col-md-3">
+        <ul class="list-unstyled">
+            <li><a href="https://www.weather.gov/privacy">Privacy Policy</a></li>
+            <li><a href="https://www.noaa.gov/foia-freedom-of-information-act">Freedom of Information Act (FOIA)</a></li>
+            <li><a href="https://www.weather.gov/about">About Us</a></li>
+            <li><a href="https://www.weather.gov/careers">Career Opportunities</a></li>
+        </ul>
+    </div>
+</div>
+
+            </footer>
+        </main>
+    </body>
+</html>
