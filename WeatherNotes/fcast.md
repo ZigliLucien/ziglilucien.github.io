@@ -2,23 +2,24 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Showers and thunderstorms likely. Partly sunny. High near 83, with temperatures falling to around 78 in the afternoon. South
-         wind 10 to 14 mph, with gusts as high as 21 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Today</h3>Showers and thunderstorms likely before 3pm, then showers and thunderstorms. Some of the storms could be severe. Partly sunny.
+         High near 83, with temperatures falling to around 78 in the afternoon. South wind around 12 mph, with gusts as high as 18
+         mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms likely before 7pm, then showers and thunderstorms between 7pm and 1am, then a chance of showers
-         and thunderstorms. Mostly cloudy, with a low around 62. South wind 8 to 14 mph, with gusts as high as 22 mph. Chance of precipitation
-         is 80%.<br></div>
+         <h3>Tonight</h3>Showers and thunderstorms before 11pm, then showers and thunderstorms likely between 11pm and 3am. Some of the storms could
+         be severe. Mostly cloudy. Low around 62, with temperatures rising to around 64 overnight. South southwest wind 8 to 13 mph,
+         with gusts as high as 21 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of rain showers before 7am. Sunny. High near 78, with temperatures falling to around 74 in the afternoon. West wind
-         8 to 18 mph, with gusts as high as 26 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Thursday</h3>Sunny. High near 78, with temperatures falling to around 76 in the afternoon. West wind 9 to 16 mph, with gusts as high as
+         24 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 52. North northwest wind 7 to 14 mph, with gusts as high as 21 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly clear, with a low around 52. North northwest wind 7 to 13 mph, with gusts as high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
