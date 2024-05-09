@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms before 11pm, then showers and thunderstorms likely between 11pm and 2am. Some of the storms could
-         be severe. Mostly cloudy, with a low around 63. South wind around 12 mph, with gusts as high as 21 mph. Chance of precipitation
-         is 90%.<br></div>
+         be severe. Mostly cloudy, with a low around 63. South southwest wind around 12 mph, with gusts as high as 21 mph. Chance of
+         precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
