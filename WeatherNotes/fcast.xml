@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-05-11T23:17:56+00:00</updated>
+		<updated type="str">2024-05-12T02:53:54+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-05-12T02:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-05-11T23:17:56+00:00</updateTime>
-		<validTimes type="str">2024-05-11T17:00:00+00:00/P7DT11H</validTimes>
+		<generatedAt type="str">2024-05-12T03:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-05-12T02:53:54+00:00</updateTime>
+		<validTimes type="str">2024-05-11T20:00:00+00:00/P7DT8H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -53,29 +53,29 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2024-05-11T21:00:00-05:00</startTime>
+				<startTime type="str">2024-05-11T22:00:00-05:00</startTime>
 				<endTime type="str">2024-05-12T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">53</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="str">rising</temperatureTrend>
+				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">8.88888888888889</value>
+					<value type="int">10</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">72</value>
+					<value type="int">77</value>
 				</relativeHumidity>
 				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
-				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear. Low around 53, with temperatures rising to around 55 overnight. Southwest wind around 2 mph.</detailedForecast>
+				<windDirection type="str">W</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
+				<shortForecast type="str">Mostly Clear</shortForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 53. West wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
