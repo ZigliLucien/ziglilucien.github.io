@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms between 1pm and 2pm, then showers and thunderstorms
-         likely. Mostly cloudy. High near 72, with temperatures falling to around 68 in the afternoon. South wind 6 to 13 mph, with
+         likely. Mostly cloudy. High near 72, with temperatures falling to around 68 in the afternoon. South wind 8 to 13 mph, with
          gusts as high as 22 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
