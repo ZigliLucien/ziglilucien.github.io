@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/972605/" title="See Description">[$] Some 6.9 development statistics</a></li>
 <li><a href="#https://lwn.net/Articles/971817/" title="See Description">[$] Managing expectations with a contributions and credit policy</a></li>
 <li><a href="#https://lwn.net/Articles/973496/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/972886/" title="See Description">The 6.9 kernel is out</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/970929/" title="See Description">[$] A proposal to switch Fedora Workstation's desktop</a></li>
 <li><a href="#https://lwn.net/Articles/971866/" title="See Description">[$] Systemd heads for a big round-number release</a></li>
 <li><a href="#https://lwn.net/Articles/972683/" title="See Description">GCC 14.1 released</a></li>
-<li><a href="#https://lwn.net/Articles/972680/" title="See Description">Secure Randomness in Go 1.22 (Go Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/972605/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 13 May 2024 17:28:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/972605/" title="https://lwn.net/Articles/972605/">[$] Some 6.9 development statistics</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The 6.9 kernel was <a
+href="https://lwn.net/ml/linux-kernel/CAHk-=whnKYL-WARzrZhVTZ8RP3WZc24C9_DT7JMJooONNT2udQ@mail.gmail.com/">released</a>
+on May&nbsp;12 after a typical nine-week development cycle.  Once again,
+this is a major release containing a lot of changes and new features.  Our
+merge-window summaries (<a href="https://lwn.net/Articles/965141/">part&nbsp;1</a>, <a
+href="https://lwn.net/Articles/965541/">part&nbsp;2</a>) covered those changes; now that
+the development cycle is complete, the time has come to look at where all
+that work came from — and to introduce a new and experimental LWN feature
+for readers interested in this kind of information.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/971817/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 13 May 2024 15:35:03 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -271,27 +287,6 @@ security-hardening features, vectorizer improvements, and a number of <a
 href="https://lwn.net/Articles/946733/">static-analyzer improvements</a>.  See <a
 href="https://gcc.gnu.org/gcc-14/changes.html">the release notes</a> for
 details.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/972680/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 07 May 2024 12:46:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/972680/" title="https://lwn.net/Articles/972680/">Secure Randomness in Go 1.22 (Go Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Go Blog has <a href="https://go.dev/blog/chacha8rand">a detailed
-article</a> on the new, more secure random-number generator implemented for
-the 1.22 release.
-<p>
-<blockquote class="bq">
-	For example, when Go 1.20 deprecated <a href="https://go.dev/pkg/math/rand/#Read"><tt>math/rand</tt>'s <tt>Read</tt></a>, we heard
-	from developers who discovered (thanks to tooling pointing out use
-	of deprecated functionality) they had been using it in places where
-	<a href="https://go.dev/pkg/crypto/rand/#Read"><tt>crypto/rand</tt>'s <tt>Read</tt></a> was definitely needed, like generating key
-	material. Using Go 1.20, that mistake is a serious security problem
-	that merits a detailed investigation to understand the
-	damage. Where were the keys used? How were the keys exposed? Were
-	other random outputs exposed that might allow an attacker to derive
-	the keys? And so on. Using Go 1.22, that mistake is just a mistake.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
