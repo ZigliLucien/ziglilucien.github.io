@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-05-13T02:22:42+00:00</updated>
+		<updated type="str">2024-05-13T04:18:48+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-05-13T03:36:02+00:00</generatedAt>
-		<updateTime type="str">2024-05-13T02:22:42+00:00</updateTime>
-		<validTimes type="str">2024-05-12T20:00:00+00:00/P7DT5H</validTimes>
+		<generatedAt type="str">2024-05-13T04:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-05-13T04:18:48+00:00</updateTime>
+		<validTimes type="str">2024-05-12T22:00:00+00:00/P7DT3H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -53,15 +53,15 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2024-05-12T22:00:00-05:00</startTime>
+				<startTime type="str">2024-05-12T23:00:00-05:00</startTime>
 				<endTime type="str">2024-05-13T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">61</temperature>
+				<temperature type="int">63</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="str">rising</temperatureTrend>
+				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="null"/>
+					<value type="int">20</value>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
@@ -69,13 +69,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">76</value>
+					<value type="int">75</value>
 				</relativeHumidity>
-				<windSpeed type="str">5 to 8 mph</windSpeed>
-				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy. Low around 61, with temperatures rising to around 63 overnight. South wind 5 to 8 mph.</detailedForecast>
+				<windSpeed type="str">6 mph</windSpeed>
+				<windDirection type="str">SSE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy then Slight Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A slight chance of rain showers between 1am and 2am. Mostly cloudy, with a low around 63. South southeast wind around 6 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -96,7 +96,7 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">85</value>
+					<value type="int">84</value>
 				</relativeHumidity>
 				<windSpeed type="str">6 to 14 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
