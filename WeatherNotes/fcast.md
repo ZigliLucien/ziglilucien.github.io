@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 10pm, then showers and thunderstorms. Mostly cloudy. Low around 61, with temperatures
-         rising to around 63 overnight. South southeast wind 7 to 10 mph. Chance of precipitation is 80%.<br></div>
+         rising to around 63 overnight. South southeast wind around 9 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
