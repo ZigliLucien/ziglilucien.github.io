@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974064/" title="See Description">Eight new kernel updates</a></li>
+<li><a href="#https://lwn.net/Articles/973702/" title="See Description">[$] An update and future plans for DAMON</a></li>
 <li><a href="#https://lwn.net/Articles/974055/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/973996/" title="See Description">White paper: Vendor Kernels, Bugs and Stability</a></li>
 <li><a href="#https://lwn.net/Articles/973687/" title="See Description">[$] The first half of the 6.10 merge window</a></li>
@@ -52,11 +54,44 @@
 <li><a href="#https://lwn.net/Articles/973746/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/973686/" title="See Description">Manjaro 24.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/971195/" title="See Description">[$] Portable LLMs with llamafile</a></li>
-<li><a href="#https://lwn.net/Articles/973667/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/972605/" title="See Description">[$] Some 6.9 development statistics</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974064/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 May 2024 14:36:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974064/" title="https://lwn.net/Articles/974064/">Eight new kernel updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The
+<a href="https://lwn.net/Articles/974068/">6.9.1</a>,
+<a href="https://lwn.net/Articles/974070/">6.8.10</a>,
+<a href="https://lwn.net/Articles/974072/">6.6.31</a>,
+<a href="https://lwn.net/Articles/974074/">6.1.91</a>,
+<a href="https://lwn.net/Articles/974075/">5.15.159</a>,
+<a href="https://lwn.net/Articles/974076/">5.10.217</a>,
+<a href="https://lwn.net/Articles/974078/">5.4.276</a>, and
+<a href="https://lwn.net/Articles/974079/">4.19.314</a> stable kernels have been released.
+These versions include several important fixes; as usual, Greg Kroah-Hartman advises
+users to update right away.
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/973702/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 May 2024 14:05:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/973702/" title="https://lwn.net/Articles/973702/">[$] An update and future plans for DAMON</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://docs.kernel.org/mm/damon/index.html">DAMON</a>
+subsystem was the subject of the first session in the memory-management
+track at the <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
+Storage, Filesystem, Memory Management, and BPF Summit</a>.  DAMON
+maintainer SeongJae Park introduced the data-access monitoring
+framework, which can generate snapshots of how memory is accessed, enabling
+the detection of hot and cold regions of memory in both the virtual and
+physical address spaces.  The session covered recent changes and future
+plans for this tool.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974055/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 17 May 2024 13:59:21 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -295,30 +330,6 @@ into portable, native executables for easy integration, archival, or
 distribution. These executables can take advantage of supported GPUs when
 present, but do not require them.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/973667/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 May 2024 13:06:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/973667/" title="https://lwn.net/Articles/973667/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (glib2.0 and shim), <b>Fedora</b> (glib2, gnome-shell, tcpdump, tpm2-tools, tpm2-tss, and uriparser), <b>Mageia</b> (mutt), <b>Oracle</b> (git-lfs, glibc, kernel, kernel-container, nodejs:18, nodejs:20, and pcp), <b>SUSE</b> (apache2, opensc, openssl-1_1, openssl-3, perl, python-Pillow, python-pyOpenSSL, python-Werkzeug, SUSE Manager Client Tools Beta, tpm2-0-tss, and tpm2.0-tools), and <b>Ubuntu</b> (sqlparse and strongswan).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/972605/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 13 May 2024 17:28:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/972605/" title="https://lwn.net/Articles/972605/">[$] Some 6.9 development statistics</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The 6.9 kernel was <a
-href="https://lwn.net/ml/linux-kernel/CAHk-=whnKYL-WARzrZhVTZ8RP3WZc24C9_DT7JMJooONNT2udQ@mail.gmail.com/">released</a>
-on May&nbsp;12 after a typical nine-week development cycle.  Once again,
-this is a major release containing a lot of changes and new features.  Our
-merge-window summaries (<a href="https://lwn.net/Articles/965141/">part&nbsp;1</a>, <a
-href="https://lwn.net/Articles/965541/">part&nbsp;2</a>) covered those changes; now that
-the development cycle is complete, the time has come to look at where all
-that work came from — and to introduce a new and experimental LWN feature
-for readers interested in this kind of information.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
