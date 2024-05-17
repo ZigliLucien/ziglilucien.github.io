@@ -2,18 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Scattered showers and thunderstorms. Mostly cloudy, with a high near 74. South southeast wind 2 to 6 mph. Chance of precipitation
-         is 50%.<br></div>
+         <h3>Today</h3>A chance of showers and thunderstorms. Mostly cloudy, with a high near 75. South wind around 6 mph. Chance of precipitation
+         is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms before 8pm, then a slight chance of showers and thunderstorms between 8pm and 11pm,
-         then patchy fog. Partly cloudy, with a low around 60. Southeast wind around 5 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms before 7pm, then areas of fog. Partly cloudy, with a low around 60. South wind
+         1 to 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Patchy fog and a slight chance of rain showers before 1pm, then a slight chance of showers and thunderstorms. Mostly sunny,
-         with a high near 82. Northeast wind 2 to 6 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Saturday</h3>Areas of fog before 8am, then a slight chance of showers and thunderstorms. Mostly sunny, with a high near 82. East southeast
+         wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -22,7 +22,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Sunny, with a high near 88. North northeast wind around 5 mph.<br></div>
+         <h3>Sunday</h3>Sunny, with a high near 88. North wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
