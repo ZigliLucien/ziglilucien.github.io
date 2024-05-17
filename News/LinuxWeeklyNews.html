@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/972713/" title="See Description">[$] GitLab CI for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/974064/" title="See Description">Eight new kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/973702/" title="See Description">[$] An update and future plans for DAMON</a></li>
 <li><a href="#https://lwn.net/Articles/974055/" title="See Description">Security updates for Friday</a></li>
@@ -53,10 +54,31 @@
 <li><a href="#https://lwn.net/Articles/973565/" title="See Description">[$] The state of the page in 2024</a></li>
 <li><a href="#https://lwn.net/Articles/973746/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/973686/" title="See Description">Manjaro 24.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/971195/" title="See Description">[$] Portable LLMs with llamafile</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/972713/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 May 2024 20:18:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/972713/" title="https://lwn.net/Articles/972713/">[$] GitLab CI for the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Working on the Linux kernel has always been unlike working on
+many other software projects.
+One particularly noticeable difference is the decentralized nature of the
+kernel's testing infrastructure. Projects such as
+<a href="https://github.com/google/syzkaller">
+syzkaller</a>, <a href="https://foundation.kernelci.org/">KernelCI</a>,
+or <a href="https://lwn.net/Articles/608959/">the kernel self tests</a>
+test the kernel in different ways. On February 28, Helen
+Koike
+<a href="https://lwn.net/ml/linux-kernel/20240228225527.1052240-1-helen.koike@collabora.com/">
+posted</a> a patch set that would add continuous integration (CI) scripts for
+the whole kernel. The response was generally positive, but several people
+suggested changes.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974064/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 17 May 2024 14:36:11 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -311,26 +333,6 @@ way for many more improvements in the future.</p>
 
 <p>The project also offers minimal install images with the 6.6&nbsp;LTS
 and 6.1&nbsp;LTS kernels to support older hardware.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/971195/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 May 2024 15:00:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/971195/" title="https://lwn.net/Articles/971195/">[$] Portable LLMs with llamafile</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Large language models (LLMs) have been the subject of much discussion and
-scrutiny recently. Of particular interest to open-source enthusiasts are the
-problems with running LLMs on one's own hardware — especially when doing so
-requires NVIDIA's proprietary CUDA toolkit, which remains unavailable in many
-environments.
-Mozilla has developed
-<a href="https://github.com/Mozilla-Ocho/llamafile">llamafile</a> as a
-potential solution to these problems. Llamafile can compile LLM weights
-into portable, native executables for easy integration, archival, or
-distribution. These executables can take advantage of supported GPUs when
-present, but do not require them.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
