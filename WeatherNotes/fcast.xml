@@ -39,12 +39,12 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-05-18T10:03:36+00:00</updated>
+		<updated type="str">2024-05-18T11:16:47+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-05-18T10:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-05-18T10:03:36+00:00</updateTime>
-		<validTimes type="str">2024-05-18T04:00:00+00:00/P7DT21H</validTimes>
+		<generatedAt type="str">2024-05-18T11:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-05-18T11:16:47+00:00</updateTime>
+		<validTimes type="str">2024-05-18T05:00:00+00:00/P7DT20H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -52,34 +52,7 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Overnight</name>
-				<startTime type="str">2024-05-18T05:00:00-05:00</startTime>
-				<endTime type="str">2024-05-18T06:00:00-05:00</endTime>
-				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">59</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="null"/>
-				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">15.555555555555555</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">100</value>
-				</relativeHumidity>
-				<windSpeed type="str">1 mph</windSpeed>
-				<windDirection type="str">ESE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/fog?size=medium</icon>
-				<shortForecast type="str">Areas Of Fog</shortForecast>
-				<detailedForecast type="str">Areas of fog. Partly cloudy, with a low around 59. East southeast wind around 1 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
-				<name type="str">Saturday</name>
+				<name type="str">Today</name>
 				<startTime type="str">2024-05-18T06:00:00-05:00</startTime>
 				<endTime type="str">2024-05-18T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
@@ -105,8 +78,8 @@
 				<detailedForecast type="str">Areas of fog before 8am, then a slight chance of rain showers between noon and 2pm. Mostly sunny, with a high near 82. East northeast wind 1 to 5 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
-				<name type="str">Saturday Night</name>
+				<number type="int">2</number>
+				<name type="str">Tonight</name>
 				<startTime type="str">2024-05-18T18:00:00-05:00</startTime>
 				<endTime type="str">2024-05-19T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
@@ -132,7 +105,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 61. East southeast wind 0 to 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Sunday</name>
 				<startTime type="str">2024-05-19T06:00:00-05:00</startTime>
 				<endTime type="str">2024-05-19T18:00:00-05:00</endTime>
@@ -159,7 +132,7 @@
 				<detailedForecast type="str">Sunny, with a high near 88. South southwest wind 1 to 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Sunday Night</name>
 				<startTime type="str">2024-05-19T18:00:00-05:00</startTime>
 				<endTime type="str">2024-05-20T06:00:00-05:00</endTime>
@@ -186,7 +159,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 65. South southeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Monday</name>
 				<startTime type="str">2024-05-20T06:00:00-05:00</startTime>
 				<endTime type="str">2024-05-20T18:00:00-05:00</endTime>
@@ -213,7 +186,7 @@
 				<detailedForecast type="str">Mostly sunny, with a high near 88. South wind 5 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2024-05-20T18:00:00-05:00</startTime>
 				<endTime type="str">2024-05-21T06:00:00-05:00</endTime>
@@ -240,7 +213,7 @@
 				<detailedForecast type="str">Partly cloudy, with a low around 69. South southeast wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Tuesday</name>
 				<startTime type="str">2024-05-21T06:00:00-05:00</startTime>
 				<endTime type="str">2024-05-21T18:00:00-05:00</endTime>
@@ -250,7 +223,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="null"/>
+					<value type="int">20</value>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
@@ -262,12 +235,12 @@
 				</relativeHumidity>
 				<windSpeed type="str">7 to 16 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct/tsra_hi?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct/tsra_hi,20?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny then Slight Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 90. South wind 7 to 16 mph, with gusts as high as 26 mph.</detailedForecast>
+				<detailedForecast type="str">A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 90. South wind 7 to 16 mph, with gusts as high as 26 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Tuesday Night</name>
 				<startTime type="str">2024-05-21T18:00:00-05:00</startTime>
 				<endTime type="str">2024-05-22T06:00:00-05:00</endTime>
@@ -294,7 +267,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms before 1am, then showers and thunderstorms likely. Mostly cloudy, with a low around 69. South wind 12 to 15 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Wednesday</name>
 				<startTime type="str">2024-05-22T06:00:00-05:00</startTime>
 				<endTime type="str">2024-05-22T18:00:00-05:00</endTime>
@@ -321,7 +294,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely before 7am, then a chance of showers and thunderstorms. Partly sunny, with a high near 85. South southwest wind around 12 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Wednesday Night</name>
 				<startTime type="str">2024-05-22T18:00:00-05:00</startTime>
 				<endTime type="str">2024-05-23T06:00:00-05:00</endTime>
@@ -348,7 +321,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms before 7pm, then showers and thunderstorms likely. Mostly cloudy, with a low around 61. West wind 6 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">12</number>
+				<number type="int">11</number>
 				<name type="str">Thursday</name>
 				<startTime type="str">2024-05-23T06:00:00-05:00</startTime>
 				<endTime type="str">2024-05-23T18:00:00-05:00</endTime>
@@ -375,7 +348,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms. Partly sunny, with a high near 81. West wind around 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">13</number>
+				<number type="int">12</number>
 				<name type="str">Thursday Night</name>
 				<startTime type="str">2024-05-23T18:00:00-05:00</startTime>
 				<endTime type="str">2024-05-24T06:00:00-05:00</endTime>
@@ -402,7 +375,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly cloudy, with a low around 61. East southeast wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Friday</name>
 				<startTime type="str">2024-05-24T06:00:00-05:00</startTime>
 				<endTime type="str">2024-05-24T18:00:00-05:00</endTime>
@@ -427,6 +400,33 @@
 				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A chance of showers and thunderstorms. Partly sunny, with a high near 81. South wind 6 to 9 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Friday Night</name>
+				<startTime type="str">2024-05-24T18:00:00-05:00</startTime>
+				<endTime type="str">2024-05-25T06:00:00-05:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">62</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="null"/>
+				</probabilityOfPrecipitation>
+				<dewpoint type="dict">
+					<unitCode type="str">wmoUnit:degC</unitCode>
+					<value type="float">17.77777777777778</value>
+				</dewpoint>
+				<relativeHumidity type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="int">98</value>
+				</relativeHumidity>
+				<windSpeed type="str">7 mph</windSpeed>
+				<windDirection type="str">SSE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi?size=medium</icon>
+				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly cloudy, with a low around 62. South southeast wind around 7 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
