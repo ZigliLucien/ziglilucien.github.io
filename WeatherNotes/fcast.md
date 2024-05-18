@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of rain showers between 1pm and 2pm. Mostly sunny, with a high near 82. Northeast wind around 5 mph. Chance
-         of precipitation is 20%.<br></div>
+         <h3>This Afternoon</h3>A slight chance of rain showers between 1pm and 2pm. Mostly sunny, with a high near 82. North northeast wind around 5 mph.
+         Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

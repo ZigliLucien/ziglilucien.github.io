@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/973964/" title="See Description">[$] Extending the mempolicy interface for heterogeneous systems</a></li>
 <li><a href="#https://lwn.net/Articles/972713/" title="See Description">[$] GitLab CI for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/974064/" title="See Description">Eight new kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/973702/" title="See Description">[$] An update and future plans for DAMON</a></li>
@@ -53,10 +54,30 @@
 <li><a href="#https://lwn.net/Articles/973763/" title="See Description">Firefox 126.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/973565/" title="See Description">[$] The state of the page in 2024</a></li>
 <li><a href="#https://lwn.net/Articles/973746/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/973686/" title="See Description">Manjaro 24.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/973964/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 18 May 2024 14:10:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/973964/" title="https://lwn.net/Articles/973964/">[$] Extending the mempolicy interface for heterogeneous systems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Non-uniform memory access (NUMA) systems are organized with their CPUs
+grouped into nodes, each of which has memory attached to it.  All memory in
+the system is accessible from all CPUs, but memory attached to the local
+node is faster.  The kernel's <a
+href="https://man7.org/linux/man-pages/man2/set_mempolicy.2.html">memory-policy
+("mempolicy") interface</a> allows threads to inform the kernel about how
+they would like their memory placed to get the best performance.  In recent
+years, the NUMA concept has been extended to support the management of
+different types of memory in a system, pushing the limits of the mempolicy
+subsystem.  In a remotely presented session at the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Gregory Price discussed
+the ways in which the kernel's memory-policy support should evolve to
+handle today's more-complex systems.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/972713/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 17 May 2024 20:18:42 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -303,36 +324,6 @@ what comes next.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Mageia</b> (sssd and tcpdump), <b>Red Hat</b> (.NET 7.0, .NET 8.0, expat, kernel, and kernel-rt), <b>Slackware</b> (mozilla), <b>SUSE</b> (kernel, postgresql15, postgresql16, python-arcomplete, python-Fabric, python-PyGithub, python- antlr4-python3-runtime, python-avro, python-chardet, python-distro, python- docker, python-fakeredis, python-fixedint, pyth, and python3), and <b>Ubuntu</b> (linux-bluefield).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/973686/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 May 2024 17:17:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/973686/" title="https://lwn.net/Articles/973686/">Manjaro 24.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://forum.manjaro.org/t/manjaro-24-0-wynsdey-released/161527">Version&nbsp;24.0</a>
-of the Arch-based <a href="https://manjaro.org/">Manjaro</a> distribution is now available with
-the 6.9&nbsp;kernel, GNOME&nbsp;46, Xfce&nbsp;4.18, and an update to the
-<a href="https://wiki.manjaro.org/index.php/Pamac">Pamac</a> package
-installer. This is also the project's first release with KDE&nbsp;Plasma&nbsp;6:</p>
-
-<blockquote class="bq">
-<p>The Plasma edition comes with the latest Plasma 6.0 series and KDE
-Gear 24.02. It brings exciting new improvements to your desktop.</p>
-
-<p>With Plasma 6, KDE's technology stack has undergone major upgrades:
-a transition to the latest version of application framework, Qt, and
-an improved graphics platform when Wayland is used. These changes are
-as smooth and unnoticeable to the users as possible. You will see the
-same familiar desktop environment that you know and love. But these
-under-the-hood upgrades benefit Plasma's security, efficiency, and
-performance, and improve support for modern hardware. Thus Plasma
-delivers an overall more reliable user experience, while paving the
-way for many more improvements in the future.</p>
-</blockquote>
-
-<p>The project also offers minimal install images with the 6.6&nbsp;LTS
-and 6.1&nbsp;LTS kernels to support older hardware.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
