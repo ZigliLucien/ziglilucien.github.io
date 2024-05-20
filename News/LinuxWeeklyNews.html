@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974138/" title="See Description">[$] What's next for the SLUB allocator</a></li>
 <li><a href="#https://lwn.net/Articles/974102/" title="See Description">[$] A plan to make BPF kfuncs polymorphic</a></li>
 <li><a href="#https://lwn.net/Articles/974126/" title="See Description">[$] Better support for locally-attached-memory tiering</a></li>
 <li><a href="#https://lwn.net/Articles/973130/" title="See Description">[$] Trinity keeps KDE 3 on life support</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/973687/" title="See Description">[$] The first half of the 6.10 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/973917/" title="See Description">Neovim 0.10 released</a></li>
 <li><a href="#https://lwn.net/Articles/973908/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/973073/" title="See Description">[$] LWN.net Weekly Edition for May 16, 2024</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974138/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 May 2024 18:28:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974138/" title="https://lwn.net/Articles/974138/">[$] What's next for the SLUB allocator</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>There are two fundamental levels of memory allocator in the Linux kernel:
+the page allocator, which allocates memory in units of pages, and the slab
+allocator, which allocates arbitrarily-sized chunks that are usually (but
+not necessarily) smaller than a page.  The slab allocator is the one that
+stands behind commonly used kernel functions like <tt>kmalloc()</tt>.  At
+the <a href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux
+Storage, Filesystem, Memory Management, and BPF Summit</a>, slab maintainer
+Vlastimil Babka provided an update on recent changes at the slab level and
+discussed the changes that are yet to come.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974102/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 20 May 2024 15:58:17 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -313,14 +329,6 @@ of some of the highlights and thoughts on upcoming releases:</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 7.0, .NET 8.0, and nodejs:20), <b>Debian</b> (chromium, firefox-esr, ghostscript, and libreoffice), <b>Fedora</b> (djvulibre, mingw-glib2, mingw-python-jinja2, and mingw-python-werkzeug), <b>Oracle</b> (.NET 7.0, .NET 8.0, kernel, and nodejs:18), <b>Red Hat</b> (nodejs:20), <b>Slackware</b> (gdk and git), <b>SUSE</b> (python), and <b>Ubuntu</b> (linux-hwe-5.15, linux-raspi).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/973073/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 May 2024 03:01:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/973073/" title="https://lwn.net/Articles/973073/">[$] LWN.net Weekly Edition for May 16, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for May 16, 2024 is available.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
