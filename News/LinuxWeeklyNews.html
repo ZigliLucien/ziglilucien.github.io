@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974488/" title="See Description">AlmaLinux forms engineering steering committee</a></li>
+<li><a href="#https://lwn.net/Articles/974367/" title="See Description">[$] Dynamically sizing the kernel stack</a></li>
 <li><a href="#https://lwn.net/Articles/974223/" title="See Description">[$] Facing down mapcount madness</a></li>
 <li><a href="#https://lwn.net/Articles/974450/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/974138/" title="See Description">[$] What's next for the SLUB allocator</a></li>
@@ -51,11 +53,54 @@
 <li><a href="#https://lwn.net/Articles/974064/" title="See Description">Eight new kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/973702/" title="See Description">[$] An update and future plans for DAMON</a></li>
 <li><a href="#https://lwn.net/Articles/974055/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/973996/" title="See Description">White paper: Vendor Kernels, Bugs and Stability</a></li>
-<li><a href="#https://lwn.net/Articles/973687/" title="See Description">[$] The first half of the 6.10 merge window</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974488/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 21 May 2024 16:11:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974488/" title="https://lwn.net/Articles/974488/">AlmaLinux forms engineering steering committee</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://almalinux.org/">AlmaLinux</a> project has <a
+href="https://almalinux.org/blog/2024-05-21-introducing-alesco/">announced</a>
+the formation of the AlmaLinux Engineering
+Steering Committee (ALESCo):</p>
+
+<blockquote class="bq">
+[It] is dedicated to guiding the technical direction of the
+AlmaLinux distribution on a day-to-day basis within the guidelines set
+forth by the board, ensuring its robustness, reliability,
+sustainability, and relevance in the open-source ecosystem. ALESCo
+will work collaboratively with, and oversee relevant technical-focused
+Special Interest Groups (SIGs) to achieve these goals. It is "air
+traffic control" for engineering matters.
+</blockquote>
+
+<p>The initial members of ALESCo appointed by the AlmaLinux OS
+Foundation board are Andrew Lukoshko, Ben Thomas, Cody Robertson,
+Elkhan Mammadli, Jonathan Wright, and Neal Gompa. The <a
+href="https://wiki.almalinux.org/alesco.html">AlmaLinux Wiki</a> has
+more information on the committee's activities and how to get involved.</p>
+
+<p> </p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974367/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 21 May 2024 15:37:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974367/" title="https://lwn.net/Articles/974367/">[$] Dynamically sizing the kernel stack</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel stack is a scarce and tightly constrained resource; kernel
+developers often have to go far out of their way to avoid using too much
+stack space.  The size of the stack is also fixed, leading to situations
+where it is too small for some code paths, while wastefully large for
+others.  At the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Pasha Tatashin proposed
+making the kernel stack size dynamic, making more space available when
+needed while saving memory overall.  This change is not as easy to
+implement as it might seem, though.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974223/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 21 May 2024 12:54:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -277,45 +322,6 @@ plans for this tool.
  linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15,
  linux-intel-iotg, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15,
  linux-nvidia, linux-oracle, linux-raspi).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/973996/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 17 May 2024 13:24:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/973996/" title="https://lwn.net/Articles/973996/">White paper: Vendor Kernels, Bugs and Stability</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Ronnie Sahlberg, Jonathan Maple, and Jeremy Allison of CiQ have published
-<a href="https://ciq.com/whitepaper/vendor-kernels-bugs-stability/">a white
-paper</a> looking at the security-relevant bug fixes applied (or <i>not</i>
-applied) to the RHEL&nbsp;8.x kernel over time.
-<p>
-<blockquote class="bq">
-	This means that over time, the security of the RHEL kernels get
-	worse and worse as more issues are discovered in the upstream code
-	and are potentially exploitable but fewer and fewer of the fixes
-	for these known bugs are back-ported into RHEL kernels.
-<P>
-	After reaching RHEL 8.7, the theory is that the kernel has been
-	stabilized, with a corresponding improvement in security. However
-	we still have an influx of newly discovered bugs in the upstream
-	kernel affecting RHEL 8.7 that are not addressed. Each minor
-	version of upstream is released on an approximately quarterly basis
-	and we can see that the influx of new bugs that are unaddressed in
-	RHEL is growing. The number of known issues in these kernels
-	increases by approximately 250 new bugs per quarter or more.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/973687/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 May 2024 17:00:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/973687/" title="https://lwn.net/Articles/973687/">[$] The first half of the 6.10 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The merge window for the 6.10 kernel release opened on May&nbsp;12; between
-then and the time of this writing, 6,819 non-merge commits were pulled into
-the mainline kernel for that release.  Your editor has taken some time out
-from <a href="https://lwn.net/Articles/lsfmmbpf2024/">LSFMM+BPF</a> in an attempt to keep
-up with the commit flood.  Read on for an overview of the most significant
-changes that were pulled in the early part of the 6.10 merge window.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
