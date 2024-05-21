@@ -2,28 +2,28 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Sunny. High near 91, with temperatures falling to around 89 in the afternoon. South wind 14 to 18 mph, with gusts as high
+         <h3>This Afternoon</h3>Sunny. High near 91, with temperatures falling to around 89 in the afternoon. South wind 15 to 18 mph, with gusts as high
          as 30 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms between midnight and 2am, then showers and thunderstorms likely between 2am and 3am,
          then a chance of showers and thunderstorms. Mostly cloudy. Low around 69, with temperatures rising to around 71 overnight.
-         South southwest wind 9 to 17 mph, with gusts as high as 30 mph. Chance of precipitation is 70%.<br></div>
+         South southwest wind 8 to 17 mph, with gusts as high as 30 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>A slight chance of showers and thunderstorms before 1pm, then showers and thunderstorms. Partly sunny. High near 83, with
-         temperatures falling to around 81 in the afternoon. South southwest wind around 10 mph, with gusts as high as 21 mph. Chance
-         of precipitation is 80%.<br></div>
+         temperatures falling to around 81 in the afternoon. Southwest wind around 8 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Showers and thunderstorms. Mostly cloudy, with a low around 63. Southwest wind 3 to 7 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Wednesday Night</h3>Showers and thunderstorms. Mostly cloudy, with a low around 63. South southeast wind 1 to 7 mph. Chance of precipitation is
+         80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Showers and thunderstorms. Partly sunny, with a high near 81. South southwest wind around 7 mph. Chance of precipitation is
+         <h3>Thursday</h3>Showers and thunderstorms. Partly sunny, with a high near 81. South southwest wind 3 to 7 mph. Chance of precipitation is
          80%.<br></div>
    </p>
    <p>
