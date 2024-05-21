@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974223/" title="See Description">[$] Facing down mapcount madness</a></li>
+<li><a href="#https://lwn.net/Articles/974450/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/974138/" title="See Description">[$] What's next for the SLUB allocator</a></li>
 <li><a href="#https://lwn.net/Articles/974102/" title="See Description">[$] A plan to make BPF kfuncs polymorphic</a></li>
 <li><a href="#https://lwn.net/Articles/974126/" title="See Description">[$] Better support for locally-attached-memory tiering</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/974055/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/973996/" title="See Description">White paper: Vendor Kernels, Bugs and Stability</a></li>
 <li><a href="#https://lwn.net/Articles/973687/" title="See Description">[$] The first half of the 6.10 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/973917/" title="See Description">Neovim 0.10 released</a></li>
-<li><a href="#https://lwn.net/Articles/973908/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974223/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 21 May 2024 12:54:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974223/" title="https://lwn.net/Articles/974223/">[$] Facing down mapcount madness</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://elixir.bootlin.com/linux/v6.9.1/source/include/linux/mm_types.h#L35"><tt>page</tt>
+structure</a> is a complicated beast, but some parts of it are more
+intimidating than others.  The <tt>mapcount</tt> field is one of the
+scarier parts.  It allegedly records the number of references to the page
+in page tables, but, as David Hildenbrand described during the
+memory-management track at the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, things are more
+complicated than that.  Few people truly understand the semantics of this
+field, but the situation will hopefully get better over time.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974450/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 21 May 2024 12:52:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974450/" title="https://lwn.net/Articles/974450/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, nodejs, and thunderbird), <b>Fedora</b> (uriparser), <b>Oracle</b> (firefox and thunderbird), <b>Slackware</b> (mariadb), <b>SUSE</b> (cairo, gdk-pixbuf, krb5, libosinfo, postgresql14, and python310), and <b>Ubuntu</b> (firefox, linux-aws, linux-aws-5.15, and linux-azure).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974138/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 20 May 2024 18:28:56 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,45 +316,6 @@ the mainline kernel for that release.  Your editor has taken some time out
 from <a href="https://lwn.net/Articles/lsfmmbpf2024/">LSFMM+BPF</a> in an attempt to keep
 up with the commit flood.  Read on for an overview of the most significant
 changes that were pulled in the early part of the 6.10 merge window.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/973917/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 May 2024 16:03:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/973917/" title="https://lwn.net/Articles/973917/">Neovim 0.10 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://neovim.io/doc/user/news-0.10.html">Version
-0.10</a> of the Vim-based text editor <a
-href="https://neovim.io/">Neovim</a> is <a
-href="https://neovim.io/news/2024/05">now available</a>. This release
-includes a new default color scheme, enhanced support for rendering
-multibyte characters, support for hyperlinks, system clipboard
-synchronization, and more. Many features have been <a
-href="https://neovim.io/doc/user/deprecated.html#deprecated-0.10">deprecated</a>
-in 0.10 and will be removed in future release. Neovim core contributor
-Gregory Anders has written a <a
-href="https://gpanders.com/blog/whats-new-in-neovim-0.10/">summary</a>
-of some of the highlights and thoughts on upcoming releases:</p>
-
-<blockquote class="bq">
- We follow a "fun driven development" paradigm: for the most part,
- contributors and maintainers work on things that are personally
- interesting to them. Because of this, it can be difficult to predict
- what will happen in future releases. If there is a feature you want
- to see implemented, the best way to do it is to take a crack at it
- yourself: many of the features mentioned in this very blog post were
- contributed by users that are not part of the "core" maintenance
- team!
- </blockquote>
-
-<p> </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/973908/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 May 2024 13:17:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/973908/" title="https://lwn.net/Articles/973908/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 7.0, .NET 8.0, and nodejs:20), <b>Debian</b> (chromium, firefox-esr, ghostscript, and libreoffice), <b>Fedora</b> (djvulibre, mingw-glib2, mingw-python-jinja2, and mingw-python-werkzeug), <b>Oracle</b> (.NET 7.0, .NET 8.0, kernel, and nodejs:18), <b>Red Hat</b> (nodejs:20), <b>Slackware</b> (gdk and git), <b>SUSE</b> (python), and <b>Ubuntu</b> (linux-hwe-5.15, linux-raspi).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
