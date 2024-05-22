@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974392/" title="See Description">[$] Faster page faults with RCU-protected VMA walks</a></li>
+<li><a href="#https://lwn.net/Articles/974572/" title="See Description">Security updates for Wednesday</a></li>
+<li><a href="#https://lwn.net/Articles/974363/" title="See Description">[$] Virtual machine scheduling with BPF</a></li>
 <li><a href="#https://lwn.net/Articles/974390/" title="See Description">[$] Another try for address-space isolation</a></li>
 <li><a href="#https://lwn.net/Articles/974380/" title="See Description">[$] Memory-allocation profiling for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/974488/" title="See Description">AlmaLinux forms engineering steering committee</a></li>
@@ -50,12 +53,53 @@
 <li><a href="#https://lwn.net/Articles/973130/" title="See Description">[$] Trinity keeps KDE 3 on life support</a></li>
 <li><a href="#https://lwn.net/Articles/974341/" title="See Description">Axboe: What's new with io_uring in 6.10</a></li>
 <li><a href="#https://lwn.net/Articles/974339/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/973964/" title="See Description">[$] Extending the mempolicy interface for heterogeneous systems</a></li>
-<li><a href="#https://lwn.net/Articles/972713/" title="See Description">[$] GitLab CI for the kernel</a></li>
-<li><a href="#https://lwn.net/Articles/974064/" title="See Description">Eight new kernel updates</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974392/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 13:55:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974392/" title="https://lwn.net/Articles/974392/">[$] Faster page faults with RCU-protected VMA walks</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Looking up a virtual memory area (VMA) in a process's address space, for
+the handling of page faults or any of a number of other tasks, in
+multi-threaded processes has long been bedeviled by lock contention in the
+kernel.  As a result, developer gatherings have been subjected to many
+sessions on how to improve the situation.  At the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a>, developers in the
+memory-management track met, in a session led by Liam Howlett, to talk
+about a situation that has improved considerably in recent times, but which
+still offers opportunities for optimization.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974572/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 13:28:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974572/" title="https://lwn.net/Articles/974572/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (webkit2gtk), <b>Fedora</b> (kernel), <b>Mageia</b> (chromium-browser-stable, djvulibre, gdk-pixbuf2.0, nss &amp; firefox, postgresql15 &amp; postgresql13, python-pymongo, python-sqlparse, stb, thunderbird, and vim), <b>Red Hat</b> (go-toolset:rhel8, nodejs, and varnish:6), <b>SUSE</b> (gitui, glibc, and kernel), and <b>Ubuntu</b> (libspreadsheet-parseexcel-perl, linux-aws, linux-aws-5.15, linux-gke, linux-gcp, python-idna, and thunderbird).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974363/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 13:18:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974363/" title="https://lwn.net/Articles/974363/">[$] Virtual machine scheduling with BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Vineeth Pillai gave a remote talk at the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> explaining how BPF could be
+used to improve the performance of virtual machines (VMs). Pillai has
+<a href="https://lwn.net/ml/linux-kernel/20240403140116.3002809-1-vineeth@bitbyteword.org/">
+a patch
+set</a> designed to let guest and host machines share scheduling information in
+order to eliminate some of the overhead of running in a VM. The assembled
+developers had several comments on the design, but seemed overall to approve of
+the prospect.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974390/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 21 May 2024 22:35:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -262,68 +306,6 @@ release.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (bind9, chromium, and thunderbird), <b>Fedora</b> (buildah, chromium, firefox, mingw-python-werkzeug, and suricata), <b>Mageia</b> (golang), <b>Oracle</b> (firefox and nodejs:20), <b>Red Hat</b> (firefox, httpd:2.4, nodejs, and thunderbird), and <b>SUSE</b> (firefox, git-cliff, and ucode-intel).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/973964/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 18 May 2024 14:10:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/973964/" title="https://lwn.net/Articles/973964/">[$] Extending the mempolicy interface for heterogeneous systems</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Non-uniform memory access (NUMA) systems are organized with their CPUs
-grouped into nodes, each of which has memory attached to it.  All memory in
-the system is accessible from all CPUs, but memory attached to the local
-node is faster.  The kernel's <a
-href="https://man7.org/linux/man-pages/man2/set_mempolicy.2.html">memory-policy
-("mempolicy") interface</a> allows threads to inform the kernel about how
-they would like their memory placed to get the best performance.  In recent
-years, the NUMA concept has been extended to support the management of
-different types of memory in a system, pushing the limits of the mempolicy
-subsystem.  In a remotely presented session at the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Gregory Price discussed
-the ways in which the kernel's memory-policy support should evolve to
-handle today's more-complex systems.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/972713/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 17 May 2024 20:18:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/972713/" title="https://lwn.net/Articles/972713/">[$] GitLab CI for the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Working on the Linux kernel has always been unlike working on
-many other software projects.
-One particularly noticeable difference is the decentralized nature of the
-kernel's testing infrastructure. Projects such as
-<a href="https://github.com/google/syzkaller">
-syzkaller</a>, <a href="https://foundation.kernelci.org/">KernelCI</a>,
-or <a href="https://lwn.net/Articles/608959/">the kernel self tests</a>
-test the kernel in different ways. On February 28, Helen
-Koike
-<a href="https://lwn.net/ml/linux-kernel/20240228225527.1052240-1-helen.koike@collabora.com/">
-posted</a> a patch set that would add continuous integration (CI) scripts for
-the whole kernel. The response was generally positive, but several people
-suggested changes.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974064/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 17 May 2024 14:36:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974064/" title="https://lwn.net/Articles/974064/">Eight new kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The
-<a href="https://lwn.net/Articles/974068/">6.9.1</a>,
-<a href="https://lwn.net/Articles/974070/">6.8.10</a>,
-<a href="https://lwn.net/Articles/974072/">6.6.31</a>,
-<a href="https://lwn.net/Articles/974074/">6.1.91</a>,
-<a href="https://lwn.net/Articles/974075/">5.15.159</a>,
-<a href="https://lwn.net/Articles/974076/">5.10.217</a>,
-<a href="https://lwn.net/Articles/974078/">5.4.276</a>, and
-<a href="https://lwn.net/Articles/974079/">4.19.314</a> stable kernels have been released.
-These versions include important fixes; as usual, Greg Kroah-Hartman advises
-users to update right away.
-</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
