@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974517/" title="See Description">[$] The path to deprecating SPARSEMEM</a></li>
+<li><a href="#https://lwn.net/Articles/974518/" title="See Description">[$] Two sessions on CXL memory</a></li>
+<li><a href="#https://lwn.net/Articles/974515/" title="See Description">[$] Documenting page flags by committee</a></li>
+<li><a href="#https://lwn.net/Articles/974512/" title="See Description">[$] Merging msharefs</a></li>
 <li><a href="#https://lwn.net/Articles/974491/" title="See Description">[$] Toward the unification of hugetlbfs</a></li>
 <li><a href="#https://lwn.net/Articles/973782/" title="See Description">[$] The KeePassXC kerfuffle</a></li>
 <li><a href="#https://lwn.net/Articles/974487/" title="See Description">[$] The interaction between memory reclaim and RCU</a></li>
@@ -49,13 +53,73 @@
 <li><a href="#https://lwn.net/Articles/974380/" title="See Description">[$] Memory-allocation profiling for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/974488/" title="See Description">AlmaLinux forms engineering steering committee</a></li>
 <li><a href="#https://lwn.net/Articles/974367/" title="See Description">[$] Dynamically sizing the kernel stack</a></li>
-<li><a href="#https://lwn.net/Articles/974223/" title="See Description">[$] Facing down mapcount madness</a></li>
-<li><a href="#https://lwn.net/Articles/974450/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/974138/" title="See Description">[$] What's next for the SLUB allocator</a></li>
-<li><a href="#https://lwn.net/Articles/974102/" title="See Description">[$] A plan to make BPF kfuncs polymorphic</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974517/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 18:58:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974517/" title="https://lwn.net/Articles/974517/">[$] The path to deprecating SPARSEMEM</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The term "memory model" is used in a couple of ways within the kernel.
+Perhaps the more obscure meaning is the memory-management subsystem's view
+of how physical memory is organized on a given system.  A proper
+representation of physical memory will be more efficient in terms of memory
+and CPU use.  Since hardware comes in numerous variations, the kernel
+supports a number of memory models to match; see <a
+href="https://lwn.net/Articles/789304/">this article</a> for details.  At the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a>, Oscar Salvador,
+presenting remotely, made the case for removing one of those models.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974518/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 18:56:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974518/" title="https://lwn.net/Articles/974518/">[$] Two sessions on CXL memory</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://en.wikipedia.org/wiki/Compute_Express_Link">Compute
+Express Link (CXL)</a> is a data-center-oriented memory solution that,
+according to some in the industry, will yield large cost savings and
+performance improvements.  Others are more skeptical.  At the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a>, two sessions covered CXL
+and how it will be supported in future kernels.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974515/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 17:26:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974515/" title="https://lwn.net/Articles/974515/">[$] Documenting page flags by committee</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>For every page of memory in the system, the kernel maintains a set of page
+flags describing how the page is used and various aspects of its current
+state.  Space for page flags has been in <a
+href="https://lwn.net/Articles/335768/">chronic short supply</a>, leading to a desire to
+eliminate or consolidate them whenever possible.  That objective, though,
+is hampered by the fact that the purpose of many page flags is not well
+understood.  In a memory-management-track session at the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a>, Matthew Wilcox set out to
+cooperatively update the page-flag documentation to improve that situation.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974512/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 17:25:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974512/" title="https://lwn.net/Articles/974512/">[$] Merging msharefs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The problem of sharing page tables across processes has been discussed
+numerous times over the years, Khaled Aziz said at the beginning of his <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a> session on the topic.  He
+was there to, once again, talk about the proposed <a
+href="https://lwn.net/Articles/895217/"><tt>mshare()</tt></a> system call (which, in its
+current form, is no longer actually a system call but the feature still
+goes by that name) and to see what can be done to finally get it into the
+mainline.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974491/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 22 May 2024 16:53:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -250,67 +314,6 @@ Filesystem, Memory Management, and BPF Summit</a>, Pasha Tatashin proposed
 making the kernel stack size dynamic, making more space available when
 needed while saving memory overall.  This change is not as easy to
 implement as it might seem, though.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974223/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 21 May 2024 12:54:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974223/" title="https://lwn.net/Articles/974223/">[$] Facing down mapcount madness</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a
-href="https://elixir.bootlin.com/linux/v6.9.1/source/include/linux/mm_types.h#L35"><tt>page</tt>
-structure</a> is a complicated beast, but some parts of it are more
-intimidating than others.  The <tt>mapcount</tt> field is one of the
-scarier parts.  It allegedly records the number of references to the page
-in page tables, but, as David Hildenbrand described during the
-memory-management track at the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, things are more
-complicated than that.  Few people truly understand the semantics of this
-field, but the situation will hopefully get better over time.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974450/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 21 May 2024 12:52:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974450/" title="https://lwn.net/Articles/974450/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, nodejs, and thunderbird), <b>Fedora</b> (uriparser), <b>Oracle</b> (firefox and thunderbird), <b>Slackware</b> (mariadb), <b>SUSE</b> (cairo, gdk-pixbuf, krb5, libosinfo, postgresql14, and python310), and <b>Ubuntu</b> (firefox, linux-aws, linux-aws-5.15, and linux-azure).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974138/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 May 2024 18:28:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974138/" title="https://lwn.net/Articles/974138/">[$] What's next for the SLUB allocator</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There are two fundamental levels of memory allocator in the Linux kernel:
-the page allocator, which allocates memory in units of pages, and the slab
-allocator, which allocates arbitrarily-sized chunks that are usually (but
-not necessarily) smaller than a page.  The slab allocator is the one that
-stands behind commonly used kernel functions like <tt>kmalloc()</tt>.  At
-the <a href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux
-Storage, Filesystem, Memory Management, and BPF Summit</a>, slab maintainer
-Vlastimil Babka provided an update on recent changes at the slab level and
-discussed the changes that are yet to come.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974102/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 May 2024 15:58:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974102/" title="https://lwn.net/Articles/974102/">[$] A plan to make BPF kfuncs polymorphic</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-David Vernet kicked off the BPF track at 2024's BPF track at the
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>
-with a
-talk about polymorphic kfuncs — or, with less jargon, kernel functions that can
-be called from BPF which use different implementations depending on context.
-He explained how this would be useful to
-the <a href="https://lwn.net/Articles/972710/">sched_ext</a> BPF scheduling framework,
-but expected it to be helpful in
-other areas as well.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
