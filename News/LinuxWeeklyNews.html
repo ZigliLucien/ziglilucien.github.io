@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974491/" title="See Description">[$] Toward the unification of hugetlbfs</a></li>
+<li><a href="#https://lwn.net/Articles/973782/" title="See Description">[$] The KeePassXC kerfuffle</a></li>
+<li><a href="#https://lwn.net/Articles/974487/" title="See Description">[$] The interaction between memory reclaim and RCU</a></li>
+<li><a href="#https://lwn.net/Articles/974576/" title="See Description">Alpine Linux 3.20.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/974392/" title="See Description">[$] Faster page faults with RCU-protected VMA walks</a></li>
 <li><a href="#https://lwn.net/Articles/974572/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/974363/" title="See Description">[$] Virtual machine scheduling with BPF</a></li>
@@ -49,13 +53,78 @@
 <li><a href="#https://lwn.net/Articles/974450/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/974138/" title="See Description">[$] What's next for the SLUB allocator</a></li>
 <li><a href="#https://lwn.net/Articles/974102/" title="See Description">[$] A plan to make BPF kfuncs polymorphic</a></li>
-<li><a href="#https://lwn.net/Articles/974126/" title="See Description">[$] Better support for locally-attached-memory tiering</a></li>
-<li><a href="#https://lwn.net/Articles/973130/" title="See Description">[$] Trinity keeps KDE 3 on life support</a></li>
-<li><a href="#https://lwn.net/Articles/974341/" title="See Description">Axboe: What's new with io_uring in 6.10</a></li>
-<li><a href="#https://lwn.net/Articles/974339/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974491/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 16:53:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974491/" title="https://lwn.net/Articles/974491/">[$] Toward the unification of hugetlbfs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
+href="https://docs.kernel.org/admin-guide/mm/hugetlbpage.html">hugetlbfs
+subsystem</a> was the first mechanism by which the kernel made huge pages
+available to user space; it was added to the 2.5.46 development kernel in
+2002.  While hugetlbfs remains useful, it is also viewed as a sort of
+second memory-management subsystem that would be best unified with the rest
+of the kernel.  At the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a>, Peter Xu raised the
+question of what that unification would involve and what the first steps
+might be.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/973782/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 16:30:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/973782/" title="https://lwn.net/Articles/973782/">[$] The KeePassXC kerfuffle</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://keepassxc.org/">KeePassXC</a> is an open-source (GPLv3),
+cross-platform password manager with local-only data storage. The
+project comes with a number of <a
+href="https://github.com/keepassxreboot/keepassxc/wiki/Building-KeePassXC#build-options">build
+options</a> that can be used to toggle optional features, such as <a
+href="https://keepassxc.org/docs/KeePassXC_GettingStarted#_setup_browser_integration">browser
+integration</a> and <a
+href="https://keepassxc.org/docs/KeePassXC_UserGuide#_database_sharing_with_keeshare">password
+database sharing</a>. However, controversy ensued when Debian Developer Julian Klode decided to
+make use of these compile flags to disable these features to improve security in the
+<tt>keepassxc</tt> package uploaded to Debian unstable for the
+upcoming Debian 13 ("Trixie") release.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974487/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 15:40:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974487/" title="https://lwn.net/Articles/974487/">[$] The interaction between memory reclaim and RCU</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux
+Storage, Filesystem, Memory-Management and BPF Summit</a> was a development
+conference, where discussion was prioritized and presentations with a lot
+of slides were discouraged.  Paul McKenney seemingly flouted this
+convention in a joint session of the storage, filesystem, and
+memory-management tracks where he presented about 50&nbsp;slides — in five
+minutes, twice.  The subject was the use of the read-copy-update (RCU)
+mechanism in the memory-reclaim process, and whether changes to RCU would
+be needed for that purpose.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974576/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 15:09:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974576/" title="https://lwn.net/Articles/974576/">Alpine Linux 3.20.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://alpinelinux.org/posts/Alpine-3.20.0-released.html">Version
+3.20.0</a> of the <a href="https://alpinelinux.org/">Alpine Linux</a>
+distribution has been released with initial support for 64-bit
+RISC-V. Other important changes include updates to <a href="https://lwn.net/Articles/966187/">GNOME&nbsp;46</a>, 
+<a href="https://lwn.net/Articles/963851/">KDE&nbsp;Plasma&nbsp;6</a>, and replacing Redis with Valkey due to Redis's
+<a href="https://lwn.net/Articles/966631/">adoption</a> of a non-free
+license model. See the <a
+href="https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.20.0">release
+notes</a> for more on this release.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974392/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 22 May 2024 13:55:33 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -242,69 +311,6 @@ the <a href="https://lwn.net/Articles/972710/">sched_ext</a> BPF scheduling fram
 but expected it to be helpful in
 other areas as well.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974126/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 May 2024 14:21:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974126/" title="https://lwn.net/Articles/974126/">[$] Better support for locally-attached-memory tiering</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The term "memory tiering" refers to the management of memory placement on
-systems with multiple types of memory, each of which has its own
-performance characteristics.  On such systems, poor placement can lead to
-significantly worse performance.  A memory-management-track discussion at
-the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> took yet another look at
-tiering challenges with a focus on upcoming technologies that may simplify
-(or complicate) the picture.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/973130/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 May 2024 14:14:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/973130/" title="https://lwn.net/Articles/973130/">[$] Trinity keeps KDE 3 on life support</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>As the shiny new <a href="https://lwn.net/Articles/963851/">KDE&nbsp;Plasma&nbsp;6</a> desktop makes its way into distribution
-releases, a <a href="https://manpages.debian.org/testing/apt-listchanges/apt-listchanges.1.en.html">small group</a> of developers is still trying to preserve the
-KDE experience circa&nbsp;2008. The <a
-href="https://trinitydesktop.org/">Trinity&nbsp;Desktop&nbsp;Environment</a>
-(TDE), is a continuation of KDE&nbsp;3 that has maintained the
-old-school desktop with semi-regular releases since 2010. The most
-recent release, <a
-href="https://wiki.trinitydesktop.org/Release_Notes_For_R14.1.2">R14.1.2</a>,
-was <a href="https://trinitydesktop.org/newsentry.php?entry=2024.04.28">announced</a>
-on April 28. TDE does deliver a usable retro desktop, but with
-some limitations that hamper its usability on modern systems.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974341/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 May 2024 13:09:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974341/" title="https://lwn.net/Articles/974341/">Axboe: What's new with io_uring in 6.10</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Jens Axboe <a
-href="https://github.com/axboe/liburing/wiki/What's-new-with-io_uring-in-6.10">describes
-the new io_uring features</a> that will be a part of the 6.10 kernel
-release.
-<p>
-<blockquote class="bq">
-	Bundles are multiple buffers used in a single operation. On the
-	receive side, this means a single receive may utilize multiple
-	buffers, reducing the roundtrip through the networking stack from N
-	per N buffers to just a single one. On the send side, this also
-	enables better handling of how an application deals with sends from
-	a socket, eliminating the need to serialize sends on a single
-	socket. Bundles work with provided buffers, hence this feature also
-	adds support for provided buffers for send operations.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974339/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 May 2024 12:54:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974339/" title="https://lwn.net/Articles/974339/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (bind9, chromium, and thunderbird), <b>Fedora</b> (buildah, chromium, firefox, mingw-python-werkzeug, and suricata), <b>Mageia</b> (golang), <b>Oracle</b> (firefox and nodejs:20), <b>Red Hat</b> (firefox, httpd:2.4, nodejs, and thunderbird), and <b>SUSE</b> (firefox, git-cliff, and ucode-intel).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>

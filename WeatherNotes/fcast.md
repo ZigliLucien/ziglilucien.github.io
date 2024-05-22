@@ -2,19 +2,19 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of showers and thunderstorms between 2pm and 3pm, then a chance of showers and thunderstorms between 3pm and
+         <h3>This Afternoon</h3>A slight chance of showers and thunderstorms between 2pm and 3pm, then a chance of showers and thunderstorms between 3pm and
          4pm, then a chance of showers and thunderstorms. Partly sunny. High near 82, with temperatures falling to around 80 in the
-         afternoon. Northwest wind around 6 mph. Chance of precipitation is 30%.<br></div>
+         afternoon. West northwest wind around 7 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 1am, then showers and thunderstorms likely. Mostly cloudy. Low around 62, with
-         temperatures rising to around 64 overnight. South southeast wind 1 to 7 mph. Chance of precipitation is 60%.<br></div>
+         temperatures rising to around 64 overnight. North northeast wind 2 to 6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>Showers and thunderstorms likely before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 79.
-         South southeast wind 3 to 7 mph. Chance of precipitation is 60%.<br></div>
+         South southeast wind 2 to 6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -26,7 +26,7 @@
       <div style="font-size:120%">
          <h3>Friday</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms likely between 7am and 1pm, then showers
          and thunderstorms likely between 1pm and 4pm, then showers and thunderstorms likely. Partly sunny, with a high near 83. South
-         wind 7 to 12 mph, with gusts as high as 18 mph. Chance of precipitation is 70%.<br></div>
+         wind 5 to 12 mph, with gusts as high as 18 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
