@@ -2,11 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A chance of showers and thunderstorms. Partly sunny. High near 82, with temperatures falling to around 77 in the afternoon.
-         North northwest wind around 7 mph. Chance of precipitation is 40%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms. Mostly cloudy. Low around 63, with temperatures rising to around 65 overnight. North
          northeast wind around 5 mph. Chance of precipitation is 50%.<br></div>
    </p>
@@ -19,8 +14,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday Night</h3>A slight chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms between 1am and 4am, then
-         a chance of showers and thunderstorms. Partly cloudy, with a low around 66. South southeast wind around 6 mph. Chance of precipitation
-         is 40%.<br></div>
+         a chance of showers and thunderstorms. Partly cloudy. Low around 66, with temperatures rising to around 68 overnight. South
+         southeast wind around 6 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -39,7 +34,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 66. Southeast wind 3 to 7 mph.<br></div>
+         <h3>Saturday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 66. Southeast wind 3 to 7 mph. Chance of precipitation
+         is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -68,5 +64,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 57. Northwest wind 5 to 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday</h3>Sunny, with a high near 80. Northwest wind 6 to 9 mph.<br></div>
    </p>
 </div>

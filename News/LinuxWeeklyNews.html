@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974219/" title="See Description">[$] Supporting larger block sizes in filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/974517/" title="See Description">[$] The path to deprecating SPARSEMEM</a></li>
 <li><a href="#https://lwn.net/Articles/974518/" title="See Description">[$] Two sessions on CXL memory</a></li>
 <li><a href="#https://lwn.net/Articles/974515/" title="See Description">[$] Documenting page flags by committee</a></li>
@@ -52,10 +53,32 @@
 <li><a href="#https://lwn.net/Articles/974390/" title="See Description">[$] Another try for address-space isolation</a></li>
 <li><a href="#https://lwn.net/Articles/974380/" title="See Description">[$] Memory-allocation profiling for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/974488/" title="See Description">AlmaLinux forms engineering steering committee</a></li>
-<li><a href="#https://lwn.net/Articles/974367/" title="See Description">[$] Dynamically sizing the kernel stack</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974219/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 May 2024 20:10:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974219/" title="https://lwn.net/Articles/974219/">[$] Supporting larger block sizes in filesystems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>In a 
+combined storage and filesystem session at the 2024
+<a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Luis Chamberlain led a
+discussion on filesystem support for block sizes larger than the usual 4KB
+page size, 
+which followed up on  <a href="https://lwn.net/Articles/933437/">discussion from last year</a>.  While the
+session was meant to look at the intersection of larger block sizes
+with atomic block writes  that avoid torn
+(partial) writes (which was also <a
+href="https://lwn.net/Articles/933015/">discussed last year</a>), it mostly focused on the
+filesystem side.  Over time, the
+block sizes offered by storage devices have risen from the original
+512&nbsp;bytes; Chamberlain
+wanted to discuss filesystem support for block sizes larger than 4KB.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974517/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 22 May 2024 18:58:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -298,23 +321,6 @@ href="https://wiki.almalinux.org/alesco.html">AlmaLinux Wiki</a> has
 more information on the committee's activities and how to get involved.</p>
 
 <p> </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974367/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 21 May 2024 15:37:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974367/" title="https://lwn.net/Articles/974367/">[$] Dynamically sizing the kernel stack</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel stack is a scarce and tightly constrained resource; kernel
-developers often have to go far out of their way to avoid using too much
-stack space.  The size of the stack is also fixed, leading to situations
-where it is too small for some code paths, while wastefully large for
-others.  At the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Pasha Tatashin proposed
-making the kernel stack size dynamic, making more space available when
-needed while saving memory overall.  This change is not as easy to
-implement as it might seem, though.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
