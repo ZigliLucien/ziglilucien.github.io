@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974587/" title="See Description">[$] A new swap abstraction layer for the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/974387/" title="See Description">[$] What's scheduled for sched_ext</a></li>
 <li><a href="#https://lwn.net/Articles/974708/" title="See Description">KDE Gear 24.05.0</a></li>
 <li><a href="#https://lwn.net/Articles/974575/" title="See Description">[$] The twilight of the version-1 memory controller</a></li>
 <li><a href="#https://lwn.net/Articles/974824/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,44 @@
 <li><a href="#https://lwn.net/Articles/973782/" title="See Description">[$] The KeePassXC kerfuffle</a></li>
 <li><a href="#https://lwn.net/Articles/974487/" title="See Description">[$] The interaction between memory reclaim and RCU</a></li>
 <li><a href="#https://lwn.net/Articles/974576/" title="See Description">Alpine Linux 3.20.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/974392/" title="See Description">[$] Faster page faults with RCU-protected VMA walks</a></li>
-<li><a href="#https://lwn.net/Articles/974572/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974587/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 May 2024 19:27:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974587/" title="https://lwn.net/Articles/974587/">[$] A new swap abstraction layer for the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Swapping may be a memory-management technique at its core, but its
+implementation also involves the kernel's filesystem and storage layers.
+So it is not surprising that a session on the kernel's swap abstraction
+layer, led by Chris Li at the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a>, was held jointly by all
+three of those tracks.  Li has some ambitious ideas for an improved
+subsystem, but getting to a workable implementation may not be easy.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974387/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 May 2024 17:34:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974387/" title="https://lwn.net/Articles/974387/">[$] What's scheduled for sched_ext</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+David Vernet's second talk at the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> was a summary of the state of
+sched_ext, the extensible BPF scheduler that <a href="https://lwn.net/Articles/972710/">LWN
+covered a in early May</a>. In short, sched_ext is intended as a platform for
+rapid experimentation with schedulers, and a tool to let performance-minded
+administrators customize the scheduler to their workload. The patch set has seen
+several revisions, becoming more generic and powerful over time.
+Vernet spoke about what has been done in the past year,
+and what is still missing before sched_ext can be considered pretty much
+complete.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974708/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 May 2024 14:16:47 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -270,31 +305,6 @@ RISC-V. Other important changes include updates to <a href="https://lwn.net/Arti
 license model. See the <a
 href="https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.20.0">release
 notes</a> for more on this release.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974392/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 May 2024 13:55:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974392/" title="https://lwn.net/Articles/974392/">[$] Faster page faults with RCU-protected VMA walks</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Looking up a virtual memory area (VMA) in a process's address space, for
-the handling of page faults or any of a number of other tasks, in
-multi-threaded processes has long been bedeviled by lock contention in the
-kernel.  As a result, developer gatherings have been subjected to many
-sessions on how to improve the situation.  At the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a>, developers in the
-memory-management track met, in a session led by Liam Howlett, to talk
-about a situation that has improved considerably in recent times, but which
-still offers opportunities for optimization.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974572/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 May 2024 13:28:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974572/" title="https://lwn.net/Articles/974572/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (webkit2gtk), <b>Fedora</b> (kernel), <b>Mageia</b> (chromium-browser-stable, djvulibre, gdk-pixbuf2.0, nss &amp; firefox, postgresql15 &amp; postgresql13, python-pymongo, python-sqlparse, stb, thunderbird, and vim), <b>Red Hat</b> (go-toolset:rhel8, nodejs, and varnish:6), <b>SUSE</b> (gitui, glibc, and kernel), and <b>Ubuntu</b> (libspreadsheet-parseexcel-perl, linux-aws, linux-aws-5.15, linux-gke, linux-gcp, python-idna, and thunderbird).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
