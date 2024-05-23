@@ -2,25 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms. Mostly cloudy. Low around 63, with temperatures rising to around 65 overnight. North
-         northeast wind around 3 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms between 2am and 4am, then showers and thunderstorms likely. Mostly cloudy. Low around
+         63, with temperatures rising to around 65 overnight. North northeast wind around 2 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms likely between 7am and 10am, then a chance
-         of showers and thunderstorms. Partly sunny, with a high near 80. South southeast wind 2 to 6 mph. Chance of precipitation
-         is 60%.<br></div>
+         <h3>Thursday</h3>A chance of showers and thunderstorms before 1pm. Partly sunny, with a high near 80. South southeast wind 2 to 7 mph. Chance
+         of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A slight chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms between 1am and 4am, then
-         a chance of showers and thunderstorms. Partly cloudy. Low around 66, with temperatures rising to around 68 overnight. South
-         southeast wind around 6 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms after 7pm. Partly cloudy. Low around 66, with temperatures rising to around 68 overnight.
+         South southeast wind around 6 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms. Partly sunny, with a high near 83. South
-         wind 5 to 10 mph. Chance of precipitation is 80%.<br></div>
+         wind 6 to 10 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
