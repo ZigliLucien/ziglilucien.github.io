@@ -2,11 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Partly sunny, with a high near 81. South southwest wind around 6 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>Partly cloudy. Low around 65, with temperatures rising to around 67 overnight. South wind 2 to 6 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy. Low around 65, with temperatures rising to around 67 overnight. South wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -17,8 +13,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday Night</h3>A chance of showers and thunderstorms before 7pm, then showers and thunderstorms likely between 7pm and 10pm, then showers
-         and thunderstorms likely between 10pm and 4am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around
-         65. Southwest wind 3 to 10 mph. Chance of precipitation is 60%.<br></div>
+         and thunderstorms likely between 10pm and 4am, then a chance of showers and thunderstorms. Mostly cloudy. Low around 65, with
+         temperatures rising to around 67 overnight. Southwest wind 3 to 10 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -38,7 +34,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday Night</h3>Showers and thunderstorms likely before 1am, then a slight chance of showers and thunderstorms. Partly cloudy, with a low
-         around 65. Southwest wind 7 to 13 mph, with gusts as high as 23 mph.<br></div>
+         around 65. Southwest wind 7 to 13 mph, with gusts as high as 23 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -64,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday Night</h3>Mostly clear, with a low around 56. North northeast wind 2 to 6 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Thursday</h3>Sunny, with a high near 81. Southeast wind 3 to 7 mph.<br></div>
    </p>
 </div>
