@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974575/" title="See Description">[$] The twilight of the version-1 memory controller</a></li>
+<li><a href="#https://lwn.net/Articles/974824/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/973888/" title="See Description">[$] LWN.net Weekly Edition for May 23, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/974219/" title="See Description">[$] Supporting larger block sizes in filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/974517/" title="See Description">[$] The path to deprecating SPARSEMEM</a></li>
@@ -51,11 +53,34 @@
 <li><a href="#https://lwn.net/Articles/974392/" title="See Description">[$] Faster page faults with RCU-protected VMA walks</a></li>
 <li><a href="#https://lwn.net/Articles/974572/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/974363/" title="See Description">[$] Virtual machine scheduling with BPF</a></li>
-<li><a href="#https://lwn.net/Articles/974390/" title="See Description">[$] Another try for address-space isolation</a></li>
-<li><a href="#https://lwn.net/Articles/974380/" title="See Description">[$] Memory-allocation profiling for the kernel</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974575/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 May 2024 14:03:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974575/" title="https://lwn.net/Articles/974575/">[$] The twilight of the version-1 memory controller</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Almost immediately after the merging of <a href="https://lwn.net/Articles/603762/">control
+groups</a>, kernel developers set their sights on reimplementing them
+properly.  The second version of the control-group API started trickling
+into the kernel around the 3.16 release in 2014 and users have long since
+been encouraged to migrate, but support for (and users of) the initial API
+remain.  At the <a href="https://events.linuxfoundation.org/lsfmmbpf/">2024
+Linux Storage, Filesystem, Memory-Management and BPF Summit</a>,
+memory-management developers discussed whether (and when) it might be
+possible to remove the version-1 memory controller.  The session was led by
+Shakeel Butt and (participating remotely) Roman Gushchin.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974824/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 May 2024 13:58:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974824/" title="https://lwn.net/Articles/974824/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (chromium, libxml2, pgadmin4, and python-libgravatar), <b>Mageia</b> (ghostscript), <b>Red Hat</b> (389-ds:1.4, ansible-core, bind and dhcp, container-tools:rhel8, edk2, exempi, fence-agents, freeglut, frr, ghostscript, glibc, gmp, go-toolset:rhel8, grafana, grub2, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, harfbuzz, httpd:2.4, idm:DL1, idm:DL1 and idm:client modules, kernel, kernel-rt, krb5, LibRaw, libreoffice, libsndfile, libssh, libtiff, libX11, libxml2, libXpm, linux-firmware, motif, mutt, openssh, osbuild and osbuild-composer, pam, pcp, pcs, perl-Convert-ASN1, perl-CPAN, perl:5.32, pki-core:10.6 and pki-deps:10.6 modules, pmix, poppler, postgresql-jdbc, python-dns, python-jinja2, python-pillow, python27:2.7, python3.11, python3.11-cryptography, python3.11-urllib3, python39:3.9 and python39-devel:3.9 modules, qt5-qtbase, resource-agents, squashfs-tools, sssd, systemd, tigervnc, tomcat, traceroute, varnish:6, virt:rhel and virt-devel:rhel modules, vorbis-tools, webkit2gtk3, xorg-x11-server, xorg-x11-server-Xwayland, and zziplib), <b>SUSE</b> (chromium, perl, postgresql14, and python-sqlparse), and <b>Ubuntu</b> (klibc, linux-aws-hwe, openssl, and vlc).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/973888/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 May 2024 01:25:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -142,7 +167,7 @@ cooperatively update the page-flag documentation to improve that situation.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The problem of sharing page tables across processes has been discussed
-numerous times over the years, Khaled Aziz said at the beginning of his <a
+numerous times over the years, Khalid Aziz said at the beginning of his <a
 href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
 Filesystem, Memory-Management and BPF Summit</a> session on the topic.  He
 was there to, once again, talk about the proposed <a
@@ -263,43 +288,6 @@ order to eliminate some of the overhead of running in a VM. The assembled
 developers had several comments on the design, but seemed overall to approve of
 the prospect.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974390/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 21 May 2024 22:35:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974390/" title="https://lwn.net/Articles/974390/">[$] Another try for address-space isolation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Brendan Jackman started his memory-management-track session at the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a> by saying that, for some
-years now, the kernel community has been stuck in a reactive posture with
-regard to hardware vulnerabilities.  Each problem shows up with its own
-scary name, and kernel developers find a way to mitigate it, usually losing
-performance in the process.  Jackman said that it is time to take back the
-initiative against these vulnerabilities by reconsidering the more
-general use of address-space isolation.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974380/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 21 May 2024 20:34:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974380/" title="https://lwn.net/Articles/974380/">[$] Memory-allocation profiling for the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Optimizing the kernel's memory use is made much easier if developers have
-an accurate idea of how memory is being used, but the kernel's
-instrumentation is not as good as it could be.  When Suren Baghdasaryan and
-Kent Overstreet <a href="https://lwn.net/Articles/932402/">presented</a> their
-memory-allocation profiling work, which is meant to address this
-shortcoming, at the 2023 Linux Storage, Filesystem, Memory Management, and
-BPF Summit, their objective was uncontroversial but the proposed solution
-ran into opposition that played out at length on the mailing lists (<a
-href="https://lwn.net/ml/linux-kernel/20240212213922.783301-1-surenb@google.com/">example</a>)
-over the last year.  So it may be a bit surprising that, when the two
-returned to the memory-management track in the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 gathering</a>, the
-controversy was gone and the discussion focused on improving details of the
-implementation.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
