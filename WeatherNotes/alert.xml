@@ -11,103 +11,70 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82f4353c4afad6e4ada61ffd86cb1d5beaf9fc15.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4657de245603c3c08f1ce138a614742a30a41124.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="dict">
 				<type type="str">Polygon</type>
 				<coordinates type="list">
 					<item type="list">
 						<item type="list">
-							<item type="float">-89.41</item>
-							<item type="float">37.75</item>
+							<item type="float">-89.05</item>
+							<item type="float">37.94</item>
 						</item>
 						<item type="list">
-							<item type="float">-89.92</item>
-							<item type="float">37.68</item>
+							<item type="float">-89.64</item>
+							<item type="float">37.79</item>
 						</item>
 						<item type="list">
-							<item type="float">-89.98</item>
-							<item type="float">37.839999999999996</item>
-						</item>
-						<item type="list">
-							<item type="float">-89.94</item>
+							<item type="float">-89.65</item>
 							<item type="float">37.87</item>
 						</item>
 						<item type="list">
-							<item type="float">-89.89999999999999</item>
-							<item type="float">37.87</item>
+							<item type="float">-89.59</item>
+							<item type="float">37.96</item>
 						</item>
 						<item type="list">
-							<item type="float">-89.83999999999999</item>
-							<item type="float">37.909999899999995</item>
+							<item type="float">-89.59</item>
+							<item type="int">38</item>
 						</item>
 						<item type="list">
-							<item type="float">-89.79999999999998</item>
-							<item type="float">37.879999999999995</item>
+							<item type="float">-89.18</item>
+							<item type="float">38.15</item>
 						</item>
 						<item type="list">
-							<item type="float">-89.78999999999998</item>
-							<item type="float">37.849999999999994</item>
-						</item>
-						<item type="list">
-							<item type="float">-89.73999999999998</item>
-							<item type="float">37.849999999999994</item>
-						</item>
-						<item type="list">
-							<item type="float">-89.67999999999998</item>
-							<item type="float">37.8</item>
-						</item>
-						<item type="list">
-							<item type="float">-89.67999999999998</item>
-							<item type="float">37.82</item>
-						</item>
-						<item type="list">
-							<item type="float">-89.65999999999998</item>
-							<item type="float">37.83</item>
-						</item>
-						<item type="list">
-							<item type="float">-89.65999999999998</item>
-							<item type="float">37.86</item>
-						</item>
-						<item type="list">
-							<item type="float">-89.61999999999998</item>
-							<item type="float">37.92</item>
-						</item>
-						<item type="list">
-							<item type="float">-89.53999999999998</item>
-							<item type="float">37.93</item>
-						</item>
-						<item type="list">
-							<item type="float">-89.41</item>
-							<item type="float">37.75</item>
+							<item type="float">-89.05</item>
+							<item type="float">37.94</item>
 						</item>
 					</item>
 				</coordinates>
 			</geometry>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82f4353c4afad6e4ada61ffd86cb1d5beaf9fc15.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4657de245603c3c08f1ce138a614742a30a41124.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.82f4353c4afad6e4ada61ffd86cb1d5beaf9fc15.001.1</id>
-				<areaDesc type="str">Jackson; Perry</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.4657de245603c3c08f1ce138a614742a30a41124.001.1</id>
+				<areaDesc type="str">Perry; Franklin; Jackson</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
+						<item type="str">017145</item>
+						<item type="str">017055</item>
 						<item type="str">017077</item>
-						<item type="str">029157</item>
 					</SAME>
 					<UGC type="list">
+						<item type="str">ILZ080</item>
+						<item type="str">ILZ081</item>
 						<item type="str">ILZ084</item>
-						<item type="str">MOZ076</item>
 					</UGC>
 				</geocode>
 				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ081</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
 				</affectedZones>
 				<references type="list"/>
-				<sent type="str">2024-05-23T03:28:00-05:00</sent>
-				<effective type="str">2024-05-23T03:28:00-05:00</effective>
-				<onset type="str">2024-05-23T03:28:00-05:00</onset>
-				<expires type="str">2024-05-23T04:15:00-05:00</expires>
+				<sent type="str">2024-05-23T04:01:00-05:00</sent>
+				<effective type="str">2024-05-23T04:01:00-05:00</effective>
+				<onset type="str">2024-05-23T04:01:00-05:00</onset>
+				<expires type="str">2024-05-23T04:45:00-05:00</expires>
 				<ends type="null"/>
 				<status type="str">Actual</status>
 				<messageType type="str">Alert</messageType>
@@ -118,9 +85,9 @@
 				<event type="str">Special Weather Statement</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Special Weather Statement issued May 23 at 3:28AM CDT by NWS Paducah KY</headline>
-				<description type="str">At 328 AM CDT, Doppler radar was tracking a strong thunderstorm over
-Perryville, moving east at 35 mph.
+				<headline type="str">Special Weather Statement issued May 23 at 4:01AM CDT by NWS Paducah KY</headline>
+				<description type="str">At 400 AM CDT, Doppler radar was tracking a strong thunderstorm near
+Ava, or 13 miles southwest of Pinckneyville, moving east at 35 mph.
 
 HAZARD...Penny size hail.
 
@@ -129,9 +96,8 @@ SOURCE...Radar indicated.
 IMPACT...Minor hail damage to vegetation is possible.
 
 Locations impacted include...
-Chester, Perryville, Campbell Hill, and Lithium.
-
-This includes Interstate 55 between Mile Markers 128 and 138.</description>
+Du Quoin, Pinckneyville, Christopher, Elkville, Ava, Tamaroa,
+Willisville, Dowell, Campbell Hill, Vergennes, and St. Johns.</description>
 				<instruction type="str">If outdoors, consider seeking shelter inside a building.</instruction>
 				<response type="str">Execute</response>
 				<parameters type="dict">
@@ -139,13 +105,13 @@ This includes Interstate 55 between Mile Markers 128 and 138.</description>
 						<item type="str">SPSPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS83 KPAH 230828</item>
+						<item type="str">WWUS83 KPAH 230901</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">A STRONG THUNDERSTORM WILL IMPACT NORTHWESTERN JACKSON AND CENTRAL PERRY COUNTIES THROUGH 415 AM CDT</item>
+						<item type="str">A STRONG THUNDERSTORM WILL IMPACT SOUTHERN PERRY...NORTHERN JACKSON AND WEST CENTRAL FRANKLIN COUNTIES THROUGH 445 AM CDT</item>
 					</NWSheadline>
 					<eventMotionDescription type="list">
-						<item type="str">2024-05-23T08:28:00-00:00...storm...250DEG...29KT...37.74,-89.88</item>
+						<item type="str">2024-05-23T09:00:00-00:00...storm...248DEG...32KT...37.93,-89.55</item>
 					</eventMotionDescription>
 					<maxWindGust type="list">
 						<item type="str">Up to 30 MPH</item>
@@ -166,5 +132,5 @@ This includes Interstate 55 between Mile Markers 128 and 138.</description>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-05-23T08:29:08+00:00</updated>
+	<updated type="str">2024-05-23T09:15:00+00:00</updated>
 </all>
