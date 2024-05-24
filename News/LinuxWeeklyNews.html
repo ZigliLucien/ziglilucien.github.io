@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974848/" title="See Description">[$] Recent improvements to BPF's struct_ops mechanism</a></li>
 <li><a href="#https://lwn.net/Articles/969640/" title="See Description">[$] Readying DNF5 for Fedora 41</a></li>
 <li><a href="#https://lwn.net/Articles/974630/" title="See Description">[$] Large-folio support for shmem and tmpfs</a></li>
 <li><a href="#https://lwn.net/Articles/974914/" title="See Description">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days 
@@ -53,10 +54,25 @@
 <li><a href="#https://lwn.net/Articles/974517/" title="See Description">[$] The path to deprecating SPARSEMEM</a></li>
 <li><a href="#https://lwn.net/Articles/974518/" title="See Description">[$] Two sessions on CXL memory</a></li>
 <li><a href="#https://lwn.net/Articles/974515/" title="See Description">[$] Documenting page flags by committee</a></li>
-<li><a href="#https://lwn.net/Articles/974512/" title="See Description">[$] Merging msharefs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974848/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 May 2024 19:37:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974848/" title="https://lwn.net/Articles/974848/">[$] Recent improvements to BPF's struct_ops mechanism</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Kui-Feng Lee spoke early in the BPF track at the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> about some of the
+recent improvements to BPF. These changes were largely driven by the
+sched_ext work that David Vernet had <a href="https://lwn.net/Articles/974387">covered in
+the previous talk</a>. Lee focused on changes relevant to <tt>struct_ops</tt>
+programs, but several of those changes apply to all BPF programs.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/969640/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 24 May 2024 16:51:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -302,22 +318,6 @@ understood.  In a memory-management-track session at the <a
 href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
 Filesystem, Memory-Management and BPF Summit</a>, Matthew Wilcox set out to
 cooperatively update the page-flag documentation to improve that situation.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974512/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 May 2024 17:25:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974512/" title="https://lwn.net/Articles/974512/">[$] Merging msharefs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The problem of sharing page tables across processes has been discussed
-numerous times over the years, Khalid Aziz said at the beginning of his <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a> session on the topic.  He
-was there to, once again, talk about the proposed <a
-href="https://lwn.net/Articles/895217/"><tt>mshare()</tt></a> system call (which, in its
-current form, is no longer actually a system call but the feature still
-goes by that name) and to see what can be done to finally get it into the
-mainline.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
