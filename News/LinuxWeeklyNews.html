@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974630/" title="See Description">[$] Large-folio support for shmem and tmpfs</a></li>
+<li><a href="#https://lwn.net/Articles/974914/" title="See Description">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days 
+(Graphite blog)</a></li>
+<li><a href="#https://lwn.net/Articles/974913/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/974587/" title="See Description">[$] A new swap abstraction layer for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/974387/" title="See Description">[$] What's scheduled for sched_ext</a></li>
 <li><a href="#https://lwn.net/Articles/974708/" title="See Description">KDE Gear 24.05.0</a></li>
@@ -50,12 +54,73 @@
 <li><a href="#https://lwn.net/Articles/974515/" title="See Description">[$] Documenting page flags by committee</a></li>
 <li><a href="#https://lwn.net/Articles/974512/" title="See Description">[$] Merging msharefs</a></li>
 <li><a href="#https://lwn.net/Articles/974491/" title="See Description">[$] Toward the unification of hugetlbfs</a></li>
-<li><a href="#https://lwn.net/Articles/973782/" title="See Description">[$] The KeePassXC kerfuffle</a></li>
-<li><a href="#https://lwn.net/Articles/974487/" title="See Description">[$] The interaction between memory reclaim and RCU</a></li>
-<li><a href="#https://lwn.net/Articles/974576/" title="See Description">Alpine Linux 3.20.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974630/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 May 2024 14:02:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974630/" title="https://lwn.net/Articles/974630/">[$] Large-folio support for shmem and tmpfs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel contains a pair of related filesystems that, among other things,
+can be used for shared-memory applications; shmem is an internal mechanism
+used within the kernel, while the tmpfs filesystem is mounted and
+accessible from user space.  As is the case elsewhere in the kernel, these
+subsystems would benefit from the addition of large-folio support.  During
+a joint storage, filesystem, and memory-management session at the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a>, Daniel Gomez talked about
+the work he is doing to add that support.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974914/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 May 2024 13:34:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974914/" title="https://lwn.net/Articles/974914/">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days 
+(Graphite blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a
+href="https://graphite.dev/blog/bitkeeper-linux-story-of-git-creation">This
+Graphite blog post</a> retells the history of the BitKeeper fiasco and the
+dawn of the Git era.
+<p>
+<blockquote class="bq">
+	When we think of history, we often romanticize it as being born of
+	a sudden stroke of inspiration. But the creation of git shows the
+	far harsher reality of invention: a slowly escalating disagreement
+	over a license; the need for a scrappy backup solution to unblock
+	work; and then continued polishing and iteration through years and
+	years, led not by the inventor, but rather a community.
+</blockquote>
+<p>
+For those who weren't around in those days, a perusal of the LWN coverage
+from the time might be of interest too, including:
+<p>
+<ul>
+<li> <a href="https://lwn.net/1998/1015/kernel.php3">Our first mention of BitKeeper</a>
+     in October 1998
+<li> <a href="https://lwn.net/1999/features/BitKeeper.php3">Not quite open source</a>,
+     1999
+<li> <a href="https://lwn.net/2002/0207/kernel.php3">Linus tries out BitKeeper</a>, 2002
+<li> <a href="https://lwn.net/2002/0425/">The free software community and proprietary
+     packages</a>, 2002
+<li> <a href="https://lwn.net/Articles/130746/">The kernel and BitKeeper part ways</a>,
+     2005
+<li> <a href="https://lwn.net/Articles/132938/">How Tridge reverse engineered
+     BitKeeper</a>, 2005
+<li> <a href="https://lwn.net/Articles/131657/">The guts of Git</a>, 2005
+</ul>
+<p>
+...and a lot more for those who care to search for it.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974913/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 May 2024 13:16:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974913/" title="https://lwn.net/Articles/974913/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (chromium, libreoffice, and thunderbird), <b>Red Hat</b> (.NET 7.0, .NET 8.0, gdk-pixbuf2, git-lfs, glibc, python3, and xorg-x11-server-Xwayland), <b>SUSE</b> (firefox, opensc, and ucode-intel), and <b>Ubuntu</b> (cjson and gnome-remote-desktop).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974587/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 May 2024 19:27:21 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -254,57 +319,6 @@ Filesystem, Memory-Management and BPF Summit</a>, Peter Xu raised the
 question of what that unification would involve and what the first steps
 might be.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/973782/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 May 2024 16:30:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/973782/" title="https://lwn.net/Articles/973782/">[$] The KeePassXC kerfuffle</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://keepassxc.org/">KeePassXC</a> is an open-source (GPLv3),
-cross-platform password manager with local-only data storage. The
-project comes with a number of <a
-href="https://github.com/keepassxreboot/keepassxc/wiki/Building-KeePassXC#build-options">build
-options</a> that can be used to toggle optional features, such as <a
-href="https://keepassxc.org/docs/KeePassXC_GettingStarted#_setup_browser_integration">browser
-integration</a> and <a
-href="https://keepassxc.org/docs/KeePassXC_UserGuide#_database_sharing_with_keeshare">password
-database sharing</a>. However, controversy ensued when Debian Developer Julian Klode decided to
-make use of these compile flags to disable these features to improve security in the
-<tt>keepassxc</tt> package uploaded to Debian unstable for the
-upcoming Debian 13 ("Trixie") release.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974487/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 May 2024 15:40:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974487/" title="https://lwn.net/Articles/974487/">[$] The interaction between memory reclaim and RCU</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux
-Storage, Filesystem, Memory-Management and BPF Summit</a> was a development
-conference, where discussion was prioritized and presentations with a lot
-of slides were discouraged.  Paul McKenney seemingly flouted this
-convention in a joint session of the storage, filesystem, and
-memory-management tracks where he presented about 50&nbsp;slides — in five
-minutes, twice.  The subject was the use of the read-copy-update (RCU)
-mechanism in the memory-reclaim process, and whether changes to RCU would
-be needed for that purpose.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974576/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 May 2024 15:09:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974576/" title="https://lwn.net/Articles/974576/">Alpine Linux 3.20.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://alpinelinux.org/posts/Alpine-3.20.0-released.html">Version
-3.20.0</a> of the <a href="https://alpinelinux.org/">Alpine Linux</a>
-distribution has been released with initial support for 64-bit
-RISC-V. Other important changes include updates to <a href="https://lwn.net/Articles/966187/">GNOME&nbsp;46</a>, 
-<a href="https://lwn.net/Articles/963851/">KDE&nbsp;Plasma&nbsp;6</a>, and replacing Redis with Valkey due to Redis's
-<a href="https://lwn.net/Articles/966631/">adoption</a> of a non-free
-license model. See the <a
-href="https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.20.0">release
-notes</a> for more on this release.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
