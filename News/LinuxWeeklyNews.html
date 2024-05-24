@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/969640/" title="See Description">[$] Readying DNF5 for Fedora 41</a></li>
 <li><a href="#https://lwn.net/Articles/974630/" title="See Description">[$] Large-folio support for shmem and tmpfs</a></li>
 <li><a href="#https://lwn.net/Articles/974914/" title="See Description">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days 
 (Graphite blog)</a></li>
@@ -53,10 +54,27 @@
 <li><a href="#https://lwn.net/Articles/974518/" title="See Description">[$] Two sessions on CXL memory</a></li>
 <li><a href="#https://lwn.net/Articles/974515/" title="See Description">[$] Documenting page flags by committee</a></li>
 <li><a href="#https://lwn.net/Articles/974512/" title="See Description">[$] Merging msharefs</a></li>
-<li><a href="#https://lwn.net/Articles/974491/" title="See Description">[$] Toward the unification of hugetlbfs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/969640/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 May 2024 16:51:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/969640/" title="https://lwn.net/Articles/969640/">[$] Readying DNF5 for Fedora 41</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>With the <a
+href="https://lwn.net/Articles/970893/">release</a> of <a href="https://lwn.net/Articles/969145/">Fedora&nbsp;40</a> it's time to
+start looking ahead to what Fedora&nbsp;41 has in store. One of the largest
+changes planned for the next release is a switch to
+DNF5, a C++ rewrite of the <a
+href="https://docs.fedoraproject.org/en-US/quick-docs/dnf/">DNF</a>
+package manager. A previous attempt to make the switch, during the Fedora&nbsp;39 cycle, <a
+href="https://lwn.net/Articles/941154/">was called off</a>, and
+deferred to Fedora&nbsp;41. The developers have had nearly a year to address
+compatibility problems and bring DNF5 to a state suitable to replace DNF4. Signs point to a successful switch in
+the upcoming release, though there may be a few surprises lurking for Fedora users.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974630/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 24 May 2024 14:02:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -147,7 +165,7 @@ David Vernet's second talk at the 2024
 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
 Filesystem, Memory Management, and BPF Summit</a> was a summary of the state of
 sched_ext, the extensible BPF scheduler that <a href="https://lwn.net/Articles/972710/">LWN
-covered a in early May</a>. In short, sched_ext is intended as a platform for
+covered in early May</a>. In short, sched_ext is intended as a platform for
 rapid experimentation with schedulers, and a tool to let performance-minded
 administrators customize the scheduler to their workload. The patch set has seen
 several revisions, becoming more generic and powerful over time.
@@ -300,24 +318,6 @@ href="https://lwn.net/Articles/895217/"><tt>mshare()</tt></a> system call (which
 current form, is no longer actually a system call but the feature still
 goes by that name) and to see what can be done to finally get it into the
 mainline.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974491/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 May 2024 16:53:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974491/" title="https://lwn.net/Articles/974491/">[$] Toward the unification of hugetlbfs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
-href="https://docs.kernel.org/admin-guide/mm/hugetlbpage.html">hugetlbfs
-subsystem</a> was the first mechanism by which the kernel made huge pages
-available to user space; it was added to the 2.5.46 development kernel in
-2002.  While hugetlbfs remains useful, it is also viewed as a sort of
-second memory-management subsystem that would be best unified with the rest
-of the kernel.  At the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a>, Peter Xu raised the
-question of what that unification would involve and what the first steps
-might be.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
