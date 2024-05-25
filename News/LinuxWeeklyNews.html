@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974826/" title="See Description">[$] Two talks on multi-size transparent huge page performance</a></li>
 <li><a href="#https://lwn.net/Articles/974578/" title="See Description">[$] Atomic writes without tears</a></li>
 <li><a href="#https://lwn.net/Articles/974636/" title="See Description">[$] Allocator optimizations for transparent huge pages</a></li>
 <li><a href="#https://lwn.net/Articles/974848/" title="See Description">[$] Recent improvements to BPF's struct_ops mechanism</a></li>
@@ -53,10 +54,27 @@
 <li><a href="#https://lwn.net/Articles/974824/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/973888/" title="See Description">[$] LWN.net Weekly Edition for May 23, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/974219/" title="See Description">[$] Supporting larger block sizes in filesystems</a></li>
-<li><a href="#https://lwn.net/Articles/974517/" title="See Description">[$] The path to deprecating SPARSEMEM</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974826/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 25 May 2024 16:38:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974826/" title="https://lwn.net/Articles/974826/">[$] Two talks on multi-size transparent huge page performance</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Using huge pages has been known for years to improve the performance of
+many workloads.  But traditional huge pages, often sized by the CPU at 2MB,
+can be difficult to allocate and can waste memory due to internal
+fragmentation.  Driven by both the folio transition and hardware
+improvements, attention to smaller, multi-size transparent huge pages
+(mTHPs) has been on the rise.  In two memory-management-track sessions at
+the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a>, developers discussed the
+kernel's ability to reliably allocate mTHPs and the performance gains that
+result.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974578/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 24 May 2024 21:33:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -303,23 +321,6 @@ filesystem side.  Over time, the
 block sizes offered by storage devices have risen from the original
 512&nbsp;bytes; Chamberlain
 wanted to discuss filesystem support for block sizes larger than 4KB.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974517/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 May 2024 18:58:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974517/" title="https://lwn.net/Articles/974517/">[$] The path to deprecating SPARSEMEM</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The term "memory model" is used in a couple of ways within the kernel.
-Perhaps the more obscure meaning is the memory-management subsystem's view
-of how physical memory is organized on a given system.  A proper
-representation of physical memory will be more efficient in terms of memory
-and CPU use.  Since hardware comes in numerous variations, the kernel
-supports a number of memory models to match; see <a
-href="https://lwn.net/Articles/789304/">this article</a> for details.  At the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a>, Oscar Salvador,
-presenting remotely, made the case for removing one of those models.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
