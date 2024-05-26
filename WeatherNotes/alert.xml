@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf7f72ef17d9dd6e26cb6db27587bae94bb49242.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1fe479edd1f806e21d5707250090f63902926cf.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf7f72ef17d9dd6e26cb6db27587bae94bb49242.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1fe479edd1f806e21d5707250090f63902926cf.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.bf7f72ef17d9dd6e26cb6db27587bae94bb49242.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.f1fe479edd1f806e21d5707250090f63902926cf.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -201,14 +201,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2024-05-25T13:38:00-05:00</sent>
-				<effective type="str">2024-05-25T13:38:00-05:00</effective>
-				<onset type="str">2024-05-26T01:00:00-05:00</onset>
-				<expires type="str">2024-05-26T04:00:00-05:00</expires>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf7f72ef17d9dd6e26cb6db27587bae94bb49242.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.bf7f72ef17d9dd6e26cb6db27587bae94bb49242.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2024-05-25T13:38:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2024-05-26T03:17:00-05:00</sent>
+				<effective type="str">2024-05-26T03:17:00-05:00</effective>
+				<onset type="str">2024-05-26T03:17:00-05:00</onset>
+				<expires type="str">2024-05-26T16:15:00-05:00</expires>
 				<ends type="str">2024-05-27T07:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Severe</severity>
 				<certainty type="str">Possible</certainty>
@@ -216,24 +223,25 @@
 				<event type="str">Flood Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Flood Watch issued May 25 at 1:38PM CDT until May 27 at 7:00AM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Flooding caused by excessive rainfall is possible.
+				<headline type="str">Flood Watch issued May 26 at 3:17AM CDT until May 27 at 7:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Flooding caused by excessive rainfall continues to be
+possible.
 
-* WHERE...The entire Quad State region.
+* WHERE...All of southern Illinois, southwest Indiana, west
+Kentucky, and southeast Missouri.
 
-* WHEN...From 1 AM CDT  /2 AM EDT/ Sunday through Monday morning.
+* WHEN...Through early Monday morning.
 
 * IMPACTS...Excessive runoff may result in flooding of rivers,
 creeks, streams, and other low-lying and flood-prone locations.
 
 * ADDITIONAL DETAILS...
-- Strong to severe thunderstorms will be capable of producing
-heavy rainfall in multiple rounds of expected storm activity.
-Any such storm may bring flooding rains, especially if they
-repeat over the same areas. This threat will be heightened
-for some of our localities that have seen such localized
-heavy rainfall over the past few days, where their threshold
-for flooding will be more sensitive.</description>
+- Multiple rounds of strong to severe thunderstorms with very
+heavy rainfall are expected to traverse the region through
+tonight. Flooding will be more likely and potentially more
+intense in areas that receive multiple rounds of heavy
+rainfall, and especially in areas that have received heavy
+rainfall in the last few days.</description>
 				<instruction type="str">You should monitor later forecasts and be alert for possible Flood
 Warnings. Those living in areas prone to flooding should be prepared
 to take action should flooding develop.</instruction>
@@ -243,10 +251,10 @@ to take action should flooding develop.</instruction>
 						<item type="str">FFAPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WGUS63 KPAH 251838</item>
+						<item type="str">WGUS63 KPAH 260817</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">FLOOD WATCH IN EFFECT FROM 1 AM CDT /2 AM EDT/ SUNDAY THROUGH MONDAY MORNING</item>
+						<item type="str">FLOOD WATCH REMAINS IN EFFECT THROUGH MONDAY MORNING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -257,7 +265,7 @@ to take action should flooding develop.</instruction>
 						<item type="str">WXR</item>
 					</EAS-ORG>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.FA.A.0004.240526T0600Z-240527T1200Z/</item>
+						<item type="str">/O.CON.KPAH.FA.A.0004.000000T0000Z-240527T1200Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2024-05-27T12:00:00+00:00</item>
@@ -267,5 +275,5 @@ to take action should flooding develop.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-05-25T18:38:43+00:00</updated>
+	<updated type="str">2024-05-26T08:18:05+00:00</updated>
 </all>
