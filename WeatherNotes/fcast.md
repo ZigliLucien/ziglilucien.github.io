@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Showers and thunderstorms before noon, then a chance of showers and thunderstorms. Some of the storms could be severe and
-         produce heavy rain. Partly sunny, with a high near 87. South wind 12 to 17 mph, with gusts as high as 29 mph. Chance of precipitation
+         produce heavy rain. Partly sunny, with a high near 87. South wind 13 to 17 mph, with gusts as high as 29 mph. Chance of precipitation
          is 80%.<br></div>
    </p>
    <p>
