@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1fe479edd1f806e21d5707250090f63902926cf.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4cc918a9e6cda3b44e9b867a46a898f361098fce.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1fe479edd1f806e21d5707250090f63902926cf.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4cc918a9e6cda3b44e9b867a46a898f361098fce.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.f1fe479edd1f806e21d5707250090f63902926cf.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.4cc918a9e6cda3b44e9b867a46a898f361098fce.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,16 +203,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf7f72ef17d9dd6e26cb6db27587bae94bb49242.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.bf7f72ef17d9dd6e26cb6db27587bae94bb49242.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1fe479edd1f806e21d5707250090f63902926cf.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.f1fe479edd1f806e21d5707250090f63902926cf.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2024-05-25T13:38:00-05:00</sent>
+						<sent type="str">2024-05-26T03:17:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2024-05-26T03:17:00-05:00</sent>
-				<effective type="str">2024-05-26T03:17:00-05:00</effective>
-				<onset type="str">2024-05-26T03:17:00-05:00</onset>
-				<expires type="str">2024-05-26T16:15:00-05:00</expires>
+				<sent type="str">2024-05-26T15:40:00-05:00</sent>
+				<effective type="str">2024-05-26T15:40:00-05:00</effective>
+				<onset type="str">2024-05-26T15:40:00-05:00</onset>
+				<expires type="str">2024-05-27T07:00:00-05:00</expires>
 				<ends type="str">2024-05-27T07:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -223,25 +223,42 @@
 				<event type="str">Flood Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Flood Watch issued May 26 at 3:17AM CDT until May 27 at 7:00AM CDT by NWS Paducah KY</headline>
+				<headline type="str">Flood Watch issued May 26 at 3:40PM CDT until May 27 at 7:00AM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Flooding caused by excessive rainfall continues to be
 possible.
 
-* WHERE...All of southern Illinois, southwest Indiana, west
-Kentucky, and southeast Missouri.
+* WHERE...Portions of southern Illinois, including the following
+areas, Alexander, Edwards, Franklin, Gallatin, Hamilton, Hardin,
+Jackson, Jefferson, Johnson, Massac, Perry IL, Pope, Pulaski,
+Saline, Union, Wabash, Wayne IL, White and Williamson, southwest
+Indiana, including the following areas, Gibson, Pike, Posey,
+Spencer, Vanderburgh and Warrick, western Kentucky, including the
+following areas, Ballard, Caldwell, Calloway, Carlisle, Christian,
+Crittenden, Daviess, Fulton, Graves, Henderson, Hickman, Hopkins,
+Livingston, Lyon, Marshall, McCracken, McLean, Muhlenberg, Todd,
+Trigg, Union KY and Webster, and southeast Missouri, including the
+following areas, Bollinger, Butler, Cape Girardeau, Carter,
+Mississippi, New Madrid, Perry MO, Ripley, Scott, Stoddard and
+Wayne MO.
 
-* WHEN...Through early Monday morning.
+* WHEN...Through Monday morning.
 
 * IMPACTS...Excessive runoff may result in flooding of rivers,
 creeks, streams, and other low-lying and flood-prone locations.
 
 * ADDITIONAL DETAILS...
-- Multiple rounds of strong to severe thunderstorms with very
-heavy rainfall are expected to traverse the region through
-tonight. Flooding will be more likely and potentially more
-intense in areas that receive multiple rounds of heavy
-rainfall, and especially in areas that have received heavy
-rainfall in the last few days.</description>
+- Widespread rainfall amounts of 2 to 3 inches occurred this
+morning, particularly focused across southeast Missouri,
+western Kentucky, and far southern Illinois. Localized higher
+amounts up to 5 inches were observed. Another round of very
+heavy rain is expected with severe thunderstorms through this
+evening. This likely will lead to additional rainfall amounts
+of 1 to 3 inches, with localized higher amounts possible.
+This will lead to a heightened flash flooding concern,
+especially in those areas that already received flooding this
+morning. Significant flash flooding is possible in some of
+these locations this evening.
+- http://www.weather.gov/safety/flood</description>
 				<instruction type="str">You should monitor later forecasts and be alert for possible Flood
 Warnings. Those living in areas prone to flooding should be prepared
 to take action should flooding develop.</instruction>
@@ -251,7 +268,7 @@ to take action should flooding develop.</instruction>
 						<item type="str">FFAPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WGUS63 KPAH 260817</item>
+						<item type="str">WGUS63 KPAH 262040</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">FLOOD WATCH REMAINS IN EFFECT THROUGH MONDAY MORNING</item>
@@ -270,10 +287,13 @@ to take action should flooding develop.</instruction>
 					<eventEndingTime type="list">
 						<item type="str">2024-05-27T12:00:00+00:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bf7f72ef17d9dd6e26cb6db27587bae94bb49242.001.1,2024-05-25T13:38:00-05:00</item>
+					</expiredReferences>
 				</parameters>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-05-26T08:18:05+00:00</updated>
+	<updated type="str">2024-05-26T20:40:24+00:00</updated>
 </all>
