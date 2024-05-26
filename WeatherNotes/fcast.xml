@@ -42,7 +42,7 @@
 		<updated type="str">2024-05-26T14:46:39+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-05-26T16:36:03+00:00</generatedAt>
+		<generatedAt type="str">2024-05-26T17:36:07+00:00</generatedAt>
 		<updateTime type="str">2024-05-26T14:46:39+00:00</updateTime>
 		<validTimes type="str">2024-05-26T08:00:00+00:00/P7DT17H</validTimes>
 		<elevation type="dict">
@@ -52,8 +52,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2024-05-26T11:00:00-05:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2024-05-26T12:00:00-05:00</startTime>
 				<endTime type="str">2024-05-26T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">87</temperature>
@@ -61,7 +61,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">70</value>
+					<value type="int">40</value>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
@@ -69,13 +69,13 @@
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">90</value>
+					<value type="int">82</value>
 				</relativeHumidity>
-				<windSpeed type="str">14 to 17 mph</windSpeed>
+				<windSpeed type="str">17 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,70/tsra_hi,40?size=medium</icon>
-				<shortForecast type="str">Showers And Thunderstorms Likely then Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms likely before noon, then a chance of showers and thunderstorms. Some of the storms could be severe and produce heavy rain. Partly sunny, with a high near 87. South wind 14 to 17 mph, with gusts as high as 29 mph. Chance of precipitation is 70%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,40?size=medium</icon>
+				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Some of the storms could be severe. Partly sunny, with a high near 87. South wind around 17 mph, with gusts as high as 29 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
