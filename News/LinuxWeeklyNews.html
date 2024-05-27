@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974937/" title="See Description">[$] Fleshing out memory descriptors</a></li>
+<li><a href="#https://lwn.net/Articles/975399/" title="See Description">Security updates for Monday</a></li>
+<li><a href="#https://lwn.net/Articles/974869/" title="See Description">[$] The rest of the 6.10 merge window</a></li>
+<li><a href="#https://lwn.net/Articles/974860/" title="See Description">[$] The next steps for the maple tree</a></li>
 <li><a href="#https://lwn.net/Articles/975145/" title="See Description">Kernel prepatch 6.10-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/975072/" title="See Description">Eight weekend stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/974826/" title="See Description">[$] Two talks on multi-size transparent huge page performance</a></li>
@@ -46,17 +50,66 @@
 <li><a href="#https://lwn.net/Articles/974848/" title="See Description">[$] Recent improvements to BPF's struct_ops mechanism</a></li>
 <li><a href="#https://lwn.net/Articles/969640/" title="See Description">[$] Readying DNF5 for Fedora 41</a></li>
 <li><a href="#https://lwn.net/Articles/974630/" title="See Description">[$] Large-folio support for shmem and tmpfs</a></li>
-<li><a href="#https://lwn.net/Articles/974914/" title="See Description">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days 
-(Graphite blog)</a></li>
+<li><a href="#https://lwn.net/Articles/974914/" title="See Description">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days (Graphite blog)</a></li>
 <li><a href="#https://lwn.net/Articles/974913/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/974587/" title="See Description">[$] A new swap abstraction layer for the kernel</a></li>
-<li><a href="#https://lwn.net/Articles/974387/" title="See Description">[$] What's scheduled for sched_ext</a></li>
-<li><a href="#https://lwn.net/Articles/974708/" title="See Description">KDE Gear 24.05.0</a></li>
-<li><a href="#https://lwn.net/Articles/974575/" title="See Description">[$] The twilight of the version-1 memory controller</a></li>
-<li><a href="#https://lwn.net/Articles/974824/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974937/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 May 2024 13:39:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974937/" title="https://lwn.net/Articles/974937/">[$] Fleshing out memory descriptors</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the long-term goals of the folio conversion in the kernel's
+memory-management subsystem is the replacement of the <tt>page</tt>
+structure, which describes a page of physical memory, with an eight-byte
+"memory descriptor".  This change would reduce the overhead of tracking
+physical memory, increase type safety, and make memory management more
+flexible.  Thus far, though, details on what the memory-descriptor future
+will look like have been relatively scarce.  At the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a>, Matthew Wilcox led a
+discussion to try to fill in the picture somewhat.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/975399/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 May 2024 13:35:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/975399/" title="https://lwn.net/Articles/975399/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (apache2, bluez, chromium, fossil, libreoffice, python-pymysql, redmine, and ruby-rack), <b>Fedora</b> (buildah, crosswords, dotnet7.0, glycin-loaders, gnome-tour, helix, helvum, libipuz, loupe, maturin, mingw-libxml2, ntpd-rs, perl-Email-MIME, and a huge list of Rust-based packages due to a "<q>mini-mass-rebuild</q>" that updated the toolchain to Rust 1.78 and picked up fixes for various pieces), <b>Mageia</b> (chromium-browser-stable, mariadb, and roundcubemail), <b>Oracle</b> (kernel, libreoffice, nodejs, and tomcat), and <b>SUSE</b> (cJSON, libfastjson, opera, postgresql15, python3, and qt6-networkauth). 
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974869/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 May 2024 13:04:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974869/" title="https://lwn.net/Articles/974869/">[$] The rest of the 6.10 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds <a href="https://lwn.net/Articles/975144/">released 6.10-rc1</a> and closed
+the 6.10 merge window on May&nbsp;26.  By that time, 11,534 non-merge
+changesets had been pulled into the mainline for the next release; nearly
+5,000 of those came in after "<a href="https://lwn.net/Articles/973687/">The first half of
+the 6.10 merge window</a>" was written.  While the latter half of the merge
+window tends to focus more on fixes, there was also a lot of new
+functionality that landed during this time.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974860/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 May 2024 12:48:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974860/" title="https://lwn.net/Articles/974860/">[$] The next steps for the maple tree</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/845507/">maple tree data structure</a> was added
+during the 6.1 development cycle; since then, it has taken its
+place at the core of the kernel's memory-management subsystem.
+Unsurprisingly, work on maple trees is not yet done.  Maple-tree maintainer
+Liam Howlett ran a session in the memory-management track of the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a> to discuss the current
+state of the maple tree and which features can be expected next.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/975145/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 26 May 2024 22:55:37 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -187,8 +240,7 @@ the work he is doing to add that support.
 <tr><td><a name="https://lwn.net/Articles/974914/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 24 May 2024 13:34:17 +0000</tt></div></td></tr>
 <tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974914/" title="https://lwn.net/Articles/974914/">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days 
-(Graphite blog)</a></div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974914/" title="https://lwn.net/Articles/974914/">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days (Graphite blog)</a></div>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote><a
@@ -246,76 +298,6 @@ href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
 Filesystem, Memory-Management and BPF Summit</a>, was held jointly by all
 three of those tracks.  Li has some ambitious ideas for an improved
 subsystem, but getting to a workable implementation may not be easy.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974387/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 May 2024 17:34:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974387/" title="https://lwn.net/Articles/974387/">[$] What's scheduled for sched_ext</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-David Vernet's second talk at the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> was a summary of the state of
-sched_ext, the extensible BPF scheduler that <a href="https://lwn.net/Articles/972710/">LWN
-covered in early May</a>. In short, sched_ext is intended as a platform for
-rapid experimentation with schedulers, and a tool to let performance-minded
-administrators customize the scheduler to their workload. The patch set has seen
-several revisions, becoming more generic and powerful over time.
-Vernet spoke about what has been done in the past year,
-and what is still missing before sched_ext can be considered pretty much
-complete.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974708/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 May 2024 14:16:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974708/" title="https://lwn.net/Articles/974708/">KDE Gear 24.05.0</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://kde.org/">KDE Project</a> has <a
-href="https://kde.org/announcements/gear/24.05.0/">announced</a> the
-release of KDE Gear 24.05.0, with new features and updates for the
-more than 200 <a href="https://apps.kde.org/">applications</a> that
-are part of the project. In addition to new versions of the <a href="https://apps.kde.org/dolphin/">Dolphin</a>
-file manager, <a href="https://kdenlive.org/">Kdenlive</a> video
-editor, and <a href="https://apps.kde.org/elisa/">Elisa</a> music player, this
-release includes five applications new to KDE Gear: the <a
-href="https://apps.kde.org/audex">Audex</a> CD-ripper application,
-an application <a href="https://apps.kde.org/accessibilityinspector">Accessibility
-Inspector</a>, the <a href="https://apps.kde.org/francis">Francis</a>
-<a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro</a> timer, <a
-href="https://apps.kde.org/kalm">Kalm</a> to teach breathing techniques, and a <a
-href="https://en.wikipedia.org/wiki/Sokoban">Sokoban</a>-like game
-called <a href="https://apps.kde.org/skladnik">Skladnik</a>. See the
-<a href="https://kde.org/announcements/changelogs/gear/24.05.0/">full
-changelog</a> for a complete list of changes.</p>
-
-<p> </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974575/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 May 2024 14:03:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974575/" title="https://lwn.net/Articles/974575/">[$] The twilight of the version-1 memory controller</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Almost immediately after the merging of <a href="https://lwn.net/Articles/603762/">control
-groups</a>, kernel developers set their sights on reimplementing them
-properly.  The second version of the control-group API started trickling
-into the kernel around the 3.16 release in 2014 and users have long since
-been encouraged to migrate, but support for (and users of) the initial API
-remain.  At the <a href="https://events.linuxfoundation.org/lsfmmbpf/">2024
-Linux Storage, Filesystem, Memory-Management and BPF Summit</a>,
-memory-management developers discussed whether (and when) it might be
-possible to remove the version-1 memory controller.  The session was led by
-Shakeel Butt and (participating remotely) Roman Gushchin.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974824/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 May 2024 13:58:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974824/" title="https://lwn.net/Articles/974824/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (chromium, libxml2, pgadmin4, and python-libgravatar), <b>Mageia</b> (ghostscript), <b>Red Hat</b> (389-ds:1.4, ansible-core, bind and dhcp, container-tools:rhel8, edk2, exempi, fence-agents, freeglut, frr, ghostscript, glibc, gmp, go-toolset:rhel8, grafana, grub2, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, harfbuzz, httpd:2.4, idm:DL1, idm:DL1 and idm:client modules, kernel, kernel-rt, krb5, LibRaw, libreoffice, libsndfile, libssh, libtiff, libX11, libxml2, libXpm, linux-firmware, motif, mutt, openssh, osbuild and osbuild-composer, pam, pcp, pcs, perl-Convert-ASN1, perl-CPAN, perl:5.32, pki-core:10.6 and pki-deps:10.6 modules, pmix, poppler, postgresql-jdbc, python-dns, python-jinja2, python-pillow, python27:2.7, python3.11, python3.11-cryptography, python3.11-urllib3, python39:3.9 and python39-devel:3.9 modules, qt5-qtbase, resource-agents, squashfs-tools, sssd, systemd, tigervnc, tomcat, traceroute, varnish:6, virt:rhel and virt-devel:rhel modules, vorbis-tools, webkit2gtk3, xorg-x11-server, xorg-x11-server-Xwayland, and zziplib), <b>SUSE</b> (chromium, perl, postgresql14, and python-sqlparse), and <b>Ubuntu</b> (klibc, linux-aws-hwe, openssl, and vlc).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
