@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974945/" title="See Description">[$] LLVM improvements for BPF verification</a></li>
 <li><a href="#https://lwn.net/Articles/974937/" title="See Description">[$] Fleshing out memory descriptors</a></li>
 <li><a href="#https://lwn.net/Articles/975399/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/974869/" title="See Description">[$] The rest of the 6.10 merge window</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/974630/" title="See Description">[$] Large-folio support for shmem and tmpfs</a></li>
 <li><a href="#https://lwn.net/Articles/974914/" title="See Description">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days (Graphite blog)</a></li>
 <li><a href="#https://lwn.net/Articles/974913/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/974587/" title="See Description">[$] A new swap abstraction layer for the kernel</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974945/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 May 2024 17:04:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974945/" title="https://lwn.net/Articles/974945/">[$] LLVM improvements for BPF verification</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Alan Jowett gave a remote presentation at the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> about what features could be
+added to LLVM to make writing BPF programs easier. While there is nothing specific
+to LLVM about BPF code (and the next session in the track was led by GCC
+developer José Marchesi about better support for that compiler), LLVM is currently the most
+common way to turn C code into BPF bytecode. That translation, however, runs
+into problems when the BPF verifier cannot understand the code LLVM's
+optimizations produce.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974937/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 27 May 2024 13:39:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -283,21 +301,6 @@ from the time might be of interest too, including:
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (chromium, libreoffice, and thunderbird), <b>Red Hat</b> (.NET 7.0, .NET 8.0, gdk-pixbuf2, git-lfs, glibc, python3, and xorg-x11-server-Xwayland), <b>SUSE</b> (firefox, opensc, and ucode-intel), and <b>Ubuntu</b> (cjson and gnome-remote-desktop).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974587/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 May 2024 19:27:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974587/" title="https://lwn.net/Articles/974587/">[$] A new swap abstraction layer for the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Swapping may be a memory-management technique at its core, but its
-implementation also involves the kernel's filesystem and storage layers.
-So it is not surprising that a session on the kernel's swap abstraction
-layer, led by Chris Li at the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a>, was held jointly by all
-three of those tracks.  Li has some ambitious ideas for an improved
-subsystem, but getting to a workable implementation may not be easy.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
