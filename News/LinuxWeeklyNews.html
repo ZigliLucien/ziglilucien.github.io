@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/974958/" title="See Description">[$] Filesystems and iomap</a></li>
+<li><a href="#https://lwn.net/Articles/974943/" title="See Description">[$] Measuring memory fragmentation</a></li>
+<li><a href="#https://lwn.net/Articles/974939/" title="See Description">[$] The state of the memory-management community in 2024</a></li>
+<li><a href="#https://lwn.net/Articles/975529/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/975454/" title="See Description">Huston: Calling Time on DNSSEC?</a></li>
 <li><a href="#https://lwn.net/Articles/974945/" title="See Description">[$] LLVM improvements for BPF verification</a></li>
 <li><a href="#https://lwn.net/Articles/974937/" title="See Description">[$] Fleshing out memory descriptors</a></li>
@@ -49,13 +53,63 @@
 <li><a href="#https://lwn.net/Articles/974826/" title="See Description">[$] Two talks on multi-size transparent huge page performance</a></li>
 <li><a href="#https://lwn.net/Articles/974578/" title="See Description">[$] Atomic writes without tears</a></li>
 <li><a href="#https://lwn.net/Articles/974636/" title="See Description">[$] Allocator optimizations for transparent huge pages</a></li>
-<li><a href="#https://lwn.net/Articles/974848/" title="See Description">[$] Recent improvements to BPF's struct_ops mechanism</a></li>
-<li><a href="#https://lwn.net/Articles/969640/" title="See Description">[$] Readying DNF5 for Fedora 41</a></li>
-<li><a href="#https://lwn.net/Articles/974630/" title="See Description">[$] Large-folio support for shmem and tmpfs</a></li>
-<li><a href="#https://lwn.net/Articles/974914/" title="See Description">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days (Graphite blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/974958/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 28 May 2024 13:56:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974958/" title="https://lwn.net/Articles/974958/">[$] Filesystems and iomap</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://kernelnewbies.org/KernelProjects/iomap">iomap</a>
+block-mapping abstraction is being used by more filesystems, in part
+because of its support for large folios.  But there are some challenges in
+adopting iomap, which was the topic of a discussion led by Ritesh Harjani
+in a combined storage and filesystem session at the 2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  One of the main trouble
+spots is how to handle metadata, which is not an area that iomap has been aimed
+at.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974943/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 28 May 2024 13:29:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974943/" title="https://lwn.net/Articles/974943/">[$] Measuring memory fragmentation</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>In the final session in the memory-management track of the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a>, the exhausted group of
+developers looked one more time at the use of huge pages and the associated
+problem of memory fragmentation.  At its worst, this problem can make huge
+pages harder (and more expensive) to allocate.  Luis Chamberlain, who ran
+the session, felt that people were worried about this problem, but that
+there was little data on how severe it truly is.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/974939/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 28 May 2024 13:28:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/974939/" title="https://lwn.net/Articles/974939/">[$] The state of the memory-management community in 2024</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A longstanding tradition in the memory-management track of the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory-Management and BPF Summit</a> is a session with
+maintainer Andrew Morton to discuss the overall state of the community and
+the development process.  The 2024 gathering upheld that tradition toward
+the end of the final day of the event.  It seems that Morton and the
+assembled developers were all happy with how memory-management work is
+going, but there is always room for improvement.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/975529/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 28 May 2024 13:19:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/975529/" title="https://lwn.net/Articles/975529/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (less), <b>Mageia</b> (chromium-browser-stable), <b>SUSE</b> (apache2, java-1_8_0-openj9, kernel, libqt5-qtnetworkauth, and openssl-3), and <b>Ubuntu</b> (netatalk and python-cryptography).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/975454/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 27 May 2024 21:56:10 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -226,95 +280,6 @@ href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
 Filesystem, Memory-Management and BPF Summit</a>, Yu Zhao presented his
 ideas on improving the allocation of huge pages in the kernel.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974848/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 May 2024 19:37:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974848/" title="https://lwn.net/Articles/974848/">[$] Recent improvements to BPF's struct_ops mechanism</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Kui-Feng Lee spoke early in the BPF track at the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> about some of the
-recent improvements to BPF. These changes were largely driven by the
-sched_ext work that David Vernet had <a href="https://lwn.net/Articles/974387">covered in
-the previous talk</a>. Lee focused on changes relevant to <tt>struct_ops</tt>
-programs, but several of those changes apply to all BPF programs.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/969640/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 May 2024 16:51:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/969640/" title="https://lwn.net/Articles/969640/">[$] Readying DNF5 for Fedora 41</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>With the <a
-href="https://lwn.net/Articles/970893/">release</a> of <a href="https://lwn.net/Articles/969145/">Fedora&nbsp;40</a> it's time to
-start looking ahead to what Fedora&nbsp;41 has in store. One of the largest
-changes planned for the next release is a switch to
-DNF5, a C++ rewrite of the <a
-href="https://docs.fedoraproject.org/en-US/quick-docs/dnf/">DNF</a>
-package manager. A previous attempt to make the switch, during the Fedora&nbsp;39 cycle, <a
-href="https://lwn.net/Articles/941154/">was called off</a>, and
-deferred to Fedora&nbsp;41. The developers have had nearly a year to address
-compatibility problems and bring DNF5 to a state suitable to replace DNF4. Signs point to a successful switch in
-the upcoming release, though there may be a few surprises lurking for Fedora users.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974630/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 May 2024 14:02:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974630/" title="https://lwn.net/Articles/974630/">[$] Large-folio support for shmem and tmpfs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel contains a pair of related filesystems that, among other things,
-can be used for shared-memory applications; shmem is an internal mechanism
-used within the kernel, while the tmpfs filesystem is mounted and
-accessible from user space.  As is the case elsewhere in the kernel, these
-subsystems would benefit from the addition of large-folio support.  During
-a joint storage, filesystem, and memory-management session at the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a>, Daniel Gomez talked about
-the work he is doing to add that support.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974914/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 May 2024 13:34:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974914/" title="https://lwn.net/Articles/974914/">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days (Graphite blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a
-href="https://graphite.dev/blog/bitkeeper-linux-story-of-git-creation">This
-Graphite blog post</a> retells the history of the BitKeeper fiasco and the
-dawn of the Git era.
-<p>
-<blockquote class="bq">
-	When we think of history, we often romanticize it as being born of
-	a sudden stroke of inspiration. But the creation of git shows the
-	far harsher reality of invention: a slowly escalating disagreement
-	over a license; the need for a scrappy backup solution to unblock
-	work; and then continued polishing and iteration through years and
-	years, led not by the inventor, but rather a community.
-</blockquote>
-<p>
-For those who weren't around in those days, a perusal of the LWN coverage
-from the time might be of interest too, including:
-<p>
-<ul>
-<li> <a href="https://lwn.net/1998/1015/kernel.php3">Our first mention of BitKeeper</a>
-     in October 1998
-<li> <a href="https://lwn.net/1999/features/BitKeeper.php3">Not quite open source</a>,
-     1999
-<li> <a href="https://lwn.net/2002/0207/kernel.php3">Linus tries out BitKeeper</a>, 2002
-<li> <a href="https://lwn.net/2002/0425/">The free software community and proprietary
-     packages</a>, 2002
-<li> <a href="https://lwn.net/Articles/130746/">The kernel and BitKeeper part ways</a>,
-     2005
-<li> <a href="https://lwn.net/Articles/132938/">How Tridge reverse engineered
-     BitKeeper</a>, 2005
-<li> <a href="https://lwn.net/Articles/131657/">The guts of Git</a>, 2005
-</ul>
-<p>
-...and a lot more for those who care to search for it.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
