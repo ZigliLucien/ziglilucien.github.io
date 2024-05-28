@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/975412/" title="See Description">[$] Supporting BPF in GCC</a></li>
 <li><a href="#https://lwn.net/Articles/974958/" title="See Description">[$] Filesystems and iomap</a></li>
 <li><a href="#https://lwn.net/Articles/974943/" title="See Description">[$] Measuring memory fragmentation</a></li>
 <li><a href="#https://lwn.net/Articles/974939/" title="See Description">[$] The state of the memory-management community in 2024</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/975072/" title="See Description">Eight weekend stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/974826/" title="See Description">[$] Two talks on multi-size transparent huge page performance</a></li>
 <li><a href="#https://lwn.net/Articles/974578/" title="See Description">[$] Atomic writes without tears</a></li>
-<li><a href="#https://lwn.net/Articles/974636/" title="See Description">[$] Allocator optimizations for transparent huge pages</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/975412/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 28 May 2024 19:45:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/975412/" title="https://lwn.net/Articles/975412/">[$] Supporting BPF in GCC</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The GCC project has been <a href="https://lwn.net/Articles/946254">working</a> to support compiling to BPF
+for some time. José Marchesi and David Faust spoke in an extended session at the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>
+about how that work has been going, and what is left for GCC to be on-par with
+LLVM with regard to BPF support. They also related tentative plans for how
+GCC BPF support would be maintained in the future.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974958/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 28 May 2024 13:56:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -263,22 +279,6 @@ summit</a>. The goal is to help PostgreSQL, which writes its data using
 that its data is safe on disk.  A promise of non-torn, 16KB buffered writes
 would allow the database 
 to avoid doing double writes.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974636/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 May 2024 20:42:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974636/" title="https://lwn.net/Articles/974636/">[$] Allocator optimizations for transparent huge pages</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The original Linux kernel, posted in 1991, ran on a system with a 4KB page
-size.  Over 30&nbsp;years later, most of us are still running on systems
-with 4KB pages, even though the amount of installed memory has grown by a
-few orders of magnitude.  It is generally accepted that using large page
-sizes results in better performance for most applications, but allocating
-larger pages is often difficult.  During a memory-management session at the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a>, Yu Zhao presented his
-ideas on improving the allocation of huge pages in the kernel.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
