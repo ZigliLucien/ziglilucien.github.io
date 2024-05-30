@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/975444/" title="See Description">[$] New APIs for filesystems</a></li>
+<li><a href="#https://lwn.net/Articles/976007/" title="See Description">Stable kernels 6.9.3 and 6.8.12</a></li>
+<li><a href="#https://lwn.net/Articles/976006/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/974709/" title="See Description">[$] LWN.net Weekly Edition for May 30, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/975445/" title="See Description">[$] Fedora approves shipping pre-built macOS binaries</a></li>
 <li><a href="#https://lwn.net/Articles/975807/" title="See Description">Results from the 2024 FreeBSD Community Survey Report</a></li>
@@ -50,12 +53,44 @@
 <li><a href="#https://lwn.net/Articles/975529/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/975454/" title="See Description">Huston: Calling Time on DNSSEC?</a></li>
 <li><a href="#https://lwn.net/Articles/974945/" title="See Description">[$] LLVM improvements for BPF verification</a></li>
-<li><a href="#https://lwn.net/Articles/974937/" title="See Description">[$] Fleshing out memory descriptors</a></li>
-<li><a href="#https://lwn.net/Articles/975399/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/974869/" title="See Description">[$] The rest of the 6.10 merge window</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/975444/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 May 2024 13:16:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/975444/" title="https://lwn.net/Articles/975444/">[$] New APIs for filesystems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A discussion of extensions to the <a
+href="https://man7.org/linux/man-pages/man2/statx.2.html"><tt>statx()</tt></a>
+system call comes up frequently at the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>; this year's edition was
+no exception.  Kent Overstreet led the first filesystem-only session at the
+summit on querying information about filesystems that have subvolumes and
+snapshots. While it was billed as a discussion on <tt>statx()</tt>
+additions, it ranged more widely over new APIs needed for modern filesystems.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/976007/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 May 2024 12:50:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/976007/" title="https://lwn.net/Articles/976007/">Stable kernels 6.9.3 and 6.8.12</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/976008/">6.9.3</a> and <a
+href="https://lwn.net/Articles/976009/">6.8.12</a> stable kernels.  As usual, they contain
+lots of important fixes throughout the tree.  Note that 6.8.12 is the end
+of the line for the 6.8.x stable kernel series.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/976006/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 May 2024 12:47:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/976006/" title="https://lwn.net/Articles/976006/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (python-pymysql), <b>Fedora</b> (chromium, mingw-python-requests, and thunderbird), <b>Mageia</b> (perl-Email-MIME and qtnetworkauth5 &amp; qtnetworkauth6), <b>Red Hat</b> (gdisk and python39:3.9 and python39-devel:3.9 modules), <b>SUSE</b> (freerdp, gdk-pixbuf, gifsicle, glib2, java-1_8_0-ibm, kernel, libfastjson, libredwg, nodejs16, python, python3, python36, rpm, warewulf4, and xdg-desktop-portal), and <b>Ubuntu</b> (gst-plugins-base1.0, python-werkzeug, and tpm2-tss).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/974709/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 30 May 2024 02:28:31 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -248,45 +283,6 @@ common way to turn C code into BPF bytecode. That translation, however, runs
 into problems when the BPF verifier cannot understand the code LLVM's
 optimizations produce.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974937/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 May 2024 13:39:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974937/" title="https://lwn.net/Articles/974937/">[$] Fleshing out memory descriptors</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>One of the long-term goals of the folio conversion in the kernel's
-memory-management subsystem is the replacement of the <tt>page</tt>
-structure, which describes a page of physical memory, with an eight-byte
-"memory descriptor".  This change would reduce the overhead of tracking
-physical memory, increase type safety, and make memory management more
-flexible.  Thus far, though, details on what the memory-descriptor future
-will look like have been relatively scarce.  At the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a>, Matthew Wilcox led a
-discussion to try to fill in the picture somewhat.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/975399/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 May 2024 13:35:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/975399/" title="https://lwn.net/Articles/975399/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (apache2, bluez, chromium, fossil, libreoffice, python-pymysql, redmine, and ruby-rack), <b>Fedora</b> (buildah, crosswords, dotnet7.0, glycin-loaders, gnome-tour, helix, helvum, libipuz, loupe, maturin, mingw-libxml2, ntpd-rs, perl-Email-MIME, and a huge list of Rust-based packages due to a "<q>mini-mass-rebuild</q>" that updated the toolchain to Rust 1.78 and picked up fixes for various pieces), <b>Mageia</b> (chromium-browser-stable, mariadb, and roundcubemail), <b>Oracle</b> (kernel, libreoffice, nodejs, and tomcat), and <b>SUSE</b> (cJSON, libfastjson, opera, postgresql15, python3, and qt6-networkauth). 
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974869/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 May 2024 13:04:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974869/" title="https://lwn.net/Articles/974869/">[$] The rest of the 6.10 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds <a href="https://lwn.net/Articles/975144/">released 6.10-rc1</a> and closed
-the 6.10 merge window on May&nbsp;26.  By that time, 11,534 non-merge
-changesets had been pulled into the mainline for the next release; nearly
-5,000 of those came in after "<a href="https://lwn.net/Articles/973687/">The first half of
-the 6.10 merge window</a>" was written.  While the latter half of the merge
-window tends to focus more on fixes, there was also a lot of new
-functionality that landed during this time.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
