@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/975830/" title="See Description">[$] Standardizing the BPF ISA</a></li>
 <li><a href="#https://lwn.net/Articles/975444/" title="See Description">[$] New APIs for filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/976007/" title="See Description">Stable kernels 6.9.3 and 6.8.12</a></li>
 <li><a href="#https://lwn.net/Articles/976006/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,36 @@
 <li><a href="#https://lwn.net/Articles/974939/" title="See Description">[$] The state of the memory-management community in 2024</a></li>
 <li><a href="#https://lwn.net/Articles/975529/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/975454/" title="See Description">Huston: Calling Time on DNSSEC?</a></li>
-<li><a href="#https://lwn.net/Articles/974945/" title="See Description">[$] LLVM improvements for BPF verification</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/975830/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 May 2024 20:19:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/975830/" title="https://lwn.net/Articles/975830/">[$] Standardizing the BPF ISA</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+While BPF may be most famous for its use in the Linux kernel, there is actually
+a growing effort to standardize BPF for use on other systems. These include
+<a href="https://lwn.net/Articles/857215/">
+eBPF for Windows</a>, but also
+<a href="https://github.com/iovisor/ubpf">
+uBPF</a>,
+<a href="https://github.com/qmonnet/rbpf">
+rBPF</a>,
+<a href="https://github.com/rprinz08/hBPF">
+hBPF</a>,
+<a href="https://github.com/eunomia-bpf/bpftime">
+bpftime</a>, and
+others. Some hardware manufacturers are even
+considering integrating BPF directly into networking hardware. Dave Thaler
+led two sessions about all of the problems that cross-platform use inevitably
+brings and the current status of the standardization work at the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/975444/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 30 May 2024 13:16:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,24 +293,6 @@ the Internet namespace.
 	users, and no amount of passionate exhortations about DNSSEC will
 	change this.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974945/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 May 2024 17:04:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974945/" title="https://lwn.net/Articles/974945/">[$] LLVM improvements for BPF verification</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Alan Jowett gave a remote presentation at the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> about what features could be
-added to LLVM to make writing BPF programs easier. While there is nothing specific
-to LLVM about BPF code (and the next session in the track was led by GCC
-developer José Marchesi about better support for that compiler), LLVM is currently the most
-common way to turn C code into BPF bytecode. That translation, however, runs
-into problems when the BPF verifier cannot understand the code LLVM's
-optimizations produce.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
