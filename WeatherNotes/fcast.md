@@ -2,11 +2,11 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Clear. Low around 54, with temperatures rising to around 56 overnight. East northeast wind around 2 mph.<br></div>
+         <h3>Overnight</h3>Mostly clear. Low around 54, with temperatures rising to around 57 overnight. Southeast wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny, with a high near 79. East wind 2 to 6 mph.<br></div>
+         <h3>Thursday</h3>Sunny, with a high near 79. East wind 1 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
