@@ -2,24 +2,24 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Partly sunny. High near 80, with temperatures falling to around 78 in the afternoon. Southeast wind around 10 mph, with gusts
+         <h3>This Afternoon</h3>Partly sunny. High near 80, with temperatures falling to around 78 in the afternoon. Southeast wind around 12 mph, with gusts
          as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of rain showers before 10pm, then showers and thunderstorms. Mostly cloudy, with a low around 65. Southeast wind
-         6 to 10 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Tonight</h3>A slight chance of rain showers before 7pm, then a chance of showers and thunderstorms between 7pm and 1am, then showers and
+         thunderstorms. Cloudy, with a low around 65. Southeast wind 5 to 9 mph, with gusts as high as 20 mph. Chance of precipitation
+         is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Showers and thunderstorms. Mostly cloudy, with a high near 74. South southwest wind around 12 mph, with gusts as high as 21
-         mph. Chance of precipitation is 90%.<br></div>
+         <h3>Saturday</h3>Showers and thunderstorms before 4pm, then a chance of showers and thunderstorms. Cloudy, with a high near 74. South wind
+         around 10 mph, with gusts as high as 22 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 10pm, then a chance of showers
-         and thunderstorms between 10pm and 1am. Mostly cloudy, with a low around 62. West northwest wind 3 to 8 mph. Chance of precipitation
-         is 80%.<br></div>
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 1am. Mostly cloudy, with a low around 62. Southwest wind 2 to 7 mph. Chance of
+         precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
