@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/976176/" title="See Description">Opt Green: KDE Eco's New Sustainable Software Project</a></li>
+<li><a href="#https://lwn.net/Articles/976125/" title="See Description">[$] One more pidfdfs surprise</a></li>
 <li><a href="#https://lwn.net/Articles/976319/" title="See Description">CFP: the 2024 Kernel Maintainers Summit</a></li>
 <li><a href="#https://lwn.net/Articles/976211/" title="See Description">25 Years of Krita</a></li>
 <li><a href="#https://lwn.net/Articles/976209/" title="See Description">Security updates for Friday</a></li>
@@ -51,11 +53,57 @@
 <li><a href="#https://lwn.net/Articles/975597/" title="See Description">A plea for more thoughtful comments</a></li>
 <li><a href="#https://lwn.net/Articles/975737/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/975412/" title="See Description">[$] Supporting BPF in GCC</a></li>
-<li><a href="#https://lwn.net/Articles/974958/" title="See Description">[$] Filesystems and iomap</a></li>
-<li><a href="#https://lwn.net/Articles/974943/" title="See Description">[$] Measuring memory fragmentation</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/976176/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 31 May 2024 19:24:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/976176/" title="https://lwn.net/Articles/976176/">Opt Green: KDE Eco's New Sustainable Software Project</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://eco.kde.org/">KDE Eco</a>, a KDE project focused
+on reducing software's environmental impact, has announced its <a
+href="https://eco.kde.org/blog/2024-05-29_introducing-ns4nh/">Opt
+Green</a> campaign to reduce e-waste:</p>
+
+<blockquote class="bq">
+<p>Over the next two years, the "Opt Green" initiative will bring what
+KDE Eco has been doing for <a href="https://community.kde.org/Goals/Sustainable_Software">sustainable software</a> directly to end
+users. A particular target group for the project is those whose
+consumer behavior is driven by principles related to the environment,
+and not just price or convenience: the "eco-consumers".</p>
+
+<p>Through online and offline campaigns as well as installation
+workshops, we will demonstrate the power of Free Software to drive
+down resource and energy consumption, and keep devices in use for the
+lifespan of the hardware, not the software.</p>
+
+<p>Our motto: <strong>The most environmentally-friendly device is the
+one you already own.</strong></p>
+</blockquote>
+
+<p>See the KDE Eco <a href="https://eco.kde.org/get-involved/">Get
+Involved</a> page for more information on how to participate.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/976125/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 31 May 2024 18:08:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/976125/" title="https://lwn.net/Articles/976125/">[$] One more pidfdfs surprise</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The "pidfdfs" virtual filesystem was added to the 6.9 kernel release as a
+way to export better information about running processes to user space.  It
+replaced a previous implementation in a way that was, on its surface, fully
+compatible while adding a number of new capabilities.  This transition,
+which was intended to be entirely invisible to existing applications,
+already <a href="https://lwn.net/Articles/963749/">ran into trouble</a> in March, when a
+misunderstanding with SELinux caused systems with pidfdfs to fail to boot
+properly.  That problem was quickly fixed, but it turns out that there was
+one more surprise in store, showing just how hard ABI compatibility can be
+at times.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/976319/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 31 May 2024 15:37:03 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -93,7 +141,7 @@ href="https://krita.org/en/posts/2024/krita-25-years/">celebrating
 <div style="float:left" class="link"><a href="https://lwn.net/Articles/976209/" title="https://lwn.net/Articles/976209/">Security updates for Friday</a></div>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 7.0, .NET 8.0, 389-ds:1.4, ansible-core bug fix, enhancement, and, bind and dhcp, container-tools:rhel8, edk2, exempi, fence-agents, freeglut, frr, gdk-pixbuf2, ghostscript, git-lfs, glibc, gmp, go-toolset:rhel8, grafana, grub2, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, harfbuzz, httpd:2.4, Image builder components bug fix, enhancement and, kernel, kernel-rt, krb5, less, LibRaw, libsndfile, libssh, libXpm, linux-firmware, motif, mutt, nghttp2, openssh, pam, pcp, pcs, perl-Convert-ASN1, perl-CPAN, perl:5.32, pki-core:10.6 and pki-deps:10.6, pmix, poppler, python-dns, python-jinja2, python-pillow, python27:2.7, python3, python3.11, python3.11-cryptography, python3.11-urllib3, python39:3.9 and python39-devel:3.9, qt5-qtbase, resource-agents, squashfs-tools, sssd, systemd, tigervnc, traceroute, vorbis-tools, webkit2gtk3, xorg-x11-server, xorg-x11-server-Xwayland, and zziplib), <b>Debian</b> (gst-plugins-base1.0), <b>Fedora</b> (cacti, cacti-spine, roundcubemail, and wireshark), <b>Oracle</b> (.NET 7.0, .NET 8.0, bind and dhcp, gdk-pixbuf2, git-lfs, glibc, grafana, krb5, pcp, python-dns, python3, sssd, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (edk2, less, nghttp2, and ruby:3.0), <b>SUSE</b> (gstreamer-plugins-base, Java, kernel, and python-requests), and <b>Ubuntu</b> (ffmpeg, node-browserify-sign, postgresql-14, postgresql-15, postgresql-16, and python-pymysql).
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 7.0, .NET 8.0, 389-ds:1.4, ansible-core bug fix, enhancement, and, bind and dhcp, container-tools:rhel8, edk2, exempi, fence-agents, freeglut, frr, gdk-pixbuf2, ghostscript, git-lfs, glibc, gmp, go-toolset:rhel8, grafana, grub2, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, harfbuzz, httpd:2.4, Image builder components bug fix, enhancement and, kernel, kernel-rt, krb5, less, LibRaw, libsndfile, libssh, libtiff, libX11, libXpm, linux-firmware, motif, mutt, nghttp2, openssh, pam, pcp, pcs, perl-Convert-ASN1, perl-CPAN, perl:5.32, pki-core:10.6 and pki-deps:10.6, pmix, poppler, python-dns, python-jinja2, python-pillow, python27:2.7, python3, python3.11, python3.11-cryptography, python3.11-urllib3, python39:3.9 and python39-devel:3.9, qt5-qtbase, resource-agents, squashfs-tools, sssd, systemd, tigervnc, traceroute, vorbis-tools, webkit2gtk3, xorg-x11-server, xorg-x11-server-Xwayland, and zziplib), <b>Debian</b> (gst-plugins-base1.0), <b>Fedora</b> (cacti, cacti-spine, roundcubemail, and wireshark), <b>Oracle</b> (.NET 7.0, .NET 8.0, bind and dhcp, gdk-pixbuf2, git-lfs, glibc, grafana, krb5, pcp, python-dns, python3, sssd, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (edk2, less, nghttp2, and ruby:3.0), <b>SUSE</b> (gstreamer-plugins-base, Java, kernel, and python-requests), and <b>Ubuntu</b> (ffmpeg, node-browserify-sign, postgresql-14, postgresql-15, postgresql-16, and python-pymysql).
 </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/975830/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 30 May 2024 20:19:28 +0000</tt></div></td></tr>
@@ -256,37 +304,6 @@ about how that work has been going, and what is left for GCC to be on-par with
 LLVM with regard to BPF support. They also related tentative plans for how
 GCC BPF support would be maintained in the future.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974958/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 28 May 2024 13:56:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974958/" title="https://lwn.net/Articles/974958/">[$] Filesystems and iomap</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://kernelnewbies.org/KernelProjects/iomap">iomap</a>
-block-mapping abstraction is being used by more filesystems, in part
-because of its support for large folios.  But there are some challenges in
-adopting iomap, which was the topic of a discussion led by Ritesh Harjani
-in a combined storage and filesystem session at the 2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  One of the main trouble
-spots is how to handle metadata, which is not an area that iomap has been aimed
-at.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/974943/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 28 May 2024 13:29:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/974943/" title="https://lwn.net/Articles/974943/">[$] Measuring memory fragmentation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In the final session in the memory-management track of the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2024 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a>, the exhausted group of
-developers looked one more time at the use of huge pages and the associated
-problem of memory fragmentation.  At its worst, this problem can make huge
-pages harder (and more expensive) to allocate.  Luis Chamberlain, who ran
-the session, felt that people were worried about this problem, but that
-there was little data on how severe it truly is.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
