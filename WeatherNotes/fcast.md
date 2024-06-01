@@ -2,23 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Rain showers. Cloudy, with a low around 65. South southeast wind around 9 mph, with gusts as high as 18 mph. Chance of precipitation
-         is 100%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Saturday</h3>Rain showers before 10am, then showers and thunderstorms between 10am and 1pm, then a chance of showers and thunderstorms.
+         <h3>Today</h3>Rain showers before 10am, then showers and thunderstorms between 10am and 1pm, then a chance of showers and thunderstorms.
          Cloudy. High near 75, with temperatures falling to around 73 in the afternoon. South southeast wind around 10 mph, with gusts
          as high as 21 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 11pm. Mostly cloudy, with a low around 64. West southwest wind 2 to 7 mph. Chance
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 11pm. Mostly cloudy, with a low around 64. West southwest wind 2 to 7 mph. Chance
          of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Partly sunny, with a high near 82. West wind around 3 mph.<br></div>
+         <h3>Sunday</h3>Partly sunny. High near 82, with temperatures falling to around 80 in the afternoon. West wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -38,7 +33,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 1pm, then showers
-         and thunderstorms likely. Partly sunny, with a high near 84. South wind 6 to 10 mph, with gusts as high as 18 mph.<br></div>
+         and thunderstorms likely. Partly sunny, with a high near 84. South wind 6 to 10 mph, with gusts as high as 18 mph. Chance
+         of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -67,5 +63,9 @@
       <div style="font-size:120%">
          <h3>Friday</h3>A slight chance of rain showers after 1pm. Sunny, with a high near 81. Northwest wind 6 to 10 mph, with gusts as high as 20
          mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday Night</h3>A slight chance of rain showers before 7pm. Partly cloudy, with a low around 62. West northwest wind 3 to 8 mph.<br></div>
    </p>
 </div>
