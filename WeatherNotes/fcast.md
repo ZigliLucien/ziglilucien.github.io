@@ -2,20 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy, with a low around 64. West wind around 3 mph.<br></div>
+         <h3>Today</h3>Mostly sunny, with a high near 82. Northwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Mostly sunny, with a high near 82. Northwest wind around 5 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy, with a low around 65. East southeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Partly cloudy, with a low around 65. East southeast wind around 5 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Monday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 87. South wind 5 to 10 mph. Chance
-         of precipitation is 20%.<br></div>
+         <h3>Monday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny. High near 87, with temperatures falling to around 85
+         in the afternoon. South wind 5 to 10 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -36,7 +32,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Showers and thunderstorms likely. Partly sunny, with a high near 85. Southwest wind around 9 mph.<br></div>
+         <h3>Wednesday</h3>Showers and thunderstorms likely. Partly sunny, with a high near 85. Southwest wind around 9 mph. Chance of precipitation
+         is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -62,5 +59,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A slight chance of showers and thunderstorms after 7am. Mostly sunny, with a high near 82. West northwest wind 5 to 9 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms. Partly cloudy, with a low around 61. Northwest wind 3 to 7 mph.<br></div>
    </p>
 </div>
