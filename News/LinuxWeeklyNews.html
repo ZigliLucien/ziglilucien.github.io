@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/975863/" title="See Description">[$] Handling the NFS change attribute</a></li>
 <li><a href="#https://lwn.net/Articles/976071/" title="See Description">[$] An instruction-level BPF memory model</a></li>
 <li><a href="#https://lwn.net/Articles/976977/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/976826/" title="See Description">LyX 2.4.0 Released</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/976209/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/975830/" title="See Description">[$] Standardizing the BPF ISA</a></li>
 <li><a href="#https://lwn.net/Articles/975444/" title="See Description">[$] New APIs for filesystems</a></li>
-<li><a href="#https://lwn.net/Articles/976007/" title="See Description">Stable kernels 6.9.3 and 6.8.12</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/975863/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 04 Jun 2024 15:39:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/975863/" title="https://lwn.net/Articles/975863/">[$] Handling the NFS change attribute</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The saga of the <tt>i_version</tt> field for inodes, which tracks the
+occurrence of changes
+to the data or metadata of a file, continued in a discussion at the 2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  In a session led by
+Jeff Layton, who has been doing a lot the work on <a
+href="https://lwn.net/Articles/905931/">changing the semantics and functioning of
+<tt>i_version</tt></a> over the years, he updated attendees on the status of the <a
+href="https://lwn.net/Articles/946394/">effort</a> since a <a
+href="https://lwn.net/Articles/937247/">session at last year's summit</a>.  His summary
+was that things are
+"pretty much where we started last year", but the discussion this time
+pointed to some possible ways forward.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/976071/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 04 Jun 2024 13:57:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -296,17 +316,6 @@ summit on querying information about filesystems that have subvolumes and
 snapshots. While it was billed as a discussion on <tt>statx()</tt>
 additions, it ranged more widely over new APIs needed for modern filesystems.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/976007/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 May 2024 12:50:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/976007/" title="https://lwn.net/Articles/976007/">Stable kernels 6.9.3 and 6.8.12</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/976008/">6.9.3</a> and <a
-href="https://lwn.net/Articles/976009/">6.8.12</a> stable kernels.  As usual, they contain
-lots of important fixes throughout the tree.  Note that 6.8.12 is the end
-of the line for the 6.8.x stable kernel series.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
