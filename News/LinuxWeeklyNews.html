@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/976826/" title="See Description">LyX 2.4.0 Released</a></li>
+<li><a href="#https://lwn.net/Articles/975565/" title="See Description">[$] Debian's /tmpest in a teapot</a></li>
+<li><a href="#https://lwn.net/Articles/976782/" title="See Description">Security updates for Monday</a></li>
+<li><a href="#https://lwn.net/Articles/976498/" title="See Description">Kernel prepatch 6.10-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/976447/" title="See Description">Fedora Linux 40 election results</a></li>
 <li><a href="#https://lwn.net/Articles/976176/" title="See Description">Opt Green: KDE Eco's New Sustainable Software Project</a></li>
 <li><a href="#https://lwn.net/Articles/976125/" title="See Description">[$] One more pidfdfs surprise</a></li>
@@ -49,13 +53,63 @@
 <li><a href="#https://lwn.net/Articles/976007/" title="See Description">Stable kernels 6.9.3 and 6.8.12</a></li>
 <li><a href="#https://lwn.net/Articles/976006/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/974709/" title="See Description">[$] LWN.net Weekly Edition for May 30, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/975445/" title="See Description">[$] Fedora approves shipping pre-built macOS binaries</a></li>
-<li><a href="#https://lwn.net/Articles/975807/" title="See Description">Results from the 2024 FreeBSD Community Survey Report</a></li>
-<li><a href="#https://lwn.net/Articles/975597/" title="See Description">A plea for more thoughtful comments</a></li>
-<li><a href="#https://lwn.net/Articles/975737/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/976826/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Jun 2024 20:51:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/976826/" title="https://lwn.net/Articles/976826/">LyX 2.4.0 Released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Version 2.4.0 of the <a href="https://www.lyx.org/">LyX</a>
+document processor has been released. LyX is a "<a
+href="https://en.wikipedia.org/wiki/WYSIWYM">What You See Is What You
+Mean</a>" (WYSIWYM) application that offers GUI editing of LaTeX
+documents with import and export to PDF, HTML, OpenDocument, Word, and
+other formats. LyX 2.4.0 is the first major release in six years, and
+brings support for EPUB, DocBook 5, improved
+table styles, and now uses Unicode (utf8) as its default encoding. See
+the <a href="https://wiki.lyx.org/LyX/NewInLyX24">full list</a> of new
+features on the LyX wiki, and <a
+href="https://www.lyx.org/trac/browser/lyxgit/lib/RELEASE-NOTES">release
+notes</a> for information on known issues and caveats for those
+upgrading from earlier versions of LyX.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/975565/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Jun 2024 16:16:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/975565/" title="https://lwn.net/Articles/975565/">[$] Debian's /tmpest in a teapot</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Debian had a major <a href="https://lwn.net/Articles/499410/">discussion</a>
+about mounting <tt>/tmp</tt> as a RAM-based tmpfs in 2012 but inertia
+won out in the end. Debian systems have continued to
+store temporary files on disk by default. Until now. A mere 
+12 years later, the project will be switching to a RAM-based <tt>/tmp</tt> in the Debian
+13 ("Trixie") release. Additionally, starting with Trixie, the
+default will be to periodically clean up temporary files automatically in
+<tt><nobr>/tmp</nobr></tt> and <tt><nobr>/var/tmp</nobr></tt>. Naturally, it involved a lengthy discussion first.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/976782/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Jun 2024 14:49:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/976782/" title="https://lwn.net/Articles/976782/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (python39:3.9 and python39-devel:3.9 and ruby:3.0), <b>Debian</b> (chromium, gst-plugins-base1.0, and kernel), <b>Fedora</b> (chromium, glances, glycin-loaders, gnome-tour, helix, helvum, kitty, libarchive, libipuz, librsvg2, loupe, maturin, ntpd-rs, plasma-workspace, and a huge list of Rust-based packages due to a "<q>mini-mass-rebuild</q>" that updated the toolchain to Rust 1.78 and picked up fixes for various pieces), <b>Mageia</b> (gifsicle, netatalk, openssl, python-jinja2, and unbound), <b>Red Hat</b> (kernel and kernel-rt), <b>SUSE</b> (bind, glibc, gstreamer-plugins-base, squid, and tiff), and <b>Ubuntu</b> (glibc).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/976498/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 02 Jun 2024 23:24:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/976498/" title="https://lwn.net/Articles/976498/">Kernel prepatch 6.10-rc2</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/976497/">second 6.10 kernel prepatch</a> is out for
+testing.  "<q>Nothing feels particularly odd, but rc2 is usually fairly small and
+people are only starting to find regressions.
+
+So please go test some more.</q>"</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/976447/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 02 Jun 2024 18:44:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -238,82 +292,6 @@ of the line for the 6.8.x stable kernel series.</blockquote></blockquote></div><
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for May 30, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/975445/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 May 2024 18:15:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/975445/" title="https://lwn.net/Articles/975445/">[$] Fedora approves shipping pre-built macOS binaries</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://asahilinux.org/">Asahi Linux</a> project works
-to support Linux on Apple Silicon hardware. The
-project's <a
-href="https://asahilinux.org/2023/08/fedora-asahi-remix/">flagship</a>
-distribution is the <a href="https://asahilinux.org/fedora/">Fedora
-Asahi Remix</a>, which has its own <a
-href="https://github.com/AsahiLinux/asahi-installer">installer</a> (rather than <a
-href="https://fedoraproject.org/wiki/Anaconda">Anaconda</a>) to
-accommodate the unique requirements of installing on Apple's
-hardware. Previously the installer was built by the Asahi project, but it has asked for (and received) an exception
-from the <a href="https://docs.fedoraproject.org/en-US/fesco/">Fedora
-Engineering Steering Committee</a> (FESCo) to include two binaries
-from upstream open-source projects so that the installer can be built on Fedora
-infrastructure.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/975807/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 May 2024 17:41:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/975807/" title="https://lwn.net/Articles/975807/">Results from the 2024 FreeBSD Community Survey Report</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://freebsdfoundation.org/">FreeBSD Foundation</a> has <a
-href="https://freebsdfoundation.org/blog/results-from-the-2024-freebsd-community-survey-report/">announced</a>
-the <a
-href="https://freebsdfoundation.org/wp-content/uploads/2024/05/FreeBSD-2024_surv_web-_Final.pdf">2024
-FreeBSD Community Survey Report</a>. The report provides a summary of
-1,446 responses to an anonymous online survey of FreeBSD users. It
-provides insights into user profiles, typical usage, how the FreeBSD
-project is viewed, as well as recommendations for expanding the
-FreeBSD community and contributor base:</p>
-
-<blockquote class="bq">
-Currently fewer than half of users consider FreeBSD their daily
-driver; Individuals are less likely than Corporate Users to consider
-FreeBSD primary. The barrier seems to be less about software and more
-about hardware support, particularly around Wi-Fi drivers (which are
-at the top of the wish list for the Foundation to focus on in the
-coming year). A relatively high number of those who don't consider
-FreeBSD their main OS say they would consider doing so with hardware
-support for desktops and laptops that was equivalent to Linux.
-</blockquote>
-
-<p>The <a
-href="https://freebsdfoundation.org/wp-content/uploads/2024/05/2024_comsurv_rawdata.pdf">raw
-data</a> for the survey is available as well.</p>
-
-<p> </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/975597/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 May 2024 16:28:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/975597/" title="https://lwn.net/Articles/975597/">A plea for more thoughtful comments</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>When redesigning the LWN site in 2002, we thought long and hard about
-whether the ability to post comments should be part of it; LWN had not
-offered that feature for the first four years of its existence.  There were
-already plenty of examples of how comments can go bad by then, but we
-decided to trust our readers to keep things under control.  Much of the
-time, that trust has proved justified, but there have been times where
-things have not gone so well.  This time is quickly becoming one of those
-others.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/975737/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 May 2024 13:20:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/975737/" title="https://lwn.net/Articles/975737/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (glibc and tomcat), <b>Fedora</b> (chromium, fcitx5-qt, python-pyqt6, qadwaitadecorations, qgnomeplatform, qt6, qt6-qt3d, qt6-qt5compat, qt6-qtbase, qt6-qtcharts, qt6-qtcoap, qt6-qtconnectivity, qt6-qtdatavis3d, qt6-qtdeclarative, qt6-qtgraphs, qt6-qtgrpc, qt6-qthttpserver, qt6-qtimageformats, qt6-qtlanguageserver, qt6-qtlocation, qt6-qtlottie, qt6-qtmqtt, qt6-qtmultimedia, qt6-qtnetworkauth, qt6-qtopcua, qt6-qtpositioning, qt6-qtquick3d, qt6-qtquick3dphysics, qt6-qtquicktimeline, qt6-qtremoteobjects, qt6-qtscxml, qt6-qtsensors, qt6-qtserialbus, qt6-qtserialport, qt6-qtshadertools, qt6-qtspeech, qt6-qtsvg, qt6-qttools, qt6-qttranslations, qt6-qtvirtualkeyboard, qt6-qtwayland, qt6-qtwebchannel, qt6-qtwebengine, qt6-qtwebsockets, qt6-qtwebview, and zeal), <b>Red Hat</b> (glibc, kernel, kernel-rt, kpatch-patch, linux-firmware, mod_http2, pcp, pcs, protobuf, python3, rpm-ostree, and rust), <b>SUSE</b> (git, glibc-livepatches, kernel, libxml2, openssl-1_1, SUSE Manager Client Tools, SUSE Manager Client Tools, salt, and xdg-desktop-portal), and <b>Ubuntu</b> (amavisd-new, firefox, flask-security, frr, git, intel-microcode, jinja2, libreoffice, linux-intel-iotg, unbound, and webkit2gtk).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>

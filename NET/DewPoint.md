@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 83.0 F. <strong>Dew Point</strong> 60.1 F.</div>
+<div id='c'><strong>Temp</strong> 73.0 F. <strong>Dew Point</strong> 66.2 F.</div>
 
 <p/><br/><p/>
 
@@ -357,3 +357,30 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Sun Jun  2 16:08:06 2024 | 83.0 F. | 61.0 F.|
 | Sun Jun  2 17:08:06 2024 | 79.0 F. | 64.0 F.|
 | Sun Jun  2 18:08:07 2024 | 83.0 F. | 60.1 F.|
+| Sun Jun  2 19:08:05 2024 | 82.0 F. | 61.0 F.|
+| Sun Jun  2 20:08:05 2024 | 77.0 F. | 66.9 F.|
+| Sun Jun  2 21:08:06 2024 | 77.0 F. | 66.9 F.|
+| Sun Jun  2 22:08:05 2024 | 68.0 F. | 64.0 F.|
+| Sun Jun  2 23:08:05 2024 | 70.0 F. | 64.9 F.|
+| Mon Jun  3 00:08:05 2024 | 69.0 F. | 64.9 F.|
+| Mon Jun  3 01:08:05 2024 | 68.0 F. | 64.0 F.|
+| Mon Jun  3 02:08:05 2024 | 68.0 F. | 64.9 F.|
+| Mon Jun  3 03:08:05 2024 | 67.0 F. | 64.0 F.|
+| Mon Jun  3 04:08:21 2024 | 67.0 F. | 64.0 F.|
+| Mon Jun  3 05:08:05 2024 | 67.0 F. | 64.0 F.|
+| Mon Jun  3 06:08:05 2024 | 67.0 F. | 63.0 F.|
+| Mon Jun  3 07:08:05 2024 | 68.0 F. | 64.0 F.|
+| Mon Jun  3 08:08:05 2024 | 68.0 F. | 64.0 F.|
+| Mon Jun  3 09:08:05 2024 | 76.0 F. | 66.0 F.|
+| Mon Jun  3 10:08:05 2024 | 79.0 F. | 66.9 F.|
+| Mon Jun  3 11:08:06 2024 | 82.0 F. | 69.1 F.|
+| Mon Jun  3 12:08:05 2024 | 83.0 F. | 70.0 F.|
+| Mon Jun  3 13:08:05 2024 | 84.0 F. | 70.0 F.|
+| Mon Jun  3 14:08:06 2024 | 87.0 F. | 71.1 F.|
+| Mon Jun  3 15:08:05 2024 | 86.0 F. | 68.0 F.|
+| Mon Jun  3 16:08:05 2024 | 88.0 F. | 69.1 F.|
+| Mon Jun  3 17:08:06 2024 | 83.0 F. | 69.1 F.|
+| Mon Jun  3 18:08:06 2024 | 79.0 F. | 68.0 F.|
+| Mon Jun  3 19:08:07 2024 | 77.0 F. | 64.9 F.|
+| Mon Jun  3 20:08:05 2024 | 77.0 F. | 64.9 F.|
+| Mon Jun  3 21:08:05 2024 | 73.0 F. | 66.2 F.|
