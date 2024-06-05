@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/976856/" title="See Description">[$] Measuring and improving buffered I/O</a></li>
 <li><a href="#https://lwn.net/Articles/977303/" title="See Description">Kali Linux 2024.2 released</a></li>
 <li><a href="#https://lwn.net/Articles/977285/" title="See Description">FreeBSD 14.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/976793/" title="See Description">[$] Rethinking the PostgreSQL CommitFest model</a></li>
@@ -52,10 +53,31 @@
 <li><a href="#https://lwn.net/Articles/976071/" title="See Description">[$] An instruction-level BPF memory model</a></li>
 <li><a href="#https://lwn.net/Articles/976977/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/976826/" title="See Description">LyX 2.4.0 Released</a></li>
-<li><a href="#https://lwn.net/Articles/975565/" title="See Description">[$] Debian's /tmpest in a teapot</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/976856/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 05 Jun 2024 20:22:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/976856/" title="https://lwn.net/Articles/976856/">[$] Measuring and improving buffered I/O</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>There are two types of file I/O on Linux, buffered I/O, which goes through
+the page cache, and direct I/O, which goes directly to the storage device.
+The performance of buffered I/O was reported to be a lot worse than direct
+I/O, especially for one specific test, in Luis Chamberlain's 
+<a
+href="https://lwn.net/ml/linux-fsdevel/Zdkxfspq3urnrM6I@bombadil.infradead.org/">topic
+proposal</a> for a session at the 2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.
+The proposal resulted in a lengthy mailing-list discussion, 
+which also came up in <a
+href="https://lwn.net/Articles/974487/">Paul McKenney's RCU session</a> the next
+day; Chamberlain led a 
+combined storage and filesystem session to discuss those results with an
+eye toward improving buffered I/O performance.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/977303/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 05 Jun 2024 19:14:34 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -141,9 +163,9 @@ goal of removing it completely.
 <div style="float:left" class="link"><a href="https://lwn.net/Articles/977174/" title="https://lwn.net/Articles/977174/">The state of SourceHut</a></div>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Drew DeVault has <a
-href="https://sourcehut.org/blog/2024-06-04-status-and-plans/">published</a>
-an update about the state of the <a
+<tr><td><div class="item"><blockquote><blockquote><p>Drew DeVault has published
+an <a
+href="https://sourcehut.org/blog/2024-06-04-status-and-plans/">update</a> about the state of the <a
 href="https://sourcehut.org/">SourceHut</a> software development
 platform and its plans for the coming months. This is the first update
 since the January <a
@@ -300,21 +322,6 @@ features on the LyX wiki, and <a
 href="https://www.lyx.org/trac/browser/lyxgit/lib/RELEASE-NOTES">release
 notes</a> for information on known issues and caveats for those
 upgrading from earlier versions of LyX.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/975565/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 03 Jun 2024 16:16:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/975565/" title="https://lwn.net/Articles/975565/">[$] Debian's /tmpest in a teapot</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Debian had a major <a href="https://lwn.net/Articles/499410/">discussion</a>
-about mounting <tt>/tmp</tt> as a RAM-based tmpfs in 2012 but inertia
-won out in the end. Debian systems have continued to
-store temporary files on disk by default. Until now. A mere 
-12 years later, the project will be switching to a RAM-based <tt>/tmp</tt> in the Debian
-13 ("Trixie") release. Additionally, starting with Trixie, the
-default will be to periodically clean up temporary files automatically in
-<tt><nobr>/tmp</nobr></tt> and <tt><nobr>/var/tmp</nobr></tt>. Naturally, it involved a lengthy discussion first.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
