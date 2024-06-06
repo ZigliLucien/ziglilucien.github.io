@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/976836/" title="See Description">[$] A generic ring buffer for the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/977442/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/975974/" title="See Description">[$] LWN.net Weekly Edition for June 6, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/976856/" title="See Description">[$] Measuring and improving buffered I/O</a></li>
 <li><a href="#https://lwn.net/Articles/977303/" title="See Description">Kali Linux 2024.2 released</a></li>
@@ -51,11 +53,38 @@
 <li><a href="#https://lwn.net/Articles/977059/" title="See Description">Incus 6.2 released</a></li>
 <li><a href="#https://lwn.net/Articles/977033/" title="See Description">New site feature: comment subthread hiding</a></li>
 <li><a href="#https://lwn.net/Articles/975863/" title="See Description">[$] Handling the NFS change attribute</a></li>
-<li><a href="#https://lwn.net/Articles/976071/" title="See Description">[$] An instruction-level BPF memory model</a></li>
-<li><a href="#https://lwn.net/Articles/976977/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/976836/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 06 Jun 2024 16:05:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/976836/" title="https://lwn.net/Articles/976836/">[$] A generic ring buffer for the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's user-space ABI does not lack for ring buffers; they have been
+defined for subsystems like <a
+href="https://docs.kernel.org/6.6/bpf/ringbuf.html">BPF</a>, <a
+href="https://lwn.net/Articles/776703/">io_uring</a>, <a
+href="https://docs.kernel.org/next/userspace-api/perf_ring_buffer.html">perf</a>,
+and <a
+href="https://docs.kernel.org/trace/ring-buffer-map.html">tracing</a>, for
+example.  Naturally, each of those ring buffers is unique, with no common
+interface between them.  The natural response to this ABI proliferation is,
+of course, to add yet another ring buffer as the generic option; that is
+the intent of <a
+href="https://lwn.net/ml/linux-kernel/20240603003306.2030491-1-kent.overstreet@linux.dev">this
+patch series</a> from Kent Overstreet adding a new set of system calls for
+ring buffers.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/977442/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 06 Jun 2024 16:03:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/977442/" title="https://lwn.net/Articles/977442/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cockpit, kernel, kernel-rt, libxml2, ruby:3.1, and tomcat), <b>Debian</b> (libarchive, pillow, and tinyproxy), <b>Fedora</b> (apptainer), <b>Mageia</b> (amavisd-new and libxml2), <b>Oracle</b> (edk2), <b>Red Hat</b> (booth, cockpit, kernel-rt, less, libxml2, nghttp2, ruby:3.1, ruby:3.3, and tomcat), <b>Slackware</b> (kernel), and <b>Ubuntu</b> (atril, bluez, frr, gdk-pixbuf, openjdk-17, openjdk-21, openjdk-8, openjdk-lts, qemu, and unixodbc).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/975974/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 06 Jun 2024 01:12:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -280,36 +309,6 @@ href="https://lwn.net/Articles/937247/">session at last year's summit</a>.  His 
 was that things are
 "pretty much where we started last year", but the discussion this time
 pointed to some possible ways forward.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/976071/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 04 Jun 2024 13:57:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/976071/" title="https://lwn.net/Articles/976071/">[$] An instruction-level BPF memory model</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-There are few topics as arcane as memory models, so it was a pleasant surprise
-when the double-length session on the BPF memory model at the
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> turned out to be
-understandable. Paul McKenney led the session, although he was clear that the
-work he was presenting was also due to Puranjay Mohan, who unfortunately could
-not attend the summit.
-BPF does not actually have a formalized memory model yet;
-instead it has relied on a history of talks like this one and a general informal understanding.
-Unfortunately, ignoring memory models does not make them go away, and this has
-already caused at least one BPF-related bug on weakly-ordered architectures.
-Figuring out what a formal memory model for BPF should define was the focus of
-McKenney's talk.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/976977/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 04 Jun 2024 13:35:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/976977/" title="https://lwn.net/Articles/976977/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Mageia</b> (chromium-browser-stable, git, libreoffice, microcode, python-requests, webkit2, and wireshark), <b>Oracle</b> (container-tools:ol8, glibc, go-toolset:ol8, idm:DL1 and idm:client, less, python39:3.9 and python39-devel:3.9, ruby:3.0, and virt:ol and virt-devel:rhel), <b>Red Hat</b> (nodejs, nodejs:18, python-idna, and ruby:3.1), and <b>SUSE</b> (389-ds, ffmpeg, ffmpeg-4, gnutls, gstreamer-plugins-base, libhtp, mariadb104, poppler, python-python-jose, squid, and unbound).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
