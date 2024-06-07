@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/977013/" title="See Description">[$] Modernizing BPF for the next 10 years</a></li>
+<li><a href="#https://lwn.net/Articles/977555/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/976836/" title="See Description">[$] A generic ring buffer for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/977442/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/975974/" title="See Description">[$] LWN.net Weekly Edition for June 6, 2024</a></li>
@@ -51,11 +53,37 @@
 <li><a href="#https://lwn.net/Articles/977233/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/977070/" title="See Description">Mike Karels has passed away</a></li>
 <li><a href="#https://lwn.net/Articles/977059/" title="See Description">Incus 6.2 released</a></li>
-<li><a href="#https://lwn.net/Articles/977033/" title="See Description">New site feature: comment subthread hiding</a></li>
-<li><a href="#https://lwn.net/Articles/975863/" title="See Description">[$] Handling the NFS change attribute</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/977013/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 07 Jun 2024 13:17:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/977013/" title="https://lwn.net/Articles/977013/">[$] Modernizing BPF for the next 10 years</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+BPF was first
+<a href="https://lwn.net/Articles/599755/">
+generalized beyond packet filtering</a> more than a decade ago. In that time, it
+has changed a lot, becoming much more capable.
+Alexei Starovoitov kicked off the second day of the BPF track at the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> by leading a session
+discussing which changes to BPF are going to come in the next ten years as it
+continues evolving. He proposed several ideas, including expanding the number of
+registers available to BPF programs, dynamic deadlock detection, and relaxing
+some existing limits of the verifier.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/977555/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 07 Jun 2024 13:11:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/977555/" title="https://lwn.net/Articles/977555/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Mageia</b> (libtiff), <b>Oracle</b> (cockpit, glibc, kernel, less, libxml2, linux-kernel, and tomcat), <b>Red Hat</b> (java-1.8.0-ibm, nghttp2, and ruby:3.3), <b>Slackware</b> (php), <b>SUSE</b> (go1.21, go1.22, and python-docker), and <b>Ubuntu</b> (aom and libvpx).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/976836/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 06 Jun 2024 16:05:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -274,41 +302,6 @@ release contains the second wave of changes contributed by students of the
 University of Texas at Austin and a few other features and
 improvements.</q>"  The features include a new <tt>incus&nbsp;top</tt>
 command, a new API for system load information, and more.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977033/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 04 Jun 2024 18:14:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977033/" title="https://lwn.net/Articles/977033/">New site feature: comment subthread hiding</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In the <a href="https://lwn.net/Articles/975597/">recent discussion</a> on commenting at
-LWN, several readers asked for the ability to hide subthreads of a long
-comment stream.  That feature has just been added; it is also integrated
-with the three comment-display modes and with comment filtering, removing
-the need for JavaScript for filtering.  Hiding is not persistent; no extra
-data is stored at either end.
-<p>
-Give it a try; if you have comments on the new mechanism, this is the place
-to put them.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/975863/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 04 Jun 2024 15:39:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/975863/" title="https://lwn.net/Articles/975863/">[$] Handling the NFS change attribute</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The saga of the <tt>i_version</tt> field for inodes, which tracks the
-occurrence of changes
-to the data or metadata of a file, continued in a discussion at the 2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  In a session led by
-Jeff Layton, who has been doing a lot the work on <a
-href="https://lwn.net/Articles/905931/">changing the semantics and functioning of
-<tt>i_version</tt></a> over the years, he updated attendees on the status of the <a
-href="https://lwn.net/Articles/946394/">effort</a> since a <a
-href="https://lwn.net/Articles/937247/">session at last year's summit</a>.  His summary
-was that things are
-"pretty much where we started last year", but the discussion this time
-pointed to some possible ways forward.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
