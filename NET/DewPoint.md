@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 87.1 F. <strong>Dew Point</strong> 46.9 F.</div>
+<div id='c'><strong>Temp</strong> 86.0 F. <strong>Dew Point</strong> 50.0 F.</div>
 
 <p/><br/><p/>
 
@@ -475,3 +475,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Fri Jun  7 14:08:05 2024 | 86.0 F. | 48.0 F.|
 | Fri Jun  7 15:08:05 2024 | 87.1 F. | 46.0 F.|
 | Fri Jun  7 16:08:05 2024 | 87.1 F. | 46.9 F.|
+| Fri Jun  7 17:08:05 2024 | 86.0 F. | 50.0 F.|
