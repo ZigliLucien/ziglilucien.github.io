@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of rain showers after 5am. Partly cloudy. Low around 64, with temperatures rising to around 67 overnight.
-         South southwest wind around 3 mph. Chance of precipitation is 20%.<br></div>
+         South southwest wind around 2 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
