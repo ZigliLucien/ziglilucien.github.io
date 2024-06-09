@@ -39,11 +39,11 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-06-09T16:16:35+00:00</updated>
+		<updated type="str">2024-06-09T16:48:25+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-06-09T16:36:02+00:00</generatedAt>
-		<updateTime type="str">2024-06-09T16:16:35+00:00</updateTime>
+		<generatedAt type="str">2024-06-09T17:36:06+00:00</generatedAt>
+		<updateTime type="str">2024-06-09T16:48:25+00:00</updateTime>
 		<validTimes type="str">2024-06-09T10:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
@@ -52,8 +52,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2024-06-09T11:00:00-05:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2024-06-09T12:00:00-05:00</startTime>
 				<endTime type="str">2024-06-09T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">77</temperature>
@@ -61,21 +61,21 @@
 				<temperatureTrend type="str">falling</temperatureTrend>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">70</value>
+					<value type="int">50</value>
 				</probabilityOfPrecipitation>
 				<dewpoint type="dict">
 					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">15.555555555555555</value>
+					<value type="int">15</value>
 				</dewpoint>
 				<relativeHumidity type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">79</value>
+					<value type="int">70</value>
 				</relativeHumidity>
 				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra,70/tsra,50?size=medium</icon>
-				<shortForecast type="str">Showers And Thunderstorms Likely</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms likely before 1pm, then a chance of showers and thunderstorms between 1pm and 5pm. Mostly cloudy. High near 77, with temperatures falling to around 75 in the afternoon. North northwest wind around 7 mph. Chance of precipitation is 70%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra,50?size=medium</icon>
+				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms between 1pm and 5pm. Mostly cloudy. High near 77, with temperatures falling to around 75 in the afternoon. North northwest wind around 7 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
