@@ -3,16 +3,16 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Showers and thunderstorms likely before 1pm, then a chance of showers and thunderstorms between 1pm and 5pm. Mostly cloudy.
-         High near 77, with temperatures falling to around 75 in the afternoon. North wind around 8 mph. Chance of precipitation is
-         60%.<br></div>
+         High near 77, with temperatures falling to around 75 in the afternoon. North northwest wind around 7 mph. Chance of precipitation
+         is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Partly cloudy. Low around 58, with temperatures rising to around 60 overnight. Northwest wind 2 to 7 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy. Low around 58, with temperatures rising to around 60 overnight. Northwest wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny, with a high near 79. North northwest wind 5 to 10 mph.<br></div>
+         <h3>Monday</h3>Sunny, with a high near 79. North northwest wind 3 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
