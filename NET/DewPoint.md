@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 57.9 F. <strong>Dew Point</strong> 55.9 F.</div>
+<div id='c'><strong>Temp</strong> 55.9 F. <strong>Dew Point</strong> 55.0 F.</div>
 
 <p/><br/><p/>
 
@@ -557,3 +557,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Tue Jun 11 00:08:04 2024 | 60.1 F. | 57.0 F.|
 | Tue Jun 11 01:08:05 2024 | 60.1 F. | 57.0 F.|
 | Tue Jun 11 02:08:04 2024 | 57.9 F. | 55.9 F.|
+| Tue Jun 11 03:08:05 2024 | 55.9 F. | 55.0 F.|
