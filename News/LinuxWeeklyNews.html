@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/977973/" title="See Description">Firefox 127.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/977486/" title="See Description">[$] Dropping the page cache for filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/977939/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/977310/" title="See Description">[$] P4TC hits a brick wall</a></li>
 <li><a href="#https://lwn.net/Articles/977765/" title="See Description">perl v5.40.0 released</a></li>
@@ -51,11 +53,47 @@
 <li><a href="#https://lwn.net/Articles/977442/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/975974/" title="See Description">[$] LWN.net Weekly Edition for June 6, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/976856/" title="See Description">[$] Measuring and improving buffered I/O</a></li>
-<li><a href="#https://lwn.net/Articles/977303/" title="See Description">Kali Linux 2024.2 released</a></li>
-<li><a href="#https://lwn.net/Articles/977285/" title="See Description">FreeBSD 14.1 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/977973/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 11 Jun 2024 16:07:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/977973/" title="https://lwn.net/Articles/977973/">Firefox 127.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://www.mozilla.org/en-US/firefox/127.0/releasenotes/">Version
+127.0</a> of the Firefox browser is out.  Changes include support for DNS
+prefetching and the ability to close duplicate tabs in a window.  The
+browser will now try to upgrade images and videos with HTTP URLs that are
+found in an HTTPS page to HTTPS as well; if that fails, the non-HTTPS
+resources will simply fail to load.
+<p>
+<b>Update</b>: <a
+href="https://blog.mozilla.org/security/2024/06/05/firefox-will-upgrade-more-mixed-content-in-version-127/">this
+Mozilla Secuirty Blog post</a> describes the HTTPS-related changes in
+detail.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/977486/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 11 Jun 2024 14:28:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/977486/" title="https://lwn.net/Articles/977486/">[$] Dropping the page cache for filesystems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>VFS maintainer Christian Brauner led a discussion about the possibility of
+selectively dropping the contents of the page cache for a filesystem in a
+session at the
+2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  As he described in his
+<a href="https://lwn.net/ml/all/20240116-tagelang-zugnummer-349edd1b5792%40brauner/">topic
+proposal</a>, the use case that started him down this path comes from
+GNOME, which wants to be able to safely suspend access to an encrypted home
+directory.  While it is known to kernel
+developers, it is surprising to others that reads from encrypted
+filesystems that have been suspended will succeed if the data to be read
+still exists in the 
+page cache.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/977939/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 11 Jun 2024 13:11:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -250,51 +288,6 @@ day; Chamberlain led a
 combined storage and filesystem session to discuss those results with an
 eye toward improving buffered I/O performance.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977303/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Jun 2024 19:14:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977303/" title="https://lwn.net/Articles/977303/">Kali Linux 2024.2 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 2024.2 of the <a href="https://www.kali.org/">Kali Linux</a> penetration testing distribution
-has been <a
-href="https://www.kali.org/blog/kali-linux-2024-2-release/">released</a>. This
-release includes an update to <a href="https://lwn.net/Articles/966187/">GNOME
-46</a>, a high-resolution (HiDPI) mode for Xfce, as well as a number
-of new packages such as the <a
-href="https://www.kali.org/tools/autorecon/">AutoRecon</a> network
-reconnaissance tool, <a
-href="https://www.kali.org/tools/pspy/">pspy</a> command-line utility for
-snooping on Linux processes, and <a
-href="https://www.kali.org/tools/sploitscan/">SploitScan</a> tool for
-fetching and displaying CVE information. Kali Linux is based on Debian
-testing, and 2024.2 incorporates Debian's work to <a href="https://lwn.net/Articles/938149/">transition to 64-bit
-time_t</a> to avoid year 2038 problems. Users with existing Kali
-systems should be sure to follow the <a
-href="https://www.kali.org/docs/general-use/updating-kali/">documentation</a>
-when upgrading.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977285/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Jun 2024 17:39:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977285/" title="https://lwn.net/Articles/977285/">FreeBSD 14.1 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 14.1 of <a href="https://www.freebsd.org/">FreeBSD</a> has
-been <a
-href="https://www.freebsd.org/releases/14.1R/announce/">released</a>. This
-is the second release of the 14.x stable branch. Highlights of this
-release include upgrades to OpenZFS 2.2.4, Clang/LLVM 18.1.5, and
-OpenSSH 9.7p1. FreeBSD 14.1 also features <a href="https://cloud-init.io/">cloud-init</a> support,
-sound subsystem improvements, and more. See the
-<a
-href="https://freebsdfoundation.org/blog/freebsd-14-1-whats-new-and-how-did-we-get-here/">what's
-new blog post</a> from the <a
-href="https://freebsdfoundation.org/">FreeBSD Foundation</a>, 
-<a
-href="https://www.freebsd.org/releases/14.1R/relnotes/">release
-notes</a>, and <a
-href="https://www.freebsd.org/releases/14.1R/errata/">errata</a> for
-more information.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
