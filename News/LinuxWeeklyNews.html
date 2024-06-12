@@ -38,6 +38,11 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/978010/" title="See Description">[$] Memory sealing for the GNU C Library</a></li>
+<li><a href="#https://lwn.net/Articles/978151/" title="See Description">systemd 256 released</a></li>
+<li><a href="#https://lwn.net/Articles/978139/" title="See Description">Three mid-week stable kernel updates</a></li>
+<li><a href="#https://lwn.net/Articles/978137/" title="See Description">OpenSUSE Leap 15.6 released</a></li>
+<li><a href="#https://lwn.net/Articles/978136/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/978007/" title="See Description">Extensible scheduler class to be merged for 6.11</a></li>
 <li><a href="#https://lwn.net/Articles/977394/" title="See Description">[$] Securing BPF programs before and after verification</a></li>
 <li><a href="#https://lwn.net/Articles/977973/" title="See Description">Firefox 127.0 released</a></li>
@@ -48,14 +53,76 @@
 <li><a href="#https://lwn.net/Articles/977789/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/977725/" title="See Description">Kernel prepatch 6.10-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/976822/" title="See Description">[$] Ladybird browser spreads its wings</a></li>
-<li><a href="#https://lwn.net/Articles/977583/" title="See Description">Linux nftables vulnerability exploited in the wild (CrowdStrike)</a></li>
-<li><a href="#https://lwn.net/Articles/977013/" title="See Description">[$] Modernizing BPF for the next 10 years</a></li>
-<li><a href="#https://lwn.net/Articles/977555/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/976836/" title="See Description">[$] A generic ring buffer for the kernel</a></li>
-<li><a href="#https://lwn.net/Articles/977442/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/978010/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Jun 2024 13:49:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978010/" title="https://lwn.net/Articles/978010/">[$] Memory sealing for the GNU C Library</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/958438/"><tt>mseal()</tt> system call</a> allows a
+process to prevent any future changes to portions of its address space
+(thus "sealing" them); it was patterned after the <a
+href="https://lwn.net/Articles/915640/"><tt>mimmutable()</tt> system call</a> in OpenBSD.
+<tt>mseal()</tt> generated a lot of discussion, but it was finally merged
+for the upcoming 6.10 kernel release.  While <tt>mseal()</tt> was initially
+aimed at securing the Chrome browser, the hope was that it would be useful
+elsewhere; as a step toward realizing that hope, Adhemerval Zanella has
+posted <a
+href="https://lwn.net/ml/all/20240611153220.165430-1-adhemerval.zanella@linaro.org">a
+patch series</a> adding support for — and use of — <tt>mseal()</tt> to the
+GNU C library (glibc).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978151/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Jun 2024 13:35:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978151/" title="https://lwn.net/Articles/978151/">systemd 256 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Systemd 256 has been released.  As usual, the list of changes is long; see
+<a href="https://lwn.net/Articles/971866/">this article</a> for an overview, or the
+announcement for all the details.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978139/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Jun 2024 13:04:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978139/" title="https://lwn.net/Articles/978139/">Three mid-week stable kernel updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced another round of stable kernel
+updates: <a href="https://lwn.net/Articles/978140/">6.9.4</a>, <a
+href="https://lwn.net/Articles/978141/">6.6.33</a>, and <a
+href="https://lwn.net/Articles/978142/">6.1.93</a> have been released. Each contains
+another set of important fixes, users of these kernels are advised to
+upgrade right away.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978137/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Jun 2024 12:57:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978137/" title="https://lwn.net/Articles/978137/">OpenSUSE Leap 15.6 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://news.opensuse.org/2024/06/12/leap-unveils-choices-for-users/">openSUSE
+Leap 15.6</a> release is available; this is intended to be the last
+Leap&nbsp;15.x release before Leap&nbsp;16 comes out.
+"<q>Leap 15.6 is projected to receive maintenance and security updates
+until the end of 2025 to ensure sufficient overlap with the next
+release</q>".  Changes include the addition of the <a
+href="https://cockpit-project.org/">Cockpit</a> server-management tool, a
+6.4 kernel, GNOME&nbsp;45, and many other upgrades.  This release also
+removes a long list of unmaintained Python packages.  See <a
+href="https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.6/index.html">the
+release notes</a> for details.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978136/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Jun 2024 12:48:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978136/" title="https://lwn.net/Articles/978136/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (booth), <b>Debian</b> (cyrus-imapd and vlc), <b>Fedora</b> (firefox, libarchive, php, and singularity-ce), <b>Oracle</b> (ipa and ruby:3.3), <b>Red Hat</b> (389-ds-base, buildah, c-ares, cockpit, containernetworking-plugins, fence-agents, gdk-pixbuf2, gvisor-tap-vsock, kernel, kernel-rt, kpatch-patch, libreoffice, podman, protobuf-c, python-idna, rpm-ostree, ruby, and tomcat), <b>Slackware</b> (cups and mozilla), <b>SUSE</b> (bind, cups, iperf, kernel, nano, and poppler), and <b>Ubuntu</b> (libapache-mod-jk, linux-aws, linux-aws-5.15, linux-aws, linux-oracle, linux-intel-iotg-5.15, linux-nvidia, and mysql-8.0).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/978007/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 11 Jun 2024 21:49:49 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -114,7 +181,7 @@ resources will simply fail to load.
 <p>
 <b>Update</b>: <a
 href="https://blog.mozilla.org/security/2024/06/05/firefox-will-upgrade-more-mixed-content-in-version-127/">this
-Mozilla Secuirty Blog post</a> describes the HTTPS-related changes in
+Mozilla Security Blog post</a> describes the HTTPS-related changes in
 detail.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/977486/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 11 Jun 2024 14:28:14 +0000</tt></div></td></tr>
@@ -173,7 +240,7 @@ of that happening would appear to be getting worse.
 represents approximately 11 months of development since Perl 5.38.0 and
 contains approximately 160,000 lines of changes across 1,500 files from 75
 authors</q>".  Significant changes include a new <tt>__CLASS__</tt>
-keyword, a <tt>:reader:</tt> attribute for field variables, a new
+keyword, a <tt>:reader</tt> attribute for field variables, a new
 "<tt>^^</tt>" logical-XOR operator (because two of those were not enough),
 moving "<tt>try/catch</tt>" out of the experimental category, and more; see
 <a
@@ -216,90 +283,6 @@ on June&nbsp;3 that he was "forking" Ladybird as a separate project and stepping
 SerenityOS to focus his attention on the browser completely. Ladybird
 is not ready to replace Firefox or Chrome for regular use, but it is showing
 great promise.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977583/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 07 Jun 2024 17:27:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977583/" title="https://lwn.net/Articles/977583/">Linux nftables vulnerability exploited in the wild (CrowdStrike)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a
-href="https://www.crowdstrike.com/blog/active-exploitation-linux-kernel-privilege-escalation-vulnerability/">
-According to CrowdStrike</a>, a
-<a href="https://nvd.nist.gov/vuln/detail/CVE-2024-1086">
-vulnerability</a> in the Linux kernel's nftables code
-that was <a href="https://pwning.tech/nftables/"> discovered earlier this
-year</a> is being actively exploited in the wild. The vulnerability allows for
-local privilege escalation. Most distributions have already released a fix.
-</p>
-
-<blockquote class="bq">
-As noted by the exploit developer, leveraging this POC is dependent on the
-kernel's unprivileged user namespaces feature accessing nf_tables. This access
-is enabled by default on Debian, Ubuntu and kernel capture-the-flag (CTF)
-distributions. An attacker can then trigger the double-free vulnerability, scan
-the physical memory for the kernel base address, bypass kernel address-space
-layout randomization (KASLR) and access the modprobe_path kernel variable with
-read/write privileges. After overwriting the modprobe_path, the exploit drops a
-root shell.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977013/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 07 Jun 2024 13:17:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977013/" title="https://lwn.net/Articles/977013/">[$] Modernizing BPF for the next 10 years</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-BPF was first
-<a href="https://lwn.net/Articles/599755/">
-generalized beyond packet filtering</a> more than a decade ago. In that time, it
-has changed a lot, becoming much more capable.
-Alexei Starovoitov kicked off the second day of the BPF track at the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> by leading a session
-discussing which changes to BPF are going to come in the next ten years as it
-continues evolving. He proposed several ideas, including expanding the number of
-registers available to BPF programs, dynamic deadlock detection, and relaxing
-some existing limits of the verifier.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977555/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 07 Jun 2024 13:11:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977555/" title="https://lwn.net/Articles/977555/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Mageia</b> (libtiff), <b>Oracle</b> (cockpit, glibc, kernel, less, libxml2, linux-kernel, and tomcat), <b>Red Hat</b> (java-1.8.0-ibm, nghttp2, and ruby:3.3), <b>Slackware</b> (php), <b>SUSE</b> (go1.21, go1.22, and python-docker), and <b>Ubuntu</b> (aom and libvpx).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/976836/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 06 Jun 2024 16:05:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/976836/" title="https://lwn.net/Articles/976836/">[$] A generic ring buffer for the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's user-space ABI does not lack for ring buffers; they have been
-defined for subsystems like <a
-href="https://docs.kernel.org/6.6/bpf/ringbuf.html">BPF</a>, <a
-href="https://lwn.net/Articles/776703/">io_uring</a>, <a
-href="https://docs.kernel.org/next/userspace-api/perf_ring_buffer.html">perf</a>,
-and <a
-href="https://docs.kernel.org/trace/ring-buffer-map.html">tracing</a>, for
-example.  Naturally, each of those ring buffers is unique, with no common
-interface between them.  The natural response to this ABI proliferation is,
-of course, to add yet another ring buffer as the generic option; that is
-the intent of <a
-href="https://lwn.net/ml/linux-kernel/20240603003306.2030491-1-kent.overstreet@linux.dev">this
-patch series</a> from Kent Overstreet adding a new set of system calls for
-ring buffers.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977442/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 06 Jun 2024 16:03:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977442/" title="https://lwn.net/Articles/977442/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cockpit, kernel, kernel-rt, libxml2, ruby:3.1, and tomcat), <b>Debian</b> (libarchive, pillow, and tinyproxy), <b>Fedora</b> (apptainer), <b>Mageia</b> (amavisd-new and libxml2), <b>Oracle</b> (edk2), <b>Red Hat</b> (booth, cockpit, kernel-rt, less, libxml2, nghttp2, ruby:3.1, ruby:3.3, and tomcat), <b>Slackware</b> (kernel), and <b>Ubuntu</b> (atril, bluez, frr, gdk-pixbuf, openjdk-17, openjdk-21, openjdk-8, openjdk-lts, qemu, and unixodbc).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
