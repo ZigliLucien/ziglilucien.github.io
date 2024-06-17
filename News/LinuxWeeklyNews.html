@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/978189/" title="See Description">[$] Nested bottom-half locking for realtime kernels</a></li>
+<li><a href="#https://lwn.net/Articles/978709/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/978629/" title="See Description">Kernel prepatch 6.10-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/978591/" title="See Description">Some weekend stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/978541/" title="See Description">Reports from the Python Language Summit</a></li>
@@ -51,11 +53,34 @@
 <li><a href="#https://lwn.net/Articles/978323/" title="See Description">Rust 1.79.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/978291/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/977365/" title="See Description">[$] LWN.net Weekly Edition for June 13, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/978156/" title="See Description">Cockpit project releases Cockpit Files plugin</a></li>
-<li><a href="#https://lwn.net/Articles/977762/" title="See Description">[$] Elevating CentOS 7 to a new life</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/978189/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Jun 2024 14:27:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978189/" title="https://lwn.net/Articles/978189/">[$] Nested bottom-half locking for realtime kernels</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Software-interrupt handlers (also called "bottom halves") have a long
+history in the Linux kernel; for much of that history, developers have
+wished that they could go away.  One of their unfortunate characteristics
+is that they can add unexpected latency to the execution of unrelated
+processes; this problem is felt especially acutely in the
+realtime-preemption community.  The solution adopted there has created
+problems of its own, though; in response Sebastian Andrzej Siewior is <a
+href="https://lwn.net/ml/all/20240607070427.1379327-1-bigeasy@linutronix.de">proposing</a>
+a new locking mechanism for realtime builds of the kernel that may have
+benefits for non-realtime users as well.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978709/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Jun 2024 14:14:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978709/" title="https://lwn.net/Articles/978709/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, buildah, c-ares, cockpit, containernetworking-plugins, fence-agents, gdk-pixbuf2, gvisor-tap-vsock, libreoffice, podman, python-idna, rpm-ostree, and ruby), <b>Debian</b> (atril, chromium, ffmpeg, libndp, libvpx, nano, plasma-workspace, pymongo, roundcube, sendmail, and thunderbird), <b>Fedora</b> (booth and thunderbird), <b>Mageia</b> (aom, atril, libvpx, nano, nss, firefox, and vte), <b>Red Hat</b> (linux-firmware), <b>SUSE</b> (bind, booth, mariadb, openssl-1_1, php7, php8, and webkit2gtk3), and <b>Ubuntu</b> (linux-azure, linux-azure-fde, linux-azure, linux-gke, and linux-nvidia-6.5).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/978629/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 16 Jun 2024 22:28:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -242,57 +267,6 @@ syntax", and more.</blockquote></blockquote></div></td></tr>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for June 13, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978156/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 12 Jun 2024 17:17:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978156/" title="https://lwn.net/Articles/978156/">Cockpit project releases Cockpit Files plugin</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://cockpit-project.org/">Cockpit project</a> has
-<a
-href="https://cockpit-project.org/blog/first-cockpit-files-release.html">announced</a>
-the first <a href="https://github.com/cockpit-project/cockpit-files/releases/tag/1">release</a> of Cockpit
-Files, a plugin for Cockpit that allows file management on your server
-via a web browser:</p>
-
-<blockquote class="bq">
-Cockpit Files was initially started by Google Summer of Code (GSoC)
-student <a href="https://github.com/MahmoudHamdy02">Mahmoud Hamdy</a>
-and is now under active development by the Cockpit team. The goal is
-to replace the functionality of the <a
-href="https://github.com/45drives/cockpit-navigator/">cockpit-navigator</a>
-plugin from 45Drives and include automated testing per commit, a
-standard PatternFly-based interface, and consistency with the rest of
-Cockpit.
-</blockquote>
-
-<p>Development builds for Fedora are available via <a
-href="https://copr.fedorainfracloud.org/coprs/g/cockpit/main-builds/package/cockpit-files">a
-Copr repository</a>, and packages are expected for Arch, Debian, and
-Fedora. LWN <a href="https://lwn.net/Articles/965434/">covered</a> the
-Cockpit project in March.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977762/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 12 Jun 2024 15:54:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977762/" title="https://lwn.net/Articles/977762/">[$] Elevating CentOS 7 to a new life</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>CentOS Linux&nbsp;7 was <a
-href="https://lists.centos.org/pipermail/centos-announce/2014-July/020393.html">first
-released</a> in July&nbsp;2014, and is due to go end-of-life (EOL) on June&nbsp;30.
-By now, anyone who pays attention to such things is aware that Red Hat <a
-href="https://lwn.net/Articles/839257/">pulled the plug</a> on
-CentOS&nbsp;Linux in late&nbsp;2020 to be replaced by CentOS Stream
-instead. CentOS&nbsp;Linux&nbsp;8
-support was <a href="https://lwn.net/Articles/862832/">wound
-down</a> at the end of 2021 rather than in 2029 as originally stated.
-CentOS Linux&nbsp;7 was allowed to serve out its
-full lifespan&mdash;but that EOL is approaching rapidly and
-there's no direct upgrade path. Users and organizations looking for a lifeline might want to consider
-AlmaLinux's <a href="https://wiki.almalinux.org/elevate/">ELevate</a>
-utility, which allows CentOS users to migrate to alternate enterprise
-Linux (EL) operating systems.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
