@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/977993/" title="See Description">[$] Static keys for BPF</a></li>
+<li><a href="#https://lwn.net/Articles/978733/" title="See Description">PostmarketOS v24.06 released</a></li>
 <li><a href="#https://lwn.net/Articles/978189/" title="See Description">[$] Nested bottom-half locking for realtime kernels</a></li>
 <li><a href="#https://lwn.net/Articles/978709/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/978629/" title="See Description">Kernel prepatch 6.10-rc4</a></li>
@@ -51,11 +53,48 @@
 <li><a href="#https://lwn.net/Articles/977815/" title="See Description">[$] Simplifying the BPF verifier</a></li>
 <li><a href="#https://lwn.net/Articles/977720/" title="See Description">[$] Improving control-flow integrity for Linux on RISC-V</a></li>
 <li><a href="#https://lwn.net/Articles/978323/" title="See Description">Rust 1.79.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/978291/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/977365/" title="See Description">[$] LWN.net Weekly Edition for June 13, 2024</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/977993/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Jun 2024 19:58:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/977993/" title="https://lwn.net/Articles/977993/">[$] Static keys for BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The kernel has a lot of code paths that are normally disabled: debugging print
+statements, tracepoints, etc. To support these efficiently, there
+is a common mechanism called
+<a href="https://docs.kernel.org/staging/static-keys.html">
+static keys</a> that provides a way to enable or disable a
+code path at run time, with effectively no overhead for disabled
+branches. BPF programs have not been able to take advantage of static keys so far,
+because they aren't compiled into the kernel.
+Now, it looks like BPF may be getting support for a similar mechanism —
+and the design could also provide one of the components needed to support
+<a href="https://en.wikipedia.org/wiki/Branch_table">
+jump tables</a>, another missing feature.
+Anton Protopovov presented his plans to add static keys to BPF at the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978733/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Jun 2024 18:45:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978733/" title="https://lwn.net/Articles/978733/">PostmarketOS v24.06 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://postmarketos.org/">PostmarketOS</a> is an Alpine Linux
+derivative distribution aimed at mobile devices; the <a
+href="https://postmarketos.org/blog/2024/06/16/v24.06-release/">v24.06
+release</a> claims support for over 250 devices, though the level of that
+support varies widely.  "<q>This release is geared mainly towards Linux
+enthusiasts. We are working hard on stability improvements and automated
+testing, but if you expect Android or iOS levels of polish, then this is
+not for you yet.</q>"  Changes include an upgrade to Alpine Linux 3.20,
+newer GNOME and KDE versions, and more.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/978189/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 17 Jun 2024 14:27:11 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -249,25 +288,6 @@ kernel support for them.
 1.79.0</a> of the Rust language has been released.  Changes this time
 include inline <tt>const</tt> expressions, the "associated item bounds
 syntax", and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978291/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Jun 2024 14:11:15 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978291/" title="https://lwn.net/Articles/978291/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr), <b>Fedora</b> (nginx-mod-modsecurity, php, and tomcat), <b>Mageia</b> (strongswan), <b>Oracle</b> (389-ds-base, buildah, c-ares, cockpit, containernetworking-plugins, fence-agents, firefox, gdk-pixbuf2, idm:DL1, ipa, kernel, libreoffice, podman, rpm-ostree, and thunderbird), <b>Red Hat</b> (dnsmasq and nghttp2), <b>Slackware</b> (mozilla), <b>SUSE</b> (curl, firefox, kernel, kernel-firmware-nvidia-gspx-G06, nvidia-open- driver-G06-signed, openssl-3, and python-Pillow), and <b>Ubuntu</b> (libmatio, libndp, linux, linux-aws, linux-aws-5.4, linux-azure, linux-azure-5.4, linux-gcp,
- linux-gcp-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4,
- linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux-raspi-5.4,
- linux-xilinx-zynqmp, linux-oem-6.5, and virtuoso-opensource).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977365/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Jun 2024 01:26:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977365/" title="https://lwn.net/Articles/977365/">[$] LWN.net Weekly Edition for June 13, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for June 13, 2024 is available.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
