@@ -4,7 +4,7 @@
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of showers and thunderstorms before 10am, then a chance of showers and thunderstorms between 10am and 1pm,
          then a chance of showers and thunderstorms. Mostly cloudy. High near 86, with temperatures falling to around 84 in the afternoon.
-         South wind 6 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 30%.<br></div>
+         South wind 7 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
