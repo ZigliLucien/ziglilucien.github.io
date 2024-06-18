@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Scattered showers and thunderstorms before 10pm. Mostly cloudy, with a low around 72. South wind 6 to 10 mph, with gusts as
-         high as 18 mph. Chance of precipitation is 50%.<br></div>
+         high as 18 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
