@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/978335/" title="See Description">[$] BPF tracing performance</a></li>
+<li><a href="#https://lwn.net/Articles/978806/" title="See Description">Plasma 6.1 released</a></li>
+<li><a href="#https://lwn.net/Articles/978804/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/977993/" title="See Description">[$] Static keys for BPF</a></li>
 <li><a href="#https://lwn.net/Articles/978733/" title="See Description">PostmarketOS v24.06 released</a></li>
 <li><a href="#https://lwn.net/Articles/978189/" title="See Description">[$] Nested bottom-half locking for realtime kernels</a></li>
@@ -50,12 +53,55 @@
 <li><a href="#https://lwn.net/Articles/977987/" title="See Description">[$] Aeon: openSUSE for lazy developers</a></li>
 <li><a href="#https://lwn.net/Articles/978441/" title="See Description">Driving forward in Android drivers (Project Zero)</a></li>
 <li><a href="#https://lwn.net/Articles/978418/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/977815/" title="See Description">[$] Simplifying the BPF verifier</a></li>
-<li><a href="#https://lwn.net/Articles/977720/" title="See Description">[$] Improving control-flow integrity for Linux on RISC-V</a></li>
-<li><a href="#https://lwn.net/Articles/978323/" title="See Description">Rust 1.79.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/978335/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 18 Jun 2024 13:55:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978335/" title="https://lwn.net/Articles/978335/">[$] BPF tracing performance</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+On the final day of the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, the BPF track
+opened with a series of sessions on improving the performance and
+flexibility of probes and other performance-monitoring tools, in the kernel and in
+user space. Jiri Olsa led two sessions about different aspects of probes:
+making the API for BPF programs attached to a probe more flexible, and making
+user-space probes more efficient.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978806/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 18 Jun 2024 13:26:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978806/" title="https://lwn.net/Articles/978806/">Plasma 6.1 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://kde.org/announcements/plasma/6/6.1.0/">Version 6.1</a> of
+the Plasma desktop environment has been released.
+<p>
+<blockquote class="bq">
+	Plasma 6 hits its stride with version 6.1. While Plasma 6.0 was all
+	about getting the migration to the underlying Qt 6 frameworks
+	correct (and what a massive job that was), 6.1 is where developers
+	start implementing the features that will take you desktop to a new
+	level.
+</blockquote>
+<p>
+Enhancements include better remote-desktop support, improved customization,
+persistent apps, smoother animation under Wayland, and more; see <a
+href="https://kde.org/announcements/changelogs/plasma/6/6.0.5-6.1.0/">the
+changelog</a> for the full list.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978804/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 18 Jun 2024 13:03:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978804/" title="https://lwn.net/Articles/978804/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (php7.3), <b>Fedora</b> (galera, ghostscript, and mariadb), <b>Mageia</b> (cups, iperf, and libndp), <b>Oracle</b> (firefox and flatpak), <b>Red Hat</b> (container-tools:rhel8, Firefox, firefox, and flatpak), <b>SUSE</b> (booth, bouncycastle, firefox, ghostscript, less, libaom, openssl-1_1, openssl-3, podman, python-Authlib, python-requests, python-Werkzeug, webkit2gtk3, and xdg-desktop-portal), and <b>Ubuntu</b> (ghostscript, ruby-rack, ruby2.7, ruby3.0, ruby3.1, ruby3.2, and sssd).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/977993/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 17 Jun 2024 19:58:01 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -243,51 +289,6 @@ bugs in great detail.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>CentOS</b> (389-ds-base, bind, bind-dyndb-ldap, and dhcp, firefox, glibc, ipa, less, libreoffice, and thunderbird), <b>Debian</b> (cups), <b>Fedora</b> (chromium and cyrus-imapd), <b>Mageia</b> (golang and poppler), <b>Oracle</b> (bind, bind-dyndb-ldap, and dhcp, gvisor-tap-vsock, python-idna, and ruby), <b>Red Hat</b> (dnsmasq and expat), <b>SUSE</b> (libaom, php8, podman, python-pymongo, python-scikit-learn, and tiff), and <b>Ubuntu</b> (h2database and vte2.91).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977815/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Jun 2024 17:01:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977815/" title="https://lwn.net/Articles/977815/">[$] Simplifying the BPF verifier</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The BPF verifier is a complex program. This has the unfortunate effect of making
-it simultaneously more difficult for contributors to work on, and more likely
-to harbor unknown bugs. Shung-Hsi Yu had two concrete proposals for how to
-simplify the verifier to make it easier to maintain that he presented at the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>. Yu proposed changing how the
-verifier tracks partially known values and cleaning up the interface to
-hide the details of the value-tracker's internal representation.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977720/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Jun 2024 16:25:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977720/" title="https://lwn.net/Articles/977720/">[$] Improving control-flow integrity for Linux on RISC-V</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Redirecting execution flow is a common malware
-technique that can be used to compromise operating systems. To protect from such attacks,
-the chip makers of leading architectures like x86 and arm64 have implemented
-<a
-href="https://lwn.net/Articles/900099/">control-flow-integrity (CFI) extensions</a>, though they need system
-software support to function. At the <a
-href="https://events.linuxfoundation.org/linux-security-summit-north-america/">Linux
-Security Summit North America</a>,  <a
-href="https://riscv.org/">RISC-V</a> kernel developer Deepak Gupta described the CFI
-protections for that architecture and  invited community input on the
-kernel support for them.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978323/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Jun 2024 14:48:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978323/" title="https://lwn.net/Articles/978323/">Rust 1.79.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2024/06/13/Rust-1.79.0.html">Version
-1.79.0</a> of the Rust language has been released.  Changes this time
-include inline <tt>const</tt> expressions, the "associated item bounds
-syntax", and more.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
