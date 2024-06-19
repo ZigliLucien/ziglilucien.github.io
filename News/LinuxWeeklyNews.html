@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/978946/" title="See Description">Mate 1.28 released</a></li>
+<li><a href="#https://lwn.net/Articles/978939/" title="See Description">Libgcrypt 1.11.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/978736/" title="See Description">[$] Capturing stack traces asynchronously with BPF</a></li>
 <li><a href="#https://lwn.net/Articles/978711/" title="See Description">[$] How kernel CVE numbers are assigned</a></li>
 <li><a href="#https://lwn.net/Articles/978907/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/977855/" title="See Description">[$] Adding a JIT compiler to CPython</a></li>
@@ -50,12 +53,72 @@
 <li><a href="#https://lwn.net/Articles/978709/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/978629/" title="See Description">Kernel prepatch 6.10-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/978591/" title="See Description">Some weekend stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/978541/" title="See Description">Reports from the Python Language Summit</a></li>
-<li><a href="#https://lwn.net/Articles/978470/" title="See Description">Schaller: Fedora Workstation development update – AI edition</a></li>
-<li><a href="#https://lwn.net/Articles/978465/" title="See Description">New Human Interface Guidelines for KDE</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/978946/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Jun 2024 16:45:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978946/" title="https://lwn.net/Articles/978946/">Mate 1.28 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://mate-desktop.org/blog/2024-02-27-mate-1-28-released/">Version
+1.28</a> of the <a href="https://mate-desktop.org/">MATE Desktop</a>
+has been released.</p>
+
+<blockquote class="bq">
+MATE 1.28 has made significant strides in updating the codebase,
+including the removal of deprecated libraries and ensuring
+compatibility with the latest GTK versions. One of the most notable
+improvements is the enhanced support for Wayland, bringing us closer
+to a fully native MATE-Wayland experience. Several components have
+been updated to work seamlessly with Wayland, ensuring a more
+integrated and responsive desktop environment.
+</blockquote>
+
+<p>See <a
+href="https://github.com/mate-desktop/python-caja/commits/master/">the changelog</a>
+for a full list of improvements and bug fixes.</p>
+
+<p> </p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978939/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Jun 2024 15:26:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978939/" title="https://lwn.net/Articles/978939/">Libgcrypt 1.11.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Version 1.11.0 of Libgcrypt, a general-purpose library of
+cryptographic building blocks, has been released by the <a
+href="https://gnupg.org/">GnuPG</a> project:</p>
+
+<blockquote class="bq">
+This release starts a new stable branch of Libgcrypt with full API and
+ABI compatibility to the 1.10 series.  Over the last years Jussi
+Kivilinna put again a lot of work into speeding up the algorithms for
+many commonly used CPUs.  Niibe-san implemented new APIs and algorithms
+and also integrated quantum-resistant encryption algorithms.
+</blockquote>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978736/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Jun 2024 14:15:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978736/" title="https://lwn.net/Articles/978736/">[$] Capturing stack traces asynchronously with BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Andrii Nakryiko led a session at
+the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> giving
+a look into the APIs for capturing stack traces
+using BPF, and how the APIs could be made more useful. BPF programs can capture the
+current stack trace of a running process, including the portion in the kernel
+during execution of a system call, which can be useful for diagnosing
+performance problems, among other things. But there are substantial problems with
+the existing API.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/978711/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 19 Jun 2024 13:48:11 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -237,60 +300,6 @@ things look normal and pretty small.</q>"</blockquote></blockquote></div></td></
 <a href="https://lwn.net/Articles/978598/">4.19.316</a>
 stable kernels have all been released; each contains another set of
 important fixes.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978541/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 15 Jun 2024 19:38:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978541/" title="https://lwn.net/Articles/978541/">Reports from the Python Language Summit</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Python Software Foundation has published <a
-href="https://pyfound.blogspot.com/2024/06/python-language-summit-2024.html">a
-set of reports</a> from the 2024 Python Language summit.  Topics covered
-include version numbering, the limited C API, a new default read-eval-print
-loop, and Python's security model in light of the XZ backdoor:
-<p>
-<blockquote class="bq">
-	For multiple reasons like being able to fix bugs and
-	single-maintainer modules, CPython doesn't require reviewers on the
-	pull requests of core developers. This can lead to "unilateral
-	action", meaning that a change is introduced into CPython without
-	the review of someone besides the author. Other situations like
-	release managers backporting fixes to other branches without review
-	are common.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978470/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 14 Jun 2024 19:09:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978470/" title="https://lwn.net/Articles/978470/">Schaller: Fedora Workstation development update – AI edition</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Christian Schaller <a href="https://blogs.gnome.org/uraeus/2024/06/14/fedora-workstation-development-update-artificial-intelligence-edition/">writes about</a> AI and GPU-related features that are in flight and planned for Fedora 41.</p>
-
-<blockquote class="bq">
-Milan Crha has been working together with Alan Day and Jakub Steiner to come up with a <a href="https://gitlab.gnome.org/GNOME/gnome-software/-/merge_requests/2034">streamlined user experience in GNOME Software to let you install the binary NVIDIA driver and provide you with an integrated graphical user interface help to sign the kernel module</a> for use with secure boot. This is a bit different than what we for instance are doing in RHEL, where we are working with NVIDIA to provide pre-signed kernel modules, but that is a lot harder to do in Fedora due to the rapidly updating kernel versions and which most Fedora users appreciate as a big plus. So instead what we are for opting in Fedora is as I said to make it simple for you to self-sign the kernel module for use with secure boot. We are currently looking at when we can make this feature available, but no later than Fedora Workstation 41 for sure.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978465/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 14 Jun 2024 17:18:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978465/" title="https://lwn.net/Articles/978465/">New Human Interface Guidelines for KDE</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>KDE developer Nate Graham has <a
-href="https://pointieststick.com/2024/06/09/new-human-interface-guidelines/">announced</a>
-a new set of <a href="https://develop.kde.org/hig/">KDE Human
-Interface Guidelines</a> (HIG) for the <a
-href="https://kde.org/">KDE</a> project. Graham says that the goals
-for the new HIGs were to reflect how KDE designs software today, make
-the content 100% actionable, improve navigation, and to improve the
-guidelines so people feel comfortable contributing:</p>
-
-<blockquote class="bq">
-Like any rewrite, there are bound to be rough edges and omissions
-compared to the old version. Maybe I missed a piece of useful
-information in the old HIG that had been buried somewhere but retained
-some value. Maybe there's low-hanging fruit for improvement. Help out
-by <a href="https://develop.kde.org/hig/#contributing">contributing</a>!
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
