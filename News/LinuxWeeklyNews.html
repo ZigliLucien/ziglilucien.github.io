@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/979177/" title="See Description">Tor Browser 13.5 released</a></li>
 <li><a href="#https://lwn.net/Articles/978846/" title="See Description">[$] A capability set for user namespaces</a></li>
 <li><a href="#https://lwn.net/Articles/978727/" title="See Description">[$] Updates to pahole</a></li>
 <li><a href="#https://lwn.net/Articles/979153/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,32 @@
 <li><a href="#https://lwn.net/Articles/978335/" title="See Description">[$] BPF tracing performance</a></li>
 <li><a href="#https://lwn.net/Articles/978806/" title="See Description">Plasma 6.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/978804/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/977993/" title="See Description">[$] Static keys for BPF</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/979177/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Jun 2024 20:10:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979177/" title="https://lwn.net/Articles/979177/">Tor Browser 13.5 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.torproject.org/new-release-tor-browser-135/">Version
+13.5</a> of the privacy-focused Tor browser has been released.
+<p>
+<blockquote class="bq">
+	Regular readers of our release posts will know that for the past
+	two years we've been gradually increasing our capacity to not only
+	maintain, but bring tangible improvements to Tor Browser for
+	Android. In that respect, Tor Browser 13.5 feels like a milestone:
+	in addition to the dozens of bug fixes and minor improvements noted
+	in the changelog below, this release features major changes to
+	Android's connection experience in preparation for the future
+	addition of Connection Assist, including full access to Settings
+	before connecting and a new, permanent home for Tor logs.
+</blockquote>
+<p>
+The release also features desktop user-interface improvements and enhanced
+fingerprinting protection.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/978846/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 20 Jun 2024 18:37:44 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -277,30 +300,6 @@ changelog</a> for the full list.</blockquote></blockquote></div></td></tr>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (php7.3), <b>Fedora</b> (galera, ghostscript, and mariadb), <b>Mageia</b> (cups, iperf, and libndp), <b>Oracle</b> (firefox and flatpak), <b>Red Hat</b> (container-tools:rhel8, Firefox, firefox, and flatpak), <b>SUSE</b> (booth, bouncycastle, firefox, ghostscript, less, libaom, openssl-1_1, openssl-3, podman, python-Authlib, python-requests, python-Werkzeug, webkit2gtk3, and xdg-desktop-portal), and <b>Ubuntu</b> (ghostscript, ruby-rack, ruby2.7, ruby3.0, ruby3.1, ruby3.2, and sssd).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/977993/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Jun 2024 19:58:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/977993/" title="https://lwn.net/Articles/977993/">[$] Static keys for BPF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The kernel has a lot of code paths that are normally disabled: debugging print
-statements, tracepoints, etc. To support these efficiently, there
-is a common mechanism called
-<a href="https://docs.kernel.org/staging/static-keys.html">
-static keys</a> that provides a way to enable or disable a
-code path at run time, with effectively no overhead for disabled
-branches. BPF programs have not been able to take advantage of static keys so far,
-because they aren't compiled into the kernel.
-Now, it looks like BPF may be getting support for a similar mechanism —
-and the design could also provide one of the components needed to support
-<a href="https://en.wikipedia.org/wiki/Branch_table">
-jump tables</a>, another missing feature.
-Anton Protopopov presented his plans to add static keys to BPF at the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
