@@ -39,12 +39,11 @@
 		</coordinates>
 	</geometry>
 	<properties type="dict">
-		<updated type="str">2024-06-20T12:17:08+00:00</updated>
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-06-20T14:36:02+00:00</generatedAt>
-		<updateTime type="str">2024-06-20T12:17:08+00:00</updateTime>
-		<validTimes type="str">2024-06-20T06:00:00+00:00/P7DT19H</validTimes>
+		<generatedAt type="str">2024-06-20T15:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-06-20T14:48:05+00:00</updateTime>
+		<validTimes type="str">2024-06-20T08:00:00+00:00/P7DT17H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -53,29 +52,21 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2024-06-20T09:00:00-05:00</startTime>
+				<startTime type="str">2024-06-20T10:00:00-05:00</startTime>
 				<endTime type="str">2024-06-20T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">91</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">21.11111111111111</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">67</value>
-				</relativeHumidity>
 				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
-				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 91. South wind around 5 mph.</detailedForecast>
+				<windDirection type="str">SSE</windDirection>
+				<icon type="str">/icons/land/day/sct?size=medium</icon>
+				<shortForecast type="str">Mostly Sunny</shortForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 91. South southeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -85,22 +76,14 @@
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">71</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">21.11111111111111</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">97</value>
-				</relativeHumidity>
 				<windSpeed type="str">0 to 3 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
+				<icon type="str">/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
 				<detailedForecast type="str">Mostly clear, with a low around 71. South wind 0 to 3 mph.</detailedForecast>
 			</item>
@@ -112,22 +95,14 @@
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">93</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">22.77777777777778</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">93</value>
-				</relativeHumidity>
 				<windSpeed type="str">0 to 3 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
+				<icon type="str">/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
 				<detailedForecast type="str">Sunny, with a high near 93. South wind 0 to 3 mph.</detailedForecast>
 			</item>
@@ -139,22 +114,14 @@
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">72</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">21.666666666666668</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">85</value>
-				</relativeHumidity>
 				<windSpeed type="str">2 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
+				<icon type="str">/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
 				<detailedForecast type="str">Mostly clear, with a low around 72. South wind around 2 mph.</detailedForecast>
 			</item>
@@ -166,22 +133,14 @@
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">96</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">21.666666666666668</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">87</value>
-				</relativeHumidity>
 				<windSpeed type="str">2 to 9 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
+				<icon type="str">/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
 				<detailedForecast type="str">Sunny, with a high near 96. South southwest wind 2 to 9 mph.</detailedForecast>
 			</item>
@@ -193,22 +152,14 @@
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">75</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">20.555555555555557</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">71</value>
-				</relativeHumidity>
 				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
+				<icon type="str">/icons/land/night/sct?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy</shortForecast>
 				<detailedForecast type="str">Partly cloudy, with a low around 75. South southwest wind around 7 mph.</detailedForecast>
 			</item>
@@ -220,22 +171,14 @@
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">93</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">20</value>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">22.77777777777778</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">74</value>
-				</relativeHumidity>
 				<windSpeed type="str">6 to 9 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium</icon>
+				<icon type="str">/icons/land/day/tsra_hi,20?size=medium</icon>
 				<shortForecast type="str">Slight Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A slight chance of showers and thunderstorms after 7am. Partly sunny, with a high near 93. Southwest wind 6 to 9 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
@@ -247,22 +190,14 @@
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">73</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">23.333333333333332</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">85</value>
-				</relativeHumidity>
 				<windSpeed type="str">3 to 7 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi/few?size=medium</icon>
+				<icon type="str">/icons/land/night/tsra_hi/few?size=medium</icon>
 				<shortForecast type="str">Slight Chance Showers And Thunderstorms then Mostly Clear</shortForecast>
 				<detailedForecast type="str">A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 73. West northwest wind 3 to 7 mph.</detailedForecast>
 			</item>
@@ -274,22 +209,14 @@
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">95</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">21.666666666666668</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">85</value>
-				</relativeHumidity>
 				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
+				<icon type="str">/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
 				<detailedForecast type="str">Sunny, with a high near 95. North northwest wind around 6 mph.</detailedForecast>
 			</item>
@@ -301,22 +228,14 @@
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">71</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">19.444444444444443</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">79</value>
-				</relativeHumidity>
 				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">SE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
+				<icon type="str">/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
 				<detailedForecast type="str">Mostly clear, with a low around 71. Southeast wind around 5 mph.</detailedForecast>
 			</item>
@@ -328,22 +247,14 @@
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">97</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">21.11111111111111</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">80</value>
-				</relativeHumidity>
 				<windSpeed type="str">2 to 7 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/hot?size=medium</icon>
+				<icon type="str">/icons/land/day/hot?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
 				<detailedForecast type="str">Sunny, with a high near 97. South southwest wind 2 to 7 mph.</detailedForecast>
 			</item>
@@ -355,22 +266,14 @@
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">74</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">22.22222222222222</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">82</value>
-				</relativeHumidity>
 				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi?size=medium</icon>
+				<icon type="str">/icons/land/night/tsra_hi?size=medium</icon>
 				<shortForecast type="str">Slight Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A slight chance of showers and thunderstorms after 7pm. Partly cloudy, with a low around 74. South southwest wind around 6 mph.</detailedForecast>
 			</item>
@@ -382,22 +285,14 @@
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">94</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">23.333333333333332</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">85</value>
-				</relativeHumidity>
 				<windSpeed type="str">5 to 8 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi?size=medium</icon>
+				<icon type="str">/icons/land/day/tsra_hi?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly sunny, with a high near 94. West southwest wind 5 to 8 mph.</detailedForecast>
 			</item>
@@ -409,22 +304,14 @@
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">72</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
+				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<dewpoint type="dict">
-					<unitCode type="str">wmoUnit:degC</unitCode>
-					<value type="float">22.22222222222222</value>
-				</dewpoint>
-				<relativeHumidity type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">87</value>
-				</relativeHumidity>
 				<windSpeed type="str">3 to 7 mph</windSpeed>
 				<windDirection type="str">W</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi?size=medium</icon>
+				<icon type="str">/icons/land/night/tsra_hi?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A chance of showers and thunderstorms. Partly cloudy, with a low around 72. West wind 3 to 7 mph.</detailedForecast>
 			</item>
