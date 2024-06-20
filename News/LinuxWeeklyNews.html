@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/978846/" title="See Description">[$] A capability set for user namespaces</a></li>
+<li><a href="#https://lwn.net/Articles/978727/" title="See Description">[$] Updates to pahole</a></li>
 <li><a href="#https://lwn.net/Articles/979153/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/978238/" title="See Description">[$] LWN.net Weekly Edition for June 20, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/978463/" title="See Description">[$] How free software hijacked Philip Hazel's life</a></li>
@@ -51,11 +53,46 @@
 <li><a href="#https://lwn.net/Articles/978806/" title="See Description">Plasma 6.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/978804/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/977993/" title="See Description">[$] Static keys for BPF</a></li>
-<li><a href="#https://lwn.net/Articles/978733/" title="See Description">PostmarketOS v24.06 released</a></li>
-<li><a href="#https://lwn.net/Articles/978189/" title="See Description">[$] Nested bottom-half locking for realtime kernels</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/978846/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Jun 2024 18:37:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978846/" title="https://lwn.net/Articles/978846/">[$] A capability set for user namespaces</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/Articles/532593/">User namespaces</a> in Linux create an
+environment in which all privileges are granted, but their effect is
+contained within the namespace; they have become an important tool for the
+implementation of containers.  They have also become a significant source
+of worries for people who do not like the increased attack surface they
+create for the kernel.  Various attempts have been made to restrict that
+attack surface over the years; the latest is <a
+href="https://lwn.net/ml/all/20240609104355.442002-1-jcalmels@3xx0.net">user namespace
+capabilities</a>, posted by Jonathan Calmels.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978727/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Jun 2024 17:58:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978727/" title="https://lwn.net/Articles/978727/">[$] Updates to pahole</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Arnaldo Carvalho de Melo spoke at the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>
+about his work on
+<a href="https://lwn.net/Articles/335942/">
+Poke-a-hole</a> (pahole),
+a program that has expanded greatly over the years, but which was relevant to the
+BPF track because it produces BPF Type Format (BTF) information from DWARF
+debugging information. He covered some small changes to the program, and then
+went into detail about the new support for data-type profiling. His
+<a href="http://vger.kernel.org/~acme/prez/lsfmm-bpf-2024/">slides</a> include
+several examples.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/979153/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 20 Jun 2024 16:15:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -264,38 +301,6 @@ Anton Protopopov presented his plans to add static keys to BPF at the 2024
 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
 Filesystem, Memory Management, and BPF Summit</a>.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978733/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Jun 2024 18:45:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978733/" title="https://lwn.net/Articles/978733/">PostmarketOS v24.06 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://postmarketos.org/">PostmarketOS</a> is an Alpine Linux
-derivative distribution aimed at mobile devices; the <a
-href="https://postmarketos.org/blog/2024/06/16/v24.06-release/">v24.06
-release</a> claims support for over 250 devices, though the level of that
-support varies widely.  "<q>This release is geared mainly towards Linux
-enthusiasts. We are working hard on stability improvements and automated
-testing, but if you expect Android or iOS levels of polish, then this is
-not for you yet.</q>"  Changes include an upgrade to Alpine Linux 3.20,
-newer GNOME and KDE versions, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978189/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Jun 2024 14:27:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978189/" title="https://lwn.net/Articles/978189/">[$] Nested bottom-half locking for realtime kernels</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Software-interrupt handlers (also called "bottom halves") have a long
-history in the Linux kernel; for much of that history, developers have
-wished that they could go away.  One of their unfortunate characteristics
-is that they can add unexpected latency to the execution of unrelated
-processes; this problem is felt especially acutely in the
-realtime-preemption community.  The solution adopted there has created
-problems of its own, though; in response Sebastian Andrzej Siewior is <a
-href="https://lwn.net/ml/all/20240607070427.1379327-1-bigeasy@linutronix.de">proposing</a>
-a new locking mechanism for realtime builds of the kernel that may have
-benefits for non-realtime users as well.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
