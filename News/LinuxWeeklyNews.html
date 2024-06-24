@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/979532/" title="See Description">Min: sched_ext: scheduler architecture and interfaces</a></li>
+<li><a href="#https://lwn.net/Articles/978837/" title="See Description">[$] The GhostBSD in the machine</a></li>
+<li><a href="#https://lwn.net/Articles/979520/" title="See Description">Security updates for Monday</a></li>
+<li><a href="#https://lwn.net/Articles/979491/" title="See Description">Emacs 29.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/979442/" title="See Description">Kernel prepatch 6.10-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/979419/" title="See Description">Larry Finger RIP</a></li>
 <li><a href="#https://lwn.net/Articles/978738/" title="See Description">[$] Rust for filesystems</a></li>
@@ -49,13 +53,76 @@
 <li><a href="#https://lwn.net/Articles/979153/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/978238/" title="See Description">[$] LWN.net Weekly Edition for June 20, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/978463/" title="See Description">[$] How free software hijacked Philip Hazel's life</a></li>
-<li><a href="#https://lwn.net/Articles/978946/" title="See Description">Mate 1.28 released</a></li>
-<li><a href="#https://lwn.net/Articles/978939/" title="See Description">Libgcrypt 1.11.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/978736/" title="See Description">[$] Capturing stack traces asynchronously with BPF</a></li>
-<li><a href="#https://lwn.net/Articles/978711/" title="See Description">[$] How kernel CVE numbers are assigned</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/979532/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 24 Jun 2024 16:33:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979532/" title="https://lwn.net/Articles/979532/">Min: sched_ext: scheduler architecture and interfaces</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Changwoo Min has posted <a
+href="https://blogs.igalia.com/changwoo/sched-ext-scheduler-architecture-and-interfaces-part-2/">an
+introduction to writing custom schedulers</a> with sched_ext.
+<p>
+<blockquote class="bq">
+	In a particular situation, when each scheduling policy needs its
+	specific action, the core kernel scheduler calls an operation
+	defined in <tt>struct sched_class</tt>. For example, when the core
+	kernel scheduler needs to select a task to be scheduled, it calls
+	the <tt>sched_class.pick_next_task(rq)</tt> callback of a concrete
+	scheduling policy. When a task becomes runnable, the core kernel
+	scheduler calls <tt>sched_class.enqueue(rq, p, flags)</tt> so the
+	concrete scheduling policy enqueues task <tt>p</tt> to run queue
+	<tt>rq</tt>. When a task's runtime state needs to be updated, the
+	core kernel scheduler calls <tt>sched_class.update_curr(rq)</tt>.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/978837/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 24 Jun 2024 14:35:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978837/" title="https://lwn.net/Articles/978837/">[$] The GhostBSD in the machine</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.ghostbsd.org/">GhostBSD</a> is a
+desktop-oriented operating system based on <a
+href="https://www.freebsd.org/">FreeBSD</a> and the <a
+href="https://mate-desktop.org/">MATE Desktop Environment</a>. The
+goal of the project is to lower the barrier to entry of using FreeBSD
+on a desktop or laptop system, and it largely succeeds at this. While it has a few rough edges
+that make it hard to recommend for the average desktop user, it is
+a fine choice for users who want a desktop with FreeBSD underpinnings
+such as the Z File System (ZFS), and the <a
+href="https://wiki.ghostbsd.org/index.php/Ports">Ports</a> (source) and <a
+href="https://wiki.ghostbsd.org/index.php/Pkg">Packages</a> (binary) software collections.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/979520/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 24 Jun 2024 14:14:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979520/" title="https://lwn.net/Articles/979520/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (ipa and libreswan), <b>Debian</b> (netty), <b>Fedora</b> (python-PyMySQL, tomcat, and webkitgtk), <b>Gentoo</b> (Flatpak, GLib, JHead, LZ4, and RDoc), <b>Mageia</b> (thunderbird), <b>Oracle</b> (nghttp2 and thunderbird), <b>Red Hat</b> (dnsmasq, libreswan, pki-core, and python3.11), <b>Slackware</b> (emacs), <b>SUSE</b> (gnome-settings-daemon, libarchive, qpdf, vte, and wget), and <b>Ubuntu</b> (libhibernate3-java).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/979491/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 24 Jun 2024 14:07:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979491/" title="https://lwn.net/Articles/979491/">Emacs 29.4 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a
+href="https://lwn.net/ml/all/CADwFkmkkwvMzpysVFYiBP8ZzYqeEoBt-rWXhTF1=672swTv1BQ@mail.gmail.com">Version
+29.4</a> of the Emacs editor has been released.  This is "<q>an emergency
+bugfix release</q>" fixing a <a
+href="https://lwn.net/ml/all/87wmmguk44.fsf@localhost">vulnerability</a> that can cause
+the editor to execute arbitrary shell code in Org mode.  Anybody who runs Emacs on
+untrusted files — including those using Gnus or one of the Emacs mail modes
+— should be looking to update.  For those who cannot update, a pair of
+messages from <a href="https://lwn.net/ml/all/87h6djh2dv.fsf@hope.eyrie.org">Russ
+Allbery</a> and <a
+href="https://lwn.net/ml/all/87wmmehffa.fsf@oldenburg.str.redhat.com">Florian Weimer</a>
+investigates how to disable the Org-mode evaluation, a task that is
+seemingly more complicated than it should be.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/979442/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 23 Jun 2024 22:23:27 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -215,84 +282,6 @@ years. For those doing the math, that's a year longer than LWN has
 been in publication. Exim maintenance was handed off around the time
 of his retirement in 2007. Now, he is ready to hand off PCRE2 as well,
 if a successor can be found.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978946/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 19 Jun 2024 16:45:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978946/" title="https://lwn.net/Articles/978946/">Mate 1.28 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://mate-desktop.org/blog/2024-02-27-mate-1-28-released/">Version
-1.28</a> of the <a href="https://mate-desktop.org/">MATE Desktop</a>
-has been released.</p>
-
-<blockquote class="bq">
-MATE 1.28 has made significant strides in updating the codebase,
-including the removal of deprecated libraries and ensuring
-compatibility with the latest GTK versions. One of the most notable
-improvements is the enhanced support for Wayland, bringing us closer
-to a fully native MATE-Wayland experience. Several components have
-been updated to work seamlessly with Wayland, ensuring a more
-integrated and responsive desktop environment.
-</blockquote>
-
-<p>See the announcement for a full list of improvements and bug fixes.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978939/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 19 Jun 2024 15:26:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978939/" title="https://lwn.net/Articles/978939/">Libgcrypt 1.11.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 1.11.0 of Libgcrypt, a general-purpose library of
-cryptographic building blocks, has been released by the <a
-href="https://gnupg.org/">GnuPG</a> project:</p>
-
-<blockquote class="bq">
-This release starts a new stable branch of Libgcrypt with full API and
-ABI compatibility to the 1.10 series.  Over the last years Jussi
-Kivilinna put again a lot of work into speeding up the algorithms for
-many commonly used CPUs.  Niibe-san implemented new APIs and algorithms
-and also integrated quantum-resistant encryption algorithms.
-</blockquote>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978736/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 19 Jun 2024 14:15:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978736/" title="https://lwn.net/Articles/978736/">[$] Capturing stack traces asynchronously with BPF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Andrii Nakryiko led a session at
-the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> giving
-a look into the APIs for capturing stack traces
-using BPF, and how the APIs could be made more useful. BPF programs can capture the
-current stack trace of a running process, including the portion in the kernel
-during execution of a system call, which can be useful for diagnosing
-performance problems, among other things. But there are substantial problems with
-the existing API.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978711/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 19 Jun 2024 13:48:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978711/" title="https://lwn.net/Articles/978711/">[$] How kernel CVE numbers are assigned</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>It has been four months since <a
-href="http://www.kroah.com/log/blog/2024/02/13/linux-is-a-cna/">Greg
-Kroah-Hartman</a> and <a
-href="https://www.cve.org/Media/News/item/news/2024/02/13/kernel-org-Added-as-CNA">MITRE</a>
-announced that the Linux kernel project had become its own CVE Numbering
-Authority (CNA).  Since then, the Linux CNA Team has developed workflows
-and mechanisms to help manage the various tasks associated with this
-challenge.  There does however, appear to be a lack of understanding among
-community members of the processes and rules the team have been working
-within.  The principal aim of this article, written by a member of the
-Linux kernel CNA team, is to clarify how the team works and how kernel CVE
-numbers are assigned.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
