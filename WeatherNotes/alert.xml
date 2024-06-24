@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25a90e1b737f4537cb6cb0e42f0369d62796b1a0.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c85cdb125a253328b0a582381124084ebcde94d.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25a90e1b737f4537cb6cb0e42f0369d62796b1a0.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c85cdb125a253328b0a582381124084ebcde94d.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.25a90e1b737f4537cb6cb0e42f0369d62796b1a0.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.3c85cdb125a253328b0a582381124084ebcde94d.002.1</id>
 				<areaDesc type="str">Perry; Jackson; Union; Alexander; Pulaski; Fulton; Hickman; Carlisle; Ballard; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -87,14 +87,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2024-06-24T02:33:00-05:00</sent>
-				<effective type="str">2024-06-24T02:33:00-05:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25a90e1b737f4537cb6cb0e42f0369d62796b1a0.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.25a90e1b737f4537cb6cb0e42f0369d62796b1a0.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2024-06-24T02:33:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2024-06-24T13:47:00-05:00</sent>
+				<effective type="str">2024-06-24T13:47:00-05:00</effective>
 				<onset type="str">2024-06-25T12:00:00-05:00</onset>
-				<expires type="str">2024-06-24T16:00:00-05:00</expires>
+				<expires type="str">2024-06-25T04:15:00-05:00</expires>
 				<ends type="str">2024-06-25T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -102,41 +109,27 @@
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued June 24 at 2:33AM CDT until June 25 at 8:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heat index values around 105 expected.
+				<headline type="str">Heat Advisory issued June 24 at 1:47PM CDT until June 25 at 8:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Heat index values up to 108 expected.
 
-* WHERE...All of southeast Missouri, and adjacent portions of
-southern Illinois and western Kentucky. The Advisory is in
-effect for counties along and west of the Mississippi River.
+* WHERE...All of southern Illinois and southeast Missouri.
 
 * WHEN...From noon to 8 PM CDT Tuesday.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses to occur.</description>
-				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out
-of the sun, and check up on relatives and neighbors. Young
-children and pets should never be left unattended in vehicles
-under any circumstances.
-
-Take extra precautions if you work or spend time outside. When
-possible reschedule strenuous activities to early morning or
-evening. Know the signs and symptoms of heat exhaustion and heat
-stroke. Wear lightweight and loose fitting clothing when
-possible. To reduce risk during outdoor work, the Occupational
-Safety and Health Administration recommends scheduling frequent
-rest breaks in shaded or air conditioned environments. Anyone
-overcome by heat should be moved to a cool and shaded location.
-Heat stroke is an emergency! Call 9 1 1.</instruction>
+illnesses.</description>
+				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
+the sun, and check up on relatives and neighbors.</instruction>
 				<response type="str">Execute</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 240733</item>
+						<item type="str">WWUS73 KPAH 241847</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HEAT ADVISORY IN EFFECT FROM NOON TO 8 PM CDT TUESDAY</item>
+						<item type="str">HEAT ADVISORY REMAINS IN EFFECT FROM NOON TO 8 PM CDT TUESDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -144,7 +137,7 @@ Heat stroke is an emergency! Call 9 1 1.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.HT.Y.0001.240625T1700Z-240626T0100Z/</item>
+						<item type="str">/O.CON.KPAH.HT.Y.0001.240625T1700Z-240626T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2024-06-26T01:00:00+00:00</item>
@@ -154,5 +147,5 @@ Heat stroke is an emergency! Call 9 1 1.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-06-24T07:33:47+00:00</updated>
+	<updated type="str">2024-06-24T18:48:25+00:00</updated>
 </all>
