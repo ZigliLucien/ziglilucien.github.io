@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c85cdb125a253328b0a582381124084ebcde94d.002.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fc0a85b46d7d74bac2b16dfd6d85f50403cb1c6.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c85cdb125a253328b0a582381124084ebcde94d.002.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0fc0a85b46d7d74bac2b16dfd6d85f50403cb1c6.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.3c85cdb125a253328b0a582381124084ebcde94d.002.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.0fc0a85b46d7d74bac2b16dfd6d85f50403cb1c6.002.1</id>
 				<areaDesc type="str">Perry; Jackson; Union; Alexander; Pulaski; Fulton; Hickman; Carlisle; Ballard; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -87,21 +87,14 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list">
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25a90e1b737f4537cb6cb0e42f0369d62796b1a0.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.25a90e1b737f4537cb6cb0e42f0369d62796b1a0.001.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2024-06-24T02:33:00-05:00</sent>
-					</item>
-				</references>
-				<sent type="str">2024-06-24T13:47:00-05:00</sent>
-				<effective type="str">2024-06-24T13:47:00-05:00</effective>
-				<onset type="str">2024-06-25T12:00:00-05:00</onset>
-				<expires type="str">2024-06-25T04:15:00-05:00</expires>
+				<references type="list"/>
+				<sent type="str">2024-06-25T13:58:00-05:00</sent>
+				<effective type="str">2024-06-25T13:58:00-05:00</effective>
+				<onset type="str">2024-06-25T13:58:00-05:00</onset>
+				<expires type="str">2024-06-25T20:00:00-05:00</expires>
 				<ends type="str">2024-06-25T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Update</messageType>
+				<messageType type="str">Alert</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -109,27 +102,27 @@
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued June 24 at 1:47PM CDT until June 25 at 8:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heat index values up to 108 expected.
+				<headline type="str">Heat Advisory issued June 25 at 1:58PM CDT until June 25 at 8:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Heat index values up to 109.
 
-* WHERE...All of southern Illinois and southeast Missouri.
+* WHERE...Portions of southern Illinois, western Kentucky, and
+southeast Missouri.
 
-* WHEN...From noon to 8 PM CDT Tuesday.
+* WHEN...Until 8 PM CDT this evening.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
 illnesses.</description>
-				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
-the sun, and check up on relatives and neighbors.</instruction>
+				<instruction type="null"/>
 				<response type="str">Execute</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 241847</item>
+						<item type="str">WWUS73 KPAH 251858</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HEAT ADVISORY REMAINS IN EFFECT FROM NOON TO 8 PM CDT TUESDAY</item>
+						<item type="str">HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM CDT THIS EVENING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -137,15 +130,18 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.HT.Y.0001.240625T1700Z-240626T0100Z/</item>
+						<item type="str">/O.CON.KPAH.HT.Y.0001.000000T0000Z-240626T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2024-06-26T01:00:00+00:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3c85cdb125a253328b0a582381124084ebcde94d.002.1,2024-06-24T13:47:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.25a90e1b737f4537cb6cb0e42f0369d62796b1a0.001.1,2024-06-24T02:33:00-05:00</item>
+					</expiredReferences>
 				</parameters>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-06-24T18:48:25+00:00</updated>
+	<updated type="str">2024-06-25T18:58:36+00:00</updated>
 </all>
