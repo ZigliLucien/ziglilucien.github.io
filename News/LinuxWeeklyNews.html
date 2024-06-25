@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/978955/" title="See Description">[$] Programming in Unison</a></li>
+<li><a href="#https://lwn.net/Articles/979666/" title="See Description">Darktable 4.8.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/979182/" title="See Description">[$] Making containers bootable for fun and profit</a></li>
 <li><a href="#https://lwn.net/Articles/979617/" title="See Description">RIP Daniel Bristot de Oliveira</a></li>
 <li><a href="#https://lwn.net/Articles/979609/" title="See Description">Not all "open source" AI models are actually open (Nature)</a></li>
 <li><a href="#https://lwn.net/Articles/979606/" title="See Description">Security updates for Tuesday</a></li>
@@ -50,12 +53,65 @@
 <li><a href="#https://lwn.net/Articles/978738/" title="See Description">[$] Rust for filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/979259/" title="See Description">Four Friday stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/979257/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/979177/" title="See Description">Tor Browser 13.5 released</a></li>
-<li><a href="#https://lwn.net/Articles/978846/" title="See Description">[$] A capability set for user namespaces</a></li>
-<li><a href="#https://lwn.net/Articles/978727/" title="See Description">[$] Updates to pahole</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/978955/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 25 Jun 2024 18:18:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978955/" title="https://lwn.net/Articles/978955/">[$] Programming in Unison</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://www.unison-lang.org/">
+Unison</a> is a
+MIT-licensed programming language, in development since 2013, that
+explores the ramifications of making code immutable and stored in a database,
+instead of a set of text files.
+Unison supports a greatly simplified model for distributed
+programming — one that describes the configuration of and communication between
+programs in the same language as the programs themselves. Along the way, it
+introduces a new approach to interfacing with programming languages, which is tailored to
+its design.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/979666/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 25 Jun 2024 17:58:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979666/" title="https://lwn.net/Articles/979666/">Darktable 4.8.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://www.darktable.org/2024/06/darktable-4.8.0-released/">Version
+4.8.0</a> of the <a href="https://www.darktable.org/">darktable</a>
+photo editor has been released.  Changes include performance
+improvements for large collections, addition of more EXIF fields in
+the image information module, and two new modules for image
+composition: Enlarge Canvas and Overlay. Enlarge Canvas allows adding
+areas to an image, while Overlay allows adding new content by
+overlaying pixels from the current image or another image. LWN last
+<a href="https://lwn.net/Articles/881853/">looked at darktable</a> in
+2022. Users are "<q>strongly advised</q>" to make a backup of their
+configuration and library before upgrading, as they will not be
+compatible with darktable 4.6.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/979182/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 25 Jun 2024 17:10:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979182/" title="https://lwn.net/Articles/979182/">[$] Making containers bootable for fun and profit</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Dan Walsh, Stef Walter, and Colin Walters all walk into a
+presentation and Walter asks, "why would
+you want to boot your containers?" This isn't the setup for some technology joke, this is part of the trio's
+<a href="https://pretalx.com/devconf-cz-2024/talk/AVSUU3/">keynote at
+DevConf.cz</a> in Brno, Czech Republic on June&nbsp;14 about <a
+href="https://containers.github.io/bootc/">bootable containers</a>
+(bootc). The talk, which was streamed to YouTube for those of us who
+didn't attend DevConf.cz in person, provided a solid overview of bootc
+and the problems it is intended to solve. The idea behind bootc is to
+make creating operating-system images just as easy as creating
+application-container images while using the same tools.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/979617/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 25 Jun 2024 14:39:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -227,66 +283,6 @@ immediately.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, ghostscript, idm:DL1, and thunderbird), <b>Debian</b> (php8.2 and putty), <b>Mageia</b> (chromium-browser-stable), <b>Oracle</b> (ghostscript and thunderbird), <b>Red Hat</b> (thunderbird), and <b>SUSE</b> (containerd, kernel, php-composer2, podofo, python-cryptography, and rmt-server).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/979177/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Jun 2024 20:10:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/979177/" title="https://lwn.net/Articles/979177/">Tor Browser 13.5 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.torproject.org/new-release-tor-browser-135/">Version
-13.5</a> of the privacy-focused Tor browser has been released.
-<p>
-<blockquote class="bq">
-	Regular readers of our release posts will know that for the past
-	two years we've been gradually increasing our capacity to not only
-	maintain, but bring tangible improvements to Tor Browser for
-	Android. In that respect, Tor Browser 13.5 feels like a milestone:
-	in addition to the dozens of bug fixes and minor improvements noted
-	in the changelog below, this release features major changes to
-	Android's connection experience in preparation for the future
-	addition of Connection Assist, including full access to Settings
-	before connecting and a new, permanent home for Tor logs.
-</blockquote>
-<p>
-The release also features desktop user-interface improvements and enhanced
-fingerprinting protection.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978846/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Jun 2024 18:37:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978846/" title="https://lwn.net/Articles/978846/">[$] A capability set for user namespaces</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/Articles/532593/">User namespaces</a> in Linux create an
-environment in which all privileges are granted, but their effect is
-contained within the namespace; they have become an important tool for the
-implementation of containers.  They have also become a significant source
-of worries for people who do not like the increased attack surface they
-create for the kernel.  Various attempts have been made to restrict that
-attack surface over the years; the latest is <a
-href="https://lwn.net/ml/all/20240609104355.442002-1-jcalmels@3xx0.net">user namespace
-capabilities</a>, posted by Jonathan Calmels.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978727/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Jun 2024 17:58:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978727/" title="https://lwn.net/Articles/978727/">[$] Updates to pahole</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Arnaldo Carvalho de Melo spoke at the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>
-about his work on
-<a href="https://lwn.net/Articles/335942/">
-Poke-a-hole</a> (pahole),
-a program that has expanded greatly over the years, but which was relevant to the
-BPF track because it produces BPF Type Format (BTF) information from DWARF
-debugging information. He covered some small changes to the program, and then
-went into detail about the new support for data-type profiling. His
-<a href="http://vger.kernel.org/~acme/prez/lsfmm-bpf-2024/">slides</a> include
-several examples.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
