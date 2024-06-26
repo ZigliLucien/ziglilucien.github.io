@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/979166/" title="See Description">[$] Finishing the conversion to the "new" mount API</a></li>
+<li><a href="#https://lwn.net/Articles/979741/" title="See Description">Types Team Update and Roadmap (Rust Blog)</a></li>
+<li><a href="#https://lwn.net/Articles/979740/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/978955/" title="See Description">[$] Programming in Unison</a></li>
 <li><a href="#https://lwn.net/Articles/979666/" title="See Description">Darktable 4.8.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/979182/" title="See Description">[$] Making containers bootable for fun and profit</a></li>
@@ -50,12 +53,68 @@
 <li><a href="#https://lwn.net/Articles/979491/" title="See Description">Emacs 29.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/979442/" title="See Description">Kernel prepatch 6.10-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/979419/" title="See Description">Larry Finger RIP</a></li>
-<li><a href="#https://lwn.net/Articles/978738/" title="See Description">[$] Rust for filesystems</a></li>
-<li><a href="#https://lwn.net/Articles/979259/" title="See Description">Four Friday stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/979257/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/979166/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Jun 2024 13:19:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979166/" title="https://lwn.net/Articles/979166/">[$] Finishing the conversion to the "new" mount API</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Eric Sandeen led a filesystem-track session at 
+the
+2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> on completing the
+conversion of the existing kernel filesystems to use the <a
+href="https://lwn.net/Articles/759499/">mount API</a> that was <a
+href="https://lwn.net/Articles/787963/">added for the 5.2 kernel</a> in 2019.  That API is
+invariably called the "new" API, which it <i>is</i> when compared to the
+venerable <a 
+href="https://man7.org/linux/man-pages/man2/mount.2.html"><tt>mount()</tt></a>
+system call, but it has been available for five years or so at this point
+without really pushing its predecessor aside.  Sandeen wanted to discuss
+the status of the conversion process and some other questions surrounding
+the new API.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/979741/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Jun 2024 13:16:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979741/" title="https://lwn.net/Articles/979741/">Types Team Update and Roadmap (Rust Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Rust Blog is carrying <a
+href="https://blog.rust-lang.org/2024/06/26/types-team-update.html">an
+update</a> on what the Rust Types Team has been up to and its near-future
+plans.
+<p>
+<blockquote class="bq">
+	There has been <a
+	href="https://github.com/rust-lang/rust/pulls?q=is%3Apr+label%3AWG-trait-system-refactor+-label%3Arollup+is%3Amerged+closed%3A%3E2023-01-20+sort%3Acreated-asc+">a
+	lot of work</a> on the <a
+	href="https://github.com/rust-lang/trait-system-refactor-initiative/">next-generation
+	trait solver</a>. The initiative posted <a
+	href="https://blog.rust-lang.org/inside-rust/2023/12/22/trait-system-refactor-initiative.html">a
+	separate update</a> at the end of last year. While we would have
+	liked to <a
+	href="https://github.com/rust-lang/rust/pull/121848">stabilize its
+	use in coherence</a> a few months ago, this surfaced additional
+	small behavior regressions and hangs, causing delays. We are
+	working on fixing these issues and intend to merge the
+	stabilization PR soon. We are getting close to compiling the
+	standard library and the compiler with the new solver enabled
+	everywhere, after which will be able to run crater to figure out
+	the remaining issues.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/979740/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Jun 2024 13:10:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979740/" title="https://lwn.net/Articles/979740/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (git, python3.11, and python3.9), <b>Debian</b> (chromium, emacs, git, linux-5.10, and org-mode), <b>Fedora</b> (libopenmpt, nginx-mod-modsecurity, and thunderbird), <b>Mageia</b> (emacs, python-ansible-core, and python-authlib), <b>Oracle</b> (git, python3.11, and python3.9), <b>Red Hat</b> (kernel, kernel-rt, and samba), and <b>Ubuntu</b> (ansible, cups, google-guest-agent, google-osconfig-agent, libheif, openvpn, roundcube, and salt).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/978955/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 25 Jun 2024 18:18:54 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -240,50 +299,6 @@ June&nbsp;21.  The <a href="https://lwn.net/ksdb/developers/show?dev=3787">LWN K
 Source Database</a> shows that Finger contributed to 94&nbsp;releases in
 the (Git era) kernel history, starting with 2.6.16 — 1,464 commits in
 total.  He will be missed.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978738/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Jun 2024 14:45:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978738/" title="https://lwn.net/Articles/978738/">[$] Rust for filesystems</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>At the
-2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Wedson Almeida Filho and
-Kent Overstreet led a combined storage and filesystem session on using Rust
-for Linux filesystems. Back in December 2023, Almeida had <a
-href="https://lwn.net/ml/linux-fsdevel/20231018122518.128049-1-wedsonaf@gmail.com/">posted
-an RFC patch set</a> with
-some Rust abstractions for filesystems, which resulted in <a
-href="https://lwn.net/Articles/958072/">some disagreement over the approach</a>.  On the
-same mid-May day as the session, he <a
-href="https://lwn.net/ml/all/20240514131711.379322-1-wedsonaf@gmail.com/">posted</a>
-a second version of the RFC patches, which he wanted to discuss along with
-other Rust-related topics.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/979259/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Jun 2024 13:30:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/979259/" title="https://lwn.net/Articles/979259/">Four Friday stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The
-<a href="https://lwn.net/Articles/979263/">6.9.6</a>,
-<a href="https://lwn.net/Articles/979262/">6.6.35</a>,
-<a href="https://lwn.net/Articles/979261/">6.1.95</a>, and
-<a href="https://lwn.net/Articles/979260/">5.10.220</a>
-stable kernels have all been released; as usual, users are advised to update
-immediately.
-</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/979257/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Jun 2024 13:11:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/979257/" title="https://lwn.net/Articles/979257/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, ghostscript, idm:DL1, and thunderbird), <b>Debian</b> (php8.2 and putty), <b>Mageia</b> (chromium-browser-stable), <b>Oracle</b> (ghostscript and thunderbird), <b>Red Hat</b> (thunderbird), and <b>SUSE</b> (containerd, kernel, php-composer2, podofo, python-cryptography, and rmt-server).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
