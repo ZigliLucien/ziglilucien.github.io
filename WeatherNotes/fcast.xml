@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-06-27T04:36:02+00:00</generatedAt>
-		<updateTime type="str">2024-06-27T02:33:47+00:00</updateTime>
-		<validTimes type="str">2024-06-26T20:00:00+00:00/P7DT5H</validTimes>
+		<generatedAt type="str">2024-06-27T06:36:02+00:00</generatedAt>
+		<updateTime type="str">2024-06-27T05:48:09+00:00</updateTime>
+		<validTimes type="str">2024-06-26T23:00:00+00:00/P7DT2H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">142.0368</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2024-06-26T23:00:00-05:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2024-06-27T01:00:00-05:00</startTime>
 				<endTime type="str">2024-06-27T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">65</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 mph</windSpeed>
+				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">N</windDirection>
 				<icon type="str">/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear. Low around 65, with temperatures rising to around 67 overnight. North wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear. Low around 65, with temperatures rising to around 67 overnight. North wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -81,11 +81,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 to 8 mph</windSpeed>
+				<windSpeed type="str">3 to 8 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
 				<icon type="str">/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 86. North northeast wind 5 to 8 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 86. North northeast wind 3 to 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
