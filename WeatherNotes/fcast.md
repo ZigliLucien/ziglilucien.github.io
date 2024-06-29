@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of showers and thunderstorms after 5am. Partly cloudy. Low around 76, with temperatures rising to around 78
-         overnight. South wind around 8 mph. Chance of precipitation is 20%.<br></div>
+         overnight. South wind around 6 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
