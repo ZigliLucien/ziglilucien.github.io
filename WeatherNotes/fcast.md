@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of showers and thunderstorms before noon, then a chance of showers and thunderstorms between noon and 1pm,
-         then a slight chance of showers and thunderstorms. Mostly sunny. High near 92, with temperatures falling to around 90 in the
-         afternoon. Southwest wind around 9 mph. Chance of precipitation is 30%.<br></div>
+         then a chance of showers and thunderstorms. Mostly sunny, with a high near 92. Southwest wind around 9 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
