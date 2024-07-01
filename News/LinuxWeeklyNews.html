@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/979747/" title="See Description">[$] Arithmetic overflow mitigation in the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/980252/" title="See Description">Security updates for Monday</a></li>
+<li><a href="#https://lwn.net/Articles/980211/" title="See Description">Serious vulnerability fixed with OpenSSH 9.8</a></li>
 <li><a href="#https://lwn.net/Articles/980175/" title="See Description">Kernel prepatch 6.10-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/979780/" title="See Description">[$] FreeDOS turns 30</a></li>
 <li><a href="#https://lwn.net/Articles/980003/" title="See Description">FSF Europe condemns Apple's DMA noncompliance</a></li>
@@ -50,12 +53,65 @@
 <li><a href="#https://lwn.net/Articles/979671/" title="See Description">[$] Python grapples with Apple App Store rejections</a></li>
 <li><a href="#https://lwn.net/Articles/979849/" title="See Description">Three Thursday stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/979847/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/979084/" title="See Description">[$] LWN.net Weekly Edition for June 27, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/979748/" title="See Description">OpenSUSE Leap Micro 6.0 is now available</a></li>
-<li><a href="#https://lwn.net/Articles/979745/" title="See Description">Hutterer: GNOME tablet support papercut fixes</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/979747/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Jul 2024 13:27:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979747/" title="https://lwn.net/Articles/979747/">[$] Arithmetic overflow mitigation in the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+On May 7, Kees Cook sent
+<a href="https://lwn.net/ml/linux-kernel/202404291502.612E0A10@keescook/">
+a proposal</a> to the linux-kernel mailing list, asking for the kernel
+developers to start
+working on a way to mitigate unintentional arithmetic overflow, which has been a
+source of many bugs. This is not the first time Cook has made a request along
+these lines; he <a href="https://lwn.net/Articles/959189/">sent a related patch set</a> in
+January 2024.
+Several core developers objected to the plan for different
+reasons. After receiving their feedback,
+Cook modified his approach to tackle the problem
+in a series of smaller steps.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/980252/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Jul 2024 12:56:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/980252/" title="https://lwn.net/Articles/980252/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (dcmtk, edk2, emacs, glibc, gunicorn, libmojolicious-perl, openssh, org-mode, pdns-recursor, tryton-client, and tryton-server), <b>Fedora</b> (freeipa, kitty, libreswan, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-poppler, and mingw-python-urllib3), <b>Gentoo</b> (cpio, cryptography, GNU Emacs, Org Mode, GStreamer, GStreamer Plugins, Liferea, Pixman, SDL_ttf, SSSD, and Zsh), <b>Oracle</b> (pki-core), <b>Red Hat</b> (httpd:2.4, libreswan, and pki-core), <b>SUSE</b> (glib2 and kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t), and <b>Ubuntu</b> (espeak-ng, libcdio, and openssh).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/980211/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Jul 2024 12:53:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/980211/" title="https://lwn.net/Articles/980211/">Serious vulnerability fixed with OpenSSH 9.8</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/all/d2ed9e542682bf82@cvs.openbsd.org">OpenSSH 9.8</a> has been
+released, fixing an ugly vulnerability:
+<p>
+<blockquote class="bq">
+	Successful exploitation has been demonstrated on 32-bit Linux/glibc
+	systems with ASLR. Under lab conditions, the attack requires on
+	average 6-8 hours of continuous connections up to the maximum the
+	server will accept. Exploitation on 64-bit systems is believed to
+	be possible but has not been demonstrated at this time. It's likely
+	that these attacks will be improved upon.
+<p>
+	Exploitation on non-glibc systems is conceivable but has not been
+	examined.
+</blockquote>
+<p>
+There is <a
+href="https://lwn.net/ml/all/4f270df5-2b24-979d-c03f-6d8f3b9d007d@mindrot.org">a
+configuration workaround</a> for systems that cannot be updated, though it
+has its own problems.  See <a
+href="https://lwn.net/ml/all/20240701083838.GA12787@localhost.localdomain">this Qualys
+advisory</a> for more details.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/980175/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 30 Jun 2024 22:38:34 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,55 +317,6 @@ released; each contains an important set of fixes.</p></blockquote></blockquote>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ffmpeg, kernel, libvpx, and linux-5.10), <b>Fedora</b> (chromium, firefox, freeipa, moodle, and openvpn), <b>Oracle</b> (git), <b>Red Hat</b> (golang and java-1.8.0-ibm), and <b>Ubuntu</b> (linux-oracle-6.5, netplan.io, openssl, plasma-workspace, ruby2.7, ruby3.0, ruby3.1, sqlite3, and wget).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/979084/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 26 Jun 2024 23:55:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/979084/" title="https://lwn.net/Articles/979084/">[$] LWN.net Weekly Edition for June 27, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for June 27, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/979748/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 26 Jun 2024 15:06:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/979748/" title="https://lwn.net/Articles/979748/">OpenSUSE Leap Micro 6.0 is now available</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The openSUSE project has <a
-href="https://news.opensuse.org/2024/06/25/leap-micro-60-availability/">announced</a>
-Leap Micro <a href="https://get.opensuse.org/leapmicro/6.0/">version
-6.0</a>. Leap Micro is an image-based, lightweight Linux distribution
-that is designed to run containerized and virtualized applications. It
-is based on <a href="https://www.suse.com/products/micro/">SUSE Linux
-Enterprise (SLE) Micro</a>. Changes in this release include the
-support for full-disk encryption, the addition of Cockpit for
-web-based system management, and an optional real-time kernel for
-x86_64. Boot support for legacy BIOS on x86_64 is deprecated with 6.0, and will be removed in a later release. See the <a
-href="https://www.suse.com/releasenotes/x86_64/SL-Micro/6.0/index.html">SLE
-Micro release notes</a> for more information.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/979745/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 26 Jun 2024 14:17:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/979745/" title="https://lwn.net/Articles/979745/">Hutterer: GNOME tablet support papercut fixes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Peter Hutterer has <a
-href="http://who-t.blogspot.com/2024/06/gnome-tablet-support-papercut-fixes.html">written</a>
-a summary of "papercut fixes" for GNOME tablet support that are
-planned to ship with GNOME 47.</p>
-
-
-<blockquote class="bq">
-<p>If you're an avid tablet user, you may have multiple stylus tools -
-but it's also likely that you have multiple tools of the same type
-which makes differentiating them in the GUI hard. Which is why they're
-highlighted now - if you bring the tool into proximity, the matching
-image is highlighted to make it easier to know which stylus you're
-about to configure. Oh, and in the process we added a new SVG for AES
-styli too to make the picture look more like the actual physical
-tool. The &lt;blink&gt; tag may no longer be cool but at least we can disco
-our way through the stylus configuration now. </p>
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
