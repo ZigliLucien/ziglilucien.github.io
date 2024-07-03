@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/978324/" title="See Description">[$] Debian debate over tag2upload reaches compromise</a></li>
+<li><a href="#https://lwn.net/Articles/980575/" title="See Description">Universal Blue images need manual intervention for updates</a></li>
 <li><a href="#https://lwn.net/Articles/979522/" title="See Description">[$] PostmarketOS: Linux for phones and more</a></li>
 <li><a href="#https://lwn.net/Articles/980555/" title="See Description">GNU findutils 4.10.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/980556/" title="See Description">Rosenthal: X Window System At 40</a></li>
@@ -51,11 +53,62 @@
 <li><a href="#https://lwn.net/Articles/980175/" title="See Description">Kernel prepatch 6.10-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/979780/" title="See Description">[$] FreeDOS turns 30</a></li>
 <li><a href="#https://lwn.net/Articles/980003/" title="See Description">FSF Europe condemns Apple's DMA noncompliance</a></li>
-<li><a href="#https://lwn.net/Articles/979524/" title="See Description">[$] Redox: An operating system in Rust</a></li>
-<li><a href="#https://lwn.net/Articles/979999/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/978324/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Jul 2024 17:01:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/978324/" title="https://lwn.net/Articles/978324/">[$] Debian debate over tag2upload reaches compromise</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Debian's proposed <a
+href="https://salsa.debian.org/dgit-team/dgit/-/blob/master/TAG2UPLOAD-DESIGN.txt">tag2upload
+service</a> would be worthy of an article
+even if it wasn't so contentious; tag2upload promises a
+streamlined way for Debian developers using Git to upload packages to
+the <a href="https://wiki.debian.org/Services/Debian%20Archive">Debian
+Archive</a>. But tag2upload has been in limbo for
+years due to disagreement and a communication breakdown between the team
+behind tag2upload and the <a
+href="https://ftp-master.debian.org/">ftpmasters</a> team. It took the
+threat of a <a
+href="https://www.debian.org/devel/constitution#item-4">General
+Resolution</a> (GR), weeks of discussion, and more than
+1,000 emails to finally move forward.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/980575/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Jul 2024 15:12:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/980575/" title="https://lwn.net/Articles/980575/">Universal Blue images need manual intervention for updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://universal-blue.org/">Universal Blue</a>
+project, which produces operating system images based on Fedora's <a
+href="https://fedoraproject.org/atomic-desktops/">Atomic Desktops</a>,
+has issued an <a
+href="https://universal-blue.discourse.group/t/important-announcement-regarding-system-updates-action-needed/2689/1">announcement</a>
+that manual steps are required to continue receiving updates. Jorge
+Castro wrote:</p>
+
+
+<blockquote class="bq">
+<p>If you use Bazzite, Bluefin, Aurora, or any other Universal Blue
+image (including our toolboxes) then you need to follow the
+instructions in this announcement in order to ensure that your device
+is getting updates. We were rotating our cosign keypairs this morning,
+which is the method that we use to sign our images.</p>
+
+
+<p>During this process I made a critical error which has resulted in
+forcing you to take manual steps to migrate to our newly signed
+images.</p>
+</blockquote>
+
+<p>This applies to all Universal Blue images released before July 2,
+2024. See the full announcement for instructions. LWN <a
+href="https://lwn.net/Articles/954059/">covered Bluefin</a> in
+December, 2023.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/979522/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 03 Jul 2024 13:42:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,38 +319,6 @@ comprehensive position</a>
 to the EC detailing several problematic elements in the Apple compliance that
 will harm the Free Software.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/979524/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 28 Jun 2024 13:36:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/979524/" title="https://lwn.net/Articles/979524/">[$] Redox: An operating system in Rust</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-With the
-<a href="https://rust-for-linux.com/">
-Rust-for-Linux</a> project starting to gain some ground, it is worth
-looking at other operating systems that use Rust in their kernels. There
-are <a href="https://github.com/flosse/rust-os-comparison">
-many</a> attempts to use
-Rust for operating system development, but <a href="https://redox-os.org/">Redox</a>
-may be the most complete.
-Redox is an MIT-licensed microkernel and corresponding user space, designed
-around concepts taken from
-<a href="https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs">
-Plan 9</a>. While nowhere near being usable as a
-replacement for Linux, it already provides a graphical user interface and
-<a href="https://www.redox-os.org/faq/#what-programs-can-redox-run">
-the ability to run many POSIX programs</a>.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/979999/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 28 Jun 2024 12:53:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/979999/" title="https://lwn.net/Articles/979999/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (pki-core), <b>Debian</b> (dlt-daemon and plasma-workspace), <b>Fedora</b> (emacs and kernel), <b>Mageia</b> (erofs-utils, libheif, libopenmpt, and wget), <b>Red Hat</b> (pki-core and python3), <b>SUSE</b> (frr), and <b>Ubuntu</b> (fontforge, sqlite3, and squid3).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
