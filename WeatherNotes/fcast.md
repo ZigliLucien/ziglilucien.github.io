@@ -2,19 +2,19 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of showers and thunderstorms. Mostly sunny. High near 93, with temperatures falling to around 91 in the afternoon.
-         Heat index values as high as 109. Southwest wind around 9 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Today</h3>A chance of showers and thunderstorms. Some of the storms could produce heavy rain. Partly sunny. High near 93, with temperatures
+         falling to around 88 in the afternoon. Heat index values as high as 107. Southwest wind 7 to 10 mph. Chance of precipitation
+         is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 73. Southwest wind 2 to 6 mph. Chance of precipitation
-         is 60%.<br></div>
+         <h3>Tonight</h3>Showers and thunderstorms likely. Some of the storms could produce heavy rain. Mostly cloudy, with a low around 73. South
+         southwest wind 2 to 7 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Independence Day</h3>Showers and thunderstorms likely before 10am, then showers and thunderstorms likely between 10am and 1pm, then showers and
-         thunderstorms likely. Partly sunny, with a high near 90. Heat index values as high as 105. West southwest wind 2 to 6 mph.
-         Chance of precipitation is 60%.<br></div>
+         <h3>Independence Day</h3>Showers and thunderstorms likely before 1pm, then showers and thunderstorms likely between 1pm and 4pm, then showers and thunderstorms
+         likely. Partly sunny, with a high near 90. Southwest wind 3 to 7 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
