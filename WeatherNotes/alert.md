@@ -1,28 +1,24 @@
 <p>
-   <h2>Flood Watch issued July 3 at 1:53PM CDT until July 5 at 1:00AM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">Multiple rounds of thunderstorms will produce heavy rain across
-      parts of southeast Missouri into southwest Illinois tonight through
-      late Thursday night, which may produce flash flooding.
+   <h2>Flood Watch issued July 4 at 2:41AM CDT until July 5 at 1:00AM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Flash flooding caused by excessive rainfall continues to be
+      possible.
       
-      * WHAT...Flash flooding caused by excessive rainfall is possible.
+      * WHERE...Portions of southwest Illinois and southeast Missouri.
       
-      * WHERE...Portions of southeast Missouri and southwest Illinois.
-      
-      * WHEN...From 7 PM CDT this evening through late Thursday night.
+      * WHEN...Through late tonight.
       
       * IMPACTS...Excessive runoff may result in flooding of rivers,
       creeks, streams, and other low-lying and flood-prone locations.
-      Creeks and streams may rise out of their banks. Low-water
-      crossings may be flooded.
+      Creeks and streams may rise out of their banks. Flooding may occur
+      in poor drainage and urban areas.
       
       * ADDITIONAL DETAILS...
-      - Thunderstorms will develop late this afternoon through late
-      tonight over the Flood Watch area, which will have the
-      potential to produce 2 to 4 inches of rain through late
-      tonight. After a lull Thursday afternoon, another round of
-      thunderstorms is expected Thursday night which will produce
-      more heavy rain. The multiple rounds of heavy rain may
-      produce flash flooding, as well as flood small creeks,
-      streams, and low water crossings.
+      - Thunderstorms will move through this morning, with a possible
+      round of storms developing late afternoon, and a final round
+      of storms Thursday night. Recent heavy rains have occurred,
+      priming soils for faster flood development. The multiple
+      rounds of heavy rain may produce flash flooding, as well as
+      flood small creeks, streams, low water crossings, and urban
+      areas.
    </div>
 </p>
