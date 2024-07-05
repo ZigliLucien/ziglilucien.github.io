@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 3am, then showers and thunderstorms likely between 3am and 4am, then a chance
-         of showers and thunderstorms. Mostly cloudy. Low around 72, with temperatures rising to around 74 overnight. Southwest wind
-         around 5 mph. Chance of precipitation is 60%.<br></div>
+         of showers and thunderstorms. Mostly cloudy. Low around 72, with temperatures rising to around 74 overnight. West southwest
+         wind around 5 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
