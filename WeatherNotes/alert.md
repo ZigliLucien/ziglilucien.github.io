@@ -1,5 +1,5 @@
 <p>
-   <h2>Flood Watch issued July 4 at 6:57PM CDT until July 5 at 5:00AM CDT by NWS Paducah KY</h2>
+   <h2>Flood Watch issued July 5 at 4:49AM CDT until July 5 at 8:00AM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Flash flooding caused by excessive rainfall continues to be
       possible.
       
@@ -7,12 +7,10 @@
       areas, Edwards, Franklin, Gallatin, Hamilton, Jackson, Jefferson,
       Perry IL, Saline, Wabash, Wayne IL, White and Williamson,
       southwest Indiana, including the following areas, Gibson, Pike,
-      Posey, Spencer, Vanderburgh and Warrick, western Kentucky,
-      including the following areas, Daviess, Henderson and Union KY,
-      and southeast Missouri, including the following areas, Bollinger,
-      Butler, Cape Girardeau, Carter, Perry MO, Ripley and Wayne MO.
+      Posey, Spencer, Vanderburgh and Warrick, and western Kentucky,
+      including the following areas, Daviess, Henderson and Union KY.
       
-      * WHEN...Until 5 AM CDT /6 AM EDT/ Friday.
+      * WHEN...Until 8 AM CDT /9 AM EDT/ this morning.
       
       * IMPACTS...Excessive runoff may result in flooding of rivers,
       creeks, streams, and other low-lying and flood-prone locations.
@@ -20,13 +18,12 @@
       in poor drainage and urban areas.
       
       * ADDITIONAL DETAILS...
-      - While there will be a brief break in the rainfall through
-      late evening, additional thunderstorms are expected
-      overnight. Recent heavy rainfall has primed soils for quicker
-      runoff and faster flood development. The additional round of
-      rain through tonight may produce flash flooding, as well as
-      flooding of small creeks, streams, low water crossings, and
-      urban areas.
+      - Additional thunderstorms with high rain rates are moving
+      through northern portions of the Quad State. With recent
+      heavy rainfall priming soils for quicker runoff and faster
+      flood development, the flood watch is extended to account for
+      these storms. Flooding of small creeks, streams, and urban
+      areas is possible.
       - http://www.weather.gov/safety/flood
    </div>
 </p>
