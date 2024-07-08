@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/979789/" title="See Description">[$] Giving bootloaders the boot with nmbl</a></li>
 <li><a href="#https://lwn.net/Articles/981080/" title="See Description">GDB 15.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/981119/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/981020/" title="See Description">Kernel prepatch 6.10-rc7</a></li>
@@ -52,10 +53,32 @@
 <li><a href="#https://lwn.net/Articles/980575/" title="See Description">Universal Blue images need manual intervention for updates</a></li>
 <li><a href="#https://lwn.net/Articles/979522/" title="See Description">[$] PostmarketOS: Linux for phones and more</a></li>
 <li><a href="#https://lwn.net/Articles/980555/" title="See Description">GNU findutils 4.10.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/980556/" title="See Description">Rosenthal: X Window System At 40</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/979789/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 08 Jul 2024 18:10:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/979789/" title="https://lwn.net/Articles/979789/">[$] Giving bootloaders the boot with nmbl</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>At <a href="https://www.devconf.info/cz/">DevConf.cz 2024</a>,
+Marta Lewandowska gave a talk to discuss a
+new approach for booting Linux systems, "<a
+href="https://pretalx.com/devconf-cz-2024/talk/W3AVCT/">No more boot
+loader: Please use the kernel instead</a>". The talk, <a
+href="https://www.youtube.com/watch?v=ywrSDLp926M">available on
+YouTube</a>, introduced a new project called nmbl (for "no more bootloader",
+pronounced "nimble"). The idea is to get rid of bootloaders (e.g., 
+<a href="https://www.gnu.org/software/grub/">GNU GRUB</a>) with a
+<a
+href="https://uapi-group.org/specifications/specs/unified_kernel_image/">Unified
+Kernel Image</a> (UKI) that removes the need for a separate bootloader
+altogether. It is early days for nmbl, currently the project is only
+being tested for use with virtual machines, but the idea is
+compelling. If successful, nmbl could offer security, performance, and
+maintenance benefits compared to GRUB and other separate bootloaders.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/981080/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 08 Jul 2024 14:35:25 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -287,26 +310,6 @@ pattern, and accepting larger UIDs/GIDs for <tt>find -user</tt> and
 <tt>find -group</tt>. It is also once again possible to build
 findutils on systems with <a href="https://www.musl-libc.org/">musl-libc</a>.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/980556/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 03 Jul 2024 13:25:49 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/980556/" title="https://lwn.net/Articles/980556/">Rosenthal: X Window System At 40</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>David Rosenthal <a
-href="https://blog.dshr.org/2024/07/x-window-system-at-40.html">looks
-back</a> at 40 years of the X Window System:
-<p>
-<blockquote class="bq">
-	A major reason for Sun's early success was that they in effect
-	open-sourced the Network File System. X11 was open source under the
-	MIT license. I, and some of the other Sun engineers, understood
-	that NeWS could not displace X11 as the Unix standard window system
-	without being equally open source. But Sun's management looked at
-	NeWS and saw superior technology, an extension of the PostScript
-	that Adobe was selling, and couldn't bring themselves to give it
-	away.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
