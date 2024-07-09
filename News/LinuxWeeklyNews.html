@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/980558/" title="See Description">[$] A new API for tree-in-dcache filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/981334/" title="See Description">Firefox 128.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/980430/" title="See Description">[$] Offload-friendly network encryption in the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/981287/" title="See Description">Another OpenSSH remote code execution vulnerability</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/980856/" title="See Description">Seven new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/980855/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/980447/" title="See Description">[$] Another try for getrandom() in the vDSO</a></li>
-<li><a href="#https://lwn.net/Articles/980755/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/980558/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jul 2024 21:17:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/980558/" title="https://lwn.net/Articles/980558/">[$] A new API for tree-in-dcache filesystems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>There are a number of kernel filesystems that store their directory entries
+directly in the directory-entry cache (dcache) without having any permanent
+storage for those objects. It started out as a "neat hack" for <a
+href="https://docs.kernel.org/filesystems/ramfs-rootfs-initramfs.html">ramfs</a>,
+Al Viro said, at the start of his filesystem-track session at
+the
+2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  Unfortunately, as the use
+of this technique has grown into other filesystems, there has been a lot of
+scope creep that has gotten out of control.  He wanted to discuss some new
+infrastructure that he is working on to try to clean some of that up.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/981334/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 09 Jul 2024 15:54:07 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -270,24 +289,6 @@ href="https://lwn.net/ml/all/20240703183115.1075219-1-Jason@zx2c4.com">an
 implementation of <tt>getrandom()</tt></a> that lives in the <a
 href="https://man7.org/linux/man-pages/man7/vdso.7.html">virtual dynamic
 shared object (vDSO) area</a>.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/980755/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 04 Jul 2024 15:03:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/980755/" title="https://lwn.net/Articles/980755/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds, c-ares, container-tools, cups, fontforge, go-toolset, iperf3, less, libreoffice, libuv, nghttp2, openldap, python-idna, python-jinja2, python-pillow, python3, python3.11-PyMySQL, qemu-kvm, and xmlrpc-c), <b>Debian</b> (znc), <b>Fedora</b> (firmitas and libnbd), <b>Mageia</b> (dcmtk, krb5, libcdio, and openssh), <b>Oracle</b> (golang, openssh, pki-core, and qemu-kvm), <b>Red Hat</b> (openssh), <b>SUSE</b> (apache2-mod_auth_openidc, emacs, go1.21, go1.22, krb5, openCryptoki, and openssh), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-hwe, linux-gcp, linux-gcp-4.15, linux-hwe,
- linux-kvm, linux-oracle, linux, linux-aws, linux-azure, linux-azure-5.4, linux-bluefield,
- linux-gcp, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4,
- linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi,
- linux-raspi-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-kvm, linux-lts-xenial, linux, linux-gcp, linux-gcp-6.5, linux-laptop, linux-nvidia-6.5,
- linux-raspi, linux, linux-gcp, linux-lowlatency, linux-lowlatency-hwe-5.15,
- linux-nvidia, linux-xilinx-zynqmp, linux, linux-ibm, linux-lowlatency, linux-nvidia, linux-raspi, linux-aws, linux-aws-6.5, linux-oem-6.5, linux-oracle, linux-oracle-6.5,
- linux-starfive, linux-aws, linux-azure, linux-azure-5.15, linux-azure-fde,
- linux-azure-fde-5.15, linux-gke, linux-gkeop, linux-gkeop-5.15, linux-ibm,
- linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-oracle,
- linux-oracle-5.15, linux-azure, linux-azure, linux-azure-6.5, linux-bluefield, linux-iot, linux-gcp, linux-intel, linux-hwe-5.15, and php7.0 and php7.2).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
