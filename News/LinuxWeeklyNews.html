@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/981334/" title="See Description">Firefox 128.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/980430/" title="See Description">[$] Offload-friendly network encryption in the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/981287/" title="See Description">Another OpenSSH remote code execution vulnerability</a></li>
 <li><a href="#https://lwn.net/Articles/981285/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/981256/" title="See Description">Stable kernel update 6.6.38</a></li>
@@ -51,11 +53,43 @@
 <li><a href="#https://lwn.net/Articles/980855/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/980447/" title="See Description">[$] Another try for getrandom() in the vDSO</a></li>
 <li><a href="#https://lwn.net/Articles/980755/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/979852/" title="See Description">[$] LWN.net Weekly Edition for July 4, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/980330/" title="See Description">[$] Mount notifications</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/981334/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jul 2024 15:54:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981334/" title="https://lwn.net/Articles/981334/">Firefox 128.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://www.mozilla.org/en-US/firefox/128.0/releasenotes/">Version
+128.0</a> of the Firefox browser has been released.  Changes this time
+include the ability to translate highlighted phrases from the context menu,
+display of recent searches on opening the address bar (US/Canada only), a
+streamlined dialog for clearing user data, and more.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/980430/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jul 2024 14:18:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/980430/" title="https://lwn.net/Articles/980430/">[$] Offload-friendly network encryption in the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The
+<a href="https://github.com/google/psp">
+PSP security protocol</a> (PSP) is a way to transparently encrypt packets by
+efficiently offloading encryption and decryption to the network
+interface cards (NICs) that Google uses for connections inside its data centers. The
+protocol is similar to
+<a href="https://en.wikipedia.org/wiki/IPsec">
+IPsec</a>, in that it allows for wrapping arbitrary traffic
+in a layer of encryption. The difference is that PSP is encapsulated in UDP, and
+designed from the beginning to reduce the amount of state that NICs
+have to track in order to send and receive encrypted traffic, allowing for more
+simultaneous connections. Jakub Kicinski
+<a href="https://lwn.net/ml/netdev/20240510030435.120935-1-kuba@kernel.org/">
+wants to add support</a> for the protocol to the Linux kernel.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/981287/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 09 Jul 2024 13:36:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -254,33 +288,6 @@ shared object (vDSO) area</a>.
  linux-azure-fde-5.15, linux-gke, linux-gkeop, linux-gkeop-5.15, linux-ibm,
  linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-oracle,
  linux-oracle-5.15, linux-azure, linux-azure, linux-azure-6.5, linux-bluefield, linux-iot, linux-gcp, linux-intel, linux-hwe-5.15, and php7.0 and php7.2).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/979852/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 04 Jul 2024 02:32:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/979852/" title="https://lwn.net/Articles/979852/">[$] LWN.net Weekly Edition for July 4, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for July 4, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/980330/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 03 Jul 2024 19:32:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/980330/" title="https://lwn.net/Articles/980330/">[$] Mount notifications</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There are a handful of extensions to the "new" mount API that Christian
-Brauner wanted to discuss as part of a filesystem session at 
-the
-2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  In the session, though,
-the only one that he got to was a followup to last year's <a
-href="https://lwn.net/Articles/932648/">discussion on mount-operation monitoring</a>.
-There is a need for user-space programs to be able to follow mount
-operations (e.g. mount and unmount) that happen in the system, especially
-for tools like container
-managers or systemd.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
