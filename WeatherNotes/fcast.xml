@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-07-09T13:36:03+00:00</generatedAt>
+		<generatedAt type="str">2024-07-09T14:36:03+00:00</generatedAt>
 		<updateTime type="str">2024-07-09T13:19:07+00:00</updateTime>
 		<validTimes type="str">2024-07-09T07:00:00+00:00/P7DT18H</validTimes>
 		<elevation type="dict">
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2024-07-09T08:00:00-05:00</startTime>
+				<startTime type="str">2024-07-09T09:00:00-05:00</startTime>
 				<endTime type="str">2024-07-09T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">78</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">100</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 to 10 mph</windSpeed>
+				<windSpeed type="str">6 to 10 mph</windSpeed>
 				<windDirection type="str">NE</windDirection>
-				<icon type="str">/icons/land/day/tsra,90/tsra,100?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra,90/tsra,100?size=medium</icon>
 				<shortForecast type="str">Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy. High near 78, with temperatures falling to around 74 in the afternoon. Northeast wind 5 to 10 mph, with gusts as high as 22 mph. Chance of precipitation is 100%.</detailedForecast>
+				<detailedForecast type="str">Showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy. High near 78, with temperatures falling to around 74 in the afternoon. Northeast wind 6 to 10 mph, with gusts as high as 22 mph. Chance of precipitation is 100%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -83,7 +83,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">12 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
-				<icon type="str">/icons/land/night/tsra,80/tsra,30?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra,80/tsra,30?size=medium</icon>
 				<shortForecast type="str">Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">Showers and thunderstorms before 7pm, then showers and thunderstorms likely between 7pm and 10pm, then a chance of showers and thunderstorms between 10pm and 1am, then a slight chance of showers and thunderstorms between 1am and 2am. Some of the storms could produce heavy rain. Mostly cloudy, with a low around 64. North northwest wind around 12 mph, with gusts as high as 23 mph. Chance of precipitation is 80%.</detailedForecast>
 			</item>
@@ -102,7 +102,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 to 9 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
-				<icon type="str">/icons/land/day/sct?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
 				<detailedForecast type="str">Mostly sunny, with a high near 84. West northwest wind 6 to 9 mph.</detailedForecast>
 			</item>
@@ -121,7 +121,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>
-				<icon type="str">/icons/land/night/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
 				<detailedForecast type="str">Mostly clear, with a low around 66. West southwest wind around 3 mph.</detailedForecast>
 			</item>
@@ -140,7 +140,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>
-				<icon type="str">/icons/land/day/few/tsra_hi,20?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/few/tsra_hi,20?size=medium</icon>
 				<shortForecast type="str">Sunny then Slight Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A slight chance of showers and thunderstorms after 1pm. Sunny, with a high near 87. West southwest wind around 3 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
@@ -159,7 +159,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">/icons/land/night/tsra_hi,20/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,20/few?size=medium</icon>
 				<shortForecast type="str">Slight Chance Showers And Thunderstorms then Mostly Clear</shortForecast>
 				<detailedForecast type="str">A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 68. South southwest wind around 2 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
@@ -178,7 +178,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">/icons/land/day/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
 				<detailedForecast type="str">Sunny, with a high near 88. South wind around 5 mph.</detailedForecast>
 			</item>
@@ -197,7 +197,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">/icons/land/night/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
 				<detailedForecast type="str">Mostly clear, with a low around 70. South wind around 3 mph.</detailedForecast>
 			</item>
@@ -216,7 +216,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">/icons/land/day/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
 				<detailedForecast type="str">Sunny, with a high near 90. South southwest wind around 5 mph.</detailedForecast>
 			</item>
@@ -235,7 +235,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">/icons/land/night/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
 				<detailedForecast type="str">Mostly clear, with a low around 71. South southwest wind around 3 mph.</detailedForecast>
 			</item>
@@ -254,7 +254,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 6 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">/icons/land/day/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
 				<detailedForecast type="str">Sunny, with a high near 91. South southwest wind 2 to 6 mph.</detailedForecast>
 			</item>
@@ -273,7 +273,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">/icons/land/night/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
 				<detailedForecast type="str">Mostly clear, with a low around 72. South southwest wind around 5 mph.</detailedForecast>
 			</item>
@@ -292,7 +292,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 to 8 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">/icons/land/day/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
 				<detailedForecast type="str">Sunny, with a high near 94. South southwest wind 5 to 8 mph.</detailedForecast>
 			</item>
@@ -311,7 +311,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">/icons/land/night/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
 				<detailedForecast type="str">Mostly clear, with a low around 74. South southwest wind around 7 mph.</detailedForecast>
 			</item>

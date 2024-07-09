@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/981287/" title="See Description">Another OpenSSH remote code execution vulnerability</a></li>
+<li><a href="#https://lwn.net/Articles/981285/" title="See Description">Security updates for Tuesday</a></li>
+<li><a href="#https://lwn.net/Articles/981256/" title="See Description">Stable kernel update 6.6.38</a></li>
 <li><a href="#https://lwn.net/Articles/981178/" title="See Description">Esfahbod: State of Text Rendering 2024</a></li>
 <li><a href="#https://lwn.net/Articles/979789/" title="See Description">[$] Giving bootloaders the boot with nmbl</a></li>
 <li><a href="#https://lwn.net/Articles/981080/" title="See Description">GDB 15.1 released</a></li>
@@ -50,12 +53,51 @@
 <li><a href="#https://lwn.net/Articles/980755/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/979852/" title="See Description">[$] LWN.net Weekly Edition for July 4, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/980330/" title="See Description">[$] Mount notifications</a></li>
-<li><a href="#https://lwn.net/Articles/978324/" title="See Description">[$] Debian debate over tag2upload reaches compromise</a></li>
-<li><a href="#https://lwn.net/Articles/980575/" title="See Description">Universal Blue images need manual intervention for updates</a></li>
-<li><a href="#https://lwn.net/Articles/979522/" title="See Description">[$] PostmarketOS: Linux for phones and more</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/981287/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jul 2024 13:36:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981287/" title="https://lwn.net/Articles/981287/">Another OpenSSH remote code execution vulnerability</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Alexander "Solar Designer" Peslyak has <a
+href="https://lwn.net/ml/all/20240708162106.GA4920@openwall.com">disclosed another OpenSSH
+vulnerability</a> that can be exploited for remote code execution, but only
+on distributions that have applied a patch to add auditing support.
+Specifically, RHEL&nbsp;9 and derivatives are affected, as are
+Fedora&nbsp;36 and&nbsp;37 (but not later releases).
+<p>
+<blockquote class="bq">
+	The main difference from CVE-2024-6387 is that the race condition
+	and RCE potential are triggered in the privsep child process, which
+	runs with reduced privileges compared to the parent server process.
+	So immediate impact is lower.  However, there may be differences in
+	exploitability of these vulnerabilities in a particular scenario,
+	which could make either one of these a more attractive choice for
+	an attacker, and if only one of these is fixed or mitigated then
+	the other becomes more relevant.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/981285/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jul 2024 13:01:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981285/" title="https://lwn.net/Articles/981285/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (virt:rhel and virt-devel:rhel), <b>Fedora</b> (ghostscript, golang, httpd, libnbd, netatalk, rust-sequoia-chameleon-gnupg, rust-sequoia-gpg-agent, rust-sequoia-keystore, rust-sequoia-openpgp, and rust-sequoia-sq), <b>Mageia</b> (apache), <b>Red Hat</b> (booth, buildah, edk2, fence-agents, git, gvisor-tap-vsock, kernel, kernel-rt, less, libreswan, linux-firmware, openssh, pki-core, podman, postgresql-jdbc, python3, tpm2-tss, virt:rhel, and virt:rhel and virt-devel:rhel modules), <b>SUSE</b> (krb5, poppler, and python-docker), and <b>Ubuntu</b> (apache2, cinder, glance, nova, and Tomcat).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/981256/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jul 2024 12:58:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981256/" title="https://lwn.net/Articles/981256/">Stable kernel update 6.6.38</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/981255/">6.6.38</a> stable kernel update has been
+released, without the benefit of the usual review process.  It reverts some
+BPF changes with patches that do not appear in the mainline (in this form,
+at least).  "<q>All powerpc and arm64 users of the 6.6 kernel series must
+upgrade.  Everyone else probably should as well to be safe.</q>"</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/981178/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 09 Jul 2024 03:48:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -239,77 +281,6 @@ There is a need for user-space programs to be able to follow mount
 operations (e.g. mount and unmount) that happen in the system, especially
 for tools like container
 managers or systemd.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/978324/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 03 Jul 2024 17:01:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/978324/" title="https://lwn.net/Articles/978324/">[$] Debian debate over tag2upload reaches compromise</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Debian's proposed <a
-href="https://salsa.debian.org/dgit-team/dgit/-/blob/master/TAG2UPLOAD-DESIGN.txt">tag2upload
-service</a> would be worthy of an article
-even if it wasn't so contentious; tag2upload promises a
-streamlined way for Debian developers using Git to upload packages to
-the <a href="https://wiki.debian.org/Services/Debian%20Archive">Debian
-Archive</a>. But tag2upload has been in limbo for
-years due to disagreement and a communication breakdown between the team
-behind tag2upload and the <a
-href="https://ftp-master.debian.org/">ftpmasters</a> team. It took the
-threat of a <a
-href="https://www.debian.org/devel/constitution#item-4">General
-Resolution</a> (GR), weeks of discussion, and more than
-1,000 emails to finally move forward.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/980575/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 03 Jul 2024 15:12:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/980575/" title="https://lwn.net/Articles/980575/">Universal Blue images need manual intervention for updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://universal-blue.org/">Universal Blue</a>
-project, which produces operating system images based on Fedora's <a
-href="https://fedoraproject.org/atomic-desktops/">Atomic Desktops</a>,
-has issued an <a
-href="https://universal-blue.discourse.group/t/important-announcement-regarding-system-updates-action-needed/2689/1">announcement</a>
-that manual steps are required to continue receiving updates. Jorge
-Castro wrote:</p>
-
-
-<blockquote class="bq">
-<p>If you use Bazzite, Bluefin, Aurora, or any other Universal Blue
-image (including our toolboxes) then you need to follow the
-instructions in this announcement in order to ensure that your device
-is getting updates. We were rotating our cosign keypairs this morning,
-which is the method that we use to sign our images.</p>
-
-
-<p>During this process I made a critical error which has resulted in
-forcing you to take manual steps to migrate to our newly signed
-images.</p>
-</blockquote>
-
-<p>This applies to all Universal Blue images released before July 2,
-2024. See the full announcement for instructions. LWN <a
-href="https://lwn.net/Articles/954059/">covered Bluefin</a> in
-December, 2023.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/979522/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 03 Jul 2024 13:42:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/979522/" title="https://lwn.net/Articles/979522/">[$] PostmarketOS: Linux for phones and more</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In 2016, Oliver Smith reached a point of frustration with the short
-lifespan of updates for his Android phone. Taking matters into his own
-hands, he began developing <a
-href="https://postmarketos.org">postmarketOS</a>, a Linux distribution for
-mobile phones. Eight years later, the <a
-href="https://wiki.postmarketos.org/wiki/Team_members">core team and
-trusted contributors</a> have grown to twenty individuals, while the latest
-release, <a
-href="https://postmarketos.org/blog/2024/06/16/v24.06-release/">v24.06</a>,
-now shows support for over 250&nbsp;devices. Although postmarketOS isn't
-usable as a day-to-day phone operating system on all of them, it can also enable repurposing devices into compact servers or kiosk machines.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
