@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/981155/" title="See Description">[$] Improving pseudo filesystems</a></li>
+<li><a href="#https://lwn.net/Articles/981320/" title="See Description">[$] Sxmo: a text-centric mobile user interface</a></li>
 <li><a href="#https://lwn.net/Articles/981508/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/980558/" title="See Description">[$] A new API for tree-in-dcache filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/981334/" title="See Description">Firefox 128.0 released</a></li>
@@ -51,11 +53,42 @@
 <li><a href="#https://lwn.net/Articles/981119/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/981020/" title="See Description">Kernel prepatch 6.10-rc7</a></li>
 <li><a href="#https://lwn.net/Articles/979870/" title="See Description">[$] New features in C++26</a></li>
-<li><a href="#https://lwn.net/Articles/980856/" title="See Description">Seven new stable kernels</a></li>
-<li><a href="#https://lwn.net/Articles/980855/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/981155/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 10 Jul 2024 15:33:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981155/" title="https://lwn.net/Articles/981155/">[$] Improving pseudo filesystems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The eventfs filesystem provides an interface to the tracepoints that are available
+to be used by various Linux tracing tools (e.g. ftrace, perf, uprobes,
+etc.); it is meant to be a version of the tracefs filesystem that
+dynamically allocates its entries as needed.  The goal is to reduce the memory
+required for multiple instances of tracefs, as Steven Rostedt described in
+a <a href="https://lwn.net/Articles/895111/">session</a> at the 2022
+<a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  He returned to the 2024
+edition of the summit to talk further about how to make pseudo (or virtual)
+filesystems, such as tracefs/eventfs, more like regular Linux filesystems,
+where the directory entries (dentries) and inodes are only created (and
+cached) as needed.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/981320/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 10 Jul 2024 14:54:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981320/" title="https://lwn.net/Articles/981320/">[$] Sxmo: a text-centric mobile user interface</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://sxmo.org">Sxmo</a>, short for "Simple X Mobile", is described on its web site as "<q>a
+minimalist environment for Linux mobile devices</q>"; it offers a menu-driven
+interface that is controlled with the phone's hardware buttons. Sxmo enables the user
+to send SMS messages from a text editor and is entirely customizable with
+shell scripts. This peculiar mobile user interface significantly differs
+from the prevailing approach—but it works.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/981508/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 10 Jul 2024 13:15:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -254,30 +287,6 @@ user-space read-copy-update</a> (RCU).
 Even though <span style="white-space:nowrap;">C++26</span> is not yet a standard, many of the proposed features are already
 available to experiment with in GCC or Clang.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/980856/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 05 Jul 2024 12:34:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/980856/" title="https://lwn.net/Articles/980856/">Seven new stable kernels</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Greg Kroah-Hartman has announced the release of seven more stable kernels.
-Versions <a href="https://lwn.net/Articles/980859/">6.9.8</a>,
-<a href="https://lwn.net/Articles/980860/">6.6.37</a>,
-<a href="https://lwn.net/Articles/980861/">6.1.97</a>,
-<a href="https://lwn.net/Articles/980862/">5.15.162</a>,
-<a href="https://lwn.net/Articles/980863/">5.10.221</a>,
-<a href="https://lwn.net/Articles/980864/">5.4.279</a>,
-and <a href="https://lwn.net/Articles/980865/">4.19.317</a> are now available.
-</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/980855/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 05 Jul 2024 12:17:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/980855/" title="https://lwn.net/Articles/980855/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (cockpit, python-astropy, python3-docs, and python3.12), <b>Gentoo</b> (BusyBox, GNU Coreutils, GraphicsMagick, podman, PuTTY, Sofia-SIP, TigerVNC, and WebKitGTK+), <b>Mageia</b> (chromium-browser-stable and openvpn), <b>SUSE</b> (cockpit, krb5, and netatalk), and <b>Ubuntu</b> (kopanocore, libreoffice, linux-aws, linux-oem-6.8, linux-aws-5.15, linux-azure, linux-azure-4.15, linux-lowlatency, linux-lowlatency-hwe-6.5, linux-oracle, linux-starfive-6.5, and virtuoso-opensource).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
