@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/981508/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/980558/" title="See Description">[$] A new API for tree-in-dcache filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/981334/" title="See Description">Firefox 128.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/980430/" title="See Description">[$] Offload-friendly network encryption in the kernel</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/979870/" title="See Description">[$] New features in C++26</a></li>
 <li><a href="#https://lwn.net/Articles/980856/" title="See Description">Seven new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/980855/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/980447/" title="See Description">[$] Another try for getrandom() in the vDSO</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/981508/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 10 Jul 2024 13:15:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981508/" title="https://lwn.net/Articles/981508/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, gvisor-tap-vsock, kernel-rt, libreswan, linux-firmware, pki-core, and podman), <b>Fedora</b> (firefox and jpegxl), <b>Gentoo</b> (Buildah, HarfBuzz, and LIVE555 Media Server), <b>Oracle</b> (buildah, gvisor-tap-vsock, kernel, libreswan, and podman), <b>Red Hat</b> (containernetworking-plugins, dotnet6.0, dotnet8.0, fence-agents, kernel, libreswan, libvirt, perl-HTTP-Tiny, python39:3.9, toolbox, and virt:rhel and virt-devel:rhel modules), <b>SUSE</b> (firefox, freeradius-server, haproxy, jbigkit, kernel, kernel-firmware, pam, ppp, python3-cryptography, skopeo, and tar), and <b>Ubuntu</b> (dotnet6, dotnet8, exim4, firefox, golang-1.21, golang-1.22, openssh, and python-django).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/980558/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 09 Jul 2024 21:17:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -270,25 +278,6 @@ and <a href="https://lwn.net/Articles/980865/">4.19.317</a> are now available.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (cockpit, python-astropy, python3-docs, and python3.12), <b>Gentoo</b> (BusyBox, GNU Coreutils, GraphicsMagick, podman, PuTTY, Sofia-SIP, TigerVNC, and WebKitGTK+), <b>Mageia</b> (chromium-browser-stable and openvpn), <b>SUSE</b> (cockpit, krb5, and netatalk), and <b>Ubuntu</b> (kopanocore, libreoffice, linux-aws, linux-oem-6.8, linux-aws-5.15, linux-azure, linux-azure-4.15, linux-lowlatency, linux-lowlatency-hwe-6.5, linux-oracle, linux-starfive-6.5, and virtuoso-opensource).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/980447/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 04 Jul 2024 16:30:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/980447/" title="https://lwn.net/Articles/980447/">[$] Another try for getrandom() in the vDSO</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Random numbers, it seems, can never be random enough, and they cannot be
-generated quickly enough.  The kernel's <a
-href="https://man7.org/linux/man-pages/man2/getrandom.2.html"><tt>getrandom()</tt></a>
-system call might, after years of discussion, be seen as sufficiently
-secure by most users, but it is still a system call.  Linux system calls
-are relatively fast, but they are necessarily slower than calling a
-function directly.  In an attempt to speed the provision of secure random
-data to user space, Jason Donenfeld has put together <a
-href="https://lwn.net/ml/all/20240703183115.1075219-1-Jason@zx2c4.com">an
-implementation of <tt>getrandom()</tt></a> that lives in the <a
-href="https://man7.org/linux/man-pages/man7/vdso.7.html">virtual dynamic
-shared object (vDSO) area</a>.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
