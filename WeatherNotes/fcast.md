@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of showers and thunderstorms. Mostly sunny. High near 89, with temperatures falling to around 84 in the afternoon.
-         West wind 1 to 5 mph. Chance of precipitation is 40%.<br></div>
+         West southwest wind around 5 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

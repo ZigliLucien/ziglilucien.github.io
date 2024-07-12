@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/981813/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/981124/" title="See Description">[$] Nix alternatives and spinoffs</a></li>
 <li><a href="#https://lwn.net/Articles/981371/" title="See Description">[$] Reports from OSPM 2024, part 1</a></li>
 <li><a href="#https://lwn.net/Articles/981717/" title="See Description">Stable kernels 6.9.9, 6.6.39, and 6.1.98</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/980558/" title="See Description">[$] A new API for tree-in-dcache filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/981334/" title="See Description">Firefox 128.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/980430/" title="See Description">[$] Offload-friendly network encryption in the kernel</a></li>
-<li><a href="#https://lwn.net/Articles/981287/" title="See Description">Another OpenSSH remote code execution vulnerability</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/981813/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 12 Jul 2024 13:06:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981813/" title="https://lwn.net/Articles/981813/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (apache2), <b>Fedora</b> (mingw-python3 and python-urllib3), <b>Oracle</b> (dotnet6.0, dotnet8.0, fence-agents, openssh, pki-core, and virt:ol and virt-devel:rhel), <b>SUSE</b> (apache2, firefox, libvpx, oniguruma, python-zipp, python310, thunderbird, and tomcat10), and <b>Ubuntu</b> (apache2, apport, linux, linux-azure, linux-gcp, linux-ibm, linux-intel, linux-lowlatency, linux-oem-6.8, linux-raspi, linux, linux-gcp, linux-nvidia-6.5, linux-raspi, linux-gke, and python-django).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/981124/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 11 Jul 2024 16:21:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -318,29 +326,6 @@ simultaneous connections. Jakub Kicinski
 wants to add support</a> for the protocol to the Linux kernel.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/981287/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 09 Jul 2024 13:36:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/981287/" title="https://lwn.net/Articles/981287/">Another OpenSSH remote code execution vulnerability</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Alexander "Solar Designer" Peslyak has <a
-href="https://lwn.net/ml/all/20240708162106.GA4920@openwall.com">disclosed another OpenSSH
-vulnerability</a> that can be exploited for remote code execution, but only
-on distributions that have applied a patch to add auditing support.
-Specifically, RHEL&nbsp;9 and derivatives are affected, as are
-Fedora&nbsp;36 and&nbsp;37 (but not later releases).
-<p>
-<blockquote class="bq">
-	The main difference from CVE-2024-6387 is that the race condition
-	and RCE potential are triggered in the privsep child process, which
-	runs with reduced privileges compared to the parent server process.
-	So immediate impact is lower.  However, there may be differences in
-	exploitability of these vulnerabilities in a particular scenario,
-	which could make either one of these a more attractive choice for
-	an attacker, and if only one of these is fixed or mitigated then
-	the other becomes more relevant.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
