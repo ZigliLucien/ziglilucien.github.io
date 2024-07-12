@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/981130/" title="See Description">[$] A look at Linux Mint 22</a></li>
 <li><a href="#https://lwn.net/Articles/981813/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/981124/" title="See Description">[$] Nix alternatives and spinoffs</a></li>
 <li><a href="#https://lwn.net/Articles/981371/" title="See Description">[$] Reports from OSPM 2024, part 1</a></li>
@@ -52,10 +53,23 @@
 <li><a href="#https://lwn.net/Articles/981508/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/980558/" title="See Description">[$] A new API for tree-in-dcache filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/981334/" title="See Description">Firefox 128.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/980430/" title="See Description">[$] Offload-friendly network encryption in the kernel</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/981130/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 12 Jul 2024 14:32:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981130/" title="https://lwn.net/Articles/981130/">[$] A look at Linux Mint 22</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Linux Mint has <a
+href="https://blog.linuxmint.com/?p=4725">released</a> a beta of its
+next long-term-support (LTS) release, Linux&nbsp;Mint&nbsp;22 (code-named "Wilma"), based on <a href="https://lwn.net/Articles/971143/">Ubuntu&nbsp;24.04</a>. Aside from the standard
+software updates that come with any major upgrade, some of Wilma's
+largest selling points are what it <em>doesn't</em> have; namely snap
+packages or GNOME applications that have broken theming on non-GNOME
+desktops like Mint's Cinnamon desktop.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/981813/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 12 Jul 2024 13:06:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -303,29 +317,6 @@ infrastructure that he is working on to try to clean some of that up.
 include the ability to translate highlighted phrases from the context menu,
 display of recent searches on opening the address bar (US/Canada only), a
 streamlined dialog for clearing user data, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/980430/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 09 Jul 2024 14:18:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/980430/" title="https://lwn.net/Articles/980430/">[$] Offload-friendly network encryption in the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The
-<a href="https://github.com/google/psp">
-PSP security protocol</a> (PSP) is a way to transparently encrypt packets by
-efficiently offloading encryption and decryption to the network
-interface cards (NICs) that Google uses for connections inside its data centers. The
-protocol is similar to
-<a href="https://en.wikipedia.org/wiki/IPsec">
-IPsec</a>, in that it allows for wrapping arbitrary traffic
-in a layer of encryption. The difference is that PSP is encapsulated in UDP, and
-designed from the beginning to reduce the amount of state that NICs
-have to track in order to send and receive encrypted traffic, allowing for more
-simultaneous connections. Jakub Kicinski
-<a href="https://lwn.net/ml/netdev/20240510030435.120935-1-kuba@kernel.org/">
-wants to add support</a> for the protocol to the Linux kernel.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
