@@ -1,10 +1,127 @@
 <?xml version="1.0" ?>
 <all>
-	<key name="@context" type="dict">
-		<key name="@version" type="str">1.1</key>
+	<key name="@context" type="list">
+		<item type="str">https://geojson.org/geojson-ld/geojson-context.jsonld</item>
+		<item type="dict">
+			<key name="@version" type="str">1.1</key>
+			<wx type="str">https://api.weather.gov/ontology#</wx>
+			<key name="@vocab" type="str">https://api.weather.gov/ontology#</key>
+		</item>
 	</key>
 	<type type="str">FeatureCollection</type>
-	<features type="list"/>
+	<features type="list">
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa8ba3dbc27e459afd49ef66c94ee0582aa98f2b.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="dict">
+				<type type="str">Polygon</type>
+				<coordinates type="list">
+					<item type="list">
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.74</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.29</item>
+							<item type="float">37.6</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.38000000000001</item>
+							<item type="float">37.6</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.59</item>
+							<item type="float">37.76</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.49000000000001</item>
+							<item type="float">37.87</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.74</item>
+						</item>
+					</item>
+				</coordinates>
+			</geometry>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa8ba3dbc27e459afd49ef66c94ee0582aa98f2b.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.fa8ba3dbc27e459afd49ef66c94ee0582aa98f2b.001.1</id>
+				<areaDesc type="str">Jackson</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017077</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ084</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2024-07-12T02:13:00-05:00</sent>
+				<effective type="str">2024-07-12T02:13:00-05:00</effective>
+				<onset type="str">2024-07-12T02:13:00-05:00</onset>
+				<expires type="str">2024-07-12T03:00:00-05:00</expires>
+				<ends type="null"/>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Observed</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Special Weather Statement</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Special Weather Statement issued July 12 at 2:13AM CDT by NWS Paducah KY</headline>
+				<description type="str">At 212 AM CDT, Doppler radar was tracking a strong thunderstorm 7
+miles south of Ava, or 8 miles west of Murphysboro, moving southeast
+at 20 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impacted include...
+Carbondale, Murphysboro, Cedar Lake Area, and Gorham.</description>
+				<instruction type="str">If outdoors, consider seeking shelter inside a building.</instruction>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">SPSPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS83 KPAH 120713</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">A STRONG THUNDERSTORM WILL IMPACT CENTRAL JACKSON COUNTY THROUGH 300 AM CDT</item>
+					</NWSheadline>
+					<eventMotionDescription type="list">
+						<item type="str">2024-07-12T07:12:00-00:00...storm...305DEG...18KT...37.78,-89.49</item>
+					</eventMotionDescription>
+					<maxWindGust type="list">
+						<item type="str">40 MPH</item>
+					</maxWindGust>
+					<maxHailSize type="list">
+						<item type="str">0.00</item>
+					</maxHailSize>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+				</parameters>
+			</properties>
+		</item>
+	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-07-12T00:30:00+00:00</updated>
+	<updated type="str">2024-07-12T07:13:52+00:00</updated>
 </all>
