@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of showers and thunderstorms before 11pm, then patchy fog. Mostly clear, with a low around 68. South southwest
-         wind around 3 mph. Chance of precipitation is 20%.<br></div>
+         wind around 2 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
