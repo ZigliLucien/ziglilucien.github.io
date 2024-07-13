@@ -1,10 +1,383 @@
 <?xml version="1.0" ?>
 <all>
-	<key name="@context" type="dict">
-		<key name="@version" type="str">1.1</key>
+	<key name="@context" type="list">
+		<item type="str">https://geojson.org/geojson-ld/geojson-context.jsonld</item>
+		<item type="dict">
+			<key name="@version" type="str">1.1</key>
+			<wx type="str">https://api.weather.gov/ontology#</wx>
+			<key name="@vocab" type="str">https://api.weather.gov/ontology#</key>
+		</item>
 	</key>
 	<type type="str">FeatureCollection</type>
-	<features type="list"/>
+	<features type="list">
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c2391a1850892cf07c9bc992897bdbbec07bb65.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="null"/>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c2391a1850892cf07c9bc992897bdbbec07bb65.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.4c2391a1850892cf07c9bc992897bdbbec07bb65.001.1</id>
+				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017081</item>
+						<item type="str">017191</item>
+						<item type="str">017047</item>
+						<item type="str">017185</item>
+						<item type="str">017145</item>
+						<item type="str">017055</item>
+						<item type="str">017065</item>
+						<item type="str">017193</item>
+						<item type="str">017077</item>
+						<item type="str">017199</item>
+						<item type="str">017165</item>
+						<item type="str">017059</item>
+						<item type="str">017181</item>
+						<item type="str">017087</item>
+						<item type="str">017151</item>
+						<item type="str">017069</item>
+						<item type="str">017003</item>
+						<item type="str">017153</item>
+						<item type="str">017127</item>
+						<item type="str">018051</item>
+						<item type="str">018125</item>
+						<item type="str">018129</item>
+						<item type="str">018163</item>
+						<item type="str">018173</item>
+						<item type="str">018147</item>
+						<item type="str">021075</item>
+						<item type="str">021105</item>
+						<item type="str">021039</item>
+						<item type="str">021007</item>
+						<item type="str">021145</item>
+						<item type="str">021083</item>
+						<item type="str">021139</item>
+						<item type="str">021157</item>
+						<item type="str">021035</item>
+						<item type="str">021055</item>
+						<item type="str">021143</item>
+						<item type="str">021221</item>
+						<item type="str">021033</item>
+						<item type="str">021225</item>
+						<item type="str">021233</item>
+						<item type="str">021107</item>
+						<item type="str">021047</item>
+						<item type="str">021101</item>
+						<item type="str">021059</item>
+						<item type="str">021149</item>
+						<item type="str">021177</item>
+						<item type="str">021219</item>
+						<item type="str">029157</item>
+						<item type="str">029017</item>
+						<item type="str">029031</item>
+						<item type="str">029223</item>
+						<item type="str">029035</item>
+						<item type="str">029181</item>
+						<item type="str">029023</item>
+						<item type="str">029207</item>
+						<item type="str">029201</item>
+						<item type="str">029133</item>
+						<item type="str">029143</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ075</item>
+						<item type="str">ILZ076</item>
+						<item type="str">ILZ077</item>
+						<item type="str">ILZ078</item>
+						<item type="str">ILZ080</item>
+						<item type="str">ILZ081</item>
+						<item type="str">ILZ082</item>
+						<item type="str">ILZ083</item>
+						<item type="str">ILZ084</item>
+						<item type="str">ILZ085</item>
+						<item type="str">ILZ086</item>
+						<item type="str">ILZ087</item>
+						<item type="str">ILZ088</item>
+						<item type="str">ILZ089</item>
+						<item type="str">ILZ090</item>
+						<item type="str">ILZ091</item>
+						<item type="str">ILZ092</item>
+						<item type="str">ILZ093</item>
+						<item type="str">ILZ094</item>
+						<item type="str">INZ081</item>
+						<item type="str">INZ082</item>
+						<item type="str">INZ085</item>
+						<item type="str">INZ086</item>
+						<item type="str">INZ087</item>
+						<item type="str">INZ088</item>
+						<item type="str">KYZ001</item>
+						<item type="str">KYZ002</item>
+						<item type="str">KYZ003</item>
+						<item type="str">KYZ004</item>
+						<item type="str">KYZ005</item>
+						<item type="str">KYZ006</item>
+						<item type="str">KYZ007</item>
+						<item type="str">KYZ008</item>
+						<item type="str">KYZ009</item>
+						<item type="str">KYZ010</item>
+						<item type="str">KYZ011</item>
+						<item type="str">KYZ012</item>
+						<item type="str">KYZ013</item>
+						<item type="str">KYZ014</item>
+						<item type="str">KYZ015</item>
+						<item type="str">KYZ016</item>
+						<item type="str">KYZ017</item>
+						<item type="str">KYZ018</item>
+						<item type="str">KYZ019</item>
+						<item type="str">KYZ020</item>
+						<item type="str">KYZ021</item>
+						<item type="str">KYZ022</item>
+						<item type="str">MOZ076</item>
+						<item type="str">MOZ086</item>
+						<item type="str">MOZ087</item>
+						<item type="str">MOZ100</item>
+						<item type="str">MOZ107</item>
+						<item type="str">MOZ108</item>
+						<item type="str">MOZ109</item>
+						<item type="str">MOZ110</item>
+						<item type="str">MOZ111</item>
+						<item type="str">MOZ112</item>
+						<item type="str">MOZ114</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ075</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ077</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ078</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ081</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ082</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ083</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ090</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ091</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ093</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ094</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ081</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ082</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ085</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ001</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ002</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ003</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ004</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ005</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ006</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ007</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ008</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ009</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ010</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ011</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ012</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ013</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ014</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ015</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ016</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ017</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ018</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ019</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ020</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ021</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ022</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ108</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ109</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ110</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2024-07-13T14:01:00-05:00</sent>
+				<effective type="str">2024-07-13T14:01:00-05:00</effective>
+				<onset type="str">2024-07-14T13:00:00-05:00</onset>
+				<expires type="str">2024-07-13T22:15:00-05:00</expires>
+				<ends type="str">2024-07-15T20:00:00-05:00</ends>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Likely</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Heat Advisory</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Heat Advisory issued July 13 at 2:01PM CDT until July 15 at 8:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Heat index values up to 105 expected.
+
+* WHERE...Portions of southern Illinois, southwest Indiana, western
+Kentucky, and southeast Missouri.
+
+* WHEN...From 1 PM CDT /2 PM EDT/ Sunday to 8 PM CDT /9 PM EDT/
+Monday.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.</description>
+				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
+the sun, and check up on relatives and neighbors.
+
+Take extra precautions when outside. Wear lightweight and loose
+fitting clothing. Try to limit strenuous activities to early morning
+or evening. Take action when you see symptoms of heat exhaustion and
+heat stroke.
+
+To reduce risk during outdoor work, the Occupational Safety and
+Health Administration recommends scheduling frequent rest breaks in
+shaded or air conditioned environments. Anyone overcome by heat
+should be moved to a cool and shaded location. Heat stroke is an
+emergency! Call 9 1 1.</instruction>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">NPWPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS73 KPAH 131901</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">HEAT ADVISORY IN EFFECT FROM 1 PM CDT /2 PM EDT/ SUNDAY TO 8 PM CDT /9 PM EDT/ MONDAY</item>
+					</NWSheadline>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<VTEC type="list">
+						<item type="str">/O.NEW.KPAH.HT.Y.0005.240714T1800Z-240716T0100Z/</item>
+					</VTEC>
+					<eventEndingTime type="list">
+						<item type="str">2024-07-16T01:00:00+00:00</item>
+					</eventEndingTime>
+				</parameters>
+			</properties>
+		</item>
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4f0c4103466740f4717b91ab1bd290b5081ebb9.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="dict">
+				<type type="str">Polygon</type>
+				<coordinates type="list">
+					<item type="list">
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.95</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.7</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.49000000000001</item>
+							<item type="float">37.71</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.45999990000001</item>
+							<item type="float">37.95</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.95</item>
+						</item>
+					</item>
+				</coordinates>
+			</geometry>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4f0c4103466740f4717b91ab1bd290b5081ebb9.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.a4f0c4103466740f4717b91ab1bd290b5081ebb9.001.1</id>
+				<areaDesc type="str">Jackson</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017077</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ084</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2024-07-13T14:00:00-05:00</sent>
+				<effective type="str">2024-07-13T14:00:00-05:00</effective>
+				<onset type="str">2024-07-13T14:00:00-05:00</onset>
+				<expires type="str">2024-07-13T14:45:00-05:00</expires>
+				<ends type="null"/>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Observed</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Special Weather Statement</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Special Weather Statement issued July 13 at 2:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">At 200 PM CDT, Doppler radar was tracking a strong thunderstorm over
+Murphysboro, moving east at 15 mph.
+
+HAZARD...Wind gusts up to 40 mph and nickel size hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hail damage to vegetation is
+possible.
+
+Locations impacted include...
+Carbondale, Murphysboro, De Soto, Elkville, Hurst, Dowell, Vergennes,
+and Gorham.</description>
+				<instruction type="str">If outdoors, consider seeking shelter inside a building.
+
+Torrential rainfall is also occurring with this storm and may lead to
+localized flooding. Do not drive your vehicle through flooded
+roadways.</instruction>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">SPSPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS83 KPAH 131900</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">A STRONG THUNDERSTORM WILL IMPACT NORTHEASTERN JACKSON COUNTY THROUGH 245 PM CDT</item>
+					</NWSheadline>
+					<eventMotionDescription type="list">
+						<item type="str">2024-07-13T19:00:00-00:00...storm...277DEG...14KT...37.78,-89.38</item>
+					</eventMotionDescription>
+					<maxWindGust type="list">
+						<item type="str">40 MPH</item>
+					</maxWindGust>
+					<maxHailSize type="list">
+						<item type="str">0.88</item>
+					</maxHailSize>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+				</parameters>
+			</properties>
+		</item>
+	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-07-12T08:00:00+00:00</updated>
+	<updated type="str">2024-07-13T19:01:40+00:00</updated>
 </all>
