@@ -2,7 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Patchy fog. Partly cloudy, with a low around 70. South wind around 1 mph.<br></div>
+         <h3>Overnight</h3>Patchy fog and a slight chance of showers and thunderstorms. Partly cloudy, with a low around 70. South southwest wind around
+         1 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
