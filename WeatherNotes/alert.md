@@ -1,5 +1,5 @@
 <p>
-   <h2>Heat Advisory issued July 15 at 1:43AM CDT until July 16 at 8:00PM CDT by NWS Paducah KY</h2>
+   <h2>Heat Advisory issued July 15 at 2:02PM CDT until July 16 at 8:00PM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Heat index values of 105 to 110 degrees expected.
       
       * WHERE...Portions of southern Illinois, southwest Indiana, western
