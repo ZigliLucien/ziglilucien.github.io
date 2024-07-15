@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/972580/" title="See Description">[$] A hash table by any other name</a></li>
 <li><a href="#https://lwn.net/Articles/981559/" title="See Description">[$] Development statistics for the 6.10 kernel</a></li>
 <li><a href="#https://lwn.net/Articles/982049/" title="See Description">Stable kernels 6.6.40 and 6.1.99</a></li>
 <li><a href="#https://lwn.net/Articles/982029/" title="See Description">Security updates for Monday</a></li>
@@ -52,10 +53,31 @@
 <li><a href="#https://lwn.net/Articles/981635/" title="See Description">An empirical study of Rust for Linux</a></li>
 <li><a href="#https://lwn.net/Articles/980654/" title="See Description">[$] LWN.net Weekly Edition for July 11, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/981565/" title="See Description">Brown: Fixing a 6-year-old bug in Ubuntu MATE and Xubuntu</a></li>
-<li><a href="#https://lwn.net/Articles/981561/" title="See Description">Fix for Fedora Atomic Desktop and Fedora IoT boot failure</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/972580/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 15 Jul 2024 17:27:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/972580/" title="https://lwn.net/Articles/972580/">[$] A hash table by any other name</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+On June 25, Matthew Wilcox posted
+<a href="https://lwn.net/ml/all/20240625211803.2750563-1-willy@infradead.org/">
+a second version of a patch set</a>
+introducing a new
+data structure called rosebush, which
+"<q>is a resizing, scalable, cache-aware, RCU optimised hash
+table.</q>" The kernel already has generic hash tables, though, including
+<a href="https://lwn.net/Articles/751374/">rhashtable</a>. Wilcox believes that the design of
+rhashtable is not the best choice for performance, and has written rosebush as
+an alternative for use in the
+<a href="https://www.kernel.org/doc/html/latest/filesystems/vfs.html#directory-entry-cache-dcache">
+directory-entry cache</a> (dcache) — the filesystem cache used to speed up
+file-name lookup.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/981559/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 15 Jul 2024 15:52:46 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -320,44 +342,6 @@ think I'm starting to understand why!
 href="https://changelogs.ubuntu.com/changelogs/pool/universe/g/gdebi/gdebi_0.9.5.7+nmu7ubuntu0.24.10.1/changelog">is
 now packaged</a> for the upcoming Ubuntu 24.10 release, and should be
 backported to 22.04 and 24.04 eventually.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/981561/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 10 Jul 2024 17:20:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/981561/" title="https://lwn.net/Articles/981561/">Fix for Fedora Atomic Desktop and Fedora IoT boot failure</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Fedora <a
-href="https://fedoraproject.org/atomic-desktops/">Atomic Desktop</a>
-and <a href="https://fedoraproject.org/iot/">Fedora IoT</a> systems installed
-before Fedora&nbsp;40 may fail to boot after an update if secure boot
-is enabled. Fedora Magazine has <a
-href="https://fedoramagazine.org/manual-action-needed-to-resolve-boot-failure-for-fedora-atomic-desktops-and-fedora-iot/">a
-post</a> by Timothée Ravier about the problem, how users can work
-around it, and what the project is doing to avoid the similar problems
-in the future:</p>
-
-<blockquote class="bq">
-<p>On Fedora Atomic Desktops and Fedora IoT systems, the components
-that are part of the boot chain (Shim, GRUB) are not (yet)
-automatically updated alongside the rest of the system. Thus, if you
-have installed a Fedora Atomic Desktop or a Fedora IoT system before
-Fedora 40, it uses an old versions of the Shim and bootloader binaries
-to boot your system.</p>
-
-<p>When Secure Boot is enabled, the EFI firmware loads Shim
-first. Shim is signed by the Microsoft Third Party Certificate
-Authority so that it can be verified on most hardware out of the
-box. The Shim binary includes the Fedora certificates used to verify
-binaries signed by Fedora. Then Shim loads GRUB, which in turn loads
-the Linux kernel. Both are signed by Fedora.</p>
-
-<p>Until recently, the kernel binaries where signed two times, with an
-older key and a newer one. With the 6.9 kernel update, the kernel is
-no longer signed with the old key. If GRUB or Shim is old enough and
-does not know about the new key, the signature verification fails.</p>
-</blockquote>
-
-<p> </p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
