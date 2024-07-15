@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/981559/" title="See Description">[$] Development statistics for the 6.10 kernel</a></li>
+<li><a href="#https://lwn.net/Articles/982049/" title="See Description">Stable kernels 6.6.40 and 6.1.99</a></li>
+<li><a href="#https://lwn.net/Articles/982029/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/981961/" title="See Description">The 6.10 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/981850/" title="See Description">GNOME Foundation Announces Transition of Executive Director</a></li>
 <li><a href="#https://lwn.net/Articles/981130/" title="See Description">[$] A look at Linux Mint 22</a></li>
@@ -50,12 +53,42 @@
 <li><a href="#https://lwn.net/Articles/980654/" title="See Description">[$] LWN.net Weekly Edition for July 11, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/981565/" title="See Description">Brown: Fixing a 6-year-old bug in Ubuntu MATE and Xubuntu</a></li>
 <li><a href="#https://lwn.net/Articles/981561/" title="See Description">Fix for Fedora Atomic Desktop and Fedora IoT boot failure</a></li>
-<li><a href="#https://lwn.net/Articles/981155/" title="See Description">[$] Improving pseudo filesystems</a></li>
-<li><a href="#https://lwn.net/Articles/981320/" title="See Description">[$] Sxmo: a text-centric mobile user interface</a></li>
-<li><a href="#https://lwn.net/Articles/981508/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/981559/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 15 Jul 2024 15:52:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981559/" title="https://lwn.net/Articles/981559/">[$] Development statistics for the 6.10 kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The 6.10 kernel was <a
+href="https://lwn.net/ml/all/CAHk-=wjV_O2g_K19McjGKrxFxMFDqex+fyGcKc3uac1ft_O2gg@mail.gmail.com/">released</a>
+on July&nbsp;14 after a nine-week development cycle.  This time around,
+13,312 non-merge changesets were pulled into the mainline repository — the
+lowest changeset count since 5.17 in early 2022.  Longstanding tradition
+says that it is time for LWN to gather some statistics on where the new
+code for 6.10 came from and how it got to the mainline; read on for the
+details.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/982049/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 15 Jul 2024 15:41:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/982049/" title="https://lwn.net/Articles/982049/">Stable kernels 6.6.40 and 6.1.99</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has released the <a href="https://lwn.net/Articles/982050/">6.6.40</a>
+and <a href="https://lwn.net/Articles/982051/">6.1.99</a> stable kernels.  Both contain a
+fix for the USB subsystem; anyone who uses those kernel series and "<q>the XHCI
+USB host controller driver (i.e. USB 3) must upgrade</q>".</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/982029/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 15 Jul 2024 14:10:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/982029/" title="https://lwn.net/Articles/982029/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (cups, krb5, pgadmin4, python3.6, and yarnpkg), <b>Mageia</b> (freeradius, kernel, kmod-xtables-addons, kmod-virtualbox, and dwarves, kernel-linus, and squid), <b>Red Hat</b> (ghostscript, kernel, and less), <b>SUSE</b> (avahi, c-ares, cairo, cups, fdo-client, gdk-pixbuf, git, libarchive, openvswitch3, podman, polkit, python-black, python-Jinja2, python-urllib3, skopeo, squashfs, tiff, traceroute, and wget), and <b>Ubuntu</b> (linux, linux-azure, linux-azure-5.4, linux-bluefield, linux-gcp, linux-gcp-5.4, linux-gkeop, linux-ibm, linux-ibm-5.4, linux-kvm).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/981961/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 14 Jul 2024 23:38:53 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -67,7 +100,7 @@
 the 6.10 kernel</a>.
 <P>
 <blockquote class="bq">
-	So the final week was perhaps not quote as quiet as the preceding
+	So the final week was perhaps not quite as quiet as the preceding
 	ones, which I don't love - but it also wasn't noisy enough to
 	warrant an extra rc.
 </blockquote>
@@ -325,47 +358,6 @@ does not know about the new key, the signature verification fails.</p>
 </blockquote>
 
 <p> </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/981155/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 10 Jul 2024 15:33:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/981155/" title="https://lwn.net/Articles/981155/">[$] Improving pseudo filesystems</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The eventfs filesystem provides an interface to the tracepoints that are available
-to be used by various Linux tracing tools (e.g. ftrace, perf, uprobes,
-etc.); it is meant to be a version of the tracefs filesystem that
-dynamically allocates its entries as needed.  The goal is to reduce the memory
-required for multiple instances of tracefs, as Steven Rostedt described in
-a <a href="https://lwn.net/Articles/895111/">session</a> at the 2022
-<a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  He returned to the 2024
-edition of the summit to talk further about how to make pseudo (or virtual)
-filesystems, such as tracefs/eventfs, more like regular Linux filesystems,
-where the directory entries (dentries) and inodes are only created (and
-cached) as needed.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/981320/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 10 Jul 2024 14:54:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/981320/" title="https://lwn.net/Articles/981320/">[$] Sxmo: a text-centric mobile user interface</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://sxmo.org">Sxmo</a>, short for "Simple X Mobile", is described on its web site as "<q>a
-minimalist environment for Linux mobile devices</q>"; it offers a menu-driven
-interface that is controlled with the phone's hardware buttons. Sxmo enables the user
-to send SMS messages from a text editor and is entirely customizable with
-shell scripts. This peculiar mobile user interface significantly differs
-from the prevailing approach—but it works.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/981508/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 10 Jul 2024 13:15:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/981508/" title="https://lwn.net/Articles/981508/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, gvisor-tap-vsock, kernel-rt, libreswan, linux-firmware, pki-core, and podman), <b>Fedora</b> (firefox and jpegxl), <b>Gentoo</b> (Buildah, HarfBuzz, and LIVE555 Media Server), <b>Oracle</b> (buildah, gvisor-tap-vsock, kernel, libreswan, and podman), <b>Red Hat</b> (containernetworking-plugins, dotnet6.0, dotnet8.0, fence-agents, kernel, libreswan, libvirt, perl-HTTP-Tiny, python39:3.9, toolbox, and virt:rhel and virt-devel:rhel modules), <b>SUSE</b> (firefox, freeradius-server, haproxy, jbigkit, kernel, kernel-firmware, pam, ppp, python3-cryptography, skopeo, and tar), and <b>Ubuntu</b> (dotnet6, dotnet8, exim4, firefox, golang-1.21, golang-1.22, openssh, and python-django).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
