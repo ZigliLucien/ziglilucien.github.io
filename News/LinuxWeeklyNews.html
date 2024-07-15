@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/981961/" title="See Description">The 6.10 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/981850/" title="See Description">GNOME Foundation Announces Transition of Executive Director</a></li>
 <li><a href="#https://lwn.net/Articles/981130/" title="See Description">[$] A look at Linux Mint 22</a></li>
 <li><a href="#https://lwn.net/Articles/981813/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,48 @@
 <li><a href="#https://lwn.net/Articles/981155/" title="See Description">[$] Improving pseudo filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/981320/" title="See Description">[$] Sxmo: a text-centric mobile user interface</a></li>
 <li><a href="#https://lwn.net/Articles/981508/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/980558/" title="See Description">[$] A new API for tree-in-dcache filesystems</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/981961/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 14 Jul 2024 23:38:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981961/" title="https://lwn.net/Articles/981961/">The 6.10 kernel has been released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has
+<a href="https://lwn.net/Articles/981966/">released
+the 6.10 kernel</a>.
+<P>
+<blockquote class="bq">
+	So the final week was perhaps not quote as quiet as the preceding
+	ones, which I don't love - but it also wasn't noisy enough to
+	warrant an extra rc.
+</blockquote>
+<p>
+
+Changes in 6.10 include
+the removal of support for some ancient Alpha CPUs,
+shadow-stack support for the <a
+href="https://en.wikipedia.org/wiki/X32_ABI">x32</a> sub-architecture,
+Rust-language support on RISC-V systems,
+<a href="https://lwn.net/Articles/961884/">support</a> for some Windows NT synchronization
+primitives (though it is marked "broken" in 6.10),
+the <a href="https://lwn.net/Articles/958438/"><tt>mseal()</tt> system call</a>,
+<a href="https://docs.kernel.org/filesystems/fsverity.html">fsverity</a>
+support in the FUSE filesystem subsystem,
+<tt>ioctl()</tt> support in the <a
+href="https://docs.kernel.org/security/landlock.html">Landlock</a> security
+module,
+the <a href="https://lwn.net/Articles/974380/">memory-allocation profiling</a> subsystem,
+and more.
+<p>
+
+See the LWN merge-window summaries (<a
+href="https://lwn.net/Articles/973687/">part&nbsp;1</a>, <a
+href="https://lwn.net/Articles/974869/">part&nbsp;2</a>) and <a
+href="https://kernelnewbies.org/Linux_6.10">the KernelNewbies 6.10 page</a>
+for more details.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/981850/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 12 Jul 2024 17:51:11 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -326,25 +365,6 @@ from the prevailing approach—but it works.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, gvisor-tap-vsock, kernel-rt, libreswan, linux-firmware, pki-core, and podman), <b>Fedora</b> (firefox and jpegxl), <b>Gentoo</b> (Buildah, HarfBuzz, and LIVE555 Media Server), <b>Oracle</b> (buildah, gvisor-tap-vsock, kernel, libreswan, and podman), <b>Red Hat</b> (containernetworking-plugins, dotnet6.0, dotnet8.0, fence-agents, kernel, libreswan, libvirt, perl-HTTP-Tiny, python39:3.9, toolbox, and virt:rhel and virt-devel:rhel modules), <b>SUSE</b> (firefox, freeradius-server, haproxy, jbigkit, kernel, kernel-firmware, pam, ppp, python3-cryptography, skopeo, and tar), and <b>Ubuntu</b> (dotnet6, dotnet8, exim4, firefox, golang-1.21, golang-1.22, openssh, and python-django).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/980558/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 09 Jul 2024 21:17:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/980558/" title="https://lwn.net/Articles/980558/">[$] A new API for tree-in-dcache filesystems</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There are a number of kernel filesystems that store their directory entries
-directly in the directory-entry cache (dcache) without having any permanent
-storage for those objects. It started out as a "neat hack" for <a
-href="https://docs.kernel.org/filesystems/ramfs-rootfs-initramfs.html">ramfs</a>,
-Al Viro said, at the start of his filesystem-track session at
-the
-2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  Unfortunately, as the use
-of this technique has grown into other filesystems, there has been a lot of
-scope creep that has gotten out of control.  He wanted to discuss some new
-infrastructure that he is working on to try to clean some of that up.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
