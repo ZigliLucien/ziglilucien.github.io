@@ -11,6 +11,315 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2009bfab2d9a93301b0f23d297f39c9c89254e56.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="dict">
+				<type type="str">Polygon</type>
+				<coordinates type="list">
+					<item type="list">
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.87</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.23</item>
+							<item type="float">37.76</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.43</item>
+							<item type="float">37.659999899999995</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.66000000000001</item>
+							<item type="float">37.769999999999996</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.56999990000001</item>
+							<item type="float">37.86</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.49000000000001</item>
+							<item type="float">37.95</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.38000000000001</item>
+							<item type="float">37.95</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.87</item>
+						</item>
+					</item>
+				</coordinates>
+			</geometry>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2009bfab2d9a93301b0f23d297f39c9c89254e56.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.2009bfab2d9a93301b0f23d297f39c9c89254e56.001.1</id>
+				<areaDesc type="str">Jackson</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017077</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ084</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2024-07-16T09:31:00-05:00</sent>
+				<effective type="str">2024-07-16T09:31:00-05:00</effective>
+				<onset type="str">2024-07-16T09:31:00-05:00</onset>
+				<expires type="str">2024-07-16T10:15:00-05:00</expires>
+				<ends type="null"/>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Observed</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Special Weather Statement</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Special Weather Statement issued July 16 at 9:31AM CDT by NWS Paducah KY</headline>
+				<description type="str">At 930 AM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from 8 miles southwest of Pinckneyville to near Ava
+to 10 miles northwest of Altenburg. Movement was east at 25 mph.
+
+HAZARD...Wind gusts up to 50 mph and half inch hail.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects. Minor hail damage to vegetation is
+possible.
+
+Locations impacted include...
+Carbondale, Murphysboro, De Soto, Ava, Vergennes, and Gorham.</description>
+				<instruction type="str">If outdoors, consider seeking shelter inside a building.</instruction>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">SPSPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS83 KPAH 161431</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">STRONG THUNDERSTORMS WILL IMPACT CENTRAL JACKSON COUNTY THROUGH 1015 AM CDT</item>
+					</NWSheadline>
+					<eventMotionDescription type="list">
+						<item type="str">2024-07-16T14:30:00-00:00...storm...291DEG...20KT...37.97,-89.44 37.85,-89.52 37.78,-89.66</item>
+					</eventMotionDescription>
+					<maxWindGust type="list">
+						<item type="str">50 MPH</item>
+					</maxWindGust>
+					<maxHailSize type="list">
+						<item type="str">0.50</item>
+					</maxHailSize>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+				</parameters>
+			</properties>
+		</item>
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7aaf4548f41ac935b5a7cc41e1c9497c98e00f9.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="null"/>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7aaf4548f41ac935b5a7cc41e1c9497c98e00f9.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.d7aaf4548f41ac935b5a7cc41e1c9497c98e00f9.001.1</id>
+				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Union; Henderson; Daviess; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017081</item>
+						<item type="str">017191</item>
+						<item type="str">017047</item>
+						<item type="str">017185</item>
+						<item type="str">017145</item>
+						<item type="str">017055</item>
+						<item type="str">017065</item>
+						<item type="str">017193</item>
+						<item type="str">017077</item>
+						<item type="str">017199</item>
+						<item type="str">017165</item>
+						<item type="str">017059</item>
+						<item type="str">017181</item>
+						<item type="str">017087</item>
+						<item type="str">018051</item>
+						<item type="str">018125</item>
+						<item type="str">018129</item>
+						<item type="str">018163</item>
+						<item type="str">018173</item>
+						<item type="str">018147</item>
+						<item type="str">021225</item>
+						<item type="str">021101</item>
+						<item type="str">021059</item>
+						<item type="str">029157</item>
+						<item type="str">029017</item>
+						<item type="str">029031</item>
+						<item type="str">029223</item>
+						<item type="str">029035</item>
+						<item type="str">029181</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ075</item>
+						<item type="str">ILZ076</item>
+						<item type="str">ILZ077</item>
+						<item type="str">ILZ078</item>
+						<item type="str">ILZ080</item>
+						<item type="str">ILZ081</item>
+						<item type="str">ILZ082</item>
+						<item type="str">ILZ083</item>
+						<item type="str">ILZ084</item>
+						<item type="str">ILZ085</item>
+						<item type="str">ILZ086</item>
+						<item type="str">ILZ087</item>
+						<item type="str">ILZ088</item>
+						<item type="str">ILZ089</item>
+						<item type="str">INZ081</item>
+						<item type="str">INZ082</item>
+						<item type="str">INZ085</item>
+						<item type="str">INZ086</item>
+						<item type="str">INZ087</item>
+						<item type="str">INZ088</item>
+						<item type="str">KYZ014</item>
+						<item type="str">KYZ018</item>
+						<item type="str">KYZ019</item>
+						<item type="str">MOZ076</item>
+						<item type="str">MOZ086</item>
+						<item type="str">MOZ087</item>
+						<item type="str">MOZ100</item>
+						<item type="str">MOZ107</item>
+						<item type="str">MOZ108</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ075</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ077</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ078</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ081</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ082</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ083</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ081</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ082</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ085</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/INZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ014</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ018</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ019</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ108</item>
+				</affectedZones>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bbb15c5b3dc71b65807f3e5e74d67c0a4907ae1.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.4bbb15c5b3dc71b65807f3e5e74d67c0a4907ae1.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2024-07-16T02:04:00-05:00</sent>
+					</item>
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bbb15c5b3dc71b65807f3e5e74d67c0a4907ae1.002.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.4bbb15c5b3dc71b65807f3e5e74d67c0a4907ae1.002.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2024-07-16T02:04:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2024-07-16T08:47:00-05:00</sent>
+				<effective type="str">2024-07-16T08:47:00-05:00</effective>
+				<onset type="str">2024-07-16T08:47:00-05:00</onset>
+				<expires type="str">2024-07-16T17:00:00-05:00</expires>
+				<ends type="str">2024-07-17T07:00:00-05:00</ends>
+				<status type="str">Actual</status>
+				<messageType type="str">Update</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Severe</severity>
+				<certainty type="str">Possible</certainty>
+				<urgency type="str">Future</urgency>
+				<event type="str">Flood Watch</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Flood Watch issued July 16 at 8:47AM CDT until July 17 at 7:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">Showers and thunderstorms are already streaming eastward across
+southern Illinois. Flash flooding is underway.
+
+* WHAT...Flash flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...All of southwest Indiana and portions of southern
+Illinois, southeast Missouri and northwest Kentucky.
+
+* WHEN...Through Wednesday morning.
+
+* IMPACTS...Excessive runoff may result in flooding of rivers,
+creeks, streams, and other low-lying and flood-prone locations.
+Flooding may occur in poor drainage and urban areas. Low-water
+crossings may be flooded.
+
+* ADDITIONAL DETAILS...
+- A large area of showers and thunderstorms with torrential
+rains has moved south into southern Illinois this morning.
+The torrential rains have already resulted in flash flooding,
+and with multiple rounds of showers and thunderstorms
+expected through tonight, additional flash flooding is likely
+to develop.</description>
+				<instruction type="str">You should monitor later forecasts and be prepared to take action
+should Flash Flood Warnings be issued.</instruction>
+				<response type="str">Prepare</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">FFAPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WGUS63 KPAH 161347</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">FLOOD WATCH NOW IN EFFECT THROUGH WEDNESDAY MORNING</item>
+					</NWSheadline>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+					<VTEC type="list">
+						<item type="str">/O.EXT.KPAH.FA.A.0008.240716T1347Z-240717T1200Z/</item>
+					</VTEC>
+					<eventEndingTime type="list">
+						<item type="str">2024-07-17T12:00:00+00:00</item>
+					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c1d7ff8e7607b9b7b7b8bbc375fbb9c82f7c015e.001.1,2024-07-15T14:10:00-05:00</item>
+					</expiredReferences>
+				</parameters>
+			</properties>
+		</item>
+		<item type="dict">
 			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23d458a16a3a89ea8b129c7ed573d59e66ae2a6d.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
@@ -273,143 +582,7 @@ shaded location. Heat stroke is an emergency! Call 9 1 1.</instruction>
 				</parameters>
 			</properties>
 		</item>
-		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bbb15c5b3dc71b65807f3e5e74d67c0a4907ae1.001.1</id>
-			<type type="str">Feature</type>
-			<geometry type="null"/>
-			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bbb15c5b3dc71b65807f3e5e74d67c0a4907ae1.001.1</key>
-				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.4bbb15c5b3dc71b65807f3e5e74d67c0a4907ae1.001.1</id>
-				<areaDesc type="str">Perry; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Union; Henderson; Daviess; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley</areaDesc>
-				<geocode type="dict">
-					<SAME type="list">
-						<item type="str">017145</item>
-						<item type="str">017077</item>
-						<item type="str">017199</item>
-						<item type="str">017165</item>
-						<item type="str">017059</item>
-						<item type="str">017181</item>
-						<item type="str">017087</item>
-						<item type="str">021225</item>
-						<item type="str">021101</item>
-						<item type="str">021059</item>
-						<item type="str">029157</item>
-						<item type="str">029017</item>
-						<item type="str">029031</item>
-						<item type="str">029223</item>
-						<item type="str">029035</item>
-						<item type="str">029181</item>
-					</SAME>
-					<UGC type="list">
-						<item type="str">ILZ080</item>
-						<item type="str">ILZ084</item>
-						<item type="str">ILZ085</item>
-						<item type="str">ILZ086</item>
-						<item type="str">ILZ087</item>
-						<item type="str">ILZ088</item>
-						<item type="str">ILZ089</item>
-						<item type="str">KYZ014</item>
-						<item type="str">KYZ018</item>
-						<item type="str">KYZ019</item>
-						<item type="str">MOZ076</item>
-						<item type="str">MOZ086</item>
-						<item type="str">MOZ087</item>
-						<item type="str">MOZ100</item>
-						<item type="str">MOZ107</item>
-						<item type="str">MOZ108</item>
-					</UGC>
-				</geocode>
-				<affectedZones type="list">
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ086</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ087</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ014</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ018</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ019</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ108</item>
-				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2024-07-16T02:04:00-05:00</sent>
-				<effective type="str">2024-07-16T02:04:00-05:00</effective>
-				<onset type="str">2024-07-16T19:00:00-05:00</onset>
-				<expires type="str">2024-07-16T17:00:00-05:00</expires>
-				<ends type="str">2024-07-17T07:00:00-05:00</ends>
-				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
-				<category type="str">Met</category>
-				<severity type="str">Severe</severity>
-				<certainty type="str">Possible</certainty>
-				<urgency type="str">Future</urgency>
-				<event type="str">Flood Watch</event>
-				<sender type="str">w-nws.webmaster@noaa.gov</sender>
-				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Flood Watch issued July 16 at 2:04AM CDT until July 17 at 7:00AM CDT by NWS Paducah KY</headline>
-				<description type="str">Multiple rounds of showers and thunderstorms will develop tonight
-as a slow-moving frontal boundary moves southward into the region.
-Training thunderstorms along this boundary will produce very high
-rainfall rates, leading to a risk of flash flooding.
-
-* WHAT...Flash flooding caused by excessive rainfall continues to be
-possible.
-
-* WHERE...All of southwest Indiana and portions of southeast
-Missouri, southern Illinois, and northwest Kentucky.
-
-* WHEN...From this evening through Wednesday morning.
-
-* IMPACTS...Excessive runoff may result in flooding of rivers,
-creeks, streams, and other low-lying and flood-prone locations.
-Flooding may occur in poor drainage and urban areas. Low-water
-crossings may be flooded.
-
-* ADDITIONAL DETAILS...
-- Multiple rounds of thunderstorms are forecast tonight through
-Wednesday morning across the Flood Watch area. Widespread
-rainfall amounts of 2 to 4 inches are forecast, with locally
-higher amount possible. High rainfall rains and saturated
-soils will lead to isolated to scattered areas of flash
-flooding.</description>
-				<instruction type="str">You should monitor later forecasts and be prepared to take action
-should Flash Flood Warnings be issued.</instruction>
-				<response type="str">Prepare</response>
-				<parameters type="dict">
-					<AWIPSidentifier type="list">
-						<item type="str">FFAPAH</item>
-					</AWIPSidentifier>
-					<WMOidentifier type="list">
-						<item type="str">WGUS63 KPAH 160704</item>
-					</WMOidentifier>
-					<NWSheadline type="list">
-						<item type="str">FLOOD WATCH IN EFFECT FROM THIS EVENING THROUGH WEDNESDAY MORNING</item>
-					</NWSheadline>
-					<BLOCKCHANNEL type="list">
-						<item type="str">EAS</item>
-						<item type="str">NWEM</item>
-						<item type="str">CMAS</item>
-					</BLOCKCHANNEL>
-					<EAS-ORG type="list">
-						<item type="str">WXR</item>
-					</EAS-ORG>
-					<VTEC type="list">
-						<item type="str">/O.EXA.KPAH.FA.A.0008.240717T0000Z-240717T1200Z/</item>
-					</VTEC>
-					<eventEndingTime type="list">
-						<item type="str">2024-07-17T12:00:00+00:00</item>
-					</eventEndingTime>
-				</parameters>
-			</properties>
-		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-07-16T07:20:07+00:00</updated>
+	<updated type="str">2024-07-16T14:31:42+00:00</updated>
 </all>

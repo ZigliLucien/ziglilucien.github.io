@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of showers and thunderstorms. Mostly cloudy. High near 93, with temperatures falling to around 90 in the afternoon.
-         Heat index values as high as 105. Southwest wind 7 to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.<br></div>
+         Heat index values as high as 105. Southwest wind around 10 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
