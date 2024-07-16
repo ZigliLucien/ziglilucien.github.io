@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/981018/" title="See Description">[$] SUSE asks openSUSE to consider name change</a></li>
+<li><a href="#https://lwn.net/Articles/981392/" title="See Description">[$] Hierarchical storage management, fanotify, FUSE, and more</a></li>
+<li><a href="#https://lwn.net/Articles/982186/" title="See Description">Redox to implement POSIX signals in user space</a></li>
 <li><a href="#https://lwn.net/Articles/982169/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/972580/" title="See Description">[$] A hash table by any other name</a></li>
 <li><a href="#https://lwn.net/Articles/981559/" title="See Description">[$] Development statistics for the 6.10 kernel</a></li>
@@ -50,12 +53,67 @@
 <li><a href="#https://lwn.net/Articles/981124/" title="See Description">[$] Nix alternatives and spinoffs</a></li>
 <li><a href="#https://lwn.net/Articles/981371/" title="See Description">[$] Reports from OSPM 2024, part 1</a></li>
 <li><a href="#https://lwn.net/Articles/981717/" title="See Description">Stable kernels 6.9.9, 6.6.39, and 6.1.98</a></li>
-<li><a href="#https://lwn.net/Articles/981716/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/981635/" title="See Description">An empirical study of Rust for Linux</a></li>
-<li><a href="#https://lwn.net/Articles/980654/" title="See Description">[$] LWN.net Weekly Edition for July 11, 2024</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/981018/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 16 Jul 2024 16:30:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981018/" title="https://lwn.net/Articles/981018/">[$] SUSE asks openSUSE to consider name change</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.suse.com/">SUSE</a> has, in a somewhat clumsy
+fashion, asked <a href="https://www.opensuse.org/">openSUSE</a>
+to consider rebranding to clear up confusion over the
+relationship between SUSE the company and openSUSE as a community
+project. That, in turn, has opened conversations about revising
+openSUSE governance and more. So far, there is no concrete proposal to
+consider, no timeline, or even a process for the community and company
+to follow to make any decisions.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/981392/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 16 Jul 2024 14:26:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981392/" title="https://lwn.net/Articles/981392/">[$] Hierarchical storage management, fanotify, FUSE, and more</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Amir Goldstein led a filesystem-track session at the 2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> on his project to build a
+<a
+href="https://en.wikipedia.org/wiki/Hierarchical_storage_management">hierarchical
+storage management</a> (HSM) system using <a
+href="https://www.kernel.org/doc/html/latest/admin-guide/filesystem-monitoring.html">fanotify</a>.
+The idea is to monitor file access in order to determine when to retrieve
+content from non-local storage (e.g. the cloud).  The session was a
+follow-up to last year's <a href="https://lwn.net/Articles/932415/">introduction to the
+project</a>, which covered some of the problems he had encountered; this
+year, he
+was updating attendees on its status and progress, along with some other
+problem areas that he wanted to discuss.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/982186/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 16 Jul 2024 14:12:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/982186/" title="https://lwn.net/Articles/982186/">Redox to implement POSIX signals in user space</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://lwn.net/Articles/979524/">
+Redox</a> has <a href="https://www.redox-os.org/news/kernel-11/">received a
+grant</a> to work on implementing POSIX-compatible signals. The
+<a href="https://gitlab.redox-os.org/4lDO2/rfcs/-/blob/signals/text/0000-userspace-signals.md">
+draft design</a> calls for them to be implemented nearly completely in user space.
+</p>
+
+<blockquote class="bq">
+So far, the signals project has been going according to plan, and
+hopefully, POSIX support for signals will be mostly complete by the
+end of summer, with in-kernel improvements to process management.
+After that, work on the userspace process manager will begin,
+possibly including new kernel performance and/or functionality
+improvements to facilitate this.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/982169/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 16 Jul 2024 12:50:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -268,47 +326,6 @@ ChromeOS, and user-space schedulers.
 href="https://lwn.net/Articles/981719/">6.6.39</a>, and <a
 href="https://lwn.net/Articles/981720/">6.1.98</a> stable kernels have been released.  As
 usual, they contain lots of important fixes throughout the tree.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/981716/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 11 Jul 2024 14:05:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/981716/" title="https://lwn.net/Articles/981716/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (dotnet6.0, dotnet8.0, fence-agents, and virt:rhel and virt-devel:rhel), <b>Debian</b> (exim4 and firefox-esr), <b>Fedora</b> (dotnet8.0, firefox, onnx, qt6-qtbase, squid, and wordpress), <b>Mageia</b> (golang, netatalk, php, and poppler), <b>Red Hat</b> (ghostscript, httpd, openssh, python3, and ruby), <b>Slackware</b> (mozilla), <b>SUSE</b> (kernel and openssh), and <b>Ubuntu</b> (linux-aws-5.4, linux-azure, linux-ibm-5.15, and python3.5, python3.6, python3.7, python3.8, python3.9, python3.10,
- python3.11, python3.12).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/981635/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 11 Jul 2024 13:33:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/981635/" title="https://lwn.net/Articles/981635/">An empirical study of Rust for Linux</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The research value of <a
-href="https://www.usenix.org/conference/atc24/presentation/li-hongyu">this
-USENIX paper</a> by Hongyu Li et al. is not entirely clear, but it does
-show that the Rust-for-Linux project is gaining wider attention.
-<p>
-<blockquote class="bq">
-	Despite more novice developers being attracted by Rust to the
-	kernel community, we have found their commits are mainly for
-	constructing Rust-relevant toolchains as well as Rust crates alone;
-	they do not, however, take part in kernel code development. By
-	contrast, 5 out of 6 investigated drivers (as seen in Table 5) are
-	mainly contributed by authors from the Linux community. This
-	implies a disconnection be- tween the young and the seasoned
-	developers, and that the bar of kernel programming is not lowered
-	by Rust language.
-</blockquote>
-<p>
-As a bonus, it includes a ChatGPT analysis of LWN and Hacker News comments.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/980654/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 11 Jul 2024 00:49:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/980654/" title="https://lwn.net/Articles/980654/">[$] LWN.net Weekly Edition for July 11, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for July 11, 2024 is available.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
