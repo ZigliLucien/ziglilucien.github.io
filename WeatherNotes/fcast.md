@@ -2,18 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Cloudy, with a high near 76. South wind around 5 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms likely between 8pm and 11pm, then showers and thunderstorms between 11pm and 3am, then showers and
-         thunderstorms likely. Some of the storms could produce heavy rain. Cloudy, with a low around 71. Southwest wind around 5 mph.
-         Chance of precipitation is 90%.<br></div>
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms between 8pm and 9pm, then a chance of showers and thunderstorms between 9pm and
+         10pm, then a chance of showers and thunderstorms between 10pm and 11pm, then showers and thunderstorms likely between 11pm
+         and midnight, then showers and thunderstorms likely between midnight and 3am, then showers and thunderstorms likely between
+         3am and 4am, then a chance of showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy, with a low around
+         71. Southwest wind around 5 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>A chance of showers and thunderstorms. Cloudy, with a high near 84. Northwest wind 3 to 8 mph. Chance of precipitation is
-         50%.<br></div>
+         40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +59,10 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 67. North northeast wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday</h3>A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 1pm, then a chance
+         of showers and thunderstorms. Partly sunny, with a high near 81. East southeast wind 2 to 6 mph.<br></div>
    </p>
 </div>
