@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7aaf4548f41ac935b5a7cc41e1c9497c98e00f9.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de94df38fc885eb55e30f71a3a84c3faa573882e.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7aaf4548f41ac935b5a7cc41e1c9497c98e00f9.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de94df38fc885eb55e30f71a3a84c3faa573882e.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.d7aaf4548f41ac935b5a7cc41e1c9497c98e00f9.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.de94df38fc885eb55e30f71a3a84c3faa573882e.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Union; Henderson; Daviess; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -127,11 +127,17 @@
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
 						<sent type="str">2024-07-16T02:04:00-05:00</sent>
 					</item>
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d7aaf4548f41ac935b5a7cc41e1c9497c98e00f9.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.d7aaf4548f41ac935b5a7cc41e1c9497c98e00f9.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2024-07-16T08:47:00-05:00</sent>
+					</item>
 				</references>
-				<sent type="str">2024-07-16T08:47:00-05:00</sent>
-				<effective type="str">2024-07-16T08:47:00-05:00</effective>
-				<onset type="str">2024-07-16T08:47:00-05:00</onset>
-				<expires type="str">2024-07-16T17:00:00-05:00</expires>
+				<sent type="str">2024-07-16T16:04:00-05:00</sent>
+				<effective type="str">2024-07-16T16:04:00-05:00</effective>
+				<onset type="str">2024-07-16T16:04:00-05:00</onset>
+				<expires type="str">2024-07-17T07:00:00-05:00</expires>
 				<ends type="str">2024-07-17T07:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -142,15 +148,12 @@
 				<event type="str">Flood Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Flood Watch issued July 16 at 8:47AM CDT until July 17 at 7:00AM CDT by NWS Paducah KY</headline>
-				<description type="str">Showers and thunderstorms are already streaming eastward across
-southern Illinois. Flash flooding is underway.
-
-* WHAT...Flash flooding caused by excessive rainfall continues to be
+				<headline type="str">Flood Watch issued July 16 at 4:04PM CDT until July 17 at 7:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Flash flooding caused by excessive rainfall continues to be
 possible.
 
 * WHERE...All of southwest Indiana and portions of southern
-Illinois, southeast Missouri and northwest Kentucky.
+Illinois, western Kentucky, and southeast Missouri.
 
 * WHEN...Through Wednesday morning.
 
@@ -160,12 +163,12 @@ Flooding may occur in poor drainage and urban areas. Low-water
 crossings may be flooded.
 
 * ADDITIONAL DETAILS...
-- A large area of showers and thunderstorms with torrential
-rains has moved south into southern Illinois this morning.
-The torrential rains have already resulted in flash flooding,
-and with multiple rounds of showers and thunderstorms
-expected through tonight, additional flash flooding is likely
-to develop.</description>
+- Flash flooding from previous heavy rainfall continues over
+portions of southern Illinois. An additional 1 to 2 inches of
+rainfall will be possible with another round of showers and
+thunderstorms tonight. The additional rains could aggravate
+existing flooding and result in new flooding elsewhere across
+the region.</description>
 				<instruction type="str">You should monitor later forecasts and be prepared to take action
 should Flash Flood Warnings be issued.</instruction>
 				<response type="str">Prepare</response>
@@ -174,10 +177,10 @@ should Flash Flood Warnings be issued.</instruction>
 						<item type="str">FFAPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WGUS63 KPAH 161347</item>
+						<item type="str">WGUS63 KPAH 162104</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">FLOOD WATCH NOW IN EFFECT THROUGH WEDNESDAY MORNING</item>
+						<item type="str">FLOOD WATCH REMAINS IN EFFECT THROUGH WEDNESDAY MORNING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -188,7 +191,7 @@ should Flash Flood Warnings be issued.</instruction>
 						<item type="str">WXR</item>
 					</EAS-ORG>
 					<VTEC type="list">
-						<item type="str">/O.EXT.KPAH.FA.A.0008.240716T1347Z-240717T1200Z/</item>
+						<item type="str">/O.CON.KPAH.FA.A.0008.000000T0000Z-240717T1200Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2024-07-17T12:00:00+00:00</item>
@@ -201,5 +204,5 @@ should Flash Flood Warnings be issued.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-07-16T16:23:54+00:00</updated>
+	<updated type="str">2024-07-16T21:04:22+00:00</updated>
 </all>
