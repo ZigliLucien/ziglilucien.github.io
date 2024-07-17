@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a6e5a7fbfaea1a6634ce1021aea2d10ca8cc4ad.002.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dca38e5e8c2c567a22b2628f9c818fe53aea8a26.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a6e5a7fbfaea1a6634ce1021aea2d10ca8cc4ad.002.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dca38e5e8c2c567a22b2628f9c818fe53aea8a26.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.5a6e5a7fbfaea1a6634ce1021aea2d10ca8cc4ad.002.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.dca38e5e8c2c567a22b2628f9c818fe53aea8a26.002.1</id>
 				<areaDesc type="str">Jefferson; Perry; Franklin; Jackson; Williamson; Union; Johnson; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -73,11 +73,17 @@
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
 						<sent type="str">2024-07-16T16:04:00-05:00</sent>
 					</item>
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5a6e5a7fbfaea1a6634ce1021aea2d10ca8cc4ad.002.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.5a6e5a7fbfaea1a6634ce1021aea2d10ca8cc4ad.002.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2024-07-16T20:53:00-05:00</sent>
+					</item>
 				</references>
-				<sent type="str">2024-07-16T20:53:00-05:00</sent>
-				<effective type="str">2024-07-16T20:53:00-05:00</effective>
-				<onset type="str">2024-07-16T20:53:00-05:00</onset>
-				<expires type="str">2024-07-17T05:00:00-05:00</expires>
+				<sent type="str">2024-07-16T23:08:00-05:00</sent>
+				<effective type="str">2024-07-16T23:08:00-05:00</effective>
+				<onset type="str">2024-07-16T23:08:00-05:00</onset>
+				<expires type="str">2024-07-17T07:00:00-05:00</expires>
 				<ends type="str">2024-07-17T07:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -88,15 +94,14 @@
 				<event type="str">Flood Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Flood Watch issued July 16 at 8:53PM CDT until July 17 at 7:00AM CDT by NWS Paducah KY</headline>
+				<headline type="str">Flood Watch issued July 16 at 11:08PM CDT until July 17 at 7:00AM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Flash flooding caused by excessive rainfall continues to be
 possible.
 
 * WHERE...Portions of southern Illinois, including the following
-counties, Franklin, Jackson, Jefferson, Johnson, Perry IL, Union
-and Williamson and southeast Missouri, including the following
-counties, Bollinger, Cape Girardeau, Carter, Perry MO, Ripley and
-Wayne MO.
+areas, Franklin, Jackson, Jefferson, Johnson, Perry IL, Union and
+Williamson and southeast Missouri, including the following areas,
+Bollinger, Cape Girardeau, Carter, Perry MO, Ripley and Wayne MO.
 
 * WHEN...Until 7 AM CDT Wednesday.
 
@@ -106,10 +111,10 @@ Flooding may occur in poor drainage and urban areas. Low-water
 crossings may be flooded.
 
 * ADDITIONAL DETAILS...
-- The potential for flooding is highly contingent on whether
-thunderstorms develop overnight. If that occurs, conditions
-will be favorable for slow moving thunderstorms that produce
-heavy rainfall, which could lead to localized flash flooding.</description>
+- Conditions overnight will be favorable for slow moving
+thunderstorms that produce very heavy rainfall. Flash
+flooding will be possible in locations where thunderstorms
+train over the same locations.</description>
 				<instruction type="str">You should monitor later forecasts and be prepared to take action
 should Flash Flood Warnings be issued.</instruction>
 				<response type="str">Prepare</response>
@@ -118,7 +123,7 @@ should Flash Flood Warnings be issued.</instruction>
 						<item type="str">FFAPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WGUS63 KPAH 170153</item>
+						<item type="str">WGUS63 KPAH 170408</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">FLOOD WATCH REMAINS IN EFFECT UNTIL 7 AM CDT WEDNESDAY</item>
@@ -145,5 +150,5 @@ should Flash Flood Warnings be issued.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-07-17T01:54:17+00:00</updated>
+	<updated type="str">2024-07-17T04:08:38+00:00</updated>
 </all>
