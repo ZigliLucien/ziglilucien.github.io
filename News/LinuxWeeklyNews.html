@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/981663/" title="See Description">[$] A new major version of NumPy</a></li>
+<li><a href="#https://lwn.net/Articles/982085/" title="See Description">[$] Restricting execution of scripts — the third approach</a></li>
 <li><a href="#https://lwn.net/Articles/982559/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/982470/" title="See Description">Peter de Schrijver RIP</a></li>
 <li><a href="#https://lwn.net/Articles/982392/" title="See Description">Evolving the ASF Brand (Apache Software Foundation blog)</a></li>
@@ -51,11 +53,52 @@
 <li><a href="#https://lwn.net/Articles/982276/" title="See Description">digiKam 8.4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/982275/" title="See Description">Silva:  How to use the new counted_by attribute in C (and Linux)</a></li>
 <li><a href="#https://lwn.net/Articles/982270/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/981018/" title="See Description">[$] SUSE asks openSUSE to consider name change</a></li>
-<li><a href="#https://lwn.net/Articles/981392/" title="See Description">[$] Hierarchical storage management, fanotify, FUSE, and more</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/981663/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 19 Jul 2024 16:41:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/981663/" title="https://lwn.net/Articles/981663/">[$] A new major version of NumPy</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The <a href="https://numpy.org/">
+NumPy</a> project <a href="https://numpy.org/doc/stable/release/2.0.0-notes.html">
+released</a> version 2.0.0 on
+June 16, the first major release of the widely
+used Python-based numeric-computing library since 2006. The release has been planned for some
+time, as an opportunity to clean up NumPy's API. As with most NumPy updates,
+there are performance improvements to several individual functions. There are only a few new
+features, but several backward-incompatible changes, including a change to
+NumPy's numeric-promotion rules. Changes to the Python API require relatively minor changes to
+Python code using the library, but the changes to the C API may be more
+difficult to adapt to. In
+both cases, the official
+<a href="https://numpy.org/doc/stable/numpy_2_0_migration_guide.html">
+migration guide</a> describes what needs to be adapted to the new version.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/982085/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 19 Jul 2024 14:05:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/982085/" title="https://lwn.net/Articles/982085/">[$] Restricting execution of scripts — the third approach</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel will not consent to execute just any file that happens to be
+sitting in a filesystem; there are formalities, such as the checking of
+execute permission and consulting security policies, to get through first.
+On some systems, security policies have been established to limit execution
+to specifically approved programs.  But there are files that are not
+executed directly by the kernel; these include scripts fed to language
+interpreters like Python, Perl, or a shell.  An attacker who is able to get
+an interpreter to execute a file may be able to bypass a system's security
+policies.  Mickaël Salaün has been working on closing this hole for years;
+the <a href="https://lwn.net/ml/all/20240704190137.696169-1-mic@digikod.net">latest
+attempt</a> takes the form of a new flag to the <a
+href="https://man7.org/linux/man-pages/man2/execveat.2.html"><tt>execveat()</tt></a>
+system call.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/982559/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 19 Jul 2024 13:19:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -236,42 +279,6 @@ See also: <a href="https://lwn.net/Articles/936728/">this article</a> from 2023.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (kernel), <b>Fedora</b> (golang and krb5), <b>Red Hat</b> (cups, firefox, git, java-21-openjdk, kernel, linux-firmware, nghttp2, nodejs, and podman), <b>SUSE</b> (libndp, nodejs18, nodejs20, tomcat, and xen), and <b>Ubuntu</b> (gtk+2.0, gtk+3.0 and linux-hwe-5.4, linux-oracle-5.4).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/981018/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 16 Jul 2024 16:30:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/981018/" title="https://lwn.net/Articles/981018/">[$] SUSE asks openSUSE to consider name change</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.suse.com/">SUSE</a> has, in a somewhat clumsy
-fashion, asked <a href="https://www.opensuse.org/">openSUSE</a>
-to consider rebranding to clear up confusion over the
-relationship between SUSE the company and openSUSE as a community
-project. That, in turn, has opened conversations about revising
-openSUSE governance and more. So far, there is no concrete proposal to
-consider, no timeline, or even a process for the community and company
-to follow to make any decisions.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/981392/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 16 Jul 2024 14:26:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/981392/" title="https://lwn.net/Articles/981392/">[$] Hierarchical storage management, fanotify, FUSE, and more</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Amir Goldstein led a filesystem-track session at the 2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> on his project to build a
-<a
-href="https://en.wikipedia.org/wiki/Hierarchical_storage_management">hierarchical
-storage management</a> (HSM) system using <a
-href="https://www.kernel.org/doc/html/latest/admin-guide/filesystem-monitoring.html">fanotify</a>.
-The idea is to monitor file access in order to determine when to retrieve
-content from non-local storage (e.g. the cloud).  The session was a
-follow-up to last year's <a href="https://lwn.net/Articles/932415/">introduction to the
-project</a>, which covered some of the problems he had encountered; this
-year, he
-was updating attendees on its status and progress, along with some other
-problem areas that he wanted to discuss.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
