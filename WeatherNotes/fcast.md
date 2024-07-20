@@ -2,20 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly clear, with a low around 60. North wind around 2 mph.<br></div>
+         <h3>Today</h3>Mostly sunny, with a high near 83. North northeast wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Mostly sunny, with a high near 83. North northeast wind around 5 mph.<br></div>
+         <h3>Tonight</h3>Patchy fog after 5am. Mostly cloudy, with a low around 66. North northeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Mostly cloudy, with a low around 66. North northeast wind around 3 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday</h3>A slight chance of showers and thunderstorms after 4pm. Partly sunny, with a high near 83. North northeast wind around 5 mph.
-         Chance of precipitation is 20%.<br></div>
+         <h3>Sunday</h3>Patchy fog before 7am, then a slight chance of showers and thunderstorms. Partly sunny, with a high near 83. North northeast
+         wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -35,7 +31,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>A chance of showers and thunderstorms before 1pm, then showers and thunderstorms likely. Partly sunny, with a high near 80.
-         South wind around 5 mph.<br></div>
+         South wind around 5 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +57,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>A chance of showers and thunderstorms after 7am. Partly sunny, with a high near 84. South southwest wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 69. South wind around 3 mph.<br></div>
    </p>
 </div>
