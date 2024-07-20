@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Mostly sunny, with a high near 83. North northeast wind around 5 mph.<br></div>
+         <h3>Today</h3>Partly sunny, with a high near 83. North wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
