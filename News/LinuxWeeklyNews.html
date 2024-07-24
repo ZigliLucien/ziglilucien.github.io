@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/982965/" title="See Description">Let's Encrypt plans to drop support for OCSP.</a></li>
+<li><a href="#https://lwn.net/Articles/983083/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/982289/" title="See Description">[$] Imitation, not artificial, intelligence</a></li>
 <li><a href="#https://lwn.net/Articles/982967/" title="See Description">Improvements to the PSF Grants program</a></li>
 <li><a href="#https://lwn.net/Articles/982954/" title="See Description">Zuckerberg: Open Source AI Is the Path Forward</a></li>
@@ -51,11 +53,46 @@
 <li><a href="#https://lwn.net/Articles/982085/" title="See Description">[$] Restricting execution of scripts — the third approach</a></li>
 <li><a href="#https://lwn.net/Articles/982559/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/982470/" title="See Description">Peter de Schrijver RIP</a></li>
-<li><a href="#https://lwn.net/Articles/982392/" title="See Description">Evolving the ASF Brand (Apache Software Foundation blog)</a></li>
-<li><a href="#https://lwn.net/Articles/982379/" title="See Description">A bunch of new stable kernels</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/982965/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 24 Jul 2024 13:19:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/982965/" title="https://lwn.net/Articles/982965/">Let's Encrypt plans to drop support for OCSP.</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Let's Encrypt has
+<a href="https://letsencrypt.org/2024/07/23/replacing-ocsp-with-crls.html">announced</a>
+that it intends to end support "<q>as soon as possible</q>" for the 
+<a href="https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol">
+Online Certificate Status Protocol</a> (OCSP) over privacy concerns. OCSP was developed as a
+lighter-weight alternative to
+<a href="https://en.wikipedia.org/wiki/Certificate_revocation_list">
+Certificate Revocation Lists</a> (CRLs) that did not involve downloading
+the entire CRL in order to check whether a certificate was valid. Let's Encrypt will continue
+supporting OCSP as long as it is a requirement for Microsoft's
+<a href="https://learn.microsoft.com/en-us/security/trusted-root/program-requirements">
+Trusted Root Program</a>, but hopes to discontinue it soon:
+</p>
+
+<blockquote class="bq">
+We plan to end support for OCSP primarily because it represents a considerable risk to privacy on the Internet. When someone visits a website using a browser or other software that checks for certificate revocation via OCSP, the Certificate Authority (CA) operating the OCSP responder immediately becomes aware of which website is being visited from that visitor's particular IP address. Even when a CA intentionally does not retain this information, as is the case with Let's Encrypt, CAs could be legally compelled to collect it. CRLs do not have this issue.
+</blockquote>
+
+<p>
+People using Let's Encrypt as their CA should, for the most part, not need to change their setups.
+All modern browsers support CRLs, so end-users shouldn't notice an impact either.
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/983083/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 24 Jul 2024 12:59:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/983083/" title="https://lwn.net/Articles/983083/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (ghostscript and xmedcon), <b>Gentoo</b> (Dmidecode, ExifTool, and Freenet), <b>Red Hat</b> (containernetworking-plugins, cups, edk2, httpd, httpd:2.4, kernel, kernel-rt, krb5, libreoffice, libuv, libvirt, linux-firmware, nghttp2, nodejs, openssh, python3, runc, thunderbird, and tpm2-tss), <b>Slackware</b> (aaa_glibc, bind, and mozilla), <b>SUSE</b> (postgresql14, python-sentry-sdk, and shadow), and <b>Ubuntu</b> (activemq, bind9, haproxy, nova, provd, python-zipp, squid, squid3, and tomcat).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/982289/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 23 Jul 2024 20:58:58 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -287,39 +324,6 @@ system call.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The sad news that Peter de Schrijver has passed away has just reached us.  An <a href="https://www.ingedachten.be/overlijdensberichten/overlijden-detail/12-07-2024/peter-de-schrijver">obituary</a> in Dutch relates that he passed in a Helsinki hospital on July 12.  Mind Software Consulting, which he founded, has a <a href="https://www.linkedin.com/posts/mind-software-consultancy_linuxcommunity-inmemory-activity-7219341475854127104-WSTI">message of condolences</a> as well.
 De Schrijver was a Debian Developer and a Linux kernel contributor; he will be missed.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/982392/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 18 Jul 2024 16:10:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/982392/" title="https://lwn.net/Articles/982392/">Evolving the ASF Brand (Apache Software Foundation blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://www.apache.org/">Apache Software Foundation</a> (ASF)
-has <a
-href="https://news.apache.org/foundation/entry/evolving-the-asf-brand">announced</a>
-that it will be changing its logo to remove the feather that has been part
-of its brand since 1997.  ASF members will have input on the rebranding process and be
-able to vote on the new logo, which will be unveiled at the <a href="https://communityovercode.org/">Community Over Code</a> conference in October.
-
-<blockquote class="bq">
-The feather is a well-loved and iconic part of the ASF brand. We know of community members who have ASF feather tattoos. People love taking photos with the feather at our flagship event each year. 
-<p>
-So why would we change it? As a non-Indigenous entity, we acknowledge that it is inappropriate for the Foundation to use Indigenous themes or language. We thank <a href="https://blog.nativesintech.org/apache-appropriation/">Natives in Tech</a> and other members of the broader open source community for bringing this issue to the forefront. Today we are announcing we will be retiring the feather icon and logo and replacing it with a new logo that embodies the Foundation's rich history of providing software for the public good. 
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/982379/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 18 Jul 2024 15:07:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/982379/" title="https://lwn.net/Articles/982379/">A bunch of new stable kernels</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has released seven new stable kernels: <a
-href="https://lwn.net/Articles/982380/">6.9.10</a>, <a
-href="https://lwn.net/Articles/982381/">6.6.41</a>, <a
-href="https://lwn.net/Articles/982383/">6.1.100</a>, <a
-href="https://lwn.net/Articles/982384/">5.15.163</a>, <a
-href="https://lwn.net/Articles/982385/">5.10.222</a>, <a
-href="https://lwn.net/Articles/982386/">5.4.280</a>, and <a
-href="https://lwn.net/Articles/982387/">4.19.318</a>.  As usual, each contains important
-fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
