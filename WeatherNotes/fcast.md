@@ -14,27 +14,27 @@
       <div style="font-size:120%">
          <h3>Thursday</h3>A slight chance of rain showers between 7am and 10am, then a slight chance of showers and thunderstorms. Partly sunny. High
          near 88, with temperatures falling to around 85 in the afternoon. North northwest wind 0 to 5 mph. Chance of precipitation
-         is 20%.<br></div>
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Thursday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly cloudy, with a low around 68. Northeast wind around 3 mph.
-         Chance of precipitation is 20%.<br></div>
+         Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>A chance of showers and thunderstorms after 1pm. Partly sunny, with a high near 84. East northeast wind around 5 mph. Chance
-         of precipitation is 20%.<br></div>
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Friday Night</h3>A chance of showers and thunderstorms before 7pm. Mostly cloudy, with a low around 68. East southeast wind around 3 mph. Chance
-         of precipitation is 20%.<br></div>
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A chance of showers and thunderstorms after 7am. Partly sunny, with a high near 82. Southeast wind 2 to 6 mph. Chance of precipitation
-         is 30%.<br></div>
+         is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
