@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-07-25T16:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-07-25T14:18:07+00:00</updateTime>
-		<validTimes type="str">2024-07-25T08:00:00+00:00/P7DT17H</validTimes>
+		<generatedAt type="str">2024-07-25T18:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-07-25T17:18:30+00:00</updateTime>
+		<validTimes type="str">2024-07-25T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2024-07-25T11:00:00-05:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2024-07-25T13:00:00-05:00</startTime>
 				<endTime type="str">2024-07-25T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">87</temperature>
@@ -64,7 +64,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,20/tsra_sct,40?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,40?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A chance of showers and thunderstorms. Partly sunny, with a high near 87. Northeast wind around 5 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
