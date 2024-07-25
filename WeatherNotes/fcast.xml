@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-07-25T20:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-07-25T19:32:14+00:00</updateTime>
-		<validTimes type="str">2024-07-25T13:00:00+00:00/P7DT12H</validTimes>
+		<generatedAt type="str">2024-07-25T21:36:02+00:00</generatedAt>
+		<updateTime type="str">2024-07-25T20:48:17+00:00</updateTime>
+		<validTimes type="str">2024-07-25T14:00:00+00:00/P7DT11H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">This Afternoon</name>
-				<startTime type="str">2024-07-25T15:00:00-05:00</startTime>
+				<startTime type="str">2024-07-25T16:00:00-05:00</startTime>
 				<endTime type="str">2024-07-25T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">87</temperature>
@@ -83,9 +83,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">0 to 5 mph</windSpeed>
 				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,40/bkn?size=medium</icon>
-				<shortForecast type="str">Chance Showers And Thunderstorms then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 7pm. Mostly cloudy, with a low around 69. East wind 0 to 5 mph. Chance of precipitation is 40%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,40/fog?size=medium</icon>
+				<shortForecast type="str">Chance Showers And Thunderstorms then Patchy Fog</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 7pm, then patchy fog. Mostly cloudy. Low around 69, with temperatures rising to around 71 overnight. East wind 0 to 5 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -102,9 +102,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 to 6 mph</windSpeed>
 				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn/tsra_sct,30?size=medium</icon>
-				<shortForecast type="str">Partly Sunny then Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms after 1pm. Partly sunny. High near 86, with temperatures falling to around 83 in the afternoon. East wind 1 to 6 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/fog/tsra_sct,30?size=medium</icon>
+				<shortForecast type="str">Patchy Fog then Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">Patchy fog before 9am, then a chance of showers and thunderstorms. Partly sunny. High near 86, with temperatures falling to around 83 in the afternoon. East wind 1 to 6 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -140,9 +140,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 to 6 mph</windSpeed>
 				<windDirection type="str">SE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,20/tsra_sct,40?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,20/tsra_sct,40?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers between 7am and 10am, then a chance of showers and thunderstorms. Partly sunny, with a high near 83. Southeast wind 1 to 6 mph. Chance of precipitation is 40%.</detailedForecast>
+				<detailedForecast type="str">A slight chance of rain showers between 7am and 1pm, then a chance of showers and thunderstorms between 1pm and 4pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 83. Southeast wind 1 to 6 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">6</number>
@@ -180,7 +180,7 @@
 				<windDirection type="str">S</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,50/tsra_sct,70?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 1pm, then showers and thunderstorms likely. Partly sunny, with a high near 83. South wind 3 to 8 mph. Chance of precipitation is 70%.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 10am, then a chance of showers and thunderstorms between 10am and 1pm, then showers and thunderstorms likely. Partly sunny, with a high near 83. South wind 3 to 8 mph. Chance of precipitation is 70%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">8</number>
@@ -217,8 +217,8 @@
 				<windSpeed type="str">6 to 9 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi?size=medium</icon>
-				<shortForecast type="str">Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 1pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 88. South southwest wind 6 to 9 mph.</detailedForecast>
+				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly sunny, with a high near 88. South southwest wind 6 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">10</number>
