@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of showers and thunderstorms after 1pm. Mostly cloudy. High near 86, with temperatures falling to around 83 in the
-         afternoon. East wind 1 to 6 mph. Chance of precipitation is 30%.<br></div>
+         afternoon. East northeast wind around 6 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
