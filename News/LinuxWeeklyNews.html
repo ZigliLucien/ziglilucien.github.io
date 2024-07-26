@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/983169/" title="See Description">[$] May the FOLL_FORCE not be with you</a></li>
 <li><a href="#https://lwn.net/Articles/983523/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/983186/" title="See Description">[$] What became of getrandom() in the vDSO</a></li>
 <li><a href="#https://lwn.net/Articles/982398/" title="See Description">[$] More informative kernel panics for Fedora</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/982887/" title="See Description">[$] Large folios, swap, and FS-Cache</a></li>
 <li><a href="#https://lwn.net/Articles/982610/" title="See Description">[$] Lessons from the death and rebirth of Thunderbird</a></li>
 <li><a href="#https://lwn.net/Articles/982965/" title="See Description">Let's Encrypt plans to drop support for OCSP</a></li>
-<li><a href="#https://lwn.net/Articles/983083/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/983169/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 26 Jul 2024 14:19:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/983169/" title="https://lwn.net/Articles/983169/">[$] May the FOLL_FORCE not be with you</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the simplest hardening concepts to understand is that memory should
+never be both writable and executable, otherwise an attacker can use it to
+load and run arbitrary code.  That rule is generally followed in Linux
+systems, but there is a glaring loophole that is exploitable from user
+space to inject code into a running process.  Attackers have duly exploited
+it.  A new effort to close the hole ran into trouble early in the merge
+window, but a solution may yet be found in time for the 6.11 kernel
+release.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/983523/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 26 Jul 2024 13:47:21 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -280,14 +295,6 @@ We plan to end support for OCSP primarily because it represents a considerable r
 People using Let's Encrypt as their CA should, for the most part, not need to change their setups.
 All modern browsers support CRLs, so end-users shouldn't notice an impact either.
 </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/983083/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 24 Jul 2024 12:59:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/983083/" title="https://lwn.net/Articles/983083/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (ghostscript and xmedcon), <b>Gentoo</b> (Dmidecode, ExifTool, and Freenet), <b>Red Hat</b> (containernetworking-plugins, cups, edk2, httpd, httpd:2.4, kernel, kernel-rt, krb5, libreoffice, libuv, libvirt, linux-firmware, nghttp2, nodejs, openssh, python3, runc, thunderbird, and tpm2-tss), <b>Slackware</b> (aaa_glibc, bind, and mozilla), <b>SUSE</b> (postgresql14, python-sentry-sdk, and shadow), and <b>Ubuntu</b> (activemq, bind9, haproxy, nova, provd, python-zipp, squid, squid3, and tomcat).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
