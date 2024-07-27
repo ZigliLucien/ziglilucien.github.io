@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Patchy fog after 11pm. Mostly cloudy. Low around 69, with temperatures rising to around 71 overnight. Southeast wind around
-         3 mph.<br></div>
+         2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
