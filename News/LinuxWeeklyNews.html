@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/983652/" title="See Description">Stable kernel updates for Saturday</a></li>
 <li><a href="#https://lwn.net/Articles/983169/" title="See Description">[$] May the FOLL_FORCE not be with you</a></li>
 <li><a href="#https://lwn.net/Articles/983523/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/983186/" title="See Description">[$] What became of getrandom() in the vDSO</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/983120/" title="See Description">OpenSSL announces new governance structure</a></li>
 <li><a href="#https://lwn.net/Articles/982887/" title="See Description">[$] Large folios, swap, and FS-Cache</a></li>
 <li><a href="#https://lwn.net/Articles/982610/" title="See Description">[$] Lessons from the death and rebirth of Thunderbird</a></li>
-<li><a href="#https://lwn.net/Articles/982965/" title="See Description">Let's Encrypt plans to drop support for OCSP</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/983652/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 27 Jul 2024 14:35:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/983652/" title="https://lwn.net/Articles/983652/">Stable kernel updates for Saturday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The
+<a href="https://lwn.net/Articles/983653/">6.10.2</a>,
+<a href="https://lwn.net/Articles/983654/">6.9.12</a>,
+<a href="https://lwn.net/Articles/983655/">6.6.43</a>,
+<a href="https://lwn.net/Articles/983656/">6.1.102</a>,
+<a href="https://lwn.net/Articles/983657/">5.15.164</a>,
+<a href="https://lwn.net/Articles/983658/">5.10.223</a>,
+<a href="https://lwn.net/Articles/983659/">5.4.281</a>, and
+<a href="https://lwn.net/Articles/983660/">4.19.319</a>
+stable kernel updates have all been released; each contains a relatively
+small set of important fixes, <a
+href="https://lwn.net/ml/linux-kernel/20240723-fs-lock-recover-compatfix-v1-1-148096719529@google.com/">at
+least one of which</a> appears to close a minor security hole.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/983169/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 26 Jul 2024 14:19:23 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,35 +285,6 @@ governance, storytelling, and learning to be comfortable asking users
 for money. He would also like it quite a bit if Linux distributions stopped
 turning off telemetry.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/982965/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 24 Jul 2024 13:19:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/982965/" title="https://lwn.net/Articles/982965/">Let's Encrypt plans to drop support for OCSP</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Let's Encrypt has
-<a href="https://letsencrypt.org/2024/07/23/replacing-ocsp-with-crls.html">announced</a>
-that it intends to end support "<q>as soon as possible</q>" for the 
-<a href="https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol">
-Online Certificate Status Protocol</a> (OCSP) over privacy concerns. OCSP was developed as a
-lighter-weight alternative to
-<a href="https://en.wikipedia.org/wiki/Certificate_revocation_list">
-Certificate Revocation Lists</a> (CRLs) that did not involve downloading
-the entire CRL in order to check whether a certificate was valid. Let's Encrypt will continue
-supporting OCSP as long as it is a requirement for Microsoft's
-<a href="https://learn.microsoft.com/en-us/security/trusted-root/program-requirements">
-Trusted Root Program</a>, but hopes to discontinue it soon:
-</p>
-
-<blockquote class="bq">
-We plan to end support for OCSP primarily because it represents a considerable risk to privacy on the Internet. When someone visits a website using a browser or other software that checks for certificate revocation via OCSP, the Certificate Authority (CA) operating the OCSP responder immediately becomes aware of which website is being visited from that visitor's particular IP address. Even when a CA intentionally does not retain this information, as is the case with Let's Encrypt, CAs could be legally compelled to collect it. CRLs do not have this issue.
-</blockquote>
-
-<p>
-People using Let's Encrypt as their CA should, for the most part, not need to change their setups.
-All modern browsers support CRLs, so end-users shouldn't notice an impact either.
-</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
