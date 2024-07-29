@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/982605/" title="See Description">[$] The rest of the 6.11 merge window</a></li>
+<li><a href="#https://lwn.net/Articles/983816/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/983760/" title="See Description">Kernel prepatch 6.11-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/983652/" title="See Description">Stable kernel updates for Saturday</a></li>
 <li><a href="#https://lwn.net/Articles/983169/" title="See Description">[$] May the FOLL_FORCE not be with you</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/982336/" title="See Description">[$] LWN.net Weekly Edition for July 25, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/983153/" title="See Description">Stable kernel update 6.10.1</a></li>
 <li><a href="#https://lwn.net/Articles/983133/" title="See Description">OpenMandriva ROME 24.07 released</a></li>
-<li><a href="#https://lwn.net/Articles/983120/" title="See Description">OpenSSL announces new governance structure</a></li>
-<li><a href="#https://lwn.net/Articles/982887/" title="See Description">[$] Large folios, swap, and FS-Cache</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/982605/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 29 Jul 2024 13:54:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/982605/" title="https://lwn.net/Articles/982605/">[$] The rest of the 6.11 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The release of <a
+href="https://lwn.net/ml/all/CAHk-=wiyNokz0d3b=GRORij=mGvwoYHy=+bv6m2Hu_VqNdg66g@mail.gmail.com/">6.11-rc1</a>
+marked the end of the 6.11 merge window on July&nbsp;28.  By that time,
+12,102 non-merge changesets had been pulled into the mainline repository;
+about 8,000 of those came in after <a href="https://lwn.net/Articles/982034/">the
+first-half summary</a> was written.  Quite a few significant changes were
+to be found in those changesets; there is also one big change that did not
+make it.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/983816/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 29 Jul 2024 13:14:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/983816/" title="https://lwn.net/Articles/983816/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (java-11-openjdk), <b>Debian</b> (bind9), <b>Fedora</b> (darkhttpd, mod_http2, and python-scrapy), <b>Red Hat</b> (python3.11, rhc-worker-script, and thunderbird), <b>SUSE</b> (assimp, gh, opera, python-Django, and python-nltk), and <b>Ubuntu</b> (edk2, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-gkeop-5.15, linux-hwe-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux-azure, linux-azure-5.15, linux-azure-fde, linux-azure-fde-5.15, linux-nvidia-6.5, linux-oracle, linux-raspi, and lua5.4).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/983760/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 28 Jul 2024 22:36:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -236,55 +259,6 @@ href="https://github.com/ValveSoftware/Proton">Proton</a> and Proton
 experimental packages for playing Windows games on Linux, as well as 
 GNOME&nbsp;46.3 and LXQt&nbsp;2.0.0 spins.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/983120/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 24 Jul 2024 15:58:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/983120/" title="https://lwn.net/Articles/983120/">OpenSSL announces new governance structure</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>OpenSSL has <a
-href="https://openssl-library.org/post/2024-07-24-openssl-new-governance-structure/">announced</a>
-that it has adopted a new governance framework:</p>
-
-<blockquote class="bq">
-<p>The OpenSSL Management Committee (OMC) has been dissolved, and two
-boards of directors have been elected for the <a
-href="https://openssl-foundation.org/">Foundation</a> and the <a
-href="https://openssl-corporation.org/">Corporation</a>. Each
-organization has ten voting members. These boards share all the
-responsibilities and authorities of the former OMC co-equally.</p>
-
-<p>To further engage our communities, we are establishing two advisory
-committees for each entity: a Business Advisory Committee (BAC) and a
-Technical Advisory Committee (TAC). The communities will elect the
-members of the BACs and TACs, creating a direct channel for community
-input in roadmap development and reflecting the diverse perspectives
-of OpenSSL's communities.</p>
-</blockquote>
-
-<p>OpenSSL has also announced that two projects have adopted the <a
-href="https://openssl-mission.org/faq/index.html">OpenSSL Mission</a>
-and become <a href="https://openssl-projects.org/">OpenSSL
-projects</a>: <a
-href="https://www.bouncycastle.org/">Bouncy Castle</a>, which provides
-cryptographic APIs for Java and C#, and the <a
-href="https://cryptlib.com/">cryptlib</a> security
-software development toolkit. See the announcement for full details.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/982887/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 24 Jul 2024 15:28:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/982887/" title="https://lwn.net/Articles/982887/">[$] Large folios, swap, and FS-Cache</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>David Howells wanted to discuss swap handling in light of multi-page folios
-in a combined storage, filesystem, and memory-management session at
-the 2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  Swapping has always been
-done with a one-to-one mapping of memory pages to swap slots, he said, but
-swapping multi-page folios breaks that assumption.  He wondered if it would
-make sense to use filesystem techniques to track swapped-out folios.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
