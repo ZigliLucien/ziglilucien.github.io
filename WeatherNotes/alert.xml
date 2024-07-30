@@ -11,6 +11,136 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1b9df4e35dea3270620ef5f7fb8c361e9204649.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="dict">
+				<type type="str">Polygon</type>
+				<coordinates type="list">
+					<item type="list">
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.95</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.7</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.48</item>
+							<item type="float">37.650000000000006</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.52000000000001</item>
+							<item type="float">37.690000000000005</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.54</item>
+							<item type="float">37.7</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.65</item>
+							<item type="float">37.800000000000004</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.19000000000001</item>
+							<item type="float">37.95</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.95</item>
+						</item>
+					</item>
+				</coordinates>
+			</geometry>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f1b9df4e35dea3270620ef5f7fb8c361e9204649.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.f1b9df4e35dea3270620ef5f7fb8c361e9204649.001.1</id>
+				<areaDesc type="str">Jackson</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017077</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ084</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2024-07-30T15:57:00-05:00</sent>
+				<effective type="str">2024-07-30T15:57:00-05:00</effective>
+				<onset type="str">2024-07-30T15:57:00-05:00</onset>
+				<expires type="str">2024-07-30T16:45:00-05:00</expires>
+				<ends type="null"/>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Observed</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Special Weather Statement</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Special Weather Statement issued July 30 at 3:57PM CDT by NWS Paducah KY</headline>
+				<description type="str">At 356 PM CDT, Doppler radar was tracking a strong thunderstorm over
+Murphysboro, moving east at 10 mph.
+
+HAZARD...Wind gusts up to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impacted include...
+Carbondale, Murphysboro, De Soto, Elkville, Hurst, Dowell, Vergennes,
+and Gorham.</description>
+				<instruction type="str">If outdoors, consider seeking shelter inside a building.
+
+Torrential rainfall is also occurring with this storm and may lead to
+localized flooding. Do not drive your vehicle through flooded
+roadways.
+
+Frequent cloud to ground lightning is occurring with this storm.
+Lightning can strike 10 miles away from a thunderstorm. Seek a safe
+shelter inside a building or vehicle.
+
+A Severe Thunderstorm Watch remains in effect until 1000 PM CDT for
+south central and southern Illinois...and southeastern Missouri.</instruction>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">SPSPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS83 KPAH 302057</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">A STRONG THUNDERSTORM WILL IMPACT CENTRAL JACKSON COUNTY THROUGH 445 PM CDT</item>
+					</NWSheadline>
+					<eventMotionDescription type="list">
+						<item type="str">2024-07-30T20:56:00-00:00...storm...252DEG...9KT...37.79,-89.32</item>
+					</eventMotionDescription>
+					<maxWindGust type="list">
+						<item type="str">50 MPH</item>
+					</maxWindGust>
+					<maxHailSize type="list">
+						<item type="str">0.00</item>
+					</maxHailSize>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+				</parameters>
+			</properties>
+		</item>
+		<item type="dict">
 			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
@@ -160,5 +290,5 @@ the sun, and check up on relatives and neighbors.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-07-30T19:05:31+00:00</updated>
+	<updated type="str">2024-07-30T20:57:31+00:00</updated>
 </all>
