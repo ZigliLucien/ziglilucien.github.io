@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7326826dae65f265e2e78d596fbe4d7670d62b4f.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7326826dae65f265e2e78d596fbe4d7670d62b4f.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.7326826dae65f265e2e78d596fbe4d7670d62b4f.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</id>
 				<areaDesc type="str">Perry; Jackson; Williamson; Union; Johnson; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Perry; Bollinger; Cape Girardeau; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -98,29 +98,17 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7326826dae65f265e2e78d596fbe4d7670d62b4f.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.7326826dae65f265e2e78d596fbe4d7670d62b4f.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2024-07-29T14:32:00-05:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.002.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.002.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2024-07-29T14:32:00-05:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6f9256bde3218f18036df5e4ba087b7481d0843.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.c6f9256bde3218f18036df5e4ba087b7481d0843.001.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2024-07-29T20:57:00-05:00</sent>
+						<sent type="str">2024-07-30T01:36:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2024-07-30T01:36:00-05:00</sent>
-				<effective type="str">2024-07-30T01:36:00-05:00</effective>
-				<onset type="str">2024-07-30T11:00:00-05:00</onset>
-				<expires type="str">2024-07-30T16:00:00-05:00</expires>
-				<ends type="str">2024-07-31T20:00:00-05:00</ends>
+				<sent type="str">2024-07-30T14:04:00-05:00</sent>
+				<effective type="str">2024-07-30T14:04:00-05:00</effective>
+				<onset type="str">2024-07-30T14:04:00-05:00</onset>
+				<expires type="str">2024-07-31T06:00:00-05:00</expires>
+				<ends type="str">2024-08-01T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
@@ -130,14 +118,13 @@
 				<event type="str">Excessive Heat Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Excessive Heat Warning issued July 30 at 1:36AM CDT until July 31 at 8:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Dangerously hot conditions with heat index values around
-110 expected, and locally higher readings up to 115 possible.
+				<headline type="str">Excessive Heat Warning issued July 30 at 2:04PM CDT until August 1 at 8:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Dangerously hot conditions with heat index values up to 113.
 
 * WHERE...Portions of southern Illinois, western Kentucky, and
 southeast Missouri.
 
-* WHEN...From 11 AM this morning to 8 PM CDT Wednesday.
+* WHEN...Until 8 PM CDT Thursday.
 
 * IMPACTS...Heat related illnesses increase significantly during
 extreme heat and high humidity events.</description>
@@ -149,10 +136,10 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 300636</item>
+						<item type="str">WWUS73 KPAH 301904</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">EXCESSIVE HEAT WARNING REMAINS IN EFFECT FROM 11 AM THIS MORNING TO 8 PM CDT WEDNESDAY</item>
+						<item type="str">EXCESSIVE HEAT WARNING NOW IN EFFECT UNTIL 8 PM CDT THURSDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -160,15 +147,18 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.EH.W.0001.240730T1600Z-240801T0100Z/</item>
+						<item type="str">/O.EXT.KPAH.EH.W.0001.000000T0000Z-240802T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
-						<item type="str">2024-08-01T01:00:00+00:00</item>
+						<item type="str">2024-08-02T01:00:00+00:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c6f9256bde3218f18036df5e4ba087b7481d0843.001.1,2024-07-29T20:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.002.1,2024-07-29T14:32:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.001.1,2024-07-29T14:32:00-05:00</item>
+					</expiredReferences>
 				</parameters>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-07-30T06:37:12+00:00</updated>
+	<updated type="str">2024-07-30T19:05:31+00:00</updated>
 </all>
