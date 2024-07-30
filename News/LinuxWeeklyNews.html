@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/983105/" title="See Description">[$] Famfs: a filesystem interface to shareable memory</a></li>
 <li><a href="#https://lwn.net/Articles/983977/" title="See Description">Funtoo Linux is being discontinued</a></li>
 <li><a href="#https://lwn.net/Articles/983203/" title="See Description">[$] Report from the annual general meeting at GUADEC</a></li>
 <li><a href="#https://lwn.net/Articles/983935/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,31 @@
 <li><a href="#https://lwn.net/Articles/982398/" title="See Description">[$] More informative kernel panics for Fedora</a></li>
 <li><a href="#https://lwn.net/Articles/983265/" title="See Description">Rust 1.80.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/983331/" title="See Description">Three new stable kernels</a></li>
-<li><a href="#https://lwn.net/Articles/983328/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/983105/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 30 Jul 2024 21:28:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/983105/" title="https://lwn.net/Articles/983105/">[$] Famfs: a filesystem interface to shareable memory</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>At the 2024 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
+Storage, Filesystem, Memory Management, and BPF Summit</a>, John Groves led
+a session on famfs, which is a filesystem he has developed that uses the
+kernel's <a
+href="https://docs.kernel.org/filesystems/dax.html">direct-access (DAX)</a>
+mechanism to access memory that is shareable between hosts.  The discussion
+was aimed at whether a different approach should be taken and, in
+particular, whether FUSE should be used instead of implementing as an
+in-kernel filesystem.  As noted in the <a
+href="https://lwn.net/ml/all/20240229002020.85535-1-john@groves.net/">thread</a> about his
+proposal for an LSFMM+BPF session, and the mailing-list discussions on <a
+href="https://lwn.net/ml/all/cover.1708709155.git.john%40groves.net/">the first</a> and <a
+href="https://lwn.net/ml/linux-fsdevel/cover.1714409084.git.john@groves.net/">second
+version</a> of his patch set, there is some skepticism that a new in-kernel
+filesystem is warranted for the use case.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/983977/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 30 Jul 2024 17:10:27 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -257,14 +279,6 @@ exclusive-range syntax for <tt>match</tt> patterns, and more.</blockquote></bloc
 href="https://lwn.net/Articles/983333/">6.6.42</a>, and <a
 href="https://lwn.net/Articles/983335/">6.1.101</a> stable kernels have been released.  As
 usual, they contain important fixes throughout the tree.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/983328/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Jul 2024 14:03:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/983328/" title="https://lwn.net/Articles/983328/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (containernetworking-plugins, cups, edk2, httpd, httpd:2.4, libreoffice, libuv, libvirt, python3, and runc), <b>Fedora</b> (exim, python-zipp, xdg-desktop-portal-hyprland, and xmedcon), <b>Red Hat</b> (cups, fence-agents, freeradius, freeradius:3.0, httpd:2.4, kernel, kernel-rt, nodejs:18, podman, and resource-agents), <b>Slackware</b> (htdig and libxml2), <b>SUSE</b> (exim), and <b>Ubuntu</b> (ocsinventory-server, php-cas, and poppler).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
