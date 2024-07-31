@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8097ce42050082c07a55f61563e0698d93b7d518.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5362e53cd8a6660942a4701531013bf2048832f.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8097ce42050082c07a55f61563e0698d93b7d518.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5362e53cd8a6660942a4701531013bf2048832f.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.8097ce42050082c07a55f61563e0698d93b7d518.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.f5362e53cd8a6660942a4701531013bf2048832f.002.1</id>
 				<areaDesc type="str">Perry; Franklin; Hamilton; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Union; Webster; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -143,22 +143,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.001.2</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.001.2</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8097ce42050082c07a55f61563e0698d93b7d518.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.8097ce42050082c07a55f61563e0698d93b7d518.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2024-07-30T14:04:00-05:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2024-07-30T14:04:00-05:00</sent>
+						<sent type="str">2024-07-31T01:37:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2024-07-31T01:37:00-05:00</sent>
-				<effective type="str">2024-07-31T01:37:00-05:00</effective>
-				<onset type="str">2024-07-31T01:37:00-05:00</onset>
-				<expires type="str">2024-07-31T16:00:00-05:00</expires>
+				<sent type="str">2024-07-31T13:15:00-05:00</sent>
+				<effective type="str">2024-07-31T13:15:00-05:00</effective>
+				<onset type="str">2024-07-31T13:15:00-05:00</onset>
+				<expires type="str">2024-08-01T05:00:00-05:00</expires>
 				<ends type="str">2024-08-01T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -169,9 +163,9 @@
 				<event type="str">Excessive Heat Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Excessive Heat Warning issued July 31 at 1:37AM CDT until August 1 at 8:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Dangerously hot conditions with heat index values around
-110 expected, and locally higher readings up to 115 possible.
+				<headline type="str">Excessive Heat Warning issued July 31 at 1:15PM CDT until August 1 at 8:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Dangerously hot conditions with heat index values of 110 to
+115 degrees.
 
 * WHERE...Portions of southern Illinois, western Kentucky, and
 southeast Missouri.
@@ -179,16 +173,27 @@ southeast Missouri.
 * WHEN...Until 8 PM CDT Thursday.
 
 * IMPACTS...Heat related illnesses increase significantly during
-extreme heat and high humidity events.</description>
+extreme heat and high humidity events.
+
+* ADDITIONAL DETAILS...Isolated to widely scattered thunderstorms
+Thursday afternoon may provide limited relief from the heat.</description>
 				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
-the sun, and check up on relatives and neighbors.</instruction>
+the sun, and check up on relatives and neighbors.
+
+Do not leave young children and pets in unattended vehicles. Car
+interiors will reach lethal temperatures in a matter of minutes.
+
+Take extra precautions when outside. Wear lightweight and loose
+fitting clothing. Try to limit strenuous activities to early morning
+or evening. Take action when you see symptoms of heat exhaustion and
+heat stroke.</instruction>
 				<response type="str">Execute</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 310637</item>
+						<item type="str">WWUS73 KPAH 311815</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">EXCESSIVE HEAT WARNING REMAINS IN EFFECT UNTIL 8 PM CDT THURSDAY</item>
@@ -205,12 +210,12 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">2024-08-02T01:00:00+00:00</item>
 					</eventEndingTime>
 					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7326826dae65f265e2e78d596fbe4d7670d62b4f.001.1,2024-07-30T01:36:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c6f9256bde3218f18036df5e4ba087b7481d0843.001.1,2024-07-29T20:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.002.1,2024-07-29T14:32:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.001.1,2024-07-29T14:32:00-05:00</item>
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1,2024-07-30T14:04:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.001.2,2024-07-30T14:04:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7326826dae65f265e2e78d596fbe4d7670d62b4f.001.1,2024-07-30T01:36:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c6f9256bde3218f18036df5e4ba087b7481d0843.001.1,2024-07-29T20:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.002.1,2024-07-29T14:32:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.001.1,2024-07-29T14:32:00-05:00</item>
 					</expiredReferences>
 				</parameters>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-07-31T06:38:29+00:00</updated>
+	<updated type="str">2024-07-31T18:15:35+00:00</updated>
 </all>
