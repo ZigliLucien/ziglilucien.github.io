@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/984143/" title="See Description">A deprecation timeline for older Arm CPUs</a></li>
 <li><a href="#https://lwn.net/Articles/984117/" title="See Description">Vanilla OS 2 "Orchid" released</a></li>
 <li><a href="#https://lwn.net/Articles/983897/" title="See Description">[$] Showing up for Python in GNOME</a></li>
 <li><a href="#https://lwn.net/Articles/984116/" title="See Description">Forgejo v8.0 released</a></li>
@@ -52,10 +53,21 @@
 <li><a href="#https://lwn.net/Articles/983816/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/983760/" title="See Description">Kernel prepatch 6.11-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/983652/" title="See Description">Stable kernel updates for Saturday</a></li>
-<li><a href="#https://lwn.net/Articles/983169/" title="See Description">[$] May the FOLL_FORCE not be with you</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/984143/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 31 Jul 2024 20:15:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/984143/" title="https://lwn.net/Articles/984143/">A deprecation timeline for older Arm CPUs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Arnd Bergmann has posted <a
+href="https://lwn.net/ml/all/2831c5a6-cfbf-4fe0-b51c-0396e5b0aeb7@app.fastmail.com">a
+detailed timeline</a> for the deprecation of support for old Arm CPUs in
+both the kernel and the compiler toolchain.  Anybody who is working with
+that hardware will likely want to review this list and let the relevant
+developers know if any of that support is still needed.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/984117/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 31 Jul 2024 18:13:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -289,21 +301,6 @@ stable kernel updates have all been released; each contains a relatively
 small set of important fixes, <a
 href="https://lwn.net/ml/linux-kernel/20240723-fs-lock-recover-compatfix-v1-1-148096719529@google.com/">at
 least one of which</a> appears to close a minor security hole.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/983169/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 26 Jul 2024 14:19:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/983169/" title="https://lwn.net/Articles/983169/">[$] May the FOLL_FORCE not be with you</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>One of the simplest hardening concepts to understand is that memory should
-never be both writable and executable, otherwise an attacker can use it to
-load and run arbitrary code.  That rule is generally followed in Linux
-systems, but there is a glaring loophole that is exploitable from user
-space to inject code into a running process.  Attackers have duly exploited
-it.  A new effort to close the hole ran into trouble early in the merge
-window, but a solution may yet be found in time for the 6.11 kernel
-release.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
