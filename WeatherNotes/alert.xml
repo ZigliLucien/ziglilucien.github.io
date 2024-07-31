@@ -11,21 +11,27 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8097ce42050082c07a55f61563e0698d93b7d518.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8097ce42050082c07a55f61563e0698d93b7d518.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</id>
-				<areaDesc type="str">Perry; Jackson; Williamson; Union; Johnson; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Perry; Bollinger; Cape Girardeau; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.8097ce42050082c07a55f61563e0698d93b7d518.001.1</id>
+				<areaDesc type="str">Perry; Franklin; Hamilton; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Union; Webster; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
 						<item type="str">017145</item>
+						<item type="str">017055</item>
+						<item type="str">017065</item>
 						<item type="str">017077</item>
 						<item type="str">017199</item>
+						<item type="str">017165</item>
+						<item type="str">017059</item>
 						<item type="str">017181</item>
 						<item type="str">017087</item>
+						<item type="str">017151</item>
+						<item type="str">017069</item>
 						<item type="str">017003</item>
 						<item type="str">017153</item>
 						<item type="str">017127</item>
@@ -35,9 +41,18 @@
 						<item type="str">021007</item>
 						<item type="str">021145</item>
 						<item type="str">021083</item>
+						<item type="str">021139</item>
+						<item type="str">021157</item>
+						<item type="str">021035</item>
+						<item type="str">021055</item>
+						<item type="str">021143</item>
+						<item type="str">021225</item>
+						<item type="str">021233</item>
 						<item type="str">029157</item>
 						<item type="str">029017</item>
 						<item type="str">029031</item>
+						<item type="str">029223</item>
+						<item type="str">029035</item>
 						<item type="str">029181</item>
 						<item type="str">029023</item>
 						<item type="str">029207</item>
@@ -47,10 +62,16 @@
 					</SAME>
 					<UGC type="list">
 						<item type="str">ILZ080</item>
+						<item type="str">ILZ081</item>
+						<item type="str">ILZ082</item>
 						<item type="str">ILZ084</item>
 						<item type="str">ILZ085</item>
+						<item type="str">ILZ086</item>
+						<item type="str">ILZ087</item>
 						<item type="str">ILZ088</item>
 						<item type="str">ILZ089</item>
+						<item type="str">ILZ090</item>
+						<item type="str">ILZ091</item>
 						<item type="str">ILZ092</item>
 						<item type="str">ILZ093</item>
 						<item type="str">ILZ094</item>
@@ -60,9 +81,18 @@
 						<item type="str">KYZ004</item>
 						<item type="str">KYZ005</item>
 						<item type="str">KYZ006</item>
+						<item type="str">KYZ007</item>
+						<item type="str">KYZ008</item>
+						<item type="str">KYZ009</item>
+						<item type="str">KYZ010</item>
+						<item type="str">KYZ011</item>
+						<item type="str">KYZ014</item>
+						<item type="str">KYZ015</item>
 						<item type="str">MOZ076</item>
 						<item type="str">MOZ086</item>
 						<item type="str">MOZ087</item>
+						<item type="str">MOZ100</item>
+						<item type="str">MOZ107</item>
 						<item type="str">MOZ108</item>
 						<item type="str">MOZ109</item>
 						<item type="str">MOZ110</item>
@@ -73,10 +103,16 @@
 				</geocode>
 				<affectedZones type="list">
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ081</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ082</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ087</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ090</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ091</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ093</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ094</item>
@@ -86,9 +122,18 @@
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ004</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ005</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ006</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ007</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ008</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ009</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ010</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ011</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ014</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ015</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ108</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ109</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ110</item>
@@ -98,16 +143,22 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7326826dae65f265e2e78d596fbe4d7670d62b4f.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.7326826dae65f265e2e78d596fbe4d7670d62b4f.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.001.2</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.001.2</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2024-07-30T01:36:00-05:00</sent>
+						<sent type="str">2024-07-30T14:04:00-05:00</sent>
+					</item>
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.6dd3af81309954cea12d8aad813ce300fe1cd70b.002.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2024-07-30T14:04:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2024-07-30T14:04:00-05:00</sent>
-				<effective type="str">2024-07-30T14:04:00-05:00</effective>
-				<onset type="str">2024-07-30T14:04:00-05:00</onset>
-				<expires type="str">2024-07-31T06:00:00-05:00</expires>
+				<sent type="str">2024-07-31T01:37:00-05:00</sent>
+				<effective type="str">2024-07-31T01:37:00-05:00</effective>
+				<onset type="str">2024-07-31T01:37:00-05:00</onset>
+				<expires type="str">2024-07-31T16:00:00-05:00</expires>
 				<ends type="str">2024-08-01T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -118,8 +169,9 @@
 				<event type="str">Excessive Heat Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Excessive Heat Warning issued July 30 at 2:04PM CDT until August 1 at 8:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Dangerously hot conditions with heat index values up to 113.
+				<headline type="str">Excessive Heat Warning issued July 31 at 1:37AM CDT until August 1 at 8:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Dangerously hot conditions with heat index values around
+110 expected, and locally higher readings up to 115 possible.
 
 * WHERE...Portions of southern Illinois, western Kentucky, and
 southeast Missouri.
@@ -136,10 +188,10 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 301904</item>
+						<item type="str">WWUS73 KPAH 310637</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">EXCESSIVE HEAT WARNING NOW IN EFFECT UNTIL 8 PM CDT THURSDAY</item>
+						<item type="str">EXCESSIVE HEAT WARNING REMAINS IN EFFECT UNTIL 8 PM CDT THURSDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -147,18 +199,18 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.EXT.KPAH.EH.W.0001.000000T0000Z-240802T0100Z/</item>
+						<item type="str">/O.CON.KPAH.EH.W.0001.000000T0000Z-240802T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2024-08-02T01:00:00+00:00</item>
 					</eventEndingTime>
 					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c6f9256bde3218f18036df5e4ba087b7481d0843.001.1,2024-07-29T20:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.002.1,2024-07-29T14:32:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.001.1,2024-07-29T14:32:00-05:00</item>
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7326826dae65f265e2e78d596fbe4d7670d62b4f.001.1,2024-07-30T01:36:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c6f9256bde3218f18036df5e4ba087b7481d0843.001.1,2024-07-29T20:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.002.1,2024-07-29T14:32:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d735ff140c74f7f985f84f5e2aec790db7710647.001.1,2024-07-29T14:32:00-05:00</item>
 					</expiredReferences>
 				</parameters>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-07-30T21:45:00+00:00</updated>
+	<updated type="str">2024-07-31T06:38:29+00:00</updated>
 </all>
