@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/983340/" title="See Description">[$] Pulling Linux up by its bootstraps</a></li>
+<li><a href="#https://lwn.net/Articles/984080/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/983105/" title="See Description">[$] Famfs: a filesystem interface to shareable memory</a></li>
 <li><a href="#https://lwn.net/Articles/983977/" title="See Description">Funtoo Linux is being discontinued</a></li>
 <li><a href="#https://lwn.net/Articles/983203/" title="See Description">[$] Report from the annual general meeting at GUADEC</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/983523/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/983186/" title="See Description">[$] What became of getrandom() in the vDSO</a></li>
 <li><a href="#https://lwn.net/Articles/982398/" title="See Description">[$] More informative kernel panics for Fedora</a></li>
-<li><a href="#https://lwn.net/Articles/983265/" title="See Description">Rust 1.80.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/983331/" title="See Description">Three new stable kernels</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/983340/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 31 Jul 2024 13:18:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/983340/" title="https://lwn.net/Articles/983340/">[$] Pulling Linux up by its bootstraps</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+A <a href="https://lwn.net/Articles/841797/">
+bootstrappable build</a> is one that builds existing
+software from scratch — for example, building GCC without relying on an existing
+copy of GCC. In 2023, the Guix project
+<a href="https://lwn.net/Articles/930650/">announced</a> that the project had reduced the size
+of the binary bootstrap seed needed to build its operating system to just 357-bytes —
+not counting the Linux kernel required to run the build process. Now, the
+<a href="https://github.com/fosslinux/live-bootstrap">live-bootstrap</a> project
+has gone a step further and removed the need for an existing kernel at all.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/984080/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 31 Jul 2024 13:09:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/984080/" title="https://lwn.net/Articles/984080/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (xdg-desktop-portal-hyprland), <b>Red Hat</b> (freeradius, freeradius:3.0, git-lfs, httpd, kernel, openssh, and varnish:6), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, git, gtk2, gtk3, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, orc, postgresql14, python-dnspython, python-urllib3, shadow, and xen), and <b>Ubuntu</b> (openjdk-17, openjdk-21, openjdk-8, openjdk-lts, and python3.10, python3.8).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/983105/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 30 Jul 2024 21:28:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -258,27 +284,6 @@ tradeoffs, including currently limited driver support, so the proposal spawned a
 good deal of discussion.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/983265/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Jul 2024 14:59:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/983265/" title="https://lwn.net/Articles/983265/">Rust 1.80.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2024/07/25/Rust-1.80.0.html">Version
-1.80.0</a> of the Rust language has been released.  Changes include the new
-<tt>LazyCell</tt> and <tt>LazyLock</tt> types (which delay data
-initialization until the first access), the stabilization of the
-exclusive-range syntax for <tt>match</tt> patterns, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/983331/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Jul 2024 14:19:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/983331/" title="https://lwn.net/Articles/983331/">Three new stable kernels</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/983332/">6.9.11</a>, <a
-href="https://lwn.net/Articles/983333/">6.6.42</a>, and <a
-href="https://lwn.net/Articles/983335/">6.1.101</a> stable kernels have been released.  As
-usual, they contain important fixes throughout the tree.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
