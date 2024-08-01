@@ -2,22 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy, with a low around 78. South southwest wind around 6 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of showers and thunderstorms after 2pm. Mostly sunny. High near 94, with temperatures falling to around 91 in the
+         <h3>Today</h3>A chance of showers and thunderstorms after 2pm. Mostly sunny. High near 94, with temperatures falling to around 91 in the
          afternoon. Heat index values as high as 109. Southwest wind 6 to 9 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Partly cloudy. Low around 73, with temperatures rising to around 75 overnight. Heat
+         <h3>Tonight</h3>A chance of showers and thunderstorms. Partly cloudy. Low around 73, with temperatures rising to around 75 overnight. Heat
          index values as high as 105. West southwest wind 5 to 8 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of showers and thunderstorms. Mostly sunny, with a high near 87. West northwest wind 5 to 10 mph, with gusts as high
-         as 18 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Friday</h3>A chance of showers and thunderstorms. Mostly sunny. High near 87, with temperatures falling to around 85 in the afternoon.
+         West northwest wind 5 to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -59,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>Sunny, with a high near 91. West northwest wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>Mostly clear, with a low around 70. East southeast wind around 7 mph.<br></div>
    </p>
 </div>
