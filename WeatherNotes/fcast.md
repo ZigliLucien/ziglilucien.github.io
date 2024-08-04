@@ -2,8 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Patchy fog between 3am and 4am. Clear. Low around 70, with temperatures rising to around 72 overnight. Southwest wind around
-         1 mph.<br></div>
+         <h3>Tonight</h3>Patchy fog between 3am and 4am. Clear, with a low around 71. Southwest wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
