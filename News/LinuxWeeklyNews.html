@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/983714/" title="See Description">[$] Handling filesystem interruptibility</a></li>
 <li><a href="#https://lwn.net/Articles/984249/" title="See Description">[$] The complexity of BUSL transformation</a></li>
 <li><a href="#https://lwn.net/Articles/984539/" title="See Description">GNU Binutils 2.43 released</a></li>
 <li><a href="#https://lwn.net/Articles/984552/" title="See Description">Security updates for Monday</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/983267/" title="See Description">[$] LWN.net Weekly Edition for August 1, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/984143/" title="See Description">A deprecation timeline for older Arm CPUs</a></li>
 <li><a href="#https://lwn.net/Articles/984117/" title="See Description">Vanilla OS 2 "Orchid" released</a></li>
-<li><a href="#https://lwn.net/Articles/983897/" title="See Description">[$] Showing up for Python in GNOME</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/983714/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 05 Aug 2024 19:15:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/983714/" title="https://lwn.net/Articles/983714/">[$] Handling filesystem interruptibility</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>David Howells wanted to discuss changing the way filesystem code handles
+the ability to interrupt or kill operations, in order to fix some
+longstanding problems with network 
+(and other) filesystems, in a session at
+the 2024 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
+Storage, Filesystem, Memory Management, and BPF Summit</a>.   As noted in
+his <a href="https://lwn.net/ml/all/2701318.1706863882%40warthog.procyon.org.uk/">session
+proposal</a>, some filesystems may be expecting to not be interruptible,
+but are calling code can take locks and mutexes that are interruptible (or
+killable), which are effectively
+changing the state of the task incorrectly.
+He would like to find a solution for that problem.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/984249/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 05 Aug 2024 14:55:26 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -251,24 +270,6 @@ of customized Linux environments</a>, support for running Android
 applications using Waydroid, and many other improvements.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/983897/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 31 Jul 2024 17:39:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/983897/" title="https://lwn.net/Articles/983897/">[$] Showing up for Python in GNOME</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>A few years ago, <a
-href="https://pygobject.gnome.org/">PyGObject</a>&mdash;the Python
-package that provides bindings for <a
-href="https://www.gtk.org/">GTK</a> and <a
-href="https://www.gnome.org/">GNOME</a> applications&mdash;was not
-faring particularly well. Several maintainers had left the project and its
-development was not keeping pace with changes in GTK. At this year's
-GUADEC, Dan Yeaw presented a <a
-href="https://events.gnome.org/event/209/contributions/757/">talk</a>
-about the project's decline, improvements in the last year, and his
-experience getting involved in an undermaintained project.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
