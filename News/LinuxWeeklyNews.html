@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/984249/" title="See Description">[$] The complexity of BUSL transformation</a></li>
+<li><a href="#https://lwn.net/Articles/984539/" title="See Description">GNU Binutils 2.43 released</a></li>
+<li><a href="#https://lwn.net/Articles/984552/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/984501/" title="See Description">Kernel prepatch 6.11-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/984448/" title="See Description">Three stable kernel updates for Saturday</a></li>
 <li><a href="#https://lwn.net/Articles/983843/" title="See Description">[$] Divvi Up: privacy-respecting telemetry aggregation</a></li>
@@ -50,12 +53,42 @@
 <li><a href="#https://lwn.net/Articles/984143/" title="See Description">A deprecation timeline for older Arm CPUs</a></li>
 <li><a href="#https://lwn.net/Articles/984117/" title="See Description">Vanilla OS 2 "Orchid" released</a></li>
 <li><a href="#https://lwn.net/Articles/983897/" title="See Description">[$] Showing up for Python in GNOME</a></li>
-<li><a href="#https://lwn.net/Articles/984116/" title="See Description">Forgejo v8.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/983340/" title="See Description">[$] Pulling Linux up by its bootstraps</a></li>
-<li><a href="#https://lwn.net/Articles/984080/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/984249/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 05 Aug 2024 14:55:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/984249/" title="https://lwn.net/Articles/984249/">[$] The complexity of BUSL transformation</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://spdx.org/licenses/BUSL-1.1.html">Business
+Source License</a> (BUSL) is a source-available license that "converts"
+to an open-source license after a period of time. In theory, this
+means that a few years after a version of a product is released under
+the BUSL, it becomes open source and is fair game for Linux
+distributions to package along with regular open-source projects. In
+practice, the license throws a few curveballs that require special
+consideration and caution, as the Fedora Project recently discussed.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/984539/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 05 Aug 2024 14:29:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/984539/" title="https://lwn.net/Articles/984539/">GNU Binutils 2.43 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Version 2.43 of the GNU Binutils package is out.  Changes include some
+improvements to the assembler and the linker, better support for hardware
+event counters in the Gprofng profiler, and more.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/984552/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 05 Aug 2024 14:26:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/984552/" title="https://lwn.net/Articles/984552/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (openjdk-11), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, ffmpeg, hostapd, trafficserver, and wpa_supplicant), and <b>Ubuntu</b> (curl and linux-oem-6.5).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/984501/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 05 Aug 2024 00:25:15 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -235,64 +268,6 @@ GUADEC, Dan Yeaw presented a <a
 href="https://events.gnome.org/event/209/contributions/757/">talk</a>
 about the project's decline, improvements in the last year, and his
 experience getting involved in an undermaintained project.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/984116/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 31 Jul 2024 15:58:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/984116/" title="https://lwn.net/Articles/984116/">Forgejo v8.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 8.0 of the <a href="https://forgejo.org/">Forgejo</a>
-software-development platform has been <a
-href="https://forgejo.org/2024-07-release-v8-0/">released</a>. Notable
-changes include the <a
-href="https://forgejo.org/2024-07-non-free-dependency-found/">removal</a>
-of non-free software found in the codebase, improved stability, and a
-<a
-href="https://forgejo.org/2024-07-release-v8-0/#a-new-approach-to-ui-and-ux">reduction</a>
-in "<q>seemingly random User Interface changes</q>":</p>
-
-<blockquote class="bq">
-A gentle way of describing Forgejo User eXperience is that it is an
-acquired taste: it grew over the years, driven by the inspiration of
-the person with the keyboard in their hand. Once implemented it almost
-never changed. A user who started with Forgejo in 2022 can only see
-minor changes in 2024 and not all of them make intuitive sense. The
-solution to this problem is simple and was identified early on: User
-Research. But only in the making of Forgejo v8.0 did it get some
-momentum.
-</blockquote>
-
-<p>See the <a
-href="https://codeberg.org/forgejo/forgejo/src/branch/forgejo/RELEASE-NOTES.md#8-0-0">release
-notes</a> for a full list of changes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/983340/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 31 Jul 2024 13:18:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/983340/" title="https://lwn.net/Articles/983340/">[$] Pulling Linux up by its bootstraps</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-A <a href="https://lwn.net/Articles/841797/">
-bootstrappable build</a> is one that builds existing
-software from scratch — for example, building GCC without relying on an existing
-copy of GCC. In 2023, the Guix project
-<a href="https://lwn.net/Articles/930650/">announced</a> that the project had reduced the size
-of the binary bootstrap seed needed to build its operating system to just 357-bytes —
-not counting the Linux kernel required to run the build process. Now, the
-<a href="https://github.com/fosslinux/live-bootstrap">live-bootstrap</a> project
-has gone a step further and removed the need for an existing kernel at all.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/984080/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 31 Jul 2024 13:09:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/984080/" title="https://lwn.net/Articles/984080/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (xdg-desktop-portal-hyprland), <b>Red Hat</b> (freeradius, freeradius:3.0, git-lfs, httpd, kernel, openssh, and varnish:6), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, git, gtk2, gtk3, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, orc, postgresql14, python-dnspython, python-urllib3, shadow, and xen), and <b>Ubuntu</b> (openjdk-17, openjdk-21, openjdk-8, openjdk-lts, and python3.10, python3.8).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
