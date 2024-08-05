@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/984501/" title="See Description">Kernel prepatch 6.11-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/984448/" title="See Description">Three stable kernel updates for Saturday</a></li>
 <li><a href="#https://lwn.net/Articles/983843/" title="See Description">[$] Divvi Up: privacy-respecting telemetry aggregation</a></li>
 <li><a href="#https://lwn.net/Articles/984370/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,19 @@
 <li><a href="#https://lwn.net/Articles/984116/" title="See Description">Forgejo v8.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/983340/" title="See Description">[$] Pulling Linux up by its bootstraps</a></li>
 <li><a href="#https://lwn.net/Articles/984080/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/983105/" title="See Description">[$] Famfs: a filesystem interface to shareable memory</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/984501/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 05 Aug 2024 00:25:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/984501/" title="https://lwn.net/Articles/984501/">Kernel prepatch 6.11-rc2</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/984500/">6.11-rc2</a> for testing.
+"<q>Hopefully we've gotten rid of the bulk of the silly noise here in rc2,
+and not added too much new noise, so that we can get on with the process of
+finding more meaningful issues.</q>"</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/984448/"></a></td></tr>
 <tr><td><div class="date"><tt>Sat, 03 Aug 2024 13:41:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -283,28 +293,6 @@ has gone a step further and removed the need for an existing kernel at all.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (xdg-desktop-portal-hyprland), <b>Red Hat</b> (freeradius, freeradius:3.0, git-lfs, httpd, kernel, openssh, and varnish:6), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, git, gtk2, gtk3, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, orc, postgresql14, python-dnspython, python-urllib3, shadow, and xen), and <b>Ubuntu</b> (openjdk-17, openjdk-21, openjdk-8, openjdk-lts, and python3.10, python3.8).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/983105/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 30 Jul 2024 21:28:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/983105/" title="https://lwn.net/Articles/983105/">[$] Famfs: a filesystem interface to shareable memory</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>At the 2024 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
-Storage, Filesystem, Memory Management, and BPF Summit</a>, John Groves led
-a session on famfs, which is a filesystem he has developed that uses the
-kernel's <a
-href="https://docs.kernel.org/filesystems/dax.html">direct-access (DAX)</a>
-mechanism to access memory that is shareable between hosts.  The discussion
-was aimed at whether a different approach should be taken and, in
-particular, whether FUSE should be used instead of implementing as an
-in-kernel filesystem.  As noted in the <a
-href="https://lwn.net/ml/all/20240229002020.85535-1-john@groves.net/">thread</a> about his
-proposal for an LSFMM+BPF session, and the mailing-list discussions on <a
-href="https://lwn.net/ml/all/cover.1708709155.git.john%40groves.net/">the first</a> and <a
-href="https://lwn.net/ml/linux-fsdevel/cover.1714409084.git.john@groves.net/">second
-version</a> of his patch set, there is some skepticism that a new in-kernel
-filesystem is warranted for the use case.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
