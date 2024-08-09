@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/984635/" title="See Description">[$] Distinguishing Debian testing from unstable</a></li>
+<li><a href="#https://lwn.net/Articles/984984/" title="See Description">New attack against the SLUB allocator</a></li>
 <li><a href="#https://lwn.net/Articles/984966/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/984838/" title="See Description">0.0.0.0 Day: Exploiting Localhost APIs From the Browser (Oligo Security)</a></li>
 <li><a href="#https://lwn.net/Articles/984086/" title="See Description">[$] Endless OS aimed at educational and offline environments</a></li>
@@ -51,11 +53,46 @@
 <li><a href="#https://lwn.net/Articles/984617/" title="See Description">Firefox 129.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/984598/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/983714/" title="See Description">[$] Handling filesystem interruptibility</a></li>
-<li><a href="#https://lwn.net/Articles/984249/" title="See Description">[$] The complexity of BUSL transformation</a></li>
-<li><a href="#https://lwn.net/Articles/984539/" title="See Description">GNU Binutils 2.43 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/984635/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 09 Aug 2024 15:12:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/984635/" title="https://lwn.net/Articles/984635/">[$] Distinguishing Debian testing from unstable</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Sometimes, the smallest changes create the longest discussions.  As a case
+in point, a proposal to make a one-line change in an informational text
+file on systems running the Debian unstable distribution has blown up into
+an interminable and sometimes unfriendly debate.  At its core, though, this
+discussion comes down to a seemingly simple question: should a program be
+able to determine whether it is running on a Debian testing or unstable
+system?
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/984984/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 09 Aug 2024 15:08:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/984984/" title="https://lwn.net/Articles/984984/">New attack against the SLUB allocator</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Researchers from Graz University of Technology have
+<a href="https://www.stefangast.eu/papers/slubstick.pdf">published</a> details of a new attack
+on the Linux kernel called SLUBStick. The attack uses timing information to turn an ability to trigger use-after-free or double-free bugs into the ability to overwrite page tables, and thence into the ability to read and write arbitrary areas of memory. The good news is that this attack does require an existing bug to be usable; the bad news is that the kernel regularly sees bugs of this kind.
+</p>
+
+<blockquote class="bq">
+We assume that an unprivileged user has code execution. 
+Additionally, we consider the presence of a heap vulnerability
+in the Linux kernel. We assume that the Linux kernel 
+incorporates all defense mechanisms available in version 6.4, the
+most recent Linux kernel version when we started our work.
+These mechanisms include features such as WˆX, KASLR,
+SMAP, and kCFI. We do not assume any microarchitectural 
+vulnerabilities, e.g., transient execution, fault
+injection, or hardware side channels.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/984966/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 09 Aug 2024 13:23:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -230,31 +267,6 @@ but are calling code can take locks and mutexes that are interruptible (or
 killable), which are effectively
 changing the state of the task incorrectly.
 He would like to find a solution for that problem.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/984249/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 05 Aug 2024 14:55:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/984249/" title="https://lwn.net/Articles/984249/">[$] The complexity of BUSL transformation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://spdx.org/licenses/BUSL-1.1.html">Business
-Source License</a> (BUSL) is a source-available license that "converts"
-to an open-source license after a period of time. In theory, this
-means that a few years after a version of a product is released under
-the BUSL, it becomes open source and is fair game for Linux
-distributions to package along with regular open-source projects. In
-practice, the license throws a few curveballs that require special
-consideration and caution, as the Fedora Project recently discussed.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/984539/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 05 Aug 2024 14:29:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/984539/" title="https://lwn.net/Articles/984539/">GNU Binutils 2.43 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Version 2.43 of the GNU Binutils package is out.  Changes include some
-improvements to the assembler and the linker, better support for hardware
-event counters in the Gprofng profiler, and more.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
