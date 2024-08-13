@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/984599/" title="See Description">[$] Changes coming in PostgreSQL 17</a></li>
+<li><a href="#https://lwn.net/Articles/985484/" title="See Description">Lix makes its second release</a></li>
 <li><a href="#https://lwn.net/Articles/985482/" title="See Description">Incus 6.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/985481/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/984638/" title="See Description">[$] COSMIC desktop makes its debut</a></li>
@@ -51,11 +53,51 @@
 <li><a href="#https://lwn.net/Articles/984635/" title="See Description">[$] Distinguishing Debian testing from unstable</a></li>
 <li><a href="#https://lwn.net/Articles/984984/" title="See Description">New attack against the SLUB allocator</a></li>
 <li><a href="#https://lwn.net/Articles/984966/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/984838/" title="See Description">0.0.0.0 Day: Exploiting Localhost APIs From the Browser (Oligo Security)</a></li>
-<li><a href="#https://lwn.net/Articles/984086/" title="See Description">[$] Endless OS aimed at educational and offline environments</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/984599/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 13 Aug 2024 14:10:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/984599/" title="https://lwn.net/Articles/984599/">[$] Changes coming in PostgreSQL 17</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The
+<a href="https://www.postgresql.org/">
+PostgreSQL</a> project has
+<a href="https://www.postgresql.org/about/news/postgresql-164-158-1413-1316-1220-and-17-beta-3-released-2910/">
+released</a> beta
+versions of PostgreSQL 17 containing several interesting security and usability
+improvements, alongside the usual performance improvements and bug fixes. If the
+release proceeds according to the usual timeline, the full release of version 17
+is expected in September or October.
+The most important changes are in what PostgreSQL does when a database
+supervisor has their credentials revoked, and added
+support for incremental database backups.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/985484/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 13 Aug 2024 14:09:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/985484/" title="https://lwn.net/Articles/985484/">Lix makes its second release</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://lix.systems">Lix</a>, the fork of Nix that LWN <a href="https://lwn.net/Articles/981124/">covered</a> in July, has <a href="https://lix.systems/blog/2024-08-12-lix-2.91-release/">made its second release</a> since forking. This one includes substantial changes to the backend code, including removing a dependency on Bison, and getting a change to the Nix language back upstream.
+</p>
+
+<blockquote class="bq">
+<p>
+The general theme of Lix 2.91 is to perform another wave of
+refactorings and design improvements in preparation for our evolution
+plans.
+</p>
+
+<p>
+Nevertheless, there are a few exciting user facing changes[.]
+</p>
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/985482/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 13 Aug 2024 13:38:36 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -262,39 +304,6 @@ injection, or hardware side channels.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (httpd, kernel, kernel-rt, and libtiff), <b>Debian</b> (postgresql-13, postgresql-15, and thunderbird), <b>Fedora</b> (frr, thunderbird, vim, and xrdp), <b>Gentoo</b> (Librsvg, Nautilus, ncurses, Percona XtraBackup, QEMU, and re2c), <b>Red Hat</b> (httpd, kernel, kernel-rt, openssl, and python-setuptools), <b>SUSE</b> (bind, ffmpeg-4, kubernetes1.23, kubernetes1.24, python-Django, and python3-Twisted), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-gcp, linux-gcp-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-raspi, linux-xilinx-zynqmp, linux, linux-aws, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux, linux-aws, linux-gcp, linux-gke, linux-ibm, linux-nvidia, linux-nvidia-6.8, linux-oem-6.8, linux-nvidia-lowlatency, linux-oracle, linux-oracle, linux-oracle-5.4, and salt).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/984838/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 08 Aug 2024 17:15:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/984838/" title="https://lwn.net/Articles/984838/">0.0.0.0 Day: Exploiting Localhost APIs From the Browser (Oligo Security)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Oligo Security blog <a
-href="https://www.oligo.security/blog/0-0-0-0-day-exploiting-localhost-apis-from-the-browser">discloses</a>
-a web-browser vulnerability that has been named "0.0.0.0 day".  In short,
-browsers will allow JavaScript code to open connections to the all-zeroes
-IPv4 address; the result is that any port that is open on the local host
-can be accessed by a remote site.  "<q>When services use localhost, they
-assume a constrained environment. This assumption, which can (as in the
-case of this vulnerability) be faulty, results in insecure server
-implementations.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/984086/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 08 Aug 2024 13:56:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/984086/" title="https://lwn.net/Articles/984086/">[$] Endless OS aimed at educational and offline environments</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://www.endlessos.org/os">
-Endless OS</a> is a Linux distribution with a focus on improving access to
-educational tools by providing a simple-to-manage, full-featured desktop for
-educators and students — one that works offline, with minimal maintenance. The
-distribution also aims to be suitable for older devices, in order to promote access to
-computers by ensuring those systems remain usable.
-In pursuit of those goals, it makes some unusual technical
-choices. But what makes the distribution really shine is its curated collection
-of software and educational resources.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
