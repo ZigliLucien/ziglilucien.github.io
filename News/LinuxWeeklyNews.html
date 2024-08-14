@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/985669/" title="See Description">Stable kernels 6.10.5, 6.6.46, and 6.1.105</a></li>
+<li><a href="#https://lwn.net/Articles/982868/" title="See Description">[$] Standards for use of unsafe Rust in the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/985654/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/984502/" title="See Description">[$] Zettlr: note-taking and publishing with Markdown</a></li>
 <li><a href="#https://lwn.net/Articles/984599/" title="See Description">[$] Changes coming in PostgreSQL 17</a></li>
@@ -51,11 +53,42 @@
 <li><a href="#https://lwn.net/Articles/985233/" title="See Description">Kernel prepatch 6.11-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/985198/" title="See Description">Three weekend stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/984720/" title="See Description">[$] Meeting the Debian Technical Committee</a></li>
-<li><a href="#https://lwn.net/Articles/985043/" title="See Description">A new kernel-version policy for Ubuntu</a></li>
-<li><a href="#https://lwn.net/Articles/984635/" title="See Description">[$] Distinguishing Debian testing from unstable</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/985669/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 14 Aug 2024 14:24:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/985669/" title="https://lwn.net/Articles/985669/">Stable kernels 6.10.5, 6.6.46, and 6.1.105</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Three new stable kernels have been released: <a
+href="https://lwn.net/Articles/985670/">6.10.5</a>, <a
+href="https://lwn.net/Articles/985672/">6.6.46</a>, and <a
+href="https://lwn.net/Articles/985673/">6.1.105</a>. As usual, they contain important
+fixes all over the kernel tree.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/982868/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 14 Aug 2024 14:17:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/982868/" title="https://lwn.net/Articles/982868/">[$] Standards for use of unsafe Rust in the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Rust is intended to let programmers write safer code.
+But compilers are
+not omniscient, and writing Rust code that interfaces with hardware (or that
+works with memory outside of Rust's lifetime paradigm) requires, at
+some point, the programmer's assurance that some operations are permissible. Benno Lossin
+<a href="https://lwn.net/ml/all/20240717221133.459589-1-benno.lossin@proton.me/">
+suggested adding
+some more documentation</a> to
+<a href="https://rust-for-linux.com/">
+the Rust-for-Linux project</a> clarifying the
+standards for commenting uses of <tt>unsafe</tt> in kernel code. There's general
+agreement that such standards are necessary, but less agreement on exactly when
+it is appropriate to use <tt>unsafe</tt>.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/985654/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 14 Aug 2024 13:28:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -265,42 +298,6 @@ underpinnings of the TC, how it tries to make decisions when it needs to,
 and the constant process of recruiting new members.  After that, they took
 a few questions from the audience.  The session provided a nice overview of
 the TC and its role in Debian, but it may well be of interest further afield.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/985043/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 09 Aug 2024 19:47:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/985043/" title="https://lwn.net/Articles/985043/">A new kernel-version policy for Ubuntu</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Canonical Kernel Team has <a
-href="https://discourse.ubuntu.com/t/kernel-version-selection-for-ubuntu-releases/47007">announced</a>
-a new policy regarding the version of the kernel that will ship with each
-Ubuntu release; the result will generally be the shipping of newer
-releases.
-<p>
-<blockquote class="bq">
-	To provide users with the absolute latest in features and hardware
-	support, Ubuntu will now ship the absolute latest available version
-	of the upstream Linux kernel at the specified Ubuntu release freeze
-	date, even if upstream is still in Release Candidate (RC) status.
-</blockquote>
-<p>
-The post goes on to acknowledge that "<q>there are issues with this
-approach</q>"; there are a lot of policy details that will apply depending
-on just how raw the shipped kernel is.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/984635/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 09 Aug 2024 15:12:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/984635/" title="https://lwn.net/Articles/984635/">[$] Distinguishing Debian testing from unstable</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Sometimes, the smallest changes create the longest discussions.  As a case
-in point, a proposal to make a one-line change in an informational text
-file on systems running the Debian unstable distribution has blown up into
-an interminable and sometimes unfriendly debate.  At its core, though, this
-discussion comes down to a seemingly simple question: should a program be
-able to determine whether it is running on a Debian testing or unstable
-system?
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
