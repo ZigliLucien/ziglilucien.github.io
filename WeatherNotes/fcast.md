@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms. Some of the storms could be severe and produce heavy rain. Mostly cloudy, with a low around 71.
-         South wind around 7 mph. Chance of precipitation is 80%.<br></div>
+         South wind around 6 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
