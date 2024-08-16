@@ -7,7 +7,7 @@
         <meta name="DC.title" content="National Weather Service" />
         <meta name="DC.description" content="NOAA National Weather Service" />
         <meta name="DC.creator" content="US Department of Commerce, NOAA, National Weather Service" />
-        <meta name="DC.date.created" scheme="ISO8601" content="2024-08-16T22:18:02+00:00" />
+        <meta name="DC.date.created" scheme="ISO8601" content="2024-08-16T23:18:02+00:00" />
         <meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
         <meta name="DC.keywords" content="weather" />
         <meta name="DC.publisher" content="NOAA's National Weather Service" />
@@ -145,10 +145,10 @@
                                     <a href="https://www.weather.gov/safety/tornado">Tornadoes</a>
                                 </li>
                                                             <li>
-                                    <a href="https://www.weather.gov/safety/airquality">Air Quality</a>
+                                    <a href="https://www.weather.gov/safety/fog">Fog</a>
                                 </li>
                                                             <li>
-                                    <a href="https://www.weather.gov/safety/fog">Fog</a>
+                                    <a href="https://www.weather.gov/safety/airquality">Air Quality</a>
                                 </li>
                                                             <li>
                                     <a href="https://www.weather.gov/safety/heat">Heat</a>
@@ -457,23 +457,23 @@
                     <hr size="1" width="520" noshade="noshade" align="left" />
         </div>
         <pre class="glossaryProduct">
-842
-FPUS53 KPAH 162030
+650
+FPUS53 KPAH 162245
 ZFPPAH
 
 Zone Forecast Product
 National Weather Service Paducah KY
-328 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 KYZ005-170900-
 McCracken-
 Including the city of Paducah
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
-in the lower 70s. West winds around 5 mph this evening, becoming
-light and variable. Chance of rain 20 percent.
+in the lower 70s. Southwest winds around 5 mph this evening,
+becoming light and variable. Chance of rain 20 percent.
 .SATURDAY...Mostly sunny with a chance of showers and
 thunderstorms. Highs in the lower 90s. West winds 5 to 10 mph.
 Chance of rain 40 percent.
@@ -496,7 +496,7 @@ $$
 INZ086-170900-
 Vanderburgh-
 Including the city of Evansville
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows in the lower 70s. Southwest winds
 5 to 10 mph.
@@ -525,10 +525,10 @@ $$
 KYZ019-170900-
 Daviess-
 Including the city of Owensboro
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
-.TONIGHT...Mostly clear. Lows in the lower 70s. West winds 5 to
-10 mph, becoming south after midnight.
+.TONIGHT...Mostly clear. Lows in the lower 70s. Southwest winds
+5 to 10 mph.
 .SATURDAY...Sunny. A slight chance of showers and thunderstorms
 in the morning, then a chance of showers and thunderstorms in the
 afternoon. Highs around 90. Southwest winds 5 to 10 mph. Chance
@@ -555,7 +555,7 @@ $$
 KYZ017-170900-
 Christian-
 Including the city of Hopkinsville
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows in the lower 70s. Southwest winds 5 to 10 mph.
@@ -580,7 +580,7 @@ $$
 KYZ009-170900-
 Calloway-
 Including the city of Murray
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows in the lower 70s. Southwest winds around 5 mph.
@@ -606,7 +606,7 @@ $$
 KYZ006-170900-
 Graves-
 Including the city of Mayfield
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows in the lower 70s. Southwest winds around 5 mph.
@@ -631,7 +631,7 @@ $$
 MOZ087-170900-
 Cape Girardeau-
 Including the cities of Cape Girardeau and Jackson
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
@@ -657,7 +657,7 @@ $$
 MOZ109-170900-
 Butler-
 Including the city of Poplar Bluff
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then mostly cloudy with a
 chance of showers and thunderstorms after midnight. Lows in the
@@ -679,7 +679,7 @@ $$
 ILZ084-170900-
 Jackson-
 Including the cities of Carbondale and Murphysboro
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. A slight chance of showers and
 thunderstorms after midnight. Lows in the lower 70s. Southwest
@@ -705,11 +705,11 @@ $$
 ILZ085-170900-
 Williamson-
 Including the city of Herrin
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. A slight chance of showers and
 thunderstorms after midnight. Lows in the lower 70s. Southwest
-winds around 5 mph. Chance of rain 20 percent.
+winds 5 to 10 mph. Chance of rain 20 percent.
 .SATURDAY...Sunny with a chance of showers and thunderstorms.
 Highs in the lower 90s. West winds 5 to 10 mph. Chance of rain
 30 percent.
@@ -731,7 +731,7 @@ $$
 ILZ075-170900-
 Jefferson-
 Including the city of Mount Vernon
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds around
 5 mph.
@@ -756,10 +756,10 @@ $$
 INZ081-170900-
 Gibson-
 Including the city of Fort Branch
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
-.TONIGHT...Mostly clear. Lows around 70. Southwest winds 5 to
-10 mph.
+.TONIGHT...Mostly clear. Lows around 70. Southwest winds around
+5 mph.
 .SATURDAY...Sunny. A slight chance of showers and thunderstorms
 in the morning, then a chance of showers and thunderstorms in the
 afternoon. Highs in the lower 90s. West winds 10 to 15 mph.
@@ -784,7 +784,7 @@ $$
 INZ082-170900-
 Pike-
 Including the city of Petersburg
-429 PM EDT Fri Aug 16 2024
+643 PM EDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds 5 to
 10 mph.
@@ -814,7 +814,7 @@ $$
 INZ085-170900-
 Posey-
 Including the city of Poseyville
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds around
 5 mph.
@@ -843,10 +843,10 @@ $$
 INZ087-170900-
 Warrick-
 Including the city of Boonville
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows in the lower 70s. Southwest winds
-5 to 10 mph.
+around 5 mph.
 .SATURDAY...Sunny. A slight chance of showers and thunderstorms
 in the morning, then a chance of showers and thunderstorms in the
 afternoon. Highs around 90. West winds 10 to 15 mph. Chance of
@@ -869,11 +869,10 @@ $$
 INZ088-170900-
 Spencer-
 Including the city of Rockport
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
-cloudy. Lows around 70. West winds 5 to 10 mph, becoming
-southwest after midnight.
+cloudy. Lows around 70. Southwest winds 5 to 10 mph.
 .SATURDAY...Sunny. A slight chance of showers and thunderstorms
 in the morning, then a chance of showers and thunderstorms in the
 afternoon. Highs around 90. Southwest winds 10 to 15 mph. Chance
@@ -897,10 +896,10 @@ $$
 KYZ014-170900-
 Union KY-
 Including the city of Morganfield
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
-.TONIGHT...Mostly clear. Lows around 70. Southwest winds around
-5 mph.
+.TONIGHT...Mostly clear. Lows around 70. Southwest winds 5 to
+10 mph.
 .SATURDAY...Sunny. A slight chance of showers and thunderstorms
 in the morning, then a chance of showers and thunderstorms in the
 afternoon. Highs around 90. West winds 5 to 10 mph. Chance of
@@ -923,7 +922,7 @@ $$
 KYZ018-170900-
 Henderson-
 Including the city of Henderson
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds 5 to
 10 mph.
@@ -949,7 +948,7 @@ $$
 KYZ010-170900-
 Crittenden-
 Including the city of Marion
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows in the lower 70s. Southwest winds around 5 mph.
@@ -974,10 +973,10 @@ $$
 KYZ015-170900-
 Webster-
 Including the city of Dixon
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
-.TONIGHT...Mostly clear. Lows around 70. Southwest winds around
-5 mph.
+.TONIGHT...Mostly clear. Lows around 70. Southwest winds 5 to
+10 mph.
 .SATURDAY...Sunny. A slight chance of showers and thunderstorms
 in the morning, then a chance of showers and thunderstorms in the
 afternoon. Highs in the upper 80s. Southwest winds 5 to 10 mph.
@@ -1000,7 +999,7 @@ $$
 KYZ020-170900-
 McLean-
 Including the city of Calhoun
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows around 70. West winds 5 to 10 mph, becoming
@@ -1031,7 +1030,7 @@ $$
 KYZ011-170900-
 Lyon-
 Including the city of Eddyville
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows in the lower 70s. Southwest winds around 5 mph.
@@ -1057,7 +1056,7 @@ $$
 KYZ013-170900-
 Caldwell-
 Including the city of Princeton
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows in the lower 70s. Southwest winds around 5 mph.
@@ -1083,10 +1082,10 @@ $$
 KYZ016-170900-
 Hopkins-
 Including the city of Madisonville
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows in the lower 70s. Southwest winds
-around 5 mph.
+5 to 10 mph.
 .SATURDAY...Sunny. A slight chance of showers and thunderstorms
 in the morning, then a chance of showers and thunderstorms in the
 afternoon. Highs around 90. Southwest winds 5 to 10 mph. Chance
@@ -1109,7 +1108,7 @@ $$
 KYZ021-170900-
 Muhlenberg-
 Including the city of Greenville
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows in the lower 70s. Southwest winds
 around 5 mph.
@@ -1140,7 +1139,7 @@ $$
 KYZ012-170900-
 Trigg-
 Including the city of Cadiz
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows in the lower 70s. Southwest winds around 5 mph.
@@ -1166,7 +1165,7 @@ $$
 KYZ022-170900-
 Todd-
 Including the city of Elkton
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows in the lower 70s. Southwest winds 5 to 10 mph.
@@ -1191,7 +1190,7 @@ $$
 KYZ008-170900-
 Marshall-
 Including the city of Benton
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows in the lower 70s. Southwest winds around 5 mph.
@@ -1217,7 +1216,7 @@ $$
 KYZ007-170900-
 Livingston-
 Including the city of Smithland
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows in the lower 70s. Southwest winds around 5 mph.
@@ -1243,7 +1242,7 @@ $$
 KYZ004-170900-
 Ballard-
 Including the city of Wickliffe
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
@@ -1270,7 +1269,7 @@ $$
 KYZ003-170900-
 Carlisle-
 Including the city of Bardwell
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
@@ -1298,7 +1297,7 @@ $$
 KYZ002-170900-
 Hickman-
 Including the city of Clinton
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
@@ -1325,7 +1324,7 @@ $$
 KYZ001-170900-
 Fulton-
 Including the city of Hickman
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
@@ -1354,12 +1353,11 @@ $$
 MOZ107-170900-
 Carter-
 Including the city of Van Buren
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 chance of showers and thunderstorms after midnight. Lows around
-70. Calm winds, becoming southwest around 5 mph after midnight.
-Chance of rain 50 percent.
+70. West winds around 5 mph. Chance of rain 50 percent.
 .SATURDAY...Sunny. A chance of showers and thunderstorms, mainly
 in the morning. Highs in the lower 90s. West winds around 5 mph.
 Chance of rain 40 percent.
@@ -1377,7 +1375,7 @@ $$
 MOZ108-170900-
 Ripley-
 Including the city of Doniphan
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then mostly cloudy with a
 chance of showers and thunderstorms after midnight. Lows in the
@@ -1398,7 +1396,7 @@ $$
 MOZ100-170900-
 Wayne MO-
 Including the city of Piedmont
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 chance of showers and thunderstorms after midnight. Lows in the
@@ -1420,7 +1418,7 @@ $$
 MOZ086-170900-
 Bollinger-
 Including the city of Marble Hill
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 chance of showers and thunderstorms after midnight. Lows in the
@@ -1445,7 +1443,7 @@ $$
 MOZ076-170900-
 Perry MO-
 Including the city of Perryville
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
@@ -1472,11 +1470,11 @@ $$
 MOZ110-170900-
 Stoddard-
 Including the city of Bloomfield
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 chance of showers and thunderstorms after midnight. Lows in the
-lower 70s. Southwest winds around 5 mph. Chance of rain
+lower 70s. Southwest winds 5 to 10 mph. Chance of rain
 40 percent.
 .SATURDAY...Mostly sunny. A chance of showers and thunderstorms,
 mainly in the morning. Highs in the lower 90s. West winds 5 to
@@ -1499,11 +1497,11 @@ $$
 MOZ111-170900-
 Scott-
 Including the city of Sikeston
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
-in the lower 70s. Southwest winds around 5 mph. Chance of rain
+in the lower 70s. Southwest winds 5 to 10 mph. Chance of rain
 20 percent.
 .SATURDAY...Sunny. A chance of showers and thunderstorms, mainly
 in the morning. Highs in the lower 90s. West winds 5 to 10 mph.
@@ -1527,11 +1525,11 @@ $$
 MOZ114-170900-
 New Madrid-
 Including the city of New Madrid
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Clear this evening, then partly cloudy with a chance
 of showers and thunderstorms after midnight. Lows in the lower
-70s. Southwest winds 5 to 10 mph. Chance of rain 40 percent.
+70s. Southwest winds around 5 mph. Chance of rain 40 percent.
 .SATURDAY...Partly sunny with a chance of showers and
 thunderstorms in the morning, then sunny with a slight chance of
 showers and thunderstorms in the afternoon. Highs in the lower
@@ -1551,11 +1549,11 @@ $$
 MOZ112-170900-
 Mississippi-
 Including the city of Charleston
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
-in the lower 70s. Southwest winds 5 to 10 mph. Chance of rain
+in the lower 70s. Southwest winds around 5 mph. Chance of rain
 20 percent.
 .SATURDAY...Mostly sunny. A chance of showers and thunderstorms,
 mainly in the morning. Highs in the lower 90s. West winds 5 to
@@ -1578,7 +1576,7 @@ $$
 ILZ092-170900-
 Alexander-
 Including the city of Cairo
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
@@ -1605,12 +1603,12 @@ $$
 ILZ093-170900-
 Pulaski-
 Including the city of Mound City
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
-in the lower 70s. Southwest winds around 5 mph this evening,
-becoming light and variable. Chance of rain 20 percent.
+in the lower 70s. South winds around 5 mph this evening, becoming
+light and variable. Chance of rain 20 percent.
 .SATURDAY...Sunny with a chance of showers and thunderstorms.
 Highs in the lower 90s. Southwest winds around 5 mph, becoming
 west in the afternoon. Chance of rain 40 percent.
@@ -1635,7 +1633,7 @@ $$
 ILZ094-170900-
 Massac-
 Including the city of Metropolis
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
@@ -1665,7 +1663,7 @@ $$
 ILZ088-170900-
 Union-
 Including the city of Jonesboro
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
@@ -1693,7 +1691,7 @@ $$
 ILZ089-170900-
 Johnson-
 Including the city of Vienna
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then partly cloudy with a
 slight chance of showers and thunderstorms after midnight. Lows
@@ -1722,7 +1720,7 @@ $$
 ILZ090-170900-
 Pope-
 Including the city of Golconda
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear this evening, then becoming partly
 cloudy. Lows around 70. Southwest winds around 5 mph.
@@ -1746,7 +1744,7 @@ $$
 ILZ091-170900-
 Hardin-
 Including the city of Elizabethtown
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds around
 5 mph.
@@ -1770,7 +1768,7 @@ $$
 ILZ086-170900-
 Saline-
 Including the city of Harrisburg
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows in the lower 70s. Southwest winds
 around 5 mph.
@@ -1794,7 +1792,7 @@ $$
 ILZ087-170900-
 Gallatin-
 Including the city of Shawneetown
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds around
 5 mph.
@@ -1819,7 +1817,7 @@ $$
 ILZ080-170900-
 Perry IL-
 Including the city of Pinckneyville
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. A slight chance of showers and
 thunderstorms after midnight. Lows around 70. Southwest winds
@@ -1845,10 +1843,10 @@ $$
 ILZ081-170900-
 Franklin-
 Including the city of West Frankfort
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows in the lower 70s. Southwest winds
-around 5 mph.
+5 to 10 mph.
 .SATURDAY...Sunny with a slight chance of showers and
 thunderstorms. Highs in the lower 90s. West winds 10 to 15 mph.
 Chance of rain 20 percent.
@@ -1870,7 +1868,7 @@ $$
 ILZ082-170900-
 Hamilton-
 Including the city of McLeansboro
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds around
 5 mph.
@@ -1898,7 +1896,7 @@ $$
 ILZ083-170900-
 White-
 Including the city of Carmi
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds around
 5 mph.
@@ -1927,7 +1925,7 @@ $$
 ILZ076-170900-
 Wayne IL-
 Including the city of Fairfield
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds around
 5 mph.
@@ -1955,7 +1953,7 @@ $$
 ILZ077-170900-
 Edwards-
 Including the city of Albion
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds around
 5 mph.
@@ -1981,7 +1979,7 @@ $$
 ILZ078-170900-
 Wabash-
 Including the city of Mount Carmel
-329 PM CDT Fri Aug 16 2024
+543 PM CDT Fri Aug 16 2024
 
 .TONIGHT...Mostly clear. Lows around 70. Southwest winds around
 5 mph.
