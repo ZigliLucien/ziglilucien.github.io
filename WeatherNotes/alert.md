@@ -1,10 +1,10 @@
 <p>
-   <h2>Special Weather Statement issued August 15 at 6:27PM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">At 627 PM CDT, Doppler radar was tracking a strong thunderstorm 7
-      miles northwest of Altenburg, or 9 miles east of Perryville, moving
-      east at 25 mph.
+   <h2>Special Weather Statement issued August 15 at 7:04PM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">At 704 PM CDT, Doppler radar was tracking a strong thunderstorm near
+      Grand Tower, or 11 miles north of Trail Of Tears State Park, moving
+      east southeast at 25 mph.
       
-      HAZARD...Wind gusts up to 40 mph and penny size hail.
+      HAZARD...Wind gusts up to 40 mph and nickel size hail.
       
       SOURCE...Radar indicated.
       
@@ -13,6 +13,9 @@
       possible.
       
       Locations impacted include...
-      Grand Tower, Altenburg, Frohna, and Longtown.
+      Anna, Jonesboro, Cobden, Grand Tower, Cedar Lake Area, Makanda, and
+      Alto Pass.
+      
+      This includes Interstate 57 in Illinois near Mile Marker 29.
    </div>
 </p>
