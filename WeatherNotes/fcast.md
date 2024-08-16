@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms likely before 4am, then showers and thunderstorms likely between 4am and 5am, then a chance of showers
-         and thunderstorms. Some of the storms could be severe and produce heavy rain. Mostly cloudy, with a low around 71. South wind
-         around 6 mph. Chance of precipitation is 70%.<br></div>
+         and thunderstorms. Some of the storms could be severe and produce heavy rain. Mostly cloudy, with a low around 71. South southwest
+         wind around 6 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
