@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/986030/" title="See Description">Gentoo Linux drops IA-64 (Itanium) support</a></li>
+<li><a href="#https://lwn.net/Articles/985346/" title="See Description">[$] Custom string formatters in Python</a></li>
 <li><a href="#https://lwn.net/Articles/985980/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/984839/" title="See Description">[$] Memory-management: tiered memory, huge pages, and EROFS</a></li>
 <li><a href="#https://lwn.net/Articles/985845/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,54 @@
 <li><a href="#https://lwn.net/Articles/985482/" title="See Description">Incus 6.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/985481/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/984638/" title="See Description">[$] COSMIC desktop makes its debut</a></li>
-<li><a href="#https://lwn.net/Articles/985350/" title="See Description">Magit 4.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/985296/" title="See Description">Rust Project goals for 2024</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/986030/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 16 Aug 2024 16:46:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/986030/" title="https://lwn.net/Articles/986030/">Gentoo Linux drops IA-64 (Itanium) support</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.gentoo.org/">Gentoo Linux</a> project has
+<a
+href="https://www.gentoo.org/news/2024/08/14/Gentoo-drops-IA-64-support.html">announced</a>
+that it is dropping support for Itanium:</p>
+
+<blockquote class="bq">
+Following the removal of <a
+href="https://en.wikipedia.org/wiki/Itanium">IA-64 (Itanium)</a>
+support in the <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=cf8e8658100d4eae80ce9b21f7a81cb024dd5057">Linux kernel</a>
+and <a
+href="https://sourceware.org/git/?p=glibc.git;a=commit;h=460860f457e2a889785c506e8c77d4a7dff24d3e">glibc</a>,
+and <a href="https://public-inbox.gentoo.org/gentoo-dev/75654daa-c5fc-45c8-a104-fae43b9ca490@gentoo.org/T/">subsequent discussions on our mailing list</a>, as well as
+a <a href="https://projects.gentoo.org/council/meeting-logs/20240721-summary.txt">vote by the Gentoo Council</a>, Gentoo will discontinue all ia64
+profiles and keywords. The primary reason for this decision is the
+inability of the Gentoo IA-64 team to support this architecture
+without kernel support, glibc support, and a functional development
+box (or even a well-established emulator). In addition, there have
+been only very few users interested in this type of hardware.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/985346/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 16 Aug 2024 15:52:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/985346/" title="https://lwn.net/Articles/985346/">[$] Custom string formatters in Python</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Python has had
+<a href="https://lwn.net/Articles/656898/">formatted string literals</a>
+(<span style="white-space:nowrap">f-strings</span>), a syntactic shorthand for building
+strings, since 2015. Recently, Jim Baker, Guido van Rossum, and Paul Everitt have
+proposed
+<a href="https://peps.python.org/pep-0750/">
+PEP 750</a> ("Tag Strings For Writing Domain-Specific Languages") which would
+generalize and expand that mechanism to provide Python library writers with additional
+flexibility. Reactions to the proposed change were somewhat positive, although
+there was a good deal of discussion of (and opposition to)
+the PEP's inclusion of lazy evaluation of template parameters.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/985980/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 16 Aug 2024 13:07:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -244,50 +289,6 @@ users to test out. While it has rough edges and missing features, it
 is stable enough to get a good feel for what the finished product has
 in store&mdash;and the initial results are promising.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/985350/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 12 Aug 2024 16:57:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/985350/" title="https://lwn.net/Articles/985350/">Magit 4.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 4.0 of the <a href="https://magit.vc/">Magit</a> text-based
-Git user interface for Emacs has been <a href="https://emacsair
-.me/2024/08/09/magit-4.0/">released</a>. Changes since the 3.3.0
-release include the addition of context menus, a makeover for the
-menu-bar menu, new menu commands, and many other new features and bug
-fixes. See the <a
-href="https://github.com/magit/magit/blob/main/docs/RelNotes/4.0.0.org">release
-notes</a> for full details.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/985296/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 12 Aug 2024 15:47:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/985296/" title="https://lwn.net/Articles/985296/">Rust Project goals for 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Rust project has <a
-href="https://blog.rust-lang.org/2024/08/12/Project-goals.html">developed a
-set of goals</a> for the latter half of 2024.
-<p>
-<blockquote class="bq">
-	<a
-	href="https://rust-lang.github.io/rust-project-goals/2024h2/rfl_stable.html"><strong>Rust
-	for Linux.</strong></a> The <a
-	href="https://rust-for-linux.com/">experimental support for Rust
-	development in the Linux kernel</a> is a watershed moment for Rust,
-	demonstrating to the world that Rust is indeed capable of targeting
-	all manner of low-level systems applications. And yet today that
-	support rests on a <a
-	href="https://github.com/Rust-for-Linux/linux/issues/2">number of
-	unstable features</a>, blocking the effort from ever going beyond
-	experimental status. For 2024H2 we will work to close the <a
-	href="https://rust-lang.github.io/rust-project-goals/2024h2/rfl_stable.html#the-next-six-months">largest
-	gaps that block support</a>.
-</blockquote>
-<p>
-Other goals include completing the <a href="https://lwn.net/Articles/958792/">2024 Rust
-Edition</a> and improving the language's async support.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
