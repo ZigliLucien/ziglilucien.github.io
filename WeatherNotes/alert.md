@@ -1,10 +1,10 @@
 <p>
-   <h2>Special Weather Statement issued August 15 at 7:04PM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">At 704 PM CDT, Doppler radar was tracking a strong thunderstorm near
-      Grand Tower, or 11 miles north of Trail Of Tears State Park, moving
-      east southeast at 25 mph.
+   <h2>Special Weather Statement issued August 15 at 8:12PM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">At 811 PM CDT, Doppler radar was tracking a strong thunderstorm over
+      Grand Tower, or 11 miles southwest of Murphysboro, moving southeast
+      at 25 mph.
       
-      HAZARD...Wind gusts up to 40 mph and nickel size hail.
+      HAZARD...Wind gusts up to 50 mph and penny size hail.
       
       SOURCE...Radar indicated.
       
@@ -13,9 +13,7 @@
       possible.
       
       Locations impacted include...
-      Anna, Jonesboro, Cobden, Grand Tower, Cedar Lake Area, Makanda, and
-      Alto Pass.
-      
-      This includes Interstate 57 in Illinois near Mile Marker 29.
+      Carbondale, Anna, Jonesboro, Cobden, Grand Tower, Altenburg, Cedar
+      Lake Area, Makanda, Alto Pass, and Gorham.
    </div>
 </p>
