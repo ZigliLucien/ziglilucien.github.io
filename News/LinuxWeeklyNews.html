@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/986174/" title="See Description">[$] Per-call-site slab caches for heap-spraying protection</a></li>
+<li><a href="#https://lwn.net/Articles/986450/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/985210/" title="See Description">[$] FreeBSD considers Rust in the base system</a></li>
 <li><a href="#https://lwn.net/Articles/986229/" title="See Description">Seven new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/986225/" title="See Description">Security updates for Monday</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/984770/" title="See Description">[$] LWN.net Weekly Edition for August 15, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/985669/" title="See Description">Stable kernels 6.10.5, 6.6.46, and 6.1.105</a></li>
 <li><a href="#https://lwn.net/Articles/982868/" title="See Description">[$] Standards for use of unsafe Rust in the kernel</a></li>
-<li><a href="#https://lwn.net/Articles/985654/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/984502/" title="See Description">[$] Zettlr: note-taking and publishing with Markdown</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/986174/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 20 Aug 2024 13:29:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/986174/" title="https://lwn.net/Articles/986174/">[$] Per-call-site slab caches for heap-spraying protection</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One tactic often used by attackers set on compromising a system is <a
+href="https://en.wikipedia.org/wiki/Heap_spraying">heap spraying</a>; in
+short, the attacker fills as much of the heap as possible with crafted data
+in the hope of getting the target system to use that data in a bad way.  If
+heap spraying can be blocked, attackers will lose an important tool.  The
+kernel has some heap-spraying defenses now, including the <a
+href="https://lwn.net/Articles/965837/">dedicated bucket allocator</a> merged for the
+upcoming 6.11 release, but its author, Kees Cook, thinks that more can be
+done.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/986450/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 20 Aug 2024 13:22:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/986450/" title="https://lwn.net/Articles/986450/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (squid), <b>Fedora</b> (putty), <b>Mageia</b> (quictls), <b>Oracle</b> (bind, curl, python-setuptools, python3.11-setuptools, and python3.12-setuptools), <b>Red Hat</b> (kernel, kpatch-patch-4_18_0-305_120_1, kpatch-patch-4_18_0-372_87_1 and kpatch-patch-4_18_0-372_91_1, kpatch-patch-4_18_0-477_43_1, kpatch-patch-4_18_0-553, kpatch-patch-5_14_0-284_48_1 and kpatch-patch-5_14_0-284_52_1, kpatch-patch-5_14_0-427_13_1, and libreoffice), <b>SUSE</b> (cosign, dri3proto, presentproto, wayland-protocols, xwayland, freerdp, fwupdate, git, gnome-settings-daemon, hdf5, jasper, java-17-openjdk, java-1_8_0-ibm, java-1_8_0-openjdk, kernel, kernel-firmware, libaom, libqt5-qt3d, libqt5-qtquick3d, ntfs-3g_ntfsprogs, osc, python, python-aiohttp, python-azure-core, python-azure-storage-blob, python- azure-storage-queue, python-typing, python-typing_extensions, python-Jinja2, python-PyMySQL, python-requests, python-tqdm, python-WebOb, python3-sqlparse, python310, python311, qemu, sssd, thunderbird, tiff, unixODBC, uriparser, and wireshark), and <b>Ubuntu</b> (intel-microcode, linux-azure-5.4, and postgresql-12, postgresql-14, postgresql-16).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/985210/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 19 Aug 2024 15:12:03 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -236,34 +260,6 @@ standards for commenting uses of <tt>unsafe</tt> in kernel code. There's general
 agreement that such standards are necessary, but less agreement on exactly when
 it is appropriate to use <tt>unsafe</tt>.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/985654/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 14 Aug 2024 13:28:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/985654/" title="https://lwn.net/Articles/985654/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds-base), <b>Debian</b> (ffmpeg), <b>Fedora</b> (chromium), <b>Red Hat</b> (.NET 8.0, container-tools:rhel8, edk2, firefox, gnome-shell, grafana, jose, kernel, kernel-rt, krb5, open-vm-tools, orc, pcs, poppler, python-urllib3, and wget), <b>SUSE</b> (gtk2, gtk3, kernel, python-setuptools, python310-setuptools, python312-setuptools, python39-setuptools, and webkit2gtk3), and <b>Ubuntu</b> (dotnet8, libcroco, linux-azure, linux-lowlatency, linux-raspi, and linux-oracle).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/984502/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 13 Aug 2024 17:22:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/984502/" title="https://lwn.net/Articles/984502/">[$] Zettlr: note-taking and publishing with Markdown</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://daringfireball.net/projects/markdown/">Markdown</a> editors are a dime a dozen. Cheaper than that, actually,
-since many of them are open&#8209;source software. Despite the sheer number of
-options, finding an editor that has all of the features that one might want can
-be tricky. For some users, <a href="https://www.zettlr.com/">Zettlr</a>
-might be the right tool. It is a <a
-href="https://en.wikipedia.org/wiki/WYSIWYM">What You See is What You
-Mean</a> (WYSIWYM) editor that stores its work locally as plain Markdown
-files. The project is billed as a "<q>one-stop publication
-workbench</q>", and is suitable for writing anything from blog posts to
-academic papers, maintaining a personal journal, or keeping notes in a <a
-href="https://en.wikipedia.org/wiki/Zettelkasten">Zettlekasten</a>. It
-is simple to get started with, but rewards deeper exploration and
-customization.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
