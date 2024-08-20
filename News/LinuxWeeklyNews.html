@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/985041/" title="See Description">[$] Python subinterpreters and free-threading</a></li>
+<li><a href="#https://lwn.net/Articles/986528/" title="See Description">uv 0.3.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/986174/" title="See Description">[$] Per-call-site slab caches for heap-spraying protection</a></li>
 <li><a href="#https://lwn.net/Articles/986450/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/985210/" title="See Description">[$] FreeBSD considers Rust in the base system</a></li>
@@ -51,11 +53,43 @@
 <li><a href="#https://lwn.net/Articles/984839/" title="See Description">[$] Memory-management: tiered memory, huge pages, and EROFS</a></li>
 <li><a href="#https://lwn.net/Articles/985845/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/984770/" title="See Description">[$] LWN.net Weekly Edition for August 15, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/985669/" title="See Description">Stable kernels 6.10.5, 6.6.46, and 6.1.105</a></li>
-<li><a href="#https://lwn.net/Articles/982868/" title="See Description">[$] Standards for use of unsafe Rust in the kernel</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/985041/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 20 Aug 2024 22:24:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/985041/" title="https://lwn.net/Articles/985041/">[$] Python subinterpreters and free-threading</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>At
+<a
+href="https://us.pycon.org/2024/">PyCon&nbsp;2024</a> in Pittsburgh,
+Pennsylvania, Anthony Shaw looked at the various kinds of parallelism
+available to Python programs.  There have been two major developments on
+the parallel-execution front over the last few years, with the effort to
+provide <a href="https://lwn.net/Articles/820424/">subinterpreters</a>, each with its own
+global interpreter lock (GIL), along with the work to <a
+href="https://lwn.net/Articles/940780/">remove the GIL entirely</a>.  In the talk, he
+explored the two approaches to try to give attendees a sense of how to make
+the right choice for their applications.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/986528/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 20 Aug 2024 21:31:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/986528/" title="https://lwn.net/Articles/986528/">uv 0.3.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://github.com/astral-sh/uv/releases/tag/0.3.0">Version 0.3.0</a> of the <a href="https://docs.astral.sh/uv/">uv</a>
+Python package and project manager has been released. <a href="https://astral.sh/blog/uv">Introduced</a> in
+February, uv is written in Rust and aims to be "<q>Cargo for
+Python</q>".  Notable changes in this release include the addition of
+interfaces for <a href="https://docs.astral.sh/uv/concepts/projects/">managing projects</a>, <a
+href="https://docs.astral.sh/uv/guides/install-python/">installing
+Python</a>, <a
+href="https://docs.astral.sh/uv/guides/scripts/">running scripts</a>,
+and <a href="https://docs.astral.sh/uv/">new documentation</a>. See the
+accompanying <a href="https://astral.sh/blog/uv-unified-python-packaging">blog post</a> for more information.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/986174/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 20 Aug 2024 13:29:07 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -227,39 +261,6 @@ file data in the Enhanced Read-Only Filesystem (EROFS).
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for August 15, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/985669/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 14 Aug 2024 14:24:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/985669/" title="https://lwn.net/Articles/985669/">Stable kernels 6.10.5, 6.6.46, and 6.1.105</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Three new stable kernels have been released: <a
-href="https://lwn.net/Articles/985670/">6.10.5</a>, <a
-href="https://lwn.net/Articles/985672/">6.6.46</a>, and <a
-href="https://lwn.net/Articles/985673/">6.1.105</a>. As usual, they contain important
-fixes all over the kernel tree.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/982868/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 14 Aug 2024 14:17:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/982868/" title="https://lwn.net/Articles/982868/">[$] Standards for use of unsafe Rust in the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Rust is intended to let programmers write safer code.
-But compilers are
-not omniscient, and writing Rust code that interfaces with hardware (or that
-works with memory outside of Rust's lifetime paradigm) requires, at
-some point, the programmer's assurance that some operations are permissible. Benno Lossin
-<a href="https://lwn.net/ml/all/20240717221133.459589-1-benno.lossin@proton.me/">
-suggested adding
-some more documentation</a> to
-<a href="https://rust-for-linux.com/">
-the Rust-for-Linux project</a> clarifying the
-standards for commenting uses of <tt>unsafe</tt> in kernel code. There's general
-agreement that such standards are necessary, but less agreement on exactly when
-it is appropriate to use <tt>unsafe</tt>.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
