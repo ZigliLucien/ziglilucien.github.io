@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/985853/" title="See Description">[$] A review of file descriptor memory safety in the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/986844/" title="See Description">Garrett: What is an SBAT and why does everyone suddenly care</a></li>
+<li><a href="#https://lwn.net/Articles/986841/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/985783/" title="See Description">[$] LWN.net Weekly Edition for August 22, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/986659/" title="See Description">"Something has gone seriously wrong," dual-boot systems warn after Microsoft update (Ars Technica)</a></li>
 <li><a href="#https://lwn.net/Articles/986655/" title="See Description">Górny: Gentoo: profiles and keywords rather than releases</a></li>
@@ -50,12 +53,65 @@
 <li><a href="#https://lwn.net/Articles/985210/" title="See Description">[$] FreeBSD considers Rust in the base system</a></li>
 <li><a href="#https://lwn.net/Articles/986229/" title="See Description">Seven new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/986225/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/986167/" title="See Description">Formatted Rust kernel documentation available</a></li>
-<li><a href="#https://lwn.net/Articles/986163/" title="See Description">Kernel prepatch 6.11-rc4</a></li>
-<li><a href="#https://lwn.net/Articles/986030/" title="See Description">Gentoo Linux drops IA-64 (Itanium) support</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/985853/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 22 Aug 2024 15:19:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/985853/" title="https://lwn.net/Articles/985853/">[$] A review of file descriptor memory safety in the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+On July 30, Al Viro sent
+<a href="https://lwn.net/ml/all/20240730050927.GC5334@ZenIV/">
+a patch set</a> to the linux-fsdevel mailing list with a
+comprehensive cover letter explaining his
+recent work on ensuring that the kernel's internal representation of
+file descriptors are used correctly in the kernel.
+File descriptors are ubiquitous; many system calls
+need to handle them. Viro's review
+identified a few existing bugs, and may prevent more in the future. He also had
+suggestions for ways to keep uses consistent throughout the kernel.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/986844/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 22 Aug 2024 14:25:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/986844/" title="https://lwn.net/Articles/986844/">Garrett: What is an SBAT and why does everyone suddenly care</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Matthew Garrett <a href="https://mjg59.dreamwidth.org/70348.html">describes
+the role of the Secure Boot Advanced Targeting mechanism</a> and how it
+played into the recent Windows upgrade problems.
+<p>
+<blockquote class="bq">
+	So why is this suddenly relevant? SBAT was developed
+	collaboratively between the Linux community and Microsoft, and
+	Microsoft chose to push a Windows update that told systems not to
+	trust versions of grub with a security generation below a certain
+	level. This was because those versions of grub had genuine security
+	vulnerabilities that would allow an attacker to compromise the
+	Windows secure boot chain, and we've seen real world examples of
+	malware wanting to do that.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/986841/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 22 Aug 2024 14:07:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/986841/" title="https://lwn.net/Articles/986841/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, bind, bind9.16, curl, edk2, firefox, gnome-shell, grafana, jose, krb5, libreoffice, mod_auth_openidc:2.3, orc, pcs, poppler, python-setuptools, python-urllib3, python3.11-setuptools, python3.12-setuptools, thunderbird, tomcat, and wget), <b>Fedora</b> (webkitgtk), <b>SUSE</b> (apache2, glib2, and roundcubemail), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-aws-5.15, linux-azure, linux-azure-5.15,
+ linux-azure-fde, linux-azure-fde-5.15, linux-gcp, linux-gcp-5.15,
+ linux-gke, linux-gkeop, linux-gkeop-5.15, linux-hwe-5.15, linux-ibm,
+ linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm,
+ linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle,
+ linux-raspi, linux, linux-aws, linux-azure, linux-bluefield, linux-gcp, linux-gcp-5.4,
+ linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-kvm,
+ linux-oracle, linux-oracle-5.4, linux-raspi, linux-xilinx-zynqmp, linux, linux-aws, linux-azure, linux-gcp, linux-gke, linux-ibm,
+ linux-lowlatency, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency,
+ linux-oem-6.8, linux-oracle, linux-raspi, linux, linux-aws, linux-kvm, linux-lts-xenial, linux, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-aws, linux-aws-hwe, linux-bluefield, linux-hwe-5.15, linux-raspi-5.4, and qemu).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/985783/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 22 Aug 2024 01:51:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -237,59 +293,6 @@ fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (python-asyncssh), <b>Fedora</b> (bind, bind-dyndb-ldap, httpd, and tor), <b>SUSE</b> (cosign, cpio, curl, expat, java-11-openjdk, ncurses, netty, netty-tcnative, opera, python-Django, python-Pillow, shadow, sudo, and wpa_supplicant), and <b>Ubuntu</b> (firefox).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/986167/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 18 Aug 2024 22:28:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/986167/" title="https://lwn.net/Articles/986167/">Formatted Rust kernel documentation available</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Rust code being added to the kernel is documented using the usual <a
-href="https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html">rustdoc</a>
-conventions; that documentation is now <a
-href="https://rust.docs.kernel.org/kernel/">available on kernel.org</a> in
-formatted form.  There is also <a
-href="https://rust.docs.kernel.org/next/kernel/">the linux-next version of
-the documentation</a> for Rust code that will land in the kernel soon.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/986163/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 18 Aug 2024 22:23:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/986163/" title="https://lwn.net/Articles/986163/">Kernel prepatch 6.11-rc4</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/986162/">fourth 6.11 kernel prepatch</a> is out for
-testing.  According to Linus:
-<p>
-<blockquote class="bq">
-	But it all looks fairly normal. rc4 is bigger than either rc2 or
-	rc3 were, but not hugely so, and it's actually a normal pattern,
-	where it takes a while before people find some issues. So nothing
-	feels all that odd.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/986030/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 16 Aug 2024 16:46:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/986030/" title="https://lwn.net/Articles/986030/">Gentoo Linux drops IA-64 (Itanium) support</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.gentoo.org/">Gentoo Linux</a> project has
-<a
-href="https://www.gentoo.org/news/2024/08/14/Gentoo-drops-IA-64-support.html">announced</a>
-that it is dropping support for Itanium:</p>
-
-<blockquote class="bq">
-Following the removal of <a
-href="https://en.wikipedia.org/wiki/Itanium">IA-64 (Itanium)</a>
-support in the <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=cf8e8658100d4eae80ce9b21f7a81cb024dd5057">Linux kernel</a>
-and <a
-href="https://sourceware.org/git/?p=glibc.git;a=commit;h=460860f457e2a889785c506e8c77d4a7dff24d3e">glibc</a>,
-and <a href="https://public-inbox.gentoo.org/gentoo-dev/75654daa-c5fc-45c8-a104-fae43b9ca490@gentoo.org/T/">subsequent discussions on our mailing list</a>, as well as
-a <a href="https://projects.gentoo.org/council/meeting-logs/20240721-summary.txt">vote by the Gentoo Council</a>, Gentoo will discontinue all ia64
-profiles and keywords. The primary reason for this decision is the
-inability of the Gentoo IA-64 team to support this architecture
-without kernel support, glibc support, and a functional development
-box (or even a well-established emulator). In addition, there have
-been only very few users interested in this type of hardware.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
