@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/985739/" title="See Description">[$] The history, status, and plans for reproducible builds</a></li>
+<li><a href="#https://lwn.net/Articles/986998/" title="See Description">Forgejo changes license to GPLv3+</a></li>
+<li><a href="#https://lwn.net/Articles/986997/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/986906/" title="See Description">LibreOffice 24.8 released</a></li>
 <li><a href="#https://lwn.net/Articles/985853/" title="See Description">[$] A review of file descriptor memory safety in the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/986844/" title="See Description">Garrett: What is an SBAT and why does everyone suddenly care</a></li>
@@ -50,12 +53,50 @@
 <li><a href="#https://lwn.net/Articles/985041/" title="See Description">[$] Python subinterpreters and free-threading</a></li>
 <li><a href="#https://lwn.net/Articles/986528/" title="See Description">uv 0.3.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/986174/" title="See Description">[$] Per-call-site slab caches for heap-spraying protection</a></li>
-<li><a href="#https://lwn.net/Articles/986450/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/985210/" title="See Description">[$] FreeBSD considers Rust in the base system</a></li>
-<li><a href="#https://lwn.net/Articles/986229/" title="See Description">Seven new stable kernels</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/985739/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 23 Aug 2024 13:47:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/985739/" title="https://lwn.net/Articles/985739/">[$] The history, status, and plans for reproducible builds</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>On the second day of <a href="https://debconf24.debconf.org/">DebConf24</a>
+in Busan, South Korea, Holger Levsen provided a history lesson on the
+"first 11 years" of the <a
+href="https://reproducible-builds.org/">Reproducible Builds project</a>.
+He has been involved in the project for most of that time and has been a
+Debian user since the mid-1990s, contributor since 2001, and a Debian
+member since 2007; "I love Debian".  Meanwhile, his aim is to make all free
+software be reproducible, so that anyone can check that a binary program
+comes from the source code it purports to.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/986998/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 23 Aug 2024 13:39:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/986998/" title="https://lwn.net/Articles/986998/">Forgejo changes license to GPLv3+</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The 
+<a href="https://forgejo.org/">
+Forgejo</a> project has <a href="https://forgejo.org/2024-08-gpl/">announced</a> that, starting from version 9.0, Forgejo will be released under the GPLv3 license (or a later version). Older versions of the software forge remain MIT-licensed.
+</p>
+
+<blockquote class="bq">
+A copyleft license makes reusing other copyleft software easier. Recently, we discovered that 
+<a href="https://forgejo.org/2024-07-non-free-dependency-found/">
+some of the dependencies we used were incompatible with the license Forgejo was distributed with</a>, and they had to be removed for now. Choosing copyleft licenses enables us to reuse more work, and saves us precious time to focus on improving Forgejo itself.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/986997/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 23 Aug 2024 13:03:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/986997/" title="https://lwn.net/Articles/986997/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (community-mysql, iaito, and radare2), <b>Oracle</b> (python3.12-setuptools and tomcat), <b>Red Hat</b> (krb5 and podman), <b>Slackware</b> (ffmpeg), <b>SUSE</b> (apache2, expat, firefox, webkit2gtk3, and xen), and <b>Ubuntu</b> (imagemagick and libxstream-java).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/986906/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 22 Aug 2024 18:51:48 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -258,45 +299,6 @@ href="https://lwn.net/Articles/965837/">dedicated bucket allocator</a> merged fo
 upcoming 6.11 release, but its author, Kees Cook, thinks that more can be
 done.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/986450/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 20 Aug 2024 13:22:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/986450/" title="https://lwn.net/Articles/986450/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (squid), <b>Fedora</b> (putty), <b>Mageia</b> (quictls), <b>Oracle</b> (bind, curl, python-setuptools, python3.11-setuptools, and python3.12-setuptools), <b>Red Hat</b> (kernel, kpatch-patch-4_18_0-305_120_1, kpatch-patch-4_18_0-372_87_1 and kpatch-patch-4_18_0-372_91_1, kpatch-patch-4_18_0-477_43_1, kpatch-patch-4_18_0-553, kpatch-patch-5_14_0-284_48_1 and kpatch-patch-5_14_0-284_52_1, kpatch-patch-5_14_0-427_13_1, and libreoffice), <b>SUSE</b> (cosign, dri3proto, presentproto, wayland-protocols, xwayland, freerdp, fwupdate, git, gnome-settings-daemon, hdf5, jasper, java-17-openjdk, java-1_8_0-ibm, java-1_8_0-openjdk, kernel, kernel-firmware, libaom, libqt5-qt3d, libqt5-qtquick3d, ntfs-3g_ntfsprogs, osc, python, python-aiohttp, python-azure-core, python-azure-storage-blob, python- azure-storage-queue, python-typing, python-typing_extensions, python-Jinja2, python-PyMySQL, python-requests, python-tqdm, python-WebOb, python3-sqlparse, python310, python311, qemu, sssd, thunderbird, tiff, unixODBC, uriparser, and wireshark), and <b>Ubuntu</b> (intel-microcode, linux-azure-5.4, and postgresql-12, postgresql-14, postgresql-16).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/985210/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 19 Aug 2024 15:12:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/985210/" title="https://lwn.net/Articles/985210/">[$] FreeBSD considers Rust in the base system</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.freebsd.org/">FreeBSD Project</a> is, for the second
-time this year, engaging in a long-running discussion about the
-possibility of including Rust in its <a
-href="https://www.over-yonder.net/~fullermd/rants/bsd4linux/03">base
-system</a>. The sequel to the first discussion included some work by
-Alan Somers to show what it might look like to use Rust code in the
-base tree. Support for Rust code does not appear much closer to being
-included in FreeBSD's base system, but the conversation has been
-enlightening.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/986229/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 19 Aug 2024 14:43:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/986229/" title="https://lwn.net/Articles/986229/">Seven new stable kernels</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Today's crop of new stable kernels consists of seven new versions: <a
-href="https://lwn.net/Articles/986230/">6.10.6</a>, <a
-href="https://lwn.net/Articles/986231/">6.6.47</a>, <a
-href="https://lwn.net/Articles/986232/">6.1.106</a>, <a
-href="https://lwn.net/Articles/986233/">5.15.165</a>, <a
-href="https://lwn.net/Articles/986234/">5.10.224</a>, <a
-href="https://lwn.net/Articles/986235/">5.4.282</a>, and <a
-href="https://lwn.net/Articles/986236/">4.19.320</a>.  As usual, each contains important
-fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
