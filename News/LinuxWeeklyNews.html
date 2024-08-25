@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/987164/" title="See Description">Kernel prepatch 6.11-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/985739/" title="See Description">[$] The history, status, and plans for reproducible builds</a></li>
 <li><a href="#https://lwn.net/Articles/986998/" title="See Description">Forgejo changes license to GPLv3+</a></li>
 <li><a href="#https://lwn.net/Articles/986997/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,22 @@
 <li><a href="#https://lwn.net/Articles/986628/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/985041/" title="See Description">[$] Python subinterpreters and free-threading</a></li>
 <li><a href="#https://lwn.net/Articles/986528/" title="See Description">uv 0.3.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/986174/" title="See Description">[$] Per-call-site slab caches for heap-spraying protection</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/987164/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 25 Aug 2024 15:35:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/987164/" title="https://lwn.net/Articles/987164/">Kernel prepatch 6.11-rc5</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/987163/">6.11-rc5</a> kernel prepatch is out for
+testing.  "<q>Other than the timing, there's not a whole lot unusual
+here. The diffstat looks fairly flat, which means 'mostly pretty small
+changes'.</q>" Linus Torvalds added <a
+href="https://lwn.net/ml/all/CAHk-=whsqTTsiZ=XmecYwQqqya2C4ufysiDj2bOPhvke4mR2mg@mail.gmail.com">a
+note</a> that today marks the 33rd anniversary of the first Linux
+announcement; "<q>A third of a century. And it *still* isn't ready</q>".</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/985739/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 23 Aug 2024 13:47:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -283,22 +296,6 @@ Python</a>, and <a
 href="https://docs.astral.sh/uv/guides/scripts/">running scripts</a>,
 along with adding <a href="https://docs.astral.sh/uv/">new documentation</a>. See the
 accompanying <a href="https://astral.sh/blog/uv-unified-python-packaging">blog post</a> for more information.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/986174/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 20 Aug 2024 13:29:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/986174/" title="https://lwn.net/Articles/986174/">[$] Per-call-site slab caches for heap-spraying protection</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>One tactic often used by attackers set on compromising a system is <a
-href="https://en.wikipedia.org/wiki/Heap_spraying">heap spraying</a>; in
-short, the attacker fills as much of the heap as possible with crafted data
-in the hope of getting the target system to use that data in a bad way.  If
-heap spraying can be blocked, attackers will lose an important tool.  The
-kernel has some heap-spraying defenses now, including the <a
-href="https://lwn.net/Articles/965837/">dedicated bucket allocator</a> merged for the
-upcoming 6.11 release, but its author, Kees Cook, thinks that more can be
-done.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
