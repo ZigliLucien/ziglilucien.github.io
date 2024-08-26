@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/987311/" title="See Description">Sovereign Tech Fund (STF) to invest in FreeBSD infrastructure modernization</a></li>
+<li><a href="#https://lwn.net/Articles/986892/" title="See Description">[$] A new version of modversions</a></li>
+<li><a href="#https://lwn.net/Articles/987309/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/987164/" title="See Description">Kernel prepatch 6.11-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/985739/" title="See Description">[$] The history, status, and plans for reproducible builds</a></li>
 <li><a href="#https://lwn.net/Articles/986998/" title="See Description">Forgejo changes license to GPLv3+</a></li>
@@ -50,12 +53,58 @@
 <li><a href="#https://lwn.net/Articles/986659/" title="See Description">"Something has gone seriously wrong," dual-boot systems warn after Microsoft update (Ars Technica)</a></li>
 <li><a href="#https://lwn.net/Articles/986655/" title="See Description">Górny: Gentoo: profiles and keywords rather than releases</a></li>
 <li><a href="#https://lwn.net/Articles/974969/" title="See Description">[$] Modernizing openSUSE installation with Agama</a></li>
-<li><a href="#https://lwn.net/Articles/986628/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/985041/" title="See Description">[$] Python subinterpreters and free-threading</a></li>
-<li><a href="#https://lwn.net/Articles/986528/" title="See Description">uv 0.3.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/987311/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 26 Aug 2024 17:36:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/987311/" title="https://lwn.net/Articles/987311/">Sovereign Tech Fund (STF) to invest in FreeBSD infrastructure modernization</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://freebsdfoundation.org/">FreeBSD Foundation</a> has <a href="https://freebsdfoundation.org/blog/sovereign-tech-fund-to-invest-e686400-in-freebsd-infrastructure-modernization/">announced</a> that Germany's <a href="https://www.sovereigntechfund.de/">Sovereign Tech
+Fund</a> (STF) has agreed to invest €686,400 toward improvements in the
+<a href="https://www.freebsd.org/">FreeBSD</a> project's infrastructure, security, regulatory compliance, and
+developer experience:</p>
+
+<blockquote class="bq">
+The work commissioned by STF also aligns closely with the recent
+<a
+href="https://www.whitehouse.gov/oncd/briefing-room/2024/08/09/fact-sheet-biden-harris-administration-releases-end-of-year-report-on-open-source-software-security-initiative-2/">August
+9, 2024 summary report</a> released by the <a href="https://www.whitehouse.gov/oncd/">U.S. Office of the
+National Cyber Director</a> (ONCD), consolidating feedback from the 2023
+request for information on key priorities for securing the open source
+software ecosystem. By enhancing security controls and SBOM tooling,
+the FreeBSD Foundation is helping to keep FreeBSD at the forefront of
+improved vulnerability disclosure mechanisms and secure software
+foundations.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/986892/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 26 Aug 2024 17:19:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/986892/" title="https://lwn.net/Articles/986892/">[$] A new version of modversions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <tt>genksyms</tt> tool has long been buried deeply within the kernel's
+build system; it is one of the two C-code parsers shipped with the kernel
+(the other being <a
+href="https://elixir.bootlin.com/linux/v6.11-rc4/source/scripts/kernel-doc">the
+horrifying <tt>kernel-doc</tt> script</a>).  It is a key part of how the
+kernel's module-loading infrastructure works.  While <tt>genksyms</tt> has
+quietly done its job for decades, that period may soon be coming to an end.
+It would seem that <tt>genksyms</tt> is not up to the task of handling Rust
+code, so Sami Tolvanen is <a
+href="https://lwn.net/ml/all/20240815173903.4172139-21-samitolvanen@google.com/">proposing
+a new tool</a> to handle this task going forward.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/987309/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 26 Aug 2024 17:12:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/987309/" title="https://lwn.net/Articles/987309/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, python-html-sanitizer, and trafficserver), <b>Fedora</b> (nginx, nginx-mod-fancyindex, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, python-webob, python3-docs, python3.11, python3.12, python3.9, and zabbix), <b>Red Hat</b> (bind, bind and bind-dyndb-ldap, bind9.16, httpd, kernel, kernel-rt, and nodejs:20), <b>SUSE</b> (caddy, chromium, chromium, gn, rust-bindgen, cockpit, fetchmail, gdcm, gh, keybase-client, libhtp, libofx, nano, plasma5-workspace, python-nltk, python-notebook, xen, and znc), and <b>Ubuntu</b> (linux-azure, linux-azure-4.15, linux-azure-5.4, and linux-oracle-5.15).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/987164/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 25 Aug 2024 15:35:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -254,48 +303,6 @@ project, called <a href="https://github.com/openSUSE/agama">Agama</a>,
 for new projects. YaST is not going away as an administration tool,
 but it is likely to be relieved of installer duties at some point.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/986628/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 Aug 2024 13:20:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/986628/" title="https://lwn.net/Articles/986628/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (aom, cinder, dovecot, glance, and nova), <b>Fedora</b> (mysql8.0), <b>Oracle</b> (curl and libreoffice), <b>SUSE</b> (oniguruma, openssl-1_0_0, openssl1, and xen), and <b>Ubuntu</b> (cacti, curl, exfatprogs, firefox, and vim).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/985041/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 20 Aug 2024 22:24:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/985041/" title="https://lwn.net/Articles/985041/">[$] Python subinterpreters and free-threading</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>At
-<a
-href="https://us.pycon.org/2024/">PyCon&nbsp;2024</a> in Pittsburgh,
-Pennsylvania, Anthony Shaw looked at the various kinds of parallelism
-available to Python programs.  There have been two major developments on
-the parallel-execution front over the last few years, with the effort to
-provide <a href="https://lwn.net/Articles/820424/">subinterpreters</a>, each with its own
-global interpreter lock (GIL), along with the work to <a
-href="https://lwn.net/Articles/940780/">remove the GIL entirely</a>.  In the talk, he
-explored the two approaches to try to give attendees a sense of how to make
-the right choice for their applications.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/986528/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 20 Aug 2024 21:31:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/986528/" title="https://lwn.net/Articles/986528/">uv 0.3.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://github.com/astral-sh/uv/releases/tag/0.3.0">Version 0.3.0</a> of the <a href="https://docs.astral.sh/uv/">uv</a>
-Python package and project manager has been released. <a href="https://astral.sh/blog/uv">Introduced</a> in
-February, uv is written in Rust and aims to be "<q>Cargo for
-Python</q>".  Notable changes in this release include the addition of
-interfaces for <a href="https://docs.astral.sh/uv/concepts/projects/">managing projects</a>, <a
-href="https://docs.astral.sh/uv/guides/install-python/">installing
-Python</a>, and <a
-href="https://docs.astral.sh/uv/guides/scripts/">running scripts</a>,
-along with adding <a href="https://docs.astral.sh/uv/">new documentation</a>. See the
-accompanying <a href="https://astral.sh/blog/uv-unified-python-packaging">blog post</a> for more information.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
