@@ -2,22 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Isolated showers and thunderstorms. Mostly clear, with a low around 72. Southwest wind around 3 mph. Chance of precipitation
-         is 20%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday</h3>A slight chance of showers and thunderstorms. Mostly sunny. High near 96, with temperatures falling to around 94 in the afternoon.
+         <h3>Today</h3>A slight chance of showers and thunderstorms. Mostly sunny. High near 96, with temperatures falling to around 94 in the afternoon.
          Southwest wind 3 to 7 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A slight chance of showers and thunderstorms before 9pm. Partly cloudy, with a low around 72. East wind 2 to 6 mph. Chance
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms before 9pm. Partly cloudy, with a low around 72. East wind 2 to 6 mph. Chance
          of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Mostly sunny, with a high near 97. South southeast wind around 5 mph.<br></div>
+         <h3>Thursday</h3>Mostly sunny. High near 97, with temperatures falling to around 94 in the afternoon. South southeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -36,7 +31,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of showers and thunderstorms. Mostly cloudy, with a high near 84. Northwest wind around 5 mph.<br></div>
+         <h3>Saturday</h3>A chance of showers and thunderstorms. Mostly cloudy, with a high near 84. Northwest wind around 5 mph. Chance of precipitation
+         is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +57,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>Partly sunny, with a high near 78. Northeast wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>A slight chance of rain showers after 1am. Partly cloudy, with a low around 58. Northeast wind around 7 mph.<br></div>
    </p>
 </div>
