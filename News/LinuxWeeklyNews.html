@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/987238/" title="See Description">[$] MemHive: sharing immutable data between Python subinterpreters</a></li>
 <li><a href="#https://lwn.net/Articles/986480/" title="See Description">[$] Debian discusses principles for package maintenance</a></li>
 <li><a href="#https://lwn.net/Articles/987519/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/987465/" title="See Description">WineHQ to take over Mono</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/987164/" title="See Description">Kernel prepatch 6.11-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/985739/" title="See Description">[$] The history, status, and plans for reproducible builds</a></li>
 <li><a href="#https://lwn.net/Articles/986998/" title="See Description">Forgejo changes license to GPLv3+</a></li>
-<li><a href="#https://lwn.net/Articles/986997/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/987238/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 28 Aug 2024 19:45:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/987238/" title="https://lwn.net/Articles/987238/">[$] MemHive: sharing immutable data between Python subinterpreters</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Immutable data makes concurrent access easier, since it
+eliminates the data-race conditions that can plague multithreaded programs. At
+<a
+href="https://us.pycon.org/2024/">PyCon&nbsp;2024</a>, Yury Selivanov
+introduced an early-stage project called <a
+href="https://github.com/edgedb/memhive">MemHive</a>, which uses Python
+<a href="https://lwn.net/Articles/820424/">subinterpreters</a> and immutable data to
+overcome the problems of thread serialization that are caused by the
+language's Global Interpreter Lock (GIL).  Recent <a
+href="https://lwn.net/Articles/985041/">developments in the Python world</a> have opened
+up different strategies for avoiding the longstanding problems with the
+GIL.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/986480/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 28 Aug 2024 14:20:32 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -273,14 +292,6 @@ A copyleft license makes reusing other copyleft software easier. Recently, we di
 <a href="https://forgejo.org/2024-07-non-free-dependency-found/">
 some of the dependencies we used were incompatible with the license Forgejo was distributed with</a>, and they had to be removed for now. Choosing copyleft licenses enables us to reuse more work, and saves us precious time to focus on improving Forgejo itself.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/986997/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 23 Aug 2024 13:03:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/986997/" title="https://lwn.net/Articles/986997/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (community-mysql, iaito, and radare2), <b>Oracle</b> (python3.12-setuptools and tomcat), <b>Red Hat</b> (krb5 and podman), <b>Slackware</b> (ffmpeg), <b>SUSE</b> (apache2, expat, firefox, webkit2gtk3, and xen), and <b>Ubuntu</b> (imagemagick and libxstream-java).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
