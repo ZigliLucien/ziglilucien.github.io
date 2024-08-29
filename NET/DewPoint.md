@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 91.0 F. <strong>Dew Point</strong> 68.0 F.</div>
+<div id='c'><strong>Temp</strong> 95.0 F. <strong>Dew Point</strong> 64.0 F.</div>
 
 <p/><br/><p/>
 
@@ -890,3 +890,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Thu Aug 29 10:08:05 2024 | 84.0 F. | 72.0 F.|
 | Thu Aug 29 11:08:05 2024 | 91.0 F. | 68.0 F.|
 | Thu Aug 29 12:08:05 2024 | 91.0 F. | 68.0 F.|
+| Thu Aug 29 13:08:05 2024 | 95.0 F. | 64.0 F.|
