@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/987892/" title="See Description">Understanding the Postgres Hackers Mailing List Language</a></li>
+<li><a href="#https://lwn.net/Articles/987566/" title="See Description">[$] A SpamAssassin surprise</a></li>
+<li><a href="#https://lwn.net/Articles/987850/" title="See Description">ElasticSearch and Kibana become free software (again)</a></li>
 <li><a href="#https://lwn.net/Articles/987849/" title="See Description">Airlie: On Rust, Linux, developers, maintainers</a></li>
 <li><a href="#https://lwn.net/Articles/987847/" title="See Description">AnandTech shuts down</a></li>
 <li><a href="#https://lwn.net/Articles/987836/" title="See Description">Security updates for Friday</a></li>
@@ -50,12 +53,68 @@
 <li><a href="#https://lwn.net/Articles/986853/" title="See Description">[$] LWN.net Weekly Edition for August 29, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/987238/" title="See Description">[$] MemHive: sharing immutable data between Python subinterpreters</a></li>
 <li><a href="#https://lwn.net/Articles/986480/" title="See Description">[$] Debian discusses principles for package maintenance</a></li>
-<li><a href="#https://lwn.net/Articles/987519/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/987465/" title="See Description">WineHQ to take over Mono</a></li>
-<li><a href="#https://lwn.net/Articles/987414/" title="See Description">Calligra Office 4.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/987892/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Aug 2024 15:38:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/987892/" title="https://lwn.net/Articles/987892/">Understanding the Postgres Hackers Mailing List Language</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Reading an established open-source project's developer mailing list
+may leave new contributors wishing they had a decoder ring. Greg
+Sabino Mullane has written up a valuable <a
+href="https://www.crunchydata.com/blog/understanding-the-postgres-hackers-mailing-list">explainer</a>
+for those new to the PostgreSQL hackers (<a
+href="https://www.postgresql.org/list/pgsql-hackers/">pgsql-hackers</a>)
+mailing list that may also be useful for decoding other lists as well:</p>
+
+<blockquote class="bq">
+<p>The mailing lists are full of acronyms and jargon that might not be
+familiar to younger people who did not grow up on email (although text
+messages have inherited many of the abbreviations). If you are a
+non-native English speaker, or under the age of 30, or not steeped in
+the world of tech, I offer some solutions below.</p>
+
+<p>To do this, I downloaded the last year's worth of hackers email,
+wrote a program to strip out all the non-human stuff (headers, code
+blocks, attachments, etc.), and then did some data analysis on the
+results.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/987566/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Aug 2024 14:48:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/987566/" title="https://lwn.net/Articles/987566/">[$] A SpamAssassin surprise</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Here is a piece of advice for anybody wanting an easy and frustration-free
+life: do not run your own email system.  While there numerous advantages to
+keeping some control over your communications, there is also a long list of
+things that can go wrong.  A recent failure of spam filtering on the LWN
+email system illustrated one of those ways, as well as shining a light on
+how even a seemingly independent email system is tied to other services
+across the net.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/987850/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Aug 2024 14:07:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/987850/" title="https://lwn.net/Articles/987850/">ElasticSearch and Kibana become free software (again)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Back in 2021, the ElasticSearch search engine and Kibana visualization
+platform <a href="https://lwn.net/Articles/843274/">were relicensed</a> under the non-free
+Server Side Public License (SSPL).  Now, Elastic (the company owning those
+projects) has <a
+href="https://www.elastic.co/blog/elasticsearch-is-open-source-again">announced</a>
+that those projects will also be distributable under the Affero GPL license.
+<p>
+<blockquote class="bq">
+	We never stopped believing and behaving like an open source
+	community after we changed the license. But being able to use the
+	term Open Source, by using AGPL, an OSI approved license, removes
+	any questions, or fud, people might have.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/987849/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 30 Aug 2024 13:55:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -244,40 +303,6 @@ open for collaboration in package maintenance</q>". In the near term,
 it seems unlikely that the proposal will be accepted, but the
 discussion may be effective at improving collaboration nonetheless.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/987519/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 28 Aug 2024 13:15:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/987519/" title="https://lwn.net/Articles/987519/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (calibre, dotnet8.0, dovecot, webkit2gtk4.0, and webkitgtk), <b>Oracle</b> (nodejs:20), <b>Red Hat</b> (bind, bind and bind-dyndb-ldap, postgresql:16, and squid), <b>Slackware</b> (kcron and plasma), <b>SUSE</b> (keepalived and webkit2gtk3), and <b>Ubuntu</b> (drupal7).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/987465/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 27 Aug 2024 21:46:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/987465/" title="https://lwn.net/Articles/987465/">WineHQ to take over Mono</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Mono project was started in 2001 to develop a .NET environment for
-Linux systems.  Microsoft has owned that project since 2016, but has not
-made a major release since 2019.  The company has now <a
-href="https://www.mono-project.com/">announced</a> that Mono is being
-handed over to the WineHQ organization, which will maintain <a
-href="https://gitlab.winehq.org/wine-mono/mono">the repository</a> going
-forward.  Microsoft, meanwhile, is steering users toward its "<q>modern
-fork</q>" that it continues to maintain.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/987414/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 27 Aug 2024 17:16:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/987414/" title="https://lwn.net/Articles/987414/">Calligra Office 4.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>KDE developer Carl Schwan has <a
-href="https://carlschwan.eu/2024/08/27/calligra-office-4.0-is-out/">announced</a>
-the release of <a href="https://calligra.org/">Calligra Office</a>
-version 4.0. The most significant changes in this release include a "<q>major
-overhaul</q>" of the office suite's user interface, and a transition to <a
-href="https://en.wikipedia.org/wiki/Qt_(software)">Qt&nbsp;6</a> and <a href="https://develop.kde.org/products/frameworks/">KDE&nbsp;Frameworks&nbsp;6</a>.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
