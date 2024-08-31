@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A chance of showers and thunderstorms. Mostly cloudy. High near 83, with temperatures falling to around 81 in the afternoon.
-         Northwest wind around 5 mph. Chance of precipitation is 50%.<br></div>
+         Northwest wind around 3 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
