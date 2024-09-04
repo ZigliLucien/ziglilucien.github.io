@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Cloudy, with a low around 63. Northeast wind around 3 mph.<br></div>
+         <h3>Overnight</h3>Cloudy, with a low around 63. Northeast wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
