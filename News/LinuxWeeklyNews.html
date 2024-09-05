@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/988401/" title="See Description">[$] Application monitoring with OpenSnitch</a></li>
+<li><a href="#https://lwn.net/Articles/989047/" title="See Description">Samba 4.21.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/989046/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/987605/" title="See Description">[$] LWN.net Weekly Edition for September 5, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/988862/" title="See Description">Call for candidates for the 2024 Linux Foundation TAB election</a></li>
 <li><a href="#https://lwn.net/Articles/988837/" title="See Description">Tellico 4.0 released</a></li>
@@ -50,12 +53,45 @@
 <li><a href="#https://lwn.net/Articles/987176/" title="See Description">[$] Advances in font technology and GTK text rendering</a></li>
 <li><a href="#https://lwn.net/Articles/988364/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/988184/" title="See Description">Kernel prepatch 6.11-rc6</a></li>
-<li><a href="#https://lwn.net/Articles/987892/" title="See Description">Understanding the Postgres Hackers Mailing List Language</a></li>
-<li><a href="#https://lwn.net/Articles/987566/" title="See Description">[$] A SpamAssassin surprise</a></li>
-<li><a href="#https://lwn.net/Articles/987850/" title="See Description">ElasticSearch and Kibana become free software (again)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/988401/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Sep 2024 15:23:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/988401/" title="https://lwn.net/Articles/988401/">[$] Application monitoring with OpenSnitch</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://github.com/evilsocket/opensnitch">OpenSnitch</a> is an
+"<q>interactive application firewall</q>". Like other firewalls, it uses a
+series of rules to decide what network traffic should be permitted. Unlike
+many other firewalls, though, OpenSnitch does not ask the user to create a list of rules
+ahead of time. Instead, the list of rules can be built up
+incrementally as applications make connections — and the user can peruse both
+the rules that have built up over time, and statistics on the connections that
+have been attempted.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/989047/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Sep 2024 14:19:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/989047/" title="https://lwn.net/Articles/989047/">Samba 4.21.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Version 4.21.0 of the Samba Windows interoperability suite has been
+released.  Changes include some authentication hardening, a number of LDAP
+improvements, per-user and per-group veto and hide files, group-managed
+service accounts, and quite a bit more.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/989046/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Sep 2024 14:11:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/989046/" title="https://lwn.net/Articles/989046/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bubblewrap and flatpak, containernetworking-plugins, fence-agents, ghostscript, krb5, orc, podman, python3.11, python3.9, resource-agents, runc, and wget), <b>Debian</b> (chromium, cinder, glance, gnutls28, nova, nsis, python-oslo.utils, ruby-sinatra, and setuptools), <b>Fedora</b> (kernel), <b>Oracle</b> (bubblewrap and flatpak, buildah, containernetworking-plugins, fence-agents, ghostscript, gvisor-tap-vsock, kernel, krb5, libndp, nodejs:18, orc, podman, postgresql, python-urllib3, python3.11, python3.12, python3.9, runc, skopeo, and wget), <b>SUSE</b> (hdf5, netcdf, trilinos), and <b>Ubuntu</b> (firefox, imagemagick, ironic, openssl, python-django, vim, and znc).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/987605/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 05 Sep 2024 00:48:55 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -220,65 +256,6 @@ going in the near future.</p>
 <tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/988183/">6.11-rc6</a> for testing.
 "<q>Things look pretty normal, although we have perhaps unusually many
 filesystem fixes here, spread out over smb, xfs, bcachefs and netfs.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/987892/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 30 Aug 2024 15:38:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/987892/" title="https://lwn.net/Articles/987892/">Understanding the Postgres Hackers Mailing List Language</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Reading an established open-source project's developer mailing list
-may leave new contributors wishing they had a decoder ring. Greg
-Sabino Mullane has written up a valuable <a
-href="https://www.crunchydata.com/blog/understanding-the-postgres-hackers-mailing-list">explainer</a>
-for those new to the PostgreSQL hackers (<a
-href="https://www.postgresql.org/list/pgsql-hackers/">pgsql-hackers</a>)
-mailing list that may also be useful for decoding other lists as well:</p>
-
-<blockquote class="bq">
-<p>The mailing lists are full of acronyms and jargon that might not be
-familiar to younger people who did not grow up on email (although text
-messages have inherited many of the abbreviations). If you are a
-non-native English speaker, or under the age of 30, or not steeped in
-the world of tech, I offer some solutions below.</p>
-
-<p>To do this, I downloaded the last year's worth of hackers email,
-wrote a program to strip out all the non-human stuff (headers, code
-blocks, attachments, etc.), and then did some data analysis on the
-results.</p>
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/987566/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 30 Aug 2024 14:48:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/987566/" title="https://lwn.net/Articles/987566/">[$] A SpamAssassin surprise</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Here is a piece of advice for anybody wanting an easy and frustration-free
-life: do not run your own email system.  While there are numerous advantages to
-keeping some control over your communications, there is also a long list of
-things that can go wrong.  A recent failure of spam filtering on the LWN
-email system illustrated one of those ways, as well as shining a light on
-how even a seemingly independent email system is tied to other services
-across the net.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/987850/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 30 Aug 2024 14:07:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/987850/" title="https://lwn.net/Articles/987850/">ElasticSearch and Kibana become free software (again)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Back in 2021, the ElasticSearch search engine and Kibana visualization
-platform <a href="https://lwn.net/Articles/843274/">were relicensed</a> under the non-free
-Server Side Public License (SSPL).  Now, Elastic (the company owning those
-projects) has <a
-href="https://www.elastic.co/blog/elasticsearch-is-open-source-again">announced</a>
-that those projects will also be distributable under the Affero GPL license.
-<p>
-<blockquote class="bq">
-	We never stopped believing and behaving like an open source
-	community after we changed the license. But being able to use the
-	term Open Source, by using AGPL, an OSI approved license, removes
-	any questions, or fud, people might have.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
