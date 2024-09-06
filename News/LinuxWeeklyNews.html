@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/989229/" title="See Description">NGINX has moved to Github</a></li>
+<li><a href="#https://lwn.net/Articles/989215/" title="See Description">Man pages maintenance suspended</a></li>
+<li><a href="#https://lwn.net/Articles/989212/" title="See Description">The realtime preemption end game — for real this time</a></li>
 <li><a href="#https://lwn.net/Articles/989196/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/989106/" title="See Description">Rust 1.81.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/988401/" title="See Description">[$] Application monitoring with OpenSnitch</a></li>
@@ -50,12 +53,77 @@
 <li><a href="#https://lwn.net/Articles/988747/" title="See Description">Seven stable kernel updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/988746/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/988607/" title="See Description">Firefox 130.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/987315/" title="See Description">[$] Transcribing audio with AI using Speech Note</a></li>
-<li><a href="#https://lwn.net/Articles/988570/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/987176/" title="See Description">[$] Advances in font technology and GTK text rendering</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/989229/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Sep 2024 17:00:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/989229/" title="https://lwn.net/Articles/989229/">NGINX has moved to Github</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://nginx.org/">NGINX</a> team has <a
+href="https://mailman.nginx.org/pipermail/nginx-announce/2024/ITL3AOQSAJANFJXMM3VOVOIGOUADWFFK.html">announced</a>
+that official NGINX open-source development has moved away from
+<a href="http://hg.nginx.org/nginx.org">Mercurial</a> to <a href="https://github.com/nginx/nginx">GitHub</a>, and
+the project will now be taking <a
+href="https://github.com/nginx/nginx/blob/master/CONTRIBUTING.md">contributions</a>
+in the form of pull requests:</p>
+
+<blockquote class="bq">
+<p>Additionally, starting today, we will begin accepting bugs reports,
+feature requests and enhancements directly through GitHub, under the
+"Issues" tab. Moreover, we've moved our community forums to the GitHub
+"Discussions" area, where you will now be able
+to engage in conversation, ask, and answer questions.</p>
+
+<p>[...] We understand that changes like these may require adjustment,
+so to give you more time, we will continue accepting patches and
+provide community support via mailing lists until December 31st, 2024.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/989215/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Sep 2024 14:34:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/989215/" title="https://lwn.net/Articles/989215/">Man pages maintenance suspended</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Alejandro Colomar, who has been maintaining the Linux man pages for the
+last four years, has <a
+href="https://lwn.net/ml/all/4d7tq6a7febsoru3wjium4ekttuw2ouocv6jstdkthnacmzr6x@f2zfbe5hs7h5">announced</a>
+that he will have to stop that work.
+<p>
+<blockquote class="bq">
+	 I've been doing it in my free time, and no company has sponsored
+	 that work at all.  At the moment, I cannot sustain this work
+	 economically any more, and will temporarily and indefinitely stop
+	 working on this project.  If any company has interests in the
+	 future of the project, I'd welcome an offer to sponsor my work
+	 here; if so, please let me know.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/989212/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Sep 2024 14:28:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/989212/" title="https://lwn.net/Articles/989212/">The realtime preemption end game — for real this time</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Work on realtime preemption for the Linux kernel <a
+href="https://lwn.net/Articles/106010/">got its start</a> almost exactly 20&nbsp;years ago
+(though it had its roots in earlier work, of course).  It is fair to say
+that finishing that job has taken a bit longer than anybody involved would
+have expected.  Now, though, Sebastian Andrzej Siewior has <a
+href="https://lwn.net/ml/all/20240906111841.562402-1-bigeasy@linutronix.de">posted a brief
+patch series</a> making it possible to enable realtime preemption in the
+mainline kernel on three architectures.
+<p>
+<blockquote class="bq">
+	With the printk bits merged, PREEMPT_RT could be enabled on X86,
+	ARM64 and Risc-V. These three architectures merged required changes
+	over the years leaving me in a position where I have no essential
+	changes in the queue that would affect them.
+</blockquote>
+<p>
+Congratulations are due to the many developers who have worked on this
+project for the last two decades.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/989196/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 06 Sep 2024 13:25:58 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -217,46 +285,6 @@ an AI chatbot to the sidebar</a>. Firefox 130 also addresses <a
 href="https://www.mozilla.org/en-US/security/advisories/mfsa2024-39/">several
 security issues</a>, adds 11 new languages to its translation support,
 and more.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/987315/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 03 Sep 2024 15:11:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/987315/" title="https://lwn.net/Articles/987315/">[$] Transcribing audio with AI using Speech Note</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>One of the joys of writing about technology is the opportunity to
-cover interesting talks on open&#8209;source and free&#8209;software topics. One
-of the pains is creating transcriptions of said talks, or continually
-referring back to a recording, to be able to write about
-them. <a href="https://github.com/mkiol/dsnote">Speech Note</a> is an
-open-source application that uses machine-learning models, running locally, to
-translate speech to text and take the pain out of transcription. It
-also handles text to speech, and language translations. While not
-perfect, its transcriptions are better than one might expect, even when
-handling jargon, accents, and less-than-perfect audio.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/988570/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 03 Sep 2024 13:44:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/988570/" title="https://lwn.net/Articles/988570/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (python3.12), <b>Debian</b> (calibre, exfatprogs, frr, git, libtommath, nbconvert, ruby-nokogiri, ruby-tzinfo, and webkit2gtk), <b>Fedora</b> (flatpak, lua-mpack, and python3.12), <b>Red Hat</b> (389-ds-base, 389-ds:1.4, buildah, fence-agents, gvisor-tap-vsock, httpd:2.4, kernel, kernel-rt, nodejs:18, orc, postgresql, postgresql:12, postgresql:13, postgresql:15, python-urllib3, python3.12, and skopeo), <b>SUSE</b> (389-ds, bubblewrap and flatpak, cacti, cacti-spine, curl, glib2, kernel-firmware, libqt5-qt3d, libqt5-qtquick3d, opera, python39, qemu, unbound, xen, and zziplib), and <b>Ubuntu</b> (ffmpeg, linux-raspi-5.4, and python-webob).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/987176/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Sep 2024 15:34:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/987176/" title="https://lwn.net/Articles/987176/">[$] Advances in font technology and GTK text rendering</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>At this year's <a href="https://events.gnome.org/event/209/">GUADEC</a> in Denver, Colorado, Behdad Esfahbod and Matthias Clasen
-presented a <a href="https://events.gnome.org/event/209/contributions/749/">two-part talk</a> on a topic that's deeply important to desktop
-environments: fonts. Esfahbod covered advances in font
-technology that are making their way to becoming standards, and Clasen briefly
-discussed improvements in GTK text rendering. The talk presented some
-fascinating insights into the problems around accurately rendering
-writing systems on the desktop, and where font technologies may be
-going in the near future.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
