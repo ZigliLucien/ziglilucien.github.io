@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/989272/" title="See Description">[$] The trouble with iowait</a></li>
+<li><a href="#https://lwn.net/Articles/989605/" title="See Description">Radicle 1.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/989602/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/989517/" title="See Description">Redox OS 0.9.0</a></li>
 <li><a href="#https://lwn.net/Articles/987548/" title="See Description">[$] Attracting and retaining Debian contributors</a></li>
 <li><a href="#https://lwn.net/Articles/989489/" title="See Description">Adams: Linux's bedtime routine</a></li>
@@ -50,12 +53,51 @@
 <li><a href="#https://lwn.net/Articles/989212/" title="See Description">The realtime preemption end game — for real this time</a></li>
 <li><a href="#https://lwn.net/Articles/989196/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/989106/" title="See Description">Rust 1.81.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/988401/" title="See Description">[$] Application monitoring with OpenSnitch</a></li>
-<li><a href="#https://lwn.net/Articles/989047/" title="See Description">Samba 4.21.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/989046/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/989272/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Sep 2024 13:48:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/989272/" title="https://lwn.net/Articles/989272/">[$] The trouble with iowait</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>CPU scheduling is a challenging job; since it inherently requires making
+guesses about what the demands on the system will be in the future, it
+remains reliant on heuristics, despite ongoing efforts to remove them.
+Some of those heuristics take special note of tasks that are (or appear to
+be) waiting for fast I/O operations.  There is some unhappiness, though,
+with how this factor is used, leading to a couple of patches taking rather
+different approaches to improve the situation.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/989605/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Sep 2024 13:33:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/989605/" title="https://lwn.net/Articles/989605/">Radicle 1.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://radicle.xyz/2024/09/10/radicle-1.0.html">Version 1.0</a>
+of the Radicle development platform has been released.
+<p>
+<blockquote class="bq">
+	Radicle 1.0 represents the culmination of years of experimentation
+	and hard work from our team and community, where we set out to
+	ensure that free and open source software ecosystems can flourish
+	without having to rely on the whims of Big Tech. We designed
+	Radicle with a first-principles approach, as a natural extension to
+	Git, expanding it to work in a collaborative, local-first,
+	peer-to-peer setting.
+</blockquote>
+<p>
+LWN <a href="https://lwn.net/Articles/966869/">looked at Radicle</a> in March.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/989602/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Sep 2024 12:55:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/989602/" title="https://lwn.net/Articles/989602/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (cacti), <b>Fedora</b> (aardvark-dns, expat, and firefox), <b>Mageia</b> (ffmpeg, ntfs-3g, and vim), <b>Oracle</b> (emacs, glib2, java-11-openjdk, and qt5-qtbase), <b>Red Hat</b> (emacs, python-setuptools, python3.11, python3.11-setuptools, python3.12-setuptools, python3.9, and python39:3.9), <b>Slackware</b> (netatalk), <b>SUSE</b> (buildah, expat, java-1_8_0-ibm, kanidm, kernel, and postgresql16), and <b>Ubuntu</b> (netty, php7.0, php7.2, tiff, and webkit2gtk).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/989517/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 09 Sep 2024 19:09:33 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -249,42 +291,6 @@ project for the last two decades.</blockquote></blockquote></div></td></tr>
 1.81.0</a> of the Rust language has been released.  Changes include the
 stabilization of the <tt>Error</tt> trait in <tt>core</tt>, some new sort
 algorithms, some linting improvements, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/988401/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Sep 2024 15:23:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/988401/" title="https://lwn.net/Articles/988401/">[$] Application monitoring with OpenSnitch</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://github.com/evilsocket/opensnitch">OpenSnitch</a> is an
-"<q>interactive application firewall</q>". Like other firewalls, it uses a
-series of rules to decide what network traffic should be permitted. Unlike
-many other firewalls, though, OpenSnitch does not ask the user to create a list of rules
-ahead of time. Instead, the list of rules can be built up
-incrementally as applications make connections — and the user can peruse both
-the rules that have built up over time, and statistics on the connections that
-have been attempted.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/989047/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Sep 2024 14:19:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/989047/" title="https://lwn.net/Articles/989047/">Samba 4.21.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Version 4.21.0 of the Samba Windows interoperability suite has been
-released.  Changes include some authentication hardening, a number of LDAP
-improvements, per-user and per-group veto and hide files, group-managed
-service accounts, and quite a bit more.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/989046/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Sep 2024 14:11:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/989046/" title="https://lwn.net/Articles/989046/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bubblewrap and flatpak, containernetworking-plugins, fence-agents, ghostscript, krb5, orc, podman, python3.11, python3.9, resource-agents, runc, and wget), <b>Debian</b> (chromium, cinder, glance, gnutls28, nova, nsis, python-oslo.utils, ruby-sinatra, and setuptools), <b>Fedora</b> (kernel), <b>Oracle</b> (bubblewrap and flatpak, buildah, containernetworking-plugins, fence-agents, ghostscript, gvisor-tap-vsock, kernel, krb5, libndp, nodejs:18, orc, podman, postgresql, python-urllib3, python3.11, python3.12, python3.9, runc, skopeo, and wget), <b>SUSE</b> (hdf5, netcdf, trilinos), and <b>Ubuntu</b> (firefox, imagemagick, ironic, openssl, python-django, vim, and znc).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
