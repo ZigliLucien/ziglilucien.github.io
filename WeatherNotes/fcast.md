@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A slight chance of rain showers after 4pm. Cloudy. High near 82, with temperatures falling to around 79 in the afternoon.
-         East wind 8 to 12 mph, with gusts as high as 20 mph. Chance of precipitation is 20%.<br></div>
+         East wind around 12 mph, with gusts as high as 20 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
