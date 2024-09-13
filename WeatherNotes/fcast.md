@@ -2,23 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of showers and thunderstorms before 4pm, then showers and thunderstorms likely. Mostly cloudy, with a high near 77.
-         East wind around 12 mph, with gusts as high as 20 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Today</h3>A chance of showers and thunderstorms after 3pm. Mostly cloudy, with a high near 77. East wind around 10 mph, with gusts as
+         high as 18 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 65. East
-         wind 5 to 8 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Tonight</h3>Showers and thunderstorms likely before 7pm, then a chance of showers and thunderstorms between 7pm and 4am. Mostly cloudy,
+         with a low around 65. East wind around 7 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of showers and thunderstorms before 10am, then showers and thunderstorms likely. Mostly cloudy, with a high near
-         76. East wind around 7 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Saturday</h3>A chance of rain showers between 7am and 10am, then a chance of showers and thunderstorms between 10am and noon, then a chance
+         of showers and thunderstorms. Mostly cloudy, with a high near 76. East wind around 7 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Showers and thunderstorms likely before 7pm, then a chance of showers and thunderstorms between 7pm and 1am, then a chance
-         of showers and thunderstorms. Mostly cloudy, with a low around 65. East wind 2 to 6 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around
+         65. East wind around 5 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
