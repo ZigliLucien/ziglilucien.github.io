@@ -2,28 +2,27 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A slight chance of showers and thunderstorms before 5pm. Mostly cloudy, with a high near 83. East wind around 6 mph. Chance
-         of precipitation is 20%.<br></div>
+         <h3>This Afternoon</h3>Partly sunny. High near 84, with temperatures falling to around 82 in the afternoon. East southeast wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Partly cloudy, with a low around 62. East wind around 3 mph.<br></div>
+         <h3>Tonight</h3>Mostly cloudy, with a low around 64. East wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Mostly sunny. High near 86, with temperatures falling to around 84 in the afternoon. East wind 2 to 6 mph.<br></div>
+         <h3>Monday</h3>Mostly sunny, with a high near 86. East wind 2 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Mostly clear, with a low around 59. East northeast wind around 3 mph.<br></div>
+         <h3>Monday Night</h3>Mostly clear, with a low around 58. Northeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Sunny, with a high near 85. Northeast wind 2 to 6 mph.<br></div>
+         <h3>Tuesday</h3>Sunny, with a high near 86. Northeast wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Clear, with a low around 57. East northeast wind around 3 mph.<br></div>
+         <h3>Tuesday Night</h3>Clear, with a low around 57. Northeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -35,23 +34,23 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny, with a high near 86. Northwest wind around 3 mph.<br></div>
+         <h3>Thursday</h3>Sunny, with a high near 87. North northwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 62. Northwest wind around 2 mph.<br></div>
+         <h3>Thursday Night</h3>Clear, with a low around 61. North wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Sunny, with a high near 87. North northeast wind around 5 mph.<br></div>
+         <h3>Friday</h3>Sunny, with a high near 87. Northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Mostly clear, with a low around 62. Northeast wind around 3 mph.<br></div>
+         <h3>Friday Night</h3>Mostly clear, with a low around 62. East wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Mostly sunny, with a high near 86. East southeast wind 2 to 6 mph.<br></div>
+         <h3>Saturday</h3>Mostly sunny, with a high near 87. East wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
