@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 4am, then areas of fog and a slight chance of showers and thunderstorms. Cloudy.
-         Low around 65, with temperatures rising to around 67 overnight. Southeast wind around 2 mph. Chance of precipitation is 40%.<br></div>
+         Low around 65, with temperatures rising to around 67 overnight. East wind around 2 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
