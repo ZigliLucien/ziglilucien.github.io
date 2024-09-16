@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/989687/" title="See Description">[$] Fedora evicts WolfSSL</a></li>
+<li><a href="#https://lwn.net/Articles/990490/" title="See Description">Valkey 8.0.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/989528/" title="See Description">[$] Some 6.11 development statistics</a></li>
 <li><a href="#https://lwn.net/Articles/990455/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/990307/" title="See Description">The 6.11 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/990270/" title="See Description">GNOME Foundation opens search for new Executive Director</a></li>
@@ -50,12 +53,65 @@
 <li><a href="#https://lwn.net/Articles/990040/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/988984/" title="See Description">[$] LWN.net Weekly Edition for September 12, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/988894/" title="See Description">[$] A mess in the Python community</a></li>
-<li><a href="#https://lwn.net/Articles/989772/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/989660/" title="See Description">Pandoc 3.4 released</a></li>
-<li><a href="#https://lwn.net/Articles/989272/" title="See Description">[$] The trouble with iowait</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/989687/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 16 Sep 2024 16:40:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/989687/" title="https://lwn.net/Articles/989687/">[$] Fedora evicts WolfSSL</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://docs.fedoraproject.org/en-US/fesco/">Fedora
+Engineering Steering Committee</a> (FESCo) has voted to
+immediately remove the <a href="https://www.wolfssl.com">WolfSSL</a> package from all of Fedora's
+repositories due to its maintainer failing to gain approval to package
+a new cryptography library for Fedora. Its brief travels through
+Fedora's package system highlights gaps in documentation, as well as
+in the package&#8209;review process. The good news is that this may stir
+Fedora to improve its documentation and revive a formal security
+team.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/990490/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 16 Sep 2024 15:19:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990490/" title="https://lwn.net/Articles/990490/">Valkey 8.0.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://valkey.io/blog/valkey-8-ga/">Version 8.0.0</a> of
+the <a href="https://valkey.io">Valkey</a> open-source in-memory data
+store is now available. This is the first major release of Valkey
+since the project <a
+href="https://lwn.net/Articles/966631/">forked</a> from <a
+href="https://redis.io">Redis</a> in March of this year:</p>
+
+<blockquote class="bq">
+While this is a major version, Valkey takes command set compatibility
+seriously: Valkey 8.0.0 makes no backwards incompatible changes to the
+existing command syntax or their responses. Your existing tools and
+custom software will be able to immediately take advantage of Valkey
+8.0.0. Since Valkey 8.0.0 does make some small changes to previously
+undefined behaviors, it's wise to <a
+href="https://github.com/valkey-io/valkey/blob/8.0.0/00-RELEASENOTES">read
+the release notes</a>. Additionally, because this version makes changes in how the
+software uses threading, you may want to re-evaluate your cluster's
+infrastructure to achieve the highest performance.
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/989528/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 16 Sep 2024 14:24:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/989528/" title="https://lwn.net/Articles/989528/">[$] Some 6.11 development statistics</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The 6.11 kernel was <a
+href="https://lwn.net/ml/all/CAHk-=whVpSHw9+4ov=oLevfv8sPYbh59T_9VKif-6Vqkr41jQA@mail.gmail.com/">released</a>
+on September&nbsp;15 after a typical nine-week development cycle.  This
+release integrates 13,890 non-merge changesets, so it was a moderately busy
+cycle, slightly more so that 6.10 was.  With a new release comes a new round
+of development statistics; read on for the details.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/990455/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 16 Sep 2024 09:50:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -243,43 +299,6 @@ href="https://discuss.python.org/t/for-your-consideration-proposed-bylaws-change
 of proposed changes to the bylaws</a> for the <a
 href="https://www.python.org/psf-landing/">Python Software Foundation</a>
 (PSF) back in mid-June.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/989772/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 11 Sep 2024 13:34:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/989772/" title="https://lwn.net/Articles/989772/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, dovecot, emacs, and glib2), <b>Fedora</b> (bluez, iwd, libell, linux-firmware, seamonkey, vim, and wireshark), <b>Mageia</b> (apr, libtiff, Nginx, openssl, orc, unbound, webmin, and zziplib), <b>Red Hat</b> (389-ds:1.4), and <b>SUSE</b> (containerd, curl, go1.22, go1.23, gstreamer-plugins-bad, kernel, ntpd-rs, python-Django, and python311).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/989660/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 10 Sep 2024 18:43:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/989660/" title="https://lwn.net/Articles/989660/">Pandoc 3.4 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://pandoc.org/releases.html#pandoc-3.4-2024-09-09">Version
-3.4</a> of the <a href="https://pandoc.org/">Pandoc</a>
-document-conversion tool has been released. Notable changes in this
-release include a new ANSI output format (for console output), a <a
-href="https://github.com/jgm/pandoc/issues/10142">switch</a> to  <a
-href="https://weasyprint.org/">WeasyPrint</a> as the PDF engine for
-HTML to PDF conversion, the ability to position captions
-above or below tables and figures, and much more.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/989272/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 10 Sep 2024 13:48:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/989272/" title="https://lwn.net/Articles/989272/">[$] The trouble with iowait</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>CPU scheduling is a challenging job; since it inherently requires making
-guesses about what the demands on the system will be in the future, it
-remains reliant on heuristics, despite ongoing efforts to remove them.
-Some of those heuristics take special note of tasks that are (or appear to
-be) waiting for fast I/O operations.  There is some unhappiness, though,
-with how this factor is used, leading to a couple of patches taking rather
-different approaches to improve the situation.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
