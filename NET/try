@@ -1,0 +1,1878 @@
+<!DOCTYPE html><html class="no-js">
+    <head>
+        <!-- Meta -->
+        <meta name="viewport" content="width=device-width" />
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+        <title>National Weather Service</title>
+        <meta name="DC.title" content="National Weather Service" />
+        <meta name="DC.description" content="NOAA National Weather Service" />
+        <meta name="DC.creator" content="US Department of Commerce, NOAA, National Weather Service" />
+        <meta name="DC.date.created" scheme="ISO8601" content="2024-09-17T21:18:02+00:00" />
+        <meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
+        <meta name="DC.keywords" content="weather" />
+        <meta name="DC.publisher" content="NOAA's National Weather Service" />
+        <meta name="DC.contributor" content="National Weather Service" />
+        <meta name="DC.rights" content="/disclaimer.php" />
+        <meta name="rating" content="General" />
+        <meta name="robots" content="index,follow" />
+
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/build/images/favicon.eab6deff.ico" type="image/x-icon" />
+
+                    <link rel="stylesheet" href="/build/app.b5803bc3.css">
+        
+                    <script src="/build/runtime.5332280c.js"></script><script src="/build/662.4c16084d.js"></script><script src="/build/app.b0ab6b61.js"></script>
+            <script type="text/javascript" src="https://cdn.gov.cfigroup.com/webmon/s/source/webmon/ce989efe8b1040/webmon.js" async></script>
+            <script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&amp;subagency=NOAA"></script>
+            <script type="text/javascript">
+                // GoogleAnalyticsObject is defined in the federated analytics script, but PUA option not used as forecast UA needs sampleRate
+                window[window['GoogleAnalyticsObject']]('create', 'UA-40768555-1', 'weather.gov', {'sampleRate': 6});
+                window[window['GoogleAnalyticsObject']]('set', 'anonymizeIp', true);
+                window[window['GoogleAnalyticsObject']]('require', 'linkid');
+                window[window['GoogleAnalyticsObject']]('send', 'pageview');
+            </script>
+            </head>
+    <body>
+        <main class="container">
+            <header class="row clearfix" id="page-header">
+    <a href="//www.noaa.gov" id="header-noaa" class="pull-left"><img src="/build/images/header/noaa.d87e0251.png" alt="National Oceanic and Atmospheric Administration"/></a>
+    <a href="https://www.weather.gov" id="header-nws" class="pull-left"><img src="/build/images/header/nws.4e6585d8.png" alt="National Weather Service"/></a>
+    <a href="//www.commerce.gov" id="header-doc" class="pull-right"><img src="/build/images/header/doc.b38ba91a.png" alt="United States Department of Commerce"/></a>
+</header>
+
+            <nav class="navbar navbar-default row" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="top-nav">
+            <ul class="nav navbar-nav">
+                <li><a href="//www.weather.gov">HOME</a></li>
+                                    <li class="dropdown">
+                        <a href="https://www.weather.gov/forecastmaps" class="dropdown-toggle" data-toggle="dropdown">
+                                                            FORECAST
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="https://www.weather.gov">Local</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://digital.weather.gov">Graphical</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.aviationweather.gov">Aviation</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/marine">Marine</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://water.noaa.gov">Rivers and Lakes</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.nhc.noaa.gov">Hurricanes</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.spc.noaa.gov">Severe Weather</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/fire">Fire Weather</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.esrl.noaa.gov/gmd/grad/solcalc/sunrise.html">Sun/Moon</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.cpc.ncep.noaa.gov">Long Range Forecasts</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.cpc.ncep.noaa.gov">Climate Prediction</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.swpc.noaa.gov">Space Weather</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="https://www.weather.gov/wrh/climate" class="dropdown-toggle" data-toggle="dropdown">
+                                                            PAST WEATHER
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="https://www.weather.gov/wrh/climate">Past Weather</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/wrh/climate">Heating/Cooling Days</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/wrh/climate">Monthly Temperatures</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/wrh/climate">Records</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://aa.usno.navy.mil">Astronomical Data</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="https://www.weather.gov/safety" class="dropdown-toggle" data-toggle="dropdown">
+                                                            SAFETY
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="https://www.weather.gov/safety/tsunami">Tsunamis</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/flood">Floods</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/beachhazards">Beach Hazards</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/wildfire">Wildfire</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/cold">Cold</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/tornado">Tornadoes</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/airquality">Air Quality</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/fog">Fog</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/heat">Heat</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/hurricane">Hurricanes</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/lightning">Lightning</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/safeboating">Safe Boating</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/ripcurrent">Rip Currents</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/thunderstorm">Thunderstorms</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/space">Space Weather</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/heat-uv">Sun (Ultraviolet Radiation)</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safetycampaign">Safety Campaigns</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/wind">Wind</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/drought">Drought</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/safety/winter">Winter Weather</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="https://www.weather.gov/informationcenter" class="dropdown-toggle" data-toggle="dropdown">
+                                                            INFORMATION
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="https://www.weather.gov/wrn/wea">Wireless Emergency Alerts</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/owlie/publication_brochures">Brochures</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/wrn">Weather-Ready Nation</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/coop">Cooperative Observers</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/briefing">Daily Briefing</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/hazstat">Damage/Fatality/Injury Statistics</a>
+                                </li>
+                                                            <li>
+                                    <a href="http://mag.ncep.noaa.gov">Forecast Models</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/gis">GIS Data Portal</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/nwr">NOAA Weather Radio</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/publications">Publications</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/skywarn">SKYWARN Storm Spotters</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/stormready">StormReady</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/tsunamiready">TsunamiReady</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/notification">Service Change Notices</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="https://www.weather.gov/education" class="dropdown-toggle" data-toggle="dropdown">
+                                                            EDUCATION
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="https://www.weather.gov/wrn/force">Be A Force of Nature</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/owlie">NWS Education Home</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="https://www.weather.gov/news" class="dropdown-toggle" data-toggle="dropdown">
+                                                            NEWS
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="https://www.weather.gov/news">NWS News</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/wrn/calendar">Events</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/owlie/publication_brochures">Pubs/Brochures/Booklets </a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.noaa.gov/NOAA-Communications">NWS Media Contacts</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="https://www.weather.gov/search" class="dropdown-toggle" data-toggle="dropdown">
+                                                            SEARCH
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                            <li>
+                                    <div id="site-search">
+                                        <form method="get" action="//search.usa.gov/search" style="margin-bottom: 0; margin-top: 0;">
+                                            <input type="hidden" name="v:project" value="firstgov" />
+                                            <label for="query">Search For</label>
+                                            <input type="text" name="query" id="query" size="12" />
+                                            <input type="submit" value="Go" />
+                                            <p>
+                                                <input type="radio" name="affiliate" checked="checked" value="nws.noaa.gov" id="nws" />
+                                                <label for="nws" class="search-scope">NWS</label>
+                                                <input type="radio" name="affiliate" value="noaa.gov" id="noaa" />
+                                                <label for="noaa" class="search-scope">All NOAA</label>
+                                            </p>
+                                        </form>
+                                    </div>
+                                </li>
+                                                                                </ul>
+                    </li>
+                                    <li class="dropdown">
+                        <a href="https://www.weather.gov/about" class="dropdown-toggle" data-toggle="dropdown">
+                                                            ABOUT
+                                                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                        <li>
+                                    <a href="https://www.weather.gov/about">About NWS</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/organization">Organization</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/media/wrn/NWS-2023-Strategic-Plan.pdf">Strategic Plan</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.noaa.gov/national-weather-service/commitment-diversity">Commitment to Diversity</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://sites.google.com/a/noaa.gov/nws-insider/">For NWS Employees</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/insider">International</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/ncep">National Centers</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.noaa.gov/nws-careers">Careers</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/contact">Contact Us</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://forecast.weather.gov/glossary.php">Glossary</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.weather.gov/socialmedia">Social Media</a>
+                                </li>
+                                                    </ul>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</nav>
+
+            <div class="contentArea">
+                    
+        <span style="font-size: 20px; font-weight:bold;">Zone Forecast Product </span><br />Issued by NWS Paducah, KY
+        <br />
+        <br />
+        <div>
+                    <a href="/">Home</a>&nbsp;|&nbsp;
+                    <b>Current Version</b>&nbsp;|&nbsp;
+                    <a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=2&glossary=0">Previous Version</a>&nbsp;|&nbsp;
+                    <a href="?site=PAH&issuedby=PAH&product=ZFP&format=txt&version=1&glossary=0">Text Only</a>&nbsp;|&nbsp;
+                    <a href="javascript:window.print()">Print</a>&nbsp;|&nbsp;<a href="product_types.php?site=PAH">Product List</a>&nbsp;|&nbsp;
+                    <a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=1&glossary=1">Glossary On</a></div>
+                <div>Versions:
+                            <b>1</b> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=2&glossary=0">2</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=3&glossary=0">3</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=4&glossary=0">4</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=5&glossary=0">5</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=6&glossary=0">6</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=7&glossary=0">7</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=8&glossary=0">8</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=9&glossary=0">9</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=10&glossary=0">10</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=11&glossary=0">11</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=12&glossary=0">12</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=13&glossary=0">13</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=14&glossary=0">14</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=15&glossary=0">15</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=16&glossary=0">16</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=17&glossary=0">17</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=18&glossary=0">18</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=19&glossary=0">19</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=20&glossary=0">20</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=21&glossary=0">21</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=22&glossary=0">22</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=23&glossary=0">23</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=24&glossary=0">24</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=25&glossary=0">25</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=26&glossary=0">26</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=27&glossary=0">27</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=28&glossary=0">28</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=29&glossary=0">29</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=30&glossary=0">30</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=31&glossary=0">31</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=32&glossary=0">32</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=33&glossary=0">33</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=34&glossary=0">34</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=35&glossary=0">35</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=36&glossary=0">36</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=37&glossary=0">37</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=38&glossary=0">38</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=39&glossary=0">39</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=40&glossary=0">40</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=41&glossary=0">41</a> 
+                            
+<a href="?site=PAH&issuedby=PAH&product=ZFP&format=CI&version=42&glossary=0">42</a> 
+                    <hr size="1" width="520" noshade="noshade" align="left" />
+        </div>
+        <pre class="glossaryProduct">
+526
+FPUS53 KPAH 171916
+ZFPPAH
+
+Zone Forecast Product
+National Weather Service Paducah KY
+215 PM CDT Tue Sep 17 2024
+
+KYZ005-172100-
+McCracken-
+Including the city of Paducah
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows around 60. Northeast winds around 5 mph in
+the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. North winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Calm
+winds.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming
+northwest around 5 mph in the afternoon.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY AND SATURDAY NIGHT...Partly cloudy. Highs around 90.
+Lows in the mid 60s.
+.SUNDAY...Partly sunny. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the mid 80s.
+
+$$
+
+INZ086-172100-
+Vanderburgh-
+Including the city of Evansville
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Clear. Lows around 60. East winds around 5 mph in the
+evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northeast
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT...Clear. Lows in the lower 60s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the lower 90s.
+Lows in the mid 60s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs around 90.
+Lows in the upper 60s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+KYZ019-172100-
+Daviess-
+Including the city of Owensboro
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Lows around 60. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northeast
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Northeast winds around 5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+lower 90s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the mid 80s.
+
+$$
+
+KYZ017-172100-
+Christian-
+Including the city of Hopkinsville
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Lows around 60. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. North winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 60s. Northeast winds around
+5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH MONDAY...Partly cloudy. Highs in the upper 80s.
+Lows in the mid 60s.
+
+$$
+
+KYZ009-172100-
+Calloway-
+Including the city of Murray
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Mostly clear. Lows in the lower 60s. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. North winds around
+5 mph.
+.WEDNESDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows in the lower 60s. Calm winds.
+.THURSDAY...Sunny. Highs in the upper 80s. North winds around
+5 mph.
+.THURSDAY NIGHT...Clear. Lows in the lower 60s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the upper 80s.
+Lows in the lower 60s.
+.SATURDAY THROUGH MONDAY...Partly cloudy. Highs in the upper 80s.
+Lows in the mid 60s.
+
+$$
+
+KYZ006-172100-
+Graves-
+Including the city of Mayfield
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows around 60. Northeast winds around 5 mph in
+the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. North winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northwest
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. North winds around
+5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the upper 80s.
+.SATURDAY THROUGH MONDAY...Partly cloudy. Highs in the upper 80s.
+Lows in the mid 60s.
+
+$$
+
+MOZ087-172100-
+Cape Girardeau-
+Including the cities of Cape Girardeau and Jackson
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Areas of fog after midnight. Lows in the upper
+50s. Northeast winds around 5 mph in the evening, becoming light
+and variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the mid
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. North winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+southwest around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT...Mostly clear in the evening, then becoming partly
+cloudy. Lows in the mid 60s.
+.SATURDAY THROUGH SUNDAY...Mostly cloudy. Highs in the mid 80s.
+Lows in the mid 60s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs around 80.
+
+$$
+
+MOZ109-172100-
+Butler-
+Including the city of Poplar Bluff
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+East winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows in the upper
+50s. Northeast winds around 5 mph in the evening, becoming light
+and variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the mid
+80s. Calm winds, becoming northeast around 5 mph in the
+afternoon.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Calm winds.
+.THURSDAY...Sunny. Highs in the mid 80s. Calm winds, becoming
+southwest around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly cloudy. Lows in the mid 60s.
+.SATURDAY AND SATURDAY NIGHT...Mostly cloudy. Highs in the mid
+80s. Lows in the mid 60s.
+.SUNDAY...Mostly sunny. Highs in the mid 80s.
+.SUNDAY NIGHT AND MONDAY...Mostly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ084-172100-
+Jackson-
+Including the cities of Carbondale and Murphysboro
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows around 60.
+Northeast winds around 5 mph in the evening, becoming light and
+variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the upper
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows around 60. Calm winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+southwest around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the mid 60s.
+Highs around 90.
+.FRIDAY NIGHT...Partly cloudy. Lows in the mid 60s.
+.SATURDAY THROUGH SUNDAY...Mostly cloudy. Highs in the upper 80s.
+Lows in the mid 60s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ085-172100-
+Williamson-
+Including the city of Herrin
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows around 60. East winds around 5 mph in the
+evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. North winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming
+northwest around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the mid 60s.
+Highs around 90.
+.FRIDAY NIGHT THROUGH SATURDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.SUNDAY...Partly sunny. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ075-172100-
+Jefferson-
+Including the city of Mount Vernon
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the upper
+80s. East winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows around 60. Calm winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+west around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the lower 90s.
+.FRIDAY NIGHT AND SATURDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the upper 80s.
+.SATURDAY NIGHT AND SUNDAY...Mostly cloudy. Lows in the upper
+60s. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+INZ081-172100-
+Gibson-
+Including the city of Fort Branch
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Northeast winds around 5 mph.
+.THURSDAY NIGHT...Clear. Lows in the lower 60s.
+.FRIDAY...Sunny. Highs in the lower 90s.
+.FRIDAY NIGHT THROUGH SUNDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs around 90.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+INZ082-172100-
+Pike-
+Including the city of Petersburg
+315 PM EDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Lows in the upper 50s. East winds around
+5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. East winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Northeast winds around 5 mph.
+.THURSDAY NIGHT...Clear. Lows around 60.
+.FRIDAY...Sunny. Highs in the lower 90s.
+.FRIDAY NIGHT THROUGH SUNDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs around 90.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+INZ085-172100-
+Posey-
+Including the city of Poseyville
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming north
+around 5 mph in the afternoon.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+mid 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+upper 80s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+INZ087-172100-
+Warrick-
+Including the city of Boonville
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Lows around 60. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. East
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Northeast winds around 5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+lower 90s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the mid 80s.
+
+$$
+
+INZ088-172100-
+Spencer-
+Including the city of Rockport
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+East winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Lows around 60. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northeast
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. Northeast winds around
+5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs around 90.
+Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+KYZ014-172100-
+Union KY-
+Including the city of Morganfield
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. Northeast winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the upper 50s. Northeast
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming north
+around 5 mph in the afternoon.
+.THURSDAY NIGHT...Clear. Lows around 60.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs around 90. Lows in
+the lower 60s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+upper 80s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+KYZ018-172100-
+Henderson-
+Including the city of Henderson
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northeast
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT...Clear. Lows in the lower 60s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the lower 90s.
+Lows in the mid 60s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs around 90.
+Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+KYZ010-172100-
+Crittenden-
+Including the city of Marion
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. Northeast winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+upper 80s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+KYZ015-172100-
+Webster-
+Including the city of Dixon
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Lows in the upper 50s. East winds around
+5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. Northeast winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs around 90.
+Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the mid 80s.
+
+$$
+
+KYZ020-172100-
+McLean-
+Including the city of Calhoun
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Lows around 60. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 60s. Northeast winds around
+5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+lower 90s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the mid 80s.
+
+$$
+
+KYZ011-172100-
+Lyon-
+Including the city of Eddyville
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Lows in the lower 60s. East winds around
+5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northeast
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT...Clear. Lows in the lower 60s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the lower 90s.
+Lows in the mid 60s.
+.SATURDAY THROUGH MONDAY...Partly cloudy. Highs in the upper 80s.
+Lows in the upper 60s.
+
+$$
+
+KYZ013-172100-
+Caldwell-
+Including the city of Princeton
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Mostly clear. Lows around 60. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. Northeast winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northeast
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs around 90.
+Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the mid 80s.
+
+$$
+
+KYZ016-172100-
+Hopkins-
+Including the city of Madisonville
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Mostly clear. Lows in the upper 50s. East winds around
+5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. Northeast winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows around 60. Northeast winds around 5 mph in
+the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+lower 90s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the mid 80s.
+
+$$
+
+KYZ021-172100-
+Muhlenberg-
+Including the city of Greenville
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Mostly sunny. Near steady temperature in the
+mid 80s. Northeast winds around 5 mph.
+.TONIGHT...Mostly clear. Lows around 60. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 60s. Northeast winds around
+5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT...Clear. Lows around 60.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the lower 90s.
+Lows in the lower 60s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+lower 90s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the mid 80s.
+
+$$
+
+KYZ012-172100-
+Trigg-
+Including the city of Cadiz
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Lows in the lower 60s. East winds around
+5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. North winds around
+5 mph.
+.WEDNESDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows in the lower 60s. Northeast winds around 5 mph
+in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. North winds around
+5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs around 90.
+Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the mid 80s.
+
+$$
+
+KYZ022-172100-
+Todd-
+Including the city of Elkton
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Mostly sunny. Near steady temperature in the
+lower 80s. Northeast winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Lows around 60. Northeast winds around
+5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. North winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear in the evening, then becoming
+partly cloudy. Lows in the lower 60s. Northeast winds around
+5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. North winds around
+5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH MONDAY...Partly cloudy. Highs in the upper 80s.
+Lows in the mid 60s.
+
+$$
+
+KYZ008-172100-
+Marshall-
+Including the city of Benton
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Mostly clear. Lows in the lower 60s. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. North winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Calm
+winds.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT...Clear. Lows in the lower 60s.
+.FRIDAY AND FRIDAY NIGHT...Mostly clear. Highs in the lower 90s.
+Lows in the mid 60s.
+.SATURDAY THROUGH MONDAY...Partly cloudy. Highs in the upper 80s.
+Lows in the mid 60s.
+
+$$
+
+KYZ007-172100-
+Livingston-
+Including the city of Smithland
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds 5 to 10 mph.
+.TONIGHT...Clear. Lows around 60. Northeast winds around 5 mph in
+the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Calm
+winds.
+.THURSDAY...Sunny. Highs around 90. North winds around 5 mph.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the lower 90s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+upper 80s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the mid 80s.
+
+$$
+
+KYZ004-172100-
+Ballard-
+Including the city of Wickliffe
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows around 60.
+Northeast winds around 5 mph in the evening, becoming light and
+variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the upper
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. North
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming
+northwest around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT THROUGH SATURDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.SUNDAY...Partly sunny. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+KYZ003-172100-
+Carlisle-
+Including the city of Bardwell
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows around 60. Northeast winds around 5 mph in
+the evening, becoming light and variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the upper
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northwest
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+northwest around 5 mph in the afternoon.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the upper 80s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+upper 80s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+KYZ002-172100-
+Hickman-
+Including the city of Clinton
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. Northeast winds around
+5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. North winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northwest
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+northwest around 5 mph in the afternoon.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the upper 80s.
+.SATURDAY THROUGH MONDAY...Partly cloudy. Highs in the mid 80s.
+Lows in the mid 60s.
+
+$$
+
+KYZ001-172100-
+Fulton-
+Including the city of Hickman
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows around 60. Northeast winds around 5 mph in
+the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. North winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. West
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. Northwest winds around
+5 mph.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT THROUGH MONDAY...Partly cloudy. Lows in the mid
+60s. Highs in the mid 80s.
+
+$$
+
+MOZ107-172100-
+Carter-
+Including the city of Van Buren
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+East winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. Calm winds.
+.WEDNESDAY...Sunny. Highs in the mid 80s. Calm winds.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the upper 50s. Calm
+winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly cloudy. Lows in the mid 60s.
+.SATURDAY AND SATURDAY NIGHT...Mostly cloudy. Highs in the mid
+80s. Lows in the mid 60s.
+.SUNDAY THROUGH MONDAY...Partly cloudy. Highs in the mid 80s.
+Lows in the mid 60s.
+
+$$
+
+MOZ108-172100-
+Ripley-
+Including the city of Doniphan
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+East winds around 5 mph.
+.TONIGHT...Clear. Lows around 60. East winds around 5 mph in the
+evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. Calm winds, becoming
+east around 5 mph in the afternoon.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Calm winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+south around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly cloudy. Lows in the upper 60s.
+.SATURDAY AND SATURDAY NIGHT...Mostly cloudy. Highs in the mid
+80s. Lows in the mid 60s.
+.SUNDAY AND SUNDAY NIGHT...Partly cloudy. Highs in the mid 80s.
+Lows in the mid 60s.
+.MONDAY...Partly sunny. Highs in the lower 80s.
+
+$$
+
+MOZ100-172100-
+Wayne MO-
+Including the city of Piedmont
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+East winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows in the upper
+50s. Calm winds.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the upper
+80s. Calm winds, becoming east around 5 mph in the afternoon.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the upper 50s. Calm
+winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly cloudy. Lows in the mid 60s.
+.SATURDAY AND SATURDAY NIGHT...Mostly cloudy. Highs in the mid
+80s. Lows in the mid 60s.
+.SUNDAY THROUGH MONDAY...Partly cloudy. Highs in the mid 80s.
+Lows in the mid 60s.
+
+$$
+
+MOZ086-172100-
+Bollinger-
+Including the city of Marble Hill
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. Northeast winds around
+5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the mid
+80s. Northeast winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Calm winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+south around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT...Partly cloudy. Lows in the mid 60s.
+.SATURDAY THROUGH SUNDAY...Mostly cloudy. Highs in the mid 80s.
+Lows in the mid 60s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+MOZ076-172100-
+Perry MO-
+Including the city of Perryville
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows in the upper
+50s. East winds around 5 mph in the evening, becoming light and
+variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the mid
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows around 60. Northeast winds around 5 mph in the
+evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+south around 5 mph in the afternoon.
+.THURSDAY NIGHT...Mostly clear. Lows in the mid 60s.
+.FRIDAY AND FRIDAY NIGHT...Partly cloudy. Highs in the upper 80s.
+Lows in the mid 60s.
+.SATURDAY THROUGH SUNDAY...Mostly cloudy. Highs in the mid 80s.
+Lows in the mid 60s.
+.SUNDAY NIGHT...Partly cloudy. Lows in the mid 60s.
+.MONDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs around 80. Chance of rain 30 percent.
+
+$$
+
+MOZ110-172100-
+Stoddard-
+Including the city of Bloomfield
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows in the upper
+50s. Northeast winds around 5 mph in the evening, becoming light
+and variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the mid
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. West
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+southwest around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT...Mostly clear in the evening, then becoming partly
+cloudy. Lows in the mid 60s.
+.SATURDAY AND SATURDAY NIGHT...Mostly cloudy. Highs in the mid
+80s. Lows in the mid 60s.
+.SUNDAY THROUGH MONDAY...Partly cloudy. Highs in the mid 80s.
+Lows in the mid 60s.
+
+$$
+
+MOZ111-172100-
+Scott-
+Including the city of Sikeston
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Areas of fog after midnight. Lows around 60.
+Northeast winds around 5 mph in the evening, becoming light and
+variable.
+.WEDNESDAY...Areas of fog in the morning. Sunny. Highs in the mid
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northwest
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+west around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT THROUGH SATURDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the mid 80s.
+.SUNDAY...Partly sunny. Highs in the mid 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+MOZ114-172100-
+New Madrid-
+Including the city of New Madrid
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows around 60.
+Northeast winds around 5 mph in the evening, becoming light and
+variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the mid
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. West
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. North winds around
+5 mph, becoming west around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT THROUGH MONDAY...Partly cloudy. Lows in the upper
+60s. Highs in the mid 80s.
+
+$$
+
+MOZ112-172100-
+Mississippi-
+Including the city of Charleston
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows around 60.
+Northeast winds around 5 mph in the evening, becoming light and
+variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the mid
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Northwest
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. Northwest winds around
+5 mph.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT THROUGH SUNDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+ILZ092-172100-
+Alexander-
+Including the city of Cairo
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows around 60.
+Northeast winds around 5 mph in the evening, becoming light and
+variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the upper
+80s. Northeast winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. North
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+west around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT THROUGH SATURDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.SUNDAY...Partly sunny. Highs in the mid 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ093-172100-
+Pulaski-
+Including the city of Mound City
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows around 60.
+Northeast winds around 5 mph in the evening, becoming light and
+variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the upper
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Calm
+winds.
+.THURSDAY...Sunny. Highs around 90. Calm winds.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT THROUGH SATURDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.SUNDAY...Partly sunny. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ094-172100-
+Massac-
+Including the city of Metropolis
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Patchy fog after midnight. Lows around 60. Calm
+winds.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the upper
+80s. Calm winds, becoming northeast around 5 mph in the
+afternoon.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Calm
+winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs around 90.
+.SATURDAY AND SATURDAY NIGHT...Partly cloudy. Highs in the upper
+80s. Lows in the mid 60s.
+.SUNDAY...Partly sunny. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ088-172100-
+Union-
+Including the city of Jonesboro
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows around 60. Northeast winds around 5 mph in
+the evening, becoming light and variable.
+.WEDNESDAY...Patchy fog in the morning. Sunny. Highs in the upper
+80s. North winds around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Calm
+winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+west around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the mid 60s.
+Highs in the upper 80s.
+.FRIDAY NIGHT THROUGH SATURDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.SUNDAY...Partly sunny. Highs in the mid 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ089-172100-
+Johnson-
+Including the city of Vienna
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows around 60. Northeast winds around 5 mph in
+the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Calm
+winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+northwest around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs around 90.
+.FRIDAY NIGHT THROUGH SATURDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.SUNDAY...Partly sunny. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ090-172100-
+Pope-
+Including the city of Golconda
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows around 60. Calm winds.
+.WEDNESDAY...Sunny. Highs in the mid 80s. Northeast winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the lower 60s. Calm
+winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+north around 5 mph in the afternoon.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs around 90.
+.SATURDAY AND SATURDAY NIGHT...Partly cloudy. Highs in the upper
+80s. Lows in the mid 60s.
+.SUNDAY...Partly sunny. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ091-172100-
+Hardin-
+Including the city of Elizabethtown
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. Northeast winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Calm winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+north around 5 mph in the afternoon.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs in the upper 80s.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+upper 80s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+ILZ086-172100-
+Saline-
+Including the city of Harrisburg
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Mostly clear. Lows in the upper 50s. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Calm winds.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming north
+around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the lower 90s.
+.FRIDAY NIGHT THROUGH SATURDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.SUNDAY...Partly sunny. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ087-172100-
+Gallatin-
+Including the city of Shawneetown
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the mid 80s. Northeast winds around
+5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the upper 50s. Northeast
+winds around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming north
+around 5 mph in the afternoon.
+.THURSDAY NIGHT THROUGH FRIDAY NIGHT...Mostly clear. Lows in the
+lower 60s. Highs around 90.
+.SATURDAY THROUGH SUNDAY NIGHT...Partly cloudy. Highs in the
+upper 80s. Lows in the mid 60s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+ILZ080-172100-
+Perry IL-
+Including the city of Pinckneyville
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+East winds around 5 mph.
+.TONIGHT...Mostly clear. Lows around 60. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+northeast around 5 mph in the afternoon.
+.WEDNESDAY NIGHT...Partly cloudy in the evening, then clearing.
+Lows around 60. Calm winds.
+.THURSDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+southwest around 5 mph in the afternoon.
+.THURSDAY NIGHT...Mostly clear. Lows in the mid 60s.
+.FRIDAY AND FRIDAY NIGHT...Partly cloudy. Highs in the lower 90s.
+Lows in the upper 60s.
+.SATURDAY THROUGH SUNDAY...Mostly cloudy. Highs in the upper 80s.
+Lows in the upper 60s.
+.SUNDAY NIGHT...Partly cloudy. Lows in the mid 60s.
+.MONDAY...Mostly sunny. A chance of showers in the afternoon.
+Highs in the lower 80s. Chance of rain 30 percent.
+
+$$
+
+ILZ081-172100-
+Franklin-
+Including the city of West Frankfort
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the upper
+80s. Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows around 60. Northeast winds around 5 mph in
+the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Partly cloudy in the evening, then becoming
+mostly clear. Lows around 60. Northeast winds around 5 mph in the
+evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming
+northwest around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the lower 90s.
+.FRIDAY NIGHT THROUGH SATURDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.SUNDAY...Partly sunny. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ082-172100-
+Hamilton-
+Including the city of McLeansboro
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the upper
+80s. Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. Northeast winds around
+5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming north
+around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the lower 90s.
+.FRIDAY NIGHT THROUGH SATURDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.SUNDAY...Partly sunny. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ083-172100-
+White-
+Including the city of Carmi
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the upper
+80s. Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming north
+around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the lower 90s.
+.FRIDAY NIGHT THROUGH SUNDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+ILZ076-172100-
+Wayne IL-
+Including the city of Fairfield
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the mid 80s.
+Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. Northeast winds around
+5 mph in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Calm winds, becoming
+northeast around 5 mph in the afternoon.
+.WEDNESDAY NIGHT...Mostly clear. Lows in the upper 50s. Calm
+winds.
+.THURSDAY...Sunny. Highs around 90. Calm winds.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the lower 90s.
+.FRIDAY NIGHT AND SATURDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the upper 80s.
+.SATURDAY NIGHT AND SUNDAY...Mostly cloudy. Lows in the upper
+60s. Highs in the upper 80s.
+.SUNDAY NIGHT AND MONDAY...Partly cloudy. Lows in the mid 60s.
+Highs in the lower 80s.
+
+$$
+
+ILZ077-172100-
+Edwards-
+Including the city of Albion
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the upper
+80s. Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Calm winds.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the lower 90s.
+.FRIDAY NIGHT THROUGH SUNDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs in the upper 80s.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+ILZ078-172100-
+Wabash-
+Including the city of Mount Carmel
+215 PM CDT Tue Sep 17 2024
+
+.THIS AFTERNOON...Sunny. Near steady temperature in the upper
+80s. Northeast winds around 5 mph.
+.TONIGHT...Clear. Lows in the upper 50s. East winds around 5 mph
+in the evening, becoming light and variable.
+.WEDNESDAY...Sunny. Highs in the upper 80s. Northeast winds
+around 5 mph.
+.WEDNESDAY NIGHT...Mostly clear. Lows around 60. Northeast winds
+around 5 mph in the evening, becoming light and variable.
+.THURSDAY...Sunny. Highs around 90. Calm winds, becoming north
+around 5 mph in the afternoon.
+.THURSDAY NIGHT AND FRIDAY...Mostly clear. Lows in the lower 60s.
+Highs in the lower 90s.
+.FRIDAY NIGHT THROUGH SUNDAY NIGHT...Partly cloudy. Lows in the
+mid 60s. Highs around 90.
+.MONDAY...Mostly sunny. Highs in the lower 80s.
+
+$$
+
+
+
+</pre>
+
+                </div>
+            <footer>
+                                <div class="footer-legal">
+    <div id="footerLogo" class="col-xs-12 col-sm-2 col-md-2">
+        <a href="//www.usa.gov"><img src="/css/images/usa_gov.png" alt="usa.gov" width="110" height="30" /></a>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4">
+        <ul class="list-unstyled footer-legal-content">
+            <li><a href="//www.commerce.gov">US Dept of Commerce</a></li>
+            <li><a href="//www.noaa.gov">National Oceanic and Atmospheric Administration</a></li>
+            <li><a href="https://www.weather.gov">National Weather Service</a></li>
+                        <li>1325 East West Highway<br /></li>
+                        <li>Silver Spring, MD 20910</li>
+            <li><br /><a href="https://www.weather.gov/Contact">Comments? Questions? Please Contact Us.</a></li>
+        </ul>
+    </div>
+    <div class="col-xs-12 col-sm-3 col-md-3">
+        <ul class="list-unstyled">
+            <li><a href="https://www.weather.gov/disclaimer">Disclaimer</a></li>
+            <li><a href="//www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a></li>
+            <li><a href="https://www.weather.gov/help">Help</a></li>
+            <li><a href="//www.weather.gov/glossary">Glossary</a></li>
+        </ul>
+    </div>
+    <div class="col-xs-12 col-sm-3 col-md-3">
+        <ul class="list-unstyled">
+            <li><a href="https://www.weather.gov/privacy">Privacy Policy</a></li>
+            <li><a href="https://www.noaa.gov/foia-freedom-of-information-act">Freedom of Information Act (FOIA)</a></li>
+            <li><a href="https://www.weather.gov/about">About Us</a></li>
+            <li><a href="https://www.weather.gov/careers">Career Opportunities</a></li>
+        </ul>
+    </div>
+</div>
+
+            </footer>
+        </main>
+    </body>
+</html>
