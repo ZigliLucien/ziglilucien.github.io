@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/990596/" title="See Description">Security proof for Linux's random number generator</a></li>
+<li><a href="#https://lwn.net/Articles/990343/" title="See Description">[$] An update on BPF generation from GCC</a></li>
+<li><a href="#https://lwn.net/Articles/990588/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/990517/" title="See Description">Linux Foundation announces OpenSearch Software Foundation</a></li>
 <li><a href="#https://lwn.net/Articles/989687/" title="See Description">[$] Fedora evicts WolfSSL</a></li>
 <li><a href="#https://lwn.net/Articles/990490/" title="See Description">Valkey 8.0.0 released</a></li>
@@ -50,12 +53,52 @@
 <li><a href="#https://lwn.net/Articles/990202/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/990125/" title="See Description">VirtualBox 7.1.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/989055/" title="See Description">[$] Debating ifupdown replacements for Debian trixie</a></li>
-<li><a href="#https://lwn.net/Articles/990043/" title="See Description">New stable kernels released</a></li>
-<li><a href="#https://lwn.net/Articles/990040/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/988984/" title="See Description">[$] LWN.net Weekly Edition for September 12, 2024</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/990596/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 17 Sep 2024 12:35:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990596/" title="https://lwn.net/Articles/990596/">Security proof for Linux's random number generator</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Four researchers have <a href="https://eprint.iacr.org/2024/1421.pdf">published</a> a formal proof that Linux's new deterministic random bit generator (DRBG) is secure in a particular sense — specifically, that the number of queries that would need to be made to it to uncover its internal state depends on the quality of the entropy it can collect from different sources. As long as it can gather enough entropy, it produces secure random numbers.
+</p>
+
+<blockquote class="bq">
+Since the significant structural changes in Linux 4 and Linux 5.17, there has
+been no research on the provable security of Linux-DRBG. For the first time (to
+the best of our knowledge), we formally model the Linux-DRBG in Linux 6.4.8
+and prove its security in the seedless robustness model
+</blockquote>
+
+<p>
+Thanks to Jason Donenfeld for bringing the paper to our attention.
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/990343/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 17 Sep 2024 12:23:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990343/" title="https://lwn.net/Articles/990343/">[$] An update on BPF generation from GCC</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The generation of binary code for the kernel's BPF virtual machine has been
+limited to the Clang compiler since the beginning; even developers who
+use GCC to build kernels must use Clang to compile to BPF.  Work has
+been underway for some years on adding a BPF backend to GCC as well; the
+developers involved ran a session at the <a
+href="https://gcc.gnu.org/wiki/cauldron2024">2024 GNU Tools Cauldron</a> to
+provide an update on that project.  It would seem that the BPF backend is
+close to being ready for production use.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/990588/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 17 Sep 2024 11:52:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990588/" title="https://lwn.net/Articles/990588/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (php-twig and pymongo), <b>Fedora</b> (linux-firmware, microcode_ctl, and python3.13), <b>Mageia</b> (clamav, microcode, postgresql13 and postgresql15, python3-webob, suricata, tcpreplay, tgt, and wireshark), <b>Oracle</b> (httpd, kernel, and linux-kernel), <b>Red Hat</b> (firefox, kernel, kernel-rt, pcs, and thunderbird), <b>SUSE</b> (389-ds, chromium, golang-github-prometheus-prometheus, htmldoc, kernel, SUSE Manager Client Tools, and wireshark), and <b>Ubuntu</b> (clamav, curl, dcmtk, dovecot, nginx, openssh, and python3.10, python3.12, python3.8).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/990517/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 16 Sep 2024 21:33:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -272,37 +315,6 @@ led to discussions about the default network-management tools for
 Debian "<a href="https://www.debian.org/releases/trixie/">trixie</a>"
 (Debian 13, which is expected in 2025) and beyond. No route to consensus
 has been found, yet.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990043/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Sep 2024 15:25:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990043/" title="https://lwn.net/Articles/990043/">New stable kernels released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has announced the release of seven new stable kernels:
-<a href="https://lwn.net/Articles/990044/">6.10.10</a>, <a
-href="https://lwn.net/Articles/990045/">6.6.51</a>, <a
-href="https://lwn.net/Articles/990046/">6.1.110</a>, <a
-href="https://lwn.net/Articles/990047/">5.15.167</a>, <a
-href="https://lwn.net/Articles/990048/">5.10.226</a> <a
-href="https://lwn.net/Articles/990049/">5.4.284</a>, and <a
-href="https://lwn.net/Articles/990050/">4.19.322</a>.  As usual, they all contain lots of
-important fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990040/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Sep 2024 15:08:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990040/" title="https://lwn.net/Articles/990040/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium and redis), <b>Fedora</b> (nextcloud, python3.10, python3.13, python3.6, vim, and wolfssl), <b>Mageia</b> (expat, libpcap, and microcode), <b>Oracle</b> (dovecot, kernel, and kernel-container), <b>Red Hat</b> (kernel and krb5), <b>SUSE</b> (389-ds, colord, containerd, curl, expat, glib2, go1.22, go1.23, kernel, libpcap, postgresql16, and runc), and <b>Ubuntu</b> (expat, libxmltok, linux, linux-aws, linux-azure, linux-bluefield, linux-gcp, linux-gkeop, linux-ibm, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gke, linux-ibm, linux-lowlatency, linux-oem-6.8, linux-oracle, linux-aws-5.4, linux-azure-5.4, linux-gcp-5.4, linux-hwe-5.4, linux-ibm-5.4, linux-oracle-5.4, linux-raspi-5.4, linux-azure, linux-iot, linux-nvidia, linux-nvidia-lowlatency, python-setuptools, setuptools, tiff, and unbound).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/988984/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Sep 2024 01:16:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/988984/" title="https://lwn.net/Articles/988984/">[$] LWN.net Weekly Edition for September 12, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for September 12, 2024 is available.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
