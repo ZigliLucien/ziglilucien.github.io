@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/990753/" title="See Description">Swift 6 released</a></li>
+<li><a href="#https://lwn.net/Articles/990735/" title="See Description">Haiku R1/beta5 has been released</a></li>
 <li><a href="#https://lwn.net/Articles/990379/" title="See Description">[$] Kernel developers at Cauldron</a></li>
 <li><a href="#https://lwn.net/Articles/990706/" title="See Description">LLVM 19.1.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/990731/" title="See Description">Security updates for Wednesday</a></li>
@@ -51,11 +53,43 @@
 <li><a href="#https://lwn.net/Articles/990490/" title="See Description">Valkey 8.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/989528/" title="See Description">[$] Some 6.11 development statistics</a></li>
 <li><a href="#https://lwn.net/Articles/990455/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/990307/" title="See Description">The 6.11 kernel has been released</a></li>
-<li><a href="#https://lwn.net/Articles/990270/" title="See Description">GNOME Foundation opens search for new Executive Director</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/990753/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Sep 2024 15:36:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990753/" title="https://lwn.net/Articles/990753/">Swift 6 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.swift.org/blog/announcing-swift-6/">Version
+6.0</a> of the Swift programming language has been released. Notable
+changes include new low-level programming features,
+expanded Linux support, and a preview release of the <a
+href="https://github.com/swiftlang/swift-evolution/blob/main/visions/embedded-swift.md">Embedded
+Swift</a> language subset for embedded software development with a
+toolchain for Arm and RISC-V targets. See the <a
+href="https://github.com/swiftlang/swift/blob/main/CHANGELOG.md#swift-60">CHANGELOG</a>
+for full details of changes in 6.0.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/990735/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Sep 2024 14:54:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990735/" title="https://lwn.net/Articles/990735/">Haiku R1/beta5 has been released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://www.haiku-os.org/get-haiku/r1beta5/release-notes/">Version
+R1/beta5</a> for the <a href="https://www.haiku-os.org/about/">Haiku</a>
+project, an open-source "<q>spiritual successor to <a
+href="https://en.wikipedia.org/wiki/BeOS">BeOS</a></q>", has been <a
+href="https://www.haiku-os.org/news/2024-09-13_haiku_r1_beta5/">released</a>. Notable
+changes in this release include a TUN/TAP network driver, basic
+support for USB audio devices, TCP throughput improvements, a
+rewritten driver for the FAT filesystem, read-only support for
+Unix File System 2 (UFS2), as well as hundreds of bug fixes and
+performance improvements since the <a
+href="https://www.haiku-os.org/get-haiku/r1beta4/">last release</a> in
+December 2022. Thanks to Paul Wise for the tip.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/990379/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 18 Sep 2024 14:00:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -277,52 +311,6 @@ of development statistics; read on for the details.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (git, nodejs, and ring), <b>Fedora</b> (apr, bubblewrap, chromium, clamav, flatpak, mingw-expat, python3-docs, python3.12, and thunderbird), <b>Mageia</b> (assimp, botan2, python-tqdm, and radare2), <b>Slackware</b> (libarchive), and <b>SUSE</b> (curl).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990307/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 15 Sep 2024 15:32:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990307/" title="https://lwn.net/Articles/990307/">The 6.11 kernel has been released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has <a href="https://lwn.net/Articles/990403/">released the 6.11 kernel</a>.
-"<q>I'm once again on the road and not in my normal timezone, but it's
-Sunday afternoon here in Vienna, and 6.11 is out.</q>"
-Significant changes in this release include
-new io_uring operations for <tt>bind()</tt> and <tt>listen()</tt>,
-the <a href="https://lwn.net/Articles/978189/">nested bottom-half locking</a> patches,
-the <a href="https://lwn.net/Articles/866493/">ability</a> to write to busy executable
-files,
-support for writing block drivers in Rust,
-support for <a href="https://lwn.net/Articles/974578/">atomic write operations</a> in the
-block layer,
-the <a href="https://lwn.net/Articles/965837/">dedicated bucket slab allocator</a>,
-the <a href="https://lwn.net/Articles/980447/">vDSO implementation of <tt>getrandom()</tt></a>,
-and more.  See the LWN merge-window summaries
-(<a href="https://lwn.net/Articles/982034/">part&nbsp;1</a>,
-<a href="https://lwn.net/Articles/982605/">part&nbsp;2</a>) for more information.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990270/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Sep 2024 19:08:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990270/" title="https://lwn.net/Articles/990270/">GNOME Foundation opens search for new Executive Director</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://foundation.gnome.org">GNOME Foundation</a> has <a
-href="https://foundation.gnome.org/2024/09/13/search-for-new-executive-director/">announced</a>
-that it is looking for a new Executive Director following the <a
-href="https://lwn.net/Articles/981850/">departure</a> of Holly Million
-in July:</p>
-
-<blockquote class="bq">
-As the cornerstone of our leadership team, the Executive Director will
-play a critical role in shaping the strategic direction of the
-Foundation, working closely with staff, community members, and
-partners to expand our reach and impact. The ideal candidate will have
-professional experience working with nonprofits, a strong passion for
-open-source software, a deep commitment to our community values, and
-the vision to drive the next phase of GNOME's growth and development.
-</blockquote>
-
-<p>The window of opportunity for the job is closing quickly,
-applications are due by September 20.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
