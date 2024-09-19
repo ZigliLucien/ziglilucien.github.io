@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/990489/" title="See Description">[$] Best practices for error handling in kernel Rust</a></li>
 <li><a href="#https://lwn.net/Articles/988927/" title="See Description">[$] RPM 4.20 is coming</a></li>
 <li><a href="#https://lwn.net/Articles/990877/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/990599/" title="See Description">[$] The uncertain future of kernel regression tracking</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/990273/" title="See Description">[$] A discussion of Rust safety documentation</a></li>
 <li><a href="#https://lwn.net/Articles/989629/" title="See Description">[$] Vanilla OS 2: an immutable distribution to run all software</a></li>
 <li><a href="#https://lwn.net/Articles/990596/" title="See Description">Security proof for Linux's random number generator</a></li>
-<li><a href="#https://lwn.net/Articles/990343/" title="See Description">[$] An update on BPF generation from GCC</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/990489/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 19 Sep 2024 15:54:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990489/" title="https://lwn.net/Articles/990489/">[$] Best practices for error handling in kernel Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Dirk Behme led a session discussing the use of Rust's question-mark operator in
+the kernel at Kangrejos 2024. He was particularly concerned with the concept of
+"silent" errors that don't print any messages to the console.
+Other attendees were less convinced that this was a problem, but his presentation
+sparked a lot of discussion about whether the Rust-for-Linux project could
+improve error handling in kernel Rust code.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/988927/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 19 Sep 2024 13:31:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -263,21 +278,6 @@ and prove its security in the seedless robustness model
 <p>
 Thanks to Jason Donenfeld for bringing the paper to our attention.
 </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990343/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 17 Sep 2024 12:23:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990343/" title="https://lwn.net/Articles/990343/">[$] An update on BPF generation from GCC</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The generation of binary code for the kernel's BPF virtual machine has been
-limited to the Clang compiler since the beginning; even developers who
-use GCC to build kernels must use Clang to compile to BPF.  Work has
-been underway for some years on adding a BPF backend to GCC as well; the
-developers involved ran a session at the <a
-href="https://gcc.gnu.org/wiki/cauldron2024">2024 GNU Tools Cauldron</a> to
-provide an update on that project.  It would seem that the BPF backend is
-close to being ready for production use.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
