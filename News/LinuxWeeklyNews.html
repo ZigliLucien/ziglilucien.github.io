@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/991091/" title="See Description">pcp: pmcd network daemon review (SUSE Security Team Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/990750/" title="See Description">[$] The 6.12 merge window begins</a></li>
 <li><a href="#https://lwn.net/Articles/991028/" title="See Description">OpenSSH 9.9 released</a></li>
 <li><a href="#https://lwn.net/Articles/990802/" title="See Description">[$] Considering kernel pass-through interfaces</a></li>
@@ -52,10 +53,35 @@
 <li><a href="#https://lwn.net/Articles/990766/" title="See Description">Three stable kernel updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/990753/" title="See Description">Swift 6 released</a></li>
 <li><a href="#https://lwn.net/Articles/990735/" title="See Description">Haiku R1/beta5 has been released</a></li>
-<li><a href="#https://lwn.net/Articles/990379/" title="See Description">[$] Kernel developers at Cauldron</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/991091/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 20 Sep 2024 18:05:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/991091/" title="https://lwn.net/Articles/991091/">pcp: pmcd network daemon review (SUSE Security Team Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The SUSE Security Team Blog has a <a href="https://security.opensuse.org/2024/09/18/pcp-network-audit.html">detailed review</a> of the <a
+href="https://pcp.io/">Performance Co-Pilot</a> (PCP) <a href="https://github.com/performancecopilot/pcp/releases/tag/6.2.1">6.2.1 release</a>:</p>
+
+<blockquote class="bq">
+The rather complex PCP software suite was difficult to judge just from
+a cursory look, so we decided to take a closer look especially at
+PCP's networking logic at a later time. This report contains two CVEs
+and some non-CVE related findings we also gathered during the
+follow-up review.
+</blockquote>
+
+<p><a
+href="https://nvd.nist.gov/vuln/detail/CVE-2024-45769">CVE-2024-45769</a>,
+a flaw that could allow an attacker to send crafted data to crash
+<a href="https://man7.org/linux/man-pages/man1/pmcd.1.html">pcmd</a>, and <a
+href="https://nvd.nist.gov/vuln/detail/CVE-2024-45770">CVE-2024-45770</a>,
+which could allow a full local root exploit from the pcp user to root,
+have been addressed in the <a
+href="https://github.com/performancecopilot/pcp/releases/tag/6.3.1">6.3.1</a>
+release of PCP.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/990750/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 20 Sep 2024 14:07:17 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -240,22 +266,6 @@ Unix File System 2 (UFS2), as well as hundreds of bug fixes and
 performance improvements since the <a
 href="https://www.haiku-os.org/get-haiku/r1beta4/">last release</a> in
 December 2022. Thanks to Paul Wise for the tip.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990379/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Sep 2024 14:00:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990379/" title="https://lwn.net/Articles/990379/">[$] Kernel developers at Cauldron</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>A Linux system is made up of a large number of interdependent components,
-all of which must support each other well.  It can thus be surprising that,
-it seems, the developers working on those components do not often speak
-with each other.  In the hope of improving that situation, efforts have
-been made in recent years to attract toolchain developers to the
-kernel-heavy Linux Plumbers Conference.  This year, though, the opposite
-happened as well: the <a href="https://gcc.gnu.org/wiki/cauldron2024">2024
-GNU Tools Cauldron</a> hosted a discussion where kernel developers were
-invited to discuss their needs.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
