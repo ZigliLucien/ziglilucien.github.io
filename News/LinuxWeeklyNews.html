@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/990985/" title="See Description">The realtime preemption pull request</a></li>
 <li><a href="#https://lwn.net/Articles/990489/" title="See Description">[$] Best practices for error handling in kernel Rust</a></li>
 <li><a href="#https://lwn.net/Articles/988927/" title="See Description">[$] RPM 4.20 is coming</a></li>
 <li><a href="#https://lwn.net/Articles/990877/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/990731/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/990273/" title="See Description">[$] A discussion of Rust safety documentation</a></li>
 <li><a href="#https://lwn.net/Articles/989629/" title="See Description">[$] Vanilla OS 2: an immutable distribution to run all software</a></li>
-<li><a href="#https://lwn.net/Articles/990596/" title="See Description">Security proof for Linux's random number generator</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/990985/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 20 Sep 2024 10:58:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990985/" title="https://lwn.net/Articles/990985/">The realtime preemption pull request</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><img src="https://lwn.net/images/conf/2024/ms/rt-pull-sm.png" alt="[pull request]"
+hspace=3 border=0 align="right">
+
+On September 19, Thomas Gleixner delivered the pull request for the
+realtime preemption enablement patches to Linus Torvalds — in printed form,
+wrapped in gold, with a ribbon, as Torvalds had requested.  It was a
+significant milestone, marking the completion of a project that required
+20&nbsp;years of effort.  Congratulations are due to everybody involved.
+<p>
+Torvalds <a href="https://git.kernel.org/linus/baeb9a7d8b60">acted on</a>
+the pull request the following morning.
+<br clear="all">
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/990489/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 19 Sep 2024 15:54:01 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -258,26 +277,6 @@ shifted to Debian unstable ("sid"). The release has made it easier to
 install software from other distributions' package repositories, and it
 is now theoretically possible to install and run Android applications as well.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990596/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 17 Sep 2024 12:35:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990596/" title="https://lwn.net/Articles/990596/">Security proof for Linux's random number generator</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Four researchers have <a href="https://eprint.iacr.org/2024/1421.pdf">published</a> a formal proof that Linux's new deterministic random bit generator (DRBG) is secure in a particular sense — specifically, that the number of queries that would need to be made to it to uncover its internal state depends on the quality of the entropy it can collect from different sources. As long as it can gather enough entropy, it produces secure random numbers.
-</p>
-
-<blockquote class="bq">
-Since the significant structural changes in Linux 4 and Linux 5.17, there has
-been no research on the provable security of Linux-DRBG. For the first time (to
-the best of our knowledge), we formally model the Linux-DRBG in Linux 6.4.8
-and prove its security in the seedless robustness model
-</blockquote>
-
-<p>
-Thanks to Jason Donenfeld for bringing the paper to our attention.
-</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
