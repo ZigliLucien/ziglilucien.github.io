@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-09-21T16:36:09+00:00</generatedAt>
-		<updateTime type="str">2024-09-21T15:51:57+00:00</updateTime>
-		<validTimes type="str">2024-09-21T09:00:00+00:00/P7DT16H</validTimes>
+		<generatedAt type="str">2024-09-21T18:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-09-21T16:50:12+00:00</updateTime>
+		<validTimes type="str">2024-09-21T10:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2024-09-21T11:00:00-05:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2024-09-21T13:00:00-05:00</startTime>
 				<endTime type="str">2024-09-21T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">90</temperature>
@@ -64,9 +64,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn/tsra_sct,40?size=medium</icon>
-				<shortForecast type="str">Partly Sunny then Slight Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of showers and thunderstorms between noon and 1pm, then a chance of showers and thunderstorms between 1pm and 4pm, then a slight chance of showers and thunderstorms. Partly sunny. High near 90, with temperatures falling to around 85 in the afternoon. Southwest wind around 7 mph. Chance of precipitation is 40%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,40?size=medium</icon>
+				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 4pm, then a slight chance of showers and thunderstorms. Partly sunny. High near 90, with temperatures falling to around 85 in the afternoon. Southwest wind around 7 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
