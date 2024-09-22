@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms. Mostly cloudy. Low around 70, with temperatures rising to around 72 overnight. South
-         southwest wind around 2 mph. Chance of precipitation is 30%.<br></div>
+         southwest wind around 5 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
