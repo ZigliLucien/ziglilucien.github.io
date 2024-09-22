@@ -2,64 +2,68 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A chance of showers and thunderstorms. Mostly cloudy. High near 84, with temperatures falling to around 80 in the afternoon.
-         South southwest wind around 6 mph. Chance of precipitation is 40%.<br></div>
+         <h3>This Afternoon</h3>Showers and thunderstorms likely. Partly sunny. High near 84, with temperatures falling to around 81 in the afternoon. West
+         southwest wind around 6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms. Mostly cloudy. Low around 66, with temperatures rising to around 68 overnight. West
-         northwest wind 2 to 6 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Tonight</h3>Showers and thunderstorms likely before 5am, then showers and thunderstorms likely. Mostly cloudy. Low around 66, with temperatures
+         rising to around 70 overnight. Northwest wind around 5 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms likely. Cloudy, with a high near 76. East
-         southeast wind 2 to 6 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Monday</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms likely. Cloudy, with a high near 76. North
+         wind around 5 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Monday Night</h3>Showers and thunderstorms. Mostly cloudy, with a low around 63. South southeast wind around 3 mph. Chance of precipitation
-         is 90%.<br></div>
+         is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 1pm, then a chance of showers
-         and thunderstorms. Mostly cloudy, with a high near 76. West wind 3 to 8 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Tuesday</h3>Showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 10am, then a chance of showers
+         and thunderstorms. Partly sunny, with a high near 76. West wind 3 to 7 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of rain showers before 7pm. Mostly cloudy, with a low around 58. Northwest wind 2 to 6 mph. Chance of precipitation
+         <h3>Tuesday Night</h3>A chance of rain showers before 7pm. Mostly cloudy, with a low around 58. North northwest wind around 5 mph. Chance of precipitation
          is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Mostly cloudy, with a high near 73. North wind 2 to 6 mph.<br></div>
+         <h3>Wednesday</h3>A slight chance of rain showers after 1pm. Mostly cloudy, with a high near 73. North northeast wind 2 to 6 mph. Chance of
+         precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A slight chance of rain showers between 7pm and 1am. Mostly cloudy, with a low around 58. North northeast wind around 5 mph.<br></div>
+         <h3>Wednesday Night</h3>A slight chance of rain showers before 7pm, then a slight chance of showers and thunderstorms. Partly cloudy, with a low around
+         58. North northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A slight chance of rain showers after 1pm. Partly sunny, with a high near 74. North northeast wind 3 to 8 mph.<br></div>
+         <h3>Thursday</h3>A slight chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 75.
+         Northeast wind 5 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 59. Northeast wind around 7 mph.<br></div>
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 61. Northeast wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of rain showers. Partly sunny, with a high near 75. Northeast wind 7 to 10 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Friday</h3>A chance of showers and thunderstorms. Partly sunny, with a high near 74. Northeast wind 9 to 13 mph, with gusts as high as
+         22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 59. East northeast wind 6 to 9 mph.<br></div>
+         <h3>Friday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 61. East wind around 12 mph, with gusts as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of rain showers. Partly sunny, with a high near 74. East northeast wind around 9 mph.<br></div>
+         <h3>Saturday</h3>A chance of rain showers. Partly sunny, with a high near 74. Southeast wind around 12 mph, with gusts as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 58. East northeast wind 5 to 8 mph.<br></div>
+         <h3>Saturday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 61. East southeast wind 5 to 8 mph.<br></div>
    </p>
 </div>
