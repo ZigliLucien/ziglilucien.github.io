@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Showers and thunderstorms before 11am, then a chance of showers and thunderstorms. Mostly cloudy. High near 84, with temperatures
-         falling to around 80 in the afternoon. Southwest wind around 6 mph. Chance of precipitation is 80%.<br></div>
+         falling to around 80 in the afternoon. West southwest wind 2 to 6 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
