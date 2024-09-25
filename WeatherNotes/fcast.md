@@ -2,21 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly cloudy, with a low around 58. West northwest wind around 2 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday</h3>A slight chance of showers and thunderstorms after 2pm. Partly sunny, with a high near 76. North northwest wind 1 to 6 mph.
+         <h3>Today</h3>A slight chance of showers and thunderstorms after 2pm. Partly sunny, with a high near 76. North northwest wind 1 to 6 mph.
          Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Partly cloudy, with a low around 56. North wind around 5 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy, with a low around 56. North wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of rain showers between 7am and 4pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 76.
-         North northeast wind 5 to 10 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Thursday</h3>A chance of rain showers between 7am and 4pm, then a chance of showers and thunderstorms. Mostly sunny. High near 76, with
+         temperatures falling to around 74 in the afternoon. North northeast wind 5 to 10 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -37,7 +33,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>Rain showers likely before 1pm, then showers and thunderstorms likely. Mostly cloudy, with a high near 70. North northeast
-         wind around 12 mph, with gusts as high as 20 mph.<br></div>
+         wind around 12 mph, with gusts as high as 20 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -62,5 +58,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>Sunny, with a high near 74. Northwest wind 6 to 10 mph, with gusts as high as 18 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>Mostly clear, with a low around 47. North northwest wind 5 to 8 mph.<br></div>
    </p>
 </div>
