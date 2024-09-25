@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/990534/" title="See Description">[$] Linus and Dirk on succession, Rust, and more</a></li>
+<li><a href="#https://lwn.net/Articles/991701/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/990604/" title="See Description">[$] KDE sets its goals through 2026</a></li>
 <li><a href="#https://lwn.net/Articles/991529/" title="See Description">HarfBuzz 10.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/991062/" title="See Description">[$] Committing to Rust in the kernel</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/991028/" title="See Description">OpenSSH 9.9 released</a></li>
 <li><a href="#https://lwn.net/Articles/990802/" title="See Description">[$] Considering kernel pass-through interfaces</a></li>
 <li><a href="#https://lwn.net/Articles/991027/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/990985/" title="See Description">The realtime preemption pull request</a></li>
-<li><a href="#https://lwn.net/Articles/990489/" title="See Description">[$] Best practices for error handling in kernel Rust</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/990534/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 25 Sep 2024 13:38:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990534/" title="https://lwn.net/Articles/990534/">[$] Linus and Dirk on succession, Rust, and more</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The "Linus and Dirk show" has been a fixture at Open Source Summit for as
+long as the conference has existed; it started back when the conference was
+called LinuxCon.  Since Linus Torvalds famously does not like to give
+talks, as he said during this year's edition at <a href="https://events.linuxfoundation.org/open-source-summit-europe/">Open Source Summit Europe</a>
+(OSSEU) in Vienna, Austria, he and Dirk Hohndel have been sitting down for an
+informal chat on a wide range of topics as a keynote session.  That way,
+Torvalds does not need to prepare, but also does not know what topics
+will be brought up, which makes it "so much more fun for one of us", Hohndel
+said with a grin.   The topics this time ranged from the just-released&nbsp;6.11
+kernel and the upcoming Linux&nbsp;6.12, through Rust for the kernel, to the recurring topic of succession and
+the graying of Linux maintainers.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/991701/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 25 Sep 2024 13:15:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/991701/" title="https://lwn.net/Articles/991701/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (booth), <b>Gentoo</b> (Xpdf), <b>Oracle</b> (go-toolset:ol8, golang, grafana, grafana-pcp, kernel, libnbd, openssl, pcp, and ruby:3.3), <b>Red Hat</b> (container-tools:rhel8, go-toolset:rhel8, golang, kernel, and kernel-rt), <b>SUSE</b> (apr, cargo-audit, chromium, obs-service-cargo, python311, python36, quagga, traefik, and xen), and <b>Ubuntu</b> (intel-microcode, linux-azure-fde-5.15, and puma).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/990604/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 24 Sep 2024 15:00:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -249,40 +275,6 @@ drivers in general.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (bluez, chromium, frr, iwd, libell, python3.11, python3.8, python3.9, and ruby), <b>Mageia</b> (kernel, kmod-xtables-addons, and kmod-virtualbox and kernel-linus), <b>Red Hat</b> (kernel), <b>SUSE</b> (kernel, kubernetes1.23, kubernetes1.24, kubernetes1.25, libmfx, and python-azure-identity), and <b>Ubuntu</b> (emacs, emacs24, emacs25, libreoffice, postgresql-9.5, python2.7, python3.5, and tgt).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990985/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 20 Sep 2024 10:58:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990985/" title="https://lwn.net/Articles/990985/">The realtime preemption pull request</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/Articles/990985"><img src="https://lwn.net/images/conf/2024/ms/rt-pull-sm.png"
-alt="[pull request]" hspace=3 border=0 align="right"></a>
-
-On September 19, Thomas Gleixner delivered the pull request for the
-realtime preemption enablement patches to Linus Torvalds — in printed form,
-wrapped in gold, with a ribbon, as Torvalds had requested.  It was a
-significant milestone, marking the completion of a project that required
-20&nbsp;years of effort.  Congratulations are due to everybody involved.
-<p>
-Torvalds <a href="https://git.kernel.org/linus/baeb9a7d8b60">acted on</a>
-the pull request the following morning.
-<br clear="all">
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990489/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 19 Sep 2024 15:54:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990489/" title="https://lwn.net/Articles/990489/">[$] Best practices for error handling in kernel Rust</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Dirk Behme led a session discussing the use of Rust's question-mark operator in
-the kernel at Kangrejos 2024. He was particularly concerned with the concept of
-"silent" errors that don't print any messages to the console.
-Other attendees were less convinced that this was a problem, but his presentation
-sparked a lot of discussion about whether the Rust-for-Linux project could
-improve error handling in kernel Rust code.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
