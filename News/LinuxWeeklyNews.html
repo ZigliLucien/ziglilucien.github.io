@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/990918/" title="See Description">[$] Getting PCI driver abstractions upstream</a></li>
 <li><a href="#https://lwn.net/Articles/991904/" title="See Description">PostgreSQL 17 released</a></li>
 <li><a href="#https://lwn.net/Articles/991899/" title="See Description">Uniting for Internet Freedom: Tor Project & Tails Join Forces (Tor blog)</a></li>
 <li><a href="#https://lwn.net/Articles/991205/" title="See Description">[$] Sched_ext at LPC 2024</a></li>
@@ -53,10 +54,26 @@
 <li><a href="#https://lwn.net/Articles/991529/" title="See Description">HarfBuzz 10.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/991062/" title="See Description">[$] Committing to Rust in the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/991492/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/991401/" title="See Description">Hy 1.0.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/990918/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Sep 2024 17:28:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990918/" title="https://lwn.net/Articles/990918/">[$] Getting PCI driver abstractions upstream</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Danilo Krummrich gave a talk at Kangrejos 2024 focusing on the question of how
+the Rust-for-Linux project could improve at getting device and driver
+abstractions upstream. As a case study, he used some of his recent work that
+attempts to make it possible to write a PCI driver entirely in Rust. There
+wasn't time to go into as much detail as he would have liked, but he did
+demonstrate that it is possible to interface with the kernel's module loader in
+a way that is much harder to
+screw up than the current standard approach in C.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/991904/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 26 Sep 2024 15:56:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,31 +307,6 @@ steaming ahead.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Gentoo</b> (GCC, Hunspell, Tor, and ZNC), <b>SUSE</b> (apr-devel, cargo-c, chromedriver, firefox, kernel, libecpg6, libmfx, onefetch, postgresql12, postgresql13, postgresql14, postgresql15, postgresql16, python310-azure-identity, python39, qemu, rage-encryption, stgit, and system-user-zabbix), and <b>Ubuntu</b> (kernel, linux-ibm-5.15, linux-oracle-5.15, linux-xilinx-zynqmp, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-raspi, and py7zr).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/991401/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 23 Sep 2024 19:22:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/991401/" title="https://lwn.net/Articles/991401/">Hy 1.0.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 1.0.0 of <a
-href="http://hylang.org/">Hy</a>, a Lisp dialect that is embedded in Python, has been <a
-href="https://github.com/hylang/hy/discussions/2608">released</a>
-after nearly 12 years in development. This is the first stable release of the project:</p>
-
-<blockquote class="bq">
-Henceforth, breaking changes to documented parts of the language
-(other than dropping support for versions of Python that are
-themselves no longer supported by the CPython developers) will
-increase the major version number, and my intention is for that not to
-happen often, if at all.
-</blockquote>
-
-<p>The 1.0.0 release supports Python 3.8 through 3.13. See the <a
-href="http://hylang.org/hy/doc/v1.0.0">documentation</a> and the "<a
-href="http://hylang.org/hy/doc/v1.0.0/whyhy">Why Hy?</a>" page for why
-one might want to use it.
-For the historically minded, LWN <a href="https://lwn.net/Articles/596626/">covered a PyCon talk on Hy</a> in 2014.
-</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
