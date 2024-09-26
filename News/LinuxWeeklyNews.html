@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/991929/" title="See Description">Remote exploit of CUPS</a></li>
 <li><a href="#https://lwn.net/Articles/990918/" title="See Description">[$] Getting PCI driver abstractions upstream</a></li>
 <li><a href="#https://lwn.net/Articles/991904/" title="See Description">PostgreSQL 17 released</a></li>
 <li><a href="#https://lwn.net/Articles/991899/" title="See Description">Uniting for Internet Freedom: Tor Project & Tails Join Forces (Tor blog)</a></li>
@@ -53,10 +54,34 @@
 <li><a href="#https://lwn.net/Articles/990604/" title="See Description">[$] KDE sets its goals through 2026</a></li>
 <li><a href="#https://lwn.net/Articles/991529/" title="See Description">HarfBuzz 10.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/991062/" title="See Description">[$] Committing to Rust in the kernel</a></li>
-<li><a href="#https://lwn.net/Articles/991492/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/991929/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Sep 2024 21:22:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/991929/" title="https://lwn.net/Articles/991929/">Remote exploit of CUPS</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Security researcher Simone Margaritelli 
+<a href="https://www.evilsocket.net/2024/09/26/Attacking-UNIX-systems-via-CUPS-Part-I/">
+has reported</a> a new vulnerability in 
+<a href="https://openprinting.github.io/cups/">
+CUPS</a>, the software that many Linux systems use to manage printers and print jobs. Margaritelli describes the impact of the attack by saying:
+</p>
+
+<blockquote class="bq">
+A remote unauthenticated attacker can silently replace existing printers' (or install new ones) IPP urls with a malicious one, resulting in arbitrary command execution (on the computer) when a print job is started (from that computer).
+</blockquote>
+
+<p>
+The vulnerability relies on a few related problems in CUPS libraries and utilities; versions before 2.0.1 or 2.1b1 (depending on the component) may be affected.
+</p>
+
+<p>
+Red Hat has <a href="https://access.redhat.com/security/vulnerabilities/RHSB-2024-002">released a security bulletin</a> as well.
+</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/990918/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 26 Sep 2024 17:28:37 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -298,14 +323,6 @@ on the status of Rust in the kernel and whether the time had come to stop
 considering it an experimental project.  There were not answers to all of the
 questions, but it seems clear that Rust in the kernel will continue
 steaming ahead.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/991492/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Sep 2024 11:46:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/991492/" title="https://lwn.net/Articles/991492/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Gentoo</b> (GCC, Hunspell, Tor, and ZNC), <b>SUSE</b> (apr-devel, cargo-c, chromedriver, firefox, kernel, libecpg6, libmfx, onefetch, postgresql12, postgresql13, postgresql14, postgresql15, postgresql16, python310-azure-identity, python39, qemu, rage-encryption, stgit, and system-user-zabbix), and <b>Ubuntu</b> (kernel, linux-ibm-5.15, linux-oracle-5.15, linux-xilinx-zynqmp, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-raspi, and py7zr).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
