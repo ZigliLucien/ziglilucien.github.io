@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/991904/" title="See Description">PostgreSQL 17 released</a></li>
+<li><a href="#https://lwn.net/Articles/991899/" title="See Description">Uniting for Internet Freedom: Tor Project & Tails Join Forces (Tor blog)</a></li>
+<li><a href="#https://lwn.net/Articles/991205/" title="See Description">[$] Sched_ext at LPC 2024</a></li>
+<li><a href="#https://lwn.net/Articles/991897/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/991775/" title="See Description">Eliminating Memory Safety Vulnerabilities at the Source
 (Google Security Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/990791/" title="See Description">[$] LWN.net Weekly Edition for September 26, 2024</a></li>
@@ -50,13 +54,75 @@
 <li><a href="#https://lwn.net/Articles/991062/" title="See Description">[$] Committing to Rust in the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/991492/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/991401/" title="See Description">Hy 1.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/990619/" title="See Description">[$] Resources for learning Rust for kernel development</a></li>
-<li><a href="#https://lwn.net/Articles/991377/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/991033/" title="See Description">[$] Tools for kernel developers</a></li>
-<li><a href="#https://lwn.net/Articles/991091/" title="See Description">pcp: pmcd network daemon review (SUSE Security Team Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/991904/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Sep 2024 15:56:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/991904/" title="https://lwn.net/Articles/991904/">PostgreSQL 17 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://www.postgresql.org/about/news/postgresql-17-released-2936/">Version
+17</a> of the <a href="https://www.postgresql.org/">PostgreSQL</a> database has been released.</p>
+
+<blockquote class="bq">
+This release of PostgreSQL adds significant overall performance gains,
+including an overhauled memory management implementation for vacuum,
+optimizations to storage access and improvements for high concurrency
+workloads, speedups in bulk loading and exports, and query execution
+improvements for indexes. PostgreSQL 17 has features that benefit
+brand new workloads and critical systems alike, such as additions to
+the developer experience with the SQL/JSON JSON_TABLE command, and
+enhancements to logical replication that simplify management of high
+availability workloads and major version upgrades.
+</blockquote>
+
+<p>LWN recently <a href="https://lwn.net/Articles/984599/">covered</a>
+some of the interesting new features and security enhancements in
+PostgreSQL 17.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/991899/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Sep 2024 15:04:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/991899/" title="https://lwn.net/Articles/991899/">Uniting for Internet Freedom: Tor Project & Tails Join Forces (Tor blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The online-privacy-focused <a href="https://www.torproject.org/">Tor
+project</a> has <a
+href="https://blog.torproject.org/tor-tails-join-forces/">announced</a>
+that it has "<q>joined forces and merged operations</q>" with the <a
+href="https://tails.net/">Tails OS</a> Linux distribution.
+
+<blockquote class="bq">
+Countering the threat of global mass surveillance and censorship to a free Internet, Tor and Tails provide essential tools to help people around the world stay safe online. By joining forces, these two privacy advocates will pool their resources to focus on what matters most: ensuring that activists, journalists, other at-risk and everyday users will have access to improved digital security tools.
+<p>
+In late 2023, Tails approached the Tor Project with the idea of merging operations. Tails had outgrown its existing structure. Rather than expanding Tails's operational capacity on their own and putting more stress on Tails workers, merging with the Tor Project, with its larger and established operational framework, offered a solution. By joining forces, the Tails team can now focus on their core mission of maintaining and improving Tails OS, exploring more and complementary use cases while benefiting from the larger organizational structure of The Tor Project.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/991205/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Sep 2024 14:51:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/991205/" title="https://lwn.net/Articles/991205/">[$] Sched_ext at LPC 2024</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/922405/">extensible scheduler class (sched_ext)</a>
+enables the implementation of CPU schedulers as a set of BPF programs
+loaded from user space; it first hit the mailing lists in late 2022.
+Sched_ext has engendered its share of controversy since, but is currently
+slated to be part of the 6.12 kernel release.  At the 2024 <a
+href="https://lpc.events/">Linux Plumbers Conference</a>, the growing
+sched_ext community held one of its first public gatherings; sched_ext
+would appear to have launched a new burst of creativity in scheduler
+design.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/991897/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Sep 2024 14:18:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/991897/" title="https://lwn.net/Articles/991897/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, dovecot, emacs, expat, git-lfs, go-toolset:rhel8, golang, grafana, grafana-pcp, gtk3, kernel, kernel-rt, nano, python3, python3.11, python3.12, and virt:rhel and virt-devel:rhel), <b>Debian</b> (mediawiki and puredata), <b>Fedora</b> (chisel), <b>Mageia</b> (glib2.0, gtk+2.0 and gtk+3.0, and python-astropy), <b>Red Hat</b> (git-lfs, grafana, grafana-pcp, kernel, and kernel-rt), <b>SUSE</b> (kubernetes1.24, kubernetes1.25, kubernetes1.26, kubernetes1.27, kubernetes1.28, opensc, and python36), and <b>Ubuntu</b> (apparmor, apr, ca-certificates, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-raspi, openjpeg2, ruby-rack, and tomcat8, tomcat9).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/991775/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 26 Sep 2024 06:58:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -249,71 +315,6 @@ href="http://hylang.org/hy/doc/v1.0.0/whyhy">Why Hy?</a>" page for why
 one might want to use it.
 For the historically minded, LWN <a href="https://lwn.net/Articles/596626/">covered a PyCon talk on Hy</a> in 2014.
 </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990619/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 23 Sep 2024 15:48:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990619/" title="https://lwn.net/Articles/990619/">[$] Resources for learning Rust for kernel development</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Dirk Behme led a second session, back-to-back with
-<a href="https://lwn.net/Articles/990489/">his session on error handling</a> at
-Kangrejos 2024, discussing providing better guidance for users of the kernel's
-Rust abstractions. Just after that,
-Carlos Bilbao and Miguel Ojeda had their own time slot dedicated to collecting
-resources that could be of use to someone trying to come up to speed
-on kernel development in
-Rust. The attendees provided a lot of guidance in both sessions, and
-discussed what they could do to make things easier for people coming
-from non-Rust backgrounds.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/991377/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 23 Sep 2024 14:25:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/991377/" title="https://lwn.net/Articles/991377/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (expat, fence-agents, firefox, libnbd, openssl, pcp, ruby:3.3, and thunderbird), <b>Debian</b> (ruby-saml), <b>Fedora</b> (aardvark-dns, chromium, expat, jupyterlab, less, openssl, python-jupyterlab-server, python-notebook, python3-docs, and python3.12), <b>Gentoo</b> (calibre, curl, Emacs, org-mode, Exo, file, GPL Ghostscript, gst-plugins-good, liblouis, Mbed TLS, OpenVPN, Oracle VirtualBox, PJSIP, Portage, PostgreSQL, pypy, pypy3, Rust, Slurm, stb, VLC, and Xen), <b>SUSE</b> (container-suseconnect, ffmpeg-4, kernel, libpcap, python3, python310, python36, and wpa_supplicant), and <b>Ubuntu</b> (firefox, linux, linux-aws, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux-azure, and linux-ibm-5.15, linux-oracle-5.15).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/991033/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 23 Sep 2024 11:03:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/991033/" title="https://lwn.net/Articles/991033/">[$] Tools for kernel developers</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Konstantin Ryabitsev started a session on development tooling at the 2024
-Maintainers Summit by saying that he does not want to be a "wrecking ball".
-If a given workflow is working for people, he does not want to try to force
-any sort of change.  That said, he has ideas for how he can continue his
-work on providing better tooling for the development community.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/991091/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 20 Sep 2024 18:05:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/991091/" title="https://lwn.net/Articles/991091/">pcp: pmcd network daemon review (SUSE Security Team Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The SUSE Security Team Blog has a <a href="https://security.opensuse.org/2024/09/18/pcp-network-audit.html">detailed review</a> of the <a
-href="https://pcp.io/">Performance Co-Pilot</a> (PCP) <a href="https://github.com/performancecopilot/pcp/releases/tag/6.2.1">6.2.1 release</a>:</p>
-
-<blockquote class="bq">
-The rather complex PCP software suite was difficult to judge just from
-a cursory look, so we decided to take a closer look especially at
-PCP's networking logic at a later time. This report contains two CVEs
-and some non-CVE related findings we also gathered during the
-follow-up review.
-</blockquote>
-
-<p><a
-href="https://nvd.nist.gov/vuln/detail/CVE-2024-45769">CVE-2024-45769</a>,
-a flaw that could allow an attacker to send crafted data to crash
-<a href="https://man7.org/linux/man-pages/man1/pmcd.1.html">pcmd</a>, and <a
-href="https://nvd.nist.gov/vuln/detail/CVE-2024-45770">CVE-2024-45770</a>,
-which could allow a full local root exploit from the pcp user to root,
-have been addressed in the <a
-href="https://github.com/performancecopilot/pcp/releases/tag/6.3.1">6.3.1</a>
-release of PCP.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
