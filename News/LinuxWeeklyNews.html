@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/991775/" title="See Description">Eliminating Memory Safety Vulnerabilities at the Source
+(Google Security Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/990791/" title="See Description">[$] LWN.net Weekly Edition for September 26, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/991722/" title="See Description">Vanilla OS 2 - future plans, updates, and next release</a></li>
 <li><a href="#https://lwn.net/Articles/990736/" title="See Description">[$] What the Nova GPU driver needs</a></li>
@@ -52,10 +54,38 @@
 <li><a href="#https://lwn.net/Articles/991377/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/991033/" title="See Description">[$] Tools for kernel developers</a></li>
 <li><a href="#https://lwn.net/Articles/991091/" title="See Description">pcp: pmcd network daemon review (SUSE Security Team Blog)</a></li>
-<li><a href="#https://lwn.net/Articles/990750/" title="See Description">[$] The 6.12 merge window begins</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/991775/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Sep 2024 06:58:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/991775/" title="https://lwn.net/Articles/991775/">Eliminating Memory Safety Vulnerabilities at the Source
+(Google Security Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Here's <a
+href="https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html">a
+post on the Google Security Blog</a> on how switching to a memory-safe
+language can quickly reduce vulnerabilities in a project, even if a large
+body of older code persists.
+<p>
+<blockquote class="bq">
+	 This leads to two important takeaways:
+<p>
+<ul class="spacylist">
+    <li> The problem is overwhelmingly with new code, necessitating a
+    fundamental change in how we develop code. 
+    <li> Code matures and gets safer with time, exponentially, making the
+    returns on investments like rewrites diminish over time as code gets
+    older.
+</ul>
+<p>
+For example, based on the average vulnerability lifetimes, 5-year-old code
+has a 3.4x (using lifetimes from the study) to 7.4x (using lifetimes
+observed in Android and Chromium) lower vulnerability density than new
+code.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/990791/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 26 Sep 2024 01:36:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,19 +314,6 @@ which could allow a full local root exploit from the pcp user to root,
 have been addressed in the <a
 href="https://github.com/performancecopilot/pcp/releases/tag/6.3.1">6.3.1</a>
 release of PCP.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990750/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 20 Sep 2024 14:07:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990750/" title="https://lwn.net/Articles/990750/">[$] The 6.12 merge window begins</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>As of this writing, 6,778 non-merge changesets have been pulled into the
-mainline kernel for the 6.12 release — over half of the work that had been
-staged in linux-next prior to the opening of the merge window.  There has
-been a lot of refactoring and cleanup work this time around, but also some
-significant changes.  Read on for a summary of the first half of the 6.12
-merge window.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
