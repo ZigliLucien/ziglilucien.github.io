@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c4fe04814eb020ada135baa7099c92670b03fe0.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.33ca2249affa814685860884d15f59b8381afa56.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c4fe04814eb020ada135baa7099c92670b03fe0.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.33ca2249affa814685860884d15f59b8381afa56.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.8c4fe04814eb020ada135baa7099c92670b03fe0.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.33ca2249affa814685860884d15f59b8381afa56.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -201,14 +201,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2024-09-26T14:04:00-05:00</sent>
-				<effective type="str">2024-09-26T14:04:00-05:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8c4fe04814eb020ada135baa7099c92670b03fe0.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.8c4fe04814eb020ada135baa7099c92670b03fe0.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2024-09-26T14:04:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2024-09-26T22:41:00-05:00</sent>
+				<effective type="str">2024-09-26T22:41:00-05:00</effective>
 				<onset type="str">2024-09-27T07:00:00-05:00</onset>
-				<expires type="str">2024-09-27T01:00:00-05:00</expires>
+				<expires type="str">2024-09-27T07:00:00-05:00</expires>
 				<ends type="str">2024-09-28T01:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -216,7 +223,7 @@
 				<event type="str">Wind Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Wind Advisory issued September 26 at 2:04PM CDT until September 28 at 1:00AM CDT by NWS Paducah KY</headline>
+				<headline type="str">Wind Advisory issued September 26 at 10:41PM CDT until September 28 at 1:00AM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Northeast winds 15 to 25 mph with gusts of 40 to 45 mph
 expected.
 
@@ -236,10 +243,10 @@ profile vehicles. Use extra caution.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 261904</item>
+						<item type="str">WWUS73 KPAH 270341</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WIND ADVISORY IN EFFECT FROM 7 AM CDT /8 AM EDT/ FRIDAY TO 1 AM CDT /2 AM EDT/ SATURDAY</item>
+						<item type="str">WIND ADVISORY REMAINS IN EFFECT FROM 7 AM CDT /8 AM EDT/ FRIDAY TO 1 AM CDT /2 AM EDT/ SATURDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -247,7 +254,7 @@ profile vehicles. Use extra caution.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.WI.Y.0006.240927T1200Z-240928T0600Z/</item>
+						<item type="str">/O.CON.KPAH.WI.Y.0006.240927T1200Z-240928T0600Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2024-09-28T06:00:00+00:00</item>
@@ -257,5 +264,5 @@ profile vehicles. Use extra caution.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-09-26T19:05:02+00:00</updated>
+	<updated type="str">2024-09-27T03:45:49+00:00</updated>
 </all>
