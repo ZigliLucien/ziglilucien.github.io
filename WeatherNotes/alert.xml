@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e8c9234d81906c592405a9b46619c412f606fac.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ecc56d1ccedb2702d591f8d7ff193100bccf3d.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e8c9234d81906c592405a9b46619c412f606fac.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ecc56d1ccedb2702d591f8d7ff193100bccf3d.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.2e8c9234d81906c592405a9b46619c412f606fac.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.78ecc56d1ccedb2702d591f8d7ff193100bccf3d.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,16 +203,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.33ca2249affa814685860884d15f59b8381afa56.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.33ca2249affa814685860884d15f59b8381afa56.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e8c9234d81906c592405a9b46619c412f606fac.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.2e8c9234d81906c592405a9b46619c412f606fac.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2024-09-26T22:41:00-05:00</sent>
+						<sent type="str">2024-09-27T03:10:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2024-09-27T03:10:00-05:00</sent>
-				<effective type="str">2024-09-27T03:10:00-05:00</effective>
-				<onset type="str">2024-09-27T07:00:00-05:00</onset>
-				<expires type="str">2024-09-27T18:00:00-05:00</expires>
+				<sent type="str">2024-09-27T12:06:00-05:00</sent>
+				<effective type="str">2024-09-27T12:06:00-05:00</effective>
+				<onset type="str">2024-09-27T12:06:00-05:00</onset>
+				<expires type="str">2024-09-28T01:00:00-05:00</expires>
 				<ends type="str">2024-09-28T01:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -223,22 +223,20 @@
 				<event type="str">Wind Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Wind Advisory issued September 27 at 3:10AM CDT until September 28 at 1:00AM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Northeast winds of 20 to 30 mph with gusts of 40 to 50
-mph are expected. Gusts to 55 mph are possible in the Evansville
-Tri-State region or along the I-64 corridor in Southern
-Illinois.
+				<headline type="str">Wind Advisory issued September 27 at 12:06PM CDT until September 28 at 1:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...North winds of 20 to 30 mph with gusts of 40 to 50 mph are
+expected. Gusts to 55 mph are possible in the Evansville Tri-State
+region or along the I-64 corridor in Southern Illinois.
 
-* WHERE...Portions of southern Illinois, southwest Indiana,
-western Kentucky, and southeast Missouri.
+* WHERE...Portions of southern Illinois, southwest Indiana, western
+Kentucky, and southeast Missouri.
 
-* WHEN...From 7 AM CDT /8 AM EDT/ Friday to 1 AM CDT /2 AM EDT/
-Saturday.
+* WHEN...Until 1 AM CDT /2 AM EDT/ Saturday.
 
 * IMPACTS...Gusty winds will blow around unsecured objects. Tree
 limbs could be blown down and a few power outages may result.
 Heavy rainfall may result in waterlogged soils making trees more
-susceptible to wind damage.</description>
+susceptible to falling.</description>
 				<instruction type="str">Winds this strong can make driving difficult, especially for high
 profile vehicles. Use extra caution.</instruction>
 				<response type="str">Execute</response>
@@ -247,10 +245,10 @@ profile vehicles. Use extra caution.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 270810</item>
+						<item type="str">WWUS73 KPAH 271706</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WIND ADVISORY REMAINS IN EFFECT FROM 7 AM CDT  /8 AM EDT/ FRIDAY TO 1 AM CDT  /2 AM EDT/ SATURDAY</item>
+						<item type="str">WIND ADVISORY REMAINS IN EFFECT UNTIL 1 AM CDT /2 AM EDT/ SATURDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -258,13 +256,13 @@ profile vehicles. Use extra caution.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.WI.Y.0006.240927T1200Z-240928T0600Z/</item>
+						<item type="str">/O.CON.KPAH.WI.Y.0006.000000T0000Z-240928T0600Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2024-09-28T06:00:00+00:00</item>
 					</eventEndingTime>
 					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8c4fe04814eb020ada135baa7099c92670b03fe0.001.1,2024-09-26T14:04:00-05:00</item>
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.33ca2249affa814685860884d15f59b8381afa56.001.1,2024-09-26T22:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8c4fe04814eb020ada135baa7099c92670b03fe0.001.1,2024-09-26T14:04:00-05:00</item>
 					</expiredReferences>
 				</parameters>
 			</properties>
@@ -411,5 +409,5 @@ to take action should flooding develop.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-09-27T08:10:41+00:00</updated>
+	<updated type="str">2024-09-27T17:06:44+00:00</updated>
 </all>
