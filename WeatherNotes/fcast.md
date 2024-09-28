@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Rain. Cloudy, with a high near 68. North wind 13 to 17 mph, with gusts as high as 28 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Today</h3>Rain. Cloudy, with a high near 68. North wind 13 to 16 mph, with gusts as high as 28 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
