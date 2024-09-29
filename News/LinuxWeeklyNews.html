@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/992120/" title="See Description">Górny: The perils of transition to 64-bit time_t</a></li>
 <li><a href="#https://lwn.net/Articles/991088/" title="See Description">[$] Debian changes OpenSSH packaging</a></li>
 <li><a href="#https://lwn.net/Articles/992030/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/991929/" title="See Description">Remote exploit of CUPS</a></li>
@@ -53,10 +54,32 @@
 <li><a href="#https://lwn.net/Articles/990736/" title="See Description">[$] What the Nova GPU driver needs</a></li>
 <li><a href="#https://lwn.net/Articles/990534/" title="See Description">[$] Linus and Dirk on succession, Rust, and more</a></li>
 <li><a href="#https://lwn.net/Articles/991701/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/990604/" title="See Description">[$] KDE sets its goals through 2026</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/992120/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 29 Sep 2024 07:23:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/992120/" title="https://lwn.net/Articles/992120/">Górny: The perils of transition to 64-bit time_t</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Michał Górny <a
+href="https://blogs.gentoo.org/mgorny/2024/09/28/the-perils-of-transition-to-64-bit-time_t/">describes
+the challenges</a> involved in transitioning Gentoo to year-2038-safe time
+representations:
+<p>
+<blockquote class="bq">
+	There is a general agreement that the way forward is to change
+	time_t to a 64-bit type. Musl has already switched to that, glibc
+	supports it as an option. A number of other distributions such as
+	Debian have taken the leap and switched. Unfortunately,
+	source-based distributions such as Gentoo don't have it that
+	easy. So we are still debating the issue and experimenting, trying
+	to figure out a maximally safe upgrade path for our users.
+<p>
+	Unfortunately, that's nowhere near trivial. Above all, we are
+	talking about a breaking ABI change.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/991088/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 27 Sep 2024 14:01:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -300,24 +323,6 @@ the graying of Linux maintainers.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (booth), <b>Gentoo</b> (Xpdf), <b>Oracle</b> (go-toolset:ol8, golang, grafana, grafana-pcp, kernel, libnbd, openssl, pcp, and ruby:3.3), <b>Red Hat</b> (container-tools:rhel8, go-toolset:rhel8, golang, kernel, and kernel-rt), <b>SUSE</b> (apr, cargo-audit, chromium, obs-service-cargo, python311, python36, quagga, traefik, and xen), and <b>Ubuntu</b> (intel-microcode, linux-azure-fde-5.15, and puma).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/990604/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Sep 2024 15:00:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/990604/" title="https://lwn.net/Articles/990604/">[$] KDE sets its goals through 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Almost a decade ago <a href="https://ev.kde.org/">KDE&nbsp;e.V.</a>,
-the non-profit organization that supports <a
-href="http://kde.org/">KDE</a>, started a <a href="https://community.kde.org/Goals/Goals_Process">process</a> for
-selecting <a href="https://kde.org/goals/">goals</a> to help the community unite behind a common vision for where the
-project should go in the near future. KDE
-recently wrapped up its 2022-2024 <a
-href="https://community.kde.org/Goals">cycle</a> and announced the goals for 2024-2026 at <a
-href="https://akademy.kde.org/2024/">Akademy</a> on September&nbsp;7, in Würzburg,
-Germany. This time around, KDE will be looking to streamline its
-application-development experience, improve support for input devices,
-and bring in new contributors.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
