@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/991399/" title="See Description">[$] Coccinelle for Rust</a></li>
+<li><a href="#https://lwn.net/Articles/991301/" title="See Description">[$] The rest of the 6.12 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/991906/" title="See Description">[$] The WordPress mess</a></li>
 <li><a href="#https://lwn.net/Articles/992292/" title="See Description">Four new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/992284/" title="See Description">Tcl/Tk 9.0 released</a></li>
@@ -51,11 +53,42 @@
 <li><a href="#https://lwn.net/Articles/990918/" title="See Description">[$] Getting PCI driver abstractions upstream</a></li>
 <li><a href="#https://lwn.net/Articles/991904/" title="See Description">PostgreSQL 17 released</a></li>
 <li><a href="#https://lwn.net/Articles/991899/" title="See Description">Uniting for Internet Freedom: Tor Project & Tails Join Forces (Tor blog)</a></li>
-<li><a href="#https://lwn.net/Articles/991205/" title="See Description">[$] Sched_ext at LPC 2024</a></li>
-<li><a href="#https://lwn.net/Articles/991897/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/991399/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 30 Sep 2024 19:01:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/991399/" title="https://lwn.net/Articles/991399/">[$] Coccinelle for Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Tathagata Roy has been working to make the
+<a href="https://coccinelle.gitlabpages.inria.fr/website/">
+Coccinelle</a> tool that is used (among other things)
+to automate the refactoring of C code work on Rust
+code as well. Roy gave a
+presentation at <a href="https://kangrejos.com/">Kangrejos</a> about that work,
+including the creative approaches necessary to work with Rust's more complicated
+control flow and syntax.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/991301/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 30 Sep 2024 17:47:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/991301/" title="https://lwn.net/Articles/991301/">[$] The rest of the 6.12 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds <a
+href="https://lwn.net/ml/all/CAHk-=wiwVOCZsC6a4dLdb1UjL2fS_CnLNjrPL0XGFbDd9C26Cg@mail.gmail.com/">released
+6.12-rc1</a> and closed the 6.12 merge window on September&nbsp;29; at that
+point, 11,260 non-merge change sets had been pulled into the mainline for
+the 6.12 release.  That is the lowest number of merge-window changes since
+5.17-rc1 in January 2022, which brought in 11,068 changesets.  Nonetheless,
+6.12 brings a number of interesting changes, many of which were included in
+the roughly 4,500 changes merged since <a href="https://lwn.net/Articles/990750/">the
+summary of the first half of the 6.12 merge window</a> was written.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/991906/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 30 Sep 2024 17:01:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,30 +299,6 @@ Countering the threat of global mass surveillance and censorship to a free Inter
 <p>
 In late 2023, Tails approached the Tor Project with the idea of merging operations. Tails had outgrown its existing structure. Rather than expanding Tails's operational capacity on their own and putting more stress on Tails workers, merging with the Tor Project, with its larger and established operational framework, offered a solution. By joining forces, the Tails team can now focus on their core mission of maintaining and improving Tails OS, exploring more and complementary use cases while benefiting from the larger organizational structure of The Tor Project.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/991205/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 26 Sep 2024 14:51:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/991205/" title="https://lwn.net/Articles/991205/">[$] Sched_ext at LPC 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/922405/">extensible scheduler class (sched_ext)</a>
-enables the implementation of CPU schedulers as a set of BPF programs
-loaded from user space; it first hit the mailing lists in late 2022.
-Sched_ext has engendered its share of controversy since, but is currently
-slated to be part of the 6.12 kernel release.  At the 2024 <a
-href="https://lpc.events/">Linux Plumbers Conference</a>, the growing
-sched_ext community held one of its first public gatherings; sched_ext
-would appear to have launched a new burst of creativity in scheduler
-design.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/991897/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 26 Sep 2024 14:18:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/991897/" title="https://lwn.net/Articles/991897/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, dovecot, emacs, expat, git-lfs, go-toolset:rhel8, golang, grafana, grafana-pcp, gtk3, kernel, kernel-rt, nano, python3, python3.11, python3.12, and virt:rhel and virt-devel:rhel), <b>Debian</b> (mediawiki and puredata), <b>Fedora</b> (chisel), <b>Mageia</b> (glib2.0, gtk+2.0 and gtk+3.0, and python-astropy), <b>Red Hat</b> (git-lfs, grafana, grafana-pcp, kernel, and kernel-rt), <b>SUSE</b> (kubernetes1.24, kubernetes1.25, kubernetes1.26, kubernetes1.27, kubernetes1.28, opensc, and python36), and <b>Ubuntu</b> (apparmor, apr, ca-certificates, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-raspi, openjpeg2, ruby-rack, and tomcat8, tomcat9).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
