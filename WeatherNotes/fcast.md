@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Sunny. High near 76, with temperatures falling to around 71 in the afternoon. North northwest wind around 13 mph, with gusts
-         as high as 23 mph.<br></div>
+         as high as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
