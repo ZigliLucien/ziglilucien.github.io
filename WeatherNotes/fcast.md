@@ -6,8 +6,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Patchy fog before 8am. Sunny. High near 79, with temperatures falling to around 75 in the afternoon. Northwest wind 2 to 13
-         mph, with gusts as high as 22 mph.<br></div>
+         <h3>Tuesday</h3>Patchy fog before 8am. Mostly sunny. High near 79, with temperatures falling to around 75 in the afternoon. Northwest wind
+         2 to 13 mph, with gusts as high as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
