@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/992055/" title="See Description">[$] Smart pointers for the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/992977/" title="See Description">Three Friday kernel updates</a></li>
+<li><a href="#https://lwn.net/Articles/992948/" title="See Description">oath-toolkit: privilege escalation in pam_oath.so (SUSE Security Team Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/992936/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/992411/" title="See Description">[$] Coping with complex cameras</a></li>
 <li><a href="#https://lwn.net/Articles/992798/" title="See Description">Security updates for Thursday</a></li>
@@ -50,12 +53,66 @@
 <li><a href="#https://lwn.net/Articles/992489/" title="See Description">Firefox 131.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/991199/" title="See Description">[$] An update on gccrs development</a></li>
 <li><a href="#https://lwn.net/Articles/992444/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/991399/" title="See Description">[$] Coccinelle for Rust</a></li>
-<li><a href="#https://lwn.net/Articles/991301/" title="See Description">[$] The rest of the 6.12 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/991906/" title="See Description">[$] The WordPress mess</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/992055/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 04 Oct 2024 16:38:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/992055/" title="https://lwn.net/Articles/992055/">[$] Smart pointers for the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Rust has a plethora of smart-pointer types, including reference-counted
+pointers, which have special support in the compiler to make them
+easier to use. The Rust-for-Linux project would like to reap those same benefits
+for its smart pointers, which need to be written by hand to conform to
+the
+<a href="https://lwn.net/Articles/718628/">
+Linux kernel
+memory model</a>. Xiangfei Ding
+presented at Kangrejos about the work to enable custom
+smart pointers to function the same as built-in smart pointers.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/992977/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 04 Oct 2024 15:39:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/992977/" title="https://lwn.net/Articles/992977/">Three Friday kernel updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The
+<a href="https://lwn.net/Articles/992978/">6.11.2</a>,
+<a href="https://lwn.net/Articles/992979/">6.10.13</a>,
+and
+<a href="https://lwn.net/Articles/992980/">6.6.54</a> stable kernels have been released.
+They contain important fixes, and upgrading is, as always, recommended.
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/992948/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 04 Oct 2024 15:28:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/992948/" title="https://lwn.net/Articles/992948/">oath-toolkit: privilege escalation in pam_oath.so (SUSE Security Team Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The SUSE Security Team Blog has a <a
+href="https://security.opensuse.org/2024/10/04/oath-toolkit-vulnerability.html">detailed
+report</a> on its discovery of <a href="https://www.nongnu.org/oath-toolkit/security/CVE-2024-47191/">a privilege escalation</a> in the
+<a
+href="https://gitlab.com/oath-toolkit/oath-toolkit">oath-toolkit</a>,
+which provides libraries and utilities for managing one-time password
+(OTP) authentication.</p>
+
+<blockquote class="bq">
+Fellow SUSE engineer Fabian Vogt approached our Security Team about
+the project's PAM module. A couple of years ago, the module gained a
+feature which allows to place the OTP state file (called usersfile) in
+the home directory of the to-be-authenticated user. Fabian noticed
+that the PAM module performs unsafe file operations in users' home
+directories. Since PAM stacks typically run as root, this can easily
+cause security issues.
+</blockquote>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/992936/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 04 Oct 2024 13:53:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -209,57 +266,6 @@ work and what its objectives are.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (debian-security-support, nghttp2, and sqlite3), <b>Oracle</b> (cups-filters, kernel, and osbuild-composer), <b>SUSE</b> (openssl-3), and <b>Ubuntu</b> (bubblewrap, flatpak and python2.7, python3.5).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/991399/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 30 Sep 2024 19:01:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/991399/" title="https://lwn.net/Articles/991399/">[$] Coccinelle for Rust</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Tathagata Roy has been working to make the
-<a href="https://coccinelle.gitlabpages.inria.fr/website/">
-Coccinelle</a> tool that is used (among other things)
-to automate the refactoring of C code work on Rust
-code as well. Roy gave a
-presentation at <a href="https://kangrejos.com/">Kangrejos</a> about that work,
-including the creative approaches necessary to work with Rust's more complicated
-control flow and syntax.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/991301/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 30 Sep 2024 17:47:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/991301/" title="https://lwn.net/Articles/991301/">[$] The rest of the 6.12 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds <a
-href="https://lwn.net/ml/all/CAHk-=wiwVOCZsC6a4dLdb1UjL2fS_CnLNjrPL0XGFbDd9C26Cg@mail.gmail.com/">released
-6.12-rc1</a> and closed the 6.12 merge window on September&nbsp;29; at that
-point, 11,260 non-merge change sets had been pulled into the mainline for
-the 6.12 release.  That is the lowest number of merge-window changes since
-5.17-rc1 in January 2022, which brought in 11,068 changesets.  Nonetheless,
-6.12 brings a number of interesting changes, many of which were included in
-the roughly 4,500 changes merged since <a href="https://lwn.net/Articles/990750/">the
-summary of the first half of the 6.12 merge window</a> was written.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/991906/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 30 Sep 2024 17:01:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/991906/" title="https://lwn.net/Articles/991906/">[$] The WordPress mess</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://wordpress.org/">WordPress</a> is the <a href="https://w3techs.com/technologies/history_overview/content_management">world's most
-popular</a> open&#8209;source blogging and content&#8209;management platform. In its
-20&#8209;plus years of existence, WordPress has been something of a poster
-child for open source, similar to Linux and Firefox. It introduced the
-concept of open source to millions of bloggers, small&#8209;business owners,
-and others who have deployed WordPress to support their web&#8209;publishing
-needs. Unfortunately, it is now in the spotlight due to an increasingly
-ugly dispute between two companies, <a
-href="https://automattic.com/">Automattic</a> and <a
-href="https://wpengine.com/">WP&nbsp;Engine</a>, that has spilled over into
-the WordPress community.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
