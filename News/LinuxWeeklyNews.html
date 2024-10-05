@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/993044/" title="See Description">Akamai finds many systems with exposed CUPS vulnerability</a></li>
 <li><a href="#https://lwn.net/Articles/992055/" title="See Description">[$] Smart pointers for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/992977/" title="See Description">Three Friday kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/992948/" title="See Description">oath-toolkit: privilege escalation in pam_oath.so (SUSE Security Team Blog)</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/992496/" title="See Description">FFmpeg 7.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/992489/" title="See Description">Firefox 131.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/991199/" title="See Description">[$] An update on gccrs development</a></li>
-<li><a href="#https://lwn.net/Articles/992444/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/993044/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 05 Oct 2024 21:41:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/993044/" title="https://lwn.net/Articles/993044/">Akamai finds many systems with exposed CUPS vulnerability</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Akamai
+<a href="https://www.akamai.com/blog/security-research/october-cups-ddos-threat">
+released a report</a> pointing out that the
+<a href="https://lwn.net/Articles/991929/">
+recently-reported CUPS vulnerability</a>
+(<a href="https://www.evilsocket.net/2024/09/26/Attacking-UNIX-systems-via-CUPS-Part-I/">original disclosure</a>)
+could be used to drive distributed denial-of-service (DDoS) attacks as well. Even if an attacker cannot gain remote control over a computer, they can still cause it to fetch a URL of their choice — potentially getting free DDoS amplification.
+</p>
+
+<blockquote class="bq">
+The Akamai Security Intelligence and Response Team (SIRT) found that more than 198,000 devices are vulnerable to this attack vector and are accessible on the public internet; roughly 34% of those could be used for DDoS abuse (58,000+).
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/992055/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 04 Oct 2024 16:38:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -258,14 +277,6 @@ Adding a Rust frontend to GCC would do much to address those concerns; at
 the <a href="https://gcc.gnu.org/wiki/cauldron2024">2024 GNU Tools
 Cauldron</a>, Pierre-Emmanuel Patry gave an update on the state of that
 work and what its objectives are.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/992444/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 01 Oct 2024 12:52:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/992444/" title="https://lwn.net/Articles/992444/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (debian-security-support, nghttp2, and sqlite3), <b>Oracle</b> (cups-filters, kernel, and osbuild-composer), <b>SUSE</b> (openssl-3), and <b>Ubuntu</b> (bubblewrap, flatpak and python2.7, python3.5).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
