@@ -27,34 +27,34 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Clear, with a low around 44. Northeast wind 1 to 5 mph.<br></div>
+         <h3>Tuesday Night</h3>Clear, with a low around 46. North northeast wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Sunny, with a high near 74. East wind around 5 mph.<br></div>
+         <h3>Wednesday</h3>Sunny, with a high near 75. East northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Clear, with a low around 49. Southeast wind around 3 mph.<br></div>
+         <h3>Wednesday Night</h3>Clear, with a low around 48. East wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny, with a high near 76. South wind around 5 mph.<br></div>
+         <h3>Thursday</h3>Sunny, with a high near 76. East southeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Clear, with a low around 50. South southeast wind around 3 mph.<br></div>
+         <h3>Thursday Night</h3>Clear, with a low around 49. Southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Sunny, with a high near 77. South wind 2 to 6 mph.<br></div>
+         <h3>Friday</h3>Sunny, with a high near 76. South southeast wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Mostly clear, with a low around 51. South wind around 5 mph.<br></div>
+         <h3>Friday Night</h3>Clear, with a low around 49. South southeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny, with a high near 77. South wind 5 to 8 mph.<br></div>
+         <h3>Saturday</h3>Sunny, with a high near 76. South wind 3 to 7 mph.<br></div>
    </p>
 </div>
