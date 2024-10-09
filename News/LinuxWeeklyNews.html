@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/993433/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/993073/" title="See Description">[$] The Open Source Pledge: peer pressure to pay maintainers</a></li>
 <li><a href="#https://lwn.net/Articles/992455/" title="See Description">[$] Efficient Rust tracepoints</a></li>
 <li><a href="#https://lwn.net/Articles/993276/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/993044/" title="See Description">Akamai finds many systems with exposed CUPS vulnerability</a></li>
 <li><a href="#https://lwn.net/Articles/992055/" title="See Description">[$] Smart pointers for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/992977/" title="See Description">Three Friday kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/992948/" title="See Description">oath-toolkit: privilege escalation in pam_oath.so (SUSE Security Team Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/993433/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 09 Oct 2024 13:08:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/993433/" title="https://lwn.net/Articles/993433/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, mod_jk, and thunderbird), <b>Debian</b> (apache2 and firefox-esr), <b>Fedora</b> (crosswords, logiops, p7zip, and perl-App-cpanminus), <b>Red Hat</b> (.NET 6.0, firefox, git, kernel, kernel-rt, openssl, and thunderbird), <b>SUSE</b> (buildah, json-lib, kernel, Mesa, mozjs78, pgadmin4, podman, podofo, qatlib, redis7, roundcubemail, rusty_v8, and seamonkey), and <b>Ubuntu</b> (dotnet6, dotnet8, nginx, and ruby-webrick).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/993073/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 08 Oct 2024 20:47:31 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -274,30 +282,6 @@ and
 <a href="https://lwn.net/Articles/992980/">6.6.54</a> stable kernels have been released.
 They contain important fixes, and upgrading is, as always, recommended.
 </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/992948/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 04 Oct 2024 15:28:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/992948/" title="https://lwn.net/Articles/992948/">oath-toolkit: privilege escalation in pam_oath.so (SUSE Security Team Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The SUSE Security Team Blog has a <a
-href="https://security.opensuse.org/2024/10/04/oath-toolkit-vulnerability.html">detailed
-report</a> on its discovery of <a href="https://www.nongnu.org/oath-toolkit/security/CVE-2024-47191/">a privilege escalation</a> in the
-<a
-href="https://gitlab.com/oath-toolkit/oath-toolkit">oath-toolkit</a>,
-which provides libraries and utilities for managing one-time password
-(OTP) authentication.</p>
-
-<blockquote class="bq">
-Fellow SUSE engineer Fabian Vogt approached our Security Team about
-the project's PAM module. A couple of years ago, the module gained a
-feature which allows to place the OTP state file (called usersfile) in
-the home directory of the to-be-authenticated user. Fabian noticed
-that the PAM module performs unsafe file operations in users' home
-directories. Since PAM stacks typically run as root, this can easily
-cause security issues.
-</blockquote>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
