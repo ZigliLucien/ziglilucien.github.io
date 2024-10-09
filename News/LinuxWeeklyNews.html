@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/992693/" title="See Description">[$] Improving bindgen for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/993436/" title="See Description">Julia v1.11.0 has been released</a></li>
 <li><a href="#https://lwn.net/Articles/993433/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/993073/" title="See Description">[$] The Open Source Pledge: peer pressure to pay maintainers</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/993160/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/993107/" title="See Description">Kernel prepatch 6.12-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/993044/" title="See Description">Akamai finds many systems with exposed CUPS vulnerability</a></li>
-<li><a href="#https://lwn.net/Articles/992055/" title="See Description">[$] Smart pointers for the kernel</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/992693/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 09 Oct 2024 17:20:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/992693/" title="https://lwn.net/Articles/992693/">[$] Improving bindgen for the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://rust-lang.github.io/rust-bindgen/">
+Bindgen</a> is a widely used tool that automatically generates Rust bindings from C
+headers. The
+<a href="https://rust-for-linux.com/">
+Rust-for-Linux</a> project uses it to create some of
+the bindings between Rust code and the rest of the kernel. John Baublitz
+presented at Kangrejos about the improvements that he has made to the tool in
+order to make the generated bindings easier to use, including improved support
+for macros, bitfields, and enums.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/993436/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 09 Oct 2024 14:13:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,25 +284,6 @@ could be used to drive distributed denial-of-service (DDoS) attacks as well. Eve
 <blockquote class="bq">
 The Akamai Security Intelligence and Response Team (SIRT) found that more than 198,000 devices are vulnerable to this attack vector and are accessible on the public internet; roughly 34% of those could be used for DDoS abuse (58,000+).
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/992055/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 04 Oct 2024 16:38:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/992055/" title="https://lwn.net/Articles/992055/">[$] Smart pointers for the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Rust has a plethora of smart-pointer types, including reference-counted
-pointers, which have special support in the compiler to make them
-easier to use. The Rust-for-Linux project would like to reap those same benefits
-for its smart pointers, which need to be written by hand to conform to
-the
-<a href="https://lwn.net/Articles/718628/">
-Linux kernel
-memory model</a>. Xiangfei Ding
-presented at Kangrejos about the work to enable custom
-smart pointers to function the same as built-in smart pointers.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
