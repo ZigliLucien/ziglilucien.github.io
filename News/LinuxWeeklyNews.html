@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/993163/" title="See Description">[$] FFI type mismatches in Rust for Linux</a></li>
+<li><a href="#https://lwn.net/Articles/993778/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/993660/" title="See Description">Ubuntu 24.10 released</a></li>
 <li><a href="#https://lwn.net/Articles/993337/" title="See Description">[$] On Rust in enterprise kernels</a></li>
 <li><a href="#https://lwn.net/Articles/993608/" title="See Description">Updating Firefox is highly recommended</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/992455/" title="See Description">[$] Efficient Rust tracepoints</a></li>
 <li><a href="#https://lwn.net/Articles/993276/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/993203/" title="See Description">OpenBSD 7.6 released</a></li>
-<li><a href="#https://lwn.net/Articles/992219/" title="See Description">[$] ClassicPress: WordPress without the block editor</a></li>
-<li><a href="#https://lwn.net/Articles/993191/" title="See Description">Python 3.13 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/993163/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 11 Oct 2024 13:56:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/993163/" title="https://lwn.net/Articles/993163/">[$] FFI type mismatches in Rust for Linux</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+At Kangrejos, Gary Guo wanted to discuss three problems with the way
+Rust and C code in the kernel interact: mismatched types, too many type casts,
+and the overhead of helper functions. To fix the first two problems, Guo proposed
+changing the way the kernel maps C types into Rust types. The last problem was a
+bit trickier, but he has a clever workaround for that, based on tricking
+the compiler into inlining the helper functions across language boundaries.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/993778/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 11 Oct 2024 13:07:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/993778/" title="https://lwn.net/Articles/993778/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 6.0, .NET 8.0, and openssl), <b>Debian</b> (firefox-esr), <b>Fedora</b> (firefox), <b>Mageia</b> (php, quictls, and vim), <b>Red Hat</b> (buildah, container-tools:rhel8, containernetworking-plugins, firefox, podman, skopeo, and tomcat), <b>Slackware</b> (mozilla), <b>SUSE</b> (apache-commons-io, kernel, and xen), and <b>Ubuntu</b> (golang-1.17, libgsf, and linux-aws-6.8, linux-oracle-6.8).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/993660/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 10 Oct 2024 16:46:10 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -235,43 +258,6 @@ modified or replaced at some point in time, reaching OpenBSD of Theseus.
 
 <p>See the <a href="https://www.openbsd.org/plus76.html">changelog</a>
 for all changes between OpenBSD&nbsp;7.5 and 7.6.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/992219/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 07 Oct 2024 17:40:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/992219/" title="https://lwn.net/Articles/992219/">[$] ClassicPress: WordPress without the block editor</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://lwn.net/Articles/991906/">recent WordPress
-controversy</a> is not the first time there's been tension between the
-<a
-href="https://wordpress.org/">WordPress</a> community, the interests of <a
-href="https://automattic.com/">Automattic</a> as a business, and Matt
-Mullenweg's leadership as WordPress's benevolent dictator for
-life (BDFL). In particular, Mullenweg's focus on pushing WordPress to use a new
-"editing experience" called <a
-href="https://wordpress.org/gutenberg/">Gutenberg</a> caused significant
-friction&mdash;and led to the <a
-href="https://www.classicpress.net/">ClassicPress</a> fork. Users who
-want to preserve the "classic" WordPress experience without straying
-too far from the WordPress fold may want to look into ClassicPress.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/993191/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 07 Oct 2024 17:19:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/993191/" title="https://lwn.net/Articles/993191/">Python 3.13 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 3.13 of the <a href="https://www.python.org/">Python</a> programming language has been <a
-href="https://www.python.org/downloads/release/python-3130/">released</a>. The
-"<a href="https://docs.python.org/3.13/whatsnew/3.13.html">What's New
-In Python 3.13</a>" page has a summary of all the new features and
-changes. Highlights of the release include <a
-href="https://lwn.net/Articles/977855/">a basic JIT compiler</a>,
-experimental support for <a
-href="https://lwn.net/Articles/985041/">free-threading</a>, and much
-more. See the <a
-href="https://docs.python.org/3.13/whatsnew/changelog.html">changelog</a>
-for even more details.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
