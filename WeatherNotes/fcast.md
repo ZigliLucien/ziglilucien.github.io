@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Mostly clear. Low around 45, with temperatures rising to around 47 overnight. Northwest wind around 10 mph, with gusts as
-         high as 21 mph.<br></div>
+         high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
