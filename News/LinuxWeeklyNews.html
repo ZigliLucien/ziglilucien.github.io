@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/990177/" title="See Description">[$] Debian's "secret" sauce</a></li>
+<li><a href="#https://lwn.net/Articles/994080/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/993956/" title="See Description">Kernel prepatch 6.12-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/993163/" title="See Description">[$] FFI type mismatches in Rust for Linux</a></li>
 <li><a href="#https://lwn.net/Articles/993778/" title="See Description">Security updates for Friday</a></li>
@@ -51,11 +53,34 @@
 <li><a href="#https://lwn.net/Articles/993436/" title="See Description">Julia v1.11.0 has been released</a></li>
 <li><a href="#https://lwn.net/Articles/993433/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/993073/" title="See Description">[$] The Open Source Pledge: peer pressure to pay maintainers</a></li>
-<li><a href="#https://lwn.net/Articles/992455/" title="See Description">[$] Efficient Rust tracepoints</a></li>
-<li><a href="#https://lwn.net/Articles/993276/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/990177/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 14 Oct 2024 16:12:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/990177/" title="https://lwn.net/Articles/990177/">[$] Debian's "secret" sauce</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>While Debian's "sauce" is not actually all that secret, it is not particularly
+well-known either, Samuel Henrique said at the start of his <a
+href="https://debconf24.debconf.org/">DebConf24</a> talk.  There is a lot
+of software-engineering effort that has been put in place by the
+distribution in order to create and maintain its releases, but "<q>loads of
+people are not aware</q>" of it.  That may be due to the fact that all of
+that is
+not really documented anywhere in a central location that he can just point
+someone to.  Recognizing that is what led him to give the talk;
+hopefully it will be a "<q>first step toward</q>" helping solve the problem.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/994080/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 14 Oct 2024 14:09:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/994080/" title="https://lwn.net/Articles/994080/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (docker.io, libreoffice, node-dompurify, python-reportlab, and thunderbird), <b>Fedora</b> (buildah, chromium, kernel, kernel-headers, libgsf, mosquitto, p7zip, podman, python-cramjam, python-virtualenv, redis, rust-async-compression, rust-brotli, rust-brotli-decompressor, rust-libcramjam, rust-libcramjam0.2, rust-nu-command, rust-nu-protocol, rust-redlib, rust-tower-http, thunderbird, and webkit2gtk4.0), <b>Oracle</b> (.NET 6.0, .NET 8.0, e2fsprogs, firefox, golang, openssl, python3-setuptools, systemd, and thunderbird), <b>SUSE</b> (chromium, firefox, java-jwt, libmozjs-128-0, libwireshark18, ntpd-rs, OpenIPMI, thunderbird, and wireshark), and <b>Ubuntu</b> (firefox, python2.7, python3.5, thunderbird, and ubuntu-advantage-desktop-daemon).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/993956/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 13 Oct 2024 22:45:25 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -227,32 +252,6 @@ an effort to persuade companies to pay maintainers by making it a social
 norm. On October&nbsp;8, the project is launching a marketing campaign to raise
 awareness and try to get a larger conversation started around paying
 maintainers.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/992455/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 08 Oct 2024 13:26:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/992455/" title="https://lwn.net/Articles/992455/">[$] Efficient Rust tracepoints</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Alice Ryhl has been working to enable
-<a href="https://www.kernel.org/doc/html/latest/trace/tracepoints.html">
-tracepoints</a> — which are widely used
-throughout the kernel — to be seamlessly placed in Rust code as well. She spoke
-about her approach at Kangrejos. Her
-<a href="https://lwn.net/ml/all/20241001-tracepoint-v9-0-1ad3b7d78acb@google.com/">
-patch set</a>
-enables efficient use of static
-tracepoints, but supporting dynamic tracepoints will take some additional effort.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/993276/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 08 Oct 2024 13:14:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/993276/" title="https://lwn.net/Articles/993276/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (kernel), <b>Fedora</b> (webkitgtk), <b>Mageia</b> (cups), <b>Oracle</b> (e2fsprogs, kernel, and kernel-container), <b>Red Hat</b> (buildah, container-tools:rhel8, containernetworking-plugins, git-lfs, go-toolset:rhel8, golang, grafana-pcp, podman, and skopeo), <b>SUSE</b> (Mesa, mozjs115, podofo, and redis7), and <b>Ubuntu</b> (cups and cups-filters).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
