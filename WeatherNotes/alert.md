@@ -1,6 +1,7 @@
 <p>
-   <h2>Frost Advisory issued October 15 at 1:47AM CDT until October 16 at 8:00AM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...Temperatures as low as 35 will result in frost formation.
+   <h2>Frost Advisory issued October 15 at 2:08PM CDT until October 16 at 8:00AM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Clearing skies, diminishing winds, and low temperatures in
+      the lower to middle 30s will result in frost formation.
       
       * WHERE...All of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
