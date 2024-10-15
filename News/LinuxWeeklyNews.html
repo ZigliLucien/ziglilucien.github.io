@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/994268/" title="See Description">Security updates for Tuesday</a></li>
+<li><a href="#https://lwn.net/Articles/993484/" title="See Description">[$] Zapping pointers out of thin air</a></li>
 <li><a href="#https://lwn.net/Articles/994098/" title="See Description">Inkscape 1.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/993895/" title="See Description">[$] WordPress retaliation impacts community</a></li>
 <li><a href="#https://lwn.net/Articles/990177/" title="See Description">[$] Debian's "secret" sauce</a></li>
@@ -51,11 +53,38 @@
 <li><a href="#https://lwn.net/Articles/993596/" title="See Description">New stable kernels released</a></li>
 <li><a href="#https://lwn.net/Articles/993595/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/992718/" title="See Description">[$] LWN.net Weekly Edition for October 10, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/992693/" title="See Description">[$] Improving bindgen for the kernel</a></li>
-<li><a href="#https://lwn.net/Articles/993436/" title="See Description">Julia v1.11.0 has been released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/994268/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 15 Oct 2024 13:43:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/994268/" title="https://lwn.net/Articles/994268/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, firefox, OpenIPMI, podman, and thunderbird), <b>Debian</b> (libapache-mod-jk, php7.4, and webkit2gtk), <b>Fedora</b> (edk2, koji, libgsf, rust-hyper-rustls, rust-reqwest, rust-rustls-native-certs, rust-rustls-native-certs0.7, rust-tonic, rust-tonic-build, rust-tonic-types, rust-tower, rust-tower-http, rust-tower-http0.5, and rust-tower0.4), <b>Mageia</b> (packages and thunderbird), <b>Oracle</b> (bind, container-tools:ol8, kernel, kernel-container, OpenIPMI, podman, and thunderbird), <b>Red Hat</b> (container-tools:rhel8, containernetworking-plugins, podman, and skopeo), <b>SUSE</b> (argocd-cli, bsdtar, keepalived, kernel, kyverno, libmozjs-115-0, libmozjs-128-0, libmozjs-78-0, OpenIPMI, opensc, php8, thunderbird, and xen), and <b>Ubuntu</b> (configobj, haproxy, imagemagick, nginx, and postgresql-10, postgresql-9.3).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/993484/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 15 Oct 2024 13:35:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/993484/" title="https://lwn.net/Articles/993484/">[$] Zapping pointers out of thin air</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Paul McKenney gave a presentation at Kangrejos this year that wasn't (directly)
+related to Rust. Instead, he spoke about the work he has been doing in concert
+with many other contributors on improving the handling of subtle concurrency
+problems in C++.
+Although he cautioned that his talk was only an overview, and not a
+substitute for reading the relevant papers, he hoped that the things the C++
+community is working on would be of interest to the Rust developers present as
+well, and potentially inform future work on the language. McKenney's talk was,
+as is his style, full of subtle examples of weird multithreaded behavior.
+Interested readers may wish to refer to
+<a href="https://kangrejos.com/2024/Lifetime-End%20Pointer%20Zap%20&amp;%20How%20to%20Avoid%20OOTA%20Without%20Really%20Trying.pdf">
+his slides</a> in an attempt to follow along.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/994098/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 14 Oct 2024 18:19:01 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -225,41 +254,6 @@ fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for October 10, 2024 is available.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/992693/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 09 Oct 2024 17:20:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/992693/" title="https://lwn.net/Articles/992693/">[$] Improving bindgen for the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://rust-lang.github.io/rust-bindgen/">
-Bindgen</a> is a widely used tool that automatically generates Rust bindings from C
-headers. The
-<a href="https://rust-for-linux.com/">
-Rust-for-Linux</a> project uses it to create some of
-the bindings between Rust code and the rest of the kernel. John Baublitz
-presented at Kangrejos about the improvements that he has made to the tool in
-order to make the generated bindings easier to use, including improved support
-for macros, bitfields, and enums.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/993436/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 09 Oct 2024 14:13:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/993436/" title="https://lwn.net/Articles/993436/">Julia v1.11.0 has been released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The Julia project has
-<a href="https://discourse.julialang.org/t/julia-v1-11-0-has-been-released-and-v1-10-is-now-lts/121064">
-released</a> version 1.11.0. A separate
-<a href="https://julialang.org/blog/2024/10/julia-1.11-highlights/">
-blog post</a> covers some of the highlights. The release includes a number of helpful features.
-</p>
-
-<blockquote class="bq">
-In previous Julia versions, there was no "programmatic way" of knowing if an unexported name was considered part of the public API or not. Instead, the guideline was basically that if it was not in the manual then it was not public which was a bit underwhelming. To remedy that, there is now a <tt>public</tt> keyword in Julia that can be used to indicate that an unexported name is part of the public API.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
