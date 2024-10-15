@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of rain showers before noon. Partly sunny. High near 58, with temperatures falling to around 56 in the afternoon.
-         North northwest wind 5 to 16 mph, with gusts as high as 26 mph. Chance of precipitation is 20%.<br></div>
+         North northwest wind 7 to 16 mph, with gusts as high as 26 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
