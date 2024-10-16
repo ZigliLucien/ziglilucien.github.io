@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/992991/" title="See Description">[$] Two pidfd tweaks: PIDFD_GET_INFO and PIDFD_SELF</a></li>
+<li><a href="#https://lwn.net/Articles/994436/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/994320/" title="See Description">LibreSSL 4.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/994268/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/993484/" title="See Description">[$] Zapping pointers out of thin air</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/993660/" title="See Description">Ubuntu 24.10 released</a></li>
 <li><a href="#https://lwn.net/Articles/993337/" title="See Description">[$] On Rust in enterprise kernels</a></li>
 <li><a href="#https://lwn.net/Articles/993608/" title="See Description">Updating Firefox is highly recommended</a></li>
-<li><a href="#https://lwn.net/Articles/993596/" title="See Description">New stable kernels released</a></li>
-<li><a href="#https://lwn.net/Articles/993595/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/992991/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 16 Oct 2024 13:52:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/992991/" title="https://lwn.net/Articles/992991/">[$] Two pidfd tweaks: PIDFD_GET_INFO and PIDFD_SELF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The pidfd mechanism, which uses file descriptors to refer to processes in
+an unambiguous and race-free way, <a href="https://lwn.net/Articles/773459/">was first
+introduced</a> in 2018.  Since then, the interface has <a
+href="https://lwn.net/Articles/794707/">gained a number of new features</a>, but 
+development has slowed over time as the interface has matured.  There are,
+however, a couple of patches in circulation that are meant to make working
+with pidfds simpler in some situations.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/994436/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 16 Oct 2024 13:24:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/994436/" title="https://lwn.net/Articles/994436/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, containernetworking-plugins, and skopeo), <b>Fedora</b> (pdns-recursor and valkey), <b>Mageia</b> (unbound), <b>Red Hat</b> (fence-agents, firefox, java-11-openjdk, python-setuptools, python3-setuptools, resource-agents, and thunderbird), <b>SUSE</b> (etcd-for-k8s, libsonivox3, rubygem-puma, and unbound), and <b>Ubuntu</b> (apr, libarchive, linux, linux-aws, linux-aws-hwe, linux-azure-4.15, linux-gcp,
+ linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, nano, and vim).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/994320/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 15 Oct 2024 16:47:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -75,7 +98,7 @@ and many more internal changes and bug fixes.</p>
 <div style="float:left" class="link"><a href="https://lwn.net/Articles/994268/" title="https://lwn.net/Articles/994268/">Security updates for Tuesday</a></div>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, firefox, OpenIPMI, podman, and thunderbird), <b>Debian</b> (libapache-mod-jk, php7.4, and webkit2gtk), <b>Fedora</b> (edk2, koji, libgsf, rust-hyper-rustls, rust-reqwest, rust-rustls-native-certs, rust-rustls-native-certs0.7, rust-tonic, rust-tonic-build, rust-tonic-types, rust-tower, rust-tower-http, rust-tower-http0.5, and rust-tower0.4), <b>Mageia</b> (packages and thunderbird), <b>Oracle</b> (bind, container-tools:ol8, kernel, kernel-container, OpenIPMI, podman, and thunderbird), <b>Red Hat</b> (container-tools:rhel8, containernetworking-plugins, podman, and skopeo), <b>SUSE</b> (argocd-cli, bsdtar, keepalived, kernel, kyverno, libmozjs-115-0, libmozjs-128-0, libmozjs-78-0, OpenIPMI, opensc, php8, thunderbird, and xen), and <b>Ubuntu</b> (configobj, haproxy, imagemagick, nginx, and postgresql-10, postgresql-9.3).
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, firefox, OpenIPMI, podman, and thunderbird), <b>Debian</b> (libapache-mod-jk, php7.4, and webkit2gtk), <b>Fedora</b> (edk2, koji, libgsf, rust-hyper-rustls, rust-reqwest, rust-rustls-native-certs, rust-rustls-native-certs0.7, rust-tonic, rust-tonic-build, rust-tonic-types, rust-tower, rust-tower-http, rust-tower-http0.5, and rust-tower0.4), <b>Mageia</b> (firefox, firefox-l10n, and thunderbird), <b>Oracle</b> (bind, container-tools:ol8, kernel, kernel-container, OpenIPMI, podman, and thunderbird), <b>Red Hat</b> (container-tools:rhel8, containernetworking-plugins, podman, and skopeo), <b>SUSE</b> (argocd-cli, bsdtar, keepalived, kernel, kyverno, libmozjs-115-0, libmozjs-128-0, libmozjs-78-0, OpenIPMI, opensc, php8, thunderbird, and xen), and <b>Ubuntu</b> (configobj, haproxy, imagemagick, nginx, and postgresql-10, postgresql-9.3).
 </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/993484/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 15 Oct 2024 13:35:14 +0000</tt></div></td></tr>
@@ -235,30 +258,6 @@ href="https://www.mozilla.org/en-US/security/advisories/mfsa2024-51/">a
 severe, remotely exploitable code-execution vulnerability</a> that is
 evidently already being exploited.  Updating to a fixed release seems like
 a wise thing to do.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/993596/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 10 Oct 2024 11:51:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/993596/" title="https://lwn.net/Articles/993596/">New stable kernels released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/993597/">6.11.3</a>, <a
-href="https://lwn.net/Articles/993598/">6.10.14</a>, <a
-href="https://lwn.net/Articles/993599/">6.6.55</a>, and <a
-href="https://lwn.net/Articles/993600/">6.6.56</a> stable kernels.  The 6.6.56 release
-fixes a problem with building perf in 6.6.55; "<q>If you do not use the
-perf tool in the 6.6.y tree, there is no need to upgrade.</q>".  Meanwhile,
-6.10.14 is the last of the 6.10.y series, so users should now be moving to
-6.11.y. Other than 6.6.56, they contain the usual long list of important
-fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/993595/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 10 Oct 2024 11:37:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/993595/" title="https://lwn.net/Articles/993595/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (firefox, koji, unbound, webkit2gtk4.0, and xen), <b>Red Hat</b> (glibc, net-snmp, and tomcat), <b>Slackware</b> (mozilla), <b>SUSE</b> (apache-commons-io, buildah, cups-filters, liboath-devel, libreoffice, libunbound8, podman, and redis), and <b>Ubuntu</b> (cups-browsed, cups-filters, edk2, linux-raspi-5.4, and oath-toolkit).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
