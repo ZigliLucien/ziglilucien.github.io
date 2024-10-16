@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Areas of frost after 4am. Clear, with a low around 33. North northwest wind around 5 mph.<br></div>
+         <h3>Overnight</h3>Areas of frost after 4am. Clear, with a low around 33. North northwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
