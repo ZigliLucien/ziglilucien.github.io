@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/993785/" title="See Description">[$] Using LKMM atomics in Rust</a></li>
 <li><a href="#https://lwn.net/Articles/992991/" title="See Description">[$] Two pidfd tweaks: PIDFD_GET_INFO and PIDFD_SELF</a></li>
 <li><a href="#https://lwn.net/Articles/994436/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/994320/" title="See Description">LibreSSL 4.0.0 released</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/993778/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/993660/" title="See Description">Ubuntu 24.10 released</a></li>
 <li><a href="#https://lwn.net/Articles/993337/" title="See Description">[$] On Rust in enterprise kernels</a></li>
-<li><a href="#https://lwn.net/Articles/993608/" title="See Description">Updating Firefox is highly recommended</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/993785/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 16 Oct 2024 15:05:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/993785/" title="https://lwn.net/Articles/993785/">[$] Using LKMM atomics in Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Rust, like C, has its own memory model describing how concurrent access to the
+same data by multiple threads can behave.
+The Linux kernel, however, has its own
+ideas. The
+<a href="https://lwn.net/Articles/718628/">
+Linux kernel memory model</a> (LKMM) is subtly different from both the
+standard C memory model and Rust's model.
+At Kangrejos, Boqun Feng gave a presentation about the
+need to reconcile the memory models used by Rust and the kernel,
+including a few potential avenues for doing so. While
+no consensus was reached, it is an area of active discussion.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/992991/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 16 Oct 2024 13:52:27 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -246,18 +266,6 @@ escaped the notice of many, but it highlights some of the problems that
 will have to be worked out as important functionality written in Rust heads
 toward the mainline.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/993608/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 10 Oct 2024 12:54:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/993608/" title="https://lwn.net/Articles/993608/">Updating Firefox is highly recommended</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Mozilla has released Firefox versions 131.0.2, ESR 128.3.1, and ESR
-115.16.1.  These updates address <a
-href="https://www.mozilla.org/en-US/security/advisories/mfsa2024-51/">a
-severe, remotely exploitable code-execution vulnerability</a> that is
-evidently already being exploited.  Updating to a fixed release seems like
-a wise thing to do.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
