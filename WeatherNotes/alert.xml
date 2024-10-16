@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa9f3987ec1e6a64749396226d8029a4b3268c25.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.364e635fdd785f7514f5e174ceda4b9b2e2afd46.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa9f3987ec1e6a64749396226d8029a4b3268c25.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.364e635fdd785f7514f5e174ceda4b9b2e2afd46.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.fa9f3987ec1e6a64749396226d8029a4b3268c25.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.364e635fdd785f7514f5e174ceda4b9b2e2afd46.002.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Union; Perry; Bollinger; Cape Girardeau; Wayne</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -84,14 +84,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2024-10-16T09:53:00-05:00</sent>
-				<effective type="str">2024-10-16T09:53:00-05:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa9f3987ec1e6a64749396226d8029a4b3268c25.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.fa9f3987ec1e6a64749396226d8029a4b3268c25.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2024-10-16T09:53:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2024-10-16T13:21:00-05:00</sent>
+				<effective type="str">2024-10-16T13:21:00-05:00</effective>
 				<onset type="str">2024-10-17T00:00:00-05:00</onset>
-				<expires type="str">2024-10-16T19:00:00-05:00</expires>
+				<expires type="str">2024-10-17T07:00:00-05:00</expires>
 				<ends type="str">2024-10-17T07:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -99,11 +106,11 @@
 				<event type="str">Freeze Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Freeze Warning issued October 16 at 9:53AM CDT until October 17 at 7:00AM CDT by NWS Paducah KY</headline>
+				<headline type="str">Freeze Warning issued October 16 at 1:21PM CDT until October 17 at 7:00AM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Sub-freezing temperatures as low as 29 expected.
 
-* WHERE...Ports of southeast Missouri, southern Illinois and far
-northwest Kentucky.
+* WHERE...Portions of southern Illinois, western Kentucky, and
+southeast Missouri.
 
 * WHEN...From midnight tonight to 7 AM CDT Thursday.
 
@@ -121,10 +128,10 @@ for the year.</description>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 161453</item>
+						<item type="str">WWUS73 KPAH 161821</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">FREEZE WARNING IN EFFECT FROM MIDNIGHT TONIGHT TO 7 AM CDT THURSDAY</item>
+						<item type="str">FREEZE WARNING REMAINS IN EFFECT FROM MIDNIGHT TONIGHT TO 7 AM CDT THURSDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -132,7 +139,7 @@ for the year.</description>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.FZ.W.0002.241017T0500Z-241017T1200Z/</item>
+						<item type="str">/O.CON.KPAH.FZ.W.0002.241017T0500Z-241017T1200Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2024-10-17T12:00:00+00:00</item>
@@ -142,5 +149,5 @@ for the year.</description>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-10-16T14:54:00+00:00</updated>
+	<updated type="str">2024-10-16T18:21:53+00:00</updated>
 </all>

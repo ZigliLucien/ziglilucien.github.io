@@ -1,9 +1,9 @@
 <p>
-   <h2>Freeze Warning issued October 16 at 9:53AM CDT until October 17 at 7:00AM CDT by NWS Paducah KY</h2>
+   <h2>Freeze Warning issued October 16 at 1:21PM CDT until October 17 at 7:00AM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Sub-freezing temperatures as low as 29 expected.
       
-      * WHERE...Ports of southeast Missouri, southern Illinois and far
-      northwest Kentucky.
+      * WHERE...Portions of southern Illinois, western Kentucky, and
+      southeast Missouri.
       
       * WHEN...From midnight tonight to 7 AM CDT Thursday.
       
