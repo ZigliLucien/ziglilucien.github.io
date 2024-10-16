@@ -1,10 +1,146 @@
 <?xml version="1.0" ?>
 <all>
-	<key name="@context" type="dict">
-		<key name="@version" type="str">1.1</key>
+	<key name="@context" type="list">
+		<item type="str">https://geojson.org/geojson-ld/geojson-context.jsonld</item>
+		<item type="dict">
+			<key name="@version" type="str">1.1</key>
+			<wx type="str">https://api.weather.gov/ontology#</wx>
+			<key name="@vocab" type="str">https://api.weather.gov/ontology#</key>
+		</item>
 	</key>
 	<type type="str">FeatureCollection</type>
-	<features type="list"/>
+	<features type="list">
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa9f3987ec1e6a64749396226d8029a4b3268c25.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="null"/>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa9f3987ec1e6a64749396226d8029a4b3268c25.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.fa9f3987ec1e6a64749396226d8029a4b3268c25.001.1</id>
+				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Union; Perry; Bollinger; Cape Girardeau; Wayne</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017081</item>
+						<item type="str">017191</item>
+						<item type="str">017047</item>
+						<item type="str">017185</item>
+						<item type="str">017145</item>
+						<item type="str">017055</item>
+						<item type="str">017065</item>
+						<item type="str">017193</item>
+						<item type="str">017077</item>
+						<item type="str">017199</item>
+						<item type="str">017165</item>
+						<item type="str">017059</item>
+						<item type="str">017181</item>
+						<item type="str">017087</item>
+						<item type="str">021225</item>
+						<item type="str">029157</item>
+						<item type="str">029017</item>
+						<item type="str">029031</item>
+						<item type="str">029223</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ075</item>
+						<item type="str">ILZ076</item>
+						<item type="str">ILZ077</item>
+						<item type="str">ILZ078</item>
+						<item type="str">ILZ080</item>
+						<item type="str">ILZ081</item>
+						<item type="str">ILZ082</item>
+						<item type="str">ILZ083</item>
+						<item type="str">ILZ084</item>
+						<item type="str">ILZ085</item>
+						<item type="str">ILZ086</item>
+						<item type="str">ILZ087</item>
+						<item type="str">ILZ088</item>
+						<item type="str">ILZ089</item>
+						<item type="str">KYZ014</item>
+						<item type="str">MOZ076</item>
+						<item type="str">MOZ086</item>
+						<item type="str">MOZ087</item>
+						<item type="str">MOZ100</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ075</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ077</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ078</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ081</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ082</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ083</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ014</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2024-10-16T09:53:00-05:00</sent>
+				<effective type="str">2024-10-16T09:53:00-05:00</effective>
+				<onset type="str">2024-10-17T00:00:00-05:00</onset>
+				<expires type="str">2024-10-16T19:00:00-05:00</expires>
+				<ends type="str">2024-10-17T07:00:00-05:00</ends>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Likely</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Freeze Warning</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Freeze Warning issued October 16 at 9:53AM CDT until October 17 at 7:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Sub-freezing temperatures as low as 29 expected.
+
+* WHERE...Ports of southeast Missouri, southern Illinois and far
+northwest Kentucky.
+
+* WHEN...From midnight tonight to 7 AM CDT Thursday.
+
+* IMPACTS...Frost and freeze conditions could kill crops, other
+sensitive vegetation and possibly damage unprotected outdoor
+plumbing.
+
+* ADDITIONAL DETAILS...This event is expected to end the growing
+season and will likely be the final frost/freeze product issued
+for the year.</description>
+				<instruction type="str">Take steps now to protect tender plants from the cold.</instruction>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">NPWPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS73 KPAH 161453</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">FREEZE WARNING IN EFFECT FROM MIDNIGHT TONIGHT TO 7 AM CDT THURSDAY</item>
+					</NWSheadline>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<VTEC type="list">
+						<item type="str">/O.NEW.KPAH.FZ.W.0002.241017T0500Z-241017T1200Z/</item>
+					</VTEC>
+					<eventEndingTime type="list">
+						<item type="str">2024-10-17T12:00:00+00:00</item>
+					</eventEndingTime>
+				</parameters>
+			</properties>
+		</item>
+	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-10-16T13:00:00+00:00</updated>
+	<updated type="str">2024-10-16T14:54:00+00:00</updated>
 </all>
