@@ -2,20 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Widespread frost. Clear, with a low around 29. South wind around 1 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Thursday</h3>Widespread frost before 9am. Sunny. High near 66, with temperatures falling to around 63 in the afternoon. South wind 0 to
+         <h3>Today</h3>Widespread frost before 9am. Sunny. High near 66, with temperatures falling to around 63 in the afternoon. South wind 1 to
          6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Patchy frost after 4am. Clear, with a low around 35. South southeast wind 1 to 6 mph.<br></div>
+         <h3>Tonight</h3>Patchy frost after 4am. Clear, with a low around 35. South southeast wind 1 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Patchy frost before 8am. Sunny, with a high near 70. South southeast wind 2 to 6 mph.<br></div>
+         <h3>Friday</h3>Patchy frost before 8am. Sunny. High near 70, with temperatures falling to around 66 in the afternoon. South southeast wind
+         2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -56,5 +53,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>Sunny, with a high near 77. West wind 3 to 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>A slight chance of rain showers after 7pm. Mostly clear, with a low around 49. Northwest wind around 7 mph.<br></div>
    </p>
 </div>
