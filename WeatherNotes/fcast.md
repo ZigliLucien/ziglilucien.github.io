@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Widespread frost. Clear, with a low around 29. South southeast wind around 1 mph.<br></div>
+         <h3>Overnight</h3>Widespread frost. Clear, with a low around 29. South wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
