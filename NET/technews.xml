@@ -12,7 +12,7 @@
 	<atom:link href="https://www.raspberrypi.org/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.raspberrypi.org/</link>
 	<description>Teach, learn and make with Raspberry Pi</description>
-	<lastBuildDate>Tue, 15 Oct 2024 08:48:01 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 17 Oct 2024 10:23:47 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,130 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Introducing picamzero: Simplifying Raspberry Pi Camera projects for beginners</title>
+		<link>https://www.raspberrypi.org/blog/picamzero-raspberry-pi-camera-projects-for-beginners/</link>
+					<comments>https://www.raspberrypi.org/blog/picamzero-raspberry-pi-camera-projects-for-beginners/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura Sach]]></dc:creator>
+		<pubDate>Thu, 17 Oct 2024 10:23:46 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[raspberry pi camera]]></category>
+		<category><![CDATA[Raspberry Pi Camera Module]]></category>
+		<category><![CDATA[picamzero]]></category>
+		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88672</guid>
+
+					<description><![CDATA[<p>Thousands of learners worldwide take their first steps into text-based programming using the Python programming language. Python is not only beginner-friendly, but is also used extensively in industry. In 2015, Python developer Daniel Pope, who has a keen interest in education, noticed that beginners often have great ideas for creating projects but struggle because the&#8230;</p>
+<p>The post <a href="https://www.raspberrypi.org/blog/picamzero-raspberry-pi-camera-projects-for-beginners/">Introducing picamzero: Simplifying Raspberry Pi Camera projects for beginners</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Thousands of learners worldwide take their first steps into text-based programming using the Python programming language. Python is not only beginner-friendly, but is also used extensively in industry.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2024/09/CodeClub_ParkStreet-22-500x333.jpg" alt="An educator helps two young learners with a coding project in a classroom." class="wp-image-88307" style="width:562px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/09/CodeClub_ParkStreet-22-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2024/09/CodeClub_ParkStreet-22-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2024/09/CodeClub_ParkStreet-22-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2024/09/CodeClub_ParkStreet-22-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2024/09/CodeClub_ParkStreet-22-2048x1366.jpg 2048w, https://www.raspberrypi.org/app/uploads/2024/09/CodeClub_ParkStreet-22-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2024/09/CodeClub_ParkStreet-22-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2024/09/CodeClub_ParkStreet-22-900x600.jpg 900w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+
+
+<p>In 2015, Python developer Daniel Pope, who has a keen interest in education, noticed that beginners often have great ideas for creating projects but struggle because the software libraries they need to use are aimed at more confident programmers. To address this, he created <a href="https://pygame-zero.readthedocs.io/en/stable/#">Pygame Zero</a> — a simplified version of the popular PyGame software. Since then, various developers have expanded the range of &#8216;zero&#8217; libraries for Python.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>How Python zero libraries help beginner programmers</strong></h2>
+
+
+
+<p>The Raspberry Pi Foundation has a long history of supporting Python zero libraries. <a href="https://www.raspberrypi.com/news/gpio-zero-a-friendly-python-api-for-physical-computing/">GPIO Zero</a> was launched back in 2015, followed by <a href="https://lawsie.github.io/guizero/">guizero</a> and then <a href="https://picozero.readthedocs.io/en/latest/">picozero</a>. The goal of all &#8216;zero&#8217; libraries is the same: to help beginner programmers create amazing projects using simple, understandable code, supported by useful documentation.&nbsp;</p>
+
+
+
+<p>The Picamera2 library is a powerful tool for advanced users, but beginners — such as <a href="https://astro-pi.org/mission-space-lab">Astro Pi: Mission Space Lab</a> programme participants — would benefit from a zero library to allow them to use the Raspberry Pi Camera module.&nbsp;</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" width="500" height="281" src="https://www.raspberrypi.org/app/uploads/2024/10/image-11-500x281.png" alt="The Astro Pi Mark II units." class="wp-image-88673" style="width:580px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/image-11-500x281.png 500w, https://www.raspberrypi.org/app/uploads/2024/10/image-11-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2024/10/image-11-450x253.png 450w, https://www.raspberrypi.org/app/uploads/2024/10/image-11.png 720w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">The Astro Pi Mark II units</figcaption></figure></div>
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" width="500" height="375" src="https://www.raspberrypi.org/app/uploads/2024/10/astro-pi-1-500x375.png" alt="" class="wp-image-88701" style="width:585px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/astro-pi-1-500x375.png 500w, https://www.raspberrypi.org/app/uploads/2024/10/astro-pi-1-300x225.png 300w, https://www.raspberrypi.org/app/uploads/2024/10/astro-pi-1-768x575.png 768w, https://www.raspberrypi.org/app/uploads/2024/10/astro-pi-1-800x599.png 800w, https://www.raspberrypi.org/app/uploads/2024/10/astro-pi-1-450x337.png 450w, https://www.raspberrypi.org/app/uploads/2024/10/astro-pi-1-900x674.png 900w, https://www.raspberrypi.org/app/uploads/2024/10/astro-pi-1.png 1000w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Image taken by Astro Pi: Mission Space Lab programme participants</figcaption></figure></div>
+
+
+<h2 class="wp-block-heading"><strong>Picamzero: how to get started</strong></h2>
+
+
+
+<p>The Code Club Projects and Youth Programmes teams at the Raspberry Pi Foundation have joined forces to create<strong> <code>picamzero</code></strong>: a new library that makes it simple for beginners to use the Raspberry Pi Camera board.</p>
+
+
+
+<p>As with the other &#8216;zero&#8217; libraries, it’s straightforward to get started. You can install picamzero by typing two commands in your Raspberry Pi&#8217;s terminal:</p>
+
+
+
+<p><code>sudo apt update</code></p>
+
+
+
+<p><code>sudo apt install python3-picamzero</code></p>
+
+
+
+<p>Once it&#8217;s installed, setting up your program to communicate with your camera is easy:</p>
+
+
+
+<p><code>from picamzero import Camera</code></p>
+
+
+
+<p><code>cam = Camera()</code></p>
+
+
+
+<p>You can ask picamzero to take a time-lapse sequence and make a video of your images using a single line of code.</p>
+
+
+
+<p><code>cam.capture_sequence("mysequence.jpg", make_video=True)</code></p>
+
+
+
+<p>Picamzero also makes it easy to add text and image overlays to your images.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="403" src="https://www.raspberrypi.org/app/uploads/2024/10/image-12-500x403.png" alt="A Lego scene captured using picamzero." class="wp-image-88674" style="width:596px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/image-12-500x403.png 500w, https://www.raspberrypi.org/app/uploads/2024/10/image-12-300x242.png 300w, https://www.raspberrypi.org/app/uploads/2024/10/image-12-768x618.png 768w, https://www.raspberrypi.org/app/uploads/2024/10/image-12-800x644.png 800w, https://www.raspberrypi.org/app/uploads/2024/10/image-12-450x362.png 450w, https://www.raspberrypi.org/app/uploads/2024/10/image-12-900x725.png 900w, https://www.raspberrypi.org/app/uploads/2024/10/image-12.png 1274w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">A Lego scene captured using picamzero</figcaption></figure></div>
+
+
+<p>We&#8217;ve written beginner-friendly <a href="https://raspberrypifoundation.github.io/picamera-zero/">documentation</a> for the new library so that you can explore what you can create using just a few lines of code. We&#8217;ve also updated our resources so that you can start making exciting projects using picamzero straight away:</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera">Getting started with Picamera</a></li>
+
+
+
+<li><a href="https://projects.raspberrypi.org/en/projects/cress-egg-heads/">Cress Egg Heads</a></li>
+
+
+
+<li><a href="https://projects.raspberrypi.org/en/projects/parent-detector">Parent Detector</a></li>
+
+
+
+<li><a href="https://projects.raspberrypi.org/en/projects/push-button-stop-motion">Push button stop motion</a></li>
+</ul>
+
+
+
+<p>We hope you enjoy using picamzero. Please get in touch if you have any feedback or suggestions. Happy coding!</p>
+<p>The post <a href="https://www.raspberrypi.org/blog/picamzero-raspberry-pi-camera-projects-for-beginners/">Introducing picamzero: Simplifying Raspberry Pi Camera projects for beginners</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.raspberrypi.org/blog/picamzero-raspberry-pi-camera-projects-for-beginners/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>How to make debugging a positive experience for secondary school students</title>
 		<link>https://www.raspberrypi.org/blog/debugging-positive-experience-secondary-school-students/</link>
 					<comments>https://www.raspberrypi.org/blog/debugging-positive-experience-secondary-school-students/#respond</comments>
@@ -35,10 +159,10 @@
 		<dc:creator><![CDATA[Bonnie Sheppard]]></dc:creator>
 		<pubDate>Tue, 15 Oct 2024 08:48:01 +0000</pubDate>
 				<category><![CDATA[Research]]></category>
+		<category><![CDATA[programming education]]></category>
 		<category><![CDATA[research]]></category>
 		<category><![CDATA[research seminar]]></category>
 		<category><![CDATA[AI education]]></category>
-		<category><![CDATA[programming education]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88650</guid>
 
 					<description><![CDATA[<p>Artificial intelligence (AI) continues to change many areas of our lives, with new AI technologies and software having the potential to significantly impact the way programming is taught at schools. In our seminar series this year, we’ve already heard about new AI code generators that can support and motivate young people when learning to code,&#8230;</p>
@@ -49,7 +173,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" width="500" height="334" src="https://www.raspberrypi.org/app/uploads/2021/08/ATHENS_CODE_CLUB_016-500x334.jpg" alt="Two teenage girls do coding activities at their laptops in a classroom." class="wp-image-73546" style="width:574px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2021/08/ATHENS_CODE_CLUB_016-500x334.jpg 500w, https://www.raspberrypi.org/app/uploads/2021/08/ATHENS_CODE_CLUB_016-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2021/08/ATHENS_CODE_CLUB_016-768x513.jpg 768w, https://www.raspberrypi.org/app/uploads/2021/08/ATHENS_CODE_CLUB_016-1536x1025.jpg 1536w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="334" src="https://www.raspberrypi.org/app/uploads/2021/08/ATHENS_CODE_CLUB_016-500x334.jpg" alt="Two teenage girls do coding activities at their laptops in a classroom." class="wp-image-73546" style="width:574px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2021/08/ATHENS_CODE_CLUB_016-500x334.jpg 500w, https://www.raspberrypi.org/app/uploads/2021/08/ATHENS_CODE_CLUB_016-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2021/08/ATHENS_CODE_CLUB_016-768x513.jpg 768w, https://www.raspberrypi.org/app/uploads/2021/08/ATHENS_CODE_CLUB_016-1536x1025.jpg 1536w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
 
 
 <p>At times, it can seem like everything is being automated with AI. However, there are some parts of learning to program that cannot (and probably should not) be automated, such as understanding errors in code and how to fix them. Manually typing code might not be necessary in the future, but it will still be crucial to understand the code that is being generated and how to improve and develop it.&nbsp;</p>
@@ -60,7 +184,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img decoding="async" width="500" height="195" src="https://www.raspberrypi.org/app/uploads/2024/10/image-7-500x195.png" alt="" class="wp-image-88651" style="width:605px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/image-7-500x195.png 500w, https://www.raspberrypi.org/app/uploads/2024/10/image-7-300x117.png 300w, https://www.raspberrypi.org/app/uploads/2024/10/image-7-768x299.png 768w, https://www.raspberrypi.org/app/uploads/2024/10/image-7-800x311.png 800w, https://www.raspberrypi.org/app/uploads/2024/10/image-7-450x175.png 450w, https://www.raspberrypi.org/app/uploads/2024/10/image-7.png 897w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption"><em>Debugging can be challenging in many different ways and it is important to understand why students struggle to be able to support them better.</em></figcaption></figure></div>
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="195" src="https://www.raspberrypi.org/app/uploads/2024/10/image-7-500x195.png" alt="" class="wp-image-88651" style="width:605px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/image-7-500x195.png 500w, https://www.raspberrypi.org/app/uploads/2024/10/image-7-300x117.png 300w, https://www.raspberrypi.org/app/uploads/2024/10/image-7-768x299.png 768w, https://www.raspberrypi.org/app/uploads/2024/10/image-7-800x311.png 800w, https://www.raspberrypi.org/app/uploads/2024/10/image-7-450x175.png 450w, https://www.raspberrypi.org/app/uploads/2024/10/image-7.png 897w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption"><em>Debugging can be challenging in many different ways and it is important to understand why students struggle to be able to support them better.</em></figcaption></figure></div>
 
 
 <p>But what is it about debugging that young people find so hard, even when they’re given enough time to do it? And how can we make debugging a more motivating experience for young people? These are two of the questions that Laurie Gale, a PhD student at the Raspberry Pi Computing Education Research Centre, focused on in our July seminar.</p>
@@ -75,7 +199,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img decoding="async" width="500" height="426" src="https://www.raspberrypi.org/app/uploads/2024/10/image-500x426.jpeg" alt="A photograph of Laurie Gale. " class="wp-image-88652" style="width:628px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/image-500x426.jpeg 500w, https://www.raspberrypi.org/app/uploads/2024/10/image-294x250.jpeg 294w, https://www.raspberrypi.org/app/uploads/2024/10/image-768x654.jpeg 768w, https://www.raspberrypi.org/app/uploads/2024/10/image-1536x1308.jpeg 1536w, https://www.raspberrypi.org/app/uploads/2024/10/image-800x681.jpeg 800w, https://www.raspberrypi.org/app/uploads/2024/10/image-450x383.jpeg 450w, https://www.raspberrypi.org/app/uploads/2024/10/image-900x766.jpeg 900w, https://www.raspberrypi.org/app/uploads/2024/10/image.jpeg 1600w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption"><em>When Laurie Gale started looking into debugging research for his PhD, he noticed that the majority of studies had been with college students, so he decided to change that and find out what would make debugging easier for novice programmers at secondary school.</em><br></figcaption></figure></div>
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="426" src="https://www.raspberrypi.org/app/uploads/2024/10/image-500x426.jpeg" alt="A photograph of Laurie Gale. " class="wp-image-88652" style="width:628px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/image-500x426.jpeg 500w, https://www.raspberrypi.org/app/uploads/2024/10/image-294x250.jpeg 294w, https://www.raspberrypi.org/app/uploads/2024/10/image-768x654.jpeg 768w, https://www.raspberrypi.org/app/uploads/2024/10/image-1536x1308.jpeg 1536w, https://www.raspberrypi.org/app/uploads/2024/10/image-800x681.jpeg 800w, https://www.raspberrypi.org/app/uploads/2024/10/image-450x383.jpeg 450w, https://www.raspberrypi.org/app/uploads/2024/10/image-900x766.jpeg 900w, https://www.raspberrypi.org/app/uploads/2024/10/image.jpeg 1600w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption"><em>When Laurie Gale started looking into debugging research for his PhD, he noticed that the majority of studies had been with college students, so he decided to change that and find out what would make debugging easier for novice programmers at secondary school.</em><br></figcaption></figure></div>
 
 
 <p>When students first start learning how to program, they have to remember a vast amount of new information, such as different variables, concepts, and program designs. Utilising this knowledge is often challenging because they’re already busy juggling all the content they’ve previously learnt and the challenges of the programming task at hand. When error messages inevitably appear that are confusing or misunderstood, it can become extremely difficult to debug effectively.&nbsp;</p>
@@ -204,11 +328,11 @@
 		<dc:creator><![CDATA[Dan Fisher]]></dc:creator>
 		<pubDate>Tue, 08 Oct 2024 08:31:54 +0000</pubDate>
 				<category><![CDATA[Ada Computer Science]]></category>
+		<category><![CDATA[teachers]]></category>
+		<category><![CDATA[computer science]]></category>
 		<category><![CDATA[Computing]]></category>
 		<category><![CDATA[computing education]]></category>
 		<category><![CDATA[students]]></category>
-		<category><![CDATA[teachers]]></category>
-		<category><![CDATA[computer science]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88558</guid>
 
 					<description><![CDATA[<p>With the new academic year fully under way in many parts of the world, it&#8217;s the perfect time to reflect on the growth and innovations we&#8217;ve achieved with the Ada Computer Science platform. Your feedback has helped us make improvements to better support teachers and students — here&#8217;s a look back at some of the&#8230;</p>
@@ -918,8 +1042,8 @@
 		<dc:creator><![CDATA[Philip Colligan]]></dc:creator>
 		<pubDate>Tue, 24 Sep 2024 10:23:43 +0000</pubDate>
 				<category><![CDATA[Code Club]]></category>
-		<category><![CDATA[non-formal learning]]></category>
 		<category><![CDATA[coding for kids]]></category>
+		<category><![CDATA[non-formal learning]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88474</guid>
 
 					<description><![CDATA[<p>Today we&#8217;re unveiling a fresh look and feel for Code Club, along with a new ambition to inspire 10 million more young people to get creative with technology over the next decade. Code Club is a network of free coding clubs where young people learn how to create with technology. Founded in the UK in&#8230;</p>
@@ -1060,9 +1184,9 @@
 		<dc:creator><![CDATA[Meg Wang]]></dc:creator>
 		<pubDate>Mon, 23 Sep 2024 11:00:11 +0000</pubDate>
 				<category><![CDATA[Hello World]]></category>
-		<category><![CDATA[artificial intelligence]]></category>
 		<category><![CDATA[computing education]]></category>
 		<category><![CDATA[AI education]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88432</guid>
 
 					<description><![CDATA[<p>Since they became publicly available at the end of 2022, generative AI tools have been hotly discussed by educators: what role should these tools for generating human-seeming text, images, and other media play in teaching and learning? Two years later, the one thing most people agree on is that, like it or not, generative AI&#8230;</p>
@@ -1197,10 +1321,10 @@
 		<pubDate>Thu, 19 Sep 2024 11:09:58 +0000</pubDate>
 				<category><![CDATA[Experience AI]]></category>
 		<category><![CDATA[Programmes]]></category>
-		<category><![CDATA[AI education]]></category>
-		<category><![CDATA[online course]]></category>
 		<category><![CDATA[teacher training]]></category>
 		<category><![CDATA[online training]]></category>
+		<category><![CDATA[AI education]]></category>
+		<category><![CDATA[online course]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88354</guid>
 
 					<description><![CDATA[<p>To empower every educator to confidently bring AI into their classroom, we&#8217;ve created a new online training course called ‘Understanding AI for educators’ in collaboration with Google DeepMind. By taking this course, you will gain a practical understanding of the crossover between AI tools and education. The course includes a conceptual look at what AI&#8230;</p>
@@ -1368,214 +1492,6 @@
 					
 					<wfw:commentRss>https://www.raspberrypi.org/blog/free-online-course-on-understanding-ai-for-educators/feed/</wfw:commentRss>
 			<slash:comments>4</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>How useful do teachers find error message explanations generated by AI? Pilot research results</title>
-		<link>https://www.raspberrypi.org/blog/error-message-explanations-large-language-models-teachers-views/</link>
-					<comments>https://www.raspberrypi.org/blog/error-message-explanations-large-language-models-teachers-views/#respond</comments>
-		
-		<dc:creator><![CDATA[Veronica Cucuiat]]></dc:creator>
-		<pubDate>Wed, 18 Sep 2024 14:46:17 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[research]]></category>
-		<category><![CDATA[research seminar]]></category>
-		<category><![CDATA[AI education]]></category>
-		<category><![CDATA[programming education]]></category>
-		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88171</guid>
-
-					<description><![CDATA[<p>As discussions of how artificial intelligence (AI) will impact teaching, learning, and assessment proliferate, I was thrilled to be able to add one of my own research projects to the mix. As a research scientist at the Raspberry Pi Foundation, I’ve been working on a pilot research study in collaboration with Jane Waite to explore&#8230;</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/error-message-explanations-large-language-models-teachers-views/">How useful do teachers find error message explanations generated by AI? Pilot research results</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p>As discussions of how artificial intelligence (AI) will impact teaching, learning, and assessment proliferate, I was thrilled to be able to add one of my own research projects to the mix. As a research scientist at the Raspberry Pi Foundation, I’ve been working on a pilot research study in collaboration with Jane Waite to explore the topic of program error messages (PEMs).&nbsp;</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2023/06/Spencers-Story-12-500x333.jpg" alt="Computer science students at a desktop computer in a classroom." class="wp-image-84335" style="width:637px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2023/06/Spencers-Story-12-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2023/06/Spencers-Story-12-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2023/06/Spencers-Story-12-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2023/06/Spencers-Story-12-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2023/06/Spencers-Story-12-2048x1365.jpg 2048w, https://www.raspberrypi.org/app/uploads/2023/06/Spencers-Story-12-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2023/06/Spencers-Story-12-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2023/06/Spencers-Story-12-900x600.jpg 900w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-<p>PEMs can be a significant barrier to learning for novice coders, as they are often confusing and difficult to understand. This can hinder troubleshooting and progress in coding, and lead to frustration.&nbsp;</p>
-
-
-
-<p>Recently, various teams have been exploring how generative AI, specifically large language models (LLMs), can be used to help learners understand PEMs. My research in this area specifically explores secondary teachers’ views of the explanations of PEMs generated by a LLM, as an aid for learning and teaching programming, and I presented some of my results in our <a href="https://www.raspberrypi.org/research/seminars">ongoing seminar series</a>.</p>
-
-
-
-<h2 class="wp-block-heading">Understanding program error messages is hard at the start</h2>
-
-
-
-<p>I started the seminar by setting the scene and describing the current background of research on novices’ difficulty in using PEMs to fix their code, and the efforts made to date to improve these. The three main points I made were that:</p>
-
-
-
-<ol class="wp-block-list">
-<li>PEMs are often difficult to decipher, especially by novices, and there’s a whole research area dedicated to identifying ways to improve them.</li>
-
-
-
-<li><a href="https://doi.org/10.1145/3587102.3588785" target="_blank" rel="noreferrer noopener">Recent studies</a> have employed LLMs as a way of enhancing PEMs. However, the <a href="https://doi.org/10.1145/3344429.3372508" target="_blank" rel="noreferrer noopener">evidence</a> on what makes an ‘effective’ PEM for learning is limited, variable, and contradictory.</li>
-
-
-
-<li>There is limited research in the context of K–12 programming education, as well as research conducted in collaboration with teachers to better understand the practical and pedagogical implications of integrating LLMs into the classroom more generally.</li>
-</ol>
-
-
-
-<p>My pilot study aims to fill this gap directly, by reporting K–12 teachers’ views of the potential use of LLM-generated explanations of PEMs in the classroom, and how their views fit into the wider theoretical paradigm of feedback literacy.&nbsp;</p>
-
-
-
-<h2 class="wp-block-heading">What did the teachers say?</h2>
-
-
-
-<p>To conduct the study, I interviewed eight expert secondary computing educators. The interviews were semi-structured activity-based interviews, where the educators got to experiment with a prototype version of the Foundation’s <a href="https://editor.raspberrypi.org" target="_blank" rel="noreferrer noopener">publicly available Code Editor</a>. This version of the Code Editor was adapted to generate LLM explanations when the question mark next to the standard error message is clicked (see Figure 1 for an example of a LLM-generated explanation). The Code Editor version called the OpenAI GPT-3.5 interface to generate explanations based on the following prompt: “You are a teacher talking to a 12-year-old child. Explain the error {error} in the following Python code: {code}”.&nbsp;</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="275" src="https://www.raspberrypi.org/app/uploads/2024/09/image-500x275.png" alt="The Foundation’s Python Code Editor with LLM feedback prototype." class="wp-image-88178" style="width:633px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/09/image-500x275.png 500w, https://www.raspberrypi.org/app/uploads/2024/09/image-300x165.png 300w, https://www.raspberrypi.org/app/uploads/2024/09/image-768x422.png 768w, https://www.raspberrypi.org/app/uploads/2024/09/image-800x440.png 800w, https://www.raspberrypi.org/app/uploads/2024/09/image-450x247.png 450w, https://www.raspberrypi.org/app/uploads/2024/09/image-900x495.png 900w, https://www.raspberrypi.org/app/uploads/2024/09/image.png 1115w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Figure 1: The Foundation&#8217;s Code Editor with LLM feedback prototype.</figcaption></figure></div>
-
-
-<p>Fifteen themes were derived from the educators’ responses and these were split into five groups (Figure 2). Overall, the educators’ views of the LLM feedback were that, for the most part, a sensible explanation of the error messages was produced. However, all educators experienced at least one example of invalid content (LLM &#8220;hallucination&#8221;). Also, despite not being explicitly requested in the LLM prompt, a possible code solution was always included in the explanation.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="357" src="https://www.raspberrypi.org/app/uploads/2024/09/image-1-500x357.png" alt="Themes and groups derived from teachers’ responses." class="wp-image-88179" style="width:643px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/09/image-1-500x357.png 500w, https://www.raspberrypi.org/app/uploads/2024/09/image-1-300x214.png 300w, https://www.raspberrypi.org/app/uploads/2024/09/image-1-768x548.png 768w, https://www.raspberrypi.org/app/uploads/2024/09/image-1-800x571.png 800w, https://www.raspberrypi.org/app/uploads/2024/09/image-1-450x321.png 450w, https://www.raspberrypi.org/app/uploads/2024/09/image-1.png 822w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Figure 2: Themes and groups derived from teachers’ responses.<br></figcaption></figure></div>
-
-
-<h2 class="wp-block-heading">Matching the themes to PEM guidelines</h2>
-
-
-
-<p>Next, I investigated how the teachers’ views correlated to the research conducted to date on enhanced PEMs. I used the guidelines proposed by <a href="https://doi.org/10.1145/3344429.3372508" target="_blank" rel="noreferrer noopener">Brett Becker and colleagues</a>, which consolidate a lot of the research done in this area into ten design guidelines. The guidelines offer best practices on how to enhance PEMs based on cognitive science and educational theory empirical research. For example, they outline that enhanced PEMs should provide scaffolding for the user, increase readability, reduce cognitive load, use a positive tone, and provide context to the error.</p>
-
-
-
-<p>Out of the 15 themes identified in my study, 10 of these correlated closely to the guidelines. However, the 10 themes that correlated well were, for the most part, the themes related to the content of the explanations, presentation, and validity (Figure 3). On the other hand, the themes concerning the teaching and learning process did not fit as well to the guidelines.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="288" src="https://www.raspberrypi.org/app/uploads/2024/09/image-2-500x288.png" alt="Correlation between teachers’ responses and enhanced PEM design guidelines." class="wp-image-88180" style="width:640px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/09/image-2-500x288.png 500w, https://www.raspberrypi.org/app/uploads/2024/09/image-2-300x173.png 300w, https://www.raspberrypi.org/app/uploads/2024/09/image-2-768x443.png 768w, https://www.raspberrypi.org/app/uploads/2024/09/image-2-1536x885.png 1536w, https://www.raspberrypi.org/app/uploads/2024/09/image-2-800x461.png 800w, https://www.raspberrypi.org/app/uploads/2024/09/image-2-450x259.png 450w, https://www.raspberrypi.org/app/uploads/2024/09/image-2-900x519.png 900w, https://www.raspberrypi.org/app/uploads/2024/09/image-2.png 1600w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Figure 3: Correlation between teachers’ responses and enhanced PEM design guidelines.<br></figcaption></figure></div>
-
-
-<h2 class="wp-block-heading">Does feedback literacy theory fit better?</h2>
-
-
-
-<p>However, when I looked at feedback literacy theory, I was able to correlate all fifteen themes — the theory fits.</p>
-
-
-
-<p>Feedback literacy theory positions the feedback process (which includes explanations) as a social interaction, and accounts for the actors involved in the interaction — the student and the teacher — as well as the relationships between the student, the teacher, and the feedback. We can explain feedback literacy theory using three constructs: feedback types, student feedback literacy, and teacher feedback literacy (Figure 4).&nbsp;</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="276" src="https://www.raspberrypi.org/app/uploads/2024/09/image-3-500x276.png" alt="Feedback literacy at the intersection between feedback types, student feedback literacy, and teacher feedback literacy." class="wp-image-88181" style="width:662px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/09/image-3-500x276.png 500w, https://www.raspberrypi.org/app/uploads/2024/09/image-3-300x166.png 300w, https://www.raspberrypi.org/app/uploads/2024/09/image-3-768x424.png 768w, https://www.raspberrypi.org/app/uploads/2024/09/image-3-1536x849.png 1536w, https://www.raspberrypi.org/app/uploads/2024/09/image-3-800x442.png 800w, https://www.raspberrypi.org/app/uploads/2024/09/image-3-450x249.png 450w, https://www.raspberrypi.org/app/uploads/2024/09/image-3-900x497.png 900w, https://www.raspberrypi.org/app/uploads/2024/09/image-3.png 1600w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Figure 4: Feedback literacy at the intersection between feedback types, student feedback literacy, and teacher feedback literacy.</figcaption></figure></div>
-
-
-<p>From the feedback literacy perspective, feedback can be grouped into four types: telling, guiding, developing understanding, and opening up new perspectives. The feedback type depends on the role of the student and teacher when engaging with the feedback (Figure 5).&nbsp;</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="257" src="https://www.raspberrypi.org/app/uploads/2024/09/image-4-500x257.png" alt="Feedback types as formalised by McLean, Bond, &amp; Nicholson." class="wp-image-88182" style="width:684px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/09/image-4-500x257.png 500w, https://www.raspberrypi.org/app/uploads/2024/09/image-4-300x154.png 300w, https://www.raspberrypi.org/app/uploads/2024/09/image-4-768x395.png 768w, https://www.raspberrypi.org/app/uploads/2024/09/image-4-1536x790.png 1536w, https://www.raspberrypi.org/app/uploads/2024/09/image-4-800x412.png 800w, https://www.raspberrypi.org/app/uploads/2024/09/image-4-450x231.png 450w, https://www.raspberrypi.org/app/uploads/2024/09/image-4-900x463.png 900w, https://www.raspberrypi.org/app/uploads/2024/09/image-4.png 1600w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Figure 5: Feedback types as formalised by <a href="https://doi.org/10.1080/03075079.2013.855718" target="_blank" rel="noreferrer noopener">McLean, Bond, &amp; Nicholson</a>.</figcaption></figure></div>
-
-
-<p>From the student perspective, the competencies and dispositions students need in order to use feedback effectively can be stated as: appreciating the feedback processes, making judgements, taking action, and managing affect. Finally, from a teacher perspective, teachers apply their feedback literacy skills across three dimensions: design, relational, and pragmatic.&nbsp;</p>
-
-
-
-<p>In short, according to feedback literacy theory, effective feedback processes entail well-designed feedback with a clear pedagogical purpose, as well as the competencies students and teachers need in order to make sense of the feedback and use it effectively.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="330" src="https://www.raspberrypi.org/app/uploads/2019/03/ATHENS_CODE_CLUB_028-500x330.jpg" alt="A computing educator with three students at laptops in a classroom." class="wp-image-50374" style="width:648px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2019/03/ATHENS_CODE_CLUB_028-500x330.jpg 500w, https://www.raspberrypi.org/app/uploads/2019/03/ATHENS_CODE_CLUB_028-300x198.jpg 300w, https://www.raspberrypi.org/app/uploads/2019/03/ATHENS_CODE_CLUB_028-768x507.jpg 768w, https://www.raspberrypi.org/app/uploads/2019/03/ATHENS_CODE_CLUB_028-1636x1080.jpg 1636w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-<p>This theory therefore provided a promising lens for analysing the educators&#8217; perspectives in my study. When the educators’ views were correlated to feedback literacy theory, I found that:</p>
-
-
-
-<ol class="wp-block-list">
-<li>Educators prefer the LLM explanations to fulfil a <strong>guiding</strong> and <strong>developing understanding</strong> role, rather than <strong>telling</strong>. For example, educators prefer to either remove or delay the code solution from the explanation, and they like the explanations to include keywords based on concepts they are teaching in the classroom to guide and develop students’ understanding rather than tell.</li>
-</ol>
-
-
-
-<ol start="2" class="wp-block-list">
-<li>Related to students’ feedback literacy, educators talked about the ways in which the LLM explanations help or hinder students to <strong>make judgements</strong> and <strong>action the feedback</strong> in the explanations. For example, they talked about how detailed, jargon-free explanations can help students make judgments about the feedback, but invalid explanations can hinder this process. Therefore, teachers talked about the need for ways to manage such invalid instances. However, for the most part, the educators didn’t talk about eradicating them altogether. They talked about ways of flagging them, using them as counter-examples, and having visibility of them to be able to address them with students.</li>
-</ol>
-
-
-
-<ol start="3" class="wp-block-list">
-<li>Finally, from a teacher feedback literacy perspective, educators discussed the need for professional development to manage feedback processes inclusive of LLM feedback (<strong>design</strong>) and address issues resulting from reduced opportunities to interact with students (<strong>relational </strong>and<strong> pragmatic</strong>). For example, if using LLM explanations results in a reduction in the time teachers spend helping students debug syntax errors from a pragmatic time-saving perspective, then what does that mean for the relationship they have with their students?&nbsp;</li>
-</ol>
-
-
-
-<h2 class="wp-block-heading">Conclusion from the study</h2>
-
-
-
-<p>By correlating educators’ views to feedback literacy theory as well as enhanced PEM guidelines, we can take a broader perspective on how LLMs might not only shape the content of the explanations, but the whole social interaction around giving and receiving feedback. Investigating ways of supporting students and teachers to practise their feedback literacy skills matters just as much, if not more, than focusing on the content of PEM explanations.&nbsp;</p>
-
-
-
-<p>This study was a first-step exploration of eight educators’ views on the potential impact of using LLM explanations of PEMs in the classroom. Exactly what the findings of this study mean for classroom practice remains to be investigated, and we also need to examine students’ views on the feedback and its impact on their journey of learning to program.&nbsp;</p>
-
-
-
-<p>If you want to hear more, you can watch my seminar:</p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Explaining programming error messages using AI – V. Cucuiat | Computing education research" width="500" height="281" src="https://www.youtube.com/embed/fVD2zpGpcY0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<div style="height:38px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>You can also read the <a href="https://assets.ctfassets.net/oshmmv7kdjgm/3awxIv9oVcHrLrYE7Il51P/6ba73f4417e9e961c32dd2a4be8e0db2/Feedback_literacy_-_Holistic_analysis_of_secondary_educators__views_of_LLM_explanations_of_program_error_messages_in_the_cla.pdf">associated paper</a>, or find out more about the research instruments on this <a href="https://computingeducationresearch.org/projects/using-llms-to-explain-programming-error-messages-pilot-study/">project website</a>.</p>
-
-
-
-<p>If any of these ideas resonated with you as an educator, student, or researcher, do reach out — we’d love to hear from you. You can contact me directly at <a href="mailto:veronica.cucuiat@raspberrypi.org">veronica.cucuiat@raspberrypi.org</a> or drop us a line in the comments below.&nbsp;</p>
-
-
-
-<h2 class="wp-block-heading">Join our next seminar</h2>
-
-
-
-<p>The focus of our ongoing seminar series is on teaching programming with or without AI. Check out the <a href="https://www.raspberrypi.org/research/seminars">schedule of our upcoming seminars</a>.&nbsp;</p>
-
-
-
-<p>To take part in the next seminar, click the button below to sign up, and we will send you information about how to join. We hope to see you there.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://form.raspberrypi.org/f/research-seminar-sign-up" target="_blank" rel="noreferrer noopener">I want to join the next seminar</a></div>
-</div>
-
-
-
-<p>You can also catch up on past seminars <a href="https://www.raspberrypi.org/research/seminars">on our blog</a> and on the <a href="https://www.raspberrypi.org/research/seminars/previous">previous seminars and recordings page</a>.</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/error-message-explanations-large-language-models-teachers-views/">How useful do teachers find error message explanations generated by AI? Pilot research results</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.raspberrypi.org/blog/error-message-explanations-large-language-models-teachers-views/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
