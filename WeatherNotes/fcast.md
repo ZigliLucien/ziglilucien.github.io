@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Widespread frost after 1am. Clear. Low around 29, with temperatures rising to around 32 overnight. West northwest wind around
-         2 mph.<br></div>
+         1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
