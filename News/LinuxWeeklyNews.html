@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/994865/" title="See Description">A vulnerability in the Guix build system</a></li>
 <li><a href="#https://lwn.net/Articles/994843/" title="See Description">Kernel prepatch 6.12-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/994322/" title="See Description">[$] The long road to lazy preemption</a></li>
 <li><a href="#https://lwn.net/Articles/994703/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,34 @@
 <li><a href="#https://lwn.net/Articles/994436/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/994320/" title="See Description">LibreSSL 4.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/994268/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/993484/" title="See Description">[$] Zapping pointers out of thin air</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/994865/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Oct 2024 13:40:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/994865/" title="https://lwn.net/Articles/994865/">A vulnerability in the Guix build system</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The 
+<a href="https://guix.gnu.org/">
+Guix</a> project has
+<a href="https://guix.gnu.org/blog/2024/build-user-takeover-vulnerability/">
+disclosed</a> a security vulnerability in the build daemon that the distribution uses to build and install software locally. The vulnerability allows an existing unprivileged user to get access to a 
+<a href="https://en.wikipedia.org/wiki/Setuid">
+setuid</a> binary, and from there potentially interfere with any other software built or installed on the computer. The project recommends upgrading the guix daemon now, to avoid the issue.
+</p>
+
+<blockquote class="bq">
+This exploit requires the ability to start a derivation build and the
+ability to run arbitrary code with access to the store in the root PID
+namespace on the machine the build occurs on. As such, this represents
+an increased risk primarily to multi-user systems and systems using
+dedicated privilege-separation users for various daemons: without
+special sandboxing measures, any process of theirs can take advantage
+of this vulnerability.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/994843/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 20 Oct 2024 22:48:07 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -233,27 +258,6 @@ and many more internal changes and bug fixes.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, firefox, OpenIPMI, podman, and thunderbird), <b>Debian</b> (libapache-mod-jk, php7.4, and webkit2gtk), <b>Fedora</b> (edk2, koji, libgsf, rust-hyper-rustls, rust-reqwest, rust-rustls-native-certs, rust-rustls-native-certs0.7, rust-tonic, rust-tonic-build, rust-tonic-types, rust-tower, rust-tower-http, rust-tower-http0.5, and rust-tower0.4), <b>Mageia</b> (firefox, firefox-l10n, and thunderbird), <b>Oracle</b> (bind, container-tools:ol8, kernel, kernel-container, OpenIPMI, podman, and thunderbird), <b>Red Hat</b> (container-tools:rhel8, containernetworking-plugins, podman, and skopeo), <b>SUSE</b> (argocd-cli, bsdtar, keepalived, kernel, kyverno, libmozjs-115-0, libmozjs-128-0, libmozjs-78-0, OpenIPMI, opensc, php8, thunderbird, and xen), and <b>Ubuntu</b> (configobj, haproxy, imagemagick, nginx, and postgresql-10, postgresql-9.3).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/993484/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 15 Oct 2024 13:35:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/993484/" title="https://lwn.net/Articles/993484/">[$] Zapping pointers out of thin air</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Paul McKenney gave a presentation at Kangrejos this year that wasn't (directly)
-related to Rust. Instead, he spoke about the work he has been doing in concert
-with many other contributors on improving the handling of subtle concurrency
-problems in C++.
-Although he cautioned that his talk was only an overview, and not a
-substitute for reading the relevant papers, he hoped that the things the C++
-community is working on would be of interest to the Rust developers present as
-well, and potentially inform future work on the language. McKenney's talk was,
-as is his style, full of subtle examples of weird multithreaded behavior.
-Interested readers may wish to refer to
-<a href="https://kangrejos.com/2024/Lifetime-End%20Pointer%20Zap%20&amp;%20How%20to%20Avoid%20OOTA%20Without%20Really%20Trying.pdf">
-his slides</a> in an attempt to follow along.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
