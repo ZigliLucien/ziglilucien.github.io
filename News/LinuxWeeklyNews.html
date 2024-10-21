@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/994983/" title="See Description">A new kernel testing tree</a></li>
 <li><a href="#https://lwn.net/Articles/994962/" title="See Description">Bootc 1.1.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/993787/" title="See Description">[$] Python PGP proposal poses packaging puzzles</a></li>
 <li><a href="#https://lwn.net/Articles/994941/" title="See Description">Security updates for Monday</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/993610/" title="See Description">[$] LWN.net Weekly Edition for October 17, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/994515/" title="See Description">Forgejo 9.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/993785/" title="See Description">[$] Using LKMM atomics in Rust</a></li>
-<li><a href="#https://lwn.net/Articles/992991/" title="See Description">[$] Two pidfd tweaks: PIDFD_GET_INFO and PIDFD_SELF</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/994983/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Oct 2024 18:20:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/994983/" title="https://lwn.net/Articles/994983/">A new kernel testing tree</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Sasha Levin has <a href="https://lwn.net/ml/all/ZxZ8MStt4e8JXeJb@sashalap">announced</a> a
+new tree that is intended to perform continuous-integration tests of pull
+requests aimed at the mainline.  The plan is for this tree to hold more
+finished work than sometimes ends up in linux-next; in a name that seems
+destined to create typographical confusion, it is called "linus-next".
+<p>
+<blockquote class="bq">
+	The linus-next tree aims to provide a more stable and testable
+	integration point compared to linux-next, addressing the runtime
+	issues that make testing linux-next challenging and focusing on
+	code that's about to be pulled by Linus.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/994962/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 21 Oct 2024 16:47:54 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -264,20 +282,6 @@ need to reconcile the memory models used by Rust and the kernel,
 including a few potential avenues for doing so. While
 no consensus was reached, it is an area of active discussion.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/992991/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 16 Oct 2024 13:52:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/992991/" title="https://lwn.net/Articles/992991/">[$] Two pidfd tweaks: PIDFD_GET_INFO and PIDFD_SELF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The pidfd mechanism, which uses file descriptors to refer to processes in
-an unambiguous and race-free way, <a href="https://lwn.net/Articles/773459/">was first
-introduced</a> in 2018.  Since then, the interface has <a
-href="https://lwn.net/Articles/794707/">gained a number of new features</a>, but 
-development has slowed over time as the interface has matured.  There are,
-however, a couple of patches in circulation that are meant to make working
-with pidfds simpler in some situations.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
