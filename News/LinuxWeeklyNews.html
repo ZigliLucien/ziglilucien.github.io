@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/994962/" title="See Description">Bootc 1.1.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/993787/" title="See Description">[$] Python PGP proposal poses packaging puzzles</a></li>
+<li><a href="#https://lwn.net/Articles/994941/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/994865/" title="See Description">A vulnerability in the Guix build system</a></li>
 <li><a href="#https://lwn.net/Articles/994843/" title="See Description">Kernel prepatch 6.12-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/994322/" title="See Description">[$] The long road to lazy preemption</a></li>
@@ -50,12 +53,59 @@
 <li><a href="#https://lwn.net/Articles/994515/" title="See Description">Forgejo 9.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/993785/" title="See Description">[$] Using LKMM atomics in Rust</a></li>
 <li><a href="#https://lwn.net/Articles/992991/" title="See Description">[$] Two pidfd tweaks: PIDFD_GET_INFO and PIDFD_SELF</a></li>
-<li><a href="#https://lwn.net/Articles/994436/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/994320/" title="See Description">LibreSSL 4.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/994268/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/994962/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Oct 2024 16:47:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/994962/" title="https://lwn.net/Articles/994962/">Bootc 1.1.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://github.com/containers/bootc/releases/tag/v1.1.0">Version 1.1.0</a> of the <a
+href="https://containers.github.io/bootc/">bootc</a> utility for
+performing transactional, in-place operating system updates using <a
+href="https://opencontainers.org/">Open Container Initative</a> (OCI)
+images, has been released. This release "<q>officially stabilizes all
+APIs</q>" for bootc and includes a number of bug fixes. LWN <a
+href="https://lwn.net/Articles/979182/">covered bootc</a> in June.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/993787/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Oct 2024 15:08:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/993787/" title="https://lwn.net/Articles/993787/">[$] Python PGP proposal poses packaging puzzles</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://docs.sigstore.dev/">Sigstore</a> is a 
+project that is meant to simplify and improve the process of signing,
+verifying, and protecting software. It is a relatively new project, <a
+href="https://www.prnewswire.com/news-releases/sigstore-announces-general-availability-at-sigstorecon-301657741.html">declared</a>
+"generally available" in 2022. Python is an early adopter of sigstore; it started <a
+href="https://www.python.org/downloads/metadata/sigstore/">providing
+signatures for CPython artifacts</a> with <a
+href="https://www.python.org/downloads/release/python-3110/">Python&nbsp;3.11</a>
+in&nbsp;2022. This is in addition to the <a
+href="https://www.openpgp.org/">OpenPGP</a> signatures it has been
+providing <a href="https://peps.python.org/pep-0101/">since at
+least&nbsp;2001</a>. Now, Seth&nbsp;Michael&nbsp;Larson&mdash;the <a
+href="https://www.python.org/psf-landing/">Python Software
+Foundation</a> (PSF) <a
+href="https://pyfound.blogspot.com/2023/06/announcing-our-new-security-developer.html">security
+developer-in-residence</a>&mdash;would like to deprecate the PGP
+signature and move to sigstore exclusively by next year. If that
+happens, it will involve some changes in the way that Linux
+distributions verify Python releases, since none of the major
+distributions have processes for working with sigstore.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/994941/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Oct 2024 14:16:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/994941/" title="https://lwn.net/Articles/994941/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (asterisk, chromium, php-horde-mime-viewer, and php-horde-turba), <b>Fedora</b> (apache-commons-io, buildah, chromium, containers-common, libarchive, libdigidocpp, oath-toolkit, podman, rust-hyper-rustls, rust-reqwest, rust-rustls-native-certs, rust-rustls-native-certs0.7, rust-tonic, rust-tonic-build, rust-tonic-types, rust-tower, rust-tower-http, rust-tower-http0.5, rust-tower0.4, thunderbird, and unbound), <b>SUSE</b> (buildah, chromedriver, chromium, element-desktop, element-web, jetty-annotations, nodejs-electron, php7, php74, php8, podman, python3-virtualbox, qemu, thunderbird, and valkey), and <b>Ubuntu</b> (amd64-microcode).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/994865/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 21 Oct 2024 13:40:34 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -228,36 +278,6 @@ href="https://lwn.net/Articles/794707/">gained a number of new features</a>, but
 development has slowed over time as the interface has matured.  There are,
 however, a couple of patches in circulation that are meant to make working
 with pidfds simpler in some situations.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/994436/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 16 Oct 2024 13:24:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/994436/" title="https://lwn.net/Articles/994436/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, containernetworking-plugins, and skopeo), <b>Fedora</b> (pdns-recursor and valkey), <b>Mageia</b> (unbound), <b>Red Hat</b> (fence-agents, firefox, java-11-openjdk, python-setuptools, python3-setuptools, resource-agents, and thunderbird), <b>SUSE</b> (etcd-for-k8s, libsonivox3, rubygem-puma, and unbound), and <b>Ubuntu</b> (apr, libarchive, linux, linux-aws, linux-aws-hwe, linux-azure-4.15, linux-gcp,
- linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, nano, and vim).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/994320/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 15 Oct 2024 16:47:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/994320/" title="https://lwn.net/Articles/994320/">LibreSSL 4.0.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-4.0.0-relnotes.txt">Version 4.0.0</a> of the <a
-href="https://www.libressl.org/">LibreSSL</a> TLS/cryptography stack
-has been released. Changes include a cleanup of the MD4 and MD5
-implementations, removal of unused DSA methods, changes in libtls
-protocol parsing to ignore unsupported TLSv1.1 and TLSv1.0 protocols,
-and many more internal changes and bug fixes.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/994268/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 15 Oct 2024 13:43:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/994268/" title="https://lwn.net/Articles/994268/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, firefox, OpenIPMI, podman, and thunderbird), <b>Debian</b> (libapache-mod-jk, php7.4, and webkit2gtk), <b>Fedora</b> (edk2, koji, libgsf, rust-hyper-rustls, rust-reqwest, rust-rustls-native-certs, rust-rustls-native-certs0.7, rust-tonic, rust-tonic-build, rust-tonic-types, rust-tower, rust-tower-http, rust-tower-http0.5, and rust-tower0.4), <b>Mageia</b> (firefox, firefox-l10n, and thunderbird), <b>Oracle</b> (bind, container-tools:ol8, kernel, kernel-container, OpenIPMI, podman, and thunderbird), <b>Red Hat</b> (container-tools:rhel8, containernetworking-plugins, podman, and skopeo), <b>SUSE</b> (argocd-cli, bsdtar, keepalived, kernel, kyverno, libmozjs-115-0, libmozjs-128-0, libmozjs-78-0, OpenIPMI, opensc, php8, thunderbird, and xen), and <b>Ubuntu</b> (configobj, haproxy, imagemagick, nginx, and postgresql-10, postgresql-9.3).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
