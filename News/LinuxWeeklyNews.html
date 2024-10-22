@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/995186/" title="See Description">Several Russian developers lose kernel maintainership status</a></li>
 <li><a href="#https://lwn.net/Articles/994704/" title="See Description">[$] A report from the 2024 Image-Based Linux Summit</a></li>
 <li><a href="#https://lwn.net/Articles/995140/" title="See Description">Introducing AlmaLinux OS Kitten (AlmaLinux Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/995130/" title="See Description">Another five stable kernels</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/994322/" title="See Description">[$] The long road to lazy preemption</a></li>
 <li><a href="#https://lwn.net/Articles/994703/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/994654/" title="See Description">Rust 1.82.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/993498/" title="See Description">[$] A look at the aerc mail client</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/995186/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 22 Oct 2024 22:12:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/995186/" title="https://lwn.net/Articles/995186/">Several Russian developers lose kernel maintainership status</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Perhaps one of the more surprising changes in the 6.12-rc4 development
+kernel was <a href="https://git.kernel.org/linus/6e90b675cf94">the removal
+of several entries</a> from the kernel's <tt>MAINTAINERS</tt> file.  The <a
+href="https://lore.kernel.org/all/2024101835-tiptop-blip-09ed@gregkh/">patch</a>
+performing the removal was sent (by Greg Kroah-Hartman) only to the
+patches@lists.linux.dev mailing list; the change was included in <a
+href="https://lwn.net/ml/linux-kernel/ZxUH2J0BL3FCV6Hr@kroah.com/">a char-misc drivers
+pull request</a> with no particular mention.
+<p>
+The explanation for the removal is simply "<q>various compliance
+requirements</q>".  Given that the developers involved all appear to be of
+Russian origin, it is not too hard to imagine what sort of compliance is
+involved here.  There has, however, been no public posting of the policy
+that required the removal of these entries.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/994704/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 22 Oct 2024 19:20:45 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -281,22 +301,6 @@ for 64-bit Apple Arm systems, a new native syntax (<tt>&amp;raw</tt>) to create
 raw pointers, changes to <tt>unsafe extern</tt>, unsafe attributes,
 standardized rules around the handling of floating-point not-a-number
 values, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/993498/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Oct 2024 15:34:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/993498/" title="https://lwn.net/Articles/993498/">[$] A look at the aerc mail client</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Email has become somewhat unfashionable as a collaboration tool for
-open-source projects, but there are still a number of projects—such as
-PostgreSQL and the Linux kernel—that expect contributors to send and
-review patches via email. The <a href="https://aerc-mail.org/">aerc</a>
-mail client is aimed at developers looking for a text-based, efficient, and
-extensible client that is meant to be used for working with Git and
-email. It uses Vim-style keybindings by default, and has an interface
-inspired by <a href="https://github.com/tmux/tmux/wiki">tmux</a> that
-lets users manage multiple accounts, mails, and embedded terminals at once.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
