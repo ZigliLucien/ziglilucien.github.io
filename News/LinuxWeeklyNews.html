@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/994334/" title="See Description">[$] Toward safe transmutation in Rust</a></li>
+<li><a href="#https://lwn.net/Articles/995353/" title="See Description">Tor Browser 14.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/995337/" title="See Description">Kadlčík: Copr Modularity, the End of an Era</a></li>
 <li><a href="#https://lwn.net/Articles/993665/" title="See Description">[$] Free-software foundations face fundraising problems</a></li>
 <li><a href="#https://lwn.net/Articles/995293/" title="See Description">Security updates for Wednesday</a></li>
@@ -51,11 +53,51 @@
 <li><a href="#https://lwn.net/Articles/994962/" title="See Description">Bootc 1.1.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/993787/" title="See Description">[$] Python PGP proposal poses packaging puzzles</a></li>
 <li><a href="#https://lwn.net/Articles/994941/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/994865/" title="See Description">A vulnerability in the Guix build system</a></li>
-<li><a href="#https://lwn.net/Articles/994843/" title="See Description">Kernel prepatch 6.12-rc4</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/994334/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Oct 2024 17:40:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/994334/" title="https://lwn.net/Articles/994334/">[$] Toward safe transmutation in Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Currently in Rust, there is no efficient and safe way to turn an array of bytes
+into a structure that corresponds to the array. Changing that was the topic of
+Jack Wrenn's talk this year at
+<a href="https://rustconf.com">
+RustConf</a>:
+<a href="https://jack.wrenn.fyi/blog/safety-goggles-for-alchemists/">
+"Safety Goggles for Alchemists"</a>. The goal is to be able to "transmute" —
+Rust's name for this kind of conversion — values into arbitrary user-defined
+types in a safer way. Wrenn justified the approach that the project has taken to
+accomplish this, and spoke about the future work required to stabilize it.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/995353/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Oct 2024 17:19:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/995353/" title="https://lwn.net/Articles/995353/">Tor Browser 14.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://blog.torproject.org/new-release-tor-browser-140/">Version
+14.0</a> of the privacy-focused <a
+href="https://www.torproject.org/">Tor browser</a> has been released. 
+
+<blockquote class="bq">
+<p>This is our first stable release based on <a
+href="https://www.mozilla.org/en-US/firefox/128.0esr/releasenotes/">Firefox
+ESR 128</a>, incorporating a year's worth of changes shipped upstream
+in Firefox. As part of this process we've also completed our annual
+ESR transition audit, where we <a
+href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/?sort=updated_desc&state=all&search=Review%20Mozilla&label_name%5B%5D=14.0%20stable&first_page_size=20">reviewed and addressed over 200 Bugzilla issues</a> for changes in Firefox that
+may negatively affect the privacy and security of Tor Browser
+users. Our final reports from this audit are now available in the <a
+href="https://gitlab.torproject.org/tpo/applications/tor-browser-spec/-/tree/main/audits">tor-browser-spec
+repository</a> on our Gitlab instance.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/995337/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 23 Oct 2024 15:56:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -288,41 +330,6 @@ distributions have processes for working with sigstore.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (asterisk, chromium, php-horde-mime-viewer, and php-horde-turba), <b>Fedora</b> (apache-commons-io, buildah, chromium, containers-common, libarchive, libdigidocpp, oath-toolkit, podman, rust-hyper-rustls, rust-reqwest, rust-rustls-native-certs, rust-rustls-native-certs0.7, rust-tonic, rust-tonic-build, rust-tonic-types, rust-tower, rust-tower-http, rust-tower-http0.5, rust-tower0.4, thunderbird, and unbound), <b>SUSE</b> (buildah, chromedriver, chromium, element-desktop, element-web, jetty-annotations, nodejs-electron, php7, php74, php8, podman, python3-virtualbox, qemu, thunderbird, and valkey), and <b>Ubuntu</b> (amd64-microcode).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/994865/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 21 Oct 2024 13:40:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/994865/" title="https://lwn.net/Articles/994865/">A vulnerability in the Guix build system</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The 
-<a href="https://guix.gnu.org/">
-Guix</a> project has
-<a href="https://guix.gnu.org/blog/2024/build-user-takeover-vulnerability/">
-disclosed</a> a security vulnerability in the build daemon that the distribution uses to build and install software locally. The vulnerability allows an existing unprivileged user to get access to a 
-<a href="https://en.wikipedia.org/wiki/Setuid">
-setuid</a> binary, and from there potentially interfere with any other software built or installed on the computer. The project recommends upgrading the guix daemon now, to avoid the issue.
-</p>
-
-<blockquote class="bq">
-This exploit requires the ability to start a derivation build and the
-ability to run arbitrary code with access to the store in the root PID
-namespace on the machine the build occurs on. As such, this represents
-an increased risk primarily to multi-user systems and systems using
-dedicated privilege-separation users for various daemons: without
-special sandboxing measures, any process of theirs can take advantage
-of this vulnerability.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/994843/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 20 Oct 2024 22:48:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/994843/" title="https://lwn.net/Articles/994843/">Kernel prepatch 6.12-rc4</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/994842/">6.12-rc4</a> for testing.
-"<q>I'm not happy with how big this is - it's probably far from the biggest
-rc4 ever, but it _is_ the biggest rc4 we've had in the 6.x series at least
-in number of commits.</q>"</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
