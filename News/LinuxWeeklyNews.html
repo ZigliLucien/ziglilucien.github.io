@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/995337/" title="See Description">Kadlčík: Copr Modularity, the End of an Era</a></li>
+<li><a href="#https://lwn.net/Articles/993665/" title="See Description">[$] Free-software foundations face fundraising problems</a></li>
 <li><a href="#https://lwn.net/Articles/995293/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/995186/" title="See Description">Several Russian developers lose kernel maintainership status</a></li>
 <li><a href="#https://lwn.net/Articles/994704/" title="See Description">[$] A report from the 2024 Image-Based Linux Summit</a></li>
@@ -51,11 +53,60 @@
 <li><a href="#https://lwn.net/Articles/994941/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/994865/" title="See Description">A vulnerability in the Guix build system</a></li>
 <li><a href="#https://lwn.net/Articles/994843/" title="See Description">Kernel prepatch 6.12-rc4</a></li>
-<li><a href="#https://lwn.net/Articles/994322/" title="See Description">[$] The long road to lazy preemption</a></li>
-<li><a href="#https://lwn.net/Articles/994703/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/995337/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Oct 2024 15:56:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/995337/" title="https://lwn.net/Articles/995337/">Kadlčík: Copr Modularity, the End of an Era</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Jakub Kadlčík <a
+href="https://frostyx.cz/posts/copr-modularity-the-end-of-an-era">announced
+on his blog</a> that Fedora's <a
+href="https://copr.fedorainfracloud.org/">Copr</a> build system will
+be dropping support for building <a
+href="https://docs.fedoraproject.org/en-US/modularity/core-concepts/module-stream/">modules</a>
+(groups of RPM packages that are built, installed, and shipped
+together) soon:</p>
+
+<blockquote class="bq">
+The Fedora Modularity project never really took off, and building
+modules in Copr even less so. We've had only 14 builds in the last two
+years. It's not feasible to maintain the code for so few
+users. Modularity has also been <a
+href="https://fedoraproject.org/wiki/Changes/RetireModularity">retired
+since Fedora 39</a> and will die with RHEL 9.
+</blockquote>
+
+<p>Modularity features in Copr are now deprecated, and it will not be
+possible to submit new module builds after April&nbsp;2025. LWN <a
+href="https://lwn.net/Articles/805180/">covered</a> some of the
+problems with Fedora's <a href="https://docs.pagure.org/modularity/">modularity initiative</a> in 2019.</p>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/993665/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Oct 2024 14:52:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/993665/" title="https://lwn.net/Articles/993665/">[$] Free-software foundations face fundraising problems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>In July, at the GNOME <a
+href="https://lwn.net/Articles/983203/">annual general meeting</a> (AGM),
+held at <a
+href="https://foundation.gnome.org/2023/12/20/guadec-2024-in-denver-colorado/">GUADEC
+2024</a>,
+the message from the GNOME Foundation board was that all was well,
+financially speaking. Not <em>great</em>, but the foundation was on a
+break-even budget and expected to go into its next fiscal year with a
+similar budget and headcount. On October&nbsp;7, however, the board <a
+href="https://foundation.gnome.org/2024/10/07/update-from-the-board-2024-10/">announced</a>
+that it had had to make some cuts, including reducing its staff by
+two people. This is not, however, strictly a GNOME problem: similar
+organizations, such as the Python Software Foundation (PSF), KDE&nbsp;e.V., 
+and the Free Software Foundation Europe (FSFE) are seeing declines in
+fundraising while also being affected by inflation.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/995293/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 23 Oct 2024 13:19:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -272,30 +323,6 @@ of this vulnerability.
 "<q>I'm not happy with how big this is - it's probably far from the biggest
 rc4 ever, but it _is_ the biggest rc4 we've had in the 6.x series at least
 in number of commits.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/994322/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 18 Oct 2024 14:25:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/994322/" title="https://lwn.net/Articles/994322/">[$] The long road to lazy preemption</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's CPU scheduler currently offers several preemption modes that
-implement a range of tradeoffs between system throughput and response time.
-Back in September 2023, a <a href="https://lwn.net/Articles/944686/">discussion
-on scheduling</a> led to the concept of "lazy preemption", which could
-simplify scheduling in the kernel while providing better results.  Things
-went quiet for a while, but lazy preemption has returned in the form of <a
-href="https://lwn.net/ml/all/20241007074609.447006177@infradead.org">this patch series</a>
-from Peter Zijlstra.  While the concept appears to work well, there is
-still a fair amount of work to be done.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/994703/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 18 Oct 2024 13:25:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/994703/" title="https://lwn.net/Articles/994703/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-21-openjdk, and webkit2gtk3), <b>Debian</b> (apache2), <b>Red Hat</b> (expat), <b>SUSE</b> (cups-filters, jetty-minimal, OpenIPMI, and python-starlette), and <b>Ubuntu</b> (linux-azure, linux-azure, linux-azure-5.15, linux-azure, linux-azure-5.4, and oath-toolkit).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
