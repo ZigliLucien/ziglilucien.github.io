@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/995196/" title="See Description">[$] realloc() and the oversize importance of zero-size objects</a></li>
+<li><a href="#https://lwn.net/Articles/995550/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/994575/" title="See Description">[$] LWN.net Weekly Edition for October 24, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/994334/" title="See Description">[$] Toward safe transmutation in Rust</a></li>
 <li><a href="#https://lwn.net/Articles/995353/" title="See Description">Tor Browser 14.0 released</a></li>
@@ -51,11 +53,31 @@
 <li><a href="#https://lwn.net/Articles/995098/" title="See Description">OpenSSL 3.4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/995095/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/994983/" title="See Description">A new kernel testing tree</a></li>
-<li><a href="#https://lwn.net/Articles/994962/" title="See Description">Bootc 1.1.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/993787/" title="See Description">[$] Python PGP proposal poses packaging puzzles</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/995196/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 24 Oct 2024 15:36:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/995196/" title="https://lwn.net/Articles/995196/">[$] realloc() and the oversize importance of zero-size objects</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Small objects can lead to large email threads.  In this
+case, the GNU C Library (glibc) community has been having an extensive
+debate over the handling of zero-byte allocations.  Specifically, what
+should happen when a program calls <a
+href="https://man7.org/linux/man-pages/man3/malloc.3.html"><tt>realloc()</tt></a>
+specifying a size of zero?  This is, it seems, a topic about which some
+people, at least, have strong feelings.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/995550/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 24 Oct 2024 14:13:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/995550/" title="https://lwn.net/Articles/995550/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (grafana, NetworkManager-libreswan, python3.11, and python39:3.9 and python39-devel:3.9), <b>Fedora</b> (dotnet6.0, koji, python-fastapi, python-openapi-core, python-platformio, python-starlette, rust-pyo3, rust-pyo3-build-config, rust-pyo3-ffi, rust-pyo3-macros, rust-pyo3-macros-backend, and yarnpkg), <b>Oracle</b> (grafana, kernel, linux-firmware, NetworkManager-libreswan, and python3.11), <b>Slackware</b> (php81), and <b>SUSE</b> (apache2, buildah, cups-filters, go1.21-openssl, podman, postgresql16, python-pyOpenSSL, and webkit2gtk3).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/994575/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 24 Oct 2024 00:42:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -292,48 +314,6 @@ destined to create typographical confusion, it is called "linus-next".
 	issues that make testing linux-next challenging and focusing on
 	code that's about to be pulled by Linus.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/994962/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 21 Oct 2024 16:47:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/994962/" title="https://lwn.net/Articles/994962/">Bootc 1.1.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://github.com/containers/bootc/releases/tag/v1.1.0">Version 1.1.0</a> of the <a
-href="https://containers.github.io/bootc/">bootc</a> utility for
-performing transactional, in-place operating system updates using <a
-href="https://opencontainers.org/">Open Container Initative</a> (OCI)
-images, has been released. This release "<q>officially stabilizes all
-APIs</q>" for bootc and includes a number of bug fixes. LWN <a
-href="https://lwn.net/Articles/979182/">covered bootc</a> in June.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/993787/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 21 Oct 2024 15:08:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/993787/" title="https://lwn.net/Articles/993787/">[$] Python PGP proposal poses packaging puzzles</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://docs.sigstore.dev/">Sigstore</a> is a 
-project that is meant to simplify and improve the process of signing,
-verifying, and protecting software. It is a relatively new project, <a
-href="https://www.prnewswire.com/news-releases/sigstore-announces-general-availability-at-sigstorecon-301657741.html">declared</a>
-"generally available" in 2022. Python is an early adopter of sigstore; it started <a
-href="https://www.python.org/downloads/metadata/sigstore/">providing
-signatures for CPython artifacts</a> with <a
-href="https://www.python.org/downloads/release/python-3110/">Python&nbsp;3.11</a>
-in&nbsp;2022. This is in addition to the <a
-href="https://www.openpgp.org/">OpenPGP</a> signatures it has been
-providing <a href="https://peps.python.org/pep-0101/">since at
-least&nbsp;2001</a>. Now, Seth&nbsp;Michael&nbsp;Larson&mdash;the <a
-href="https://www.python.org/psf-landing/">Python Software
-Foundation</a> (PSF) <a
-href="https://pyfound.blogspot.com/2023/06/announcing-our-new-security-developer.html">security
-developer-in-residence</a>&mdash;would like to deprecate the PGP
-signature and move to sigstore exclusively by next year. If that
-happens, it will involve some changes in the way that Linux
-distributions verify Python releases, since none of the major
-distributions have processes for working with sigstore.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
