@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/993828/" title="See Description">[$] Kernel optimization with BOLT</a></li>
 <li><a href="#https://lwn.net/Articles/995768/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/995196/" title="See Description">[$] realloc() and the oversize importance of zero-size objects</a></li>
 <li><a href="#https://lwn.net/Articles/995550/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,31 @@
 <li><a href="#https://lwn.net/Articles/995140/" title="See Description">Introducing AlmaLinux OS Kitten (AlmaLinux Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/995130/" title="See Description">Another five stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/995098/" title="See Description">OpenSSL 3.4.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/995095/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/993828/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 25 Oct 2024 19:39:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/993828/" title="https://lwn.net/Articles/993828/">[$] Kernel optimization with BOLT</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A pair of talks in the <a
+href="https://lpc.events/event/18/sessions/180/#20240918">toolchains
+track</a> at the <a
+href="https://lpc.events/event/18/page/224-lpc-2024-overview">2024 Linux
+Plumbers Conference</a> covered different tools that can be used to
+optimize the kernel.  First up was Maksim Panchenko to describe the <a
+href="https://github.com/llvm/llvm-project/tree/main/bolt#bolt">binary
+optimization and layout tool</a> (BOLT) that Meta uses on its production
+kernels.  It optimizes the kernel binary by rearranging it to improve its
+code locality for
+better performance.  A subsequent article will cover the second talk, which
+looked at  <a
+href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45290.pdf">automatic
+feedback-directed optimization</a> (AutoFDO) and other related techniques
+that are used to optimize Google's kernels.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/995768/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 25 Oct 2024 13:48:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -304,14 +326,6 @@ number of new encryption algorithms, support for "<q>directly fetched
 composite signature algorithms such as RSA-SHA2-256</q>", and more.  See <a
 href="https://openssl-library.org/news/openssl-3.4-notes/index.html">the
 release notes</a> for details.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/995095/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 22 Oct 2024 13:36:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/995095/" title="https://lwn.net/Articles/995095/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ffmpeg, ghostscript, libsepol, openjdk-11, openjdk-17, perl, and python-sql), <b>Oracle</b> (389-ds-base, buildah, containernetworking-plugins, edk2, httpd, java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-21-openjdk, kernel, python-setuptools, skopeo, and webkit2gtk3), <b>Red Hat</b> (buildah), <b>Slackware</b> (openssl), <b>SUSE</b> (apache2, firefox, libopenssl-3-devel, podman, and python310-starlette), and <b>Ubuntu</b> (cups-browsed, firefox, libgsf, and linux-gke).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
