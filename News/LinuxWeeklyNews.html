@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/995125/" title="See Description">[$] The performance of the Rust compiler</a></li>
+<li><a href="#https://lwn.net/Articles/995397/" title="See Description">[$] AutoFDO and Propeller</a></li>
+<li><a href="#https://lwn.net/Articles/996085/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/995981/" title="See Description">Kernel prepatch 6.12-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/995159/" title="See Description">[$] OSI readies controversial Open AI definition</a></li>
 <li><a href="#https://lwn.net/Articles/993828/" title="See Description">[$] Kernel optimization with BOLT</a></li>
@@ -50,12 +53,57 @@
 <li><a href="#https://lwn.net/Articles/995337/" title="See Description">Kadlčík: Copr Modularity, the End of an Era</a></li>
 <li><a href="#https://lwn.net/Articles/993665/" title="See Description">[$] Free-software foundations face fundraising problems</a></li>
 <li><a href="#https://lwn.net/Articles/995293/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/995186/" title="See Description">Several Russian developers lose kernel maintainership status</a></li>
-<li><a href="#https://lwn.net/Articles/994704/" title="See Description">[$] A report from the 2024 Image-Based Linux Summit</a></li>
-<li><a href="#https://lwn.net/Articles/995140/" title="See Description">Introducing AlmaLinux OS Kitten (AlmaLinux Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/995125/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 28 Oct 2024 16:10:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/995125/" title="https://lwn.net/Articles/995125/">[$] The performance of the Rust compiler</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Sparrow Li presented virtually at
+<a href="https://rustconf.com">
+RustConf</a>&nbsp;2024 about the current state of and
+future plans for the Rust compiler's performance. The compiler is relatively slow to compile
+large programs, although it has been getting better over time. The next big
+performance improvement to come will be parallelizing the compiler's parsing,
+type-checking, and related operations, but even after that, the project has
+several avenues left to explore.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/995397/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 28 Oct 2024 15:15:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/995397/" title="https://lwn.net/Articles/995397/">[$] AutoFDO and Propeller</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Rong Xu and
+Han Shen described the kernel-optimization techniques that Google uses in the <a
+href="https://lpc.events/event/18/sessions/180/#20240918">toolchains
+track</a> at the <a
+href="https://lpc.events/event/18/page/224-lpc-2024-overview">2024 Linux
+Plumbers Conference</a>.
+They talked about <a
+href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45290.pdf">automatic
+feedback-directed optimization</a> (AutoFDO), which can be used with the <a
+href="https://research.google/pubs/propeller-a-profile-guided-relinking-optimizer-for-warehouse-scale-applications/">Propeller</a>
+optimizer to produce kernels with better performance using profile
+information gathered from real workloads.  There is a fair amount of
+overlap between these tools and the <a
+href="https://github.com/llvm/llvm-project/tree/main/bolt#bolt">BOLT</a>
+post-link optimizer, which was the subject of a <a
+href="https://lwn.net/Articles/993828/">talk</a> that directly preceded this session.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/996085/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 28 Oct 2024 14:13:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/996085/" title="https://lwn.net/Articles/996085/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, python3.12, and python3.9), <b>Debian</b> (activemq, chromium, libheif, nss, and twisted), <b>Fedora</b> (chromium, dnsdist, dotnet8.0, edk2, glibc, libdigidocpp, mbedtls3.6, NetworkManager-libreswan, oath-toolkit, podman-tui, prometheus-podman-exporter, python-fastapi, python-openapi-core, python-platformio, python-rpyc, python-starlette, rust-pyo3, rust-pyo3-build-config, rust-pyo3-ffi, rust-pyo3-macros, rust-pyo3-macros-backend, suricata, thunderbird, and yarnpkg), <b>Mageia</b> (cpanminus, libgsf, mozjs78, redis, and thunderbird), <b>Oracle</b> (firefox, python3.12, python3.9, and python39:3.9 and python39-devel:3.9), <b>Red Hat</b> (edk2, grafana, httpd, httpd:2.4, and mod_jk), and <b>SUSE</b> (nodejs-electron, python3, python310, and python39).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/995981/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 28 Oct 2024 00:01:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -110,7 +158,7 @@ href="https://github.com/llvm/llvm-project/tree/main/bolt#bolt">binary
 optimization and layout tool</a> (BOLT) that Meta uses on its production
 kernels.  It optimizes the kernel binary by rearranging it to improve its
 code locality for
-better performance.  A subsequent article will cover the second talk, which
+better performance.  A <a href="https://lwn.net/Articles/995397/">subsequent article</a> will cover the second talk, which
 looked at  <a
 href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45290.pdf">automatic
 feedback-directed optimization</a> (AutoFDO) and other related techniques
@@ -255,90 +303,6 @@ fundraising while also being affected by inflation.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (dmitry, libheif, and python-sql), <b>Fedora</b> (suricata and wireshark), <b>SUSE</b> (cargo-c, libeverest, protobuf, and qemu), and <b>Ubuntu</b> (golang-1.22, libheif, unbound, and webkit2gtk).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/995186/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 22 Oct 2024 22:12:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/995186/" title="https://lwn.net/Articles/995186/">Several Russian developers lose kernel maintainership status</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Perhaps one of the more surprising changes in the 6.12-rc4 development
-kernel was <a href="https://git.kernel.org/linus/6e90b675cf94">the removal
-of several entries</a> from the kernel's <tt>MAINTAINERS</tt> file.  The <a
-href="https://lore.kernel.org/all/2024101835-tiptop-blip-09ed@gregkh/">patch</a>
-performing the removal was sent (by Greg Kroah-Hartman) only to the
-patches@lists.linux.dev mailing list; the change was included in <a
-href="https://lwn.net/ml/linux-kernel/ZxUH2J0BL3FCV6Hr@kroah.com/">a char-misc drivers
-pull request</a> with no particular mention.
-<p>
-The explanation for the removal is simply "<q>various compliance
-requirements</q>".  Given that the developers involved all appear to be of
-Russian origin, it is not too hard to imagine what sort of compliance is
-involved here.  There has, however, been no public posting of the policy
-that required the removal of these entries.
-<p>
-<b>Update</b>: Linus Torvalds has since <a
-href="https://lwn.net/ml/all/CAHk-=whNGNVnYHHSXUAsWds_MoZ-iEgRMQMxZZ0z-jY4uHT+Gg@mail.gmail.com">publicly
-supported this action</a> and said that it will not be reverted.
-
-<p>
-<b>Update 2</b>: James Bottomley has <a href="https://lwn.net/ml/all/7ee74c1b5b589619a13c6318c9fbd0d6ac7c334a.camel@HansenPartnership.com/">clarified</a> the requirements:
-<blockquote class="bq">
-If your company is on the U.S. OFAC SDN lists, subject to an OFAC
-   sanctions program, or owned/controlled by a company on the list, our
-   ability to collaborate with you will be subject to restrictions, and
-   you cannot be in the MAINTAINERS file.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/994704/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 22 Oct 2024 19:20:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/994704/" title="https://lwn.net/Articles/994704/">[$] A report from the 2024 Image-Based Linux Summit</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The Image-Based Linux Summit has by now established itself as a yearly event.
-Following on from <a href="https://lwn.net/Articles/946526/">last year's edition</a>,
-the third edition was held in Berlin on September&nbsp;24, the
-day before
-<a href="https://all-systems-go.io">
-All Systems Go!&nbsp;2024</a> (ASG). The purpose of this event is to gather
-stakeholders from various engineering groups and hold friendly but lively
-discussions around the topic of image-based Linux — that is, Linux distributions
-based around immutable images, instead of mutable root filesystems.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/995140/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 22 Oct 2024 15:56:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/995140/" title="https://lwn.net/Articles/995140/">Introducing AlmaLinux OS Kitten (AlmaLinux Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://almalinux.org/">AlmaLinux project</a> has <a href="https://almalinux.org/blog/2024-10-22-introducing-almalinux-os-kitten/">introduced</a> a new edition called "Kitten",
-which will serve as "<q>the direct upstream for AlmaLinux OS and is
-the primary point for the AlmaLinux community to engage and influence
-the future of AlmaLinux OS</q>". Not intended for production use, the
-first release is based on CentOS&nbsp;Stream&nbsp;10 source, which
-will eventually be the basis for Red Hat Enterprise Linux (RHEL)
-10:</p>
-
-<blockquote class="bq">
-Because we anticipated many changes in 10, we wanted to get a head
-start on building AlmaLinux OS 10. Earlier this year we started
-setting up infrastructure and the build pipeline for AlmaLinux OS 10,
-and started testing using CentOS Stream 10's code. Based on this
-preparation work, we are excited to share that we have successfully
-built a preview of AlmaLinux OS 10 that we are calling AlmaLinux OS
-Kitten 10.
-</blockquote>
-
-<p>The first Kitten release previews a number of ways that AlmaLinux will
-diverge from RHEL 10, including re-enabling frame pointers,
-including Simple Protocol for Independent Computing Environments
-(SPICE), and adding packages for Firefox and Thunderbird, which have
-been dropped from CentOS&nbsp;Stream&nbsp;10 in favor of Flatpak versions. New
-installation images for Kitten will be built quarterly. See the <a
-href="https://wiki.almalinux.org/release-notes/kitten-10.html">release
-notes</a> for download links, installation instructions, and more
-information.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
