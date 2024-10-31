@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/996585/" title="See Description">October project goals update (Rust Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/995992/" title="See Description">[$] The Overture open-mapping project</a></li>
 <li><a href="#https://lwn.net/Articles/996526/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/995490/" title="See Description">[$] LWN.net Weekly Edition for October 31, 2024</a></li>
@@ -52,10 +53,39 @@
 <li><a href="#https://lwn.net/Articles/996196/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/996147/" title="See Description">Flock: a Flutter fork</a></li>
 <li><a href="#https://lwn.net/Articles/996108/" title="See Description">Coker: The CUPS vulnerability</a></li>
-<li><a href="#https://lwn.net/Articles/996104/" title="See Description">Open Source Initiative announces Open Source AI Definition 1.0</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/996585/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 31 Oct 2024 21:26:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/996585/" title="https://lwn.net/Articles/996585/">October project goals update (Rust Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Rust blog has an <a
+href="https://blog.rust-lang.org/2024/10/31/project-goals-oct-update.html">update</a>
+on its progress on some of its <a
+href="https://rust-lang.github.io/rust-project-goals/2024h2/goals.html">project
+goals</a>. One of the project's <a
+href="https://rust-lang.github.io/rust-project-goals/2024h2/goals.html#flagship-goals">flagship
+goals</a> is to <a
+href="https://rust-lang.github.io/rust-project-goals/2024h2/rfl_stable.html">resolve
+the biggest blockers to Linux building on stable Rust</a>:</p>
+
+<blockquote class="bq">
+Finally, we have been finding an increasing number of stabilization
+requests at the compiler level, and so @wesleywiser and @davidtwco
+from the compiler team have started attending meetings to create a
+faster response. One of the results of that collaboration is <a
+href="https://github.com/rust-lang/rfcs/pull/3716">RFC #3716</a>,
+authored by Alice Ryhl, which proposes a method to manage compiler
+flags that modify the target ABI. Our previous approach has been to
+create distinct targets for each combination of flags, but the number
+of flags needed by the kernel make that impractical. Authoring the RFC
+revealed more such flags than previously recognized, including those
+that modify LLVM behavior.
+</blockquote>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/995992/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 31 Oct 2024 16:48:05 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -287,32 +317,6 @@ was quite confident that my systems wouldn't be at any risk.</p>
 href="https://www.securityweek.com/highly-anticipated-linux-flaw-allows-remote-code-execution-but-less-serious-than-expected/">it
 turned out to be a series of CUPS bugs</a>.</p>
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/996104/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 28 Oct 2024 21:03:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/996104/" title="https://lwn.net/Articles/996104/">Open Source Initiative announces Open Source AI Definition 1.0</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://opensource.org/">Open Source Initiative</a>
-(OSI) has <a
-href="https://opensource.org/blog/the-open-source-initiative-announces-the-release-of-the-industrys-first-open-source-ai-definition">announced</a>
-the release of <a
-href="https://opensource.org/ai/open-source-ai-definition">version
-1.0</a> of the Open Source AI Definition:</p>
-
-<blockquote class="bq">
-The OSAID offers a standard by which community-led, open and public
-evaluations will be conducted to validate whether or not an AI system
-can be deemed Open Source AI. This first stable version of the OSAID
-is the result of multiple years of research and collaboration, an
-international roadshow of workshops, and a year-long co-design process
-led by the Open Source Initiative (OSI).
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/995159/">covered</a> the
-OSAID process, and final release candidate, on October 25.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
