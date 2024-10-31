@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Showers and thunderstorms before 1pm, then a chance of showers and thunderstorms between 1pm and 4pm. Cloudy. High near 71,
-         with temperatures falling to around 64 in the afternoon. West southwest wind 8 to 15 mph, with gusts as high as 33 mph. Chance
+         with temperatures falling to around 64 in the afternoon. West southwest wind 7 to 13 mph, with gusts as high as 28 mph. Chance
          of precipitation is 80%.<br></div>
    </p>
    <p>
