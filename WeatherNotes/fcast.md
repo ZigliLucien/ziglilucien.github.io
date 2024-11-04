@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of rain showers before midnight, then a chance of showers and thunderstorms. Cloudy, with a low around 66. South
-         wind 6 to 17 mph, with gusts as high as 28 mph. Chance of precipitation is 50%.<br></div>
+         wind 8 to 17 mph, with gusts as high as 28 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
