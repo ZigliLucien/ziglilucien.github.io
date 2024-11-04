@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A chance of showers and thunderstorms before 3pm, then a chance of showers and thunderstorms. Partly sunny. High near 76,
-         with temperatures falling to around 74 in the afternoon. South wind around 16 mph, with gusts as high as 29 mph. Chance of
-         precipitation is 30%.<br></div>
+         with temperatures falling to around 74 in the afternoon. South wind 8 to 15 mph, with gusts as high as 28 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -13,7 +13,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Rain showers before noon, then showers and thunderstorms. Cloudy. High near 73, with temperatures falling to around 66 in
+         <h3>Tuesday</h3>Rain showers before noon, then showers and thunderstorms. Cloudy. High near 73, with temperatures falling to around 67 in
          the afternoon. South southwest wind 10 to 20 mph, with gusts as high as 31 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
@@ -27,40 +27,39 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain showers. Partly cloudy, with a low around 48. North northeast wind around 6 mph. Chance of precipitation
+         <h3>Wednesday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 49. North northeast wind around 6 mph. Chance of precipitation
          is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A slight chance of rain showers before noon. Mostly sunny, with a high near 65. North northeast wind 6 to 9 mph. Chance of
-         precipitation is 20%.<br></div>
+         <h3>Thursday</h3>Partly sunny, with a high near 66. North northeast wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A slight chance of rain showers. Partly cloudy, with a low around 48. Northeast wind around 6 mph.<br></div>
+         <h3>Thursday Night</h3>A slight chance of rain showers after midnight. Partly cloudy, with a low around 47. Northeast wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A slight chance of rain showers. Mostly sunny, with a high near 67. East northeast wind 6 to 9 mph.<br></div>
+         <h3>Friday</h3>A slight chance of rain showers. Partly sunny, with a high near 66. Northeast wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 51. East wind around 7 mph.<br></div>
+         <h3>Friday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 51. East northeast wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of rain showers. Partly sunny, with a high near 68. Southeast wind around 9 mph.<br></div>
+         <h3>Saturday</h3>Rain showers likely. Partly sunny, with a high near 67. East southeast wind around 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Rain showers likely. Mostly cloudy, with a low around 53. South wind around 7 mph.<br></div>
+         <h3>Saturday Night</h3>Rain showers. Mostly cloudy, with a low around 52. South wind around 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of rain showers. Mostly sunny, with a high near 67. Southwest wind around 9 mph.<br></div>
+         <h3>Sunday</h3>A chance of rain showers. Mostly sunny, with a high near 66. Southwest wind 7 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of rain showers. Partly cloudy, with a low around 46. Southwest wind around 6 mph.<br></div>
+         <h3>Sunday Night</h3>A chance of rain showers. Partly cloudy, with a low around 48. West southwest wind 2 to 6 mph.<br></div>
    </p>
 </div>
