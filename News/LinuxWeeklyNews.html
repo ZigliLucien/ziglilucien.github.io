@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/997002/" title="See Description">The BPF instruction set architecture is now RFC 9669</a></li>
+<li><a href="#https://lwn.net/Articles/997030/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/994961/" title="See Description">[$] The OpenWrt One system</a></li>
 <li><a href="#https://lwn.net/Articles/996908/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/996828/" title="See Description">Kernel prepatch 6.12-rc6</a></li>
@@ -51,11 +53,41 @@
 <li><a href="#https://lwn.net/Articles/996337/" title="See Description">Ravier: What's new for Fedora Atomic Desktops in Fedora 41</a></li>
 <li><a href="#https://lwn.net/Articles/996332/" title="See Description">A new release of Raspberry Pi OS</a></li>
 <li><a href="#https://lwn.net/Articles/995383/" title="See Description">[$] An update on Apple M1/M2 GPU drivers</a></li>
-<li><a href="#https://lwn.net/Articles/996326/" title="See Description">Thunderbird for Android now available</a></li>
-<li><a href="#https://lwn.net/Articles/996310/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/997002/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 05 Nov 2024 14:43:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/997002/" title="https://lwn.net/Articles/997002/">The BPF instruction set architecture is now RFC 9669</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>After a couple of years of effort, the BPF instruction set architecture has
+been accepted as <a href="https://www.rfc-editor.org/rfc/rfc9669.html">RFC
+9669</a>, giving it a standard outside of the in-kernel implementation.  <a
+href="https://lwn.net/ml/all/20241105035101.GD41004@maniforge">This message from David
+Vernet</a> (who also contributed <a href="https://lwn.net/Articles/926882/">an article on
+the standardization process</a> last year) describes the process and why it
+is important:
+<p>
+<blockquote class="bq">
+	Though some vendors have already implemented BPF offloading
+	capabilities without having a standardized ISA, others are not
+	quite as risk tolerant. As Christoph [Hellwig] discussed at LSFMM
+	2022, certain NVMe vendors have expressed an interest in building
+	BPF offloading capabilities for various use cases such as eXpress
+	Resubmission Path (XRP), but they simply can't fund such a project
+	without certain components of BPF being standardized. Hence, the
+	effort to standardize BPF was born.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/997030/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 05 Nov 2024 14:42:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/997030/" title="https://lwn.net/Articles/997030/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, openexr, and thunderbird), <b>Fedora</b> (llama-cpp and python-quart), <b>Oracle</b> (firefox, openexr, thunderbird, and xorg-x11-server and xorg-x11-server-Xwayland), <b>SUSE</b> (chromium, govulncheck-vulndb, openssl-1_1, python311, and python312), and <b>Ubuntu</b> (linux-azure, linux-bluefield, linux-azure, linux-gcp, linux-ibm, openjpeg2, and ruby3.0, ruby3.2, ruby3.3).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/994961/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 04 Nov 2024 16:04:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -257,46 +289,6 @@ href="https://www.youtube.com/watch?v=TtLP5sAXYKo">YouTube video</a>, <a href="h
 There has been lots of progress since her talk at XDC last year (<a
 href="https://www.youtube.com/watch?v=O36VFNdQHsE">YouTube video</a>),
 with, of course, still more to come.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/996326/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 30 Oct 2024 15:41:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/996326/" title="https://lwn.net/Articles/996326/">Thunderbird for Android now available</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://blog.thunderbird.net/2024/10/thunderbird-for-android-8-0-takes-flight/">first stable release</a> of the Thunderbird mail client for Android is now available:</p>
-
-<blockquote class="bq">
-Just over two years ago, we <a
-href="https://blog.thunderbird.net/2022/06/revealed-thunderbird-on-android-plans-k9/">announced
-our plans</a> to bring Thunderbird to Android by taking K-9 Mail under
-our wing. The journey took a <a
-href="https://blog.thunderbird.net/2023/12/when-will-thunderbird-for-android-be-released/">little
-longer than we had originally anticipated</a> and there was a lot to
-learn along the way, but the wait is finally over! For all of you who
-have ever asked "when is Thunderbird for Android coming out?", the
-answer is – today!
-</blockquote>
-
-<p>It is immediately available on the <a
-href="https://play.google.com/store/apps/details?id=net.thunderbird.android">Google
-Play Store</a>, via <a
-href="https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_8_0">GitHub
-Releases</a>, or from the <a
-href="https://thunderbird.net/mobile/">Thunderbird web site</a>, and
-it will be "<q>coming soon</q>" to the <a
-href="https://f-droid.org/en/">F-Droid</a> repository for FOSS Android
-applications. See the <a
-href="https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_8_0">release
-notes</a> for detailed information about Thunderbird&nbsp;8.0 for
-Android.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/996310/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 30 Oct 2024 13:19:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/996310/" title="https://lwn.net/Articles/996310/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah), <b>Debian</b> (python-git, texlive-bin, and xorg-server), <b>Mageia</b> (chromium-browser-stable), <b>Red Hat</b> (kernel), <b>SUSE</b> (Botan, go1.22-openssl, go1.23-openssl, grafana, libgsf, pcp, pgadmin4, python310-pytest-html, python313, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (nano, python-urllib3, and xorg-server, xwayland).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
