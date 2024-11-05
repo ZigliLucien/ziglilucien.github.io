@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/997034/" title="See Description">LXQt 2.1.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/995814/" title="See Description">[$] Safety in an unsafe world</a></li>
 <li><a href="#https://lwn.net/Articles/997002/" title="See Description">The BPF instruction set architecture is now RFC 9669</a></li>
 <li><a href="#https://lwn.net/Articles/997030/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/994961/" title="See Description">[$] The OpenWrt One system</a></li>
@@ -51,11 +53,51 @@
 <li><a href="#https://lwn.net/Articles/996526/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/995490/" title="See Description">[$] LWN.net Weekly Edition for October 31, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/996337/" title="See Description">Ravier: What's new for Fedora Atomic Desktops in Fedora 41</a></li>
-<li><a href="#https://lwn.net/Articles/996332/" title="See Description">A new release of Raspberry Pi OS</a></li>
-<li><a href="#https://lwn.net/Articles/995383/" title="See Description">[$] An update on Apple M1/M2 GPU drivers</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/997034/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 05 Nov 2024 15:17:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/997034/" title="https://lwn.net/Articles/997034/">LXQt 2.1.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://lxqt-project.org/release/2024/11/05/release-lxqt-2-1-0/">Version
+2.1.0</a> of the <a href="https://lxqt-project.org/">LXQt</a>
+lightweight Qt desktop environment has been released. The highlight of
+this release is support for multiple Wayland compositors:</p>
+
+<blockquote class="bq">
+<p>Through its new component <tt>lxqt-wayland-session</tt>, LXQt 2.1.0
+supports 7 Wayland sessions (with Labwc, KWin, Wayfire, Hyprland,
+Sway, River and Niri), has two Wayland back-ends in
+<tt>lxqt-panel</tt> (one for <tt>kwin_wayland</tt> and the other
+general), and will add more later. All LXQt components that are not
+limited to X11 — i.e., most components — work fine on Wayland. [...]</p>
+
+<p><em><strong>Of course, the X11 session will be supported
+indefinitely</strong></em>. Wayland is optional and rather experimental.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/995814/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 05 Nov 2024 15:16:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/995814/" title="https://lwn.net/Articles/995814/">[$] Safety in an unsafe world</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Joshua Liebow-Feeser took to the stage at
+<a href="https://rustconf.com">RustConf</a> to describe the methodology
+that his team uses to encode
+arbitrary constraints in the Rust type system when working on the
+<a href="https://en.wikipedia.org/wiki/Fuchsia_(operating_system)">
+Fuchsia operating system</a>
+(<a href="https://joshlf.com/files/talks/Safety%20in%20an%20Unsafe%20World.pdf">slides</a>).
+The technique is not unknown to
+the Rust community, but Liebow-Feeser did a good job of both explaining the
+method and making a case for why it should be used more widely. 
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/997002/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 05 Nov 2024 14:43:37 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -247,49 +289,6 @@ default for UEFI systems, first steps towards using <a
 href="https://containers.github.io/bootable/">bootable containers</a>,
 and more.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/996332/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 30 Oct 2024 16:41:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/996332/" title="https://lwn.net/Articles/996332/">A new release of Raspberry Pi OS</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Raspberry Pi project has <a
-href="https://www.raspberrypi.com/news/a-new-release-of-raspberry-pi-os/">announced</a>
-a new version of Raspberry Pi OS. It includes a number of
-significant changes, the most notable of which is that the Raspberry
-Pi Desktop now uses Wayland by default for all Pi models using the
-<a href="https://labwc.github.io/">labwc</a> compositor:</p>
-
-<blockquote class="bq">
-For most of this year, we have been working on porting labwc to the
-Raspberry Pi Desktop. This has very much been a collaborative process
-with the developers of both labwc and wlroots: both have helped us
-immensely with their support as we contribute features and
-optimisations needed for our desktop.
-</blockquote>
-
-<p>This release also features Linux 6.6.51, improved touchscreen support, a new
-screen configuration tool called <tt>raindrop</tt>, and more. See the
-<a
-href="https://downloads.raspberrypi.com/raspios_armhf/release_notes.txt">release
-notes</a> for a full list of changes.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/995383/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 30 Oct 2024 16:23:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/995383/" title="https://lwn.net/Articles/995383/">[$] An update on Apple M1/M2 GPU drivers</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel graphics driver for the Apple M1 and M2 GPUs is, rather
-famously, written in Rust, but it has achieved conformance with
-various graphics standards, which is also noteworthy.  At the <a
-href="https://indico.freedesktop.org/event/6/">X.Org Developers Conference
-(XDC)&nbsp;2024</a>, Alyssa Rosenzweig gave an update on the status of the
-driver, along with some news about the kinds of games it can support (<a
-href="https://www.youtube.com/watch?v=TtLP5sAXYKo">YouTube video</a>, <a href="https://indico.freedesktop.org/event/6/contributions/284/attachments/230/310/slides.pdf ">slides</a>).
-There has been lots of progress since her talk at XDC last year (<a
-href="https://www.youtube.com/watch?v=O36VFNdQHsE">YouTube video</a>),
-with, of course, still more to come.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
