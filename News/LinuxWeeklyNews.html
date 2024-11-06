@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/996329/" title="See Description">[$] Building secure images with NixOS</a></li>
+<li><a href="#https://lwn.net/Articles/997193/" title="See Description">Funding restored for man-page maintenance</a></li>
 <li><a href="#https://lwn.net/Articles/997182/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/997034/" title="See Description">LXQt 2.1.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/995814/" title="See Description">[$] Safety in an unsafe world</a></li>
@@ -51,11 +53,57 @@
 <li><a href="#https://lwn.net/Articles/996679/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/996585/" title="See Description">October project goals update (Rust Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/995992/" title="See Description">[$] The Overture open-mapping project</a></li>
-<li><a href="#https://lwn.net/Articles/996526/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/995490/" title="See Description">[$] LWN.net Weekly Edition for October 31, 2024</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/996329/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 06 Nov 2024 16:35:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/996329/" title="https://lwn.net/Articles/996329/">[$] Building secure images with NixOS</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Image-based Linux distributions have seen increasing popularity, recently. They
+promise reliability and security, but pose packaging problems for
+existing distributions. Ryan Lahfa and Niklas Sturm spoke about the work that
+NixOS has done to enable an image-based workflow at this year's
+<a href="https://all-systems-go.io/">
+All Systems Go!</a>
+conference in Berlin.
+Unfortunately, LWN was not able to cover the conference for scheduling reasons,
+but the
+<a href="https://www.youtube.com/watch?v=YAl27ciB6c8&list=PLWYdJViL9EipIImmvuoGFAeS-lKeHH2DD">
+videos of the event</a> are available for anyone interested in watching the
+talks.
+Lahfa and Sturm explained that it is currently possible to create a
+<a href="https://nixos.org/">
+NixOS</a> system that
+cryptographically verifies the kernel, initrd, and Nix store on boot — although
+doing so still has some rough edges. Making an image-based NixOS installation is
+similarly possible.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/997193/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 06 Nov 2024 15:48:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/997193/" title="https://lwn.net/Articles/997193/">Funding restored for man-page maintenance</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Man pages maintainer Alejandro Colomar <a
+href="https://lwn.net/Articles/989215/">announced</a> in September that he was suspending
+his work due to a lack of support.  He has now <a
+href="https://lwn.net/ml/all/nimzecx26lzxo2v64qjazmisbwfeljpto522wlnauktqesmdoc@gv3yrp64cvug">let
+it be known</a> that funding has been found for the next year at least:
+<p>
+<blockquote class="bq">
+	We've been talking for a couple of months, and we have already
+	agreed to sign a contract through the LF [Linux Foundation], where
+	a number of companies provide the funds for the contract.  The
+	contract will cover the next 12 months for the agreed amount, and
+	we should sign it in the following days.  Since I've already seen a
+	draft of the contract, and it looks good, I've already started
+	maintaining the project again, starting on Nov 1st.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/997182/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 06 Nov 2024 14:13:03 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -264,22 +312,6 @@ href="https://overturemaps.org/">Overture Maps Foundation</a>, which is
 building and distributing a set of worldwide maps under open licenses.
 Overture may have a similar goal to OpenStreetMap, but its approach and
 intended uses are significantly different.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/996526/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 31 Oct 2024 14:43:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/996526/" title="https://lwn.net/Articles/996526/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr and openssl), <b>Fedora</b> (firefox, libarchive, micropython, NetworkManager-libreswan, and xorg-x11-server-Xwayland), <b>Red Hat</b> (nano), <b>Slackware</b> (mozilla-firefox, mozilla-thunderbird, tigervnc, and xorg), <b>SUSE</b> (389-ds, Botan, go1.21-openssl, govulncheck-vulndb, java-11-openjdk, lxc, python-Werkzeug, and uwsgi), and <b>Ubuntu</b> (firefox, libarchive, linux-azure-fde, linux-azure-fde-5.15, python-pip, and xorg-server, xorg-server-hwe-16.04, xorg-server-hwe-18.04).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/995490/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 31 Oct 2024 00:42:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/995490/" title="https://lwn.net/Articles/995490/">[$] LWN.net Weekly Edition for October 31, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for October 31, 2024 is available.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
