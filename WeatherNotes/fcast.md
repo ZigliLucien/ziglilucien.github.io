@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms likely before 10pm. Mostly cloudy. Low around 53, with temperatures rising to around 56 overnight.
-         West wind 2 to 7 mph. Chance of precipitation is 70%.<br></div>
+         West northwest wind 2 to 6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
