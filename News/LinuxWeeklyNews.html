@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/997094/" title="See Description">[$] The trouble with struct sockaddr's fake flexible array</a></li>
+<li><a href="#https://lwn.net/Articles/997378/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/996377/" title="See Description">[$] LWN.net Weekly Edition for November 7, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/996329/" title="See Description">[$] Building secure images with NixOS</a></li>
 <li><a href="#https://lwn.net/Articles/997193/" title="See Description">Funding restored for man-page maintenance</a></li>
@@ -51,11 +53,34 @@
 <li><a href="#https://lwn.net/Articles/996828/" title="See Description">Kernel prepatch 6.12-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/996356/" title="See Description">[$] OSI board AMA at All Things Open</a></li>
 <li><a href="#https://lwn.net/Articles/996687/" title="See Description">Four Friday stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/996679/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/996585/" title="See Description">October project goals update (Rust Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/997094/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 07 Nov 2024 16:34:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/997094/" title="https://lwn.net/Articles/997094/">[$] The trouble with struct sockaddr's fake flexible array</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Flexible arrays — arrays that are declared as the final member of a
+structure and which have a size determined at run time — have long drawn
+the attention of developers seeking to harden the kernel against
+buffer-overflow vulnerabilities.  These arrays have reliably been a source
+of bugs, so anything that can be done to ensure that operations on them
+stay within bounds is a welcome improvement.  While many improvements,
+including the recent <a href="https://lwn.net/Articles/936728/">counted-by work</a>, have
+been made, one of the most difficult cases remains.  Now, however,
+developers who are interested in using recent compiler bounds-checking
+features are trying to get a handle on <tt>struct sockaddr</tt>.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/997378/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 07 Nov 2024 16:14:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/997378/" title="https://lwn.net/Articles/997378/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bcc, bpftrace, bzip2, container-tools:rhel8, grafana-pcp, haproxy, kernel, kernel-rt, krb5, libtiff, python-gevent, python3.11, python3.11-urllib3, python3.12, python3.12-urllib3, xmlrpc-c, and xorg-x11-server and xorg-x11-server-Xwayland), <b>Debian</b> (puma and pypy3), <b>Fedora</b> (firefox), <b>Gentoo</b> (libgit2), <b>Mageia</b> (libarchive), <b>SUSE</b> (ghostscript, go1.22-openssl, go1.23-openssl, htmldoc, kmail-account-wizard, libarchive, libgsf, libmozjs-128-0, openssl-3, python-jupyterlab, python-mysql-connector-python, python36, and ruby2.1), and <b>Ubuntu</b> (cinder, linux-aws, linux-aws-6.8, linux-oracle, linux-oracle-6.8, linux-aws, linux-azure-5.4, linux-kvm, linux-oracle, linux-xilinx-zynqmp, and linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/996377/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 07 Nov 2024 02:57:15 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -267,44 +292,6 @@ Greg Kroah-Hartman has released another four stable Linux kernel updates:
 <a href="https://lwn.net/Articles/996690/">6.1.115</a>, and
 <a href="https://lwn.net/Articles/996691/">5.15.170</a>.
 </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/996679/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 01 Nov 2024 12:44:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/996679/" title="https://lwn.net/Articles/996679/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr), <b>Fedora</b> (xorg-x11-server-Xwayland), <b>Oracle</b> (buildah, e2fsprogs, grafana, kernel, and mod_http2), <b>Red Hat</b> (buildah, container-tools:rhel8, firefox, grafana, grafana:7.3.6, podman, and thunderbird), <b>SUSE</b> (alloy, cargo-audit-advisory-db-20241030, chromedriver, corepack22, netty, openvpn, python310-Werkzeug, thunderbird, uwsgi, and xsd), and <b>Ubuntu</b> (linux, linux-azure-6.8, linux-gcp-6.8, linux-hwe-6.8 and linux, linux-gcp, linux-gcp-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/996585/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 31 Oct 2024 21:26:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/996585/" title="https://lwn.net/Articles/996585/">October project goals update (Rust Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Rust blog has an <a
-href="https://blog.rust-lang.org/2024/10/31/project-goals-oct-update.html">update</a>
-on its progress on some of its <a
-href="https://rust-lang.github.io/rust-project-goals/2024h2/goals.html">project
-goals</a>. One of the project's <a
-href="https://rust-lang.github.io/rust-project-goals/2024h2/goals.html#flagship-goals">flagship
-goals</a> is to <a
-href="https://rust-lang.github.io/rust-project-goals/2024h2/rfl_stable.html">resolve
-the biggest blockers to Linux building on stable Rust</a>:</p>
-
-<blockquote class="bq">
-Finally, we have been finding an increasing number of stabilization
-requests at the compiler level, and so @wesleywiser and @davidtwco
-from the compiler team have started attending meetings to create a
-faster response. One of the results of that collaboration is <a
-href="https://github.com/rust-lang/rfcs/pull/3716">RFC #3716</a>,
-authored by Alice Ryhl, which proposes a method to manage compiler
-flags that modify the target ABI. Our previous approach has been to
-create distinct targets for each combination of flags, but the number
-of flags needed by the kernel make that impractical. Authoring the RFC
-revealed more such flags than previously recognized, including those
-that modify LLVM behavior.
-</blockquote>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
