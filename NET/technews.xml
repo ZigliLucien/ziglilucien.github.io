@@ -12,7 +12,7 @@
 	<atom:link href="https://www.raspberrypi.org/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.raspberrypi.org/</link>
 	<description>Teach, learn and make with Raspberry Pi</description>
-	<lastBuildDate>Thu, 31 Oct 2024 10:51:41 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 07 Nov 2024 11:27:58 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,176 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Using generative AI to teach computing: Insights from research</title>
+		<link>https://www.raspberrypi.org/blog/using-generative-ai-to-teach-computing-insights-from-research/</link>
+					<comments>https://www.raspberrypi.org/blog/using-generative-ai-to-teach-computing-insights-from-research/#respond</comments>
+		
+		<dc:creator><![CDATA[Katharine Childs]]></dc:creator>
+		<pubDate>Thu, 07 Nov 2024 11:27:57 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[research seminar]]></category>
+		<category><![CDATA[generative ai tools]]></category>
+		<category><![CDATA[large language models]]></category>
+		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88838</guid>
+
+					<description><![CDATA[<p>As computing technologies continue to rapidly evolve in today’s digital world, computing education is becoming increasingly essential. Arto Hellas and Juho Leinonen, researchers at Aalto University in Finland, are exploring how innovative teaching methods can equip students with the computing skills they need to stay ahead. In particular, they are looking at how generative AI&#8230;</p>
+<p>The post <a href="https://www.raspberrypi.org/blog/using-generative-ai-to-teach-computing-insights-from-research/">Using generative AI to teach computing: Insights from research</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>As computing technologies continue to rapidly evolve in today’s digital world, computing education is becoming increasingly essential. <a href="https://www.aalto.fi/en/people/arto-hellas">Arto Hellas</a> and <a href="https://juholeinonen.com/">Juho Leinonen</a>, researchers at <a href="https://www.aalto.fi/en">Aalto University</a> in Finland, are exploring how innovative teaching methods can equip students with the computing skills they need to stay ahead. In particular, they are looking at how generative AI tools can enhance university-level computing education.&nbsp;</p>
+
+
+
+<p>In our <a href="https://www.raspberrypi.org/research/seminars">monthly seminar</a> in September, Arto and Juho presented their research on using AI tools to provide personalised learning experiences and automated feedback to help requests, as well as their findings on teaching students how to write effective prompts for generative AI systems. While their research focuses primarily on undergraduate students — given that they teach such students — many of their findings have potential relevance for primary and secondary (K-12) computing education.&nbsp;</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" width="500" height="329" src="https://www.raspberrypi.org/app/uploads/2024/07/ICS_Discovery-day-Queen-Mary_6.7.22-21-500x329.jpg" alt="Students attend a lecture at a university." class="wp-image-87829" style="width:642px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/07/ICS_Discovery-day-Queen-Mary_6.7.22-21-500x329.jpg 500w, https://www.raspberrypi.org/app/uploads/2024/07/ICS_Discovery-day-Queen-Mary_6.7.22-21-300x197.jpg 300w, https://www.raspberrypi.org/app/uploads/2024/07/ICS_Discovery-day-Queen-Mary_6.7.22-21-768x505.jpg 768w, https://www.raspberrypi.org/app/uploads/2024/07/ICS_Discovery-day-Queen-Mary_6.7.22-21-800x526.jpg 800w, https://www.raspberrypi.org/app/uploads/2024/07/ICS_Discovery-day-Queen-Mary_6.7.22-21-450x296.jpg 450w, https://www.raspberrypi.org/app/uploads/2024/07/ICS_Discovery-day-Queen-Mary_6.7.22-21-900x591.jpg 900w, https://www.raspberrypi.org/app/uploads/2024/07/ICS_Discovery-day-Queen-Mary_6.7.22-21.jpg 1397w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+
+
+<p>Generative AI consists of algorithms that can generate new content, such as text, code, and images, based on the input received. Ever since large language models (LLMs) such as <a href="https://chatgpt.com/">ChatGPT</a> and <a href="https://copilot.cloud.microsoft/?auth=2">Copilot</a> became widely available, there has been a great deal of attention on how to use this technology in computing education.&nbsp;</p>
+
+
+
+<p>Arto and Juho described generative AI as one of the fastest-moving topics they had ever worked on, and explained that they were trying to see past the hype and find meaningful uses of LLMs in their computing courses. They presented three studies in which they used generative AI tools with students in ways that aimed to improve the learning experience.&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading">Using generative AI tools to create personalised programming exercises</h2>
+
+
+
+<p>An important strand of computing education research investigates how to engage students by personalising programming problems based on their interests. <a href="https://dl.acm.org/doi/pdf/10.1145/3632620.3671103">The first study in Arto and Juho’s research </a>&nbsp;took place within an online programming course for adult students. It involved developing a tool that used GPT-4 (the latest version of ChatGPT available at that time) to generate exercises with personalised aspects. Students could select a theme (e.g. sports, music, video games), a topic (e.g. a specific word or name), and a difficulty level for each exercise.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-08-500x333.jpg" alt="A student in a computing classroom." class="wp-image-81587" style="width:646px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-08-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-08-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-08-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-08-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-08-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-08-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-08-900x600.jpg 900w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-08.jpg 1920w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+
+
+<p>Arto, Juho, and their students evaluated the personalised exercises that were generated. Arto and Juho used a rubric to evaluate the quality of the exercises and found that they were clear and had the themes and topics that had been requested. Students’ feedback indicated that they found the personalised exercises engaging and useful, and preferred these over randomly generated exercises.&nbsp;</p>
+
+
+
+<p>Arto and Juho also evaluated the personalisation and found that exercises were often only shallowly personalised, however. In shallow personalisations, the personalised content was added in only one sentence, whereas in deep personalisations, the personalised content was present throughout the whole problem statement. It should be noted that in the examples taken from the seminar below, the terms ‘shallow’ and ‘deep’ were not being used to make a judgement on the worthiness of the topic itself, but were rather describing whether the personalisation was somewhat tokenistic or more meaningful within the exercise.&nbsp;</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" width="500" height="279" src="https://www.raspberrypi.org/app/uploads/2024/11/image-3-500x279.png" alt="" class="wp-image-88840" style="width:624px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/11/image-3-500x279.png 500w, https://www.raspberrypi.org/app/uploads/2024/11/image-3-300x167.png 300w, https://www.raspberrypi.org/app/uploads/2024/11/image-3-768x428.png 768w, https://www.raspberrypi.org/app/uploads/2024/11/image-3-800x446.png 800w, https://www.raspberrypi.org/app/uploads/2024/11/image-3-450x251.png 450w, https://www.raspberrypi.org/app/uploads/2024/11/image-3-900x502.png 900w, https://www.raspberrypi.org/app/uploads/2024/11/image-3.png 1370w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="283" src="https://www.raspberrypi.org/app/uploads/2024/11/image-4-500x283.png" alt="" class="wp-image-88841" style="width:670px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/11/image-4-500x283.png 500w, https://www.raspberrypi.org/app/uploads/2024/11/image-4-300x170.png 300w, https://www.raspberrypi.org/app/uploads/2024/11/image-4-768x435.png 768w, https://www.raspberrypi.org/app/uploads/2024/11/image-4-800x453.png 800w, https://www.raspberrypi.org/app/uploads/2024/11/image-4-450x255.png 450w, https://www.raspberrypi.org/app/uploads/2024/11/image-4-900x510.png 900w, https://www.raspberrypi.org/app/uploads/2024/11/image-4.png 1366w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption"><em>In these examples from the study, the shallow personalisation contains only one sentence to contextualise the problem, while in the deep example the whole problem statement is personalised. </em></figcaption></figure></div>
+
+
+<p>The findings suggest that this personalised approach may be particularly effective on large university courses, where instructors might struggle to give one-on-one attention to every student. The findings further suggest that generative AI tools can be used to personalise educational content and help ensure that students remain engaged.&nbsp;</p>
+
+
+
+<p>How might all this translate to K-12 settings? Learners in primary and secondary schools often have a wide range of prior knowledge, lived experiences, and abilities. Personalised programming tasks could help diverse groups of learners engage with computing, and give educators a deeper understanding of the themes and topics that are interesting for learners.&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading">Responding to help requests using large language models</h2>
+
+
+
+<p>Another key aspect of Alto and Juho’s work is exploring how LLMs can be used to <a href="https://dl.acm.org/doi/pdf/10.1145/3568813.3600139">generate responses to students’ requests for help</a>. They conducted a study using an online platform containing programming exercises for students. Every time a student struggled with a particular exercise, they could submit a help request, which went into a queue for a teacher to review, comment on, and return to the student.&nbsp;</p>
+
+
+
+<p>The study aimed to investigate whether an LLM could effectively respond to these help requests and reduce the teachers’ workloads. An important principle was that the LLM should guide the student towards the correct answer rather than provide it.&nbsp;</p>
+
+
+
+<p>The study used GPT-3.5, which was the newest version at the time. The results found that the LLM was able to analyse and detect logical and syntactical errors in code, but concerningly, the responses from the LLM also addressed some non-existent problems! This is an example of <a href="https://www.raspberrypi.org/blog/experience-ai-equal-access-ai-education/">hallucination</a>, where the LLM outputs something false that does not reflect the real data that was inputted into it.&nbsp;</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="279" src="https://www.raspberrypi.org/app/uploads/2024/11/image-5-500x279.png" alt="" class="wp-image-88842" style="width:652px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/11/image-5-500x279.png 500w, https://www.raspberrypi.org/app/uploads/2024/11/image-5-300x167.png 300w, https://www.raspberrypi.org/app/uploads/2024/11/image-5-768x429.png 768w, https://www.raspberrypi.org/app/uploads/2024/11/image-5-1536x857.png 1536w, https://www.raspberrypi.org/app/uploads/2024/11/image-5-800x447.png 800w, https://www.raspberrypi.org/app/uploads/2024/11/image-5-450x251.png 450w, https://www.raspberrypi.org/app/uploads/2024/11/image-5-900x502.png 900w, https://www.raspberrypi.org/app/uploads/2024/11/image-5.png 1600w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption"><em>An example of how an LLM was able to detect a logical error in code, but also hallucinated and provided an unhelpful, false response about a non-existent syntactical error. </em></figcaption></figure></div>
+
+
+<p>The finding that LLMs often generated both helpful and unhelpful problem-solving strategies suggests that this is not a technology to rely on in the classroom just yet. Arto and Juho intend to track the effectiveness of LLMs as newer versions are released, and explained that GPT-4 seems to detect errors more accurately, but there is no systematic analysis of this yet.&nbsp;</p>
+
+
+
+<p>In primary and secondary computing classes, young learners often face similar challenges to those encountered by university students — for example, the struggle to write error-free code and debug programs. LLMs seemingly have a lot of potential to support young learners in overcoming such challenges, while also being valuable educational tools for teachers without strong computing backgrounds. Instant feedback is critical for young learners who are still developing their computational thinking skills — LLMs can provide such feedback, and could be especially useful for teachers who may lack the resources to give individualised attention to every learner. Again though, further research into <a href="https://www.raspberrypi.org/blog/error-message-explanations-large-language-models-teachers-views/">LLM-based feedback systems</a> is needed before they can be implemented en-masse in classroom settings in the future.&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading">Teaching students how to prompt large language models</h2>
+
+
+
+<ol start="3" class="wp-block-list"></ol>
+
+
+
+<p>Finally, Arto and Juho presented <a href="https://dl.acm.org/doi/pdf/10.1145/3626252.3630909">a study where they introduced the idea of ‘Prompt Problems’</a>: programming exercises where students learn how to write effective prompts for AI code generators using a tool called Promptly. In a Prompt Problem exercise, students are presented with a visual representation of a problem that illustrates how input values will be transformed to an output. Their task is to devise a prompt (input) that will guide an LLM to generate the code (output) required to solve the problem. Prompt-generated code is evaluated automatically by the Promptly tool, helping students to refine the prompt until it produces code that solves the problem.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="302" height="392" src="https://www.raspberrypi.org/app/uploads/2024/11/image.jpeg" alt="" class="wp-image-88843" style="width:332px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/11/image.jpeg 302w, https://www.raspberrypi.org/app/uploads/2024/11/image-193x250.jpeg 193w" sizes="(max-width: 302px) 100vw, 302px" /><figcaption class="wp-element-caption"><em>The workflow of a </em><a href="https://dl.acm.org/doi/10.1145/3626252.3630909"><em>Prompt Problem</em></a><em> </em></figcaption></figure></div>
+
+
+<p>Feedback from students suggested that using Prompt Problems was a good way for them to gain experience of using new programming concepts and develop their computational thinking skills. However, students were frustrated that bugs in the code had to be fixed by amending the prompt — it was not possible to edit the code directly.&nbsp;</p>
+
+
+
+<p>How these findings relate to K-12 computing education is still to be explored, but they indicate that Prompt Problems with text-based programming languages could be valuable exercises for older pupils with a solid grasp of foundational programming concepts.&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Balancing the use of AI tools with fostering a sense of community</strong></h2>
+
+
+
+<p>At the end of the presentation, Arto and Juho summarised their work and hypothesised that as society develops more and more AI tools, computing classrooms may lose some of their community aspects. They posed a very important question for all attendees to consider: “How can we foster an active community of learners in the generative AI era?”&nbsp;</p>
+
+
+
+<p>In our breakout groups and the subsequent whole-group discussion, we began to think about the role of community. Some points raised highlighted the importance of working together to accurately identify and define problems, and sharing ideas about which prompts would work best to accurately solve the problems.&nbsp;</p>
+
+
+
+<p>As AI technology continues to evolve, its role in education will likely expand. There was general agreement in the question and answer session that keeping a sense of community at the heart of computing classrooms will be important.&nbsp;</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="301" src="https://www.raspberrypi.org/app/uploads/2024/11/image-6-500x301.png" alt="" class="wp-image-88844" style="width:588px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/11/image-6-500x301.png 500w, https://www.raspberrypi.org/app/uploads/2024/11/image-6-300x181.png 300w, https://www.raspberrypi.org/app/uploads/2024/11/image-6-768x462.png 768w, https://www.raspberrypi.org/app/uploads/2024/11/image-6-1536x924.png 1536w, https://www.raspberrypi.org/app/uploads/2024/11/image-6-800x482.png 800w, https://www.raspberrypi.org/app/uploads/2024/11/image-6-450x271.png 450w, https://www.raspberrypi.org/app/uploads/2024/11/image-6-900x542.png 900w, https://www.raspberrypi.org/app/uploads/2024/11/image-6.png 1600w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption"><em>Arto and Juho asked seminar attendees to think about encouraging a sense of community. </em></figcaption></figure></div>
+
+
+<h2 class="wp-block-heading"><strong>Further resources</strong></h2>
+
+
+
+<p>The Raspberry Pi Computing Education Research Centre and Faculty of Education at the University of Cambridge have recently published a <a href="https://www.raspberrypi.org/blog/new-guide-on-using-generative-ai-for-teachers-and-schools/">teacher guide</a> on the use of generative AI tools in education. The guide provides practical guidance for educators who are considering using generative AI tools in their teaching.&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading">Join our next seminar</h2>
+
+
+
+<p>In our current seminar series, we are exploring how to teach programming with and without AI technology. Join us at our next seminar on Tuesday, 12 November at 17:00–18:30 GMT to hear Nicholas Gardella (University of Virginia) discuss the effects of using tools like GitHub Copilot on the motivation, workload, emotion, and self-efficacy of novice programmers. To sign up and take part in the seminar, click the button below — we’ll then send you information about joining. We hope to see you there.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://form.raspberrypi.org/f/research-seminar-sign-up" target="_blank" rel="noreferrer noopener">I want to join the next seminar</a></div>
+</div>
+
+
+
+<p><a href="https://www.raspberrypi.org/computing-education-research-online-seminars/">The schedule of our upcoming seminars</a> is online. You can catch up on past seminars on our <a href="https://www.raspberrypi.org/research/seminars/previous">previous seminars and recordings page</a>.</p>
+<p>The post <a href="https://www.raspberrypi.org/blog/using-generative-ai-to-teach-computing-insights-from-research/">Using generative AI to teach computing: Insights from research</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.raspberrypi.org/blog/using-generative-ai-to-teach-computing-insights-from-research/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Teaching about AI in schools: Take part in our Research and Educator Community Symposium</title>
 		<link>https://www.raspberrypi.org/blog/teaching-about-ai-in-schools-research-and-educator-community-symposium/</link>
 					<comments>https://www.raspberrypi.org/blog/teaching-about-ai-in-schools-research-and-educator-community-symposium/#respond</comments>
@@ -53,7 +223,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" width="500" height="334" src="https://www.raspberrypi.org/app/uploads/2017/11/DSC_6056-500x334.jpg" alt="A teacher aids children in the classroom" class="wp-image-38319" style="width:676px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2017/11/DSC_6056-500x334.jpg 500w, https://www.raspberrypi.org/app/uploads/2017/11/DSC_6056-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2017/11/DSC_6056-768x513.jpg 768w, https://www.raspberrypi.org/app/uploads/2017/11/DSC_6056-1618x1080.jpg 1618w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="334" src="https://www.raspberrypi.org/app/uploads/2017/11/DSC_6056-500x334.jpg" alt="A teacher aids children in the classroom" class="wp-image-38319" style="width:676px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2017/11/DSC_6056-500x334.jpg 500w, https://www.raspberrypi.org/app/uploads/2017/11/DSC_6056-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2017/11/DSC_6056-768x513.jpg 768w, https://www.raspberrypi.org/app/uploads/2017/11/DSC_6056-1618x1080.jpg 1618w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
 
 
 <h2 class="wp-block-heading"><strong>Researching AI curriculum design</strong></h2>
@@ -68,7 +238,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img decoding="async" width="500" height="334" src="https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-500x334.jpg" alt="A group of educators at a workshop." class="wp-image-88796" style="width:674px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-500x334.jpg 500w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-800x534.jpg 800w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-900x600.jpg 900w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="334" src="https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-500x334.jpg" alt="A group of educators at a workshop." class="wp-image-88796" style="width:674px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-500x334.jpg 500w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-800x534.jpg 800w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018-900x600.jpg 900w, https://www.raspberrypi.org/app/uploads/2024/10/IMG_0018.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
 
 
 <p>Most importantly, we will also review how we can help teachers and learners move from a rule-based view of problem solving to a data-driven view, from computational thinking 1.0 to <a href="https://www.raspberrypi.org/blog/machine-learning-education-school-computational-thinking-2-0-research-seminar/">computational thinking 2.0</a>.</p>
@@ -87,7 +257,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img decoding="async" width="500" height="349" src="https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-500x349.jpg" alt="Educators at a workshop." class="wp-image-88809" style="width:690px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-500x349.jpg 500w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-300x209.jpg 300w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-768x535.jpg 768w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-800x558.jpg 800w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-450x314.jpg 450w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-900x627.jpg 900w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-216x150.jpg 216w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="349" src="https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-500x349.jpg" alt="Educators at a workshop." class="wp-image-88809" style="width:690px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-500x349.jpg 500w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-300x209.jpg 300w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-768x535.jpg 768w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-800x558.jpg 800w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-450x314.jpg 450w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-900x627.jpg 900w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126-216x150.jpg 216w, https://www.raspberrypi.org/app/uploads/2024/10/CC_WORKSHOP230819-126.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
 
 
 <h2 class="wp-block-heading"><strong>Join our Research and Educator Community Symposium</strong></h2>
@@ -129,7 +299,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://cambridge.eu.qualtrics.com/jfe/form/SV_9LZiHyJjn6UPGm2">Apply by 9 December 2024</a></div>
 </div>
 
@@ -387,9 +557,9 @@
 		<dc:creator><![CDATA[Laura Sach]]></dc:creator>
 		<pubDate>Thu, 17 Oct 2024 10:23:46 +0000</pubDate>
 				<category><![CDATA[Python]]></category>
+		<category><![CDATA[raspberry pi camera]]></category>
 		<category><![CDATA[Raspberry Pi Camera Module]]></category>
 		<category><![CDATA[picamzero]]></category>
-		<category><![CDATA[raspberry pi camera]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88672</guid>
 
 					<description><![CDATA[<p>Thousands of learners worldwide take their first steps into text-based programming using the Python programming language. Python is not only beginner-friendly, but is also used extensively in industry. In 2015, Python developer Daniel Pope, who has a keen interest in education, noticed that beginners often have great ideas for creating projects but struggle because the&#8230;</p>
@@ -657,7 +827,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://form.raspberrypi.org/f/research-seminar-sign-up" target="_blank" rel="noreferrer noopener">I want to join the next seminar</a></div>
 </div>
 
@@ -1023,10 +1193,10 @@
 		<dc:creator><![CDATA[Vicky Fisher]]></dc:creator>
 		<pubDate>Tue, 01 Oct 2024 10:02:56 +0000</pubDate>
 				<category><![CDATA[Coolest Projects]]></category>
+		<category><![CDATA[coolest projects 2024]]></category>
 		<category><![CDATA[coolest projects]]></category>
 		<category><![CDATA[coding for kids]]></category>
 		<category><![CDATA[Impact of our work]]></category>
-		<category><![CDATA[coolest projects 2024]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88543</guid>
 
 					<description><![CDATA[<p>Coolest Projects celebrates young digital creators and the amazing things they make with technology. Today, we&#8217;re sharing the impact that taking part in Coolest Projects showcases has on young people&#8217;s motivation and confidence, as well as announcing dates for Coolest Projects 2025. Coolest Projects in 2024 This year, 7197 young people across 4678 projects took&#8230;</p>
@@ -1231,157 +1401,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.raspberrypi.org/blog/coolest-projects-2024-impact-2025-dates/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The Computing Curriculum: Three global perspectives</title>
-		<link>https://www.raspberrypi.org/blog/the-computing-curriculum-global-perspectives/</link>
-					<comments>https://www.raspberrypi.org/blog/the-computing-curriculum-global-perspectives/#respond</comments>
-		
-		<dc:creator><![CDATA[Dan Fisher]]></dc:creator>
-		<pubDate>Thu, 26 Sep 2024 09:22:16 +0000</pubDate>
-				<category><![CDATA[The Computing Curriculum]]></category>
-		<category><![CDATA[Education]]></category>
-		<category><![CDATA[computing education]]></category>
-		<category><![CDATA[Impact of our work]]></category>
-		<category><![CDATA[curriculum]]></category>
-		<guid isPermaLink="false">https://www.raspberrypi.org/?p=88473</guid>
-
-					<description><![CDATA[<p>Across continents and cultural contexts, our free Computing Curriculum serves as a common thread that connects educators. Read the stories of 3 educators who share their thoughts on the curriculum’s application, adaptability, and the impact it’s had on their educational settings.  I’m Freda, and I co-founded a non-profit organisation called Waloyo in South Africa. Coming&#8230;</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/the-computing-curriculum-global-perspectives/">The Computing Curriculum: Three global perspectives</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p>Across continents and cultural contexts, our free <a href="https://www.raspberrypi.org/curriculum/" target="_blank" rel="noreferrer noopener">Computing Curriculum</a> serves as a common thread that connects educators. Read the stories of 3 educators who share their thoughts on the curriculum’s application, adaptability, and the impact it’s had on their educational settings. </p>
-
-
-
-<p><strong>I’m Freda, and I co-founded a non-profit organisation called Waloyo in South Africa.</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="333" class="wp-image-88479" src="https://www.raspberrypi.org/app/uploads/2024/09/Freda_TCC-500x333.png" alt="Photo of Freda, co-founder of the non-profit organisation called Waloyo." srcset="https://www.raspberrypi.org/app/uploads/2024/09/Freda_TCC-500x333.png 500w, https://www.raspberrypi.org/app/uploads/2024/09/Freda_TCC-300x200.png 300w, https://www.raspberrypi.org/app/uploads/2024/09/Freda_TCC-768x512.png 768w, https://www.raspberrypi.org/app/uploads/2024/09/Freda_TCC-800x533.png 800w, https://www.raspberrypi.org/app/uploads/2024/09/Freda_TCC-450x300.png 450w, https://www.raspberrypi.org/app/uploads/2024/09/Freda_TCC.png 900w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-<p>Coming from a background of technology consulting, I know the value of computing education. I have a real drive to teach young kids coding so they can get ahead and find jobs in our digital economy.</p>
-
-
-
-<p>Our role at Waloyo is to work with non-profit organisations that work with young people and want to expand their services to include computing skills training. Waloyo trains non-profit facilitators, who in turn teach computing skills to youth between the ages of 6 and 18. A unique challenge is that the majority of facilitators we train don&#8217;t have any previous computing experience. The resources we use need to be clear and easy to follow.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p>What I really love about The Computing Curriculum resources is the facilitator guides.</p>
-</blockquote>
-
-
-
-<p>Our initial plan was to run the training programmes after school and outside the school curriculum, but we were getting requests from schools to support them too. South Africa doesn’t have a national computing curriculum, so there aren’t many subject specialist teachers. So we looked for curriculum resources from other countries to support our work and that’s how we found The Computing Curriculum.<strong> </strong></p>
-
-
-
-<p>In rural Africa where we work, students have low levels of exposure to computers and computing. So whether they are 6 or 18 years old, we usually start with Scratch. The younger kids then continue with Scratch and the older kids move quickly on to Python as they build confidence.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="321" class="wp-image-48960" src="https://www.raspberrypi.org/app/uploads/2019/01/scratch3-500x321.png" alt="Screenshot of Scratch 3 interface" srcset="https://www.raspberrypi.org/app/uploads/2019/01/scratch3-500x321.png 500w, https://www.raspberrypi.org/app/uploads/2019/01/scratch3-300x193.png 300w, https://www.raspberrypi.org/app/uploads/2019/01/scratch3-768x493.png 768w, https://www.raspberrypi.org/app/uploads/2019/01/scratch3.png 1213w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-<p>What I really love about The Computing Curriculum resources is the facilitator guides. They fit in well with our process of training NGO facilitators to work directly with the kids. I love the comprehensiveness and flexibility of what your curriculum provides to enable this method of delivery.</p>
-
-
-
-<p>So far we&#8217;ve launched 3 programmes in communities in South Africa, impacting around 150 young people, and it’s worked beautifully. It&#8217;s phenomenal to see how excited the kids get when the computer does what they want it to do!</p>
-
-
-
-<p><strong>I’m Al</strong>, <strong>and I’ve been a secondary science teacher since 1991.</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="281" class="wp-image-88480" src="https://www.raspberrypi.org/app/uploads/2024/09/Al_TCC-500x281.jpg" alt="Photo of Al out hiking in rocky terrain." srcset="https://www.raspberrypi.org/app/uploads/2024/09/Al_TCC-500x281.jpg 500w, https://www.raspberrypi.org/app/uploads/2024/09/Al_TCC-300x169.jpg 300w, https://www.raspberrypi.org/app/uploads/2024/09/Al_TCC-768x432.jpg 768w, https://www.raspberrypi.org/app/uploads/2024/09/Al_TCC-1536x864.jpg 1536w, https://www.raspberrypi.org/app/uploads/2024/09/Al_TCC-800x450.jpg 800w, https://www.raspberrypi.org/app/uploads/2024/09/Al_TCC-450x253.jpg 450w, https://www.raspberrypi.org/app/uploads/2024/09/Al_TCC-900x506.jpg 900w, https://www.raspberrypi.org/app/uploads/2024/09/Al_TCC.jpg 1600w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-<p>For the past 13 years, I’ve taught in international schools. Two years ago, I decided to retrain in teaching computing. My wife and I are currently teaching in Kazakhstan. I now teach at primary level but still handle some secondary classes. For primary, there&#8217;s significant time pressure, especially with extra lessons for the local language, making it challenging to fit computing into the schedule.</p>
-
-
-
-<p>The private schools where I work are starting to implement the UK computer science curriculum. At one of the schools, they have a robotics course which has given rise to a misconception that everything in computing is about robotics! My role, therefore, involves expanding the concept of robotics to include a broader range of computing activities and finding efficient ways to integrate these new materials into the curriculum with minimal effort from the staff. I focus on selecting appropriate units to fit into what the schools are already doing rather than implementing a comprehensive new program.</p>
-
-
-
-<figure class="wp-block-gallery aligncenter has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="500" height="333" data-id="82467" class="wp-image-82467" src="https://www.raspberrypi.org/app/uploads/2022/12/SCRATCH_CONF240819-916-1024x683-1-500x333.jpeg" alt="Workshop attendees at a table." srcset="https://www.raspberrypi.org/app/uploads/2022/12/SCRATCH_CONF240819-916-1024x683-1-500x333.jpeg 500w, https://www.raspberrypi.org/app/uploads/2022/12/SCRATCH_CONF240819-916-1024x683-1-300x200.jpeg 300w, https://www.raspberrypi.org/app/uploads/2022/12/SCRATCH_CONF240819-916-1024x683-1-768x512.jpeg 768w, https://www.raspberrypi.org/app/uploads/2022/12/SCRATCH_CONF240819-916-1024x683-1-800x534.jpeg 800w, https://www.raspberrypi.org/app/uploads/2022/12/SCRATCH_CONF240819-916-1024x683-1-450x300.jpeg 450w, https://www.raspberrypi.org/app/uploads/2022/12/SCRATCH_CONF240819-916-1024x683-1-900x600.jpeg 900w, https://www.raspberrypi.org/app/uploads/2022/12/SCRATCH_CONF240819-916-1024x683-1.jpeg 1024w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="500" height="333" data-id="88519" class="wp-image-88519" src="https://www.raspberrypi.org/app/uploads/2024/09/Clubs-conference_2_HD-72-500x333.jpg" alt="Photo of educators collaborating on various projects at a desk, with laptops open displaying the Scratch Editor." srcset="https://www.raspberrypi.org/app/uploads/2024/09/Clubs-conference_2_HD-72-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2024/09/Clubs-conference_2_HD-72-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2024/09/Clubs-conference_2_HD-72-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2024/09/Clubs-conference_2_HD-72-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2024/09/Clubs-conference_2_HD-72-2048x1366.jpg 2048w, https://www.raspberrypi.org/app/uploads/2024/09/Clubs-conference_2_HD-72-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2024/09/Clubs-conference_2_HD-72-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2024/09/Clubs-conference_2_HD-72-900x600.jpg 900w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
-</figure>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>The Raspberry Pi Foundation’s curriculum resources are valuable because they provide comprehensive lists of programs and ideas that I can adapt for my colleagues. I adapt resources to make them more accessible for primary teachers, simplifying and customising them for ease of use.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p>The Raspberry Pi Foundation’s curriculum resources are valuable because they provide comprehensive lists of programs and ideas that I can adapt for my colleagues.</p>
-</blockquote>
-
-
-
-<p>Once students understand that computing is a tool for developing skills rather than just passive consumption, they take ownership of their learning which boosts their confidence. Culturally relevant materials are particularly effective, especially in diverse international classrooms. Adapting resources to be culturally relevant and incorporating students&#8217; examples enhances their usefulness and impact. The resources are excellent, but by tailoring them, they can be even more effective, particularly in an international context with diverse nationalities and learning concepts.</p>
-
-
-
-<p><strong>Head of ICT at an international school in Egypt</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="333" class="wp-image-81196" src="https://www.raspberrypi.org/app/uploads/2022/09/NCCE-Enfeild-Primary-22-500x333.jpg" alt="In a computing classroom, a boy looks down at a keyboard." srcset="https://www.raspberrypi.org/app/uploads/2022/09/NCCE-Enfeild-Primary-22-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2022/09/NCCE-Enfeild-Primary-22-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2022/09/NCCE-Enfeild-Primary-22-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2022/09/NCCE-Enfeild-Primary-22-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2022/09/NCCE-Enfeild-Primary-22-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2022/09/NCCE-Enfeild-Primary-22-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2022/09/NCCE-Enfeild-Primary-22-900x600.jpg 900w, https://www.raspberrypi.org/app/uploads/2022/09/NCCE-Enfeild-Primary-22.jpg 1728w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-<p>As Head of Department, I am responsible for what all the different age groups learn, from year 1 to year 12. We use the Cambridge International (CIE) curriculum, so I was looking for supplementary resources that build from the basics, have a clear progression map, and complement the resources we already had.</p>
-
-
-
-<p>With The Computing Curriculum, it is easy to pick out individual lesson resources to use. I love that it doesn’t need a licence and that the students don’t face any problems when they download it to practise at home. I’m covering curriculums for both computing and digital literacy, so I use resources that are relevant to my curriculum maps.</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p>With The Computing Curriculum, it is easy to pick out individual lesson resources to use.</p>
-</blockquote>
-
-
-
-<p>In some schools, their idea of an ICT lesson is getting students to play games, use Word documents, make PowerPoint presentations, and that’s it. But this generation of students love coding and making their own games. So instead of playing the game, we teach them how to develop a game and how to add the characters themselves.</p>
-
-
-
-<p>From year 1 to year 2, students take part in a wide range of computing activities and develop a lot of new skills. They find these skills amazing. It makes them feel engaged, excited, and that they are doing something valuable.</p>
-
-
-
-<h2 class="wp-block-heading">Using The Computing Curriculum </h2>
-
-
-
-<p>These educators’ stories show how easy it is to adapt our Computing Curriculum to your unique context, enhancing students&#8217; technical skills and inspiring creativity, critical thinking, and a passion for problem-solving. We look forward to continuing this journey with these and other educators as they transform computing education for their learners.</p>
-
-
-
-<p>If you&#8217;re looking for new computing resources to teach with, why not give <a href="https://www.raspberrypi.org/curriculum/">The Computing Curriculum</a> a try? You can also read our <a href="https://www.raspberrypi.org/culturally-responsive-pedagogy-for-computing-education/">culturally relevant pedagogy research</a> that Al mentions in his interview.</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/the-computing-curriculum-global-perspectives/">The Computing Curriculum: Three global perspectives</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.raspberrypi.org/blog/the-computing-curriculum-global-perspectives/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
