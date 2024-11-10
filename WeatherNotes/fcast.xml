@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-11-10T12:36:04+00:00</generatedAt>
-		<updateTime type="str">2024-11-10T11:05:52+00:00</updateTime>
-		<validTimes type="str">2024-11-10T05:00:00+00:00/P7DT20H</validTimes>
+		<generatedAt type="str">2024-11-10T13:36:02+00:00</generatedAt>
+		<updateTime type="str">2024-11-10T13:32:41+00:00</updateTime>
+		<validTimes type="str">2024-11-10T07:00:00+00:00/P7DT18H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2024-11-10T06:00:00-06:00</startTime>
+				<startTime type="str">2024-11-10T07:00:00-06:00</startTime>
 				<endTime type="str">2024-11-10T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">72</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">30</value>
+					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">7 to 12 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,30/sct?size=medium</icon>
-				<shortForecast type="str">Chance Rain Showers then Mostly Sunny</shortForecast>
-				<detailedForecast type="str">A chance of rain showers before 7am. Mostly sunny. High near 72, with temperatures falling to around 66 in the afternoon. Southwest wind 7 to 12 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.</detailedForecast>
+				<windDirection type="str">WSW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
+				<shortForecast type="str">Mostly Sunny</shortForecast>
+				<detailedForecast type="str">Mostly sunny. High near 72, with temperatures falling to around 66 in the afternoon. West southwest wind 7 to 12 mph, with gusts as high as 18 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
