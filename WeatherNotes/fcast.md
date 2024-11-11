@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Clear, with a low around 45. Northwest wind around 2 mph.<br></div>
+         <h3>Overnight</h3>Clear, with a low around 45. West northwest wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
