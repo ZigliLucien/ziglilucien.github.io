@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Veterans Day</h3>Sunny. High near 65, with temperatures falling to around 61 in the afternoon. West northwest wind 2 to 6 mph.<br></div>
+         <h3>Veterans Day</h3>Sunny. High near 65, with temperatures falling to around 61 in the afternoon. Northwest wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
