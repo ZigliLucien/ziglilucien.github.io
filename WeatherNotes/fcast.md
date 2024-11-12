@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of rain showers after 6am. Mostly clear. Low around 37, with temperatures rising to around 39 overnight. North
-         northeast wind 1 to 6 mph.<br></div>
+         northeast wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
