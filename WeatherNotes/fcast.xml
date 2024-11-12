@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-11-12T15:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-11-12T13:16:54+00:00</updateTime>
-		<validTimes type="str">2024-11-12T07:00:00+00:00/P7DT18H</validTimes>
+		<generatedAt type="str">2024-11-12T17:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-11-12T17:18:21+00:00</updateTime>
+		<validTimes type="str">2024-11-12T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2024-11-12T09:00:00-06:00</startTime>
+				<startTime type="str">2024-11-12T11:00:00-06:00</startTime>
 				<endTime type="str">2024-11-12T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">58</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 mph</windSpeed>
+				<windSpeed type="str">9 mph</windSpeed>
 				<windDirection type="str">ENE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny. High near 58, with temperatures falling to around 53 in the afternoon. East northeast wind around 8 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny. High near 58, with temperatures falling to around 53 in the afternoon. East northeast wind around 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -81,11 +81,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
+				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">E</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around 38. East wind around 6 mph.</detailedForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 38. East wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -100,11 +100,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">80</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 to 9 mph</windSpeed>
+				<windSpeed type="str">6 to 10 mph</windSpeed>
 				<windDirection type="str">SE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,20/rain_showers,80?size=medium</icon>
 				<shortForecast type="str">Rain Showers</shortForecast>
-				<detailedForecast type="str">Rain showers. Mostly cloudy, with a high near 61. Southeast wind 6 to 9 mph. Chance of precipitation is 80%.</detailedForecast>
+				<detailedForecast type="str">Rain showers. Mostly cloudy, with a high near 61. Southeast wind 6 to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 80%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -121,7 +121,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">8 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,80/tsra_hi,20?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,80/tsra_sct,20?size=medium</icon>
 				<shortForecast type="str">Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">Showers and thunderstorms. Mostly cloudy, with a low around 45. South southwest wind around 8 mph. Chance of precipitation is 80%.</detailedForecast>
 			</item>
