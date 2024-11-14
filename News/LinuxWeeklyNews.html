@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/998148/" title="See Description">Stable kernels 6.11.8, 6.6.61, 6.1.117, and 5.15.172</a></li>
+<li><a href="#https://lwn.net/Articles/998143/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/997293/" title="See Description">[$] LWN.net Weekly Edition for November 14, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/997238/" title="See Description">[$] Truly portable C applications</a></li>
 <li><a href="#https://lwn.net/Articles/998044/" title="See Description">Security updates for Wednesday</a></li>
@@ -51,11 +53,29 @@
 <li><a href="#https://lwn.net/Articles/996720/" title="See Description">[$] Back In Time back from the dead</a></li>
 <li><a href="#https://lwn.net/Articles/997525/" title="See Description">Seven more stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/995915/" title="See Description">[$] Pondering systemd-homed for Fedora</a></li>
-<li><a href="#https://lwn.net/Articles/997483/" title="See Description">Cohen: gccrs: An alternative compiler for Rust</a></li>
-<li><a href="#https://lwn.net/Articles/997480/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/998148/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 Nov 2024 15:00:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/998148/" title="https://lwn.net/Articles/998148/">Stable kernels 6.11.8, 6.6.61, 6.1.117, and 5.15.172</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A new batch of stable kernels has just been released: <a
+href="https://lwn.net/Articles/998149/">6.11.8</a>, <a
+href="https://lwn.net/Articles/998150/">6.6.61</a>, <a
+href="https://lwn.net/Articles/998151/">6.1.117</a>, and <a
+href="https://lwn.net/Articles/998152/">5.15.172</a>.  As usual, they contain important
+fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/998143/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 Nov 2024 14:10:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/998143/" title="https://lwn.net/Articles/998143/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (llama-cpp, mingw-expat, python3.6, webkit2gtk4.0, and xorg-x11-server-Xwayland), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-21-openjdk &amp; java-latest-openjdk and libarchive), <b>Oracle</b> (expat, gstreamer1-plugins-base, kernel, libsoup, podman, and tigervnc), <b>SUSE</b> (buildah, java-1_8_0-openjdk, and switchboard-plug-bluetooth), and <b>Ubuntu</b> (zlib).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/997293/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 14 Nov 2024 00:46:40 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -230,41 +250,6 @@ service for managing users and home directories. However, a discussion
 proposing the use systemd-homed as part of Fedora installation
 uncovered some hurdles, such as trying to blend its approach to
 managing users with tools that centralize user management.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/997483/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 Nov 2024 15:04:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/997483/" title="https://lwn.net/Articles/997483/">Cohen: gccrs: An alternative compiler for Rust</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Arthur Cohen has posted <a
-href="https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust.html">a
-detailed introduction to the gccrs project</a> on the Rust Blog, seemingly
-with the goal of convincing the Rust community about the value of the
-project.
-<p>
-<blockquote class="bq">
-	Likewise, many GCC plugins are used for increasing the safety of
-	critical projects such as the Linux kernel, which has recently
-	gained support for the Rust programming language. This makes
-	<tt>gccrs</tt> a useful tool for analyzing unsafe Rust code, and
-	more generally Rust code which has to interact with existing C
-	code. We also want <tt>gccrs</tt> to be a useful tool for
-	<tt>rustc</tt> itself by helping pan out the Rust specification
-	effort with a unique viewpoint - that of a tool trying to replicate
-	another's functionality, oftentimes through careful experimentation
-	and source reading where the existing documentation did not go into
-	enough detail.
-</blockquote>
-<p>
-(LWN last <a href="https://lwn.net/Articles/991199/">looked at gccrs</a> in October).</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/997480/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 Nov 2024 14:17:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/997480/" title="https://lwn.net/Articles/997480/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (edk2), <b>Debian</b> (webkit2gtk), <b>Fedora</b> (thunderbird), <b>Oracle</b> (bzip2, container-tools:ol8, edk2, go-toolset:ol8, libtiff, python-idna, python3.11, and python3.12), <b>Slackware</b> (expat), and <b>SUSE</b> (apache2, govulncheck-vulndb, grub2, java-1_8_0-openjdk, python3, python39, qemu, xorg-x11-server, and xwayland).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
