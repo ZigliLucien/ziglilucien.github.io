@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/998215/" title="See Description">PyPI now supports digital attestations</a></li>
 <li><a href="#https://lwn.net/Articles/997563/" title="See Description">[$] Dancing the DMA two-step</a></li>
 <li><a href="#https://lwn.net/Articles/998148/" title="See Description">Stable kernels 6.11.8, 6.6.61, 6.1.117, and 5.15.172</a></li>
 <li><a href="#https://lwn.net/Articles/998143/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,43 @@
 <li><a href="#https://lwn.net/Articles/997774/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/997678/" title="See Description">Kernel prepatch 6.12-rc7</a></li>
 <li><a href="#https://lwn.net/Articles/996720/" title="See Description">[$] Back In Time back from the dead</a></li>
-<li><a href="#https://lwn.net/Articles/997525/" title="See Description">Seven more stable kernel updates</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/998215/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 Nov 2024 21:22:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/998215/" title="https://lwn.net/Articles/998215/">PyPI now supports digital attestations</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Python Package Index (PyPI) has <a
+href="https://blog.pypi.org/posts/2024-11-14-pypi-now-supports-digital-attestations/">announced</a>
+that it has finalized support for <a
+href="https://peps.python.org/pep-0740/">PEP 740</a> ("Index support
+for digital attestations"). <a
+href="https://www.trailofbits.com/">Trail of Bits</a>, which performed
+much of the development work for the implementation, has an <a
+href="https://blog.trailofbits.com/2024/11/14/attestations-a-new-generation-of-signatures-on-pypi/">in-depth
+blog post</a> about the work and its adoption, as well as what is left
+undone:</p>
+
+<blockquote class="bq">
+<p>One thing is notably missing from all of this work:
+<strong>downstream verification</strong>. [...]</p>
+
+<p>This isn't an acceptable end state (cryptographic attestations have
+defensive properties only insofar as they're <strong><em>actually
+verified</em></strong>), so we're looking into ways to bring
+verification to individual installing clients. In particular, we're
+currently working on a <a
+href="https://github.com/pypa/pip/issues/12766">plugin architecture
+for <tt>pip</tt></a> that will enable users to <a
+href="https://github.com/trailofbits/pip-plugin-pep740">load
+verification logic</a> directly into their <tt>pip install</tt>
+flows.</p>
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/997563/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 14 Nov 2024 15:35:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -231,22 +265,6 @@ how he and his co-maintainers had revived the project, as well as why he thought
 Back In Time stood out from all of the existing backup solutions.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/997525/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 Nov 2024 16:53:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/997525/" title="https://lwn.net/Articles/997525/">Seven more stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Greg Kroah-Hartman has shared another seven stable kernel updates:
-<a href="https://lwn.net/Articles/997527/">6.6.60</a>,
-<a href="https://lwn.net/Articles/997528/">6.11.7</a>,
-<a href="https://lwn.net/Articles/997529/">6.1.116</a>,
-<a href="https://lwn.net/Articles/997530/">5.15.171</a>,
-<a href="https://lwn.net/Articles/997533/">5.10.229</a>,
-<a href="https://lwn.net/Articles/997535/">5.4.285</a>, and
-<a href="https://lwn.net/Articles/997536/">4.19.323</a>.
-</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
