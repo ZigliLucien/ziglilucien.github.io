@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-11-18T05:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-11-18T04:47:05+00:00</updateTime>
-		<validTimes type="str">2024-11-17T22:00:00+00:00/P7DT6H</validTimes>
+		<generatedAt type="str">2024-11-18T07:36:02+00:00</generatedAt>
+		<updateTime type="str">2024-11-18T05:47:16+00:00</updateTime>
+		<validTimes type="str">2024-11-17T23:00:00+00:00/P7DT5H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,11 +51,11 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2024-11-17T23:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2024-11-18T01:00:00-06:00</startTime>
 				<endTime type="str">2024-11-18T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">59</temperature>
+				<temperature type="int">60</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
@@ -64,9 +64,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy then Slight Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers after 4am. Mostly cloudy, with a low around 59. South wind around 7 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A slight chance of rain showers after 4am. Mostly cloudy, with a low around 60. South wind around 7 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
