@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/997958/" title="See Description">The 6.12 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/998448/" title="See Description">Seven stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/998446/" title="See Description">A new package manager for OpenWrt</a></li>
 <li><a href="#https://lwn.net/Articles/998221/" title="See Description">[$] Two approaches to tightening restrictions on loadable modules</a></li>
@@ -52,10 +53,45 @@
 <li><a href="#https://lwn.net/Articles/998044/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/996344/" title="See Description">[$] Progress on toolchain security features</a></li>
 <li><a href="#https://lwn.net/Articles/997927/" title="See Description">Anaconda’s new "Web UI" (Fedora Magazine)</a></li>
-<li><a href="#https://lwn.net/Articles/997903/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/997958/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 17 Nov 2024 22:33:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/997958/" title="https://lwn.net/Articles/997958/">The 6.12 kernel has been released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has <a href="https://lwn.net/Articles/998490/">released the 6.12 kernel</a>.
+"<q>No strange surprises this last week, so we're sticking to the regular
+release schedule, and that obviously means that the merge window opens
+tomorrow.</q>".
+<p>
+
+Headline features in this release include:
+
+support for the <a
+href="https://developer.arm.com/documentation/102376/0200/Permission-indirection-and-permission-overlay-extensions">Arm
+permission overlay</a> extension,
+better compile-time control over which Spectre mitigations to employ,
+the <a href="https://lwn.net/Articles/990985/">last pieces of realtime preemption support</a>,
+the realtime <a href="https://lwn.net/Articles/934415/">deadline server</a> mechanism,
+more <a href="https://lwn.net/Articles/969062/">EEVDF scheduler</a> development,
+the <a href="https://lwn.net/Articles/974387/">extensible scheduler class</a>,
+the <a href="https://lwn.net/Articles/979549/">device memory TCP</a> work,
+<a href="https://lwn.net/Articles/979683/">use of static calls</a> in the security-module
+subsystem,
+the <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a430d95c5efa">integrity
+policy enforcement</a> security module,
+the ability to handle devices with a block size larger than the system page
+size in the XFS filesystem,
+and more.
+See the LWN merge-window summaries 
+(<a href="https://lwn.net/Articles/990750/">part&nbsp;1</a>, <a
+href="https://lwn.net/Articles/991301/">part&nbsp;2</a>) and the <a
+href="https://kernelnewbies.org/Linux_6.12">KernelNewbies 6.12 page</a> for
+more details.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/998448/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 17 Nov 2024 14:38:23 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -78,7 +114,7 @@ important fixes.</blockquote></blockquote></div></td></tr>
 <div style="float:left" class="link"><a href="https://lwn.net/Articles/998446/" title="https://lwn.net/Articles/998446/">A new package manager for OpenWrt</a></div>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The OpenWrt router-oriented distribution has long used its own <tt>opk</tt>
+<tr><td><div class="item"><blockquote><blockquote>The OpenWrt router-oriented distribution has long used its own <tt>opkg</tt>
 package manager.  The project has just <a
 href="https://forum.openwrt.org/t/major-change-notice-new-package-manager/215682">announced</a>,
 though, that future releases will use the <a
@@ -265,14 +301,6 @@ installer, planned to ship with Fedora&nbsp;42. The article looks at
 the rationale for moving from GTK&nbsp;3 to a web-based UI, provides a
 number of screenshots and demo screencasts, as well as instructions on
 trying out the new installer with Fedora Rawhide.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/997903/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 12 Nov 2024 14:47:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/997903/" title="https://lwn.net/Articles/997903/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gstreamer1-plugins-base), <b>Debian</b> (chromium, ghostscript, libarchive, mpg123, ruby-saml, and symfony), <b>Fedora</b> (buildah and podman), <b>Red Hat</b> (buildah, containernetworking-plugins, podman, skopeo, and xorg-x11-server-Xwayland), <b>Slackware</b> (wget), <b>SUSE</b> (pcp), and <b>Ubuntu</b> (linux, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux-oracle-5.15, linux-raspi, linux-xilinx-zynqmp and mysql-8.0).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
