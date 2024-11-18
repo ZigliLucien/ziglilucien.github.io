@@ -7,9 +7,9 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of rain showers before 9pm, then showers and thunderstorms between 9pm and 3am. Mostly cloudy. Low around 58, with
-         temperatures rising to around 61 overnight. South wind 14 to 18 mph, with gusts as high as 30 mph. Chance of precipitation
-         is 90%.<br></div>
+         <h3>Tonight</h3>A slight chance of rain showers between 8pm and 9pm, then showers and thunderstorms between 9pm and 4am. Mostly cloudy. Low
+         around 58, with temperatures rising to around 61 overnight. South wind 14 to 18 mph, with gusts as high as 30 mph. Chance
+         of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
