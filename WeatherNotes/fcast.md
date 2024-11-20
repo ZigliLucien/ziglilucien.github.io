@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>A slight chance of rain showers between 3am and 5am. Mostly cloudy. Low around 43, with temperatures rising to around 47 overnight.
-         Northwest wind 5 to 12 mph, with gusts as high as 21 mph. Chance of precipitation is 20%.<br></div>
+         Northwest wind 8 to 12 mph, with gusts as high as 21 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
