@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/997850/" title="See Description">[$] RVKMS and Rust KMS bindings</a></li>
+<li><a href="#https://lwn.net/Articles/998863/" title="See Description">Blender 4.3 released</a></li>
 <li><a href="#https://lwn.net/Articles/998856/" title="See Description">Plans for CHICKEN 6</a></li>
 <li><a href="#https://lwn.net/Articles/998854/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/998809/" title="See Description">Rocky Linux 9.5 released</a></li>
@@ -51,11 +53,40 @@
 <li><a href="#https://lwn.net/Articles/998570/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/997958/" title="See Description">The 6.12 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/998448/" title="See Description">Seven stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/998446/" title="See Description">A new package manager for OpenWrt</a></li>
-<li><a href="#https://lwn.net/Articles/998221/" title="See Description">[$] Two approaches to tightening restrictions on loadable modules</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/997850/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 Nov 2024 15:39:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/997850/" title="https://lwn.net/Articles/997850/">[$] RVKMS and Rust KMS bindings</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>At the <a
+href="https://indico.freedesktop.org/event/6/">2024 X.Org Developers
+Conference</a> (XDC), Lyude Paul gave a talk on the work she has been doing
+as part of the <a href="https://gitlab.freedesktop.org/drm/nova">Nova
+project</a>, which is an <a href="https://lwn.net/Articles/990736/">effort build an NVIDIA
+GPU driver in Rust</a>.  She wanted to provide an introduction to <a
+href="https://lwn.net/ml/all/20240930233257.1189730-36-lyude@redhat.com/">RVKMS</a>, which
+is being used to develop Rust kernel mode setting (KMS)
+bindings; RVKMS is a port of the <a href="https://docs.kernel.org/gpu/vkms.html">virtual KMS</a> (VKMS)
+driver to Rust.  In addition, she wanted to give her opinion on Rust, and why she
+thinks it is
+a "<q>game-changer for the kernel</q>", noting that the reasons are not
+related to the oft-mentioned, "headline" feature of the language: memory
+safety.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/998863/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 Nov 2024 15:33:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/998863/" title="https://lwn.net/Articles/998863/">Blender 4.3 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://www.blender.org/download/releases/4-3/">Version 4.3</a> of
+the Blender animation system has been released.  "<q>Brush assets, faster
+sculpting, a revolutionized Grease Pencil, and more. Blender 4.3 got you
+covered.</q>"</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/998856/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 20 Nov 2024 14:57:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -69,7 +100,7 @@ shared
 <a href="https://www.more-magic.net/posts/chicken-6.html">
 an article</a> about what changes to expect in version 6 of the language, including better Unicode support and support for the
 <a href="https://r7rs.org/">
-R7RS</a> Scheme standard.
+R7RS (small)</a> Scheme standard.
 </p>
 
 <blockquote class="bq">
@@ -275,41 +306,6 @@ more details.</blockquote></blockquote></div></td></tr>
 <a href="https://lwn.net/Articles/998455/">4.19.324</a>
 stable kernels have all been released; each contains another set of
 important fixes.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/998446/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 17 Nov 2024 14:30:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/998446/" title="https://lwn.net/Articles/998446/">A new package manager for OpenWrt</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The OpenWrt router-oriented distribution has long used its own <tt>opkg</tt>
-package manager.  The project has just <a
-href="https://forum.openwrt.org/t/major-change-notice-new-package-manager/215682">announced</a>,
-though, that future releases will use the <a
-href="https://docs.alpinelinux.org/user-handbook/0.1a/Working/apk.html"><tt>apk</tt>
-package manager from Alpine Linux</a> instead.  "<q>This new package
-manager offers a number of advantages over the older opkg system and is a
-significant milestone in the development of the OpenWrt platform. The older
-opkg package manager has been deprecated and is no longer part of
-OpenWrt.</q>" There is some more information on <a
-href="https://forum.openwrt.org/t/the-future-is-now-opkg-vs-apk/201164">this
-page</a>.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/998221/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 Nov 2024 18:37:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/998221/" title="https://lwn.net/Articles/998221/">[$] Two approaches to tightening restrictions on loadable modules</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's loadable-module facility allows code to be loaded into (and
-sometimes removed from) a running kernel.  Among other things, loadable
-modules make it possible to run a kernel with only the subsystems needed
-for the system's hardware and workload.  Loadable modules can also make it
-easy for out-of-tree code to access parts of the kernel that developers
-would prefer to keep private; this has led to <a
-href="https://lwn.net/Kernel/Index/#Modules-Exported_symbols">many discussions</a> in the
-past.  The topic has returned to the kernel's mailing lists with two
-different patch sets aimed at further tightening the restrictions applied
-to loadable modules.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
