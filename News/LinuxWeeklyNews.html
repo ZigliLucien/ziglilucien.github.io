@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/998623/" title="See Description">[$] The beginning of the 6.13 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/998949/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/998144/" title="See Description">[$] LWN.net Weekly Edition for November 21, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/997850/" title="See Description">[$] RVKMS and Rust KMS bindings</a></li>
@@ -52,10 +53,23 @@
 <li><a href="#https://lwn.net/Articles/998637/" title="See Description">AlmaLinux 9.5 released</a></li>
 <li><a href="#https://lwn.net/Articles/998615/" title="See Description">FreeBSD Foundation releases Bhyve and Capsicum security audit</a></li>
 <li><a href="#https://lwn.net/Articles/997959/" title="See Description">[$] Development statistics for 6.12</a></li>
-<li><a href="#https://lwn.net/Articles/998570/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/998623/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 21 Nov 2024 15:39:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/998623/" title="https://lwn.net/Articles/998623/">[$] The beginning of the 6.13 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>As of this writing, just over 1,800 non-merge changesets have been pulled
+into the mainline kernel for the 6.13 release.  That number may seem small,
+given that a typical merge window brings in at least 12,000 commits, but
+the early pulls this time around have focused on significant core changes,
+and there are quite a few of them.  The time has come to summarize the
+changes pulled so far, including lazy preemption, multi-grained timestamps,
+new extended-attribute system calls, and more.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/998949/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 21 Nov 2024 14:11:43 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,14 +275,6 @@ mainline kernel; that made it a relatively slow cycle from this
 perspective, but 6.12 includes a long list of significant new features.
 The time has come to look at where those changes came from, and to look at
 the year-long LTS cycle as well.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/998570/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 18 Nov 2024 13:59:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/998570/" title="https://lwn.net/Articles/998570/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (binutils, libsoup, squid:4, tigervnc, and webkit2gtk3), <b>Debian</b> (icinga2, postgresql-13, postgresql-15, smarty3, symfony, thunderbird, and waitress), <b>Fedora</b> (dotnet9.0, ghostscript, microcode_ctl, php-bartlett-PHP-CompatInfo, python-waitress, and webkitgtk), <b>Gentoo</b> (Perl, Pillow, and X.Org X server, XWayland), <b>Oracle</b> (binutils, cups-filters, giflib, squid, and webkit2gtk3), <b>Red Hat</b> (webkit2gtk3), <b>SUSE</b> (ansible-core, apache2, gio-branding-upstream, icinga2, kernel-devel, libnghttp2-14, libsoup-2_4-1, libsoup-3_0-0, libvirt, nodejs-electron, postgresql13, postgresql16, python39, rclone, thunderbird, ucode-intel-20241112, and wget), and <b>Ubuntu</b> (python-asyncssh and tomcat9).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
