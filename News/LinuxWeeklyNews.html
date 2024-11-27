@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/999770/" title="See Description">[$] The kernel's command-line commotion</a></li>
+<li><a href="#https://lwn.net/Articles/999897/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/998778/" title="See Description">[$] Arch Linux finally starts licensing PKGBUILDs</a></li>
 <li><a href="#https://lwn.net/Articles/999767/" title="See Description">Firefox version 133.0 is now available</a></li>
 <li><a href="#https://lwn.net/Articles/999744/" title="See Description">Security updates for Tuesday</a></li>
@@ -51,11 +53,31 @@
 <li><a href="#https://lwn.net/Articles/998949/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/998144/" title="See Description">[$] LWN.net Weekly Edition for November 21, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/997850/" title="See Description">[$] RVKMS and Rust KMS bindings</a></li>
-<li><a href="#https://lwn.net/Articles/998863/" title="See Description">Blender 4.3 released</a></li>
-<li><a href="#https://lwn.net/Articles/998856/" title="See Description">Plans for CHICKEN 6</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/999770/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 27 Nov 2024 14:43:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/999770/" title="https://lwn.net/Articles/999770/">[$] The kernel's command-line commotion</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>For the most part, the 6.13 merge window has gone smoothly, with relatively
+few problems or disagreements — other than <a href="https://lwn.net/Articles/999197/">this
+one</a>, of course.  There is one other exception, though, relating to the
+kernel's presentation of a process's command line to interested user-space
+observers when a relatively new system call is used.  A pull request with a
+simple change to make that information more user-friendly ran afoul of
+Linus Torvalds, who has his own view of how it should be managed.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/999897/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 27 Nov 2024 14:34:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/999897/" title="https://lwn.net/Articles/999897/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (mpg123 and php8.2), <b>Fedora</b> (libsndfile, mingw-glib2, mingw-libsoup, mingw-python3, and qbittorrent), <b>Oracle</b> (pam:1.5.1 and perl-App-cpanminus), <b>Red Hat</b> (firefox, thunderbird, and webkit2gtk3), <b>Slackware</b> (mozilla), <b>SUSE</b> (firefox, rclone, tomcat, tomcat10, and xen), and <b>Ubuntu</b> (gh, libsoup2.4, libsoup3, pygments, TinyGLTF, and twisted).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/998778/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 26 Nov 2024 16:40:10 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -248,35 +270,6 @@ a "<q>game-changer for the kernel</q>", noting that the reasons are not
 related to the oft-mentioned, "headline" feature of the language: memory
 safety.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/998863/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 Nov 2024 15:33:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/998863/" title="https://lwn.net/Articles/998863/">Blender 4.3 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://www.blender.org/download/releases/4-3/">Version 4.3</a> of
-the Blender animation system has been released.  "<q>Brush assets, faster
-sculpting, a revolutionized Grease Pencil, and more. Blender 4.3 got you
-covered.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/998856/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 Nov 2024 14:57:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/998856/" title="https://lwn.net/Articles/998856/">Plans for CHICKEN 6</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://www.call-cc.org/">
-CHICKEN Scheme</a>, a portable Scheme compiler, is gearing up for its next major release. Maintainer Felix Winkelmann has
-shared
-<a href="https://www.more-magic.net/posts/chicken-6.html">
-an article</a> about what changes to expect in version 6 of the language, including better Unicode support and support for the
-<a href="https://r7rs.org/">
-R7RS (small)</a> Scheme standard.
-</p>
-
-<blockquote class="bq">
-Every major release is a chance of fixing long-standing problems with the codebase and address bad design decisions. CHICKEN is now nearly 25 years old and we had many major overhauls of the system. Sometimes these caused a lot of pain, but still we always try to improve things and hopefully make it more enjoyable and practical for our users. There are places in the code that are messy, too complex, or that require cleanup or rewrite, always sitting there waiting to be addressed. On the other hand CHICKEN has been relatively stable compared to many other language implementations and has a priceless community of users that help us improving it. Our users never stop reminding us of what could be better, where the shortcomings are, where things are hard to use or inefficient.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
