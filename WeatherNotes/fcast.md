@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Rain and areas of drizzle before 11pm, then areas of drizzle and a chance of rain between 11pm and 2am. Mostly cloudy. Low
-         around 34, with temperatures rising to around 37 overnight. North wind 2 to 12 mph, with gusts as high as 21 mph. Chance of
-         precipitation is 100%.<br></div>
+         around 34, with temperatures rising to around 37 overnight. North northwest wind 5 to 12 mph, with gusts as high as 21 mph.
+         Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
