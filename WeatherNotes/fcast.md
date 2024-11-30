@@ -2,12 +2,13 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Partly cloudy, with a low around 23. West wind around 2 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy, with a low around 23. West southwest wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A slight chance of snow showers between 10am and 11am, then a chance of rain showers between 11am and noon, then a chance
-         of rain and snow showers. Cloudy, with a high near 40. South southwest wind 1 to 7 mph. Chance of precipitation is 50%.<br></div>
+         of rain and snow showers. Cloudy, with a high near 38. South southwest wind 1 to 7 mph. Chance of precipitation is 50%. Little
+         or no snow accumulation expected.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
