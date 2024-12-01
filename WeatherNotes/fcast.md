@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of snow before midnight. Mostly cloudy. Low around 23, with temperatures rising to around 25 overnight. North
-         wind 2 to 6 mph. Chance of precipitation is 20%.<br></div>
+         wind around 6 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
