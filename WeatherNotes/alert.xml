@@ -11,14 +11,14 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.788b138246e61962b37e34110708b60d4f477626.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f81ee5dd2533ceb0ffe94a8879249d7c66b72e7.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.788b138246e61962b37e34110708b60d4f477626.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f81ee5dd2533ceb0ffe94a8879249d7c66b72e7.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.788b138246e61962b37e34110708b60d4f477626.001.1</id>
-				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Johnson; Pope; Hardin; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Livingston; Crittenden; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.7f81ee5dd2533ceb0ffe94a8879249d7c66b72e7.001.1</id>
+				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Cape Girardeau</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
 						<item type="str">017081</item>
@@ -33,17 +33,29 @@
 						<item type="str">017199</item>
 						<item type="str">017165</item>
 						<item type="str">017059</item>
+						<item type="str">017181</item>
 						<item type="str">017087</item>
 						<item type="str">017151</item>
 						<item type="str">017069</item>
+						<item type="str">017003</item>
+						<item type="str">017153</item>
+						<item type="str">017127</item>
 						<item type="str">018051</item>
 						<item type="str">018125</item>
 						<item type="str">018129</item>
 						<item type="str">018163</item>
 						<item type="str">018173</item>
 						<item type="str">018147</item>
+						<item type="str">021039</item>
+						<item type="str">021007</item>
+						<item type="str">021145</item>
+						<item type="str">021083</item>
 						<item type="str">021139</item>
+						<item type="str">021157</item>
+						<item type="str">021035</item>
 						<item type="str">021055</item>
+						<item type="str">021143</item>
+						<item type="str">021221</item>
 						<item type="str">021033</item>
 						<item type="str">021225</item>
 						<item type="str">021233</item>
@@ -54,6 +66,8 @@
 						<item type="str">021149</item>
 						<item type="str">021177</item>
 						<item type="str">021219</item>
+						<item type="str">029157</item>
+						<item type="str">029031</item>
 					</SAME>
 					<UGC type="list">
 						<item type="str">ILZ075</item>
@@ -68,17 +82,29 @@
 						<item type="str">ILZ085</item>
 						<item type="str">ILZ086</item>
 						<item type="str">ILZ087</item>
+						<item type="str">ILZ088</item>
 						<item type="str">ILZ089</item>
 						<item type="str">ILZ090</item>
 						<item type="str">ILZ091</item>
+						<item type="str">ILZ092</item>
+						<item type="str">ILZ093</item>
+						<item type="str">ILZ094</item>
 						<item type="str">INZ081</item>
 						<item type="str">INZ082</item>
 						<item type="str">INZ085</item>
 						<item type="str">INZ086</item>
 						<item type="str">INZ087</item>
 						<item type="str">INZ088</item>
+						<item type="str">KYZ003</item>
+						<item type="str">KYZ004</item>
+						<item type="str">KYZ005</item>
+						<item type="str">KYZ006</item>
 						<item type="str">KYZ007</item>
+						<item type="str">KYZ008</item>
+						<item type="str">KYZ009</item>
 						<item type="str">KYZ010</item>
+						<item type="str">KYZ011</item>
+						<item type="str">KYZ012</item>
 						<item type="str">KYZ013</item>
 						<item type="str">KYZ014</item>
 						<item type="str">KYZ015</item>
@@ -89,6 +115,8 @@
 						<item type="str">KYZ020</item>
 						<item type="str">KYZ021</item>
 						<item type="str">KYZ022</item>
+						<item type="str">MOZ076</item>
+						<item type="str">MOZ087</item>
 					</UGC>
 				</geocode>
 				<affectedZones type="list">
@@ -104,17 +132,29 @@
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ086</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ090</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ091</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ093</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ094</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ081</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ082</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ085</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ086</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ087</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ003</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ004</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ005</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ006</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ007</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ008</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ009</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ010</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ011</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ012</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ013</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ014</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ015</item>
@@ -125,12 +165,14 @@
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ020</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ021</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ022</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
 				</affectedZones>
 				<references type="list"/>
-				<sent type="str">2024-12-01T12:38:00-06:00</sent>
-				<effective type="str">2024-12-01T12:38:00-06:00</effective>
-				<onset type="str">2024-12-01T12:38:00-06:00</onset>
-				<expires type="str">2024-12-02T04:00:00-06:00</expires>
+				<sent type="str">2024-12-02T03:56:00-06:00</sent>
+				<effective type="str">2024-12-02T03:56:00-06:00</effective>
+				<onset type="str">2024-12-02T03:56:00-06:00</onset>
+				<expires type="str">2024-12-02T14:00:00-06:00</expires>
 				<ends type="null"/>
 				<status type="str">Actual</status>
 				<messageType type="str">Alert</messageType>
@@ -141,14 +183,15 @@
 				<event type="str">Special Weather Statement</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Special Weather Statement issued December 1 at 12:38PM CST by NWS Paducah KY</headline>
-				<description type="str">Another albeit much weaker upper air disturbance will impact the
-region Monday, with the potential of producing a light snowfall
-dusting up to an inch possibly in isolated locales.
+				<headline type="str">Special Weather Statement issued December 2 at 3:56AM CST by NWS Paducah KY</headline>
+				<description type="str">Another upper level disturbance will impact the region today,
+with the potential of producing a light snowfall with
+accumulations of a dusting and up to an inch possibly in isolated
+locales.
 
-The snow will hit southern Illinois tomorrow morning, and impact
-southwest Indiana and the Pennyrile region of western Kentucky by
-tomorrow afternoon.
+Snow is expected to begin in Illinois and parts of southeast
+Missouri this morning, and move into southwest Indiana and
+western Kentucky by this afternoon.
 
 Allow a little extra time and drive carefully just in case
 temperatures are near or below freezing when moisture makes
@@ -161,10 +204,10 @@ and forecasts for any changes to this system.</description>
 						<item type="str">SPSPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS83 KPAH 011838</item>
+						<item type="str">WWUS83 KPAH 020956</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">LIGHT DUSTING OF SNOWFALL POSSIBLE MONDAY</item>
+						<item type="str">LIGHT DUSTING OF SNOWFALL POSSIBLE TODAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -179,5 +222,5 @@ and forecasts for any changes to this system.</description>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-12-01T18:38:31+00:00</updated>
+	<updated type="str">2024-12-02T10:00:00+00:00</updated>
 </all>
