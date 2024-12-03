@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/997784/" title="See Description">[$] Rust's incremental compiler architecture</a></li>
 <li><a href="#https://lwn.net/Articles/1000591/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1000469/" title="See Description">NixOS 24.11 released</a></li>
 <li><a href="#https://lwn.net/Articles/1000465/" title="See Description">Security updates for Monday</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/999910/" title="See Description">Elementary OS 8 released</a></li>
 <li><a href="#https://lwn.net/Articles/999770/" title="See Description">[$] The kernel's command-line commotion</a></li>
 <li><a href="#https://lwn.net/Articles/999897/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/998778/" title="See Description">[$] Arch Linux finally starts licensing PKGBUILDs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/997784/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 03 Dec 2024 19:29:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/997784/" title="https://lwn.net/Articles/997784/">[$] Rust's incremental compiler architecture</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The traditional structure of a compiler forms a pipeline — parsing,
+type-checking, optimization, and code-generation, usually in that order. But
+modern programming languages have requirements that are ill-suited to such a
+design. Increasingly, compilers are moving toward other designs in
+order to support incremental compilation and low-latency responses for uses
+like integration into IDEs. Rust has, for the last eight years, been pursuing a
+particularly unusual design; in that time
+compile times have
+<a href="https://perf.rust-lang.org/dashboard.html">
+substantially improved</a>, but there's still more work to be done.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1000591/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 03 Dec 2024 14:42:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -240,29 +259,6 @@ Linus Torvalds, who has his own view of how it should be managed.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (mpg123 and php8.2), <b>Fedora</b> (libsndfile, mingw-glib2, mingw-libsoup, mingw-python3, and qbittorrent), <b>Oracle</b> (pam:1.5.1 and perl-App-cpanminus), <b>Red Hat</b> (firefox, thunderbird, and webkit2gtk3), <b>Slackware</b> (mozilla), <b>SUSE</b> (firefox, rclone, tomcat, tomcat10, and xen), and <b>Ubuntu</b> (gh, libsoup2.4, libsoup3, pygments, TinyGLTF, and twisted).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/998778/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 26 Nov 2024 16:40:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/998778/" title="https://lwn.net/Articles/998778/">[$] Arch Linux finally starts licensing PKGBUILDs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://archlinux.org/">Arch Linux</a> is popular as a <a
-href="https://wiki.archlinux.org/title/Arch-based_distributions">base
-for other Linux distributions</a>; examples of Arch-derivatives include <a
-href="https://endeavouros.com/">EndeavourOS</a>, <a
-href="https://manjaro.org/">Manjaro</a>, <a
-href="https://www.parabola.nu/">Parabola</a>, and <a
-href="https://store.steampowered.com/steamos">SteamOS</a>.
-There's one small problem: the control files used to describe how to build
-packages for Arch Linux have no stated license. That creates a bit of
-uncertainty about the rights and responsibilities for the downstream
-derivatives. So far, that doesn't seem to have been a problem, nor has
-it stopped other projects from assuming that reuse is
-allowed. However, the Arch project is looking to add some clarity by
-explicitly assigning a liberal license to its package
-sources. Currently the project is in the process of reaching out to
-contributors to see if they have any objections.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
