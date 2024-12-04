@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 52, with temperatures falling to around 50 in the afternoon. Southwest wind 10 to 16 mph, with gusts as high
-         as 28 mph.<br></div>
+         <h3>This Afternoon</h3>Sunny. High near 52, with temperatures falling to around 50 in the afternoon. Southwest wind 10 to 14 mph, with gusts as high
+         as 25 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -12,24 +12,24 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny. High near 27, with temperatures falling to around 25 in the afternoon. North northwest wind 7 to 15 mph, with gusts
+         <h3>Thursday</h3>Sunny. High near 28, with temperatures falling to around 26 in the afternoon. North northwest wind 7 to 15 mph, with gusts
          as high as 25 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 14. North northwest wind 1 to 5 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly clear, with a low around 14. Northwest wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Sunny, with a high near 35. West southwest wind 1 to 5 mph.<br></div>
+         <h3>Friday</h3>Sunny, with a high near 36. West southwest wind 1 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Mostly clear, with a low around 23. South wind around 6 mph.<br></div>
+         <h3>Friday Night</h3>Mostly clear, with a low around 22. South southwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny, with a high near 47. South southwest wind 6 to 10 mph.<br></div>
+         <h3>Saturday</h3>Sunny, with a high near 47. South southwest wind 5 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -37,27 +37,29 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of rain showers. Mostly cloudy, with a high near 52. South wind around 13 mph, with gusts as high as 24 mph.<br></div>
+         <h3>Sunday</h3>A chance of rain showers. Mostly cloudy, with a high near 52. South southwest wind around 13 mph, with gusts as high as 24
+         mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Rain showers. Cloudy, with a low around 45. South wind around 12 mph, with gusts as high as 23 mph.<br></div>
+         <h3>Sunday Night</h3>Rain showers before midnight, then showers and thunderstorms. Cloudy, with a low around 46. South southwest wind 9 to 13 mph,
+         with gusts as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Rain showers likely. Mostly cloudy, with a high near 59. Southwest wind around 10 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Monday</h3>Rain showers likely. Mostly cloudy, with a high near 60. Southwest wind around 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 39. West wind around 10 mph.<br></div>
+         <h3>Monday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 37. West northwest wind 6 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A slight chance of rain showers before noon. Partly sunny, with a high near 47. Northwest wind around 12 mph, with gusts as
-         high as 20 mph.<br></div>
+         <h3>Tuesday</h3>A slight chance of rain showers. Partly sunny, with a high near 45. North northwest wind around 10 mph, with gusts as high
+         as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Mostly cloudy, with a low around 28. Northwest wind around 8 mph.<br></div>
+         <h3>Tuesday Night</h3>Partly cloudy, with a low around 25. North northwest wind around 8 mph. New snow accumulation of 1 to 3 inches possible.<br></div>
    </p>
 </div>
