@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1000871/" title="See Description">Stable kernels 6.12.2, 6.11.11, and 4.19.325</a></li>
+<li><a href="#https://lwn.net/Articles/1000870/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/998950/" title="See Description">[$] LWN.net Weekly Edition for December 5, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/1000751/" title="See Description">Fedora moves towards Forgejo (Fedora Magazine)</a></li>
 <li><a href="#https://lwn.net/Articles/1000727/" title="See Description">Walleij: New ARM32 Security Features in v6.10</a></li>
@@ -51,11 +53,45 @@
 <li><a href="#https://lwn.net/Articles/998990/" title="See Description">[$] The rest of the 6.13 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1000379/" title="See Description">Kernel prepatch 6.13-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/1000273/" title="See Description">Rust 1.83.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1000272/" title="See Description">The OpenWrt One router is now shipping</a></li>
-<li><a href="#https://lwn.net/Articles/1000185/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1000871/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Dec 2024 14:20:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000871/" title="https://lwn.net/Articles/1000871/">Stable kernels 6.12.2, 6.11.11, and 4.19.325</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1000872/">6.12.2</a>, <a
+href="https://lwn.net/Articles/1000873/">6.11.11</a>, and <a
+href="https://lwn.net/Articles/1000874/">4.19.325</a> stable kernels.  Note that both
+6.11.11 and 4.19.325 are the last kernels in those series, "<q>please move
+off to a newer kernel version</q>".  In the 4.19.325 release notice, he has
+a rather longer-than-usual message, including:
+
+<blockquote class="bq">
+As a "fun" proof that this one is finished (and that any company saying
+they care about it really should have their statements validated with
+facts), I looked at the "unfixed" CVEs from this kernel release.
+Currently it is a list 983 CVEs long, too long to list here.
+<p>
+You can verify it yourself by cloning the vulns.git repo at
+git.kernel.org and running:
+<pre>
+	./scripts/strak v4.19.325
+</pre>
+Note, this does NOT count the hardware CVEs which kernel.org does not
+track, and many are sill unfixed in this kernel branch.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1000870/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Dec 2024 14:08:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000870/" title="https://lwn.net/Articles/1000870/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (thunderbird, tuned, and webkitgtk), <b>Mageia</b> (python-aiohttp and qemu), <b>Oracle</b> (container-tools:ol8, firefox, java-1.8.0-openjdk, java-11-openjdk, kernel, kernel:4.18.0, krb5, pam, postgresql:16, python-tornado, python3:3.6.8, thunderbird, tigervnc, tuned, and webkit2gtk3), <b>Red Hat</b> (bzip2, postgresql, postgresql:13, postgresql:15, postgresql:16, python-tornado, and ruby:3.1), <b>Slackware</b> (python3), <b>SUSE</b> (postgresql, postgresql16, postgresql17, postgresql13, postgresql14, postgresql15, python-python-multipart, and python3), and <b>Ubuntu</b> (python-django and recutils).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/998950/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 05 Dec 2024 00:34:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -250,35 +286,6 @@ _and_ the work for 6.14 won't be starting until well into January.</q>"</blockqu
 </blockquote>
 <p>
 There are also quite a few new stabilized APIs.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1000272/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 30 Nov 2024 15:30:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000272/" title="https://lwn.net/Articles/1000272/">The OpenWrt One router is now shipping</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The OpenWrt One router, which <a href="https://lwn.net/Articles/994961/">was reviewed
-here</a> recently, <a
-href="https://sfconservancy.org/news/2024/nov/29/openwrt-one-wireless-router-now-ships-black-friday/">is
-now generally available</a>.
-<p>
-<blockquote class="bq">
-	 This is the first wireless Internet router designed and built with
-	 your software freedom and right to repair in mind. The OpenWrt One
-	 will never be locked down and is forever unbrickable. This device
-	 services your needs as its owner and user. Everyone deserves
-	 control of their computing. The OpenWrt One takes a great first
-	 step toward bringing software rights to your home: you can control
-	 your own network with the software of your choice, and ensure your
-	 right to change, modify, and repair it as you like.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1000185/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 29 Nov 2024 14:09:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000185/" title="https://lwn.net/Articles/1000185/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr, redis, twisted, and tzdata), <b>Fedora</b> (firefox, nss, pam, rust-rustls, rust-zlib-rs, thunderbird, tuned, and xen), and <b>SUSE</b> (cobbler, kernel, libjxl-devel, libuv, postgresql12, postgresql14, postgresql15, python-waitress, seamonkey, tomcat, and tomcat10).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
