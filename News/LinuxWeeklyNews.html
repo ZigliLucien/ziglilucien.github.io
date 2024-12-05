@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1000941/" title="See Description">Let's Encrypt sets date for ending OCSP support</a></li>
 <li><a href="#https://lwn.net/Articles/1000927/" title="See Description">‘Tis the Season for COSMIC Alpha 4! (System76 Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1000485/" title="See Description">[$] Debian opens a can of username worms</a></li>
 <li><a href="#https://lwn.net/Articles/1000880/" title="See Description">Mozilla's new branding strategy</a></li>
@@ -52,10 +53,39 @@
 <li><a href="#https://lwn.net/Articles/997784/" title="See Description">[$] Rust's incremental compiler architecture</a></li>
 <li><a href="#https://lwn.net/Articles/1000591/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1000469/" title="See Description">NixOS 24.11 released</a></li>
-<li><a href="#https://lwn.net/Articles/1000465/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1000941/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Dec 2024 19:22:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000941/" title="https://lwn.net/Articles/1000941/">Let's Encrypt sets date for ending OCSP support</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>In July, Let's Encrypt <a
+href="https://lwn.net/Articles/982965/">announced</a> it was ending
+support "<q>as soon as possible</q>" for the <a
+href="https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol">Online
+Certificate Status Protocol</a> (OCSP) in favor of <a
+href="https://en.wikipedia.org/wiki/Certificate_revocation_list">Certificate
+Revocation Lists</a> (CRLs) due to privacy concerns. The organization
+has now <a
+href="https://letsencrypt.org/2024/12/05/ending-ocsp/">announced</a>
+that it has set a timeline, and will be turning off its OCSP
+responders on August&nbsp;6, 2025. There is additional action required
+for Let's Encrypt users who use the OCSP Must Staple Extension:</p>
+
+<blockquote class="bq">
+<p>As of January 30, 2025, issuance requests that include the OCSP
+Must Staple extension will fail, unless the requesting account has
+previously issued a certificate containing the OCSP Must Staple
+extension.</p>
+
+<p>As of May 7, all issuance requests that include the OCSP Must
+Staple extension will fail, including renewals. Please change your
+ACME client configuration to not request the extension.</p>
+</blockquote>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1000927/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 05 Dec 2024 16:59:21 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -289,14 +319,6 @@ The 24.11 release was made possible due to the efforts of <b>2669</b>&nbsp;contr
 <p>
 NixOS is already known as <a href="https://repology.org/repositories/statistics/newest">the most up to date distribution</a> while also being <a href="https://repology.org/repositories/statistics/total">the distribution with the most packages</a>. This release saw <b>8141&nbsp;new</b> packages and <b>20975&nbsp;updated</b> packages in Nixpkgs. We also <b>removed&nbsp;3970</b> packages in an effort to keep the package set maintainable and secure. 
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1000465/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Dec 2024 15:37:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000465/" title="https://lwn.net/Articles/1000465/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (dnsmasq, editorconfig-core, lemonldap-ng, proftpd-dfsg, python3.9, simplesamlphp, tgt, and xfpt), <b>Fedora</b> (qbittorrent, webkitgtk, and wireshark), <b>Mageia</b> (libsoup3 &amp; libsoup), <b>Red Hat</b> (buildah, grafana, grafana-pcp, and podman), <b>SUSE</b> (gimp, kernel, postgresql14, python, webkit2gtk3, xen, and zabbix), and <b>Ubuntu</b> (ansible and postgresql-12, postgresql-14, postgresql-16).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
