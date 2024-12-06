@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Clear, with a low around 15. North northwest wind 2 to 7 mph.<br></div>
+         <h3>Tonight</h3>Clear, with a low around 15. Northwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
