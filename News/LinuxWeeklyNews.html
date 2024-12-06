@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1001202/" title="See Description">A single stable kernel to fix boot problems</a></li>
+<li><a href="#https://lwn.net/Articles/1000654/" title="See Description">[$] Freezing out the page reference count</a></li>
 <li><a href="#https://lwn.net/Articles/1001164/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1001013/" title="See Description">Apertis v2024 released</a></li>
 <li><a href="#https://lwn.net/Articles/1000941/" title="See Description">Let's Encrypt sets date for ending OCSP support</a></li>
@@ -51,11 +53,45 @@
 <li><a href="#https://lwn.net/Articles/1000727/" title="See Description">Walleij: New ARM32 Security Features in v6.10</a></li>
 <li><a href="#https://lwn.net/Articles/998783/" title="See Description">[$] The return of RWF_UNCACHED</a></li>
 <li><a href="#https://lwn.net/Articles/1000726/" title="See Description">Hurl 6.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1000721/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/997784/" title="See Description">[$] Rust's incremental compiler architecture</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1001202/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Dec 2024 15:58:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001202/" title="https://lwn.net/Articles/1001202/">A single stable kernel to fix boot problems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Greg Kroah-Hartman released version
+<a href="https://lwn.net/Articles/1001203/">6.12.3</a> of the kernel to fix
+<a href="https://lwn.net/ml/all/efbda6ac-9482-4b37-90b7-829f2424f579@cachyos.org/">
+a regression</a> that can cause some machines to fail to boot on version 6.12.2.
+The other stable branches are continuing on their normal cadence, with
+<a href="https://lwn.net/ml/all/20241206143527.654980698@linuxfoundation.org/">
+6.12.4-rc1</a> and
+<a href="https://lwn.net/ml/all/20241206143653.344873888@linuxfoundation.org/">
+6.6.64-rc1</a> starting review today.
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1000654/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Dec 2024 15:55:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000654/" title="https://lwn.net/Articles/1000654/">[$] Freezing out the page reference count</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://elixir.bootlin.com/linux/v6.12.1/source/include/linux/mm_types.h#L35"><tt>page</tt>
+structure</a> sits at the core of the kernel's memory-management subsystem
+(for now), and a key part of that structure is its reference count, stored
+in <tt>refcount</tt>.  The page reference count tells the kernel how many
+users a given page has and when it can be freed.  That count is not needed
+for every page in the system, though.  Matthew Wilcox has recently <a
+href="https://lwn.net/ml/all/20241125210149.2976098-1-willy@infradead.org">resurrected</a>
+an <a href="https://lwn.net/ml/linux-mm/20220809171854.3725722-1-willy@infradead.org/">old
+patch set</a> that expands the concept of a "frozen" page — one that lacks a
+meaningful reference count — to the immediate benefit of the slab allocator
+but in the service of a longer-term goal as well.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1001164/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 06 Dec 2024 14:26:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -310,33 +346,6 @@ to export Hurl files to a list of curl commands. See the <a
 href="https://github.com/Orange-OpenSource/hurl/releases/tag/6.0.0">release
 notes</a> for a full list of changes and downloads.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1000721/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 04 Dec 2024 14:23:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000721/" title="https://lwn.net/Articles/1000721/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Red Hat</b> (go-toolset:rhel8, grafana, kernel, kernel-rt, kernel:4.18.0, pam, pam:1.5.1, pcs, postgresql:12, postgresql:15, postgresql:16, python3:3.6.8, qemu-kvm, rhc, rhc-worker-playbook, and virt:rhel and virt-devel:rhel) and <b>SUSE</b> (ansible-10, ansible-core, avahi, bpftool, python, python3, python36, webkit2gtk3, and xen).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/997784/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 03 Dec 2024 19:29:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/997784/" title="https://lwn.net/Articles/997784/">[$] Rust's incremental compiler architecture</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The traditional structure of a compiler forms a pipeline — parsing,
-type-checking, optimization, and code-generation, usually in that order. But
-modern programming languages have requirements that are ill-suited to such a
-design. Increasingly, compilers are moving toward other designs in
-order to support incremental compilation and low-latency responses for uses
-like integration into IDEs. Rust has, for the last eight years, been pursuing a
-particularly unusual design; in that time
-compile times have
-<a href="https://perf.rust-lang.org/dashboard.html">
-substantially improved</a>, but there's still more work to be done.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
