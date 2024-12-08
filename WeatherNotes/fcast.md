@@ -2,22 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly clear. Low around 40, with temperatures rising to around 43 overnight. South southwest wind around 10 mph, with gusts
-         as high as 20 mph.<br></div>
+         <h3>Today</h3>A chance of rain after 4pm. Mostly sunny. High near 57, with temperatures falling to around 52 in the afternoon. South southwest
+         wind 7 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of rain after 4pm. Mostly sunny. High near 57, with temperatures falling to around 52 in the afternoon. South southwest
-         wind around 13 mph, with gusts as high as 22 mph. Chance of precipitation is 50%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday Night</h3>Rain. Cloudy. Low around 45, with temperatures rising to around 47 overnight. South southwest wind 6 to 12 mph, with gusts
+         <h3>Tonight</h3>Rain. Cloudy. Low around 45, with temperatures rising to around 47 overnight. South southwest wind 6 to 12 mph, with gusts
          as high as 21 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A chance of rain. Mostly cloudy, with a high near 58. Southwest wind 3 to 7 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Monday</h3>A chance of rain. Mostly cloudy. High near 58, with temperatures falling to around 55 in the afternoon. Southwest wind 3 to
+         7 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,5 +56,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A chance of rain showers. Mostly cloudy, with a high near 51. South wind around 12 mph, with gusts as high as 20 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 36. South southwest wind around 8 mph.<br></div>
    </p>
 </div>
