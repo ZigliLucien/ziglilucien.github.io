@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Cloudy, with a high near 53. Southwest wind 2 to 7 mph.<br></div>
+         <h3>This Afternoon</h3>Cloudy, with a high near 53. West southwest wind 2 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

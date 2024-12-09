@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1000635/" title="See Description">[$] Finally continuing the discussion over continue in finally</a></li>
 <li><a href="#https://lwn.net/Articles/1001441/" title="See Description">A vulnerability in the OpenWrt attended sysupgrade server</a></li>
 <li><a href="#https://lwn.net/Articles/1001436/" title="See Description">Two new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1001435/" title="See Description">Kernel prepatch 6.13-rc2</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1000485/" title="See Description">[$] Debian opens a can of username worms</a></li>
 <li><a href="#https://lwn.net/Articles/1000880/" title="See Description">Mozilla's new branding strategy</a></li>
 <li><a href="#https://lwn.net/Articles/1000871/" title="See Description">Stable kernels 6.12.2, 6.11.11, and 4.19.325</a></li>
-<li><a href="#https://lwn.net/Articles/1000870/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1000635/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 09 Dec 2024 15:33:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000635/" title="https://lwn.net/Articles/1000635/">[$] Finally continuing the discussion over continue in finally</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+In 2019, the Python community had a
+<a href="https://discuss.python.org/t/pep-601-forbid-return-break-continue-breaking-out-of-finally/2239">
+lengthy discussion</a> about changing the rules (that some find counterintuitive) on
+using <tt>break</tt>, <tt>continue</tt>, or <tt>return</tt> statements in
+<tt>finally</tt> blocks. These are all ways of jumping out of a <tt>finally</tt>
+block, which can interrupt the handling of a raised exception.
+At the time, the Python developers chose not to change
+things, because the consensus was that the existing behavior was not a problem. Now, after
+<a href="https://github.com/iritkatriel/finally/blob/main/README.md">a
+report</a> put together by Irit Katriel, the project is once again considering
+changing the language.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1001441/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 09 Dec 2024 14:48:54 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -339,14 +359,6 @@ git.kernel.org and running:
 Note, this does NOT count the hardware CVEs which kernel.org does not
 track, and many are sill unfixed in this kernel branch.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1000870/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Dec 2024 14:08:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000870/" title="https://lwn.net/Articles/1000870/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (thunderbird, tuned, and webkitgtk), <b>Mageia</b> (python-aiohttp and qemu), <b>Oracle</b> (container-tools:ol8, firefox, java-1.8.0-openjdk, java-11-openjdk, kernel, kernel:4.18.0, krb5, pam, postgresql:16, python-tornado, python3:3.6.8, thunderbird, tigervnc, tuned, and webkit2gtk3), <b>Red Hat</b> (bzip2, postgresql, postgresql:13, postgresql:15, postgresql:16, python-tornado, and ruby:3.1), <b>Slackware</b> (python3), <b>SUSE</b> (postgresql, postgresql16, postgresql17, postgresql13, postgresql14, postgresql15, python-python-multipart, and python3), and <b>Ubuntu</b> (python-django and recutils).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
