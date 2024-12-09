@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1001441/" title="See Description">A vulnerability in the OpenWrt attended sysupgrade server</a></li>
+<li><a href="#https://lwn.net/Articles/1001436/" title="See Description">Two new stable kernels</a></li>
+<li><a href="#https://lwn.net/Articles/1001435/" title="See Description">Kernel prepatch 6.13-rc2</a></li>
+<li><a href="#https://lwn.net/Articles/1001433/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1001215/" title="See Description">Abusing Git branch names to compromise a PyPI package</a></li>
 <li><a href="#https://lwn.net/Articles/1001202/" title="See Description">A single stable kernel to fix boot problems</a></li>
 <li><a href="#https://lwn.net/Articles/1000654/" title="See Description">[$] Freezing out the page reference count</a></li>
@@ -49,13 +53,68 @@
 <li><a href="#https://lwn.net/Articles/1000880/" title="See Description">Mozilla's new branding strategy</a></li>
 <li><a href="#https://lwn.net/Articles/1000871/" title="See Description">Stable kernels 6.12.2, 6.11.11, and 4.19.325</a></li>
 <li><a href="#https://lwn.net/Articles/1000870/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/998950/" title="See Description">[$] LWN.net Weekly Edition for December 5, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/1000751/" title="See Description">Fedora moves towards Forgejo (Fedora Magazine)</a></li>
-<li><a href="#https://lwn.net/Articles/1000727/" title="See Description">Walleij: New ARM32 Security Features in v6.10</a></li>
-<li><a href="#https://lwn.net/Articles/998783/" title="See Description">[$] The return of RWF_UNCACHED</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1001441/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 09 Dec 2024 14:48:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001441/" title="https://lwn.net/Articles/1001441/">A vulnerability in the OpenWrt attended sysupgrade server</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The OpenWrt project has issued <a
+href="https://lwn.net/ml/all/593EA688-7658-4AEB-959D-0AED959442E2@aparcar.org">an
+advisory</a> regarding a vulnerability found in its Attended Sysupgrade
+Server that could allow compromised packages to be installed on a router by
+an attacker.  No official OpenWrt images were affected, and the
+vulnerability is not known to be exploited, but users who have installed
+images created with an instance of this server are recommended to
+reinstall.
+<p>
+For a detailed description of how the exploit works, see <a
+href="https://flatt.tech/research/posts/compromising-openwrt-supply-chain-sha256-collision/">this
+blog post</a>.
+<p>
+<blockquote class="bq">
+	Then, as the hash collision occurred, the server returns the
+	overwritten build artifact to the legitimate request that requests
+	the following packages. [...]
+	<p>
+	By abusing this, an attacker could force the user to upgrade to the
+	malicious firmware, which could lead to the compromise of the
+	device.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1001436/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 09 Dec 2024 14:33:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001436/" title="https://lwn.net/Articles/1001436/">Two new stable kernels</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1001437/">6.12.4</a> and <a
+href="https://lwn.net/Articles/1001438/">6.6.64</a> stable kernels have been released,
+each with a set of important fixes throughout the kernel tree, as usual.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1001435/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 09 Dec 2024 14:31:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001435/" title="https://lwn.net/Articles/1001435/">Kernel prepatch 6.13-rc2</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1001434/">6.13-rc2</a> kernel prepatch is out for
+testing.  "<q>The diffstat looks a bit unusual with 80%+ drivers, and a lot of it
+one-liners, but that's actually just because of a couple of automated
+scripts that got run after -rc1 for some cleanups. Nothing
+particularly interesting, but it makes for a lot of noise in the diff.</q>"
+One of those scripts was the <tt>EXPORT_SYMBOL_NS()</tt> change (to make it
+use a quoted string for the namespace name) described in <a
+href="https://lwn.net/Articles/998221/">this article</a>.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1001433/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 09 Dec 2024 14:19:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001433/" title="https://lwn.net/Articles/1001433/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (redis:7, ruby, ruby:2.5, and ruby:3.1), <b>Debian</b> (avahi, ceph, chromium, gsl, jinja2, php7.4, renderdoc, ruby-doorkeeper, and zabbix), <b>Fedora</b> (chromium, python3.11, and uv), <b>Gentoo</b> (Asterisk, Cacti, Chromium, Google Chrome, Microsoft Edge. Opera, Dnsmasq, firefox, HashiCorp Consul, icinga2, OATH Toolkit, OpenJDK, PostgreSQL, R, Salt, Spidermonkey, and thunderbird), <b>Mageia</b> (kubernetes), <b>Red Hat</b> (grafana, grafana-pcp, osbuild-composer, and postgresql), <b>SUSE</b> (ansible-core, firefox, glib2, java-1_8_0-ibm, kernel-firmware, nanopb, netty, python310-django-ckeditor, python310-jupyter-ydoc, radare2, skopeo, and webkit2gtk3), and <b>Ubuntu</b> (tinyproxy).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1001215/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 06 Dec 2024 18:44:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -287,79 +346,6 @@ track, and many are sill unfixed in this kernel branch.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (thunderbird, tuned, and webkitgtk), <b>Mageia</b> (python-aiohttp and qemu), <b>Oracle</b> (container-tools:ol8, firefox, java-1.8.0-openjdk, java-11-openjdk, kernel, kernel:4.18.0, krb5, pam, postgresql:16, python-tornado, python3:3.6.8, thunderbird, tigervnc, tuned, and webkit2gtk3), <b>Red Hat</b> (bzip2, postgresql, postgresql:13, postgresql:15, postgresql:16, python-tornado, and ruby:3.1), <b>Slackware</b> (python3), <b>SUSE</b> (postgresql, postgresql16, postgresql17, postgresql13, postgresql14, postgresql15, python-python-multipart, and python3), and <b>Ubuntu</b> (python-django and recutils).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/998950/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Dec 2024 00:34:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/998950/" title="https://lwn.net/Articles/998950/">[$] LWN.net Weekly Edition for December 5, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for December 5, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1000751/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 04 Dec 2024 17:31:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000751/" title="https://lwn.net/Articles/1000751/">Fedora moves towards Forgejo (Fedora Magazine)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Fedora Project Leader Matthew Miller <a
-href="https://fedoramagazine.org/fedora-moves-towards-forgejo-a-unified-decision/">reports</a>
-that the project's search to replace <a
-href="https://pagure.io/">Pagure</a> as its <a
-href="https://en.wikipedia.org/wiki/Forge_(software)">git forge</a> is
-almost complete, with the Fedora Council strongly in favor of <a
-href="https://forgejo.org/">Forgejo</a>:</p>
-
-<blockquote class="bq">
-The Council, currently, has a clear preference for Forgejo. This is a
-big decision and we don't want it to feel rushed. Therefore, we're
-opening this up one last time to everyone's comments. After two weeks,
-we'll take our formal vote — and then get on with the work!
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/963095/">looked at
-Forgejo</a> in February.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1000727/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 04 Dec 2024 16:02:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000727/" title="https://lwn.net/Articles/1000727/">Walleij: New ARM32 Security Features in v6.10</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Walleij <a
-href="https://people.kernel.org/linusw/new-arm32-security-features-in-v6-10">writes
-about a pair of security features for 32-bit Arm systems</a>; these landed
-in 6.10, but, he says, have now stabilized to the point that distributors
-may want to enable them.
-<p>
-<blockquote class="bq">
-	PAN is an abbreviation for the somewhat grammatically incorrect
-	Privileged Access Never. [...]
-<p>
-	For modern ARM32 systems with large memories configured to use LPAE
-	nothing like PAN was available: this version of the MMU simply did
-	not implement a PAN option.
-<p>
-	As of the patch originally developed by Catalin Marinas, we deploy
-	a scheme that will use the fact that LPAE has two separate
-	translation table base registers (TTBR:s): one for userspace
-	(TTBR0) and one for kernelspace (TTBR1).
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/998783/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 04 Dec 2024 15:48:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/998783/" title="https://lwn.net/Articles/998783/">[$] The return of RWF_UNCACHED</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linux offers two broad ways of performing I/O to files.  Buffered I/O,
-which is the usual way of accessing a file, stores a copy of the
-transferred data in the kernel's page cache to speed future accesses.
-Direct I/O, instead, moves data directly between the storage device and a
-user-space buffer, avoiding the page cache.  Both modes have their
-advantages and disadvantages.  In 2019, Jens Axboe <a
-href="https://lwn.net/Articles/806980/">proposed an uncached buffered mode</a> to get some
-of the advantages of both, but that effort stalled at the time.  Now, <a
-href="https://lwn.net/ml/all/20241203153232.92224-2-axboe@kernel.dk">uncached buffered
-I/O is back</a> with some impressive performance results behind it.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
