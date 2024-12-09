@@ -81,7 +81,7 @@ openimbot:$({curl,-sSfL,raw.git<wbr>hub<wbr>user<wbr>content.com/ultra<wbr>lytic
 
 <p>
 Unfortunately, ultralytics uses the
-<a href="https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#pull_request_target"><tt>pull_request_target</tt></a> GitHub Action trigger to automate some of its continuous integration tasks. This runs a script from the base branch of the repository, which has access to the repository's secrets — but that script was vulnerable to a shell injection attack from the branch name of the pull request. The injected script appears to have used the credentials it had access to in order to compromise a later release uploaded to PyPI to include a cryptocurrency miner. It is hard to be sure of the details, because GitHub has already pulled the malicious script.
+<a href="https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#pull_request_target"><tt>pull_request_target</tt></a> GitHub Action trigger to automate some of its continuous-integration tasks. This runs a script from the base branch of the repository, which has access to the repository's secrets — but that script was vulnerable to a shell injection attack from the branch name of the pull request. The injected script appears to have used the credentials it had access to in order to compromise a later release uploaded to PyPI to include a cryptocurrency miner. It is hard to be sure of the details, because GitHub has already removed the malicious script.
 </p>
 
 <p>
