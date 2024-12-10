@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-12-10T17:36:02+00:00</generatedAt>
+		<generatedAt type="str">2024-12-10T18:36:08+00:00</generatedAt>
 		<updateTime type="str">2024-12-10T17:23:09+00:00</updateTime>
 		<validTimes type="str">2024-12-10T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2024-12-10T11:00:00-06:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2024-12-10T12:00:00-06:00</startTime>
 				<endTime type="str">2024-12-10T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">47</temperature>
@@ -63,10 +63,10 @@
 					<value type="int">20</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">12 mph</windSpeed>
-				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct/snow,20?size=medium</icon>
-				<shortForecast type="str">Mostly Sunny then Slight Chance Rain And Snow Showers</shortForecast>
-				<detailedForecast type="str">A slight chance of rain and snow showers after 5pm. Mostly sunny. High near 47, with temperatures falling to around 41 in the afternoon. North northwest wind around 12 mph, with gusts as high as 18 mph. Chance of precipitation is 20%.</detailedForecast>
+				<windDirection type="str">NW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/snow,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Rain And Snow Showers</shortForecast>
+				<detailedForecast type="str">A slight chance of rain and snow showers after 5pm. Mostly sunny. High near 47, with temperatures falling to around 41 in the afternoon. Northwest wind around 12 mph, with gusts as high as 18 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
