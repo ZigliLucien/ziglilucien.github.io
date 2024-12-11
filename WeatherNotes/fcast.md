@@ -2,21 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy, with a low around 29. West southwest wind around 2 mph.<br></div>
+         <h3>Today</h3>A slight chance of snow showers before 10am, then a chance of rain showers between noon and 4pm. Mostly sunny. High near 41,
+         with temperatures falling to around 35 in the afternoon. West wind 5 to 14 mph, with gusts as high as 24 mph. Chance of precipitation
+         is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Mostly sunny. High near 41, with temperatures falling to around 35 in the afternoon. West wind 3 to 14 mph, with gusts as
-         high as 24 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Mostly clear. Low around 21, with temperatures rising to around 23 overnight. West wind 1 to 9 mph, with gusts as high as
+         <h3>Tonight</h3>Mostly clear. Low around 21, with temperatures rising to around 23 overnight. West wind 1 to 9 mph, with gusts as high as
          18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny, with a high near 44. South wind 1 to 8 mph.<br></div>
+         <h3>Thursday</h3>Sunny. High near 44, with temperatures falling to around 40 in the afternoon. South wind 1 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -33,7 +30,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Rain showers. Mostly cloudy, with a high near 52. South wind around 14 mph, with gusts as high as 23 mph.<br></div>
+         <h3>Saturday</h3>Rain showers. Mostly cloudy, with a high near 52. South wind around 14 mph, with gusts as high as 23 mph. Chance of precipitation
+         is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,5 +56,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>A slight chance of rain showers before noon. Mostly sunny, with a high near 48. West wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>Partly cloudy, with a low around 31. West northwest wind around 6 mph.<br></div>
    </p>
 </div>
