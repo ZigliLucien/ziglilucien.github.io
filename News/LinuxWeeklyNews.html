@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/998576/" title="See Description">[$] Auto-tuning the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/1001728/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1001657/" title="See Description">Systemd 257 released</a></li>
 <li><a href="#https://lwn.net/Articles/1001634/" title="See Description">A change of hats! (Fedora Magazine)</a></li>
 <li><a href="#https://lwn.net/Articles/998893/" title="See Description">[$] A Zephyr-based camera trap for seagrass monitoring</a></li>
@@ -51,11 +53,37 @@
 <li><a href="#https://lwn.net/Articles/1001433/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1001215/" title="See Description">Abusing Git branch names to compromise a PyPI package</a></li>
 <li><a href="#https://lwn.net/Articles/1001202/" title="See Description">A single stable kernel to fix boot problems</a></li>
-<li><a href="#https://lwn.net/Articles/1000654/" title="See Description">[$] Freezing out the page reference count</a></li>
-<li><a href="#https://lwn.net/Articles/1001164/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/998576/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 11 Dec 2024 14:19:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/998576/" title="https://lwn.net/Articles/998576/">[$] Auto-tuning the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The Linux kernel has many tunable parameters. While there is much advice
+available on the internet about how to set them, few people have the time to
+weed through the (often contradictory) explanations and choose appropriate
+values. One possible way to address this is
+<a href="https://blogs.oracle.com/linux/post/introducing-bpftune">
+a project called bpftune</a>, a
+program that uses BPF to track various metrics about a running system and
+adjust the sysctl knobs appropriately. The program is developed by Oracle, and
+is available under a GPLv2 license. Bpftune is currently mostly
+focused on optimizing network settings, but the authors hope that the system is
+flexible enough to be extended to cover other settings.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1001728/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 11 Dec 2024 14:18:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001728/" title="https://lwn.net/Articles/1001728/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (proftpd-dfsg and smarty3), <b>Fedora</b> (python3.14), <b>Gentoo</b> (Distrobox, eza, idna, libvirt, and OpenSC), <b>Red Hat</b> (container-tools:rhel8 and edk2), <b>SUSE</b> (avahi, curl, libsoup2, lxd, nodejs20, python-Django, python310-Django4, python312, squid, and webkit2gtk3), and <b>Ubuntu</b> (expat, intel-microcode, linux, linux-aws, linux-kvm, linux-lts-xenial, and shiro).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1001657/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 10 Dec 2024 22:20:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -291,33 +319,6 @@ The other stable branches are continuing on their normal cadence, with
 <a href="https://lwn.net/ml/all/20241206143653.344873888@linuxfoundation.org/">
 6.6.64-rc1</a> starting review today.
 </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1000654/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 06 Dec 2024 15:55:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000654/" title="https://lwn.net/Articles/1000654/">[$] Freezing out the page reference count</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a
-href="https://elixir.bootlin.com/linux/v6.12.1/source/include/linux/mm_types.h#L35"><tt>page</tt>
-structure</a> sits at the core of the kernel's memory-management subsystem
-(for now), and a key part of that structure is its reference count, stored
-in <tt>refcount</tt>.  The page reference count tells the kernel how many
-users a given page has and when it can be freed.  That count is not needed
-for every page in the system, though.  Matthew Wilcox has recently <a
-href="https://lwn.net/ml/all/20241125210149.2976098-1-willy@infradead.org">resurrected</a>
-an <a href="https://lwn.net/ml/linux-mm/20220809171854.3725722-1-willy@infradead.org/">old
-patch set</a> that expands the concept of a "frozen" page — one that lacks a
-meaningful reference count — to the immediate benefit of the slab allocator
-but in the service of a longer-term goal as well.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1001164/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 06 Dec 2024 14:26:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001164/" title="https://lwn.net/Articles/1001164/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, postgresql, postgresql:12, postgresql:13, postgresql:15, postgresql:16, python3:3.6.8, and thunderbird), <b>Debian</b> (clamav), <b>Fedora</b> (pam), <b>Red Hat</b> (firefox, postgresql:13, postgresql:15, python-tornado, redis:7, ruby, ruby:2.5, and ruby:3.1), <b>SUSE</b> (avahi, docker-stable, java-1_8_0-openjdk, libmozjs-128-0, obs-scm-bridge, php8, and teleport), and <b>Ubuntu</b> (ghostscript, needrestart, and shiro).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>

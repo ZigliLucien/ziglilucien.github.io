@@ -1,100 +1,10 @@
 <?xml version="1.0" ?>
 <all>
-	<key name="@context" type="list">
-		<item type="str">https://geojson.org/geojson-ld/geojson-context.jsonld</item>
-		<item type="dict">
-			<key name="@version" type="str">1.1</key>
-			<wx type="str">https://api.weather.gov/ontology#</wx>
-			<key name="@vocab" type="str">https://api.weather.gov/ontology#</key>
-		</item>
+	<key name="@context" type="dict">
+		<key name="@version" type="str">1.1</key>
 	</key>
 	<type type="str">FeatureCollection</type>
-	<features type="list">
-		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff274ba054da0afed285163619a701857467cc34.001.1</id>
-			<type type="str">Feature</type>
-			<geometry type="null"/>
-			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff274ba054da0afed285163619a701857467cc34.001.1</key>
-				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.ff274ba054da0afed285163619a701857467cc34.001.1</id>
-				<areaDesc type="str">Perry; Jackson; Union; Alexander; Perry; Bollinger; Cape Girardeau; Wayne; Scott</areaDesc>
-				<geocode type="dict">
-					<SAME type="list">
-						<item type="str">017145</item>
-						<item type="str">017077</item>
-						<item type="str">017181</item>
-						<item type="str">017003</item>
-						<item type="str">029157</item>
-						<item type="str">029017</item>
-						<item type="str">029031</item>
-						<item type="str">029223</item>
-						<item type="str">029201</item>
-					</SAME>
-					<UGC type="list">
-						<item type="str">ILZ080</item>
-						<item type="str">ILZ084</item>
-						<item type="str">ILZ088</item>
-						<item type="str">ILZ092</item>
-						<item type="str">MOZ076</item>
-						<item type="str">MOZ086</item>
-						<item type="str">MOZ087</item>
-						<item type="str">MOZ100</item>
-						<item type="str">MOZ111</item>
-					</UGC>
-				</geocode>
-				<affectedZones type="list">
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
-				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2024-12-11T06:07:00-06:00</sent>
-				<effective type="str">2024-12-11T06:07:00-06:00</effective>
-				<onset type="str">2024-12-11T06:07:00-06:00</onset>
-				<expires type="str">2024-12-11T09:00:00-06:00</expires>
-				<ends type="null"/>
-				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
-				<category type="str">Met</category>
-				<severity type="str">Moderate</severity>
-				<certainty type="str">Observed</certainty>
-				<urgency type="str">Expected</urgency>
-				<event type="str">Special Weather Statement</event>
-				<sender type="str">w-nws.webmaster@noaa.gov</sender>
-				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Special Weather Statement issued December 11 at 6:07AM CST by NWS Paducah KY</headline>
-				<description type="str">Snow showers will result in brief but sudden reduction in
-visibility this morning. Snow showers are moving quickly but we
-could see some light accumulation mainly on grassy or elevated
-surfaces. Some slick spots are possible this morning.</description>
-				<instruction type="null"/>
-				<response type="str">Execute</response>
-				<parameters type="dict">
-					<AWIPSidentifier type="list">
-						<item type="str">SPSPAH</item>
-					</AWIPSidentifier>
-					<WMOidentifier type="list">
-						<item type="str">WWUS83 KPAH 111207</item>
-					</WMOidentifier>
-					<BLOCKCHANNEL type="list">
-						<item type="str">EAS</item>
-						<item type="str">NWEM</item>
-						<item type="str">CMAS</item>
-					</BLOCKCHANNEL>
-					<EAS-ORG type="list">
-						<item type="str">WXR</item>
-					</EAS-ORG>
-				</parameters>
-			</properties>
-		</item>
-	</features>
+	<features type="list"/>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2024-12-11T12:07:37+00:00</updated>
+	<updated type="str">2024-12-11T15:00:00+00:00</updated>
 </all>
