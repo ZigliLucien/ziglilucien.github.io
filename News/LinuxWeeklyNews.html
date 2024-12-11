@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1001657/" title="See Description">Systemd 257 released</a></li>
 <li><a href="#https://lwn.net/Articles/1001634/" title="See Description">A change of hats! (Fedora Magazine)</a></li>
 <li><a href="#https://lwn.net/Articles/998893/" title="See Description">[$] A Zephyr-based camera trap for seagrass monitoring</a></li>
 <li><a href="#https://lwn.net/Articles/1001599/" title="See Description">GNU Shepherd 1.0.0 released</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1001202/" title="See Description">A single stable kernel to fix boot problems</a></li>
 <li><a href="#https://lwn.net/Articles/1000654/" title="See Description">[$] Freezing out the page reference count</a></li>
 <li><a href="#https://lwn.net/Articles/1001164/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1001013/" title="See Description">Apertis v2024 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1001657/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Dec 2024 22:20:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001657/" title="https://lwn.net/Articles/1001657/">Systemd 257 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Systemd 257 has been released.  As usual, the list of changes is long; it
+includes support for multipath TCP in socket units, the ability to run
+processes as init in their own PID namespace, a new tool for signing EFI
+binaries for secure boot,
+and a superhero emoji in the run0 shell prompt, among many other things. 
+Also, support for version-1 control groups has been disabled and requires
+an elaborate dance to re-enable; it will be removed entirely in the next
+release, along with support for System&nbsp;V service scripts.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1001634/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 10 Dec 2024 17:11:01 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -303,39 +318,6 @@ but in the service of a longer-term goal as well.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, postgresql, postgresql:12, postgresql:13, postgresql:15, postgresql:16, python3:3.6.8, and thunderbird), <b>Debian</b> (clamav), <b>Fedora</b> (pam), <b>Red Hat</b> (firefox, postgresql:13, postgresql:15, python-tornado, redis:7, ruby, ruby:2.5, and ruby:3.1), <b>SUSE</b> (avahi, docker-stable, java-1_8_0-openjdk, libmozjs-128-0, obs-scm-bridge, php8, and teleport), and <b>Ubuntu</b> (ghostscript, needrestart, and shiro).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1001013/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Dec 2024 23:38:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001013/" title="https://lwn.net/Articles/1001013/">Apertis v2024 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://www.apertis.org/">Apertis</a> is a Collabora-developed
-Debian derivative distribution designed to be incorporated into electronic
-devices; the <a
-href="https://www.collabora.com/news-and-blog/news-and-events/apertis-v2024-the-new-bookworm-based-release-for-industrial-embedded-devices.html">v2024
-release</a> is now available.  It is now based on the Bookworm release, and
-includes support for Podman, <a href="https://onnxruntime.ai/">ONNX
-Runtime</a>, OP-TEE, and more.
-<p>
-<blockquote class="bq">
-	Apertis relies on the Debian Free Software Guidelines to ensure all
-	software shipped is open source or, in limited cases, at least
-	freely distributable. However, for some customers this is not
-	enough to be able to adopt OSS solutions as in their evaluations
-	some provisions in common licenses like the GPL-3 are at odds with
-	regulatory constraints they are subject to. Apertis does not set to
-	solve this decades-long debate, and instead its goal is to increase
-	the adoption of modern, maintained OSS solutions in markets where
-	this has historically been a challenge. To enable this, Apertis
-	supports avoiding the use of any software under some licenses (like
-	the [GPL v3.0 license family) on target images, while still making
-	them fully available for development and for customers that do not
-	share those licensing concerns. To avoid these licenses, Apertis
-	uses more modern alternatives instead of relying on outdated and
-	unmaintained pre-GPL-3 versions. For instance, coreutils and
-	findutils (GPL-3+) are replaced in Apertis by rust-coreutils and
-	rust-findutils.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
