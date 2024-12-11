@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 37.9 F. <strong>Dew Point</strong> 26.1 F.</div>
+<div id='c'><strong>Temp</strong> 39.9 F. <strong>Dew Point</strong> 23.0 F.</div>
 
 <p/><br/><p/>
 
@@ -3384,3 +3384,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Wed Dec 11 08:08:05 2024 | 30.9 F. | 26.1 F.|
 | Wed Dec 11 09:08:05 2024 | 33.1 F. | 27.0 F.|
 | Wed Dec 11 10:08:05 2024 | 37.9 F. | 26.1 F.|
+| Wed Dec 11 11:08:05 2024 | 39.9 F. | 23.0 F.|
