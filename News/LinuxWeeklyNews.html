@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1001909/" title="See Description">Supply-chain attack analysis: Ultralytics (PyPI Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1000933/" title="See Description">[$] A last look at the 4.19 stable series</a></li>
 <li><a href="#https://lwn.net/Articles/1001863/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1000812/" title="See Description">[$] LWN.net Weekly Edition for December 12, 2024</a></li>
@@ -52,10 +53,39 @@
 <li><a href="#https://lwn.net/Articles/1001597/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1001522/" title="See Description">Fedora Steering Council election interviews</a></li>
 <li><a href="#https://lwn.net/Articles/1000635/" title="See Description">[$] Finally continuing the discussion over continue in finally</a></li>
-<li><a href="#https://lwn.net/Articles/1001441/" title="See Description">A vulnerability in the OpenWrt attended sysupgrade server</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1001909/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 12 Dec 2024 16:26:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001909/" title="https://lwn.net/Articles/1001909/">Supply-chain attack analysis: Ultralytics (PyPI Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Python Package Index (PyPI) Blog has an <a
+href="https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/">analysis</a>
+of the <a href="https://lwn.net/Articles/1001215/">compromise</a> of
+the <a href="https://pypi.org/project/ultralytics/">ultralytics</a>
+project, and what PyPI has learned from this event:</p>
+
+<blockquote class="bq">
+<p>PyPI staff and volunteers do their best to remove malware, but
+because the service is open to anyone looking to publish software
+there is an unfortunately high amount of abuse. Thankfully most of
+this abuse does not have the same widespread impact as a targeted
+attack on an already widely-used project.</p>
+
+<p>Mike Fiedler, the PyPI Safety and Security Engineer is working on
+new systems for reducing the time that malware is available to be
+installed on PyPI, through <a
+href="https://blog.pypi.org/posts/2023-09-18-inbound-malware-reporting/">APIs
+that security researchers can automatically send reports</a> to and
+new <a
+href="https://blog.pypi.org/posts/2024-08-16-safety-and-security-engineer-year-in-review/#project-lifecycle-status-quarantine">"quarantine"
+release status</a> to prevent harm while a human investigates the
+situation. Expect more in this space in 2025!</p>
+</blockquote>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1000933/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 12 Dec 2024 14:28:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,34 +308,6 @@ report</a> put together by Irit Katriel, the project is once again considering
 changing the language.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1001441/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 09 Dec 2024 14:48:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001441/" title="https://lwn.net/Articles/1001441/">A vulnerability in the OpenWrt attended sysupgrade server</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The OpenWrt project has issued <a
-href="https://lwn.net/ml/all/593EA688-7658-4AEB-959D-0AED959442E2@aparcar.org">an
-advisory</a> regarding a vulnerability found in its Attended Sysupgrade
-Server that could allow compromised packages to be installed on a router by
-an attacker.  No official OpenWrt images were affected, and the
-vulnerability is not known to be exploited, but users who have installed
-images created with an instance of this server are recommended to
-reinstall.
-<p>
-For a detailed description of how the exploit works, see <a
-href="https://flatt.tech/research/posts/compromising-openwrt-supply-chain-sha256-collision/">this
-blog post</a>.
-<p>
-<blockquote class="bq">
-	Then, as the hash collision occurred, the server returns the
-	overwritten build artifact to the legitimate request that requests
-	the following packages. [...]
-	<p>
-	By abusing this, an attacker could force the user to upgrade to the
-	malicious firmware, which could lead to the compromise of the
-	device.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
