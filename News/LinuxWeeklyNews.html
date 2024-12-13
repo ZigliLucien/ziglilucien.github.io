@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1000434/" title="See Description">[$] Providing precise time over the network</a></li>
 <li><a href="#https://lwn.net/Articles/1002044/" title="See Description">CentOS Stream 10 and EPEL 10 released</a></li>
 <li><a href="#https://lwn.net/Articles/1002036/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1001930/" title="See Description">Kubernetes v1.32 released</a></li>
@@ -52,10 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1001657/" title="See Description">Systemd 257 released</a></li>
 <li><a href="#https://lwn.net/Articles/1001634/" title="See Description">A change of hats! (Fedora Magazine)</a></li>
 <li><a href="#https://lwn.net/Articles/998893/" title="See Description">[$] A Zephyr-based camera trap for seagrass monitoring</a></li>
-<li><a href="#https://lwn.net/Articles/1001599/" title="See Description">GNU Shepherd 1.0.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1000434/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 13 Dec 2024 16:51:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000434/" title="https://lwn.net/Articles/1000434/">[$] Providing precise time over the network</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Handling time in a networked environment is never easy. The
+<a href="https://en.wikipedia.org/wiki/Network_Time_Protocol">
+Network Time Protocol</a> (NTP) has been used to synchronize clocks across the
+internet for almost 40 years — but, as computers and networks get faster, the
+degree of synchronization it offers is not sufficient for some use cases. The
+<a href="https://en.wikipedia.org/wiki/Precision_Time_Protocol">
+Precision Time Protocol</a> (PTP) attempts to provide more precise
+time synchronization, at the
+expense of requiring dedicated kernel and hardware
+support. The Linux kernel has
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=d94ba80ebbea17f036cecb104398fbcd788aa742">
+supported PTP</a> since 2011, but the protocol has recently seen
+<a href="https://www.broadcom.com/blog/time-synchronization-in-data-center-networks">
+increasing use in data centers</a>. As PTP becomes more widespread, it may be
+useful to have an idea how it compares to NTP.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1002044/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 13 Dec 2024 14:35:33 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -298,25 +322,6 @@ The camera system uses the <a href="https://zephyrproject.org/">Zephyr</a>
 realtime operating system (RTOS) on an open platform that is designed to be
 inexpensive and usable for multiple applications.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1001599/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 10 Dec 2024 14:34:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001599/" title="https://lwn.net/Articles/1001599/">GNU Shepherd 1.0.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a
-href="https://www.gnu.org/software/shepherd/news/2024/12/the-shepherd-1.0.0-released/">Version
-1.0.0</a> of the GNU Shepherd service manager has been released after a
-mere 21&nbsp;years of development.
-<p>
-<blockquote class="bq">
-	This 1.0.0 release is published today because we think Shepherd has
-	become a solid tool, meeting user experience standards one has come
-	to expect since systemd changed the game of free init systems and
-	service managers alike. It's also a major milestone for Guix, which
-	has been relying on the Shepherd from a time when doing so counted
-	as dogfooding.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
