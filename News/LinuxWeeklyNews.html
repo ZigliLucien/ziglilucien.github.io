@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1001526/" title="See Description">[$] Facing the Git commit-ID collision catastrophe</a></li>
 <li><a href="#https://lwn.net/Articles/1000434/" title="See Description">[$] Providing precise time over the network</a></li>
 <li><a href="#https://lwn.net/Articles/1002044/" title="See Description">CentOS Stream 10 and EPEL 10 released</a></li>
 <li><a href="#https://lwn.net/Articles/1002036/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/1001728/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1001657/" title="See Description">Systemd 257 released</a></li>
 <li><a href="#https://lwn.net/Articles/1001634/" title="See Description">A change of hats! (Fedora Magazine)</a></li>
-<li><a href="#https://lwn.net/Articles/998893/" title="See Description">[$] A Zephyr-based camera trap for seagrass monitoring</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1001526/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 13 Dec 2024 18:22:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001526/" title="https://lwn.net/Articles/1001526/">[$] Facing the Git commit-ID collision catastrophe</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Commits in the Git source-code management system are identified by the
+SHA-1 hash of their contents — though the specific hash <a
+href="https://lwn.net/Articles/898522/">may change someday</a>.  The full hash is a
+160-bit quantity, normally written as a 40-character hexadecimal string.
+While those strings are convenient for computers to work with, humans find
+them to be a bit unwieldy, so it is common to abbreviate the hash values to
+shorter strings.  Geert Uytterhoeven recently <a
+href="https://lwn.net/ml/all/cover.1733421037.git.geert+renesas@glider.be">proposed</a>
+increasing the length of those abbreviated hashes as used in the kernel
+community, but the problem he was working to solve may not be as urgent as
+it seems.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1000434/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 13 Dec 2024 16:51:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -303,25 +321,6 @@ more. I'm stepping into a full-time management role in the Community
 Linux Engineering organization, so Fedora will still be part of my day
 job, just in a different way.</p>
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/998893/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 10 Dec 2024 16:38:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/998893/" title="https://lwn.net/Articles/998893/">[$] A Zephyr-based camera trap for seagrass monitoring</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In a session at
-<a href="https://events.linuxfoundation.org/open-source-summit-europe/">Open Source Summit Europe</a>
-(OSSEU) back in September, Alex Bucknall gave an overview of a camera "trap"—a
-device to capture images in a non-intrusive way—that he helped develop 
-which is being used to monitor <a
-href="https://en.wikipedia.org/wiki/Seagrass">seagrass</a>.  He works for
-the <a href="https://arribada.org/">Arribada Initiative</a>, which is a
-non-profit organization
-focused on creating open-source technology for studying wildlife and ecosystems.
-The camera system uses the <a href="https://zephyrproject.org/">Zephyr</a>
-realtime operating system (RTOS) on an open platform that is designed to be
-inexpensive and usable for multiple applications.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
