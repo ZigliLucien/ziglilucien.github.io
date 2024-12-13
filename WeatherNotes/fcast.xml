@@ -41,8 +41,8 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-12-13T10:36:03+00:00</generatedAt>
-		<updateTime type="str">2024-12-13T10:16:40+00:00</updateTime>
+		<generatedAt type="str">2024-12-13T11:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-12-13T10:32:26+00:00</updateTime>
 		<validTimes type="str">2024-12-13T04:00:00+00:00/P7DT21H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2024-12-13T04:00:00-06:00</startTime>
+				<startTime type="str">2024-12-13T05:00:00-06:00</startTime>
 				<endTime type="str">2024-12-13T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">28</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">NE</windDirection>
+				<windSpeed type="str">3 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy. Low around 28, with temperatures rising to around 30 overnight. Northeast wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 28. North wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -82,10 +82,10 @@
 					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 mph</windSpeed>
-				<windDirection type="str">E</windDirection>
+				<windDirection type="str">ENE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy. High near 48, with temperatures falling to around 45 in the afternoon. East wind around 6 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy. High near 48, with temperatures falling to around 45 in the afternoon. East northeast wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
