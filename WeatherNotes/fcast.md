@@ -2,11 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Rain. Cloudy. High near 50, with temperatures falling to around 48 in the afternoon. Southeast wind around 8 mph, with gusts
-         as high as 26 mph. Chance of precipitation is 100%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>Rain before midnight, then a slight chance of drizzle between midnight and 5am. Cloudy. Low around 46, with temperatures rising
          to around 49 overnight. South wind 6 to 13 mph, with gusts as high as 25 mph. Chance of precipitation is 100%.<br></div>
    </p>
@@ -16,8 +11,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Rain likely before midnight, then showers and thunderstorms. Mostly cloudy, with a low around 52. South wind 6 to 13 mph,
-         with gusts as high as 21 mph. Chance of precipitation is 100%.<br></div>
+         <h3>Sunday Night</h3>Rain likely before midnight, then showers and thunderstorms. Mostly cloudy. Low around 52, with temperatures rising to around
+         59 overnight. South wind 6 to 13 mph, with gusts as high as 21 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -35,7 +30,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 43. South wind 3 to 7 mph.<br></div>
+         <h3>Tuesday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 43. South wind 3 to 7 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -62,5 +57,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday Night</h3>Partly cloudy, with a low around 20. Northwest wind around 9 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday</h3>Sunny, with a high near 32. North northwest wind around 9 mph.<br></div>
    </p>
 </div>
