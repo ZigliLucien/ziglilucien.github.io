@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of rain before midnight, then a slight chance of drizzle between midnight and 5am. Cloudy. Low around 46, with temperatures
-         rising to around 49 overnight. South southwest wind 6 to 10 mph, with gusts as high as 23 mph. Chance of precipitation is
+         rising to around 49 overnight. South southwest wind 6 to 10 mph, with gusts as high as 22 mph. Chance of precipitation is
          40%.<br></div>
    </p>
    <p>
