@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Partly sunny. High near 65, with temperatures falling to around 60 in the afternoon. West wind around 10 mph, with gusts as
-         high as 21 mph.<br></div>
+         high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
