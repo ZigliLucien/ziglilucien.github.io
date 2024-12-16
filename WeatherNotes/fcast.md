@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Showers and thunderstorms before 2pm. Mostly cloudy. High near 64, with temperatures falling to around 59 in the afternoon.
-         West southwest wind 9 to 14 mph, with gusts as high as 25 mph. Chance of precipitation is 100%.<br></div>
+         West southwest wind 9 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
