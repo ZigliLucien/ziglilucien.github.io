@@ -41,8 +41,8 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-12-18T12:36:05+00:00</generatedAt>
-		<updateTime type="str">2024-12-18T12:18:00+00:00</updateTime>
+		<generatedAt type="str">2024-12-18T13:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-12-18T12:46:32+00:00</updateTime>
 		<validTimes type="str">2024-12-18T06:00:00+00:00/P7DT19H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2024-12-18T06:00:00-06:00</startTime>
+				<startTime type="str">2024-12-18T07:00:00-06:00</startTime>
 				<endTime type="str">2024-12-18T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">48</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">30</value>
+					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">9 to 14 mph</windSpeed>
+				<windSpeed type="str">10 to 14 mph</windSpeed>
 				<windDirection type="str">N</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain,30/ovc?size=medium</icon>
-				<shortForecast type="str">Chance Light Rain then Cloudy</shortForecast>
-				<detailedForecast type="str">A chance of rain before 7am. Cloudy. High near 48, with temperatures falling to around 43 in the afternoon. North wind 9 to 14 mph, with gusts as high as 22 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/ovc?size=medium</icon>
+				<shortForecast type="str">Cloudy</shortForecast>
+				<detailedForecast type="str">Cloudy. High near 48, with temperatures falling to around 43 in the afternoon. North wind 10 to 14 mph, with gusts as high as 22 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
