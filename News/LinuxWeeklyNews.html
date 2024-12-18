@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1002046/" title="See Description">[$] Emacs code completion can cause compromise</a></li>
+<li><a href="#https://lwn.net/Articles/1002703/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1002546/" title="See Description">Fedora Asahi Remix 41 is now available</a></li>
 <li><a href="#https://lwn.net/Articles/1001783/" title="See Description">[$] WP Engine granted preliminary injunction in WordPress case</a></li>
 <li><a href="#https://lwn.net/Articles/1002498/" title="See Description">Kali Linux 2024.4 released</a></li>
@@ -51,11 +53,42 @@
 <li><a href="#https://lwn.net/Articles/1001526/" title="See Description">[$] Facing the Git commit-ID collision catastrophe</a></li>
 <li><a href="#https://lwn.net/Articles/1000434/" title="See Description">[$] Providing precise time over the network</a></li>
 <li><a href="#https://lwn.net/Articles/1002044/" title="See Description">CentOS Stream 10 and EPEL 10 released</a></li>
-<li><a href="#https://lwn.net/Articles/1002036/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1001930/" title="See Description">Kubernetes v1.32 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1002046/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Dec 2024 14:55:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002046/" title="https://lwn.net/Articles/1002046/">[$] Emacs code completion can cause compromise</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Emacs has had a
+<a href="https://lwn.net/Articles/966547/">few bugs</a> related to accidentally
+permitting the execution of untrusted code. Unfortunately, it seems as though
+another bug of that sort has appeared — and may be harder to patch,
+because the problem comes from the way Emacs handles expansion of Lisp macros in
+code being analyzed. The
+vulnerability is only practically exploitable in a non-default configuration, so
+not every Emacs user has something to worry about. The Emacs
+developers are reportedly working on a fix, but have not yet shared details
+about it. In the meantime, every Emacs version since at least
+26.1 (released in May&nbsp;2018) through the current development version is vulnerable.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1002703/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Dec 2024 14:12:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002703/" title="https://lwn.net/Articles/1002703/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libsndfile, php:7.4, python3.11, python3.12, and python36:3.6), <b>Debian</b> (dpdk), <b>Mageia</b> (curl and socat), <b>Oracle</b> (firefox and tuned), <b>Red Hat</b> (bluez, containernetworking-plugins, edk2, edk2:20220126gitbb1bba3d77, edk2:20240524, expat, gstreamer1-plugins-base, gstreamer1-plugins-base and gstreamer1-plugins-good, gstreamer1-plugins-good, kernel, libsndfile, libsndfile:1.0.31, mpg123, mpg123:1.32.9, pam, python3.11-urllib3, skopeo, tuned, unbound, and unbound:1.16.2), <b>SUSE</b> (cloudflared, curl, docker, firefox, gstreamer-plugins-good, kernel, libmozjs-115-0, libmozjs-128-0, libmozjs-78-0, libsoup, ovmf, python-urllib3_1, subversion, thunderbird, and traefik), and <b>Ubuntu</b> (editorconfig-core, libspring-java, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gke,
+ linux-gkeop, linux-ibm, linux-nvidia, linux-nvidia-6.8,
+ linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle, linux-oracle-6.8,
+ linux-raspi, linux, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-ibm,
+ linux-ibm-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15,
+ linux-nvidia, linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-gcp, linux-gcp-5.4, linux-hwe-5.4, linux-kvm, linux-raspi, linux, linux-lowlatency, linux-oracle, linux-aws, linux-aws-5.15, linux-aws, linux-aws-5.4, linux-bluefield, linux-oracle, linux-oracle-5.4, and linux-oem-6.11).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1002546/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 17 Dec 2024 18:46:37 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -282,39 +315,6 @@ find more details about this structure in our <a href="https://docs.fedoraprojec
 <p>LWN <a href="https://lwn.net/Articles/986792/">covered</a>
 Stream&nbsp;10 and EPEL&nbsp;10 on December&nbsp;11.</p>
 <p></P></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1002036/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Dec 2024 13:50:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002036/" title="https://lwn.net/Articles/1002036/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, pgpool2, and smarty4), <b>Fedora</b> (chromium, linux-firmware, matrix-synapse, open62541, and thunderbird), <b>Red Hat</b> (kernel, kernel-rt, python3.11, python3.12, python3.9:3.9.18, python3.9:3.9.21, and ruby:2.5), <b>SUSE</b> (buildah, chromium, govulncheck-vulndb, java-1_8_0-ibm, libsvn_auth_gnome_keyring-1-0, python310-Django, qemu, and radare2), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gke,
- linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oem-6.8,
- linux-oracle, linux-oracle-6.8, linux-raspi, linux, linux-gcp, linux-gcp-5.4, linux-hwe-5.4, linux-ibm, linux-ibm-5.4,
- linux-kvm, linux-raspi, linux-xilinx-zynqmp, linux-gkeop, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, php7.0, php7.2, python-asyncssh, and smarty3).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1001930/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Dec 2024 20:29:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001930/" title="https://lwn.net/Articles/1001930/">Kubernetes v1.32 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://kubernetes.io/blog/2024/12/11/kubernetes-v1-32-release/">Version
-1.32</a> (dubbed "Penelope") of <a
-href="https://kubernetes.io/">Kubernetes</a> has been released with 13
-major features graduating to Stable status, 12 entering Beta, and 19
-entering Alpha.</p>
-
-<blockquote class="bq">
-If Kubernetes is Ancient Greek for "pilot", in this release we start
-from that origin and reflect on the last 10 years of Kubernetes and
-our accomplishments: each release cycle is a journey, and just like
-Penelope, in "The Odyssey", weaved for 10 years -- each night removing
-parts of what she had done during the day -- so does each release add
-new features and removes others, albeit here with a much clearer
-purpose of constantly improving Kubernetes.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
