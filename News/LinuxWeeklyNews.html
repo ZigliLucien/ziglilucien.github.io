@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1002820/" title="See Description">Fish shell announces 4.0 release</a></li>
 <li><a href="#https://lwn.net/Articles/1001869/" title="See Description">[$] LWN.net Weekly Edition for December 19, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/1002046/" title="See Description">[$] Emacs code completion can cause compromise</a></li>
 <li><a href="#https://lwn.net/Articles/1002703/" title="See Description">Security updates for Wednesday</a></li>
@@ -52,10 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1002245/" title="See Description">Xfce 4.20 released</a></li>
 <li><a href="#https://lwn.net/Articles/1002175/" title="See Description">A pile of stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1001526/" title="See Description">[$] Facing the Git commit-ID collision catastrophe</a></li>
-<li><a href="#https://lwn.net/Articles/1000434/" title="See Description">[$] Providing precise time over the network</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1002820/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 19 Dec 2024 14:24:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002820/" title="https://lwn.net/Articles/1002820/">Fish shell announces 4.0 release</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<tt>fish</tt> is a shell with a custom language and several affordances not available out of the box in other shells, such as directory-sensitive command completion. Although the project does not normally make beta releases, the 
+<a href="https://fishshell.com/blog/fish-4b/">
+newly announced 4.0 release</a>
+will have one in order to ensure that no problems were introduced
+<a href="https://github.com/fish-shell/fish-shell/discussions/10123">
+after a major effort to switch the code base from C++ to Rust</a>.
+</p>
+
+<blockquote class="bq">
+<p>
+fish is a smart and user-friendly command line shell with clever features that just work, without needing an advanced degree in bash scriptology. Today we are announcing an open beta, inviting all users to try out the upcoming 4.0 release.
+</p>
+
+<p>
+fish 4.0 is a big upgrade. It's got lots of new features to make using the command line easier and more enjoyable, such as more natural key binding and expanded history search. And under the hood, we've rebuilt the foundation in Rust to embrace modern computing.
+</p>
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1001869/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 19 Dec 2024 01:58:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -269,30 +293,6 @@ href="https://lwn.net/ml/all/cover.1733421037.git.geert+renesas@glider.be">propo
 increasing the length of those abbreviated hashes as used in the kernel
 community, but the problem he was working to solve may not be as urgent as
 it seems.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1000434/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Dec 2024 16:51:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1000434/" title="https://lwn.net/Articles/1000434/">[$] Providing precise time over the network</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Handling time in a networked environment is never easy. The
-<a href="https://en.wikipedia.org/wiki/Network_Time_Protocol">
-Network Time Protocol</a> (NTP) has been used to synchronize clocks across the
-internet for almost 40 years — but, as computers and networks get faster, the
-degree of synchronization it offers is not sufficient for some use cases. The
-<a href="https://en.wikipedia.org/wiki/Precision_Time_Protocol">
-Precision Time Protocol</a> (PTP) attempts to provide more precise
-time synchronization, at the
-expense of requiring dedicated kernel and hardware
-support. The Linux kernel has
-<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=d94ba80ebbea17f036cecb104398fbcd788aa742">
-supported PTP</a> since 2011, but the protocol has recently seen
-<a href="https://www.broadcom.com/blog/time-synchronization-in-data-center-networks">
-increasing use in data centers</a>. As PTP becomes more widespread, it may be
-useful to have an idea how it compares to NTP.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
