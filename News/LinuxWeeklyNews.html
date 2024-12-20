@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1003048/" title="See Description">Grml 2024.12 released</a></li>
+<li><a href="#https://lwn.net/Articles/1002371/" title="See Description">[$] Process creation in io_uring</a></li>
 <li><a href="#https://lwn.net/Articles/1003019/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1002917/" title="See Description">A new set of stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1002903/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1002498/" title="See Description">Kali Linux 2024.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/1002496/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1002411/" title="See Description">A sapling matures: meet sq 1.0</a></li>
-<li><a href="#https://lwn.net/Articles/1001645/" title="See Description">[$] Using Guile for Emacs</a></li>
-<li><a href="#https://lwn.net/Articles/1002338/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1003048/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 20 Dec 2024 15:38:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1003048/" title="https://lwn.net/Articles/1003048/">Grml 2024.12 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://blog.grml.org/archives/418-Grml-new-stable-release-2024.12-available.html">Version 2024.12</a> of the Debian-based <a href="https://grml.org/">Grml</a> live Linux system for system administrators has been released. Grml 2024.12 uses packages from the upcoming Debian 13 ("trixie") release. It drops support for 32-bit x86 PCs and gains support for 64-bit ARM CPUs. See the <a href="https://grml.org/changelogs/README-grml-2024.12/">release notes</a> for a full list of changes and new features.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1002371/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 20 Dec 2024 15:15:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002371/" title="https://lwn.net/Articles/1002371/">[$] Process creation in io_uring</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Back in 2022, Josh Triplett <a href="https://lwn.net/Articles/908268/">presented a
+plan</a> to implement a "spawn new process" functionality in the io_uring
+subsystem.  There was a fair amount of interest at the time, but developers
+got distracted, and the work did not progress.  Now, Gabriel Krisman
+Bertazi has returned with <a
+href="https://lwn.net/ml/all/20241209234316.4132786-1-krisman@suse.de">a patch series</a>
+updating and improving Triplett's work.  While interest in this
+functionality remains, it may still take some time before it is ready for
+merging into the mainline.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1003019/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 20 Dec 2024 14:24:44 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -254,37 +277,6 @@ authored a message; without authentication, encryption and
 verification are much weaker.
 </blockquote>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1001645/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 16 Dec 2024 14:12:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001645/" title="https://lwn.net/Articles/1001645/">[$] Using Guile for Emacs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://www.gnu.org/software/emacs/">Emacs</a> is, famously, an
-editor—perhaps far more—that is extensible using its own
-variant of the Lisp programming language, <a
-href="https://www.gnu.org/software/emacs/manual/html_node/eintr/">Emacs
-Lisp</a> (or Elisp).  <a href="https://emacsconf.org/2024/">This year's
-edition of EmacsConf</a>, which is an annual "gathering" that has been held
-online for the past five years, had two separate talks on using a different
-variant of Lisp, <a href="https://www.gnu.org/software/guile/">Guile</a>,
-for Emacs.  Both projects would preserve Elisp compatibility, which is a
-must, but they would use Guile differently.  The first talk we will cover
-was given by Robin Templeton, who described the relaunch of the <a
-href="https://guile-emacs.org/">Guile-Emacs project</a>, which would replace
-the Elisp in Emacs with a compiler using Guile.  A subsequent article will look
-at the other talk, which is about <a
-href="https://emacsconf.org/2024/talks/gypsum/">an Emacs clone</a> written
-using Guile.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1002338/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 16 Dec 2024 14:04:49 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002338/" title="https://lwn.net/Articles/1002338/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (gst-plugins-base1.0, gstreamer1.0, and libpgjava), <b>Fedora</b> (bpftool, chromium, golang-x-crypto, kernel, kernel-headers, linux-firmware, pytest, python3.10, subversion, and thunderbird), <b>Gentoo</b> (NVIDIA Drivers), <b>Oracle</b> (kernel, perl-App-cpanminus:1.7044, php:7.4, php:8.1, php:8.2, postgresql, python3.11, python3.12, python3.9:3.9.21, python36:3.6, ruby, and ruby:2.5), <b>SUSE</b> (docker-stable, firefox-esr, gstreamer, gstreamer-plugins-base, gstreamer-plugins-good, kernel, python-Django, python312, and socat), and <b>Ubuntu</b> (mpmath).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
