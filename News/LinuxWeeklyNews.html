@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1003161/" title="See Description">Stenberg: Dropping hyper</a></li>
 <li><a href="#https://lwn.net/Articles/1003048/" title="See Description">Grml 2024.12 released</a></li>
 <li><a href="#https://lwn.net/Articles/1002371/" title="See Description">[$] Process creation in io_uring</a></li>
 <li><a href="#https://lwn.net/Articles/1003019/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/1001783/" title="See Description">[$] WP Engine granted preliminary injunction in WordPress case</a></li>
 <li><a href="#https://lwn.net/Articles/1002498/" title="See Description">Kali Linux 2024.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/1002496/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1002411/" title="See Description">A sapling matures: meet sq 1.0</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1003161/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 21 Dec 2024 16:39:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1003161/" title="https://lwn.net/Articles/1003161/">Stenberg: Dropping hyper</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Curl maintainer Daniel Stenberg <a
+href="https://daniel.haxx.se/blog/2024/12/21/dropping-hyper/">announces</a>
+that the curl project will be dropping hyper, its experimental HTTP backend
+written in Rust, due to lack of developer interest.
+<p>
+<blockquote class="bq">
+	While the experiment itself is deemed a failure, I think we learned
+	from it and improved curl in the process. We had to rethink and
+	reassess several implementation details when we aligned HTTP
+	behavior with hyper. libcurl parses and handles HTTP stricter
+	now. Better.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1003048/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 20 Dec 2024 15:38:17 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -253,30 +271,6 @@ kernel support, GNOME&nbsp;47, and more.</blockquote></blockquote></div></td></t
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (gstreamer1.0), <b>Fedora</b> (jupyterlab and python-notebook), <b>Oracle</b> (gimp:2.8.22, gstreamer1-plugins-base, gstreamer1-plugins-good, kernel, php:8.2, postgresql, and python3.11), <b>SUSE</b> (aws-iam-authenticator, firefox, installation-images, kernel, libaom, libyuv, libsoup, libsoup2, python-aiohttp, socat, thunderbird, and vim), and <b>Ubuntu</b> (curl, Docker, imagemagick, and kernel).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1002411/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 16 Dec 2024 21:58:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002411/" title="https://lwn.net/Articles/1002411/">A sapling matures: meet sq 1.0</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://sequoia-pgp.org/">Sequoia PGP</a> project has <a
-href="https://sequoia-pgp.org/blog/2024/12/16/202412-sq-1.0/">announced</a>
-version 1.0 of the <tt>sq</tt> command-line tool for managing OpenPGP
-encryption and signatures. It also provides a decentralized <a
-href="https://en.wikipedia.org/wiki/Public_key_infrastructure">public
-key infrastructure</a> (PKI), and key management facilities. This is
-the first stable release since development began on the project in
-2017.</p>
-
-<blockquote class="bq">
-<tt>sq</tt>'s PKI is probably its most notable feature, and the one we invested
-the most time in. The PKI is used to authenticate certificates, and
-messages. Authentication is necessary to ensure that you are
-encrypting to the person you think you are, and to identify who really
-authored a message; without authentication, encryption and
-verification are much weaker.
-</blockquote>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
