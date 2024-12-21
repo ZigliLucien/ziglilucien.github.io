@@ -2,19 +2,15 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy. Low around 24, with temperatures rising to around 26 overnight. North wind around 3 mph.<br></div>
+         <h3>Today</h3>Sunny. High near 38, with temperatures falling to around 35 in the afternoon. North northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny. High near 38, with temperatures falling to around 35 in the afternoon. North northeast wind around 5 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear. Low around 23, with temperatures rising to around 25 overnight. Southeast wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Mostly clear. Low around 23, with temperatures rising to around 25 overnight. Southeast wind around 1 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday</h3>Sunny, with a high near 42. South southeast wind 2 to 8 mph.<br></div>
+         <h3>Sunday</h3>Sunny. High near 42, with temperatures falling to around 39 in the afternoon. South southeast wind 2 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -31,7 +27,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of rain showers. Cloudy, with a high near 48. South southeast wind around 6 mph.<br></div>
+         <h3>Tuesday</h3>A chance of rain showers. Cloudy, with a high near 48. South southeast wind around 6 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -56,5 +52,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>A chance of rain showers. Mostly cloudy, with a high near 58. South southeast wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 47. South southeast wind around 6 mph.<br></div>
    </p>
 </div>
