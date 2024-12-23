@@ -2,29 +2,31 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A chance of rain showers after 2pm. Mostly cloudy. High near 47, with temperatures falling to around 45 in the afternoon.
-         South southwest wind 9 to 13 mph, with gusts as high as 23 mph. Chance of precipitation is 20%.<br></div>
+         <h3>This Afternoon</h3>A slight chance of rain. Cloudy, with a high near 48. South southwest wind around 13 mph, with gusts as high as 26 mph. Chance
+         of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of rain showers. Cloudy. Low around 40, with temperatures rising to around 42 overnight. South southwest wind 2 to
-         8 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tonight</h3>A chance of rain. Cloudy, with a low around 42. South southwest wind 3 to 9 mph, with gusts as high as 18 mph. Chance of precipitation
+         is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Rain showers likely. Cloudy, with a high near 49. South southeast wind around 5 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Tuesday</h3>A chance of rain and patchy fog before 8am, then rain likely and patchy fog. Cloudy, with a high near 47. South southeast
+         wind around 3 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Rain showers. Cloudy, with a low around 41. East southeast wind around 3 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Tuesday Night</h3>Rain before 2am, then rain and patchy fog. Cloudy, with a low around 41. East wind around 5 mph. Chance of precipitation is
+         80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Christmas Day</h3>A chance of rain showers. Cloudy, with a high near 48. East southeast wind around 6 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Christmas Day</h3>A chance of rain. Cloudy, with a high near 50. East southeast wind around 6 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain showers before midnight. Cloudy, with a low around 43. East southeast wind around 3 mph. Chance of precipitation
+         <h3>Wednesday Night</h3>A chance of rain before midnight. Mostly cloudy, with a low around 43. East southeast wind around 3 mph. Chance of precipitation
          is 30%.<br></div>
    </p>
    <p>
@@ -33,30 +35,30 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of rain showers after midnight. Mostly cloudy, with a low around 47. Southeast wind 6 to 9 mph.<br></div>
+         <h3>Thursday Night</h3>A chance of rain. Mostly cloudy, with a low around 47. Southeast wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Rain showers likely. Mostly cloudy, with a high near 58. South southeast wind around 10 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Friday</h3>Rain likely. Mostly cloudy, with a high near 57. South southeast wind around 10 mph, with gusts as high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Rain showers likely. Mostly cloudy, with a low around 51. South wind around 8 mph.<br></div>
+         <h3>Friday Night</h3>Rain likely. Mostly cloudy, with a low around 51. South wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of rain showers. Mostly cloudy, with a high near 59. South wind 7 to 10 mph.<br></div>
+         <h3>Saturday</h3>A chance of rain. Mostly cloudy, with a high near 60. South wind 7 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 45. South southwest wind around 6 mph.<br></div>
+         <h3>Saturday Night</h3>A chance of rain. Mostly cloudy, with a low around 45. South southwest wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of rain showers. Partly sunny, with a high near 57. Southwest wind 6 to 9 mph.<br></div>
+         <h3>Sunday</h3>A slight chance of rain. Mostly sunny, with a high near 58. West southwest wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A slight chance of rain showers before midnight. Partly cloudy, with a low around 39. West southwest wind around 6 mph.<br></div>
+         <h3>Sunday Night</h3>Partly cloudy, with a low around 37. West wind around 6 mph.<br></div>
    </p>
 </div>
