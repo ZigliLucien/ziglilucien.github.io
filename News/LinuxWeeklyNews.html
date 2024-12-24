@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1001730/" title="See Description">[$] Systemd takes steps toward a more secure boot process</a></li>
 <li><a href="#https://lwn.net/Articles/1003303/" title="See Description">Fedora Linux 41 election results</a></li>
 <li><a href="#https://lwn.net/Articles/1002340/" title="See Description">[$] Tim Peters returns to the Python community</a></li>
 <li><a href="#https://lwn.net/Articles/1003287/" title="See Description">Security updates for Monday</a></li>
@@ -52,10 +53,35 @@
 <li><a href="#https://lwn.net/Articles/1002450/" title="See Description">[$] FESCo provenpackager sanction causes problems</a></li>
 <li><a href="#https://lwn.net/Articles/1002820/" title="See Description">Fish shell announces 4.0 beta release</a></li>
 <li><a href="#https://lwn.net/Articles/1001869/" title="See Description">[$] LWN.net Weekly Edition for December 19, 2024</a></li>
-<li><a href="#https://lwn.net/Articles/1002046/" title="See Description">[$] Emacs code completion can cause compromise</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1001730/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Dec 2024 14:49:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001730/" title="https://lwn.net/Articles/1001730/">[$] Systemd takes steps toward a more secure boot process</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The systemd project has been working for some time on
+<a href="https://0pointer.net/blog/brave-new-trusted-boot-world.html">
+promoting</a>
+<a href="https://uapi-group.org/specifications/specs/unified_kernel_image/">
+unified kernel
+images</a> (UKIs), a format that bundles a kernel, initial disk image, kernel command line, and
+other associated data into a single file. The advantage of the format is the ability to
+authenticate the entire collection with secure boot, which makes it easier for
+end users to know that their operating system hasn't been tampered with. The
+downside is the lack of flexibility and increase in disk usage, since all of the
+things packaged in a UKI must be updated together. But the
+<a href="https://lwn.net/Articles/1001657/">
+recent systemd 257 release</a> (along with other changes to be covered in a
+future article) includes some
+major changes to the UKI format, and the rest of the boot process, that
+partially mitigate those downsides. The release also includes improvements for
+hardware-locked disk encryption, which may also help secure some computers.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1003303/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 23 Dec 2024 17:56:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -252,26 +278,6 @@ fish 4.0 is a big upgrade. It's got lots of new features to make using the comma
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for December 19, 2024 is available.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1002046/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Dec 2024 14:55:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002046/" title="https://lwn.net/Articles/1002046/">[$] Emacs code completion can cause compromise</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Emacs has had a
-<a href="https://lwn.net/Articles/966547/">few bugs</a> related to accidentally
-permitting the execution of untrusted code. Unfortunately, it seems as though
-another bug of that sort has appeared — and may be harder to patch,
-because the problem comes from the way Emacs handles expansion of Lisp macros in
-code being analyzed. The
-vulnerability is only practically exploitable in a non-default configuration, so
-not every Emacs user has something to worry about. The Emacs
-developers are reportedly working on a fix, but have not yet shared details
-about it. In the meantime, every Emacs version since at least
-26.1 (released in May&nbsp;2018) through the current development version is vulnerable.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
