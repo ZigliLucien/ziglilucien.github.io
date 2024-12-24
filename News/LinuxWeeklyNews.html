@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1002398/" title="See Description">[$] Systemd improves image features and adds varlink API</a></li>
+<li><a href="#https://lwn.net/Articles/1003381/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1001730/" title="See Description">[$] Systemd takes steps toward a more secure boot process</a></li>
 <li><a href="#https://lwn.net/Articles/1003303/" title="See Description">Fedora Linux 41 election results</a></li>
 <li><a href="#https://lwn.net/Articles/1002340/" title="See Description">[$] Tim Peters returns to the Python community</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1002917/" title="See Description">A new set of stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1002903/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1002450/" title="See Description">[$] FESCo provenpackager sanction causes problems</a></li>
-<li><a href="#https://lwn.net/Articles/1002820/" title="See Description">Fish shell announces 4.0 beta release</a></li>
-<li><a href="#https://lwn.net/Articles/1001869/" title="See Description">[$] LWN.net Weekly Edition for December 19, 2024</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1002398/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Dec 2024 15:09:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002398/" title="https://lwn.net/Articles/1002398/">[$] Systemd improves image features and adds varlink API</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a
+href="https://lwn.net/Articles/1001657/">systemd v257</a> release brings a number of incremental
+enhancements to various components and utilities for working with
+Linux systems. This includes more support for <a href="https://varlink.org/">varlink</a>, automated
+downloading of disk images at boot time, and a number of improvements
+to the secure-boot process for unified kernel images (UKIs), which we
+have covered in <a href="https://lwn.net/Articles/1001730/">a separate
+article</a>.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1003381/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Dec 2024 15:08:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1003381/" title="https://lwn.net/Articles/1003381/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (containernetworking-plugins, edk2:20240524, gstreamer1-plugins-base, gstreamer1-plugins-good, kernel, libsndfile:1.0.31, mpg123:1.32.9, pam, php:8.1, php:8.2, python3.11, python3.11-urllib3, python3.12, python3.9:3.9.21, skopeo, and unbound:1.16.2), <b>Debian</b> (intel-microcode), <b>Fedora</b> (python3-docs and python3.12), <b>Mageia</b> (emacs), <b>Red Hat</b> (podman), and <b>SUSE</b> (gdb, govulncheck-vulndb, libparaview5_12, mozjs115, mozjs78, and vhostmd).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1001730/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 24 Dec 2024 14:49:24 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -75,8 +98,9 @@ end users to know that their operating system hasn't been tampered with. The
 downside is the lack of flexibility and increase in disk usage, since all of the
 things packaged in a UKI must be updated together. But the
 <a href="https://lwn.net/Articles/1001657/">
-recent systemd 257 release</a> (along with other changes to be covered in a
-future article) includes some
+recent systemd 257 release</a> (along with other changes to be covered in 
+<a href="https://lwn.net/Articles/1002398/">
+a future article</a>) includes some
 major changes to the UKI format, and the rest of the boot process, that
 partially mitigate those downsides. The release also includes improvements for
 hardware-locked disk encryption, which may also help secure some computers.
@@ -246,38 +270,6 @@ questions than answers, and raised a number of complaints about the
 transparency of FESCo's process. In addition, the sequence of events has
 sparked discussions about package ownership, as well as when and how it's
 appropriate to push changes to packages that a developer doesn't own.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1002820/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 19 Dec 2024 14:24:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002820/" title="https://lwn.net/Articles/1002820/">Fish shell announces 4.0 beta release</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<tt>fish</tt> is a shell with a custom language and several affordances not available out of the box in other shells, such as directory-sensitive command completion. Although the project does not normally make beta releases, the 
-<a href="https://fishshell.com/blog/fish-4b/">
-newly announced 4.0b1 release</a>
-will have one in order to ensure that no problems were introduced
-<a href="https://github.com/fish-shell/fish-shell/discussions/10123">
-after a major effort to switch the code base from C++ to Rust</a>.
-</p>
-
-<blockquote class="bq">
-<p>
-fish is a smart and user-friendly command line shell with clever features that just work, without needing an advanced degree in bash scriptology. Today we are announcing an open beta, inviting all users to try out the upcoming 4.0 release.
-</p>
-
-<p>
-fish 4.0 is a big upgrade. It's got lots of new features to make using the command line easier and more enjoyable, such as more natural key binding and expanded history search. And under the hood, we've rebuilt the foundation in Rust to embrace modern computing.
-</p>
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1001869/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 19 Dec 2024 01:58:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001869/" title="https://lwn.net/Articles/1001869/">[$] LWN.net Weekly Edition for December 19, 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The LWN.net Weekly Edition for December 19, 2024 is available.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
