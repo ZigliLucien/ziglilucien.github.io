@@ -2,16 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Rain showers likely. Cloudy, with a low around 43. Southeast wind around 2 mph. Chance of precipitation is 60%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Christmas Day</h3>Rain showers likely before 8am, then rain showers and patchy fog. Cloudy. High near 48, with temperatures falling to around
          46 in the afternoon. East southeast wind around 6 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Rain showers likely. Cloudy, with a low around 44. Southeast wind around 5 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Tonight</h3>Rain showers likely. Cloudy, with a low around 44. Southeast wind around 5 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -33,7 +29,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Rain showers likely. Mostly cloudy, with a high near 63. South southwest wind around 8 mph.<br></div>
+         <h3>Saturday</h3>Rain showers likely. Mostly cloudy, with a high near 63. South southwest wind around 8 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,5 +54,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>A chance of rain showers. Partly sunny, with a high near 49. Northwest wind around 13 mph, with gusts as high as 21 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>Mostly cloudy, with a low around 32. Northwest wind around 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
 </div>
