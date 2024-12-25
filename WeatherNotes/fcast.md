@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Rain. Cloudy, with a low around 43. East wind around 2 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Tonight</h3>Rain likely. Cloudy, with a low around 43. East wind around 2 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
