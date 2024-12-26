@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of rain showers. Mostly cloudy. High near 54, with temperatures falling to around 52 in the afternoon. Southeast
-         wind 5 to 8 mph. Chance of precipitation is 30%.<br></div>
+         wind 3 to 8 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
