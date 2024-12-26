@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1003547/" title="See Description">Ruby 3.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/1003542/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1002827/" title="See Description">[$] LWN.net Weekly Edition for December 26, 2024</a></li>
 <li><a href="#https://lwn.net/Articles/1002368/" title="See Description">[$] A 2024 retrospective</a></li>
@@ -52,10 +53,31 @@
 <li><a href="#https://lwn.net/Articles/1003200/" title="See Description">Darktable 5.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1003161/" title="See Description">Stenberg: Dropping hyper</a></li>
 <li><a href="#https://lwn.net/Articles/1003048/" title="See Description">Grml 2024.12 released</a></li>
-<li><a href="#https://lwn.net/Articles/1002371/" title="See Description">[$] Process creation in io_uring</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1003547/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Dec 2024 18:16:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1003547/" title="https://lwn.net/Articles/1003547/">Ruby 3.4 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Continuing its tradition of yearly major releases on December 25, the <a
+href="https://www.ruby-lang.org/en/">Ruby</a> programming-language project
+has <a
+href="https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/">released
+Ruby 3.4.0</a> (followed quickly by <a
+href="https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-1-released/">3.4.1</a>,
+which simply updates the version number).  Ruby 3.4 includes lots of
+changes, including the addition of <a
+href="https://bugs.ruby-lang.org/issues/18980"><tt>it</tt></a> as a
+less-confusing shorthand for <tt>_1</tt> as a block parameter, switching to
+<a href="https://bugs.ruby-lang.org/issues/20564">Prism as the default
+parser</a>, adding the <a
+href="https://datatracker.ietf.org/doc/html/rfc8305">Happy Eyeballs
+version&nbsp;2</a> algorithm to the socket library,
+just-in-time (JIT) compiler (YJIT) improvements, garbage-collection
+modularization, and more.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1003542/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 26 Dec 2024 15:51:46 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -246,22 +268,6 @@ written in Rust, due to lack of developer interest.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote><p><a href="https://blog.grml.org/archives/418-Grml-new-stable-release-2024.12-available.html">Version 2024.12</a> of the Debian-based <a href="https://grml.org/">Grml</a> live Linux system for system administrators has been released. Grml 2024.12 uses packages from the upcoming Debian 13 ("trixie") release. It drops support for 32-bit x86 PCs and gains support for 64-bit ARM CPUs. See the <a href="https://grml.org/changelogs/README-grml-2024.12/">release notes</a> for a full list of changes and new features.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1002371/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 20 Dec 2024 15:15:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002371/" title="https://lwn.net/Articles/1002371/">[$] Process creation in io_uring</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Back in 2022, Josh Triplett <a href="https://lwn.net/Articles/908268/">presented a
-plan</a> to implement a "spawn new process" functionality in the io_uring
-subsystem.  There was a fair amount of interest at the time, but developers
-got distracted, and the work did not progress.  Now, Gabriel Krisman
-Bertazi has returned with <a
-href="https://lwn.net/ml/all/20241209234316.4132786-1-krisman@suse.de">a patch series</a>
-updating and improving Triplett's work.  While interest in this
-functionality remains, it may still take some time before it is ready for
-merging into the mainline.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
