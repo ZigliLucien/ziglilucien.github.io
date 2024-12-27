@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of rain showers and patchy fog before noon, then a chance of rain between noon and 5pm, then a slight chance of drizzle.
-         Cloudy, with a high near 57. South southeast wind 8 to 13 mph, with gusts as high as 23 mph. Chance of precipitation is 50%.<br></div>
+         Cloudy, with a high near 57. South wind around 13 mph, with gusts as high as 23 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
