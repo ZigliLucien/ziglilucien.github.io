@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A chance of rain after 5pm. Mostly cloudy. High near 60, with temperatures falling to around 58 in the afternoon. Southeast
+         <h3>This Afternoon</h3>A chance of rain after 5pm. Mostly cloudy. High near 60, with temperatures falling to around 58 in the afternoon. East southeast
          wind around 5 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
