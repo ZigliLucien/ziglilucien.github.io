@@ -2,22 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Rain showers. Cloudy, with a low around 51. North northwest wind around 16 mph, with gusts as high as 36 mph. Chance of precipitation
-         is 90%.<br></div>
+         <h3>Today</h3>Rain showers before 4pm, then scattered showers and thunderstorms. Mostly cloudy. High near 55, with temperatures falling
+         to around 52 in the afternoon. West northwest wind 5 to 16 mph, with gusts as high as 31 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Rain showers before 4pm, then scattered showers and thunderstorms. Mostly cloudy. High near 55, with temperatures falling
-         to around 52 in the afternoon. West northwest wind 5 to 21 mph, with gusts as high as 37 mph. Chance of precipitation is 90%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday Night</h3>Scattered showers and thunderstorms before 9pm. Mostly cloudy. Low around 40, with temperatures rising to around 42 overnight.
+         <h3>Tonight</h3>Scattered showers and thunderstorms before 9pm. Mostly cloudy. Low around 40, with temperatures rising to around 42 overnight.
          West southwest wind around 6 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Partly sunny, with a high near 55. South wind 3 to 12 mph, with gusts as high as 21 mph.<br></div>
+         <h3>Monday</h3>Partly sunny. High near 55, with temperatures falling to around 53 in the afternoon. South wind 3 to 12 mph, with gusts as
+         high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,5 +56,10 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>Mostly sunny, with a high near 35. Southwest wind 3 to 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>A chance of snow. Mostly cloudy, with a low around 27. South southeast wind 3 to 7 mph. New snow accumulation of less than
+         one inch possible.<br></div>
    </p>
 </div>
