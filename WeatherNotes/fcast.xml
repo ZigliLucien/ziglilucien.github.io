@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2024-12-29T14:36:02+00:00</generatedAt>
-		<updateTime type="str">2024-12-29T13:16:31+00:00</updateTime>
-		<validTimes type="str">2024-12-29T07:00:00+00:00/P7DT18H</validTimes>
+		<generatedAt type="str">2024-12-29T15:36:03+00:00</generatedAt>
+		<updateTime type="str">2024-12-29T15:01:01+00:00</updateTime>
+		<validTimes type="str">2024-12-29T09:00:00+00:00/P7DT16H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2024-12-29T08:00:00-06:00</startTime>
+				<startTime type="str">2024-12-29T09:00:00-06:00</startTime>
 				<endTime type="str">2024-12-29T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">55</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">50</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 to 14 mph</windSpeed>
+				<windSpeed type="str">6 to 14 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,50/tsra,30?size=medium</icon>
-				<shortForecast type="str">Scattered Rain Showers</shortForecast>
-				<detailedForecast type="str">Scattered rain showers before 4pm, then scattered showers and thunderstorms. Mostly cloudy. High near 55, with temperatures falling to around 52 in the afternoon. West northwest wind 5 to 14 mph, with gusts as high as 31 mph. Chance of precipitation is 50%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,50/rain_showers,20?size=medium</icon>
+				<shortForecast type="str">Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A chance of rain showers. Mostly cloudy. High near 55, with temperatures falling to around 52 in the afternoon. West northwest wind 6 to 14 mph, with gusts as high as 28 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,13 +79,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">30</value>
+					<value type="int">20</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,30/bkn?size=medium</icon>
-				<shortForecast type="str">Scattered Showers And Thunderstorms then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Scattered showers and thunderstorms before 9pm. Mostly cloudy. Low around 40, with temperatures rising to around 42 overnight. West southwest wind around 6 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/bkn?size=medium</icon>
+				<shortForecast type="str">Slight Chance Rain Showers then Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">A slight chance of rain showers before 10pm. Mostly cloudy. Low around 40, with temperatures rising to around 42 overnight. West southwest wind around 6 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
