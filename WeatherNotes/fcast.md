@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A slight chance of rain showers. Mostly cloudy. High near 56, with temperatures falling to around 53 in the afternoon. West
-         wind around 8 mph. Chance of precipitation is 20%.<br></div>
+         southwest wind around 3 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
