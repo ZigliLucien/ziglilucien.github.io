@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1003862/" title="See Description">LineageOS 22.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1003856/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1003797/" title="See Description">Cook: Colliding with the SHA prefix of Linux's initial Git commit</a></li>
 <li><a href="#https://lwn.net/Articles/1003059/" title="See Description">[$] The Homa network protocol</a></li>
@@ -52,10 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1003462/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1002398/" title="See Description">[$] Systemd improves image features and adds varlink API</a></li>
 <li><a href="#https://lwn.net/Articles/1003381/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1001730/" title="See Description">[$] Systemd takes steps toward a more secure boot process</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1003862/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 31 Dec 2024 15:33:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1003862/" title="https://lwn.net/Articles/1003862/">LineageOS 22.1 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lineageos.org/Changelog-29/">Version 22.1</a> of the
+Android-based LineageOS distribution is out.
+<p>
+<blockquote class="bq">
+	We've been hard at work since Android 15's release in September,
+	adapting our unique features to this new version of
+	Android. Android 15 introduced several complex changes under the
+	hood, but due to our previous efforts adapting to Google's
+	UI-centric adjustments in Android 12 through 14, we were able to
+	rebase onto Android 15's code-base faster than anticipated.
+<p>
+	Additionally, this is far-and-away the easiest bringup cycle from a
+	device perspective we have seen in years. This means that many more
+	devices are ready on day one that we'd typically expect to have up
+	this early in the cycle!
+<p>
+	Last, but not least, we even had enough time and resources to
+	introduce not one, but two new exciting apps! The first one,
+	Twelve, will replace our aging music app, while the other one,
+	Camelot, will let you view PDF files.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1003856/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 31 Dec 2024 15:02:48 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -226,33 +253,6 @@ article</a>.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (containernetworking-plugins, edk2:20240524, gstreamer1-plugins-base, gstreamer1-plugins-good, kernel, libsndfile:1.0.31, mpg123:1.32.9, pam, php:8.1, php:8.2, python3.11, python3.11-urllib3, python3.12, python3.9:3.9.21, skopeo, and unbound:1.16.2), <b>Debian</b> (intel-microcode), <b>Fedora</b> (python3-docs and python3.12), <b>Mageia</b> (emacs), <b>Red Hat</b> (podman), and <b>SUSE</b> (gdb, govulncheck-vulndb, libparaview5_12, mozjs115, mozjs78, and vhostmd).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1001730/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Dec 2024 14:49:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1001730/" title="https://lwn.net/Articles/1001730/">[$] Systemd takes steps toward a more secure boot process</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The systemd project has been working for some time on
-<a href="https://0pointer.net/blog/brave-new-trusted-boot-world.html">
-promoting</a>
-<a href="https://uapi-group.org/specifications/specs/unified_kernel_image/">
-unified kernel
-images</a> (UKIs), a format that bundles a kernel, initial disk image, kernel command line, and
-other associated data into a single file. The advantage of the format is the ability to
-authenticate the entire collection with secure boot, which makes it easier for
-end users to know that their operating system hasn't been tampered with. The
-downside is the lack of flexibility and increase in disk usage, since all of the
-things packaged in a UKI must be updated together. But the
-<a href="https://lwn.net/Articles/1001657/">
-recent systemd 257 release</a> (along with other changes to be covered in 
-<a href="https://lwn.net/Articles/1002398/">
-a future article</a>) includes some
-major changes to the UKI format, and the rest of the boot process, that
-partially mitigate those downsides. The release also includes improvements for
-hardware-locked disk encryption, which may also help secure some computers.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
