@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>A chance of rain showers. Mostly cloudy. Low around 42, with temperatures rising to around 45 overnight. West southwest wind
-         10 to 17 mph, with gusts as high as 30 mph. Chance of precipitation is 30%.<br></div>
+         14 to 17 mph, with gusts as high as 30 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
