@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>New Year's Day</h3>Mostly sunny. High near 39, with temperatures falling to around 35 in the afternoon. West northwest wind around 7 mph.<br></div>
+         <h3>New Year's Day</h3>Mostly sunny. High near 39, with temperatures falling to around 35 in the afternoon. West northwest wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
