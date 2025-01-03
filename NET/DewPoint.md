@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 37.9 F. <strong>Dew Point</strong> 30.0 F.</div>
+<div id='c'><strong>Temp</strong> 34.0 F. <strong>Dew Point</strong> 27.0 F.</div>
 
 <p/><br/><p/>
 
@@ -3930,3 +3930,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Fri Jan  3 02:08:05 2025 | 39.9 F. | 32.0 F.|
 | Fri Jan  3 03:08:05 2025 | 37.9 F. | 30.0 F.|
 | Fri Jan  3 04:08:05 2025 | 37.9 F. | 30.0 F.|
+| Fri Jan  3 05:08:05 2025 | 34.0 F. | 27.0 F.|
