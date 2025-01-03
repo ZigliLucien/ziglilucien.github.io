@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-01-03T15:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-01-03T11:57:39+00:00</updateTime>
-		<validTimes type="str">2025-01-03T05:00:00+00:00/P7DT20H</validTimes>
+		<generatedAt type="str">2025-01-03T16:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-01-03T15:56:42+00:00</updateTime>
+		<validTimes type="str">2025-01-03T09:00:00+00:00/P7DT16H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2025-01-03T09:00:00-06:00</startTime>
+				<startTime type="str">2025-01-03T10:00:00-06:00</startTime>
 				<endTime type="str">2025-01-03T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">36</temperature>
@@ -64,9 +64,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 to 10 mph</windSpeed>
 				<windDirection type="str">NW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
-				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny. High near 36, with temperatures falling to around 33 in the afternoon. Northwest wind 6 to 10 mph, with gusts as high as 20 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
+				<shortForecast type="str">Sunny</shortForecast>
+				<detailedForecast type="str">Sunny. High near 36, with temperatures falling to around 33 in the afternoon. Northwest wind 6 to 10 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -81,11 +81,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
+				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy. Low around 22, with temperatures rising to around 24 overnight. North northwest wind around 6 mph.</detailedForecast>
+				<detailedForecast type="str">Partly cloudy. Low around 22, with temperatures rising to around 24 overnight. North northwest wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -120,10 +120,10 @@
 					<value type="int">70</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 8 mph</windSpeed>
-				<windDirection type="str">ENE</windDirection>
+				<windDirection type="str">E</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/ovc/snow_fzra,70?size=medium</icon>
 				<shortForecast type="str">Cloudy then Snow Showers Likely</shortForecast>
-				<detailedForecast type="str">Snow showers likely and freezing rain likely between midnight and 3am, then freezing rain likely and a slight chance of sleet. Cloudy, with a low around 27. East northeast wind 2 to 8 mph. Chance of precipitation is 70%. New snow accumulation of less than half an inch possible. Little or no ice accumulation expected.</detailedForecast>
+				<detailedForecast type="str">Snow showers likely and freezing rain likely between midnight and 3am, then freezing rain likely and a slight chance of sleet. Cloudy, with a low around 27. East wind 2 to 8 mph. Chance of precipitation is 70%. New snow accumulation of less than half an inch possible. Little or no ice accumulation expected.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
