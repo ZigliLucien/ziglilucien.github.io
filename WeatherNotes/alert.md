@@ -1,5 +1,5 @@
 <p>
-   <h2>Ice Storm Warning issued January 4 at 7:10AM CST until January 6 at 6:00AM CST by NWS Paducah KY</h2>
+   <h2>Ice Storm Warning issued January 4 at 1:31PM CST until January 6 at 6:00AM CST by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Significant icing expected. Total snow and sleet
       accumulations up to two inches and ice accumulations between one
       quarter and three quarters of an inch.
