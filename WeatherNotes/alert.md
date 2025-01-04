@@ -1,18 +1,24 @@
 <p>
-   <h2>Winter Storm Watch issued January 3 at 1:58PM CST until January 6 at 12:00PM CST by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...Heavy mixed precipitation possible. Total snow and sleet
-      accumulations of 4 inches or more and ice accumulations of one
-      quarter inch or more are possible.
+   <h2>Ice Storm Warning issued January 4 at 1:46AM CST until January 6 at 6:00AM CST by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Significant icing expected. Total snow and sleet
+      accumulations up to two inches and ice accumulations between one
+      quarter and three quarters of an inch.
       
-      * WHERE...All of southern Illinois and southwest Indiana, and
-      portions of western Kentucky, and southeast Missouri, generally to
-      the north of a line from Ellsinore Missouri to Cairo Illinois to
-      Cadiz Kentucky.
+      * WHERE...Portions of southern Illinois, western Kentucky, and
+      southeast Missouri.
       
-      * WHEN...From late Saturday night through Monday morning.
+      * WHEN...From 2 AM Sunday to 6 AM CST Monday.
       
-      * IMPACTS...Expect power outages and tree damage due to the ice.
-      Travel could be impossible. The hazardous conditions will likely
+      * IMPACTS...Roads, and especially bridges and overpasses, will
+      likely become slick and hazardous. Significant ice accumulation on
+      power lines and tree limbs may cause widespread and long-lasting
+      power outages. Expect power outages and tree damage due to the
+      ice. Travel could be impossible. The hazardous conditions could
       impact the Monday morning commute.
+      
+      * ADDITIONAL DETAILS...An arctic blast will arrive Monday and last
+      through most of the week. Wind chill values will drop into the
+      single digits or below zero at times, which can be even more
+      dangerous with any long duration power outages.
    </div>
 </p>
