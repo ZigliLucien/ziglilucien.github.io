@@ -2,22 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Sleet and a slight chance of freezing rain. Cloudy, with a low around 29. East northeast wind around 12 mph, with gusts as
-         high as 20 mph. Chance of precipitation is 90%. New snow accumulation of less than half an inch possible. Little or no ice
-         accumulation expected.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday</h3>Sleet and a slight chance of snow and a slight chance of freezing rain before 8am, then sleet and freezing rain and a slight
+         <h3>Today</h3>Sleet and a slight chance of snow and a slight chance of freezing rain before 8am, then sleet and freezing rain and a slight
          chance of snow between 8am and 11am, then freezing rain and a slight chance of sleet between 11am and 3pm, then freezing rain
          and a slight chance of sleet and a slight chance of thunderstorms between 3pm and 4pm, then freezing rain and showers and
          thunderstorms between 4pm and 5pm, then freezing rain likely and a slight chance of sleet and a slight chance of thunderstorms.
-         Cloudy, with a high near 32. East northeast wind 12 to 17 mph, with gusts as high as 29 mph. Chance of precipitation is 100%.
+         Cloudy, with a high near 32. East northeast wind 8 to 17 mph, with gusts as high as 29 mph. Chance of precipitation is 100%.
          New snow accumulation of less than one inch possible. New ice accumulation of less than half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Freezing rain likely and a slight chance of thunderstorms before 11pm, then snow and freezing rain. Cloudy. Low around 22,
+         <h3>Tonight</h3>Freezing rain likely and a slight chance of thunderstorms before 11pm, then snow and freezing rain. Cloudy. Low around 22,
          with temperatures rising to around 24 overnight. North northeast wind 12 to 17 mph, with gusts as high as 32 mph. Chance of
          precipitation is 90%. New snow accumulation of around one inch possible. Little or no ice accumulation expected.<br></div>
    </p>
@@ -66,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>Partly sunny, with a high near 30. West wind 3 to 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>Partly cloudy, with a low around 15. Southwest wind around 3 mph.<br></div>
    </p>
 </div>
