@@ -2,21 +2,21 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Sleet and freezing rain before 11am, then freezing rain and a slight chance of sleet between 11am and 3pm, then freezing rain
-         and a slight chance of sleet and a slight chance of thunderstorms between 3pm and 4pm, then freezing rain and showers and
-         thunderstorms between 4pm and 5pm, then freezing rain likely and a slight chance of sleet and a slight chance of thunderstorms.
-         Cloudy, with a high near 32. East northeast wind 14 to 17 mph, with gusts as high as 29 mph. Chance of precipitation is 100%.
-         New snow accumulation of less than one inch possible. New ice accumulation of less than half an inch possible.<br></div>
+         <h3>Today</h3>Freezing rain and a slight chance of sleet before 3pm, then freezing rain and a slight chance of sleet and a slight chance
+         of thunderstorms between 3pm and 4pm, then freezing rain and showers and thunderstorms between 4pm and 5pm, then freezing
+         rain likely and a slight chance of sleet and a slight chance of thunderstorms. Cloudy, with a high near 32. East northeast
+         wind 12 to 16 mph, with gusts as high as 25 mph. Chance of precipitation is 100%. New snow accumulation of less than one inch
+         possible. New ice accumulation of less than half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Freezing rain likely and a slight chance of thunderstorms before 11pm, then snow and freezing rain. Cloudy. Low around 22,
-         with temperatures rising to around 24 overnight. North northeast wind 12 to 17 mph, with gusts as high as 32 mph. Chance of
-         precipitation is 90%. New snow accumulation of around one inch possible. Little or no ice accumulation expected.<br></div>
+         with temperatures rising to around 24 overnight. North northeast wind 12 to 16 mph, with gusts as high as 30 mph. Chance of
+         precipitation is 80%. New snow accumulation of around one inch possible. Little or no ice accumulation expected.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A chance of snow before 9am. Cloudy, with a high near 26. North northwest wind 13 to 18 mph, with gusts as high as 32 mph.
+         <h3>Monday</h3>A chance of snow before 9am. Cloudy, with a high near 26. North northwest wind 13 to 16 mph, with gusts as high as 30 mph.
          Chance of precipitation is 50%. New snow accumulation of less than one inch possible.<br></div>
    </p>
    <p>
