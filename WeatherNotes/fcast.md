@@ -4,8 +4,8 @@
       <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of snow showers before 11pm, then a slight chance of snow showers and a slight chance of freezing rain between
          11pm and 1am, then a chance of sleet between 1am and 2am, then sleet and freezing rain and a chance of snow showers. Cloudy.
-         Low around 27, with temperatures rising to around 30 overnight. East northeast wind 2 to 10 mph. Chance of precipitation is
-         80%. New snow accumulation of less than half an inch possible. Little or no ice accumulation expected.<br></div>
+         Low around 27, with temperatures rising to around 30 overnight. East wind 2 to 10 mph. Chance of precipitation is 80%. New
+         snow accumulation of less than half an inch possible. Little or no ice accumulation expected.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
