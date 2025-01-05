@@ -5,7 +5,7 @@
          <h3>Today</h3>Sleet and freezing rain before 11am, then freezing rain and a slight chance of sleet between 11am and 3pm, then freezing rain
          and a slight chance of sleet and a slight chance of thunderstorms between 3pm and 4pm, then freezing rain and showers and
          thunderstorms between 4pm and 5pm, then freezing rain likely and a slight chance of sleet and a slight chance of thunderstorms.
-         Cloudy, with a high near 32. East northeast wind 12 to 17 mph, with gusts as high as 29 mph. Chance of precipitation is 100%.
+         Cloudy, with a high near 32. East northeast wind 14 to 17 mph, with gusts as high as 29 mph. Chance of precipitation is 100%.
          New snow accumulation of less than one inch possible. New ice accumulation of less than half an inch possible.<br></div>
    </p>
    <p>
