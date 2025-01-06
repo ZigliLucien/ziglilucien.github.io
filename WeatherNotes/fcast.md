@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Cloudy, with a high near 26. North northwest wind 9 to 15 mph, with gusts as high as 28 mph. New snow accumulation of less
-         than half an inch possible.<br></div>
+         <h3>Today</h3>Cloudy, with a high near 26. Northwest wind 9 to 14 mph, with gusts as high as 26 mph. New snow accumulation of less than
+         half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
