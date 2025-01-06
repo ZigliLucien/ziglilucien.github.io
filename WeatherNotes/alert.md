@@ -1,5 +1,5 @@
 <p>
-   <h2>Ice Storm Warning issued January 6 at 2:02AM CST until January 6 at 12:00PM CST by NWS Paducah KY</h2>
+   <h2>Winter Weather Advisory issued January 6 at 3:21AM CST until January 6 at 12:00PM CST by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Additional snow accumulations up to one inch and ice
       accumulations around a light glaze.
       

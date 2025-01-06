@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a38e12e0bbb9a5360ad484d33f8016a82b92a1a.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b8d4988c4a66e6d1ab21bd26d89e331c40c24a0.001.2</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a38e12e0bbb9a5360ad484d33f8016a82b92a1a.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8b8d4988c4a66e6d1ab21bd26d89e331c40c24a0.001.2</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.9a38e12e0bbb9a5360ad484d33f8016a82b92a1a.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.8b8d4988c4a66e6d1ab21bd26d89e331c40c24a0.001.2</id>
 				<areaDesc type="str">Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Livingston; Crittenden; Caldwell; Union; Webster; Hopkins; Henderson; Daviess; McLean; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Scott</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -105,29 +105,22 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
 				</affectedZones>
-				<references type="list">
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7a2e5e8dc5deca4284049db0fedec648e452116.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.f7a2e5e8dc5deca4284049db0fedec648e452116.001.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-01-05T13:59:00-06:00</sent>
-					</item>
-				</references>
-				<sent type="str">2025-01-06T02:02:00-06:00</sent>
-				<effective type="str">2025-01-06T02:02:00-06:00</effective>
-				<onset type="str">2025-01-06T02:02:00-06:00</onset>
+				<references type="list"/>
+				<sent type="str">2025-01-06T03:21:00-06:00</sent>
+				<effective type="str">2025-01-06T03:21:00-06:00</effective>
+				<onset type="str">2025-01-06T03:21:00-06:00</onset>
 				<expires type="str">2025-01-06T12:00:00-06:00</expires>
 				<ends type="str">2025-01-06T12:00:00-06:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Update</messageType>
+				<messageType type="str">Alert</messageType>
 				<category type="str">Met</category>
-				<severity type="str">Extreme</severity>
+				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
 				<urgency type="str">Expected</urgency>
-				<event type="str">Ice Storm Warning</event>
+				<event type="str">Winter Weather Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Ice Storm Warning issued January 6 at 2:02AM CST until January 6 at 12:00PM CST by NWS Paducah KY</headline>
+				<headline type="str">Winter Weather Advisory issued January 6 at 3:21AM CST until January 6 at 12:00PM CST by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Additional snow accumulations up to one inch and ice
 accumulations around a light glaze.
 
@@ -146,49 +139,39 @@ hazardous conditions will impact the morning commute.
 through most of the week. Wind chill values will drop into the
 single digits or below zero at times, which can be even more
 dangerous with any long duration power outages.</description>
-				<instruction type="str">Persons should delay all travel if possible. If travel is absolutely
-necessary, drive with extreme caution and be prepared for sudden
-changes in visibility. Leave plenty of room between you and the
-motorist ahead of you, and allow extra time to reach your
-destination. Avoid sudden braking or acceleration, and be especially
-cautious on hills or when making turns. Make sure your car is
-winterized and in good working order.
+				<instruction type="str">Slow down and use caution while traveling. The latest road
+conditions can be obtained by visiting www.weather.gov/pah/roads
 
-Do not touch downed lines and report any power outages to your
-electric company. Travel is highly discouraged due to slick roadways
-and the possibility of downed trees and power lines.</instruction>
-				<response type="str">Avoid</response>
+Be prepared for slippery roads. Slow down and use caution while
+driving. If you are going outside, watch your first few steps taken
+on stairs, sidewalks, and driveways. These surfaces could be icy and
+slippery, increasing your risk of a fall and injury.</instruction>
+				<response type="str">Execute</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">WSWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS43 KPAH 060802</item>
+						<item type="str">WWUS43 KPAH 060921</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">ICE STORM WARNING REMAINS IN EFFECT UNTIL NOON CST TODAY</item>
+						<item type="str">WINTER WEATHER ADVISORY IN EFFECT UNTIL NOON CST TODAY... ...ICE STORM WARNING IS CANCELLED</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
 						<item type="str">NWEM</item>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
-					<EAS-ORG type="list">
-						<item type="str">WXR</item>
-					</EAS-ORG>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.IS.W.0001.000000T0000Z-250106T1800Z/</item>
+						<item type="str">/O.EXA.KPAH.WW.Y.0001.000000T0000Z-250106T1800Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-01-06T18:00:00+00:00</item>
 					</eventEndingTime>
-					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.23c002df5dc9457f57c7c5ff3f755e5aa5e6735b.001.1,2025-01-05T01:47:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6f8d0084dca5c9b1d09625c80b514cccc4aa4899.002.1,2025-01-04T13:31:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aeaa0414993e7a0a90319fe7f20c441ad63e148f.001.1,2025-01-04T07:10:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5b5f6af1c96461f2821c07ec4d6f2a5b88474d31.001.2,2025-01-04T01:46:00-06:00</item>
-					</expiredReferences>
 				</parameters>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-01-06T08:03:07+00:00</updated>
+	<updated type="str">2025-01-06T09:22:19+00:00</updated>
 </all>
