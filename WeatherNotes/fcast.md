@@ -2,19 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly cloudy. Low around 20, with temperatures rising to around 24 overnight. Northwest wind around 5 mph.<br></div>
+         <h3>Today</h3>Partly sunny. High near 27, with temperatures falling to around 25 in the afternoon. North northwest wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Partly sunny. High near 27, with temperatures falling to around 25 in the afternoon. North northwest wind around 6 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy. Low around 9, with temperatures rising to around 11 overnight. Northwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Partly cloudy. Low around 9, with temperatures rising to around 11 overnight. Northwest wind around 5 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday</h3>Sunny, with a high near 24. Wind chill values as low as 0. West northwest wind 5 to 8 mph.<br></div>
+         <h3>Wednesday</h3>Sunny. High near 24, with temperatures falling to around 21 in the afternoon. Wind chill values as low as 0. West northwest
+         wind 5 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -31,7 +28,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Snow likely. Cloudy, with a high near 29. East southeast wind 2 to 6 mph. New snow accumulation of 1 to 2 inches possible.<br></div>
+         <h3>Friday</h3>Snow likely. Cloudy, with a high near 29. East southeast wind 2 to 6 mph. Chance of precipitation is 70%. New snow accumulation
+         of 1 to 2 inches possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -57,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday</h3>Partly sunny, with a high near 32. West northwest wind 3 to 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday Night</h3>Partly cloudy, with a low around 14. West northwest wind around 3 mph.<br></div>
    </p>
 </div>
