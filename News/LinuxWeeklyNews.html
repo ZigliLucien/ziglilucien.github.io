@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1004376/" title="See Description">Kicinski: netdev in 2024</a></li>
 <li><a href="#https://lwn.net/Articles/1004373/" title="See Description">2024 in retrospect (Gentoo News)</a></li>
 <li><a href="#https://lwn.net/Articles/1004204/" title="See Description">[$] 2024 Linux and free software timeline</a></li>
 <li><a href="#https://lwn.net/Articles/1004368/" title="See Description">Firefox 134.0 released</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1003984/" title="See Description">Three new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1003983/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1003916/" title="See Description">An Algol 68 front end for GCC</a></li>
-<li><a href="#https://lwn.net/Articles/1003913/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1004376/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 07 Jan 2025 21:08:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004376/" title="https://lwn.net/Articles/1004376/">Kicinski: netdev in 2024</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Kernel networking maintainer Jakub Kicinski <a
+href="https://people.kernel.org/kuba/netdev-in-2024">reviews progress in
+the networking subsystem</a> in 2024.
+<p>
+<blockquote class="bq">
+	Work on relieving the rtnl_lock pressure has continued throughout
+	the year. The rtnl_lock is often mentioned as one of the biggest
+	global locks in the kernel, as it protects all of the network
+	configuration and state. The efforts can be divided into two broad
+	categories – converting read operations to rely on RCU protection
+	or other fine grained locking (v6.9, v6.10), and splitting the lock
+	into per-network namespace locks (preparations for which started in
+	v6.13).
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1004373/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 07 Jan 2025 19:48:43 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -267,14 +287,6 @@ end for the Algol 68 language</a>.
 For those who see Algol 68 as too new, there was also <a
 href="https://lwn.net/ml/all/20241212125636.77ae7917eeb8dacf76197d1c@schemamania.org">a
 COBOL front end</a> posted in December.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1003913/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 01 Jan 2025 14:06:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1003913/" title="https://lwn.net/Articles/1003913/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (python-django and python-tornado), <b>Fedora</b> (libxml2), and <b>Red Hat</b> (python-virtualenv and python36:3.6).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
