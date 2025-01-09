@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1004595/" title="See Description">SFC reports a successful (L)GPL suit in Germany</a></li>
+<li><a href="#https://lwn.net/Articles/1004029/" title="See Description">[$] Page-table hardening with memory protection keys</a></li>
 <li><a href="#https://lwn.net/Articles/1004548/" title="See Description">Six new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1004543/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1003479/" title="See Description">[$] LWN.net Weekly Edition for January 9, 2025</a></li>
@@ -51,11 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1004368/" title="See Description">Firefox 134.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1004339/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1001929/" title="See Description">[$] Emacs in Scheme</a></li>
-<li><a href="#https://lwn.net/Articles/1004297/" title="See Description">Mourning Steve Langasek</a></li>
-<li><a href="#https://lwn.net/Articles/1004262/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1004595/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 09 Jan 2025 15:31:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004595/" title="https://lwn.net/Articles/1004595/">SFC reports a successful (L)GPL suit in Germany</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Software Freedom Conservancy is <a
+href="https://sfconservancy.org/news/2025/jan/09/avm-copyleft-lawsuit-resolved-with-install/">reporting</a>
+that AVM has released the full source and installation scripts for its
+routers in response to a lawsuit, filed by Sebastian Steck, based on Lesser
+GNU Public License rights.
+<p>
+<blockquote class="bq">
+	Historically, lawsuits have focused on the copyrights licensed
+	under GPL (or the GPL and LGPL together). Steck's lawsuit uniquely
+	focused exclusively on users' rights under the LGPL. Steck's work
+	showed that despite being a "Lesser" license than GPL, LGPLv2.1
+	still guarantees users the right to repair, modify and reinstall
+	modified versions of the software on their device. There is now no
+	doubt that both GPL and LGPL mandate the device owner's ability to
+	make changes to the software in the flash memory so those changes
+	persist across reboots.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1004029/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 09 Jan 2025 15:16:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004029/" title="https://lwn.net/Articles/1004029/">[$] Page-table hardening with memory protection keys</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Attacks on the kernel can take many forms; one popular exploitation path is
+to find a way to overwrite some memory with attacker-supplied data.  If the
+right memory can be targeted, one well-targeted stray write is all that is
+needed to take control of the system.  Since the system's page tables
+regulate access to memory, they are an attractive target for this type of
+attack.  <a
+href="https://lwn.net/ml/all/20250108103250.3188419-1-kevin.brodsky@arm.com">This patch 
+set</a> from Kevin Brodsky is an attempt to protect page tables (and,
+eventually, other data structures) using the "memory protection keys"
+feature provided by a number of CPU architectures.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1004548/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 09 Jan 2025 15:00:05 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -259,33 +299,6 @@ href="https://www.gnu.org/software/guile/">Guile</a>, which is an
 implementation of Scheme, but wants to make the code <a
 href="https://codeberg.org/ramin_hal9001/gypsum/wiki/Portability.md">portable</a>
 to any implementation of <a href="https://r7rs.org/">R7RS</a> Scheme.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1004297/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 06 Jan 2025 19:37:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004297/" title="https://lwn.net/Articles/1004297/">Mourning Steve Langasek</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>From the Ubuntu Discourse instance comes <a
-href="https://discourse.ubuntu.com/t/remembering-and-thanking-steve-langasek/52665">the
-sad news</a> that longtime Debian and Ubuntu contributor Steve Langasek has
-passed away.
-<p>
-<blockquote class="bq">
-	Steve passed away at the dawn of 2025. His time was short but
-	remarkable. He will forever remain an inspiration. Judging by the
-	outpouring of feelings this week, he is equally missed and mourned
-	by colleagues and friends across the open source landscape, in
-	particular in Ubuntu and Debian where he was a great mind, mentor
-	and conscience.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1004262/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 06 Jan 2025 14:21:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004262/" title="https://lwn.net/Articles/1004262/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (ofono and webkitgtk), <b>Mageia</b> (ruby and virtualbox &amp; kmod-virtualbox), <b>Red Hat</b> (oci-seccomp-bpf-hook and runc), <b>SUSE</b> (corepack22, dpdk, libpoppler-cpp1, pcp, python-Jinja2, and sysstat), and <b>Ubuntu</b> (tinyproxy).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
