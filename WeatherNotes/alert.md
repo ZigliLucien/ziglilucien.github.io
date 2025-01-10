@@ -1,19 +1,20 @@
 <p>
-   <h2>Winter Storm Warning issued January 9 at 1:51PM CST until January 11 at 12:00AM CST by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...Heavy snow expected. Total snow accumulations between 4
-      and 7 inches, with the highest amounts likelier to occur near
-      the Arkansas and Tennessee borders.
+   <h2>Winter Storm Warning issued January 10 at 2:52AM CST until January 11 at 12:00AM CST by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Heavy snow expected. Total snow accumulations between 4 and
+      7 inches, with the greatest amounts over southeast Missouri and
+      adjacent portions of southern Illinois and west Kentucky.
       
       * WHERE...All of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
       
-      * WHEN...From midnight CST /1 AM EST/ tonight to midnight CST /1
-      AM EST/ Friday Night.
+      * WHEN...Until midnight CST /1 AM EST/ tonight.
       
-      * IMPACTS...Plan for difficult road conditions, especially on
-      secondary roads. Slow down and leave plenty of space. The
-      hazardous conditions could impact the Friday morning and evening
-      commutes.
+      * IMPACTS...Plan on slippery road conditions. The hazardous
+      conditions will impact the Friday morning and evening commutes.
+      
+      * ADDITIONAL DETAILS...Downed tree limbs and additional power
+      outages will be possible in areas that still have significant
+      icing from last weekend's winter storm.
    </div>
 </p>
 <p>
