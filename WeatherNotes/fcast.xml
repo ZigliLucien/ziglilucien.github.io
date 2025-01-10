@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-01-10T04:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-01-10T02:46:41+00:00</updateTime>
-		<validTimes type="str">2025-01-09T20:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2025-01-10T06:36:02+00:00</generatedAt>
+		<updateTime type="str">2025-01-10T05:02:05+00:00</updateTime>
+		<validTimes type="str">2025-01-09T23:00:00+00:00/P7DT5H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-01-09T22:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-01-10T00:00:00-06:00</startTime>
 				<endTime type="str">2025-01-10T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">25</temperature>
@@ -64,9 +64,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">SSE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/ovc/snow,80?size=medium</icon>
-				<shortForecast type="str">Cloudy then Light Snow</shortForecast>
-				<detailedForecast type="str">Snow after midnight. Cloudy. Low around 25, with temperatures rising to around 28 overnight. South southeast wind around 3 mph. Chance of precipitation is 80%. New snow accumulation of less than half an inch possible.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow,80?size=medium</icon>
+				<shortForecast type="str">Light Snow</shortForecast>
+				<detailedForecast type="str">Snow. Cloudy. Low around 25, with temperatures rising to around 28 overnight. South southeast wind around 3 mph. Chance of precipitation is 80%. New snow accumulation of less than half an inch possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
