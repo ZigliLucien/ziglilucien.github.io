@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1004774/" title="See Description">Paolo Mantegazza RIP</a></li>
+<li><a href="#https://lwn.net/Articles/1002342/" title="See Description">[$] The state of Vim</a></li>
 <li><a href="#https://lwn.net/Articles/1004705/" title="See Description">Automattic reduces WordPress contributions</a></li>
 <li><a href="#https://lwn.net/Articles/1004704/" title="See Description">A straggling kernel update</a></li>
 <li><a href="#https://lwn.net/Articles/1004701/" title="See Description">Security updates for Friday</a></li>
@@ -51,11 +53,51 @@
 <li><a href="#https://lwn.net/Articles/1004460/" title="See Description">2024: Year in Review (Tor Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1004429/" title="See Description">Announcing the pkgsrc-2024Q4 branch</a></li>
 <li><a href="#https://lwn.net/Articles/1004428/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1004376/" title="See Description">Kicinski: netdev in 2024</a></li>
-<li><a href="#https://lwn.net/Articles/1004373/" title="See Description">2024 in retrospect (Gentoo News)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1004774/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 10 Jan 2025 20:38:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004774/" title="https://lwn.net/Articles/1004774/">Paolo Mantegazza RIP</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>We have just now received word of <a
+href="https://lore.kernel.org/xenomai/87ikqnuiqb.fsf@xenomai.org/">the
+passing of Paolo Mantegazza</a>, the driving force behind the <a
+href="https://www.rtai.org/">Real Time Application Interface</a> project
+and a key figure in the development of realtime Linux.
+<p>
+<blockquote class="bq">
+	Paolo used to describe himself as a simple practitioner of software
+	development, one of whose missions was to contribute a free
+	real-time system his students could use, study and improve for
+	their research work at the university, welcoming others to
+	join. Many Linux users and businesses owe him a lot, because under
+	his leadership, the RTAI project has always defended the freedom of
+	developers to implement real-time systems, particularly at times
+	when it was threatened. His fierce will for RTAI served the Xenomai
+	project, as well as others.
+</blockquote>
+<p>
+He will be missed.
+(LWN <a href="https://lwn.net/2001/0215/">interviewed Mantegazza</a> in
+2001).</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1002342/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 10 Jan 2025 19:00:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002342/" title="https://lwn.net/Articles/1002342/">[$] The state of Vim</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The death of Bram Moolenaar, <a href="https://www.vim.org/">Vim</a>
+founder and benevolent dictator for life (BDFL), in 2023 sent a shock
+through the community, and raised concern about the future of the
+project. At <a href="https://vimconf.org/">VimConf</a> 2024 in
+November, current Vim maintainer Christian Brabandt delivered a
+keynote on "<q>the new Vim project</q>" that detailed how the
+community has reorganized itself to continue maintaining Vim and what
+the future looks like.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1004705/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 10 Jan 2025 15:05:34 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -276,55 +318,6 @@ packages were removed.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (firefox, mupdf, and php-tcpdf), <b>SUSE</b> (etcd, file-roller, gtk3, kernel, python-django-ckeditor, rubygem-json-jwt, and tomcat10), and <b>Ubuntu</b> (ffmpeg, HTMLDOC, linux-aws, linux-raspi, linux-gke, linux-hwe-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, and tinyproxy).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1004376/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 07 Jan 2025 21:08:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004376/" title="https://lwn.net/Articles/1004376/">Kicinski: netdev in 2024</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Kernel networking maintainer Jakub Kicinski <a
-href="https://people.kernel.org/kuba/netdev-in-2024">reviews progress in
-the networking subsystem</a> in 2024.
-<p>
-<blockquote class="bq">
-	Work on relieving the rtnl_lock pressure has continued throughout
-	the year. The rtnl_lock is often mentioned as one of the biggest
-	global locks in the kernel, as it protects all of the network
-	configuration and state. The efforts can be divided into two broad
-	categories – converting read operations to rely on RCU protection
-	or other fine grained locking (v6.9, v6.10), and splitting the lock
-	into per-network namespace locks (preparations for which started in
-	v6.13).
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1004373/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 07 Jan 2025 19:48:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004373/" title="https://lwn.net/Articles/1004373/">2024 in retrospect (Gentoo News)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Gentoo Linux has published a <a
-href="https://www.gentoo.org/news/2025/01/05/new-year.html">project
-retrospective</a> that looks at the major improvements and news from
-2024, the Gentoo Foundation's finances, and contributions to Gentoo by
-the numbers.</p>
-
-<blockquote class="bq">
-<p>The number of commits to the <a
-href="https://gitweb.gentoo.org/repo/gentoo.git/">main ::gentoo
-repository</a> has remained at an overall high level in 2024, with a
-2.4% increase from 121000 to 123942. The number of commits by external
-contributors has grown strongly from 10708 to 12812, now across 421
-unique external authors.</p>
-
-<p>The importance of <a
-href="https://wiki.gentoo.org/wiki/Project:GURU">GURU, our
-user-curated repository with a trusted user model</a>, as entry point
-for potential developers, is clearly increasing as well. We have had
-7517 commits in 2024, a strong growth from 5045 in 2023. The number of
-contributors to GURU has increased a lot as well, from 158 in 2023 to
-241 in 2024. Please join us there and help packaging the latest and
-greatest software.</p>
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
