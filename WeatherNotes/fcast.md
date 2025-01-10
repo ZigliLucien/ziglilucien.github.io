@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Snow. Cloudy, with a high near 32. South wind around 3 mph. Chance of precipitation is 100%. New snow accumulation of 3 to
+         <h3>Today</h3>Snow. Cloudy, with a high near 30. South wind around 3 mph. Chance of precipitation is 100%. New snow accumulation of 3 to
          7 inches possible.<br></div>
    </p>
    <p>
