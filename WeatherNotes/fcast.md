@@ -2,19 +2,15 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly clear. Low around 15, with temperatures rising to around 19 overnight. South southwest wind around 5 mph.<br></div>
+         <h3>Today</h3>Partly sunny. High near 32, with temperatures falling to around 25 in the afternoon. West wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Mostly sunny. High near 32, with temperatures falling to around 25 in the afternoon. West northwest wind 6 to 9 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear. Low around 8, with temperatures rising to around 10 overnight. North northeast wind 1 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Mostly clear. Low around 8, with temperatures rising to around 10 overnight. North northeast wind 1 to 6 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday</h3>Sunny, with a high near 29. West northwest wind around 2 mph.<br></div>
+         <h3>Wednesday</h3>Sunny. High near 29, with temperatures falling to around 24 in the afternoon. West northwest wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -30,7 +26,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of rain after noon. Mostly sunny, with a high near 48. South wind 6 to 12 mph, with gusts as high as 22 mph.<br></div>
+         <h3>Friday</h3>A chance of rain after noon. Mostly sunny, with a high near 48. South wind 6 to 12 mph, with gusts as high as 22 mph. Chance
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -55,5 +52,9 @@
    <p>
       <div style="font-size:120%">
          <h3>M.L. King Jr. Day</h3>Mostly sunny, with a high near 20. North northwest wind 6 to 9 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday Night</h3>Partly cloudy, with a low around 7. Northwest wind around 5 mph.<br></div>
    </p>
 </div>
