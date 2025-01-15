@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1005165/" title="See Description">Linux Mint 22.1 released</a></li>
+<li><a href="#https://lwn.net/Articles/1005129/" title="See Description">Six vulnerabilities discovered in rsync</a></li>
+<li><a href="#https://lwn.net/Articles/1005163/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1005007/" title="See Description">The people should own the town square (Mastodon Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1004988/" title="See Description">[$] The slow death of TuxFamily</a></li>
 <li><a href="#https://lwn.net/Articles/1004455/" title="See Description">[$] Modifying another process's system calls</a></li>
@@ -50,12 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1004776/" title="See Description">Git v2.48.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1004774/" title="See Description">Paolo Mantegazza RIP</a></li>
 <li><a href="#https://lwn.net/Articles/1002342/" title="See Description">[$] The state of Vim</a></li>
-<li><a href="#https://lwn.net/Articles/1004705/" title="See Description">Automattic reduces WordPress contributions</a></li>
-<li><a href="#https://lwn.net/Articles/1004704/" title="See Description">A straggling kernel update</a></li>
-<li><a href="#https://lwn.net/Articles/1004701/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1005165/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 15 Jan 2025 14:46:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005165/" title="https://lwn.net/Articles/1005165/">Linux Mint 22.1 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Linux Mint <a
+href="https://www.linuxmint.com/rel_xia_whatsnew.php">version
+22.1</a>, a long-term-support (LTS) release with support until 2029, is now
+available. Notable changes in this release include a transition to <a
+href="https://github.com/linuxmint/aptkit">Aptkit</a> for background
+package management tasks, <a
+href="https://github.com/linuxmint/captain">Captain</a> to install
+Debian packages, and a new default theme with improved Wayland
+compatibility. See the <a
+href="https://www.linuxmint.com/rel_xia.php">release notes</a> for
+known issues.</p>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1005129/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 15 Jan 2025 14:19:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005129/" title="https://lwn.net/Articles/1005129/">Six vulnerabilities discovered in rsync</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Nick Tait
+<a href="https://www.openwall.com/lists/oss-security/2025/01/14/3">announced</a> on the
+oss-security mailing list that
+<a href="https://rsync.samba.org/">
+rsync</a>, the widely used file transfer program, had a number of serious vulnerabilities.
+Users can mitigate all six vulnerabilities by upgrading to
+version 3.4.0, which was 
+<a href="https://lists.samba.org/archive/rsync-announce/2025/000120.html">
+released</a> on January 14. While all users should upgrade, servers that use rsyncd are
+especially impacted:
+</p>
+
+<blockquote class="bq">
+In the most severe CVE, an attacker only requires
+anonymous read access to a rsync server, such as a public mirror, to
+execute arbitrary code on the machine the server is running on.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1005163/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 15 Jan 2025 14:18:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005163/" title="https://lwn.net/Articles/1005163/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Arch Linux</b> (rsync), <b>Debian</b> (rsync), <b>Fedora</b> (perl-Net-OAuth and redis), <b>Red Hat</b> (ipa, raptor2, rsync, and tuned), <b>Slackware</b> (rsync), <b>SUSE</b> (apache2-mod_jk, git, kernel, rclone, rsync, and webkit2gtk3), and <b>Ubuntu</b> (git, linux-azure-5.4, pdns, pdns-recursor, python-django, rlottie, and rsync).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1005007/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 14 Jan 2025 19:48:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -263,50 +313,6 @@ November, current Vim maintainer Christian Brabandt delivered a
 keynote on "<q>the new Vim project</q>" that detailed how the
 community has reorganized itself to continue maintaining Vim and what
 the future looks like.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1004705/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 10 Jan 2025 15:05:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004705/" title="https://lwn.net/Articles/1004705/">Automattic reduces WordPress contributions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Automattic has <a
-href="https://automattic.com/2025/01/09/aligning-automattics-sponsored-contributions-to-wordpress/">announced</a>
-that it is reallocating its resources away from contributing to the
-WordPress project as a response to the WP&nbsp;Engine lawsuit:</p>
-
-<blockquote class="bq">
-As part of this reset, Automattic will match its volunteering pledge
-with those made by WP Engine and other players in the ecosystem, or
-about 45 hours a week that qualify under the Five For the Future
-program as benefitting the entire community and not just a single
-company. These hours will likely go towards security and critical
-updates.
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1001783/">last covered</a>
-the ongoing WordPress saga in December. [Thanks to Paul Wise for the
-heads-up on this latest development.]</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1004704/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 10 Jan 2025 14:44:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004704/" title="https://lwn.net/Articles/1004704/">A straggling kernel update</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-After <a href="https://lwn.net/Articles/1004548/">yesterday's stable kernel releases</a>, Chris
-Clayton reported a build problem with 6.6.70, which prompted Greg Kroah-Hartman
-to <a href="https://lwn.net/Articles/1004703/">release 6.6.71</a> to fix it.
-</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1004701/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 10 Jan 2025 14:25:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004701/" title="https://lwn.net/Articles/1004701/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (chromium and mingw-poppler), <b>Red Hat</b> (dpdk, thunderbird, and webkit2gtk3), <b>SUSE</b> (firefox, govulncheck-vulndb, gstreamer, gstreamer-plugins-base, gstreamer-plugins-good, libmfx, openjpeg2, python310, python312, python39, tomcat, and webkit2gtk3), and <b>Ubuntu</b> (golang-golang-x-net).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
