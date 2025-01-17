@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1004893/" title="See Description">Reviving None-aware operators for Python</a></li>
+<li><a href="#https://lwn.net/Articles/1005380/" title="See Description">Three stable kernel updates, as expected</a></li>
+<li><a href="#https://lwn.net/Articles/1005433/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1005222/" title="See Description">The many names of commit 55039832f98c</a></li>
 <li><a href="#https://lwn.net/Articles/1005292/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1004544/" title="See Description">LWN.net Weekly Edition for January 16, 2025</a></li>
@@ -50,12 +53,48 @@
 <li><a href="#https://lwn.net/Articles/1005007/" title="See Description">The people should own the town square (Mastodon Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1004988/" title="See Description">The slow death of TuxFamily</a></li>
 <li><a href="#https://lwn.net/Articles/1004455/" title="See Description">Modifying another process's system calls</a></li>
-<li><a href="#https://lwn.net/Articles/1005076/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1005031/" title="See Description">IPU6 camera support status update</a></li>
-<li><a href="#https://lwn.net/Articles/1004324/" title="See Description">Chimera Linux works toward a simplified desktop</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1004893/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 Jan 2025 14:53:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004893/" title="https://lwn.net/Articles/1004893/">Reviving None-aware operators for Python</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The idea of adding <tt>None</tt>-aware operators to Python has sprung up once
+again. These would make traversing structures with <tt>None</tt> values in them
+easier, by short-circuiting lookups when a <tt>None</tt> is encountered. Almost
+exactly a year ago, LWN covered <a href="https://lwn.net/Articles/956862/">the previous attempt</a> to bring
+the operators to Python, but there have been periodic discussions stretching back to
+2015 and possibly before. This time Noah Kim has taken up the cause. After some debate, he
+eventually settled on redrafting the existing PEP to have a more limited scope,
+which might finally see it move past the cycle of debate, resurrection, and abandonment that
+it has been stuck in for most of the last decade.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1005380/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 Jan 2025 14:02:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005380/" title="https://lwn.net/Articles/1005380/">Three stable kernel updates, as expected</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The
+<a href="https://lwn.net/Articles/1005382/">6.12.10</a>,
+<a href="https://lwn.net/Articles/1005383/">6.6.72</a>, and
+<a href="https://lwn.net/Articles/1005386/">6.1.125</a> stable kernels have been released on
+the expected schedule. 
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1005433/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 Jan 2025 14:01:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005433/" title="https://lwn.net/Articles/1005433/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (rsync and tomcat9), <b>Fedora</b> (chromium, mingw-python-jinja2, redict, and valkey), <b>Gentoo</b> (GIMP and pip), <b>Oracle</b> (.NET, fence-agents, ipa, kernel, python-virtualenv, raptor2, and rsync), <b>Red Hat</b> (.NET 8.0 and .NET 9.0), <b>SUSE</b> (apache2-mod_jk, git, git-lfs, kernel, python-Django, thunderbird, and xen), and <b>Ubuntu</b> (audacity, bcel, dotnet8, dotnet9, gimp-dds, harfbuzz, libxml2, poppler, rsync, and tqdm).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1005222/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 16 Jan 2025 19:14:43 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -269,58 +308,6 @@ href="https://lwn.net/ml/all/20250107230153.GA30560@strace.io">This patch series
 Dmitry Levin</a> seeks to improve that situation by adding a new
 <tt>ptrace()</tt> operation to make changes to another process's system
 calls in an architecture-independent manner.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005076/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 Jan 2025 16:31:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005076/" title="https://lwn.net/Articles/1005076/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, NetworkManager, and thunderbird), <b>Fedora</b> (golang-github-aws-sdk-2, golang-github-aws-smithy, golang-github-ncw-swift-2, rclone, and thunderbird), <b>Mageia</b> (ceph, firefox, and thunderbird), <b>Oracle</b> (kernel, NetworkManager, and thunderbird), <b>Red Hat</b> (fence-agents and raptor2), <b>SUSE</b> (dpdk, firefox, frr, grafana, operator-sdk, perl-Module-ScanDeps, proftpd, python311-mistune, redis, thunderbird, valkey, and yq), and <b>Ubuntu</b> (hplip and webkit2gtk).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005031/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 Jan 2025 16:13:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005031/" title="https://lwn.net/Articles/1005031/">IPU6 camera support status update</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Hans de Goede has <a
-href="https://hansdegoede.dreamwidth.org/29233.html">posted an
-update</a> about his work to support IPU6 cameras on Fedora and
-submitting fixes upstream.</p>
-
-<blockquote class="bq">
-<p>The initial IPU6 camera support landed in Fedora 41 only works on a
-limited set of laptops. The reason for this is that with MIPI cameras
-every different sensor and glue-chip like IO-expanders needs to be
-supported separately.</p>
-
-<p>I have been working on making the camera work on more laptop
-models. After receiving and sending many emails and blog post comments
-about this I have started filing Fedora bugzilla issues on a per
-sensor and/or laptop-model basis to be able to properly keep track of
-all the work.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/904776/">covered</a> the lack
-of IPU6 drivers in 2022.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1004324/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 13 Jan 2025 19:41:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004324/" title="https://lwn.net/Articles/1004324/">Chimera Linux works toward a simplified desktop</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://chimera-linux.org/">Chimera Linux</a> is a new distribution
-designed to be "<q>simple, transparent, and easy to pick up</q>". The
-distribution is built from scratch, and
-<a href="https://chimera-linux.org/news/2024/12/entering-beta.html">
-recently announced</a> its first beta release. While the documentation and
-installation process are both a bit rough, the project already provides a
-usable desktop with plenty of useful software — one built primarily on
-tools adopted from BSD.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
