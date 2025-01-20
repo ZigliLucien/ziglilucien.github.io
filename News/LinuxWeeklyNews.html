@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1005638/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1005488/" title="See Description">The 6.13 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1005562/" title="See Description">GDB 16.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1005546/" title="See Description">A single Sunday stable kernel release</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1005203/" title="See Description">Libvirt v11.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1005199/" title="See Description">RIP Helen Borrie</a></li>
 <li><a href="#https://lwn.net/Articles/1005165/" title="See Description">Linux Mint 22.1 released</a></li>
-<li><a href="#https://lwn.net/Articles/1005129/" title="See Description">Six vulnerabilities discovered in rsync</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1005638/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Jan 2025 14:04:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005638/" title="https://lwn.net/Articles/1005638/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, ipa, and NetworkManager), <b>Debian</b> (389-ds-base, busybox, libreoffice, rsync, ruby2.7, tomcat10, and tryton-server), <b>Fedora</b> (chromium and stb), <b>Mageia</b> (openafs and vim), <b>Oracle</b> (.NET 8.0 and .NET 9.0), <b>SUSE</b> (amazon-ssm-agent, chromedriver, git, golang-github-prometheus-prometheus, govulncheck-vulndb, grafana, hplip, pam_u2f, perl-Compress-Raw-Zlib, perl-IO-Compress, redis, redis7, rsync, and velociraptor), and <b>Ubuntu</b> (libpodofo and linux-xilinx-zynqmp).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1005488/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 20 Jan 2025 00:39:14 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,30 +298,6 @@ compatibility. See the <a
 href="https://www.linuxmint.com/rel_xia.php">release notes</a> for
 known issues.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005129/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 15 Jan 2025 14:19:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005129/" title="https://lwn.net/Articles/1005129/">Six vulnerabilities discovered in rsync</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Nick Tait
-<a href="https://www.openwall.com/lists/oss-security/2025/01/14/3">announced</a> on the
-oss-security mailing list that
-<a href="https://rsync.samba.org/">
-rsync</a>, the widely used file transfer program, had a number of serious vulnerabilities.
-Users can mitigate all six vulnerabilities by upgrading to
-version 3.4.0, which was 
-<a href="https://lists.samba.org/archive/rsync-announce/2025/000120.html">
-released</a> on January 14. While all users should upgrade, servers that use rsyncd are
-especially impacted:
-</p>
-
-<blockquote class="bq">
-In the most severe CVE, an attacker only requires
-anonymous read access to a rsync server, such as a public mirror, to
-execute arbitrary code on the machine the server is running on.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
