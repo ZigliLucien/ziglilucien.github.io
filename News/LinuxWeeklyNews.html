@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1005488/" title="See Description">The 6.13 kernel has been released</a></li>
+<li><a href="#https://lwn.net/Articles/1005562/" title="See Description">GDB 16.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1005546/" title="See Description">A single Sunday stable kernel release</a></li>
 <li><a href="#https://lwn.net/Articles/1005445/" title="See Description">LSFMM+BPF 2025 proposal deadline approaching</a></li>
 <li><a href="#https://lwn.net/Articles/1004893/" title="See Description">Reviving None-aware operators for Python</a></li>
@@ -51,11 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1005199/" title="See Description">RIP Helen Borrie</a></li>
 <li><a href="#https://lwn.net/Articles/1005165/" title="See Description">Linux Mint 22.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1005129/" title="See Description">Six vulnerabilities discovered in rsync</a></li>
-<li><a href="#https://lwn.net/Articles/1005163/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1005007/" title="See Description">The people should own the town square (Mastodon Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1005488/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Jan 2025 00:39:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005488/" title="https://lwn.net/Articles/1005488/">The 6.13 kernel has been released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has <a
+href="https://lwn.net/ml/all/CAHk-=wiprabAQcCwb3qNhrT5P50MJNqunC9JU5v99kdvM-2rsg@mail.gmail.com">released
+the 6.13 kernel</a>.  "<q>So nothing horrible or unexpected happened last
+week, so I've tagged and pushed out the final 6.13 release</q>."
+<p>
+
+
+Significant features in this release include
+the <a href="https://lwn.net/Articles/994322/">lazy preemption model</a> for CPU
+scheduling, 
+Arm64 <a
+href="https://www.kernel.org/doc/html/next/arch/arm64/gcs.html">Guarded
+Control Stack</a> support,
+the <a href="https://lwn.net/Articles/992991/"><tt>PIDFD_GET_INFO()</tt> operation</a>,
+<a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6ac81fd55e8a">multi-grain
+file timestamps</a>,
+beginning <a href="https://lwn.net/Articles/974578/">atomic write</a> support for the ext4
+and XFS filesystems,
+the <tt>setxattrat()</tt>,  <tt>getxattrat()</tt>, <tt>listxattrat()</tt>,
+and <tt>removexattrat()</tt> system calls,
+<a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c1bc51f85cd6">private
+stacks</a> for BPF programs,
+<a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=662df3e5c376">a
+new mechanism</a> for adding guard pages to a memory mapping,
+the removal of the reiserfs filesystem,
+and more.  See the LWN merge-window summaries (<a
+href="https://lwn.net/Articles/998623/">part&nbsp;1</a>, <a
+href="https://lwn.net/Articles/998990/">part&nbsp;2</a>) and <a
+href="https://kernelnewbies.org/Linux_6.13">the KernelNewbies 6.13 page</a>
+for more information.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1005562/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Jan 2025 00:21:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005562/" title="https://lwn.net/Articles/1005562/">GDB 16.1 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Version 16.1 of the GDB debugger is out.  There are a lot of changes,
+including watchpoints for tagged data pointers, a new script to print the
+stack trace of a running process, better Intel Processor Trace support, and
+more.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1005546/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 19 Jan 2025 16:18:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -264,49 +314,6 @@ In the most severe CVE, an attacker only requires
 anonymous read access to a rsync server, such as a public mirror, to
 execute arbitrary code on the machine the server is running on.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005163/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 15 Jan 2025 14:18:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005163/" title="https://lwn.net/Articles/1005163/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Arch Linux</b> (rsync), <b>Debian</b> (rsync), <b>Fedora</b> (perl-Net-OAuth and redis), <b>Red Hat</b> (ipa, raptor2, rsync, and tuned), <b>Slackware</b> (rsync), <b>SUSE</b> (apache2-mod_jk, git, kernel, rclone, rsync, and webkit2gtk3), and <b>Ubuntu</b> (git, linux-azure-5.4, pdns, pdns-recursor, python-django, rlottie, and rsync).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005007/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 Jan 2025 19:48:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005007/" title="https://lwn.net/Articles/1005007/">The people should own the town square (Mastodon Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://joinmastodon.org/">Mastodon</a> project has <a
-href="https://blog.joinmastodon.org/2025/01/the-people-should-own-the-town-square/">announced</a>
-that founder Eugen Rochko will be transferring "<q>key Mastodon
-ecosystem and platform components (including name and copyrights,
-among other assets)</q>" to a new non-profit organization:</p>
-
-<blockquote class="bq">
-<p>Practically Mastodon will remain headquartered in and operate from
-Europe primarily. We will continue day-to-day operations through the
-Mastodon GmbH for-profit entity, which will become wholly owned by the
-new European not-for-profit entity. The Mastodon GmbH entity
-automatically became a for-profit as a result of its charitable status
-being <a
-href="https://blog.joinmastodon.org/2024/04/mastodon-forms-new-u.s.-non-profit/#mastodons-non-profit-status-in-germany">stripped
-away in Germany</a>. The existing US-based non-profit entity, the
-501(c)(3), will continue to function as a fundraising hub.</p>
-
-<p>[...] We are in the process of a phased transition. First we are
-establishing a new legal home for Mastodon and transferring ownership
-and stewardship. We are taking the time to select the appropriate
-jurisdiction and structure in Europe. Then we will determine which
-other (subsidiary) legal structures are needed to support operations
-and sustainability.</p>
-</blockquote>
-
-<p>Rochko has, naturally, also <a
-href="https://mastodon.social/@Gargron/113823024820125756">posted
-about the transition</a> on Mastodon.social.</p>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>

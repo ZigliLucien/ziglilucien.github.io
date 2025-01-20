@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f3313e2d7571f8003f24b03a01a90c66220d630.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de2e352758ca096899db180dfb7054a1bb58cb0f.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f3313e2d7571f8003f24b03a01a90c66220d630.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.de2e352758ca096899db180dfb7054a1bb58cb0f.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.8f3313e2d7571f8003f24b03a01a90c66220d630.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.de2e352758ca096899db180dfb7054a1bb58cb0f.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Cape Girardeau; Scott; Mississippi</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -180,14 +180,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2025-01-19T13:44:00-06:00</sent>
-				<effective type="str">2025-01-19T13:44:00-06:00</effective>
-				<onset type="str">2025-01-19T18:00:00-06:00</onset>
-				<expires type="str">2025-01-19T21:45:00-06:00</expires>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f3313e2d7571f8003f24b03a01a90c66220d630.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.8f3313e2d7571f8003f24b03a01a90c66220d630.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-01-19T13:44:00-06:00</sent>
+					</item>
+				</references>
+				<sent type="str">2025-01-19T20:38:00-06:00</sent>
+				<effective type="str">2025-01-19T20:38:00-06:00</effective>
+				<onset type="str">2025-01-19T20:38:00-06:00</onset>
+				<expires type="str">2025-01-20T05:00:00-06:00</expires>
 				<ends type="str">2025-01-20T12:00:00-06:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -195,14 +202,14 @@
 				<event type="str">Cold Weather Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Cold Weather Advisory issued January 19 at 1:44PM CST until January 20 at 12:00PM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Very cold wind chills as low as 10 below expected.
+				<headline type="str">Cold Weather Advisory issued January 19 at 8:38PM CST until January 20 at 12:00PM CST by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Very cold wind chills as low as 10 degrees below zero.
 
-* WHERE...Portions of southern Illinois, southwest Indiana, western
-Kentucky, and southeast Missouri.
+* WHERE...All of southern Illinois, southwest Indiana, western
+Kentucky, and portions of southeast Missouri along the Mississippi
+River.
 
-* WHEN...From 6 PM CST /7 PM EST/ this evening to noon CST /1 PM
-EST/ Monday.
+* WHEN...Until noon CST /1 PM EST/ Monday.
 
 * IMPACTS...Frostbite and hypothermia will occur if unprotected skin
 is exposed to these temperatures. Wind chill values can lead to
@@ -224,10 +231,10 @@ hat, and gloves.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 191944</item>
+						<item type="str">WWUS73 KPAH 200238</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">COLD WEATHER ADVISORY REMAINS IN EFFECT FROM 6 PM CST /7 PM EST/ THIS EVENING TO NOON CST /1 PM EST/ MONDAY</item>
+						<item type="str">COLD WEATHER ADVISORY REMAINS IN EFFECT UNTIL NOON CST /1 PM EST/ MONDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -235,7 +242,7 @@ hat, and gloves.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.CW.Y.0002.250120T0000Z-250120T1800Z/</item>
+						<item type="str">/O.CON.KPAH.CW.Y.0002.000000T0000Z-250120T1800Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-01-20T18:00:00+00:00</item>
@@ -248,5 +255,5 @@ hat, and gloves.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-01-19T19:44:38+00:00</updated>
+	<updated type="str">2025-01-20T02:38:56+00:00</updated>
 </all>

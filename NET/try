@@ -7,7 +7,7 @@
         <meta name="DC.title" content="National Weather Service" />
         <meta name="DC.description" content="NOAA National Weather Service" />
         <meta name="DC.creator" content="US Department of Commerce, NOAA, National Weather Service" />
-        <meta name="DC.date.created" scheme="ISO8601" content="2025-01-20T02:18:02+00:00" />
+        <meta name="DC.date.created" scheme="ISO8601" content="2025-01-20T03:18:02+00:00" />
         <meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
         <meta name="DC.keywords" content="weather" />
         <meta name="DC.publisher" content="NOAA's National Weather Service" />
@@ -127,10 +127,10 @@
                         </a>
                         <ul class="dropdown-menu" role="menu">
                                                                                         <li>
-                                    <a href="https://www.weather.gov/safety/tsunami">Tsunamis</a>
+                                    <a href="https://www.weather.gov/safety/flood">Floods</a>
                                 </li>
                                                             <li>
-                                    <a href="https://www.weather.gov/safety/flood">Floods</a>
+                                    <a href="https://www.weather.gov/safety/tsunami">Tsunamis</a>
                                 </li>
                                                             <li>
                                     <a href="https://www.weather.gov/safety/beachhazards">Beach Hazards</a>
@@ -444,18 +444,18 @@
                     <hr size="1" width="520" noshade="noshade" align="left" />
         </div>
         <pre class="glossaryProduct">
-315
-FPUS53 KPAH 200146
+473
+FPUS53 KPAH 200246
 ZFPPAH
 
 Zone Forecast Product
 National Weather Service Paducah KY
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 KYZ005-201000-
 McCracken-
 Including the city of Paducah
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -485,13 +485,13 @@ $$
 INZ086-201000-
 Vanderburgh-
 Including the city of Evansville
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 4 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
-Wind chill readings as low as 5 below.
+Northwest winds 5 to 10 mph. Gusts up to 25 mph early this
+evening. Wind chill readings as low as 5 below.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 18. West winds
 around 5 mph.
 .MONDAY NIGHT...Partly cloudy in the evening, then becoming
@@ -519,7 +519,7 @@ $$
 KYZ019-201000-
 Daviess-
 Including the city of Owensboro
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -553,13 +553,13 @@ $$
 KYZ017-201000-
 Christian-
 Including the city of Hopkinsville
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 6 above.
 Northwest winds 10 to 15 mph. Wind chill readings as low as
-1 below after midnight.
+1 below.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Partly cloudy in the evening, then becoming
@@ -588,12 +588,12 @@ $$
 KYZ009-201000-
 Calloway-
 Including the city of Murray
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
-.TONIGHT...Mostly clear. Colder with lows around 8 above. North
-winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Colder with lows around 8 above.
+Northwest winds 5 to 10 mph.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 14. Calm
@@ -616,7 +616,7 @@ $$
 KYZ006-201000-
 Graves-
 Including the city of Mayfield
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -645,7 +645,7 @@ $$
 MOZ087-201000-
 Cape Girardeau-
 Including the cities of Cape Girardeau and Jackson
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -675,9 +675,9 @@ $$
 MOZ109-201000-
 Butler-
 Including the city of Poplar Bluff
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
-.TONIGHT...Mostly clear. Cold with lows around 9 above. Northwest
+.TONIGHT...Mostly clear. Cold with lows around 9 above. North
 winds 5 to 10 mph.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the mid 20s. North
 winds around 5 mph in the morning, becoming light and variable.
@@ -705,13 +705,13 @@ $$
 ILZ084-201000-
 Jackson-
 Including the cities of Carbondale and Murphysboro
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Cold with lows around 5 above. Northwest
-winds 5 to 10 mph. Wind chill readings as low as 1 below this
-evening.
+winds 5 to 10 mph. Wind chill readings as low as 2 below early
+this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s. West
 winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 8 above.
@@ -737,14 +737,13 @@ $$
 ILZ085-201000-
 Williamson-
 Including the city of Herrin
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Cold with lows around 4 above. Northwest
-winds 10 to 15 mph with gusts up to 25 mph, diminishing to around
-5 mph after midnight. Wind chill readings as low as 3 below this
-evening.
+winds 5 to 10 mph. Wind chill readings as low as 3 below early
+this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 20. West winds
 around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 8 above.
@@ -770,12 +769,13 @@ $$
 ILZ075-201000-
 Jefferson-
 Including the city of Mount Vernon
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Cold with lows around 2 above. Northwest
-winds 5 to 10 mph. Gusts up to 25 mph this evening.
+winds 5 to 10 mph. Gusts up to 25 mph early this evening. Wind
+chill readings as low as 4 below.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 18. West winds
 around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 5 above.
@@ -801,13 +801,13 @@ $$
 INZ081-201000-
 Gibson-
 Including the city of Fort Branch
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 3 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
-Wind chill readings as low as 6 below.
+Northwest winds 5 to 10 mph. Gusts up to 25 mph early this
+evening. Wind chill readings as low as 6 below.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 17. West winds
 around 5 mph.
 .MONDAY NIGHT...Partly cloudy in the evening, then becoming
@@ -836,13 +836,13 @@ $$
 INZ082-201000-
 Pike-
 Including the city of Petersburg
-844 PM EST Sun Jan 19 2025
+944 PM EST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL 1 PM EST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 3 above.
-Northwest winds 10 to 15 mph. Wind chill readings as low as
-6 below.
+Northwest winds 5 to 10 mph. Gusts up to 25 mph early this
+evening. Wind chill readings as low as 6 below.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 17. West winds
 around 5 mph.
 .MONDAY NIGHT...Partly cloudy in the evening, then becoming
@@ -871,7 +871,7 @@ $$
 INZ085-201000-
 Posey-
 Including the city of Poseyville
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -908,7 +908,7 @@ $$
 INZ087-201000-
 Warrick-
 Including the city of Boonville
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -942,7 +942,7 @@ $$
 INZ088-201000-
 Spencer-
 Including the city of Rockport
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -976,7 +976,7 @@ $$
 KYZ014-201000-
 Union KY-
 Including the city of Morganfield
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1008,7 +1008,7 @@ $$
 KYZ018-201000-
 Henderson-
 Including the city of Henderson
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1042,13 +1042,13 @@ $$
 KYZ010-201000-
 Crittenden-
 Including the city of Marion
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 5 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
-Wind chill readings as low as 1 below this evening.
+Northwest winds 5 to 10 mph. Wind chill readings as low as
+2 below early this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 20. Northwest
 winds around 5 mph.
 .MONDAY NIGHT...Partly cloudy in the evening, then becoming
@@ -1074,13 +1074,13 @@ $$
 KYZ015-201000-
 Webster-
 Including the city of Dixon
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 4 above.
 Northwest winds 10 to 15 mph. Wind chill readings as low as
-2 below.
+3 below.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 19. Northwest
 winds around 5 mph.
 .MONDAY NIGHT...Partly cloudy in the evening, then becoming
@@ -1108,7 +1108,7 @@ $$
 KYZ020-201000-
 McLean-
 Including the city of Calhoun
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1143,11 +1143,11 @@ $$
 KYZ011-201000-
 Lyon-
 Including the city of Eddyville
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
-.TONIGHT...Mostly clear. Colder with lows around 7 above. North
+.TONIGHT...Clear, colder with lows around 7 above. Northwest
 winds 5 to 10 mph.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
@@ -1177,13 +1177,13 @@ $$
 KYZ013-201000-
 Caldwell-
 Including the city of Princeton
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 6 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
-Wind chill readings as low as 1 below.
+Northwest winds 5 to 10 mph. Wind chill readings as low as
+2 below.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Partly cloudy in the evening, then becoming
@@ -1212,7 +1212,7 @@ $$
 KYZ016-201000-
 Hopkins-
 Including the city of Madisonville
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1245,13 +1245,13 @@ $$
 KYZ021-201000-
 Muhlenberg-
 Including the city of Greenville
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 6 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
-Wind chill readings as low as 1 below after midnight.
+Northwest winds 5 to 10 mph. Gusts up to 25 mph early this
+evening. Wind chill readings as low as 2 below.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Partly cloudy in the evening, then becoming
@@ -1280,12 +1280,12 @@ $$
 KYZ012-201000-
 Trigg-
 Including the city of Cadiz
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
-.TONIGHT...Mostly clear. Colder with lows around 7 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
+.TONIGHT...Clear, colder with lows around 7 above. Northwest
+winds 5 to 10 mph.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy and cold. Near steady temperature
@@ -1312,7 +1312,7 @@ $$
 KYZ022-201000-
 Todd-
 Including the city of Elkton
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1347,11 +1347,11 @@ $$
 KYZ008-201000-
 Marshall-
 Including the city of Benton
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
-.TONIGHT...Mostly clear. Colder with lows around 7 above. North
+.TONIGHT...Clear, colder with lows around 7 above. Northwest
 winds 5 to 10 mph.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
@@ -1377,7 +1377,7 @@ $$
 KYZ007-201000-
 Livingston-
 Including the city of Smithland
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1408,12 +1408,12 @@ $$
 KYZ004-201000-
 Ballard-
 Including the city of Wickliffe
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
-.TONIGHT...Mostly clear. Cold with lows around 8 above. North
-winds around 10 mph, becoming northwest after midnight.
+.TONIGHT...Clear, cold with lows around 8 above. Northwest winds
+around 10 mph, diminishing to around 5 mph after midnight.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 13.
@@ -1437,7 +1437,7 @@ $$
 KYZ003-201000-
 Carlisle-
 Including the city of Bardwell
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1466,7 +1466,7 @@ $$
 KYZ002-201000-
 Hickman-
 Including the city of Clinton
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1495,7 +1495,7 @@ $$
 KYZ001-201000-
 Fulton-
 Including the city of Hickman
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1524,7 +1524,7 @@ $$
 MOZ107-201000-
 Carter-
 Including the city of Van Buren
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 .TONIGHT...Mostly clear. Cold with lows around 6 above. Northwest
 winds 5 to 10 mph.
@@ -1552,7 +1552,7 @@ $$
 MOZ108-201000-
 Ripley-
 Including the city of Doniphan
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 .TONIGHT...Mostly clear. Cold with lows around 8 above. Northwest
 winds 5 to 10 mph.
@@ -1579,7 +1579,7 @@ $$
 MOZ100-201000-
 Wayne MO-
 Including the city of Piedmont
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 .TONIGHT...Mostly clear. Cold with lows around 5 above. Northwest
 winds 5 to 10 mph.
@@ -1605,10 +1605,10 @@ $$
 MOZ086-201000-
 Bollinger-
 Including the city of Marble Hill
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
-.TONIGHT...Mostly clear. Cold with lows around 5 above. Northwest
-winds 5 to 10 mph.
+.TONIGHT...Clear, cold with lows around 5 above. Northwest winds
+5 to 10 mph.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s. West
 winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 9 above.
@@ -1630,12 +1630,13 @@ $$
 MOZ076-201000-
 Perry MO-
 Including the city of Perryville
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
-.TONIGHT...Mostly clear. Cold with lows around 5 above. Northwest
-winds 5 to 10 mph.
+.TONIGHT...Clear, cold with lows around 5 above. Northwest winds
+5 to 10 mph. Wind chill readings as low as 1 below early this
+evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s. West
 winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 7 above.
@@ -1661,10 +1662,10 @@ $$
 MOZ110-201000-
 Stoddard-
 Including the city of Bloomfield
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
-.TONIGHT...Mostly clear. Cold with lows around 9 above. North
-winds 5 to 10 mph.
+.TONIGHT...Clear, cold with lows around 9 above. North winds 5 to
+10 mph.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s. North
 winds around 5 mph, becoming west in the afternoon.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 14.
@@ -1688,7 +1689,7 @@ $$
 MOZ111-201000-
 Scott-
 Including the city of Sikeston
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1719,10 +1720,10 @@ $$
 MOZ114-201000-
 New Madrid-
 Including the city of New Madrid
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
-.TONIGHT...Mostly clear. Cold with lows around 10 above. North
-winds 5 to 10 mph.
+.TONIGHT...Clear, cold with lows around 10 above. North winds
+5 to 10 mph.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Near steady temperature around 20.
@@ -1747,12 +1748,12 @@ $$
 MOZ112-201000-
 Mississippi-
 Including the city of Charleston
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
-.TONIGHT...Mostly clear. Cold with lows around 9 above. North
-winds 5 to 10 mph.
+.TONIGHT...Clear, cold with lows around 9 above. North winds 5 to
+10 mph.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy and cold. Near steady temperature
@@ -1777,11 +1778,11 @@ $$
 ILZ092-201000-
 Alexander-
 Including the city of Cairo
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
-.TONIGHT...Mostly clear. Cold with lows around 7 above. North
+.TONIGHT...Mostly clear. Cold with lows around 7 above. Northwest
 winds 5 to 10 mph.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
@@ -1807,12 +1808,12 @@ $$
 ILZ093-201000-
 Pulaski-
 Including the city of Mound City
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
-.TONIGHT...Mostly clear. Cold with lows around 7 above. Northwest
-winds 5 to 10 mph.
+.TONIGHT...Mostly clear. Cold with lows around 7 above. North
+winds around 10 mph, becoming northwest after midnight.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 13. Calm
@@ -1836,7 +1837,7 @@ $$
 ILZ094-201000-
 Massac-
 Including the city of Metropolis
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1867,7 +1868,7 @@ $$
 ILZ088-201000-
 Union-
 Including the city of Jonesboro
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -1898,12 +1899,13 @@ $$
 ILZ089-201000-
 Johnson-
 Including the city of Vienna
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Cold with lows around 5 above. Northwest
-winds 5 to 10 mph.
+winds 5 to 10 mph. Wind chill readings as low as 1 below early
+this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 10 above.
@@ -1926,12 +1928,13 @@ $$
 ILZ090-201000-
 Pope-
 Including the city of Golconda
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Cold with lows around 5 above. Northwest
-winds 5 to 10 mph.
+winds 5 to 10 mph. Wind chill readings as low as 1 below early
+this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs in the lower 20s.
 Northwest winds around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 11. Calm
@@ -1955,12 +1958,13 @@ $$
 ILZ091-201000-
 Hardin-
 Including the city of Elizabethtown
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 4 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
+Northwest winds 5 to 10 mph. Wind chill readings as low as
+2 below early this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 20. Northwest
 winds around 5 mph in the morning, becoming light and variable.
 .MONDAY NIGHT...Partly cloudy in the evening, then becoming
@@ -1985,12 +1989,13 @@ $$
 ILZ086-201000-
 Saline-
 Including the city of Harrisburg
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Cold with lows around 4 above. Northwest
-winds 5 to 10 mph. Gusts up to 25 mph this evening.
+winds 5 to 10 mph. Wind chill readings as low as 2 below early
+this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 19. West winds
 around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 9 above.
@@ -2014,14 +2019,14 @@ $$
 ILZ087-201000-
 Gallatin-
 Including the city of Shawneetown
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 4 above.
 Northwest winds 10 to 15 mph with gusts up to 25 mph, diminishing
 to around 5 mph after midnight. Wind chill readings as low as
-2 below this evening.
+3 below early this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 19. West winds
 around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 9 above.
@@ -2045,13 +2050,13 @@ $$
 ILZ080-201000-
 Perry IL-
 Including the city of Pinckneyville
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Cold with lows around 4 above. Northwest
-winds 5 to 10 mph. Wind chill readings as low as 3 below this
-evening.
+winds 5 to 10 mph. Wind chill readings as low as 3 below early
+this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 20. West winds
 around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 7 above.
@@ -2078,13 +2083,13 @@ $$
 ILZ081-201000-
 Franklin-
 Including the city of West Frankfort
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Cold with lows around 4 above. Northwest
-winds 5 to 10 mph. Gusts up to 25 mph this evening. Wind chill
-readings as low as 4 below this evening.
+winds 5 to 10 mph. Wind chill readings as low as 4 below early
+this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 20. West winds
 around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 7 above.
@@ -2109,12 +2114,13 @@ $$
 ILZ082-201000-
 Hamilton-
 Including the city of McLeansboro
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 2 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
+Northwest winds 5 to 10 mph. Wind chill readings as low as
+4 below early this evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 18. West winds
 around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 7 above.
@@ -2139,7 +2145,7 @@ $$
 ILZ083-201000-
 White-
 Including the city of Carmi
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
@@ -2173,12 +2179,13 @@ $$
 ILZ076-201000-
 Wayne IL-
 Including the city of Fairfield
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 1 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
+Northwest winds 5 to 10 mph. Gusts up to 25 mph early this
+evening.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 17. West winds
 around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 5 above.
@@ -2202,13 +2209,13 @@ $$
 ILZ077-201000-
 Edwards-
 Including the city of Albion
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 2 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
-Wind chill readings as low as 5 below.
+Northwest winds 5 to 10 mph. Gusts up to 25 mph early this
+evening. Wind chill readings as low as 6 below.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 17. West winds
 around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 6 above.
@@ -2233,13 +2240,13 @@ $$
 ILZ078-201000-
 Wabash-
 Including the city of Mount Carmel
-744 PM CST Sun Jan 19 2025
+844 PM CST Sun Jan 19 2025
 
 ...COLD WEATHER ADVISORY IN EFFECT UNTIL NOON CST MONDAY...
 
 .TONIGHT...Mostly clear. Colder with lows around 2 above.
-Northwest winds 5 to 10 mph. Gusts up to 25 mph this evening.
-Wind chill readings as low as 7 below.
+Northwest winds 5 to 10 mph. Gusts up to 25 mph early this
+evening. Wind chill readings as low as 7 below.
 .MARTIN LUTHER KING JR DAY...Sunny. Highs around 16. West winds
 around 5 mph.
 .MONDAY NIGHT...Mostly cloudy. Cold with lows around 6 above.
