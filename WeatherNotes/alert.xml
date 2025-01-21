@@ -11,6 +11,86 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f6b247055e400994e62751ce558d1112ad7dba1.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="null"/>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f6b247055e400994e62751ce558d1112ad7dba1.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.1f6b247055e400994e62751ce558d1112ad7dba1.001.1</id>
+				<areaDesc type="str">Jackson; Williamson; Union; Johnson; Perry; Cape Girardeau</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017077</item>
+						<item type="str">017199</item>
+						<item type="str">017181</item>
+						<item type="str">017087</item>
+						<item type="str">029157</item>
+						<item type="str">029031</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ084</item>
+						<item type="str">ILZ085</item>
+						<item type="str">ILZ088</item>
+						<item type="str">ILZ089</item>
+						<item type="str">MOZ076</item>
+						<item type="str">MOZ087</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2025-01-21T08:37:00-06:00</sent>
+				<effective type="str">2025-01-21T08:37:00-06:00</effective>
+				<onset type="str">2025-01-21T08:37:00-06:00</onset>
+				<expires type="str">2025-01-21T10:45:00-06:00</expires>
+				<ends type="null"/>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Observed</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Special Weather Statement</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Special Weather Statement issued January 21 at 8:37AM CST by NWS Paducah KY</headline>
+				<description type="str">Spotters and radar report brief snow showers from near Perryville,
+MO to near Marion, IL this morning. This activity is moving slowly
+southeast. A few areas have accumulated small amounts of snow on
+pavement and grassy surfaces. The areas are small and shouldn't
+last more than 10 to 15 minutes in any given location. Minimal
+travel impacts are expected.</description>
+				<instruction type="null"/>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">SPSPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS83 KPAH 211437</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">Brief snow showers occurring this morning</item>
+					</NWSheadline>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+				</parameters>
+			</properties>
+		</item>
+		<item type="dict">
 			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.be4ab2635c921bea6d090a7fea833e21afac21fe.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
@@ -428,5 +508,5 @@ hat, and gloves.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-01-21T08:53:05+00:00</updated>
+	<updated type="str">2025-01-21T14:38:04+00:00</updated>
 </all>
