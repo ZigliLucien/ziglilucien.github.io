@@ -11,14 +11,14 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4b81a52efe152310681a995c6d73f6283079214.001.2</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5dfe609f59ea0f0ee7d53d9125f77cd40cb96d30.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4b81a52efe152310681a995c6d73f6283079214.001.2</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5dfe609f59ea0f0ee7d53d9125f77cd40cb96d30.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.b4b81a52efe152310681a995c6d73f6283079214.001.2</id>
-				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Cape Girardeau; Scott; Mississippi</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.5dfe609f59ea0f0ee7d53d9125f77cd40cb96d30.001.1</id>
+				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
 						<item type="str">017081</item>
@@ -69,9 +69,16 @@
 						<item type="str">021177</item>
 						<item type="str">021219</item>
 						<item type="str">029157</item>
+						<item type="str">029017</item>
 						<item type="str">029031</item>
+						<item type="str">029223</item>
+						<item type="str">029035</item>
+						<item type="str">029181</item>
+						<item type="str">029023</item>
+						<item type="str">029207</item>
 						<item type="str">029201</item>
 						<item type="str">029133</item>
+						<item type="str">029143</item>
 					</SAME>
 					<UGC type="list">
 						<item type="str">ILZ075</item>
@@ -122,9 +129,16 @@
 						<item type="str">KYZ021</item>
 						<item type="str">KYZ022</item>
 						<item type="str">MOZ076</item>
+						<item type="str">MOZ086</item>
 						<item type="str">MOZ087</item>
+						<item type="str">MOZ100</item>
+						<item type="str">MOZ107</item>
+						<item type="str">MOZ108</item>
+						<item type="str">MOZ109</item>
+						<item type="str">MOZ110</item>
 						<item type="str">MOZ111</item>
 						<item type="str">MOZ112</item>
+						<item type="str">MOZ114</item>
 					</UGC>
 				</geocode>
 				<affectedZones type="list">
@@ -176,15 +190,22 @@
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ021</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ022</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ108</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ109</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ110</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
 				<references type="list"/>
-				<sent type="str">2025-01-20T12:13:00-06:00</sent>
-				<effective type="str">2025-01-20T12:13:00-06:00</effective>
+				<sent type="str">2025-01-20T22:52:00-06:00</sent>
+				<effective type="str">2025-01-20T22:52:00-06:00</effective>
 				<onset type="str">2025-01-21T01:00:00-06:00</onset>
-				<expires type="str">2025-01-20T21:30:00-06:00</expires>
+				<expires type="str">2025-01-21T07:00:00-06:00</expires>
 				<ends type="str">2025-01-21T15:00:00-06:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Alert</messageType>
@@ -195,28 +216,28 @@
 				<event type="str">Cold Weather Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Cold Weather Advisory issued January 20 at 12:13PM CST until January 21 at 3:00PM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Very cold wind chills as low as 5 to 9 below expected.
+				<headline type="str">Cold Weather Advisory issued January 20 at 10:52PM CST until January 21 at 3:00PM CST by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Very cold temperatures with minimum wind chills from around
+zero to near minus 10 degrees expected.
 
-* WHERE...All of southern Illinois, southwest Indiana, western
+* WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From 1 AM CST /2 AM EST/ to 3 PM CST /4 PM EST/ Tuesday.
+* WHEN...Until 3 PM CST /4 PM EST/ Tuesday.
 
 * IMPACTS...Frostbite and hypothermia will occur if unprotected skin
 is exposed to these temperatures.</description>
-				<instruction type="str">Prepare to protect people, plants and pets from excessively cold
-conditions.</instruction>
+				<instruction type="str">Keep pets indoors as much as possible.</instruction>
 				<response type="str">Prepare</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 201813</item>
+						<item type="str">WWUS73 KPAH 210452</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">COLD WEATHER ADVISORY IN EFFECT FROM 1 AM CST /2 AM EST/ TO 3 PM CST /4 PM EST/ TUESDAY</item>
+						<item type="str">COLD WEATHER ADVISORY REMAINS IN EFFECT UNTIL 3 PM CST /4 PM EST/ TUESDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -224,15 +245,18 @@ conditions.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.CW.Y.0003.250121T0700Z-250121T2100Z/</item>
+						<item type="str">/O.CON.KPAH.CW.Y.0003.250121T0700Z-250121T2100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-01-21T21:00:00+00:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b4b81a52efe152310681a995c6d73f6283079214.002.1,2025-01-20T12:13:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b4b81a52efe152310681a995c6d73f6283079214.001.2,2025-01-20T12:13:00-06:00</item>
+					</expiredReferences>
 				</parameters>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-01-20T18:13:21+00:00</updated>
+	<updated type="str">2025-01-21T04:53:01+00:00</updated>
 </all>
