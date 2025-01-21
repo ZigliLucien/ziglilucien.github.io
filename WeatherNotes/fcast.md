@@ -2,10 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>M.L. King Jr. Day</h3>Mostly sunny. High near 20, with temperatures falling to around 18 in the afternoon. West wind around 3 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>A chance of snow showers between 10pm and 1am. Mostly cloudy. Low around 7, with temperatures rising to around 11 overnight.
          Wind chill values as low as 0. West southwest wind 2 to 8 mph, with gusts as high as 18 mph.<br></div>
    </p>
@@ -15,7 +11,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Mostly clear, with a low around 7. Wind chill values as low as 0. South southeast wind 1 to 8 mph.<br></div>
+         <h3>Tuesday Night</h3>Mostly clear. Low around 7, with temperatures rising to around 12 overnight. Wind chill values as low as 0. South southeast
+         wind 1 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -56,5 +53,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday Night</h3>A chance of rain. Mostly cloudy, with a low around 27. North northwest wind around 6 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday</h3>A slight chance of rain. Mostly sunny, with a high near 42. North northwest wind around 8 mph.<br></div>
    </p>
 </div>
