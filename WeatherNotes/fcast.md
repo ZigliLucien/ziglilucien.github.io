@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of snow showers between 10pm and 1am. Mostly cloudy. Low around 7, with temperatures rising to around 11 overnight.
-         Wind chill values as low as 0. West southwest wind 2 to 8 mph, with gusts as high as 18 mph.<br></div>
+         Wind chill values as low as 0. West wind 2 to 8 mph, with gusts as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
