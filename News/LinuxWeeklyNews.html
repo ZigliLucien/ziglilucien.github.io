@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1005838/" title="See Description">Zero-trust builds for FreeBSD</a></li>
+<li><a href="#https://lwn.net/Articles/1005000/" title="See Description">A revamped Python string-formatting proposal</a></li>
 <li><a href="#https://lwn.net/Articles/1005332/" title="See Description">A mouseless tale: trying for a keyboard-driven desktop</a></li>
 <li><a href="#https://lwn.net/Articles/1005781/" title="See Description">Puppet fork OpenVox makes first release</a></li>
 <li><a href="#https://lwn.net/Articles/1005801/" title="See Description">Wine 10.0 released</a></li>
@@ -51,11 +53,60 @@
 <li><a href="#https://lwn.net/Articles/1005488/" title="See Description">The 6.13 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1005562/" title="See Description">GDB 16.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1005546/" title="See Description">A single Sunday stable kernel release</a></li>
-<li><a href="#https://lwn.net/Articles/1005445/" title="See Description">LSFMM+BPF 2025 proposal deadline approaching</a></li>
-<li><a href="#https://lwn.net/Articles/1004893/" title="See Description">Reviving None-aware operators for Python</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1005838/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Jan 2025 19:12:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005838/" title="https://lwn.net/Articles/1005838/">Zero-trust builds for FreeBSD</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://freebsdfoundation.org/">FreeBSD Foundation</a>
+has <a href="https://freebsdfoundation.org/blog/zero-trust-builds-for-freebsd/">announced</a> that it has undertaken a project to deliver zero-trust
+builds commissioned by the <a
+href="https://www.sovereign.tech/">Sovereign Tech Agency</a> (STA).</p>
+
+<blockquote class="bq">
+<p>The Zero-Trust Build project is scheduled from Jan-Aug 2025 and
+centers on the FreeBSD build process, and in particular, release
+building. The primary goal of this work is to enable the entire
+release process to run without requiring root access, and that build
+artifacts build reproducibly – that is, that a third party can build
+bit-for-bit identical artifacts.</p>
+
+<p>Additionally, the project aims to enhance build process
+documentation, ensuring that release building is straightforward and
+does not require specialized knowledge. The work is targeted for
+completion prior to the release of FreeBSD 15.0.</p>
+</blockquote>
+
+<p>The Foundation says that updates should not impact users of FreeBSD
+release images, but it may have an impact on developers basing
+projects or products on FreeBSD that make modifications to its release
+process.</p>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1005000/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Jan 2025 18:08:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005000/" title="https://lwn.net/Articles/1005000/">A revamped Python string-formatting proposal</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The proposal to add a more general facility for string formatting to
+Python, which we <a href="https://lwn.net/Articles/985346/">looked at</a> in August 2024,
+has changed a great deal since, so it merits another look.  The
+changes take multiple forms: a new title for <a
+href="https://peps.python.org/pep-0750/">PEP
+750</a> ("Template Strings"), a different mechanism for creating and using templates,
+a new <tt>Template</tt> type to hold them, and several additional authors for the PEP.
+Meanwhile, one controversial part of the original proposal, lazy evaluation
+of the interpolated values, has been changed so that it requires an
+explicit opt-in (via <a
+href="https://docs.python.org/3.8/tutorial/controlflow.html#lambda-expressions"><tt>lambda</tt></a>);
+template strings are a generalization of <a
+href="https://lwn.net/Articles/919426/">f-strings</a> and lazy evaluation was seen by some
+as a potentially confusing departure from their behavior.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1005332/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 22 Jan 2025 15:32:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,36 +317,6 @@ properly, no need to upgrade.  Thanks to Ron Economos for the fix for
 this issue.
 </blockquote>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005445/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 17 Jan 2025 15:19:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005445/" title="https://lwn.net/Articles/1005445/">LSFMM+BPF 2025 proposal deadline approaching</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>A reminder has gone out that the deadline for proposals for the 2025 Linux
-Storage, Filesystem, Memory Management and BPF Summit is February&nbsp;1;
-anybody wanting to attend will need to make themselves known before then.
-The reminder also says that there will be no remote participation option
-(or live streams) this year.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1004893/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 17 Jan 2025 14:53:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1004893/" title="https://lwn.net/Articles/1004893/">Reviving None-aware operators for Python</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The idea of adding <tt>None</tt>-aware operators to Python has sprung up once
-again. These would make traversing structures with <tt>None</tt> values in them
-easier, by short-circuiting lookups when a <tt>None</tt> is encountered. Almost
-exactly a year ago, LWN covered <a href="https://lwn.net/Articles/956862/">the previous attempt</a> to bring
-the operators to Python, but there have been periodic discussions stretching back to
-2015 and possibly before. This time Noah Kim has taken up the cause. After some debate, he
-eventually settled on redrafting the existing PEP to have a more limited scope,
-which might finally see it move past the cycle of debate, resurrection, and abandonment that
-it has been stuck in for most of the last decade.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
