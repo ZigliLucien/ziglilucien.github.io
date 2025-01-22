@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1005801/" title="See Description">Wine 10.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1005798/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1005302/" title="See Description">A look at the recent rsync vulnerability</a></li>
 <li><a href="#https://lwn.net/Articles/1005710/" title="See Description">Stable kernel 6.6.73</a></li>
 <li><a href="#https://lwn.net/Articles/1005708/" title="See Description">Security updates for Tuesday</a></li>
@@ -51,11 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1004893/" title="See Description">Reviving None-aware operators for Python</a></li>
 <li><a href="#https://lwn.net/Articles/1005380/" title="See Description">Three stable kernel updates, as expected</a></li>
 <li><a href="#https://lwn.net/Articles/1005433/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1005222/" title="See Description">The many names of commit 55039832f98c</a></li>
-<li><a href="#https://lwn.net/Articles/1005292/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1005801/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Jan 2025 14:53:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005801/" title="https://lwn.net/Articles/1005801/">Wine 10.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://gitlab.winehq.org/wine/wine/-/releases/wine-10.0">Version
+10.0</a> of the Wine Windows compatibility layer is out.  "<q>This release
+represents a year of development effort and over 6,000 individual
+changes</q>".  Those changes include full support for the ARM64EC
+architecture, better high-DPI display support, Wayland enabled by default,
+and more.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1005798/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Jan 2025 14:15:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005798/" title="https://lwn.net/Articles/1005798/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (snapcast), <b>Fedora</b> (python-jinja2), <b>Mageia</b> (rsync), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, gh, kernel, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, nvidia-open-driver-G06-signed, and pam_u2f), and <b>Ubuntu</b> (linux-oem-6.11 and vim).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1005302/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 21 Jan 2025 16:01:26 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -252,32 +272,6 @@ the expected schedule.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (rsync and tomcat9), <b>Fedora</b> (chromium, mingw-python-jinja2, redict, and valkey), <b>Gentoo</b> (GIMP and pip), <b>Oracle</b> (.NET, fence-agents, ipa, kernel, python-virtualenv, raptor2, and rsync), <b>Red Hat</b> (.NET 8.0 and .NET 9.0), <b>SUSE</b> (apache2-mod_jk, git, git-lfs, kernel, python-Django, thunderbird, and xen), and <b>Ubuntu</b> (audacity, bcel, dotnet8, dotnet9, gimp-dds, harfbuzz, libxml2, poppler, rsync, and tqdm).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005222/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 Jan 2025 19:14:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005222/" title="https://lwn.net/Articles/1005222/">The many names of commit 55039832f98c</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel is, on its face, a single large development project, but
-internally it is better viewed as 100 or so semi-independent projects all
-crammed into one big tent.  Within those projects, there is a fair amount
-of latitude about how changes are managed, and some subsystems are using
-that freedom in the search for more efficient ways of working.  In the end,
-though, all of these sub-projects have to work together and interface with
-kernel-wide efforts, including the stable-release and CVE-assignment
-processes.  For some time, there has been friction between the direct
-rendering (DRM, or graphics) subsystem and the stable maintainers; that
-friction recently burst into view in a way that shows some of the
-limitations of how the kernel community manages patches.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005292/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 Jan 2025 14:34:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005292/" title="https://lwn.net/Articles/1005292/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (fence-agents, raptor2, and rsync), <b>Debian</b> (chromium), <b>Fedora</b> (rsync and seamonkey), <b>Mageia</b> (openjpeg2), <b>Red Hat</b> (tuned), <b>Slackware</b> (git), <b>SUSE</b> (dcmtk, dnsmasq, govulncheck-vulndb, libQtWebKit4, libraptor-devel, opera, python311-Pillow, python311-translate-toolkit, rsync, and SDL2_sound-devel), and <b>Ubuntu</b> (linux-raspi-5.4, neomutt, and python2.7).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
