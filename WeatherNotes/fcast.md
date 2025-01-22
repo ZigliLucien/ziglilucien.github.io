@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Mostly clear. Low around 6, with temperatures rising to around 10 overnight. Wind chill values as low as -5. Southeast wind
-         3 to 9 mph, with gusts as high as 21 mph.<br></div>
+         2 to 9 mph, with gusts as high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
