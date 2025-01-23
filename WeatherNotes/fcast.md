@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of snow showers after 1am. Mostly cloudy, with a low around 22. Southwest wind 5 to 12 mph.<br></div>
+         <h3>Tonight</h3>A chance of snow showers after 1am. Mostly cloudy, with a low around 22. Southwest wind 5 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
