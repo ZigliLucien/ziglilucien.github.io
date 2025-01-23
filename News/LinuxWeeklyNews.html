@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1005651/" title="See Description">The first part of the 6.14 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1005946/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1005296/" title="See Description">LWN.net Weekly Edition for January 23, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1005838/" title="See Description">Zero-trust builds for FreeBSD</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1004998/" title="See Description">Development statistics for 6.13</a></li>
 <li><a href="#https://lwn.net/Articles/1005640/" title="See Description">Dillo 3.2.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1005638/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1005488/" title="See Description">The 6.13 kernel has been released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1005651/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 Jan 2025 15:09:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005651/" title="https://lwn.net/Articles/1005651/">The first part of the 6.14 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>As of this writing, just over 4,300 non-merge changesets have been pulled
+into the mainline repository for the 6.14 release.  Many of the pull
+requests this time around include remarks saying that activity has been
+relatively low this time around, presumably due to the holidays.  So those
+4,300 changesets are probably closer to the merge-window halfway point than
+usual.  Much of the work merged thus far looks more like incremental
+improvements than major new initiatives, but there still have been a number
+of interesting changes in the mix.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1005946/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 Jan 2025 15:01:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -271,45 +286,6 @@ math formulas, optional support for WebP images, and more.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, ipa, and NetworkManager), <b>Debian</b> (389-ds-base, busybox, libreoffice, rsync, ruby2.7, tomcat10, and tryton-server), <b>Fedora</b> (chromium and stb), <b>Mageia</b> (openafs and vim), <b>Oracle</b> (.NET 8.0 and .NET 9.0), <b>SUSE</b> (amazon-ssm-agent, chromedriver, git, golang-github-prometheus-prometheus, govulncheck-vulndb, grafana, hplip, pam_u2f, perl-Compress-Raw-Zlib, perl-IO-Compress, redis, redis7, rsync, and velociraptor), and <b>Ubuntu</b> (libpodofo and linux-xilinx-zynqmp).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005488/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Jan 2025 00:39:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005488/" title="https://lwn.net/Articles/1005488/">The 6.13 kernel has been released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has <a
-href="https://lwn.net/ml/all/CAHk-=wiprabAQcCwb3qNhrT5P50MJNqunC9JU5v99kdvM-2rsg@mail.gmail.com">released
-the 6.13 kernel</a>.  "<q>So nothing horrible or unexpected happened last
-week, so I've tagged and pushed out the final 6.13 release</q>."
-<p>
-
-
-Significant features in this release include
-the <a href="https://lwn.net/Articles/994322/">lazy preemption model</a> for CPU
-scheduling, 
-Arm64 <a
-href="https://www.kernel.org/doc/html/next/arch/arm64/gcs.html">Guarded
-Control Stack</a> support,
-the <a href="https://lwn.net/Articles/992991/"><tt>PIDFD_GET_INFO()</tt> operation</a>,
-<a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6ac81fd55e8a">multi-grain
-file timestamps</a>,
-beginning <a href="https://lwn.net/Articles/974578/">atomic write</a> support for the ext4
-and XFS filesystems,
-the <tt>setxattrat()</tt>,  <tt>getxattrat()</tt>, <tt>listxattrat()</tt>,
-and <tt>removexattrat()</tt> system calls,
-<a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c1bc51f85cd6">private
-stacks</a> for BPF programs,
-<a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=662df3e5c376">a
-new mechanism</a> for adding guard pages to a memory mapping,
-the removal of the reiserfs filesystem,
-and more.  See the LWN merge-window summaries (<a
-href="https://lwn.net/Articles/998623/">part&nbsp;1</a>, <a
-href="https://lwn.net/Articles/998990/">part&nbsp;2</a>) and <a
-href="https://kernelnewbies.org/Linux_6.13">the KernelNewbies 6.13 page</a>
-for more information.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
