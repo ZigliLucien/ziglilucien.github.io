@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1006006/" title="See Description">Four new stable kernels</a></li>
+<li><a href="#https://lwn.net/Articles/1005662/" title="See Description">The trouble with the new uretprobes</a></li>
 <li><a href="#https://lwn.net/Articles/1005651/" title="See Description">The first part of the 6.14 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1005946/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1005296/" title="See Description">LWN.net Weekly Edition for January 23, 2025</a></li>
@@ -51,11 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1005710/" title="See Description">Stable kernel 6.6.73</a></li>
 <li><a href="#https://lwn.net/Articles/1005708/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1004998/" title="See Description">Development statistics for 6.13</a></li>
-<li><a href="#https://lwn.net/Articles/1005640/" title="See Description">Dillo 3.2.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1005638/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1006006/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 Jan 2025 23:07:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006006/" title="https://lwn.net/Articles/1006006/">Four new stable kernels</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1006009/">6.12.11</a>, <a
+href="https://lwn.net/Articles/1006010/">6.6.74</a>, <a
+href="https://lwn.net/Articles/1006011/">6.1.127</a>, and <a
+href="https://lwn.net/Articles/1006012/">5.15.177</a> stable kernels.  They all contain
+important fixes, as is the usual case.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1005662/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 Jan 2025 22:55:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005662/" title="https://lwn.net/Articles/1005662/">The trouble with the new uretprobes</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A "uretprobe" is a dynamic, user-space tracepoint injected by the kernel
+into a running process; <a
+href="https://docs.kernel.org/trace/uprobetracer.html">this document</a>
+tersely describes their use.  Among other things, uretprobes are used by
+the <tt>perf</tt> utility to time function calls.  The 6.11 kernel saw a
+significant change to uretprobes that improved their performance, but that
+change is also creating trouble for some users.  The best way to solve the
+problem is not entirely clear.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1005651/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 Jan 2025 15:09:25 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -263,28 +290,6 @@ href="https://lwn.net/Articles/998990/">part&nbsp;2</a>) and <a
 href="https://kernelnewbies.org/Linux_6.13">the KernelNewbies 6.13 page</a>
 can be consulted for a refresher on all it contains.  Here, instead, we
 will take our usual look at where all of those changes came from.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005640/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Jan 2025 16:21:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005640/" title="https://lwn.net/Articles/1005640/">Dillo 3.2.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://dillo-browser.github.io/release/3.2.0/">Version
-3.2.0</a> of the <a href="https://dillo-browser.github.io/">Dillo</a>
-web browser has been released about a month after its <a
-href="https://dillo-browser.github.io/25-years/index.html">25th
-anniversary</a>. Notable new features in 3.2.0 include SVG support for
-math formulas, optional support for WebP images, and more.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005638/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Jan 2025 14:04:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005638/" title="https://lwn.net/Articles/1005638/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, ipa, and NetworkManager), <b>Debian</b> (389-ds-base, busybox, libreoffice, rsync, ruby2.7, tomcat10, and tryton-server), <b>Fedora</b> (chromium and stb), <b>Mageia</b> (openafs and vim), <b>Oracle</b> (.NET 8.0 and .NET 9.0), <b>SUSE</b> (amazon-ssm-agent, chromedriver, git, golang-github-prometheus-prometheus, govulncheck-vulndb, grafana, hplip, pam_u2f, perl-Compress-Raw-Zlib, perl-IO-Compress, redis, redis7, rsync, and velociraptor), and <b>Ubuntu</b> (libpodofo and linux-xilinx-zynqmp).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
