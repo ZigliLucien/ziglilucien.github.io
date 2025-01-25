@@ -41,8 +41,8 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-01-25T11:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-01-25T11:16:44+00:00</updateTime>
+		<generatedAt type="str">2025-01-25T12:36:04+00:00</generatedAt>
+		<updateTime type="str">2025-01-25T11:33:03+00:00</updateTime>
 		<validTimes type="str">2025-01-25T05:00:00+00:00/P7DT20H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
@@ -51,26 +51,7 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Overnight</name>
-				<startTime type="str">2025-01-25T05:00:00-06:00</startTime>
-				<endTime type="str">2025-01-25T06:00:00-06:00</endTime>
-				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">27</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="str"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="null"/>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">9 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
-				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear. Low around 27, with temperatures rising to around 30 overnight. South southwest wind around 9 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
-				<name type="str">Saturday</name>
+				<name type="str">Today</name>
 				<startTime type="str">2025-01-25T06:00:00-06:00</startTime>
 				<endTime type="str">2025-01-25T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
@@ -88,8 +69,8 @@
 				<detailedForecast type="str">Mostly sunny. High near 48, with temperatures falling to around 45 in the afternoon. South southwest wind 9 to 13 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
-				<name type="str">Saturday Night</name>
+				<number type="int">2</number>
+				<name type="str">Tonight</name>
 				<startTime type="str">2025-01-25T18:00:00-06:00</startTime>
 				<endTime type="str">2025-01-26T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
@@ -107,7 +88,7 @@
 				<detailedForecast type="str">Mostly cloudy. Low around 28, with temperatures rising to around 30 overnight. West wind 3 to 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Sunday</name>
 				<startTime type="str">2025-01-26T06:00:00-06:00</startTime>
 				<endTime type="str">2025-01-26T18:00:00-06:00</endTime>
@@ -123,10 +104,10 @@
 				<windDirection type="str">N</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
 				<shortForecast type="str">Partly Sunny</shortForecast>
-				<detailedForecast type="str">Partly sunny, with a high near 39. North wind around 6 mph.</detailedForecast>
+				<detailedForecast type="str">Partly sunny. High near 39, with temperatures falling to around 36 in the afternoon. North wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Sunday Night</name>
 				<startTime type="str">2025-01-26T18:00:00-06:00</startTime>
 				<endTime type="str">2025-01-27T06:00:00-06:00</endTime>
@@ -145,7 +126,7 @@
 				<detailedForecast type="str">Partly cloudy, with a low around 22. West northwest wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Monday</name>
 				<startTime type="str">2025-01-27T06:00:00-06:00</startTime>
 				<endTime type="str">2025-01-27T18:00:00-06:00</endTime>
@@ -164,7 +145,7 @@
 				<detailedForecast type="str">Sunny, with a high near 46. West southwest wind 2 to 10 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2025-01-27T18:00:00-06:00</startTime>
 				<endTime type="str">2025-01-28T06:00:00-06:00</endTime>
@@ -183,7 +164,7 @@
 				<detailedForecast type="str">Clear, with a low around 30. Southwest wind around 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Tuesday</name>
 				<startTime type="str">2025-01-28T06:00:00-06:00</startTime>
 				<endTime type="str">2025-01-28T18:00:00-06:00</endTime>
@@ -202,7 +183,7 @@
 				<detailedForecast type="str">Sunny, with a high near 53. Southwest wind around 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Tuesday Night</name>
 				<startTime type="str">2025-01-28T18:00:00-06:00</startTime>
 				<endTime type="str">2025-01-29T06:00:00-06:00</endTime>
@@ -221,7 +202,7 @@
 				<detailedForecast type="str">Partly cloudy, with a low around 37. Southwest wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Wednesday</name>
 				<startTime type="str">2025-01-29T06:00:00-06:00</startTime>
 				<endTime type="str">2025-01-29T18:00:00-06:00</endTime>
@@ -240,7 +221,7 @@
 				<detailedForecast type="str">Sunny, with a high near 52. West northwest wind 6 to 10 mph, with gusts as high as 18 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Wednesday Night</name>
 				<startTime type="str">2025-01-29T18:00:00-06:00</startTime>
 				<endTime type="str">2025-01-30T06:00:00-06:00</endTime>
@@ -259,7 +240,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 27. North northwest wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">12</number>
+				<number type="int">11</number>
 				<name type="str">Thursday</name>
 				<startTime type="str">2025-01-30T06:00:00-06:00</startTime>
 				<endTime type="str">2025-01-30T18:00:00-06:00</endTime>
@@ -278,7 +259,7 @@
 				<detailedForecast type="str">Mostly sunny, with a high near 43. North wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">13</number>
+				<number type="int">12</number>
 				<name type="str">Thursday Night</name>
 				<startTime type="str">2025-01-30T18:00:00-06:00</startTime>
 				<endTime type="str">2025-01-31T06:00:00-06:00</endTime>
@@ -297,7 +278,7 @@
 				<detailedForecast type="str">A slight chance of rain before midnight, then a slight chance of snow. Partly cloudy, with a low around 27. Northeast wind around 6 mph. New snow accumulation of less than half an inch possible.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Friday</name>
 				<startTime type="str">2025-01-31T06:00:00-06:00</startTime>
 				<endTime type="str">2025-01-31T18:00:00-06:00</endTime>
@@ -314,6 +295,25 @@
 				<icon type="str">https://api.weather.gov/icons/land/day/rain?size=medium</icon>
 				<shortForecast type="str">Chance Light Rain</shortForecast>
 				<detailedForecast type="str">A chance of rain. Partly sunny, with a high near 45. East wind 6 to 9 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Friday Night</name>
+				<startTime type="str">2025-01-31T18:00:00-06:00</startTime>
+				<endTime type="str">2025-02-01T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">34</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="str"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="null"/>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">9 mph</windSpeed>
+				<windDirection type="str">SE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain?size=medium</icon>
+				<shortForecast type="str">Light Rain Likely</shortForecast>
+				<detailedForecast type="str">Rain likely. Mostly cloudy, with a low around 34. Southeast wind around 9 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
