@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1006328/" title="See Description">Linux-related discussion as a cybersecurity threat</a></li>
+<li><a href="#https://lwn.net/Articles/1005655/" title="See Description">Vendoring Go packages by default in Fedora</a></li>
 <li><a href="#https://lwn.net/Articles/1006261/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1002456/" title="See Description">The Rust 2024 Edition takes shape</a></li>
 <li><a href="#https://lwn.net/Articles/1006103/" title="See Description">Security updates for Friday</a></li>
@@ -51,11 +53,54 @@
 <li><a href="#https://lwn.net/Articles/1005332/" title="See Description">A mouseless tale: trying for a keyboard-driven desktop</a></li>
 <li><a href="#https://lwn.net/Articles/1005781/" title="See Description">Puppet fork OpenVox makes first release</a></li>
 <li><a href="#https://lwn.net/Articles/1005801/" title="See Description">Wine 10.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1005798/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1005302/" title="See Description">A look at the recent rsync vulnerability</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1006328/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Jan 2025 15:57:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006328/" title="https://lwn.net/Articles/1006328/">Linux-related discussion as a cybersecurity threat</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://distrowatch.com/weekly.php?issue=20250127">DistroWatch
+January 27 edition</a> includes this interesting tidbit:
+<p>
+<blockquote class="bq">
+	Starting on January 19, 2025 Facebook's internal policy makers
+	decided that Linux is malware and labeled groups associated with
+	Linux as being "cybersecurity threats". Any posts mentioning
+	DistroWatch and multiple groups associated with Linux and Linux
+	discussions have either been shut down or had many of their posts
+	removed.
+<p>
+	We've been hearing all week from readers who say they can no longer
+	post about Linux on Facebook or share links to DistroWatch. Some
+	people have reported their accounts have been locked or limited for
+	posting about Linux. 
+</blockquote>
+<p>
+One can only hope that this is a mistake that will be resolved soon.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1005655/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Jan 2025 15:17:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005655/" title="https://lwn.net/Articles/1005655/">Vendoring Go packages by default in Fedora</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://go.dev">Go language</a> is designed to make it
+easy for developers to <a
+href="https://go.dev/doc/tutorial/getting-started#call">import other
+Go packages</a> and compile everything into a static binary
+for simple distribution. Unfortunately, this complicates things for
+those who package Go programs for Linux distributions, such as Fedora,
+that have guidelines which require dependencies to be packaged
+separately. Fedora's <a
+href="https://fedoraproject.org/wiki/SIGs/Go">Go special interest
+group</a> (SIG) is asking for relief and a loosening of the bundling
+guidelines to allow Go packagers to bundle dependencies into the
+packages that need them, otherwise known as vendoring. So far, the
+participants in the discussion have seemed largely in favor of the
+idea.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1006261/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 27 Jan 2025 14:41:31 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,36 +306,6 @@ represents a year of development effort and over 6,000 individual
 changes</q>".  Those changes include full support for the Arm64EC
 architecture, better high-DPI display support, Wayland enabled by default,
 and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005798/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 Jan 2025 14:15:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005798/" title="https://lwn.net/Articles/1005798/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (snapcast), <b>Fedora</b> (python-jinja2), <b>Mageia</b> (rsync), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, gh, kernel, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, nvidia-open-driver-G06-signed, and pam_u2f), and <b>Ubuntu</b> (linux-oem-6.11 and vim).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005302/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 21 Jan 2025 16:01:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005302/" title="https://lwn.net/Articles/1005302/">A look at the recent rsync vulnerability</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-On January&nbsp;14, Nick Tait
-<a href="https://lwn.net/ml/all/CALDM2HfAOzs+zr3XLCDAKH8oOosigdaNooUANDf=Ez5mLSvQcQ@mail.gmail.com/">
-announced</a> the discovery of six vulnerabilities in
-<a href="https://rsync.samba.org/">
-rsync</a>, the popular file-synchronization tool. While software vulnerabilities are
-not uncommon, the
-<a href="https://nvd.nist.gov/vuln/detail/CVE-2024-12084">
-most serious one</a> he announced allows for remote code execution
-on servers that run <tt>rsyncd</tt> — and possibly other configurations.
-The bug itself is fairly simple, but this event provides a nice opportunity to
-dig into it, show why it is so serious, and consider ways
-the open-source community can prevent such mistakes in the
-future.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
