@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1006562/" title="See Description">LWN in EPUB format</a></li>
+<li><a href="#https://lwn.net/Articles/1006691/" title="See Description">Credential-leaking vulnerability in some Git credential managers</a></li>
+<li><a href="#https://lwn.net/Articles/1005639/" title="See Description">[$] Offline applications with Earthstar</a></li>
 <li><a href="#https://lwn.net/Articles/1006622/" title="See Description">Ubuntu developer discussion moving to Matrix</a></li>
 <li><a href="#https://lwn.net/Articles/1006677/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1006351/" title="See Description">[$] FOSDEM keynote causes concerns</a></li>
@@ -50,12 +53,87 @@
 <li><a href="#https://lwn.net/Articles/1006006/" title="See Description">Four new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1005662/" title="See Description">[$] The trouble with the new uretprobes</a></li>
 <li><a href="#https://lwn.net/Articles/1005651/" title="See Description">[$] The first part of the 6.14 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1005946/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1005296/" title="See Description">[$] LWN.net Weekly Edition for January 23, 2025</a></li>
-<li><a href="#https://lwn.net/Articles/1005838/" title="See Description">Zero-trust builds for FreeBSD</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1006562/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 29 Jan 2025 16:57:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006562/" title="https://lwn.net/Articles/1006562/">LWN in EPUB format</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>For years we have had occasional requests to be able to receive LWN in
+a format for ebook readers.  It took a while, but we are now happy to
+announce that all of LWN's feature content is available, to subscribers at
+the "professional hacker" level and above, in the EPUB format.  To obtain
+the weekly edition as an EPUB file, just click the "Download EPUB" link in
+the left column.  There is a separate <a href="https://lwn.net/headlines/">RSS feed</a>
+for the EPUB format as well.  Any other feature content can be turned into
+an ebook by appending <tt>/epub</tt> to its URL.
+<p>
+We will also be creating special EPUB books at times.  As an example of
+what is possible, our complete coverage from <a
+href="https://lwn.net/images/epub/kangrejos-2024.epub">Kangrejos 2024</a> and <a
+href="https://lwn.net/images/epub/lsfmmbpf-2024.epub">the 2024 Linux Storage, Filesystem,
+Memory Management, and BPF Summit</a> are available to all readers.
+<p>
+There are surely places where our EPUB books can be improved; please feel
+free to drop us a note (at <a
+href="mailto:lwn@lwn.net"><tt>lwn@lwn.net</tt></a>) with suggestions.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1006691/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 29 Jan 2025 16:01:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006691/" title="https://lwn.net/Articles/1006691/">Credential-leaking vulnerability in some Git credential managers</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Security researcher RyotaK
+<a href="https://flatt.tech/research/posts/clone2leak-your-git-credentials-belong-to-us/">
+has shared</a> a series of vulnerabilities that all have to do with how Git
+interfaces with external
+credential managers. In short, while Git guards against newline characters
+(<tt>\n</tt>) being injected into a repository's URL, some programming languages
+also treat carriage return characters (<tt>\r</tt>) as being newlines. Adding a
+carriage return to a repository's URL can cause Git and the credential manager
+to disagree on how the URL should be parsed, ultimately resulting in Git
+credentials being sent to the wrong host. Malicious repositories could include
+Git submodules with malformed URLs, triggering the bug. Only password-based authentication
+with an external credential manager is
+vulnerable to this attack; SSH-based authentication remains secure. The Git project
+has chosen to consider this a vulnerability in Git, given the large amount of
+external software affected. The project has fixed the bug on its end by
+<a href="https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/2.48.1.txt">
+releasing updates</a> for all supported versions that ban
+carriage returns in URLs entirely.
+</p>
+
+<p>
+Affected software includes GitHub Desktop, Git LFS, and possibly other Git utilities:
+</p>
+
+<blockquote class="bq">
+Since Git itself doesn't use .lfsconfig file, specifying the URL that contains
+the newline character in .lfsconfig causes Git LFS to insert the newline character
+into the message, while bypassing [...] Git's validation.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1005639/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 29 Jan 2025 15:53:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005639/" title="https://lwn.net/Articles/1005639/">[$] Offline applications with Earthstar</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://earthstar-project.org/">
+Earthstar</a> is a privacy-oriented,
+offline-first, LGPL-licensed database intended to support distributed
+applications. Unlike other distributed storage libraries, it
+focuses on providing mutable data with human-meaningful names and modification
+times, which gives it an interface similar to many non-distributed
+key-value databases.
+Now, the developers are looking at switching to a new synchronization
+protocol — one that is general enough that it might see wider adoption.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1006622/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 29 Jan 2025 14:06:14 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -244,59 +322,6 @@ usual.  Much of the work merged thus far looks more like incremental
 improvements than major new initiatives, but there still have been a number
 of interesting changes in the mix.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005946/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 Jan 2025 15:01:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005946/" title="https://lwn.net/Articles/1005946/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (redis:6), <b>Debian</b> (frr and git-lfs), <b>Fedora</b> (SDL2_sound and webkit2gtk4.0), <b>Gentoo</b> (firefox, GPL Ghostscript, libgsf, libuv, PHP, Qt, QtWebEngine, and Yubico pam-u2f), <b>Mageia</b> (chromium-browser-stable), <b>SUSE</b> (helmfile, nvidia-modprobe, qt6-webengine, ruby3.4-rubygem-actioncable-8.0-8.0.1-1.1, ruby3.4-rubygem-actionpack-8.0-8.0.1-1.1, ruby3.4-rubygem-actiontext-8.0-8.0.1-1.1, ruby3.4-rubygem-actionview-8.0-8.0.1-1.1, ruby3.4-rubygem-activejob-8.0-8.0.1-1.1, ruby3.4-rubygem-activerecord-8.0-8.0.1-1.1, ruby3.4-rubygem-activestorage-8.0-8.0.1-1.1, ruby3.4-rubygem-rails-8.0-8.0.1-1.1, and ruby3.4-rubygem-railties-8.0-8.0.1-1.1), and <b>Ubuntu</b> (bluez, openjpeg2, and python-django).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005296/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 Jan 2025 00:01:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005296/" title="https://lwn.net/Articles/1005296/">[$] LWN.net Weekly Edition for January 23, 2025</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1005296/">Front</a>: Rsync vulnerability; Going mouseless; Commit IDs; 6.13 Development statistics; Python string formating; Python None-aware operators.
-            <li> <a href="https://lwn.net/Articles/1005298/">Briefs</a>: Kernel 6.13; Dillo 3.2.0; GDB 16.1; OpenVox; Wine 10.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1005299/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005838/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 Jan 2025 19:12:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005838/" title="https://lwn.net/Articles/1005838/">Zero-trust builds for FreeBSD</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://freebsdfoundation.org/">FreeBSD Foundation</a>
-has <a href="https://freebsdfoundation.org/blog/zero-trust-builds-for-freebsd/">announced</a> that it has undertaken a project to deliver zero-trust
-builds commissioned by the <a
-href="https://www.sovereign.tech/">Sovereign Tech Agency</a> (STA).</p>
-
-<blockquote class="bq">
-<p>The Zero-Trust Build project is scheduled from Jan-Aug 2025 and
-centers on the FreeBSD build process, and in particular, release
-building. The primary goal of this work is to enable the entire
-release process to run without requiring root access, and that build
-artifacts build reproducibly – that is, that a third party can build
-bit-for-bit identical artifacts.</p>
-
-<p>Additionally, the project aims to enhance build process
-documentation, ensuring that release building is straightforward and
-does not require specialized knowledge. The work is targeted for
-completion prior to the release of FreeBSD 15.0.</p>
-</blockquote>
-
-<p>The Foundation says that updates should not impact users of FreeBSD
-release images, but it may have an impact on developers basing
-projects or products on FreeBSD that make modifications to its release
-process.</p>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
