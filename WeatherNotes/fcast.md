@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Rain. Cloudy. High near 54, with temperatures falling to around 50 in the afternoon. Southeast wind around 7 mph. Chance of
-         precipitation is 100%.<br></div>
+         precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
