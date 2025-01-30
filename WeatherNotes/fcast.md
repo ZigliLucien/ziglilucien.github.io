@@ -2,23 +2,19 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A chance of rain. Cloudy. Low around 34, with temperatures rising to around 39 overnight. South southeast wind around 5 mph.
-         Chance of precipitation is 30%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Thursday</h3>Rain. Cloudy. High near 54, with temperatures falling to around 51 in the afternoon. South southeast wind 6 to 10 mph. Chance
+         <h3>Today</h3>Rain. Cloudy. High near 54, with temperatures falling to around 51 in the afternoon. South southeast wind 3 to 10 mph. Chance
          of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Rain and a slight chance of thunderstorms before 2am. Cloudy. Low around 48, with temperatures rising to around 52 overnight.
+         <h3>Tonight</h3>Rain and a slight chance of thunderstorms before 2am. Cloudy. Low around 48, with temperatures rising to around 52 overnight.
          South wind around 12 mph, with gusts as high as 20 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of rain showers between noon and 3pm, then a chance of showers and thunderstorms. Partly sunny, with a high near
-         57. West southwest wind around 13 mph, with gusts as high as 24 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Friday</h3>A chance of rain showers between noon and 3pm, then a chance of showers and thunderstorms. Partly sunny. High near 57, with
+         temperatures falling to around 51 in the afternoon. West southwest wind around 13 mph, with gusts as high as 24 mph. Chance
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -59,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>A chance of rain. Mostly cloudy, with a high near 53. South southwest wind 7 to 10 mph, with gusts as high as 20 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>Rain likely. Mostly cloudy, with a low around 42. Southwest wind around 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
 </div>
