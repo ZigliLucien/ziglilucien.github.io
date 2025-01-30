@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1006805/" title="See Description">[$] Resistance to Rust abstractions for DMA mapping</a></li>
 <li><a href="#https://lwn.net/Articles/1007032/" title="See Description">Freedesktop looking for new home for its GitLab instance</a></li>
 <li><a href="#https://lwn.net/Articles/1007024/" title="See Description">GNU C Library 2.41 released</a></li>
 <li><a href="#https://lwn.net/Articles/1006978/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1006351/" title="See Description">[$] FOSDEM keynote causes concerns</a></li>
 <li><a href="#https://lwn.net/Articles/1006486/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1006328/" title="See Description">Linux-related discussion as a cybersecurity threat</a></li>
-<li><a href="#https://lwn.net/Articles/1005655/" title="See Description">[$] Vendoring Go packages by default in Fedora</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1006805/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Jan 2025 19:42:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006805/" title="https://lwn.net/Articles/1006805/">[$] Resistance to Rust abstractions for DMA mapping</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>While the path toward the ability to write device drivers in Rust has been
+anything but smooth, steady progress has been made and that goal is close
+to being achieved — for some types of drivers at least.  Device drivers
+need to be able to set up memory areas for direct memory access (DMA)
+transfers, though; that means Rust drivers will need a set of
+abstractions to interface with the kernel's DMA-mapping subsystem.  Those
+abstractions have run into resistance that has the potential to block
+progress on the Rust-for-Linux project as a whole.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1007032/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 30 Jan 2025 17:17:51 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -330,27 +345,6 @@ One can only hope that this is a mistake that will be resolved soon.
 <b>Update</b>: Meta <a href="https://lwn.net/Articles/1006859/">has seemingly fixed the
 problem</a>.  It is sad, though, that nothing happened until a large,
 net-wide fuss forced the issue.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005655/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 Jan 2025 15:17:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005655/" title="https://lwn.net/Articles/1005655/">[$] Vendoring Go packages by default in Fedora</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://go.dev">Go language</a> is designed to make it
-easy for developers to <a
-href="https://go.dev/doc/tutorial/getting-started#call">import other
-Go packages</a> and compile everything into a static binary
-for simple distribution. Unfortunately, this complicates things for
-those who package Go programs for Linux distributions, such as Fedora,
-that have guidelines which require dependencies to be packaged
-separately. Fedora's <a
-href="https://fedoraproject.org/wiki/SIGs/Go">Go special interest
-group</a> (SIG) is asking for relief and a loosening of the bundling
-guidelines to allow Go packagers to bundle dependencies into the
-packages that need them, otherwise known as vendoring. So far, the
-participants in the discussion have seemed largely in favor of the
-idea.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
