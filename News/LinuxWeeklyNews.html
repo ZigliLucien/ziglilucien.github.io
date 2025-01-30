@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1007032/" title="See Description">Freedesktop looking for new home for its GitLab instance</a></li>
+<li><a href="#https://lwn.net/Articles/1007024/" title="See Description">GNU C Library 2.41 released</a></li>
 <li><a href="#https://lwn.net/Articles/1006978/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1006917/" title="See Description">Thunderbird moving to monthly updates in March</a></li>
 <li><a href="#https://lwn.net/Articles/1005953/" title="See Description">[$] LWN.net Weekly Edition for January 30, 2025</a></li>
@@ -51,11 +53,54 @@
 <li><a href="#https://lwn.net/Articles/1006486/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1006328/" title="See Description">Linux-related discussion as a cybersecurity threat</a></li>
 <li><a href="#https://lwn.net/Articles/1005655/" title="See Description">[$] Vendoring Go packages by default in Fedora</a></li>
-<li><a href="#https://lwn.net/Articles/1006261/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1002456/" title="See Description">[$] The Rust 2024 Edition takes shape</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1007032/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Jan 2025 17:17:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007032/" title="https://lwn.net/Articles/1007032/">Freedesktop looking for new home for its GitLab instance</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Visitors to the <a href="https://www.freedesktop.org/">freedesktop.org</a>
+<a href="https://gitlab.freedesktop.org/">GitLab instance</a> are currently being greeted with a message noting that
+the company who has been hosting it for free for nearly five years, Equinix, has
+asked that it be moved (or start being paid for) by the end of April.  The
+<a
+href="https://gitlab.freedesktop.org/freedesktop/freedesktop/-/issues/2011">issue
+ticket</a> opened by Benjamin Tissoires in order to  track the planning of a move is clear that the project is grateful for
+the gift:
+"<q>First, I'd like to thank Equinix Metal for the years of support they gave us. They were very kind and generous with us and even if it's a shame we have to move out on a short notice, all things come to an end.</q>"
+
+<p>
+The current cost for the services, much of which is for 50TB of <strike>bandwidth</strike> data transfer
+per month and a half-dozen beefy servers for running continuous-integration
+(CI) jobs, comes to around $24,000 per month.  Tissoires believes that the
+project should start paying for service somewhere, in order to avoid
+upheaval of this sort, sometimes on short or no notice. "<q>I personally
+think we better have fd.o pay for its own servers, and then have sponsors
+chip in. This way, when a sponsor goes away, it's technically much simpler
+to just replace the money than change datacenter.</q>"  Various options are
+being discussed there, but any move is likely to disrupt normal services
+for a week or more.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1007024/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Jan 2025 16:02:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007024/" title="https://lwn.net/Articles/1007024/">GNU C Library 2.41 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/all/6975370.R56niFO833@pinacolada">Version 2.41</a> of the GNU
+C Library has been released.  Changes include a number of test-suite
+improvements, strict-error support in the DNS stub resolver, wrappers for
+the the <a
+href="https://man7.org/linux/man-pages/man2/sched_setattr.2.html"><tt>sched_setattr()</tt>
+and <tt>sched_getattr()</tt></a> system calls,
+Unicode 16.0.0 support,
+improved C23 support,
+support for <a href="https://lwn.net/Articles/885818/">extensible restartable
+sequences</a>,
+Guarded Control Stack support on 64-bit Arm systems,
+and more.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1006978/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 30 Jan 2025 14:29:28 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -305,31 +350,6 @@ guidelines to allow Go packagers to bundle dependencies into the
 packages that need them, otherwise known as vendoring. So far, the
 participants in the discussion have seemed largely in favor of the
 idea.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1006261/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 Jan 2025 14:41:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006261/" title="https://lwn.net/Articles/1006261/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (git-lfs, java-17-openjdk, java-21-openjdk, kernel, and python-jinja2), <b>Debian</b> (git and git-lfs), <b>Fedora</b> (buildah, chromium, containers-common, freeipa, glibc, golang, mediawiki, pam-u2f, podman, and rsync), <b>Mageia</b> (glibc, iperf, openssl, phpmyadmin, and poppler), <b>Oracle</b> (firefox, git-lfs, grafana, java-17-openjdk, java-21-openjdk, kernel, python-jinja2, and redis:6), and <b>SUSE</b> (chromium, go1.22-1.22.11-1.1, go1.23-1.23.5-1.1, go1.24-1.24rc2-1.1, java-11-openjdk, kernel, libopenssl-3-devel, libQt6Bluetooth6, nodejs18, nodejs20, python311-azure-storage-blob, qt6-connectivity, and ruby3.4-rubygem-nokogiri-1.18.2-1.1).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1002456/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 Jan 2025 16:09:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1002456/" title="https://lwn.net/Articles/1002456/">[$] The Rust 2024 Edition takes shape</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Last year, LWN <a href="https://lwn.net/Articles/958792/">examined</a> the changes lined up for
-Rust's 2024 edition. Now, with the edition
-<a href="https://blog.rust-lang.org/2025/01/22/rust-2024-beta.html">
-ready to be stabilized</a> in February,
-it's time to look back at the edition process and see what was
-successfully adopted, which new changes were added, and what still remains to
-work on. A surprising amount of new work was proposed, implemented, and
-stabilized during the year.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
