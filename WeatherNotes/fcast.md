@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Isolated rain showers. Mostly sunny. High near 59, with temperatures falling to around 55 in the afternoon. West wind around
+         <h3>This Afternoon</h3>Isolated rain showers. Partly sunny. High near 59, with temperatures falling to around 55 in the afternoon. West wind around
          8 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
