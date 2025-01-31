@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Isolated rain showers. Mostly sunny. High near 59, with temperatures falling to around 55 in the afternoon. West wind around
-         8 mph, with gusts as high as 18 mph. Chance of precipitation is 20%.<br></div>
+         8 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
