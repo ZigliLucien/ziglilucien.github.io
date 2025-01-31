@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-01-31T00:36:02+00:00</generatedAt>
-		<updateTime type="str">2025-01-30T23:47:00+00:00</updateTime>
-		<validTimes type="str">2025-01-30T17:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2025-01-31T01:36:04+00:00</generatedAt>
+		<updateTime type="str">2025-01-31T01:18:33+00:00</updateTime>
+		<validTimes type="str">2025-01-30T19:00:00+00:00/P7DT6H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2025-01-30T18:00:00-06:00</startTime>
+				<startTime type="str">2025-01-30T19:00:00-06:00</startTime>
 				<endTime type="str">2025-01-31T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">47</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">100</value>
+					<value type="int">80</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">9 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra,100/tsra,20?size=medium</icon>
-				<shortForecast type="str">Rain then Chance T-storms</shortForecast>
-				<detailedForecast type="str">Rain and a chance of thunderstorms before 11pm, then a chance of thunderstorms and a chance of rain between 11pm and 2am. Cloudy. Low around 47, with temperatures rising to around 51 overnight. South wind around 9 mph. Chance of precipitation is 100%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra,80/tsra,20?size=medium</icon>
+				<shortForecast type="str">Chance Light Rain</shortForecast>
+				<detailedForecast type="str">Rain before 9pm, then a chance of rain and a slight chance of thunderstorms between 9pm and 2am. Cloudy. Low around 47, with temperatures rising to around 51 overnight. South wind around 9 mph. Chance of precipitation is 80%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
