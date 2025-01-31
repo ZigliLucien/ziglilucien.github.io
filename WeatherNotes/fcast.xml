@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-01-31T17:36:02+00:00</generatedAt>
+		<generatedAt type="str">2025-01-31T18:36:03+00:00</generatedAt>
 		<updateTime type="str">2025-01-31T17:19:38+00:00</updateTime>
 		<validTimes type="str">2025-01-31T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2025-01-31T11:00:00-06:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2025-01-31T12:00:00-06:00</startTime>
 				<endTime type="str">2025-01-31T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">59</temperature>
@@ -64,8 +64,8 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">10 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn/rain_showers,30?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy then Chance Rain Showers</shortForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,30?size=medium</icon>
+				<shortForecast type="str">Chance Rain Showers</shortForecast>
 				<detailedForecast type="str">A chance of rain showers after 3pm. Mostly cloudy. High near 59, with temperatures falling to around 55 in the afternoon. West southwest wind around 10 mph, with gusts as high as 21 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
