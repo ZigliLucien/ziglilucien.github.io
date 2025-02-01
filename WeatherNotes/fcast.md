@@ -2,16 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Partly sunny. High near 47, with temperatures falling to around 45 in the afternoon. East southeast wind around 7 mph.<br></div>
+         <h3>This Afternoon</h3>Partly sunny. High near 47, with temperatures falling to around 45 in the afternoon. Southeast wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly cloudy, with a low around 42. South wind 6 to 9 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Tonight</h3>Mostly cloudy, with a low around 42. South wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>Partly sunny. High near 60, with temperatures falling to around 57 in the afternoon. South southwest wind 8 to 14 mph, with
-         gusts as high as 25 mph.<br></div>
+         gusts as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

@@ -28,9 +28,9 @@ $el[3] = "$sset CST";
 
 $result = `xsltproc --stringparam date \'$el[0]\' --stringparam time $el[1] --stringparam sunrise \'$el[2]\' --stringparam sunset \'$el[3]\' weath.xsl k.xml`;
 
-open OO,">$name.xml";
-print OO $result;
-close OO;
+# open OO,">$name.xml";
+# print OO $result;
+# close OO;
 
 
 $dat = '<?xml version="1.0"?>',"\n";
