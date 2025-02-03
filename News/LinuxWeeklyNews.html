@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1006378/" title="See Description">[$] The rest of the 6.14 merge window</a></li>
+<li><a href="#https://lwn.net/Articles/1007677/" title="See Description">What’s new in GTK, winter 2025 edition</a></li>
+<li><a href="#https://lwn.net/Articles/1007646/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1007547/" title="See Description">Kernel prepatch 6.14-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/1007541/" title="See Description">GNU Binutils 2.44 Released</a></li>
 <li><a href="#https://lwn.net/Articles/1007438/" title="See Description">Stable kernel updates for Saturday</a></li>
@@ -50,12 +53,55 @@
 <li><a href="#https://lwn.net/Articles/1007024/" title="See Description">GNU C Library 2.41 released</a></li>
 <li><a href="#https://lwn.net/Articles/1006978/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1006917/" title="See Description">Thunderbird moving to monthly updates in March</a></li>
-<li><a href="#https://lwn.net/Articles/1005953/" title="See Description">[$] LWN.net Weekly Edition for January 30, 2025</a></li>
-<li><a href="#https://lwn.net/Articles/1006769/" title="See Description">Incus 6.9 released</a></li>
-<li><a href="#https://lwn.net/Articles/1006562/" title="See Description">LWN in EPUB format</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1006378/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Feb 2025 16:45:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006378/" title="https://lwn.net/Articles/1006378/">[$] The rest of the 6.14 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>By the time that Linus Torvalds <a href="https://lwn.net/Articles/1007546/">released
+6.14-rc1</a> and closed the merge window for this development cycle, some
+9,307 non-merge changesets had been pulled into the mainline
+repository — the lowest level of merge-window activity seen in years.
+There were, nonetheless, a number of interesting changes in the
+5,000 commits pulled since <a href="https://lwn.net/Articles/1005651/">the
+first-half merge-window summary</a> was written.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1007677/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Feb 2025 16:27:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007677/" title="https://lwn.net/Articles/1007677/">What’s new in GTK, winter 2025 edition</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Matthias Clasen has written a short update on a GTK hackfest that
+took place at <a href="https://fosdem.org/">FOSDSEM</a> and what's
+coming in GTK 4.18. This includes fixes for pointer sizes in Wayland
+when fractional scaling is enabled, removal of the old GL renderer in
+favor of the <a
+href="https://blog.gtk.org/2024/01/28/new-renderers-for-gtk/">GL
+renderer</a> introduced in <a
+href="https://download.gnome.org/sources/gtk/4.13/gtk-4.13.6.news">GTK
+4.13.6</a>, and deprecation of X11 and Broadway backends with intent
+to remove them in GTK 5.</p>
+
+<p>The deprecated backends will remain available until then, and no
+action is required by developers at this time, Clasen wrote: "<q>There
+is no need to act on deprecations until you are actively porting your
+app to the next major version of GTK, which is not on the horizon
+yet</q>".</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1007646/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Feb 2025 15:21:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007646/" title="https://lwn.net/Articles/1007646/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (git-lfs, libsoup, and unbound), <b>Debian</b> (dcmtk, ffmpeg, openjdk-11, pam-u2f, and python-aiohttp), <b>Fedora</b> (buku, chromium, jpegxl, nodejs18, nodejs20, and rust-routinator), <b>Mageia</b> (clamav, kernel, kmod-virtualbox, kmod-xtables-addons &amp; dwarves, and kernel-linus), <b>SUSE</b> (apptainer, bind, buildah, chromedriver, clamav, dovecot24, ignition, kubelogin, libjxl, libQt5Bluetooth5-32bit, orc, owasp-modsecurity-crs, python-pydantic, python311-ipython, and stb), and <b>Ubuntu</b> (linux-azure and netdata).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1007547/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 03 Feb 2025 01:50:01 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,53 +312,6 @@ installations currently account for 0.27% of the 10,784,551 total
 active installations tracked on stats.thunderbird.net.
 </blockquote>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1005953/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Jan 2025 03:44:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1005953/" title="https://lwn.net/Articles/1005953/">[$] LWN.net Weekly Edition for January 30, 2025</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1005953/">Front</a>: Go vendoring in Fedora; Rust 2024 edition; 6.14 Merge window; uretprobe(); FOSDEM keynote; Earthstar.
-            <li> <a href="https://lwn.net/Articles/1005955/">Briefs</a>: Git security; Ubuntu discussion; LWN EPUBs; Facebook moderation; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1005956/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1006769/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 Jan 2025 18:14:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006769/" title="https://lwn.net/Articles/1006769/">Incus 6.9 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://discuss.linuxcontainers.org/t/incus-6-9-has-been-released/22679">Version 6.9</a> of the <a href="https://linuxcontainers.org/incus/">Incus</a> container and virtual-machine management system has been released. Changes include a command to provide virtual machine memory dumps, ability to set network ACLs for instances on bridged networks, and more.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1006562/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 Jan 2025 16:57:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006562/" title="https://lwn.net/Articles/1006562/">LWN in EPUB format</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>For years we have had occasional requests to be able to receive LWN in
-a format for ebook readers.  It took a while, but we are now happy to
-announce that all of LWN's feature content is available, to subscribers at
-the "professional hacker" level and above, in the EPUB format.  To obtain
-the weekly edition as an EPUB file, just click the "Download EPUB" link in
-the left column.  There is a separate <a href="https://lwn.net/headlines/">RSS feed</a>
-for the EPUB format as well.  Any other feature content can be turned into
-an ebook by appending <tt>/epub</tt> to its URL.
-<p>
-We will also be creating special EPUB books at times.  As an example of
-what is possible, our complete coverage from <a
-href="https://lwn.net/images/epub/kangrejos-2024.epub">Kangrejos 2024</a> and <a
-href="https://lwn.net/images/epub/lsfmmbpf-2024.epub">the 2024 Linux Storage, Filesystem,
-Memory Management, and BPF Summit</a> are available to all readers.
-<p>
-There are surely places where our EPUB books can be improved; please feel
-free to drop us a note (at <a
-href="mailto:lwn@lwn.net"><tt>lwn@lwn.net</tt></a>) with suggestions.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
