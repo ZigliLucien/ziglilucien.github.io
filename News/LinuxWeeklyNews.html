@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1006375/" title="See Description">[$] An update on sealed system mappings</a></li>
+<li><a href="#https://lwn.net/Articles/1007887/" title="See Description">Firefox 135.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1007886/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1006378/" title="See Description">[$] The rest of the 6.14 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1007677/" title="See Description">What’s new in GTK, winter 2025 edition</a></li>
 <li><a href="#https://lwn.net/Articles/1007646/" title="See Description">Security updates for Monday</a></li>
@@ -50,12 +53,58 @@
 <li><a href="#https://lwn.net/Articles/1007252/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1006805/" title="See Description">[$] Resistance to Rust abstractions for DMA mapping</a></li>
 <li><a href="#https://lwn.net/Articles/1007032/" title="See Description">Freedesktop looking for new home for its GitLab instance</a></li>
-<li><a href="#https://lwn.net/Articles/1007024/" title="See Description">GNU C Library 2.41 released</a></li>
-<li><a href="#https://lwn.net/Articles/1006978/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1006917/" title="See Description">Thunderbird moving to monthly updates in March</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1006375/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 04 Feb 2025 17:31:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006375/" title="https://lwn.net/Articles/1006375/">[$] An update on sealed system mappings</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Jeff Xu has been working on
+<a href="https://lwn.net/ml/all/20241125202021.3684919-1-jeffxu@google.com/">
+a patch set</a> that makes certain mappings in a process's address space
+impossible to change, sealing them against tampering. This has some potential
+security benefits — mainly, making
+sure that someone cannot relocate the
+<a href="https://lwn.net/Articles/446528/">vsyscall and
+vDSO mappings</a> — but some kernel developers haven't
+been impressed with the patches.
+While the core functionality (sealing the mappings) is sound, some of the
+supporting code for enabling and disabling the new feature caused concern by
+going against the normal design for such things. Reviewers also questioned
+how this feature would interact with checkpointing and with sandboxing.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1007887/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 04 Feb 2025 15:34:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007887/" title="https://lwn.net/Articles/1007887/">Firefox 135.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://www.mozilla.org/en-US/firefox/135.0/releasenotes/">Version
+135.0</a> of the Firefox web browser has been released.  Changes include
+more languages for the translations feature, increasing roll-out of the
+credit-card autofill and AI chatbot features, and (perhaps most welcome):
+<p>
+<blockquote class="bq">
+	Firefox now includes safeguards to prevent sites from abusing the
+	history API by generating excessive history entries, which can make
+	navigating with the back and forward buttons difficult by
+	cluttering the history. This intervention ensures that such
+	entries, unless interacted with by the user, are skipped when using
+	the back and forward buttons.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1007886/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 04 Feb 2025 15:23:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007886/" title="https://lwn.net/Articles/1007886/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (openjdk-17), <b>Fedora</b> (chromium, fastd, ovn, and yq), <b>Mageia</b> (libxml2 and redis), <b>Oracle</b> (gstreamer1-plugins-base, gstreamer1-plugins-good), <b>Red Hat</b> (buildah, bzip2, galera, mariadb, grafana, keepalived, libsoup, mariadb:10.11, mariadb:10.5, mingw-glib2, podman, python-jinja2, and rsync), <b>SUSE</b> (bind, ignition, java-11-openjdk, java-17-openjdk, krb5, libxml2, openssl-1_1, orc, python-asteval, rsync, and xrdp), and <b>Ubuntu</b> (harfbuzz, libndp, libvpx, and opencv).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1006378/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 03 Feb 2025 16:45:21 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -262,56 +311,6 @@ chip in. This way, when a sponsor goes away, it's technically much simpler
 to just replace the money than change datacenter.</q>"  Various options are
 being discussed there, but any move is likely to disrupt normal services
 for a week or more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1007024/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Jan 2025 16:02:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007024/" title="https://lwn.net/Articles/1007024/">GNU C Library 2.41 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/all/6975370.R56niFO833@pinacolada">Version 2.41</a> of the GNU
-C Library has been released.  Changes include a number of test-suite
-improvements, strict-error support in the DNS stub resolver, wrappers for
-the the <a
-href="https://man7.org/linux/man-pages/man2/sched_setattr.2.html"><tt>sched_setattr()</tt>
-and <tt>sched_getattr()</tt></a> system calls,
-Unicode 16.0.0 support,
-improved C23 support,
-support for <a href="https://lwn.net/Articles/885818/">extensible restartable
-sequences</a>,
-Guarded Control Stack support on 64-bit Arm systems,
-and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1006978/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Jan 2025 14:29:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006978/" title="https://lwn.net/Articles/1006978/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (redis:7), <b>Debian</b> (bind9, chromium, flightgear, pam-u2f, and simgear), <b>Red Hat</b> (fence-agents, git-lfs, libsoup, python3.9, rsync, and traceroute), <b>Slackware</b> (bind), <b>SUSE</b> (apache2-mod_security2, corepack22, go1.24, hplip, ignition, iperf, kernel, kernel-devel-longterm, nginx, nodejs22, openvpn, owasp-modsecurity-crs, and shadow), and <b>Ubuntu</b> (bind9, jinja2, libxml2, linux-lowlatency-hwe-6.8, php7.0, tomcat6, and vlc).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1006917/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Jan 2025 14:16:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006917/" title="https://lwn.net/Articles/1006917/">Thunderbird moving to monthly updates in March</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.thunderbird.net/en-US/">Thunderbird</a> project has <a
-href="https://thunderbird.topicbox.com/groups/planning/Td58a7d8581e7d60f">announced</a>
-that it is making its <a
-href="https://developer.thunderbird.net/releases/channels">Release
-channel</a> the default download beginning with the 135.0 release in
-March. This will move users to major monthly releases instead of the
-annual major Extended Support Release (ESR) that is the current
-default.</p>
-
-<blockquote class="bq">
-One of our goals for 2025 is to increase active installations on the
-release channel to at least 20% of the total installations. At last
-check, we had 29,543 active installations on the release channel,
-compared to 20,918 on beta, and 5,941 on daily. The release channel
-installations currently account for 0.27% of the 10,784,551 total
-active installations tracked on stats.thunderbird.net.
-</blockquote>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
