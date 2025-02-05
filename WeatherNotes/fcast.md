@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A slight chance of drizzle between 3am and 5am, then a slight chance of rain. Cloudy, with a low around 38. Northeast wind
-         around 6 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Overnight</h3>A slight chance of drizzle before 5am, then a slight chance of rain. Cloudy, with a low around 38. Northeast wind around 6
+         mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
