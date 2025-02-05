@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1007689/" title="See Description">[$] Exposing concurrency bugs with a custom scheduler</a></li>
+<li><a href="#https://lwn.net/Articles/1008051/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1006375/" title="See Description">[$] An update on sealed system mappings</a></li>
 <li><a href="#https://lwn.net/Articles/1007887/" title="See Description">Firefox 135.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1007886/" title="See Description">Security updates for Tuesday</a></li>
@@ -51,11 +53,40 @@
 <li><a href="#https://lwn.net/Articles/1006916/" title="See Description">[$] A look at the openSUSE board election</a></li>
 <li><a href="#https://lwn.net/Articles/1007272/" title="See Description">The Linux Foundation on global regulations and sanctions</a></li>
 <li><a href="#https://lwn.net/Articles/1007252/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1006805/" title="See Description">[$] Resistance to Rust abstractions for DMA mapping</a></li>
-<li><a href="#https://lwn.net/Articles/1007032/" title="See Description">Freedesktop looking for new home for its GitLab instance</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1007689/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 05 Feb 2025 14:54:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007689/" title="https://lwn.net/Articles/1007689/">[$] Exposing concurrency bugs with a custom scheduler</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Jake Hillion gave
+<a href="https://fosdem.org/2025/schedule/event/fosdem-2025-4489-concurrency-testing-using-custom-linux-schedulers/">
+a presentation</a> at
+<a href="https://fosdem.org/2025/">
+FOSDEM</a> about using
+<a href="https://www.kernel.org/doc/html/next/scheduler/sched-ext.html">
+sched_ext</a>, the BPF
+scheduling framework that was introduced in kernel version 6.12, to help find
+elusive concurrency problems. In collaboration with Johannes Bechberger, he has
+built a scheduler that can reveal theoretically possible but unobserved
+concurrency bugs in test code in a few minutes. Since their scheduler only
+relies on mainline kernel features, it can theoretically be applied to any
+application that runs on Linux — although there are a number of caveats since
+the project is still in its early days.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1008051/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 05 Feb 2025 14:22:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1008051/" title="https://lwn.net/Articles/1008051/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr), <b>Fedora</b> (fastd, ovn, and yq), <b>Mageia</b> (libreoffice), <b>Slackware</b> (mozilla), <b>SUSE</b> (google-osconfig-agent, grafana, helm, and rime-schema-all), and <b>Ubuntu</b> (linux-azure, linux-azure-5.4, linux-lowlatency, openjdk-17, openjdk-21, openjdk-23, openjdk-8, and openjdk-lts).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1006375/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 04 Feb 2025 17:31:24 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -269,48 +300,6 @@ maintainers</a> in October.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libsoup), <b>Debian</b> (debian-security-support and redis), <b>Fedora</b> (expat, java-21-openjdk, lemonldap-ng, and phpMyAdmin), <b>Mageia</b> (chromium-browser-stable and git-lfs), <b>Oracle</b> (bzip2, git-lfs, libsoup, mariadb:10.11, mariadb:10.5, python-jinja2, redis, and unbound), <b>Red Hat</b> (git-lfs, libsoup, python-jinja2, rsync, and unbound), <b>SUSE</b> (buildah, chromium, google-osconfig-agent, govulncheck-vulndb, hauler, ignition, krb5, libxml2, python311-pydantic, SDL2_sound, and trivy), and <b>Ubuntu</b> (jquery, linux-azure, linux-azure-4.15, linux-azure-5.15, linux-hwe-5.4, linux-oracle, and mysql-8.0).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1006805/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Jan 2025 19:42:49 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006805/" title="https://lwn.net/Articles/1006805/">[$] Resistance to Rust abstractions for DMA mapping</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>While the path toward the ability to write device drivers in Rust has been
-anything but smooth, steady progress has been made and that goal is close
-to being achieved — for some types of drivers at least.  Device drivers
-need to be able to set up memory areas for direct memory access (DMA)
-transfers, though; that means Rust drivers will need a set of
-abstractions to interface with the kernel's DMA-mapping subsystem.  Those
-abstractions have run into resistance that has the potential to block
-progress on the Rust-for-Linux project as a whole.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1007032/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Jan 2025 17:17:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007032/" title="https://lwn.net/Articles/1007032/">Freedesktop looking for new home for its GitLab instance</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Visitors to the <a href="https://www.freedesktop.org/">freedesktop.org</a>
-<a href="https://gitlab.freedesktop.org/">GitLab instance</a> are currently being greeted with a message noting that
-the company who has been hosting it for free for nearly five years, Equinix, has
-asked that it be moved (or start being paid for) by the end of April.  The
-<a
-href="https://gitlab.freedesktop.org/freedesktop/freedesktop/-/issues/2011">issue
-ticket</a> opened by Benjamin Tissoires in order to  track the planning of a move is clear that the project is grateful for
-the gift:
-"<q>First, I'd like to thank Equinix Metal for the years of support they gave us. They were very kind and generous with us and even if it's a shame we have to move out on a short notice, all things come to an end.</q>"
-
-<p>
-The current cost for the services, much of which is for 50TB of <strike>bandwidth</strike> data transfer
-per month and a half-dozen beefy servers for running continuous-integration
-(CI) jobs, comes to around $24,000 per month.  Tissoires believes that the
-project should start paying for service somewhere, in order to avoid
-upheaval of this sort, sometimes on short or no notice. "<q>I personally
-think we better have fd.o pay for its own servers, and then have sponsors
-chip in. This way, when a sponsor goes away, it's technically much simpler
-to just replace the money than change datacenter.</q>"  Various options are
-being discussed there, but any move is likely to disrupt normal services
-for a week or more.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
