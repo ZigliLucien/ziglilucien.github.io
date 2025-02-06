@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-02-06T22:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-02-06T21:32:45+00:00</updateTime>
-		<validTimes type="str">2025-02-06T15:00:00+00:00/P7DT13H</validTimes>
+		<generatedAt type="str">2025-02-06T23:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-02-06T23:19:57+00:00</updateTime>
+		<validTimes type="str">2025-02-06T17:00:00+00:00/P7DT11H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">This Afternoon</name>
-				<startTime type="str">2025-02-06T16:00:00-06:00</startTime>
+				<startTime type="str">2025-02-06T17:00:00-06:00</startTime>
 				<endTime type="str">2025-02-06T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">46</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">40</value>
+					<value type="int">20</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">8 mph</windSpeed>
 				<windDirection type="str">N</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra,40?size=medium</icon>
-				<shortForecast type="str">Chance T-storms</shortForecast>
-				<detailedForecast type="str">A chance of thunderstorms and a chance of rain. Cloudy. High near 46, with temperatures falling to around 40 in the afternoon. North wind around 8 mph. Chance of precipitation is 40%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Light Rain</shortForecast>
+				<detailedForecast type="str">A slight chance of rain. Cloudy. High near 46, with temperatures falling to around 40 in the afternoon. North wind around 8 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
