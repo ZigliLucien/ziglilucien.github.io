@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-02-06T16:36:09+00:00</generatedAt>
-		<updateTime type="str">2025-02-06T15:03:06+00:00</updateTime>
-		<validTimes type="str">2025-02-06T09:00:00+00:00/P7DT16H</validTimes>
+		<generatedAt type="str">2025-02-06T18:36:04+00:00</generatedAt>
+		<updateTime type="str">2025-02-06T17:35:12+00:00</updateTime>
+		<validTimes type="str">2025-02-06T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2025-02-06T10:00:00-06:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2025-02-06T12:00:00-06:00</startTime>
 				<endTime type="str">2025-02-06T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">47</temperature>
@@ -64,9 +64,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">9 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn/rain,40?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy then Chance Light Rain</shortForecast>
-				<detailedForecast type="str">A chance of rain after noon. Mostly cloudy. High near 47, with temperatures falling to around 43 in the afternoon. North northwest wind around 9 mph. Chance of precipitation is 40%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain,40?size=medium</icon>
+				<shortForecast type="str">Chance Light Rain</shortForecast>
+				<detailedForecast type="str">A chance of rain. Mostly cloudy. High near 47, with temperatures falling to around 43 in the afternoon. North northwest wind around 9 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
