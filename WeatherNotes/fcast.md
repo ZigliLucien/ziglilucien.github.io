@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of rain showers between 9am and 5pm. Partly sunny. High near 54, with temperatures falling to around 43 in the afternoon.
-         North northwest wind 5 to 8 mph. Chance of precipitation is 30%.<br></div>
+         North northwest wind around 8 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
