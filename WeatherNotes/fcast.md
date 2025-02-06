@@ -2,9 +2,9 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Areas of fog and a chance of showers and thunderstorms before midnight, then patchy fog and scattered rain showers. Cloudy.
-         Low around 43, with temperatures rising to around 50 overnight. West southwest wind 7 to 10 mph, with gusts as high as 20
-         mph. Chance of precipitation is 70%.<br></div>
+         <h3>Tonight</h3>Areas of fog and a chance of showers and thunderstorms before midnight, then patchy fog and scattered rain showers. Mostly
+         cloudy. Low around 43, with temperatures rising to around 50 overnight. West southwest wind 7 to 10 mph, with gusts as high
+         as 20 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
