@@ -2,29 +2,29 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly clear, with a low around 33. North northeast wind around 5 mph.<br></div>
+         <h3>Overnight</h3>Mostly clear, with a low around 33. Northeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Patchy drizzle after 5pm. Partly sunny, with a high near 43. Northeast wind around 8 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Friday</h3>Partly sunny, with a high near 42. East northeast wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Patchy drizzle before midnight, then rain likely. Cloudy. Low around 37, with temperatures rising to around 41 overnight.
-         East wind around 7 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Friday Night</h3>Rain showers likely after midnight. Cloudy. Low around 38, with temperatures rising to around 42 overnight. East southeast
+         wind 2 to 6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Rain likely. Cloudy, with a high near 58. South wind 5 to 12 mph, with gusts as high as 18 mph. Chance of precipitation is
-         70%.<br></div>
+         <h3>Saturday</h3>Rain showers likely. Mostly cloudy, with a high near 61. South southwest wind 3 to 13 mph, with gusts as high as 23 mph. Chance
+         of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Mostly cloudy, with a low around 28. North northwest wind 9 to 14 mph, with gusts as high as 21 mph.<br></div>
+         <h3>Saturday Night</h3>Mostly cloudy, with a low around 29. North northwest wind 8 to 15 mph, with gusts as high as 24 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Partly sunny, with a high near 41. North wind around 8 mph.<br></div>
+         <h3>Sunday</h3>Partly sunny, with a high near 41. North wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -32,33 +32,35 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A chance of rain and snow. Mostly cloudy, with a high near 42. North northeast wind around 7 mph.<br></div>
+         <h3>Monday</h3>Mostly cloudy, with a high near 42. Northeast wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Rain and snow. Cloudy, with a low around 30. Northeast wind around 8 mph. New snow accumulation of 1 to 3 inches possible.<br></div>
+         <h3>Monday Night</h3>Rain and snow. Cloudy, with a low around 31. Northeast wind around 8 mph. New snow accumulation of around one inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of rain and snow. Mostly cloudy, with a high near 36. North northeast wind around 10 mph, with gusts as high as 18
-         mph. New snow accumulation of less than half an inch possible.<br></div>
+         <h3>Tuesday</h3>Freezing rain likely and rain and snow likely. Cloudy, with a high near 36. North northeast wind around 9 mph. New snow accumulation
+         of less than half an inch possible. Little or no ice accumulation expected.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of rain and snow. Mostly cloudy, with a low around 25. North northeast wind around 10 mph.<br></div>
+         <h3>Tuesday Night</h3>A slight chance of rain and snow before midnight, then a slight chance of snow and a slight chance of freezing rain. Mostly
+         cloudy, with a low around 24. North northeast wind around 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of snow before noon, then a chance of rain and snow. Mostly cloudy, with a high near 34. North northeast wind around
-         10 mph. New snow accumulation of less than one inch possible.<br></div>
+         <h3>Wednesday</h3>A slight chance of snow before noon, then a chance of rain and snow. Mostly cloudy, with a high near 35. North northeast wind
+         around 9 mph. New snow accumulation of less than one inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain and snow. Mostly cloudy, with a low around 23. North wind around 9 mph. New snow accumulation of less than
-         one inch possible.<br></div>
+         <h3>Wednesday Night</h3>Rain and snow likely. Mostly cloudy, with a low around 24. North wind around 9 mph. New snow accumulation of around one inch
+         possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Partly sunny, with a high near 33. North wind around 7 mph. New snow accumulation of less than half an inch possible.<br></div>
+         <h3>Thursday</h3>A slight chance of snow. Partly sunny, with a high near 34. North wind around 8 mph. New snow accumulation of less than one
+         inch possible.<br></div>
    </p>
 </div>
