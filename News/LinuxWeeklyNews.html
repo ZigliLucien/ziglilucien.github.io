@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1007947/" title="See Description">[$] Improved load-time checking for BPF kfuncs</a></li>
 <li><a href="#https://lwn.net/Articles/1008502/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1008386/" title="See Description">OpenInfra board calls for input on joining Linux Foundation</a></li>
 <li><a href="#https://lwn.net/Articles/1008342/" title="See Description">LibreOffice 25.2 released</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/1006375/" title="See Description">[$] An update on sealed system mappings</a></li>
 <li><a href="#https://lwn.net/Articles/1007887/" title="See Description">Firefox 135.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1007886/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1006378/" title="See Description">[$] The rest of the 6.14 merge window</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1007947/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 07 Feb 2025 15:30:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007947/" title="https://lwn.net/Articles/1007947/">[$] Improved load-time checking for BPF kfuncs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/982077/">BPF verifier</a> is charged with the
+challenging task of ensuring that a BPF program is safe for the kernel to
+run before that program is loaded.  Among many other concerns, the verifier
+must ensure that any kfuncs (kernel functions that have been exported to
+BPF programs) are called with the correct parameters and from the right
+context.  The "context" part of that enforcement is showing its age in ways
+that are hurting performance; Juntong Deng has been working on
+infrastructure to provide finer-grained control over when a kfunc can be
+called.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1008502/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 07 Feb 2025 14:16:14 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,20 +300,6 @@ credit-card autofill and AI chatbot features, and (perhaps most welcome):
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (openjdk-17), <b>Fedora</b> (chromium, fastd, ovn, and yq), <b>Mageia</b> (libxml2 and redis), <b>Oracle</b> (gstreamer1-plugins-base, gstreamer1-plugins-good), <b>Red Hat</b> (buildah, bzip2, galera, mariadb, grafana, keepalived, libsoup, mariadb:10.11, mariadb:10.5, mingw-glib2, podman, python-jinja2, and rsync), <b>SUSE</b> (bind, ignition, java-11-openjdk, java-17-openjdk, krb5, libxml2, openssl-1_1, orc, python-asteval, rsync, and xrdp), and <b>Ubuntu</b> (harfbuzz, libndp, libvpx, and opencv).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1006378/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 03 Feb 2025 16:45:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006378/" title="https://lwn.net/Articles/1006378/">[$] The rest of the 6.14 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>By the time that Linus Torvalds <a href="https://lwn.net/Articles/1007546/">released
-6.14-rc1</a> and closed the merge window for this development cycle, some
-9,307 non-merge changesets had been pulled into the mainline
-repository — the lowest level of merge-window activity seen in years.
-There were, nonetheless, a number of interesting changes in the
-5,000 commits pulled since <a href="https://lwn.net/Articles/1005651/">the
-first-half merge-window summary</a> was written.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
