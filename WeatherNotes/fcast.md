@@ -2,9 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Rain likely and patchy fog before 10am, then a chance of rain and patchy fog between 10am and 4pm. Cloudy. High near 58, with
-         temperatures falling to around 48 in the afternoon. West southwest wind 7 to 14 mph, with gusts as high as 24 mph. Chance
-         of precipitation is 60%.<br></div>
+         <h3>Today</h3>A chance of rain before 4pm. Cloudy. High near 58, with temperatures falling to around 48 in the afternoon. West southwest
+         wind 9 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
