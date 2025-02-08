@@ -2,11 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Isolated rain showers. Cloudy, with a high near 40. East wind around 6 mph. Chance of precipitation is 20%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of rain. Cloudy. Low around 38, with temperatures rising to around 40 overnight. East southeast wind around 6 mph.
+         <h3>Tonight</h3>A chance of rain. Cloudy. Low around 38, with temperatures rising to around 40 overnight. East southeast wind around 5 mph.
          Chance of precipitation is 50%.<br></div>
    </p>
    <p>
@@ -17,7 +13,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Mostly cloudy, with a low around 29. North northwest wind 8 to 16 mph, with gusts as high as 25 mph.<br></div>
+         <h3>Saturday Night</h3>Mostly cloudy. Low around 29, with temperatures rising to around 31 overnight. North northwest wind 8 to 16 mph, with gusts
+         as high as 25 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -33,7 +30,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Rain and snow. Cloudy, with a low around 31. East northeast wind around 8 mph. New snow accumulation of 1 to 2 inches possible.<br></div>
+         <h3>Monday Night</h3>Rain and snow. Cloudy, with a low around 31. East northeast wind around 8 mph. Chance of precipitation is 90%. New snow accumulation
+         of 1 to 2 inches possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -62,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday Night</h3>Mostly cloudy, with a low around 20. North northeast wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday</h3>Partly sunny, with a high near 44. East southeast wind 3 to 8 mph.<br></div>
    </p>
 </div>
