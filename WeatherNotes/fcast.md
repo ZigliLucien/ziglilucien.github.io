@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Areas of drizzle and patchy fog before 5pm. Mostly cloudy. High near 54, with temperatures falling to around 41 in the afternoon.
-         West northwest wind around 14 mph, with gusts as high as 26 mph. Chance of precipitation is 40%.<br></div>
+         West northwest wind around 14 mph, with gusts as high as 26 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
