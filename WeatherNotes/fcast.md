@@ -2,23 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Rain likely. Cloudy. Low around 36, with temperatures rising to around 40 overnight. East southeast wind around 5 mph. Chance
-         of precipitation is 60%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of rain before 8am, then rain likely and patchy fog between 8am and 10am, then a chance of rain and patchy fog between
+         <h3>Today</h3>A chance of rain before 8am, then rain likely and patchy fog between 8am and 10am, then a chance of rain and patchy fog between
          10am and 4pm. Cloudy. High near 58, with temperatures falling to around 48 in the afternoon. South southwest wind 5 to 14
          mph, with gusts as high as 24 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Mostly cloudy. Low around 29, with temperatures rising to around 31 overnight. North northwest wind 7 to 15 mph, with gusts
+         <h3>Tonight</h3>Mostly cloudy. Low around 29, with temperatures rising to around 31 overnight. North northwest wind 7 to 15 mph, with gusts
          as high as 25 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Mostly cloudy, with a high near 40. North wind around 7 mph.<br></div>
+         <h3>Sunday</h3>Mostly cloudy. High near 40, with temperatures falling to around 38 in the afternoon. North wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -35,8 +30,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Rain and snow likely. Cloudy, with a high near 36. North northeast wind 6 to 10 mph. New snow accumulation of less than half
-         an inch possible.<br></div>
+         <h3>Tuesday</h3>Rain and snow likely. Cloudy, with a high near 36. North northeast wind 6 to 10 mph. Chance of precipitation is 60%. New snow
+         accumulation of less than half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -65,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>Partly sunny, with a high near 44. East southeast wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday Night</h3>Rain likely. Mostly cloudy, with a low around 36. South southeast wind around 7 mph.<br></div>
    </p>
 </div>
