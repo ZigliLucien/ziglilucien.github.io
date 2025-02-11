@@ -2,8 +2,9 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of snow showers before 11am, then a slight chance of rain and snow showers between 11am and 1pm. Cloudy, with a high
-         near 36. Northeast wind 6 to 9 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible.<br></div>
+         <h3>Today</h3>A slight chance of snow showers before 11am, then a slight chance of rain and snow showers between 11am and 1pm. Cloudy, with
+         a high near 36. Northeast wind around 9 mph. Chance of precipitation is 20%. New snow accumulation of less than half an inch
+         possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
