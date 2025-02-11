@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-02-11T14:36:05+00:00</generatedAt>
-		<updateTime type="str">2025-02-11T10:33:51+00:00</updateTime>
-		<validTimes type="str">2025-02-11T04:00:00+00:00/P7DT21H</validTimes>
+		<generatedAt type="str">2025-02-11T15:36:04+00:00</generatedAt>
+		<updateTime type="str">2025-02-11T15:17:41+00:00</updateTime>
+		<validTimes type="str">2025-02-11T09:00:00+00:00/P7DT16H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2025-02-11T08:00:00-06:00</startTime>
+				<startTime type="str">2025-02-11T09:00:00-06:00</startTime>
 				<endTime type="str">2025-02-11T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">36</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">70</value>
+					<value type="int">30</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">9 mph</windSpeed>
+				<windSpeed type="str">6 to 9 mph</windSpeed>
 				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sleet,70/snow,30?size=medium</icon>
-				<shortForecast type="str">Chance Light Snow</shortForecast>
-				<detailedForecast type="str">Snow likely before 10am, then a chance of snow and a slight chance of sleet between 10am and noon, then a chance of rain and snow between noon and 5pm. Cloudy, with a high near 36. Northeast wind around 9 mph. Chance of precipitation is 70%. New snow accumulation of less than one inch possible.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/snow,30/snow,20?size=medium</icon>
+				<shortForecast type="str">Chance Snow Showers</shortForecast>
+				<detailedForecast type="str">A chance of snow showers before 11am, then a slight chance of rain and snow showers between 11am and 1pm. Cloudy, with a high near 36. Northeast wind 6 to 9 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
