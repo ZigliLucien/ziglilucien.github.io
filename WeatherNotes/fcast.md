@@ -2,10 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Mostly cloudy. High near 43, with temperatures falling to around 41 in the afternoon. East northeast wind around 6 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>A chance of snow showers between 11pm and 2am, then rain and snow showers. Cloudy, with a low around 32. East northeast wind
          around 6 mph. Chance of precipitation is 80%. New snow accumulation of less than one inch possible.<br></div>
    </p>
@@ -17,8 +13,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of snow showers before 7pm, then a chance of rain showers. Cloudy, with a low around 31. Northeast wind around 8
-         mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tuesday Night</h3>A chance of snow showers before 7pm, then a chance of rain showers. Cloudy. Low around 31, with temperatures rising to around
+         33 overnight. Northeast wind around 8 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +57,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday Night</h3>Partly cloudy, with a low around 13. North northwest wind 5 to 10 mph, with gusts as high as 18 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Washington's Birthday</h3>Mostly sunny, with a high near 32. West northwest wind around 6 mph.<br></div>
    </p>
 </div>
