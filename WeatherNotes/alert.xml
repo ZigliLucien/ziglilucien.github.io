@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1adc9d69c560fafe4bac9d4d421c789b050ffe1.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.06d7263986bdc8fadf0ee2ed5a448f655489737a.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1adc9d69c560fafe4bac9d4d421c789b050ffe1.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.06d7263986bdc8fadf0ee2ed5a448f655489737a.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.c1adc9d69c560fafe4bac9d4d421c789b050ffe1.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.06d7263986bdc8fadf0ee2ed5a448f655489737a.001.1</id>
 				<areaDesc type="str">Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Union; Webster; Henderson; Daviess; McLean; Perry; Bollinger; Cape Girardeau; Wayne; Carter</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -108,14 +108,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2025-02-10T13:43:00-06:00</sent>
-				<effective type="str">2025-02-10T13:43:00-06:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1adc9d69c560fafe4bac9d4d421c789b050ffe1.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.c1adc9d69c560fafe4bac9d4d421c789b050ffe1.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-02-10T13:43:00-06:00</sent>
+					</item>
+				</references>
+				<sent type="str">2025-02-10T21:33:00-06:00</sent>
+				<effective type="str">2025-02-10T21:33:00-06:00</effective>
 				<onset type="str">2025-02-11T00:00:00-06:00</onset>
-				<expires type="str">2025-02-11T00:00:00-06:00</expires>
+				<expires type="str">2025-02-11T05:45:00-06:00</expires>
 				<ends type="str">2025-02-11T18:00:00-06:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -123,15 +130,14 @@
 				<event type="str">Winter Weather Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Winter Weather Advisory issued February 10 at 1:43PM CST until February 11 at 6:00PM CST by NWS Paducah KY</headline>
+				<headline type="str">Winter Weather Advisory issued February 10 at 9:33PM CST until February 11 at 6:00PM CST by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Mixed precipitation expected. Total snow accumulations up
 to two inches and ice accumulations around a light glaze.
 
-* WHERE...Portions of southern Illinois, southwest Indiana, western
-Kentucky, and southeast Missouri.
+* WHERE...Southwest Indiana and portions of southern Illinois,
+western Kentucky, and southeast Missouri.
 
-* WHEN...From midnight CST /1 AM EST/ tonight to 6 PM CST /7 PM EST/
-Tuesday.
+* WHEN...Until 6 PM CST /7 PM EST/ Tuesday.
 
 * IMPACTS...Plan on slippery road conditions. The hazardous
 conditions could impact the Tuesday morning and evening commutes.</description>
@@ -143,10 +149,10 @@ conditions can be obtained by visiting www.weather.gov/pah/roads</instruction>
 						<item type="str">WSWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS43 KPAH 101943</item>
+						<item type="str">WWUS43 KPAH 110333</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WINTER WEATHER ADVISORY IN EFFECT FROM MIDNIGHT CST /1 AM EST/ TONIGHT TO 6 PM CST /7 PM EST/ TUESDAY</item>
+						<item type="str">WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL 6 PM CST /7 PM EST/ TUESDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -154,7 +160,7 @@ conditions can be obtained by visiting www.weather.gov/pah/roads</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.WW.Y.0003.250211T0600Z-250212T0000Z/</item>
+						<item type="str">/O.CON.KPAH.WW.Y.0003.250211T0600Z-250212T0000Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-02-12T00:00:00+00:00</item>
@@ -164,5 +170,5 @@ conditions can be obtained by visiting www.weather.gov/pah/roads</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-02-10T21:00:00+00:00</updated>
+	<updated type="str">2025-02-11T03:33:41+00:00</updated>
 </all>
