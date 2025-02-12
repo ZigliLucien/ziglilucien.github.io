@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-02-12T11:36:03+00:00</generatedAt>
+		<generatedAt type="str">2025-02-12T12:36:03+00:00</generatedAt>
 		<updateTime type="str">2025-02-12T11:03:01+00:00</updateTime>
 		<validTimes type="str">2025-02-12T05:00:00+00:00/P7DT20H</validTimes>
 		<elevation type="dict">
@@ -51,26 +51,7 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Overnight</name>
-				<startTime type="str">2025-02-12T05:00:00-06:00</startTime>
-				<endTime type="str">2025-02-12T06:00:00-06:00</endTime>
-				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">32</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="str"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="null"/>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">7 mph</windSpeed>
-				<windDirection type="str">ENE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/ovc?size=medium</icon>
-				<shortForecast type="str">Cloudy</shortForecast>
-				<detailedForecast type="str">Cloudy, with a low around 32. East northeast wind around 7 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
-				<name type="str">Wednesday</name>
+				<name type="str">Today</name>
 				<startTime type="str">2025-02-12T06:00:00-06:00</startTime>
 				<endTime type="str">2025-02-12T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
@@ -88,8 +69,8 @@
 				<detailedForecast type="str">Patchy fog between 7am and 8am, then rain and areas of fog. Cloudy, with a high near 36. North northeast wind around 7 mph. Chance of precipitation is 90%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
-				<name type="str">Wednesday Night</name>
+				<number type="int">2</number>
+				<name type="str">Tonight</name>
 				<startTime type="str">2025-02-12T18:00:00-06:00</startTime>
 				<endTime type="str">2025-02-13T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
@@ -107,7 +88,7 @@
 				<detailedForecast type="str">Rain likely and patchy fog before 10pm. Mostly cloudy. Low around 20, with temperatures rising to around 23 overnight. Northwest wind 7 to 13 mph, with gusts as high as 21 mph. Chance of precipitation is 70%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Thursday</name>
 				<startTime type="str">2025-02-13T06:00:00-06:00</startTime>
 				<endTime type="str">2025-02-13T18:00:00-06:00</endTime>
@@ -123,10 +104,10 @@
 				<windDirection type="str">NW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 30. Northwest wind 5 to 13 mph, with gusts as high as 21 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly sunny. High near 30, with temperatures falling to around 26 in the afternoon. Northwest wind 5 to 13 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Thursday Night</name>
 				<startTime type="str">2025-02-13T18:00:00-06:00</startTime>
 				<endTime type="str">2025-02-14T06:00:00-06:00</endTime>
@@ -145,7 +126,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 17. Northeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Friday</name>
 				<startTime type="str">2025-02-14T06:00:00-06:00</startTime>
 				<endTime type="str">2025-02-14T18:00:00-06:00</endTime>
@@ -164,7 +145,7 @@
 				<detailedForecast type="str">Partly sunny, with a high near 41. Southeast wind 2 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Friday Night</name>
 				<startTime type="str">2025-02-14T18:00:00-06:00</startTime>
 				<endTime type="str">2025-02-15T06:00:00-06:00</endTime>
@@ -183,7 +164,7 @@
 				<detailedForecast type="str">Rain. Cloudy, with a low around 36. South wind 7 to 12 mph, with gusts as high as 22 mph. Chance of precipitation is 90%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Saturday</name>
 				<startTime type="str">2025-02-15T06:00:00-06:00</startTime>
 				<endTime type="str">2025-02-15T18:00:00-06:00</endTime>
@@ -193,16 +174,16 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="null"/>
+					<value type="int">90</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain,90?size=medium</icon>
 				<shortForecast type="str">Rain</shortForecast>
-				<detailedForecast type="str">Rain. Cloudy, with a high near 49. East wind around 7 mph.</detailedForecast>
+				<detailedForecast type="str">Rain. Cloudy, with a high near 49. East wind around 7 mph. Chance of precipitation is 90%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Saturday Night</name>
 				<startTime type="str">2025-02-15T18:00:00-06:00</startTime>
 				<endTime type="str">2025-02-16T06:00:00-06:00</endTime>
@@ -221,7 +202,7 @@
 				<detailedForecast type="str">Rain before midnight, then rain and snow likely. Cloudy, with a low around 25. North northwest wind 8 to 21 mph, with gusts as high as 32 mph. New snow accumulation of less than half an inch possible.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Sunday</name>
 				<startTime type="str">2025-02-16T06:00:00-06:00</startTime>
 				<endTime type="str">2025-02-16T18:00:00-06:00</endTime>
@@ -240,7 +221,7 @@
 				<detailedForecast type="str">A slight chance of snow before noon. Mostly cloudy, with a high near 29. Northwest wind 13 to 21 mph, with gusts as high as 32 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Sunday Night</name>
 				<startTime type="str">2025-02-16T18:00:00-06:00</startTime>
 				<endTime type="str">2025-02-17T06:00:00-06:00</endTime>
@@ -259,7 +240,7 @@
 				<detailedForecast type="str">Partly cloudy, with a low around 12. North northwest wind 5 to 12 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">12</number>
+				<number type="int">11</number>
 				<name type="str">Washington's Birthday</name>
 				<startTime type="str">2025-02-17T06:00:00-06:00</startTime>
 				<endTime type="str">2025-02-17T18:00:00-06:00</endTime>
@@ -278,7 +259,7 @@
 				<detailedForecast type="str">Mostly sunny, with a high near 30. South southeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">13</number>
+				<number type="int">12</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2025-02-17T18:00:00-06:00</startTime>
 				<endTime type="str">2025-02-18T06:00:00-06:00</endTime>
@@ -297,7 +278,7 @@
 				<detailedForecast type="str">Mostly cloudy, with a low around 18. East northeast wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Tuesday</name>
 				<startTime type="str">2025-02-18T06:00:00-06:00</startTime>
 				<endTime type="str">2025-02-18T18:00:00-06:00</endTime>
@@ -314,6 +295,25 @@
 				<icon type="str">https://api.weather.gov/icons/land/day/bkn/snow?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy then Chance Rain And Snow</shortForecast>
 				<detailedForecast type="str">A chance of rain and snow after noon. Mostly cloudy, with a high near 32. Northeast wind around 8 mph. New snow accumulation of less than half an inch possible.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Tuesday Night</name>
+				<startTime type="str">2025-02-18T18:00:00-06:00</startTime>
+				<endTime type="str">2025-02-19T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">16</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="str"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="null"/>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">8 to 12 mph</windSpeed>
+				<windDirection type="str">NNE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow?size=medium</icon>
+				<shortForecast type="str">Snow Likely</shortForecast>
+				<detailedForecast type="str">Snow likely. Cloudy, with a low around 16. North northeast wind 8 to 12 mph, with gusts as high as 20 mph. New snow accumulation of 2 to 4 inches possible.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
