@@ -2,16 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Cloudy, with a low around 32. Northeast wind around 7 mph.<br></div>
+         <h3>Overnight</h3>Cloudy, with a low around 32. East northeast wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Rain after 8am. Cloudy, with a high near 36. North northeast wind around 7 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Wednesday</h3>Patchy fog between 7am and 8am, then rain and areas of fog. Cloudy, with a high near 36. North northeast wind around 7 mph.
+         Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Rain likely before 9pm. Mostly cloudy. Low around 20, with temperatures rising to around 23 overnight. Northwest wind 7 to
-         13 mph, with gusts as high as 21 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Wednesday Night</h3>Rain likely and patchy fog before 10pm. Mostly cloudy. Low around 20, with temperatures rising to around 23 overnight. Northwest
+         wind 7 to 13 mph, with gusts as high as 21 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

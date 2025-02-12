@@ -1,10 +1,102 @@
 <?xml version="1.0" ?>
 <all>
-	<key name="@context" type="dict">
-		<key name="@version" type="str">1.1</key>
+	<key name="@context" type="list">
+		<item type="str">https://geojson.org/geojson-ld/geojson-context.jsonld</item>
+		<item type="dict">
+			<key name="@version" type="str">1.1</key>
+			<wx type="str">https://api.weather.gov/ontology#</wx>
+			<key name="@vocab" type="str">https://api.weather.gov/ontology#</key>
+		</item>
 	</key>
 	<type type="str">FeatureCollection</type>
-	<features type="list"/>
+	<features type="list">
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0483113cdd038bca754145e6247b60bd4dea12f5.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="null"/>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0483113cdd038bca754145e6247b60bd4dea12f5.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.0483113cdd038bca754145e6247b60bd4dea12f5.001.1</id>
+				<areaDesc type="str">Jefferson; Perry; Jackson; Perry; Bollinger; Wayne; Carter</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017081</item>
+						<item type="str">017145</item>
+						<item type="str">017077</item>
+						<item type="str">029157</item>
+						<item type="str">029017</item>
+						<item type="str">029223</item>
+						<item type="str">029035</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ075</item>
+						<item type="str">ILZ080</item>
+						<item type="str">ILZ084</item>
+						<item type="str">MOZ076</item>
+						<item type="str">MOZ086</item>
+						<item type="str">MOZ100</item>
+						<item type="str">MOZ107</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ075</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2025-02-12T04:53:00-06:00</sent>
+				<effective type="str">2025-02-12T04:53:00-06:00</effective>
+				<onset type="str">2025-02-12T04:53:00-06:00</onset>
+				<expires type="str">2025-02-12T10:00:00-06:00</expires>
+				<ends type="null"/>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Observed</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Special Weather Statement</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Special Weather Statement issued February 12 at 4:53AM CST by NWS Paducah KY</headline>
+				<description type="str">Light rain is expected to move into the area this morning around
+sunrise, then linger through early this evening. Temperatures will
+hover near freezing through noon, which may allow for a light
+glaze to develop on elevated surfaces such as untreated bridges
+and overpasses. Temperatures are expected to warm above freezing
+this afternoon, which will allow any ice accumulation to melt off.
+
+If traveling this morning, allow extra time to reach your
+destination and be prepared for sudden changes in road conditions.</description>
+				<instruction type="null"/>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">SPSPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS83 KPAH 121053</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">Slippery Conditions Possible this Morning</item>
+					</NWSheadline>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+				</parameters>
+			</properties>
+		</item>
+	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-02-11T18:00:00+00:00</updated>
+	<updated type="str">2025-02-12T10:55:54+00:00</updated>
 </all>
