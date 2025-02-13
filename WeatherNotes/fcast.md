@@ -2,11 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Rain and patchy fog. Cloudy. High near 37, with temperatures falling to around 34 in the afternoon. North northwest wind around
-         6 mph. Chance of precipitation is 90%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>Rain likely and patchy fog before 7pm, then widespread drizzle and patchy fog between 7pm and 9pm, then patchy drizzle and
          patchy fog and a slight chance of freezing drizzle between 9pm and 10pm. Mostly cloudy. Low around 21, with temperatures rising
          to around 25 overnight. Northwest wind 7 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 70%.<br></div>
@@ -36,7 +31,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday Night</h3>Rain and a slight chance of thunderstorms before midnight, then a chance of rain and snow. Cloudy, with a low around 26. North
-         northwest wind 6 to 21 mph, with gusts as high as 32 mph. New snow accumulation of less than half an inch possible.<br></div>
+         northwest wind 6 to 21 mph, with gusts as high as 32 mph. Chance of precipitation is 80%. New snow accumulation of less than
+         half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -64,5 +60,10 @@
       <div style="font-size:120%">
          <h3>Tuesday Night</h3>A chance of snow. Cloudy, with a low around 16. North northeast wind around 10 mph. New snow accumulation of 1 to 3 inches
          possible.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday</h3>A chance of snow. Partly sunny, with a high near 28. North wind around 10 mph, with gusts as high as 18 mph. New snow accumulation
+         of less than half an inch possible.<br></div>
    </p>
 </div>
