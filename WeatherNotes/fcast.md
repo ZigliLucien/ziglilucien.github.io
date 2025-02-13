@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Patchy drizzle and patchy fog and a slight chance of freezing drizzle before 10pm. Mostly cloudy. Low around 21, with temperatures
-         rising to around 25 overnight. Northwest wind 9 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Tonight</h3>Mostly cloudy. Low around 21, with temperatures rising to around 25 overnight. Northwest wind 8 to 13 mph, with gusts as high
+         as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
