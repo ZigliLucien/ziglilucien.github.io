@@ -2,24 +2,20 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Showers and thunderstorms. Cloudy. Low around 33, with temperatures rising to around 42 overnight. South wind around 12 mph.
-         Chance of precipitation is 90%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Saturday</h3>Rain showers before 9am, then a chance of showers and thunderstorms between 9am and noon, then scattered showers and thunderstorms
+         <h3>Today</h3>Rain showers before 9am, then a chance of showers and thunderstorms between 9am and noon, then scattered showers and thunderstorms
          between noon and 1pm, then showers and thunderstorms. Cloudy. High near 50, with temperatures falling to around 48 in the
          afternoon. South wind 3 to 9 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Showers and thunderstorms before 2am, then a slight chance of sleet and rain and snow showers. Cloudy. Low around 27, with
+         <h3>Tonight</h3>Showers and thunderstorms before 2am, then a slight chance of sleet and rain and snow showers. Cloudy. Low around 27, with
          temperatures rising to around 30 overnight. North northwest wind 5 to 21 mph, with gusts as high as 32 mph. Chance of precipitation
          is 90%. New snow accumulation of less than half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Mostly cloudy, with a high near 32. Northwest wind 15 to 20 mph, with gusts as high as 32 mph.<br></div>
+         <h3>Sunday</h3>Mostly cloudy. High near 32, with temperatures falling to around 29 in the afternoon. Northwest wind 15 to 20 mph, with gusts
+         as high as 32 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -35,8 +31,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Snow likely. Cloudy, with a high near 25. North northeast wind around 13 mph, with gusts as high as 22 mph. New snow accumulation
-         of 1 to 2 inches possible.<br></div>
+         <h3>Tuesday</h3>Snow likely. Cloudy, with a high near 25. North northeast wind around 13 mph, with gusts as high as 22 mph. Chance of precipitation
+         is 70%. New snow accumulation of 1 to 2 inches possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -64,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>Mostly sunny, with a high near 25. North northwest wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday Night</h3>Partly cloudy, with a low around 11. West northwest wind around 2 mph.<br></div>
    </p>
 </div>
