@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4526660b85ccf1544885dc1693eb86c2bd570614.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9d8047b4982c525dd1a5ab1d67153239c704a41.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4526660b85ccf1544885dc1693eb86c2bd570614.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9d8047b4982c525dd1a5ab1d67153239c704a41.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.4526660b85ccf1544885dc1693eb86c2bd570614.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.f9d8047b4982c525dd1a5ab1d67153239c704a41.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -201,14 +201,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2025-02-16T13:33:00-06:00</sent>
-				<effective type="str">2025-02-16T13:33:00-06:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4526660b85ccf1544885dc1693eb86c2bd570614.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.4526660b85ccf1544885dc1693eb86c2bd570614.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-02-16T13:33:00-06:00</sent>
+					</item>
+				</references>
+				<sent type="str">2025-02-16T13:57:00-06:00</sent>
+				<effective type="str">2025-02-16T13:57:00-06:00</effective>
 				<onset type="str">2025-02-18T03:00:00-06:00</onset>
 				<expires type="str">2025-02-17T04:00:00-06:00</expires>
 				<ends type="str">2025-02-19T09:00:00-06:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Severe</severity>
 				<certainty type="str">Possible</certainty>
@@ -216,14 +223,14 @@
 				<event type="str">Winter Storm Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Winter Storm Watch issued February 16 at 1:33PM CST until February 19 at 9:00AM CST by NWS Paducah KY</headline>
+				<headline type="str">Winter Storm Watch issued February 16 at 1:57PM CST until February 19 at 9:00AM CST by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Heavy snow possible. Total snow accumulations between 4 and
 9 inches possible.
 
 * WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From late Monday night through Wednesday morning.
+* WHEN...From Tuesday morning through Wednesday morning.
 
 * IMPACTS...Roads, and especially bridges and overpasses, will
 likely become slick and hazardous. Travel could be very difficult.
@@ -250,10 +257,10 @@ winterized and in good working order.</instruction>
 						<item type="str">WSWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS43 KPAH 161933</item>
+						<item type="str">WWUS43 KPAH 161957</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WINTER STORM WATCH IN EFFECT FROM LATE MONDAY NIGHT THROUGH WEDNESDAY MORNING</item>
+						<item type="str">WINTER STORM WATCH REMAINS IN EFFECT FROM TUESDAY MORNING THROUGH WEDNESDAY MORNING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -264,7 +271,7 @@ winterized and in good working order.</instruction>
 						<item type="str">WXR</item>
 					</EAS-ORG>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.WS.A.0003.250218T0900Z-250219T1500Z/</item>
+						<item type="str">/O.CON.KPAH.WS.A.0003.250218T0900Z-250219T1500Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-02-19T15:00:00+00:00</item>
@@ -274,5 +281,5 @@ winterized and in good working order.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-02-16T19:33:40+00:00</updated>
+	<updated type="str">2025-02-16T19:57:46+00:00</updated>
 </all>
