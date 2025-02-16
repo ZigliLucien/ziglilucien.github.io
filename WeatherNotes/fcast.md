@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Rain showers before 2am, then rain and snow showers. Cloudy. Low around 26, with temperatures rising to around 29 overnight.
-         North northwest wind 5 to 21 mph, with gusts as high as 32 mph. Chance of precipitation is 100%. New snow accumulation of
-         less than one inch possible.<br></div>
+         North northwest wind 6 to 21 mph, with gusts as high as 32 mph. Chance of precipitation is 90%. New snow accumulation of less
+         than one inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
