@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Mostly cloudy. High near 32, with temperatures falling to around 29 in the afternoon. Northwest wind 13 to 17 mph, with gusts
-         as high as 32 mph.<br></div>
+         as high as 31 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
