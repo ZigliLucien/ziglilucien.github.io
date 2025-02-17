@@ -11,20 +11,16 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8622547c22ad8f321523eece0a307bc2df9f4ba1.002.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eeb2e70337af713433fc8e9f8686dbd0fd9c7b84.001.2</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8622547c22ad8f321523eece0a307bc2df9f4ba1.002.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eeb2e70337af713433fc8e9f8686dbd0fd9c7b84.001.2</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.8622547c22ad8f321523eece0a307bc2df9f4ba1.002.1</id>
-				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.eeb2e70337af713433fc8e9f8686dbd0fd9c7b84.001.2</id>
+				<areaDesc type="str">Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
-						<item type="str">017081</item>
-						<item type="str">017191</item>
-						<item type="str">017047</item>
-						<item type="str">017185</item>
 						<item type="str">017145</item>
 						<item type="str">017055</item>
 						<item type="str">017065</item>
@@ -40,8 +36,6 @@
 						<item type="str">017003</item>
 						<item type="str">017153</item>
 						<item type="str">017127</item>
-						<item type="str">018051</item>
-						<item type="str">018125</item>
 						<item type="str">018129</item>
 						<item type="str">018163</item>
 						<item type="str">018173</item>
@@ -70,10 +64,6 @@
 						<item type="str">021219</item>
 					</SAME>
 					<UGC type="list">
-						<item type="str">ILZ075</item>
-						<item type="str">ILZ076</item>
-						<item type="str">ILZ077</item>
-						<item type="str">ILZ078</item>
 						<item type="str">ILZ080</item>
 						<item type="str">ILZ081</item>
 						<item type="str">ILZ082</item>
@@ -89,8 +79,6 @@
 						<item type="str">ILZ092</item>
 						<item type="str">ILZ093</item>
 						<item type="str">ILZ094</item>
-						<item type="str">INZ081</item>
-						<item type="str">INZ082</item>
 						<item type="str">INZ085</item>
 						<item type="str">INZ086</item>
 						<item type="str">INZ087</item>
@@ -120,10 +108,6 @@
 					</UGC>
 				</geocode>
 				<affectedZones type="list">
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ075</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ076</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ077</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ078</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ081</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ082</item>
@@ -139,8 +123,6 @@
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ093</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ094</item>
-					<item type="str">https://api.weather.gov/zones/forecast/INZ081</item>
-					<item type="str">https://api.weather.gov/zones/forecast/INZ082</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ085</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ086</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ087</item>
@@ -168,72 +150,51 @@
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ021</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ022</item>
 				</affectedZones>
-				<references type="list">
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4526660b85ccf1544885dc1693eb86c2bd570614.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.4526660b85ccf1544885dc1693eb86c2bd570614.001.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-02-16T13:33:00-06:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9d8047b4982c525dd1a5ab1d67153239c704a41.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.f9d8047b4982c525dd1a5ab1d67153239c704a41.001.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-02-16T13:57:00-06:00</sent>
-					</item>
-				</references>
-				<sent type="str">2025-02-17T02:20:00-06:00</sent>
-				<effective type="str">2025-02-17T02:20:00-06:00</effective>
-				<onset type="str">2025-02-18T09:00:00-06:00</onset>
-				<expires type="str">2025-02-17T17:00:00-06:00</expires>
+				<references type="list"/>
+				<sent type="str">2025-02-17T13:47:00-06:00</sent>
+				<effective type="str">2025-02-17T13:47:00-06:00</effective>
+				<onset type="str">2025-02-18T12:00:00-06:00</onset>
+				<expires type="str">2025-02-18T01:15:00-06:00</expires>
 				<ends type="str">2025-02-19T09:00:00-06:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Update</messageType>
+				<messageType type="str">Alert</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Severe</severity>
-				<certainty type="str">Possible</certainty>
-				<urgency type="str">Future</urgency>
-				<event type="str">Winter Storm Watch</event>
+				<certainty type="str">Likely</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Winter Storm Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Winter Storm Watch issued February 17 at 2:20AM CST until February 19 at 9:00AM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heavy snow possible. Total snow accumulations between 3 and
-5 inches possible.
+				<headline type="str">Winter Storm Warning issued February 17 at 1:47PM CST until February 19 at 9:00AM CST by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Heavy snow expected. Total snow accumulations between 4 and
+6 inches with locally higher amounts possible.
 
 * WHERE...Portions of southern Illinois, southwest Indiana, and
 western Kentucky.
 
-* WHEN...From Tuesday morning through Wednesday morning.
+* WHEN...From noon Tuesday to 9 AM CST Wednesday.
 
-* IMPACTS...Roads, and especially bridges and overpasses, will
-likely become slick and hazardous. Plan on slippery road
-conditions. The hazardous conditions could impact the Tuesday
-evening and Wednesday morning commutes.
+* IMPACTS...Plan on slippery road conditions. The hazardous
+conditions could impact the Tuesday evening and Wednesday morning
+commutes.
 
-* ADDITIONAL DETAILS...Dangerous cold temperatures will follow after
-snow ends. Low temperatures in the teens Wednesday morning and
-single digits Thursday morning will cause wind chills to drop
-below zero. The greatest impacts from the extreme cold will occur
-Thursday morning.</description>
-				<instruction type="str">Monitor the latest forecasts for updates on this situation.
-
-Persons should delay all travel if possible. If travel is absolutely
-necessary, drive with extreme caution and be prepared for sudden
-changes in visibility. Leave plenty of room between you and the
-motorist ahead of you, and allow extra time to reach your
-destination. Avoid sudden braking or acceleration, and be especially
-cautious on hills or when making turns. Make sure your car is
-winterized and in good working order.</instruction>
+* ADDITIONAL DETAILS...Light snow is possible early Tuesday which
+may bring light accumulations and bring hazardous travel
+conditions. However, the heavy snowfall is expected later in the
+afternoon and into the night.</description>
+				<instruction type="str">If you must travel, keep an extra flashlight, food, and water in
+your vehicle in case of an emergency. The latest road conditions can
+be obtained by visiting www.weather.gov/pah/roads</instruction>
 				<response type="str">Prepare</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">WSWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS43 KPAH 170820</item>
+						<item type="str">WWUS43 KPAH 171947</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WINTER STORM WATCH NOW IN EFFECT FROM TUESDAY MORNING THROUGH WEDNESDAY MORNING</item>
+						<item type="str">WINTER STORM WARNING IN EFFECT FROM NOON TUESDAY TO 9 AM CST WEDNESDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -244,7 +205,7 @@ winterized and in good working order.</instruction>
 						<item type="str">WXR</item>
 					</EAS-ORG>
 					<VTEC type="list">
-						<item type="str">/O.EXT.KPAH.WS.A.0003.250218T1500Z-250219T1500Z/</item>
+						<item type="str">/O.EXB.KPAH.WS.W.0003.250218T1800Z-250219T1500Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-02-19T15:00:00+00:00</item>
@@ -254,5 +215,5 @@ winterized and in good working order.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-02-17T08:21:17+00:00</updated>
+	<updated type="str">2025-02-17T19:47:24+00:00</updated>
 </all>
