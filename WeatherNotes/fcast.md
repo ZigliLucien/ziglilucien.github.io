@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Washington's Birthday</h3>Partly sunny, with a high near 29. North northeast wind around 2 mph.<br></div>
+         <h3>Washington's Birthday</h3>Mostly cloudy, with a high near 29. North northeast wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
