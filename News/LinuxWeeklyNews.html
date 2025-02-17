@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1010352/" title="See Description">Three stable kernels under the sky</a></li>
+<li><a href="#https://lwn.net/Articles/1010328/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1010232/" title="See Description">Kernel prepatch 6.14-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/1008897/" title="See Description">[$] Fighting the AI scraperbot scourge</a></li>
 <li><a href="#https://lwn.net/Articles/1007303/" title="See Description">[$] The evolution of Memcached</a></li>
@@ -51,11 +53,34 @@
 <li><a href="#https://lwn.net/Articles/1009011/" title="See Description">[$] Milliwatt machine learning with emlearn</a></li>
 <li><a href="#https://lwn.net/Articles/1009177/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1007907/" title="See Description">[$] Rewriting essential Linux packages in Rust</a></li>
-<li><a href="#https://lwn.net/Articles/1008399/" title="See Description">[$] Smarter IRQ suspension in the networking stack</a></li>
-<li><a href="#https://lwn.net/Articles/1008971/" title="See Description">Plasma 6.3 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1010352/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Feb 2025 14:55:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1010352/" title="https://lwn.net/Articles/1010352/">Three stable kernels under the sky</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Greg Kroah-Hartman has released three more stable kernels:
+<a href="https://lwn.net/Articles/1010354/">6.13.3</a>,
+<a href="https://lwn.net/Articles/1010356/">6.12.14</a>, and
+<a href="https://lwn.net/Articles/1010357/">6.6.78</a>.
+There was a bit of confusion that resulted in the patch for
+<a href="https://www.cve.org/CVERecord/?id=CVE-2025-21687">CVE 2025-21687</a>
+getting applied twice — but that doesn't result in any problems for users of the
+kernel, just a bit of extra noise in the CVE database, so Kroah-Hartman has
+decided to leave the releases as-is instead of rushing another point release.
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1010328/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Feb 2025 12:35:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1010328/" title="https://lwn.net/Articles/1010328/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, gcc, libxml2, nodejs:18, and nodejs:20), <b>Debian</b> (freerdp2, golang-glog, trafficserver, and tryton-client), <b>Fedora</b> (chromium, krb5, libheif, microcode_ctl, nginx, nginx-mod-fancyindex, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, and webkitgtk), <b>Mageia</b> (ffmpeg, golang, postgresql13 and postgresql15, and python-zipp), <b>Oracle</b> (container-tools:ol8, gcc, gcc-toolset-13-gcc, gcc-toolset-14-gcc, kernel, libxml2, and nodejs:20), <b>Red Hat</b> (gcc, idm:DL1, and ipa), <b>SUSE</b> (buildah, chromium, glibc, kernel, kernel-firmware-all-20250206, libecpg6, postgresql15, python, python3, python311, and ruby3.4-rubygem-rack), and <b>Ubuntu</b> (intel-microcode).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1010232/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 16 Feb 2025 23:02:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -252,42 +277,6 @@ replacements for the tools Linux users depend on. At FOSDEM, Ledru
 announced that the uutils project is setting its sights even
 higher.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1008399/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 11 Feb 2025 15:28:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1008399/" title="https://lwn.net/Articles/1008399/">[$] Smarter IRQ suspension in the networking stack</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>High-performance networking is a highly tuned activity; the amount of time
-available to deal with each packet may be measured in nanoseconds, so care
-must be taken to avoid anything that might slow the process down.
-Recently, there has been a fair amount of attention given to <a
-href="https://lwn.net/ml/all/20241021015311.95468-1-jdamato@fastly.com/">a patch set
-merged for 6.13</a> that, it is claimed, can improve processing efficiency
-(and, thus, power savings)
-in data centers by as much as 30%.  The change itself, contributed by Joe
-Damato and Martin Karsten, is a relatively small tweak to existing
-optimization techniques; it shows just how much care is needed to optimize
-a high-bandwidth server.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1008971/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 11 Feb 2025 14:54:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1008971/" title="https://lwn.net/Articles/1008971/">Plasma 6.3 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://kde.org/announcements/plasma/6/6.3.0/">Version 6.3</a> of
-the Plasma desktop has been released.
-<p>
-<blockquote class="bq">
-	One year on, with the teething problems a major new release
-	inevitably brings firmly behind us, Plasma's developers have worked
-	on fine-tuning, squashing bugs and adding features to Plasma 6 —
-	turning it into the best desktop environment for everyone.
-</blockquote>
-<p>
-Changes include improved support for
-drawing tablets, better fractional-scaling support, and more.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
