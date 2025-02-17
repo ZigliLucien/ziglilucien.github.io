@@ -11,14 +11,14 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9d8047b4982c525dd1a5ab1d67153239c704a41.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8622547c22ad8f321523eece0a307bc2df9f4ba1.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9d8047b4982c525dd1a5ab1d67153239c704a41.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8622547c22ad8f321523eece0a307bc2df9f4ba1.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.f9d8047b4982c525dd1a5ab1d67153239c704a41.001.1</id>
-				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.8622547c22ad8f321523eece0a307bc2df9f4ba1.002.1</id>
+				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
 						<item type="str">017081</item>
@@ -68,17 +68,6 @@
 						<item type="str">021149</item>
 						<item type="str">021177</item>
 						<item type="str">021219</item>
-						<item type="str">029157</item>
-						<item type="str">029017</item>
-						<item type="str">029031</item>
-						<item type="str">029223</item>
-						<item type="str">029035</item>
-						<item type="str">029181</item>
-						<item type="str">029023</item>
-						<item type="str">029207</item>
-						<item type="str">029201</item>
-						<item type="str">029133</item>
-						<item type="str">029143</item>
 					</SAME>
 					<UGC type="list">
 						<item type="str">ILZ075</item>
@@ -128,17 +117,6 @@
 						<item type="str">KYZ020</item>
 						<item type="str">KYZ021</item>
 						<item type="str">KYZ022</item>
-						<item type="str">MOZ076</item>
-						<item type="str">MOZ086</item>
-						<item type="str">MOZ087</item>
-						<item type="str">MOZ100</item>
-						<item type="str">MOZ107</item>
-						<item type="str">MOZ108</item>
-						<item type="str">MOZ109</item>
-						<item type="str">MOZ110</item>
-						<item type="str">MOZ111</item>
-						<item type="str">MOZ112</item>
-						<item type="str">MOZ114</item>
 					</UGC>
 				</geocode>
 				<affectedZones type="list">
@@ -189,17 +167,6 @@
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ020</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ021</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ022</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ108</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ109</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ110</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
@@ -208,11 +175,17 @@
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
 						<sent type="str">2025-02-16T13:33:00-06:00</sent>
 					</item>
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9d8047b4982c525dd1a5ab1d67153239c704a41.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.f9d8047b4982c525dd1a5ab1d67153239c704a41.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-02-16T13:57:00-06:00</sent>
+					</item>
 				</references>
-				<sent type="str">2025-02-16T13:57:00-06:00</sent>
-				<effective type="str">2025-02-16T13:57:00-06:00</effective>
-				<onset type="str">2025-02-18T03:00:00-06:00</onset>
-				<expires type="str">2025-02-17T04:00:00-06:00</expires>
+				<sent type="str">2025-02-17T02:20:00-06:00</sent>
+				<effective type="str">2025-02-17T02:20:00-06:00</effective>
+				<onset type="str">2025-02-18T09:00:00-06:00</onset>
+				<expires type="str">2025-02-17T17:00:00-06:00</expires>
 				<ends type="str">2025-02-19T09:00:00-06:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -223,18 +196,18 @@
 				<event type="str">Winter Storm Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Winter Storm Watch issued February 16 at 1:57PM CST until February 19 at 9:00AM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heavy snow possible. Total snow accumulations between 4 and
-9 inches possible.
+				<headline type="str">Winter Storm Watch issued February 17 at 2:20AM CST until February 19 at 9:00AM CST by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Heavy snow possible. Total snow accumulations between 3 and
+5 inches possible.
 
-* WHERE...Portions of southern Illinois, southwest Indiana, western
-Kentucky, and southeast Missouri.
+* WHERE...Portions of southern Illinois, southwest Indiana, and
+western Kentucky.
 
 * WHEN...From Tuesday morning through Wednesday morning.
 
 * IMPACTS...Roads, and especially bridges and overpasses, will
-likely become slick and hazardous. Travel could be very difficult.
-The hazardous conditions could impact the Tuesday morning, Tuesday
+likely become slick and hazardous. Plan on slippery road
+conditions. The hazardous conditions could impact the Tuesday
 evening and Wednesday morning commutes.
 
 * ADDITIONAL DETAILS...Dangerous cold temperatures will follow after
@@ -257,10 +230,10 @@ winterized and in good working order.</instruction>
 						<item type="str">WSWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS43 KPAH 161957</item>
+						<item type="str">WWUS43 KPAH 170820</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WINTER STORM WATCH REMAINS IN EFFECT FROM TUESDAY MORNING THROUGH WEDNESDAY MORNING</item>
+						<item type="str">WINTER STORM WATCH NOW IN EFFECT FROM TUESDAY MORNING THROUGH WEDNESDAY MORNING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -271,7 +244,7 @@ winterized and in good working order.</instruction>
 						<item type="str">WXR</item>
 					</EAS-ORG>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.WS.A.0003.250218T0900Z-250219T1500Z/</item>
+						<item type="str">/O.EXT.KPAH.WS.A.0003.250218T1500Z-250219T1500Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-02-19T15:00:00+00:00</item>
@@ -281,5 +254,5 @@ winterized and in good working order.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-02-16T19:57:46+00:00</updated>
+	<updated type="str">2025-02-17T08:21:17+00:00</updated>
 </all>
