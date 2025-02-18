@@ -7,13 +7,13 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Snow likely. Cloudy, with a high near 21. North northeast wind around 12 mph, with gusts as high as 20 mph. Chance of precipitation
+         <h3>Tuesday</h3>Snow likely. Cloudy, with a high near 21. North northeast wind around 12 mph, with gusts as high as 21 mph. Chance of precipitation
          is 70%. New snow accumulation of less than one inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tuesday Night</h3>Snow. Cloudy. Low around 10, with temperatures rising to around 12 overnight. Wind chill values as low as 0. North northeast
-         wind around 12 mph, with gusts as high as 21 mph. Chance of precipitation is 100%. New snow accumulation of 4 to 8 inches
+         wind around 12 mph, with gusts as high as 22 mph. Chance of precipitation is 100%. New snow accumulation of 4 to 8 inches
          possible.<br></div>
    </p>
    <p>
