@@ -25,16 +25,3 @@
       wind chills around -5 to -10 areawide.
    </div>
 </p>
-<p>
-   <h2>Special Weather Statement issued February 18 at 12:44AM CST by NWS Paducah KY</h2>
-   <div style="font-size:120%">Bands of light to occasionally moderate snow ahead of the main
-      winter storm will move through mainly the northern half of the
-      Quad State region during the overnight hours through early this
-      morning. This snow will produce light accumulations ranging from a
-      dusting up to around one inch. While widespread travel impacts
-      are not expected, isolated slippery spots are possible, especially
-      on less traveled back roads. If driving during the overnight to
-      early morning hours, use extra caution if you encounter snow
-      accumulation on the roads.
-   </div>
-</p>
