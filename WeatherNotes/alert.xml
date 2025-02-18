@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0bbf24c4af42622f8857d5d72e8de5bbf3f20bd9.002.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c21c9089953d66e58d4c1b274fd16af97f652607.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0bbf24c4af42622f8857d5d72e8de5bbf3f20bd9.002.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c21c9089953d66e58d4c1b274fd16af97f652607.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.0bbf24c4af42622f8857d5d72e8de5bbf3f20bd9.002.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.c21c9089953d66e58d4c1b274fd16af97f652607.002.1</id>
 				<areaDesc type="str">Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -150,14 +150,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ021</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ022</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2025-02-18T01:14:00-06:00</sent>
-				<effective type="str">2025-02-18T01:14:00-06:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0bbf24c4af42622f8857d5d72e8de5bbf3f20bd9.002.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.0bbf24c4af42622f8857d5d72e8de5bbf3f20bd9.002.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-02-18T01:14:00-06:00</sent>
+					</item>
+				</references>
+				<sent type="str">2025-02-18T02:08:00-06:00</sent>
+				<effective type="str">2025-02-18T02:08:00-06:00</effective>
 				<onset type="str">2025-02-18T12:00:00-06:00</onset>
-				<expires type="str">2025-02-18T17:00:00-06:00</expires>
+				<expires type="str">2025-02-18T17:15:00-06:00</expires>
 				<ends type="str">2025-02-19T09:00:00-06:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Severe</severity>
 				<certainty type="str">Likely</certainty>
@@ -165,31 +172,43 @@
 				<event type="str">Winter Storm Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Winter Storm Warning issued February 18 at 1:14AM CST until February 19 at 9:00AM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heavy snow expected. Total snow accumulations between 4
-and 7 inches with locally higher amounts possible.
+				<headline type="str">Winter Storm Warning issued February 18 at 2:08AM CST until February 19 at 9:00AM CST by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Heavy snow expected. Total snow accumulations between 4 and
+7 inches with locally higher amounts possible.
 
-* WHERE...Portions of southern Illinois, southwest Indiana, and
-western Kentucky.
+* WHERE...Portions of southern Illinois and southwest Indiana south
+of I-64, and the entirety of western Kentucky.
 
-* WHEN...From noon Tuesday to 9 AM CST Wednesday.
+* WHEN...From noon today to 9 AM CST Wednesday.
 
-* IMPACTS...Travel could be very difficult. The hazardous
-conditions could impact the Tuesday evening and Wednesday
-morning commutes.</description>
+* IMPACTS...Roads, and especially bridges and overpasses, will
+become slick and hazardous. Travel will be very difficult. The
+hazardous conditions could impact the commutes this evening and
+Wednesday morning.
+
+* ADDITIONAL DETAILS...Light snow is possible through early this
+morning which may bring accumulations up to an inch along and
+north of a line across IL-13 to far northwest Kentucky, producing
+a few slick spots on roads. The bulk of the snowfall is expected
+to occur near sunset through the overnight hours. Dangerous cold
+temperatures will follow after snow ends. Low temperatures well
+below normal with overnight winds will cause wind chills to fall
+to near or below zero early Wednesday morning. The greatest
+impacts from the extreme cold will occur Thursday morning with
+wind chills around -5 to -10 areawide.</description>
 				<instruction type="str">If you must travel, keep an extra flashlight, food, and water in
-your vehicle in case of an emergency. The latest road conditions
-can be obtained by visiting www.weather.gov/pah/roads</instruction>
+your vehicle in case of an emergency. The latest road conditions can
+be obtained by visiting www.weather.gov/pah/roads</instruction>
 				<response type="str">Prepare</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">WSWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS43 KPAH 180714</item>
+						<item type="str">WWUS43 KPAH 180808</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WINTER STORM WARNING IN EFFECT FROM NOON TUESDAY TO 9 AM CST WEDNESDAY</item>
+						<item type="str">WINTER STORM WARNING REMAINS IN EFFECT FROM NOON TODAY TO 9 AM CST WEDNESDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -344,5 +363,5 @@ accumulation on the roads.</description>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-02-18T07:14:46+00:00</updated>
+	<updated type="str">2025-02-18T08:08:43+00:00</updated>
 </all>
