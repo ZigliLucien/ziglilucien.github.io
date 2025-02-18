@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-02-18T05:36:05+00:00</generatedAt>
-		<updateTime type="str">2025-02-18T04:32:19+00:00</updateTime>
-		<validTimes type="str">2025-02-17T22:00:00+00:00/P7DT3H</validTimes>
+		<generatedAt type="str">2025-02-18T06:36:05+00:00</generatedAt>
+		<updateTime type="str">2025-02-18T05:46:53+00:00</updateTime>
+		<validTimes type="str">2025-02-17T23:00:00+00:00/P7DT2H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-02-17T23:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-02-18T00:00:00-06:00</startTime>
 				<endTime type="str">2025-02-18T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">15</temperature>
@@ -64,7 +64,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 to 10 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/snow,20/snow,60?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow,60?size=medium</icon>
 				<shortForecast type="str">Light Snow Likely</shortForecast>
 				<detailedForecast type="str">Snow likely. Cloudy. Low around 15, with temperatures rising to around 18 overnight. North northeast wind 6 to 10 mph. Chance of precipitation is 60%. New snow accumulation of less than one inch possible.</detailedForecast>
 			</item>
