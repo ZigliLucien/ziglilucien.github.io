@@ -2,17 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A chance of snow. Cloudy. Low around 15, with temperatures rising to around 18 overnight. North northeast wind around 12 mph.
-         Chance of precipitation is 40%. New snow accumulation of less than half an inch possible.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tuesday</h3>Snow likely. Cloudy, with a high near 21. North northeast wind around 12 mph, with gusts as high as 21 mph. Chance of precipitation
+         <h3>Today</h3>Snow likely. Cloudy, with a high near 21. North northeast wind around 12 mph, with gusts as high as 21 mph. Chance of precipitation
          is 70%. New snow accumulation of less than one inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Snow. Cloudy. Low around 10, with temperatures rising to around 12 overnight. Wind chill values as low as 0. North northeast
+         <h3>Tonight</h3>Snow. Cloudy. Low around 10, with temperatures rising to around 12 overnight. Wind chill values as low as 0. North northeast
          wind around 12 mph, with gusts as high as 22 mph. Chance of precipitation is 100%. New snow accumulation of 4 to 8 inches
          possible.<br></div>
    </p>
@@ -24,7 +19,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Mostly cloudy, with a low around 2. North northwest wind 7 to 10 mph.<br></div>
+         <h3>Wednesday Night</h3>Mostly cloudy, with a low around 2. Wind chill values as low as -9. North northwest wind 7 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +56,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday</h3>Mostly sunny, with a high near 53. Southwest wind 5 to 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday Night</h3>Partly cloudy, with a low around 35. West southwest wind around 6 mph.<br></div>
    </p>
 </div>
