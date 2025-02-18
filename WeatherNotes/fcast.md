@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Snow after 2pm. Cloudy, with a high near 18. North northeast wind around 12 mph, with gusts as high as 20 mph. Chance of precipitation
+         <h3>This Afternoon</h3>Snow. Cloudy, with a high near 18. North northeast wind around 12 mph, with gusts as high as 20 mph. Chance of precipitation
          is 80%. New snow accumulation of less than one inch possible.<br></div>
    </p>
    <p>
