@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Patchy blowing snow before 9am, then a slight chance of snow. Mostly cloudy. High near 18, with temperatures falling to around
-         16 in the afternoon. North wind 6 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Today</h3>A slight chance of snow after 1pm. Mostly cloudy. High near 18, with temperatures falling to around 16 in the afternoon. North
+         wind 8 to 13 mph, with gusts as high as 21 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
