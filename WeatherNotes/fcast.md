@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A slight chance of snow showers. Mostly cloudy, with a high near 19. North northwest wind around 12 mph, with gusts as high
-         as 21 mph. Chance of precipitation is 20%.<br></div>
+         <h3>This Afternoon</h3>A slight chance of snow showers. Mostly cloudy. High near 19, with temperatures falling to around 17 in the afternoon. North
+         northwest wind around 12 mph, with gusts as high as 21 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
