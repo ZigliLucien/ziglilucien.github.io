@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1009509/" title="See Description">[$] Extending time slices for user-space locks</a></li>
 <li><a href="#https://lwn.net/Articles/1010898/" title="See Description">Mesa 25.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1009782/" title="See Description">[$] Meshtastic: decentralized communication with low-power devices</a></li>
 <li><a href="#https://lwn.net/Articles/1010857/" title="See Description">RISC-V and Fedora: All Aboard! (Fedora Magazine)</a></li>
@@ -52,10 +53,30 @@
 <li><a href="#https://lwn.net/Articles/1010352/" title="See Description">Three stable kernels under the sky</a></li>
 <li><a href="#https://lwn.net/Articles/1010328/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1010232/" title="See Description">Kernel prepatch 6.14-rc3</a></li>
-<li><a href="#https://lwn.net/Articles/1008897/" title="See Description">[$] Fighting the AI scraperbot scourge</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1009509/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Feb 2025 20:17:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1009509/" title="https://lwn.net/Articles/1009509/">[$] Extending time slices for user-space locks</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Steven Rostedt recently posted
+<a href="https://lwn.net/ml/all/20250131225837.972218232@goodmis.org/">
+a patch set</a> that could help improve the performance of certain user-space
+applications by giving the scheduler more context about when they are safe to
+interrupt. The patch set lets programs request a small grace window
+before they can be interrupted so that they can relinquish any locks, decreasing the
+amount of time that other threads have to spend waiting. Rostedt shared
+performance numbers suggesting that the patch might cut the amount of time spent
+acquiring locks in half for some programs — although, since his test was
+specifically tuned for this case, real-world projects should expect a somewhat
+less dramatic improvement. The change received some pushback from scheduler
+maintainer Peter Zijlstra, who objected to the patch set's approach.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1010898/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 19 Feb 2025 17:57:42 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -274,21 +295,6 @@ for simple drivers that just need some sort of virtual bus to be associated
 with; this bus come with <a
 href="https://git.kernel.org/linus/78418f300d3">Rust bindings</a> from the
 outset.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1008897/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 14 Feb 2025 16:32:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1008897/" title="https://lwn.net/Articles/1008897/">[$] Fighting the AI scraperbot scourge</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There are many challenges involved with running a web site like LWN.  Some
-of them, such as finding the courage to write for people who know more
-about the subject matter than we do, simply come with the territory we have
-chosen.  But others show up as an unwelcome surprise; the ongoing task of
-fending off bots determined to scrape the entire Internet to (seemingly)
-feed into the insatiable meat grinder of AI training is certainly one of
-those.  Readers have, at times, expressed curiosity about that fight and
-how we are handling it; read on for a description of a modern-day plague.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
