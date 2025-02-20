@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1011122/" title="See Description">Rust 1.85.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1009548/" title="See Description">[$] Filesystem support  block sizes larger than the page size</a></li>
 <li><a href="#https://lwn.net/Articles/1009298/" title="See Description">[$] Support for atomic block writes in 6.13</a></li>
 <li><a href="#https://lwn.net/Articles/1011056/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1009456/" title="See Description">[$] LWN.net Weekly Edition for February 20, 2025</a></li>
@@ -51,11 +53,41 @@
 <li><a href="#https://lwn.net/Articles/1010682/" title="See Description">Pi-hole v6 released</a></li>
 <li><a href="#https://lwn.net/Articles/1010629/" title="See Description">A milestone for reproducible openSUSE</a></li>
 <li><a href="#https://lwn.net/Articles/1008714/" title="See Description">[$] FUSE folio conversion confusion</a></li>
-<li><a href="#https://lwn.net/Articles/1010624/" title="See Description">Stable kernel 6.12.15</a></li>
-<li><a href="#https://lwn.net/Articles/1010621/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1011122/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Feb 2025 17:46:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011122/" title="https://lwn.net/Articles/1011122/">Rust 1.85.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2025/02/20/Rust-1.85.0.html">Version
+1.85.0</a> of the Rust language has been released.  Changes in the release
+include support for async closures, some convenience iterators for tuples,
+and a number of stabilized APIs.  The headline feature, though, is that
+this release stabilizes the <a href="https://lwn.net/Articles/1002456/">Rust 2024
+edition</a>, described as "<q>the largest edition we have released</q>".
+The <a
+href="https://doc.rust-lang.org/edition-guide/rust-2024/index.html">2024
+edition guide</a> has a detailed listing of all the changes that were
+incorporated this time around.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1009548/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Feb 2025 15:33:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1009548/" title="https://lwn.net/Articles/1009548/">[$] Filesystem support  block sizes larger than the page size</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The maximum filesystem block size that the kernel can support has always
+been limited by the host page size for Linux, even if the filesystems could
+handle larger block sizes. The <a href="https://lwn.net/ml/all/20240822135018.1931258-1-kernel@pankajraghav.com/">large-block-size (LBS) patches</a> that were <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=171754c3808214d4fd8843eab584599a429deb52">merged</a>
+for the 6.12&#160;kernel removed this limitation in XFS, thereby decoupling
+the page size from the filesystem block size. XFS is the first filesystem
+to gain this support, with other filesystems likely to add LBS support in
+the future. In addition, the LBS patches have been used to get the <a
+href="https://lwn.net/Articles/974578/">initial atomic-write support</a> into XFS.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1009298/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 20 Feb 2025 14:43:52 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,24 +316,6 @@ rewrite to pop up in the same kernel subsystem. This was discovered by an Arch
 Linux user, who noticed that selecting files in a Flatpak application was
 causing kernel crashes. Now both bugs are fixed, but there may be more bugs to find.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1010624/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 18 Feb 2025 14:43:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1010624/" title="https://lwn.net/Articles/1010624/">Stable kernel 6.12.15</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1010623/">6.12.15</a> stable kernel update has been
-fast-tracked to release.  It seems that its predecessor contains <a
-href="https://lwn.net/ml/all/CAJMi0nTbyi6VGTmmZ43wYWwJWur0XPtuswZ_5UaXB+S6Z=Mo6A@mail.gmail.com">a
-regression in the XFS filesystem</a> that can lead to kernel crashes.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1010621/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 18 Feb 2025 14:35:15 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1010621/" title="https://lwn.net/Articles/1010621/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (gnutls28, openssh, and pam-pkcs11), <b>Mageia</b> (microcode and python-cryptography), <b>Oracle</b> (nodejs:18, nodejs:20, and rsync), <b>Red Hat</b> (gcc, nodejs:20, and nodejs:22), <b>SUSE</b> (emacs, kernel, openvswitch, and ucode-intel), and <b>Ubuntu</b> (Docker).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
