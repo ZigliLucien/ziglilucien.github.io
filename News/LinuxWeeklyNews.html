@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1009298/" title="See Description">[$] Support for atomic block writes in 6.13</a></li>
+<li><a href="#https://lwn.net/Articles/1011056/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1009456/" title="See Description">[$] LWN.net Weekly Edition for February 20, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1010922/" title="See Description">Mozilla announces leadership updates and next chapter</a></li>
 <li><a href="#https://lwn.net/Articles/1009509/" title="See Description">[$] Extending time slices for user-space locks</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/1008714/" title="See Description">[$] FUSE folio conversion confusion</a></li>
 <li><a href="#https://lwn.net/Articles/1010624/" title="See Description">Stable kernel 6.12.15</a></li>
 <li><a href="#https://lwn.net/Articles/1010621/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1008721/" title="See Description">[$] 14 years of systemd</a></li>
-<li><a href="#https://lwn.net/Articles/1010352/" title="See Description">Three stable kernels under the sky</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1009298/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Feb 2025 14:43:52 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1009298/" title="https://lwn.net/Articles/1009298/">[$] Support for atomic block writes in 6.13</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Atomic block writes, which <a
+href="https://lwn.net/Kernel/Index/#Atomic_IO_operations">have been discussed here</a> a
+few times in the past, are block operations that either complete fully or
+do not occur at all, ensuring data consistency and preventing partial (or
+"torn") writes.  This means the disk will, at all times, contain either the
+complete new data from the atomic write operation or the complete old data
+from a previous write. It will never have a mix of both the old and the new
+data, even if a power failure occurs during an ongoing atomic write
+operation. Atomic writes have been of interest to many Linux users,
+particularly database developers, as this feature can provide significant
+performance improvements.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1011056/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Feb 2025 14:17:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011056/" title="https://lwn.net/Articles/1011056/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (mosquitto), <b>Fedora</b> (gnutls, kernel, libtasn1, microcode_ctl, openssh, python3.10, python3.11, and python3.9), <b>Red Hat</b> (bind, bind9.16, buildah, container-tools:rhel8, podman, and redis:6), <b>Slackware</b> (libxml2), <b>SUSE</b> (dcmtk, google-osconfig-agent, java-17-openj9, kubernetes1.30-apiserver, kubernetes1.31-apiserver, openssh, and ruby3.4-rubygem-grpc), and <b>Ubuntu</b> (linux, linux-lowlatency and linux-aws, linux-azure, linux-gcp, linux-oracle, linux-raspi, linux-realtime).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1009456/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 20 Feb 2025 01:57:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -277,39 +303,6 @@ regression in the XFS filesystem</a> that can lead to kernel crashes.</blockquot
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (gnutls28, openssh, and pam-pkcs11), <b>Mageia</b> (microcode and python-cryptography), <b>Oracle</b> (nodejs:18, nodejs:20, and rsync), <b>Red Hat</b> (gcc, nodejs:20, and nodejs:22), <b>SUSE</b> (emacs, kernel, openvswitch, and ucode-intel), and <b>Ubuntu</b> (Docker).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1008721/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Feb 2025 15:25:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1008721/" title="https://lwn.net/Articles/1008721/">[$] 14 years of systemd</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>It is a standard practice to use milestones to reflect on the
-achievements of a project, such as the anniversary of its first
-release or first commit. Usually, these are observed at five and
-ten&#8209;year increments; the tenth anniversary of the 1.0 release, or 25
-years since from the first public announcement, etc. Lennart
-Poettering, however, took a different approach at <a
-href="https://fosdem.org/2025/">FOSDEM&#160;2025</a> with a keynote
-commemorating 14 years of <a href="https://systemd.io/">systemd</a>,
-and a brief look ahead at his goals and systemd's challenges for the future.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1010352/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Feb 2025 14:55:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1010352/" title="https://lwn.net/Articles/1010352/">Three stable kernels under the sky</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Greg Kroah-Hartman has released three more stable kernels:
-<a href="https://lwn.net/Articles/1010354/">6.13.3</a>,
-<a href="https://lwn.net/Articles/1010356/">6.12.14</a>, and
-<a href="https://lwn.net/Articles/1010357/">6.6.78</a>.
-There was a bit of confusion that resulted in the patch for
-<a href="https://www.cve.org/CVERecord/?id=CVE-2025-21687">CVE 2025-21687</a>
-getting applied twice — but that doesn't result in any problems for users of the
-kernel, just a bit of extra noise in the CVE database, so Kroah-Hartman has
-decided to leave the releases as-is instead of rushing another point release.
-</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
