@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1011263/" title="See Description">Four Friday stable kernels</a></li>
+<li><a href="#https://lwn.net/Articles/1011262/" title="See Description">Security updates for Friday</a></li>
+<li><a href="#https://lwn.net/Articles/1011197/" title="See Description">Linus on Rust and the kernel's DMA layer</a></li>
 <li><a href="#https://lwn.net/Articles/1011122/" title="See Description">Rust 1.85.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1009548/" title="See Description">[$] Filesystem support  block sizes larger than the page size</a></li>
 <li><a href="#https://lwn.net/Articles/1009298/" title="See Description">[$] Support for atomic block writes in 6.13</a></li>
@@ -50,12 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1010857/" title="See Description">RISC-V and Fedora: All Aboard! (Fedora Magazine)</a></li>
 <li><a href="#https://lwn.net/Articles/1010855/" title="See Description">Lange: The secret maze of Debian images</a></li>
 <li><a href="#https://lwn.net/Articles/1010853/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1010682/" title="See Description">Pi-hole v6 released</a></li>
-<li><a href="#https://lwn.net/Articles/1010629/" title="See Description">A milestone for reproducible openSUSE</a></li>
-<li><a href="#https://lwn.net/Articles/1008714/" title="See Description">[$] FUSE folio conversion confusion</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1011263/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 21 Feb 2025 14:13:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011263/" title="https://lwn.net/Articles/1011263/">Four Friday stable kernels</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Greg Kroah-Hartman has released another four stable kernels:
+<a href="https://lwn.net/Articles/1011264/">6.13.4</a>,
+<a href="https://lwn.net/Articles/1011265/">6.12.16</a>,
+<a href="https://lwn.net/Articles/1011266/">6.6.79</a>, and
+<a href="https://lwn.net/Articles/1011267/">6.1.129</a>. As usual, all users are advised to upgrade.
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1011262/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 21 Feb 2025 14:07:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011262/" title="https://lwn.net/Articles/1011262/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, and mysql:8.0), <b>Debian</b> (chromium, djoser, libtasn1-6, and postgresql-13), <b>Fedora</b> (python3.12 and vim), <b>Red Hat</b> (libpq, postgresql, postgresql:13, postgresql:15, and postgresql:16), <b>Slackware</b> (ark), <b>SUSE</b> (brise, chromium, emacs, google-osconfig-agent, grafana, grub2, helm, kernel, openssh, openssl-1_1, ovmf, postgresql13, postgresql14, postgresql15, and postgresql17), and <b>Ubuntu</b> (gnutls28, libtasn1-6, openssl, python3.10, python3.12, python3.8, and webkit2gtk).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1011197/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 21 Feb 2025 13:43:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011197/" title="https://lwn.net/Articles/1011197/">Linus on Rust and the kernel's DMA layer</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>At the end of January we ran <a href="https://lwn.net/Articles/1006805/">this article</a>
+on the discussions around a set of Rust bindings for the kernel's
+DMA-mapping layer.  Many pixels have been expended on the topic since
+across the net, most recently in <a
+href="https://lwn.net/ml/all/CANiq72m-R0tOakf=j7BZ78jDHdy=9-fvZbAT8j91Je2Bxy0sFg@mail.gmail.com">this
+sprawling email thread</a>.  Linus Torvalds has now <a
+href="https://lwn.net/ml/all/CAHk-=wgLbz1Bm8QhmJ4dJGSmTuV5w_R0Gwvg5kHrYr4Ko9dUHQ@mail.gmail.com">made
+his feelings known</a> on the topic:
+<p>
+<blockquote class="bq">
+	You are not forced to take any Rust code, or care about any Rust
+	code in the DMA code. You can ignore it.
+<p>
+	But "ignore the Rust side" automatically also means that you don't
+	have any *say* on the Rust side.
+<p>
+	You can't have it both ways. You can't say "I want to have nothing
+	to do with Rust", and then in the very next sentence say "And that
+	means that the Rust code that I will ignore cannot use the C
+	interfaces I maintain".
+</blockquote>
+<p>
+The code in question seems highly likely to be merged for the 6.15 release.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1011122/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 20 Feb 2025 17:46:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -258,64 +308,6 @@ also confusing.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gcc-toolset-14-gcc, nodejs:18, and nodejs:22), <b>Fedora</b> (bootc), <b>Gentoo</b> (OpenSSH), <b>Oracle</b> (doxygen, libxml2, mingw-glib2, and NetworkManager), <b>Red Hat</b> (bind, bind9.16, bind9.18, kernel, kernel-rt, mysql, and mysql:8.0), <b>Slackware</b> (openssh), <b>SUSE</b> (buildah, emacs, glibc, google-osconfig-agent, grub2, java-11-openj9, kernel, netty, netty-tcnative, openssh, openvswitch, podman, and ucode-intel), and <b>Ubuntu</b> (atril, libsndfile, libtasn1-6, openssh, python-virtualenv, and symfony).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1010682/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 18 Feb 2025 19:18:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1010682/" title="https://lwn.net/Articles/1010682/">Pi-hole v6 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://pi-hole.net/">Pi-hole</a> v6 has been <a
-href="https://pi-hole.net/blog/2025/02/18/introducing-pi-hole-v6/#page-content">released</a>. The
-latest version of the popular ad-blocking software sports a redesigned
-user interface, has support for subscribing to allowlists, and brings
-a new REST API and embedded web server. Its Docker/OCI image is now
-based on <a href="https://www.alpinelinux.org/">Alpine Linux</a>
-rather than <a href="https://debian.org/">Debian</a> to reduce image
-size. See the announcement for guidance on upgrading existing Pi-hole
-installations.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1010629/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 18 Feb 2025 14:58:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1010629/" title="https://lwn.net/Articles/1010629/">A milestone for reproducible openSUSE</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Reproducible-openSUSE project has <a
-href="https://news.opensuse.org/2025/02/18/rbos-project-hits-milestone/">announced</a>
-that it has created a usable version of openSUSE with 100% reproducible
-packages.
-<p>
-<blockquote class="bq">
-	[Bernhard] Wiedemann took on this 4-month-long project to create a
-	fork of openSUSE that has 100% bit-reproducible packages. So far
-	ring0 (aka bootstrap) and ring1 with 3,300 software packages have
-	all successfully been patched and tested.
-</blockquote>
-<p>
-This build is not yet recommended for production use, though.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1008714/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 18 Feb 2025 14:44:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1008714/" title="https://lwn.net/Articles/1008714/">[$] FUSE folio conversion confusion</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Kernel developers have been working to convert various internal interfaces to
-use
-<a href="https://lwn.net/Articles/849538/">
-folios</a>; while this process has been progressing, there is still the
-occasional regression introduced by the change. In December&#160;2024, it was
-discovered that installing a
-<a href="https://flatpak.org/">
-Flatpak</a> application could trigger a filesystem bug in
-the kernel that would cause the software to read incorrect data from the disk.
-The problem was quickly fixed — only for an another problem caused by the folio
-rewrite to pop up in the same kernel subsystem. This was discovered by an Arch
-Linux user, who noticed that selecting files in a Flatpak application was
-causing kernel crashes. Now both bugs are fixed, but there may be more bugs to find.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
