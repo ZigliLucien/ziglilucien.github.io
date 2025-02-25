@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1010404/" title="See Description">[$] A possible path for cancelable BPF programs</a></li>
 <li><a href="#https://lwn.net/Articles/1011764/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1011671/" title="See Description">Aqualung 2.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1010667/" title="See Description">[$] Slabs, sheaves, and barns</a></li>
@@ -50,12 +51,30 @@
 <li><a href="#https://lwn.net/Articles/1011262/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1011197/" title="See Description">Linus on Rust and the kernel's DMA layer</a></li>
 <li><a href="#https://lwn.net/Articles/1011122/" title="See Description">Rust 1.85.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1009548/" title="See Description">[$] Filesystem support  block sizes larger than the page size</a></li>
+<li><a href="#https://lwn.net/Articles/1009548/" title="See Description">[$] Filesystem support  for block sizes larger than the page size</a></li>
 <li><a href="#https://lwn.net/Articles/1009298/" title="See Description">[$] Support for atomic block writes in 6.13</a></li>
-<li><a href="#https://lwn.net/Articles/1011056/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1010404/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 25 Feb 2025 15:32:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1010404/" title="https://lwn.net/Articles/1010404/">[$] A possible path for cancelable BPF programs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The Linux kernel supports attaching BPF programs to many operations.
+This is generally safe because the BPF verifier ensures
+that BPF programs can't misuse kernel resources, run indefinitely, or otherwise
+escape their boundaries. There is continuing tension, however, between trying
+to expand the capabilities of BPF programs and ensuring that the verifier can
+handle every edge case. On February&#160;14, Juntong Deng
+<a href="https://lwn.net/ml/all/AM6PR03MB5080513BFAEB54A93CC70D4399FE2@AM6PR03MB5080.eurprd03.prod.outlook.com/">
+shared</a> a proof-of-concept patch set that
+adds some run-time checks to BPF to make it possible in the future to interrupt
+a running BPF program.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1011764/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 25 Feb 2025 14:28:39 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -242,7 +261,7 @@ incorporated this time around.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1009548/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 20 Feb 2025 15:33:10 +0000</tt></div></td></tr>
 <tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1009548/" title="https://lwn.net/Articles/1009548/">[$] Filesystem support  block sizes larger than the page size</a></div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1009548/" title="https://lwn.net/Articles/1009548/">[$] Filesystem support  for block sizes larger than the page size</a></div>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The maximum filesystem block size that the kernel can support has always
@@ -272,14 +291,6 @@ data, even if a power failure occurs during an ongoing atomic write
 operation. Atomic writes have been of interest to many Linux users,
 particularly database developers, as this feature can provide significant
 performance improvements.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1011056/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Feb 2025 14:17:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011056/" title="https://lwn.net/Articles/1011056/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (mosquitto), <b>Fedora</b> (gnutls, kernel, libtasn1, microcode_ctl, openssh, python3.10, python3.11, and python3.9), <b>Red Hat</b> (bind, bind9.16, buildah, container-tools:rhel8, podman, and redis:6), <b>Slackware</b> (libxml2), <b>SUSE</b> (dcmtk, google-osconfig-agent, java-17-openj9, kubernetes1.30-apiserver, kubernetes1.31-apiserver, openssh, and ruby3.4-rubygem-grpc), and <b>Ubuntu</b> (linux, linux-lowlatency and linux-aws, linux-azure, linux-gcp, linux-oracle, linux-raspi, linux-realtime).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
