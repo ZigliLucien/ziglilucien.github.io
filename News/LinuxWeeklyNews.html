@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1011819/" title="See Description">A change in maintenance for the kernel's DMA-mapping layer</a></li>
 <li><a href="#https://lwn.net/Articles/1010404/" title="See Description">[$] A possible path for cancelable BPF programs</a></li>
 <li><a href="#https://lwn.net/Articles/1011764/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1011671/" title="See Description">Aqualung 2.0 released</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1011197/" title="See Description">Linus on Rust and the kernel's DMA layer</a></li>
 <li><a href="#https://lwn.net/Articles/1011122/" title="See Description">Rust 1.85.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1009548/" title="See Description">[$] Filesystem support  for block sizes larger than the page size</a></li>
-<li><a href="#https://lwn.net/Articles/1009298/" title="See Description">[$] Support for atomic block writes in 6.13</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1011819/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 25 Feb 2025 21:20:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011819/" title="https://lwn.net/Articles/1011819/">A change in maintenance for the kernel's DMA-mapping layer</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The conversation around the merging of a set of Rust abstractions for the
+kernel's DMA-mapping layer has mostly settled after Linus Torvalds <a
+href="https://lwn.net/Articles/1011197/">made it clear</a> that the code would be
+accepted.  One other consequence of this decision, though, is that
+Christoph Hellwig has quietly <a
+href="https://git.kernel.org/linus/f7d5db965f3e">stepped down</a> from the
+maintenance of the DMA-mapping code.  Marek Szyprowski will be the
+maintainer of that layer going forward.  Hellwig has maintained that code
+for many years; his contributions will be missed.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1010404/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 25 Feb 2025 15:32:36 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -273,24 +288,6 @@ the page size from the filesystem block size. XFS is the first filesystem
 to gain this support, with other filesystems likely to add LBS support in
 the future. In addition, the LBS patches have been used to get the <a
 href="https://lwn.net/Articles/974578/">initial atomic-write support</a> into XFS.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1009298/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Feb 2025 14:43:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1009298/" title="https://lwn.net/Articles/1009298/">[$] Support for atomic block writes in 6.13</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Atomic block writes, which <a
-href="https://lwn.net/Kernel/Index/#Atomic_IO_operations">have been discussed here</a> a
-few times in the past, are block operations that either complete fully or
-do not occur at all, ensuring data consistency and preventing partial (or
-"torn") writes.  This means the disk will, at all times, contain either the
-complete new data from the atomic write operation or the complete old data
-from a previous write. It will never have a mix of both the old and the new
-data, even if a power failure occurs during an ongoing atomic write
-operation. Atomic writes have been of interest to many Linux users,
-particularly database developers, as this feature can provide significant
-performance improvements.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
