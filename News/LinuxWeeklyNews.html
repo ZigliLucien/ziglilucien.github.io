@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1011730/" title="See Description">[$] Building an open-source battery</a></li>
+<li><a href="#https://lwn.net/Articles/1011959/" title="See Description">Gentoo now offers qcow2 disk images</a></li>
+<li><a href="#https://lwn.net/Articles/1011830/" title="See Description">Two new site features: full-text RSS and automatic dark mode</a></li>
+<li><a href="#https://lwn.net/Articles/1011955/" title="See Description">Armbian 25.2 released</a></li>
 <li><a href="#https://lwn.net/Articles/1010905/" title="See Description">[$] Python interpreter adds tail calls</a></li>
 <li><a href="#https://lwn.net/Articles/1011928/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1011819/" title="See Description">A change in maintenance for the kernel's DMA-mapping layer</a></li>
@@ -49,13 +53,93 @@
 <li><a href="#https://lwn.net/Articles/1011611/" title="See Description">Emacs 30.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1011610/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1011505/" title="See Description">Kernel prepatch 6.14-rc4</a></li>
-<li><a href="#https://lwn.net/Articles/1007724/" title="See Description">[$] Multi-host testing with the pytest-mh framework</a></li>
-<li><a href="#https://lwn.net/Articles/1011263/" title="See Description">Four Friday stable kernels</a></li>
-<li><a href="#https://lwn.net/Articles/1011262/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1011197/" title="See Description">Linus on Rust and the kernel's DMA layer</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1011730/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Feb 2025 16:30:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011730/" title="https://lwn.net/Articles/1011730/">[$] Building an open-source battery</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://fosdem.org/2025/">FOSDEM 2025</a> featured the usual talks
+about open-source software, but, as always, the conference also offered the
+opportunity to discover some more exotic and less software-centric
+topics. That's how I learned about the <a href="https://fbrc.dev">Flow
+Battery Research Collective</a> (FBRC), which is building what will
+eventually become an open-source home battery.
+Daniel Fernández Pinto represented the collective at
+FOSDEM with his talk "<a
+href="https://fosdem.org/2025/schedule/event/fosdem-2025-6003-flow-battery-research-collective-building-an-open-source-battery-for-stationary-storage/">Building
+an Open-Source Battery for Stationary Storage</a>" in the "<a
+href="https://fosdem.org/2025/schedule/track/energy/">Energy: Accelerating
+the Transition through Open Source</a>" developer room (devroom).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1011959/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Feb 2025 16:22:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011959/" title="https://lwn.net/Articles/1011959/">Gentoo now offers qcow2 disk images</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.gentoo.org/">Gentoo Linux</a> project has
+<a
+href="https://www.gentoo.org/news/2025/02/20/gentoo-qcow2-images.html">announced</a>
+the availability of qcow2 images for amd64 (x86_64) and arm64
+(aarch64), and plans to "<q>eventually</q>" offer images for the
+riscv64 and loongarch64 architectures.</p>
+
+<blockquote class="bq">
+The images, updated weekly, include an EFI boot partition and a fully
+functional Gentoo installation; either with no network activated but a
+password-less root login on the console ("no root pw"), or with
+network activated, all accounts initially locked, but cloud-init
+running on boot ("cloud-init").
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1011830/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Feb 2025 15:52:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011830/" title="https://lwn.net/Articles/1011830/">Two new site features: full-text RSS and automatic dark mode</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the often-requested LWN site features that has languished the
+longest on our to-do list is full-text RSS feeds.  We are happy to announce
+that, finally, there is a set of such feeds available; the full set can be
+seen on <a href="https://lwn.net/headlines/">our feeds page</a>.  This is a
+subscriber-only feature, and it works by creating a unique fetch URL for
+each user.  We will, of course, be counting on our readers to not share
+those URLs.
+<p>
+Another feature we have had requests for is to automatically present the
+site in dark-mode colors when a reader's browser has been configured to
+prefer it.  That feature, too, is now available.  In this case, we had to
+think about the interaction between automatic selection and the color
+customization that the site has long had.  The conclusion we reached is
+that, if custom colors have been configured for an account, they will win
+out over the automatic selection.  There is a new preference in the <a
+href="https://lwn.net/MyAccount/preferences/">customization area</a> to change this
+default if desired.
+<p>
+Both of these features — and the other enhancements we have made recently —
+were enabled by the support of LWN's subscribers.  By making it possible to
+bring in new staff last year, you created the space to improve the site
+experience while keeping up with the writing.  We thank all of you for your
+support.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1011955/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Feb 2025 15:37:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011955/" title="https://lwn.net/Articles/1011955/">Armbian 25.2 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.armbian.com/newsflash/armbian-v25-2/">Version
+25.2</a> of the <a href="https://www.armbian.com/">Armbian</a> Linux
+distribution for single-board computers (SBCs) has been released. Notable
+changes in this release include support for many new SBCs, an upgrade
+to Linux kernel 6.12.x, and more. See the <a
+href="https://docs.armbian.com/Release_Changelog/#v2522-2025-2-25">changelog</a>
+for a complete list.</p>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1010905/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 26 Feb 2025 14:18:05 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -215,77 +299,6 @@ flymake problems back in December.
 <tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1011504/">6.14-rc4</a> kernel prepatch is out for
 testing.  "<q>This continues to be the right kind of 'boring' release:
 nothing in particular stands out in rc4</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1007724/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Feb 2025 18:18:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1007724/" title="https://lwn.net/Articles/1007724/">[$] Multi-host testing with the pytest-mh framework</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a
-href="https://pytest-mh.readthedocs.io/en/latest/"><tt>pytest-mh</tt></a>
-project is a plugin that provides a multi-host test framework for the
-popular <a href="https://pypi.org/project/pytest/"><tt>pytest</tt></a>
-unit-testing framework and test runner. Work on <tt>pytest-mh</tt>
-started in 2023 to solve a multitude of issues that
-cropped up for developers and testers when testing the <a
-href="https://sssd.io">SSSD</a> project, which is a client for
-enterprise identity management. I was not happy with the state of
-testing of the SSSD project and wanted to create something that would
-increase test readability, remove duplication, eliminate errors, and
-provide multi-host testing capabilities, while having the flexibility
-to build a new API around it. Finally, I also wanted something that
-can be used by anyone to test their projects as well.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1011263/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Feb 2025 14:13:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011263/" title="https://lwn.net/Articles/1011263/">Four Friday stable kernels</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Greg Kroah-Hartman has released another four stable kernels:
-<a href="https://lwn.net/Articles/1011264/">6.13.4</a>,
-<a href="https://lwn.net/Articles/1011265/">6.12.16</a>,
-<a href="https://lwn.net/Articles/1011266/">6.6.79</a>, and
-<a href="https://lwn.net/Articles/1011267/">6.1.129</a>. As usual, all users are advised to upgrade.
-</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1011262/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Feb 2025 14:07:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011262/" title="https://lwn.net/Articles/1011262/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, and mysql:8.0), <b>Debian</b> (chromium, djoser, libtasn1-6, and postgresql-13), <b>Fedora</b> (python3.12 and vim), <b>Red Hat</b> (libpq, postgresql, postgresql:13, postgresql:15, and postgresql:16), <b>Slackware</b> (ark), <b>SUSE</b> (brise, chromium, emacs, google-osconfig-agent, grafana, grub2, helm, kernel, openssh, openssl-1_1, ovmf, postgresql13, postgresql14, postgresql15, and postgresql17), and <b>Ubuntu</b> (gnutls28, libtasn1-6, openssl, python3.10, python3.12, python3.8, and webkit2gtk).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1011197/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Feb 2025 13:43:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011197/" title="https://lwn.net/Articles/1011197/">Linus on Rust and the kernel's DMA layer</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>At the end of January we ran <a href="https://lwn.net/Articles/1006805/">this article</a>
-on the discussions around a set of Rust bindings for the kernel's
-DMA-mapping layer.  Many pixels have been expended on the topic since
-across the net, most recently in <a
-href="https://lwn.net/ml/all/CANiq72m-R0tOakf=j7BZ78jDHdy=9-fvZbAT8j91Je2Bxy0sFg@mail.gmail.com">this
-sprawling email thread</a>.  Linus Torvalds has now <a
-href="https://lwn.net/ml/all/CAHk-=wgLbz1Bm8QhmJ4dJGSmTuV5w_R0Gwvg5kHrYr4Ko9dUHQ@mail.gmail.com">made
-his feelings known</a> on the topic:
-<p>
-<blockquote class="bq">
-	You are not forced to take any Rust code, or care about any Rust
-	code in the DMA code. You can ignore it.
-<p>
-	But "ignore the Rust side" automatically also means that you don't
-	have any *say* on the Rust side.
-<p>
-	You can't have it both ways. You can't say "I want to have nothing
-	to do with Rust", and then in the very next sentence say "And that
-	means that the Rust code that I will ignore cannot use the C
-	interfaces I maintain".
-</blockquote>
-<p>
-The code in question seems highly likely to be merged for the 6.15 release.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
