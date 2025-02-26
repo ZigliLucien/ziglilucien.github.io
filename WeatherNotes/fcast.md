@@ -2,20 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly cloudy. Low around 41, with temperatures rising to around 46 overnight. South wind around 8 mph.<br></div>
+         <h3>Today</h3>A chance of rain showers after 3pm. Mostly cloudy. High near 66, with temperatures falling to around 63 in the afternoon.
+         Southwest wind 6 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of rain showers after 3pm. Mostly cloudy. High near 66, with temperatures falling to around 62 in the afternoon.
-         Southwest wind 7 to 13 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tonight</h3>Mostly cloudy. Low around 38, with temperatures rising to around 42 overnight. West northwest wind around 8 mph. Chance of
+         precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Mostly cloudy. Low around 38, with temperatures rising to around 42 overnight. West northwest wind around 8 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny, with a high near 58. West northwest wind 6 to 13 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Thursday</h3>Sunny. High near 58, with temperatures falling to around 54 in the afternoon. West northwest wind 6 to 13 mph, with gusts
+         as high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -56,5 +54,10 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>Showers and thunderstorms likely. Mostly cloudy, with a high near 63. South wind 12 to 15 mph, with gusts as high as 28 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>Showers and thunderstorms. Mostly cloudy, with a low around 48. South southwest wind around 14 mph, with gusts as high as
+         24 mph.<br></div>
    </p>
 </div>
