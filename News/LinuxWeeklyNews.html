@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1010905/" title="See Description">[$] Python interpreter adds tail calls</a></li>
+<li><a href="#https://lwn.net/Articles/1011928/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1011819/" title="See Description">A change in maintenance for the kernel's DMA-mapping layer</a></li>
 <li><a href="#https://lwn.net/Articles/1010404/" title="See Description">[$] A possible path for cancelable BPF programs</a></li>
 <li><a href="#https://lwn.net/Articles/1011764/" title="See Description">Security updates for Tuesday</a></li>
@@ -51,11 +53,38 @@
 <li><a href="#https://lwn.net/Articles/1011263/" title="See Description">Four Friday stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1011262/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1011197/" title="See Description">Linus on Rust and the kernel's DMA layer</a></li>
-<li><a href="#https://lwn.net/Articles/1011122/" title="See Description">Rust 1.85.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1009548/" title="See Description">[$] Filesystem support  for block sizes larger than the page size</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1010905/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Feb 2025 14:18:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1010905/" title="https://lwn.net/Articles/1010905/">[$] Python interpreter adds tail calls</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The
+<a href="https://lwn.net/Articles/857754/">
+Faster CPython project</a> has been working to speed up the Python interpreter
+for the past several years. Now, Ken Jin, a member of the project, has merged a
+<a href="https://github.com/python/cpython/issues/128563">
+new set of changes</a> that
+have been
+<a href="https://gist.github.com/Fidget-Spinner/497c664eef389622d146d632990b0d21">
+benchmarked</a> as improving performance by 10% for some architectures.
+The only change is switching from using computed goto statements to using
+tail calls as part of the implementation of Python's bytecode interpreter — but that change allows
+modern compilers to generate significantly better code.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1011928/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Feb 2025 14:11:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011928/" title="https://lwn.net/Articles/1011928/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (crun, gnutls, libtasn1, and openssl), <b>Mageia</b> (emacs, gnutls, iniparser, kernel, kmod-virtualbox, kmod-xtables-addons, kernel-linus, krb5, libxml2, and vim), <b>Slackware</b> (tigervnc and xorg), <b>SUSE</b> (libprotobuf-lite28_3_0 and Maven), and <b>Ubuntu</b> (dropbear, kernel, libxml2, linux, linux-lowlatency, linux-lowlatency-hwe-6.8, linux, linux-lts-xenial, linux-aws-5.4 linux-raspi-5.4, linux-gcp, linux-gke, linux-gkeop, linux-ibm, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-raspi, ProFTPD, python-virtualenv, rails, and xorg-server, xwayland).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1011819/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 25 Feb 2025 21:20:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -257,38 +286,6 @@ his feelings known</a> on the topic:
 </blockquote>
 <p>
 The code in question seems highly likely to be merged for the 6.15 release.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1011122/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Feb 2025 17:46:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011122/" title="https://lwn.net/Articles/1011122/">Rust 1.85.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2025/02/20/Rust-1.85.0.html">Version
-1.85.0</a> of the Rust language has been released.  Changes in the release
-include support for async closures, some convenience iterators for tuples,
-and a number of stabilized APIs.  The headline feature, though, is that
-this release stabilizes the <a href="https://lwn.net/Articles/1002456/">Rust 2024
-edition</a>, described as "<q>the largest edition we have released</q>".
-The <a
-href="https://doc.rust-lang.org/edition-guide/rust-2024/index.html">2024
-edition guide</a> has a detailed listing of all the changes that were
-incorporated this time around.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1009548/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Feb 2025 15:33:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1009548/" title="https://lwn.net/Articles/1009548/">[$] Filesystem support  for block sizes larger than the page size</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The maximum filesystem block size that the kernel can support has always
-been limited by the host page size for Linux, even if the filesystems could
-handle larger block sizes. The <a href="https://lwn.net/ml/all/20240822135018.1931258-1-kernel@pankajraghav.com/">large-block-size (LBS) patches</a> that were <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=171754c3808214d4fd8843eab584599a429deb52">merged</a>
-for the 6.12&#160;kernel removed this limitation in XFS, thereby decoupling
-the page size from the filesystem block size. XFS is the first filesystem
-to gain this support, with other filesystems likely to add LBS support in
-the future. In addition, the LBS patches have been used to get the <a
-href="https://lwn.net/Articles/974578/">initial atomic-write support</a> into XFS.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
