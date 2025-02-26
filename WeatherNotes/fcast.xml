@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-02-26T05:36:03+00:00</generatedAt>
+		<generatedAt type="str">2025-02-26T06:36:03+00:00</generatedAt>
 		<updateTime type="str">2025-02-26T05:16:26+00:00</updateTime>
 		<validTimes type="str">2025-02-25T23:00:00+00:00/P7DT2H</validTimes>
 		<elevation type="dict">
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-02-25T23:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-02-26T00:00:00-06:00</startTime>
 				<endTime type="str">2025-02-26T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">41</temperature>
@@ -63,10 +63,10 @@
 					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 8 mph</windSpeed>
-				<windDirection type="str">SSE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
-				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy. Low around 41, with temperatures rising to around 43 overnight. South southeast wind 2 to 8 mph.</detailedForecast>
+				<windDirection type="str">S</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy. Low around 41, with temperatures rising to around 43 overnight. South wind 2 to 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
