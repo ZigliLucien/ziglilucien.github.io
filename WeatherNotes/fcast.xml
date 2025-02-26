@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-02-26T16:36:04+00:00</generatedAt>
-		<updateTime type="str">2025-02-26T16:32:31+00:00</updateTime>
-		<validTimes type="str">2025-02-26T10:00:00+00:00/P7DT18H</validTimes>
+		<generatedAt type="str">2025-02-26T17:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-02-26T17:01:34+00:00</updateTime>
+		<validTimes type="str">2025-02-26T11:00:00+00:00/P7DT17H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2025-02-26T10:00:00-06:00</startTime>
+				<startTime type="str">2025-02-26T11:00:00-06:00</startTime>
 				<endTime type="str">2025-02-26T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">68</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">30</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 to 12 mph</windSpeed>
+				<windSpeed type="str">7 to 12 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn/rain,30?size=medium</icon>
-				<shortForecast type="str">Partly Sunny then Chance Rain</shortForecast>
-				<detailedForecast type="str">A chance of rain after 3pm. Partly sunny. High near 68, with temperatures falling to around 63 in the afternoon. Southwest wind 6 to 12 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn/tsra_sct,30?size=medium</icon>
+				<shortForecast type="str">Partly Sunny then Slight Chance T-storms</shortForecast>
+				<detailedForecast type="str">A slight chance of thunderstorms and a slight chance of rain between 3pm and 5pm, then a chance of rain and a slight chance of thunderstorms. Partly sunny. High near 68, with temperatures falling to around 63 in the afternoon. Southwest wind 7 to 12 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -83,9 +83,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">9 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain,40/bkn?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,40/bkn?size=medium</icon>
 				<shortForecast type="str">Chance Light Rain then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">A chance of rain before 9pm. Mostly cloudy, with a low around 39. West northwest wind around 9 mph. Chance of precipitation is 40%.</detailedForecast>
+				<detailedForecast type="str">A chance of rain and a slight chance of thunderstorms before 7pm, then a slight chance of thunderstorms and a slight chance of rain between 7pm and 9pm. Mostly cloudy, with a low around 39. West northwest wind around 9 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
