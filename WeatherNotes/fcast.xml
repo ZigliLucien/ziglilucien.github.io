@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-02-27T16:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-02-27T12:16:56+00:00</updateTime>
-		<validTimes type="str">2025-02-27T06:00:00+00:00/P7DT19H</validTimes>
+		<generatedAt type="str">2025-02-27T17:36:15+00:00</generatedAt>
+		<updateTime type="str">2025-02-27T17:17:01+00:00</updateTime>
+		<validTimes type="str">2025-02-27T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,21 +52,21 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2025-02-27T10:00:00-06:00</startTime>
+				<startTime type="str">2025-02-27T11:00:00-06:00</startTime>
 				<endTime type="str">2025-02-27T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">59</temperature>
+				<temperature type="int">60</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">10 to 14 mph</windSpeed>
+				<windSpeed type="str">12 to 16 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/skc?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny. High near 59, with temperatures falling to around 56 in the afternoon. West northwest wind 10 to 14 mph, with gusts as high as 24 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny. High near 60, with temperatures falling to around 58 in the afternoon. West northwest wind 12 to 16 mph, with gusts as high as 26 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -74,18 +74,18 @@
 				<startTime type="str">2025-02-27T18:00:00-06:00</startTime>
 				<endTime type="str">2025-02-28T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">36</temperature>
+				<temperature type="int">37</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 8 mph</windSpeed>
+				<windSpeed type="str">3 to 9 mph</windSpeed>
 				<windDirection type="str">W</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
 				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear, with a low around 36. West wind 2 to 8 mph.</detailedForecast>
+				<detailedForecast type="str">Clear. Low around 37, with temperatures rising to around 39 overnight. West wind 3 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -93,18 +93,18 @@
 				<startTime type="str">2025-02-28T06:00:00-06:00</startTime>
 				<endTime type="str">2025-02-28T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">66</temperature>
+				<temperature type="int">67</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="null"/>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 to 17 mph</windSpeed>
+				<windSpeed type="str">7 to 18 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/skc?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny. High near 66, with temperatures falling to around 62 in the afternoon. Southwest wind 6 to 17 mph, with gusts as high as 30 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny. High near 67, with temperatures falling to around 65 in the afternoon. Southwest wind 7 to 18 mph, with gusts as high as 31 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -112,7 +112,7 @@
 				<startTime type="str">2025-02-28T18:00:00-06:00</startTime>
 				<endTime type="str">2025-03-01T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">36</temperature>
+				<temperature type="int">37</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
@@ -123,7 +123,7 @@
 				<windDirection type="str">WNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 36. West northwest wind around 10 mph, with gusts as high as 20 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 37. West northwest wind around 10 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
