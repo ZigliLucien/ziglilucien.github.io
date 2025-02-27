@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-02-27T00:36:04+00:00</generatedAt>
-		<updateTime type="str">2025-02-26T23:01:40+00:00</updateTime>
-		<validTimes type="str">2025-02-26T17:00:00+00:00/P7DT11H</validTimes>
+		<generatedAt type="str">2025-02-27T01:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-02-27T00:46:24+00:00</updateTime>
+		<validTimes type="str">2025-02-26T18:00:00+00:00/P7DT10H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2025-02-26T18:00:00-06:00</startTime>
+				<startTime type="str">2025-02-26T19:00:00-06:00</startTime>
 				<endTime type="str">2025-02-27T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">39</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">40</value>
+					<value type="int">20</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">9 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,40/bkn?size=medium</icon>
-				<shortForecast type="str">Chance Light Rain then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">A chance of rain and a slight chance of thunderstorms before 7pm, then a slight chance of thunderstorms and a slight chance of rain between 7pm and 9pm. Mostly cloudy, with a low around 39. West northwest wind around 9 mph. Chance of precipitation is 40%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,20/bkn?size=medium</icon>
+				<shortForecast type="str">Slight Chance T-storms then Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">A slight chance of thunderstorms and a slight chance of rain before 9pm. Mostly cloudy, with a low around 39. West northwest wind around 9 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
