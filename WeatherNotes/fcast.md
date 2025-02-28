@@ -6,17 +6,17 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Sunny. High near 67, with temperatures falling to around 65 in the afternoon. Southwest wind 8 to 20 mph, with gusts as high
+         <h3>Friday</h3>Sunny. High near 71, with temperatures falling to around 65 in the afternoon. Southwest wind 7 to 23 mph, with gusts as high
          as 33 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Mostly clear. Low around 36, with temperatures rising to around 38 overnight. West northwest wind around 10 mph, with gusts
-         as high as 21 mph.<br></div>
+         <h3>Friday Night</h3>Mostly clear. Low around 36, with temperatures rising to around 40 overnight. West northwest wind 9 to 13 mph, with gusts
+         as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Mostly sunny, with a high near 46. North northwest wind 8 to 12 mph, with gusts as high as 21 mph.<br></div>
+         <h3>Saturday</h3>Mostly sunny, with a high near 43. North northwest wind 8 to 13 mph, with gusts as high as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
