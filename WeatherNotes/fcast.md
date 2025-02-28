@@ -7,12 +7,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear. Low around 36, with temperatures rising to around 39 overnight. West northwest wind around 10 mph, with gusts
+         <h3>Tonight</h3>Mostly clear. Low around 35, with temperatures rising to around 37 overnight. West northwest wind around 10 mph, with gusts
          as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny. High near 44, with temperatures falling to around 41 in the afternoon. North northwest wind 9 to 13 mph, with gusts
+         <h3>Saturday</h3>Sunny. High near 43, with temperatures falling to around 39 in the afternoon. North northwest wind 9 to 13 mph, with gusts
          as high as 21 mph.<br></div>
    </p>
    <p>
