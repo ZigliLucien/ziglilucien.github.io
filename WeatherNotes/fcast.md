@@ -2,21 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly clear. Low around 34, with temperatures rising to around 37 overnight. South wind around 6 mph.<br></div>
+         <h3>Today</h3>Sunny. High near 68, with temperatures falling to around 65 in the afternoon. South southwest wind 6 to 17 mph, with gusts
+         as high as 29 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Sunny. High near 68, with temperatures falling to around 65 in the afternoon. Southwest wind 7 to 17 mph, with gusts as high
-         as 29 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Friday Night</h3>Mostly clear. Low around 36, with temperatures rising to around 39 overnight. West northwest wind around 10 mph, with gusts
+         <h3>Tonight</h3>Mostly clear. Low around 36, with temperatures rising to around 39 overnight. West northwest wind around 10 mph, with gusts
          as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny, with a high near 44. North northwest wind 8 to 12 mph, with gusts as high as 21 mph.<br></div>
+         <h3>Saturday</h3>Sunny. High near 44, with temperatures falling to around 41 in the afternoon. North northwest wind 8 to 12 mph, with gusts
+         as high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -32,7 +29,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A chance of rain. Mostly cloudy, with a high near 53. South southeast wind 7 to 10 mph, with gusts as high as 21 mph.<br></div>
+         <h3>Monday</h3>A chance of rain. Mostly cloudy, with a high near 53. South southeast wind 7 to 10 mph, with gusts as high as 21 mph. Chance
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -59,5 +57,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>Mostly sunny, with a high near 49. West northwest wind 5 to 9 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Thursday Night</h3>Partly cloudy, with a low around 34. West southwest wind around 5 mph.<br></div>
    </p>
 </div>
