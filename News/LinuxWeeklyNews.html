@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1012367/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1012286/" title="See Description">McKenney: Speaking at Kernel Recipes</a></li>
 <li><a href="#https://lwn.net/Articles/1012269/" title="See Description">Fish shell 4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1007270/" title="See Description">[$] A look at the Zotero reference management tool</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1010905/" title="See Description">[$] Python interpreter adds tail calls</a></li>
 <li><a href="#https://lwn.net/Articles/1011928/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1011819/" title="See Description">A change in maintenance for the kernel's DMA-mapping layer</a></li>
-<li><a href="#https://lwn.net/Articles/1010404/" title="See Description">[$] A possible path for cancelable BPF programs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1012367/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 28 Feb 2025 14:01:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1012367/" title="https://lwn.net/Articles/1012367/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (emacs, freerdp2, and gst-plugins-good1.0), <b>Fedora</b> (java-17-openjdk, python3.6, and xorg-x11-server-Xwayland), <b>Mageia</b> (radare2), <b>SUSE</b> (libX11, openvswitch3, postgresql13, procps, ruby2.5, webkit2gtk3, and xorg-x11-server), and <b>Ubuntu</b> (git, linux-aws, linux-aws, linux-aws-6.8, linux-aws, linux-oracle, linux-oracle-5.4, linux-ibm, linux-intel-iotg, linux-intel-iotg-5.15, and linux-oem-6.11).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1012286/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 27 Feb 2025 22:47:01 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -301,25 +309,6 @@ href="https://git.kernel.org/linus/f7d5db965f3e">stepped down</a> from the
 maintenance of the DMA-mapping code.  Marek Szyprowski will be the
 maintainer of that layer going forward.  Hellwig has maintained that code
 for many years; his contributions will be missed.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1010404/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 25 Feb 2025 15:32:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1010404/" title="https://lwn.net/Articles/1010404/">[$] A possible path for cancelable BPF programs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The Linux kernel supports attaching BPF programs to many operations.
-This is generally safe because the BPF verifier ensures
-that BPF programs can't misuse kernel resources, run indefinitely, or otherwise
-escape their boundaries. There is continuing tension, however, between trying
-to expand the capabilities of BPF programs and ensuring that the verifier can
-handle every edge case. On February&#160;14, Juntong Deng
-<a href="https://lwn.net/ml/all/AM6PR03MB5080513BFAEB54A93CC70D4399FE2@AM6PR03MB5080.eurprd03.prod.outlook.com/">
-shared</a> a proof-of-concept patch set that
-adds some run-time checks to BPF to make it possible in the future to interrupt
-a running BPF program.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
