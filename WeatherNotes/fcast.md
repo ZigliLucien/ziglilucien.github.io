@@ -6,18 +6,18 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of rain after midnight. Mostly cloudy, with a low around 49. South wind 9 to 14 mph, with gusts as high as
-         28 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Tonight</h3>A slight chance of rain after midnight. Mostly cloudy, with a low around 49. South wind 10 to 15 mph, with gusts as high as
+         29 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Rain. Mostly cloudy. High near 61, with temperatures falling to around 55 in the afternoon. South southeast wind 14 to 18
-         mph, with gusts as high as 35 mph. Chance of precipitation is 100%.<br></div>
+         <h3>Tuesday</h3>Rain. Cloudy. High near 61, with temperatures falling to around 55 in the afternoon. South southeast wind 15 to 20 mph, with
+         gusts as high as 41 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tuesday Night</h3>Rain and a slight chance of thunderstorms. Mostly cloudy, with a low around 43. South southwest wind 14 to 17 mph, with gusts
-         as high as 28 mph. Chance of precipitation is 80%.<br></div>
+         as high as 35 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
