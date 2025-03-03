@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Mostly sunny. High near 59, with temperatures falling to around 57 in the afternoon. South wind around 12 mph, with gusts
-         as high as 21 mph.<br></div>
+         as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
