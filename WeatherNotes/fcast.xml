@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-03-04T16:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-03-04T13:32:59+00:00</updateTime>
-		<validTimes type="str">2025-03-04T07:00:00+00:00/P7DT18H</validTimes>
+		<generatedAt type="str">2025-03-04T18:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-03-04T17:02:12+00:00</updateTime>
+		<validTimes type="str">2025-03-04T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,22 +51,22 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2025-03-04T10:00:00-06:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2025-03-04T12:00:00-06:00</startTime>
 				<endTime type="str">2025-03-04T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">60</temperature>
+				<temperature type="int">63</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">100</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">22 mph</windSpeed>
+				<windSpeed type="str">18 to 22 mph</windSpeed>
 				<windDirection type="str">SSE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,20/rain_showers,100?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,100?size=medium</icon>
 				<shortForecast type="str">Rain Showers</shortForecast>
-				<detailedForecast type="str">Rain showers. Cloudy. High near 60, with temperatures falling to around 57 in the afternoon. South southeast wind around 22 mph, with gusts as high as 40 mph. Chance of precipitation is 100%.</detailedForecast>
+				<detailedForecast type="str">Rain showers after 1pm. Cloudy. High near 63, with temperatures falling to around 55 in the afternoon. South southeast wind 18 to 22 mph, with gusts as high as 43 mph. Chance of precipitation is 100%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
