@@ -1,5 +1,5 @@
 <p>
-   <h2>Wind Advisory issued March 3 at 1:52PM CST until March 5 at 6:00PM CST by NWS Paducah KY</h2>
+   <h2>Wind Advisory issued March 3 at 9:11PM CST until March 5 at 6:00PM CST by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Southwest winds 15 to 25 mph with gusts up to 40 mph
       expected.
       
