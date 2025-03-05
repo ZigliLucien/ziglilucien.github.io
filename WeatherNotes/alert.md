@@ -1,6 +1,6 @@
 <p>
-   <h2>Wind Advisory issued March 5 at 3:28AM CST until March 5 at 6:00PM CST by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...West winds 15 to 25 mph with gusts up to 45 mph.
+   <h2>Wind Advisory issued March 5 at 11:27AM CST until March 5 at 6:00PM CST by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...West winds 20 to 25 mph with gusts up to 40 mph.
       
       * WHERE...Portions of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
