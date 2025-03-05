@@ -2,9 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of rain showers before 9am, then a chance of rain and snow showers between 9am and noon, then a slight chance of
-         thunderstorms and a chance of rain and snow showers. Cloudy. High near 42, with temperatures falling to around 37 in the afternoon.
-         West wind 15 to 22 mph, with gusts as high as 41 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Today</h3>A chance of rain and snow showers before noon, then a slight chance of thunderstorms and a chance of rain and snow showers.
+         Cloudy, with a high near 38. West wind 18 to 22 mph, with gusts as high as 41 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
