@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-03-05T05:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-03-05T04:16:42+00:00</updateTime>
-		<validTimes type="str">2025-03-04T22:00:00+00:00/P7DT3H</validTimes>
+		<generatedAt type="str">2025-03-05T06:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-03-05T06:17:54+00:00</updateTime>
+		<validTimes type="str">2025-03-05T00:00:00+00:00/P7DT1H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-03-04T23:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-03-05T00:00:00-06:00</startTime>
 				<endTime type="str">2025-03-05T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">39</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">40</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">14 to 21 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/rain_showers,40?size=medium</icon>
+				<windSpeed type="str">13 to 21 mph</windSpeed>
+				<windDirection type="str">SW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,40?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers. Mostly cloudy. Low around 39, with temperatures rising to around 46 overnight. South southwest wind 14 to 21 mph, with gusts as high as 36 mph. Chance of precipitation is 40%.</detailedForecast>
+				<detailedForecast type="str">A chance of rain showers after 1am. Mostly cloudy. Low around 39, with temperatures rising to around 46 overnight. Southwest wind 13 to 21 mph, with gusts as high as 36 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
