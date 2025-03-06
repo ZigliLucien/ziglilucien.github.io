@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1013136/" title="See Description">Zen and the Art of Microcode Hacking (Google Bug Hunters)</a></li>
 <li><a href="#https://lwn.net/Articles/1013114/" title="See Description">FerretDB 2.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1011803/" title="See Description">[$] Two new graph-based functional programming languages</a></li>
 <li><a href="#https://lwn.net/Articles/1013104/" title="See Description">Xen 4.20 released</a></li>
@@ -52,10 +53,38 @@
 <li><a href="#https://lwn.net/Articles/1011366/" title="See Description">[$] Guard pages for file-backed memory</a></li>
 <li><a href="#https://lwn.net/Articles/1012760/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1012659/" title="See Description">Kernel prepatch 6.14-rc5</a></li>
-<li><a href="#https://lwn.net/Articles/1011511/" title="See Description">[$] Fedora discusses Flatpak priorities</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1013136/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 05 Mar 2025 22:10:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013136/" title="https://lwn.net/Articles/1013136/">Zen and the Art of Microcode Hacking (Google Bug Hunters)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Google Bug Hunters blog has <a
+href="https://bughunters.google.com/blog/5424842357473280/zen-and-the-art-of-microcode-hacking">a
+detailed description</a> of how a vulnerability in AMD's microcode-patching
+functionality was discovered and exploited; the authors have also released
+a set of tools to assist with this kind of research in the future.
+<p>
+<blockquote class="bq">
+	Secure hash functions are designed in such a way that there is no
+	secret key, and there is no way to use knowledge of the
+	intermediate state in order to generate a collision. However, CMAC
+	was not designed as a hash function, and therefore it is a weak
+	hash function against an adversary who has the key. Remember that
+	every AMD Zen CPU has to have the same AES-CMAC key in order to
+	successfully calculate the hash of the AMD public key and the
+	microcode patch contents. Therefore, the key only needs to be
+	revealed from a single CPU in order to compromise all other CPUs
+	using the same key. This opens up the potential for hardware
+	attacks (e.g., reading the key from ROM with a scanning electron
+	microscope), side-channel attacks (e.g., using Correlation Power
+	Analysis to leak the key during validation), or other software or
+	hardware attacks that can somehow reveal the key. In summary, it is
+	a safe assumption that such a key will not remain secret forever.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1013114/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 05 Mar 2025 18:28:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -281,26 +310,6 @@ though.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1012658/">6.14-rc5</a> kernel prepatch is out for
 testing.  "<q>Nothing looks particularly big or worrisome</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1011511/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 28 Feb 2025 19:09:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1011511/" title="https://lwn.net/Articles/1011511/">[$] Fedora discusses Flatpak priorities</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Differences of opinion, as well as outright disputes, between
-upstream open-source projects and Linux distribution packagers over
-packaging practices are nothing new. It is rarer, though, for those
-disputes to boil over to threats of legal action&mdash;but a
-disagreement between the <a href="https://obsproject.com/">Open
-Broadcaster Software (OBS) Studio</a> project and Fedora packagers
-reached that point in mid-February. After escalation to a higher
-authority, things have been worked out to the satisfaction of the OBS
-project, but some lingering questions remain. How Fedora should
-prioritize <a href="https://flatpak.org/">Flatpak</a> repositories,
-how to handle conflicts between upstreams and Fedora packagers, and
-the mechanics of removing or retiring Flatpaks all remain open
-questions.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
