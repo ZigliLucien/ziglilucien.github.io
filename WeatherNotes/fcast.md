@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>Mostly clear. Low around 27, with temperatures rising to around 30 overnight. West northwest wind around 7 mph, with gusts
-         as high as 21 mph.<br></div>
+         as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
