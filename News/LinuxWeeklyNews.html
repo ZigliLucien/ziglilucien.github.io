@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1012946/" title="See Description">[$] Hash-based module integrity checking</a></li>
 <li><a href="#https://lwn.net/Articles/1013336/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1012490/" title="See Description">[$] Timer IDs, CRIU, and ABI challenges</a></li>
 <li><a href="#https://lwn.net/Articles/1013209/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,26 @@
 <li><a href="#https://lwn.net/Articles/1012453/" title="See Description">[$] A look at Firefox forks</a></li>
 <li><a href="#https://lwn.net/Articles/1012947/" title="See Description">Firefox 136.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1012916/" title="See Description">Incus 6.10 released</a></li>
-<li><a href="#https://lwn.net/Articles/1012915/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1012946/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 07 Mar 2025 15:44:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1012946/" title="https://lwn.net/Articles/1012946/">[$] Hash-based module integrity checking</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+On January 20, Thomas Weißschuh shared a new
+<a href="https://lwn.net/ml/all/20250120-module-hashes-v2-0-ba1184e27b7f@weissschuh.net/">
+patch set</a> implementing an alternate method for checking the integrity of
+loadable kernel modules. This mechanism, which checks module integrity based
+on hashes computed at build time instead of using cryptographic signatures,
+could enable reproducible kernel builds in more contexts. Several distributions
+have already expressed interest in the patch set if Weißschuh can get it
+into the kernel.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1013336/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 07 Mar 2025 13:44:17 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -285,14 +302,6 @@ New features include better Let's Encrypt support, API-wide filtering,
 IOMMU support in virtual machines, and more.  See <a
 href="https://discuss.linuxcontainers.org/t/incus-6-10-has-been-released/23077">this
 announcement</a> for details.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1012915/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 04 Mar 2025 14:30:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1012915/" title="https://lwn.net/Articles/1012915/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel), <b>Mageia</b> (x11-server), <b>Red Hat</b> (emacs and webkit2gtk3), <b>SUSE</b> (ffmpeg-7, govulncheck-vulndb, kernel, and skopeo), and <b>Ubuntu</b> (cmark-gfm, erlang, krb5, linux-gcp-6.8, linux-raspi, linux-kvm, lucene-solr, postgresql-12, postgresql-14, postgresql-16, raptor2, spip, tomcat7, and wpa).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
