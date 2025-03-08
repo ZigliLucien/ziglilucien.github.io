@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 55.9 F. <strong>Dew Point</strong> 50.0 F.</div>
+<div id='c'><strong>Temp</strong> 37.9 F. <strong>Dew Point</strong> 30.9 F.</div>
 
 <p/><br/><p/>
 
@@ -1281,3 +1281,14 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Fri Mar  7 18:08:59 2025 |  | |
 | Fri Mar  7 19:09:00 2025 |  | |
 | Fri Mar  7 20:08:07 2025 | 55.9 F. | 50.0 F.|
+| Fri Mar  7 21:08:22 2025 | 55.9 F. | 50.0 F.|
+| Fri Mar  7 22:08:17 2025 | 57.0 F. | 48.9 F.|
+| Fri Mar  7 23:08:14 2025 | 50.0 F. | 37.9 F.|
+| Sat Mar  8 00:08:15 2025 | 48.0 F. | 37.9 F.|
+| Sat Mar  8 01:08:14 2025 | 48.0 F. | 37.9 F.|
+| Sat Mar  8 02:08:14 2025 | 45.0 F. | 37.0 F.|
+| Sat Mar  8 03:08:15 2025 | 44.1 F. | 37.0 F.|
+| Sat Mar  8 04:08:29 2025 | 42.1 F. | 36.0 F.|
+| Sat Mar  8 05:08:28 2025 | 41.0 F. | 33.1 F.|
+| Sat Mar  8 06:08:29 2025 | 39.0 F. | 32.0 F.|
+| Sat Mar  8 07:08:29 2025 | 37.9 F. | 30.9 F.|
