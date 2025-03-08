@@ -12,7 +12,7 @@
 	<atom:link href="https://www.raspberrypi.org/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.raspberrypi.org/</link>
 	<description>Teach, learn and make with Raspberry Pi</description>
-	<lastBuildDate>Thu, 27 Feb 2025 10:24:57 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 06 Mar 2025 10:57:32 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,203 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Integrating generative AI into introductory programming classes</title>
+		<link>https://www.raspberrypi.org/blog/integrating-generative-ai-into-introductory-programming-classes/</link>
+					<comments>https://www.raspberrypi.org/blog/integrating-generative-ai-into-introductory-programming-classes/#respond</comments>
+		
+		<dc:creator><![CDATA[Bonnie Sheppard]]></dc:creator>
+		<pubDate>Thu, 06 Mar 2025 10:52:35 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[programming]]></category>
+		<category><![CDATA[research seminar]]></category>
+		<category><![CDATA[generative ai tools]]></category>
+		<guid isPermaLink="false">https://www.raspberrypi.org/?p=89586</guid>
+
+					<description><![CDATA[<p>Generative AI (GenAI) tools like GitHub Copilot and ChatGPT are rapidly changing how programming is taught and learnt. These tools can solve assignments with remarkable accuracy. GPT-4, for example, scored an impressive 99.5% on an undergraduate computer science exam, compared to Codex’s 78% just two years earlier. With such capabilities, researchers are shifting from asking,&#8230;</p>
+<p>The post <a href="https://www.raspberrypi.org/blog/integrating-generative-ai-into-introductory-programming-classes/">Integrating generative AI into introductory programming classes</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Generative AI (GenAI) tools like GitHub Copilot and ChatGPT are rapidly changing how programming is taught and learnt. These tools can solve assignments with remarkable accuracy. GPT-4, for example, scored an impressive <a href="https://cacm.acm.org/research/computing-education-in-the-era-of-generative-ai/" target="_blank" rel="noreferrer noopener">99.5% on an undergraduate computer science exam, compared to Codex’s 78% just two years earlier</a>. With such capabilities, researchers are shifting from asking, “Should we teach with AI?” to “How do we teach with AI?”</p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" width="500" height="500" src="https://www.raspberrypi.org/app/uploads/2025/03/Leo-P-500x500.png" alt="Photo of Leo Porter (UC San Diego)" class="wp-image-89589" style="aspect-ratio:1;width:416px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/03/Leo-P-500x500.png 500w, https://www.raspberrypi.org/app/uploads/2025/03/Leo-P-250x250.png 250w, https://www.raspberrypi.org/app/uploads/2025/03/Leo-P-150x150.png 150w, https://www.raspberrypi.org/app/uploads/2025/03/Leo-P-768x768.png 768w, https://www.raspberrypi.org/app/uploads/2025/03/Leo-P-800x800.png 800w, https://www.raspberrypi.org/app/uploads/2025/03/Leo-P-100x100.png 100w, https://www.raspberrypi.org/app/uploads/2025/03/Leo-P-300x300.png 300w, https://www.raspberrypi.org/app/uploads/2025/03/Leo-P-450x450.png 450w, https://www.raspberrypi.org/app/uploads/2025/03/Leo-P-900x900.png 900w, https://www.raspberrypi.org/app/uploads/2025/03/Leo-P.png 1080w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Leo Porter from UC San Diego</figcaption></figure></div></div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" width="500" height="500" src="https://www.raspberrypi.org/app/uploads/2025/03/Daniel-500x500.png" alt="Photo of Daniel Zingaro (University of Toronto)" class="wp-image-89590" srcset="https://www.raspberrypi.org/app/uploads/2025/03/Daniel-500x500.png 500w, https://www.raspberrypi.org/app/uploads/2025/03/Daniel-250x250.png 250w, https://www.raspberrypi.org/app/uploads/2025/03/Daniel-150x150.png 150w, https://www.raspberrypi.org/app/uploads/2025/03/Daniel-768x768.png 768w, https://www.raspberrypi.org/app/uploads/2025/03/Daniel-100x100.png 100w, https://www.raspberrypi.org/app/uploads/2025/03/Daniel-300x300.png 300w, https://www.raspberrypi.org/app/uploads/2025/03/Daniel-450x450.png 450w, https://www.raspberrypi.org/app/uploads/2025/03/Daniel.png 794w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Daniel Zingaro from the University of Toronto</figcaption></figure></div></div>
+</div>
+
+
+
+<p>Leo Porter and Daniel Zingaro have spearheaded this transformation through their groundbreaking undergraduate programming course. Their innovative curriculum integrates GenAI tools to help students tackle complex programming tasks while developing critical thinking and problem-solving skills.</p>
+
+
+
+<p>Leo and Daniel presented their work at the Raspberry Pi Foundation research seminar in December 2024. During the seminar, it became clear that much could be learnt from their work, with their insights having particular relevance for teachers in secondary education thinking about using GenAI in their programming classes</p>
+
+
+
+<h2 class="wp-block-heading">Practical applications in the classroom</h2>
+
+
+
+<p>In 2023, Leo and Daniel <a href="http://bit.ly/CS1-LLMs" target="_blank" rel="noreferrer noopener">introduced GitHub Copilot in their introductory programming&nbsp; CS1-LLM course</a> at UC San Diego with 550 students. The course included creative, open-ended projects that allowed students to explore their interests while applying the skills they’d learnt. The projects covered the following areas:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Data science</strong>: Students used Kaggle datasets to explore questions related to their fields of study — for example, neuroscience majors analysed stroke data. The projects encouraged interdisciplinary thinking and practical applications of programming.</li>
+
+
+
+<li><strong>Image manipulation</strong>: Students worked with the Python Imaging Library (PIL) to create collages and apply filters to images, showcasing their creativity and technical skills.</li>
+
+
+
+<li><strong>Game development</strong>: A project focused on designing text-based games encouraged students to break down problems into manageable components while using AI tools to generate and debug code.</li>
+</ul>
+
+
+
+<p>Students consistently reported that these projects were not only enjoyable but also responsible for deepening their understanding of programming concepts. A majority (74%) found the projects helpful or extremely helpful for their learning. One student noted that.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;<em>Programming projects were fun and the amount of <strong>freedom</strong> that was given added to that. The projects also helped me understand how to put <strong>everything that we have learned</strong> so far into a project that I could be proud of.</em>&#8220;</p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading"><strong>Core skills for programming with Generative AI</strong></h2>
+
+
+
+<p>Leo and Daniel emphasised that teaching programming with GenAI involves fostering a mix of traditional and AI-specific skills.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" width="500" height="294" src="https://www.raspberrypi.org/app/uploads/2025/03/image3-500x294.png" alt="Infographic highlighting a workflow when writing software with Copilot." class="wp-image-89597" style="width:646px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/03/image3-500x294.png 500w, https://www.raspberrypi.org/app/uploads/2025/03/image3-300x176.png 300w, https://www.raspberrypi.org/app/uploads/2025/03/image3-768x451.png 768w, https://www.raspberrypi.org/app/uploads/2025/03/image3-450x264.png 450w, https://www.raspberrypi.org/app/uploads/2025/03/image3.png 781w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Writing software with GenAI applications, such as Copilot, needs to be approached differently to traditional programming tasks</figcaption></figure></div>
+
+
+<p>Their approach centres on six core competencies:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Prompting and function design</strong>: Students learn to articulate precise prompts for AI tools, honing their ability to describe a function’s purpose, inputs, and outputs, for instance. This clarity improves the output from the AI tool and reinforces students’ understanding of task requirements.</li>
+
+
+
+<li><strong>Code reading and selection</strong>: AI tools can produce any number of solutions, and each will be different, requiring students to evaluate the options critically. Students are taught to identify which solution is most likely to solve their problem effectively.</li>
+
+
+
+<li><strong>Code testing and debugging</strong>: Students practise open- and closed-box testing, learning to identify edge cases and debug code using tools like doctest and the VS Code debugger.</li>
+
+
+
+<li><strong>Problem decomposition</strong>: Breaking down large projects into smaller functions is essential. For instance, when designing a text-based game, students might separate tasks into input handling, game state updates, and rendering functions.</li>
+
+
+
+<li><strong>Leveraging modules</strong>: Students explore new programming domains and identify useful libraries through interactions with Copilot. This prepares them to solve problems efficiently and creatively.</li>
+</ul>
+
+
+
+<p><strong>Ethical and metacognitive skills</strong>: Students engage in discussions about responsible AI use and reflect on the decisions they make when collaborating with AI tools.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="247" src="https://www.raspberrypi.org/app/uploads/2025/03/image6-500x247.png" alt="Graphic depicting students' confidence levels regarding their programming skills and their use of Generative AI tools." class="wp-image-89598" style="width:617px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/03/image6-500x247.png 500w, https://www.raspberrypi.org/app/uploads/2025/03/image6-300x148.png 300w, https://www.raspberrypi.org/app/uploads/2025/03/image6-450x222.png 450w, https://www.raspberrypi.org/app/uploads/2025/03/image6.png 729w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure></div>
+
+
+<h2 class="wp-block-heading"><strong>Adapting assessments for the AI era</strong></h2>
+
+
+
+<p>The rise of GenAI has prompted educators to rethink how they assess programming skills. In the CS1-LLM course, traditional take-home assignments were de-emphasised in favour of assessments that focused on process and understanding.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="273" src="https://www.raspberrypi.org/app/uploads/2025/03/image2-500x273.png" alt="Table highlighting the different types of assessments involved in Leo and Daniel's course." class="wp-image-89599" style="width:583px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/03/image2-500x273.png 500w, https://www.raspberrypi.org/app/uploads/2025/03/image2-300x164.png 300w, https://www.raspberrypi.org/app/uploads/2025/03/image2-450x246.png 450w, https://www.raspberrypi.org/app/uploads/2025/03/image2.png 745w" sizes="auto, (max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Leo and Daniel chose several types of assessments — some involved having to complete programming tasks with the help of GenAI tools, while others had to be completed without.</figcaption></figure></div>
+
+
+<ul class="wp-block-list">
+<li><strong>Quizzes and exams</strong>: Students were evaluated on their ability to read, test, and debug code — skills critical for working effectively with AI tools. Final exams included both tasks that required independent coding and tasks that required use of Copilot.</li>
+
+
+
+<li><strong>Creative projects</strong>: Students submitted projects alongside a video explanation of their process, emphasising problem decomposition and testing. This approach highlighted the importance of critical thinking over rote memorisation.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Challenges and lessons learnt</strong></h2>
+
+
+
+<p>While Leo and Daniel reported that the integration of AI tools into their course has been largely successful, it has also introduced challenges. Surveys revealed that some students felt overly dependent on AI tools, expressing concerns about their ability to code independently. Addressing this will require striking a balance between leveraging AI tools and reinforcing foundational skills.</p>
+
+
+
+<p>Additionally, ethical concerns around AI use, such as plagiarism and intellectual property, must be addressed. Leo and Daniel incorporated discussions about these issues into their curriculum to ensure students understand the broader implications of working with AI technologies.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>A future-oriented approach</strong></h2>
+
+
+
+<p>Leo and Daniel’s work demonstrates that GenAI can transform programming education, making it more inclusive, engaging, and relevant. Their course attracted a diverse cohort of students, as well as students traditionally underrepresented in computer science — 52% of the students were female and 66% were not majoring in computer science — highlighting the potential of AI-powered learning to broaden participation in computer science.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-09-500x333.jpg" alt="A girl in a university computing classroom." class="wp-image-81586" srcset="https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-09-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-09-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-09-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-09-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-09-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-09-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-09-900x600.jpg 900w, https://www.raspberrypi.org/app/uploads/2022/10/ICS_Discovery-day-Queen-Mary_6.7.22-09.jpg 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure></div>
+
+
+<p>By embracing this shift, educators can prepare students not just to write code but to also think critically, solve real-world problems, and effectively harness the AI innovations shaping the future of technology.</p>
+
+
+
+<p>If you’re an educator interested in using GenAI in your teaching, we recommend checking out Leo and Daniel’s book, <a href="http://bit.ly/CS1-LLM-Book" target="_blank" rel="noreferrer noopener"><em>Learn AI-Assisted Python Programming</em></a>, as well as their <a href="https://github.com/copilotbook/CS1-LLM" target="_blank" rel="noreferrer noopener">course resources on GitHub</a>. You may also be interested in our own <a href="https://experience-ai.org/en" target="_blank" rel="noreferrer noopener">Experience AI resources</a>, which are designed to help educators navigate the fast-moving world of AI and machine learning technologies.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Join us at our next online seminar on 11 March</strong></h2>
+
+
+
+<p>Our 2025 seminar series is exploring how we can teach young people about AI technologies and data science. At our next seminar on Tuesday, 11 March at 17:00–18:00 GMT, we’ll hear from Lukas Höper and Carsten Schulte from Paderborn University. They’ll be discussing how to teach school students about data-driven technologies and how to increase students’ awareness of how data is used in their daily lives.</p>
+
+
+
+<p>To sign up and take part in the seminar, click the button below — we’ll then send you information about joining. We hope to see you there.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://form.raspberrypi.org/f/research-seminar-sign-up">I want to join the next seminar</a></div>
+</div>
+
+
+
+<p>The <a href="https://www.raspberrypi.org/research/seminars">schedule of our upcoming seminars</a> is online. You can catch up on past seminars on our <a href="https://www.raspberrypi.org/research/seminars/previous">previous seminars and recordings page</a>.</p>
+<p>The post <a href="https://www.raspberrypi.org/blog/integrating-generative-ai-into-introductory-programming-classes/">Integrating generative AI into introductory programming classes</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.raspberrypi.org/blog/integrating-generative-ai-into-introductory-programming-classes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Experience AI: The story so far</title>
 		<link>https://www.raspberrypi.org/blog/experience-ai-the-story-so-far/</link>
 					<comments>https://www.raspberrypi.org/blog/experience-ai-the-story-so-far/#respond</comments>
@@ -51,7 +248,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="500" height="375" src="https://www.raspberrypi.org/app/uploads/2025/02/Experience-AI-2-5.jpg" alt="" class="wp-image-89580" srcset="https://www.raspberrypi.org/app/uploads/2025/02/Experience-AI-2-5.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/02/Experience-AI-2-5-300x225.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/02/Experience-AI-2-5-450x338.jpg 450w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="500" height="375" src="https://www.raspberrypi.org/app/uploads/2025/02/Experience-AI-2-5.jpg" alt="" class="wp-image-89580" srcset="https://www.raspberrypi.org/app/uploads/2025/02/Experience-AI-2-5.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/02/Experience-AI-2-5-300x225.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/02/Experience-AI-2-5-450x338.jpg 450w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure></div>
 
 
 <p>The <a href="http://rpf.io/expai-impactblog1" target="_blank" rel="noreferrer noopener">Experience AI resources</a> are designed to help educators introduce AI and AI safety to 11- to 14-year-olds. They consist of:</p>
@@ -92,7 +289,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-500x333.jpg" alt="Photo of an educator teaching an Experience AI lesson." class="wp-image-89556" srcset="https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-2048x1365.jpg 2048w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-900x600.jpg 900w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-500x333.jpg" alt="Photo of an educator teaching an Experience AI lesson." class="wp-image-89556" srcset="https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-2048x1365.jpg 2048w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2025/02/138-IMG_5748-Enhanced-NR-900x600.jpg 900w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure></div>
 
 
 <p>Thanks to funding from <a href="https://www.raspberrypi.org/blog/experience-ai-canada-kenya-romania/" target="_blank" rel="noreferrer noopener">Google DeepMind</a> and <a href="https://www.raspberrypi.org/blog/experience-ai-expands-to-reach-over-2-million-students/" target="_blank" rel="noreferrer noopener">Google.org</a>, we have also been working with <a href="http://rpf.io/expai-impactblog2" target="_blank" rel="noreferrer noopener">partners from across the globe</a> to <a href="https://www.raspberrypi.org/blog/localising-ai-education-adapting-experience-ai-resources/" target="_blank" rel="noreferrer noopener">localise</a> and translate the resources for learners and educators in their countries, and provide training to support local educators to deliver the lessons. The educational resources are now available in up to 15 languages, and to date, we have trained over 100 representatives from 20 international partner organisations, who will go on to train local educators. Five of these organisations have begun onward training already, collectively training over 1500 local educators so far.</p>
@@ -117,7 +314,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" width="500" height="375" src="https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-500x375.jpeg" alt="Photo of a young person learning about AI on a laptop." class="wp-image-89559" srcset="https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-500x375.jpeg 500w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-300x225.jpeg 300w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-768x576.jpeg 768w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-1536x1152.jpeg 1536w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-2048x1536.jpeg 2048w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-800x600.jpeg 800w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-450x337.jpeg 450w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-900x675.jpeg 900w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="375" src="https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-500x375.jpeg" alt="Photo of a young person learning about AI on a laptop." class="wp-image-89559" srcset="https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-500x375.jpeg 500w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-300x225.jpeg 300w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-768x576.jpeg 768w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-1536x1152.jpeg 1536w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-2048x1536.jpeg 2048w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-800x600.jpeg 800w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-450x337.jpeg 450w, https://www.raspberrypi.org/app/uploads/2025/02/IMG_8920-900x675.jpeg 900w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure></div>
 
 
 <p>This is backed up by qualitative feedback from surveys and interviews.</p>
@@ -1034,10 +1231,10 @@
 		<dc:creator><![CDATA[Vicente Forcada]]></dc:creator>
 		<pubDate>Tue, 28 Jan 2025 13:08:15 +0000</pubDate>
 				<category><![CDATA[Foundation]]></category>
-		<category><![CDATA[localisation]]></category>
 		<category><![CDATA[translation]]></category>
 		<category><![CDATA[Hello World]]></category>
 		<category><![CDATA[computing education]]></category>
+		<category><![CDATA[localisation]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=89349</guid>
 
 					<description><![CDATA[<p>As an organisation with global reach, translation and localisation have been part of the Raspberry Pi Foundation’s activities from the start. Code Clubs and educational partners all over the world are helping young people learn about computing in their own language. We’ve already published over 1,900 translated learning resources, covering up to 32 languages, thanks&#8230;</p>
@@ -1150,9 +1347,9 @@
 		<dc:creator><![CDATA[Rachel Arthur]]></dc:creator>
 		<pubDate>Thu, 23 Jan 2025 15:31:34 +0000</pubDate>
 				<category><![CDATA[Applied Certificate]]></category>
-		<category><![CDATA[Manchester]]></category>
 		<category><![CDATA[computing education]]></category>
 		<category><![CDATA[digital skills]]></category>
+		<category><![CDATA[Manchester]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=89344</guid>
 
 					<description><![CDATA[<p>The digital skills gap is one of the biggest challenges for today’s workforce. It’s a growing concern for educators, employers, and anyone passionate about helping young people succeed. Digital literacy is essential in today’s world, whether or not you’re aiming for a tech career — yet too many young people are entering adulthood without the&#8230;</p>
@@ -1231,169 +1428,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.raspberrypi.org/blog/addressing-the-digital-skills-gap/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Helping young people navigate AI safely</title>
-		<link>https://www.raspberrypi.org/blog/helping-young-people-navigate-ai-safely/</link>
-					<comments>https://www.raspberrypi.org/blog/helping-young-people-navigate-ai-safely/#respond</comments>
-		
-		<dc:creator><![CDATA[Mac Bowley]]></dc:creator>
-		<pubDate>Wed, 22 Jan 2025 09:46:54 +0000</pubDate>
-				<category><![CDATA[Experience AI]]></category>
-		<category><![CDATA[AI education]]></category>
-		<category><![CDATA[AI Safety]]></category>
-		<guid isPermaLink="false">https://www.raspberrypi.org/?p=89321</guid>
-
-					<description><![CDATA[<p>AI safety and Experience AI As our lives become increasingly intertwined with AI-powered tools and systems, it’s more important than ever to equip young people with the skills and knowledge they need to engage with AI safely and responsibly. AI literacy isn’t just about understanding the technology — it’s about fostering critical conversations on how&#8230;</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/helping-young-people-navigate-ai-safely/">Helping young people navigate AI safely</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<h2 class="wp-block-heading">AI safety and Experience AI</h2>
-
-
-
-<p>As our lives become increasingly intertwined with AI-powered tools and systems, it’s more important than ever to equip young people with the skills and knowledge they need to engage with AI safely and responsibly. AI literacy isn’t just about understanding the technology — it’s about fostering critical conversations on how to integrate AI tools into our lives while minimising potential harm — otherwise known as ‘AI safety’.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="281" src="https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage1-1-500x281.png" alt="" class="wp-image-89322" srcset="https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage1-1-500x281.png 500w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage1-1-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage1-1-768x432.png 768w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage1-1-1536x864.png 1536w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage1-1-800x450.png 800w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage1-1-450x253.png 450w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage1-1-900x506.png 900w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage1-1.png 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-<p><a href="https://assets.publishing.service.gov.uk/media/65438d159e05fd0014be7bd9/introducing-ai-safety-institute-web-accessible.pdf" target="_blank" rel="noreferrer noopener">The UK AI Safety Institute defines AI safety as</a>: “The understanding, prevention, and mitigation of harms from AI. These harms could be deliberate or accidental; caused to individuals, groups, organisations, nations or globally; and of many types, including but not limited to physical, psychological, social, or economic harms.”</p>
-
-
-
-<p>As a result of this growing need, we’re thrilled to announce the latest addition to our AI literacy programme, Experience AI —&nbsp; ‘AI safety: responsibility, privacy, and security’. Co-developed with Google DeepMind, this comprehensive suite of free resources is designed to empower 11- to 14-year-olds to understand and address the challenges of AI technologies. Whether you’re a teacher, youth leader, or parent, these resources provide everything you need to start the conversation.</p>
-
-
-
-<h2 class="wp-block-heading">Linking old and new topics</h2>
-
-
-
-<p>AI technologies are providing huge benefits to society, but as they become more prevalent we cannot ignore the challenges AI tools bring with them. Many of the challenges aren’t new, such as concerns over data privacy or misinformation, but AI systems have the potential to amplify these issues.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="281" src="https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage4-1-500x281.png" alt="Digital image depicting computer science related elements." class="wp-image-89325" srcset="https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage4-1-500x281.png 500w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage4-1-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage4-1-768x432.png 768w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage4-1-1536x864.png 1536w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage4-1-800x450.png 800w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage4-1-450x253.png 450w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage4-1-900x506.png 900w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage4-1.png 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-<p>Our resources use familiar online safety themes — like data privacy and media literacy — and apply AI concepts to start the conversation about how AI systems might change the way we approach our digital lives.</p>
-
-
-
-<p>Each session explores a specific area:</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>Your data and AI:</strong> How data-driven AI systems use data differently to traditional software and why that changes data privacy concerns</li>
-
-
-
-<li><strong>Media literacy in the age of AI:</strong> The ease of creating believable, AI-generated content and the importance of verifying information</li>
-
-
-
-<li><strong>Using AI tools responsibly:</strong> Encouraging critical thinking about how AI is marketed and understanding personal and developer responsibilities</li>
-</ul>
-
-
-
-<p>Each topic is designed to engage young people to consider both their own interactions with AI systems and the ethical responsibilities of developers.</p>
-
-
-
-<h2 class="wp-block-heading">Designed to be flexible</h2>
-
-
-
-<p>Our AI safety resources have flexibility and ease of delivery at their core, and each session is built around three key components:</p>
-
-
-
-<ol class="wp-block-list">
-<li><strong>Animations:</strong> Each session begins with a concise, engaging video introducing the key AI concept using sound pedagogy — making it easy to deliver and effective. The video then links the AI concept to the online safety topic and opens threads for thought and conversation, which the learners explore through the rest of the activities. </li>
-
-
-
-<li><strong>Unplugged activities:</strong> These hands-on, screen-free activities — ranging from role-playing games to thought-provoking challenges — allow learners to engage directly with the topics.</li>
-
-
-
-<li><strong>Discussion questions:</strong> Tailored for various settings, these questions help spark meaningful conversations in classrooms, clubs, or at home.</li>
-</ol>
-
-
-
-<p><a href="https://experience-ai.org" target="_blank" rel="noreferrer noopener">Experience AI</a> has always been about allowing everyone — including those without a technical background or specialism in computer science — to deliver high-quality AI learning experiences, which is why we often use videos to support conceptual learning. </p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="281" src="https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage3-1-500x281.png" alt="Digital image featuring two computer screens. One screen seems to represent errors, or misinformation. The other depicts a person potentially plotting something." class="wp-image-89324" srcset="https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage3-1-500x281.png 500w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage3-1-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage3-1-768x432.png 768w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage3-1-1536x864.png 1536w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage3-1-800x450.png 800w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage3-1-450x253.png 450w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage3-1-900x506.png 900w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage3-1.png 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-<p>In addition, we want these sessions to be impactful in many different contexts, so we included unplugged activities so that you don’t need a computer room to run them! There is also advice on shortening the activities or splitting them so you can deliver them over two sessions if you want.&nbsp;</p>
-
-
-
-<p>The discussion topics provide a time-efficient way of exploring some key implications with learners, which we think will be more effective in smaller groups or more informal settings. They also highlight topics that we feel are important but may not be appropriate for every learner, for example, the rise of inappropriate deepfake images, which you might discuss with a 14-year-old but not an 11-year-old.</p>
-
-
-
-<h2 class="wp-block-heading">A modular approach for all contexts</h2>
-
-
-
-<p>Our previous resources have all followed a format suitable for delivery in a classroom, but for these resources, we wanted to widen the potential contexts in which they could be used. Instead of prescribing the exact order to deliver them, educators are encouraged to mix and match activities that they feel would be effective for their context.&nbsp;</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="281" src="https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage2-1-500x281.png" alt="Digital image depicting computer science related elements." class="wp-image-89323" srcset="https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage2-1-500x281.png 500w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage2-1-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage2-1-768x432.png 768w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage2-1-1536x864.png 1536w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage2-1-800x450.png 800w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage2-1-450x253.png 450w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage2-1-900x506.png 900w, https://www.raspberrypi.org/app/uploads/2025/01/AISAfetyImage2-1.png 1920w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-<p>We hope this will empower anyone, no matter their surroundings, to have meaningful conversations about AI safety with young people.&nbsp;</p>
-
-
-
-<p>The modular design ensures maximum flexibility. For example:</p>
-
-
-
-<ul class="wp-block-list">
-<li>A teacher might combine the video with an unplugged activity and follow-up discussion for a 60-minute lesson</li>
-
-
-
-<li>A club leader could show the video and run a quick activity in a 30-minute session</li>
-
-
-
-<li>A parent might watch the video and use the discussion questions during dinner to explore how generative AI shapes the content their children encounter</li>
-</ul>
-
-
-
-<h2 class="wp-block-heading">The importance of AI safety education</h2>
-
-
-
-<p>With AI becoming a larger part of daily life, young people need the tools to think critically about its use. From understanding how their data is used to spotting misinformation, these resources are designed to build confidence and critical thinking in an AI-powered world.</p>
-
-
-
-<p>AI safety is about empowering young people to be informed consumers of AI tools. By using these resources, you’ll help the next generation not only navigate AI, but shape its future. Dive into our materials, start a conversation, and inspire young minds to think critically about the role of AI in their lives.</p>
-
-
-
-<p>Ready to get started? Explore our AI safety resources today: <a href="https://rpf.io/aisafetyblog">rpf.io/aisafetyblog</a>. Together, we can empower every child to thrive in a digital world.</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/helping-young-people-navigate-ai-safely/">Helping young people navigate AI safely</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.raspberrypi.org/blog/helping-young-people-navigate-ai-safely/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

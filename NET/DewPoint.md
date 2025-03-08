@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 37.0 F. <strong>Dew Point</strong> 28.9 F.</div>
+<div id='c'><strong>Temp</strong> 55.9 F. <strong>Dew Point</strong> 50.0 F.</div>
 
 <p/><br/><p/>
 
@@ -1223,3 +1223,61 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Wed Mar  5 08:08:04 2025 | 37.9 F. | 33.1 F.|
 | Wed Mar  5 09:08:05 2025 | 37.0 F. | 28.9 F.|
 | Wed Mar  5 10:08:04 2025 | 37.0 F. | 28.9 F.|
+| Wed Mar  5 11:08:05 2025 | 36.0 F. | 27.0 F.|
+| Wed Mar  5 12:09:00 2025 |  | |
+| Wed Mar  5 13:09:00 2025 |  | |
+| Wed Mar  5 14:09:00 2025 |  | |
+| Wed Mar  5 15:09:00 2025 |  | |
+| Wed Mar  5 16:09:00 2025 |  | |
+| Wed Mar  5 17:09:00 2025 |  | |
+| Wed Mar  5 18:09:00 2025 |  | |
+| Wed Mar  5 19:09:00 2025 |  | |
+| Wed Mar  5 20:09:00 2025 |  | |
+| Wed Mar  5 21:09:00 2025 |  | |
+| Wed Mar  5 22:09:00 2025 |  | |
+| Wed Mar  5 23:08:59 2025 |  | |
+| Thu Mar  6 00:09:00 2025 |  | |
+| Thu Mar  6 01:09:00 2025 |  | |
+| Thu Mar  6 02:09:00 2025 |  | |
+| Thu Mar  6 03:09:00 2025 |  | |
+| Thu Mar  6 04:09:00 2025 |  | |
+| Thu Mar  6 05:09:00 2025 |  | |
+| Thu Mar  6 06:09:00 2025 |  | |
+| Thu Mar  6 07:08:59 2025 |  | |
+| Thu Mar  6 08:09:00 2025 |  | |
+| Thu Mar  6 09:09:00 2025 |  | |
+| Thu Mar  6 10:09:00 2025 |  | |
+| Thu Mar  6 11:09:00 2025 |  | |
+| Thu Mar  6 12:08:59 2025 |  | |
+| Thu Mar  6 13:09:00 2025 |  | |
+| Thu Mar  6 14:08:59 2025 |  | |
+| Thu Mar  6 15:08:59 2025 |  | |
+| Thu Mar  6 16:09:00 2025 |  | |
+| Thu Mar  6 17:09:00 2025 |  | |
+| Thu Mar  6 18:09:00 2025 |  | |
+| Thu Mar  6 19:09:00 2025 |  | |
+| Thu Mar  6 20:09:00 2025 |  | |
+| Thu Mar  6 21:09:00 2025 |  | |
+| Thu Mar  6 22:09:00 2025 |  | |
+| Thu Mar  6 23:09:00 2025 |  | |
+| Fri Mar  7 00:09:00 2025 |  | |
+| Fri Mar  7 01:09:00 2025 |  | |
+| Fri Mar  7 02:09:00 2025 |  | |
+| Fri Mar  7 03:09:00 2025 |  | |
+| Fri Mar  7 04:09:00 2025 |  | |
+| Fri Mar  7 05:08:59 2025 |  | |
+| Fri Mar  7 06:08:59 2025 |  | |
+| Fri Mar  7 07:09:00 2025 |  | |
+| Fri Mar  7 08:09:00 2025 |  | |
+| Fri Mar  7 09:09:00 2025 |  | |
+| Fri Mar  7 10:09:00 2025 |  | |
+| Fri Mar  7 11:09:00 2025 |  | |
+| Fri Mar  7 12:09:00 2025 |  | |
+| Fri Mar  7 13:09:00 2025 |  | |
+| Fri Mar  7 14:09:00 2025 |  | |
+| Fri Mar  7 15:08:59 2025 |  | |
+| Fri Mar  7 16:08:59 2025 |  | |
+| Fri Mar  7 17:08:59 2025 |  | |
+| Fri Mar  7 18:08:59 2025 |  | |
+| Fri Mar  7 19:09:00 2025 |  | |
+| Fri Mar  7 20:08:07 2025 | 55.9 F. | 50.0 F.|
