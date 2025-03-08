@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of rain before 11pm. Mostly cloudy. Low around 38, with temperatures rising to around 41 overnight. Northwest
-         wind 9 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 20%.<br></div>
+         wind 10 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
