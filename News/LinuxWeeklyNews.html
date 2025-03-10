@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1013581/" title="See Description">Python tail-call speedup based on LLVM regression</a></li>
+<li><a href="#https://lwn.net/Articles/1012990/" title="See Description">[$] Capability analysis for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1013561/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1013486/" title="See Description">Kernel prepatch 6.14-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1013476/" title="See Description">Stable kernel 6.6.82</a></li>
@@ -51,11 +53,39 @@
 <li><a href="#https://lwn.net/Articles/1013136/" title="See Description">Zen and the Art of Microcode Hacking (Google Bug Hunters)</a></li>
 <li><a href="#https://lwn.net/Articles/1013114/" title="See Description">FerretDB 2.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1011803/" title="See Description">[$] Two new graph-based functional programming languages</a></li>
-<li><a href="#https://lwn.net/Articles/1013104/" title="See Description">Xen 4.20 released</a></li>
-<li><a href="#https://lwn.net/Articles/1013098/" title="See Description">Thunderbird Desktop 136.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1013581/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 10 Mar 2025 14:56:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013581/" title="https://lwn.net/Articles/1013581/">Python tail-call speedup based on LLVM regression</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The <a href="https://lwn.net/Articles/1010905/">Python project's recent switch to a tail-calling interpreter</a> may not provide as large a speed advantage as initially thought. A <a href="https://blog.nelhage.com/post/cpython-tail-call/">blog post</a> from Nelson Elhage gives the details. In short, switching to a tail-call-based interpreter accidentally works around an unfixed regression in LLVM 19. On other compilers, the performance benefit (while still present) is more moderate.
+</p>
+
+<blockquote class="bq">
+When the tail-call interpreter was announced, I was surprised and impressed by the performance improvements, but also confused: I'm not an expert, but I'm passingly-familiar with modern CPU hardware, compilers, and interpreter design, and I couldn't explain why this change would be so effective. I became curious – and perhaps slightly obsessed – and the reports in this post are the result of a few weeks of off-and-on compiling and benchmarking and disassembly of dozens of different Python binaries, in an attempt to understand what I was seeing.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1012990/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 10 Mar 2025 14:42:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1012990/" title="https://lwn.net/Articles/1012990/">[$] Capability analysis for the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the advantages of the Rust type system is its ability to encapsulate
+requirements about the state of the program in the type system;
+often, this state includes which locks must be held to be able to carry out
+specific operations.  C&#160;lacks the ability to express these
+requirements, but there would be obvious benefits if that kind of feature
+could be grafted onto the language.  The Clang compiler has made some
+strides in that direction with its <a
+href="https://clang.llvm.org/docs/ThreadSafetyAnalysis.html">thread-safety
+analysis</a> feature; two developers have been independently working to
+take advantage of that work for the kernel.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1013561/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 10 Mar 2025 13:32:52 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -268,45 +298,6 @@ Vine</a> — have sprung up attempting to change that, and prove that
 parallel graph reduction can be a useful technique for real programs.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013104/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Mar 2025 16:32:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013104/" title="https://lwn.net/Articles/1013104/">Xen 4.20 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://xenproject.org/">Xen Project</a> has <a
-href="https://www.linuxfoundation.org/press/xen-project-announces-xen-420-release">announced</a>
-the release of Xen 4.20. This release adds support for
-AMD&#160;Zen&#160;5 CPUs, improved compliance with the <a
-href="https://en.wikipedia.org/wiki/MISRA_C">MISRA</a> C standard,
-work on PCI-passthrough on Arm, and more. Xen&#160;4.20 also removes
-support for <a href="https://en.wikipedia.org/wiki/Xeon_Phi">Xeon
-Phi</a> CPUs, which were <a
-href="https://www.techpowerup.com/246237/intel-is-giving-up-on-xeon-phi-eight-more-models-declared-end-of-life">discontinued</a>
-in 2018. See the <a
-href="https://wiki.xenproject.org/wiki/Xen_Project_4.20_Feature_List">feature
-list</a> and <a
-href="https://wiki.xenproject.org/wiki/Xen_Project_4.20_Release_Notes">release
-notes</a> for more information.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013098/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Mar 2025 15:53:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013098/" title="https://lwn.net/Articles/1013098/">Thunderbird Desktop 136.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://www.thunderbird.net/en-US/thunderbird/136.0/releasenotes/">Version
-136.0</a> of the Thunderbird Desktop mail client has been
-released. The release includes a quick toggle for adapting messages to
-dark mode, and a new "Appearance" setting to control message threading
-and sorting order globally, as well as a number of bug fixes. See the
-<a
-href="https://www.mozilla.org/en-US/security/advisories/mfsa2025-17/">security
-advisory</a> for a full list of security vulnerabilities addressed in
-Thunderbird 136.0.</p>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
