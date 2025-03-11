@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1009932/" title="See Description">[$] The road to mainstream Matrix</a></li>
+<li><a href="#https://lwn.net/Articles/1013723/" title="See Description">Framework Mono 6.14.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1013717/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1013581/" title="See Description">Python tail-call speedup based on LLVM regression</a></li>
 <li><a href="#https://lwn.net/Articles/1012990/" title="See Description">[$] Capability analysis for the kernel</a></li>
@@ -51,11 +53,50 @@
 <li><a href="#https://lwn.net/Articles/1012490/" title="See Description">[$] Timer IDs, CRIU, and ABI challenges</a></li>
 <li><a href="#https://lwn.net/Articles/1013209/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1012147/" title="See Description">[$] LWN.net Weekly Edition for March 6, 2025</a></li>
-<li><a href="#https://lwn.net/Articles/1013136/" title="See Description">Zen and the Art of Microcode Hacking (Google Bug Hunters)</a></li>
-<li><a href="#https://lwn.net/Articles/1013114/" title="See Description">FerretDB 2.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1009932/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 11 Mar 2025 15:27:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1009932/" title="https://lwn.net/Articles/1009932/">[$] The road to mainstream Matrix</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://en.wikipedia.org/wiki/Matrix_(protocol)">Matrix</a>
+provides an open network for secure, decentralized communication. It
+has enjoyed some success over the last few years as an IRC replacement
+and real-time chat for a number of open-source projects. But adoption
+by a subset of open-source developers is a far cry from the mainstream
+adoption that Matthew Hodgson, Matrix project lead and CEO of <a
+href="https://element.io/">Element</a> (the company that created
+Matrix), would like to see. At FOSDEM&#160;2025, he discussed the
+history of Matrix, its missteps in chasing mainstream adoption, its
+current status, as well as some of the wishlist features for taking
+Matrix into the mainstream.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1013723/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 11 Mar 2025 14:41:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013723/" title="https://lwn.net/Articles/1013723/">Framework Mono 6.14.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Version 6.14.0 of <a href="https://www.mono-project.com/">Framework
+Mono</a> has been <a
+href="https://www.winehq.org/news/2025030801">announced</a>.</p>
+
+<blockquote class="bq">
+This is the first release of Framework Mono from its new home at
+WineHQ. It includes work from the past 5 years that was never included
+in a stable release because no stable branch had been created in that
+time. Highlights are native support for ARM64 on macOS and many
+improvements to windows forms for X11.
+</blockquote>
+
+<p>See the <a
+href="https://gitlab.winehq.org/mono/mono/-/releases/mono-6.14.0">release
+notes</a> for a full list of new features and plans for future
+releases.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1013717/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 11 Mar 2025 13:52:39 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -230,58 +271,6 @@ some time, but it appears that a solution has been found.
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013136/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Mar 2025 22:10:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013136/" title="https://lwn.net/Articles/1013136/">Zen and the Art of Microcode Hacking (Google Bug Hunters)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Google Bug Hunters blog has <a
-href="https://bughunters.google.com/blog/5424842357473280/zen-and-the-art-of-microcode-hacking">a
-detailed description</a> of how a vulnerability in AMD's microcode-patching
-functionality was discovered and exploited; the authors have also released
-a set of tools to assist with this kind of research in the future.
-<p>
-<blockquote class="bq">
-	Secure hash functions are designed in such a way that there is no
-	secret key, and there is no way to use knowledge of the
-	intermediate state in order to generate a collision. However, CMAC
-	was not designed as a hash function, and therefore it is a weak
-	hash function against an adversary who has the key. Remember that
-	every AMD Zen CPU has to have the same AES-CMAC key in order to
-	successfully calculate the hash of the AMD public key and the
-	microcode patch contents. Therefore, the key only needs to be
-	revealed from a single CPU in order to compromise all other CPUs
-	using the same key. This opens up the potential for hardware
-	attacks (e.g., reading the key from ROM with a scanning electron
-	microscope), side-channel attacks (e.g., using Correlation Power
-	Analysis to leak the key during validation), or other software or
-	hardware attacks that can somehow reveal the key. In summary, it is
-	a safe assumption that such a key will not remain secret forever.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013114/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Mar 2025 18:28:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013114/" title="https://lwn.net/Articles/1013114/">FerretDB 2.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://github.com/FerretDB/FerretDB/releases/tag/v2.0.0">Version
-2.0.0</a> of <a href="https://www.ferretdb.com/">FerretDB</a> has been
-<a
-href="https://blog.ferretdb.io/ferretdb-v2-ga-open-source-mongodb-alternative-ready-for-production/">released</a>. FerretDB
-is an open-source alternative to MongoDB, which <a
-href="https://lwn.net/Articles/768670/">switched</a> to a non-open
-license in 2018, built on top of <a
-href="https://www.postgresql.org/">PostgreSQL</a>. This release
-utilizes the <a
-href="https://github.com/microsoft/documentdb?tab=readme-ov-file#introduction">DocumentDB</a>
-PostgreSQL extension for better performance, adds <a
-href="https://docs.ferretdb.io/guides/vector-search/">vector
-search</a>, and <a
-href="https://docs.ferretdb.io/guides/replication/">replication</a>.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
