@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1012954/" title="See Description">[$] New terms of service for PyPI</a></li>
+<li><a href="#https://lwn.net/Articles/1013876/" title="See Description">Traversal-resistant file APIs (The Go Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1012809/" title="See Description">[$] Zig's 0.14 release inches the project toward stability</a></li>
 <li><a href="#https://lwn.net/Articles/1013842/" title="See Description">Below: local privilege escalation (SUSE security team blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1013844/" title="See Description">The LLVM project stabilizes its Fortran compiler</a></li>
@@ -51,11 +53,47 @@
 <li><a href="#https://lwn.net/Articles/1013561/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1013486/" title="See Description">Kernel prepatch 6.14-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1013476/" title="See Description">Stable kernel 6.6.82</a></li>
-<li><a href="#https://lwn.net/Articles/1013395/" title="See Description">Four more stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1013386/" title="See Description">Ubuntu 25.04 (Plucky Puffin) progress</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1012954/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Mar 2025 17:22:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1012954/" title="https://lwn.net/Articles/1012954/">[$] New terms of service for PyPI</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>On February 25, the <a href="https://www.python.org/psf-landing/">Python
+Software Foundation</a> (PSF), which runs the <a
+href="https://pypi.org/">Python Package Index</a> (PyPI), <a
+href="https://blog.pypi.org/posts/2025-02-25-terms-of-service/">announced</a>
+new <a href="https://policies.python.org/pypi.org/Terms-of-Service/">terms
+of service</a> (ToS) for the repository.  That has led to some questions
+about the new ToS, and the process of coming up with them.  For one thing, the previous <a
+href="https://policies.python.org/pypi.org/Terms-of-Use/">terms
+of use</a> for the service were shorter and simpler, but there are other
+concerns with specific wording in the new agreement.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1013876/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Mar 2025 17:13:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013876/" title="https://lwn.net/Articles/1013876/">Traversal-resistant file APIs (The Go Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Damien Neil has written an <a
+href="https://go.dev/blog/osroot">article</a> for the Go Blog about <a href="https://owasp.org/www-community/attacks/Path_Traversal">path
+traversal vulnerabilities</a> and the <a
+href="https://pkg.go.dev/os#Root"><tt>os.Root</tt></a> API added in <a
+href="https://tip.golang.org/doc/go1.24">Go 1.24</a> to help prevent
+them.</p>
+
+<blockquote class="bq">
+Root permits relative path components and symlinks that do not escape
+the root. For example, <tt>root.Open("a/../b")</tt> is permitted. Filenames are
+resolved using the semantics of the local platform: On Unix systems,
+this will follow any symlink in "a" (so long as that link does not
+escape the root); while on Windows systems this will open "b" (even if
+"a" does not exist).
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1012809/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 12 Mar 2025 14:49:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -169,7 +207,8 @@ Matrix into the mainstream.</p>
 <div style="float:left" class="link"><a href="https://lwn.net/Articles/1013723/" title="https://lwn.net/Articles/1013723/">Framework Mono 6.14.0 released</a></div>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 6.14.0 of <a href="https://www.mono-project.com/">Framework
+<tr><td><div class="item"><blockquote><blockquote><p>Version 6.14.0 of <a
+href="https://gitlab.winehq.org/mono/mono/-/blob/main/README.md?ref_type=heads">Framework 
 Mono</a> has been <a
 href="https://www.winehq.org/news/2025030801">announced</a>.</p>
 
@@ -249,52 +288,6 @@ take advantage of that work for the kernel.
 released.  "<q>All i386 users of the 6.6 kernel series must upgrade (as
 they skipped the last release.)  All other arches can skip this one as it
 should not affect them.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013395/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 07 Mar 2025 18:32:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013395/" title="https://lwn.net/Articles/1013395/">Four more stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Greg Kroah-Hartman has announced the release of four more stable kernels:
-<a href="https://lwn.net/Articles/1013396/">6.13.6</a>,
-<a href="https://lwn.net/Articles/1013397/">6.12.18</a>,
-<a href="https://lwn.net/Articles/1013398/">6.6.81</a>, and
-<a href="https://lwn.net/Articles/1013399/">6.1.130</a>.
-Unlike a normal release, Kroah-Hartman did <em>not</em> call for all users to
-update their kernels. Specifically, the 6.6.81 kernel is currently broken on
-i386 systems, and users should wait for 6.6.82.
-</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013386/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 07 Mar 2025 18:30:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013386/" title="https://lwn.net/Articles/1013386/">Ubuntu 25.04 (Plucky Puffin) progress</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Matthieu Clemenceau has <a
-href="https://discourse.ubuntu.com/t/ubuntu-foundations-25-04-plucky-puffin-progress/56635">published</a>
-a status update from the <a href="https://wiki.ubuntu.com/FoundationsTeam">Foundations Team</a> on Ubuntu&#160;25.04 (Plucky Puffin) development to the Ubuntu
-Discourse forum. This includes updates on Ubuntu's <a
-href="https://discourse.ubuntu.com/t/dracut-will-be-supported-in-ubuntu-25-04/56556">adoption
-of Dracut</a> as an alternative to <tt>initramfs-tools</tt>, a move to
-a single ISO for arm64 devices rather than device-specific images, and
-reverting the planned O3 optimization flags for Plucky Puffin.</p>
-
-<blockquote class="bq">
-Earlier in this cycle, we <a
-href="https://discourse.ubuntu.com/t/ubuntu-foundations-25-04-plucky-puffin-roadmap/50695#p-126156-continue-to-gain-performance-improvements-1">announced
-plans</a> to enable the O3 optimization level for all Ubuntu packages
-by default. As part of this effort, we conducted extensive
-benchmarking, which revealed that while some workloads saw
-improvements, overall system performance slightly declined, and binary
-sizes increased. Given these results, we are likely to revert this
-change soon.
-</blockquote>
-
-<p>The beta for Ubuntu 25.04 is <a
-href="https://discourse.ubuntu.com/t/plucky-puffin-release-schedule/36461">planned</a>
-for March&#160;27, with the final release scheduled on April 17.</p>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
