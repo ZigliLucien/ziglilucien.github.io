@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1012809/" title="See Description">[$] Zig's 0.14 release inches the project toward stability</a></li>
+<li><a href="#https://lwn.net/Articles/1013842/" title="See Description">Below: local privilege escalation (SUSE security team blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1013844/" title="See Description">The LLVM project stabilizes its Fortran compiler</a></li>
 <li><a href="#https://lwn.net/Articles/1013840/" title="See Description">GStreamer 1.26.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1013838/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1009932/" title="See Description">[$] The road to mainstream Matrix</a></li>
@@ -50,12 +53,73 @@
 <li><a href="#https://lwn.net/Articles/1013476/" title="See Description">Stable kernel 6.6.82</a></li>
 <li><a href="#https://lwn.net/Articles/1013395/" title="See Description">Four more stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1013386/" title="See Description">Ubuntu 25.04 (Plucky Puffin) progress</a></li>
-<li><a href="#https://lwn.net/Articles/1012946/" title="See Description">[$] Hash-based module integrity checking</a></li>
-<li><a href="#https://lwn.net/Articles/1013336/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1012490/" title="See Description">[$] Timer IDs, CRIU, and ABI challenges</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1012809/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Mar 2025 14:49:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1012809/" title="https://lwn.net/Articles/1012809/">[$] Zig's 0.14 release inches the project toward stability</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The <a href="https://ziglang.org/">Zig</a> project has
+<a href="https://ziglang.org/download/0.14.0/release-notes.html">
+announced</a> the release of the 0.14 version of the language,
+including changes from more than 250 contributors. Zig is a low-level,
+memory-unsafe programming language that aims to compete with C instead of
+depending on it. Even though the language has not yet had a stable release,
+there are a number of projects using it as an alternative to C with better
+metaprogramming.
+While the project's release
+schedule has been a bit inconsistent, with the release of version 0.14 being
+<a href="https://ziglang.org/news/0.14.0-delayed/">
+delayed</a>
+several times, the release contains a number of new convenience features,
+broader architecture support, and the next steps toward removing Zig's
+dependency on LLVM.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1013842/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Mar 2025 14:47:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013842/" title="https://lwn.net/Articles/1013842/">Below: local privilege escalation (SUSE security team blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The SUSE Security Team blog has a <a href="https://security.opensuse.org/2025/03/12/below-world-writable-log-dir.html">post</a> with a
+detailed analysis of a vulnerability (<a
+href="https://www.cve.org/CVERecord?id=CVE-2025-27591">CVE-2025-27591</a>)
+in the <a
+href="https://github.com/facebookincubator/below?tab=readme-ov-file"><tt>below</tt></a>
+tool for recording and displaying system data.</p>
+
+<blockquote class="bq">
+In January 2025, Below was packaged and submitted to openSUSE
+Tumbleweed. Below runs as a systemd service with root privileges. The
+SUSE security team monitors additions and changes to systemd service
+unit files in openSUSE Tumbleweed, and through this we noticed
+problematic log directory permissions applied in Below's code.
+</blockquote>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1013844/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Mar 2025 14:15:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013844/" title="https://lwn.net/Articles/1013844/">The LLVM project stabilizes its Fortran compiler</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The LLVM project's Fortran compiler, which has for many years gone by the name "flang-new", will now simply be "flang", starting from LLVM's 20.1.0 release on March 4. The
+<a href="https://blog.llvm.org/posts/2025-03-11-flang-new/">
+announcement</a>, which includes details about the history of flang, comes after a long period of development and discussion. The community has considered renaming flang several times before now, but has always held off out of a feeling that the compiler was not yet ready. Now, the members of the project believe that flang has become stable and complete enough to earn its name.
+</p>
+
+<blockquote class="bq">
+We are almost 10 years from the first announcement of what would
+become LLVM Flang. In the LLVM monorepo alone there have been close
+to 10,000 commits from around 400 different contributors. Undoubtedly
+more in Classic Flang before that.  
+</blockquote>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1013840/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 12 Mar 2025 13:38:31 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -231,47 +295,6 @@ change soon.
 href="https://discourse.ubuntu.com/t/plucky-puffin-release-schedule/36461">planned</a>
 for March&#160;27, with the final release scheduled on April 17.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1012946/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 07 Mar 2025 15:44:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1012946/" title="https://lwn.net/Articles/1012946/">[$] Hash-based module integrity checking</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-On January 20, Thomas Weißschuh shared a new
-<a href="https://lwn.net/ml/all/20250120-module-hashes-v2-0-ba1184e27b7f@weissschuh.net/">
-patch set</a> implementing an alternate method for checking the integrity of
-loadable kernel modules. This mechanism, which checks module integrity based
-on hashes computed at build time instead of using cryptographic signatures,
-could enable reproducible kernel builds in more contexts. Several distributions
-have already expressed interest in the patch set if Weißschuh can get it
-into the kernel.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013336/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 07 Mar 2025 13:44:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013336/" title="https://lwn.net/Articles/1013336/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (firefox and man2html), <b>Mageia</b> (erlang, ffmpeg, and vim), <b>Oracle</b> (doxygen, firefox, python-jinja2, squid, and webkit2gtk3), <b>Red Hat</b> (nodejs:18), <b>SUSE</b> (emacs, go1.23, go1.24, and pcp), and <b>Ubuntu</b> (ansible, firefox, linux-azure, linux-nvidia, and python-django).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1012490/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 06 Mar 2025 14:24:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1012490/" title="https://lwn.net/Articles/1012490/">[$] Timer IDs, CRIU, and ABI challenges</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel project has usually been willing to make fundamental internal
-changes if they lead to a better kernel in the end.  The project also,
-though, goes out of its way to avoid breaking interfaces that have been
-exposed to user space, even if programs come to rely on behavior that was
-never documented.  Sometimes, those two principles come into conflict,
-leading to a situation where fixing problems within the kernel is either
-difficult or impossible.  This sort of situation has been impeding
-performance improvements in the kernel's POSIX timers implementation for
-some time, but it appears that a solution has been found.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
