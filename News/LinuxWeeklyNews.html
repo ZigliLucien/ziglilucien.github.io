@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1014065/" title="See Description">Choi: announcing Casual Make</a></li>
 <li><a href="#https://lwn.net/Articles/1013408/" title="See Description">[$] Warming up to frozen pages for networking</a></li>
 <li><a href="#https://lwn.net/Articles/1014043/" title="See Description">Seven new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1014042/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,45 @@
 <li><a href="#https://lwn.net/Articles/1009932/" title="See Description">[$] The road to mainstream Matrix</a></li>
 <li><a href="#https://lwn.net/Articles/1013723/" title="See Description">Framework Mono 6.14.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1013717/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1013581/" title="See Description">Python tail-call speedup based on LLVM regression</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1014065/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 13 Mar 2025 18:10:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014065/" title="https://lwn.net/Articles/1014065/">Choi: announcing Casual Make</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Charles Choi has <a
+href="http://yummymelon.com/devnull/announcing-casual-make.html">announced</a>
+the release of the <a
+href="https://github.com/kickingvegas/casual/blob/main/docs/make-mode.org">Casual
+Make</a>: a menu-driven interface, implemented as part of the <a
+href="https://github.com/kickingvegas/casual?tab=readme-ov-file#casual">Casual</a>
+suite of tools, for <a
+href="https://www.emacswiki.org/emacs/MakefileMode">Makefile
+Mode</a> in GNU Emacs.</p>
+
+<blockquote class="bq">
+<p>Emacs supports makefile editing with make-mode which has a mix of
+useful and half-baked (though thankfully obsoleted in&#160;30.1)
+commands. It is from this substrate that I'm happy to announce the
+next Casual user interface: <a href="https://github.com/kickingvegas/casual/blob/main/docs/make-mode.org">Casual Make</a>.</p>
+
+<p>Of particular note to Casual Make is its attention to authoring and
+identifying automatic variables whose arcane syntax is
+un-memorizable. Want to know what $&gt; means? Just select it in the
+makefile and use the . binding in the Casual Make menu to identify
+what it does in the mini-buffer.</p>
+</blockquote>
+
+<p>Casual Make is part of <a
+href="https://github.com/kickingvegas/casual/releases/tag/2.4.0">Casual
+2.4.0</a>, released on March&#160;12 and is available from <a
+href="https://melpa.org/#/casual">MELPA</a>. The 2.4.0 update to
+Casual also includes documentation in the Info format for the first time.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1013408/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 13 Mar 2025 15:01:58 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -288,19 +324,6 @@ releases.</p></blockquote></blockquote></div></td></tr>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (libaws, ruby2.7, and squid), <b>Fedora</b> (bigloo, emacs, neovim, python-jinja2, rizin, and tree-sitter), <b>Oracle</b> (kernel), <b>Red Hat</b> (grub2, kernel, kernel-rt, and libxml2), <b>SUSE</b> (iniparser, kernel, krb5, libxkbfile, and u-boot), and <b>Ubuntu</b> (gnuchess, openjdk-17-crac, openjdk-21-crac, and openvpn).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013581/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 10 Mar 2025 14:56:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013581/" title="https://lwn.net/Articles/1013581/">Python tail-call speedup based on LLVM regression</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The <a href="https://lwn.net/Articles/1010905/">Python project's recent switch to a tail-calling interpreter</a> may not provide as large a speed advantage as initially thought. A <a href="https://blog.nelhage.com/post/cpython-tail-call/">blog post</a> from Nelson Elhage gives the details. In short, switching to a tail-call-based interpreter accidentally works around an unfixed regression in LLVM 19. On other compilers, the performance benefit (while still present) is more moderate.
-</p>
-
-<blockquote class="bq">
-When the tail-call interpreter was announced, I was surprised and impressed by the performance improvements, but also confused: I'm not an expert, but I'm passingly-familiar with modern CPU hardware, compilers, and interpreter design, and I couldn't explain why this change would be so effective. I became curious – and perhaps slightly obsessed – and the reports in this post are the result of a few weeks of off-and-on compiling and benchmarking and disassembly of dozens of different Python binaries, in an attempt to understand what I was seeing.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
