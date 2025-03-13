@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1013408/" title="See Description">[$] Warming up to frozen pages for networking</a></li>
+<li><a href="#https://lwn.net/Articles/1014043/" title="See Description">Seven new stable kernels</a></li>
+<li><a href="#https://lwn.net/Articles/1014042/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1013184/" title="See Description">[$] LWN.net Weekly Edition for March 13, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1012954/" title="See Description">[$] New terms of service for PyPI</a></li>
 <li><a href="#https://lwn.net/Articles/1013876/" title="See Description">Traversal-resistant file APIs (The Go Blog)</a></li>
@@ -50,12 +53,50 @@
 <li><a href="#https://lwn.net/Articles/1013723/" title="See Description">Framework Mono 6.14.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1013717/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1013581/" title="See Description">Python tail-call speedup based on LLVM regression</a></li>
-<li><a href="#https://lwn.net/Articles/1012990/" title="See Description">[$] Capability analysis for the kernel</a></li>
-<li><a href="#https://lwn.net/Articles/1013561/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1013486/" title="See Description">Kernel prepatch 6.14-rc6</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1013408/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 13 Mar 2025 15:01:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013408/" title="https://lwn.net/Articles/1013408/">[$] Warming up to frozen pages for networking</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>When the 6.14 kernel is released later this month, it will include the
+usual set of internal changes that users should never notice, with the
+possible exception of changes that bring performance improvements.  One of
+those changes is <a href="https://lwn.net/Articles/1000654/">frozen pages</a>, a
+memory-management optimization that should fly mostly under the radar.
+When Hannes Reinecke <a
+href="https://lwn.net/ml/all/08c29e4b-2f71-4b6d-8046-27e407214d8c@suse.com">reported a
+crash</a> in 6.14, though, frozen pages suddenly came into view.  There is a
+workaround for this problem, but it seems there is a fair
+amount of work to be done that nobody had counted on to solve the problem
+properly.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1014043/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 13 Mar 2025 14:53:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014043/" title="https://lwn.net/Articles/1014043/">Seven new stable kernels</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1014044/">6.13.7</a>, <a
+href="https://lwn.net/Articles/1014045/">6.12.19</a>, <a
+href="https://lwn.net/Articles/1014046/">6.6.83</a>, <a
+href="https://lwn.net/Articles/1014047/">6.1.131</a>, <a
+href="https://lwn.net/Articles/1014048/">5.15.179</a>, <a
+href="https://lwn.net/Articles/1014049/">5.10.235</a>, and <a
+href="https://lwn.net/Articles/1014050/">5.4.291</a> stable kernels.  They all contain a
+relatively large number of important fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1014042/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 13 Mar 2025 14:47:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014042/" title="https://lwn.net/Articles/1014042/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (ffmpeg, qt6-qtwebengine, tigervnc, and xorg-x11-server-Xwayland), <b>Red Hat</b> (fence-agents and libxml2), <b>SUSE</b> (amazon-ssm-agent, ark, chromium, fake-gcs-server, gerbera, google-guest-agent, google-osconfig-agent, grafana, kernel, libtinyxml2-10, podman, python311, python312, restic, ruby3.4-rubygem-rack, and thunderbird), and <b>Ubuntu</b> (jinja2, linux-azure, linux-azure-4.15, linux-lts-xenial, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, netatalk, python3.5, python3.8, rar, unrar-nonfree, and xorg-server, xwayland).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1013184/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 13 Mar 2025 00:15:26 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -260,39 +301,6 @@ The <a href="https://lwn.net/Articles/1010905/">Python project's recent switch t
 <blockquote class="bq">
 When the tail-call interpreter was announced, I was surprised and impressed by the performance improvements, but also confused: I'm not an expert, but I'm passingly-familiar with modern CPU hardware, compilers, and interpreter design, and I couldn't explain why this change would be so effective. I became curious – and perhaps slightly obsessed – and the reports in this post are the result of a few weeks of off-and-on compiling and benchmarking and disassembly of dozens of different Python binaries, in an attempt to understand what I was seeing.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1012990/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 10 Mar 2025 14:42:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1012990/" title="https://lwn.net/Articles/1012990/">[$] Capability analysis for the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>One of the advantages of the Rust type system is its ability to encapsulate
-requirements about the state of the program in the type system;
-often, this state includes which locks must be held to be able to carry out
-specific operations.  C&#160;lacks the ability to express these
-requirements, but there would be obvious benefits if that kind of feature
-could be grafted onto the language.  The Clang compiler has made some
-strides in that direction with its <a
-href="https://clang.llvm.org/docs/ThreadSafetyAnalysis.html">thread-safety
-analysis</a> feature; two developers have been independently working to
-take advantage of that work for the kernel.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013561/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 10 Mar 2025 13:32:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013561/" title="https://lwn.net/Articles/1013561/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (openvpn and thunderbird), <b>Fedora</b> (buildah, chromium, podman-tui, python-spotipy, qt6-qtwebengine, and vim), <b>Mageia</b> (chromium-browser-stable and gpac), <b>Oracle</b> (krb5), <b>Red Hat</b> (firefox, kernel, kernel-rt, libxml2, and pcs), <b>SUSE</b> (buildah, chromedriver, chromium, firefox, go1.23, go1.24, grype, python, python311-GitPython, ruby3.4-rubygem-rack, thunderbird, and xen), and <b>Ubuntu</b> (xorg-server, xorg-server-hwe-16.04, xorg-server-hwe-18.04).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013486/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 10 Mar 2025 00:11:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013486/" title="https://lwn.net/Articles/1013486/">Kernel prepatch 6.14-rc6</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1013485/">6.14-rc6</a> for testing.
-"<q>This release remains on track, nothing special to report</q>".</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
