@@ -3,13 +3,13 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms before 3am. Some of the storms could be severe. Mostly cloudy. Low around 61, with temperatures
-         rising to around 64 overnight. South wind 18 to 25 mph, with gusts as high as 45 mph. Chance of precipitation is 90%.<br></div>
+         rising to around 64 overnight. South wind 15 to 26 mph, with gusts as high as 43 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A slight chance of rain showers between 10am and 1pm, then a slight chance of showers and thunderstorms between 1pm and 4pm,
          then a chance of showers and thunderstorms. Partly sunny. High near 71, with temperatures falling to around 65 in the afternoon.
-         South southwest wind 7 to 18 mph, with gusts as high as 37 mph. Chance of precipitation is 30%.<br></div>
+         Southwest wind 7 to 15 mph, with gusts as high as 29 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
