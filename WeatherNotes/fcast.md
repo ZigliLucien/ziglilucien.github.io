@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of rain showers. Mostly cloudy. Low around 38, with temperatures rising to around 44 overnight. West northwest wind
-         5 to 13 mph, with gusts as high as 21 mph. Chance of precipitation is 50%.<br></div>
+         6 to 13 mph, with gusts as high as 21 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
