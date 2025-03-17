@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1013649/" title="See Description">[$] Looking forward to mapcount madness 2025</a></li>
+<li><a href="#https://lwn.net/Articles/1014437/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1014317/" title="See Description">Kernel prepatch 6.14-rc7</a></li>
 <li><a href="#https://lwn.net/Articles/1014226/" title="See Description">Git 2.49.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1013614/" title="See Description">[$] The burden of knowledge: dealing with open-source risks</a></li>
@@ -51,11 +53,37 @@
 <li><a href="#https://lwn.net/Articles/1013876/" title="See Description">Traversal-resistant file APIs (The Go Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1012809/" title="See Description">[$] Zig's 0.14 release inches the project toward stability</a></li>
 <li><a href="#https://lwn.net/Articles/1013842/" title="See Description">Below: local privilege escalation (SUSE security team blog)</a></li>
-<li><a href="#https://lwn.net/Articles/1013844/" title="See Description">The LLVM project stabilizes its Fortran compiler</a></li>
-<li><a href="#https://lwn.net/Articles/1013840/" title="See Description">GStreamer 1.26.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1013649/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Mar 2025 15:00:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013649/" title="https://lwn.net/Articles/1013649/">[$] Looking forward to mapcount madness 2025</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the many important tasks that the kernel's memory-management
+subsystem must handle is keeping track of how pages of memory are mapped
+into the address spaces of the processes running on the system.  As long as
+mappings to a given page exist, that page must be kept in place.  As it
+turns out, tracking these mappings is harder than it seems it should be,
+and the move to folios within the memory-management subsystem is adding
+some complexities of its own.  As a follow-up to <a
+href="https://lwn.net/Articles/974223/">the "mapcount madness" session</a> that he ran at
+the <a href="https://lwn.net/Articles/lsfmmbpf2024/">2024 Linux Storage, Filesystem,
+Memory-Management, and BPF summit</a>, David Hildenbrand has posted <a
+href="https://lwn.net/ml/all/20250303163014.1128035-1-david@redhat.com">a patch series</a>
+intended to improve the handling of mapping counts for folios — but exact
+accounting remains elusive in some situations.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1014437/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Mar 2025 14:36:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014437/" title="https://lwn.net/Articles/1014437/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (opensaml and php8.2), <b>Fedora</b> (chromium, ctk, dcmtk, expat, ffmpeg, firefox, fscrypt, gdcm, InsightToolkit, kitty, libssh2, libxml2, linux-firmware, man2html, nextcloud, OpenImageIO, php, podman-tui, python-django, python-django5, python-gunicorn, python-jinja2, python-spotipy, python3.6, qt6-qtwebengine, thunderbird, tigervnc, vim, vyper, xen, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Mageia</b> (freetype2, ghostscript, and man2html), <b>Oracle</b> (kernel and krb5), <b>Red Hat</b> (grub2, libreoffice, mysql:8.0, pcs, thunderbird, tigervnc, webkit2gtk3, and xorg-x11-server), <b>Slackware</b> (expat, freetype, and php), <b>SUSE</b> (amazon-ssm-agent, chromedriver, ed25519-java, google-cloud-sap-agent, google-guest-agent, govulncheck-vulndb, libexslt0, libzvbi-chains0, php8, restic, rubygem-rack, subversion, tomcat, and tomcat10), and <b>Ubuntu</b> (freetype, resteasy, and xorg-server, xorg-server-hwe-16.04, xorg-server-hwe-18.04).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1014317/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 16 Mar 2025 23:19:55 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -287,41 +315,6 @@ SUSE security team monitors additions and changes to systemd service
 unit files in openSUSE Tumbleweed, and through this we noticed
 problematic log directory permissions applied in Below's code.
 </blockquote>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013844/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 12 Mar 2025 14:15:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013844/" title="https://lwn.net/Articles/1013844/">The LLVM project stabilizes its Fortran compiler</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The LLVM project's Fortran compiler, which has for many years gone by the name "flang-new", will now simply be "flang", starting from LLVM's 20.1.0 release on March 4. The
-<a href="https://blog.llvm.org/posts/2025-03-11-flang-new/">
-announcement</a>, which includes details about the history of flang, comes after a long period of development and discussion. The community has considered renaming flang several times before now, but has always held off out of a feeling that the compiler was not yet ready. Now, the members of the project believe that flang has become stable and complete enough to earn its name.
-</p>
-
-<blockquote class="bq">
-We are almost 10 years from the first announcement of what would
-become LLVM Flang. In the LLVM monorepo alone there have been close
-to 10,000 commits from around 400 different contributors. Undoubtedly
-more in Classic Flang before that.  
-</blockquote>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013840/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 12 Mar 2025 13:38:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013840/" title="https://lwn.net/Articles/1013840/">GStreamer 1.26.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://gstreamer.freedesktop.org/releases/1.26/">Version
-1.26.0</a> of the GStreamer cross-platform multimedia framework has
-been released. Notable changes in this release include support for the
-<a href="https://en.wikipedia.org/wiki/Versatile_Video_Coding">H.266
-Versatile Video Coding</a> (VVC) codec, <a
-href="https://en.wikipedia.org/wiki/LCEVC">Low Complexity Enhancement
-Video Coding</a> (LCEVC) support, closed caption improvements, and <a
-href="https://en.wikipedia.org/wiki/JPEG_XS">JPEG XS</a> image codec
-support.</p>
 <p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
