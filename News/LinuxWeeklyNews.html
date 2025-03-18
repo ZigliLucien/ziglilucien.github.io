@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1014543/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1014465/" title="See Description">GIMP 3.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1014444/" title="See Description">SystemRescue 12.00 released</a></li>
 <li><a href="#https://lwn.net/Articles/1013649/" title="See Description">[$] Looking forward to mapcount madness 2025</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1014042/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1013184/" title="See Description">[$] LWN.net Weekly Edition for March 13, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1012954/" title="See Description">[$] New terms of service for PyPI</a></li>
-<li><a href="#https://lwn.net/Articles/1013876/" title="See Description">Traversal-resistant file APIs (The Go Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1014543/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 18 Mar 2025 13:32:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014543/" title="https://lwn.net/Articles/1014543/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (freetype and rails), <b>Fedora</b> (mosquitto and python-django4.2), <b>Mageia</b> (libarchive, libreoffice, php, and quictls), <b>Red Hat</b> (webkit2gtk3), <b>SUSE</b> (erlang, nethack, python312, and wpa_supplicant), and <b>Ubuntu</b> (freetype and plantuml).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1014465/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 17 Mar 2025 22:34:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -82,7 +90,7 @@ in 2020</a>).
 <p>See the <a
 href="https://www.gimp.org/release-notes/gimp-3.0.html">release
 notes</a> and <a
-href="https://gitlab.gnome.org/GNOME/gimp/-/blob/master/NEWS">NEWS</a>
+href="https://gitlab.gnome.org/GNOME/gimp/-/blob/GIMP_3_0_0/NEWS">NEWS</a>
 file for more details about this release. LWN <a
 href="https://lwn.net/Articles/998793/">covered</a> a near-final
 release of GIMP 3.0 in November last year.</p>
@@ -299,27 +307,6 @@ href="https://policies.python.org/pypi.org/Terms-of-Use/">terms
 of use</a> for the service were shorter and simpler, but there are other
 concerns with specific wording in the new agreement.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013876/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 12 Mar 2025 17:13:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013876/" title="https://lwn.net/Articles/1013876/">Traversal-resistant file APIs (The Go Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Damien Neil has written an <a
-href="https://go.dev/blog/osroot">article</a> for the Go Blog about <a href="https://owasp.org/www-community/attacks/Path_Traversal">path
-traversal vulnerabilities</a> and the <a
-href="https://pkg.go.dev/os#Root"><tt>os.Root</tt></a> API added in <a
-href="https://tip.golang.org/doc/go1.24">Go 1.24</a> to help prevent
-them.</p>
-
-<blockquote class="bq">
-Root permits relative path components and symlinks that do not escape
-the root. For example, <tt>root.Open("a/../b")</tt> is permitted. Filenames are
-resolved using the semantics of the local platform: On Unix systems,
-this will follow any symlink in "a" (so long as that link does not
-escape the root); while on Windows systems this will open "b" (even if
-"a" does not exist).
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
