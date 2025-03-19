@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b5ef0e2510050c3102c2d3a56c4e4c141feff7a6.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c855ee6ea5dbd9ebbcc00e8e944b60d30097c91d.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b5ef0e2510050c3102c2d3a56c4e4c141feff7a6.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c855ee6ea5dbd9ebbcc00e8e944b60d30097c91d.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.b5ef0e2510050c3102c2d3a56c4e4c141feff7a6.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.c855ee6ea5dbd9ebbcc00e8e944b60d30097c91d.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,15 +203,15 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.59ffdde4e2295908071ee4377c7a21b632fb2149.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.59ffdde4e2295908071ee4377c7a21b632fb2149.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b5ef0e2510050c3102c2d3a56c4e4c141feff7a6.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.b5ef0e2510050c3102c2d3a56c4e4c141feff7a6.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-03-18T11:01:00-05:00</sent>
+						<sent type="str">2025-03-19T02:55:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2025-03-19T02:55:00-05:00</sent>
-				<effective type="str">2025-03-19T02:55:00-05:00</effective>
-				<onset type="str">2025-03-19T08:00:00-05:00</onset>
+				<sent type="str">2025-03-19T12:40:00-05:00</sent>
+				<effective type="str">2025-03-19T12:40:00-05:00</effective>
+				<onset type="str">2025-03-19T12:40:00-05:00</onset>
 				<expires type="str">2025-03-19T19:00:00-05:00</expires>
 				<ends type="str">2025-03-19T19:00:00-05:00</ends>
 				<status type="str">Actual</status>
@@ -223,20 +223,20 @@
 				<event type="str">Wind Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Wind Advisory issued March 19 at 2:55AM CDT until March 19 at 7:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...South winds 20 to 30 mph with gusts up to 50 mph expected.
+				<headline type="str">Wind Advisory issued March 19 at 12:40PM CDT until March 19 at 7:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...South to southwest winds 20 to 30 mph with gusts up to 50
+mph. Isolated higher gusts are possible.
 
-* WHERE...Portions of southern Illinois, southwest Indiana, western
+* WHERE...All of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From 8 AM CDT /9 AM EDT/ this morning to 7 PM CDT /8 PM
-EDT/ this evening.
+* WHEN...Until 7 PM CDT /8 PM EDT/ this evening.
 
 * IMPACTS...Gusty winds will blow around unsecured objects. Tree
 limbs could be blown down and a few power outages may result.
 
-* ADDITIONAL DETAILS...The combination of gusty south winds and low
-humidity will create a heightened risk of fire danger today.
+* ADDITIONAL DETAILS...The combination of gusty south winds and dry
+conditions will continue the heightened risk of fire danger.
 Unattended fires could quickly spread out of control.</description>
 				<instruction type="str">Winds this strong can make driving difficult, especially for high
 profile vehicles. Use extra caution.
@@ -248,10 +248,10 @@ Secure outdoor objects.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 190755</item>
+						<item type="str">WWUS73 KPAH 191740</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WIND ADVISORY REMAINS IN EFFECT FROM 8 AM CDT /9 AM EDT/ THIS MORNING TO 7 PM CDT /8 PM EDT/ THIS EVENING</item>
+						<item type="str">WIND ADVISORY REMAINS IN EFFECT UNTIL 7 PM CDT /8 PM EDT/ THIS EVENING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -259,22 +259,25 @@ Secure outdoor objects.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.WI.Y.0007.250319T1300Z-250320T0000Z/</item>
+						<item type="str">/O.CON.KPAH.WI.Y.0007.000000T0000Z-250320T0000Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-03-20T00:00:00+00:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.59ffdde4e2295908071ee4377c7a21b632fb2149.001.1,2025-03-18T11:01:00-05:00</item>
+					</expiredReferences>
 				</parameters>
 			</properties>
 		</item>
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b04d6e9b8e6a9551719112f39665bb9ce93c557.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d242d13d5abe3eec7793f52c8f1054de72b378b.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b04d6e9b8e6a9551719112f39665bb9ce93c557.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d242d13d5abe3eec7793f52c8f1054de72b378b.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.1b04d6e9b8e6a9551719112f39665bb9ce93c557.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.6d242d13d5abe3eec7793f52c8f1054de72b378b.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Perry; Franklin; Hamilton; Jackson; Williamson; Saline; Union; Johnson; Alexander; Pulaski; Perry; Bollinger; Cape Girardeau; Shannon; Wayne; Oregon; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -366,10 +369,16 @@ Secure outdoor objects.</instruction>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
 						<sent type="str">2025-03-18T21:06:00-05:00</sent>
 					</item>
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b04d6e9b8e6a9551719112f39665bb9ce93c557.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.1b04d6e9b8e6a9551719112f39665bb9ce93c557.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-03-19T02:41:00-05:00</sent>
+					</item>
 				</references>
-				<sent type="str">2025-03-19T02:41:00-05:00</sent>
-				<effective type="str">2025-03-19T02:41:00-05:00</effective>
-				<onset type="str">2025-03-19T11:00:00-05:00</onset>
+				<sent type="str">2025-03-19T12:37:00-05:00</sent>
+				<effective type="str">2025-03-19T12:37:00-05:00</effective>
+				<onset type="str">2025-03-19T12:37:00-05:00</onset>
 				<expires type="str">2025-03-19T20:00:00-05:00</expires>
 				<ends type="str">2025-03-19T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
@@ -381,21 +390,15 @@ Secure outdoor objects.</instruction>
 				<event type="str">Red Flag Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Red Flag Warning issued March 19 at 2:41AM CDT until March 19 at 8:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">...DANGEROUS WILDFIRE CONDITIONS EXPECTED TODAY...
-
-A combination of strong southwest winds, low relative humidity,
-and dry vegetation will result in a fire danger, especially
-during the afternoon hours.
-
-* Affected Area...In Illinois, Fire Weather Zones 075, 076, 080,
+				<headline type="str">Red Flag Warning issued March 19 at 12:37PM CDT until March 19 at 8:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* Affected Area...In Illinois, Fire Weather Zones 075, 076, 080,
 081, 082, 084, 085, 086, 088, 089, 092 and 093. In Missouri,
 Fire Weather Zones 076, 086, 087, 098, 100, 106, 107, 108,
 109, 110, 111, 112 and 114.
 
-* Winds...Southwest 20 to 30 mph with gusts up to 45 mph.
+* Winds...Southwest 20 to 30 mph with gusts up to around 50 mph.
 
-* Relative Humidity...As low as 18 to 24 percent.
+* Relative Humidity...As low as 20 to 25 percent.
 
 * 10 Hour Fuels...as low as 6 to 8 percent.
 
@@ -411,10 +414,10 @@ contribute to extreme fire behavior.</instruction>
 						<item type="str">RFWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS83 KPAH 190741</item>
+						<item type="str">WWUS83 KPAH 191737</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">RED FLAG WARNING REMAINS IN EFFECT FROM 11 AM THIS MORNING TO 8 PM CDT THIS EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR ALL OF SOUTHEAST MISSOURI AND PORTIONS OF SOUTHERN ILLINOIS</item>
+						<item type="str">RED FLAG WARNING REMAINS IN EFFECT UNTIL 8 PM CDT THIS EVENING FOR WIND AND LOW RELATIVE HUMIDITY SOUTHEAST MISSOURI AND SOUTHWEST ILLINOIS</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -422,7 +425,7 @@ contribute to extreme fire behavior.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.FW.W.0002.250319T1600Z-250320T0100Z/</item>
+						<item type="str">/O.CON.KPAH.FW.W.0002.000000T0000Z-250320T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-03-20T01:00:00+00:00</item>
@@ -432,5 +435,5 @@ contribute to extreme fire behavior.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-03-19T07:59:35+00:00</updated>
+	<updated type="str">2025-03-19T17:41:07+00:00</updated>
 </all>
