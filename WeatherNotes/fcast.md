@@ -2,12 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 75, with temperatures falling to around 73 in the afternoon. South wind around 18 mph, with gusts as high
-         as 38 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly cloudy. Low around 57, with temperatures rising to around 60 overnight. South wind 20 to 23 mph, with gusts as high
+         <h3>Tonight</h3>Mostly cloudy. Low around 57, with temperatures rising to around 60 overnight. South wind around 23 mph, with gusts as high
          as 36 mph.<br></div>
    </p>
    <p>
@@ -17,8 +12,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain showers between 1am and 4am, then a chance of rain and snow showers. Partly cloudy, with a low around 36.
-         West wind 20 to 24 mph, with gusts as high as 40 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Wednesday Night</h3>A chance of rain showers between 1am and 4am, then a chance of rain and snow showers. Partly cloudy. Low around 36, with temperatures
+         rising to around 38 overnight. West wind 20 to 24 mph, with gusts as high as 40 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -36,7 +31,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday Night</h3>A slight chance of rain showers between 7pm and 1am. Partly cloudy, with a low around 43. West southwest wind 9 to 15 mph,
-         with gusts as high as 26 mph.<br></div>
+         with gusts as high as 26 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -63,5 +58,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday Night</h3>A slight chance of rain showers between 7pm and 1am. Partly cloudy, with a low around 40. West wind 5 to 9 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday</h3>Mostly sunny, with a high near 59. West northwest wind 5 to 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
 </div>
