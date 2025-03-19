@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1013640/" title="See Description">[$] Better CPU vulnerability mitigation configuration</a></li>
+<li><a href="#https://lwn.net/Articles/1014734/" title="See Description">PeerTube 7.1 released</a></li>
+<li><a href="#https://lwn.net/Articles/1006557/" title="See Description">[$] A look at /e/OS on tablet hardware</a></li>
+<li><a href="#https://lwn.net/Articles/1014741/" title="See Description">Supply Chain Attacks on Linux distributions (Fenrisk)</a></li>
 <li><a href="#https://lwn.net/Articles/1014722/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1014002/" title="See Description">[$] Oxidizing Ubuntu: adopting Rust utilities by default</a></li>
 <li><a href="#https://lwn.net/Articles/1014543/" title="See Description">Security updates for Tuesday</a></li>
@@ -49,13 +53,90 @@
 <li><a href="#https://lwn.net/Articles/1014226/" title="See Description">Git 2.49.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1013614/" title="See Description">[$] The burden of knowledge: dealing with open-source risks</a></li>
 <li><a href="#https://lwn.net/Articles/1014183/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1014065/" title="See Description">Choi: announcing Casual Make</a></li>
-<li><a href="#https://lwn.net/Articles/1013408/" title="See Description">[$] Warming up to frozen pages for networking</a></li>
-<li><a href="#https://lwn.net/Articles/1014043/" title="See Description">Seven new stable kernels</a></li>
-<li><a href="#https://lwn.net/Articles/1014042/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1013640/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Mar 2025 15:45:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013640/" title="https://lwn.net/Articles/1013640/">[$] Better CPU vulnerability mitigation configuration</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Modern CPUs all have multiple hardware vulnerabilities that the kernel needs to mitigate;
+the 6.13 kernel has workarounds for 14 security-sensitive CPU bugs just on x86_64.
+Several of those have multiple variants,
+or multiple mitigations that apply on different microarchitectures. There are
+different kernel command-line options for each of these mitigations, which leads
+to a confusing situation for users trying to figure out how to configure their
+systems. David Kaplan recently posted
+<a href="https://lwn.net/ml/all/20250310164023.779191-1-david.kaplan@amd.com/">
+a patch set</a> that adds a single, unified command-line option for controlling
+mitigations and
+simplifies the logic for detecting, configuring, and
+applying them as well.
+If it is merged, the patch set could
+make it much easier for users to navigate the complicated web of CPU
+vulnerabilities and their mitigations.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1014734/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Mar 2025 15:32:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014734/" title="https://lwn.net/Articles/1014734/">PeerTube 7.1 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://joinpeertube.org/news/release-7.1">Version 7.1</a>
+of <a href="https://joinpeertube.org/">PeerTube</a>, a tool for
+sharing videos online, has been released. Notable features in this
+release include improved support for the <a
+href="https://podcasting2.org/">Podcast 2.0</a> standard, better
+playback stability, and a new view protocol enabled by default to
+allow PeerTube to handle more simultaneous viewers. See the <a
+href="https://github.com/Chocobozzz/PeerTube/releases/tag/v7.1.0">release
+notes</a> for more details.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1006557/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Mar 2025 14:59:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1006557/" title="https://lwn.net/Articles/1006557/">[$] A look at /e/OS on tablet hardware</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://e.foundation/e-os/">/e&#8288;/&#8288;OS</a> is a
+privacy-centric, open-source mobile operating system that
+has primarily been targeted at mobile phones, with only a few
+community supported images available for tablet devices. In December,
+<a href="https://murena.com/">Murena</a>&mdash;a company that sells devices with /&#8288;e&#8288;/&#8288;OS
+preinstalled&mdash;<a
+href="https://murena.com/finally-here-the-long-awaited-murena-pixel-tablet-is-now-on-pre-sale/">announced</a>
+that /&#8288;e&#8288;/&#8288;OS now officially supports tablets as well, starting with the
+Pixel tablet. The user experience is close enough to
+mainstream alternatives to make it attractive, but there are some
+under-the-hood problems that may give users pause.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1014741/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Mar 2025 14:48:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014741/" title="https://lwn.net/Articles/1014741/">Supply Chain Attacks on Linux distributions (Fenrisk)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A security company called Fenrisk has posted <a
+href="https://fenrisk.com/supply-chain-attacks">an overview</a> of a pair
+of claimed successful supply-chain attacks on the Fedora and openSUSE
+distributions.
+<p>
+<blockquote class="bq">
+	We successfully identified vulnerabilities in the Pagure, the Git
+	forge used by Fedora to store their package definitions. We also
+	compromised Open Build Service, the all-in-one toolchain used and
+	developed by the openSUSE project for compilation and packaging.
+<p>
+	Their exploitation by malicious actors would have led to the
+	compromise of all the packages of the distributions Fedora and
+	openSUSE, as well as their downstream distributions, impacting
+	millions of Linux servers and desktops.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1014722/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 19 Mar 2025 13:26:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -229,83 +310,6 @@ qualitative data and direct participation in open source.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (iniparser, thunderbird, trafficserver, and xorg-x11-server), <b>Mageia</b> (opensc), <b>Oracle</b> (.NET 8.0, .NET 9.0, gcc, kernel, and libxml2), <b>Red Hat</b> (firefox, grub2, and krb5), <b>Slackware</b> (libxslt), <b>SUSE</b> (amazon-ssm-agent, bsdtar, build, ffmpeg-4, forgejo-runner, kernel, python, python3, python313, rubygem-rack-1_6, and tailscale), and <b>Ubuntu</b> (linux-azure, linux-azure-5.15, linux-azure-fde, linux-azure-fde-5.15).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014065/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Mar 2025 18:10:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014065/" title="https://lwn.net/Articles/1014065/">Choi: announcing Casual Make</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Charles Choi has <a
-href="http://yummymelon.com/devnull/announcing-casual-make.html">announced</a>
-the release of the <a
-href="https://github.com/kickingvegas/casual/blob/main/docs/make-mode.org">Casual
-Make</a>: a menu-driven interface, implemented as part of the <a
-href="https://github.com/kickingvegas/casual?tab=readme-ov-file#casual">Casual</a>
-suite of tools, for <a
-href="https://www.emacswiki.org/emacs/MakefileMode">Makefile
-Mode</a> in GNU Emacs.</p>
-
-<blockquote class="bq">
-<p>Emacs supports makefile editing with make-mode which has a mix of
-useful and half-baked (though thankfully obsoleted in&#160;30.1)
-commands. It is from this substrate that I'm happy to announce the
-next Casual user interface: <a href="https://github.com/kickingvegas/casual/blob/main/docs/make-mode.org">Casual Make</a>.</p>
-
-<p>Of particular note to Casual Make is its attention to authoring and
-identifying automatic variables whose arcane syntax is
-un-memorizable. Want to know what $&gt; means? Just select it in the
-makefile and use the . binding in the Casual Make menu to identify
-what it does in the mini-buffer.</p>
-</blockquote>
-
-<p>Casual Make is part of <a
-href="https://github.com/kickingvegas/casual/releases/tag/2.4.0">Casual
-2.4.0</a>, released on March&#160;12 and is available from <a
-href="https://melpa.org/#/casual">MELPA</a>. The 2.4.0 update to
-Casual also includes documentation in the Info format for the first time.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013408/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Mar 2025 15:01:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013408/" title="https://lwn.net/Articles/1013408/">[$] Warming up to frozen pages for networking</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>When the 6.14 kernel is released later this month, it will include the
-usual set of internal changes that users should never notice, with the
-possible exception of changes that bring performance improvements.  One of
-those changes is <a href="https://lwn.net/Articles/1000654/">frozen pages</a>, a
-memory-management optimization that should fly mostly under the radar.
-When Hannes Reinecke <a
-href="https://lwn.net/ml/all/08c29e4b-2f71-4b6d-8046-27e407214d8c@suse.com">reported a
-crash</a> in 6.14, though, frozen pages suddenly came into view.  There is a
-workaround for this problem, but it seems there is a fair
-amount of work to be done that nobody had counted on to solve the problem
-properly.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014043/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Mar 2025 14:53:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014043/" title="https://lwn.net/Articles/1014043/">Seven new stable kernels</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1014044/">6.13.7</a>, <a
-href="https://lwn.net/Articles/1014045/">6.12.19</a>, <a
-href="https://lwn.net/Articles/1014046/">6.6.83</a>, <a
-href="https://lwn.net/Articles/1014047/">6.1.131</a>, <a
-href="https://lwn.net/Articles/1014048/">5.15.179</a>, <a
-href="https://lwn.net/Articles/1014049/">5.10.235</a>, and <a
-href="https://lwn.net/Articles/1014050/">5.4.291</a> stable kernels.  They all contain a
-relatively large number of important fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014042/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Mar 2025 14:47:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014042/" title="https://lwn.net/Articles/1014042/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (ffmpeg, qt6-qtwebengine, tigervnc, and xorg-x11-server-Xwayland), <b>Red Hat</b> (fence-agents and libxml2), <b>SUSE</b> (amazon-ssm-agent, ark, chromium, fake-gcs-server, gerbera, google-guest-agent, google-osconfig-agent, grafana, kernel, libtinyxml2-10, podman, python311, python312, restic, ruby3.4-rubygem-rack, and thunderbird), and <b>Ubuntu</b> (jinja2, linux-azure, linux-azure-4.15, linux-lts-xenial, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, netatalk, python3.5, python3.8, rar, unrar-nonfree, and xorg-server, xwayland).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
