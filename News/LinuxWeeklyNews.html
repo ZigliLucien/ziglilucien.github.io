@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1014220/" title="See Description">[$] MM medley: huge page allocation, page promotion, KSM, and BPF</a></li>
+<li><a href="#https://lwn.net/Articles/1014938/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1013956/" title="See Description">[$] LWN.net Weekly Edition for March 20, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1014799/" title="See Description">GNOME 48 released</a></li>
 <li><a href="#https://lwn.net/Articles/1013640/" title="See Description">[$] Better CPU vulnerability mitigation configuration</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1014444/" title="See Description">SystemRescue 12.00 released</a></li>
 <li><a href="#https://lwn.net/Articles/1013649/" title="See Description">[$] Looking forward to mapcount madness 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1014437/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1014317/" title="See Description">Kernel prepatch 6.14-rc7</a></li>
-<li><a href="#https://lwn.net/Articles/1014226/" title="See Description">Git 2.49.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1014220/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Mar 2025 14:54:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014220/" title="https://lwn.net/Articles/1014220/">[$] MM medley: huge page allocation, page promotion, KSM, and BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>As the <a href="https://events.linuxfoundation.org/lsfmmbpf/">2025 Linux
+Storage, Filesystem, Memory-Management, and BPF Summit</a> (LSFMM+BPF)
+approaches, the density of memory-management patches on the mailing lists
+has increased.  Included among those are patches aimed at improving the
+reliability and performance of huge-page allocation, implementing page
+promotion on tiered-memory systems, adding a different approach to
+deduplicating memory, and replacing the BPF memory allocator.  Read on for
+an overview of each.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1014938/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Mar 2025 14:15:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014938/" title="https://lwn.net/Articles/1014938/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (php7.4, python-django, and python3.9), <b>Fedora</b> (bluez, iwd, libell, and radare2), <b>Mageia</b> (chromium-browser-stable, mosquitto, tomcat, tomcat packages, and vim), <b>Oracle</b> (firefox, grub2, python3, thunderbird, and webkit2gtk3), <b>Red Hat</b> (fence-agents, php:7.4, and python-jinja2), <b>SUSE</b> (assimp-devel, crane, ffmpeg-4, freetype2, helm, kernel, kured, python-Django, python-Jinja2, python311-Django4, and tomcat), and <b>Ubuntu</b> (alpine, djoser, libxslt, postgresql-9.5, and valkey).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1013956/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 20 Mar 2025 00:04:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -182,7 +205,9 @@ distributions.
 	compromise of all the packages of the distributions Fedora and
 	openSUSE, as well as their downstream distributions, impacting
 	millions of Linux servers and desktops.
-</blockquote></blockquote></blockquote></div></td></tr>
+</blockquote>
+<p>
+[<b>Update</b>: SUSE has put out a <a href="https://www.suse.com/c/statement-on-cve-2024-22033-compromise-of-open-build-service-via-source-services/">statement about the vulnerability</a>; "<q>While this is a serious vulnerability that needed to be fixed quickly, the impact was inaccurately described.</q>"]</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1014722/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 19 Mar 2025 13:26:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -300,34 +325,6 @@ accounting remains elusive in some situations.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (opensaml and php8.2), <b>Fedora</b> (chromium, ctk, dcmtk, expat, ffmpeg, firefox, fscrypt, gdcm, InsightToolkit, kitty, libssh2, libxml2, linux-firmware, man2html, nextcloud, OpenImageIO, php, podman-tui, python-django, python-django5, python-gunicorn, python-jinja2, python-spotipy, python3.6, qt6-qtwebengine, thunderbird, tigervnc, vim, vyper, xen, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Mageia</b> (freetype2, ghostscript, and man2html), <b>Oracle</b> (kernel and krb5), <b>Red Hat</b> (grub2, libreoffice, mysql:8.0, pcs, thunderbird, tigervnc, webkit2gtk3, and xorg-x11-server), <b>Slackware</b> (expat, freetype, and php), <b>SUSE</b> (amazon-ssm-agent, chromedriver, ed25519-java, google-cloud-sap-agent, google-guest-agent, govulncheck-vulndb, libexslt0, libzvbi-chains0, php8, restic, rubygem-rack, subversion, tomcat, and tomcat10), and <b>Ubuntu</b> (freetype, resteasy, and xorg-server, xorg-server-hwe-16.04, xorg-server-hwe-18.04).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014317/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 16 Mar 2025 23:19:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014317/" title="https://lwn.net/Articles/1014317/">Kernel prepatch 6.14-rc7</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1014316/">the seventh</a> (and
-probably last) prepatch for the 6.14 release.  "<q>Things continue to look
-quite calm, and I expect to release the final 6.14 next weekend unless
-something very surprising happens</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014226/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 14 Mar 2025 18:27:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014226/" title="https://lwn.net/Articles/1014226/">Git 2.49.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://lwn.net/ml/all/xmqqfrjfilc8.fsf%40gitster.g/">Version
-2.49.0</a> of the Git source-code management system has been
-released. This release comprises 460 non-merge commits since 2.48.0,
-with contributions from 89 people, including 24 new
-contributors. There is a long list of improvements and bug fixes; see
-the <a
-href="https://github.blog/open-source/git/highlights-from-git-2-49/">highlights
-blog</a> from GitHub's Taylor Blau for some of the more interesting
-features.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
