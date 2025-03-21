@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-03-21T02:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-03-20T23:32:22+00:00</updateTime>
-		<validTimes type="str">2025-03-20T17:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2025-03-21T04:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-03-21T04:16:28+00:00</updateTime>
+		<validTimes type="str">2025-03-20T22:00:00+00:00/P7DT3H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2025-03-20T21:00:00-05:00</startTime>
+				<startTime type="str">2025-03-20T23:00:00-05:00</startTime>
 				<endTime type="str">2025-03-21T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">32</temperature>
@@ -63,10 +63,10 @@
 					<value type="null"/>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">WSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
-				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear, with a low around 32. West southwest wind around 3 mph.</detailedForecast>
+				<windDirection type="str">SW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
+				<shortForecast type="str">Mostly Clear</shortForecast>
+				<detailedForecast type="str">Mostly clear. Low around 32, with temperatures rising to around 34 overnight. Southwest wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -74,7 +74,7 @@
 				<startTime type="str">2025-03-21T06:00:00-05:00</startTime>
 				<endTime type="str">2025-03-21T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">60</temperature>
+				<temperature type="int">62</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
@@ -85,7 +85,7 @@
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 60. South southwest wind 5 to 18 mph, with gusts as high as 32 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 62. South southwest wind 5 to 18 mph, with gusts as high as 32 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
