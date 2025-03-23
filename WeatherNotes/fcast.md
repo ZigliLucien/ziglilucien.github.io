@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Rain showers likely after 1am. Cloudy, with a low around 46. East southeast wind 6 to 10 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Tonight</h3>Rain showers likely after 1am. Cloudy, with a low around 46. Southeast wind 6 to 10 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
