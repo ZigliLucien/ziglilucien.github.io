@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-03-23T04:36:02+00:00</generatedAt>
-		<updateTime type="str">2025-03-23T01:01:30+00:00</updateTime>
-		<validTimes type="str">2025-03-22T19:00:00+00:00/P7DT6H</validTimes>
+		<generatedAt type="str">2025-03-23T05:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-03-23T04:33:55+00:00</updateTime>
+		<validTimes type="str">2025-03-22T22:00:00+00:00/P7DT3H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-03-22T23:00:00-05:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-03-23T00:00:00-05:00</startTime>
 				<endTime type="str">2025-03-23T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">46</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">70</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">7 to 10 mph</windSpeed>
+				<windSpeed type="str">10 mph</windSpeed>
 				<windDirection type="str">SE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/ovc/rain_showers,70?size=medium</icon>
-				<shortForecast type="str">Cloudy then Rain Showers Likely</shortForecast>
-				<detailedForecast type="str">Rain showers likely after 1am. Cloudy, with a low around 46. Southeast wind 7 to 10 mph. Chance of precipitation is 70%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,70?size=medium</icon>
+				<shortForecast type="str">Rain Showers Likely</shortForecast>
+				<detailedForecast type="str">Rain showers likely after 1am. Cloudy, with a low around 46. Southeast wind around 10 mph. Chance of precipitation is 70%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
