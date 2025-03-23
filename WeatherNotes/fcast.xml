@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-03-23T16:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-03-23T15:32:50+00:00</updateTime>
-		<validTimes type="str">2025-03-23T09:00:00+00:00/P7DT16H</validTimes>
+		<generatedAt type="str">2025-03-23T17:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-03-23T16:48:16+00:00</updateTime>
+		<validTimes type="str">2025-03-23T10:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2025-03-23T11:00:00-05:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2025-03-23T12:00:00-05:00</startTime>
 				<endTime type="str">2025-03-23T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">62</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">50</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">12 mph</windSpeed>
+				<windSpeed type="str">7 to 12 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/tsra,50?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 4pm. Cloudy, with a high near 62. West southwest wind around 12 mph, with gusts as high as 25 mph. Chance of precipitation is 50%.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 4pm. Mostly cloudy, with a high near 62. West southwest wind 7 to 12 mph, with gusts as high as 25 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
