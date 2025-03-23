@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-03-23T22:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-03-23T21:48:19+00:00</updateTime>
-		<validTimes type="str">2025-03-23T15:00:00+00:00/P7DT10H</validTimes>
+		<generatedAt type="str">2025-03-23T23:36:02+00:00</generatedAt>
+		<updateTime type="str">2025-03-23T22:33:40+00:00</updateTime>
+		<validTimes type="str">2025-03-23T16:00:00+00:00/P7DT9H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,25 +51,6 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">This Afternoon</name>
-				<startTime type="str">2025-03-23T17:00:00-05:00</startTime>
-				<endTime type="str">2025-03-23T18:00:00-05:00</endTime>
-				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">62</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="str"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="null"/>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
-				<windDirection type="str">WSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy. High near 62, with temperatures falling to around 51 in the afternoon. West southwest wind around 6 mph, with gusts as high as 24 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
 				<name type="str">Tonight</name>
 				<startTime type="str">2025-03-23T18:00:00-05:00</startTime>
 				<endTime type="str">2025-03-24T06:00:00-05:00</endTime>
@@ -88,7 +69,7 @@
 				<detailedForecast type="str">Partly cloudy, with a low around 41. West wind 6 to 10 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
+				<number type="int">2</number>
 				<name type="str">Monday</name>
 				<startTime type="str">2025-03-24T06:00:00-05:00</startTime>
 				<endTime type="str">2025-03-24T18:00:00-05:00</endTime>
@@ -107,7 +88,7 @@
 				<detailedForecast type="str">Mostly sunny. High near 63, with temperatures falling to around 61 in the afternoon. West wind 6 to 12 mph, with gusts as high as 18 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2025-03-24T18:00:00-05:00</startTime>
 				<endTime type="str">2025-03-25T06:00:00-05:00</endTime>
@@ -126,7 +107,7 @@
 				<detailedForecast type="str">A slight chance of rain showers between 1am and 2am. Mostly cloudy, with a low around 45. East northeast wind 2 to 7 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Tuesday</name>
 				<startTime type="str">2025-03-25T06:00:00-05:00</startTime>
 				<endTime type="str">2025-03-25T18:00:00-05:00</endTime>
@@ -145,7 +126,7 @@
 				<detailedForecast type="str">Mostly sunny, with a high near 68. North wind 5 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Tuesday Night</name>
 				<startTime type="str">2025-03-25T18:00:00-05:00</startTime>
 				<endTime type="str">2025-03-26T06:00:00-05:00</endTime>
@@ -164,7 +145,7 @@
 				<detailedForecast type="str">Partly cloudy, with a low around 43. Northwest wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Wednesday</name>
 				<startTime type="str">2025-03-26T06:00:00-05:00</startTime>
 				<endTime type="str">2025-03-26T18:00:00-05:00</endTime>
@@ -183,7 +164,7 @@
 				<detailedForecast type="str">Sunny, with a high near 65. Northwest wind 5 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Wednesday Night</name>
 				<startTime type="str">2025-03-26T18:00:00-05:00</startTime>
 				<endTime type="str">2025-03-27T06:00:00-05:00</endTime>
@@ -202,7 +183,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 42. East northeast wind 2 to 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Thursday</name>
 				<startTime type="str">2025-03-27T06:00:00-05:00</startTime>
 				<endTime type="str">2025-03-27T18:00:00-05:00</endTime>
@@ -221,7 +202,7 @@
 				<detailedForecast type="str">A chance of rain showers after 7am. Mostly sunny, with a high near 65. South southeast wind 3 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Thursday Night</name>
 				<startTime type="str">2025-03-27T18:00:00-05:00</startTime>
 				<endTime type="str">2025-03-28T06:00:00-05:00</endTime>
@@ -240,7 +221,7 @@
 				<detailedForecast type="str">A chance of rain showers before 1am, then a chance of showers and thunderstorms. Partly cloudy, with a low around 53. South wind around 9 mph, with gusts as high as 18 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Friday</name>
 				<startTime type="str">2025-03-28T06:00:00-05:00</startTime>
 				<endTime type="str">2025-03-28T18:00:00-05:00</endTime>
@@ -259,7 +240,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 1pm, then a slight chance of showers and thunderstorms. Mostly sunny, with a high near 76. South southwest wind 9 to 14 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">12</number>
+				<number type="int">11</number>
 				<name type="str">Friday Night</name>
 				<startTime type="str">2025-03-28T18:00:00-05:00</startTime>
 				<endTime type="str">2025-03-29T06:00:00-05:00</endTime>
@@ -278,7 +259,7 @@
 				<detailedForecast type="str">A slight chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 59. South wind around 12 mph, with gusts as high as 22 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">13</number>
+				<number type="int">12</number>
 				<name type="str">Saturday</name>
 				<startTime type="str">2025-03-29T06:00:00-05:00</startTime>
 				<endTime type="str">2025-03-29T18:00:00-05:00</endTime>
@@ -297,7 +278,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely before 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 73. South wind 12 to 16 mph, with gusts as high as 28 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Saturday Night</name>
 				<startTime type="str">2025-03-29T18:00:00-05:00</startTime>
 				<endTime type="str">2025-03-30T06:00:00-05:00</endTime>
@@ -314,6 +295,25 @@
 				<icon type="str">https://api.weather.gov/icons/land/night/tsra?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A chance of showers and thunderstorms before 1am, then showers and thunderstorms likely. Mostly cloudy, with a low around 60. South wind around 15 mph, with gusts as high as 24 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Sunday</name>
+				<startTime type="str">2025-03-30T06:00:00-05:00</startTime>
+				<endTime type="str">2025-03-30T18:00:00-05:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">74</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="str"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="null"/>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">15 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct?size=medium</icon>
+				<shortForecast type="str">Showers And Thunderstorms Likely</shortForecast>
+				<detailedForecast type="str">Showers and thunderstorms likely. Partly sunny, with a high near 74. South southwest wind around 15 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
