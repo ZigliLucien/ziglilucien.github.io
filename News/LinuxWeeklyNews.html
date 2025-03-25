@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1015408/" title="See Description">Bhattcharya: Closing the chapter on OpenH264</a></li>
 <li><a href="#https://lwn.net/Articles/1013892/" title="See Description">[$] Development statistics for 6.14</a></li>
 <li><a href="#https://lwn.net/Articles/1015377/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1015308/" title="See Description">The 6.14 kernel is out</a></li>
@@ -52,10 +53,44 @@
 <li><a href="#https://lwn.net/Articles/1015058/" title="See Description">An Asahi Linux 6.14 progress report</a></li>
 <li><a href="#https://lwn.net/Articles/1015055/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1014220/" title="See Description">[$] MM medley: huge page allocation, page promotion, KSM, and BPF</a></li>
-<li><a href="#https://lwn.net/Articles/1014938/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1015408/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 25 Mar 2025 16:20:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015408/" title="https://lwn.net/Articles/1015408/">Bhattcharya: Closing the chapter on OpenH264</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Boudhayan Bhattcharya has posted a lengthy <a
+href="https://bbhtt.space/posts/closing-the-chapter-on-openh264/">article</a>
+about the <a
+href="https://discourse.flathub.org/t/upcoming-freedesktop-23-08-runtime-release-will-drop-openh264-extension/9022">announcement</a>
+that the Freedesktop project is dropping OpenH264 from the <a
+href="https://freedesktop-sdk.io/">Freedesktop SDK</a> for Flatpak
+applications and runtimes.</p>
+
+<p>Some Flatpak applications that depend on the Freedesktop runtime
+version 23.08 will lose H.264 playback support starting with the
+release scheduled for April, unless application developers replace it
+with the <tt>ffmpeg-full</tt> extension. The 24.08 runtime is
+unaffected, and future releases will include a new
+<tt>codecs-extra</tt> extension to replace OpenH264 that includes <a
+href="https://ffmpeg.org/">FFmpeg</a> with support for a number of
+patented codecs.</p>
+
+<blockquote class="bq">
+<p>Considering all things, I think and hope we made the correct decision
+and hopefully the new <tt>org.freedesktop.Platform.codecs-extra</tt> works
+out. libx264, libx265 and others are built from source and there are
+no binaries or extra-data involved. So we should theoretically be able
+to patch and fix any issues that come up in the future.</p>
+
+<p>Apart from all this, I'm slightly worried at the prospects of legal
+issues cropping up with this setup and also that the new extension
+contains "too much", but we will have to see where things flow.</p>
+</blockquote>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1013892/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 25 Mar 2025 12:55:40 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -286,14 +321,6 @@ reliability and performance of huge-page allocation, implementing page
 promotion on tiered-memory systems, adding a different approach to
 deduplicating memory, and replacing the BPF memory allocator.  Read on for
 an overview of each.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014938/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Mar 2025 14:15:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014938/" title="https://lwn.net/Articles/1014938/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (php7.4, python-django, and python3.9), <b>Fedora</b> (bluez, iwd, libell, and radare2), <b>Mageia</b> (chromium-browser-stable, mosquitto, tomcat, tomcat packages, and vim), <b>Oracle</b> (firefox, grub2, python3, thunderbird, and webkit2gtk3), <b>Red Hat</b> (fence-agents, php:7.4, and python-jinja2), <b>SUSE</b> (assimp-devel, crane, ffmpeg-4, freetype2, helm, kernel, kured, python-Django, python-Jinja2, python311-Django4, and tomcat), and <b>Ubuntu</b> (alpine, djoser, libxslt, postgresql-9.5, and valkey).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
