@@ -2,10 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 67, with temperatures falling to around 65 in the afternoon. North northwest wind around 8 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of rain showers after 1am. Partly cloudy, with a low around 43. East wind 2 to 6 mph. Chance of precipitation
          is 20%.<br></div>
    </p>
@@ -16,8 +12,9 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 1am. Mostly cloudy,
-         with a low around 58. South wind 6 to 9 mph, with gusts as high as 18 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 1am. Mostly cloudy.
+         Low around 58, with temperatures rising to around 60 overnight. South wind 6 to 9 mph, with gusts as high as 18 mph. Chance
+         of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -36,7 +33,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday Night</h3>Rain showers likely before 7pm, then showers and thunderstorms likely. Mostly cloudy, with a low around 63. South wind around
-         13 mph, with gusts as high as 23 mph.<br></div>
+         13 mph, with gusts as high as 23 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -63,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 48. Southeast wind 7 to 10 mph, with gusts as high as 18 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday</h3>Rain showers likely. Mostly cloudy, with a high near 69. South wind around 13 mph, with gusts as high as 24 mph.<br></div>
    </p>
 </div>
