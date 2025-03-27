@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1015409/" title="See Description">[$] A process for handling Rust code in the core kernel</a></li>
+<li><a href="#https://lwn.net/Articles/1015589/" title="See Description">Security updates for Thursday</a></li>
+<li><a href="#https://lwn.net/Articles/1015555/" title="See Description">A new home for kernel.org</a></li>
 <li><a href="#https://lwn.net/Articles/1014881/" title="See Description">[$] LWN.net Weekly Edition for March 27, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1015496/" title="See Description">Neovim 0.11 released</a></li>
 <li><a href="#https://lwn.net/Articles/1015402/" title="See Description">Debian bookworm live images now fully reproducible</a></li>
@@ -50,12 +53,54 @@
 <li><a href="#https://lwn.net/Articles/1013776/" title="See Description">[$] Lessons from open source in the Mexican government</a></li>
 <li><a href="#https://lwn.net/Articles/1015286/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1015183/" title="See Description">Three Saturday stable kernels</a></li>
-<li><a href="#https://lwn.net/Articles/1014603/" title="See Description">[$] OSI election ends with unsatisfying results</a></li>
-<li><a href="#https://lwn.net/Articles/1015000/" title="See Description">[$] The guaranteed contiguous memory allocator</a></li>
-<li><a href="#https://lwn.net/Articles/1015095/" title="See Description">Julien Malka proposes method for detecting XZ-like backdoors</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1015409/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 27 Mar 2025 13:43:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015409/" title="https://lwn.net/Articles/1015409/">[$] A process for handling Rust code in the core kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The 2024 Linux Storage, Filesystem, Memory-Management, and BPF Summit
+included <a href="https://lwn.net/Articles/978738/">a tense session</a> on the use of Rust
+code in the kernel's filesystem layer.  The Rust topic returned in 2025 in
+a session run by Andreas Hindborg, with a scope that also covered the
+storage and memory-management layers.  A lot of progress has been made, and
+the discussion was less adversarial this year, but there are still process
+issues that need to be worked out.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1015589/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 27 Mar 2025 13:03:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015589/" title="https://lwn.net/Articles/1015589/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Arch Linux</b> (exim), <b>Debian</b> (exim4, ghostscript, and libcap2), <b>Red Hat</b> (container-tools:rhel8), <b>SUSE</b> (apache-commons-vfs2, argocd-cli, azure-cli-core, buildah, chromedriver, docker-stable, ed25519-java, kernel, kubernetes1.29-apiserver, kubernetes1.30-apiserver, kubernetes1.32-apiserver, libmbedcrypto7, microcode_ctl, php7, podman, proftpd, tomcat10, and webkit2gtk3), and <b>Ubuntu</b> (containerd, exim4, mariadb, opensaml, and org-mode).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1015555/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 27 Mar 2025 13:01:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015555/" title="https://lwn.net/Articles/1015555/">A new home for kernel.org</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Akamai has sent out <a
+href="https://www.prnewswire.com/news-releases/akamai-delivers-infrastructure-support-to-ensure-uninterrupted-linux-kernel-development-302412685.html">a
+press release</a> saying that it is now hosting the kernel.org
+repositories.
+<p>
+<blockquote class="bq">
+	The Linux kernel is massive — approximately 28 million lines of
+	code. Since 2005, more than 13,500 developers from more than 1,300
+	different companies have contributed to the Linux
+	kernel. Additionally, there are many kernel versions, and
+	developers update the code constantly, distributing that code to
+	developers who are working on various distributions of
+	Linux. Akamai now delivers the infrastructure that these developers
+	and their users rely on, at no cost, supporting the Git
+	environments developers use to access kernel sources quickly,
+	regardless of where they're based.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1014881/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 27 Mar 2025 01:05:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -248,57 +293,6 @@ href="https://lwn.net/Articles/1015186/">6.6.84</a> stable kernels. Each contain
 number of important fixes throughout the kernel tree; users of those
 series should upgrade.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014603/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Mar 2025 21:46:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014603/" title="https://lwn.net/Articles/1014603/">[$] OSI election ends with unsatisfying results</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://opensource.org/">Open Source Initiative</a>
-(OSI) has <a
-href="https://opensource.org/blog/announcing-the-new-directors-of-osi-board">announced</a>
-the results of its recent board of directors election. Ruth Suehle and
-McCoy Smith are new to the board, while Carlo Piana will serve another
-term. The results, however, seem tainted in the eyes of some
-participants and observers. The election has been plagued by missteps
-from the beginning. It has culminated with the exclusion of three
-candidates for failing to meet a requirement to sign the OSI board agreement, which was added after the election was over and before results were tallied or announced.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015000/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Mar 2025 17:33:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015000/" title="https://lwn.net/Articles/1015000/">[$] The guaranteed contiguous memory allocator</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>As a system runs and its memory becomes fragmented, allocating large,
-physically contiguous regions of memory becomes increasingly difficult.
-Much effort over the years has gone into avoiding the need to make such
-allocations whenever possible, but there are times when they simply cannot
-be avoided.  The kernel's <a href="https://lwn.net/Articles/486301/">contiguous memory
-allocator</a> (CMA) subsystem attempts to make such allocations possible,
-but it has never been a perfect solution.  Suren Baghdasaryan is is trying
-to improve that situation with the <a
-href="https://lwn.net/ml/all/20250320173931.1583800-1-surenb@google.com">guaranteed
-contiguous memory allocator patch set</a>, which includes work from Minchan
-Kim as well.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015095/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Mar 2025 16:54:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015095/" title="https://lwn.net/Articles/1015095/">Julien Malka proposes method for detecting XZ-like backdoors</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Julien Malka has
-<a href="https://luj.fr/blog/how-nixos-could-have-detected-xz.html">
-called</a> for the NixOS project to use build-reproducibility to detect when a program has a maintainer-generated tarball that results in a different artifact than building from source. There are good reasons for projects to release maintainer-generated tarballs, but since the materials included in them are usually documentation, extra build scripts, and so on, it makes sense to check that they don't influence the final build output. While this would not have stopped 
-<a href="https://lwn.net/Articles/967866/">
-last year's XZ backdoor</a>, it would have made it harder to hide.
-</p>
-
-<blockquote class="bq">
-People are often convinced that OSS is more trustworthy than closed-source software because the code can be audited by practitioners and security professionals in order to detect vulnerabilities or backdoors. In this instance, this procedure has been made difficult by the fact that part of the code activating the backdoor was not included in the sources available within the git repository but was instead present in the maintainer-provided tarball. While this was used to hide the backdoor out of sight of most investigating eyes, this is also an opportunity for us to improve our software supply chain security processes.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
