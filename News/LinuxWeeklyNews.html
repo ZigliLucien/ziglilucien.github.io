@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1014881/" title="See Description">[$] LWN.net Weekly Edition for March 27, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1015496/" title="See Description">Neovim 0.11 released</a></li>
 <li><a href="#https://lwn.net/Articles/1015402/" title="See Description">Debian bookworm live images now fully reproducible</a></li>
 <li><a href="#https://lwn.net/Articles/1015320/" title="See Description">[$] The state of the page in 2025</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1014603/" title="See Description">[$] OSI election ends with unsatisfying results</a></li>
 <li><a href="#https://lwn.net/Articles/1015000/" title="See Description">[$] The guaranteed contiguous memory allocator</a></li>
 <li><a href="#https://lwn.net/Articles/1015095/" title="See Description">Julien Malka proposes method for detecting XZ-like backdoors</a></li>
-<li><a href="#https://lwn.net/Articles/1014440/" title="See Description">[$] Multiple memory classes for address-space isolation</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1014881/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 27 Mar 2025 01:05:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014881/" title="https://lwn.net/Articles/1014881/">[$] LWN.net Weekly Edition for March 27, 2025</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1014881/">Front</a>: Open source in government; OSI election; Memory-management medley; Address-space isolation; CMA; 6.14 Development stats; State of the page.
+            <li> <a href="https://lwn.net/Articles/1014883/">Briefs</a>: Asahi Linux progress; Reproducible Debian; rpi-image-gen; Neovim 0.11; OpenH264; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1014884/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1015496/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 26 Mar 2025 17:11:46 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,31 +299,6 @@ last year's XZ backdoor</a>, it would have made it harder to hide.
 <blockquote class="bq">
 People are often convinced that OSS is more trustworthy than closed-source software because the code can be audited by practitioners and security professionals in order to detect vulnerabilities or backdoors. In this instance, this procedure has been made difficult by the fact that part of the code activating the backdoor was not included in the sources available within the git repository but was instead present in the maintainer-provided tarball. While this was used to hide the backdoor out of sight of most investigating eyes, this is also an opportunity for us to improve our software supply chain security processes.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014440/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Mar 2025 16:24:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014440/" title="https://lwn.net/Articles/1014440/">[$] Multiple memory classes for address-space isolation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Brendan Jackman has been working to try to get ahead of the next hardware CPU
-vulnerability
-before it gets discovered. In January, he posted the second version of
-<a href="https://lwn.net/ml/all/20250110-asi-rfc-v2-v2-0-8419288bc805@google.com/">
-a patch set</a> that introduces
-<a href="https://lwn.net/Articles/974390/">
-address-space isolation</a> (ASI) as a way of
-preventing future CPU vulnerabilities from leaking important
-information. The core concept is to ensure that data that is not currently
-needed is not present in memory, so that speculative execution cannot leak it.
-The work is nowhere near ready to be incorporated into the mainline
-kernel — not least of all because it has a large performance impact in its
-current form — but it is likely to once again be a topic of discussion at the
-2025
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Filesystem, Memory Management, and BPF Summit</a>.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
