@@ -2,12 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A slight chance of rain showers. Partly sunny, with a high near 73. South wind around 10 mph, with gusts as high as 18 mph.
-         Chance of precipitation is 20%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>Partly cloudy. Low around 59, with temperatures rising to around 62 overnight. South wind 7 to 10 mph, with gusts as high
+         <h3>Tonight</h3>Partly cloudy. Low around 59, with temperatures rising to around 62 overnight. South wind 6 to 10 mph, with gusts as high
          as 21 mph.<br></div>
    </p>
    <p>
@@ -17,8 +12,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of rain showers after 1am. Mostly cloudy, with a low around 61. South wind 10 to 16 mph, with gusts as high as 31
-         mph. Chance of precipitation is 30%.<br></div>
+         <h3>Friday Night</h3>A chance of rain showers after 1am. Mostly cloudy. Low around 61, with temperatures rising to around 63 overnight. South wind
+         10 to 16 mph, with gusts as high as 31 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -37,7 +32,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Showers and thunderstorms. Mostly cloudy, with a low around 44. West wind around 14 mph, with gusts as high as 24 mph.<br></div>
+         <h3>Sunday Night</h3>Showers and thunderstorms. Mostly cloudy, with a low around 44. West wind around 14 mph, with gusts as high as 24 mph. Chance
+         of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -66,5 +62,10 @@
       <div style="font-size:120%">
          <h3>Wednesday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 56. Southwest wind 12 to 16 mph, with gusts as high as
          26 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Thursday</h3>A chance of showers and thunderstorms. Partly sunny, with a high near 72. South southwest wind around 12 mph, with gusts as
+         high as 20 mph.<br></div>
    </p>
 </div>

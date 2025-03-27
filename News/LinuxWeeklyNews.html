@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1015649/" title="See Description">Bypassing Ubuntu's user-namespace restrictions</a></li>
 <li><a href="#https://lwn.net/Articles/1015636/" title="See Description">Rust adopting Ferrocene Language Specification</a></li>
 <li><a href="#https://lwn.net/Articles/1015627/" title="See Description">A burst of progress on the GCC Rust front end</a></li>
 <li><a href="#https://lwn.net/Articles/1015409/" title="See Description">[$] A process for handling Rust code in the core kernel</a></li>
@@ -52,10 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1013892/" title="See Description">[$] Development statistics for 6.14</a></li>
 <li><a href="#https://lwn.net/Articles/1015377/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1015308/" title="See Description">The 6.14 kernel is out</a></li>
-<li><a href="#https://lwn.net/Articles/1013776/" title="See Description">[$] Lessons from open source in the Mexican government</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1015649/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 27 Mar 2025 20:51:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015649/" title="https://lwn.net/Articles/1015649/">Bypassing Ubuntu's user-namespace restrictions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Ubuntu 23.10 and 24.04 LTS introduced a feature using AppArmor to
+restrict access to user namespaces. Qualys has <a
+href="https://www.qualys.com/2025/three-bypasses-of-Ubuntu-unprivileged-user-namespace-restrictions.txt">reported</a>
+three ways to bypass AppArmor's restrictions and enable local users to
+gain full administrative capabilities within a user namespace. Ubuntu
+has followed up with a <a
+href="https://discourse.ubuntu.com/t/understanding-apparmor-user-namespace-restriction/58007">post</a>
+that explains the namespace-restriction feature in detail, and says
+these bypasses do not constitute security vulnerabilities.</p>
+
+<blockquote class="bq">
+While a superficial observation of the application of user namespaces may indicate privileged (root level) access, this is a fictitious state that is operating as expected, with access control still mapped to the real (root namespace) user's permissions. As such, these bypasses do not enable more access than what the default Linux kernel
+unprivileged user namespace feature allows in most Linux
+distributions. They do, however, demonstrate limitations that we are
+looking to address in order to strengthen existing protections against
+as-of-yet-unknown Linux kernel vulnerabilities.
+</blockquote>
+
+<p>LWN <a
+href="https://lwn.net/Articles/971143/">covered</a> Ubuntu 24.04 LTS last May.</p>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1015636/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 27 Mar 2025 19:38:51 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -291,23 +318,6 @@ href="https://lwn.net/Articles/1005651/">part&#160;1</a>, <a
 href="https://lwn.net/Articles/1006378/">part&#160;2</a>) and <a
 href="https://kernelnewbies.org/Linux_6.14">the KernelNewbies 6.14 page</a>
 for details on what's new in this release.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1013776/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 24 Mar 2025 11:49:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1013776/" title="https://lwn.net/Articles/1013776/">[$] Lessons from open source in the Mexican government</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The adoption of open-source software in governments has had its ups and
-downs.  While open source seems like a "no-brainer", it turns out that
-governments can be surprisingly resistant to using FOSS for a variety of
-reasons.  Federico González Waite spoke in the Open Government track at <a
-href="https://www.socallinuxexpo.org/scale/22x">SCALE 22x</a> in Pasadena,
-California to recount his <a
-href="https://www.socallinuxexpo.org/scale/22x/speakers/federico-gonzalez-waite">experiences
-working with and for the Mexican government</a>.  He led multiple projects
-to switch away from proprietary, often predatory, software companies with
-some success—and failure.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
