@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1015763/" title="See Description">Edmundson: a modern Plasma Login Manager</a></li>
 <li><a href="#https://lwn.net/Articles/1014998/" title="See Description">[$] Making the OpenWrt One</a></li>
 <li><a href="#https://lwn.net/Articles/1015414/" title="See Description">[$] The first part of the 6.15 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1015718/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,43 @@
 <li><a href="#https://lwn.net/Articles/1015402/" title="See Description">Debian bookworm live images now fully reproducible</a></li>
 <li><a href="#https://lwn.net/Articles/1015320/" title="See Description">[$] The state of the page in 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1015464/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1015408/" title="See Description">Bhattcharya: Closing the chapter on OpenH264</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1015763/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 28 Mar 2025 20:17:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015763/" title="https://lwn.net/Articles/1015763/">Edmundson: a modern Plasma Login Manager</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>KDE contributor David Edmundson has <a
+href="https://blog.davidedmundson.co.uk/blog/a-roadmap-for-a-modern-plasma-login-manager/">published</a>
+a blog post about improving KDE&#160;Plasma's login experience by
+replacing <a
+href="https://github.com/sddm/sddm?tab=readme-ov-file#introduction">SDDM</a>
+with a new Plasma Login Manager.</p>
+
+<blockquote class="bq">
+<p>It's worth stressing nothing is official or set in stone yet,
+whilst it has come up in previous Plasma online meetings and in the
+2023 Akademy. I'm posting this whilst starting a more official
+discussion on the plasma-devel mailing list.</p>
+
+<p>Oliver Beard and I have made a new mutli-process greeter, that uses
+the same startup mechanism as the desktop session. It doesn't have all
+the features that we propose at the start of the blog, but an
+architecture where features and services can be slowly and safely
+added.</p>
+</blockquote>
+
+<p>That discussion is <a
+href="https://mail.kde.org/pipermail/plasma-devel/2025-March/123667.html">here</a>
+for those who would like to follow along. The prototype is currently
+in two repositories: <a
+href="https://invent.kde.org/davidedmundson/plasma-login#plasma-login">plasma-login</a>
+for the frontend work, and <a
+href="https://invent.kde.org/davidedmundson/plasma-login-manager#plasma-login">plasma-login-manager</a>,
+which is a fork of SDDM.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1014998/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 28 Mar 2025 16:31:36 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -276,41 +310,6 @@ remains to be done, and where some of the significant problems are.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (nginx and ruby-rack), <b>Fedora</b> (expat and libxslt), <b>Mageia</b> (bluez, dcmtk, ffmpeg, and radare2), <b>Red Hat</b> (container-tools:rhel8, gvisor-tap-vsock, kernel, kernel-rt, libreoffice, and podman), <b>SUSE</b> (buildah, forgejo, gitleaks, google-guest-agent, google-osconfig-agent, govulncheck-vulndb, grafana, helm, libxslt, php8, python-gunicorn, and python-Jinja2), and <b>Ubuntu</b> (freerdp2 and varnish).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015408/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 25 Mar 2025 16:20:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015408/" title="https://lwn.net/Articles/1015408/">Bhattcharya: Closing the chapter on OpenH264</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Boudhayan Bhattcharya has posted a lengthy <a
-href="https://bbhtt.space/posts/closing-the-chapter-on-openh264/">article</a>
-about the <a
-href="https://discourse.flathub.org/t/upcoming-freedesktop-23-08-runtime-release-will-drop-openh264-extension/9022">announcement</a>
-that the Freedesktop project is dropping OpenH264 from the <a
-href="https://freedesktop-sdk.io/">Freedesktop SDK</a> for Flatpak
-applications and runtimes.</p>
-
-<p>Some Flatpak applications that depend on the Freedesktop runtime
-version 23.08 will lose H.264 playback support starting with the
-release scheduled for April, unless application developers replace it
-with the <tt>ffmpeg-full</tt> extension. The 24.08 runtime is
-unaffected, and future releases will include a new
-<tt>codecs-extra</tt> extension to replace OpenH264 that includes <a
-href="https://ffmpeg.org/">FFmpeg</a> with support for a number of
-patented codecs.</p>
-
-<blockquote class="bq">
-<p>Considering all things, I think and hope we made the correct decision
-and hopefully the new <tt>org.freedesktop.Platform.codecs-extra</tt> works
-out. libx264, libx265 and others are built from source and there are
-no binaries or extra-data involved. So we should theoretically be able
-to patch and fix any issues that come up in the future.</p>
-
-<p>Apart from all this, I'm slightly worried at the prospects of legal
-issues cropping up with this setup and also that the new extension
-contains "too much", but we will have to see where things flow.</p>
-</blockquote>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
