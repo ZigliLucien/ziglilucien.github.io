@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-03-29T03:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-03-29T01:47:56+00:00</updateTime>
-		<validTimes type="str">2025-03-28T19:00:00+00:00/P7DT6H</validTimes>
+		<generatedAt type="str">2025-03-29T04:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-03-29T03:33:14+00:00</updateTime>
+		<validTimes type="str">2025-03-28T21:00:00+00:00/P7DT4H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2025-03-28T22:00:00-05:00</startTime>
+				<startTime type="str">2025-03-28T23:00:00-05:00</startTime>
 				<endTime type="str">2025-03-29T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">62</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">30</value>
+					<value type="int">50</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">12 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/ovc/rain_showers,30?size=medium</icon>
-				<shortForecast type="str">Cloudy then Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers after 2am. Cloudy. Low around 62, with temperatures rising to around 65 overnight. South wind around 12 mph, with gusts as high as 22 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn/rain_showers,50?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy then Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A chance of rain showers after 2am. Mostly cloudy. Low around 62, with temperatures rising to around 65 overnight. South wind around 12 mph, with gusts as high as 22 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -83,7 +83,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">12 to 15 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,80/rain_showers,90?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,70/rain_showers,90?size=medium</icon>
 				<shortForecast type="str">Rain Showers</shortForecast>
 				<detailedForecast type="str">Rain showers. Cloudy, with a high near 69. South wind 12 to 15 mph, with gusts as high as 26 mph. Chance of precipitation is 90%.</detailedForecast>
 			</item>
