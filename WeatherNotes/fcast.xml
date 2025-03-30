@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-03-29T23:36:05+00:00</generatedAt>
+		<generatedAt type="str">2025-03-30T00:36:03+00:00</generatedAt>
 		<updateTime type="str">2025-03-29T23:03:35+00:00</updateTime>
 		<validTimes type="str">2025-03-29T17:00:00+00:00/P7DT8H</validTimes>
 		<elevation type="dict">
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2025-03-29T18:00:00-05:00</startTime>
+				<startTime type="str">2025-03-29T19:00:00-05:00</startTime>
 				<endTime type="str">2025-03-30T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">63</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">90</value>
+					<value type="int">50</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">14 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,90/tsra,50?size=medium</icon>
-				<shortForecast type="str">Widespread Rain Showers</shortForecast>
-				<detailedForecast type="str">Widespread rain showers before 4am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 63. South wind around 14 mph, with gusts as high as 24 mph. Chance of precipitation is 90%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,30/tsra,50?size=medium</icon>
+				<shortForecast type="str">Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A chance of rain showers before 4am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 63. South wind around 14 mph, with gusts as high as 23 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
