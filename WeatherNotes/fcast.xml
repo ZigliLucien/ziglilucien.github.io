@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-03-30T16:36:04+00:00</generatedAt>
-		<updateTime type="str">2025-03-30T16:31:57+00:00</updateTime>
-		<validTimes type="str">2025-03-30T10:00:00+00:00/P7DT15H</validTimes>
+		<generatedAt type="str">2025-03-30T17:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-03-30T17:18:04+00:00</updateTime>
+		<validTimes type="str">2025-03-30T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2025-03-30T11:00:00-05:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2025-03-30T12:00:00-05:00</startTime>
 				<endTime type="str">2025-03-30T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">77</temperature>
@@ -64,7 +64,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">10 to 15 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,40/tsra_sct,90?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,90?size=medium</icon>
 				<shortForecast type="str">Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A chance of rain showers before 1pm, then showers and thunderstorms. Some of the storms could be severe. Partly sunny. High near 77, with temperatures falling to around 73 in the afternoon. South southwest wind 10 to 15 mph, with gusts as high as 26 mph. Chance of precipitation is 90%.</detailedForecast>
 			</item>
