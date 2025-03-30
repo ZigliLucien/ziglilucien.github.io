@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Showers and thunderstorms likely before 5pm, then showers and thunderstorms. Some of the storms could be severe and produce
-         heavy rain. Mostly cloudy. High near 77, with temperatures falling to around 72 in the afternoon. Southwest wind 13 to 16
-         mph, with gusts as high as 28 mph. Chance of precipitation is 90%.<br></div>
+         heavy rain. Mostly cloudy. High near 77, with temperatures falling to around 72 in the afternoon. Southwest wind around 15
+         mph, with gusts as high as 26 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
