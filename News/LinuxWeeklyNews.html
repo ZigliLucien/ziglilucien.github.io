@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1015762/" title="See Description">[$] Improving the merging of anonymous VMAs</a></li>
 <li><a href="#https://lwn.net/Articles/1015551/" title="See Description">[$] A herd of migration discussions</a></li>
 <li><a href="#https://lwn.net/Articles/1014979/" title="See Description">[$] Fedora change aims for 99% package reproducibility</a></li>
 <li><a href="#https://lwn.net/Articles/1015968/" title="See Description">Security updates for Monday</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/1015409/" title="See Description">[$] A process for handling Rust code in the core kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1015589/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1015555/" title="See Description">A new home for kernel.org</a></li>
-<li><a href="#https://lwn.net/Articles/1014881/" title="See Description">[$] LWN.net Weekly Edition for March 27, 2025</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1015762/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 31 Mar 2025 22:26:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015762/" title="https://lwn.net/Articles/1015762/">[$] Improving the merging of anonymous VMAs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The virtual memory area (VMA), represented by <a
+href="https://elixir.bootlin.com/linux/v6.13.7/source/include/linux/mm_types.h#L670"><tt>struct
+vm_area_struct</tt></a>, is one of the core abstractions of the kernel's
+memory-management subsystem; a VMA represents a portion of a process's
+address space with the same characteristics.  A memory-mapped file will be
+represented by (at least) one VMA, as will the process's stack or a region
+of anonymous memory.  Efficiently managing VMAs and the logic around them
+is crucial for good performance overall.  Lorenzo Stoakes focused on one
+specific problem area: the merging of anonymous VMAs, during the
+memory-management track at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1015551/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 31 Mar 2025 15:07:00 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -297,21 +315,6 @@ repositories.
 	environments developers use to access kernel sources quickly,
 	regardless of where they're based.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014881/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 27 Mar 2025 01:05:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014881/" title="https://lwn.net/Articles/1014881/">[$] LWN.net Weekly Edition for March 27, 2025</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1014881/">Front</a>: Open source in government; OSI election; Memory-management medley; Address-space isolation; CMA; 6.14 Development stats; State of the page.
-            <li> <a href="https://lwn.net/Articles/1014883/">Briefs</a>: Asahi Linux progress; Reproducible Debian; rpi-image-gen; Neovim 0.11; OpenH264; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1014884/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
