@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms before 9pm, then a chance of showers and thunderstorms between 9pm and 10pm. Some of the storms
-         could be severe and produce heavy rain. Mostly cloudy. Low around 41, with temperatures rising to around 44 overnight. West
-         northwest wind 2 to 13 mph, with gusts as high as 25 mph. Chance of precipitation is 100%.<br></div>
+         could be severe. Mostly cloudy. Low around 41, with temperatures rising to around 44 overnight. Northwest wind 2 to 13 mph,
+         with gusts as high as 25 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
