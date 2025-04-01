@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1015997/" title="See Description">[$] Memory persistence over kexec</a></li>
+<li><a href="#https://lwn.net/Articles/1016077/" title="See Description">Firefox 137.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1016076/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1015762/" title="See Description">[$] Improving the merging of anonymous VMAs</a></li>
 <li><a href="#https://lwn.net/Articles/1015551/" title="See Description">[$] A herd of migration discussions</a></li>
 <li><a href="#https://lwn.net/Articles/1014979/" title="See Description">[$] Fedora change aims for 99% package reproducibility</a></li>
@@ -50,12 +53,48 @@
 <li><a href="#https://lwn.net/Articles/1015649/" title="See Description">Bypassing Ubuntu's user-namespace restrictions</a></li>
 <li><a href="#https://lwn.net/Articles/1015636/" title="See Description">Rust adopting Ferrocene Language Specification</a></li>
 <li><a href="#https://lwn.net/Articles/1015627/" title="See Description">A burst of progress on the GCC Rust front end</a></li>
-<li><a href="#https://lwn.net/Articles/1015409/" title="See Description">[$] A process for handling Rust code in the core kernel</a></li>
-<li><a href="#https://lwn.net/Articles/1015589/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1015555/" title="See Description">A new home for kernel.org</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1015997/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 01 Apr 2025 14:00:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015997/" title="https://lwn.net/Articles/1015997/">[$] Memory persistence over kexec</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
+href="https://man7.org/linux/man-pages/man8/kexec.8.html">kexec
+mechanism</a> allows one kernel to directly boot a new one; it can be
+thought of as a sort of kernel equivalent to the <a
+href="https://man7.org/linux/man-pages/man2/execve.2.html"><tt>execve()</tt></a>
+system call.  Kexec has a number of uses, including booting a special kernel
+to perform dumps after a crash.  Normally, one does not expect user-space
+processes to survive booting into a new kernel, but that has not stopped
+developers from trying to implement that ability.  Mike Rapoport ran a
+memory-management-track session at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit to discuss one piece of that problem:
+enabling the contents of memory to persist across a kexec handover so that
+the new kernel can pick up where the old one left off.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016077/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 01 Apr 2025 13:58:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016077/" title="https://lwn.net/Articles/1016077/">Firefox 137.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://www.mozilla.org/en-US/firefox/137.0/releasenotes/">Version
+137.0</a> of the Firefox browser has been released.  Changes include the
+rollout of <a href="https://support.mozilla.org/en-US/kb/tab-groups">tab
+groups</a>, a number of search-bar changes, and the ability to add signatures
+to PDF files.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016076/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 01 Apr 2025 13:54:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016076/" title="https://lwn.net/Articles/1016076/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freetype, grub2, kernel, kernel-rt, and python-jinja2), <b>Debian</b> (freetype, linux-6.1, suricata, tzdata, and varnish), <b>Fedora</b> (mingw-libxslt and qgis), <b>Mageia</b> (elfutils, mercurial, and zvbi), <b>Oracle</b> (grafana, kernel, libxslt, nginx:1.22, and postgresql:12), <b>Red Hat</b> (opentelemetry-collector), <b>SUSE</b> (corosync, opera, and restic), and <b>Ubuntu</b> (aom, libtar, mariadb, ovn, php7.4, php8.1, php8.3, rabbitmq-server, and webkit2gtk).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1015762/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 31 Mar 2025 22:26:56 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -270,51 +309,6 @@ upstreaming all of the recent work on the GCC Rust front end.  These
 changes include the Polonius borrow checker, the foreign-function
 interface, inline assembly support, <tt>if-let</tt> statement handling,
 multiple built-in derive macros, <tt>for</tt> loops, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015409/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 27 Mar 2025 13:43:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015409/" title="https://lwn.net/Articles/1015409/">[$] A process for handling Rust code in the core kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The 2024 Linux Storage, Filesystem, Memory-Management, and BPF Summit
-included <a href="https://lwn.net/Articles/978738/">a tense session</a> on the use of Rust
-code in the kernel's filesystem layer.  The Rust topic returned in 2025 in
-a session run by Andreas Hindborg, with a scope that also covered the
-storage and memory-management layers.  A lot of progress has been made, and
-the discussion was less adversarial this year, but there are still process
-issues that need to be worked out.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015589/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 27 Mar 2025 13:03:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015589/" title="https://lwn.net/Articles/1015589/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Arch Linux</b> (exim), <b>Debian</b> (exim4, ghostscript, and libcap2), <b>Red Hat</b> (container-tools:rhel8), <b>SUSE</b> (apache-commons-vfs2, argocd-cli, azure-cli-core, buildah, chromedriver, docker-stable, ed25519-java, kernel, kubernetes1.29-apiserver, kubernetes1.30-apiserver, kubernetes1.32-apiserver, libmbedcrypto7, microcode_ctl, php7, podman, proftpd, tomcat10, and webkit2gtk3), and <b>Ubuntu</b> (containerd, exim4, mariadb, opensaml, and org-mode).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015555/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 27 Mar 2025 13:01:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015555/" title="https://lwn.net/Articles/1015555/">A new home for kernel.org</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Akamai has sent out <a
-href="https://www.prnewswire.com/news-releases/akamai-delivers-infrastructure-support-to-ensure-uninterrupted-linux-kernel-development-302412685.html">a
-press release</a> saying that it is now hosting the kernel.org
-repositories.
-<p>
-<blockquote class="bq">
-	The Linux kernel is massive — approximately 28 million lines of
-	code. Since 2005, more than 13,500 developers from more than 1,300
-	different companies have contributed to the Linux
-	kernel. Additionally, there are many kernel versions, and
-	developers update the code constantly, distributing that code to
-	developers who are working on various distributions of
-	Linux. Akamai now delivers the infrastructure that these developers
-	and their users rely on, at no cost, supporting the Git
-	environments developers use to access kernel sources quickly,
-	regardless of where they're based.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
