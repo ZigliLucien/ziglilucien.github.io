@@ -2,21 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly clear, with a low around 33. East wind around 2 mph.<br></div>
+         <h3>Today</h3>Mostly sunny, with a high near 63. East southeast wind 2 to 12 mph, with gusts as high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Mostly sunny, with a high near 63. East southeast wind 3 to 12 mph, with gusts as high as 21 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Mostly cloudy. Low around 57, with temperatures rising to around 65 overnight. South southeast wind 12 to 21 mph, with gusts
+         <h3>Tonight</h3>Mostly cloudy. Low around 57, with temperatures rising to around 65 overnight. South southeast wind 12 to 21 mph, with gusts
          as high as 36 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Showers and thunderstorms. Some of the storms could be severe and produce heavy rain. Cloudy, with a high near 80. South wind
-         22 to 28 mph, with gusts as high as 47 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Wednesday</h3>Showers and thunderstorms. Some of the storms could be severe and produce heavy rain. Cloudy. High near 80, with temperatures
+         falling to around 76 in the afternoon. South wind 22 to 28 mph, with gusts as high as 47 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -36,7 +32,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Showers and thunderstorms. Mostly cloudy, with a high near 68. Northeast wind around 7 mph.<br></div>
+         <h3>Friday</h3>Showers and thunderstorms. Mostly cloudy, with a high near 68. Northeast wind around 7 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -66,5 +62,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday</h3>Mostly sunny, with a high near 52. North northwest wind around 10 mph, with gusts as high as 18 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday Night</h3>Mostly clear, with a low around 33. Northwest wind 3 to 7 mph.<br></div>
    </p>
 </div>
