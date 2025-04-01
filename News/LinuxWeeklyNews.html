@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1016001/" title="See Description">[$] Slab allocator: sheaves and any-context allocations</a></li>
+<li><a href="#https://lwn.net/Articles/1016109/" title="See Description">Dave Täht RIP</a></li>
 <li><a href="#https://lwn.net/Articles/1015724/" title="See Description">[$] Updates on storage standards</a></li>
 <li><a href="#https://lwn.net/Articles/1015997/" title="See Description">[$] Memory persistence over kexec</a></li>
 <li><a href="#https://lwn.net/Articles/1016077/" title="See Description">Firefox 137.0 released</a></li>
@@ -51,11 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1014998/" title="See Description">[$] Making the OpenWrt One</a></li>
 <li><a href="#https://lwn.net/Articles/1015414/" title="See Description">[$] The first part of the 6.15 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1015718/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1015649/" title="See Description">Bypassing Ubuntu's user-namespace restrictions</a></li>
-<li><a href="#https://lwn.net/Articles/1015636/" title="See Description">Rust adopting Ferrocene Language Specification</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1016001/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 01 Apr 2025 18:54:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016001/" title="https://lwn.net/Articles/1016001/">[$] Slab allocator: sheaves and any-context allocations</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's slab allocator is charged with providing small objects on
+demand; its performance and reliability are crucial for the functioning of
+the system as a whole.  At the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit, two adjacent sessions in the
+memory-management track dug into current work on the slab allocator.  The
+first focused on the new sheaves feature, while the second discussed a set
+of allocation functions that are safe to call in any context.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016109/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 01 Apr 2025 18:28:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016109/" title="https://lwn.net/Articles/1016109/">Dave Täht RIP</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/Articles/705884/"><img src="https://lwn.net/images/conf/2016/lpc/DaveTaht-sm.jpg"
+class="lthumb" alt="[Dave Täht]" title="Dave Täht and Ham the monkey"></a> 
+
+From the LibreQoS site comes <a
+href="https://libreqos.io/2025/04/01/in-loving-memory-of-dave/">the sad
+news</a> that Dave Täht has passed away.  Among many other things, he bears
+a lot of credit for our networks functioning as well as they do.  "<q>We're
+incredibly grateful to have Dave as our friend, mentor, and as someone who
+continuously inspired us – showing us that we could do better for each
+other in the world, and leverage technology to make that happen. He will be
+dearly missed</q>".
+<p>
+Searching through LWN's archives will turn up many references to his work
+<a href="https://lwn.net/Articles/705884/">fixing WiFi</a>, <a
+href="https://lwn.net/Articles/496509/">improving queue management</a>, <a
+href="https://lwn.net/Articles/508783/">tackling bufferbloat</a>, and more.  Farewell,
+Dave, we hope the music is good wherever you are.
+<p>
+(Thanks to Jon Masters for the heads-up).
+<br clear="all"></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1015724/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 01 Apr 2025 14:32:27 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,51 +301,6 @@ read on for our summary of the first half of the 6.15 merge window.
  linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
  linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oracle, linux-oracle-6.8, linux-aws-5.15, linux-kvm, linux-azure, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oem-6.11, linux-oem-6.8, linux-realtime, smarty, and snakeyaml).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015649/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 27 Mar 2025 20:51:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015649/" title="https://lwn.net/Articles/1015649/">Bypassing Ubuntu's user-namespace restrictions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Ubuntu 23.10 and 24.04 LTS introduced a feature using AppArmor to
-restrict access to user namespaces. Qualys has <a
-href="https://www.qualys.com/2025/three-bypasses-of-Ubuntu-unprivileged-user-namespace-restrictions.txt">reported</a>
-three ways to bypass AppArmor's restrictions and enable local users to
-gain full administrative capabilities within a user namespace. Ubuntu
-has followed up with a <a
-href="https://discourse.ubuntu.com/t/understanding-apparmor-user-namespace-restriction/58007">post</a>
-that explains the namespace-restriction feature in detail, and says
-these bypasses do not constitute security vulnerabilities.</p>
-
-<blockquote class="bq">
-While a superficial observation of the application of user namespaces may indicate privileged (root level) access, this is a fictitious state that is operating as expected, with access control still mapped to the real (root namespace) user's permissions. As such, these bypasses do not enable more access than what the default Linux kernel
-unprivileged user namespace feature allows in most Linux
-distributions. They do, however, demonstrate limitations that we are
-looking to address in order to strengthen existing protections against
-as-of-yet-unknown Linux kernel vulnerabilities.
-</blockquote>
-
-<p>LWN <a
-href="https://lwn.net/Articles/971143/">covered</a> Ubuntu 24.04 LTS last May.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015636/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 27 Mar 2025 19:38:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015636/" title="https://lwn.net/Articles/1015636/">Rust adopting Ferrocene Language Specification</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-One recurring criticism of Rust has been that the language has no official specification. This is a barrier to adoption in some safety-conscious organizations, as well as to writing alternate language implementations. Now, the Rust project has
-<a href="https://blog.rust-lang.org/2025/03/26/adopting-the-fls.html">announced</a>
-that it will be adopting the 
-<a href="https://spec.ferrocene.dev/">
-Ferrocene Language Specification</a> (FLS) developed by 
-<a href="https://ferrous-systems.com/">Ferrous Systems</a> and maintaining it as part of the core project. While this may not satisfy die-hard standardization-process enthusiasts, it's a step toward removing another barrier to using Rust in safety-critical systems.
-</p>
-
-<blockquote class="bq">
-It's in that light that we're pleased to announce that we'll be adopting the FLS into the Rust Project as part of our ongoing specification efforts. This adoption is being made possible by the gracious donation of the FLS by Ferrous Systems. We're grateful to them for the work they've done in assembling the FLS, in making it fit for qualification purposes, in promoting its use and the use of Rust generally in safety-critical industries, and now, for working with us to take the next step and to bring the FLS into the Project.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
