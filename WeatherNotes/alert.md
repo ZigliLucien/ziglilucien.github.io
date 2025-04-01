@@ -1,5 +1,5 @@
 <p>
-   <h2>Flood Watch issued March 31 at 12:40PM CDT until April 6 at 7:00AM CDT by NWS Paducah KY</h2>
+   <h2>Flood Watch issued April 1 at 3:57AM CDT until April 6 at 7:00AM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">Historically high forecast rainfall amounts will heighten the risk
       of flash flooding and flooding Wednesday through Sunday.
       
@@ -7,14 +7,14 @@
       expected. Preliminary projections of up to 1 foot of total
       rainfall over parts of the area is not out of the question.
       
-      * WHERE...All of southeast Missouri, southern Illinois, western
-      Kentucky, and southwest Indiana.
+      * WHERE...All of southeast Missouri, southern Illinois, southwest
+      Indiana, and west Kentucky.
       
       * WHEN...From Wednesday afternoon through Sunday morning.
       
       * IMPACTS...Excessive runoff may result in flooding of rivers,
-      creeks, streams, and especially low-lying and flood-prone
-      locations. Creeks and streams may rise out of their banks.
+      creeks, streams, and other low-lying and flood-prone locations.
+      Creeks and streams may rise out of their banks.
       
       * ADDITIONAL DETAILS...
       - Multiple rounds of locally heavy rainfall over several days
