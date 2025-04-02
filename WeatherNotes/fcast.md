@@ -2,25 +2,20 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly cloudy. Low around 58, with temperatures rising to around 65 overnight. South wind around 20 mph, with gusts as high
-         as 32 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday</h3>A slight chance of rain showers between 7am and 8am, then a chance of showers and thunderstorms between 3pm and 5pm, then
+         <h3>Today</h3>A slight chance of rain showers between 7am and 8am, then a chance of showers and thunderstorms between 3pm and 5pm, then
          showers and thunderstorms likely. Some of the storms could be severe. Cloudy. High near 80, with temperatures falling to around
          75 in the afternoon. South wind 21 to 28 mph, with gusts as high as 48 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Showers and thunderstorms before 10pm, then a chance of showers and thunderstorms between 10pm and 2am. Some of the storms
+         <h3>Tonight</h3>Showers and thunderstorms before 10pm, then a chance of showers and thunderstorms between 10pm and 2am. Some of the storms
          could be severe. Mostly cloudy. Low around 57, with temperatures rising to around 59 overnight. Southwest wind 5 to 22 mph,
          with gusts as high as 39 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Rain showers before 4pm, then showers and thunderstorms. Mostly cloudy, with a high near 66. North wind 2 to 8 mph. Chance
-         of precipitation is 90%.<br></div>
+         <h3>Thursday</h3>Rain showers before 4pm, then showers and thunderstorms. Mostly cloudy. High near 66, with temperatures falling to around
+         61 in the afternoon. North wind 2 to 8 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -38,7 +33,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>Showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy, with a high near 67. South southeast wind
-         10 to 14 mph, with gusts as high as 24 mph.<br></div>
+         10 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -65,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>Sunny, with a high near 57. North northwest wind 3 to 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>Mostly clear, with a low around 38. South southeast wind around 5 mph.<br></div>
    </p>
 </div>
