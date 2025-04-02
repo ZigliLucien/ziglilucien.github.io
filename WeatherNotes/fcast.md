@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Showers and thunderstorms likely. Some of the storms could be severe. Cloudy. High near 80, with temperatures falling to around
-         75 in the afternoon. South southwest wind around 26 mph, with gusts as high as 48 mph. Chance of precipitation is 60%.<br></div>
+         75 in the afternoon. South wind around 25 mph, with gusts as high as 44 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
