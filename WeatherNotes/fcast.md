@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of showers and thunderstorms between 3pm and 5pm, then showers and thunderstorms likely. Some of the storms could
-         be severe. Cloudy. High near 80, with temperatures falling to around 75 in the afternoon. South southwest wind 21 to 28 mph,
+         be severe. Cloudy. High near 80, with temperatures falling to around 75 in the afternoon. South southwest wind 24 to 28 mph,
          with gusts as high as 48 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
