@@ -38,6 +38,11 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1015226/" title="See Description">[$] Catching up with calibre</a></li>
+<li><a href="#https://lwn.net/Articles/1015747/" title="See Description">[$] An update on GCC BPF support</a></li>
+<li><a href="#https://lwn.net/Articles/1016219/" title="See Description">Thunderbird plans "Thundermail" email and other services</a></li>
+<li><a href="#https://lwn.net/Articles/1016217/" title="See Description">Introducing Fedora Project Leader Jef Spaleta</a></li>
+<li><a href="#https://lwn.net/Articles/1016216/" title="See Description">PorteuX 2.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1016009/" title="See Description">[$] Approaches to reducing TLB pressure</a></li>
 <li><a href="#https://lwn.net/Articles/1016207/" title="See Description">Rockbox 4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1016205/" title="See Description">Security updates for Wednesday</a></li>
@@ -48,14 +53,119 @@
 <li><a href="#https://lwn.net/Articles/1016077/" title="See Description">Firefox 137.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1016076/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1015762/" title="See Description">[$] Improving the merging of anonymous VMAs</a></li>
-<li><a href="#https://lwn.net/Articles/1015551/" title="See Description">[$] A herd of migration discussions</a></li>
-<li><a href="#https://lwn.net/Articles/1014979/" title="See Description">[$] Fedora change aims for 99% package reproducibility</a></li>
-<li><a href="#https://lwn.net/Articles/1015968/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1015834/" title="See Description">Four stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1015763/" title="See Description">Edmundson: a modern Plasma Login Manager</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1015226/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Apr 2025 17:00:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015226/" title="https://lwn.net/Articles/1015226/">[$] Catching up with calibre</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Saying that <a href="https://calibre-ebook.com/">calibre</a> is
+ebook-management software undersells the application by a fair
+margin. Calibre is an open-source Swiss Army knife for ebooks that can
+be used for everything from creating ebooks, converting ebooks from
+obscure formats to modern formats like EPUB, to serving up an ebook
+library over the web. The most recent major release, <a
+href="https://calibre-ebook.com/new-in/seventeen">calibre&#160;8.0</a>,
+brings a better text-to-speech engine, a tool for creating audio
+overlays when authoring ebooks, support for profiles in the ebook
+viewer, and more.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1015747/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Apr 2025 15:47:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015747/" title="https://lwn.net/Articles/1015747/">[$] An update on GCC BPF support</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+José Marchesi and David Faust kicked off the BPF track at the 2025 Linux Storage,
+Filesystem, Memory-Management, and BPF Summit with an extra-long session on what
+they have been doing to support compiling to BPF in GCC. Overall, the project is slowly working
+toward full support for BPF, with most of the self-tests now passing using
+Faust's in-progress patches. However, the progress toward that goal has turned up
+a number of problems with how Clang supports BPF that needed to be discussed at
+length to find a path forward for both projects.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016219/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Apr 2025 15:39:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016219/" title="https://lwn.net/Articles/1016219/">Thunderbird plans "Thundermail" email and other services</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Ryan Sipes has <a
+href="https://thunderbird.topicbox.com/groups/planning/T437cd854afcb1395">announced</a>
+efforts to expand Thunderbird's offerings with web services to
+"<q>enhance the experience of using Thunderbird</q>".</p>
+
+<blockquote class="bq">
+The Why for offering these services is simple. Thunderbird loses users
+each day to rich ecosystems that are both clients and services, such
+as Gmail and Office365. These ecosystems have both hard vendor
+lock-ins (through interoperability issues with 3rd-pary clients) and
+soft lock-ins (through convenience and integration between their
+clients and services). It is our goal to eventually have a similar
+offering so that a 100% open source, freedom-respecting alternative
+ecosystem is available for those who want it.
+</blockquote>
+
+<p>The planned services include hosted email, appointment scheduling,
+a revival of <a
+href="https://en.wikipedia.org/wiki/Firefox_Send">Firefox Send</a>,
+and (of course) an AI assistant based on a partnership with <a
+href="https://flower.ai/">Flower AI</a>. The AI features will
+"<q>always be optional for use by people who want them</q>". Sipes is
+managing director of product for Thunderbird's parent organization, <a
+href="https://blog.thunderbird.net/2020/01/thunderbirds-new-home/">MZLA
+Technologies Corporation</a>. LWN <a
+href="https://lwn.net/Articles/982610/">covered</a> his
+GUADEC&#160;2024 keynote last July.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016217/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Apr 2025 14:40:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016217/" title="https://lwn.net/Articles/1016217/">Introducing Fedora Project Leader Jef Spaleta</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Outgoing Fedora Project Leader (FPL) Matthew Miller has <a
+href="https://fedoramagazine.org/introducing-fedora-project-leader-jef-spaleta/">announced</a>
+his successor, Jef Spaleta.</p>
+
+<blockquote class="bq">
+<p>Some of you may remember Jef's passionate voice in the early Fedora
+community. He got involved all the way back in the days of fedora.us,
+before Red Hat got involved. Jef served on the Fedora Board from July
+2007 through the end of 2008. This was the critical time after Fedora
+Extras and Fedora Core merged into one Fedora Linux where, with the
+launch of the "Features" process, Fedora became a truly community-led
+project.</p>
+</blockquote>
+
+<p>Spaleta will be joining Red Hat full time in May and Miller will be
+formally handing off FPL duties at the <a
+href="https://fedoraproject.org/flock/2025/">Flock</a> conference in
+June.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016216/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Apr 2025 14:34:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016216/" title="https://lwn.net/Articles/1016216/">PorteuX 2.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://github.com/porteux/porteux/releases">Version
+2.0</a> of <a href="https://github.com/porteux/porteux?tab=readme-ov-file#about">PorteuX</a>, a distribution based on Slackware Linux, has been
+released. This release adds the ability to test experimental Wayland
+sessions for the Cinnamon, LXQt, and Xfce desktops. PorteuX 2.0
+updates the Linux kernel to 6.14 and includes many package updates and
+bug fixes. Users have the choice of PorteuX stable or its rolling release
+called current. See the <a
+href="https://github.com/porteux/porteux/blob/main/boot/boot/docs/install.txt"><tt>install.txt</tt></a>
+for instructions on installing PorteuX to disk.</p>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1016009/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 02 Apr 2025 13:45:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -206,97 +316,6 @@ specific problem area: the merging of anonymous VMAs, during the
 memory-management track at the 2025 Linux Storage, Filesystem,
 Memory-Management, and BPF Summit.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015551/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 31 Mar 2025 15:07:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015551/" title="https://lwn.net/Articles/1015551/">[$] A herd of migration discussions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Migration is the act of moving data from one location in physical
-memory to another.  The kernel may migrate pages for many reasons,
-including defragmentation, improving NUMA locality, moving data to or from
-memory hosted on a peripheral device, or freeing a range of
-memory for other uses.  Given the importance of migration to the
-memory-management subsystem, there is a lot of interest in improving its
-performance and removing impediments to its success.  Several sessions in
-the memory-management track of the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit were dedicated to this topic.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014979/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 31 Mar 2025 14:04:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014979/" title="https://lwn.net/Articles/1014979/">[$] Fedora change aims for 99% package reproducibility</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The effort to ensure that open-source software is <a
-href="https://reproducible-builds.org/">reproducible</a> has been
-gathering steam over the years, and gaining traction with major Linux
-distributions. Debian, for example, has been <a
-href="https://lwn.net/Articles/985739/">working toward reproducible
-builds</a> for more than a decade; it can <a
-href="https://lists.reproducible-builds.org/pipermail/rb-general/2025-March/003675.html">now</a>
-produce <a
-href="https://wiki.debian.org/ReproducibleInstalls/LiveImages#Status">official
-live CDs</a> of the current stable release that are 
-reproducible. Fedora started on the path much later, but it has
-progressed far enough that the project is now considering a <a
-href="https://fedoraproject.org/wiki/Changes/Package_builds_are_expected_to_be_reproducible">change
-proposal</a> for the Fedora&#160;43 development cycle, expected to be
-released in October, with a goal of
-making 99% of Fedora's package builds reproducible. So far, reaction
-to the proposal seems favorable and focused primarily on how to
-achieve the <span class="nobreak">goal&mdash;with</span> minimal pain for <span class="nobreak">packagers&mdash;rather</span> than whether to attempt it.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015968/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 31 Mar 2025 13:58:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015968/" title="https://lwn.net/Articles/1015968/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (amd64-microcode, flatpak, intel-microcode, libdata-entropy-perl, librabbitmq, and vim), <b>Fedora</b> (augeas, containerd, crosswords-puzzle-sets-xword-dl, libssh2, libxml2, nodejs-nodemon, and webkitgtk), <b>Red Hat</b> (libreoffice and python-jinja2), <b>SUSE</b> (389-ds, apparmor, corosync, docker, docker-stable, erlang26, exim, ffmpeg-4, govulncheck-vulndb, istioctl, matrix-synapse, mercurial, openvpn, python3, rke2, and skopeo), and <b>Ubuntu</b> (ansible, linux, linux-hwe-5.4, linux-azure, linux-azure-5.4, linux-bluefield, linux-gcp, linux-gcp-5.4,
- linux-ibm, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-azure-fips, linux-gcp-fips, linux-fips, linux-fips, linux-aws-fips, linux-azure-fips, linux-gcp-fips, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-realtime, linux-intel-iot-realtime, linux-xilinx-zynqmp, opensc, and ruby-doorkeeper).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015834/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 29 Mar 2025 14:57:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015834/" title="https://lwn.net/Articles/1015834/">Four stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman announced the release of four stable kernels on March&#160;28: <a href="https://lwn.net/Articles/1015835/">6.13.9</a>, <a href="https://lwn.net/Articles/1015836/">6.12.21</a>, <a href="https://lwn.net/Articles/1015838/">6.6.85</a>, and <a href="https://lwn.net/Articles/1015837/">6.1.132</a>. Users are advised to upgrade.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015763/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 28 Mar 2025 20:17:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015763/" title="https://lwn.net/Articles/1015763/">Edmundson: a modern Plasma Login Manager</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>KDE contributor David Edmundson has <a
-href="https://blog.davidedmundson.co.uk/blog/a-roadmap-for-a-modern-plasma-login-manager/">published</a>
-a blog post about improving KDE&#160;Plasma's login experience by
-replacing <a
-href="https://github.com/sddm/sddm?tab=readme-ov-file#introduction">SDDM</a>
-with a new Plasma Login Manager.</p>
-
-<blockquote class="bq">
-<p>It's worth stressing nothing is official or set in stone yet,
-whilst it has come up in previous Plasma online meetings and in the
-2023 Akademy. I'm posting this whilst starting a more official
-discussion on the plasma-devel mailing list.</p>
-
-<p>Oliver Beard and I have made a new mutli-process greeter, that uses
-the same startup mechanism as the desktop session. It doesn't have all
-the features that we propose at the start of the blog, but an
-architecture where features and services can be slowly and safely
-added.</p>
-</blockquote>
-
-<p>That discussion is <a
-href="https://mail.kde.org/pipermail/plasma-devel/2025-March/123667.html">here</a>
-for those who would like to follow along. The prototype is currently
-in two repositories: <a
-href="https://invent.kde.org/davidedmundson/plasma-login#plasma-login">plasma-login</a>
-for the frontend work, and <a
-href="https://invent.kde.org/davidedmundson/plasma-login-manager#plasma-login">plasma-login-manager</a>,
-which is a fork of SDDM.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
