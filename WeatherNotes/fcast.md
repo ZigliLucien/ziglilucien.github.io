@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms after 1am. Mostly cloudy. Low around 57, with temperatures rising to around 65 overnight.
-         South southeast wind 10 to 21 mph, with gusts as high as 35 mph. Chance of precipitation is 40%.<br></div>
+         South southeast wind 12 to 21 mph, with gusts as high as 35 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
