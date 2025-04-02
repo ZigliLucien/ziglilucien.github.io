@@ -3,12 +3,12 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms after 1am. Mostly cloudy. Low around 57, with temperatures rising to around 65 overnight.
-         South southeast wind 12 to 21 mph, with gusts as high as 35 mph. Chance of precipitation is 40%.<br></div>
+         South southeast wind 14 to 21 mph, with gusts as high as 35 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of rain showers before 1pm, then showers and thunderstorms. Some of the storms could be severe. Mostly cloudy, with
-         a high near 80. South southwest wind around 24 mph, with gusts as high as 47 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Wednesday</h3>Showers and thunderstorms likely before 5pm, then showers and thunderstorms. Some of the storms could be severe. Mostly cloudy,
+         with a high near 80. South southwest wind around 24 mph, with gusts as high as 47 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
