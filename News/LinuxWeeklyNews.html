@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1016009/" title="See Description">[$] Approaches to reducing TLB pressure</a></li>
+<li><a href="#https://lwn.net/Articles/1016207/" title="See Description">Rockbox 4.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1016205/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1016001/" title="See Description">[$] Slab allocator: sheaves and any-context allocations</a></li>
 <li><a href="#https://lwn.net/Articles/1016109/" title="See Description">Dave Täht RIP</a></li>
 <li><a href="#https://lwn.net/Articles/1015724/" title="See Description">[$] Updates on storage standards</a></li>
@@ -50,12 +53,47 @@
 <li><a href="#https://lwn.net/Articles/1015968/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1015834/" title="See Description">Four stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1015763/" title="See Description">Edmundson: a modern Plasma Login Manager</a></li>
-<li><a href="#https://lwn.net/Articles/1014998/" title="See Description">[$] Making the OpenWrt One</a></li>
-<li><a href="#https://lwn.net/Articles/1015414/" title="See Description">[$] The first part of the 6.15 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1015718/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1016009/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Apr 2025 13:45:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016009/" title="https://lwn.net/Articles/1016009/">[$] Approaches to reducing TLB pressure</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The CPU's translation lookaside buffer (TLB) caches the results of
+virtual-address translations, significantly speeding memory accesses.  TLB
+misses are expensive, so a lot of thought goes into using the TLB as
+efficiently as possible.  Reducing pressure on the TLB was the topic of Rik
+van Riel's memory-management-track session at the 2025 Linux Storage,
+Filesystem, Memory-Management, and BPF Summit.  Some approaches were
+considered, but the session was short on firm conclusions.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016207/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Apr 2025 13:11:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016207/" title="https://lwn.net/Articles/1016207/">Rockbox 4.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>For those of you who still have dedicated audio players: <a
+href="https://www.rockbox.org/wiki/ReleaseNotes400">version 4.0</a> of
+Rockbox, a replacement firmware for many players, has been released.
+This release brings support for a number of new devices, updated codecs, a
+number of user-interface improvements, some new games, and more.  (LWN last
+<a href="https://lwn.net/Articles/391982/">reviewed Rockbox</a> in 2010 — and looked at
+the ill-fated <a href="https://lwn.net/Articles/408626/">Android port</a> that year as
+well).</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016205/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Apr 2025 13:03:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016205/" title="https://lwn.net/Articles/1016205/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr, jetty9, openjpeg2, and tomcat9), <b>Fedora</b> (dokuwiki, firefox, php-kissifrot-php-ixr, php-phpseclib3, and rust-zincati), <b>Red Hat</b> (kernel and pki-core), <b>Slackware</b> (mozilla), <b>SUSE</b> (apparmor, atop, docker, docker-stable, firefox, govulncheck-vulndb, libmodsecurity3, openvpn, upx, and warewulf4), and <b>Ubuntu</b> (inspircd, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-ibm,
+ linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oem-6.8, linux-oracle,
+ linux-oracle-6.8, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure-6.8, linux-hwe-6.8, linux-raspi, linux-realtime, nginx, phpseclib, and vim).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1016001/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 01 Apr 2025 18:54:42 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -259,48 +297,6 @@ href="https://invent.kde.org/davidedmundson/plasma-login#plasma-login">plasma-lo
 for the frontend work, and <a
 href="https://invent.kde.org/davidedmundson/plasma-login-manager#plasma-login">plasma-login-manager</a>,
 which is a fork of SDDM.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1014998/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 28 Mar 2025 16:31:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1014998/" title="https://lwn.net/Articles/1014998/">[$] Making the OpenWrt One</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In a keynote on the final day of <a
-href="https://www.socallinuxexpo.org/scale/22x">SCALE 22x</a>, Denver
-Gingerich said that he wanted to talk "<q>a little bit about a router and
-also the big picture around that router</q>".  Gingerich is the director of
-compliance at the <a href="https://sfconservancy.org/">Software Freedom
-Conservancy</a> (SFC), which is the organization behind the <a
-href="https://openwrt.org/toh/openwrt/one">OpenWrt One</a> router that
-LWN <a href="https://lwn.net/Articles/994961/">looked at</a> back in November.  The
-router is, of course, based on firmware from the
-<a href="https://openwrt.org/start">OpenWrt project</a>, which got its
-start because of GPL-enforcement activities and is a member project at the SFC.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015414/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 28 Mar 2025 15:08:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015414/" title="https://lwn.net/Articles/1015414/">[$] The first part of the 6.15 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>As of this writing, 6,653 non-merge changesets have been pulled into the
-mainline kernel repository for the 6.15 release.  This merge window is thus
-well underway.  A number of significant changes have been merged so far;
-read on for our summary of the first half of the 6.15 merge window.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015718/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 28 Mar 2025 13:10:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015718/" title="https://lwn.net/Articles/1015718/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (mercurial and opensaml), <b>Fedora</b> (augeas, mingw-libxslt, and nodejs-nodemon), <b>Mageia</b> (chromium-browser-stable), <b>Red Hat</b> (grafana, kernel, kernel-rt, opentelemetry-collector, and podman), <b>SUSE</b> (apache-commons-vfs2, python3, and python36), and <b>Ubuntu</b> (ghostscript, linux, linux-aws, linux-azure, linux-gcp, linux-gke, linux-gkeop,
- linux-ibm, linux-intel-iotg, linux-lowlatency, linux-lowlatency-hwe-5.15,
- linux-nvidia, linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-aws, linux-azure, linux-gcp, linux-hwe-6.11, linux-oracle,
- linux-realtime, linux, linux-aws, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop,
- linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
- linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oracle, linux-oracle-6.8, linux-aws-5.15, linux-kvm, linux-azure, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oem-6.11, linux-oem-6.8, linux-realtime, smarty, and snakeyaml).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
