@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24442db9f69465f2e04479fad65e3e4a4dd0b12a.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5c544b08decb427a866201d2e591aac5503fd0d.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24442db9f69465f2e04479fad65e3e4a4dd0b12a.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5c544b08decb427a866201d2e591aac5503fd0d.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.24442db9f69465f2e04479fad65e3e4a4dd0b12a.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.c5c544b08decb427a866201d2e591aac5503fd0d.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,16 +203,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d7e511b460a0422fdcf232054dc768238f19b72.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.3d7e511b460a0422fdcf232054dc768238f19b72.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24442db9f69465f2e04479fad65e3e4a4dd0b12a.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.24442db9f69465f2e04479fad65e3e4a4dd0b12a.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-04-02T13:12:00-05:00</sent>
+						<sent type="str">2025-04-03T02:58:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2025-04-03T02:58:00-05:00</sent>
-				<effective type="str">2025-04-03T02:58:00-05:00</effective>
-				<onset type="str">2025-04-03T02:58:00-05:00</onset>
-				<expires type="str">2025-04-03T16:00:00-05:00</expires>
+				<sent type="str">2025-04-03T15:22:00-05:00</sent>
+				<effective type="str">2025-04-03T15:22:00-05:00</effective>
+				<onset type="str">2025-04-03T15:22:00-05:00</onset>
+				<expires type="str">2025-04-04T05:00:00-05:00</expires>
 				<ends type="str">2025-04-06T07:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -223,19 +223,17 @@
 				<event type="str">Flood Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Flood Watch issued April 3 at 2:58AM CDT until April 6 at 7:00AM CDT by NWS Paducah KY</headline>
-				<description type="str">Showers and storms last night produced 1 to 3 inches of rainfall
-across the Quad State. With another 6 to 10 inches of rainfall
+				<headline type="str">Flood Watch issued April 3 at 3:22PM CDT until April 6 at 7:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">Showers and storms through today produced 1 to 4 inches of rainfall
+across the Quad State. With another 5 to 9 inches of rainfall
 forecast through Sunday, a particularly dangerous flooding and flash
 flooding situation is expected.
 
-* WHAT...Flash flooding and flooding caused by excessive rainfall is
-expected. With 1 to 3 inches already fallen and another 7 to 10
-inches forecast, a particularly dangerous situation is likely to
-develop.
+* WHAT...Flooding caused by excessive rainfall continues to be
+possible.
 
-* WHERE...All of southern Illinois, southwest Indiana, western
-Kentucky, and  southeast Missouri.
+* WHERE...All of southern Illinois, southeast Missouri, western
+Kentucky and southwest Indiana.
 
 * WHEN...Through Sunday morning.
 
@@ -255,16 +253,15 @@ will result in extreme forecast amounts of up to 1 foot of
 rain that will cause the risk of flash flooding and flooding
 to rise markedly and create a particularly dangerous flooding
 situation.</description>
-				<instruction type="str">You should monitor later forecasts and be alert for possible Flood
-Warnings. Those living in areas prone to flooding should be prepared
-to take action should flooding develop.</instruction>
+				<instruction type="str">Monitor later forecasts and be alert for Flash Flood and Flood
+Warnings. Be prepared to take action when flooding develops.</instruction>
 				<response type="str">Prepare</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">FFAPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WGUS63 KPAH 030758</item>
+						<item type="str">WGUS63 KPAH 032022</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">FLOOD WATCH REMAINS IN EFFECT THROUGH SUNDAY MORNING</item>
@@ -284,12 +281,12 @@ to take action should flooding develop.</instruction>
 						<item type="str">2025-04-06T12:00:00+00:00</item>
 					</eventEndingTime>
 					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.99cde742e76e2b5e55b0e0b3d58814c92abdd8aa.001.1,2025-04-02T03:35:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4368825dc98cdd7b8caecff85d03f8fe6b34c3b8.001.1,2025-04-01T13:10:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d461e8eb0cb11347bdbd643d826e165d4ebf4df8.001.1,2025-04-01T03:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c5985577971bd0cf275bc083524a583f020f28ec.001.1,2025-03-31T12:40:00-05:00</item>
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3d7e511b460a0422fdcf232054dc768238f19b72.001.1,2025-04-02T13:12:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.99cde742e76e2b5e55b0e0b3d58814c92abdd8aa.001.1,2025-04-02T03:35:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4368825dc98cdd7b8caecff85d03f8fe6b34c3b8.001.1,2025-04-01T13:10:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d461e8eb0cb11347bdbd643d826e165d4ebf4df8.001.1,2025-04-01T03:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c5985577971bd0cf275bc083524a583f020f28ec.001.1,2025-03-31T12:40:00-05:00</item>
 					</expiredReferences>
 				</parameters>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-04-03T17:00:00+00:00</updated>
+	<updated type="str">2025-04-03T20:23:28+00:00</updated>
 </all>

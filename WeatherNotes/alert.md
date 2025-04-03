@@ -1,17 +1,15 @@
 <p>
-   <h2>Flood Watch issued April 3 at 2:58AM CDT until April 6 at 7:00AM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">Showers and storms last night produced 1 to 3 inches of rainfall
-      across the Quad State. With another 6 to 10 inches of rainfall
+   <h2>Flood Watch issued April 3 at 3:22PM CDT until April 6 at 7:00AM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">Showers and storms through today produced 1 to 4 inches of rainfall
+      across the Quad State. With another 5 to 9 inches of rainfall
       forecast through Sunday, a particularly dangerous flooding and flash
       flooding situation is expected.
       
-      * WHAT...Flash flooding and flooding caused by excessive rainfall is
-      expected. With 1 to 3 inches already fallen and another 7 to 10
-      inches forecast, a particularly dangerous situation is likely to
-      develop.
+      * WHAT...Flooding caused by excessive rainfall continues to be
+      possible.
       
-      * WHERE...All of southern Illinois, southwest Indiana, western
-      Kentucky, and  southeast Missouri.
+      * WHERE...All of southern Illinois, southeast Missouri, western
+      Kentucky and southwest Indiana.
       
       * WHEN...Through Sunday morning.
       
