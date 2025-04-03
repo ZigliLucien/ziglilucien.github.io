@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Rain showers before 4pm, then showers and thunderstorms. Cloudy. High near 66, with temperatures falling to around 59 in the
-         afternoon. North northeast wind 6 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 90%.<br></div>
+         afternoon. North northeast wind around 10 mph, with gusts as high as 20 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
