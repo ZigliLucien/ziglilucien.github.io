@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 66.0 F. <strong>Dew Point</strong> 62.1 F.</div>
+<div id='c'><strong>Temp</strong> 64.9 F. <strong>Dew Point</strong> 61.0 F.</div>
 
 <p/><br/><p/>
 
@@ -592,3 +592,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Thu Apr  3 01:08:04 2025 | 66.9 F. | 63.0 F.|
 | Thu Apr  3 02:08:05 2025 | 66.9 F. | 63.0 F.|
 | Thu Apr  3 03:08:05 2025 | 66.0 F. | 62.1 F.|
+| Thu Apr  3 04:08:05 2025 | 64.9 F. | 61.0 F.|
