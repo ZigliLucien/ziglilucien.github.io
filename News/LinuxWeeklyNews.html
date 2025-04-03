@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1016013/" title="See Description">[$] Page allocation for address-space isolation</a></li>
+<li><a href="#https://lwn.net/Articles/1016011/" title="See Description">[$] Better hugetlb page-table walking</a></li>
 <li><a href="#https://lwn.net/Articles/1016365/" title="See Description">Rust 1.86.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1016361/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1015512/" title="See Description">[$] LWN.net Weekly Edition for April 3, 2025</a></li>
@@ -51,11 +53,39 @@
 <li><a href="#https://lwn.net/Articles/1016205/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1016001/" title="See Description">[$] Slab allocator: sheaves and any-context allocations</a></li>
 <li><a href="#https://lwn.net/Articles/1016109/" title="See Description">Dave Täht RIP</a></li>
-<li><a href="#https://lwn.net/Articles/1015724/" title="See Description">[$] Updates on storage standards</a></li>
-<li><a href="#https://lwn.net/Articles/1015997/" title="See Description">[$] Memory persistence over kexec</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1016013/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 03 Apr 2025 15:02:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016013/" title="https://lwn.net/Articles/1016013/">[$] Page allocation for address-space isolation</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Address-space isolation may well be, as Brendan Jackman said at the
+beginning of his memory-management-track session at the 2025 Linux Storage,
+Filesystem, Memory-Management, and BPF Summit, "<q>some security
+bullshit</q>".  But it also holds the potential to protect the kernel from
+a wide range of vulnerabilities, both known and unknown, while reducing the
+impact of existing mitigations.  Implementing address-space isolation with
+reasonable performance, though, is going to require some significant
+changes.  Jackman was there to get feedback from the memory-management
+community on how those changes should be implemented.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016011/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 03 Apr 2025 14:15:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016011/" title="https://lwn.net/Articles/1016011/">[$] Better hugetlb page-table walking</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel must often step through the page tables of one or more processes
+to carry out various operations.  This "page-table walking" tends to be
+performed by ad-hoc (duplicated) code all over the kernel.  Oscar Salvador
+used a memory-management-track session at the 2025 Linux Storage,
+Filesystem, Memory-Management, and BPF Summit to talk about strategies to
+unify the kernel's page-table walking code just a little bit by making
+hugetlb pages look more like ordinary pages.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1016365/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 03 Apr 2025 13:57:37 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -281,41 +311,6 @@ Dave, we hope the music is good wherever you are.
 <p>
 (Thanks to Jon Masters for the heads-up).
 <br clear="all"></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015724/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 01 Apr 2025 14:32:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015724/" title="https://lwn.net/Articles/1015724/">[$] Updates on storage standards</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>As he has in some previous editions of the Linux Storage, Filesystem,
-Memory-Management, and BPF Summit (LSFMM+BPF), Fred Knight gave an update
-on the status of various storage standards this year. In it, he looked at
-changes to the <a href="https://nvmexpress.org/">NVM Express</a> (NVMe)
-standards in some detail.  He also updated attendees on the fairly small
-changes that have come to the SCSI (<a href="https://www.t10.org/">T10</a>)
-and ATA (<a href="https://www.t13.org/">T13</a>) standards over the last few
-years.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1015997/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 01 Apr 2025 14:00:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1015997/" title="https://lwn.net/Articles/1015997/">[$] Memory persistence over kexec</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
-href="https://man7.org/linux/man-pages/man8/kexec.8.html">kexec
-mechanism</a> allows one kernel to directly boot a new one; it can be
-thought of as a sort of kernel equivalent to the <a
-href="https://man7.org/linux/man-pages/man2/execve.2.html"><tt>execve()</tt></a>
-system call.  Kexec has a number of uses, including booting a special kernel
-to perform dumps after a crash.  Normally, one does not expect user-space
-processes to survive booting into a new kernel, but that has not stopped
-developers from trying to implement that ability.  Mike Rapoport ran a
-memory-management-track session at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit to discuss one piece of that problem:
-enabling the contents of memory to persist across a kexec handover so that
-the new kernel can pick up where the old one left off.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
