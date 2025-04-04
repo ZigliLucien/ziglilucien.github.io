@@ -2,24 +2,19 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A chance of showers and thunderstorms. Cloudy, with a low around 51. Northeast wind around 9 mph. Chance of precipitation
-         is 40%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Friday</h3>A chance of showers and thunderstorms before 9am, then showers and thunderstorms between 9am and 1pm, then a chance of showers
+         <h3>Today</h3>A chance of showers and thunderstorms before 9am, then showers and thunderstorms between 9am and 1pm, then a chance of showers
          and thunderstorms between 1pm and 3pm, then showers and thunderstorms likely. Cloudy. High near 70, with temperatures falling
          to around 67 in the afternoon. East wind around 9 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Showers and thunderstorms. Some of the storms could be severe and produce heavy rain. Cloudy. Low around 52, with temperatures
+         <h3>Tonight</h3>Showers and thunderstorms. Some of the storms could be severe and produce heavy rain. Cloudy. Low around 52, with temperatures
          rising to around 65 overnight. South wind 9 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Showers and thunderstorms. Cloudy, with a high near 58. North northwest wind 10 to 15 mph, with gusts as high as 29 mph. Chance
-         of precipitation is 100%.<br></div>
+         <h3>Saturday</h3>Showers and thunderstorms. Cloudy. High near 58, with temperatures falling to around 51 in the afternoon. North northwest
+         wind 10 to 15 mph, with gusts as high as 29 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -65,5 +60,9 @@
       <div style="font-size:120%">
          <h3>Thursday</h3>A chance of showers and thunderstorms. Mostly sunny, with a high near 66. West southwest wind 8 to 12 mph, with gusts as high
          as 20 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Mostly clear, with a low around 47. West wind around 8 mph.<br></div>
    </p>
 </div>
