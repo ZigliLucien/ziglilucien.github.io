@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms before 4am, then a chance of showers and thunderstorms. Cloudy, with a low around 50. Northeast
-         wind around 10 mph. Chance of precipitation is 100%.<br></div>
+         wind around 10 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
