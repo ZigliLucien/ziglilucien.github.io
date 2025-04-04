@@ -3,12 +3,12 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms before 4am, then a chance of showers and thunderstorms. Cloudy, with a low around 50. Northeast
-         wind around 10 mph, with gusts as high as 20 mph. Chance of precipitation is 100%.<br></div>
+         wind around 10 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>Showers and thunderstorms. Some of the storms could be severe. Cloudy. High near 70, with temperatures falling to around 68
-         in the afternoon. East northeast wind around 8 mph. Chance of precipitation is 90%.<br></div>
+         in the afternoon. East northeast wind 6 to 10 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
