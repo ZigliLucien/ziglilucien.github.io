@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1016015/" title="See Description">[$] Supporting untorn buffered writes</a></li>
+<li><a href="#https://lwn.net/Articles/1016105/" title="See Description">[$] A strange BPF error message</a></li>
+<li><a href="#https://lwn.net/Articles/1016484/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1016013/" title="See Description">[$] Page allocation for address-space isolation</a></li>
 <li><a href="#https://lwn.net/Articles/1016011/" title="See Description">[$] Better hugetlb page-table walking</a></li>
 <li><a href="#https://lwn.net/Articles/1016365/" title="See Description">Rust 1.86.0 released</a></li>
@@ -50,12 +53,52 @@
 <li><a href="#https://lwn.net/Articles/1016216/" title="See Description">PorteuX 2.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1016009/" title="See Description">[$] Approaches to reducing TLB pressure</a></li>
 <li><a href="#https://lwn.net/Articles/1016207/" title="See Description">Rockbox 4.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1016205/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1016001/" title="See Description">[$] Slab allocator: sheaves and any-context allocations</a></li>
-<li><a href="#https://lwn.net/Articles/1016109/" title="See Description">Dave Täht RIP</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1016015/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 04 Apr 2025 13:39:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016015/" title="https://lwn.net/Articles/1016015/">[$] Supporting untorn buffered writes</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>At last year's
+Linux Storage, Filesystem,
+Memory-Management, and BPF Summit (LSFMM+BPF), there was a <a
+href="https://lwn.net/Articles/974578/">discussion about atomic writes</a> that was
+accompanied by patches to support the feature in the block layer, and for
+direct <span class="nobreak">I/O</span> on XFS.  That
+work was merged, but another piece of that discussion concerned adding the
+feature for buffered <span class="nobreak">I/O</span>, in part because the PostgreSQL database currently
+has to jump through hoops to ensure that its writes are not "torn"
+(partially written) when there is an error or crash.  Luis Chamberlain led
+a combined storage and filesystem track at this year's summit to revisit
+the idea of providing atomic (or untorn) writes for buffered <span class="nobreak">I/O</span>.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016105/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 04 Apr 2025 13:06:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016105/" title="https://lwn.net/Articles/1016105/">[$] A strange BPF error message</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Yonghong Song brought a story about tracking down the cause of a strange verifier error
+message to the 2025 Linux Storage, Filesystem, Memory-Management, and BPF
+Summit. He then presented some possible ways to improve Clang's user experience for
+anyone running into the same class of error in the future. Toward the end of his
+allotted time, he also discussed the problems with optimizations that change the
+signature of functions — a problem that José Marchesi had also brought up in
+<a href="https://lwn.net/Articles/1015747/">the previous session</a>.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016484/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 04 Apr 2025 13:05:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016484/" title="https://lwn.net/Articles/1016484/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox), <b>Debian</b> (atop and thunderbird), <b>Fedora</b> (webkitgtk), <b>Mageia</b> (microcode), <b>Oracle</b> (expat), <b>SUSE</b> (apparmor, assimp-devel, aws-efs-utils, expat, firefox, ghostscript, go1.23, gotosocial, govulncheck-vulndb, GraphicsMagick, headscale, libmozjs-128-0, libsaml-devel, openvpn, perl-Data-Entropy, and xz), and <b>Ubuntu</b> (gnupg2, kernel, linux-azure-fips, linux-iot, openvpn, ruby-saml, and xz-utils).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1016013/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 03 Apr 2025 15:02:27 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,56 +304,6 @@ number of user-interface improvements, some new games, and more.  (LWN last
 <a href="https://lwn.net/Articles/391982/">reviewed Rockbox</a> in 2010 — and looked at
 the ill-fated <a href="https://lwn.net/Articles/408626/">Android port</a> that year as
 well).</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016205/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 02 Apr 2025 13:03:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016205/" title="https://lwn.net/Articles/1016205/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr, jetty9, openjpeg2, and tomcat9), <b>Fedora</b> (dokuwiki, firefox, php-kissifrot-php-ixr, php-phpseclib3, and rust-zincati), <b>Red Hat</b> (kernel and pki-core), <b>Slackware</b> (mozilla), <b>SUSE</b> (apparmor, atop, docker, docker-stable, firefox, govulncheck-vulndb, libmodsecurity3, openvpn, upx, and warewulf4), and <b>Ubuntu</b> (inspircd, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-ibm,
- linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oem-6.8, linux-oracle,
- linux-oracle-6.8, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure-6.8, linux-hwe-6.8, linux-raspi, linux-realtime, nginx, phpseclib, and vim).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016001/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 01 Apr 2025 18:54:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016001/" title="https://lwn.net/Articles/1016001/">[$] Slab allocator: sheaves and any-context allocations</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's slab allocator is charged with providing small objects on
-demand; its performance and reliability are crucial for the functioning of
-the system as a whole.  At the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit, two adjacent sessions in the
-memory-management track dug into current work on the slab allocator.  The
-first focused on the new sheaves feature, while the second discussed a set
-of allocation functions that are safe to call in any context.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016109/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 01 Apr 2025 18:28:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016109/" title="https://lwn.net/Articles/1016109/">Dave Täht RIP</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/Articles/705884/"><img src="https://lwn.net/images/conf/2016/lpc/DaveTaht-sm.jpg"
-class="lthumb" alt="[Dave Täht]" title="Dave Täht and Ham the monkey"></a> 
-
-From the LibreQoS site comes <a
-href="https://libreqos.io/2025/04/01/in-loving-memory-of-dave/">the sad
-news</a> that Dave Täht has passed away.  Among many other things, he bears
-a lot of credit for our networks functioning as well as they do.  "<q>We're
-incredibly grateful to have Dave as our friend, mentor, and as someone who
-continuously inspired us – showing us that we could do better for each
-other in the world, and leverage technology to make that happen. He will be
-dearly missed</q>".
-<p>
-Searching through LWN's archives will turn up many references to his work
-<a href="https://lwn.net/Articles/705884/">fixing WiFi</a>, <a
-href="https://lwn.net/Articles/496509/">improving queue management</a>, <a
-href="https://lwn.net/Articles/508783/">tackling bufferbloat</a>, and more.  Farewell,
-Dave, we hope the music is good wherever you are.
-<p>
-(Thanks to Jon Masters for the heads-up).
-<br clear="all"></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
