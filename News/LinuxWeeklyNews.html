@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1016133/" title="See Description">[$] The state of guest_memfd</a></li>
+<li><a href="#https://lwn.net/Articles/1016124/" title="See Description">[$] The future of ZONE_DEVICE</a></li>
 <li><a href="#https://lwn.net/Articles/1016015/" title="See Description">[$] Supporting untorn buffered writes</a></li>
 <li><a href="#https://lwn.net/Articles/1016105/" title="See Description">[$] A strange BPF error message</a></li>
 <li><a href="#https://lwn.net/Articles/1016484/" title="See Description">Security updates for Friday</a></li>
@@ -51,11 +53,40 @@
 <li><a href="#https://lwn.net/Articles/1016219/" title="See Description">Thunderbird plans "Thundermail" email and other services</a></li>
 <li><a href="#https://lwn.net/Articles/1016217/" title="See Description">Introducing Fedora Project Leader Jef Spaleta</a></li>
 <li><a href="#https://lwn.net/Articles/1016216/" title="See Description">PorteuX 2.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1016009/" title="See Description">[$] Approaches to reducing TLB pressure</a></li>
-<li><a href="#https://lwn.net/Articles/1016207/" title="See Description">Rockbox 4.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1016133/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 04 Apr 2025 15:52:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016133/" title="https://lwn.net/Articles/1016133/">[$] The state of guest_memfd</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A typical cloud-computing host will share some of its memory with each
+guest that it runs.  The host retains its access to that memory, though,
+meaning that it can readily dig through that memory in search of data that
+the guest would prefer to keep private.  The <a
+href="https://lwn.net/Articles/949277/">guest_memfd subsystem</a> removes (most of) the
+host's access to guest memory, making the guest's data more secure.  In the
+memory-management track of the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit, David Hildenbrand ran a discussion on
+the state and future of this feature.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016124/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 04 Apr 2025 14:37:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016124/" title="https://lwn.net/Articles/1016124/">[$] The future of ZONE_DEVICE</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Alistair Popple started his session at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit by proclaiming that <tt>ZONE_DEVICE</tt>
+is "<q>the ugly stepchild</q>" of the kernel's memory-management subsystem.
+Ugly or not, the ability to manage memory that is attached to a peripheral
+device rather than a CPU is increasingly important on current hardware.
+Popple hoped to cover some of the challenges with <tt>ZONE_DEVICE</tt> and
+find ways to make the stepchild a bit more attractive, if not bring it into
+the family entirely.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1016015/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 04 Apr 2025 13:39:56 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -276,34 +307,6 @@ called current. See the <a
 href="https://github.com/porteux/porteux/blob/main/boot/boot/docs/install.txt"><tt>install.txt</tt></a>
 for instructions on installing PorteuX to disk.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016009/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 02 Apr 2025 13:45:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016009/" title="https://lwn.net/Articles/1016009/">[$] Approaches to reducing TLB pressure</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The CPU's translation lookaside buffer (TLB) caches the results of
-virtual-address translations, significantly speeding memory accesses.  TLB
-misses are expensive, so a lot of thought goes into using the TLB as
-efficiently as possible.  Reducing pressure on the TLB was the topic of Rik
-van Riel's memory-management-track session at the 2025 Linux Storage,
-Filesystem, Memory-Management, and BPF Summit.  Some approaches were
-considered, but the session was short on firm conclusions.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016207/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 02 Apr 2025 13:11:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016207/" title="https://lwn.net/Articles/1016207/">Rockbox 4.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>For those of you who still have dedicated audio players: <a
-href="https://www.rockbox.org/wiki/ReleaseNotes400">version 4.0</a> of
-Rockbox, a replacement firmware for many players, has been released.
-This release brings support for a number of new devices, updated codecs, a
-number of user-interface improvements, some new games, and more.  (LWN last
-<a href="https://lwn.net/Articles/391982/">reviewed Rockbox</a> in 2010 — and looked at
-the ill-fated <a href="https://lwn.net/Articles/408626/">Android port</a> that year as
-well).</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
