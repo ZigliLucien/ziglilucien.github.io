@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms before 11pm, then showers and thunderstorms. Some of the storms could be severe and produce heavy
-         rain. Cloudy. Low around 54, with temperatures rising to around 61 overnight. Southwest wind 7 to 12 mph. Chance of precipitation
+         rain. Cloudy. Low around 54, with temperatures rising to around 61 overnight. South wind 8 to 12 mph. Chance of precipitation
          is 100%.<br></div>
    </p>
    <p>
