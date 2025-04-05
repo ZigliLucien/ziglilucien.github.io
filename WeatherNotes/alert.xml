@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9ef46a71f3982fe82025a36213b3052cb80ec80.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.940ed1f8b4168da286b8fffac0ada087198ebf08.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9ef46a71f3982fe82025a36213b3052cb80ec80.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.940ed1f8b4168da286b8fffac0ada087198ebf08.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.e9ef46a71f3982fe82025a36213b3052cb80ec80.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.940ed1f8b4168da286b8fffac0ada087198ebf08.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -201,14 +201,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2025-04-05T01:29:00-05:00</sent>
-				<effective type="str">2025-04-05T01:29:00-05:00</effective>
-				<onset type="str">2025-04-05T01:29:00-05:00</onset>
-				<expires type="str">2025-04-05T16:30:00-05:00</expires>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9ef46a71f3982fe82025a36213b3052cb80ec80.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.e9ef46a71f3982fe82025a36213b3052cb80ec80.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-04-05T01:29:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2025-04-05T16:05:00-05:00</sent>
+				<effective type="str">2025-04-05T16:05:00-05:00</effective>
+				<onset type="str">2025-04-05T16:05:00-05:00</onset>
+				<expires type="str">2025-04-06T07:00:00-05:00</expires>
 				<ends type="str">2025-04-06T07:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Severe</severity>
 				<certainty type="str">Possible</certainty>
@@ -216,19 +223,23 @@
 				<event type="str">Flood Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Flood Watch issued April 5 at 1:29AM CDT until April 6 at 7:00AM CDT by NWS Paducah KY</headline>
-				<description type="str">The forecast of up to a foot of rain is on track, with many
-locations nearing that total and experiencing widespread flooding.
-Additional heavy rain will only exacerbate ongoing flooding and make
-it even worse and more widespread.
+				<headline type="str">Flood Watch issued April 5 at 4:05PM CDT until April 6 at 7:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Flooding caused by excessive rainfall continues to be
+possible.
 
-* WHAT...Flooding caused by excessive rainfall continues. Additional
-heavy rains will only exacerbate ongoing flooding and make it
-worse and more widespread...resulting in particularly dangerous
-situations.
-
-* WHERE...All of southeast Missouri, southern Illinois, southwest
-Indiana, and western Kentucky.
+* WHERE...Portions of southern Illinois, including the following
+areas, Alexander, Edwards, Franklin, Gallatin, Hamilton, Hardin,
+Jackson, Jefferson, Johnson, Massac, Perry IL, Pope, Pulaski,
+Saline, Union, Wabash, Wayne IL, White and Williamson, southwest
+Indiana, including the following areas, Gibson, Pike, Posey,
+Spencer, Vanderburgh and Warrick, western Kentucky, including the
+following areas, Ballard, Caldwell, Calloway, Carlisle, Christian,
+Crittenden, Daviess, Fulton, Graves, Henderson, Hickman, Hopkins,
+Livingston, Lyon, Marshall, McCracken, McLean, Muhlenberg, Todd,
+Trigg, Union KY and Webster, and southeast Missouri, including the
+following areas, Bollinger, Butler, Cape Girardeau, Carter,
+Mississippi, New Madrid, Perry MO, Ripley, Scott, Stoddard and
+Wayne MO.
 
 * WHEN...Through Sunday morning.
 
@@ -237,29 +248,31 @@ creeks, streams, and other low-lying and flood-prone locations.
 Creeks and streams may rise out of their banks. Low-water
 crossings may be flooded. Extensive street flooding and flooding
 of creeks and rivers are possible. Area creeks and streams are
-running high and could flood with more heavy rain. Be prepared as
-rising water levels may cause particularly dangerous situations
-where evacuations could become necessary.
+running high and could flood with more heavy rain.
 
 * ADDITIONAL DETAILS...
 - Flash flooding and flooding caused by excessive rainfall is
-expected. With the forecast on track and radar estimates and
-spotter reports confirming many locations already having
-received between 4 and 10 inches, anticipated additional
-bouts of heavy rain will put everyone in the half foot to
-foot range. A few isolated totals greater than a foot are not
-out of the question. These amounts and resultant flooding
-creates a particularly dangerous situation.</description>
-				<instruction type="str">Monitor the latest forecasts and be alert for additional Flash Flood
-and Flood Warnings. Those living in areas prone to flooding should
-be prepared to take action should flooding develop or worsen.</instruction>
+expected. Radar estimates and spotter reports confirmed many
+locations already having received between 4 and 10 inches,
+with
+locally higher amounts. Additional moderate to potentially
+heavy
+rainfall is expected tonight across portions of western
+Kentucky
+with lighter amounts elsewhere. These amounts and resultant
+flooding
+creates a particularly dangerous situation.
+- http://www.weather.gov/safety/flood</description>
+				<instruction type="str">You should monitor later forecasts and be alert for possible Flood
+Warnings. Those living in areas prone to flooding should be prepared
+to take action should flooding develop.</instruction>
 				<response type="str">Prepare</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">FFAPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WGUS63 KPAH 050629</item>
+						<item type="str">WGUS63 KPAH 052105</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">FLOOD WATCH REMAINS IN EFFECT THROUGH SUNDAY MORNING</item>
@@ -286,5 +299,5 @@ be prepared to take action should flooding develop or worsen.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-04-05T06:29:33+00:00</updated>
+	<updated type="str">2025-04-05T21:06:21+00:00</updated>
 </all>
