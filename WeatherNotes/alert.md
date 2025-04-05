@@ -1,36 +1,37 @@
 <p>
-   <h2>Flood Watch issued April 4 at 3:04AM CDT until April 6 at 7:00AM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">Showers and storms have produced 2 to 5 inches of rainfall across
-      most of the Quad State since Wednesday. A few isolated zones have
-      received as much as 8 inches as of early this morning. Another 4 to
-      8 inches of rainfall forecast through Sunday will result in a
-      particularly dangerous flooding and flash flooding situation.
+   <h2>Flood Watch issued April 5 at 1:29AM CDT until April 6 at 7:00AM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">The forecast of up to a foot of rain is on track, with many
+      locations nearing that total and experiencing widespread flooding.
+      Additional heavy rain will only exacerbate ongoing flooding and make
+      it even worse and more widespread.
       
-      * WHAT...Flash flooding and flooding caused by excessive rainfall is
-      expected. With 2 to 8 inches already fallen and another 4 to 8
-      inches forecast, a particularly dangerous situation is likely to
-      develop.
+      * WHAT...Flooding caused by excessive rainfall continues. Additional
+      heavy rains will only exacerbate ongoing flooding and make it
+      worse and more widespread...resulting in particularly dangerous
+      situations.
       
-      * WHERE...All of southern Illinois, southwest Indiana, western
-      Kentucky, and southeast Missouri.
+      * WHERE...All of southeast Missouri, southern Illinois, southwest
+      Indiana, and western Kentucky.
       
       * WHEN...Through Sunday morning.
       
-      * IMPACTS...
-      ...This is a particularly dangerous situation...
-      
-      Excessive runoff may result in flooding of rivers, creeks, streams,
-      and other low-lying and flood-prone locations. Creeks and streams
-      may rise out of their banks. Low-water crossings may be flooded.
-      Extensive street flooding may develop. Flooding may occur in homes,
-      businesses and other locations not normally subject to flooding.
-      Roadways may wash away near creeks and culverts.
+      * IMPACTS...Excessive runoff may result in flooding of rivers,
+      creeks, streams, and other low-lying and flood-prone locations.
+      Creeks and streams may rise out of their banks. Low-water
+      crossings may be flooded. Extensive street flooding and flooding
+      of creeks and rivers are possible. Area creeks and streams are
+      running high and could flood with more heavy rain. Be prepared as
+      rising water levels may cause particularly dangerous situations
+      where evacuations could become necessary.
       
       * ADDITIONAL DETAILS...
-      - Multiple rounds of locally heavy rainfall over several days
-      will result in extreme forecast amounts of over 1 foot of
-      rain that will cause the risk of flash flooding and flooding
-      to rise markedly and create a particularly dangerous flooding
-      situation.
+      - Flash flooding and flooding caused by excessive rainfall is
+      expected. With the forecast on track and radar estimates and
+      spotter reports confirming many locations already having
+      received between 4 and 10 inches, anticipated additional
+      bouts of heavy rain will put everyone in the half foot to
+      foot range. A few isolated totals greater than a foot are not
+      out of the question. These amounts and resultant flooding
+      creates a particularly dangerous situation.
    </div>
 </p>
