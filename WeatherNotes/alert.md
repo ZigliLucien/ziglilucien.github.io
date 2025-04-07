@@ -1,7 +1,6 @@
 <p>
-   <h2>Freeze Watch issued April 6 at 2:30PM CDT until April 8 at 9:00AM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...Sub-freezing temperatures as low as 25 to 30 degrees
-      possible. Everyone should see a 32 degree low or close to it.
+   <h2>Freeze Watch issued April 6 at 7:49PM CDT until April 8 at 9:00AM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Sub-freezing temperatures as low as 25 possible.
       
       * WHERE...Portions of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
