@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1016243/" title="See Description">[$] An update on pahole</a></li>
 <li><a href="#https://lwn.net/Articles/1016715/" title="See Description">Fifty Years of Open Source Software Supply Chain Security (Queue)</a></li>
 <li><a href="#https://lwn.net/Articles/1016136/" title="See Description">[$] Three ways to rework the swap subsystem</a></li>
 <li><a href="#https://lwn.net/Articles/1016119/" title="See Description">[$] The rest of the 6.15 merge window</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/1016013/" title="See Description">[$] Page allocation for address-space isolation</a></li>
 <li><a href="#https://lwn.net/Articles/1016011/" title="See Description">[$] Better hugetlb page-table walking</a></li>
 <li><a href="#https://lwn.net/Articles/1016365/" title="See Description">Rust 1.86.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1016361/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1016243/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 07 Apr 2025 21:01:52 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016243/" title="https://lwn.net/Articles/1016243/">[$] An update on pahole</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Pahole (originally "Poke-a-hole") is a Swiss Army knife for exploring and
+editing debug information. Pahole is also currently involved
+in the kernel's build process to rearrange the information
+produced by various compilers into a form useful to the BPF verifier, although
+there are plans to render it unnecessary.
+Pahole maintainer Arnaldo Carvalho de Melo shared some status
+updates about the project at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF summit. Interested readers can find his slides
+<a href="http://vger.kernel.org/~acme/prez/lsfmm-bpf-2025/">here</a>.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1016715/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 07 Apr 2025 19:56:36 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -258,18 +276,6 @@ hugetlb pages look more like ordinary pages.
 1.86.0</a> of the Rust language has been released.  Changes include support
 for trait upcasting, the ability to index multiple elements of HashMaps and
 slices mutably, and a number of stabilized APIs.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016361/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 03 Apr 2025 13:46:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016361/" title="https://lwn.net/Articles/1016361/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (expat), <b>Debian</b> (chromium, commons-vfs, firefox-esr, php-horde-editor, php-horde-imp, and thunderbird), <b>Fedora</b> (corosync, firefox, nextcloud, and suricata), <b>Mageia</b> (curl and upx), <b>Oracle</b> (emacs, fence-agents, freetype, kernel, libreoffice, libxml2, nginx:1.24, podman, python-jinja2, and tigervnc), <b>Red Hat</b> (firefox and python-jinja2), <b>SUSE</b> (assimp, ffmpeg-4, firefox, ghostscript, GraphicsMagick, libxslt, and tomcat), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gke, linux-gkeop,
- linux-ibm, linux-intel-iotg, linux-kvm, linux-lowlatency,
- linux-lowlatency-hwe-5.15, linux-meta-raspi, linux-nvidia-tegra,
- linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-azure, linux-azure-5.4, linux-bluefield, linux-gcp,
- linux-ibm, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-fips, linux-fips, linux-aws-fips, linux-gcp-fips, linux-hwe-5.15, and linux-realtime, linux-intel-iot-realtime).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
