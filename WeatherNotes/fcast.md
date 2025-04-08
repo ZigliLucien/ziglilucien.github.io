@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Widespread frost after 2am. Mostly clear, with a low around 30. North northeast wind 3 to 10 mph, with gusts as high as 21
+         <h3>Tonight</h3>Widespread frost after 2am. Mostly clear, with a low around 30. North northeast wind 5 to 12 mph, with gusts as high as 23
          mph.<br></div>
    </p>
    <p>
