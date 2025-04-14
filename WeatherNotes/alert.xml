@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31e2c7f9e7a156bcb24975040911943453d9c7c0.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab247a56cc34406626bca0c2f36db34507d136d1.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.31e2c7f9e7a156bcb24975040911943453d9c7c0.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab247a56cc34406626bca0c2f36db34507d136d1.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.31e2c7f9e7a156bcb24975040911943453d9c7c0.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.ab247a56cc34406626bca0c2f36db34507d136d1.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -202,10 +202,10 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
 				<references type="list"/>
-				<sent type="str">2025-04-13T02:15:00-05:00</sent>
-				<effective type="str">2025-04-13T02:15:00-05:00</effective>
-				<onset type="str">2025-04-13T02:15:00-05:00</onset>
-				<expires type="str">2025-04-13T19:00:00-05:00</expires>
+				<sent type="str">2025-04-13T19:03:00-05:00</sent>
+				<effective type="str">2025-04-13T19:03:00-05:00</effective>
+				<onset type="str">2025-04-13T19:03:00-05:00</onset>
+				<expires type="str">2025-04-14T00:00:00-05:00</expires>
 				<ends type="null"/>
 				<status type="str">Actual</status>
 				<messageType type="str">Alert</messageType>
@@ -216,11 +216,11 @@
 				<event type="str">Special Weather Statement</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Special Weather Statement issued April 13 at 2:15AM CDT by NWS Paducah KY</headline>
-				<description type="str">South winds will increase today becoming sustained 15 to 25 mph
-this afternoon along with gusts of 30 to 40 mph. The strongest
-gusts are expected to occur across southeast Missouri into
-southwest Illinois.
+				<headline type="str">Special Weather Statement issued April 13 at 7:03PM CDT by NWS Paducah KY</headline>
+				<description type="str">Sustained south winds at 15 to 25 mph with gusts of 30 to 40 mph
+will continue through this evening, with isolated gusts to 50 mph
+possible. The strongest gusts are most likely to occur across
+southeast Missouri into southwest Illinois.
 
 Gusty winds may blow around unsecured objects. A few tree limbs
 may also be blown down. High profile vehicles may encounter some
@@ -232,10 +232,10 @@ driving difficulty, especially on east-west roads.</description>
 						<item type="str">SPSPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS83 KPAH 130715</item>
+						<item type="str">WWUS83 KPAH 140003</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">Breezy South Winds Expected Today</item>
+						<item type="str">Breezy South Winds Expected Through the Evening</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -250,5 +250,5 @@ driving difficulty, especially on east-west roads.</description>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-04-13T07:15:44+00:00</updated>
+	<updated type="str">2025-04-14T00:04:11+00:00</updated>
 </all>
