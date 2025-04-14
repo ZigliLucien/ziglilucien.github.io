@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1017438/" title="See Description">Pinta 3.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1016853/" title="See Description">[$] In search of a stable BPF verifier</a></li>
+<li><a href="#https://lwn.net/Articles/1016724/" title="See Description">[$] The state of the memory-management development process, 2025 edition</a></li>
 <li><a href="#https://lwn.net/Articles/1017396/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1017325/" title="See Description">Kernel prepatch 6.15-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/1016722/" title="See Description">[$] Managing multiple sources of page-hotness data</a></li>
@@ -50,12 +53,53 @@
 <li><a href="#https://lwn.net/Articles/1016525/" title="See Description">[$] Preparing DAMON for future memory-management problems</a></li>
 <li><a href="#https://lwn.net/Articles/1017043/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1016366/" title="See Description">[$] LWN.net Weekly Edition for April 10, 2025</a></li>
-<li><a href="#https://lwn.net/Articles/1016978/" title="See Description">Hardening the Firefox frontend</a></li>
-<li><a href="#https://lwn.net/Articles/1016406/" title="See Description">[$] An update on torn-write protection</a></li>
-<li><a href="#https://lwn.net/Articles/1016107/" title="See Description">[$] Debian Project Leader election 2025 edition</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1017438/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 14 Apr 2025 15:16:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017438/" title="https://lwn.net/Articles/1017438/">Pinta 3.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://github.com/PintaProject/Pinta/releases/tag/3.0">Version
+3.0</a> of the <a href="https://www.pinta-project.com/">Pinta</a>
+image editor has been released. The most notable change in this
+release is that Pinta has been ported to <a
+href="https://docs.gtk.org/gtk4/">GTK&#160;4.0</a> and <a
+href="https://gnome.pages.gitlab.gnome.org/libadwaita/">libadwaita</a>. It
+also includes a number of improvements, new effects, and bug fixes.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016853/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 14 Apr 2025 14:47:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016853/" title="https://lwn.net/Articles/1016853/">[$] In search of a stable BPF verifier</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+BPF is, famously, not part of the kernel's promises of user-space stability. New
+kernels can and do break existing BPF programs; the BPF developers try to
+fix unintentional regressions as they happen, but the whole thing can be something of a bumpy
+ride for users trying to deploy BPF programs across multiple kernel versions.
+Shung-Hsi Yu and Daniel Xu had two different approaches to fixing the problem
+that they presented at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016724/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 14 Apr 2025 14:42:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016724/" title="https://lwn.net/Articles/1016724/">[$] The state of the memory-management development process, 2025 edition</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Andrew Morton, the lead maintainer for the kernel's memory-management
+subsystem, tends to be quiet during the Linux Storage, Filesystem,
+Memory-Management, and BPF Summit, preferring to let the developers work
+things out on their own.  That changes, though, when he leads the
+traditional development-process session in the memory-management track.  At
+the 2025 gathering, this discussion covered a number of ways in which the
+process could be improved, but did not unearth any significant problems.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1017396/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 14 Apr 2025 13:35:33 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -220,66 +264,6 @@ future.
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016978/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 09 Apr 2025 18:00:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016978/" title="https://lwn.net/Articles/1016978/">Hardening the Firefox frontend</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Tom Schuster, Frederik Braun, and Christoph Kerschbaumer have
-published an <a
-href="https://attackanddefense.dev/2025/04/09/hardening-the-firefox-frontend-with-content-security-policies.html">article</a>
-on the Firefox Security team's <span class="nobreak"><a
-href="https://attackanddefense.dev/">Attack &amp; Defense</a></span>
-blog that explains recent work to harden Firefox's frontend code.</p>
-
-<blockquote class="bq">
-We have rewritten over 600 JavaScript event handlers to mitigate XSS
-and other injection attacks in the main Firefox user interface. This
-mitigation will ship in Firefox 138. However, blocking the execution
-of scripts in the parent process is not the end - we will expand this
-technique to other contexts in the near future. There is still more
-work to do as the UI requires JavaScript APIs with a high level of
-privileges. However: We still eliminated a whole class of attacks,
-significantly raising the bar for attackers to exploit Firefox.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016406/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 09 Apr 2025 15:26:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016406/" title="https://lwn.net/Articles/1016406/">[$] An update on torn-write protection</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In a combined storage and filesystem track session at the 
-2025 Linux Storage, Filesystem, Memory Management, and BPF Summit, John
-Garry continued the theme of "untorn" (or atomic) writes that started in <a
-href="https://lwn.net/Articles/1016015/">the previous session</a>.  It was also
-an update on where things have gone for untorn writes since his <a
-href="https://lwn.net/Articles/974578/">session at last year's summit</a>.  Beyond that,
-he looked at some of the plans and challenges for the feature in the future.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016107/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 09 Apr 2025 14:58:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016107/" title="https://lwn.net/Articles/1016107/">[$] Debian Project Leader election 2025 edition</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Four candidates have stepped up to run in the <a
-href="https://www.debian.org/vote/2025/vote_001">2025 Debian Project
-Leader</a> (DPL) election. <a
-href="https://www.debian.org/vote/2025/platforms/tille">Andreas
-Tille</a>, who is in his first term as DPL, is running again. <a
-href="https://www.debian.org/vote/2025/platforms/srud">Sruthi
-Chandran</a>, <a
-href="https://www.debian.org/vote/2025/platforms/locutusofborg">Gianfranco
-Costamagna</a>, and <a
-href="https://www.debian.org/vote/2025/platforms/jak">Julian Andres
-Klode</a> are the other candidates running for a chance to serve a
-term as DPL. The campaigning phase ended on April&#160;5, and Debian
-members began voting on April&#160;6. Voting ends on
-April&#160;19. This year, the campaign period has been lively and
-sometimes contentious, touching on problems with Debian team
-delegations and finances.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
