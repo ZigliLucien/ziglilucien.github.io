@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1017565/" title="See Description">MITRE Warns CVE Program Faces Disruption (Security Week)</a></li>
 <li><a href="#https://lwn.net/Articles/1017538/" title="See Description">Manjaro Linux 25.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1017537/" title="See Description">Fedora Linux 42 released (Fedora Magazine)</a></li>
 <li><a href="#https://lwn.net/Articles/1016845/" title="See Description">[$] Don't panic: Fedora 42 is here</a></li>
@@ -52,10 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1016712/" title="See Description">[$] Inlining kfuncs into BPF programs</a></li>
 <li><a href="#https://lwn.net/Articles/1017197/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1016879/" title="See Description">[$] Atomic writes for ext4</a></li>
-<li><a href="#https://lwn.net/Articles/1017132/" title="See Description">Malcolm: 6 usability improvements in GCC 15</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1017565/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 15 Apr 2025 21:25:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017565/" title="https://lwn.net/Articles/1017565/">MITRE Warns CVE Program Faces Disruption (Security Week)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security Week is one of several outlets <a
+href="https://www.securityweek.com/mitre-signals-potential-cve-program-deterioration-as-us-gov-funding-expires/">reporting</a>
+that the funding for the CVE program at MITRE disappears as of
+April&#160;16.
+<p>
+<blockquote class="bq">
+	Maintained by MITRE Corporation, a not-for-profit organization that
+	operates federal R&amp;D centers, the CVE program is funded through
+	multiple channels, including the U.S. government, industry
+	partnerships, and international organizations. 
+	<p>
+	Earlier this month, in anticipation of the US government funding
+	cuts, MITRE initiated layoffs that affected more than 400 employees
+	in its Virginia office. The cuts were ordered after the Trump
+	administration announced more than $28 million in canceled
+	contracts for the company.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1017538/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 15 Apr 2025 14:36:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -255,27 +278,6 @@ the support for the feature is already in the upstream kernel, with more
 coming.  But 
 there are still some challenges that Mujoo wanted to discuss.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1017132/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 10 Apr 2025 20:29:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017132/" title="https://lwn.net/Articles/1017132/">Malcolm: 6 usability improvements in GCC 15</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Over on the Red Hat Developer site, David Malcolm has an <a
-href="https://developers.redhat.com/articles/2025/04/10/6-usability-improvements-gcc-15#">article
-about improvements in GCC 15</a>, specifically focusing on the diagnostic
-information that the compiler emits.  This includes ASCII art with a "⚠️"
-warning emoji to display the execution path when it detects a problem (like
-an infinite loop in one of his examples), better C++ template errors,
-machine-readable diagnostics using <a href="https://sarif.info/">Static
-Analysis Results Interchange Format</a> (SARIF), better messages regarding
-C23 compatibility since that is the default C version for GCC 15, and more.
-Since the changes are focused on messages, there is the inevitable color-scheme update as well:
-<blockquote class="bq">
-GCC will use color when emitting its text messages on stderr at a suitably modern terminal, using a few colors that seem to work well in a number of different terminal themes—but the exact rules for choosing which color to use for each aspect of the output have been rather arbitrary.
-<p>
-For GCC 15, I've gone through C and C++'s errors, looking for places where two different things in the source are being contrasted, such as type mismatches. These diagnostics now use color to visually highlight and distinguish the differences. 
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
