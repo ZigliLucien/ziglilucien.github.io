@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1017116/" title="See Description">[$] Taking BPF programs beyond one-million instructions</a></li>
+<li><a href="#https://lwn.net/Articles/1017704/" title="See Description">CISA extends funding to the CVE program (BleepingComputer)</a></li>
+<li><a href="#https://lwn.net/Articles/1016844/" title="See Description">[$] Improvements for the contiguous memory allocator</a></li>
 <li><a href="#https://lwn.net/Articles/1017670/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1017128/" title="See Description">[$] Topics from the virtual filesystem layer</a></li>
 <li><a href="#https://lwn.net/Articles/1017565/" title="See Description">MITRE Warns CVE Program Faces Disruption (Security Week)</a></li>
@@ -50,12 +53,77 @@
 <li><a href="#https://lwn.net/Articles/1016853/" title="See Description">[$] In search of a stable BPF verifier</a></li>
 <li><a href="#https://lwn.net/Articles/1016724/" title="See Description">[$] The state of the memory-management development process, 2025 edition</a></li>
 <li><a href="#https://lwn.net/Articles/1017396/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1017325/" title="See Description">Kernel prepatch 6.15-rc2</a></li>
-<li><a href="#https://lwn.net/Articles/1016722/" title="See Description">[$] Managing multiple sources of page-hotness data</a></li>
-<li><a href="#https://lwn.net/Articles/1016712/" title="See Description">[$] Inlining kfuncs into BPF programs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1017116/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 16 Apr 2025 16:44:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017116/" title="https://lwn.net/Articles/1017116/">[$] Taking BPF programs beyond one-million instructions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The BPF verifier is not magic; it cannot solve the
+<a href="https://en.wikipedia.org/wiki/Halting_problem">
+halting problem</a>. Therefore,
+it has to err on the side of assuming that a program will run too long if it
+cannot prove that the program will not.
+The ultimate check on the size of a BPF program is the
+one-million-instruction limit — the verifier will refuse to process more than
+one-million instructions, no matter what a BPF program does. Alexei Starovoitov gave
+a talk at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit about that limit,
+why correctly written BPF programs shouldn't hit it, and how to make the user
+experience of large BPF programs better in the future.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1017704/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 16 Apr 2025 15:14:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017704/" title="https://lwn.net/Articles/1017704/">CISA extends funding to the CVE program (BleepingComputer)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Sergiu Gatlan <a
+href="https://www.bleepingcomputer.com/news/security/cisa-extends-funding-to-ensure-no-lapse-in-critical-cve-services/">reports</a>
+that the US government has extended funding for the Common
+Vulnerabilities and Exposures (CVE) program, following yesterday's <a
+href="https://lwn.net/Articles/1017565/">reports</a> that funding
+would run out as of April&#160;16.</p>
+
+<blockquote class="bq">
+"The CVE Program is invaluable to cyber community and a priority of
+CISA," the U.S. cybersecurity agency told BleepingComputer. "Last
+night, CISA executed the option period on the contract to ensure there
+will be no lapse in critical CVE services. We appreciate our partners'
+and stakeholders' patience."
+</blockquote>
+
+<p>The article also mentions the launch of a <a
+href="https://www.thecvefoundation.org/home">CVE Foundation</a>, to
+transition the CVE program to a dedicated foundation and eliminate
+"<q>a single point of failure in the vulnerability management
+ecosystem</q>", as well as a <a
+href="https://euvd.enisa.europa.eu/">European vulnerability
+database</a> (EUVD) backed by the European Union Agency for
+Cybersecurity (ENISA). Details on these initiatives are scant at the
+moment, and it is unclear whether restoration of funding will have any
+impact on these efforts.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1016844/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 16 Apr 2025 15:11:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016844/" title="https://lwn.net/Articles/1016844/">[$] Improvements for the contiguous memory allocator</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>As a system runs, its memory becomes fragmented; it does not take long
+before the allocation of large, physically contiguous memory ranges becomes
+difficult or impossible.  The <a href="https://lwn.net/Articles/486301/">contiguous memory
+allocator (CMA)</a> is a kernel subsystem that attempts to address this
+problem, but it has never worked as well as some would like.  Two sessions
+in the memory-management track at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit looked at how CMA can be improved; the
+first looked at providing guaranteed allocations, while the second
+addressed some inefficiencies in CMA.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1017670/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 16 Apr 2025 13:10:40 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -237,45 +305,6 @@ process could be improved, but did not unearth any significant problems.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (glib2.0, jinja2, kernel, mediawiki, perl, subversion, twitter-bootstrap3, twitter-bootstrap4, and wpa), <b>Fedora</b> (c-ares, chromium, condor, corosync, cri-tools1.29, exim, firefox, matrix-synapse, nextcloud, openvpn, perl-Data-Entropy, suricata, upx, varnish, webkitgtk, yarnpkg, and zabbix), <b>Mageia</b> (giflib, gnupg2, graphicsmagick, and poppler), <b>Oracle</b> (delve and golang, go-toolset:ol8, grub2, and webkit2gtk3), <b>Red Hat</b> (kernel and kernel-rt), <b>SUSE</b> (chromium, fontforge-20230101, govulncheck-vulndb, kernel, liblzma5-32bit, pgadmin4, python311-Django, and python311-PyJWT), and <b>Ubuntu</b> (graphicsmagick).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1017325/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 13 Apr 2025 22:04:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017325/" title="https://lwn.net/Articles/1017325/">Kernel prepatch 6.15-rc2</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1017324/">6.15-rc2</a> for testing.
-"<q>Nothing particularly stands out to me, but it's early in the release
-yet, so let's see how it goes.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016722/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 11 Apr 2025 23:56:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016722/" title="https://lwn.net/Articles/1016722/">[$] Managing multiple sources of page-hotness data</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Knowing how frequently accessed a page of memory is (its "hotness") is a
-key input to many memory-management heuristics.  Jonathan Cameron, in a
-memory-management track at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit, pointed out that the number of sources
-of that kind of data is growing over time.  He wanted to explore the
-questions of what commonality exists between data from those sources, and
-whether it makes sense to aggregate them all somehow.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016712/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 11 Apr 2025 17:15:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016712/" title="https://lwn.net/Articles/1016712/">[$] Inlining kfuncs into BPF programs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Eduard Zingerman presented a daring proposal that "<q>makes sense if you think
-about it a bit</q>" at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit. He wants to inline
-performance-sensitive kernel functions
-into the BPF programs that call them. His
-prototype does not yet address all of the design problems inherent in that idea,
-but it did spark a lengthy discussion about the feasibility of his proposal.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
