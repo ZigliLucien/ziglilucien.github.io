@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1017315/" title="See Description">[$] What's new in APT 3.0</a></li>
+<li><a href="#https://lwn.net/Articles/1017727/" title="See Description">Catanzaro: Dangerous arbitrary file read vulnerability in Yelp</a></li>
+<li><a href="#https://lwn.net/Articles/1017477/" title="See Description">[$] Parallel directory operations</a></li>
 <li><a href="#https://lwn.net/Articles/1017116/" title="See Description">[$] Taking BPF programs beyond one-million instructions</a></li>
 <li><a href="#https://lwn.net/Articles/1017704/" title="See Description">CISA extends funding to the CVE program (BleepingComputer)</a></li>
 <li><a href="#https://lwn.net/Articles/1016844/" title="See Description">[$] Improvements for the contiguous memory allocator</a></li>
@@ -50,12 +53,74 @@
 <li><a href="#https://lwn.net/Articles/1016842/" title="See Description">[$] Automatic tuning for weighted interleaving</a></li>
 <li><a href="#https://lwn.net/Articles/1017514/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1017438/" title="See Description">Pinta 3.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1016853/" title="See Description">[$] In search of a stable BPF verifier</a></li>
-<li><a href="#https://lwn.net/Articles/1016724/" title="See Description">[$] The state of the memory-management development process, 2025 edition</a></li>
-<li><a href="#https://lwn.net/Articles/1017396/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1017315/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 16 Apr 2025 18:07:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017315/" title="https://lwn.net/Articles/1017315/">[$] What's new in APT 3.0</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Debian's <a href="https://salsa.debian.org/apt-team/apt#apt">Advanced Package Tool</a> (APT) is the suite of utilities that handle package
+management on Debian and Debian-derived operating systems. APT recently received a
+major upgrade to 3.0 just in time for inclusion in <a
+href="https://www.debian.org/releases/trixie/releasenotes">Debian&#160;13</a>
+("trixie"), which is planned for release sometime in 2025. The version bump is
+warranted; the latest APT has user-interface improvements, switches to <a
+href="https://sequoia-pgp.org/projects/">Sequoia</a> to verify package
+signatures, and includes solver3&mdash;a new <a
+href="https://en.wikipedia.org/wiki/Solver">solver</a> that is designed to improve
+how it evaluates and resolves package dependencies.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1017727/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 16 Apr 2025 17:54:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017727/" title="https://lwn.net/Articles/1017727/">Catanzaro: Dangerous arbitrary file read vulnerability in Yelp</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>GNOME contributor Michael Catanzaro has written a <a
+href="https://blogs.gnome.org/mcatanzaro/2025/04/15/dangerous-arbitrary-file-read-vulnerability-in-yelp-cve-2025-3155/">blog
+post</a> about a noteworthy vulnerability in GNOME's help browser, <a
+href="https://apps.gnome.org/Yelp/">Yelp</a>.</p>
+
+<blockquote class="bq">
+I don't normally blog about particular CVEs, but Yelp CVE-2025-3155 is
+noteworthy because it is quite severe, public for several weeks now,
+and not yet fixed upstream. In short, help files can read your
+filesystem and execute arbitrary JavaScript code, allowing an attacker
+to exfiltrate any files your Unix user has access to.
+</blockquote>
+
+<p>The vulnerability was first reported on December&#160;25, and it
+was made public on March&#160;26 after the 90-day-disclosure deadline
+was reached. <a
+href="https://gitlab.gnome.org/GNOME/yelp/-/issues/221#note_2359937">Patches</a>
+have been proposed to fix the issue. The bug reporter has published a <a
+href="https://gist.github.com/parrot409/e970b155358d45b298d7024edd9b17f2">writeup
+demonstrating the attack</a>. Catanzaro asks that Linux vendors
+"<q>please consider applying the provided patches even though they
+have not yet been accepted upstream</q>".</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1017477/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 16 Apr 2025 17:09:52 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017477/" title="https://lwn.net/Articles/1017477/">[$] Parallel directory operations</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Allowing directories to be modified in parallel was the topic of Jeff
+Layton's filesystem-track session at the 2025 Linux Storage, Filesystem,
+Memory Management, and BPF Summit (LSFMM+BPF).  There are certain use
+cases, including for the NFS and Lustre filesystems, as mentioned in a <a
+href="https://lwn.net/ml/all/20241220030830.272429-1-neilb%40suse.de/">patch set</a>
+referenced in the <a
+href="https://lwn.net/ml/all/f78f4a5e86c10d723fd60d51a52dd727924fed3a.camel%40kernel.org/">topic
+proposal</a>, where contention in creating multiple files in a directory is
+causing noticeable performance problems.  In some testing, Layton has found
+that the inode read-write semaphore (<tt>i_rwsem</tt>) for the directory is
+serializing operations; he wanted to discuss alternatives.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1017116/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 16 Apr 2025 16:44:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -268,44 +333,6 @@ release is that Pinta has been ported to <a
 href="https://docs.gtk.org/gtk4/">GTK&#160;4.0</a> and <a
 href="https://gnome.pages.gitlab.gnome.org/libadwaita/">libadwaita</a>. It
 also includes a number of improvements, new effects, and bug fixes.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016853/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 14 Apr 2025 14:47:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016853/" title="https://lwn.net/Articles/1016853/">[$] In search of a stable BPF verifier</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-BPF is, famously, not part of the kernel's promises of user-space stability. New
-kernels can and do break existing BPF programs; the BPF developers try to
-fix unintentional regressions as they happen, but the whole thing can be something of a bumpy
-ride for users trying to deploy BPF programs across multiple kernel versions.
-Shung-Hsi Yu and Daniel Xu had two different approaches to fixing the problem
-that they presented at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016724/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 14 Apr 2025 14:42:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016724/" title="https://lwn.net/Articles/1016724/">[$] The state of the memory-management development process, 2025 edition</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Andrew Morton, the lead maintainer for the kernel's memory-management
-subsystem, tends to be quiet during the Linux Storage, Filesystem,
-Memory-Management, and BPF Summit, preferring to let the developers work
-things out on their own.  That changes, though, when he leads the
-traditional development-process session in the memory-management track.  At
-the 2025 gathering, this discussion covered a number of ways in which the
-process could be improved, but did not unearth any significant problems.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1017396/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 14 Apr 2025 13:35:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017396/" title="https://lwn.net/Articles/1017396/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (glib2.0, jinja2, kernel, mediawiki, perl, subversion, twitter-bootstrap3, twitter-bootstrap4, and wpa), <b>Fedora</b> (c-ares, chromium, condor, corosync, cri-tools1.29, exim, firefox, matrix-synapse, nextcloud, openvpn, perl-Data-Entropy, suricata, upx, varnish, webkitgtk, yarnpkg, and zabbix), <b>Mageia</b> (giflib, gnupg2, graphicsmagick, and poppler), <b>Oracle</b> (delve and golang, go-toolset:ol8, grub2, and webkit2gtk3), <b>Red Hat</b> (kernel and kernel-rt), <b>SUSE</b> (chromium, fontforge-20230101, govulncheck-vulndb, kernel, liblzma5-32bit, pgadmin4, python311-Django, and python311-PyJWT), and <b>Ubuntu</b> (graphicsmagick).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
