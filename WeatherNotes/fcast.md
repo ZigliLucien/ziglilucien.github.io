@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of rain showers before 4am, then a chance of showers and thunderstorms. Mostly cloudy. Low around 52, with temperatures
-         rising to around 54 overnight. South southeast wind 5 to 8 mph. Chance of precipitation is 50%.<br></div>
+         rising to around 54 overnight. South southeast wind around 8 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
