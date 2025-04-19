@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Showers and thunderstorms before 3pm, then a chance of showers and thunderstorms. Cloudy, with a high near 64. North wind
-         3 to 7 mph. Chance of precipitation is 80%.<br></div>
+         around 7 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
