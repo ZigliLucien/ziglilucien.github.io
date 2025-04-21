@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1018292/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1018193/" title="See Description">Kernel prepatch 6.15-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/1018171/" title="See Description">Three stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1018058/" title="See Description">EU OS: A European Proposal for a Public Sector Linux Desktop (The New Stack)</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1017315/" title="See Description">[$] What's new in APT 3.0</a></li>
 <li><a href="#https://lwn.net/Articles/1017727/" title="See Description">Catanzaro: Dangerous arbitrary file read vulnerability in Yelp</a></li>
 <li><a href="#https://lwn.net/Articles/1017477/" title="See Description">[$] Parallel directory operations</a></li>
-<li><a href="#https://lwn.net/Articles/1017116/" title="See Description">[$] Taking BPF programs beyond one-million instructions</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1018292/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Apr 2025 13:47:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018292/" title="https://lwn.net/Articles/1018292/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (erlang, fig2dev, shadow, wget, and zabbix), <b>Fedora</b> (chromium, jupyterlab, llama-cpp, prometheus-podman-exporter, python-notebook, python-pydantic-core, rpki-client, rust-adblock, rust-cookie_store, rust-gitui, rust-gstreamer, rust-icu_collections, rust-icu_locid, rust-icu_locid_transform, rust-icu_locid_transform_data, rust-icu_normalizer, rust-icu_normalizer_data, rust-icu_properties, rust-icu_properties_data, rust-icu_provider, rust-icu_provider_macros, rust-idna, rust-idna_adapter, rust-litemap, rust-ron, rust-sequoia-openpgp, rust-sequoia-openpgp1, rust-tinystr, rust-url, rust-utf16_iter, rust-version-ranges, rust-write16, rust-writeable, rust-zerovec, rust-zip, uv, and webkitgtk), <b>Slackware</b> (libxml2 and zsh), <b>SUSE</b> (argocd-cli, chromium, coredns, ffmpeg-6, and firefox), and <b>Ubuntu</b> (imagemagick).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1018193/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 20 Apr 2025 23:27:49 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -282,27 +290,6 @@ proposal</a>, where contention in creating multiple files in a directory is
 causing noticeable performance problems.  In some testing, Layton has found
 that the inode read-write semaphore (<tt>i_rwsem</tt>) for the directory is
 serializing operations; he wanted to discuss alternatives.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1017116/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 16 Apr 2025 16:44:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017116/" title="https://lwn.net/Articles/1017116/">[$] Taking BPF programs beyond one-million instructions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The BPF verifier is not magic; it cannot solve the
-<a href="https://en.wikipedia.org/wiki/Halting_problem">
-halting problem</a>. Therefore,
-it has to err on the side of assuming that a program will run too long if it
-cannot prove that the program will not.
-The ultimate check on the size of a BPF program is the
-one-million-instruction limit — the verifier will refuse to process more than
-one-million instructions, no matter what a BPF program does. Alexei Starovoitov gave
-a talk at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit about that limit,
-why correctly written BPF programs shouldn't hit it, and how to make the user
-experience of large BPF programs better in the future.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
