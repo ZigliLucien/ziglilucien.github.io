@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1017439/" title="See Description">[$] Indirect calls in BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1018322/" title="See Description">RISC-V images for Fedora Linux 42</a></li>
 <li><a href="#https://lwn.net/Articles/1018297/" title="See Description">Template strings accepted for Python 3.14</a></li>
 <li><a href="#https://lwn.net/Articles/1017846/" title="See Description">[$] Owen Le Blanc: creator of the first Linux distribution</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1017923/" title="See Description">Tor Browser 14.5 released</a></li>
 <li><a href="#https://lwn.net/Articles/1016856/" title="See Description">[$] Memory controller performance improvements</a></li>
 <li><a href="#https://lwn.net/Articles/1017919/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1017012/" title="See Description">[$] LWN.net Weekly Edition for April 17, 2025</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1017439/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Apr 2025 20:27:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017439/" title="https://lwn.net/Articles/1017439/">[$] Indirect calls in BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Anton Protopopov kicked off the BPF track on
+the second day of the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit with a discussion about permitting
+indirect calls in BPF. He also spoke about his continuing work on
+<a href="https://lwn.net/Articles/977993/">
+static keys</a>, a topic which is related because the implementation of indirect
+jumps and static keys in the verifier use some of the same mechanisms for
+tracking indirect control-flow.
+Although some design work remains to be done, it may soon be
+possible to make indirect calls in BPF without any extra work compared to normal
+C.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1018322/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 21 Apr 2025 15:06:25 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,21 +298,6 @@ be done to reduce its overhead.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium and libapache2-mod-auth-openidc), <b>Oracle</b> (expat, freetype, glibc, grub2, gvisor-tap-vsock, and kernel), <b>Red Hat</b> (grub2 and webkit2gtk3), and <b>SUSE</b> (apache2-mod_auth_openidc, cosign, gitoxide, govulncheck-vulndb, GraphicsMagick, haproxy, hauler, mozjs52, oci-cli, pam, perl-Data-Entropy, poppler, python-lxml-doc, python311-aiohttp, rekor, rubygem-rexml, and webkit2gtk3).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1017012/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Apr 2025 01:00:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017012/" title="https://lwn.net/Articles/1017012/">[$] LWN.net Weekly Edition for April 17, 2025</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1017012/">Front</a>: APT 3.0; Fedora 42; Lots more LSFMM+BPF coverage.
-            <li> <a href="https://lwn.net/Articles/1017014/">Briefs</a>: CVE funding; Yelp vulnerability; Fedora 42; Manjaro 25.0; GCC 15; Pinta 3.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1017015/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
