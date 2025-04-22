@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1017549/" title="See Description">[$] Code signing for BPF programs</a></li>
+<li><a href="#https://lwn.net/Articles/1017449/" title="See Description">[$] DMA addresses for UIO</a></li>
 <li><a href="#https://lwn.net/Articles/1018444/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1017439/" title="See Description">[$] Indirect calls in BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1018322/" title="See Description">RISC-V images for Fedora Linux 42</a></li>
@@ -51,11 +53,44 @@
 <li><a href="#https://lwn.net/Articles/1017573/" title="See Description">[$] Tracepoints for the VFS?</a></li>
 <li><a href="#https://lwn.net/Articles/1018020/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1017930/" title="See Description">Ubuntu 25.04 released</a></li>
-<li><a href="#https://lwn.net/Articles/1017923/" title="See Description">Tor Browser 14.5 released</a></li>
-<li><a href="#https://lwn.net/Articles/1016856/" title="See Description">[$] Memory controller performance improvements</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1017549/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 22 Apr 2025 19:52:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017549/" title="https://lwn.net/Articles/1017549/">[$] Code signing for BPF programs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The Linux kernel can be configured so that
+kernel modules must be signed or
+<a href="https://lwn.net/Articles/1012946/">
+otherwise authenticated</a> to be loaded
+into the kernel. Some BPF developers want that to be an option for BPF programs
+as well — after all, if those are going to run as part of the kernel,
+they should be subject to the same code-signing requirements. Blaise Boscaccy
+and Cong Wang presented two different visions for how BPF code signing could
+work at the 2025 Linux Storage, Filesystem, Memory-Management, and BPF Summit.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1017449/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 22 Apr 2025 17:24:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017449/" title="https://lwn.net/Articles/1017449/">[$] DMA addresses for UIO</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://docs.kernel.org/driver-api/uio-howto.html">Userspace
+I/O (UIO) subsystem</a> was first <a
+href="https://git.kernel.org/linus/beafc54c4e2f">added to the kernel</a> by
+Hans J. Koch for the 2.6.32 release in 2007.  Its purpose is to facilitate
+the writing of drivers (mostly) in user space; to that end, it provides
+access to a number of resources that user-space code normally cannot touch.
+One piece that is missing, though, is DMA addresses.  <a
+href="https://lwn.net/ml/all/20250410-uio-dma-v1-0-6468ace2c786@bootlin.com">A proposal to
+fill that gap</a> from Bastien Curutchet is running into some opposition,
+though.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1018444/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 22 Apr 2025 13:20:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -254,50 +289,6 @@ interim release, with support through January&#160;2026. See the <a
 href="https://discourse.ubuntu.com/t/plucky-puffin-release-notes/48687">release
 notes</a> for a detailed list of new features and changes.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1017923/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Apr 2025 15:04:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017923/" title="https://lwn.net/Articles/1017923/">Tor Browser 14.5 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://blog.torproject.org/new-release-tor-browser-145/">Version
-14.5</a> of the <a href="https://tb-manual.torproject.org/about/">Tor
-Browser</a> has been released. Notable features in this release
-include the addition of Connection Assist for the Android version of
-the Tor Browser, and language support for Belarusian, Bulgarian, and
-Portuguese for all versions of the browser.</p>
-
-<blockquote class="bq">
-Should Tor Browser fail to establish a direct connection to the Tor
-network, Connection Assist will offer to find and try bridges for
-you. But before this feature could be made available on Android, we
-had to embark on a multi-year effort to refactor our tor integration
-across each platform first. This project has now reached an important
-milestone, and we're proud to announce the release of Connection
-Assist for Android today.
-</blockquote>
-
-<p>See the <a
-href="https://blog.torproject.org/new-release-tor-browser-145/#:~:text=Full%20changelog">full
-changelog</a> for all changes in this release, and the <a
-href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues">issues
-page</a> for known problems.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016856/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Apr 2025 14:23:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016856/" title="https://lwn.net/Articles/1016856/">[$] Memory controller performance improvements</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's memory controller works within the control-group mechanism to
-enforce memory-usage limits on groups of processes.  This component has
-often had performance problems, so there is continual interest in
-optimizing it.  Shakeel Butt led a session during the memory-management
-track of the 2025 Linux Storage, Filesystem, Memory-Management, and BPF
-Summit to look at the current state of the memory controller and what can
-be done to reduce its overhead.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
