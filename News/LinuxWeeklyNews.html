@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1018621/" title="See Description">NLnet announces funding for 42 FOSS projects</a></li>
+<li><a href="#https://lwn.net/Articles/1017947/" title="See Description">[$] VFS write barriers</a></li>
 <li><a href="#https://lwn.net/Articles/1018589/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1017549/" title="See Description">[$] Code signing for BPF programs</a></li>
 <li><a href="#https://lwn.net/Articles/1017449/" title="See Description">[$] DMA addresses for UIO</a></li>
@@ -51,11 +53,70 @@
 <li><a href="#https://lwn.net/Articles/1018171/" title="See Description">Three stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1018058/" title="See Description">EU OS: A European Proposal for a Public Sector Linux Desktop (The New Stack)</a></li>
 <li><a href="#https://lwn.net/Articles/1016860/" title="See Description">[$] The problem of unnecessary readahead</a></li>
-<li><a href="#https://lwn.net/Articles/1017573/" title="See Description">[$] Tracepoints for the VFS?</a></li>
-<li><a href="#https://lwn.net/Articles/1018020/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1018621/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Apr 2025 16:16:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018621/" title="https://lwn.net/Articles/1018621/">NLnet announces funding for 42 FOSS projects</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://nlnet.nl/">NLnet Foundation</a> has <a
+href="https://nlnet.nl/news/2025/20250422-announcement-grants-CommonsFund.html">announced</a>
+the projects that have received funding from its <a
+href="https://nlnet.nl/news/2024/20240601-call.html">October call</a>
+for grant proposals from the <a
+href="https://www.ngi.eu/ngi-projects/ngi-zero-commons-fund/">Next
+Generation Internet (NGI) Zero Commons Fund</a>.</p>
+
+<blockquote class="bq">
+The selected projects all contribute, one way or another, to the
+mission of the Commons Fund: reclaiming the public nature of the
+internet. For example, there are people working on interesting open
+hardware projects such as the tablet <a
+href="https://nlnet.nl/project/MNT-Reform-Touch/">MNT Reform Touch</a>
+and the <a href="https://nlnet.nl/project/Solar-FemtoTX/">Solar
+FemtoTX motherboard</a> — a collaborative effort to create an
+ultra-low power motherboard that can run on solar power. <a
+href="https://nlnet.nl/project/LLM2FPGA/">LLM2FPGA</a> aims to enable
+running open source LLMs locally on programmable chips ("FPGAs") using
+a fully open-source toolchain. <a
+href="https://nlnet.nl/project/bcachefs-crypto-API/">bcachefs</a>
+readies itself as the next generation filesystem for Linux, improving
+performance, scalability and reliability when compared to legacy
+filesystems.
+</blockquote>
+
+<p>In all, 42 projects have been selected for the NGI grants which are
+between &euro;5,000 and &euro;50,000. See the announcement for the
+full list of selected projects, and the <a
+href="https://nlnet.nl/project/current.html">current projects</a> page
+for other recent projects funded by NLnet.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1017947/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Apr 2025 14:32:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017947/" title="https://lwn.net/Articles/1017947/">[$] VFS write barriers</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>In the filesystem track at the 2025 Linux Storage, Filesystem, Memory
+Management, and BPF Summit (LSFMM+BPF), Amir Goldstein wanted to resume
+discussing
+a feature that he had briefly introduced at the end of a <a
+href="https://lwn.net/Articles/932415/">2023 summit session</a>: filesystem "write
+barriers".  The idea is to have an operation that would wait for any
+in-flight <a
+href="https://www.man7.org/linux/man-pages/man2/write.2.html"><tt>write()</tt></a>
+system calls, but not block any new <tt>write()</tt> calls as bigger
+hammers, such as freezing the filesystem,
+would do.  His prototype implementation is used by a <a
+href="https://en.wikipedia.org/wiki/Hierarchical_storage_management">hierarchical
+storage management</a> (HSM) system to create a crash-consistent
+change log, but there may be other use cases to consider.  He <a
+href="https://lwn.net/ml/all/CAOQ4uxj00D_fP3nRUBjAry6vwUCNjYuUpCZg2Uc8hwMk6n%2B2HA%40mail.gmail.com/">wanted
+to discuss</a> implementation options and the possibility of providing an
+API for user-space applications.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1018589/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 23 Apr 2025 13:10:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -255,29 +316,6 @@ addition run by Kalesh Singh.  The kernel's readahead mechanism is
 generally good for performance; it ensures that data is present by the time
 an application gets around to asking for it.  Sometimes, though, readahead
 can go a little too far.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1017573/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 18 Apr 2025 13:55:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017573/" title="https://lwn.net/Articles/1017573/">[$] Tracepoints for the VFS?</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Adding tracepoints to some kernel subsystems has been controversial—or
-disallowed—due to <a href="https://lwn.net/Articles/705270/">concerns about the user-space
-ABI</a> that they might create.  The virtual filesystem (VFS) layer has
-long been one of the subsystems that has not allowed any tracepoints, but
-that may be changing. At the 2025 Linux Storage, Filesystem, Memory
-Management, and BPF Summit (LSFMM+BPF), Ted Ts'o led a discussion about
-whether the ABI concerns are outweighed by the utility of tracepoints for
-the VFS.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1018020/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 18 Apr 2025 13:09:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018020/" title="https://lwn.net/Articles/1018020/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (graphicsmagick and libapache2-mod-auth-openidc), <b>Fedora</b> (giflib, mod_auth_openidc, mysql8.0, perl, perl-Devel-Cover, perl-PAR-Packer, perl-String-Compare-ConstantTime, rust-openssl, rust-openssl-sys, trunk, and workrave), <b>Mageia</b> (chromium-browser-stable and rust), <b>Oracle</b> (java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, kernel, libreoffice, and webkit2gtk3), <b>Red Hat</b> (gvisor-tap-vsock), <b>SUSE</b> (containerd, docker, docker-stable, forgejo, GraphicsMagick, libmozjs-115-0, perl-32bit, poppler, subfinder, and thunderbird), and <b>Ubuntu</b> (erlang and ruby2.3, ruby2.5).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
