@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1018082/" title="See Description">[$] Addressing UID/GID drift in rpm-ostree and bootc</a></li>
 <li><a href="#https://lwn.net/Articles/1018621/" title="See Description">NLnet announces funding for 42 FOSS projects</a></li>
 <li><a href="#https://lwn.net/Articles/1017947/" title="See Description">[$] VFS write barriers</a></li>
 <li><a href="#https://lwn.net/Articles/1018589/" title="See Description">Security updates for Wednesday</a></li>
@@ -52,10 +53,31 @@
 <li><a href="#https://lwn.net/Articles/1018193/" title="See Description">Kernel prepatch 6.15-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/1018171/" title="See Description">Three stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1018058/" title="See Description">EU OS: A European Proposal for a Public Sector Linux Desktop (The New Stack)</a></li>
-<li><a href="#https://lwn.net/Articles/1016860/" title="See Description">[$] The problem of unnecessary readahead</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1018082/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Apr 2025 17:05:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018082/" title="https://lwn.net/Articles/1018082/">[$] Addressing UID/GID drift in rpm-ostree and bootc</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Fedora Project is looking for solutions to an interesting
+problem with its image-based editions and spins, such as the <a
+href="https://fedoraproject.org/atomic-desktops/">Atomic Desktops</a>
+or <a href="https://fedoraproject.org/coreos/">CoreOS</a>, that are
+created with <a
+href="https://coreos.github.io/rpm-ostree/">rpm-ostree</a> or <a
+href="https://bootc-dev.github.io/bootc/">bootc</a>. If a package that
+is part of a image-based version has a user or group created
+dynamically on installation, and it owns files installed on the
+system, the system may be subject to user ID (UID) and group ID (GID) "drift"
+on updates. This  "<span class="nobreak">UID/GID drift</span>" may come about when a new image with
+updates is generated, and therefore files may have the wrong
+ownership. This can have side-effects ranging from mildly inconvenient to
+serious. No solutions have been adopted just yet, but there are a few
+ideas on how to deal with the problem.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1018621/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 23 Apr 2025 16:16:54 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -304,19 +326,6 @@ sector.
 	or sector-specific customizations, making it suitable for a wide
 	range of European public sector needs.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1016860/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 18 Apr 2025 14:24:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1016860/" title="https://lwn.net/Articles/1016860/">[$] The problem of unnecessary readahead</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The final session in the memory-management track of the 2025 Linux Storage,
-Filesystem, Memory-Management, and BPF Summit was a brief, last-minute
-addition run by Kalesh Singh.  The kernel's readahead mechanism is
-generally good for performance; it ensures that data is present by the time
-an application gets around to asking for it.  Sometimes, though, readahead
-can go a little too far.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
