@@ -10,13 +10,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of rain showers after 7am. Mostly cloudy, with a high near 66. East wind around 6 mph. Chance of precipitation is
-         30%.<br></div>
+         <h3>Sunday</h3>A chance of rain showers between 8am and 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near
+         66. East wind around 6 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of rain showers before 7pm. Partly cloudy, with a low around 55. Southeast wind around 6 mph. Chance of precipitation
-         is 30%.<br></div>
+         <h3>Sunday Night</h3>Partly cloudy, with a low around 55. Southeast wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
