@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of rain showers after 5am. Mostly cloudy. Low around 50, with temperatures rising to around 52 overnight.
-         East northeast wind around 5 mph. Chance of precipitation is 20%.<br></div>
+         Northeast wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
