@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1018320/" title="See Description">[$] Inline socket-local storage for BPF</a></li>
+<li><a href="#https://lwn.net/Articles/1019212/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1019110/" title="See Description">Kernel prepatch 6.15-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1019104/" title="See Description">OpenBSD 7.7 released</a></li>
 <li><a href="#https://lwn.net/Articles/1018497/" title="See Description">[$] Debian debates AI models and the DFSG</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1017842/" title="See Description">[$] LWN.net Weekly Edition for April 24, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1018082/" title="See Description">[$] Addressing UID/GID drift in rpm-ostree and bootc</a></li>
 <li><a href="#https://lwn.net/Articles/1018621/" title="See Description">NLnet announces funding for 42 FOSS projects</a></li>
-<li><a href="#https://lwn.net/Articles/1017947/" title="See Description">[$] VFS write barriers</a></li>
-<li><a href="#https://lwn.net/Articles/1018589/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1018320/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 28 Apr 2025 14:57:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018320/" title="https://lwn.net/Articles/1018320/">[$] Inline socket-local storage for BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Martin Lau gave a talk in the BPF track of the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit about a performance problem
+plaguing the networking subsystem, and some potential ways to fix it. He works on
+BPF programs that need to store socket-local data; amid other improvements to
+the networking and BPF subsystems, retrieving that data has become a noticeable
+bottleneck for his use case. His proposed fix prompted a good deal of discussion
+about how the data should be laid out.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1019212/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 28 Apr 2025 14:27:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019212/" title="https://lwn.net/Articles/1019212/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (thunderbird), <b>Debian</b> (distro-info-data, imagemagick, kernel, libsoup2.4, and poppler), <b>Fedora</b> (chromium, java-1.8.0-openjdk, java-1.8.0-openjdk-portable, java-17-openjdk, java-17-openjdk-portable, java-latest-openjdk, pgadmin4, thunderbird, and xz), <b>Mageia</b> (haproxy and libxml2), <b>Oracle</b> (bluez, firefox, gnutls, libtasn1, libxslt, mod_auth_openidc:2.3, ruby:3.1, thunderbird, and xmlrpc-c), <b>Red Hat</b> (delve and golang, glibc, mod_auth_openidc, mod_auth_openidc:2.3, and thunderbird), <b>SUSE</b> (augeas, chromedriver, cifs-utils, govulncheck-vulndb, java-11-openjdk, java-21-openjdk, kyverno, libraw, opentofu, runc, subfinder, and valkey), and <b>Ubuntu</b> (jupyter-notebook and libxml2).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1019110/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 27 Apr 2025 23:21:28 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -267,38 +291,6 @@ between &euro;5,000 and &euro;50,000. See the announcement for the
 full list of selected projects, and the <a
 href="https://nlnet.nl/project/current.html">current projects</a> page
 for other recent projects funded by NLnet.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1017947/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 23 Apr 2025 14:32:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017947/" title="https://lwn.net/Articles/1017947/">[$] VFS write barriers</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In the filesystem track at the 2025 Linux Storage, Filesystem, Memory
-Management, and BPF Summit (LSFMM+BPF), Amir Goldstein wanted to resume
-discussing
-a feature that he had briefly introduced at the end of a <a
-href="https://lwn.net/Articles/932415/">2023 summit session</a>: filesystem "write
-barriers".  The idea is to have an operation that would wait for any
-in-flight <a
-href="https://www.man7.org/linux/man-pages/man2/write.2.html"><tt>write()</tt></a>
-system calls, but not block any new <tt>write()</tt> calls as bigger
-hammers, such as freezing the filesystem,
-would do.  His prototype implementation is used by a <a
-href="https://en.wikipedia.org/wiki/Hierarchical_storage_management">hierarchical
-storage management</a> (HSM) system to create a crash-consistent
-change log, but there may be other use cases to consider.  He <a
-href="https://lwn.net/ml/all/CAOQ4uxj00D_fP3nRUBjAry6vwUCNjYuUpCZg2Uc8hwMk6n%2B2HA%40mail.gmail.com/">wanted
-to discuss</a> implementation options and the possibility of providing an
-API for user-space applications.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1018589/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 23 Apr 2025 13:10:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018589/" title="https://lwn.net/Articles/1018589/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bluez, expat, and postgresql:12), <b>Fedora</b> (chromium, golang, LibRaw, moodle, openiked, ruby, and trafficserver), <b>Red Hat</b> (bluez, expat, gnutls, libtasn1, libxslt, mod_auth_openidc, mod_auth_openidc:2.3, ruby:3.1, thunderbird, and xmlrpc-c), and <b>Ubuntu</b> (linux, linux-aws, linux-gcp, linux-hwe-6.11, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oem-6.11, linux-oracle, linux-raspi, linux-realtime, linux-azure, linux-azure-6.11, linux-gcp-6.8, and matrix-synapse).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>

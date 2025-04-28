@@ -2,26 +2,27 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Sunny, with a high near 85. South wind 12 to 16 mph, with gusts as high as 25 mph.<br></div>
+         <h3>This Afternoon</h3>Sunny, with a high near 85. South wind 10 to 14 mph, with gusts as high as 24 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of showers and thunderstorms after 1am. Mostly cloudy, with a low around 70. South wind 10 to 14 mph, with
-         gusts as high as 24 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Tonight</h3>A slight chance of rain showers after 4am. Partly cloudy. Low around 70, with temperatures rising to around 72 overnight.
+         South wind around 13 mph, with gusts as high as 23 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A slight chance of showers and thunderstorms before 9am, then showers and thunderstorms likely. Mostly cloudy. High near 81,
-         with temperatures falling to around 77 in the afternoon. West southwest wind around 13 mph, with gusts as high as 22 mph.
-         Chance of precipitation is 70%.<br></div>
+         <h3>Tuesday</h3>Showers and thunderstorms. Mostly cloudy. High near 80, with temperatures falling to around 75 in the afternoon. Southwest
+         wind 6 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 63. North wind 2 to 9 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Tuesday Night</h3>Showers and thunderstorms likely before 7pm, then showers and thunderstorms likely between 7pm and 8pm, then a chance of showers
+         and thunderstorms between 8pm and 1am, then showers and thunderstorms likely. Mostly cloudy, with a low around 62. Southwest
+         wind 2 to 6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Showers and thunderstorms likely. Mostly cloudy, with a high near 80. South southeast wind 5 to 9 mph. Chance of precipitation
+         <h3>Wednesday</h3>Showers and thunderstorms likely. Mostly cloudy, with a high near 80. South southeast wind 3 to 9 mph. Chance of precipitation
          is 70%.<br></div>
    </p>
    <p>
