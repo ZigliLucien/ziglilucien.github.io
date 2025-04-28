@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1019227/" title="See Description">Valgrind-3.25.0 is available</a></li>
+<li><a href="#https://lwn.net/Articles/1019215/" title="See Description">OSI publishes election retrospective</a></li>
 <li><a href="#https://lwn.net/Articles/1018320/" title="See Description">[$] Inline socket-local storage for BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1019212/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1019110/" title="See Description">Kernel prepatch 6.15-rc4</a></li>
@@ -51,11 +53,60 @@
 <li><a href="#https://lwn.net/Articles/1018341/" title="See Description">[$] Freezing filesystems for suspend</a></li>
 <li><a href="#https://lwn.net/Articles/1018717/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1017842/" title="See Description">[$] LWN.net Weekly Edition for April 24, 2025</a></li>
-<li><a href="#https://lwn.net/Articles/1018082/" title="See Description">[$] Addressing UID/GID drift in rpm-ostree and bootc</a></li>
-<li><a href="#https://lwn.net/Articles/1018621/" title="See Description">NLnet announces funding for 42 FOSS projects</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1019227/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 28 Apr 2025 18:44:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019227/" title="https://lwn.net/Articles/1019227/">Valgrind-3.25.0 is available</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Version 3.25.0 of the <a href="https://valgrind.org/">Valgrind</a>
+dynamic-analysis tool has been released.  It has lots of new features,
+including initial support for RISC-V on Linux, handling zstd-compressed
+debug sections, integration of the <a
+href="https://linux-test-project.readthedocs.io/en/latest/">Linux Test
+Project</a> test suite, support for lots more Linux system calls, and more.
+It also has plenty of bug fixes, of course.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1019215/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 28 Apr 2025 17:28:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019215/" title="https://lwn.net/Articles/1019215/">OSI publishes election retrospective</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Open Source Initiative (OSI) has quietly published
+"<q>takeaways</q>" from its internal retrospective on the recent board
+of directors election as an <a
+href="https://opensource.org/blog/announcing-the-new-directors-of-osi-board#update">update</a>
+to the March <a
+href="https://opensource.org/blog/announcing-the-new-directors-of-osi-board">blog
+post</a> that announced the new members of the board. The election was
+controversial, in part, due to poor communication and OSI changing the
+election rules and disqualifying several candidates after the election
+finished. LWN <a href="https://lwn.net/Articles/1014603/">covered</a>
+the election and results in March. The update commits to improvements
+in communication and candidate selection:</p>
+
+<blockquote class="bq">
+What this election exposed was the need for the organization to also
+assess whether candidates were fully eligible to run and prepared to
+be seated on the board before voting begins. This is something we will
+add to the election timeline next year. While we have not finished
+figuring out all of the requirements for that assessment, part of it
+will be asking candidates to sign a Candidate Agreement at nomination
+time. We also have some ideas on ways for potential candidates to have
+more information even before submitting a nomination.
+</blockquote>
+
+<p>In a related note, there is a <a
+href="https://codeberg.org/OSI-Concerns/election-results-2025/">petition</a>
+asking OSI to publish the "<q>complete, unaltered</q>" results of the
+board of directors election. Thanks to Josh Triplett for the tip on
+the petition.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1018320/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 28 Apr 2025 14:57:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -232,65 +283,6 @@ email exchange with Bottomley.
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1018082/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 23 Apr 2025 17:05:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018082/" title="https://lwn.net/Articles/1018082/">[$] Addressing UID/GID drift in rpm-ostree and bootc</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Fedora Project is looking for solutions to an interesting
-problem with its image-based editions and spins, such as the <a
-href="https://fedoraproject.org/atomic-desktops/">Atomic Desktops</a>
-or <a href="https://fedoraproject.org/coreos/">CoreOS</a>, that are
-created with <a
-href="https://coreos.github.io/rpm-ostree/">rpm-ostree</a> or <a
-href="https://bootc-dev.github.io/bootc/">bootc</a>. If a package that
-is part of a image-based version has a user or group created
-dynamically on installation, and it owns files installed on the
-system, the system may be subject to user ID (UID) and group ID (GID) "drift"
-on updates. This  "<span class="nobreak">UID/GID drift</span>" may come about when a new image with
-updates is generated, and therefore files may have the wrong
-ownership. This can have side-effects ranging from mildly inconvenient to
-serious. No solutions have been adopted just yet, but there are a few
-ideas on how to deal with the problem.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1018621/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 23 Apr 2025 16:16:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018621/" title="https://lwn.net/Articles/1018621/">NLnet announces funding for 42 FOSS projects</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://nlnet.nl/">NLnet Foundation</a> has <a
-href="https://nlnet.nl/news/2025/20250422-announcement-grants-CommonsFund.html">announced</a>
-the projects that have received funding from its <a
-href="https://nlnet.nl/news/2024/20240601-call.html">October call</a>
-for grant proposals from the <a
-href="https://www.ngi.eu/ngi-projects/ngi-zero-commons-fund/">Next
-Generation Internet (NGI) Zero Commons Fund</a>.</p>
-
-<blockquote class="bq">
-The selected projects all contribute, one way or another, to the
-mission of the Commons Fund: reclaiming the public nature of the
-internet. For example, there are people working on interesting open
-hardware projects such as the tablet <a
-href="https://nlnet.nl/project/MNT-Reform-Touch/">MNT Reform Touch</a>
-and the <a href="https://nlnet.nl/project/Solar-FemtoTX/">Solar
-FemtoTX motherboard</a> — a collaborative effort to create an
-ultra-low power motherboard that can run on solar power. <a
-href="https://nlnet.nl/project/LLM2FPGA/">LLM2FPGA</a> aims to enable
-running open source LLMs locally on programmable chips ("FPGAs") using
-a fully open-source toolchain. <a
-href="https://nlnet.nl/project/bcachefs-crypto-API/">bcachefs</a>
-readies itself as the next generation filesystem for Linux, improving
-performance, scalability and reliability when compared to legacy
-filesystems.
-</blockquote>
-
-<p>In all, 42 projects have been selected for the NGI grants which are
-between &euro;5,000 and &euro;50,000. See the announcement for the
-full list of selected projects, and the <a
-href="https://nlnet.nl/project/current.html">current projects</a> page
-for other recent projects funded by NLnet.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
