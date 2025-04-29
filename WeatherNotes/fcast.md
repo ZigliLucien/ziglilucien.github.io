@@ -6,8 +6,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of showers and thunderstorms between 7am and 11am, then showers and thunderstorms. Mostly cloudy. High near 79, with
-         temperatures falling to around 75 in the afternoon. Southwest wind 6 to 10 mph, with gusts as high as 20 mph. Chance of precipitation
+         <h3>Tuesday</h3>A chance of showers and thunderstorms between 7am and 11am, then showers and thunderstorms. Mostly cloudy. High near 77, with
+         temperatures falling to around 74 in the afternoon. Southwest wind 6 to 10 mph, with gusts as high as 20 mph. Chance of precipitation
          is 80%.<br></div>
    </p>
    <p>
@@ -19,7 +19,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Showers and thunderstorms likely before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 78.
+         <h3>Wednesday</h3>Showers and thunderstorms likely before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 77.
          Southeast wind 3 to 8 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
