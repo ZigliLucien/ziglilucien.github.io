@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1019303/" title="See Description">Barnes: Parallel ./configure</a></li>
+<li><a href="#https://lwn.net/Articles/1018334/" title="See Description">[$] Cache awareness for the CPU scheduler</a></li>
+<li><a href="#https://lwn.net/Articles/1019255/" title="See Description">Signing key change for Kali Linux</a></li>
+<li><a href="#https://lwn.net/Articles/1019272/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1019227/" title="See Description">Valgrind-3.25.0 is available</a></li>
 <li><a href="#https://lwn.net/Articles/1019215/" title="See Description">OSI publishes election retrospective</a></li>
 <li><a href="#https://lwn.net/Articles/1018320/" title="See Description">[$] Inline socket-local storage for BPF</a></li>
@@ -49,13 +53,79 @@
 <li><a href="#https://lwn.net/Articles/1018913/" title="See Description">Four stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1018912/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1018826/" title="See Description">Debian Project Leader Election 2025 results</a></li>
-<li><a href="#https://lwn.net/Articles/1018486/" title="See Description">[$] Some __nonstring__ turbulence</a></li>
-<li><a href="#https://lwn.net/Articles/1018341/" title="See Description">[$] Freezing filesystems for suspend</a></li>
-<li><a href="#https://lwn.net/Articles/1018717/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1017842/" title="See Description">[$] LWN.net Weekly Edition for April 24, 2025</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1019303/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 29 Apr 2025 13:46:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019303/" title="https://lwn.net/Articles/1019303/">Barnes: Parallel ./configure</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Tavian Barnes <a href="https://tavianator.com/2025/configure.html">takes on
+the tedious process</a> of waiting for <tt>configure</tt> scripts to run.
+<p>
+<blockquote class="bq">
+	I paid good money for my 24 CPU cores, but ./configure can only
+	manage to use 69% of one of them. As a result, this random project
+	takes about 13.5× longer to <i>configure</i> the build than it does to
+	actually <i>do</i> the build.
+	<p>
+	The purpose of a ./configure script is basically to run the
+	compiler a bunch of times and check which runs succeeded. In this
+	way it can test whether particular headers, functions, struct
+	fields, etc. exist, which lets people write portable software. This
+	is an embarrassingly parallel problem, but Autoconf can't
+	parallelize it, and neither can CMake, neither can Meson, etc.,
+	etc.
+</blockquote>
+<p>
+(Thanks to Paul Wise).</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1018334/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 29 Apr 2025 12:30:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018334/" title="https://lwn.net/Articles/1018334/">[$] Cache awareness for the CPU scheduler</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's CPU scheduler has to balance a wide range of objectives.  The
+tasks in the system must be scheduled fairly, with latency for any given
+task kept within bounds.  All of the CPUs in the system should be kept busy
+if there is enough work to do, but unneeded CPUs should be shut down to
+reduce power consumption.  A task should also run on the CPU that is most
+likely to have cached the memory that task is using.  <a
+href="https://lwn.net/ml/all/cover.1745199017.git.yu.c.chen@intel.com">This patch
+series</a> from Chen Yu aims to improve how the scheduler handles cache
+locality for multi-threaded processes.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1019255/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 29 Apr 2025 12:05:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019255/" title="https://lwn.net/Articles/1019255/">Signing key change for Kali Linux</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Kali Linux distribution has <a
+href="https://www.kali.org/blog/new-kali-archive-signing-key/">announced</a>
+that software updates will soon start failing for all users:
+<p>
+<blockquote class="bq">
+	This is not only you, this is for everyone, and this is entirely
+	our fault. We lost access to the signing key of the repository, so
+	we had to create a new one. At the same time, we froze the
+	repository (you might have noticed that there was no update since
+	Friday 18th), so nobody was impacted yet. But we're going to
+	unfreeze the repository this week, and it's now signed with the new
+	key.
+</blockquote>
+<p>
+The announcement includes instructions for how to recover from the problem.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1019272/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 29 Apr 2025 12:04:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019272/" title="https://lwn.net/Articles/1019272/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (glibc, php:8.1, and thunderbird), <b>Debian</b> (libreoffice), <b>Fedora</b> (caddy), <b>Mageia</b> (chromium-browser-stable), <b>Red Hat</b> (php:8.1), <b>SUSE</b> (glow), and <b>Ubuntu</b> (kicad, linux-aws-5.15, linux-azure-nvidia, linux-gcp-5.15, mistral, python-mistral-lib, tomcat8, and trafficserver).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1019227/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 28 Apr 2025 18:44:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -220,69 +290,6 @@ href="https://lwn.net/Articles/1016107/">looked at the election and
 candidates</a> in early April.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1018486/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 24 Apr 2025 14:17:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018486/" title="https://lwn.net/Articles/1018486/">[$] Some __nonstring__ turbulence</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>New compiler releases often bring with them new warnings; those warnings
-are usually welcome, since they help developers find problems before they
-turn into nasty bugs.  Adapting to new warnings can also create disruption
-in the development process, though, especially when an important developer
-upgrades to a new compiler at an unfortunate time.  This is just the
-scenario that played out with the <a
-href="https://lwn.net/ml/all/CAHk-=wgjZ4fzDKogXwhPXVMA7OmZf9k0o1oB2FJmv-C1e=typA@mail.gmail.com/">6.15-rc3
-kernel release</a> and the implementation of
-<tt>-Wunterminated-string-initialization</tt> in GCC&#160;15.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1018341/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 24 Apr 2025 14:08:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018341/" title="https://lwn.net/Articles/1018341/">[$] Freezing filesystems for suspend</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Sometimes worms have a tendency to multiply once their can is opened.
-James Bottomley recently encountered that situation; he led a session in
-the filesystem track at the 2025 Linux Storage, Filesystem, Memory
-Management, and BPF Summit (LSFMM+BPF) to discuss filesystem behavior with
-respect to suspending and resuming the system.  As he noted in his <a
-href="https://lwn.net/ml/all/0a76e074ef262ca857c61175dd3d0dc06b67ec42.camel@HansenPartnership.com/">topic
-proposal</a>, he came at the problem because he needed a way to
-resynchronize the contents of <a
-href="https://www.kernel.org/doc/html/latest/filesystems/efivarfs.html">efivarfs</a>
-after a system resume and thought there should be an API available to use.
-But, as the resulting thread shows, the filesystem freeze and thaw code had
-never been used by the system-wide suspend and resume code.  Due to a
-scheduling mixup, though, several of us missed Bottomley's session,
-including Luis Chamberlain who has been working on hooking those two pieces
-up; what follows is largely from a second session that Chamberlain led,
-with some background information from the topic-proposal discussion and an
-email exchange with Bottomley.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1018717/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 24 Apr 2025 14:00:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018717/" title="https://lwn.net/Articles/1018717/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (haproxy and openrazer), <b>Fedora</b> (c-ares and mingw-poppler), <b>Red Hat</b> (thunderbird), <b>SUSE</b> (epiphany, ffmpeg-6, gopass, and libsoup-3_0-0), and <b>Ubuntu</b> (erlang, haproxy, libapache2-mod-auth-openidc, libarchive, linux, linux-aws, linux-azure, linux-azure-5.15, linux-azure-fde, linux-azure-fde-5.15, linux-gcp, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-intel-iotg, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-oracle, linux-raspi, linux, linux-aws, linux-azure, linux-azure-6.8, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle, linux-oracle-6.8, linux-aws-6.8, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure-fips, linux-gcp, linux-gke, linux-gkeop, linux-gcp-6.8, linux-ibm-5.15, linux-intel-iot-realtime, linux-realtime, linux-intel-iotg-5.15, linux-realtime, perl, and yelp, yelp-xsl).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1017842/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 24 Apr 2025 00:47:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017842/" title="https://lwn.net/Articles/1017842/">[$] LWN.net Weekly Edition for April 24, 2025</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1017842/">Front</a>: Owen Le Blanc and MCC; UID/GID drift; DMA for UIO; More LSFMM+BPF 2025 coverage.
-            <li> <a href="https://lwn.net/Articles/1017844/">Briefs</a>: EU OS; RISC-V Fedora; Ubuntu 25.04; NLnet funding; Template strings; Tor Browser 14.5; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1017845/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
