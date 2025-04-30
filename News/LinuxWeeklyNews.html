@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1018475/" title="See Description">[$] Better debugging information for inlined kernel functions</a></li>
+<li><a href="#https://lwn.net/Articles/1019479/" title="See Description">The conclusion of the FSF board review</a></li>
+<li><a href="#https://lwn.net/Articles/1019217/" title="See Description">How LWN is faring in 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1019457/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1019336/" title="See Description">LWN's Mastodon migration</a></li>
 <li><a href="#https://lwn.net/Articles/1019321/" title="See Description">Meson 1.8.0 released</a></li>
@@ -50,12 +53,62 @@
 <li><a href="#https://lwn.net/Articles/1019215/" title="See Description">OSI publishes election retrospective</a></li>
 <li><a href="#https://lwn.net/Articles/1018320/" title="See Description">[$] Inline socket-local storage for BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1019212/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1019110/" title="See Description">Kernel prepatch 6.15-rc4</a></li>
-<li><a href="#https://lwn.net/Articles/1019104/" title="See Description">OpenBSD 7.7 released</a></li>
-<li><a href="#https://lwn.net/Articles/1018497/" title="See Description">[$] Debian debates AI models and the DFSG</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1018475/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 30 Apr 2025 16:10:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018475/" title="https://lwn.net/Articles/1018475/">[$] Better debugging information for inlined kernel functions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Modern compilers perform a lot of optimizations, which can complicate debugging.
+Song Liu and Thierry Treyer spoke about a potential improvement to
+<a href="https://www.kernel.org/doc/html/latest/bpf/btf.html">
+BPF Type Format</a> (BTF) debugging information that could partially combat that
+problem at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit.
+They want to add information on selectively inlined functions to BTF in order to
+better support tracing tools.
+Treyer participated remotely.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1019479/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 30 Apr 2025 15:42:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019479/" title="https://lwn.net/Articles/1019479/">The conclusion of the FSF board review</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Free Software Foundation has <a
+href="https://www.fsf.org/news/fsf-board-member-review-completed">announced</a>
+the completion of the review of its board of directors; the process
+resulted in the reconfirmation of all five sitting board members.
+<p>
+<blockquote class="bq">
+	The review examined board members Ian Kelling, Geoffrey Knauth,
+	Henry Poole, Richard Stallman, and Gerald Sussman. The process
+	generated detailed philosophical and policy discussions between
+	board members and the FSF's global associate members on topics
+	ranging from the firmness of the Free Software Definition,
+	developments in machine learning, to the board's president
+	position.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1019217/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 30 Apr 2025 14:37:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019217/" title="https://lwn.net/Articles/1019217/">How LWN is faring in 2025</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Just over six months ago, The Economist described the US economy as "<a
+href="https://www.economist.com/special-report/2024-10-19">the envy of the
+world</a>".  That headline would be unlikely to appear now.  The economic
+boom referenced in that article feels like a distant memory, markets are
+falling, and uncertainty is at an all-time high.  Like everybody else, LWN
+is affected by the current turbulence in the political and economic
+spheres; we expect to get through this period, but there will be some
+challenges.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1019457/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 30 Apr 2025 13:33:39 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -244,47 +297,6 @@ about how the data should be laid out.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (thunderbird), <b>Debian</b> (distro-info-data, imagemagick, kernel, libsoup2.4, and poppler), <b>Fedora</b> (chromium, java-1.8.0-openjdk, java-1.8.0-openjdk-portable, java-17-openjdk, java-17-openjdk-portable, java-latest-openjdk, pgadmin4, thunderbird, and xz), <b>Mageia</b> (haproxy and libxml2), <b>Oracle</b> (bluez, firefox, gnutls, libtasn1, libxslt, mod_auth_openidc:2.3, ruby:3.1, thunderbird, and xmlrpc-c), <b>Red Hat</b> (delve and golang, glibc, mod_auth_openidc, mod_auth_openidc:2.3, and thunderbird), <b>SUSE</b> (augeas, chromedriver, cifs-utils, govulncheck-vulndb, java-11-openjdk, java-21-openjdk, kyverno, libraw, opentofu, runc, subfinder, and valkey), and <b>Ubuntu</b> (jupyter-notebook and libxml2).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1019110/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 27 Apr 2025 23:21:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019110/" title="https://lwn.net/Articles/1019110/">Kernel prepatch 6.15-rc4</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1019111/">6.15-rc4</a> kernel prepatch is out for
-testing.  "<q>So let's see if this rc ends up avoiding any silly issues -
-things certainly look pretty normal, and there were no hurried last-minute
-changes this week due to system upgrades</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1019104/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 27 Apr 2025 19:59:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019104/" title="https://lwn.net/Articles/1019104/">OpenBSD 7.7 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a
-href="https://undeadly.org/cgi?action=article;sid=20250427183032">OpenBSD
-7.7</a> release is available.  There is, as usual, a long list of changes;
-see <a href="https://www.openbsd.org/plus77.html">the full changelog</a>
-for lots of details.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1018497/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 25 Apr 2025 20:13:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018497/" title="https://lwn.net/Articles/1018497/">[$] Debian debates AI models and the DFSG</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Debian project is discussing a General Resolution (GR) that
-would, if approved, clarify that AI models must include training data
-to be compliant with the <a
-href="https://wiki.debian.org/DebianFreeSoftwareGuidelines">Debian
-Free Software Guidelines</a> (DFSG) and be distributed by Debian as
-free software. While GR discussions are sometimes contentious, the
-discussion around the proposal from Debian developer Mo&#160;Zhou has
-been anything <span class="nobreak">but&mdash;there</span> seems to be
-consensus that AI models are not <span
-class="nobreak">DFSG-compliant</span> if they lack training
-data. There are, however, some questions about the exact language and
-questions about the impact the GR will have on existing packages in
-the Debian archive.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
