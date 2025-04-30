@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of showers and thunderstorms before 1pm, then a slight chance of showers and thunderstorms. Mostly cloudy, with a
-         high near 78. South southeast wind 5 to 10 mph. Chance of precipitation is 50%.<br></div>
+         high near 78. South southeast wind 6 to 10 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
