@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1019230/" title="See Description">[$] Custom out-of-memory killers in BPF</a></li>
+<li><a href="#https://lwn.net/Articles/1019645/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1018680/" title="See Description">[$] LWN.net Weekly Edition for May 1, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1019520/" title="See Description">Albertson: Future of OSL in Jeopardy</a></li>
 <li><a href="#https://lwn.net/Articles/1019149/" title="See Description">[$] The mystery of the Mailman 2 CVEs</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1019303/" title="See Description">Barnes: Parallel ./configure</a></li>
 <li><a href="#https://lwn.net/Articles/1018334/" title="See Description">[$] Cache awareness for the CPU scheduler</a></li>
 <li><a href="#https://lwn.net/Articles/1019255/" title="See Description">Signing key change for Kali Linux</a></li>
-<li><a href="#https://lwn.net/Articles/1019272/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1019227/" title="See Description">Valgrind-3.25.0 is available</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1019230/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 01 May 2025 13:51:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019230/" title="https://lwn.net/Articles/1019230/">[$] Custom out-of-memory killers in BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The out-of-memory (OOM) killer has long been a scary and controversial part
+of the Linux kernel.  It is summoned from some dark place when the system
+as a whole (or, more recently, any given control group) is running so low
+on memory that further allocations are not possible; its job is to kill off
+processes until a sufficient amount of memory has been freed.  Roman
+Gushchin has found a way to make the OOM killer even scarier: adding the
+ability to <a
+href="https://lwn.net/ml/all/20250428033617.3797686-1-roman.gushchin@linux.dev">load
+custom OOM killers in BPF</a>.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1019645/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 01 May 2025 13:37:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019645/" title="https://lwn.net/Articles/1019645/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (expat, fig2dev, firefox-esr, golang-github-gorilla-csrf, jinja2, libxml2, nagvis, qemu, request-tracker4, request-tracker5, u-boot, and vips), <b>Fedora</b> (firefox, giflib, and thunderbird), <b>Mageia</b> (imagemagick), <b>Red Hat</b> (thunderbird), <b>SUSE</b> (amber-cli, libjxl, and redis), and <b>Ubuntu</b> (h2o, poppler, and postgresql-10).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1018680/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 01 May 2025 00:19:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -281,28 +305,6 @@ that software updates will soon start failing for all users:
 </blockquote>
 <p>
 The announcement includes instructions for how to recover from the problem.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1019272/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 29 Apr 2025 12:04:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019272/" title="https://lwn.net/Articles/1019272/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (glibc, php:8.1, and thunderbird), <b>Debian</b> (libreoffice), <b>Fedora</b> (caddy), <b>Mageia</b> (chromium-browser-stable), <b>Red Hat</b> (php:8.1), <b>SUSE</b> (glow), and <b>Ubuntu</b> (kicad, linux-aws-5.15, linux-azure-nvidia, linux-gcp-5.15, mistral, python-mistral-lib, tomcat8, and trafficserver).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1019227/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 28 Apr 2025 18:44:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019227/" title="https://lwn.net/Articles/1019227/">Valgrind-3.25.0 is available</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Version 3.25.0 of the <a href="https://valgrind.org/">Valgrind</a>
-dynamic-analysis tool has been released.  It has lots of new features,
-including initial support for RISC-V on Linux, handling zstd-compressed
-debug sections, integration of the <a
-href="https://linux-test-project.readthedocs.io/en/latest/">Linux Test
-Project</a> test suite, support for lots more Linux system calls, and more.
-It also has plenty of bug fixes, of course.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
