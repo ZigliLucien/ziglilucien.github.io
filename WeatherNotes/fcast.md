@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A slight chance of rain showers before 5pm, then a slight chance of showers and thunderstorms. Mostly sunny. High near 77,
-         with temperatures falling to around 75 in the afternoon. West southwest wind around 12 mph, with gusts as high as 21 mph.
+         with temperatures falling to around 75 in the afternoon. West southwest wind around 10 mph, with gusts as high as 20 mph.
          Chance of precipitation is 20%.<br></div>
    </p>
    <p>
