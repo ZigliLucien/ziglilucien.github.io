@@ -2,24 +2,19 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A slight chance of showers and thunderstorms. Mostly cloudy, with a low around 64. South southwest wind around 13 mph, with
-         gusts as high as 23 mph. Chance of precipitation is 20%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Thursday</h3>A slight chance of showers and thunderstorms. Partly sunny. High near 77, with temperatures falling to around 75 in the afternoon.
+         <h3>Today</h3>A slight chance of showers and thunderstorms. Partly sunny. High near 77, with temperatures falling to around 75 in the afternoon.
          Southwest wind 10 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms after 7pm. Partly cloudy. Low around 60, with temperatures rising to around 62 overnight.
+         <h3>Tonight</h3>A chance of showers and thunderstorms after 7pm. Partly cloudy. Low around 60, with temperatures rising to around 62 overnight.
          Southwest wind 3 to 8 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>A slight chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 1pm, then
-         a chance of showers and thunderstorms. Mostly cloudy, with a high near 73. West northwest wind around 6 mph. Chance of precipitation
-         is 40%.<br></div>
+         a chance of showers and thunderstorms. Mostly cloudy. High near 73, with temperatures falling to around 68 in the afternoon.
+         West northwest wind around 6 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -38,7 +33,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A slight chance of rain showers. Mostly sunny, with a high near 66. North northwest wind 6 to 9 mph.<br></div>
+         <h3>Sunday</h3>A slight chance of rain showers. Mostly sunny, with a high near 66. North northwest wind 6 to 9 mph. Chance of precipitation
+         is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -63,5 +59,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>A chance of rain showers. Mostly sunny, with a high near 76. Northwest wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>A chance of rain showers. Partly cloudy, with a low around 56. North wind around 6 mph.<br></div>
    </p>
 </div>
