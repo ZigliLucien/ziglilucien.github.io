@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1019686/" title="See Description">Redis is now available under the AGPLv3 open source license (Redis blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1019672/" title="See Description">Celebrating 20 Years of the OASIS Open Document Format</a></li>
 <li><a href="#https://lwn.net/Articles/1019230/" title="See Description">[$] Custom out-of-memory killers in BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1019645/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,34 @@
 <li><a href="#https://lwn.net/Articles/1019321/" title="See Description">Meson 1.8.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1019319/" title="See Description">Firefox 138.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1019303/" title="See Description">Barnes: Parallel ./configure</a></li>
-<li><a href="#https://lwn.net/Articles/1018334/" title="See Description">[$] Cache awareness for the CPU scheduler</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1019686/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 01 May 2025 17:47:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019686/" title="https://lwn.net/Articles/1019686/">Redis is now available under the AGPLv3 open source license (Redis blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>After a somewhat tumultuous <a href="https://lwn.net/Articles/966631/">switch to the
+Server Side Public License (SSPL)</a> in March 2024, Redis has backtracked
+and is now <a href="https://redis.io/blog/agplv3/">offering Redis under the
+Affero GPLv3 (AGPLv3)</a> starting with Redis&#160;8, CEO Rowan Trollope
+announced.  The change back to an open-source license was <a
+href="https://antirez.com/news/151">led by Redis creator Salvatore
+"antirez" Sanfillipo</a>, who also contributed the new Vector Sets feature for
+the release.   He said:
+
+<blockquote class="bq">
+I'll be honest: I truly wanted the code I wrote for the new Vector Sets data type to be released under an open source license. Writing open source software is too rooted in me: I rarely wrote anything else in my career. I'm too old to start now. This may be childish, but I wrote Vector Sets with a huge amount of enthusiasm exactly because I knew Redis (and my new work) was going to be open source again.
+<p>
+I understand that the core of our work is to improve Redis, to continue building a good system, useful, simple, able to change with the requirements of the software stack. Yet, returning back to an open source license is the basis for such efforts to be coherent with the Redis project, to be accepted by the user base, and to contribute to a human collective effort that is larger than any single company. So, honestly, while I can't take credit for the license switch, I hope I contributed a little bit to it, because today I'm happy. I'm happy that Redis is open source software again, under the terms of the AGPLv3 license.
+</blockquote>
+
+<p>
+Since last year's license switch, though, the <a
+href="https://valkey.io/">Valkey</a> project has sprung up as a fork under
+the original 3-clause BSD license.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1019672/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 01 May 2025 16:05:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -296,22 +321,6 @@ the tedious process</a> of waiting for <tt>configure</tt> scripts to run.
 </blockquote>
 <p>
 (Thanks to Paul Wise).</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1018334/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 29 Apr 2025 12:30:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018334/" title="https://lwn.net/Articles/1018334/">[$] Cache awareness for the CPU scheduler</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's CPU scheduler has to balance a wide range of objectives.  The
-tasks in the system must be scheduled fairly, with latency for any given
-task kept within bounds.  All of the CPUs in the system should be kept busy
-if there is enough work to do, but unneeded CPUs should be shut down to
-reduce power consumption.  A task should also run on the CPU that is most
-likely to have cached the memory that task is using.  <a
-href="https://lwn.net/ml/all/cover.1745199017.git.yu.c.chen@intel.com">This patch
-series</a> from Chen Yu aims to improve how the scheduler handles cache
-locality for multi-threaded processes.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
