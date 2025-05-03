@@ -2,11 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Scattered showers and thunderstorms. Partly sunny, with a high near 59. Northwest wind around 8 mph, with gusts as high as
-         21 mph. Chance of precipitation is 40%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>Scattered showers and thunderstorms before 7pm, then showers and thunderstorms. Mostly cloudy. Low around 48, with temperatures
          rising to around 50 overnight. North northwest wind around 10 mph, with gusts as high as 20 mph. Chance of precipitation is
          80%.<br></div>
@@ -18,8 +13,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of rain showers before 7pm. Mostly cloudy, with a low around 47. North northwest wind 2 to 9 mph. Chance of precipitation
-         is 40%.<br></div>
+         <h3>Sunday Night</h3>A chance of rain showers before 7pm. Mostly cloudy. Low around 47, with temperatures rising to around 49 overnight. North
+         northwest wind 2 to 9 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -37,7 +32,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of rain showers after 1am. Mostly cloudy, with a low around 56. East southeast wind around 3 mph.<br></div>
+         <h3>Tuesday Night</h3>A chance of rain showers after 1am. Mostly cloudy, with a low around 56. East southeast wind around 3 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -67,5 +63,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 51. North northeast wind around 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday</h3>A chance of rain showers. Mostly sunny, with a high near 74. North northeast wind around 7 mph.<br></div>
    </p>
 </div>
