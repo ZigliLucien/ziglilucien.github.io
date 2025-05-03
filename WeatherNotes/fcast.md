@@ -4,7 +4,7 @@
       <div style="font-size:120%">
          <h3>Today</h3>Showers and thunderstorms likely before 3pm, then a chance of showers and thunderstorms between 3pm and 4pm, then a chance
          of showers and thunderstorms. Mostly cloudy. High near 62, with temperatures falling to around 60 in the afternoon. Northwest
-         wind 7 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 70%.<br></div>
+         wind around 10 mph, with gusts as high as 20 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
