@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Showers and thunderstorms before 4pm, then scattered showers and thunderstorms. Partly sunny. High near 62, with temperatures
-         falling to around 60 in the afternoon. Northwest wind 7 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is
-         80%.<br></div>
+         falling to around 60 in the afternoon. Northwest wind around 10 mph, with gusts as high as 20 mph. Chance of precipitation
+         is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
