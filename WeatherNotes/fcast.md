@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of rain showers after 9am. Mostly cloudy. High near 60, with temperatures falling to around 58 in the afternoon.
-         North northwest wind 8 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 50%.<br></div>
+         North northwest wind around 13 mph, with gusts as high as 22 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
