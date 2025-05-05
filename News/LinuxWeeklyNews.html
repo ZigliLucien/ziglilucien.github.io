@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1018494/" title="See Description">[$] Injecting speculation barriers into BPF programs</a></li>
 <li><a href="#https://lwn.net/Articles/1020131/" title="See Description">Two stable kernels released—with build fixes only</a></li>
 <li><a href="#https://lwn.net/Articles/1020130/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1019996/" title="See Description">Kernel prepatch 6.15-rc5</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/1019520/" title="See Description">Albertson: Future of OSL in Jeopardy</a></li>
 <li><a href="#https://lwn.net/Articles/1019149/" title="See Description">[$] The mystery of the Mailman 2 CVEs</a></li>
 <li><a href="#https://lwn.net/Articles/1018475/" title="See Description">[$] Better debugging information for inlined kernel functions</a></li>
-<li><a href="#https://lwn.net/Articles/1019479/" title="See Description">The conclusion of the FSF board review</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1018494/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 05 May 2025 19:04:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1018494/" title="https://lwn.net/Articles/1018494/">[$] Injecting speculation barriers into BPF programs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The disclosure of the <a
+href="https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)">Spectre
+class of hardware vulnerabilities</a> created a lot of pain for kernel
+developers (and many others).  That pain was especially acutely felt in the
+BPF community.  While an attacker might have to painfully search the kernel
+code base for exploitable code, an attacker using BPF can simply write and
+load their own speculation gadgets, which is a much more efficient way of
+operating.  The BPF community reacted by, among other things, disallowing
+the loading of programs that may include speculation gadgets.  Luis
+Gerhorst would like to change that situation with <a
+href="https://lwn.net/ml/all/20250421091802.3234859-1-luis.gerhorst@fau.de">this patch
+series</a> that takes a more direct approach to the problem.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1020131/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 05 May 2025 13:39:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -286,26 +305,6 @@ better support tracing tools.
 Treyer participated remotely.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1019479/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 30 Apr 2025 15:42:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019479/" title="https://lwn.net/Articles/1019479/">The conclusion of the FSF board review</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Free Software Foundation has <a
-href="https://www.fsf.org/news/fsf-board-member-review-completed">announced</a>
-the completion of the review of its board of directors; the process
-resulted in the reconfirmation of all five sitting board members.
-<p>
-<blockquote class="bq">
-	The review examined board members Ian Kelling, Geoffrey Knauth,
-	Henry Poole, Richard Stallman, and Gerald Sussman. The process
-	generated detailed philosophical and policy discussions between
-	board members and the FSF's global associate members on topics
-	ranging from the firmness of the Free Software Definition,
-	developments in machine learning, to the board's president
-	position.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
