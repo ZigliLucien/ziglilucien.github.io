@@ -2,21 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly cloudy. Low around 47, with temperatures rising to around 49 overnight. Northwest wind around 3 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Monday</h3>A slight chance of showers and thunderstorms after 2pm. Mostly cloudy, with a high near 63. Northwest wind around 6 mph. Chance
+         <h3>Today</h3>A slight chance of showers and thunderstorms after 2pm. Mostly cloudy, with a high near 63. Northwest wind around 6 mph. Chance
          of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A slight chance of rain showers before 7pm. Partly cloudy. Low around 46, with temperatures rising to around 48 overnight.
-         West wind around 3 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Tonight</h3>A slight chance of rain showers before 7pm, then patchy fog. Partly cloudy. Low around 46, with temperatures rising to around
+         48 overnight. West wind around 3 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Mostly sunny, with a high near 73. West wind around 2 mph.<br></div>
+         <h3>Tuesday</h3>Patchy fog before 8am. Mostly sunny, with a high near 73. West wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -34,7 +30,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of rain showers after 1pm. Mostly sunny, with a high near 75. Northeast wind 3 to 7 mph.<br></div>
+         <h3>Thursday</h3>A chance of rain showers after 1pm. Mostly sunny, with a high near 75. Northeast wind 3 to 7 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -59,5 +56,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>A slight chance of rain showers after 1pm. Sunny, with a high near 77. Northeast wind around 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Sunday Night</h3>A slight chance of rain showers before 7pm. Mostly clear, with a low around 56. East northeast wind around 5 mph.<br></div>
    </p>
 </div>
