@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1020309/" title="See Description">The state of SSL stacks</a></li>
 <li><a href="#https://lwn.net/Articles/1020306/" title="See Description">The end of the USENIX Annual Technical Conference</a></li>
 <li><a href="#https://lwn.net/Articles/1020269/" title="See Description">Mission Center 1.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1018493/" title="See Description">[$] Filtering fanotify events with BPF</a></li>
@@ -52,10 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1019869/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1019784/" title="See Description">A pile of stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1019686/" title="See Description">Redis is now available under the AGPLv3 open source license (Redis blog)</a></li>
-<li><a href="#https://lwn.net/Articles/1019672/" title="See Description">Celebrating 20 Years of the OASIS Open Document Format</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1020309/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 07 May 2025 08:20:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020309/" title="https://lwn.net/Articles/1020309/">The state of SSL stacks</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Willy Tarreau and William Lallemand have posted <a
+href="https://www.haproxy.com/blog/state-of-ssl-stacks">an extensive white
+paper</a> examining the landscape of the available SSL implementations.
+<p>
+<blockquote class="bq">
+	OpenSSL 3.0 performs significantly worse than alternative SSL
+	libraries, forcing organizations to provision more hardware just to
+	maintain existing throughput. This raises important questions about
+	performance, energy efficiency, and operational costs.
+<p>
+	Examining alternatives—BoringSSL, LibreSSL, WolfSSL, and
+	AWS-LC—reveals a landscape of trade-offs. Each offers different
+	approaches to API compatibility, performance optimization, and QUIC
+	support. For developers navigating the modern SSL ecosystem,
+	understanding these trade-offs is crucial for optimizing
+	performance, maintaining compatibility, and future-proofing their
+	infrastructure.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1020306/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 07 May 2025 07:37:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -277,34 +301,6 @@ I understand that the core of our work is to improve Redis, to continue building
 Since last year's license switch, though, the <a
 href="https://valkey.io/">Valkey</a> project has sprung up as a fork under
 the original 3-clause BSD license.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1019672/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 01 May 2025 16:05:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019672/" title="https://lwn.net/Articles/1019672/">Celebrating 20 Years of the OASIS Open Document Format</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.documentfoundation.org/">The Document
-Foundation</a> is <a
-href="https://blog.documentfoundation.org/blog/2025/05/01/20-years-of-the-oasis-odf-standard/">celebrating</a>
-the 20th anniversary of the ratification of the Open Document Format
-(ODF) as an <a
-href="https://en.wikipedia.org/wiki/OASIS_%28organization%29">OASIS</a>
-standard.</p>
-
-<blockquote class="bq">
-<p>Two decades after its approval in 2005, ODF is the only open
-standard for office documents, promoting digital independence,
-interoperability and content transparency worldwide. [...]</p>
-
-<p>To celebrate this milestone, from today The Document Foundation
-will be publishing a series of presentations and documents on its blog
-that illustrate the unique features of ODF, tracing its history from
-the development and standardisation process through the activities of
-the Technical Committee for the submission of version 1.3 to ISO and
-the standardisation of version 1.4.</p>
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
