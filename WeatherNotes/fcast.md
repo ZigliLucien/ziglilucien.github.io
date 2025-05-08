@@ -2,14 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A chance of showers and thunderstorms. Mostly cloudy, with a high near 70. East wind around 7 mph. Chance of precipitation
-         is 40%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms likely before 7pm, then a chance of showers and thunderstorms between 7pm and 10pm, then showers
-         and thunderstorms likely. Cloudy. Low around 58, with temperatures rising to around 60 overnight. East northeast wind 2 to
-         6 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 10pm, then showers and thunderstorms likely. Cloudy. Low around 58, with temperatures
+         rising to around 60 overnight. East northeast wind around 5 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -17,8 +11,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Showers and thunderstorms likely before 7pm, then a slight chance of showers and thunderstorms. Mostly cloudy, with a low
-         around 54. North northeast wind around 8 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Thursday Night</h3>Showers and thunderstorms likely before 7pm, then a slight chance of showers and thunderstorms. Mostly cloudy. Low around
+         54, with temperatures rising to around 56 overnight. North northeast wind around 8 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -63,5 +57,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 62. South wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 83. South wind 6 to 10 mph.<br></div>
    </p>
 </div>
