@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1020452/" title="See Description">Fitti: Waiting for Postgres 18: Accelerating Disk Reads with Asynchronous I/O</a></li>
+<li><a href="#https://lwn.net/Articles/1019557/" title="See Description">[$] LWN.net Weekly Edition for May 8, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1020427/" title="See Description">Home Assistant 2025.5 released</a></li>
 <li><a href="#https://lwn.net/Articles/1019667/" title="See Description">[$] Hash table memory usage and a BPF interpreter bug</a></li>
 <li><a href="#https://lwn.net/Articles/1019898/" title="See Description">[$] Debian's AWKward essential set</a></li>
@@ -51,11 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1020222/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1020203/" title="See Description">A new AUTOSEL release</a></li>
 <li><a href="#https://lwn.net/Articles/1018494/" title="See Description">[$] Injecting speculation barriers into BPF programs</a></li>
-<li><a href="#https://lwn.net/Articles/1020131/" title="See Description">Two stable kernels released—with build fixes only</a></li>
-<li><a href="#https://lwn.net/Articles/1020130/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1020452/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 08 May 2025 06:11:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020452/" title="https://lwn.net/Articles/1020452/">Fitti: Waiting for Postgres 18: Accelerating Disk Reads with Asynchronous I/O</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Lukas Fitti <a
+href="https://pganalyze.com/blog/postgres-18-async-io">writes in detail</a>
+on the pganalyze blog about the asynchronous I/O capability coming with the
+PostgreSQL&#160;18 release.
+<p>
+<blockquote class="bq">
+	Asynchronous I/O delivers the most noticeable gains in cloud
+	environments where storage is network-attached, such as Amazon EBS
+	volumes. In these setups, individual disk reads often take multiple
+	milliseconds, introducing substantial latency compared to local
+	SSDs.
+<p>
+	With traditional synchronous I/O, each of these reads blocks query
+	execution until the data arrives, leading to idle CPU time and
+	degraded throughput. By contrast, asynchronous I/O allows Postgres
+	to issue multiple read requests in parallel and continue processing
+	while waiting for results. This reduces query latency and enables
+	much more efficient use of available I/O bandwidth and CPU cycles.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1019557/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 08 May 2025 05:19:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019557/" title="https://lwn.net/Articles/1019557/">[$] LWN.net Weekly Edition for May 8, 2025</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1019557/">Front</a>: Debian and essential packages; Custom BPF OOM killers; Speculation barriers for BPF programs; More LSFMM+BPF 2025 coverage.
+            <li> <a href="https://lwn.net/Articles/1019559/">Briefs</a>: Deepin on openSUSE; AUTOSEL; Mission Center 1.0.0; OASIS ODF; Redis license; USENIX ATC; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1019560/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1020427/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 07 May 2025 20:25:33 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -310,24 +350,6 @@ the loading of programs that may include speculation gadgets.  Luis
 Gerhorst would like to change that situation with <a
 href="https://lwn.net/ml/all/20250421091802.3234859-1-luis.gerhorst@fau.de">this patch
 series</a> that takes a more direct approach to the problem.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020131/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 05 May 2025 13:39:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020131/" title="https://lwn.net/Articles/1020131/">Two stable kernels released—with build fixes only</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1020132/">6.12.27</a> and <a
-href="https://lwn.net/Articles/1020133/">6.1.137</a> stable kernels have been released to
-fix build problems in their predecessors.  Only those who are having
-build troubles with 6.12.26 or 6.1.136 need to upgrade.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020130/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 05 May 2025 13:31:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020130/" title="https://lwn.net/Articles/1020130/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ansible, containerd, and vips), <b>Fedora</b> (chromium, java-17-openjdk, nodejs-bash-language-server, nodejs-pnpm, ntpd-rs, redis, rust-hickory-proto, thunderbird, and valkey), <b>Mageia</b> (apache-mod_auth_openidc, fcgi, graphicsmagick, kernel-linus, pam, poppler, and tomcat), <b>Red Hat</b> (firefox, libsoup, nodejs:20, redis:6, rsync, webkit2gtk3, xmlrpc-c, and yelp), and <b>SUSE</b> (audiofile, ffmpeg, firefox, libsoup-2_4-1, libsoup-3_0-0, libva, libxml2, and thunderbird).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
