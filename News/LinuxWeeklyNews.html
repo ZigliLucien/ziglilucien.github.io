@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1020653/" title="See Description">Security updates for Friday</a></li>
+<li><a href="#https://lwn.net/Articles/1020619/" title="See Description">GNOME Foundation announces new executive director</a></li>
 <li><a href="#https://lwn.net/Articles/1020170/" title="See Description">[$] A FUSE implementation for famfs</a></li>
 <li><a href="#https://lwn.net/Articles/1020545/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1020452/" title="See Description">Fittl: Waiting for Postgres 18: Accelerating Disk Reads with Asynchronous I/O</a></li>
@@ -51,11 +53,38 @@
 <li><a href="#https://lwn.net/Articles/1020306/" title="See Description">The end of the USENIX Annual Technical Conference</a></li>
 <li><a href="#https://lwn.net/Articles/1020269/" title="See Description">Mission Center 1.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1018493/" title="See Description">[$] Filtering fanotify events with BPF</a></li>
-<li><a href="#https://lwn.net/Articles/1019522/" title="See Description">[$] Improving FUSE writeback performance</a></li>
-<li><a href="#https://lwn.net/Articles/1020222/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1020653/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 09 May 2025 13:34:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020653/" title="https://lwn.net/Articles/1020653/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (fossil, libapache2-mod-auth-openidc, and request-tracker4), <b>Fedora</b> (thunderbird), <b>Mageia</b> (firefox and thunderbird), <b>SUSE</b> (389-ds, apparmor, cargo-c, chromium, go1.24, govulncheck-vulndb, java-1_8_0-openjdk, kanidm, libsoup, mozjs102, openssl-1_1, openssl-3, python-Django, sccache, tealdeer, tomcat, transfig, wasm-bindgen, and wireshark), and <b>Ubuntu</b> (libreoffice and python-h11).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1020619/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 09 May 2025 13:10:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020619/" title="https://lwn.net/Articles/1020619/">GNOME Foundation announces new executive director</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The GNOME Foundation has <a
+href="https://foundation.gnome.org/2025/05/09/gnome-foundation-welcomes-steven-deobald-as-executive-director/">announced</a>
+the hiring of Steven Deobald as its new executive director.</p>
+
+<blockquote class="bq">
+Steven has been a GNOME user since 2002 and has been involved in
+numerous free software initiatives throughout his career. His
+professional background spans technical leadership, cooperative
+business development, and nonprofit work. Having worked with projects
+like <a href="https://www.xtdb.com/">XTDB</a> and <a
+href="https://www.endatabas.com/">Endatabas</a>, he brings valuable
+experience in open source product development. Based in Halifax,
+Canada, Steven is well-positioned to collaborate with our global
+community across time zones.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1020170/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 08 May 2025 19:58:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -312,36 +341,6 @@ session of the filesystem and BPF tracks at the 2025 Linux Storage, Filesystem,
 Memory-Management, and BPF Summit. He wants to combine the best parts of a few
 different approaches to efficiently filter filesystem events.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1019522/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 06 May 2025 18:55:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019522/" title="https://lwn.net/Articles/1019522/">[$] Improving FUSE writeback performance</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In a combined filesystem and memory-management session at 
-the 2025 Linux Storage, Filesystem, Memory
-Management, and BPF Summit (LSFMM+BPF), Joanne Koong led a discussion on
-improving the writeback performance for the <a
-href="https://github.com/libfuse/libfuse?tab=readme-ov-file#libfuse">Filesystem in
-Userspace</a> (FUSE) layer.  Writeback is how data that is written to the
-filesystem is actually flushed to the disk; it is the process of writing
-dirty pages from the page cache to storage.  The current FUSE
-implementation allocates unmovable memory, then copies the dirty data to it
-before initiating writeback, which is slow; Koong wanted to change that
-behavior.  Since the session, she has <a
-href="https://lwn.net/ml/all/20250414222210.3995795-1-joannelkoong@gmail.com/">posted a
-patch set</a> that has been <a
-href="https://lwn.net/ml/all/CAJfpegveOFoL-XzDKQZZ4U6UF_AetNwTUDbfmf7rdJasRFm3xA@mail.gmail.com/">applied</a>
-by FUSE maintainer Miklos Szeredi.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020222/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 06 May 2025 10:18:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020222/" title="https://lwn.net/Articles/1020222/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (chromium and kappanhang), <b>Red Hat</b> (osbuild-composer and thunderbird), <b>SUSE</b> (chromedriver), and <b>Ubuntu</b> (c-ares, corosync, mysql-8.0, mysql-8.4, openjdk-17, openjdk-21, openjdk-24, openjdk-8, and openjdk-lts).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
