@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1020885/" title="See Description">Guix project migrating to Codeberg</a></li>
+<li><a href="#https://lwn.net/Articles/1020408/" title="See Description">[$] The last of YaST?</a></li>
+<li><a href="#https://lwn.net/Articles/1020884/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1020816/" title="See Description">Kernel prepatch 6.15-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1017720/" title="See Description">[$] A kernel developer plays with Home Assistant: general impressions</a></li>
 <li><a href="#https://lwn.net/Articles/1020668/" title="See Description">Albertson: OSL's path to sustainability</a></li>
@@ -50,12 +53,70 @@
 <li><a href="#https://lwn.net/Articles/1019557/" title="See Description">[$] LWN.net Weekly Edition for May 8, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1020427/" title="See Description">Home Assistant 2025.5 released</a></li>
 <li><a href="#https://lwn.net/Articles/1019667/" title="See Description">[$] Hash table memory usage and a BPF interpreter bug</a></li>
-<li><a href="#https://lwn.net/Articles/1019898/" title="See Description">[$] Debian's AWKward essential set</a></li>
-<li><a href="#https://lwn.net/Articles/1020407/" title="See Description">Deepin Desktop removed from openSUSE</a></li>
-<li><a href="#https://lwn.net/Articles/1020404/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1020885/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 12 May 2025 15:32:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020885/" title="https://lwn.net/Articles/1020885/">Guix project migrating to Codeberg</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://guix.gnu.org/">Guix</a> project has <a
+href="https://guix.gnu.org/blog/2025/migrating-to-codeberg/">announced</a>
+that it is migrating all of its Git repositories, as well as bug
+tracking and patch tracking, from <a
+href="https://savannah.gnu.org/projects/guix">Savannah</a> to the <a
+href="https://codeberg.org/guix">Codeberg</a> Git forge.</p>
+
+<blockquote class="bq">
+As a user, the main change is that your <tt>channels.scm</tt>
+configuration files, if they refer to the
+<tt>git.savannah.gnu.org</tt> URL, should be changed to refer to
+<tt>https://codeberg.org/guix/guix.git</tt> once migration is
+complete. But don't worry: <tt>guix&#160;pull</tt> will tell you
+if/when you need to update your config files and the old URL will
+remain a mirror for at least a year anyway.
+</blockquote>
+
+<p>The motivation for the move, which is spelled out in a <a
+href="https://archive.softwareheritage.org/browse/content/sha1_git:4d78cab341653e17db5f09beaf425f9634b5e81e/">Guix
+Consensus Document</a> (GCD), is to improve the contribution
+experience and improve quality assurance efforts. Migration of Git
+repositories should be completed by June&#160;7, though they will
+continue to be mirrored on Savannah until "<q>at least</q>" May&#160;2026. LWN <a
+href="https://lwn.net/Articles/962788/">covered</a> Guix in February&#160;2024.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1020408/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 12 May 2025 14:56:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020408/" title="https://lwn.net/Articles/1020408/">[$] The last of YaST?</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a
+href="https://news.opensuse.org/2025/04/30/leap-16-enters-beta/">announcement</a>
+of the openSUSE Leap 16.0 beta contained something of a
+surprise&mdash;along with the usual set of changes and updates, it
+informed the community of the retirement of "<q>the traditional YaST
+stack</q>" from Leap. The <a
+href="https://yast.opensuse.org/">YaST</a> ("Yet another Setup Tool")
+installation and configuration utility has been a core part of the
+openSUSE distribution since its <a
+href="https://lists.opensuse.org/archives/list/users@lists.opensuse.org/thread/32BBSXQNVTPBZFL5LWVFXBBESZU6WRMQ/">inception</a>
+in 2005, and part of SUSE Linux since 1996. It will not, immediately,
+be removed from the openSUSE&#160;Tumbleweed rolling-release
+distribution, but its future is uncertain and its fate is up to the larger
+community to decide.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1020884/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 12 May 2025 14:37:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020884/" title="https://lwn.net/Articles/1020884/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (libbson-xs-perl, postgresql-13, redis, and simplesamlphp), <b>Fedora</b> (chromium, deluge, epiphany, golang-github-nats-io-nkeys, libxmp, nodejs22, perl-Compress-Raw-Lzma, php-adodb, python-h11, and xz), <b>Gentoo</b> (firefox, NVIDIA Drivers, Orc, PAM, and thunderbird), <b>Mageia</b> (libreoffice, python-django, and transfig), <b>Red Hat</b> (emacs, firefox, python39:3.9, and thunderbird), <b>SUSE</b> (bird3, freetype2, ldap-proxy, libmosquitto1, and ruby3.4-rubygem-rack), and <b>Ubuntu</b> (linux, linux-aws, linux-kvm, linux-aws, and linux-fips).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1020816/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 12 May 2025 04:22:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,82 +322,6 @@ variants for different kinds of maps. When that proposal proved
 uncontroversial, he also took the chance to talk about a bug in BPF's call
 instruction.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1019898/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 07 May 2025 14:35:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019898/" title="https://lwn.net/Articles/1019898/">[$] Debian's AWKward essential set</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Debian project has the concept of <a
-href="https://www.debian.org/doc/debian-policy/ch-binary.html#essential-packages">essential
-packages</a>, which provide the bare minimum functionality considered
-absolutely necessary (or "essential") for a system to
-function. Packages tagged as essential, and the packages that are
-required by the set of essential packages, are always installed as
-part of a Debian system. However, Debian's packaging rules do not
-require developers to explicitly declare dependencies on that set of
-packages (the essential set) but they can simply rely on the fact that those
-will always be present. That means that changing the essential set, as
-the project may wish to do occasionally, is more complicated than it
-should be. This came to light recently when a Debian developer asked
-what might be required to remove <a
-href="https://linux.die.net/man/1/mawk"><tt>mawk</tt></a> to slim down
-the project's container images.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020407/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 07 May 2025 13:54:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020407/" title="https://lwn.net/Articles/1020407/">Deepin Desktop removed from openSUSE</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The SUSE Security Team has <a href="https://security.opensuse.org/2025/05/07/deepin-desktop-removal.html">announced</a> the removal of the Deepin
-Desktop from openSUSE due to violations of the project's packaging
-policy.</p>
-
-<blockquote class="bq">
-<p>The discovery of the bypass of the security whitelistings via the
-<tt>deepin-feature-enable</tt> package marks a turning point in our assessment
-of Deepin. We don't believe that the openSUSE Deepin packager acted
-with bad intent when he implemented the "license agreement" dialog to
-bypass our whitelisting restrictions. The dialog itself makes the
-security concerns we have transparent, so this does not happen in a
-sneaky way, at least not towards users. It was not discussed with us,
-however, and it violates openSUSE packaging policies. Beyond the
-security aspect, this also affects general packaging quality
-assurance: the D-Bus configuration files and Polkit policies installed
-by the <tt>deepin-feature-enable</tt> package are unknown to the package
-manager and won't be cleaned up upon package removal, for
-example. Such bypasses are not deemed acceptable by us.</p>
-
-<p>The combination of these factors led us to the decision to remove
-the Deepin desktop completely from openSUSE Tumbleweed and from the
-future Leap 16.0 release. In openSUSE Leap 15.6 we will remove the
-offending <tt>deepin-feature-enable</tt> package only. It is a difficult
-decision given that the Deepin desktop has a considerable number of
-users. We firmly believe the Deepin packaging and security assessment
-in openSUSE needs a reboot, however, ideally involving new people that
-can help get the Deepin packages into shape, establish a relationship
-with Deepin upstream and keep an eye on bugfixes, thus avoiding
-fruitless follow-up reviews that just waste our time. In such a new
-setup we would be willing to have a look at all the sensitive Deepin
-components again one by one.</p>
-</blockquote>
-
-<p>The announcement goes into detail about the bypass of
-openSUSE packaging policy and the history of security reviews of
-Deepin components. It also offers guidance on <a
-href="https://security.opensuse.org/2025/05/07/deepin-desktop-removal.html#5-how-to-continue-using-deepin-on-opensuse">continuing
-to use Deepin Desktop</a> on openSUSE.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020404/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 07 May 2025 13:05:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020404/" title="https://lwn.net/Articles/1020404/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (incus and nodejs20), <b>Red Hat</b> (freetype, kernel, kernel-rt, libsoup, libtiff, redis, redis:6, and thunderbird), <b>SUSE</b> (apparmor, chromium, grafana, ImageMagick, java-11-openjdk, java-17-openjdk, libsoup, libsoup2, libxslt, opensaml, rabbitmq-server, rubygem-rack-1_6, sqlite3, and thunderbird), and <b>Ubuntu</b> (kernel, libfcgi, libraw, libsoup2.4, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-aws, linux-aws-5.4, linux-azure-5.4, linux-gcp, linux-gcp-5.4, linux-hwe-5.4, linux-ibm, linux-kvm, linux-oracle, linux-oracle-5.4, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop, linux-hwe-6.8, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle, linux-oracle-6.8, linux, linux-aws, linux-aws-hwe, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gcp-6.11, linux-hwe-6.11, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oracle, linux-raspi, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-azure, linux-azure-4.15, linux-azure, linux-azure-5.15, linux-azure-fde, linux-azure-fde-5.15, linux-azure, linux-azure-6.11, linux-azure-6.8, linux-azure-fips, linux-intel-iot-realtime, linux-realtime, linux-oem-6.11, linux-raspi, linux-realtime, python, python-scrapy, and ruby-carrierwave).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
