@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1020816/" title="See Description">Kernel prepatch 6.15-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1017720/" title="See Description">[$] A kernel developer plays with Home Assistant: general impressions</a></li>
 <li><a href="#https://lwn.net/Articles/1020668/" title="See Description">Albertson: OSL's path to sustainability</a></li>
 <li><a href="#https://lwn.net/Articles/1020657/" title="See Description">Five more Friday stable kernels</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/1019898/" title="See Description">[$] Debian's AWKward essential set</a></li>
 <li><a href="#https://lwn.net/Articles/1020407/" title="See Description">Deepin Desktop removed from openSUSE</a></li>
 <li><a href="#https://lwn.net/Articles/1020404/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1020309/" title="See Description">The state of SSL stacks</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1020816/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 12 May 2025 04:22:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020816/" title="https://lwn.net/Articles/1020816/">Kernel prepatch 6.15-rc6</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1020815/">6.15-rc6</a> for testing.
+<p>
+<blockquote class="bq">
+	Everything still looks fairly normal - we've got a bit more commits
+	than we did in rc5, which isn't the trend I want to see as the
+	release progresses, but the difference isn't all that big and it
+	feels more like just the normal noise in timing fluctuation in pull
+	requests of fixes than any real signal.
+<p>
+	So I won't worry about it. We've got another two weeks to go in the
+	normal release schedule, and it still feels like everything is on
+	track.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1017720/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 09 May 2025 16:20:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -319,30 +338,6 @@ to use Deepin Desktop</a> on openSUSE.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (incus and nodejs20), <b>Red Hat</b> (freetype, kernel, kernel-rt, libsoup, libtiff, redis, redis:6, and thunderbird), <b>SUSE</b> (apparmor, chromium, grafana, ImageMagick, java-11-openjdk, java-17-openjdk, libsoup, libsoup2, libxslt, opensaml, rabbitmq-server, rubygem-rack-1_6, sqlite3, and thunderbird), and <b>Ubuntu</b> (kernel, libfcgi, libraw, libsoup2.4, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-aws, linux-aws-5.4, linux-azure-5.4, linux-gcp, linux-gcp-5.4, linux-hwe-5.4, linux-ibm, linux-kvm, linux-oracle, linux-oracle-5.4, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop, linux-hwe-6.8, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle, linux-oracle-6.8, linux, linux-aws, linux-aws-hwe, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gcp-6.11, linux-hwe-6.11, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oracle, linux-raspi, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-azure, linux-azure-4.15, linux-azure, linux-azure-5.15, linux-azure-fde, linux-azure-fde-5.15, linux-azure, linux-azure-6.11, linux-azure-6.8, linux-azure-fips, linux-intel-iot-realtime, linux-realtime, linux-oem-6.11, linux-raspi, linux-realtime, python, python-scrapy, and ruby-carrierwave).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020309/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 07 May 2025 08:20:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020309/" title="https://lwn.net/Articles/1020309/">The state of SSL stacks</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Willy Tarreau and William Lallemand have posted <a
-href="https://www.haproxy.com/blog/state-of-ssl-stacks">an extensive white
-paper</a> examining the landscape of the available SSL implementations.
-<p>
-<blockquote class="bq">
-	OpenSSL 3.0 performs significantly worse than alternative SSL
-	libraries, forcing organizations to provision more hardware just to
-	maintain existing throughput. This raises important questions about
-	performance, energy efficiency, and operational costs.
-<p>
-	Examining alternatives—BoringSSL, LibreSSL, WolfSSL, and
-	AWS-LC—reveals a landscape of trade-offs. Each offers different
-	approaches to API compatibility, performance optimization, and QUIC
-	support. For developers navigating the modern SSL ecosystem,
-	understanding these trade-offs is crucial for optimizing
-	performance, maintaining compatibility, and future-proofing their
-	infrastructure.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
