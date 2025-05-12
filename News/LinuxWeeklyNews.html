@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1020901/" title="See Description">Multiple security issues in Screen</a></li>
 <li><a href="#https://lwn.net/Articles/1020885/" title="See Description">Guix project migrating to Codeberg</a></li>
 <li><a href="#https://lwn.net/Articles/1020408/" title="See Description">[$] The last of YaST?</a></li>
 <li><a href="#https://lwn.net/Articles/1020884/" title="See Description">Security updates for Monday</a></li>
@@ -52,10 +53,42 @@
 <li><a href="#https://lwn.net/Articles/1020452/" title="See Description">Fittl: Waiting for Postgres 18: Accelerating Disk Reads with Asynchronous I/O</a></li>
 <li><a href="#https://lwn.net/Articles/1019557/" title="See Description">[$] LWN.net Weekly Edition for May 8, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1020427/" title="See Description">Home Assistant 2025.5 released</a></li>
-<li><a href="#https://lwn.net/Articles/1019667/" title="See Description">[$] Hash table memory usage and a BPF interpreter bug</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1020901/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 12 May 2025 20:58:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020901/" title="https://lwn.net/Articles/1020901/">Multiple security issues in Screen</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The SUSE Security Team has <a
+href="https://security.opensuse.org/2025/05/12/screen-security-issues.html">published</a>
+an article detailing several <a
+href="https://security.opensuse.org/2025/05/12/screen-security-issues.html#3-security-issues">security
+issues</a> it has uncovered with GNU <a
+href="https://www.gnu.org/software/screen/">Screen</a>. This includes
+a local root exploit when Screen is shipped setuid-root, as it is in
+some Linux and BSD distributions. The security team also reports <a
+href="https://security.opensuse.org/2025/05/12/screen-security-issues.html#6-problematic-coordinated-disclosure-process-and-upstream-status">problems
+in coordinating disclosure</a> with the upstream Screen project.</p>
+
+<blockquote class="bq">
+We are not satisfied with how this coordinated disclosure developed,
+and we will try to be more attentive to such problematic situations
+early on in the future. This experience also sheds light on the
+overall situation of Screen upstream. It looks like it suffers from a
+lack of manpower and expertise, which is worrying for such a
+widespread open source utility. We hope this publication can help to
+draw attention to this and to improve this situation in the future.
+</blockquote>
+
+<p>The article includes a <a
+href="https://security.opensuse.org/2025/05/12/screen-security-issues.html#7-affectedness-matrix">table</a>
+of operating systems, screen versions, and which vulnerabilities they
+may be affected by.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1020885/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 12 May 2025 15:32:48 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -307,22 +340,6 @@ href="https://www.home-assistant.io/blog/2025/05/07/release-20255/">Version
 With this release, the project is celebrating two&#160;million active
 installations.  Changes include improvements to the backup system, Z-Wave
 Long Range support, a number of new integrations, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1019667/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 07 May 2025 16:46:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019667/" title="https://lwn.net/Articles/1019667/">[$] Hash table memory usage and a BPF interpreter bug</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Anton Protopopov led a short discussion at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit about amount of memory used
-by hash tables in BPF programs. He thinks that the current memory layout is
-inefficient, and wants to split the structure that holds table entries into two
-variants for different kinds of maps. When that proposal proved
-uncontroversial, he also took the chance to talk about a bug in BPF's call
-instruction.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
