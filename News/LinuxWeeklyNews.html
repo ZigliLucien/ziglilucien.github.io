@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1019885/" title="See Description">[$] A look at what's possible with BPF arenas</a></li>
 <li><a href="#https://lwn.net/Articles/1021016/" title="See Description">Nextcloud claims Google is being anticompetitive</a></li>
 <li><a href="#https://lwn.net/Articles/1020948/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1020901/" title="See Description">Multiple security issues in Screen</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/1020619/" title="See Description">GNOME Foundation announces new executive director</a></li>
 <li><a href="#https://lwn.net/Articles/1020170/" title="See Description">[$] A FUSE implementation for famfs</a></li>
 <li><a href="#https://lwn.net/Articles/1020545/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1020452/" title="See Description">Fittl: Waiting for Postgres 18: Accelerating Disk Reads with Asynchronous I/O</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1019885/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 13 May 2025 20:44:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019885/" title="https://lwn.net/Articles/1019885/">[$] A look at what's possible with BPF arenas</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://lwn.net/Articles/961941/">
+BPF arenas</a> are areas of memory where the verifier can safely relax its checking of
+pointers, allowing programmers to write arbitrary data structures in BPF. Emil
+Tsalapatis reported on how his team has used arenas in writing
+<a href="https://lwn.net/Articles/922405/">
+sched_ext schedulers</a> at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit. His biggest complaint was about the fact that
+kernel pointers can't be stored in BPF arenas — something that the BPF
+developers hope to address, although there are some implementation problems that
+must be sorted out first.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1021016/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 13 May 2025 19:55:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -332,31 +351,6 @@ by using other kernel features.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, libapache2-mod-auth-openidc, mariadb-10.5, and openssh), <b>Red Hat</b> (osbuild-composer), <b>Slackware</b> (mariadb), <b>SUSE</b> (apache2-mod_auth_openidc, glib2, ImageMagick, libsoup, libsoup2, libva, openvpn, sqlite3, and weblate), and <b>Ubuntu</b> (libsoup3, php-horde-css-parser, and python-django).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020452/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 08 May 2025 06:11:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020452/" title="https://lwn.net/Articles/1020452/">Fittl: Waiting for Postgres 18: Accelerating Disk Reads with Asynchronous I/O</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Lukas Fittl <a
-href="https://pganalyze.com/blog/postgres-18-async-io">writes in detail</a>
-on the pganalyze blog about the asynchronous I/O capability coming with the
-PostgreSQL&#160;18 release.
-<p>
-<blockquote class="bq">
-	Asynchronous I/O delivers the most noticeable gains in cloud
-	environments where storage is network-attached, such as Amazon EBS
-	volumes. In these setups, individual disk reads often take multiple
-	milliseconds, introducing substantial latency compared to local
-	SSDs.
-<p>
-	With traditional synchronous I/O, each of these reads blocks query
-	execution until the data arrives, leading to idle CPU time and
-	degraded throughput. By contrast, asynchronous I/O allows Postgres
-	to issue multiple read requests in parallel and continue processing
-	while waiting for results. This reduces query latency and enables
-	much more efficient use of available I/O bandwidth and CPU cycles.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
