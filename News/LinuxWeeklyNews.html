@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1020437/" title="See Description">[$] A new DMA-mapping API</a></li>
+<li><a href="#https://lwn.net/Articles/1021354/" title="See Description">Oniux: kernel-level Tor isolation for Linux applications</a></li>
+<li><a href="#https://lwn.net/Articles/1021379/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1020448/" title="See Description">[$] LWN.net Weekly Edition for May 15, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1020571/" title="See Description">[$] The future of Flatpak</a></li>
 <li><a href="#https://lwn.net/Articles/1021217/" title="See Description">Podman 5.5.0 released</a></li>
@@ -50,12 +53,66 @@
 <li><a href="#https://lwn.net/Articles/1020885/" title="See Description">Guix project migrating to Codeberg</a></li>
 <li><a href="#https://lwn.net/Articles/1020408/" title="See Description">[$] The last of YaST?</a></li>
 <li><a href="#https://lwn.net/Articles/1020884/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1020816/" title="See Description">Kernel prepatch 6.15-rc6</a></li>
-<li><a href="#https://lwn.net/Articles/1017720/" title="See Description">[$] A kernel developer plays with Home Assistant: general impressions</a></li>
-<li><a href="#https://lwn.net/Articles/1020668/" title="See Description">Albertson: OSL's path to sustainability</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1020437/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 15 May 2025 14:26:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020437/" title="https://lwn.net/Articles/1020437/">[$] A new DMA-mapping API</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Leon Romanovsky began his session at the 2025 Linux Storage, Filesystem,
+Memory Management, and BPF Summit (LSFMM+BPF) by explaining that the improved DMA-mapping API that he has been
+working on is a group effort.  He, Chaitanya Kulkarni, Christoph Hellwig,
+Jason Gunthorpe, and others are proposing to modernize the API and to
+"<q>make it more suitable for current kernels</q>".  He told the assembled
+storage and filesystem developers that the progress on the proposal has
+stalled, but that it was the basis for further work in various areas, so he
+hoped to find a way to move forward with it.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1021354/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 15 May 2025 14:19:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021354/" title="https://lwn.net/Articles/1021354/">Oniux: kernel-level Tor isolation for Linux applications</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Tor project has <a
+href="https://blog.torproject.org/introducing-oniux-tor-isolation-using-linux-namespaces/">announced</a>
+the <a href="https://gitlab.torproject.org/tpo/core/oniux#oniux">oniux</a> utility which provides Tor network isolation, using Linux
+namespaces, for third-party applications.</p>
+
+<blockquote class="bq">
+<p>Namespaces are a powerful feature that gives us the ability to
+isolate Tor network access of an arbitrary application. We put each
+application in a network namespace that doesn't provide access to
+system-wide network interfaces (such as eth0), and instead provides a
+custom network interface onion0.</p>
+
+<p>This allows us to isolate an arbitrary application over Tor in the
+most secure way possible software-wise, namely by relying on a
+security primitive offered by the operating system kernel. Unlike
+SOCKS, the application cannot accidentally leak data by failing to
+make some connection via the configured SOCKS, which may happen due to
+a mistake by the developer.</p>
+</blockquote>
+
+<p>The Tor project cautions that oniux is considered experimental as
+the software it depends on, such as <a
+href="https://tpo.pages.torproject.net/core/arti/about">Arti</a> and
+<a
+href="https://gitlab.torproject.org/tpo/core/onionmasq#onionmasq---masquerading-onions">onionmasq</a>,
+are still new.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1021379/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 15 May 2025 14:18:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021379/" title="https://lwn.net/Articles/1021379/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (open-vm-tools), <b>Fedora</b> (dnsdist), <b>Gentoo</b> (Node.js and Tracker miners), <b>Red Hat</b> (kernel and xdg-utils), <b>SUSE</b> (audiofile, go1.22-openssl, go1.24, grub2, kernel-devel, openssl-1_1, openssl-3, and python311-Django), and <b>Ubuntu</b> (ruby-rack).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1020448/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 15 May 2025 00:59:14 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -291,73 +348,6 @@ community to decide.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (libbson-xs-perl, postgresql-13, redis, and simplesamlphp), <b>Fedora</b> (chromium, deluge, epiphany, golang-github-nats-io-nkeys, libxmp, nodejs22, perl-Compress-Raw-Lzma, php-adodb, python-h11, and xz), <b>Gentoo</b> (firefox, NVIDIA Drivers, Orc, PAM, and thunderbird), <b>Mageia</b> (libreoffice, python-django, and transfig), <b>Red Hat</b> (emacs, firefox, python39:3.9, and thunderbird), <b>SUSE</b> (bird3, freetype2, ldap-proxy, libmosquitto1, and ruby3.4-rubygem-rack), and <b>Ubuntu</b> (linux, linux-aws, linux-kvm, linux-aws, and linux-fips).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020816/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 12 May 2025 04:22:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020816/" title="https://lwn.net/Articles/1020816/">Kernel prepatch 6.15-rc6</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1020815/">6.15-rc6</a> for testing.
-<p>
-<blockquote class="bq">
-	Everything still looks fairly normal - we've got a bit more commits
-	than we did in rc5, which isn't the trend I want to see as the
-	release progresses, but the difference isn't all that big and it
-	feels more like just the normal noise in timing fluctuation in pull
-	requests of fixes than any real signal.
-<p>
-	So I won't worry about it. We've got another two weeks to go in the
-	normal release schedule, and it still feels like everything is on
-	track.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1017720/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 09 May 2025 16:20:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1017720/" title="https://lwn.net/Articles/1017720/">[$] A kernel developer plays with Home Assistant: general impressions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Those of us who have spent our lives playing with computers naturally see
-the appeal of deploying them though the home for both data acquisition and
-automation.  But many of us who have watched the evolution of the
-technology industry are increasingly unwilling to entrust critical
-household functions to cloud-based servers run by companies that may not
-have our best interests at heart.  The Apache-licensed <a
-href="https://www.home-assistant.io/">Home Assistant</a> project offers a
-welcome alternative: locally controlled automation with free software.
-This two-part series covers roughly a year of Home Assistant use, starting
-with a set of overall observations about the project.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020668/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 09 May 2025 15:49:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020668/" title="https://lwn.net/Articles/1020668/">Albertson: OSL's path to sustainability</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Lance Albertson <a
-href="https://osuosl.org/blog/osl-future-update/">writes</a> that the
-Oregon State University Open Source Lab has been funded for the next
-year, following his <a
-href="https://lwn.net/Articles/1019520/">announcement</a> in April
-that the future of OSL was in jeopardy. OSL is now focusing on
-becoming self-sustainable long term.</p>
-
-<blockquote class="bq">
-<p>The recent support was amazing for our immediate team needs. But
-for the OSL to thrive long-term, we need a sustainable financial
-foundation. This is crucial, as the university expects units like ours
-to become self-sufficient beyond this current year.</p>
-
-<p>So, our big focus this next year is locking in ongoing support –
-think annualized pledges, different kinds of regular income, and other
-recurring help. This is vital, especially with potential new data
-center costs and hardware needs. Getting this right means we can stop
-worrying about short-term funding and plan for the future: investing
-in our tech and people, growing our awesome student programs, and
-serving the FOSS community. We're looking for partners, big and small,
-who get why foundational open source infrastructure matters and want
-to help us build this sustainable future together.</p>
-</blockquote>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
