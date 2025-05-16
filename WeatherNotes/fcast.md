@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Showers and thunderstorms likely. Some of the storms could be severe and produce heavy rain. Mostly sunny. High near 86, with
-         temperatures falling to around 80 in the afternoon. Southwest wind around 17 mph, with gusts as high as 30 mph. Chance of
+         temperatures falling to around 80 in the afternoon. Southwest wind around 16 mph, with gusts as high as 30 mph. Chance of
          precipitation is 70%.<br></div>
    </p>
    <p>
