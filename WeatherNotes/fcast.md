@@ -4,7 +4,7 @@
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A chance of showers and thunderstorms between 3pm and 4pm, then showers and thunderstorms between 4pm and 5pm, then a chance
          of showers and thunderstorms. Some of the storms could be severe and produce heavy rain. Mostly sunny. High near 86, with
-         temperatures falling to around 80 in the afternoon. South southwest wind 12 to 17 mph, with gusts as high as 30 mph. Chance
+         temperatures falling to around 80 in the afternoon. South southwest wind 13 to 17 mph, with gusts as high as 30 mph. Chance
          of precipitation is 80%.<br></div>
    </p>
    <p>
