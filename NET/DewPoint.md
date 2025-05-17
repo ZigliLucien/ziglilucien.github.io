@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 81.0 F. <strong>Dew Point</strong> 63.0 F.</div>
+<div id='c'><strong>Temp</strong> 68.0 F. <strong>Dew Point</strong> 46.0 F.</div>
 
 <p/><br/><p/>
 
@@ -1611,3 +1611,20 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Fri May 16 15:08:05 2025 | 84.0 F. | 70.0 F.|
 | Fri May 16 16:08:04 2025 | 80.1 F. | 70.0 F.|
 | Fri May 16 17:08:04 2025 | 81.0 F. | 63.0 F.|
+| Fri May 16 18:08:05 2025 | 81.0 F. | 63.0 F.|
+| Fri May 16 19:08:05 2025 | 70.0 F. | 62.1 F.|
+| Fri May 16 20:08:04 2025 | 70.0 F. | 62.1 F.|
+| Fri May 16 21:08:04 2025 | 68.0 F. | 64.9 F.|
+| Fri May 16 22:08:04 2025 | 66.0 F. | 64.9 F.|
+| Fri May 16 23:08:04 2025 | 68.0 F. | 64.0 F.|
+| Sat May 17 00:08:04 2025 | 68.0 F. | 64.0 F.|
+| Sat May 17 01:08:05 2025 | 64.9 F. | 57.0 F.|
+| Sat May 17 02:08:05 2025 | 64.9 F. | 57.0 F.|
+| Sat May 17 03:08:05 2025 | 66.0 F. | 51.1 F.|
+| Sat May 17 04:08:05 2025 | 64.9 F. | 50.0 F.|
+| Sat May 17 05:08:04 2025 | 64.9 F. | 50.0 F.|
+| Sat May 17 06:08:05 2025 | 60.1 F. | 50.0 F.|
+| Sat May 17 07:08:05 2025 | 64.9 F. | 44.1 F.|
+| Sat May 17 08:08:05 2025 | 64.9 F. | 46.0 F.|
+| Sat May 17 09:08:05 2025 | 66.0 F. | 45.0 F.|
+| Sat May 17 10:08:05 2025 | 68.0 F. | 46.0 F.|
