@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A slight chance of rain showers before 1pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 82.
-         Southeast wind 7 to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.<br></div>
+         <h3>This Afternoon</h3>A chance of showers and thunderstorms after 5pm. Mostly sunny, with a high near 82. Southeast wind around 10 mph, with gusts
+         as high as 18 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
