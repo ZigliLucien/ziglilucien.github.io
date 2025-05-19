@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1021594/" title="See Description">Kernel prepatch 6.15-rc7</a></li>
 <li><a href="#https://lwn.net/Articles/1021568/" title="See Description">Five more stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1017945/" title="See Description">[$] A kernel developer plays with Home Assistant: case studies</a></li>
 <li><a href="#https://lwn.net/Articles/1021484/" title="See Description">An Asahi Linux 6.15 progress report</a></li>
@@ -52,10 +53,19 @@
 <li><a href="#https://lwn.net/Articles/1021217/" title="See Description">Podman 5.5.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1017705/" title="See Description">[$] Faster firewalls with bpfilter</a></li>
 <li><a href="#https://lwn.net/Articles/1021199/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1019885/" title="See Description">[$] A look at what's possible with BPF arenas</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1021594/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 19 May 2025 06:03:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021594/" title="https://lwn.net/Articles/1021594/">Kernel prepatch 6.15-rc7</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1021593/">6.15-rc7</a> kernel prepatch is out for
+testing.  "<q>So while I wish we hadn't had some of the excitement of last
+week, on the whole it all still looks pretty solid, and unless something
+strange happens I'll do the final 6.15 release next weekend.</q>"</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1021568/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 18 May 2025 08:26:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,25 +294,6 @@ be faster than other mechanisms.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (emacs, firefox, gnutls, java-17-openjdk, java-21-openjdk, osbuild-composer, python39:3.9, and thunderbird), <b>Arch Linux</b> (screen), <b>Debian</b> (varnish), <b>Fedora</b> (chromium), <b>Gentoo</b> (Atop, FreeType, and Spidermonkey), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-latest-openjdk and postgresql15, postgresql13), <b>Oracle</b> (389-ds-base, emacs, firefox, kernel, libsoup, libtiff, mod_auth_openidc:2.3, nodejs:20, nodejs:22, osbuild-composer, python39:3.9, qemu-kvm, ruby, ruby:3.1, ruby:3.3, and thunderbird), <b>Red Hat</b> (.NET 8.0, .NET 9.0, avahi, buildah, corosync, delve and golang, exiv2, expat, firefox, ghostscript, gimp, git, grafana, gvisor-tap-vsock, java-21-openjdk, kernel, kernel-rt, libarchive, libjpeg-turbo, libsoup, libsoup3, libxslt, mod_auth_openidc, nginx, nginx:1.22, nginx:1.24, nodejs22, nodejs:20, nodejs:22, opentelemetry-collector, osbuild-composer, perl, php, php:8.2, php:8.3, podman, python-jinja2, redis, redis:7, rhc, ruby:2.5, skopeo, sqlite, thunderbird, tomcat, tomcat9, valkey, vim, xorg-x11-server-Xwayland, xterm, xz, yelp, and yggdrasil), <b>Slackware</b> (screen), <b>SUSE</b> (apparmor, dirmngr, gimp, golang-github-prometheus-node_exporter, java-11-openj9, java-17-openj9, java-21-openj9, libxmp-devel, python311-Django4, rabbitmq-server313, rke2, and transfig), and <b>Ubuntu</b> (abseil and open-vm-tools).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1019885/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 13 May 2025 20:44:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1019885/" title="https://lwn.net/Articles/1019885/">[$] A look at what's possible with BPF arenas</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://lwn.net/Articles/961941/">
-BPF arenas</a> are areas of memory where the verifier can safely relax its checking of
-pointers, allowing programmers to write arbitrary data structures in BPF. Emil
-Tsalapatis reported on how his team has used arenas in writing
-<a href="https://lwn.net/Articles/922405/">
-sched_ext schedulers</a> at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit. His biggest complaint was about the fact that
-kernel pointers can't be stored in BPF arenas — something that the BPF
-developers hope to address, although there are some implementation problems that
-must be sorted out first.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
