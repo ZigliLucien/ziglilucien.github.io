@@ -2,11 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A chance of showers and thunderstorms. Mostly cloudy. High near 82, with temperatures falling to around 80 in the afternoon.
-         Southeast wind around 10 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms likely before 5am, then showers and thunderstorms likely. Some of the storms could produce heavy
          rain. Mostly cloudy. Low around 68, with temperatures rising to around 70 overnight. South southeast wind around 12 mph, with
          gusts as high as 22 mph. Chance of precipitation is 70%.<br></div>
@@ -19,8 +14,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 7pm. Some of the storms could be severe. Mostly clear, with a low around 56.
-         West wind 6 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 7pm. Some of the storms could be severe. Mostly clear. Low around 56, with temperatures
+         rising to around 58 overnight. West wind 6 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -65,5 +60,9 @@
       <div style="font-size:120%">
          <h3>Sunday Night</h3>A chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 1am, then a chance
          of showers and thunderstorms. Mostly cloudy, with a low around 58. Southeast wind around 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Memorial Day</h3>Showers and thunderstorms likely. Partly sunny, with a high near 74. South southwest wind around 9 mph.<br></div>
    </p>
 </div>
