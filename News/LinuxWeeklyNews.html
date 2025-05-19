@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1021745/" title="See Description">Go cryptography security audit (The Go Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1020596/" title="See Description">[$] Reports from OSPM 2025, day one</a></li>
 <li><a href="#https://lwn.net/Articles/1021740/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1021594/" title="See Description">Kernel prepatch 6.15-rc7</a></li>
@@ -52,10 +53,45 @@
 <li><a href="#https://lwn.net/Articles/1021379/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1020448/" title="See Description">[$] LWN.net Weekly Edition for May 15, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1020571/" title="See Description">[$] The future of Flatpak</a></li>
-<li><a href="#https://lwn.net/Articles/1021217/" title="See Description">Podman 5.5.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1021745/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 19 May 2025 17:48:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021745/" title="https://lwn.net/Articles/1021745/">Go cryptography security audit (The Go Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Roland Shoemaker has published a <a
+href="https://go.dev/blog/tob-crypto-audit">blog post</a> about a
+recent security audit of the cryptography packages shipped as part of
+the Go standard library. The audit, performed by the <a
+href="https://www.trailofbits.com/">Trail of Bits</a> security firm,
+uncovered one low-severity vulnerability in the legacy <a
+href="https://go.dev/doc/security/fips140#goboringcrypto">Go+BoringCrypto</a>
+integration, as well as a handful of informational findings.</p>
+
+<blockquote class="bq">
+<p>During the review, there were a number of questions about our
+cgo-based Go+BoringCrypto integration, which provides a FIPS 140-2
+compliant cryptography mode for internal usage at Google. The
+Go+BoringCrypto code is not supported by the Go team for external use,
+but has been critical for Google's internal usage of Go.</p>
+
+<p>The Trail of Bits team found one vulnerability and <a
+href="https://go.dev/cl/644120">one non-security relevant bug</a>,
+both of which were results of the manual memory management required to
+interact with a C library. Since the Go team does not support usage of
+this code outside of Google, we have chosen not to issue a CVE or Go
+vulnerability database entry for this issue, but we <a
+href="https://go.dev/cl/644119">fixed it in the Go 1.25 development
+tree</a>.</p>
+</blockquote>
+
+<p>The entire report is <a
+href="https://github.com/trailofbits/publications/blob/d47e8fafa7e3323e5620d228f2f3f3bf58ed5978/reviews/2025-03-google-gocryptographiclibraries-securityreview.pdf">available</a>
+as a PDF for those who enjoy a little light security reading.</p>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1020596/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 19 May 2025 16:26:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -274,25 +310,6 @@ Fedora. However, he worried that work on the Flatpak project itself
 had stagnated, and that there were too few developers able to review
 and merge code beyond basic maintenance.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1021217/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 14 May 2025 17:37:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021217/" title="https://lwn.net/Articles/1021217/">Podman 5.5.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://github.com/containers/podman/releases/tag/v5.5.0">Version
-5.5.0</a> of the <a href="https://podman.io/">Podman</a> container-management tool has been
-released. Notable features include the addition of a <tt>podman&#160;machine&#160;cp</tt> command to copy files into a running <a
-href="https://docs.podman.io/en/v5.2.2/markdown/podman-machine.1.html">Podman
-VM</a>, a <tt>podman&#160;artifact&#160;extract</tt> command to copy
-contents of an <a
-href="https://blog.podman.io/2025/01/podman-introduces-support-for-oci-artifacts/">OCI
-artifact</a> to disk, and a <tt>--mount=artifact</tt> option to mount
-OCI artifacts into containers. See the release announcement for a full
-list of improvements and bug fixes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
