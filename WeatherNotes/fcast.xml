@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-05-20T22:36:02+00:00</generatedAt>
-		<updateTime type="str">2025-05-20T22:02:08+00:00</updateTime>
-		<validTimes type="str">2025-05-20T16:00:00+00:00/P7DT15H</validTimes>
+		<generatedAt type="str">2025-05-20T23:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-05-20T23:18:01+00:00</updateTime>
+		<validTimes type="str">2025-05-20T17:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,25 +51,6 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">This Afternoon</name>
-				<startTime type="str">2025-05-20T17:00:00-05:00</startTime>
-				<endTime type="str">2025-05-20T18:00:00-05:00</endTime>
-				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">80</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="str"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">30</value>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">13 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,30?size=medium</icon>
-				<shortForecast type="str">Scattered Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">Scattered showers and thunderstorms. Sunny. High near 80, with temperatures falling to around 78 in the afternoon. Southwest wind around 13 mph, with gusts as high as 21 mph. Chance of precipitation is 30%.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
 				<name type="str">Tonight</name>
 				<startTime type="str">2025-05-20T18:00:00-05:00</startTime>
 				<endTime type="str">2025-05-21T06:00:00-05:00</endTime>
@@ -84,11 +65,11 @@
 				<windSpeed type="str">6 to 10 mph</windSpeed>
 				<windDirection type="str">W</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,30/few?size=medium</icon>
-				<shortForecast type="str">Scattered Showers And Thunderstorms then Mostly Clear</shortForecast>
-				<detailedForecast type="str">Scattered showers and thunderstorms before 8pm. Mostly clear, with a low around 56. West wind 6 to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.</detailedForecast>
+				<shortForecast type="str">Chance Showers And Thunderstorms then Mostly Clear</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 8pm. Mostly clear, with a low around 56. West wind 6 to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
+				<number type="int">2</number>
 				<name type="str">Wednesday</name>
 				<startTime type="str">2025-05-21T06:00:00-05:00</startTime>
 				<endTime type="str">2025-05-21T18:00:00-05:00</endTime>
@@ -107,7 +88,7 @@
 				<detailedForecast type="str">Sunny, with a high near 74. West wind 7 to 17 mph, with gusts as high as 28 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Wednesday Night</name>
 				<startTime type="str">2025-05-21T18:00:00-05:00</startTime>
 				<endTime type="str">2025-05-22T06:00:00-05:00</endTime>
@@ -126,7 +107,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 54. West northwest wind 6 to 10 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Thursday</name>
 				<startTime type="str">2025-05-22T06:00:00-05:00</startTime>
 				<endTime type="str">2025-05-22T18:00:00-05:00</endTime>
@@ -145,7 +126,7 @@
 				<detailedForecast type="str">Sunny, with a high near 68. Northwest wind 7 to 14 mph, with gusts as high as 23 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Thursday Night</name>
 				<startTime type="str">2025-05-22T18:00:00-05:00</startTime>
 				<endTime type="str">2025-05-23T06:00:00-05:00</endTime>
@@ -164,7 +145,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 48. Northwest wind 2 to 9 mph, with gusts as high as 18 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Friday</name>
 				<startTime type="str">2025-05-23T06:00:00-05:00</startTime>
 				<endTime type="str">2025-05-23T18:00:00-05:00</endTime>
@@ -183,7 +164,7 @@
 				<detailedForecast type="str">Mostly sunny, with a high near 70. Northwest wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Friday Night</name>
 				<startTime type="str">2025-05-23T18:00:00-05:00</startTime>
 				<endTime type="str">2025-05-24T06:00:00-05:00</endTime>
@@ -193,16 +174,16 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="null"/>
+					<value type="int">30</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/rain_showers,30?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers after 7pm. Mostly cloudy, with a low around 54. East wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of rain showers after 7pm. Mostly cloudy, with a low around 54. East wind around 3 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Saturday</name>
 				<startTime type="str">2025-05-24T06:00:00-05:00</startTime>
 				<endTime type="str">2025-05-24T18:00:00-05:00</endTime>
@@ -221,7 +202,7 @@
 				<detailedForecast type="str">A chance of rain showers before 7am, then showers and thunderstorms likely. Mostly cloudy, with a high near 70. East southeast wind 3 to 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Saturday Night</name>
 				<startTime type="str">2025-05-24T18:00:00-05:00</startTime>
 				<endTime type="str">2025-05-25T06:00:00-05:00</endTime>
@@ -240,7 +221,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely. Mostly cloudy, with a low around 60. East southeast wind around 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Sunday</name>
 				<startTime type="str">2025-05-25T06:00:00-05:00</startTime>
 				<endTime type="str">2025-05-25T18:00:00-05:00</endTime>
@@ -259,7 +240,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely. Mostly cloudy, with a high near 72. East southeast wind around 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">12</number>
+				<number type="int">11</number>
 				<name type="str">Sunday Night</name>
 				<startTime type="str">2025-05-25T18:00:00-05:00</startTime>
 				<endTime type="str">2025-05-26T06:00:00-05:00</endTime>
@@ -278,7 +259,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely. Mostly cloudy, with a low around 56. Northeast wind around 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">13</number>
+				<number type="int">12</number>
 				<name type="str">Memorial Day</name>
 				<startTime type="str">2025-05-26T06:00:00-05:00</startTime>
 				<endTime type="str">2025-05-26T18:00:00-05:00</endTime>
@@ -297,7 +278,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely. Mostly cloudy, with a high near 69. North northeast wind around 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2025-05-26T18:00:00-05:00</startTime>
 				<endTime type="str">2025-05-27T06:00:00-05:00</endTime>
@@ -314,6 +295,25 @@
 				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly cloudy, with a low around 55. North northeast wind 5 to 8 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Tuesday</name>
+				<startTime type="str">2025-05-27T06:00:00-05:00</startTime>
+				<endTime type="str">2025-05-27T18:00:00-05:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">71</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="str"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="null"/>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">8 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers?size=medium</icon>
+				<shortForecast type="str">Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A chance of rain showers. Mostly sunny, with a high near 71. North wind around 8 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
