@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1020266/" title="See Description">[$] An update on continuous testing of BPF kernel patches</a></li>
+<li><a href="#https://lwn.net/Articles/1020968/" title="See Description">[$] Debian AI General Resolution withdrawn</a></li>
 <li><a href="#https://lwn.net/Articles/1021827/" title="See Description">Red Hat Enterprise Linux 10 released</a></li>
 <li><a href="#https://lwn.net/Articles/1021812/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1021745/" title="See Description">Go cryptography security audit (The Go Blog)</a></li>
@@ -51,11 +53,39 @@
 <li><a href="#https://lwn.net/Articles/1021462/" title="See Description">In Memoriam: John L. Young (EFF)</a></li>
 <li><a href="#https://lwn.net/Articles/1021400/" title="See Description">Rust 1.87.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1020437/" title="See Description">[$] A new DMA-mapping API</a></li>
-<li><a href="#https://lwn.net/Articles/1021354/" title="See Description">Oniux: kernel-level Tor isolation for Linux applications</a></li>
-<li><a href="#https://lwn.net/Articles/1021379/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1020266/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 20 May 2025 17:51:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020266/" title="https://lwn.net/Articles/1020266/">[$] An update on continuous testing of BPF kernel patches</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Ihor Solodrai has been working on the BPF subsystem's continuous-integration
+(CI) testing for the last six months. At the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit, he remotely shared
+an update on his work, and solicited feedback on how the tests could be further
+improved. Much of the work he's done has been specific to the BPF subsystem, but
+some is more generic and could potentially be of use to other subsystems. He
+also shared some general lessons learned from working on the BPF CI tests.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1020968/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 20 May 2025 17:38:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020968/" title="https://lwn.net/Articles/1020968/">[$] Debian AI General Resolution withdrawn</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Despite careful planning and months of warning, Debian developer Mo
+Zhou has acknowledged that the project needs more time to grapple with
+the questions around AI models and the Debian Free Software Guidelines
+(DFSG). For now, he has withdrawn his proposed General Resolution (GR)
+that would have required the original training data for AI models to
+be released in order to be considered DFSG-compliant&mdash;though the
+debates on the topic continue.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1021827/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 20 May 2025 14:58:10 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,48 +308,6 @@ Jason Gunthorpe, and others are proposing to modernize the API and to
 storage and filesystem developers that the progress on the proposal has
 stalled, but that it was the basis for further work in various areas, so he
 hoped to find a way to move forward with it.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1021354/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 15 May 2025 14:19:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021354/" title="https://lwn.net/Articles/1021354/">Oniux: kernel-level Tor isolation for Linux applications</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Tor project has <a
-href="https://blog.torproject.org/introducing-oniux-tor-isolation-using-linux-namespaces/">announced</a>
-the <a href="https://gitlab.torproject.org/tpo/core/oniux#oniux">oniux</a> utility which provides Tor network isolation, using Linux
-namespaces, for third-party applications.</p>
-
-<blockquote class="bq">
-<p>Namespaces are a powerful feature that gives us the ability to
-isolate Tor network access of an arbitrary application. We put each
-application in a network namespace that doesn't provide access to
-system-wide network interfaces (such as eth0), and instead provides a
-custom network interface onion0.</p>
-
-<p>This allows us to isolate an arbitrary application over Tor in the
-most secure way possible software-wise, namely by relying on a
-security primitive offered by the operating system kernel. Unlike
-SOCKS, the application cannot accidentally leak data by failing to
-make some connection via the configured SOCKS, which may happen due to
-a mistake by the developer.</p>
-</blockquote>
-
-<p>The Tor project cautions that oniux is considered experimental as
-the software it depends on, such as <a
-href="https://tpo.pages.torproject.net/core/arti/about">Arti</a> and
-<a
-href="https://gitlab.torproject.org/tpo/core/onionmasq#onionmasq---masquerading-onions">onionmasq</a>,
-are still new.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1021379/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 15 May 2025 14:18:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021379/" title="https://lwn.net/Articles/1021379/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (open-vm-tools), <b>Fedora</b> (dnsdist), <b>Gentoo</b> (Node.js and Tracker miners), <b>Red Hat</b> (kernel and xdg-utils), <b>SUSE</b> (audiofile, go1.22-openssl, go1.24, grub2, kernel-devel, openssl-1_1, openssl-3, and python311-Django), and <b>Ubuntu</b> (ruby-rack).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
