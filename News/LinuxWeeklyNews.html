@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1022040/" title="See Description">Status report on optional Rust in FreeBSD support</a></li>
+<li><a href="#https://lwn.net/Articles/1020576/" title="See Description">[$] Recent disruptive changes from Setuptools</a></li>
 <li><a href="#https://lwn.net/Articles/1022030/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1020266/" title="See Description">[$] An update on continuous testing of BPF kernel patches</a></li>
 <li><a href="#https://lwn.net/Articles/1020968/" title="See Description">[$] Debian AI General Resolution withdrawn</a></li>
@@ -51,11 +53,62 @@
 <li><a href="#https://lwn.net/Articles/1017945/" title="See Description">[$] A kernel developer plays with Home Assistant: case studies</a></li>
 <li><a href="#https://lwn.net/Articles/1021484/" title="See Description">An Asahi Linux 6.15 progress report</a></li>
 <li><a href="#https://lwn.net/Articles/1021482/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1021462/" title="See Description">In Memoriam: John L. Young (EFF)</a></li>
-<li><a href="#https://lwn.net/Articles/1021400/" title="See Description">Rust 1.87.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1022040/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 21 May 2025 15:57:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022040/" title="https://lwn.net/Articles/1022040/">Status report on optional Rust in FreeBSD support</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Shawn Webb has published a <a
+href="https://hardenedbsd.org/article/shawn-webb/2025-05-20/optional-rust-freebsd-support-may-2025-status-report">status
+report</a> on work to provide basic support in FreeBSD for userland components
+written in Rust.</p>
+
+<blockquote class="bq">
+We introduced a new BSD makefile, located at <a
+href="https://git.hardenedbsd.org/hardenedbsd/HardenedBSD/-/blob/hardened/current/rust-in-base/share/mk/bsd.rust.mk"><tt>share/mk/bsd.rust.mk</tt></a>,
+that enables building a Rust application during buildworld. As of this
+writing, we only support building and installing Rust
+applications. Supporting library crates is planned (we would like to
+be able to build/install library crates that expose an FFI, like for
+<span class="nobreak">C/C++ compatibility</span>). Normal library crates build and install just
+fine. Support for cdylib Rust library crates specifically is what's
+missing, but is desired and planned.</p>
+
+<p>We do NOT currently support Rust in the kernel. Kernel support
+requires more work that we deemed out-of-scope for this initial
+proof-of-concept/work-in-progress patchset. We also do NOT support
+building multiple programs in the same BSD Makefile (like with
+bsd.progs.mk), though that is also a desired feature.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/985210/">covered</a> a
+discussion about including Rust in the FreeBSD base system in August
+2024.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1020576/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 21 May 2025 15:11:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020576/" title="https://lwn.net/Articles/1020576/">[$] Recent disruptive changes from Setuptools</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>In late March, <a
+href="https://pypi.org/project/setuptools/78.0.1/">version 78.0.1</a> of <a
+href="https://setuptools.pypa.io/en/latest/">Setuptools</a> — an important
+Python packaging tool — was released. It was scarcely half an hour before
+<a href="https://github.com/pypa/setuptools/issues/4910">the first bug
+report</a> came in, and it quickly became clear that the change was far
+more disruptive than anticipated. Within only about five hours <a
+href="https://setuptools.pypa.io/en/latest/history.html#v78-0-2">78.0.2 was
+published to roll back the change</a>, and multiple discussions were
+started about how to limit the damage caused by future breaking
+changes. Nevertheless, many users still felt the response was
+inadequate. Some previous Setuptools releases have also caused problems on a smaller but still notable scale, and hopefully the developers will be more cautious going forward. But there are also lessons here for the developers of Python package installers, ordinary Python developers and end users, and even Linux distribution maintainers.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1022030/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 21 May 2025 13:13:48 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -268,40 +321,6 @@ collaboration with the kernel community.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, kernel, kernel-rt, redis:6, and yelp and yelp-xsl), <b>Debian</b> (chromium), <b>Red Hat</b> (compat-openssl11, kernel, and thunderbird), and <b>SUSE</b> (nbdkit, open-vm-tools, and rustup).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1021462/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 16 May 2025 08:26:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021462/" title="https://lwn.net/Articles/1021462/">In Memoriam: John L. Young (EFF)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Electronic Frontier Foundation has posted a somewhat belated <a
-href="https://www.eff.org/deeplinks/2025/05/memoriam-john-l-young-cryptome-co-founder">memorial
-for John Young</a>, the founder of Cryptome.
-<p>
-<blockquote class="bq">
-	John was one of the early, under-recognized heroes of the digital
-	age. He not only saw the promise of digital technology to help
-	democratize access to information, he brought that idea into being
-	and nurtured it for many years.  We will miss him and his
-	unswerving commitment to the public's right to know.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1021400/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 15 May 2025 19:26:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021400/" title="https://lwn.net/Articles/1021400/">Rust 1.87.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>To commemorate the tenth anniversary of the <a
-href="https://blog.rust-lang.org/2015/05/15/Rust-1.0/">1.0 release</a>
-of the Rust language,
-<a
-href="https://blog.rust-lang.org/2025/05/15/Rust-1.87.0/">version
-1.87.0</a> was announced live today at the <a
-href="https://2025.rustweek.org/celebration/">10 Years of Rust</a>
-celebration in Utrecht, Netherlands. Notable changes
-include the addition of anonymous pipes to the standard library and
-the ability for inline assembly (<tt>asm!</tt>) to jump to labeled
-blocks within Rust code.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
