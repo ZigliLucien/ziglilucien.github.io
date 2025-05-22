@@ -29,7 +29,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Showers and thunderstorms. Cloudy, with a high near 64. East wind around 9 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Sunday</h3>Showers and thunderstorms. Cloudy, with a high near 64. East wind around 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
