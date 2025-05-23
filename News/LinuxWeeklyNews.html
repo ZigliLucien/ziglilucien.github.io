@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1022352/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1022263/" title="See Description">Mozilla is shutting down Pocket</a></li>
 <li><a href="#https://lwn.net/Articles/1022252/" title="See Description">Home Assistant deprecates the "core" and "supervised" installation modes</a></li>
 <li><a href="#https://lwn.net/Articles/1022243/" title="See Description">Fedora Council overturns FESCo provenpackager decision</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1020968/" title="See Description">[$] Debian AI General Resolution withdrawn</a></li>
 <li><a href="#https://lwn.net/Articles/1021827/" title="See Description">Red Hat Enterprise Linux 10 released</a></li>
 <li><a href="#https://lwn.net/Articles/1021812/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1021745/" title="See Description">Go cryptography security audit (The Go Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1022352/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 23 May 2025 12:34:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022352/" title="https://lwn.net/Articles/1022352/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (dotnet9.0, dropbear, ghostscript, nbdkit, openssh, python-watchfiles, rpm-ostree, yelp, yelp-xsl, and zsync), <b>Oracle</b> (firefox and kernel), <b>Red Hat</b> (osbuild-composer), <b>Slackware</b> (aaa_glibc and mozilla), <b>SUSE</b> (chromedriver, open-vm-tools, postgresql14, python-cryptography, and thunderbird), and <b>Ubuntu</b> (linux-aws, linux-hwe-5.4, python, and sqlite3).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1022263/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 22 May 2025 19:30:55 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -304,42 +312,6 @@ at what would be in the RHEL&#160;10 release.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr, openjdk-11, openjdk-17, and wireless-regdb), <b>Fedora</b> (iputils, open-vm-tools, sfnt2woff-zopfli, and woff), <b>Red Hat</b> (postgresql:12), <b>SUSE</b> (apache2-mod_auth_openidc, brltty, helm, python-maturin, and rubygem-rack), and <b>Ubuntu</b> (linux-azure-fips).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1021745/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 19 May 2025 17:48:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021745/" title="https://lwn.net/Articles/1021745/">Go cryptography security audit (The Go Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Roland Shoemaker has published a <a
-href="https://go.dev/blog/tob-crypto-audit">blog post</a> about a
-recent security audit of the cryptography packages shipped as part of
-the Go standard library. The audit, performed by the <a
-href="https://www.trailofbits.com/">Trail of Bits</a> security firm,
-uncovered one low-severity vulnerability in the legacy <a
-href="https://go.dev/doc/security/fips140#goboringcrypto">Go+BoringCrypto</a>
-integration, as well as a handful of informational findings.</p>
-
-<blockquote class="bq">
-<p>During the review, there were a number of questions about our
-cgo-based Go+BoringCrypto integration, which provides a FIPS 140-2
-compliant cryptography mode for internal usage at Google. The
-Go+BoringCrypto code is not supported by the Go team for external use,
-but has been critical for Google's internal usage of Go.</p>
-
-<p>The Trail of Bits team found one vulnerability and <a
-href="https://go.dev/cl/644120">one non-security relevant bug</a>,
-both of which were results of the manual memory management required to
-interact with a C library. Since the Go team does not support usage of
-this code outside of Google, we have chosen not to issue a CVE or Go
-vulnerability database entry for this issue, but we <a
-href="https://go.dev/cl/644119">fixed it in the Go 1.25 development
-tree</a>.</p>
-</blockquote>
-
-<p>The entire report is <a
-href="https://github.com/trailofbits/publications/blob/d47e8fafa7e3323e5620d228f2f3f3bf58ed5978/reviews/2025-03-google-gocryptographiclibraries-securityreview.pdf">available</a>
-as a PDF for those who enjoy a little light security reading.</p>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
