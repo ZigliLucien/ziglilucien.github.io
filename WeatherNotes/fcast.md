@@ -2,21 +2,22 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Rain showers likely. Mostly cloudy, with a high near 65. East northeast wind 6 to 9 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Today</h3>Rain showers. Cloudy, with a high near 65. East wind around 8 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of rain showers. Mostly cloudy, with a low around 57. East northeast wind around 9 mph. Chance of precipitation is
-         40%.<br></div>
+         <h3>Tonight</h3>A chance of rain showers. Cloudy, with a low around 57. East northeast wind around 9 mph, with gusts as high as 18 mph. Chance
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Memorial Day</h3>Rain showers likely before 4pm, then showers and thunderstorms likely. Mostly cloudy, with a high near 66. East northeast
-         wind around 10 mph, with gusts as high as 18 mph. Chance of precipitation is 60%.<br></div>
+         wind 8 to 13 mph, with gusts as high as 20 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Showers and thunderstorms likely. Cloudy, with a low around 59. East wind 6 to 9 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Monday Night</h3>Showers and thunderstorms likely. Cloudy, with a low around 59. East northeast wind 6 to 10 mph, with gusts as high as 20
+         mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
