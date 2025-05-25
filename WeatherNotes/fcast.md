@@ -2,17 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A chance of rain showers. Mostly cloudy, with a low around 58. East southeast wind around 5 mph. Chance of precipitation is
-         50%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of rain showers before 7am, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 69. East
+         <h3>Today</h3>A chance of rain showers before 7am, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 69. East
          northeast wind 5 to 9 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 57. East northeast wind around 9 mph. Chance of precipitation
+         <h3>Tonight</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 57. East northeast wind around 9 mph. Chance of precipitation
          is 50%.<br></div>
    </p>
    <p>
@@ -32,7 +27,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday Night</h3>Showers and thunderstorms likely before 7pm, then a chance of showers and thunderstorms between 7pm and 10pm, then a chance
-         of showers and thunderstorms between 10pm and 1am. Mostly cloudy, with a low around 59. West northwest wind around 6 mph.<br></div>
+         of showers and thunderstorms between 10pm and 1am. Mostly cloudy, with a low around 59. West northwest wind around 6 mph.
+         Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +57,10 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A slight chance of showers and thunderstorms after 1pm. Sunny, with a high near 82. Northwest wind around 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 60. West northwest wind around 6
+         mph.<br></div>
    </p>
 </div>
