@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1022414/" title="See Description">[$] Development statistics for the 6.15 kernel</a></li>
+<li><a href="#https://lwn.net/Articles/1022639/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1022457/" title="See Description">The 6.15 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1021332/" title="See Description">[$] Reports from OSPM 2025, day two</a></li>
 <li><a href="#https://lwn.net/Articles/1020664/" title="See Description">[$] Formally verifying the BPF verifier</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1021258/" title="See Description">[$] LWN.net Weekly Edition for May 22, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1022040/" title="See Description">Status report on optional Rust in FreeBSD support</a></li>
 <li><a href="#https://lwn.net/Articles/1020576/" title="See Description">[$] Recent disruptive changes from Setuptools</a></li>
-<li><a href="#https://lwn.net/Articles/1022030/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1020266/" title="See Description">[$] An update on continuous testing of BPF kernel patches</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1022414/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 26 May 2025 16:04:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022414/" title="https://lwn.net/Articles/1022414/">[$] Development statistics for the 6.15 kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The 6.14 kernel development cycle only brought in 11,003 non-merge
+changesets, making it the slowest cycle since 4.0, which was released in
+2015.  The 6.15 kernel, instead, brought in 14,612 changesets, making it
+the busiest release since 6.7, released at the beginning of 2024.  The
+kernel development process, in other words, is back up to full speed.  The
+<a
+href="https://lwn.net/ml/all/CAHk-=wiLRW8DN8-4jmeCZH0OpO8skXOC5e6FwMfsPwGMpQYmVQ@mail.gmail.com/">6.15
+release</a> happened on May&#160;25, so the time has come for the
+obligatory look at where the changes in this release came from.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1022639/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 26 May 2025 14:39:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022639/" title="https://lwn.net/Articles/1022639/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, ghostscript, grafana, kernel, and osbuild-composer), <b>Debian</b> (intel-microcode, kernel, libphp-adodb, and openssl), <b>Fedora</b> (dotnet8.0, ghostscript, iputils, nbdkit, open-vm-tools, thunderbird, and vyper), <b>Mageia</b> (chromium-browser-stable, glibc, iputils, microcode, nodejs, and zsync), <b>Oracle</b> (.NET 8.0, .NET 9.0, 389-ds-base, avahi, buildah, compat-openssl11, expat, firefox, ghostscript, gimp, git, grafana, gvisor-tap-vsock, libsoup, libxslt, mod_auth_openidc, nginx, nodejs:20, osbuild-composer, podman, skopeo, thunderbird, vim, webkit2gtk3, xdg-utils, xterm, and yelp), <b>Red Hat</b> (kernel, kernel-rt, libsoup, libsoup3, python-tornado, and ruby), <b>Slackware</b> (ffmpeg), <b>SUSE</b> (audiofile, firefox, glibc, govulncheck-vulndb, grafana, kernel, kind, kubo, libecpg6, postgresql13, postgresql14, python-Django, python-setuptools, python-tornado6, python311-Flask, python311-tornado6, python313, python36-setuptools, thunderbird, transfig, and xen), and <b>Ubuntu</b> (glib2.0, linux-bluefield, linux-ibm, linux-raspi, and openjdk-21-crac).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1022457/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 26 May 2025 03:44:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -302,30 +326,6 @@ published to roll back the change</a>, and multiple discussions were
 started about how to limit the damage caused by future breaking
 changes. Nevertheless, many users still felt the response was
 inadequate. Some previous Setuptools releases have also caused problems on a smaller but still notable scale, and hopefully the developers will be more cautious going forward. But there are also lessons here for the developers of Python package installers, ordinary Python developers and end users, and even Linux distribution maintainers.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1022030/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 May 2025 13:13:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022030/" title="https://lwn.net/Articles/1022030/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, avahi, buildah, compat-openssl10, compat-openssl11, expat, firefox, gimp, git, grafana, libsoup, libxslt, mod_auth_openidc, nginx, nodejs:22, osbuild-composer, php, redis, redis:7, skopeo, thunderbird, vim, webkit2gtk3, xterm, and yelp), <b>Arch Linux</b> (dropbear, freetype2, go, nodejs, nodejs-lts-iron, nodejs-lts-jod, python-django, webkit2gtk, webkit2gtk-4.1, webkitgtk-6.0, and wpewebkit), <b>Debian</b> (mongo-c-driver), <b>Fedora</b> (openssh, perl-Mojolicious, thunderbird, yelp, and yelp-xsl), <b>Red Hat</b> (firefox, java-1.8.0-openjdk, java-11-openjdk with Extended Lifecycle Support, java-21-ibm-semeru-certified-jdk, java-21-openjdk, kernel, libxslt, ruby, ruby:3.1, ruby:3.3, unbound, and webkit2gtk3), <b>SUSE</b> (glib2, grub2, kernel, libwebp, openssh, and s390-tools), and <b>Ubuntu</b> (linux, linux-azure, linux-azure-6.11, linux-gcp, linux-gcp-6.11, linux-hwe-6.11, linux-oem-6.11, linux-raspi, linux-realtime, linux-azure, linux-azure-5.15, linux-nvidia-tegra, linux-azure, linux-azure-6.8, linux-oem-6.8, linux-azure, linux-kvm, linux-azure-fips, linux-azure-nvidia, linux-gcp, linux-gcp-6.8, linux-gkeop, linux-gke, linux-intel-iot-realtime, linux-realtime, linux-raspi-realtime, mariadb-10.6, and postgresql-12, postgresql-14, postgresql-16).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020266/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 20 May 2025 17:51:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020266/" title="https://lwn.net/Articles/1020266/">[$] An update on continuous testing of BPF kernel patches</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Ihor Solodrai has been working on the BPF subsystem's continuous-integration
-(CI) testing for the last six months. At the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit, he remotely shared
-an update on his work, and solicited feedback on how the tests could be further
-improved. Much of the work he's done has been specific to the BPF subsystem, but
-some is more generic and could potentially be of use to other subsystems. He
-also shared some general lessons learned from working on the BPF CI tests.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>

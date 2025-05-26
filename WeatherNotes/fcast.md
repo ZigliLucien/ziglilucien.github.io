@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Memorial Day</h3>A chance of rain showers after 4pm. Mostly cloudy, with a high near 71. East northeast wind 9 to 13 mph, with gusts as high
-         as 22 mph. Chance of precipitation is 30%.<br></div>
+         as 21 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
