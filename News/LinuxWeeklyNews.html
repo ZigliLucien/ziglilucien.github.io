@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1022457/" title="See Description">The 6.15 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1021332/" title="See Description">[$] Reports from OSPM 2025, day two</a></li>
 <li><a href="#https://lwn.net/Articles/1020664/" title="See Description">[$] Formally verifying the BPF verifier</a></li>
 <li><a href="#https://lwn.net/Articles/1022352/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,48 @@
 <li><a href="#https://lwn.net/Articles/1020576/" title="See Description">[$] Recent disruptive changes from Setuptools</a></li>
 <li><a href="#https://lwn.net/Articles/1022030/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1020266/" title="See Description">[$] An update on continuous testing of BPF kernel patches</a></li>
-<li><a href="#https://lwn.net/Articles/1020968/" title="See Description">[$] Debian AI General Resolution withdrawn</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1022457/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 26 May 2025 03:44:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022457/" title="https://lwn.net/Articles/1022457/">The 6.15 kernel has been released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has <a href="https://lwn.net/Articles/1022493/">released</a> the 6.15 kernel, as
+expected.
+<p>
+<blockquote class="bq">
+	So this was delayed by a couple of hours because of a last-minute
+	bug report resulting in one new feature being disabled at the
+	eleventh hour, but 6.15 is out there now.
+</blockquote>
+<p>
+  Significant changes in 6.15 include <a
+href="https://lwn.net/Articles/1012490/">smarter timer-ID assignment</a> to make
+checkpoint/restore operations more reliable, the <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6092c5016005">ability</a>
+to read status information from a pidfd after the process in question has
+been reaped, the <a href="https://lwn.net/Articles/992991/"><tt>PIDFD_SELF</tt></a>
+special pidfd value, <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7a54947e727b">nested
+ID-mapped mounts</a>, zero-copy network-data reception via io_uring, The <a
+href="https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6df9d086ffcb">ability
+to read epoll events</a> via io_uring, <a
+href="https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6ffb9017e932">resilient
+queued spinlocks</a> for BPF programs, <a
+href="https://lwn.net/Articles/1011366/">guard-page enhancements</a> allowing them to be
+placed in file-backed memory areas and for user space to detect their
+presence, the once-controversial <a href="https://lwn.net/Articles/969383/">fwctl
+subsystem</a>, the optional <a href="https://lwn.net/Articles/1006375/">sealing of some
+system mappings</a>, and much more.
+<p>
+See the LWN merge-window summaries (<a
+href="https://lwn.net/Articles/1015414/">part&#160;1</a>, <a
+href="https://lwn.net/Articles/1016119/">part&#160;2</a>) and the in-progress <a
+href="https://kernelnewbies.org/Linux_6.15">KernelNewbies 6.15 page</a> for
+more information.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1021332/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 23 May 2025 17:57:56 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -287,20 +326,6 @@ improved. Much of the work he's done has been specific to the BPF subsystem, but
 some is more generic and could potentially be of use to other subsystems. He
 also shared some general lessons learned from working on the BPF CI tests.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020968/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 20 May 2025 17:38:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020968/" title="https://lwn.net/Articles/1020968/">[$] Debian AI General Resolution withdrawn</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Despite careful planning and months of warning, Debian developer Mo
-Zhou has acknowledged that the project needs more time to grapple with
-the questions around AI models and the Debian Free Software Guidelines
-(DFSG). For now, he has withdrawn his proposed General Resolution (GR)
-that would have required the original training data for AI models to
-be released in order to be considered DFSG-compliant&mdash;though the
-debates on the topic continue.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
