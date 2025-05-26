@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Memorial Day</h3>A chance of rain showers after 1pm. Mostly cloudy, with a high near 71. East northeast wind 8 to 12 mph, with gusts as high
-         as 20 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Memorial Day</h3>A chance of rain showers after 4pm. Mostly cloudy, with a high near 71. East northeast wind around 12 mph, with gusts as high
+         as 20 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
