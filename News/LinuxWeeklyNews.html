@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1022704/" title="See Description">NixOS 25.05 released</a></li>
+<li><a href="#https://lwn.net/Articles/1022703/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1022414/" title="See Description">[$] Development statistics for the 6.15 kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1022639/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1022457/" title="See Description">The 6.15 kernel has been released</a></li>
@@ -51,11 +53,30 @@
 <li><a href="#https://lwn.net/Articles/1022222/" title="See Description">Five new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1022189/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1021258/" title="See Description">[$] LWN.net Weekly Edition for May 22, 2025</a></li>
-<li><a href="#https://lwn.net/Articles/1022040/" title="See Description">Status report on optional Rust in FreeBSD support</a></li>
-<li><a href="#https://lwn.net/Articles/1020576/" title="See Description">[$] Recent disruptive changes from Setuptools</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1022704/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 27 May 2025 13:02:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022704/" title="https://lwn.net/Articles/1022704/">NixOS 25.05 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://nixos.org/blog/announcements/2025/nixos-2505/">Version
+25.05</a> of the NixOS distribution has been released.  Changes include
+support for the COSMIC desktop environment (<a
+href="https://lwn.net/Articles/984638/">reviewed here</a> in August), GNOME&#160;48, a
+6.12 kernel, and many new modules; see <a
+href="https://nixos.org/manual/nixos/stable/release-notes#sec-release-25.05">the
+release notes</a> for details.  (Thanks to Pavel Roskin).</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1022703/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 27 May 2025 12:54:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022703/" title="https://lwn.net/Articles/1022703/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gstreamer1-plugins-bad-free, libsoup, and python-tornado), <b>Debian</b> (libavif and pgbouncer), <b>Red Hat</b> (gstreamer1-plugins-bad-free, mingw-freetype and spice-client-win, and webkit2gtk3), <b>SUSE</b> (firefox, govulncheck-vulndb, and python310-setuptools), and <b>Ubuntu</b> (flask, intel-microcode, openjdk-17-crac, tika, and Tomcat).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1022414/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 26 May 2025 16:04:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -274,59 +295,6 @@ contains a long list of important fixes throughout the kernel tree.</blockquote>
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1022040/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 May 2025 15:57:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022040/" title="https://lwn.net/Articles/1022040/">Status report on optional Rust in FreeBSD support</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Shawn Webb has published a <a
-href="https://hardenedbsd.org/article/shawn-webb/2025-05-20/optional-rust-freebsd-support-may-2025-status-report">status
-report</a> on work to provide basic support in FreeBSD for userland components
-written in Rust.</p>
-
-<blockquote class="bq">
-We introduced a new BSD makefile, located at <a
-href="https://git.hardenedbsd.org/hardenedbsd/HardenedBSD/-/blob/hardened/current/rust-in-base/share/mk/bsd.rust.mk"><tt>share/mk/bsd.rust.mk</tt></a>,
-that enables building a Rust application during buildworld. As of this
-writing, we only support building and installing Rust
-applications. Supporting library crates is planned (we would like to
-be able to build/install library crates that expose an FFI, like for
-<span class="nobreak">C/C++ compatibility</span>). Normal library crates build and install just
-fine. Support for cdylib Rust library crates specifically is what's
-missing, but is desired and planned.</p>
-
-<p>We do NOT currently support Rust in the kernel. Kernel support
-requires more work that we deemed out-of-scope for this initial
-proof-of-concept/work-in-progress patchset. We also do NOT support
-building multiple programs in the same BSD Makefile (like with
-bsd.progs.mk), though that is also a desired feature.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/985210/">covered</a> a
-discussion about including Rust in the FreeBSD base system in August
-2024.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020576/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 May 2025 15:11:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020576/" title="https://lwn.net/Articles/1020576/">[$] Recent disruptive changes from Setuptools</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In late March, <a
-href="https://pypi.org/project/setuptools/78.0.1/">version 78.0.1</a> of <a
-href="https://setuptools.pypa.io/en/latest/">Setuptools</a> — an important
-Python packaging tool — was released. It was scarcely half an hour before
-<a href="https://github.com/pypa/setuptools/issues/4910">the first bug
-report</a> came in, and it quickly became clear that the change was far
-more disruptive than anticipated. Within only about five hours <a
-href="https://setuptools.pypa.io/en/latest/history.html#v78-0-2">78.0.2 was
-published to roll back the change</a>, and multiple discussions were
-started about how to limit the damage caused by future breaking
-changes. Nevertheless, many users still felt the response was
-inadequate. Some previous Setuptools releases have also caused problems on a smaller but still notable scale, and hopefully the developers will be more cautious going forward. But there are also lessons here for the developers of Python package installers, ordinary Python developers and end users, and even Linux distribution maintainers.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
