@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of rain showers. Cloudy, with a low around 58. Northeast wind 7 to 10 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tonight</h3>A chance of rain showers. Cloudy, with a low around 58. Northeast wind around 9 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
