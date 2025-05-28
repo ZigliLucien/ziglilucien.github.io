@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1021357/" title="See Description">[$] System-wide encrypted DNS</a></li>
+<li><a href="#https://lwn.net/Articles/1022853/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1022744/" title="See Description">AlmaLinux OS 10.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1021825/" title="See Description">[$] Verifying the BPF verifier's path-exploration logic</a></li>
 <li><a href="#https://lwn.net/Articles/1021871/" title="See Description">[$] Cory Doctorow on how we lost the internet</a></li>
@@ -51,11 +53,40 @@
 <li><a href="#https://lwn.net/Articles/1022352/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1022263/" title="See Description">Mozilla is shutting down Pocket</a></li>
 <li><a href="#https://lwn.net/Articles/1022252/" title="See Description">Home Assistant deprecates the "core" and "supervised" installation modes</a></li>
-<li><a href="#https://lwn.net/Articles/1022243/" title="See Description">Fedora Council overturns FESCo provenpackager decision</a></li>
-<li><a href="#https://lwn.net/Articles/1020966/" title="See Description">[$] Long-duration stress-testing for filesystems</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1021357/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 28 May 2025 13:55:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021357/" title="https://lwn.net/Articles/1021357/">[$] System-wide encrypted DNS</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The increasing sophistication of attackers has organizations
+realizing that perimeter-based security models are inadequate. Many
+are planning to transition their internal networks to a <a
+href="https://en.wikipedia.org/wiki/Zero_trust_architecture">zero-trust
+architecture</a>. This requires every communication on the network to
+be encrypted, authenticated, and authorized. This can be achieved in
+applications and services by using modern communication
+protocols. However, the world still depends on Domain Name System
+(DNS) services where encryption, while possible, is far from being the
+industry standard. To address this we, as part of a working group at
+Red Hat, worked on fully integrating encrypted DNS for Linux
+systems&mdash;not only while the system is running but also during the
+installation and boot process, including support for a custom
+certificate chain in the initial ramdisk. This integration is now
+available in CentOS&#160;Stream&#160;9, 10, and the upcoming
+Fedora&#160;43 release.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1022853/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 28 May 2025 13:04:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022853/" title="https://lwn.net/Articles/1022853/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gstreamer1-plugins-bad-free and kernel), <b>Arch Linux</b> (bind and varnish), <b>Debian</b> (glibc and syslog-ng), <b>Fedora</b> (microcode_ctl, mozilla-ublock-origin, nodejs20, and nodejs22), <b>Mageia</b> (firefox, nss, rootcerts, open-vm-tools, sqlite3, and thunderbird), <b>Oracle</b> (gstreamer1-plugins-bad-free, kernel, libsoup, nodejs:22, php, php:8.2, php:8.3, python-tornado, redis, and redis:7), <b>Red Hat</b> (libsoup, pcs, and python-tornado), <b>Slackware</b> (mozilla), <b>SUSE</b> (bind, dnsdist, elemental-operator, govulncheck-vulndb, gstreamer-plugins-bad, jetty-annotations, jq, libnss_slurm2, libyelp0, mariadb, nvidia-open-driver-G06-signed, prometheus-blackbox_exporter, python-h11, python-httpcore, python-setuptools, python312, python39-setuptools, screen, sqlite3, umoci, and webkit2gtk3), and <b>Ubuntu</b> (cifs-utils, glibc, linux-aws, linux-intel-iotg-5.15, linux-nvidia-tegra-igx, linux-raspi, linux-aws-fips, linux-hwe-6.8, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oracle, linux-raspi, linux-raspi-5.4, and net-tools).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1022744/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 27 May 2025 22:45:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -282,45 +313,6 @@ ordinary application on a Linux system.
 </blockquote>
 <p>
 Support for 32-bit Arm and x86 architectures has also been deprecated.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1022243/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 May 2025 15:45:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022243/" title="https://lwn.net/Articles/1022243/">Fedora Council overturns FESCo provenpackager decision</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Fedora Council has ruled on the Fedora Engineering Steering
-Council's (FESCo) decision last year to revoke Peter Robinson's
-provenpackager status. In a <a
-href="https://lwn.net/ml/all/20250522151512.GA10870%40mattdm.org/">statement</a>
-published to the fedora-devel-announce mailing list, the council has
-announced that it has overturned FESCo's decision:</p>
-
-<blockquote class="bq">
-FESCo didn't have a specific policy for dealing with a request to remove
-Proven Packager rights. In addition, the FESCo process was handled entirely
-in private. The contributor didn't receive a formal notification or warning
-from FESCo, and felt blindsided by the official decision when and how it was
-announced. The Fedora Council would like to extend our sincerest apology on
-behalf of the Fedora Project to them.
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1002450/">covered</a> the
-story in December 2024.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1020966/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 May 2025 14:08:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1020966/" title="https://lwn.net/Articles/1020966/">[$] Long-duration stress-testing for filesystems</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Testing filesystems is a frequent topic at
-the Linux Storage, Filesystem,
-Memory Management, and BPF Summit (LSFMM+BPF); the 2025 edition was no
-exception.  Boris Burkov led a filesystem-track session to discuss
-stress-testing filesystems—and running those tests for lengthy periods.  He
-reviewed what he has been doing when testing filesystems and wanted to
-gather ideas for what could be done to catch more bugs before the
-filesystems hit production.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
