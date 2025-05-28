@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1021837/" title="See Description">[$] Glibc project revisits infrastructure security</a></li>
+<li><a href="#https://lwn.net/Articles/1022034/" title="See Description">[$] Allowing BPF programs more access to the network</a></li>
+<li><a href="#https://lwn.net/Articles/1022888/" title="See Description">Launchpad mailing lists going away</a></li>
 <li><a href="#https://lwn.net/Articles/1021357/" title="See Description">[$] System-wide encrypted DNS</a></li>
 <li><a href="#https://lwn.net/Articles/1022853/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1022744/" title="See Description">AlmaLinux OS 10.0 released</a></li>
@@ -50,12 +53,61 @@
 <li><a href="#https://lwn.net/Articles/1022457/" title="See Description">The 6.15 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1021332/" title="See Description">[$] Reports from OSPM 2025, day two</a></li>
 <li><a href="#https://lwn.net/Articles/1020664/" title="See Description">[$] Formally verifying the BPF verifier</a></li>
-<li><a href="#https://lwn.net/Articles/1022352/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1022263/" title="See Description">Mozilla is shutting down Pocket</a></li>
-<li><a href="#https://lwn.net/Articles/1022252/" title="See Description">Home Assistant deprecates the "core" and "supervised" installation modes</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1021837/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 28 May 2025 16:41:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021837/" title="https://lwn.net/Articles/1021837/">[$] Glibc project revisits infrastructure security</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://sourceware.org/glibc/">GNU C Library</a>
+(glibc) is the core C library for most Linux distributions, so it is a 
+crucial part of the open-source <span class="nobreak">ecosystem&mdash;and</span> an attractive
+target for any attackers looking to carry out supply-chain
+attacks. With that being the case, securing the project's
+infrastructure using industry best practices and improving the
+security of its development practices are a frequent topic among glibc
+developers. A recent discussion suggests that improvements are not
+happening as quickly as some would like.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1022034/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 28 May 2025 15:33:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022034/" title="https://lwn.net/Articles/1022034/">[$] Allowing BPF programs more access to the network</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Mahé Tardy led two sessions about some of the challenges that he, Kornilios Kourtis,
+and John Fastabend have run into in their work on
+<a href="https://tetragon.io/">
+Tetragon</a> (Apache-licensed BPF-based security monitoring software)
+at the Linux Storage, Filesystem, Memory Management, and BPF Summit. The session
+prompted discussion about the feasibility of letting BPF programs
+send data over the network, as well as potential new kfuncs to let BPF firewalls
+send TCP reset packets. Tardy presented several possible ways that these could
+be accomplished.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1022888/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 28 May 2025 15:07:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022888/" title="https://lwn.net/Articles/1022888/">Launchpad mailing lists going away</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Canonical's <a href="https://launchpad.net/">Launchpad</a>
+software-collaboration platform that is used for Ubuntu development
+will be shutting down its <a
+href="https://help.launchpad.net/ListHelp">hosted mailing lists</a> at
+the end of October. The <a
+href="https://blog.launchpad.net/general/sunsetting-launchpads-mailing-lists">announcement</a>
+recommends <a href="https://discourse.ubuntu.com/">Discourse</a> or <a
+href="https://help.launchpad.net/Answers">Launchpad Answers</a> as
+alternatives. Ubuntu's <a href="https://lists.ubuntu.com/">mailing
+lists</a> are unaffected by the change.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1021357/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 28 May 2025 13:55:44 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,53 +318,6 @@ custom tool called
 Agni</a>.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1022352/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 23 May 2025 12:34:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022352/" title="https://lwn.net/Articles/1022352/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (dotnet9.0, dropbear, ghostscript, nbdkit, openssh, python-watchfiles, rpm-ostree, yelp, yelp-xsl, and zsync), <b>Oracle</b> (firefox and kernel), <b>Red Hat</b> (osbuild-composer), <b>Slackware</b> (aaa_glibc and mozilla), <b>SUSE</b> (chromedriver, open-vm-tools, postgresql14, python-cryptography, and thunderbird), and <b>Ubuntu</b> (linux-aws, linux-hwe-5.4, python, and sqlite3).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1022263/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 May 2025 19:30:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022263/" title="https://lwn.net/Articles/1022263/">Mozilla is shutting down Pocket</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Mozilla has <a
-href="https://support.mozilla.org/en-US/kb/future-of-pocket">announced</a>
-that it is shutting down Pocket, a bookmarking service acquired by Mozilla
-in 2017, this coming July.  "<q>Pocket has helped millions save articles
-and discover stories worth reading. But the way people use the web has
-evolved, so we're channeling our resources into projects that better match
-their browsing habits and online needs.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1022252/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 May 2025 17:07:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022252/" title="https://lwn.net/Articles/1022252/">Home Assistant deprecates the "core" and "supervised" installation modes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/Articles/1017720/">Our recent article on Home Assistant</a>
-observed that the project emphasizes installations using its own Linux
-distribution or within containers.  The project has now made that emphasis
-rather stronger with <a
-href="https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems/">this
-announcement</a> of the deprecation of the "core" and "supervised"
-installation modes, which allowed Home Assistant to be installed as an
-ordinary application on a Linux system.
-<p>
-<blockquote class="bq">
-	These are advanced installation methods, with only a small
-	percentage of the community opting to use them. If you are using
-	these methods, you can continue to do so (you can even continue to
-	update your system), but in six months time, you will no longer be
-	supported, which I'll explain the impacts of in the next
-	section. References to these installation methods will be removed
-	from our documentation after our next release (2025.6).
-</blockquote>
-<p>
-Support for 32-bit Arm and x86 architectures has also been deprecated.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
