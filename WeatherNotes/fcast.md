@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Patchy fog before 8am, then rain showers likely. Partly sunny. High near 76, with temperatures falling to around 73 in the
-         afternoon. Northeast wind 2 to 6 mph. Chance of precipitation is 60%.<br></div>
+         afternoon. East southeast wind 1 to 6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
