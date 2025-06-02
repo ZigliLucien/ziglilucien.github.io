@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-06-02T04:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-06-02T04:02:28+00:00</updateTime>
-		<validTimes type="str">2025-06-01T22:00:00+00:00/P7DT3H</validTimes>
+		<generatedAt type="str">2025-06-02T05:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-06-02T05:03:55+00:00</updateTime>
+		<validTimes type="str">2025-06-01T23:00:00+00:00/P7DT2H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-06-01T23:00:00-05:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-06-02T00:00:00-05:00</startTime>
 				<endTime type="str">2025-06-02T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">62</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 mph</windSpeed>
+				<windSpeed type="str">1 mph</windSpeed>
 				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
-				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear. Low around 62, with temperatures rising to around 64 overnight. East wind around 2 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
+				<shortForecast type="str">Partly Cloudy</shortForecast>
+				<detailedForecast type="str">Partly cloudy. Low around 62, with temperatures rising to around 64 overnight. East wind around 1 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
