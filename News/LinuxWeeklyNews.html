@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1023502/" title="See Description">[$] Hardening fixes lead to hard questions</a></li>
+<li><a href="#https://lwn.net/Articles/1023088/" title="See Description">[$] OpenH264 induces headaches for Fedora</a></li>
 <li><a href="#https://lwn.net/Articles/1023501/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1022054/" title="See Description">[$] Reports from OSPM 2025, day three</a></li>
 <li><a href="#https://lwn.net/Articles/1022399/" title="See Description">[$] Out of Pocket and into the wallabag</a></li>
@@ -51,11 +53,45 @@
 <li><a href="#https://lwn.net/Articles/1021837/" title="See Description">[$] Glibc project revisits infrastructure security</a></li>
 <li><a href="#https://lwn.net/Articles/1022034/" title="See Description">[$] Allowing BPF programs more access to the network</a></li>
 <li><a href="#https://lwn.net/Articles/1022888/" title="See Description">Launchpad mailing lists going away</a></li>
-<li><a href="#https://lwn.net/Articles/1021357/" title="See Description">[$] System-wide encrypted DNS</a></li>
-<li><a href="#https://lwn.net/Articles/1022853/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1023502/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 02 Jun 2025 16:55:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023502/" title="https://lwn.net/Articles/1023502/">[$] Hardening fixes lead to hard questions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Kees Cook's <a href="https://lwn.net/ml/all/202505310759.3A40AD051@keescook">"hardening
+fixes" pull request</a> for the 6.16 merge window looked like a
+straightforward exercise; it only contained four commits.  So just about
+everybody was surprised when it resulted in Cook being temporarily blocked
+from his kernel.org account among fears of malicious activity.  When the
+dust settled, though, the red alert was canceled.  It turns out,
+surprisingly, that Git is a tool with which one can inflict substantial
+self-harm in a moment of inattention.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1023088/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 02 Jun 2025 15:57:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023088/" title="https://lwn.net/Articles/1023088/">[$] OpenH264 induces headaches for Fedora</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Software patents and workarounds for them are, once again,
+causing headaches for open-source projects and users. This time
+around, Fedora users have been vulnerable to a serious flaw in the <a
+href="https://www.openh264.org/">OpenH264</a> library for
+months&mdash;not for want of a fix, but because of the <a
+href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine">Rube
+Goldberg machine</a> methodology of distributing the library to Fedora
+users. The software is open source under a <span
+class="nobreak">two-clause</span> BSD license; the RPMs are built and
+signed by Fedora, but the final product is distributed by Cisco, so
+the company can pick up the tab for license fees. Unfortunately, a
+breakdown in the process of handing RPMs to Cisco for distribution has
+left Fedora users vulnerable, and inaction on Fedora's part has left
+users unaware that they are at risk.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1023501/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 02 Jun 2025 13:39:33 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -259,37 +295,6 @@ alternatives. Ubuntu's <a href="https://lists.ubuntu.com/">mailing
 lists</a> are unaffected by the change.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1021357/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 28 May 2025 13:55:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1021357/" title="https://lwn.net/Articles/1021357/">[$] System-wide encrypted DNS</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The increasing sophistication of attackers has organizations
-realizing that perimeter-based security models are inadequate. Many
-are planning to transition their internal networks to a <a
-href="https://en.wikipedia.org/wiki/Zero_trust_architecture">zero-trust
-architecture</a>. This requires every communication on the network to
-be encrypted, authenticated, and authorized. This can be achieved in
-applications and services by using modern communication
-protocols. However, the world still depends on Domain Name System
-(DNS) services where encryption, while possible, is far from being the
-industry standard. To address this we, as part of a working group at
-Red Hat, worked on fully integrating encrypted DNS for Linux
-systems&mdash;not only while the system is running but also during the
-installation and boot process, including support for a custom
-certificate chain in the initial ramdisk. This integration is now
-available in CentOS&#160;Stream&#160;9, 10, and the upcoming
-Fedora&#160;43 release.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1022853/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 28 May 2025 13:04:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022853/" title="https://lwn.net/Articles/1022853/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gstreamer1-plugins-bad-free and kernel), <b>Arch Linux</b> (bind and varnish), <b>Debian</b> (glibc and syslog-ng), <b>Fedora</b> (microcode_ctl, mozilla-ublock-origin, nodejs20, and nodejs22), <b>Mageia</b> (firefox, nss, rootcerts, open-vm-tools, sqlite3, and thunderbird), <b>Oracle</b> (gstreamer1-plugins-bad-free, kernel, libsoup, nodejs:22, php, php:8.2, php:8.3, python-tornado, redis, and redis:7), <b>Red Hat</b> (libsoup, pcs, and python-tornado), <b>Slackware</b> (mozilla), <b>SUSE</b> (bind, dnsdist, elemental-operator, govulncheck-vulndb, gstreamer-plugins-bad, jetty-annotations, jq, libnss_slurm2, libyelp0, mariadb, nvidia-open-driver-G06-signed, prometheus-blackbox_exporter, python-h11, python-httpcore, python-setuptools, python312, python39-setuptools, screen, sqlite3, umoci, and webkit2gtk3), and <b>Ubuntu</b> (cifs-utils, glibc, linux-aws, linux-intel-iotg-5.15, linux-nvidia-tegra-igx, linux-raspi, linux-aws-fips, linux-hwe-6.8, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oracle, linux-raspi, linux-raspi-5.4, and net-tools).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
