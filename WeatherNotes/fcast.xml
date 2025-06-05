@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-06-05T15:36:02+00:00</generatedAt>
-		<updateTime type="str">2025-06-05T14:03:18+00:00</updateTime>
-		<validTimes type="str">2025-06-05T08:00:00+00:00/P7DT17H</validTimes>
+		<generatedAt type="str">2025-06-05T17:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-06-05T16:51:25+00:00</updateTime>
+		<validTimes type="str">2025-06-05T10:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2025-06-05T10:00:00-05:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2025-06-05T12:00:00-05:00</startTime>
 				<endTime type="str">2025-06-05T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">81</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">45</value>
+					<value type="int">39</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,50/tsra_sct,40?size=medium</icon>
+				<windDirection type="str">W</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,40?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms. Some of the storms could produce heavy rain. Partly sunny, with a high near 81. South southwest wind around 5 mph. Chance of precipitation is 50%.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Some of the storms could produce heavy rain. Partly sunny, with a high near 81. West wind around 5 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,13 +79,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">25</value>
+					<value type="int">29</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">WSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra,20/tsra,30?size=medium</icon>
-				<shortForecast type="str">Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 1am and 4am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 69. West southwest wind around 3 mph. Chance of precipitation is 30%.</detailedForecast>
+				<windDirection type="str">NW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,20/tsra_hi,30?size=medium</icon>
+				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly cloudy, with a low around 69. Northwest wind around 3 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -101,10 +101,10 @@
 					<value type="int">76</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 6 mph</windSpeed>
-				<windDirection type="str">WSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra,60/tsra,80?size=medium</icon>
+				<windDirection type="str">SW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra,70/tsra,80?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms then Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 7am, then showers and thunderstorms. Mostly cloudy. High near 80, with temperatures falling to around 78 in the afternoon. West southwest wind 2 to 6 mph. Chance of precipitation is 80%.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 7am, then showers and thunderstorms. Mostly cloudy. High near 80, with temperatures falling to around 78 in the afternoon. Southwest wind 2 to 6 mph. Chance of precipitation is 80%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
