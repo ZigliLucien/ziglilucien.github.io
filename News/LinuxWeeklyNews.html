@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1023689/" title="See Description">[$] Zero-copy for FUSE</a></li>
 <li><a href="#https://lwn.net/Articles/1023306/" title="See Description">[$] Open source and the Cyber Resilience Act</a></li>
 <li><a href="#https://lwn.net/Articles/1024190/" title="See Description">/e/OS 3.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1023085/" title="See Description">[$] Fending off unwanted file descriptors</a></li>
@@ -52,10 +53,26 @@
 <li><a href="#https://lwn.net/Articles/1022889/" title="See Description">[$] Safety certification for open-source systems</a></li>
 <li><a href="#https://lwn.net/Articles/1023625/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1023516/" title="See Description">Alpine Linux 3.22.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1023502/" title="See Description">[$] Hardening fixes lead to hard questions</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1023689/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Jun 2025 22:12:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023689/" title="https://lwn.net/Articles/1023689/">[$] Zero-copy for FUSE</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>In a combined storage and filesystem session at the 2025 Linux Storage,
+Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), Keith Busch led
+a discussion about zero-copy operations for the <a
+href="https://github.com/libfuse/libfuse?tab=readme-ov-file#libfuse">Filesystem
+in Userspace</a> (FUSE) subsystem.  The session was <a
+href="https://lwn.net/ml/all/dc3a5c7d-b254-48ea-9749-2c464bfd3931@davidwei.uk/">proposed</a>
+by his colleague, David Wei, who could not make it to the summit, so Busch
+filled in, though he noted that "<q>I do not really know FUSE so
+well</q>".  The idea is to eliminate data copies in the data path to and
+from the FUSE server in user space.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1023306/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 05 Jun 2025 18:32:39 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -273,21 +290,6 @@ href="https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.22.0">release
 notes</a> for a detailed list of changes.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1023502/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Jun 2025 16:55:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023502/" title="https://lwn.net/Articles/1023502/">[$] Hardening fixes lead to hard questions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Kees Cook's <a href="https://lwn.net/ml/all/202505310759.3A40AD051@keescook">"hardening
-fixes" pull request</a> for the 6.16 merge window looked like a
-straightforward exercise; it only contained four commits.  So just about
-everybody was surprised when it resulted in Cook being temporarily blocked
-from his kernel.org account among fears of malicious activity.  When the
-dust settled, though, the red alert was canceled.  It turns out,
-surprisingly, that Git is a tool with which one can inflict substantial
-self-harm in a moment of inattention.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
