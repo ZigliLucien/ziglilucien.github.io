@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms likely before 10pm, then showers and thunderstorms. Some of the storms could produce heavy rain.
-         Cloudy, with a low around 69. South southeast wind 3 to 8 mph. Chance of precipitation is 80%.<br></div>
+         Cloudy, with a low around 69. South southeast wind around 6 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
