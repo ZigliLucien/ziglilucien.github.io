@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1023085/" title="See Description">[$] Fending off unwanted file descriptors</a></li>
+<li><a href="#https://lwn.net/Articles/1024158/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1022979/" title="See Description">[$] LWN.net Weekly Edition for June 5, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1022718/" title="See Description">[$] Device-initiated I/O</a></li>
 <li><a href="#https://lwn.net/Articles/1023837/" title="See Description">Strategy 2028 update (Fedora Community Blog)</a></li>
@@ -51,11 +53,30 @@
 <li><a href="#https://lwn.net/Articles/1023502/" title="See Description">[$] Hardening fixes lead to hard questions</a></li>
 <li><a href="#https://lwn.net/Articles/1023088/" title="See Description">[$] OpenH264 induces headaches for Fedora</a></li>
 <li><a href="#https://lwn.net/Articles/1023501/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1022054/" title="See Description">[$] Reports from OSPM 2025, day three</a></li>
-<li><a href="#https://lwn.net/Articles/1022399/" title="See Description">[$] Out of Pocket and into the wallabag</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1023085/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Jun 2025 13:52:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023085/" title="https://lwn.net/Articles/1023085/">[$] Fending off unwanted file descriptors</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the more obscure features provided by Unix-domain sockets is the
+ability to pass a file descriptor from one process to another.  This
+feature is often used to provide access to a specific file or network
+connection to a process running in a relatively unprivileged context.  But
+what if the recipient doesn't <i>want</i> a new file descriptor?  A feature
+added for the 6.16 release makes it possible to refuse that offer.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1024158/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Jun 2025 13:36:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024158/" title="https://lwn.net/Articles/1024158/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium and mariadb-10.5), <b>Oracle</b> (firefox, ghostscript, git, go-toolset:ol8, golang, kernel, krb5, mingw-freetype and spice-client-win, nodejs:20, nodejs:22, perl-CPAN, python36:3.6, rsync, varnish, and varnish:6), <b>Red Hat</b> (firefox, thunderbird, and webkit2gtk3), <b>Slackware</b> (curl and python3), <b>SUSE</b> (apache-commons-beanutils, apache2-mod_security2, avahi, buildkit, ca-certificates-mozilla, cloud-regionsrv-client, cloud-regionsrv-client, python-toml, containerd, containerized-data-importer, cups, curl, dnsmasq, docker, elemental-operator, elemental-toolkit, expat, firefox, freetype2, gdk-pixbuf, git, glib2, glibc, gnuplot, gnutls, gpg2, gstreamer, gstreamer-plugins-base, gtk3, haproxy, helm, java-17-openjdk, java-1_8_0-openjdk, keepalived, kernel, kernel-firmware, krb5, kubevirt, less, libarchive, libcryptopp, libdb-4_8, libndp, libpcap, libsoup, libtasn1, libvirt, libX11, libxml2, libxslt, Mesa, mozilla-nss, nghttp2, nvidia-open-driver-G06-signed, opensc, openssh, openssl-3, openssl-3, libpulp, ulp-macros, orc, pam, pam_pkcs11, pam_u2f, patch, pcp, pcr-oracle, shim, perl-Crypt-OpenSSL-RSA, podman, postgresql16, procps, protobuf, python-dnspython, python-Jinja2, python-requests, python-setuptools, python-tornado6, python-urllib3, python311, python311, python-rpm-macros, qemu, rsync, runc, rust-keylime, selinux-policy, sevctl, skopeo, sssd, SUSE Manager Client Tools, systemd, thunderbird, tiff, tpm2.0-tools, tpm2-0-tss, u-boot, ucode-intel, unbound, util-linux, vim, wget, and wpa_supplicant), and <b>Ubuntu</b> (linux-nvidia, python-django, twitter-bootstrap3, twitter-bootstrap4, and wireshark).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1022979/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 05 Jun 2025 01:11:25 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -260,37 +281,6 @@ users unaware that they are at risk.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (espeak-ng, kitty, kmail-account-wizard, krb5, libreoffice, libvpx, net-tools, python-flask-cors, symfony, tcpdf, thunderbird, and twitter-bootstrap3), <b>Fedora</b> (chromium, dropbear, firefox, gstreamer1-plugins-bad-free, python-tornado, systemd, and thunderbird), <b>Mageia</b> (coreutils, deluge, glib2.0, and redis), <b>Oracle</b> (firefox, kernel, and systemd), <b>Red Hat</b> (firefox, kernel, kernel-rt, varnish, varnish:6, and zlib), <b>SUSE</b> (bind, curl, dnsdist, docker, ffmpeg-7, firefox, glibc, golang-github-prometheus-alertmanager, govulncheck-vulndb, icinga2, iputils, java-11-openjdk, java-1_8_0-ibm, kea, kernel, libopenssl-3-devel, libsoup, libxml2, nodejs-electron, open-vm-tools, openbao, perl-Net-Dropbox-API, pluto, poppler, postgresql14, postgresql15, postgresql16, postgresql17, python312-setuptools, runc, s390-tools, skopeo, sqlite3, thunderbird, and unbound), and <b>Ubuntu</b> (apport and libphp-adodb).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1022054/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 30 May 2025 18:18:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022054/" title="https://lwn.net/Articles/1022054/">[$] Reports from OSPM 2025, day three</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The seventh edition of the <a
-href="https://retis.sssup.it/ospm-summit/">Power Management and Scheduling
-in the Linux Kernel Summit</a> (known as "OSPM") took place on March 18-20,
-2025.  Topics discussed on the third (and final) day include proxy
-execution, energy-aware scheduling, the deadline scheduler, and an
-evaluation of <a href="https://lwn.net/Articles/925371/">the kernel's EEVDF scheduler</a>.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1022399/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 30 May 2025 12:52:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1022399/" title="https://lwn.net/Articles/1022399/">[$] Out of Pocket and into the wallabag</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Mozilla has decided to <a
-href="https://support.mozilla.org/en-US/kb/future-of-pocket">throw in
-the towel</a> on <a href="https://getpocket.com/">Pocket</a>, a <a
-href="https://en.wikipedia.org/wiki/Social_bookmarking">social-bookmarking</a>
-service that it acquired in 2017. This has left many users scrambling
-for a replacement for Pocket before its shutdown in July. One possible
-option is <a href="https://wallabag.org/">wallabag</a>, a
-self-hostable, MIT-licensed project for saving web content for later
-reading. It can import saved data from services like Pocket, share
-content on the web, export to various formats, and more. Even better,
-it puts users in control of their data long-term.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
