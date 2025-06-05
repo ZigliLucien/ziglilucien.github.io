@@ -2,9 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Showers and thunderstorms likely before 7am, then showers and thunderstorms likely between 7am and 10am, then a chance of
-         showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy, with a high near 81. South southwest
-         wind around 5 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Today</h3>Showers and thunderstorms likely before 10am, then a chance of showers and thunderstorms. Some of the storms could produce
+         heavy rain. Mostly cloudy, with a high near 81. South southwest wind around 5 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
