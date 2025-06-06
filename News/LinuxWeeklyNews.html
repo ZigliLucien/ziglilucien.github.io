@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1024160/" title="See Description">[$] Slowing the flow of core-dump-related CVEs</a></li>
+<li><a href="#https://lwn.net/Articles/1024317/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1023689/" title="See Description">[$] Zero-copy for FUSE</a></li>
 <li><a href="#https://lwn.net/Articles/1023306/" title="See Description">[$] Open source and the Cyber Resilience Act</a></li>
 <li><a href="#https://lwn.net/Articles/1024190/" title="See Description">/e/OS 3.0 released</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1023794/" title="See Description">Eight stable kernels released</a></li>
 <li><a href="#https://lwn.net/Articles/1023793/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1022889/" title="See Description">[$] Safety certification for open-source systems</a></li>
-<li><a href="#https://lwn.net/Articles/1023625/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1023516/" title="See Description">Alpine Linux 3.22.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1024160/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Jun 2025 13:57:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024160/" title="https://lwn.net/Articles/1024160/">[$] Slowing the flow of core-dump-related CVEs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The 6.16 kernel will include a number of changes to how the kernel handles
+the processing of core dumps for crashed processes.  Christian Brauner <a
+href="https://mastodon.social/@brauner/114592290899392625">explained</a>
+his reasons for doing this work as: "<q>Because I'm a clown and also I had
+it with all the CVEs because we provide a **** API for userspace</q>".  The
+handling of core dumps has indeed been a constant source of
+vulnerabilities; with luck, the 6.16 work will result in rather fewer of
+them in the future.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1024317/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Jun 2025 13:33:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024317/" title="https://lwn.net/Articles/1024317/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (go-toolset:rhel8, golang, nodejs:20, nodejs:22, openssh, and python36:3.6), <b>Debian</b> (edk2, libfile-find-rule-perl, and webkit2gtk), <b>Fedora</b> (emacs, libvpx, perl-FCGI, and seamonkey), <b>Mageia</b> (cifs-utils), <b>Red Hat</b> (containernetworking-plugins, go-toolset:rhel8, golang, gvisor-tap-vsock, krb5, mod_auth_openidc:2.3, protobuf, and thunderbird), <b>Slackware</b> (seamonkey), <b>SUSE</b> (gimp, gnutls, haproxy, opensaml, openssh, openvpn, python-cryptography, python-tornado, python311-nh3, and python311-selenium), and <b>Ubuntu</b> (gst-plugins-bad1.0 and linux-fips).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1023689/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 05 Jun 2025 22:12:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -262,34 +285,6 @@ Bagnara shared his experience with working on one of those projects, the Xen
 hypervisor, to conform to a formal set of rules for safety-critical code.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1023625/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 03 Jun 2025 13:14:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023625/" title="https://lwn.net/Articles/1023625/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (varnish), <b>Debian</b> (asterisk and roundcube), <b>Fedora</b> (systemd), <b>Mageia</b> (golang), <b>Red Hat</b> (ghostscript, perl-CPAN, python36:3.6, and rsync), <b>SUSE</b> (govulncheck-vulndb, libsoup-2_4-1, and postgresql, postgresql16, postgresql17), and <b>Ubuntu</b> (mariadb, open-vm-tools, php-twig, and python-tornado).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1023516/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Jun 2025 17:05:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023516/" title="https://lwn.net/Articles/1023516/">Alpine Linux 3.22.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://alpinelinux.org/posts/Alpine-3.22.0-released.html">Version
-3.22.0</a> of the Alpine Linux distribution has been released. Notable
-changes in this release include the removal of the X11 session for KDE
-Plasma, a switch to <tt>systemd-efistub</tt>, and experimental support
-for <a
-href="https://wiki.alpinelinux.org/wiki/OpenRC#User_services">user
-services</a> with the <a
-href="https://github.com/OpenRC/openrc?tab=readme-ov-file#openrc-readme">OpenRC</a>
-init system. See the <a
-href="https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.22.0">release
-notes</a> for a detailed list of changes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
