@@ -2,25 +2,26 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of rain showers between 1am and 4am, then a chance of showers and thunderstorms. Mostly cloudy, with a low
-         around 68. West northwest wind around 2 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tonight</h3>Patchy fog between 1am and 3am, then patchy fog and a slight chance of showers and thunderstorms. Mostly cloudy, with a low
+         around 68. West southwest wind around 1 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms likely between 7am and 1pm, then showers
-         and thunderstorms between 1pm and 2pm, then showers and thunderstorms between 2pm and 4pm, then showers and thunderstorms
-         likely. Mostly cloudy. High near 78, with temperatures falling to around 76 in the afternoon. Southwest wind 2 to 6 mph. Chance
-         of precipitation is 90%.<br></div>
+         <h3>Friday</h3>Patchy fog and a slight chance of showers and thunderstorms before 7am, then patchy fog and a chance of showers and thunderstorms
+         between 7am and 10am, then showers and thunderstorms between 10am and 4pm, then showers and thunderstorms likely. Mostly cloudy.
+         High near 78, with temperatures falling to around 76 in the afternoon. Southwest wind 2 to 6 mph. Chance of precipitation
+         is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Showers and thunderstorms likely before 4am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around
-         65. North wind 2 to 6 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Friday Night</h3>Showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 10pm, then patchy fog and
+         a chance of showers and thunderstorms. Mostly cloudy, with a low around 65. North wind 2 to 6 mph. Chance of precipitation
+         is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Showers and thunderstorms likely. Mostly cloudy, with a high near 79. South southeast wind 2 to 7 mph. Chance of precipitation
-         is 70%.<br></div>
+         <h3>Saturday</h3>Patchy fog and showers and thunderstorms likely. Mostly cloudy, with a high near 79. South southeast wind 2 to 7 mph. Chance
+         of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
