@@ -53,7 +53,8 @@
 
 <xsl:apply-templates/>    
 <center>
-<a href="http://www.crh.noaa.gov/pah/">
+<a
+href="https://forecast.weather.gov/MapClick.php?x=161&amp;y=131&amp;site=pah&amp;zmx=&amp;zmy=&amp;map_x=161&amp;map_y=131">
 --&gt; National Weather Service PADUCAH Homepage &lt;-- </a>
 </center>
 <p/>
