@@ -1,10 +1,187 @@
 <?xml version="1.0" ?>
 <all>
-	<key name="@context" type="dict">
-		<key name="@version" type="str">1.1</key>
+	<key name="@context" type="list">
+		<item type="str">https://geojson.org/geojson-ld/geojson-context.jsonld</item>
+		<item type="dict">
+			<key name="@version" type="str">1.1</key>
+			<wx type="str">https://api.weather.gov/ontology#</wx>
+			<key name="@vocab" type="str">https://api.weather.gov/ontology#</key>
+		</item>
 	</key>
 	<type type="str">FeatureCollection</type>
-	<features type="list"/>
+	<features type="list">
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9cece912f499654097dc3dfb23ecc7d5eedf1a61.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="dict">
+				<type type="str">Polygon</type>
+				<coordinates type="list">
+					<item type="list">
+						<item type="list">
+							<item type="float">-89.27</item>
+							<item type="float">37.64</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.38</item>
+							<item type="float">37.38</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.52</item>
+							<item type="float">37.27</item>
+						</item>
+						<item type="list">
+							<item type="float">-90.05</item>
+							<item type="float">37.4799999</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.81</item>
+							<item type="float">37.690000000000005</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.72</item>
+							<item type="float">37.830000000000005</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.67999999999999</item>
+							<item type="float">37.800000000000004</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.67999999999999</item>
+							<item type="float">37.82000000000001</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.66</item>
+							<item type="float">37.830000000000005</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.66</item>
+							<item type="float">37.86000000000001</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.6</item>
+							<item type="float">37.95000000000001</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.58</item>
+							<item type="float">37.95000000000001</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.27</item>
+							<item type="float">37.64</item>
+						</item>
+					</item>
+				</coordinates>
+			</geometry>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9cece912f499654097dc3dfb23ecc7d5eedf1a61.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.9cece912f499654097dc3dfb23ecc7d5eedf1a61.001.1</id>
+				<areaDesc type="str">Jackson; Union; Alexander; Perry; Bollinger; Cape Girardeau</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017077</item>
+						<item type="str">017181</item>
+						<item type="str">017003</item>
+						<item type="str">029157</item>
+						<item type="str">029017</item>
+						<item type="str">029031</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ084</item>
+						<item type="str">ILZ088</item>
+						<item type="str">ILZ092</item>
+						<item type="str">MOZ076</item>
+						<item type="str">MOZ086</item>
+						<item type="str">MOZ087</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2025-06-07T21:31:00-05:00</sent>
+				<effective type="str">2025-06-07T21:31:00-05:00</effective>
+				<onset type="str">2025-06-07T21:31:00-05:00</onset>
+				<expires type="str">2025-06-07T22:15:00-05:00</expires>
+				<ends type="null"/>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Observed</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Special Weather Statement</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Special Weather Statement issued June 7 at 9:31PM CDT by NWS Paducah KY</headline>
+				<description type="str">At 931 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Ava to near Altenburg to near
+Millersville. Movement was southeast at 30 mph.
+
+HAZARD...Wind gusts up to 40 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impacted include...
+Cape Girardeau, Jackson, Trail Of Tears State Park, Grand Tower,
+Altenburg, Patton, Millersville, Ware, Daisy, Cedar Lake Area, Alto
+Pass, Frohna, Oak Ridge, Gorham, Sedgewickville, Pocahontas,
+Longtown, Old Appleton, and East Cape Girardeau.
+
+This includes Interstate 55 between Mile Markers 96 and 125.</description>
+				<instruction type="str">If outdoors, consider seeking shelter inside a building.</instruction>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">SPSPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS83 KPAH 080231</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">STRONG THUNDERSTORMS WILL IMPACT WESTERN UNION...WESTERN JACKSON...NORTHWESTERN ALEXANDER...NORTHEASTERN BOLLINGER...EASTERN PERRY AND CAPE GIRARDEAU COUNTIES THROUGH 1015 PM CDT</item>
+					</NWSheadline>
+					<eventMotionDescription type="list">
+						<item type="str">2025-06-08T02:31:00-00:00...storm...317DEG...26KT...37.86,-89.58 37.61,-89.67 37.44,-89.86</item>
+					</eventMotionDescription>
+					<maxWindGust type="list">
+						<item type="str">40 MPH</item>
+					</maxWindGust>
+					<maxHailSize type="list">
+						<item type="str">0.00</item>
+					</maxHailSize>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+				</parameters>
+				<scope type="str">Public</scope>
+				<code type="str">IPAWSv1.0</code>
+				<language type="str">en-US</language>
+				<web type="str">http://www.weather.gov</web>
+				<eventCode type="dict">
+					<SAME type="list">
+						<item type="str">SPS</item>
+					</SAME>
+					<NationalWeatherService type="list">
+						<item type="str">SPS</item>
+					</NationalWeatherService>
+				</eventCode>
+			</properties>
+		</item>
+	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-06-06T11:00:00+00:00</updated>
+	<updated type="str">2025-06-08T02:31:48+00:00</updated>
 </all>
