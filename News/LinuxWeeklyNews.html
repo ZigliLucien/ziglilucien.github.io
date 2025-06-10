@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1024758/" title="See Description">Ubuntu 25.10 to drop support for X11 in GNOME</a></li>
 <li><a href="#https://lwn.net/Articles/1023891/" title="See Description">[$] Improving iov_iter</a></li>
 <li><a href="#https://lwn.net/Articles/1023575/" title="See Description">[$] An end to uniprocessor configurations</a></li>
 <li><a href="#https://lwn.net/Articles/1024718/" title="See Description">20 Years of the Open Invention Network</a></li>
@@ -52,10 +53,37 @@
 <li><a href="#https://lwn.net/Articles/1024345/" title="See Description">Netdev 0x19 videos and slides are live</a></li>
 <li><a href="#https://lwn.net/Articles/1024160/" title="See Description">[$] Slowing the flow of core-dump-related CVEs</a></li>
 <li><a href="#https://lwn.net/Articles/1024317/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1023689/" title="See Description">[$] Zero-copy for FUSE</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1024758/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Jun 2025 19:37:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024758/" title="https://lwn.net/Articles/1024758/">Ubuntu 25.10 to drop support for X11 in GNOME</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Jean Baptiste Lallement, a member of Canonical's desktop team, has
+<a
+href="https://discourse.ubuntu.com/t/ubuntu-25-10-drops-support-for-gnome-on-xorg/62538">announced</a>
+that Ubuntu will drop support for GNOME on X11 in the 25.10
+("Questing Quokka") release set for October. GNOME plans to <a
+href="https://blogs.gnome.org/alatiera/2025/06/08/the-x11-session-removal/">remove</a>
+X11 support in GNOME&#160;49, which is scheduled for September, so
+Ubuntu is looking to be proactive:</p>
+
+<blockquote class="bq">
+Ubuntu 25.10 is the last interim release before our next LTS (Ubuntu
+26.04). By moving now, we give developers and users a full cycle to
+adapt before the next LTS, align with GNOME 49 and reduce
+fragmentation while simplifying our support matrix heading into the
+LTS.
+</blockquote>
+
+<p>Fedora <a href="https://pagure.io/fesco/issue/3408">decided in
+early May</a> to drop X11 support for GNOME in Fedora&#160;43, which
+is also due in October.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1023891/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 10 Jun 2025 15:16:49 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -285,23 +313,6 @@ them in the future.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (go-toolset:rhel8, golang, nodejs:20, nodejs:22, openssh, and python36:3.6), <b>Debian</b> (edk2, libfile-find-rule-perl, and webkit2gtk), <b>Fedora</b> (emacs, libvpx, perl-FCGI, and seamonkey), <b>Mageia</b> (cifs-utils), <b>Red Hat</b> (containernetworking-plugins, go-toolset:rhel8, golang, gvisor-tap-vsock, krb5, mod_auth_openidc:2.3, protobuf, and thunderbird), <b>Slackware</b> (seamonkey), <b>SUSE</b> (gimp, gnutls, haproxy, opensaml, openssh, openvpn, python-cryptography, python-tornado, python311-nh3, and python311-selenium), and <b>Ubuntu</b> (gst-plugins-bad1.0 and linux-fips).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1023689/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Jun 2025 22:12:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023689/" title="https://lwn.net/Articles/1023689/">[$] Zero-copy for FUSE</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In a combined storage and filesystem session at the 2025 Linux Storage,
-Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), Keith Busch led
-a discussion about zero-copy operations for the <a
-href="https://github.com/libfuse/libfuse?tab=readme-ov-file#libfuse">Filesystem
-in Userspace</a> (FUSE) subsystem.  The session was <a
-href="https://lwn.net/ml/all/dc3a5c7d-b254-48ea-9749-2c464bfd3931@davidwei.uk/">proposed</a>
-by his colleague, David Wei, who could not make it to the summit, so Busch
-filled in, though he noted that "<q>I do not really know FUSE so
-well</q>".  The idea is to eliminate data copies in the data path to and
-from the FUSE server in user space.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
