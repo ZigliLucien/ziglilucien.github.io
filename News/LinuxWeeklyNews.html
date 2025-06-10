@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1023891/" title="See Description">[$] Improving iov_iter</a></li>
+<li><a href="#https://lwn.net/Articles/1023575/" title="See Description">[$] An end to uniprocessor configurations</a></li>
 <li><a href="#https://lwn.net/Articles/1024718/" title="See Description">20 Years of the Open Invention Network</a></li>
 <li><a href="#https://lwn.net/Articles/1024714/" title="See Description">Three stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1024713/" title="See Description">Security updates for Tuesday</a></li>
@@ -51,11 +53,42 @@
 <li><a href="#https://lwn.net/Articles/1024160/" title="See Description">[$] Slowing the flow of core-dump-related CVEs</a></li>
 <li><a href="#https://lwn.net/Articles/1024317/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1023689/" title="See Description">[$] Zero-copy for FUSE</a></li>
-<li><a href="#https://lwn.net/Articles/1023306/" title="See Description">[$] Open source and the Cyber Resilience Act</a></li>
-<li><a href="#https://lwn.net/Articles/1024190/" title="See Description">/e/OS 3.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1023891/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Jun 2025 15:16:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023891/" title="https://lwn.net/Articles/1023891/">[$] Improving iov_iter</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/625077/"><tt>iov_iter</tt> interface</a> is used to
+describe and iterate through buffers in the kernel.  David Howells led a combined storage and
+filesystem session at 
+the 2025 Linux Storage,
+Filesystem, Memory Management, and BPF Summit (LSFMM+BPF) to discuss ways
+to improve <tt>iov_iter</tt>.  His <a
+href="https://lwn.net/ml/all/886959.1737148612%40warthog.procyon.org.uk/">topic
+proposal</a> listed a few different ideas including replacing some
+<tt>iov_iter</tt> types and possibly allowing mixed types in chains of <tt>iov_iter</tt>
+entries; he would like to make the interface itself and the uses of <tt>iov_iter</tt> in
+the kernel better.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1023575/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Jun 2025 14:29:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023575/" title="https://lwn.net/Articles/1023575/">[$] An end to uniprocessor configurations</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Linux kernel famously scales from the smallest of systems to massive
+servers with thousands of CPUs.  It was not always that way, though; the
+initial version of the kernel could only manage a single processor.  That
+limitation was lifted, obviously, but single-processor machines have always
+been treated specially in the scheduler.  That longstanding situation may
+soon come to an end, though, if <a
+href="https://lwn.net/ml/all/20250528080924.2273858-1-mingo@kernel.org">this patch
+series</a> from Ingo Molnar makes it upstream.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1024718/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 10 Jun 2025 13:16:53 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -270,41 +303,6 @@ filled in, though he noted that "<q>I do not really know FUSE so
 well</q>".  The idea is to eliminate data copies in the data path to and
 from the FUSE server in user space.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1023306/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Jun 2025 18:32:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023306/" title="https://lwn.net/Articles/1023306/">[$] Open source and the Cyber Resilience Act</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The European Union's
-<a href="https://en.wikipedia.org/wiki/Cyber_Resilience_Act">
-Cyber Resilience Act</a> (CRA) has caused a stir in the
-software-development world. Thanks to advocacy by the Eclipse Foundation, Open
-Source Initiative, Linux Foundation, Mozilla, and others, open-source software
-projects generally have minimal requirements under the CRA
-— but nothing to do with law is ever quite
-so simple. Marta Rybczyńska spoke at Linaro Connect 2025 about the impact of the
-CRA on the open-source ecosystem, with an emphasis on the importance of
-understanding a project's role under the CRA. She later participated in a panel
-discussion with Joakim Bech, Kate Stewart, and Mike Bursell about how the CRA
-would impact embedded open-source development.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1024190/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Jun 2025 18:14:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024190/" title="https://lwn.net/Articles/1024190/">/e/OS 3.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://gitlab.e.foundation/e/os/releases/-/releases">Version
-3.0</a> of the privacy-centric, open-source mobile operating system
-has been released. Notable changes in this release include improved
-privacy tools, a "find my device" feature, and more. LWN <a
-href="https://lwn.net/Articles/1006557/">looked at /e/OS</a> in
-March.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
