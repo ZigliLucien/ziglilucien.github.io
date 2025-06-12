@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of showers and thunderstorms after 5pm. Mostly cloudy. High near 85, with temperatures falling to around 81 in the
-         afternoon. South southeast wind around 3 mph. Chance of precipitation is 30%.<br></div>
+         afternoon. South wind around 3 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
