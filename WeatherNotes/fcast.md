@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>Showers and thunderstorms likely before 5am, then a chance of showers and thunderstorms. Cloudy, with a low around 69. South
-         southeast wind around 3 mph. Chance of precipitation is 70%.<br></div>
+         southeast wind around 3 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
