@@ -2,12 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of rain showers before 10am, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 82.
+         <h3>Overnight</h3>A slight chance of rain showers. Partly cloudy. Low around 69, with temperatures rising to around 72 overnight. South southwest
+         wind around 2 mph. Chance of precipitation is 20%.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday</h3>A slight chance of rain showers before 10am, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 82.
          West wind 3 to 7 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms before 8pm. Mostly cloudy, with a low around 68. North northwest wind 3 to 7 mph. Chance
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 8pm. Mostly cloudy, with a low around 68. North northwest wind 3 to 7 mph. Chance
          of precipitation is 40%.<br></div>
    </p>
    <p>
@@ -26,8 +31,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 71. South southwest wind around 3 mph. Chance of precipitation
-         is 40%.<br></div>
+         <h3>Monday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 71. South southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,9 +62,5 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>A slight chance of rain showers after 1pm. Mostly sunny, with a high near 89. South southwest wind 2 to 6 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Friday Night</h3>A slight chance of rain showers before 7pm. Partly cloudy, with a low around 72. South wind around 6 mph.<br></div>
    </p>
 </div>
