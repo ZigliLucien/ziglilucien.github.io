@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 80.1 F. <strong>Dew Point</strong> 71.1 F.</div>
+<div id='c'><strong>Temp</strong> 79.0 F. <strong>Dew Point</strong> 71.1 F.</div>
 
 <p/><br/><p/>
 
@@ -2303,3 +2303,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Sat Jun 14 11:08:05 2025 | 75.0 F. | 70.0 F.|
 | Sat Jun 14 12:08:04 2025 | 77.0 F. | 70.0 F.|
 | Sat Jun 14 13:08:04 2025 | 80.1 F. | 71.1 F.|
+| Sat Jun 14 14:08:04 2025 | 79.0 F. | 71.1 F.|
