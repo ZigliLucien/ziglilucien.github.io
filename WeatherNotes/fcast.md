@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Showers and thunderstorms before 4pm, then a chance of showers and thunderstorms. Some of the storms could produce heavy rain.
-         Cloudy, with a high near 80. East southeast wind around 6 mph. Chance of precipitation is 90%.<br></div>
+         Cloudy, with a high near 80. Southeast wind around 6 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
