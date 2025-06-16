@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1025634/" title="See Description">Changes to Kubernetes Slack (Kubernetes Contributors blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1025628/" title="See Description">Git 2.50.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1025257/" title="See Description">[$] Supporting NFS v4.2 WRITE_SAME</a></li>
 <li><a href="#https://lwn.net/Articles/1025618/" title="See Description">Security updates for Monday</a></li>
@@ -52,10 +53,39 @@
 <li><a href="#https://lwn.net/Articles/1025208/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1023924/" title="See Description">[$] LWN.net Weekly Edition for June 12, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1023646/" title="See Description">[$] Finding locking bugs with Smatch</a></li>
-<li><a href="#https://lwn.net/Articles/1024844/" title="See Description">Covert web-to-app tracking via localhost on Android</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1025634/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 16 Jun 2025 20:45:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025634/" title="https://lwn.net/Articles/1025634/">Changes to Kubernetes Slack (Kubernetes Contributors blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Kubernetes project has <a
+href="https://www.kubernetes.dev/blog/2025/06/16/changes-to-kubernetes-slack-2025/">announced</a>
+that it will be losing its "<q>special status</q>" with the <a
+href="https://slack.com/">Slack</a> communication platform and will be
+downgraded to the free tier in a matter of days:</p>
+
+<blockquote class="bq">
+On Friday, June 20, we will be subject to the <a
+href="https://slack.com/help/articles/27204752526611-Feature-limitations-on-the-free-version-of-Slack">feature
+limitations of free Slack</a>. The primary ones which will affect us
+will be only retaining 90 days of history, and having to disable
+several apps and workflows which we are currently using. The Slack
+Admin team will do their best to manage these limitations.
+</blockquote>
+
+<p>The project has a <a
+href="https://github.com/kubernetes/community/blob/master/communication/slack-migration-faq.md#what-actions-do-channel-owners-and-user-group-members-need-to-take-soon">FAQ</a>
+covering the change, its impacts, and more. The CNCF projects staff
+has <a
+href="https://github.com/kubernetes/community/blob/master/communication/slack-migration-faq.md#will-we-be-migrating-to-a-new-platform">proposed</a>
+a move to the <a href="https://discord.com/">Discord service</a> as
+the best option to handle the more than 200,000 users and thousands of
+posts per day from the Kubernetes community. The Kubernetes Steering
+Committee will be making its decision "<q>in the next few weeks</q>".</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1025628/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 16 Jun 2025 18:35:03 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -286,33 +316,6 @@ Smatch, the changes to its implementation, and how those changes enabled him to 
 add additional checks for locking bugs in the kernel.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1024844/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 11 Jun 2025 13:16:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024844/" title="https://lwn.net/Articles/1024844/">Covert web-to-app tracking via localhost on Android</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://localmess.github.io/">"Local Mess" GitHub
-repository</a> is dedicated to the disclosure of an Android tracking
-exploit used by (at least) Meta and Yandex.
-<p>
-<blockquote class="bq">
-	While there are subtle differences in the way Meta and Yandex
-	bridge web and mobile contexts and identifiers, both of them
-	essentially misuse the unvetted access to localhost sockets. The
-	Android OS allows any installed app with the INTERNET permission to
-	open a listening socket on the loopback interface
-	(127.0.0.1). Browsers running on the same device also access this
-	interface without user consent or platform mediation. This allows
-	JavaScript embedded on web pages to communicate with native Android
-	apps and share identifiers and browsing habits, bridging ephemeral
-	web identifiers to long-lived mobile app IDs using standard Web
-	APIs. 
-</blockquote>
-<p>
-This backdoor, the use of which has evidently stopped since its disclosure,
-allow tracking of users across sites regardless of cookie policies or use of
-incognito browser modes.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
