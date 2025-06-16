@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1025529/" title="See Description">Kernel prepatch 6.16-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/1024387/" title="See Description">[$] CoMaps emerges as an Organic Maps fork</a></li>
 <li><a href="#https://lwn.net/Articles/1025405/" title="See Description">Radicle Desktop released</a></li>
 <li><a href="#https://lwn.net/Articles/1025354/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,34 @@
 <li><a href="#https://lwn.net/Articles/1024939/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1024758/" title="See Description">Ubuntu 25.10 to drop support for GNOME on Xorg</a></li>
 <li><a href="#https://lwn.net/Articles/1023891/" title="See Description">[$] Improving iov_iter</a></li>
-<li><a href="#https://lwn.net/Articles/1023575/" title="See Description">[$] An end to uniprocessor configurations</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1025529/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 16 Jun 2025 00:23:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025529/" title="https://lwn.net/Articles/1025529/">Kernel prepatch 6.16-rc2</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds has released <a href="https://lwn.net/Articles/1025530/">6.16-rc2</a>,
+which is "<q>admittedly
+even smaller than usual</q>", though rc2 is not uncommonly one of the smaller
+release candidates.
+
+<blockquote class="bq">
+It may be that people are taking a breather after a fairly sizable
+merge window, but it might also be seasonal, with Europe starting to
+see summer vacations... We'll see how this goes.
+<p>
+The diffstat looks somewhat unusual, with a lot of one-liners with
+both ARC and pincontrol having (presumably independently) ended up
+doing some unrelated trivial cleanups.
+<p>
+But even that is probably noticeable only because everything else is
+pretty small. That "everything else" is mostly network drivers (and
+bluetooth) and bcachefs, with some rust infrastructure and core
+networking changes thrown in.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1024387/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 13 Jun 2025 15:05:24 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -299,21 +324,6 @@ proposal</a> listed a few different ideas including replacing some
 <tt>iov_iter</tt> types and possibly allowing mixed types in chains of <tt>iov_iter</tt>
 entries; he would like to make the interface itself and the uses of <tt>iov_iter</tt> in
 the kernel better.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1023575/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 10 Jun 2025 14:29:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023575/" title="https://lwn.net/Articles/1023575/">[$] An end to uniprocessor configurations</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Linux kernel famously scales from the smallest of systems to massive
-servers with thousands of CPUs.  It was not always that way, though; the
-initial version of the kernel could only manage a single processor.  That
-limitation was lifted, obviously, but single-processor machines have always
-been treated specially in the scheduler.  That longstanding situation may
-soon come to an end, though, if <a
-href="https://lwn.net/ml/all/20250528080924.2273858-1-mingo@kernel.org">this patch
-series</a> from Ingo Molnar makes it upstream.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
