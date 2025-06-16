@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-06-16T03:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-06-16T02:01:41+00:00</updateTime>
-		<validTimes type="str">2025-06-15T20:00:00+00:00/P7DT5H</validTimes>
+		<generatedAt type="str">2025-06-16T05:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-06-16T04:46:41+00:00</updateTime>
+		<validTimes type="str">2025-06-15T22:00:00+00:00/P7DT3H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-06-15T22:00:00-05:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-06-16T00:00:00-05:00</startTime>
 				<endTime type="str">2025-06-16T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">69</temperature>
@@ -64,7 +64,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 mph</windSpeed>
 				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,20/tsra_sct,40?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra,40?size=medium</icon>
 				<shortForecast type="str">Slight Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A slight chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Mostly cloudy. Low around 69, with temperatures rising to around 71 overnight. East wind around 1 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
