@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1025257/" title="See Description">[$] Supporting NFS v4.2 WRITE_SAME</a></li>
+<li><a href="#https://lwn.net/Articles/1025618/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1025529/" title="See Description">Kernel prepatch 6.16-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/1024387/" title="See Description">[$] CoMaps emerges as an Organic Maps fork</a></li>
 <li><a href="#https://lwn.net/Articles/1025405/" title="See Description">Radicle Desktop released</a></li>
@@ -51,11 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1023646/" title="See Description">[$] Finding locking bugs with Smatch</a></li>
 <li><a href="#https://lwn.net/Articles/1024844/" title="See Description">Covert web-to-app tracking via localhost on Android</a></li>
 <li><a href="#https://lwn.net/Articles/1024939/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1024758/" title="See Description">Ubuntu 25.10 to drop support for GNOME on Xorg</a></li>
-<li><a href="#https://lwn.net/Articles/1023891/" title="See Description">[$] Improving iov_iter</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1025257/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 16 Jun 2025 14:25:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025257/" title="https://lwn.net/Articles/1025257/">[$] Supporting NFS v4.2 WRITE_SAME</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>At the 2025 Linux Storage, Filesystem, Memory Management, and BPF Summit
+(LSFMM+BPF), Anna Schumaker led a discussion about implementing the NFS
+v4.2 <a
+href="https://datatracker.ietf.org/doc/html/rfc7862#section-15.12"><tt>WRITE_SAME</tt>
+command</a> in both the NFS client and server.  <tt>WRITE_SAME</tt> is
+meant to write large amounts of identical data (e.g. zeroes) to the server
+without actually needing to transfer all of it over the wire.  In her <a
+href="https://lwn.net/ml/all/f9ade3f0-6bfc-45da-a796-c22ceaeb4722%40oracle.com/">topic
+proposal</a>, Schumaker wondered whether other filesystems needed the
+functionality, so that it should be implemented at the virtual filesystem
+(VFS) layer, or whether it should simply be handled as an NFS-specific <a
+href="https://www.man7.org/linux/man-pages/man2/ioctl.2.html"><tt>ioctl()</tt></a>.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1025618/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 16 Jun 2025 14:20:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025618/" title="https://lwn.net/Articles/1025618/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0 and .NET 9.0), <b>Arch Linux</b> (curl, ghostscript, go, konsole, python-django, roundcubemail, and samba), <b>Fedora</b> (aerc, chromium, golang-x-perf, libkrun, python3.11, python3.12, rust-kbs-types, rust-sev, rust-sevctl, valkey, and wireshark), <b>Gentoo</b> (Konsole and sysstat), <b>Oracle</b> (.NET 9.0), <b>Red Hat</b> (bootc, grub2, keylime-agent-rust, python3.12-cryptography, rpm-ostree, rust-bootupd, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (apache2-mod_auth_openidc, docker, grub2, java-1_8_0-openj9, kernel, less, python-Django, screen, and sqlite3), and <b>Ubuntu</b> (cifs-utils and modsecurity-apache).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1025529/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 16 Jun 2025 00:23:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,52 +305,6 @@ incognito browser modes.</blockquote></blockquote></div></td></tr>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <strong>AlmaLinux</strong> (glibc, grafana, kernel-rt, libjpeg-turbo, libxslt, and thunderbird), <strong>Debian</strong> (curl), <strong>Fedora</strong> (dtk6core, dtk6gui, dtk6log, dtk6widget, fcitx5-qt, gammaray, kddockwidgets, kwin, LabPlot, libqtxdg, nheko, plasma-integration, python-pyqt6, python-pyside6, qt-creator, roundcubemail, zeal, and a large number of qt6 packages), <strong>Oracle</strong> (firefox, glibc, grafana, kernel, libxslt, perl-FCGI, python3.12-cryptography, thunderbird, and zlib), </strong>SUSE</strong> (glib2, libjxl, libsoup2, nbdkit, nodejs22, perl-Crypt-OpenSSL-RSA, perl-YAML-LibYAML, python3, tomcat, and transfig), and <strong>Ubuntu</strong> (dotnet8, dotnet9 and samba). 
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1024758/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 10 Jun 2025 19:37:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024758/" title="https://lwn.net/Articles/1024758/">Ubuntu 25.10 to drop support for GNOME on Xorg</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Jean Baptiste Lallement, a member of Canonical's desktop team, has
-<a
-href="https://discourse.ubuntu.com/t/ubuntu-25-10-drops-support-for-gnome-on-xorg/62538">announced</a>
-that Ubuntu will drop support for GNOME on X11 in the 25.10
-("Questing Quokka") release set for October. GNOME plans to <a
-href="https://blogs.gnome.org/alatiera/2025/06/08/the-x11-session-removal/">remove</a>
-X11 support in GNOME&#160;49, which is scheduled for September, so
-Ubuntu is looking to be proactive:</p>
-
-<blockquote class="bq">
-Ubuntu 25.10 is the last interim release before our next LTS (Ubuntu
-26.04). By moving now, we give developers and users a full cycle to
-adapt before the next LTS, align with GNOME 49 and reduce
-fragmentation while simplifying our support matrix heading into the
-LTS.
-</blockquote>
-
-<p>Fedora <a href="https://pagure.io/fesco/issue/3408">decided in
-early May</a> to drop X11 support for GNOME in Fedora&#160;43, which
-is also due in October.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1023891/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 10 Jun 2025 15:16:49 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023891/" title="https://lwn.net/Articles/1023891/">[$] Improving iov_iter</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/625077/"><tt>iov_iter</tt> interface</a> is used to
-describe and iterate through buffers in the kernel.  David Howells led a combined storage and
-filesystem session at 
-the 2025 Linux Storage,
-Filesystem, Memory Management, and BPF Summit (LSFMM+BPF) to discuss ways
-to improve <tt>iov_iter</tt>.  His <a
-href="https://lwn.net/ml/all/886959.1737148612%40warthog.procyon.org.uk/">topic
-proposal</a> listed a few different ideas including replacing some
-<tt>iov_iter</tt> types and possibly allowing mixed types in chains of <tt>iov_iter</tt>
-entries; he would like to make the interface itself and the uses of <tt>iov_iter</tt> in
-the kernel better.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
