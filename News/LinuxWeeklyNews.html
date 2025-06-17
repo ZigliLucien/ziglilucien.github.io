@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1024747/" title="See Description">[$] A parallel path for GPU restore in CRIU</a></li>
+<li><a href="#https://lwn.net/Articles/1025127/" title="See Description">[$] Enhancing screen-reader functionality in modern GNOME</a></li>
 <li><a href="#https://lwn.net/Articles/1025734/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1025634/" title="See Description">Changes to Kubernetes Slack (Kubernetes Contributors blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1025628/" title="See Description">Git 2.50.0 released</a></li>
@@ -51,11 +53,43 @@
 <li><a href="#https://lwn.net/Articles/1025226/" title="See Description">Summaries from the 2025 Python Language Summit</a></li>
 <li><a href="#https://lwn.net/Articles/1025224/" title="See Description">Rocky Linux 10.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1024402/" title="See Description">[$] Parallelizing filesystem writeback</a></li>
-<li><a href="#https://lwn.net/Articles/1025208/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1023924/" title="See Description">[$] LWN.net Weekly Edition for June 12, 2025</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1024747/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 17 Jun 2025 18:02:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024747/" title="https://lwn.net/Articles/1024747/">[$] A parallel path for GPU restore in CRIU</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p> The fundamental concept of checkpoint/restore is elegant: capture a
+process's state and resurrect it later, perhaps elsewhere. Checkpointing
+meticulously records a process's memory, open files, CPU state, and more into a
+snapshot. Restoration then reconstructs the process from this state. This
+established technique faces new challenges with GPU-accelerated applications,
+where low-latency restoration is crucial for
+<a href='https://criu.org/Usage_scenarios#Fault-tolerant_systems'>fault
+tolerance</a>, live migration, and
+fast startups. Recently, the restore process for AMD GPUs has been redesigned to
+eliminate substantial bottlenecks. </p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1025127/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 17 Jun 2025 17:06:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025127/" title="https://lwn.net/Articles/1025127/">[$] Enhancing screen-reader functionality in modern GNOME</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Accessibility features and the work that goes into developing those features
+often tend to be overlooked and are poorly understood by all but the people who actually
+depend on such features. At Fedora's annual developer conference, <a
+href="https://fedoraproject.org/flock/2025/">Flock</a>, Lukáš Tyrychtr sought to
+improve understanding and raise awareness about accessibility with his session on <a
+href="https://cfp.fedoraproject.org/flock-to-fedora-2025/talk/NNYFPL/">accessibility
+barriers and screen-reader functionality in GNOME</a>. His talk provided rare insight
+into the world of using and developing open-source software for visually-impaired
+users&mdash;including landing important accessibility improvements in
+the latest GNOME release.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1025734/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 17 Jun 2025 13:43:31 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -285,29 +319,6 @@ that have been seen with the existing single-threaded writeback came up in
 a <a href="https://lwn.net/Articles/976856/">session at last year's summit</a>, where the
 idea of doing writeback in parallel was discussed.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1025208/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Jun 2025 13:37:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025208/" title="https://lwn.net/Articles/1025208/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel), <b>Debian</b> (chromium, gst-plugins-bad1.0, node-tar-fs, and ublock-origin), <b>Gentoo</b> (Emacs, File-Find-Rule, GStreamer, GStreamer Plugins, GTK+ 3, LibreOffice, Node.js, OpenImageIO, Python, PyPy, Qt, X.Org X server, XWayland, and YAML-LibYAML), <b>Mageia</b> (mariadb and roundcubemail), <b>Red Hat</b> (go-toolset:rhel8, golang, grafana, grafana-pcp, gstreamer1-plugins-bad-free, libxml2, libxslt, mod_security, nodejs:20, and perl-FCGI:0.78), <b>Slackware</b> (mozilla), <b>SUSE</b> (docker, docker-compose, iputils, kernel, libsoup, open-vm-tools, rabbitmq-server, rabbitmq-server313, wget, and yelp), and <b>Ubuntu</b> (libsoup2.4 and webkit2gtk).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1023924/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Jun 2025 00:57:15 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1023924/" title="https://lwn.net/Articles/1023924/">[$] LWN.net Weekly Edition for June 12, 2025</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1023924/">Front</a>: Nyxt; Cyber Resilience Act; Unwanted file descriptors; Core-dump API; 6.16 Merge window; Uniprocessor configurations; Smatch; FUSE zero-copy; iov_iter; Fedora documentation.
-            <li> <a href="https://lwn.net/Articles/1023926/">Briefs</a>: Android tracking; /e/OS 3.0; FreeBSD laptops; Ubuntu X11 support; Netdev 0x19; OIN anniversary; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1023927/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
