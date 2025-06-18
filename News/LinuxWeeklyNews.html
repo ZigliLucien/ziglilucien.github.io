@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1024757/" title="See Description">[$] The hierarchical constant bandwidth server scheduler</a></li>
+<li><a href="#https://lwn.net/Articles/1025268/" title="See Description">[$] Getting Lustre upstream</a></li>
 <li><a href="#https://lwn.net/Articles/1025863/" title="See Description">KDE Plasma 6.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/1025862/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1024747/" title="See Description">[$] A parallel path for GPU restore in CRIU</a></li>
@@ -51,11 +53,43 @@
 <li><a href="#https://lwn.net/Articles/1024387/" title="See Description">[$] CoMaps emerges as an Organic Maps fork</a></li>
 <li><a href="#https://lwn.net/Articles/1025405/" title="See Description">Radicle Desktop released</a></li>
 <li><a href="#https://lwn.net/Articles/1025354/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1024486/" title="See Description">[$] FAIR package management for WordPress</a></li>
-<li><a href="#https://lwn.net/Articles/1025226/" title="See Description">Summaries from the 2025 Python Language Summit</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1024757/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Jun 2025 16:46:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024757/" title="https://lwn.net/Articles/1024757/">[$] The hierarchical constant bandwidth server scheduler</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://pubs.opengroup.org/onlinepubs/7908799/xsh/realtime.html">POSIX
+realtime model</a>, which is implemented in the Linux kernel, can ensure
+that a realtime process obtains the CPU time it needs to get its job done.
+It can be less effective, though, when there are multiple realtime
+processes competing for the available CPU resources.  The <a
+href="https://lwn.net/ml/all/20250605071412.139240-1-yurand2000@gmail.com">hierarchical
+constant bandwidth server</a> patch series, posted by Yuri Andriaccio with
+work by Luca Abeni, Alessio Balsini, and Andrea Parri, is a modification to
+the Linux scheduler intended to make it possible to configure systems with
+multiple realtime tasks in a deterministic and correct manner.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1025268/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Jun 2025 14:05:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025268/" title="https://lwn.net/Articles/1025268/">[$] Getting Lustre upstream</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://www.lustre.org/">Lustre filesystem</a> has a long
+history, some of which intersects with Linux.  It was added to the staging
+tree in 2013, but was <a href="https://lwn.net/Articles/756565/">bounced out of
+staging</a> in 2018, due to a lack of progress and a development model
+that was incompatible with the kernel's.  Lustre may be working its way
+back into the kernel, though.  In a filesystem-track session at
+the 2025 Linux Storage, Filesystem, Memory Management, and BPF Summit
+(LSFMM+BPF), Timothy Day and James Simmons led a discussion on how to get
+Lustre into the mainline.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1025863/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 18 Jun 2025 13:27:05 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -269,50 +303,6 @@ in March 2024.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, glibc, kernel, and mod_security), <b>Fedora</b> (chromium, gh, mingw-icu, nginx-mod-modsecurity, python3.10, python3.9, thunderbird, valkey, and yarnpkg), <b>Oracle</b> (.NET 8.0, .NET 9.0, glibc, grafana-pcp, kernel, libxml2, mod_security, nodejs:20, and thunderbird), <b>SUSE</b> (audiofile, helm, kubernetes-old, kubernetes1.23, kubernetes1.24, libcryptopp, postgresql15, thunderbird, and valkey), and <b>Ubuntu</b> (linux-nvidia-tegra-igx).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1024486/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Jun 2025 17:37:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024486/" title="https://lwn.net/Articles/1024486/">[$] FAIR package management for WordPress</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The last year has been a rocky one for the <a
-href="https://wordpress.org/">WordPress</a> community. Matt
-Mullenweg&mdash;WordPress <span class="nobreak">co-founder</span> and
-CEO of WordPress hosting company <a
-href="https://automattic.com/">Automattic</a>&mdash;started <a
-href="https://lwn.net/Articles/991906/">a messy public spat</a> with
-<a href="https://wpengine.com/">WP&#160;Engine</a> in September and
-has proceeded to use his control of the project's WordPress.org
-infrastructure as weapons against the company, with the community
-caught in the crossfire. It is not surprising, then, that on
-June&#160;6 a group of WordPress community participants announced the
-<a
-href="https://github.com/fairpm#welcome-to-the-fair-package-manager-project">Federated
-and Independent Repositories Package Manager</a> (FAIR.pm) project. It
-is designed to be a decentralized alternative to WordPress.org with a
-goal of building "<q>public digital infrastructure that is both
-resilient and fair</q>".</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1025226/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Jun 2025 17:06:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025226/" title="https://lwn.net/Articles/1025226/">Summaries from the 2025 Python Language Summit</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Python Software Foundation blog is carrying <a
-href="https://pyfound.blogspot.com/2025/06/python-language-summit-2025.html">a
-set of detailed summaries from the 2025 Python Language Summit</a>:
-<p>
-<blockquote class="bq">
-	The Python Language Summit 2025 occurred on May 14th in Pittsburgh,
-	Pennsylvania. Core developers and special guests from around the
-	world gathered in one room for an entire day of presentations and
-	discussions about the future of the Python programming language.
-</blockquote>
-<p>
-Topics covered include making breaking changes less painful, free-threaded
-Python, interaction with Rust, and challenges faced by the Steering
-Council.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
