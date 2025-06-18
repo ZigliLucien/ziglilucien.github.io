@@ -2,35 +2,35 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy, with a low around 74. South southwest wind 5 to 8 mph.<br></div>
+         <h3>Overnight</h3>Partly cloudy, with a low around 74. South southwest wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A slight chance of showers and thunderstorms between 7am and 1pm, then showers and thunderstorms likely between 1pm and 4pm,
-         then showers and thunderstorms likely. Mostly sunny. High near 88, with temperatures falling to around 83 in the afternoon.
-         South southwest wind 9 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Wednesday</h3>Showers and thunderstorms likely after 7am. Some of the storms could be severe. Partly sunny. High near 87, with temperatures
+         falling to around 82 in the afternoon. Southwest wind 9 to 15 mph, with gusts as high as 26 mph. Chance of precipitation is
+         60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Showers and thunderstorms likely before 7pm, then showers and thunderstorms. Mostly cloudy, with a low around 69. West southwest
-         wind 6 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Wednesday Night</h3>Showers and thunderstorms likely before 10pm, then showers and thunderstorms likely between 10pm and midnight, then a chance
+         of showers and thunderstorms between midnight and 4am. Some of the storms could be severe. Mostly cloudy, with a low around
+         70. Southwest wind 6 to 13 mph, with gusts as high as 23 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Juneteenth</h3>A chance of rain showers before 7am. Mostly sunny, with a high near 84. West northwest wind around 5 mph. Chance of precipitation
-         is 30%.<br></div>
+         <h3>Juneteenth</h3>Mostly sunny, with a high near 84. West northwest wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 67. Southwest wind around 3 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly clear, with a low around 67. South wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Sunny, with a high near 87. South wind 2 to 6 mph.<br></div>
+         <h3>Friday</h3>Sunny, with a high near 89. South wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Clear, with a low around 71. South wind around 6 mph.<br></div>
+         <h3>Friday Night</h3>Mostly clear, with a low around 73. South wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -38,7 +38,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Clear, with a low around 75. South wind 6 to 9 mph.<br></div>
+         <h3>Saturday Night</h3>Mostly clear, with a low around 76. South wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -50,7 +50,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny, with a high near 92. South wind around 6 mph.<br></div>
+         <h3>Monday</h3>Sunny, with a high near 93. South wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
