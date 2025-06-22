@@ -2,16 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Clear. Low around 76, with temperatures rising to around 79 overnight. South southwest wind around 6 mph.<br></div>
+         <h3>Today</h3>Sunny. High near 95, with temperatures falling to around 93 in the afternoon. Heat index values as high as 105. South southwest
+         wind 2 to 10 mph, with gusts as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Sunny. High near 95, with temperatures falling to around 93 in the afternoon. Heat index values as high as 105. South southwest
-         wind 7 to 10 mph, with gusts as high as 20 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday Night</h3>Clear. Low around 76, with temperatures rising to around 78 overnight. South southwest wind 5 to 9 mph.<br></div>
+         <h3>Tonight</h3>Clear. Low around 76, with temperatures rising to around 78 overnight. South southwest wind 5 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -28,7 +24,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 76. South wind around 3 mph.<br></div>
+         <h3>Tuesday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 76. South wind around 3 mph. Chance
+         of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,5 +55,10 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 92. South southwest wind 3 to 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms before 1am. Mostly clear, with a low around 76. South southwest wind around 6
+         mph.<br></div>
    </p>
 </div>
