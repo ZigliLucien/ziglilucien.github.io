@@ -2,12 +2,11 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 95, with temperatures falling to around 93 in the afternoon. Heat index values as high as 105. South southwest
-         wind around 8 mph.<br></div>
+         <h3>This Afternoon</h3>Sunny. High near 95, with temperatures falling to around 92 in the afternoon. South wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Clear, with a low around 76. South southwest wind 3 to 7 mph.<br></div>
+         <h3>Tonight</h3>Clear, with a low around 76. South wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
