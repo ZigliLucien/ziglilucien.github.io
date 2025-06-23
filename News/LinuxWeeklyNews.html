@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1026531/" title="See Description">PostmarketOS 25.06: "the one with systemd"</a></li>
+<li><a href="#https://lwn.net/Articles/1025560/" title="See Description">[$] GNOME deepens systemd dependencies</a></li>
+<li><a href="#https://lwn.net/Articles/1026528/" title="See Description">Linux Media Summit 2025 recap (Collabora blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1026498/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1026406/" title="See Description">Kernel prepatch 6.16-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/1024202/" title="See Description">[$] How to write Rust in the kernel: part 1</a></li>
 <li><a href="#https://lwn.net/Articles/1025650/" title="See Description">[$] A distributed filesystem for archival systems: ngnfs</a></li>
@@ -49,13 +53,75 @@
 <li><a href="#https://lwn.net/Articles/1025076/" title="See Description">[$] LWN.net Weekly Edition for June 19, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1024757/" title="See Description">[$] The hierarchical constant bandwidth server scheduler</a></li>
 <li><a href="#https://lwn.net/Articles/1025268/" title="See Description">[$] Getting Lustre upstream</a></li>
-<li><a href="#https://lwn.net/Articles/1025863/" title="See Description">KDE Plasma 6.4 released</a></li>
-<li><a href="#https://lwn.net/Articles/1025862/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1024747/" title="See Description">[$] A parallel path for GPU restore in CRIU</a></li>
-<li><a href="#https://lwn.net/Articles/1025127/" title="See Description">[$] Enhancing screen-reader functionality in modern GNOME</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1026531/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 23 Jun 2025 15:32:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026531/" title="https://lwn.net/Articles/1026531/">PostmarketOS 25.06: "the one with systemd"</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://postmarketos.org/">postmarketOS</a> project,
+which creates a Linux distribution for mobile devices, <a
+href="https://postmarketos.org/blog/2024/03/05/adding-systemd/">announced</a>
+it was working on adding a version with systemd last March. That day
+has arrived with the <a
+href="https://postmarketos.org/blog/2025/06/22/v25.06-release/">announcement
+of version 25.06</a>:</p>
+
+<blockquote class="bq">
+We considered supporting an upgrade from OpenRC to systemd in our
+upgrade script, but then decided against it as such an upgrade path
+might introduce its own bugs and we would rather spend the time
+improving other parts of postmarketOS. So for this one-time scenario
+we ask you to please reinstall postmarketOS to get from OpenRC to
+systemd. Thank you for your understanding!
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1025560/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 23 Jun 2025 15:06:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025560/" title="https://lwn.net/Articles/1025560/">[$] GNOME deepens systemd dependencies</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Adrian Vovk, a GNOME contributor and member of its <a
+href="https://handbook.gnome.org/release-planning/release-team.html">release
+team</a>, recently <a
+href="https://blogs.gnome.org/adrianvovk/2025/06/10/gnome-systemd-dependencies/">announced</a>
+in a blog post that GNOME would be adding new dependencies on <a
+href="https://systemd.io/">systemd</a>, and soon. The idea is to shed
+GNOME's homegrown service manager in favor of using systemd, and to
+improve GNOME's ability to run concurrent user sessions. However, the
+move is also going to throw a spanner in the works for the BSDs and
+Linux distributions without systemd when the changes take effect in
+the GNOME&#160;49 release that is set for September.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1026528/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 23 Jun 2025 15:03:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026528/" title="https://lwn.net/Articles/1026528/">Linux Media Summit 2025 recap (Collabora blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Collabora blog has a <a
+href="https://www.collabora.com/news-and-blog/blog/2025/06/23/linux-media-summit-2025-recap/">summary</a>,
+written by Nicolas Dufresne, about the <a
+href="https://lwn.net/ml/all/044f2fa6-a245-4ae5-b9de-7a2e8831ccd6%40xs4all.nl/">Linux
+Media Summit</a> held on May 13 in Nice, France.  It was co-located with
+the <a href="https://embedded-recipes.org/2025/">Embedded Recipes</a>
+conference and had sessions on stateless video encoders, camera support,
+staging drivers, memory accounting, and a multi-committer model for the
+media subsystem.
+"<q>Our largest Media Summit to date brought together around 20 engaged participants. Engagement was strong, marked by thoughtful questions and lively discussions.</q>"</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1026498/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 23 Jun 2025 14:09:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026498/" title="https://lwn.net/Articles/1026498/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libblockdev and open-vm-tools), <b>Debian</b> (debian-security-support, gdk-pixbuf, konsole, and node-send), <b>Fedora</b> (apache-commons-beanutils, chromium, clamav, dotnet9.0, libblockdev, mediawiki, mingw-python-setuptools, pam, perl-File-Find-Rule, python-pycares, python-setuptools, spdlog, udisks2, and xorg-x11-server-Xwayland), <b>Mageia</b> (chromium-browser-stable), <b>Oracle</b> (apache-commons-beanutils, container-tools:ol8, gimp:2.8, idm:DL1, perl-FCGI:0.78, and postgresql), <b>Red Hat</b> (container-tools:rhel8, delve, git-lfs, go-toolset:rhel8, grafana, kernel, mod_auth_openidc, and spice-client-win), <b>SUSE</b> (apache-commons-beanutils, apache2-mod_security2, distribution, gstreamer-plugins-good, icu, ignition, perl, python310, python311, python312, and python39), and <b>Ubuntu</b> (apache-log4j1.2 and botan).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1026406/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 22 Jun 2025 20:47:54 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -212,63 +278,6 @@ back into the kernel, though.  In a filesystem-track session at
 the 2025 Linux Storage, Filesystem, Memory Management, and BPF Summit
 (LSFMM+BPF), Timothy Day and James Simmons led a discussion on how to get
 Lustre into the mainline.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1025863/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Jun 2025 13:27:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025863/" title="https://lwn.net/Articles/1025863/">KDE Plasma 6.4 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The KDE Project has <a
-href="https://kde.org/announcements/plasma/6/6.4.0/">announced</a> the
-Plasma 6.4 release. New features include more flexible tiling
-features, improvements to the Spectacle screen capture utility, a
-number of accessibility enhancements, and much more. See the <a
-href="https://kde.org/announcements/changelogs/plasma/6/6.3.5-6.4.0/">changelog</a>
-for a complete list of new features, enhancements, and bug fixes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1025862/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Jun 2025 13:13:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025862/" title="https://lwn.net/Articles/1025862/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (gst-plugins-bad1.0, konsole, and libblockdev), <b>Oracle</b> (buildah, containernetworking-plugins, gimp, git-lfs, gvisor-tap-vsock, kernel, libvpx, podman, and skopeo), <b>Red Hat</b> (apache-commons-beanutils and thunderbird), <b>Slackware</b> (xorg), <b>SUSE</b> (gdm, golang-github-prometheus-alertmanager, golang-github-prometheus-node_exporter, golang-github-prometheus-prometheus, govulncheck-vulndb, grafana, kernel, Multi-Linux Manager, Multi-Linux Manager Client Tools, openssl-3, pam, python-cryptography, python-requests, python-setuptools, python3-requests, SUSE Manager Server, systemd, ucode-intel, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (dwarfutils, mujs, node-katex, xorg-server, xorg-server-hwe-16.04, xorg-server-hwe-18.04, and xorg-server, xwayland).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1024747/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 17 Jun 2025 18:02:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1024747/" title="https://lwn.net/Articles/1024747/">[$] A parallel path for GPU restore in CRIU</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p> The fundamental concept of checkpoint/restore is elegant: capture a
-process's state and resurrect it later, perhaps elsewhere. Checkpointing
-meticulously records a process's memory, open files, CPU state, and more into a
-snapshot. Restoration then reconstructs the process from this state. This
-established technique faces new challenges with GPU-accelerated applications,
-where low-latency restoration is crucial for
-<a href='https://criu.org/Usage_scenarios#Fault-tolerant_systems'>fault
-tolerance</a>, live migration, and
-fast startups. Recently, the restore process for AMD GPUs has been redesigned to
-eliminate substantial bottlenecks. </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1025127/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 17 Jun 2025 17:06:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025127/" title="https://lwn.net/Articles/1025127/">[$] Enhancing screen-reader functionality in modern GNOME</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Accessibility features and the work that goes into developing those features
-often tend to be overlooked and are poorly understood by all but the people who actually
-depend on such features. At Fedora's annual developer conference, <a
-href="https://fedoraproject.org/flock/2025/">Flock</a>, Lukáš Tyrychtr sought to
-improve understanding and raise awareness about accessibility with his session on <a
-href="https://cfp.fedoraproject.org/flock-to-fedora-2025/talk/NNYFPL/">accessibility
-barriers and screen-reader functionality in GNOME</a>. His talk provided rare insight
-into the world of using and developing open-source software for visually-impaired
-users&mdash;including landing important accessibility improvements in
-the latest GNOME release.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
