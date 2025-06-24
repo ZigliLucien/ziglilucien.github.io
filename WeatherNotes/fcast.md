@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny. High near 93, with temperatures falling to around 91 in the
-         afternoon. South southwest wind around 7 mph. Chance of precipitation is 30%.<br></div>
+         afternoon. South southwest wind 3 to 7 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
