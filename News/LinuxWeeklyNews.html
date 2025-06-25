@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1025971/" title="See Description">[$] Libxml2's "no security embargoes" policy</a></li>
+<li><a href="#https://lwn.net/Articles/1025893/" title="See Description">[$] Getting extensions to work with free-threaded Python</a></li>
 <li><a href="#https://lwn.net/Articles/1026338/" title="See Description">LSFMM+BPF 2025 reporting complete</a></li>
 <li><a href="#https://lwn.net/Articles/1026848/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1026701/" title="See Description">Firefox 140.0 released</a></li>
@@ -51,11 +53,48 @@
 <li><a href="#https://lwn.net/Articles/1026406/" title="See Description">Kernel prepatch 6.16-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/1024202/" title="See Description">[$] How to write Rust in the kernel: part 1</a></li>
 <li><a href="#https://lwn.net/Articles/1025650/" title="See Description">[$] A distributed filesystem for archival systems: ngnfs</a></li>
-<li><a href="#https://lwn.net/Articles/1026248/" title="See Description">Tag2upload is now ready for experimentation</a></li>
-<li><a href="#https://lwn.net/Articles/1026281/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1025971/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 25 Jun 2025 15:29:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025971/" title="https://lwn.net/Articles/1025971/">[$] Libxml2's "no security embargoes" policy</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://gitlab.gnome.org/GNOME/libxml2/#libxml2">Libxml2</a>, an
+XML parser and toolkit, is an almost perfect example of the successes
+and failures of the open-source movement. In the 25 years since its
+first release, it has been widely adopted by open-source projects, for
+use in commercial software, and for government use. It also
+illustrates that while many organizations love using open-source software,
+far fewer have yet to see value in helping to sustain it. That has led
+libxml2's current maintainer to reject security embargoes and sparked
+a discussion about maintenance terms for free and open-source
+projects.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1025893/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 25 Jun 2025 14:32:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025893/" title="https://lwn.net/Articles/1025893/">[$] Getting extensions to work with free-threaded Python</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the biggest changes to come to the Python world is the <a
+href="https://lwn.net/Articles/947138/">addition of the free-threading
+interpreter</a>, which eliminates the <a
+href="https://docs.python.org/3/glossary.html#term-global-interpreter-lock">global
+interpreter lock</a> (GIL) that kept the interpreter thread-safe, but also
+serialized multi-threaded Python code.  Over the years, the GIL has been a
+source of complaints about the scalability of Python code using
+threads, so many developers have been looking forward to the change, which
+has been an experimental feature since <a
+href="https://www.python.org/downloads/release/python-3130/">Python 3.13
+was released</a> in October 2024.  Making the free-threaded version work
+with the rest of the Python ecosystem, especially native extensions, is an
+ongoing effort, however; Nathan Goldbaum and Lysandros Nikolaou spoke at <a
+href="https://us.pycon.org/2025/">PyCon US 2025</a> about those efforts.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1026338/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 25 Jun 2025 13:38:46 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,34 +305,6 @@ name; Brown said that he did not think about that linkage
 ("<q>I hate naming so much</q>") until it was pointed out to him by Chuck
 Lever in an email.  It is, instead, a filesystem for enormous data sets
 that are mostly stored offline.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026248/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 20 Jun 2025 14:13:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026248/" title="https://lwn.net/Articles/1026248/">Tag2upload is now ready for experimentation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Debian's long-awaited <a href="https://wiki.debian.org/tag2upload">tag2upload</a> service is
-<a href="https://lwn.net/Articles/1026246/">now ready for Debian maintainers to use in some circumstances</a>. Tag2upload makes it easier for maintainers to upload packages, by allowing them to push a signed Git commit that will automatically be picked up and built, instead of pushing a build from their local machine. LWN covered the
-<a href="https://lwn.net/Articles/978324/">discussion</a> around the service in July of last year. With the timing of its readiness, it's likely to become more useful once Debian 13 ("trixie") is released.
-</p>
-
-<blockquote class="bq">
-Be very aware of the freeze!  Do not just upload to unstable as
-   your first test!  Uploads to unstable, targeting trixie, <em>can</em> be
-   done with tag2upload - but in most cases you will probably want to
-   upload the same package to experimental first.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026281/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 20 Jun 2025 13:46:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026281/" title="https://lwn.net/Articles/1026281/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>SUSE</b> (apache2-mod_security2, augeas, ghc-pandoc, gstreamer, ignition, kernel, libblockdev, libxml2, nodejs20, openssl-3, pam_pkcs11, perl, python3, systemd, ucode-intel, webkit2gtk3, and xen) and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-azure, linux-gcp, linux-gcp-5.4,
- linux-ibm, linux-ibm-5.4, linux-kvm, linux-oracle, linux-oracle-5.4,
- linux-xilinx-zynqmp, linux-aws-fips, linux-gcp-fips, python3.13, python3.12, and roundcube).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
