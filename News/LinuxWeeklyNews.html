@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1027087/" title="See Description">Coccinelle for Rust progress report (Collabora blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1026558/" title="See Description">[$] Supporting kernel development with large language models</a></li>
+<li><a href="#https://lwn.net/Articles/1027082/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1025929/" title="See Description">[$] LWN.net Weekly Edition for June 26, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1026895/" title="See Description">NLnet announces funding for 62 projects</a></li>
 <li><a href="#https://lwn.net/Articles/1025971/" title="See Description">[$] Libxml2's "no security embargoes" policy</a></li>
@@ -50,12 +53,55 @@
 <li><a href="#https://lwn.net/Articles/1026552/" title="See Description">Graham: about Plasma’s X11 session</a></li>
 <li><a href="#https://lwn.net/Articles/1026531/" title="See Description">PostmarketOS 25.06: "the one with systemd"</a></li>
 <li><a href="#https://lwn.net/Articles/1025560/" title="See Description">[$] GNOME deepens systemd dependencies</a></li>
-<li><a href="#https://lwn.net/Articles/1026528/" title="See Description">Linux Media Summit 2025 recap (Collabora blog)</a></li>
-<li><a href="#https://lwn.net/Articles/1026498/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1026406/" title="See Description">Kernel prepatch 6.16-rc3</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1027087/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Jun 2025 15:11:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1027087/" title="https://lwn.net/Articles/1027087/">Coccinelle for Rust progress report (Collabora blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Over on the Collabora blog, Tathagata Roy has an <a
+href="https://www.collabora.com/news-and-blog/blog/2025/06/25/coccinelle-for-rust-progress-report/">update</a>
+on the progress of targeting the <a
+href="https://coccinelle.gitlabpages.inria.fr/website/">Coccinelle</a> tool
+for matching and transforming source code to Rust.  The <a
+href="https://rust-for-linux.com/coccinelle-for-rust">Coccinelle for Rust
+project</a>, which we <a href="https://lwn.net/Articles/991399/">covered</a> in a 2024
+talk by Roy at <a href="https://kangrejos.com/">Kangrejos</a>, is adding
+the ability to transform Rust programs and the goal is "<q>to bring
+Coccinelle For Rust at par with Coccinelle For C in terms of basic
+functionalities</q>".  There is still work to be done to get there, but
+progress is being made in various areas.
+
+
+<blockquote class="bq">
+Computational Tree Logic (CTL) is the heart of Coccinelle, which takes semantic patches and generalizes them over Rust files. Prior to using this engine, CfR used an ad-hoc method for matching patterns of code. This engine is the same as the one used for Coccinelle for C, with a few minor changes. Most of the changes were idiomatic but to the same effect. More information on the engine and its language (CTL-VW) can be found in the <a href="https://coccinelle.gitlabpages.inria.fr/website/papers/popl09.pdf">POPL Paper</a>. With a standard engine, each step of the matching process can be logged, allowing us to learn and reuse the same design patterns from Coccinelle for C, including critical test cases.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1026558/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Jun 2025 14:46:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026558/" title="https://lwn.net/Articles/1026558/">[$] Supporting kernel development with large language models</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Kernel development and machine learning seem like vastly different areas of
+endeavor; there are not, yet, stories circulating about the vibe-coding of
+new memory-management algorithms.  There may well be places where machine
+learning (and large language models — LLMs — in particular) prove to be
+helpful on the edges of the kernel project, though.  At the <a
+href="https://events.linuxfoundation.org/open-source-summit-north-america/">2025
+North-American edition of the Open Source Summit</a>, Sasha Levin presented
+some of the work he has done putting LLMs to work to make the kernel better
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1027082/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Jun 2025 14:18:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1027082/" title="https://lwn.net/Articles/1027082/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr and libxml2), <b>Fedora</b> (firefox, libtpms, and tigervnc), <b>Mageia</b> (chromium-browser-stable and nss &amp; firefox), <b>Oracle</b> (emacs, iputils, kernel, krb5, libarchive, mod_proxy_cluster, pam, perl-File-Find-Rule, perl-YAML-LibYAML, and qt5-qtbase), <b>Red Hat</b> (opentelemetry-collector, osbuild-composer, and weldr-client), <b>SUSE</b> (clamav, firefox, go1.24-openssl, and helm), and <b>Ubuntu</b> (libarchive, linux-azure, linux-azure-5.4, linux-azure-fips, linux-fips, linux-azure-nvidia, linux-oracle, linux-oracle-6.8, linux-raspi, linux-raspi-realtime, linux-xilinx-zynqmp, and python-urllib3).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1025929/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 26 Jun 2025 01:22:31 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -289,39 +335,6 @@ move is also going to throw a spanner in the works for the BSDs and
 Linux distributions without systemd when the changes take effect in
 the GNOME&#160;49 release that is set for September.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026528/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 23 Jun 2025 15:03:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026528/" title="https://lwn.net/Articles/1026528/">Linux Media Summit 2025 recap (Collabora blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Collabora blog has a <a
-href="https://www.collabora.com/news-and-blog/blog/2025/06/23/linux-media-summit-2025-recap/">summary</a>,
-written by Nicolas Dufresne, about the <a
-href="https://lwn.net/ml/all/044f2fa6-a245-4ae5-b9de-7a2e8831ccd6%40xs4all.nl/">Linux
-Media Summit</a> held on May 13 in Nice, France.  It was co-located with
-the <a href="https://embedded-recipes.org/2025/">Embedded Recipes</a>
-conference and had sessions on stateless video encoders, camera support,
-staging drivers, memory accounting, and a multi-committer model for the
-media subsystem.
-"<q>Our largest Media Summit to date brought together around 20 engaged participants. Engagement was strong, marked by thoughtful questions and lively discussions.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026498/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 23 Jun 2025 14:09:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026498/" title="https://lwn.net/Articles/1026498/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libblockdev and open-vm-tools), <b>Debian</b> (debian-security-support, gdk-pixbuf, konsole, and node-send), <b>Fedora</b> (apache-commons-beanutils, chromium, clamav, dotnet9.0, libblockdev, mediawiki, mingw-python-setuptools, pam, perl-File-Find-Rule, python-pycares, python-setuptools, spdlog, udisks2, and xorg-x11-server-Xwayland), <b>Mageia</b> (chromium-browser-stable), <b>Oracle</b> (apache-commons-beanutils, container-tools:ol8, gimp:2.8, idm:DL1, perl-FCGI:0.78, and postgresql), <b>Red Hat</b> (container-tools:rhel8, delve, git-lfs, go-toolset:rhel8, grafana, kernel, mod_auth_openidc, and spice-client-win), <b>SUSE</b> (apache-commons-beanutils, apache2-mod_security2, distribution, gstreamer-plugins-good, icu, ignition, perl, python310, python311, python312, and python39), and <b>Ubuntu</b> (apache-log4j1.2 and botan).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026406/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 22 Jun 2025 20:47:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026406/" title="https://lwn.net/Articles/1026406/">Kernel prepatch 6.16-rc3</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1026405/">6.16-rc3</a> for testing.
-"<q>So rc2 was smaller than usual, but rc3 seems to be right in the usual
-ballpark for this time, so everything looks entirely normal.</q>"</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
