@@ -1,5 +1,5 @@
 <p>
-   <h2>Heat Advisory issued June 26 at 3:02AM CDT until June 27 at 7:00PM CDT by NWS Paducah KY</h2>
+   <h2>Heat Advisory issued June 26 at 1:24PM CDT until June 27 at 7:00PM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Peak daily heat index values up to around 105 degrees.
       
       * WHERE...All of southern Illinois, southwest Indiana, western
@@ -7,7 +7,7 @@
       
       * WHEN...Until 7 PM CDT /8 PM EDT/ Friday.
       
-      * IMPACTS...Prolonged hot temperatures and high humidity may cause
-      heat illnesses.
+      * IMPACTS...Prolonged hot temperatures and high humidity may
+      cause heat illnesses.
    </div>
 </p>
