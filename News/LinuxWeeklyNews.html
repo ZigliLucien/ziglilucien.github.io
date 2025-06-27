@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1025232/" title="See Description">[$] How to write Rust in the kernel: part 2</a></li>
+<li><a href="#https://lwn.net/Articles/1027289/" title="See Description">Bcachefs may be headed out of the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/1027271/" title="See Description">Seven more stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1027251/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1027120/" title="See Description">Rust 1.88.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1027112/" title="See Description">Oracle Linux 10 released</a></li>
@@ -50,12 +53,76 @@
 <li><a href="#https://lwn.net/Articles/1025893/" title="See Description">[$] Getting extensions to work with free-threaded Python</a></li>
 <li><a href="#https://lwn.net/Articles/1026338/" title="See Description">LSFMM+BPF 2025 reporting complete</a></li>
 <li><a href="#https://lwn.net/Articles/1026848/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1026701/" title="See Description">Firefox 140.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1026337/" title="See Description">[$] Who are kernel defconfigs for?</a></li>
-<li><a href="#https://lwn.net/Articles/1026646/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1025232/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 27 Jun 2025 16:55:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025232/" title="https://lwn.net/Articles/1025232/">[$] How to write Rust in the kernel: part 2</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+In 2023, Fujita Tomonori
+<a href="https://lwn.net/ml/all/20231012125349.2702474-5-fujita.tomonori@gmail.com/">
+wrote a Rust version</a> of the existing driver for the
+Asix AX88796B embedded Ethernet controller. At slightly more than 100 lines,
+it's about as simple as a driver can be, and therefore is a useful touchstone for
+the differences between writing Rust and C in the kernel. Looking at the Rust
+syntax, types, and APIs used by the driver and contrasting them with the C
+version will help illustrate those differences.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1027289/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 27 Jun 2025 15:16:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1027289/" title="https://lwn.net/Articles/1027289/">Bcachefs may be headed out of the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The history of the bcachefs filesystem in the kernel has been turbulent,
+most recently with Linus Torvalds <a
+href="https://lwn.net/ml/all/CAHk-=wi2ae794_MyuW1XJAR64RDkDLUsRHvSemuWAkO6T45=YA@mail.gmail.com">refusing
+a pull request</a> for the 6.16-rc3 release.  Torvalds has now <a
+href="https://lwn.net/ml/all/CAHk-=wi+k8E4kWR8c-nREP0+EA4D+=rz5j0Hdk3N6cWgfE03-Q@mail.gmail.com">pulled
+the code in question</a>, but also said:
+</p>
+
+<blockquote class="bq">
+	I think we'll be
+	parting ways in the 6.17 merge window.
+<p>
+	You made it very clear that I can't even question any bug-fixes and
+	I should just pull anything and everything.
+<p>
+	Honestly, at that point, I don't really feel comfortable being
+	involved at all, and the only thing we both seemed to really
+	fundamentally agree on in that discussion was "we're done".
+</blockquote>
+
+<p>
+Bcachefs developer Kent Overstreet <a
+href="https://lwn.net/ml/all/xl2fyyjk4kjcszcgypirhoyflxojzeyxkzoevvxsmo26mklq7i@jw2ou76lh2py">has
+his own view</a> of the situation.  Both Torvalds and Overstreet
+refer to a seemingly private conversation where the pull request (and other
+topics) were discussed.
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1027271/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 27 Jun 2025 14:04:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1027271/" title="https://lwn.net/Articles/1027271/">Seven more stable kernel updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Kernel versions
+<a href="https://lwn.net/Articles/1027274/">6.15.4</a>,
+<a href="https://lwn.net/Articles/1027277/">6.12.35</a>,
+<a href="https://lwn.net/Articles/1027279/">6.6.95</a>,
+<a href="https://lwn.net/Articles/1027280/">6.1.142</a>,
+<a href="https://lwn.net/Articles/1027283/">5.15.186</a>,
+<a href="https://lwn.net/Articles/1027284/">5.10.239</a>, and
+<a href="https://lwn.net/Articles/1027286/">5.4.295</a> have all been released.
+</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1027251/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 27 Jun 2025 13:36:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -262,41 +329,6 @@ more of it possible.</blockquote></blockquote></div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (commons-beanutils, dcmtk, nginx, trafficserver, and xorg-server), <b>Fedora</b> (atuin, awatcher, dotnet8.0, firefox, glibc, gotify-desktop, keylime-agent-rust, libtpms, mirrorlist-server, qt6-qtbase, qt6-qtimageformats, udisks2, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Mageia</b> (apache-mod_security, clamav, docker, python-django, tomcat, udisks2, and yarnpkg), <b>Oracle</b> (firefox, libblockdev, mod_auth_openidc, perl-FCGI, perl-YAML-LibYAML, tigervnc, and xorg-x11-server and xorg-x11-server-Xwayland), <b>Slackware</b> (libssh and mozilla), <b>SUSE</b> (gimp, gstreamer-plugins-good, icu, ignition, kernel, pam-config, perl-File-Find-Rule, python311, and webkit2gtk3), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-6.8, linux-gke, linux-gkeop, linux-ibm,
  linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
  linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux, linux-gcp, linux-raspi, linux-realtime, linux-aws, linux-azure, linux-azure, linux-azure-6.8, linux-azure-5.15, linux-azure-fips, and linux-realtime).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026701/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Jun 2025 16:33:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026701/" title="https://lwn.net/Articles/1026701/">Firefox 140.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://www.mozilla.org/en-US/firefox/140.0/releasenotes/">Version
-140.0</a> of the Firefox browser has been released.  Changes include more
-control over vertical tabs, a dialog to add custom search engines,
-improvements to translation performance, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026337/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Jun 2025 13:06:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026337/" title="https://lwn.net/Articles/1026337/">[$] Who are kernel defconfigs for?</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Working on the kernel can be a challenging task but, for many,
-<i>configuring</i> a kernel build can be the largest obstacle to getting
-started.  The kernel has thousands of configuration options; many of those,
-if set incorrectly, will result in a kernel that does not work on the
-target system.  The key to helping users with complex configuration
-problems is to provide reasonable defaults but, in the kernel community,
-there is currently little consensus around what those defaults should be.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026646/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Jun 2025 12:32:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026646/" title="https://lwn.net/Articles/1026646/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (dns-root-data and xorg-server), <b>Fedora</b> (glibc, mingw-glib2, and optipng), <b>Red Hat</b> (iputils, kernel, kernel-rt, krb5, libarchive, mod_auth_openidc, mod_proxy_cluster, and xorg-x11-server-Xwayland), <b>SUSE</b> (python313), and <b>Ubuntu</b> (fig2dev, gnuplot, gss-ntlmssp, linux, linux-gcp, linux-gke, linux-gkeop, linux-ibm, linux-kvm,
- linux-lowlatency, linux-nvidia, linux-nvidia-tegra,
- linux-nvidia-tegra-igx, linux-oracle, linux-aws-5.15, linux-gcp-5.15, linux-ibm-5.15, linux-lowlatency-hwe-5.15,
- linux-oracle-5.15, linux-aws-fips, linux-fips, linux-gcp-fips, linux-hwe-5.15, and linux-intel-iot-realtime, linux-realtime).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
