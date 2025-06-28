@@ -2,17 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A slight chance of showers and thunderstorms. Mostly cloudy, with a low around 73. South southwest wind around 2 mph. Chance
-         of precipitation is 20%.<br></div>
+         <h3>Today</h3>Showers and thunderstorms likely. Partly sunny. High near 87, with temperatures falling to around 85 in the afternoon. South
+         southwest wind 1 to 5 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Showers and thunderstorms likely. Partly sunny. High near 87, with temperatures falling to around 85 in the afternoon. Southwest
-         wind around 5 mph. Chance of precipitation is 60%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Saturday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 72. South southwest wind around 5 mph. Chance of precipitation
+         <h3>Tonight</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 72. South southwest wind around 5 mph. Chance of precipitation
          is 60%.<br></div>
    </p>
    <p>
@@ -33,7 +28,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday Night</h3>Showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 1am. Mostly cloudy, with
-         a low around 70. West wind 2 to 6 mph.<br></div>
+         a low around 70. West wind 2 to 6 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -64,5 +59,9 @@
       <div style="font-size:120%">
          <h3>Independence Day</h3>A slight chance of rain showers before 7am, then a slight chance of showers and thunderstorms. Sunny, with a high near 91.
          South southwest wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday Night</h3>A slight chance of showers and thunderstorms. Mostly clear, with a low around 73. South wind around 5 mph.<br></div>
    </p>
 </div>
