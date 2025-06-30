@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1026917/" title="See Description">[$] Fedora's i686 support gets a reprieve</a></li>
+<li><a href="#https://lwn.net/Articles/1027769/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1027641/" title="See Description">Kernel prepatch 6.16-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1025232/" title="See Description">[$] How to write Rust in the kernel: part 2</a></li>
 <li><a href="#https://lwn.net/Articles/1027289/" title="See Description">Bcachefs may be headed out of the kernel</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/1025929/" title="See Description">[$] LWN.net Weekly Edition for June 26, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1026895/" title="See Description">NLnet announces funding for 62 projects</a></li>
 <li><a href="#https://lwn.net/Articles/1025971/" title="See Description">[$] Libxml2's "no security embargoes" policy</a></li>
-<li><a href="#https://lwn.net/Articles/1025893/" title="See Description">[$] Getting extensions to work with free-threaded Python</a></li>
-<li><a href="#https://lwn.net/Articles/1026338/" title="See Description">LSFMM+BPF 2025 reporting complete</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1026917/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 30 Jun 2025 16:41:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026917/" title="https://lwn.net/Articles/1026917/">[$] Fedora's i686 support gets a reprieve</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>A <a
+href="https://fedoraproject.org/wiki/Changes/Drop_i686_support">change
+proposal</a> to end support for 32-bit x86 (i686) applications on the
+x86_64 architecture with the Fedora&#160;44 release has been withdrawn
+after significant pushback. As proposed, the change could have
+had a significant impact on gamers, compiler development, and the <a
+href="https://bazzite.gg/">Bazzite</a> project, which uses Fedora as a
+base for a gaming-focused distribution. While i686 gets a reprieve for
+now, the question still lingers: who is going to keep the necessary
+i686 packages in working order when few upstream maintainers or
+volunteer packagers care about the architecture?</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1027769/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 30 Jun 2025 14:55:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1027769/" title="https://lwn.net/Articles/1027769/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (mod_proxy_cluster), <b>Debian</b> (catdoc, chromium, nagvis, and sudo), <b>Fedora</b> (chromium, gum, kubernetes1.32, moodle, podman, python3-docs, python3.13, salt, and tigervnc), <b>Mageia</b> (x11-server, x11-server-xwayland &amp; tigervnc), <b>Oracle</b> (apache-commons-beanutils, exiv2, expat, firefox, git, git-lfs, gstreamer1-plugins-bad-free, ipa, java-21-openjdk, kea, kernel, libarchive, libblockdev, libsoup3, libvpx, libxslt, mod_auth_openidc, nodejs22, osbuild-composer, perl, perl-File-Find-Rule, php, python-jinja2, python-tornado, sqlite, thunderbird, valkey, varnish, weldr-client, xorg-x11-server-Xwayland, xz, and yggdrasil), <b>Red Hat</b> (apache-commons-beanutils, javapackages-tools:201801, kernel, and python3.11), <b>SUSE</b> (apache-commons-fileupload, gimp, glib2, himmelblau, nvidia-open-driver-G06-signed, sqlite3, thunderbird, yelp, and yelp-xsl), and <b>Ubuntu</b> (samba).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1027641/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 30 Jun 2025 13:30:23 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -287,48 +313,6 @@ libxml2's current maintainer to reject security embargoes and sparked
 a discussion about maintenance terms for free and open-source
 projects.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1025893/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 25 Jun 2025 14:32:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025893/" title="https://lwn.net/Articles/1025893/">[$] Getting extensions to work with free-threaded Python</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>One of the biggest changes to come to the Python world is the <a
-href="https://lwn.net/Articles/947138/">addition of the free-threading
-interpreter</a>, which eliminates the <a
-href="https://docs.python.org/3/glossary.html#term-global-interpreter-lock">global
-interpreter lock</a> (GIL) that kept the interpreter thread-safe, but also
-serialized multi-threaded Python code.  Over the years, the GIL has been a
-source of complaints about the scalability of Python code using
-threads, so many developers have been looking forward to the change, which
-has been an experimental feature since <a
-href="https://www.python.org/downloads/release/python-3130/">Python 3.13
-was released</a> in October 2024.  Making the free-threaded version work
-with the rest of the Python ecosystem, especially native extensions, is an
-ongoing effort, however; Nathan Goldbaum and Lysandros Nikolaou spoke at <a
-href="https://us.pycon.org/2025/">PyCon US 2025</a> about those efforts.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026338/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 25 Jun 2025 13:38:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026338/" title="https://lwn.net/Articles/1026338/">LSFMM+BPF 2025 reporting complete</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>It took time and the writing of over 60 articles, but LWN's coverage from
-the <a href="https://lwn.net/Articles/lsfmmbpf2025/">2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit</a> is now complete.  We have also made
-<a href="https://lwn.net/images/epub/lsfmmbpf2025.epub">an EPUB book (13MB)</a> containing
-the full set of coverage available to all readers.  This coverage
-constitutes the definitive guide to the challenges that these core-kernel
-communities are facing and their development plans for the coming year.
-
-<p>
-Documenting an event of this intensity at such a detailed level is not a
-small undertaking.  We are grateful to the Linux Foundation for funding our
-travel to our event and, especially, to LWN's subscribers for making the
-whole thing possible.  If you appreciate this type of coverage and have not
-yet subscribed, please <a href="https://lwn.net/subscribe/">sign up today</a> to help make
-more of it possible.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
