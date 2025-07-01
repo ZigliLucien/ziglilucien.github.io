@@ -10,11 +10,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Sunny, with a high near 87. North northwest wind around 3 mph.<br></div>
+         <h3>Wednesday</h3>Sunny, with a high near 87. Northwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Mostly clear, with a low around 68. West southwest wind around 2 mph.<br></div>
+         <h3>Wednesday Night</h3>Mostly clear, with a low around 68. West southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
