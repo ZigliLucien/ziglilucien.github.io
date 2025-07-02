@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1026749/" title="See Description">[$] Accessing new kernel features from Python</a></li>
+<li><a href="#https://lwn.net/Articles/1028166/" title="See Description">Copyleft-next project relaunched</a></li>
+<li><a href="#https://lwn.net/Articles/1028160/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1028010/" title="See Description">GNU Health Hospital Information System 5.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1025629/" title="See Description">[$] Yet another way to configure transparent huge pages</a></li>
 <li><a href="#https://lwn.net/Articles/1027096/" title="See Description">[$] Improved load balancing with machine learning</a></li>
@@ -50,12 +53,62 @@
 <li><a href="#https://lwn.net/Articles/1027289/" title="See Description">Bcachefs may be headed out of the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1027271/" title="See Description">Seven more stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1027251/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1027120/" title="See Description">Rust 1.88.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1027112/" title="See Description">Oracle Linux 10 released</a></li>
-<li><a href="#https://lwn.net/Articles/1027087/" title="See Description">Coccinelle for Rust progress report (Collabora blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1026749/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Jul 2025 14:03:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026749/" title="https://lwn.net/Articles/1026749/">[$] Accessing new kernel features from Python</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Every release of the Linux kernel has lots of new features, many of which
+are accessible from user space.  Usually, though, the GNU C Library (glibc)
+and tools that access the Linux user-space API lag behind the kernel
+releases.  Geoffrey Thomas showed how Python programs can access these new
+kernel features as soon as the kernel is released in his "What's New in the
+Linux Kernel... from Python" talk at
+<a
+href="https://us.pycon.org/2025/">PyCon US 2025</a>.  While he had two
+examples of accessing new kernel features, the real goal of the talk was to
+demonstrate <i>how</i> to go about connecting Python to
+the Linux kernel.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1028166/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Jul 2025 13:50:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1028166/" title="https://lwn.net/Articles/1028166/">Copyleft-next project relaunched</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://next.copyleft.org/">copyleft-next project</a> is an
+effort to develop a next-generation copyleft license; it was <a
+href="https://lwn.net/Articles/537559/">covered here</a> back in 2013 (as well as in <a
+href="https://lwn.net/Articles/660428/">2015</a> and <a
+href="https://lwn.net/Articles/862611/">2021</a>).  The project has stalled in recent
+years, but now Richard Fontana and Bradley Kuhn have <a
+href="https://lists.copyleft.org/pipermail/next/2025q2/000000.html">announced</a>
+a new effort to push copyleft-next forward:
+<p>
+<blockquote class="bq">
+	Today, GPLv3 turns exactly 18 years old.  This month, GPLv2 turned
+	34 years old.  These are both great licenses and we love them.
+	Nevertheless, at least once in a generation, FOSS needs a new
+	approach to strong copyleft.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1028160/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Jul 2025 13:13:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1028160/" title="https://lwn.net/Articles/1028160/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (apache-commons-beanutils, firefox, kea, kernel, kernel-rt, libblockdev, libvpx, pam, python-setuptools, python3, python3.11, python3.12, python3.9, and sudo), <b>Debian</b> (chromium), <b>Gentoo</b> (sudo), <b>Oracle</b> (.NET 8.0, buildah, firefox, freerdp, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, gvisor-tap-vsock, libsoup3, mod_proxy_cluster, perl-FCGI, podman, python-setuptools, qt6-qtbase, skopeo, sudo, and thunderbird), <b>Slackware</b> (mozilla), <b>SUSE</b> (redis, runc, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (composer, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gke,
+ linux-gkeop, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
+ linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle,
+ linux-oracle-6.8, linux-raspi, linux, linux-aws, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop,
+ linux-hwe-5.15, linux-ibm, linux-kvm, linux-lowlatency,
+ linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux-oracle-5.15, linux, linux-aws, linux-gcp, linux-gcp-6.11, linux-hwe-6.11, linux-oracle,
+ linux-raspi, linux-realtime, linux, linux-aws, linux-lts-xenial, linux, linux-gcp, linux-raspi, linux-realtime, linux-fips, linux-fips, linux-aws-fips, linux-gcp-fips, linux-realtime, and linux-realtime, linux-raspi-realtime).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1028010/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 01 Jul 2025 14:19:47 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -253,58 +306,6 @@ Kernel versions
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (freeradius and icu), <b>Fedora</b> (clamav, glow, libssh, perl-Crypt-OpenSSL-RSA, perl-CryptX, podman, trafficserver, and xorg-x11-server), <b>Mageia</b> (gdk-pixbuf2.0 and thunderbird), <b>Red Hat</b> (osbuild-composer and weldr-client), <b>SUSE</b> (afterburn, google-osconfig-agent, libblockdev, pam, python-tornado6, screen, and yelp-xsl), and <b>Ubuntu</b> (libxslt and python-pip).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1027120/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 26 Jun 2025 18:37:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1027120/" title="https://lwn.net/Articles/1027120/">Rust 1.88.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/">Version
-1.88.0</a> of the Rust language has been released.  Changes include the
-ability to chain <tt>let</tt> expressions, "naked" functions that have no
-compiler-generated prologue or epilogue, automatic garbage collection in
-<tt>cargo</tt>, a set of stabilized APIs, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1027112/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 26 Jun 2025 17:42:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1027112/" title="https://lwn.net/Articles/1027112/">Oracle Linux 10 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a
-href="https://blogs.oracle.com/linux/post/oracle-linux-10-now-generally-available">Version
-10</a> of the Oracle Linux distribution has been released.
-<p>
-<blockquote class="bq">
-	Oracle Linux 10 is now generally available for 64-bit Intel and AMD
-	(x86_64) and 64-bit Arm (aarch64) platforms. Oracle Linux 10
-	delivers robust security and exceptional performance for business
-	agility and demanding workloads at cloud scale. Key features
-	include modernized cryptographic capabilities, advancements in
-	developer tooling, and innovations for resilient infrastructure. 
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1027087/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 26 Jun 2025 15:11:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1027087/" title="https://lwn.net/Articles/1027087/">Coccinelle for Rust progress report (Collabora blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Over on the Collabora blog, Tathagata Roy has an <a
-href="https://www.collabora.com/news-and-blog/blog/2025/06/25/coccinelle-for-rust-progress-report/">update</a>
-on the progress of targeting the <a
-href="https://coccinelle.gitlabpages.inria.fr/website/">Coccinelle</a> tool
-for matching and transforming source code to Rust.  The <a
-href="https://rust-for-linux.com/coccinelle-for-rust">Coccinelle for Rust
-project</a>, which we <a href="https://lwn.net/Articles/991399/">covered</a> in a 2024
-talk by Roy at <a href="https://kangrejos.com/">Kangrejos</a>, is adding
-the ability to transform Rust programs and the goal is "<q>to bring
-Coccinelle For Rust at par with Coccinelle For C in terms of basic
-functionalities</q>".  There is still work to be done to get there, but
-progress is being made in various areas.
-
-
-<blockquote class="bq">
-Computational Tree Logic (CTL) is the heart of Coccinelle, which takes semantic patches and generalizes them over Rust files. Prior to using this engine, CfR used an ad-hoc method for matching patterns of code. This engine is the same as the one used for Coccinelle for C, with a few minor changes. Most of the changes were idiomatic but to the same effect. More information on the engine and its language (CTL-VW) can be found in the <a href="https://coccinelle.gitlabpages.inria.fr/website/papers/popl09.pdf">POPL Paper</a>. With a standard engine, each step of the matching process can be logged, allowing us to learn and reuse the same design patterns from Coccinelle for C, including critical test cases.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
