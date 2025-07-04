@@ -2,15 +2,11 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly clear, with a low around 71. South southeast wind around 1 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Independence Day</h3>Sunny, with a high near 91. South southeast wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Clear, with a low around 72. South southeast wind around 3 mph.<br></div>
+         <h3>Tonight</h3>Clear, with a low around 72. South southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -27,7 +23,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 73. West southwest wind 2 to 6 mph.<br></div>
+         <h3>Sunday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 73. West southwest wind 2 to 6 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,5 +55,10 @@
       <div style="font-size:120%">
          <h3>Thursday</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. North
          northwest wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms. Partly cloudy, with a low around
+         70. East southeast wind around 5 mph.<br></div>
    </p>
 </div>
