@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.520b2151b65390c45b99cb96b8cecf03d1fadc37.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9725084bb056b59018bf9609bcaf4a59857834c.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.520b2151b65390c45b99cb96b8cecf03d1fadc37.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9725084bb056b59018bf9609bcaf4a59857834c.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.520b2151b65390c45b99cb96b8cecf03d1fadc37.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.f9725084bb056b59018bf9609bcaf4a59857834c.002.1</id>
 				<areaDesc type="str">Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Carlisle; Ballard; McCracken; Livingston; Crittenden; Lyon; Caldwell; Union; Webster; Hopkins; McLean; Muhlenberg; Cape Girardeau; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -111,14 +111,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2025-07-08T02:13:00-05:00</sent>
-				<effective type="str">2025-07-08T02:13:00-05:00</effective>
-				<onset type="str">2025-07-08T02:13:00-05:00</onset>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.520b2151b65390c45b99cb96b8cecf03d1fadc37.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.520b2151b65390c45b99cb96b8cecf03d1fadc37.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-07-08T02:13:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2025-07-08T03:28:00-05:00</sent>
+				<effective type="str">2025-07-08T03:28:00-05:00</effective>
+				<onset type="str">2025-07-08T03:28:00-05:00</onset>
 				<expires type="str">2025-07-08T08:00:00-05:00</expires>
 				<ends type="str">2025-07-08T08:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -126,13 +133,11 @@
 				<event type="str">Dense Fog Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Dense Fog Advisory issued July 8 at 2:13AM CDT until July 8 at 8:00AM CDT by NWS Paducah KY</headline>
+				<headline type="str">Dense Fog Advisory issued July 8 at 3:28AM CDT until July 8 at 8:00AM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Visibility one quarter mile or less in dense fog.
 
-* WHERE...Portions of southern Illinois along and south of Route 13,
-areas of western Kentucky along and north of Bardwell to Paducah
-to Central City, and parts of southeast Missouri along the
-Mississippi River and Stoddard County.
+* WHERE...Portions of southern Illinois, western Kentucky, and
+southeast Missouri.
 
 * WHEN...Until 8 AM CDT this morning.
 
@@ -145,10 +150,10 @@ distance ahead of you.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 080713</item>
+						<item type="str">WWUS73 KPAH 080828</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">DENSE FOG ADVISORY IN EFFECT UNTIL 8 AM CDT THIS MORNING</item>
+						<item type="str">DENSE FOG ADVISORY REMAINS IN EFFECT UNTIL 8 AM CDT THIS MORNING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -156,7 +161,7 @@ distance ahead of you.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.FG.Y.0004.250708T0713Z-250708T1300Z/</item>
+						<item type="str">/O.CON.KPAH.FG.Y.0004.000000T0000Z-250708T1300Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-07-08T08:00:00-05:00</item>
@@ -178,5 +183,5 @@ distance ahead of you.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-07-08T07:13:31+00:00</updated>
+	<updated type="str">2025-07-08T08:28:38+00:00</updated>
 </all>
