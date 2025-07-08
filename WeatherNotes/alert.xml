@@ -1,10 +1,182 @@
 <?xml version="1.0" ?>
 <all>
-	<key name="@context" type="dict">
-		<key name="@version" type="str">1.1</key>
+	<key name="@context" type="list">
+		<item type="str">https://geojson.org/geojson-ld/geojson-context.jsonld</item>
+		<item type="dict">
+			<key name="@version" type="str">1.1</key>
+			<wx type="str">https://api.weather.gov/ontology#</wx>
+			<key name="@vocab" type="str">https://api.weather.gov/ontology#</key>
+		</item>
 	</key>
 	<type type="str">FeatureCollection</type>
-	<features type="list"/>
+	<features type="list">
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.520b2151b65390c45b99cb96b8cecf03d1fadc37.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="null"/>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.520b2151b65390c45b99cb96b8cecf03d1fadc37.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.520b2151b65390c45b99cb96b8cecf03d1fadc37.001.1</id>
+				<areaDesc type="str">Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Carlisle; Ballard; McCracken; Livingston; Crittenden; Lyon; Caldwell; Union; Webster; Hopkins; McLean; Muhlenberg; Cape Girardeau; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017077</item>
+						<item type="str">017199</item>
+						<item type="str">017165</item>
+						<item type="str">017059</item>
+						<item type="str">017181</item>
+						<item type="str">017087</item>
+						<item type="str">017151</item>
+						<item type="str">017069</item>
+						<item type="str">017003</item>
+						<item type="str">017153</item>
+						<item type="str">017127</item>
+						<item type="str">021039</item>
+						<item type="str">021007</item>
+						<item type="str">021145</item>
+						<item type="str">021139</item>
+						<item type="str">021055</item>
+						<item type="str">021143</item>
+						<item type="str">021033</item>
+						<item type="str">021225</item>
+						<item type="str">021233</item>
+						<item type="str">021107</item>
+						<item type="str">021149</item>
+						<item type="str">021177</item>
+						<item type="str">029031</item>
+						<item type="str">029207</item>
+						<item type="str">029201</item>
+						<item type="str">029133</item>
+						<item type="str">029143</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ084</item>
+						<item type="str">ILZ085</item>
+						<item type="str">ILZ086</item>
+						<item type="str">ILZ087</item>
+						<item type="str">ILZ088</item>
+						<item type="str">ILZ089</item>
+						<item type="str">ILZ090</item>
+						<item type="str">ILZ091</item>
+						<item type="str">ILZ092</item>
+						<item type="str">ILZ093</item>
+						<item type="str">ILZ094</item>
+						<item type="str">KYZ003</item>
+						<item type="str">KYZ004</item>
+						<item type="str">KYZ005</item>
+						<item type="str">KYZ007</item>
+						<item type="str">KYZ010</item>
+						<item type="str">KYZ011</item>
+						<item type="str">KYZ013</item>
+						<item type="str">KYZ014</item>
+						<item type="str">KYZ015</item>
+						<item type="str">KYZ016</item>
+						<item type="str">KYZ020</item>
+						<item type="str">KYZ021</item>
+						<item type="str">MOZ087</item>
+						<item type="str">MOZ110</item>
+						<item type="str">MOZ111</item>
+						<item type="str">MOZ112</item>
+						<item type="str">MOZ114</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ086</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ090</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ091</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ093</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ094</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ003</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ004</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ005</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ007</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ010</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ011</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ013</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ014</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ015</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ016</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ020</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ021</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ110</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2025-07-08T02:13:00-05:00</sent>
+				<effective type="str">2025-07-08T02:13:00-05:00</effective>
+				<onset type="str">2025-07-08T02:13:00-05:00</onset>
+				<expires type="str">2025-07-08T08:00:00-05:00</expires>
+				<ends type="str">2025-07-08T08:00:00-05:00</ends>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Likely</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Dense Fog Advisory</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Dense Fog Advisory issued July 8 at 2:13AM CDT until July 8 at 8:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Visibility one quarter mile or less in dense fog.
+
+* WHERE...Portions of southern Illinois along and south of Route 13,
+areas of western Kentucky along and north of Bardwell to Paducah
+to Central City, and parts of southeast Missouri along the
+Mississippi River and Stoddard County.
+
+* WHEN...Until 8 AM CDT this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.</description>
+				<instruction type="str">If driving, slow down, use your headlights, and leave plenty of
+distance ahead of you.</instruction>
+				<response type="str">Execute</response>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">NPWPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS73 KPAH 080713</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">DENSE FOG ADVISORY IN EFFECT UNTIL 8 AM CDT THIS MORNING</item>
+					</NWSheadline>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<VTEC type="list">
+						<item type="str">/O.NEW.KPAH.FG.Y.0004.250708T0713Z-250708T1300Z/</item>
+					</VTEC>
+					<eventEndingTime type="list">
+						<item type="str">2025-07-08T08:00:00-05:00</item>
+					</eventEndingTime>
+				</parameters>
+				<scope type="str">Public</scope>
+				<code type="str">IPAWSv1.0</code>
+				<language type="str">en-US</language>
+				<web type="str">http://www.weather.gov</web>
+				<eventCode type="dict">
+					<SAME type="list">
+						<item type="str">NWS</item>
+					</SAME>
+					<NationalWeatherService type="list">
+						<item type="str">FGY</item>
+					</NationalWeatherService>
+				</eventCode>
+			</properties>
+		</item>
+	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-07-06T20:00:00+00:00</updated>
+	<updated type="str">2025-07-08T07:13:31+00:00</updated>
 </all>
