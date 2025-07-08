@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1029182/" title="See Description">A set of Git security-fix releases</a></li>
+<li><a href="#https://lwn.net/Articles/1029175/" title="See Description">Thunderbird 140 released</a></li>
 <li><a href="#https://lwn.net/Articles/1029077/" title="See Description">[$] Toward the unification of kselftests and KUnit</a></li>
 <li><a href="#https://lwn.net/Articles/1029150/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1029092/" title="See Description">U-Boot v2025.07 released</a></li>
@@ -51,11 +53,50 @@
 <li><a href="#https://lwn.net/Articles/1028583/" title="See Description">Richards: Introducing tmux-rs</a></li>
 <li><a href="#https://lwn.net/Articles/1027811/" title="See Description">[$] Kernel API specification and validation</a></li>
 <li><a href="#https://lwn.net/Articles/1028554/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1026982/" title="See Description">[$] LWN.net Weekly Edition for July 3, 2025</a></li>
-<li><a href="#https://lwn.net/Articles/1028224/" title="See Description">Debian looking for testers with Apple M1/M2 machines</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1029182/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 08 Jul 2025 18:28:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029182/" title="https://lwn.net/Articles/1029182/">A set of Git security-fix releases</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Versions v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1 and
+v2.50.1 of the Git source-code management system have been released.
+"<q>This is a set of coordinated security fix releases.  Please update at
+your earliest convenience</q>".  See <a
+href="https://lwn.net/ml/all/xmqq5xg2wrd1.fsf@gitster.g">the announcement</a> for details;
+many of the vulnerabilities have to do with tricks buried in untrusted
+repositories.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1029175/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 08 Jul 2025 17:40:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029175/" title="https://lwn.net/Articles/1029175/">Thunderbird 140 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://blog.thunderbird.net/2025/07/welcome-to-thunderbird-140-eclipse/">Version
+140</a> of the Thunderbird mail client has been released. Notable
+features include "dark message mode" to adapt message content
+to dark mode, the ability to easily transfer desktop
+settings to the mobile Thunderbird client, experimental support for
+Microsoft Exchange, as well as global controls for message threading
+and sort order.</p>
+
+<p>Thunderbird&#160;140 is an <a href="https://support.mozilla.org/en-US/kb/thunderbird-release">extended-support
+release</a> (ESR) which will be supported for 12 months. However, the
+Thunderbird project is trying to encourage users to adopt the <a
+href="https://updates.thunderbird.net/en-CA/thunderbird/128.0/monthly/">Release</a>
+channel for monthly updates instead. The project is staggering
+upgrades to 140 for existing Thunderbird users in order to catch any
+significant bugs before they are widely deployed, but users can
+upgrade manually via the <span class="nobreak">Help &gt; About</span>
+menu. See the <a
+href="https://www.thunderbird.net/en-US/thunderbird/140.0esr/releasenotes/">release
+notes</a> for a full list of changes.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1029077/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 08 Jul 2025 13:07:03 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -264,44 +305,6 @@ does not come for free.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 9.0, aardvark-dns, apache-commons-beanutils, bootc, buildah, corosync, delve and golang, exiv2, expat, firefox, ghostscript, git, git-lfs, gnutls, grafana, grafana-pcp, grub2, gstreamer1, gstreamer1-plugins-bad-free, gstreamer1-plugins-ugly-free, and gstreamer1-rtsp-server, gstreamer1-plugins-base, gstreamer1-plugins-good, gvisor-tap-vsock, iptraf-ng, java-21-openjdk, kernel, keylime-agent-rust, krb5, libarchive, libblockdev, libsoup3, libtasn1, libvpx, libxslt, microcode_ctl, mod_auth_openidc, nodejs22, nodejs:20, openjpeg2, osbuild and osbuild-composer, perl-FCGI, perl-Module-ScanDeps, perl-YAML-LibYAML, php, php:8.2, php:8.3, podman, protobuf, python-jinja2, python-requests, python3.11, python3.12, python3.12-cryptography, python3.9, rpm-ostree, rsync, rust-bootupd, skopeo, thunderbird, tigervnc, tomcat, tomcat9, webkit2gtk3, xdg-utils, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (ring), <b>Mageia</b> (libarchive and rootcerts, nss &amp; firefox), <b>Oracle</b> (.NET 9.0, corosync, firefox, osbuild-composer, pam, python3, python3.11, python3.12, python3.9, skopeo, sudo, and thunderbird), <b>Red Hat</b> (microcode_ctl, pam, php, thunderbird, tigervnc, xorg-x11-server, xorg-x11-server and xorg-x11-server-Xwayland, and xorg-x11-server-Xwayland), <b>SUSE</b> (clamav, icu, libgepub, libsoup, python-requests, tomcat, and xorg-x11-server), and <b>Ubuntu</b> (clamav, logback, mongo-c-driver, pcs, and python-flask-cors).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026982/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 03 Jul 2025 01:17:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026982/" title="https://lwn.net/Articles/1026982/">[$] LWN.net Weekly Edition for July 3, 2025</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1026982/">Front</a>: Kernel features from Python; i686 in Fedora; Kernel development with LLMs; Rust drivers; Load balancing with machine learning; Transparent huge pages.
-            <li> <a href="https://lwn.net/Articles/1026984/">Briefs</a>: Bcachefs removal; Coccinelle for Rust; Netdev Foundation; Oracle Linux 10; GNU HHIS 5.0; Rust 1.88.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1026985/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1028224/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 02 Jul 2025 15:32:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1028224/" title="https://lwn.net/Articles/1028224/">Debian looking for testers with Apple M1/M2 machines</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Debian's <a
-href="https://wiki.debian.org/Teams/Bananas">Bananas</a> team has <a
-href="https://lwn.net/ml/all/86037b55-e1b8-49e6-a0c9-f961b4ddc1a1%40disroot.org/">put
-out a call</a> for people with Apple M1 or M2 systems to help test
-Debian on those machines:</p>
-
-<blockquote class="bq">
-The Bananas Team has set up an installer at with images 
-for GNOME, KDE and console installations. While we'd like to build an 
-actual Debian installer sooner or later (we may need a heads-up from the 
-Debian Images team for that), at this time we only provide an asahi-type 
-installer, which installs both the "bootloader" and the OS partitions to 
-disk from the network (as opposed to only installing the bootloader and 
-then letting you install Debian using a d-i USB stick). We haven't 
-forked Trixie from Testing yet, so what you'll get is Debian Testing 
-quite deep into the freeze.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
