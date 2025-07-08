@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1029077/" title="See Description">[$] Toward the unification of kselftests and KUnit</a></li>
+<li><a href="#https://lwn.net/Articles/1029150/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1029092/" title="See Description">U-Boot v2025.07 released</a></li>
 <li><a href="#https://lwn.net/Articles/1029079/" title="See Description">Bash-5.3-release available</a></li>
 <li><a href="#https://lwn.net/Articles/1025866/" title="See Description">[$] A tour of the niri scrolling-tiling Wayland compositor</a></li>
@@ -51,11 +53,34 @@
 <li><a href="#https://lwn.net/Articles/1028554/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1026982/" title="See Description">[$] LWN.net Weekly Edition for July 3, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1028224/" title="See Description">Debian looking for testers with Apple M1/M2 machines</a></li>
-<li><a href="#https://lwn.net/Articles/1028209/" title="See Description">The Netdev Foundation launches</a></li>
-<li><a href="#https://lwn.net/Articles/1026749/" title="See Description">[$] Accessing new kernel features from Python</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1029077/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 08 Jul 2025 13:07:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029077/" title="https://lwn.net/Articles/1029077/">[$] Toward the unification of kselftests and KUnit</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel project, for many years, lacked a formal testing setup; it was
+often joked that testing was the project's main reason for keeping users
+around.  While many types of kernel testing can only be done in the
+presence of specific hardware, there are other parts of the kernel
+that could be more widely tested.  Over time, though, the kernel has gained
+two separate testing frameworks and a growing body of automated tests to go
+with them.  These two frameworks — kselftests and KUnit — take different
+approaches to the testing problem; now <a
+href="https://lwn.net/ml/all/20250626-kunit-kselftests-v4-0-48760534fef5@linutronix.de">this
+patch series</a> from Thomas Weißschuh aims to bring them together.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1029150/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 08 Jul 2025 13:02:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029150/" title="https://lwn.net/Articles/1029150/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (djvulibre and slurm-wlm), <b>Red Hat</b> (apache-commons-vfs, container-tools:rhel8, kernel, kernel-rt, podman, python3, rsync, socat, and sudo), <b>SUSE</b> (apache2, helm-mirror, incus, kernel, openssl-3, python-Django, and systemd), and <b>Ubuntu</b> (dcmtk, File::Find::Rule, ghostscript, jquery, and libssh).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1029092/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 07 Jul 2025 21:04:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -277,45 +302,6 @@ then letting you install Debian using a d-i USB stick). We haven't
 forked Trixie from Testing yet, so what you'll get is Debian Testing 
 quite deep into the freeze.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1028209/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 02 Jul 2025 14:47:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1028209/" title="https://lwn.net/Articles/1028209/">The Netdev Foundation launches</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://github.com/linux-netdev/foundation">Netdev
-Foundation</a>, which is "<q>a user-led effort under the supervision of the
-Linux Foundation, focused on financially supporting Linux networking
-development</q>", has <a
-href="https://lwn.net/ml/all/20250701103149.4fe7aff3@kernel.org">announced its
-existence</a>.
-<p>
-<blockquote class="bq">
-	The initial motivation was to move the NIPA testing outside of
-	Meta, so that more people can help and contribute.  But there
-	should be sufficient budget to sponsor more projects.
-</blockquote>
-<p>
-(NIPA is <a href="https://github.com/linux-netdev/nipa">Netdev
-Infrastructure for Patch Automation</a>).</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026749/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 02 Jul 2025 14:03:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026749/" title="https://lwn.net/Articles/1026749/">[$] Accessing new kernel features from Python</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Every release of the Linux kernel has lots of new features, many of which
-are accessible from user space.  Usually, though, the GNU C Library (glibc)
-and tools that access the Linux user-space API lag behind the kernel
-releases.  Geoffrey Thomas showed how Python programs can access these new
-kernel features as soon as the kernel is released in his "What's New in the
-Linux Kernel... from Python" talk at
-<a
-href="https://us.pycon.org/2025/">PyCon US 2025</a>.  While he had two
-examples of accessing new kernel features, the real goal of the talk was to
-demonstrate <i>how</i> to go about connecting Python to
-the Linux kernel.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
