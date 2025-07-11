@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1029189/" title="See Description">[$] SFrame-based stack unwinding for the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/1029597/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1028558/" title="See Description">[$] Anubis sends AI scraperbots to a well-deserved fate</a></li>
 <li><a href="#https://lwn.net/Articles/1029367/" title="See Description">Five new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1029418/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1029077/" title="See Description">[$] Toward the unification of kselftests and KUnit</a></li>
 <li><a href="#https://lwn.net/Articles/1029150/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1029092/" title="See Description">U-Boot v2025.07 released</a></li>
-<li><a href="#https://lwn.net/Articles/1029079/" title="See Description">Bash-5.3-release available</a></li>
-<li><a href="#https://lwn.net/Articles/1025866/" title="See Description">[$] A tour of the niri scrolling-tiling Wayland compositor</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1029189/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 11 Jul 2025 13:42:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029189/" title="https://lwn.net/Articles/1029189/">[$] SFrame-based stack unwinding for the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
+href="https://www.man7.org/linux/man-pages/man2/perf_event_open.2.html">perf
+events subsystem</a> can produce high-quality profiles, with full
+function-call chains, of resource usage
+within the kernel itself.  Developers, however, often would like to see
+profiles of the whole system in one integrated report with, for example,
+call-stack information that crosses the boundary between the kernel and
+user space.  Support for unwinding user-space call stacks in the perf
+events subsystem is currently inefficient at best.  A long-running effort
+to provide reliable, user-space call-stack unwinding within the kernel,
+which will improve that situation considerably, appears to be reaching
+fruition.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1029597/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 11 Jul 2025 13:20:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029597/" title="https://lwn.net/Articles/1029597/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gnome-remote-desktop, go-toolset:rhel8, golang, jq, kernel, kernel-rt, libxml2, and podman), <b>Fedora</b> (chromium, git, helix, pam, rust-blazesym-c, rust-clearscreen, rust-gitui, rust-nu-cli, rust-nu-command, rust-nu-test-support, rust-procs, rust-which, selenium-manager, sudo, thunderbird, and uv), <b>SUSE</b> (audiofile, chmlib-devel, docker, firefox, go1, libsoup, libsoup2, libssh, libxml2, tomcat, umoci, and xen), and <b>Ubuntu</b> (git and resteasy, resteasy3.0).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1028558/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 10 Jul 2025 15:39:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -285,47 +312,6 @@ single person.
 <p>
 He also noted that there is a community meeting on July 8th, 2025 at 9am (GMT -06:00) on
 Google Meet.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029079/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 07 Jul 2025 17:26:49 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029079/" title="https://lwn.net/Articles/1029079/">Bash-5.3-release available</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The GNU project's <a href="https://www.gnu.org/software/bash/">Bourne Again
-SHell</a> (Bash) has released version 5.3, with some significant new
-features, including some from the associated 
-<a href="https://lwn.net/Articles/1029080/">Readline 8.3 release</a>, which provides
-command-line editing and other features for Bash and lots of other
-programs.  Bash 5.3 has a "<q>new form of command substitution that executes the command in
-the current shell execution context</q>", pathname-completion sorting
-will be handled based on the <tt>GLOBSORT</tt> shell variable, generated
-completions can go to a shell variable instead of to stdout, the source
-code has been updated to C23, and more.  Meanwhile:
-
-<blockquote class="bq">
-Readline has new features as well.  There is a new option that allows
-case-insensitive searching, a new command that executes a named readline
-command, and a new command that exports possible word completions in a
-specified format for consumption by another process. 
-</blockquote>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1025866/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 07 Jul 2025 16:04:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1025866/" title="https://lwn.net/Articles/1025866/">[$] A tour of the niri scrolling-tiling Wayland compositor</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://github.com/YaLTeR/niri?tab=readme-ov-file#abouttm">Niri</a>
-is a relatively new Rust-based <a
-href="https://en.wikipedia.org/wiki/Compositing_manager">compositor</a>
-for Wayland with a different take on <a href="https://en.wikipedia.org/wiki/Tiling_window_manager">tiling window management</a>: windows
-are placed onscreen in an "infinite" row that can expand beyond the
-bounds of the visible workspace. It is not a full-blown desktop
-environment, but niri may be a suitable option for Linux users who
-want tiling features and the minimalism of a window manager for
-Wayland.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
