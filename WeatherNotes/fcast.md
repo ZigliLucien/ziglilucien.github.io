@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of showers and thunderstorms between 4pm and 5pm. Mostly sunny. High near 92, with temperatures falling to
-         around 90 in the afternoon. South southwest wind 5 to 8 mph. Chance of precipitation is 20%.<br></div>
+         around 90 in the afternoon. South southwest wind around 8 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
