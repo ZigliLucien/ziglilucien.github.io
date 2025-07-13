@@ -41,8 +41,8 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-07-12T23:36:05+00:00</generatedAt>
-		<updateTime type="str">2025-07-12T23:17:36+00:00</updateTime>
+		<generatedAt type="str">2025-07-13T00:36:04+00:00</generatedAt>
+		<updateTime type="str">2025-07-12T23:32:53+00:00</updateTime>
 		<validTimes type="str">2025-07-12T17:00:00+00:00/P7DT8H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2025-07-12T18:00:00-05:00</startTime>
+				<startTime type="str">2025-07-12T19:00:00-05:00</startTime>
 				<endTime type="str">2025-07-13T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">72</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">25</value>
+					<value type="int">5</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">3 mph</windSpeed>
+				<windSpeed type="str">2 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,30/sct?size=medium</icon>
-				<shortForecast type="str">Chance Showers And Thunderstorms then Partly Cloudy</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 72. Southwest wind around 3 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/sct/fog?size=medium</icon>
+				<shortForecast type="str">Partly Cloudy then Patchy Fog</shortForecast>
+				<detailedForecast type="str">Patchy fog after 1am. Partly cloudy, with a low around 72. Southwest wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -85,7 +85,7 @@
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,30/tsra_hi,70?size=medium</icon>
 				<shortForecast type="str">Showers And Thunderstorms Likely</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms likely after 10am. Mostly sunny. High near 88, with temperatures falling to around 84 in the afternoon. South southwest wind around 3 mph. Chance of precipitation is 70%.</detailedForecast>
+				<detailedForecast type="str">Patchy fog before 8am, then showers and thunderstorms likely. Mostly sunny. High near 88, with temperatures falling to around 84 in the afternoon. South southwest wind around 3 mph. Chance of precipitation is 70%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
