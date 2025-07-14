@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A slight chance of rain showers after 4am. Mostly cloudy. Low around 72, with temperatures rising to around 74 overnight.
-         Southwest wind around 2 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Overnight</h3>A slight chance of rain showers. Cloudy. Low around 72, with temperatures rising to around 74 overnight. Southwest wind around
+         2 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
