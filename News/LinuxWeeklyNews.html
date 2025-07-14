@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1029716/" title="See Description">Kernel prepatch 6.16-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1029189/" title="See Description">[$] SFrame-based stack unwinding for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1029597/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1028558/" title="See Description">[$] Anubis sends AI scraperbots to a well-deserved fate</a></li>
@@ -52,10 +53,30 @@
 <li><a href="#https://lwn.net/Articles/1029175/" title="See Description">Thunderbird 140 released</a></li>
 <li><a href="#https://lwn.net/Articles/1029077/" title="See Description">[$] Toward the unification of kselftests and KUnit</a></li>
 <li><a href="#https://lwn.net/Articles/1029150/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1029092/" title="See Description">U-Boot v2025.07 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1029716/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 14 Jul 2025 00:35:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029716/" title="https://lwn.net/Articles/1029716/">Kernel prepatch 6.16-rc6</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1029715/">6.16-rc6</a> for testing;
+it includes a fix for a somewhat scary regression that came up over the
+week.
+<p>
+<blockquote class="bq">
+	So I was flailing around blaming everybody and their pet hamster,
+	because for a while it looked like a drm issue and then a netlink
+	problem (it superficially coincided with separate issues with both
+	of those subsystems).
+<p>
+	But I did eventually figure out how to trigger it reliably and then
+	it bisected nicely, and a couple of days have passed, and I'm
+	feeling much better about the release again. We're back on track,
+	and despite that little scare, I think we're in good shape.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1029189/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 11 Jul 2025 13:42:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -282,36 +303,6 @@ patch series</a> from Thomas Weißschuh aims to bring them together.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (djvulibre and slurm-wlm), <b>Red Hat</b> (apache-commons-vfs, container-tools:rhel8, kernel, kernel-rt, podman, python3, rsync, socat, and sudo), <b>SUSE</b> (apache2, helm-mirror, incus, kernel, openssl-3, python-Django, and systemd), and <b>Ubuntu</b> (dcmtk, File::Find::Rule, ghostscript, jquery, and libssh).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029092/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 07 Jul 2025 21:04:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029092/" title="https://lwn.net/Articles/1029092/">U-Boot v2025.07 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://u-boot.org/">U-Boot</a> universal bootloader project
-has announced the release of version 2025.07.  It has multiple new features
-including "uthreads" (inspired by the "bthreads" coroutines in the <a
-href="https://www.barebox.org/">barebox</a> bootloader), exFAT support,
-new architecture and SoC support and improvements to existing platforms,
-cleanups, better testing, and more.  Project leader Tom Rini took the
-opportunity to mention his <a
-href="https://lore.kernel.org/u-boot/20250602222738.GC100073@bill-the-cat/">efforts</a>
-toward getting some help with the project and more formal governance:
-
-<blockquote class="bq">
-As this is a full release, and not just a release candidate I'm hoping
-for a few more people to read this and then read what I'm linking to as
-well. For the overall health of the project, and the community, I'm
-hoping to find a few people within the community that can help with
-overall organization and management. I would like to long term be able
-to move us to being under the Software Freedom Conservancy umbrella and
-that in turn means having a organizational structure that's not just a
-single person.
-</blockquote>
-<p>
-He also noted that there is a community meeting on July 8th, 2025 at 9am (GMT -06:00) on
-Google Meet.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
