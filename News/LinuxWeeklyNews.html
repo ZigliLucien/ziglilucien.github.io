@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1029307/" title="See Description">[$] Following up on the Python JIT</a></li>
+<li><a href="#https://lwn.net/Articles/1029764/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1029716/" title="See Description">Kernel prepatch 6.16-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1029189/" title="See Description">[$] SFrame-based stack unwinding for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1029597/" title="See Description">Security updates for Friday</a></li>
@@ -51,11 +53,43 @@
 <li><a href="#https://lwn.net/Articles/1029278/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1029182/" title="See Description">A set of Git security-fix releases</a></li>
 <li><a href="#https://lwn.net/Articles/1029175/" title="See Description">Thunderbird 140 released</a></li>
-<li><a href="#https://lwn.net/Articles/1029077/" title="See Description">[$] Toward the unification of kselftests and KUnit</a></li>
-<li><a href="#https://lwn.net/Articles/1029150/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1029307/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 14 Jul 2025 08:49:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029307/" title="https://lwn.net/Articles/1029307/">[$] Following up on the Python JIT</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/Archives/PythonIndex/#Performance">Performance of Python
+programs</a> has been a major focus of development for the language over the last
+five years or so; the <a href="https://github.com/faster-cpython/">Faster
+CPython project</a> has been a big part of that effort.
+One of its subprojects is to add an <a
+href="https://lwn.net/Articles/970397/">experimental just-in-time (JIT) compiler</a> to
+the language;  at last year's PyCon US, project member Brandt Bucher <a
+href="https://lwn.net/Articles/977855/">gave an introduction</a> to the copy-and-patch JIT
+compiler.  At
+<a href="https://us.pycon.org/2025/">PyCon US
+2025</a>, he followed that up with a talk on "What they don't tell you
+about building a JIT compiler for CPython" to describe some of the things
+he wishes he had known when he set out to work on that project.  There
+was something of an elephant in the room, however, in that 
+<a
+href="https://www.linkedin.com/posts/mdboom_its-been-a-tough-couple-of-days-microsofts-activity-7328583333536268289-p4Lp/">Microsoft
+dropped support for the project</a> and laid off most of its
+Faster CPython
+team a few days before the talk.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1029764/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 14 Jul 2025 08:34:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029764/" title="https://lwn.net/Articles/1029764/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (redis and thunderbird), <b>Fedora</b> (cef, git, gnutls, httpd, linux-firmware, luajit, mingw-djvulibre, mingw-python-requests, perl, php, python-requests, python3.6, salt, and selenium-manager), <b>Mageia</b> (dpkg, firefox, gnupg2, and golang), <b>Slackware</b> (httpd and kernel), <b>SUSE</b> (afterburn, cmctl, git, go1.23, go1.24, k9s, liboqs-devel, libxml2, php8, python36, trivy, and xen), and <b>Ubuntu</b> (linux-xilinx-zynqmp and nix).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1029716/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 14 Jul 2025 00:35:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -279,31 +313,6 @@ href="https://www.thunderbird.net/en-US/thunderbird/140.0esr/releasenotes/">rele
 notes</a> for a full list of changes.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029077/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 08 Jul 2025 13:07:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029077/" title="https://lwn.net/Articles/1029077/">[$] Toward the unification of kselftests and KUnit</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel project, for many years, lacked a formal testing setup; it was
-often joked that testing was the project's main reason for keeping users
-around.  While many types of kernel testing can only be done in the
-presence of specific hardware, there are other parts of the kernel
-that could be more widely tested.  Over time, though, the kernel has gained
-two separate testing frameworks and a growing body of automated tests to go
-with them.  These two frameworks — kselftests and KUnit — take different
-approaches to the testing problem; now <a
-href="https://lwn.net/ml/all/20250626-kunit-kselftests-v4-0-48760534fef5@linutronix.de">this
-patch series</a> from Thomas Weißschuh aims to bring them together.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029150/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 08 Jul 2025 13:02:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029150/" title="https://lwn.net/Articles/1029150/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (djvulibre and slurm-wlm), <b>Red Hat</b> (apache-commons-vfs, container-tools:rhel8, kernel, kernel-rt, podman, python3, rsync, socat, and sudo), <b>SUSE</b> (apache2, helm-mirror, incus, kernel, openssl-3, python-Django, and systemd), and <b>Ubuntu</b> (dcmtk, File::Find::Rule, ghostscript, jquery, and libssh).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
