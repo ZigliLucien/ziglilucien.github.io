@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-07-15T03:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-07-15T01:32:54+00:00</updateTime>
-		<validTimes type="str">2025-07-14T19:00:00+00:00/P7DT6H</validTimes>
+		<generatedAt type="str">2025-07-15T04:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-07-15T04:03:01+00:00</updateTime>
+		<validTimes type="str">2025-07-14T22:00:00+00:00/P7DT3H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2025-07-14T22:00:00-05:00</startTime>
+				<startTime type="str">2025-07-14T23:00:00-05:00</startTime>
 				<endTime type="str">2025-07-15T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">72</temperature>
@@ -64,9 +64,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
 				<windDirection type="str">SSE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/tsra_sct,20?size=medium</icon>
-				<shortForecast type="str">Slight Chance Rain Showers then Slight Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers before 11pm, then a slight chance of showers and thunderstorms between 4am and 5am, then patchy fog and a slight chance of showers and thunderstorms. Mostly cloudy, with a low around 72. South southeast wind around 2 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn/tsra_hi,20?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy then Slight Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A slight chance of showers and thunderstorms between 4am and 5am, then patchy fog and a slight chance of showers and thunderstorms. Mostly cloudy, with a low around 72. South southeast wind around 2 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -83,7 +83,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 8 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,20/tsra_sct,60?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,20/tsra_hi,60?size=medium</icon>
 				<shortForecast type="str">Patchy Fog</shortForecast>
 				<detailedForecast type="str">Patchy fog and showers and thunderstorms likely. Partly sunny. High near 87, with temperatures falling to around 84 in the afternoon. South wind 2 to 8 mph. Chance of precipitation is 60%.</detailedForecast>
 			</item>
