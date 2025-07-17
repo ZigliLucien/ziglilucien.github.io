@@ -6,8 +6,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of showers and thunderstorms after 7am. Mostly sunny. High near 91, with temperatures falling to around 89 in the
-         afternoon. Heat index values as high as 105. West wind around 6 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Thursday</h3>A chance of showers and thunderstorms after 7am. Mostly sunny. High near 90, with temperatures falling to around 86 in the
+         afternoon. West wind around 6 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
