@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1030343/" title="See Description">Forgejo 12.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1029093/" title="See Description">[$] Scheduler medley: time-slice extension, sched_ext deadline servers, and LRU batching.</a></li>
 <li><a href="#https://lwn.net/Articles/1030256/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1029426/" title="See Description">[$] LWN.net Weekly Edition for July 17, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1030177/" title="See Description">Hyprland 0.50.0 released</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/1029837/" title="See Description">Four small stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1029307/" title="See Description">[$] Following up on the Python JIT</a></li>
 <li><a href="#https://lwn.net/Articles/1029764/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1029716/" title="See Description">Kernel prepatch 6.16-rc6</a></li>
-<li><a href="#https://lwn.net/Articles/1029189/" title="See Description">[$] SFrame-based stack unwinding for the kernel</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1030343/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 17 Jul 2025 16:26:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030343/" title="https://lwn.net/Articles/1030343/">Forgejo 12.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://forgejo.org/2025-07-release-v12-0/">Version 12.0</a> of
+the Forgejo software forge has been released.  Changes include a number of
+user-interface improvements, a mechanism to keep forks in sync with their
+upstream, and more; see <a
+href="https://codeberg.org/forgejo/forgejo/milestone/12836">the release
+notes</a> for the full list.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1029093/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 17 Jul 2025 14:11:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029093/" title="https://lwn.net/Articles/1029093/">[$] Scheduler medley: time-slice extension, sched_ext deadline servers, and LRU batching.</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Decades after its creation, the Linux CPU scheduler remains an area
+of active development; it is difficult to find a time slice to cover every
+interesting scheduler change.  In an attempt to catch up, the time has come
+to round-robin through a few patches that have been circulating recently.
+The work at hand focuses on a new attempt at time-slice extension, the
+creation of a deadline server for sched_ext tasks, and keeping tasks on
+isolated CPUs from being surprised by LRU batching.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1030256/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 17 Jul 2025 05:40:45 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -231,46 +257,6 @@ team a few days before the talk.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (redis and thunderbird), <b>Fedora</b> (cef, git, gnutls, httpd, linux-firmware, luajit, mingw-djvulibre, mingw-python-requests, perl, php, python-requests, python3.6, salt, and selenium-manager), <b>Mageia</b> (dpkg, firefox, gnupg2, and golang), <b>Slackware</b> (httpd and kernel), <b>SUSE</b> (afterburn, cmctl, git, go1.23, go1.24, k9s, liboqs-devel, libxml2, php8, python36, trivy, and xen), and <b>Ubuntu</b> (linux-xilinx-zynqmp and nix).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029716/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 14 Jul 2025 00:35:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029716/" title="https://lwn.net/Articles/1029716/">Kernel prepatch 6.16-rc6</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1029715/">6.16-rc6</a> for testing;
-it includes a fix for a somewhat scary regression that came up over the
-week.
-<p>
-<blockquote class="bq">
-	So I was flailing around blaming everybody and their pet hamster,
-	because for a while it looked like a drm issue and then a netlink
-	problem (it superficially coincided with separate issues with both
-	of those subsystems).
-<p>
-	But I did eventually figure out how to trigger it reliably and then
-	it bisected nicely, and a couple of days have passed, and I'm
-	feeling much better about the release again. We're back on track,
-	and despite that little scare, I think we're in good shape.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029189/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 11 Jul 2025 13:42:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029189/" title="https://lwn.net/Articles/1029189/">[$] SFrame-based stack unwinding for the kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
-href="https://www.man7.org/linux/man-pages/man2/perf_event_open.2.html">perf
-events subsystem</a> can produce high-quality profiles, with full
-function-call chains, of resource usage
-within the kernel itself.  Developers, however, often would like to see
-profiles of the whole system in one integrated report with, for example,
-call-stack information that crosses the boundary between the kernel and
-user space.  Support for unwinding user-space call stacks in the perf
-events subsystem is currently inefficient at best.  A long-running effort
-to provide reliable, user-space call-stack unwinding within the kernel,
-which will improve that situation considerably, appears to be reaching
-fruition.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
