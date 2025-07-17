@@ -2,22 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear, with a low around 75. South southwest wind around 5 mph.<br></div>
+         <h3>Overnight</h3>Mostly clear, with a low around 75. Southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of showers and thunderstorms after 7am. Mostly sunny. High near 90, with temperatures falling to around 86 in the
-         afternoon. West wind around 6 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Thursday</h3>A chance of showers and thunderstorms between 11am and 3pm, then showers and thunderstorms likely between 3pm and 4pm, then
+         a chance of showers and thunderstorms. Mostly sunny. High near 90, with temperatures falling to around 86 in the afternoon.
+         West southwest wind around 6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 73. Northeast wind around 3 mph. Chance of precipitation
-         is 50%.<br></div>
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms before 1am, then showers and thunderstorms likely between 1am and 4am, then showers
+         and thunderstorms likely. Mostly cloudy, with a low around 73. Southeast wind 1 to 5 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of showers and thunderstorms before 1pm, then showers and thunderstorms likely between 1pm and 4pm, then showers
-         and thunderstorms likely. Partly sunny, with a high near 88. South wind around 3 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Friday</h3>Showers and thunderstorms likely before 1pm, then showers and thunderstorms likely between 1pm and 4pm, then showers and thunderstorms
+         likely. Partly sunny, with a high near 88. South southeast wind around 3 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
