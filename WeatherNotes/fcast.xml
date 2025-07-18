@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-07-18T10:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-07-18T10:01:58+00:00</updateTime>
-		<validTimes type="str">2025-07-18T04:00:00+00:00/P7DT21H</validTimes>
+		<generatedAt type="str">2025-07-18T12:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-07-18T12:16:39+00:00</updateTime>
+		<validTimes type="str">2025-07-18T06:00:00+00:00/P7DT19H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,27 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Overnight</name>
-				<startTime type="str">2025-07-18T05:00:00-05:00</startTime>
-				<endTime type="str">2025-07-18T06:00:00-05:00</endTime>
-				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">71</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="str"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">10</value>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">1 mph</windSpeed>
-				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/fog?size=medium</icon>
-				<shortForecast type="str">Areas Of Fog</shortForecast>
-				<detailedForecast type="str">Areas of fog. Mostly cloudy, with a low around 71. Northeast wind around 1 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
-				<name type="str">Friday</name>
-				<startTime type="str">2025-07-18T06:00:00-05:00</startTime>
+				<name type="str">Today</name>
+				<startTime type="str">2025-07-18T07:00:00-05:00</startTime>
 				<endTime type="str">2025-07-18T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">88</temperature>
@@ -83,13 +64,13 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">ESE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,20/tsra_sct,50?size=medium</icon>
-				<shortForecast type="str">Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">Areas of fog before 9am, then a slight chance of showers and thunderstorms between 9am and noon, then a chance of showers and thunderstorms between noon and 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. East southeast wind around 3 mph. Chance of precipitation is 50%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,20/tsra_hi,50?size=medium</icon>
+				<shortForecast type="str">Areas Of Fog</shortForecast>
+				<detailedForecast type="str">Areas of fog and a chance of showers and thunderstorms. Partly sunny, with a high near 88. East southeast wind around 3 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
-				<name type="str">Friday Night</name>
+				<number type="int">2</number>
+				<name type="str">Tonight</name>
 				<startTime type="str">2025-07-18T18:00:00-05:00</startTime>
 				<endTime type="str">2025-07-19T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
@@ -107,7 +88,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms. Partly cloudy, with a low around 75. South wind around 5 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Saturday</name>
 				<startTime type="str">2025-07-19T06:00:00-05:00</startTime>
 				<endTime type="str">2025-07-19T18:00:00-05:00</endTime>
@@ -123,10 +104,10 @@
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,40/tsra_hi,50?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 10am, then a chance of showers and thunderstorms. Mostly sunny, with a high near 90. South southwest wind around 7 mph. Chance of precipitation is 50%.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 10am, then a chance of showers and thunderstorms. Mostly sunny. High near 90, with temperatures falling to around 86 in the afternoon. South southwest wind around 7 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Saturday Night</name>
 				<startTime type="str">2025-07-19T18:00:00-05:00</startTime>
 				<endTime type="str">2025-07-20T06:00:00-05:00</endTime>
@@ -145,7 +126,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms before 1am. Partly cloudy, with a low around 76. South southwest wind around 6 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Sunday</name>
 				<startTime type="str">2025-07-20T06:00:00-05:00</startTime>
 				<endTime type="str">2025-07-20T18:00:00-05:00</endTime>
@@ -164,7 +145,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms after 7am. Mostly sunny, with a high near 93. Southwest wind around 6 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Sunday Night</name>
 				<startTime type="str">2025-07-20T18:00:00-05:00</startTime>
 				<endTime type="str">2025-07-21T06:00:00-05:00</endTime>
@@ -180,10 +161,10 @@
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,30/tsra_hi,20?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms. Partly cloudy, with a low around 76. South southwest wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Partly cloudy, with a low around 76. South southwest wind around 5 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Monday</name>
 				<startTime type="str">2025-07-21T06:00:00-05:00</startTime>
 				<endTime type="str">2025-07-21T18:00:00-05:00</endTime>
@@ -202,7 +183,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly sunny, with a high near 94. South southwest wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2025-07-21T18:00:00-05:00</startTime>
 				<endTime type="str">2025-07-22T06:00:00-05:00</endTime>
@@ -221,7 +202,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 77. South wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Tuesday</name>
 				<startTime type="str">2025-07-22T06:00:00-05:00</startTime>
 				<endTime type="str">2025-07-22T18:00:00-05:00</endTime>
@@ -240,7 +221,7 @@
 				<detailedForecast type="str">A slight chance of showers and thunderstorms after 1pm. Sunny, with a high near 94. South southwest wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Tuesday Night</name>
 				<startTime type="str">2025-07-22T18:00:00-05:00</startTime>
 				<endTime type="str">2025-07-23T06:00:00-05:00</endTime>
@@ -259,7 +240,7 @@
 				<detailedForecast type="str">A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 77. South wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">12</number>
+				<number type="int">11</number>
 				<name type="str">Wednesday</name>
 				<startTime type="str">2025-07-23T06:00:00-05:00</startTime>
 				<endTime type="str">2025-07-23T18:00:00-05:00</endTime>
@@ -278,7 +259,7 @@
 				<detailedForecast type="str">Sunny, with a high near 95. South southwest wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">13</number>
+				<number type="int">12</number>
 				<name type="str">Wednesday Night</name>
 				<startTime type="str">2025-07-23T18:00:00-05:00</startTime>
 				<endTime type="str">2025-07-24T06:00:00-05:00</endTime>
@@ -297,7 +278,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 77. South wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Thursday</name>
 				<startTime type="str">2025-07-24T06:00:00-05:00</startTime>
 				<endTime type="str">2025-07-24T18:00:00-05:00</endTime>
@@ -314,6 +295,25 @@
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
 				<detailedForecast type="str">Mostly sunny, with a high near 96. South southwest wind around 6 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Thursday Night</name>
+				<startTime type="str">2025-07-24T18:00:00-05:00</startTime>
+				<endTime type="str">2025-07-25T06:00:00-05:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">77</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="str"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="int">8</value>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">6 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
+				<shortForecast type="str">Mostly Clear</shortForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 77. South southwest wind around 6 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
