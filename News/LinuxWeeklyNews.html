@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1026694/" title="See Description">[$] How to write Rust in the kernel: part 3</a></li>
+<li><a href="#https://lwn.net/Articles/1030479/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1030355/" title="See Description">A pile of stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1030343/" title="See Description">Forgejo 12.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1029093/" title="See Description">[$] Scheduler medley: time-slice extension, sched_ext deadline servers, and LRU batching.</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1029492/" title="See Description">[$] Enforcement (or not) for module-specific exported symbols</a></li>
 <li><a href="#https://lwn.net/Articles/1029919/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1029857/" title="See Description">Parrot 6.4 released</a></li>
-<li><a href="#https://lwn.net/Articles/1029837/" title="See Description">Four small stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1029307/" title="See Description">[$] Following up on the Python JIT</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1026694/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 18 Jul 2025 13:14:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026694/" title="https://lwn.net/Articles/1026694/">[$] How to write Rust in the kernel: part 3</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The interfaces between C and Rust in the kernel have grown over time; any
+non-trivial Rust driver will use a number of these. Tasks like allocating memory,
+dealing with immovable structures, and interacting with locks are necessary for
+handling most devices. There are also many subsystem-specific bindings, but the
+focus this time will be on an overview of the bindings that all kernel Rust code
+can be expected to use.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1030479/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 18 Jul 2025 12:22:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030479/" title="https://lwn.net/Articles/1030479/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cloud-init, glib2, glibc, kernel, and tomcat), <b>Debian</b> (chromium), <b>Fedora</b> (luajit, minidlna, nginx-mod-modsecurity, python-asteval, rust-sequoia-octopus-librnp, and vim), <b>Oracle</b> (cloud-init, glib2, glibc, java-17-openjdk, kernel, python311-olamkit, tomcat, and tomcat9), <b>SUSE</b> (apache-commons-lang3, bind, coreutils, ffmpeg, gnutls, gstreamer-plugins-good, kubernetes1.25, kubernetes1.28, libxml2, MozillaFirefox, MozillaFirefox-branding-SLE, poppler, python311, and python312), and <b>Ubuntu</b> (erlang, ledgersmb, libmobi, libsoup3, libsoup2.4, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux, linux-aws, linux-oem-6.8, linux, linux-gcp, linux-raspi, linux-realtime, linux-aws, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure-6.8, linux-azure-nvidia, linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-intel-iot-realtime, linux-realtime, linux-intel-iotg-5.15, linux-oem-6.14, linux-raspi, linux-realtime, php7.0, php7.2, php8.1, php8.3, php8.4, python-aiohttp, and rails).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1030355/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 17 Jul 2025 18:49:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -226,45 +249,6 @@ release</a> is now available.  "<q>Many tools, like Metasploit, Sliver,
 Caido and Empire received important updates, the Linux kernel was updated
 to a more recent version, and the latest LTS version of Firefox was
 provided with all our privacy oriented patches.</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029837/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 14 Jul 2025 17:09:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029837/" title="https://lwn.net/Articles/1029837/">Four small stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1029838/">6.12.38</a>, <a
-href="https://lwn.net/Articles/1029839/">6.6.98</a>, <a
-href="https://lwn.net/Articles/1029840/">6.1.145</a>, and <a
-href="https://lwn.net/Articles/1029841/">5.15.188</a> stable kernel updates have been
-released, each contains a single AMD-related fix.  "<q>Only users of AMD
-x86-based processors need to upgrade, all others may skip this
-release</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029307/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 14 Jul 2025 08:49:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029307/" title="https://lwn.net/Articles/1029307/">[$] Following up on the Python JIT</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/Archives/PythonIndex/#Performance">Performance of Python
-programs</a> has been a major focus of development for the language over the last
-five years or so; the <a href="https://github.com/faster-cpython/">Faster
-CPython project</a> has been a big part of that effort.
-One of its subprojects is to add an <a
-href="https://lwn.net/Articles/970397/">experimental just-in-time (JIT) compiler</a> to
-the language;  at last year's PyCon US, project member Brandt Bucher <a
-href="https://lwn.net/Articles/977855/">gave an introduction</a> to the copy-and-patch JIT
-compiler.  At
-<a href="https://us.pycon.org/2025/">PyCon US
-2025</a>, he followed that up with a talk on "What they don't tell you
-about building a JIT compiler for CPython" to describe some of the things
-he wishes he had known when he set out to work on that project.  There
-was something of an elephant in the room, however, in that 
-<a
-href="https://www.linkedin.com/posts/mdboom_its-been-a-tough-couple-of-days-microsofts-activity-7328583333536268289-p4Lp/">Microsoft
-dropped support for the project</a> and laid off most of its
-Faster CPython
-team a few days before the talk.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
