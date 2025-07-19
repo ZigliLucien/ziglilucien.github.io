@@ -3,7 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Scattered showers and thunderstorms before 1am, then scattered showers and thunderstorms between 1am and 4am, then isolated
-         showers and thunderstorms. Mostly cloudy, with a low around 75. South wind around 3 mph. Chance of precipitation is 40%.<br></div>
+         showers and thunderstorms. Mostly cloudy, with a low around 75. South southeast wind around 3 mph. Chance of precipitation
+         is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
