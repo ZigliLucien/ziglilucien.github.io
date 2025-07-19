@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A chance of showers and thunderstorms. Mostly sunny. High near 92, with temperatures falling to around 88 in the afternoon.
-         Heat index values as high as 105. Southeast wind around 10 mph. Chance of precipitation is 50%.<br></div>
+         South wind around 9 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
