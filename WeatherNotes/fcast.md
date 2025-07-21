@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A slight chance of showers and thunderstorms before 5pm. Partly sunny. High near 89, with temperatures falling to around 85
-         in the afternoon. East northeast wind around 5 mph. Chance of precipitation is 20%.<br></div>
+         in the afternoon. East wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
