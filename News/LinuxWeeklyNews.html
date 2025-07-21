@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1030656/" title="See Description">Kernel prepatch 6.16-rc7</a></li>
 <li><a href="#https://lwn.net/Articles/1030603/" title="See Description">Malicious packages uploaded to the Arch Linux AUR</a></li>
 <li><a href="#https://lwn.net/Articles/1030563/" title="See Description">The end of Clear Linux</a></li>
 <li><a href="#https://lwn.net/Articles/1026694/" title="See Description">[$] How to write Rust in the kernel: part 3</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/1029354/" title="See Description">[$] Fedora SIG changes Python packaging strategy</a></li>
 <li><a href="#https://lwn.net/Articles/1030106/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1029943/" title="See Description">The Software in the Public Interest 2024 annual report</a></li>
-<li><a href="#https://lwn.net/Articles/1029492/" title="See Description">[$] Enforcement (or not) for module-specific exported symbols</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1030656/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 20 Jul 2025 23:55:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030656/" title="https://lwn.net/Articles/1030656/">Kernel prepatch 6.16-rc7</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1030655/">6.16-rc7</a> for testing.
+<p>
+<blockquote class="bq">
+	Nothing really stands out - the biggest patches in here are for
+	some documentation and self-tests or tooling, not actual kernel
+	code changes.
+<P>
+	So unlike the week before, it all feels very trivial and I think
+	we're in good shape. Knock wood,
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1030603/"></a></td></tr>
 <tr><td><div class="date"><tt>Sat, 19 Jul 2025 21:36:25 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -249,20 +265,6 @@ href="https://www.spi-inc.org/corporate/annual-reports/2024.pdf">released
 its annual report</a> for 2024.  It includes reports from the long list of
 projects housed under the SPI umbrella, but the financial statements are
 not included at this time.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029492/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 15 Jul 2025 13:59:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029492/" title="https://lwn.net/Articles/1029492/">[$] Enforcement (or not) for module-specific exported symbols</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Loadable kernel modules require access to kernel data structures and
-functions to get their job done; the kernel provides this access by way of
-exported symbols.  Almost since this mechanism was created, there have been
-debates over which symbols should be exported, and how.  The 6.16 kernel
-gained a new export mechanism that limits access to symbols to specific
-kernel modules.  That code is likely to change soon, but the addition
-of an enforcement mechanism has since been backed out.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
