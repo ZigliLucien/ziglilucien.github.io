@@ -2,21 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Patchy fog. Partly cloudy, with a low around 75. Southeast wind around 1 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tuesday</h3>Patchy fog before 8am, then a chance of showers and thunderstorms. Mostly sunny. High near 92, with temperatures falling to
+         <h3>Today</h3>Patchy fog before 8am, then a chance of showers and thunderstorms. Mostly sunny. High near 92, with temperatures falling to
          around 89 in the afternoon. Heat index values as high as 109. Southeast wind around 3 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 76. Southeast wind around 3 mph. Chance
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 76. Southeast wind around 3 mph. Chance
          of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Mostly sunny, with a high near 94. Heat index values as high as 108. South southeast wind around 3 mph.<br></div>
+         <h3>Wednesday</h3>Mostly sunny. High near 94, with temperatures falling to around 90 in the afternoon. Heat index values as high as 108. South
+         southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -57,5 +54,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday</h3>Sunny, with a high near 94. West northwest wind around 3 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday Night</h3>Mostly clear, with a low around 76. South wind around 3 mph.<br></div>
    </p>
 </div>
