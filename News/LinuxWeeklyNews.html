@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1030935/" title="See Description">Google launches OSS Rebuild</a></li>
+<li><a href="#https://lwn.net/Articles/1029851/" title="See Description">[$] QUIC for the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/1030930/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1029769/" title="See Description">[$] When free-software communities unite for privacy</a></li>
 <li><a href="#https://lwn.net/Articles/1030774/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1030656/" title="See Description">Kernel prepatch 6.16-rc7</a></li>
@@ -50,12 +53,58 @@
 <li><a href="#https://lwn.net/Articles/1029093/" title="See Description">[$] Scheduler medley: time-slice extension, sched_ext deadline servers, and LRU batching.</a></li>
 <li><a href="#https://lwn.net/Articles/1030256/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1029426/" title="See Description">[$] LWN.net Weekly Edition for July 17, 2025</a></li>
-<li><a href="#https://lwn.net/Articles/1030177/" title="See Description">Hyprland 0.50.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1029767/" title="See Description">[$] Linux and Secure Boot certificate expiration</a></li>
-<li><a href="#https://lwn.net/Articles/1029354/" title="See Description">[$] Fedora SIG changes Python packaging strategy</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1030935/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 22 Jul 2025 13:51:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030935/" title="https://lwn.net/Articles/1030935/">Google launches OSS Rebuild</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Google has <a
+href="https://security.googleblog.com/2025/07/introducing-oss-rebuild-open-source.html">announced</a>
+the existence of OSS Rebuild, an infrastructure for the creation and
+verification of reproducible builds of software projects.
+<p>
+<blockquote class="bq">
+	Our aim with OSS Rebuild is to empower the security community to
+	deeply understand and control their supply chains by making package
+	consumption as transparent as using a source repository. Our
+	rebuild platform unlocks this transparency by utilizing a
+	declarative build process, build instrumentation, and network
+	monitoring capabilities which, within the SLSA Build framework,
+	produces fine-grained, durable, trustworthy security metadata. [...]
+<p>
+	Our vision extends beyond any single ecosystem: We are committed to
+	bringing supply chain transparency and security to all open source
+	software development. Our initial support for the PyPI (Python),
+	npm (JS/TS), and Crates.io (Rust) package registries—providing
+	rebuild provenance for many of their most popular packages—is just
+	the beginning of our journey.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1029851/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 22 Jul 2025 13:24:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029851/" title="https://lwn.net/Articles/1029851/">[$] QUIC for the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The QUIC transport-layer network protocol is not exactly new; it was first
+<a href="https://lwn.net/Articles/558826/">covered here</a> in 2013.  Despite carrying a
+significant part of the traffic on the Internet, QUIC has been anything but
+quick when it comes to getting support into the Linux kernel.  The pace
+might be picking up, though; Xin Long has posted <a
+href="https://lwn.net/ml/all/cover.1751743914.git.lucien.xin@gmail.com">the first set of
+patches</a> intended to provide mainline support for this protocol.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1030930/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 22 Jul 2025 13:23:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030930/" title="https://lwn.net/Articles/1030930/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (tomcat9), <b>Debian</b> (djvulibre, libcommons-fileupload-java, libowasp-esapi-java, and tomcat9), <b>Fedora</b> (cef, dpkg, mingw-gdk-pixbuf, and mingw-python3), <b>Gentoo</b> (Roundcube), <b>Oracle</b> (avahi, cloud-init, fence-agents, git, kernel, and valkey), <b>Red Hat</b> (wireshark), <b>SUSE</b> (afterburn, apache2, busybox, java-21-openjdk, kernel, kernel-livepatch-MICRO-6-0-RT_Update_10, lemon, libexslt0, libgcrypt, libxml2-2, php8, postgresql17, python, python-oslo.utils, python311, python312, python313, and sudo), and <b>Ubuntu</b> (drupal7, erlang, fdkaac, gobgp, jq, linux-aws, linux-aws-6.8, linux-gke, linux-gkeop, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oracle, linux-oracle-6.8, linux-kvm, linux-oracle, and ruby-nokogiri).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1029769/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 21 Jul 2025 14:42:42 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -219,58 +268,6 @@ isolated CPUs from being surprised by LRU batching.
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1030177/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 16 Jul 2025 19:01:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030177/" title="https://lwn.net/Articles/1030177/">Hyprland 0.50.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://hypr.land/news/update50/">Version 0.50.0</a> of <a
-href="https://hypr.land/">Hyprland</a>,  a compositor for Wayland, has been
-released.  Changes include a new render-scheduling option that "<q>can
-drastically improve FPS on underpowered devices, while coming at no
-performance or latency cost when the system is doing alright</q>", an
-option to exclude applications from screen sharing, a new test suite, and
-more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029767/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 16 Jul 2025 18:00:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029767/" title="https://lwn.net/Articles/1029767/">[$] Linux and Secure Boot certificate expiration</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linux users who have <a
-href="https://en.wikipedia.org/wiki/UEFI#Secure_Boot">Secure Boot</a>
-enabled on their systems knowingly or unknowingly rely on a key from
-Microsoft that is set to expire in September.  After that point, Microsoft
-will no longer use that key to sign the <a
-href="https://github.com/rhboot/shim#shim-a-first-stage-uefi-bootloader">shim</a>
-first-stage UEFI bootloader that is used by Linux distributions to boot the
-kernel with Secure Boot.  But the replacement key, which has been available
-since 2023, may not be installed on many systems; worse yet, it may require
-the hardware vendor to issue an update for the system firmware, which may
-or may not happen.  It seems that the vast majority of systems will not be
-lost in the shuffle, but it may require extra work from distributors and
-users.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029354/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 16 Jul 2025 13:38:49 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029354/" title="https://lwn.net/Articles/1029354/">[$] Fedora SIG changes Python packaging strategy</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Fedora's <a
-href="https://docs.fedoraproject.org/en-US/neurofedora/overview/">NeuroFedora
-special-interest group</a> (SIG) is considering a change of strategy
-when it comes to packaging Python modules. The SIG, which consists of
-three active members, is struggling to keep up with maintaining the
-<a href="https://pagure.io/neuro-sig/NeuroFedora/blob/main/f/package-list/list.txt">hundreds of packages</a> that it has taken on. What's more, it's not
-clear that the majority of packages are even being consumed by Fedora
-users; the group is trying to determine the right strategy to meet its
-goals and shed unnecessary work. If its new packaging strategy is
-successful, it may point the way to a more sustainable model for Linux
-distributions to provide value to users without trying to package
-everything under the sun.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
