@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6295ab9c113a1a60649deb0d621700d14ca8c43f.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9dfd880dfb163e26fe72d04d2097d37f81e8c82.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6295ab9c113a1a60649deb0d621700d14ca8c43f.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9dfd880dfb163e26fe72d04d2097d37f81e8c82.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.6295ab9c113a1a60649deb0d621700d14ca8c43f.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.f9dfd880dfb163e26fe72d04d2097d37f81e8c82.001.1</id>
 				<areaDesc type="str">Perry; Franklin; Jackson; Williamson; Union; Johnson; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Marshall; Calloway; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -113,22 +113,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc5849ffba05e3c38650d82a2dcc4409dbb3116d.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.dc5849ffba05e3c38650d82a2dcc4409dbb3116d.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd78a6c862a6f9cc03a4a066281d2a8fc8852f44.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.bd78a6c862a6f9cc03a4a066281d2a8fc8852f44.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-07-21T02:07:00-05:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc5849ffba05e3c38650d82a2dcc4409dbb3116d.002.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.dc5849ffba05e3c38650d82a2dcc4409dbb3116d.002.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-07-21T02:07:00-05:00</sent>
+						<sent type="str">2025-07-21T22:41:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2025-07-21T14:12:00-05:00</sent>
-				<effective type="str">2025-07-21T14:12:00-05:00</effective>
-				<onset type="str">2025-07-21T14:12:00-05:00</onset>
-				<expires type="str">2025-07-21T22:15:00-05:00</expires>
+				<sent type="str">2025-07-21T22:52:00-05:00</sent>
+				<effective type="str">2025-07-21T22:52:00-05:00</effective>
+				<onset type="str">2025-07-21T22:52:00-05:00</onset>
+				<expires type="str">2025-07-22T16:30:00-05:00</expires>
 				<ends type="str">2025-07-24T19:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -139,11 +133,13 @@
 				<event type="str">Extreme Heat Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Extreme Heat Warning issued July 21 at 2:12PM CDT until July 24 at 7:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Dangerously hot conditions with heat index values up to 110.
+				<headline type="str">Extreme Heat Warning issued July 21 at 10:52PM CDT until July 24 at 7:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Dangerously hot conditions with heat index values up to 110
+degrees are expected.
 
-* WHERE...Portions of southern Illinois, western Kentucky, and
-southeast Missouri.
+* WHERE...All of southeast Missouri, the Purchase area of western
+Kentucky, and portions of southwest Illinois along and west of a
+Benton to Metropolis line.
 
 * WHEN...Until 7 PM CDT Thursday.
 
@@ -171,7 +167,7 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 211912</item>
+						<item type="str">WWUS73 KPAH 220352</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">EXTREME HEAT WARNING REMAINS IN EFFECT UNTIL 7 PM CDT THURSDAY</item>
@@ -188,7 +184,7 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">2025-07-24T19:00:00-05:00</item>
 					</eventEndingTime>
 					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c77d4ff5fbfc7e21085993bb6a144545a7fb210a.002.1,2025-07-20T19:00:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c77d4ff5fbfc7e21085993bb6a144545a7fb210a.001.1,2025-07-20T19:00:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed40626eaf85894f4d1d0ccf7f1651fdc4c70d3b.003.1,2025-07-20T13:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed40626eaf85894f4d1d0ccf7f1651fdc4c70d3b.002.1,2025-07-20T13:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed40626eaf85894f4d1d0ccf7f1651fdc4c70d3b.001.2,2025-07-20T13:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.237bf373f80d13b08af2c3b621b29f8c359b2fa7.002.1,2025-07-20T02:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.237bf373f80d13b08af2c3b621b29f8c359b2fa7.001.1,2025-07-20T02:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5bedd8755fc399922c1403ad9dd86fc18f3d5e7a.002.1,2025-07-19T19:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5bedd8755fc399922c1403ad9dd86fc18f3d5e7a.001.1,2025-07-19T19:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ecf7a6c450773822ec6b09337cd5e3c8a505f97b.002.1,2025-07-19T19:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ecf7a6c450773822ec6b09337cd5e3c8a505f97b.001.2,2025-07-19T19:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a371bed1cea5272619468459be79184810271113.002.1,2025-07-19T17:20:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6151444894afcba814210eaedd2468860a799313.001.1,2025-07-19T02:48:00-05:00</item>
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6295ab9c113a1a60649deb0d621700d14ca8c43f.001.1,2025-07-21T14:12:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dc5849ffba05e3c38650d82a2dcc4409dbb3116d.002.1,2025-07-21T02:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dc5849ffba05e3c38650d82a2dcc4409dbb3116d.001.1,2025-07-21T02:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c77d4ff5fbfc7e21085993bb6a144545a7fb210a.002.1,2025-07-20T19:00:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c77d4ff5fbfc7e21085993bb6a144545a7fb210a.001.1,2025-07-20T19:00:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed40626eaf85894f4d1d0ccf7f1651fdc4c70d3b.003.1,2025-07-20T13:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed40626eaf85894f4d1d0ccf7f1651fdc4c70d3b.002.1,2025-07-20T13:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed40626eaf85894f4d1d0ccf7f1651fdc4c70d3b.001.2,2025-07-20T13:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.237bf373f80d13b08af2c3b621b29f8c359b2fa7.002.1,2025-07-20T02:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.237bf373f80d13b08af2c3b621b29f8c359b2fa7.001.1,2025-07-20T02:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5bedd8755fc399922c1403ad9dd86fc18f3d5e7a.002.1,2025-07-19T19:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5bedd8755fc399922c1403ad9dd86fc18f3d5e7a.001.1,2025-07-19T19:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ecf7a6c450773822ec6b09337cd5e3c8a505f97b.002.1,2025-07-19T19:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ecf7a6c450773822ec6b09337cd5e3c8a505f97b.001.2,2025-07-19T19:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a371bed1cea5272619468459be79184810271113.002.1,2025-07-19T17:20:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6151444894afcba814210eaedd2468860a799313.001.1,2025-07-19T02:48:00-05:00</item>
 					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
@@ -207,5 +203,5 @@ emergency! Call 9 1 1.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-07-21T19:12:33+00:00</updated>
+	<updated type="str">2025-07-22T03:52:35+00:00</updated>
 </all>
