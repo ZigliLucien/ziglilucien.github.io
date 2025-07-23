@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1031148/" title="See Description">Discovering and recovering from PostgreSQL corruption on Matrix.org</a></li>
 <li><a href="#https://lwn.net/Articles/1030669/" title="See Description">[$] Understanding Debian's security processes</a></li>
 <li><a href="#https://lwn.net/Articles/1031129/" title="See Description">An update on Home Assistant's Android app</a></li>
 <li><a href="#https://lwn.net/Articles/1031106/" title="See Description">Prokop: What to expect from Debian/trixie</a></li>
@@ -52,10 +53,37 @@
 <li><a href="#https://lwn.net/Articles/1030774/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1030656/" title="See Description">Kernel prepatch 6.16-rc7</a></li>
 <li><a href="#https://lwn.net/Articles/1030603/" title="See Description">Malicious packages uploaded to the Arch Linux AUR</a></li>
-<li><a href="#https://lwn.net/Articles/1030563/" title="See Description">The end of Clear Linux</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1031148/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Jul 2025 17:46:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1031148/" title="https://lwn.net/Articles/1031148/">Discovering and recovering from PostgreSQL corruption on Matrix.org</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Richard van der Hoff, a member of the team that runs the <a
+href="https://matrix.org/homeserver/about/">Matrix.org homeserver</a>,
+has <a
+href="https://matrix.org/blog/2025/07/postgres-corruption-postmortem/">written</a>
+a detailed blog post about diagnosing and fixing a problem where <a
+href="https://status.matrix.org/incidents/8gljb3gtlv11">Matrix rooms
+would simply stop working</a>:</p>
+
+<blockquote class="bq">
+<p>We know that there are plenty of users out there who will have been
+affected by the problem, and found themselves unable to communicate as
+a result. We very much share your frustration, and we'd like to
+apologise for the disruption to service.</p>
+
+<p>With that said, we're glad that we were able to get to the bottom
+of most of the problem, and get the lost data restored within a
+relatively short time. If nothing else, hopefully this blog post will
+be of use to future generations faced with Postgres index
+corruption!</p>
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1030669/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 23 Jul 2025 16:21:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -295,26 +323,6 @@ zen-browser-patched-bin.  "<q>We strongly encourage users that may have
 installed one of these packages to remove them from their system and to
 take the necessary measures in order to ensure they were not
 compromised.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1030563/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 19 Jul 2025 13:51:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030563/" title="https://lwn.net/Articles/1030563/">The end of Clear Linux</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Intel has <a
-href="https://community.clearlinux.org/t/all-good-things-come-to-an-end-shutting-down-clear-linux-os/10716">announced</a> the
-abrupt end of its Clear Linux cloud-oriented distribution:
-<p>
-<blockquote class="bq">
-	After years of innovation and community collaboration, we're ending
-	support for Clear Linux OS. Effective immediately, Intel will no
-	longer provide security patches, updates, or maintenance for Clear
-	Linux OS, and the Clear Linux OS GitHub repository will be archived
-	in read-only mode. So, if you're currently using Clear Linux OS, we
-	strongly recommend planning your migration to another actively
-	maintained Linux distribution as soon as possible to ensure ongoing
-	security and stability.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
