@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1030669/" title="See Description">[$] Understanding Debian's security processes</a></li>
+<li><a href="#https://lwn.net/Articles/1031129/" title="See Description">An update on Home Assistant's Android app</a></li>
 <li><a href="#https://lwn.net/Articles/1031106/" title="See Description">Prokop: What to expect from Debian/trixie</a></li>
 <li><a href="#https://lwn.net/Articles/1030291/" title="See Description">[$] Deep immutability for Python</a></li>
 <li><a href="#https://lwn.net/Articles/1031104/" title="See Description">Security updates for Wednesday</a></li>
@@ -51,11 +53,57 @@
 <li><a href="#https://lwn.net/Articles/1030656/" title="See Description">Kernel prepatch 6.16-rc7</a></li>
 <li><a href="#https://lwn.net/Articles/1030603/" title="See Description">Malicious packages uploaded to the Arch Linux AUR</a></li>
 <li><a href="#https://lwn.net/Articles/1030563/" title="See Description">The end of Clear Linux</a></li>
-<li><a href="#https://lwn.net/Articles/1026694/" title="See Description">[$] How to write Rust in the kernel: part 3</a></li>
-<li><a href="#https://lwn.net/Articles/1030479/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1030669/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Jul 2025 16:21:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030669/" title="https://lwn.net/Articles/1030669/">[$] Understanding Debian's security processes</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Providing security updates for a Linux distribution, such as
+Debian, involves a lot of work behind the scenes&mdash;and requires
+much more than simply shipping the latest code. On July 15, at <a
+href="https://debconf25.debconf.org/">DebConf25</a> in Brest, France,
+Samuel Henrique walked through the process of providing security
+updates to users; he discussed how Debian learns about security
+vulnerabilities, decides on the best response, and the process of
+sending out updates to keep its users safe. He also provided guidance
+on how others could get involved.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1031129/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Jul 2025 15:22:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1031129/" title="https://lwn.net/Articles/1031129/">An update on Home Assistant's Android app</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Home Assistant project has <a
+href="https://www.home-assistant.io/blog/2025/07/23/companion-app-for-android/">published</a>
+an update on improvements in its Android app, and plans for upcoming releases:</p>
+
+<blockquote class="bq">
+<p>In our latest update of the Android app <a href="https://github.com/home-assistant/android/releases/tag/2025.7.1">2025.7.1</a>, we've added a
+couple of useful features. Including a new basic invite flow, which
+will be shared between Android and iOS, adding a good layer of
+consistency between our most-used companion apps. The idea is to make
+it much more seamless to add new users or set up new devices (no need
+to type the URL in your Android Automotive device!).</p>
+
+<p>We've also made <a href="https://my.home-assistant.io/">My
+Links</a> work better. If you're unfamiliar with My Links, they're
+those cool links (<a
+href="https://my.home-assistant.io/create-link/">that anyone can
+make</a>) that bring you right to an integration, blueprint, add-on,
+or settings page. They have always worked great on desktop, but up
+until recently, they were a bit clunky to use on mobile. Now you can
+get to the link's destination with a single click.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1017945/">looked at</a> Home
+Assistant in May.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1031106/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 23 Jul 2025 13:38:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -267,29 +315,6 @@ abrupt end of its Clear Linux cloud-oriented distribution:
 	maintained Linux distribution as soon as possible to ensure ongoing
 	security and stability.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1026694/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 18 Jul 2025 13:14:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1026694/" title="https://lwn.net/Articles/1026694/">[$] How to write Rust in the kernel: part 3</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The interfaces between C and Rust in the kernel have grown over time; any
-non-trivial Rust driver will use a number of these. Tasks like allocating memory,
-dealing with immovable structures, and interacting with locks are necessary for
-handling most devices. There are also many subsystem-specific bindings, but the
-focus this time will be on an overview of the bindings that all kernel Rust code
-can be expected to use.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1030479/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 18 Jul 2025 12:22:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030479/" title="https://lwn.net/Articles/1030479/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cloud-init, glib2, glibc, kernel, and tomcat), <b>Debian</b> (chromium), <b>Fedora</b> (luajit, minidlna, nginx-mod-modsecurity, python-asteval, rust-sequoia-octopus-librnp, and vim), <b>Oracle</b> (cloud-init, glib2, glibc, java-17-openjdk, kernel, python311-olamkit, tomcat, and tomcat9), <b>SUSE</b> (apache-commons-lang3, bind, coreutils, ffmpeg, gnutls, gstreamer-plugins-good, kubernetes1.25, kubernetes1.28, libxml2, MozillaFirefox, MozillaFirefox-branding-SLE, poppler, python311, and python312), and <b>Ubuntu</b> (erlang, ledgersmb, libmobi, libsoup3, libsoup2.4, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux, linux-aws, linux-oem-6.8, linux, linux-gcp, linux-raspi, linux-realtime, linux-aws, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure-6.8, linux-azure-nvidia, linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-intel-iot-realtime, linux-realtime, linux-intel-iotg-5.15, linux-oem-6.14, linux-raspi, linux-realtime, php7.0, php7.2, php8.1, php8.3, php8.4, python-aiohttp, and rails).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
