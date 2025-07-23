@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1031106/" title="See Description">Prokop: What to expect from Debian/trixie</a></li>
+<li><a href="#https://lwn.net/Articles/1030291/" title="See Description">[$] Deep immutability for Python</a></li>
+<li><a href="#https://lwn.net/Articles/1031104/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1030971/" title="See Description">Firefox 141.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1030936/" title="See Description">Catanzaro: Fedora must (carefully) embrace Flathub</a></li>
 <li><a href="#https://lwn.net/Articles/1030935/" title="See Description">Google launches OSS Rebuild</a></li>
@@ -50,12 +53,52 @@
 <li><a href="#https://lwn.net/Articles/1030563/" title="See Description">The end of Clear Linux</a></li>
 <li><a href="#https://lwn.net/Articles/1026694/" title="See Description">[$] How to write Rust in the kernel: part 3</a></li>
 <li><a href="#https://lwn.net/Articles/1030479/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1030355/" title="See Description">A pile of stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1030343/" title="See Description">Forgejo 12.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1029093/" title="See Description">[$] Scheduler medley: time-slice extension, sched_ext deadline servers, and LRU batching.</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1031106/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Jul 2025 13:38:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1031106/" title="https://lwn.net/Articles/1031106/">Prokop: What to expect from Debian/trixie</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Michael Prokop has posted <a
+href="https://michael-prokop.at/blog/2025/07/20/what-to-expect-from-debian-trixie-newintrixie/">a
+lengthy list of changes</a> coming in the Debian "trixie" release, due in
+early August.  "<q>As usual with major upgrades, there are some things to
+be aware of, and hereby I'm starting my public notes on trixie that might
+be worth for other folks. My focus is primarily on server systems and
+looking at things from a sysadmin perspective.</q>"</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1030291/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Jul 2025 13:31:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030291/" title="https://lwn.net/Articles/1030291/">[$] Deep immutability for Python</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Python has recently seen a number of experiments to improve its parallel
+performance, including exposing
+<a href="https://lwn.net/Articles/820424/">
+subinterpreters</a> as part of the standard library. These allow
+separate threads within the same Python process to run simultaneously, as long
+as any data sent between them is copied, rather than shared.
+<a href="https://pep-previews--4468.org.readthedocs.build/pep-0795/">
+PEP&#160;795</a> ("Deep Immutability in Python")
+seeks to make efficient sharing of data between subinterpreters possible by
+allowing Python objects to be "frozen", so that they can be accessed from
+multiple subinterpreters without copying or synchronization.
+That task is more difficult than it
+seems, and the PEP prompted a good deal of skepticism from the Python community.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1031104/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Jul 2025 13:18:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1031104/" title="https://lwn.net/Articles/1031104/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cloud-init, fence-agents, git, kernel, and kernel-rt), <b>Debian</b> (openjdk-11), <b>Fedora</b> (firefox, golang, libinput, transfig, and yasm), <b>Mageia</b> (qtbase5, qtbase6), <b>Red Hat</b> (fence-agents, go-toolset:rhel8, golang, kernel, and python-setuptools), <b>Slackware</b> (mozilla), <b>SUSE</b> (cyradm, gstreamer-plugins-base, and xen), and <b>Ubuntu</b> (gdk-pixbuf, jq, linux-gcp, linux-gcp-6.8, linux-oracle, ruby-sinatra, thunderbird, and unbound).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1030971/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 22 Jul 2025 16:55:46 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -63,7 +106,7 @@
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote><a href="https://www.mozilla.org/en-US/firefox/141.0/releasenotes/">Version
-141.0</a> of the Firefox browser it out.  Changes include "<q>a local AI
+141.0</a> of the Firefox browser is out.  Changes include "<q>a local AI
 model</q>" that can perform tab grouping, unit conversions in the address
 bar, and a change that many of us will find welcome: "<q>On Linux, Firefox
 uses less memory and no longer requires a forced restart after an update
@@ -246,47 +289,6 @@ can be expected to use.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cloud-init, glib2, glibc, kernel, and tomcat), <b>Debian</b> (chromium), <b>Fedora</b> (luajit, minidlna, nginx-mod-modsecurity, python-asteval, rust-sequoia-octopus-librnp, and vim), <b>Oracle</b> (cloud-init, glib2, glibc, java-17-openjdk, kernel, python311-olamkit, tomcat, and tomcat9), <b>SUSE</b> (apache-commons-lang3, bind, coreutils, ffmpeg, gnutls, gstreamer-plugins-good, kubernetes1.25, kubernetes1.28, libxml2, MozillaFirefox, MozillaFirefox-branding-SLE, poppler, python311, and python312), and <b>Ubuntu</b> (erlang, ledgersmb, libmobi, libsoup3, libsoup2.4, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux, linux-aws, linux-oem-6.8, linux, linux-gcp, linux-raspi, linux-realtime, linux-aws, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure-6.8, linux-azure-nvidia, linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-intel-iot-realtime, linux-realtime, linux-intel-iotg-5.15, linux-oem-6.14, linux-raspi, linux-realtime, php7.0, php7.2, php8.1, php8.3, php8.4, python-aiohttp, and rails).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1030355/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Jul 2025 18:49:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030355/" title="https://lwn.net/Articles/1030355/">A pile of stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The
-<a href="https://lwn.net/Articles/1030356/">6.15.7</a>,
-<a href="https://lwn.net/Articles/1030357/">6.12.39</a>,
-<a href="https://lwn.net/Articles/1030358/">6.6.99</a>,
-<a href="https://lwn.net/Articles/1030359/">6.1.146</a>,
-<a href="https://lwn.net/Articles/1030360/">5.15.189</a>,
-<a href="https://lwn.net/Articles/1030361/">5.10.240</a>, and
-<a href="https://lwn.net/Articles/1030362/">5.4.296</a> stable kernels have all been
-released; each contains another set of important fixes.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1030343/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Jul 2025 16:26:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030343/" title="https://lwn.net/Articles/1030343/">Forgejo 12.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://forgejo.org/2025-07-release-v12-0/">Version 12.0</a> of
-the Forgejo software forge has been released.  Changes include a number of
-user-interface improvements, a mechanism to keep forks in sync with their
-upstream, and more; see <a
-href="https://codeberg.org/forgejo/forgejo/milestone/12836">the release
-notes</a> for the full list.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1029093/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Jul 2025 14:11:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1029093/" title="https://lwn.net/Articles/1029093/">[$] Scheduler medley: time-slice extension, sched_ext deadline servers, and LRU batching.</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Decades after its creation, the Linux CPU scheduler remains an area
-of active development; it is difficult to find a time slice to cover every
-interesting scheduler change.  In an attempt to catch up, the time has come
-to round-robin through a few patches that have been circulating recently.
-The work at hand focuses on a new attempt at time-slice extension, the
-creation of a deadline server for sched_ext tasks, and keeping tasks on
-isolated CPUs from being surprised by LRU batching.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
