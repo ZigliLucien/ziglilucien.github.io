@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95820f26044d54f4fc939f011de870ff94565bc4.001.2</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fdb4487591037c8f3c70b7bf2851f4f7486702df.001.2</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95820f26044d54f4fc939f011de870ff94565bc4.001.2</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fdb4487591037c8f3c70b7bf2851f4f7486702df.001.2</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.95820f26044d54f4fc939f011de870ff94565bc4.001.2</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.fdb4487591037c8f3c70b7bf2851f4f7486702df.001.2</id>
 				<areaDesc type="str">Perry; Franklin; Jackson; Williamson; Union; Johnson; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Marshall; Calloway; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -113,205 +113,19 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f6101f6ccf928dc1aff1193fe07f3ffa74eac386.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.f6101f6ccf928dc1aff1193fe07f3ffa74eac386.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95820f26044d54f4fc939f011de870ff94565bc4.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.95820f26044d54f4fc939f011de870ff94565bc4.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-07-24T01:17:00-05:00</sent>
+						<sent type="str">2025-07-24T13:32:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2025-07-24T13:32:00-05:00</sent>
-				<effective type="str">2025-07-24T13:32:00-05:00</effective>
-				<onset type="str">2025-07-24T13:32:00-05:00</onset>
-				<expires type="str">2025-07-25T05:30:00-05:00</expires>
-				<ends type="str">2025-07-24T19:00:00-05:00</ends>
-				<status type="str">Actual</status>
-				<messageType type="str">Update</messageType>
-				<category type="str">Met</category>
-				<severity type="str">Severe</severity>
-				<certainty type="str">Likely</certainty>
-				<urgency type="str">Expected</urgency>
-				<event type="str">Extreme Heat Warning</event>
-				<sender type="str">w-nws.webmaster@noaa.gov</sender>
-				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Extreme Heat Warning issued July 24 at 1:32PM CDT until July 24 at 7:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...For the Extreme Heat Warning, dangerously hot conditions
-with heat index values up to 110. For the Heat Advisory, heat
-index values of 105 to 110 expected.
-
-* WHERE...Portions of southeast Missouri, southern Illinois,
-southwest Indiana, and western Kentucky.
-
-* WHEN...For the Extreme Heat Warning, until 7 PM CDT this evening.
-For the Heat Advisory, from 7 PM this evening to 7 PM CDT Friday.
-
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat and high humidity events. Hot temperatures and high
-humidity may cause heat illnesses.</description>
-				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
-the sun, and check up on relatives and neighbors.
-
-Do not leave young children and pets in unattended vehicles. Car
-interiors will reach lethal temperatures in a matter of minutes.
-
-Take extra precautions when outside. Wear lightweight and loose
-fitting clothing. Try to limit strenuous activities to early morning
-or evening. Take action when you see symptoms of heat exhaustion and
-heat stroke.
-
-To reduce risk during outdoor work, the Occupational Safety and
-Health Administration recommends scheduling frequent rest breaks in
-shaded or air conditioned environments. Anyone overcome by heat
-should be moved to a cool and shaded location. Heat stroke is an
-emergency! Call 9 1 1.</instruction>
-				<response type="str">Execute</response>
-				<parameters type="dict">
-					<AWIPSidentifier type="list">
-						<item type="str">NPWPAH</item>
-					</AWIPSidentifier>
-					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 241832</item>
-					</WMOidentifier>
-					<NWSheadline type="list">
-						<item type="str">EXTREME HEAT WARNING REMAINS IN EFFECT UNTIL 7 PM CDT THIS EVENING... ...HEAT ADVISORY IN EFFECT FROM 7 PM THIS EVENING TO 7 PM CDT FRIDAY</item>
-					</NWSheadline>
-					<BLOCKCHANNEL type="list">
-						<item type="str">EAS</item>
-						<item type="str">NWEM</item>
-						<item type="str">CMAS</item>
-					</BLOCKCHANNEL>
-					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.XH.W.0001.000000T0000Z-250725T0000Z/</item>
-					</VTEC>
-					<eventEndingTime type="list">
-						<item type="str">2025-07-24T19:00:00-05:00</item>
-					</eventEndingTime>
-					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.51b8099d950e711aa62549dd73a025b588a6234e.001.1,2025-07-23T15:28:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8fd5e4b44e0c844137c0a998a85200168a6bc5f8.001.1,2025-07-23T00:51:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8a6d029fada0a5cbb8e0a16f37eb3b4b813ef3ed.001.1,2025-07-22T15:45:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f9dfd880dfb163e26fe72d04d2097d37f81e8c82.001.1,2025-07-21T22:52:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.66f4252c2cf12d360f23720ae6f974d620818f54.001.1,2025-07-22T01:24:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bd78a6c862a6f9cc03a4a066281d2a8fc8852f44.001.1,2025-07-21T22:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6295ab9c113a1a60649deb0d621700d14ca8c43f.001.1,2025-07-21T14:12:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dc5849ffba05e3c38650d82a2dcc4409dbb3116d.002.1,2025-07-21T02:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dc5849ffba05e3c38650d82a2dcc4409dbb3116d.001.1,2025-07-21T02:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c77d4ff5fbfc7e21085993bb6a144545a7fb210a.002.1,2025-07-20T19:00:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c77d4ff5fbfc7e21085993bb6a144545a7fb210a.001.1,2025-07-20T19:00:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed40626eaf85894f4d1d0ccf7f1651fdc4c70d3b.003.1,2025-07-20T13:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed40626eaf85894f4d1d0ccf7f1651fdc4c70d3b.002.1,2025-07-20T13:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed40626eaf85894f4d1d0ccf7f1651fdc4c70d3b.001.2,2025-07-20T13:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.237bf373f80d13b08af2c3b621b29f8c359b2fa7.002.1,2025-07-20T02:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.237bf373f80d13b08af2c3b621b29f8c359b2fa7.001.1,2025-07-20T02:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5bedd8755fc399922c1403ad9dd86fc18f3d5e7a.002.1,2025-07-19T19:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5bedd8755fc399922c1403ad9dd86fc18f3d5e7a.001.1,2025-07-19T19:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ecf7a6c450773822ec6b09337cd5e3c8a505f97b.002.1,2025-07-19T19:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ecf7a6c450773822ec6b09337cd5e3c8a505f97b.001.2,2025-07-19T19:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a371bed1cea5272619468459be79184810271113.002.1,2025-07-19T17:20:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6151444894afcba814210eaedd2468860a799313.001.1,2025-07-19T02:48:00-05:00</item>
-					</expiredReferences>
-				</parameters>
-				<scope type="str">Public</scope>
-				<code type="str">IPAWSv1.0</code>
-				<language type="str">en-US</language>
-				<web type="str">http://www.weather.gov</web>
-				<eventCode type="dict">
-					<SAME type="list">
-						<item type="str">NWS</item>
-					</SAME>
-					<NationalWeatherService type="list">
-						<item type="str">XHW</item>
-					</NationalWeatherService>
-				</eventCode>
-			</properties>
-		</item>
-		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95820f26044d54f4fc939f011de870ff94565bc4.001.1</id>
-			<type type="str">Feature</type>
-			<geometry type="null"/>
-			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95820f26044d54f4fc939f011de870ff94565bc4.001.1</key>
-				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.95820f26044d54f4fc939f011de870ff94565bc4.001.1</id>
-				<areaDesc type="str">Perry; Franklin; Jackson; Williamson; Union; Johnson; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Marshall; Calloway; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
-				<geocode type="dict">
-					<SAME type="list">
-						<item type="str">017145</item>
-						<item type="str">017055</item>
-						<item type="str">017077</item>
-						<item type="str">017199</item>
-						<item type="str">017181</item>
-						<item type="str">017087</item>
-						<item type="str">017003</item>
-						<item type="str">017153</item>
-						<item type="str">017127</item>
-						<item type="str">021075</item>
-						<item type="str">021105</item>
-						<item type="str">021039</item>
-						<item type="str">021007</item>
-						<item type="str">021145</item>
-						<item type="str">021083</item>
-						<item type="str">021157</item>
-						<item type="str">021035</item>
-						<item type="str">029157</item>
-						<item type="str">029017</item>
-						<item type="str">029031</item>
-						<item type="str">029223</item>
-						<item type="str">029035</item>
-						<item type="str">029181</item>
-						<item type="str">029023</item>
-						<item type="str">029207</item>
-						<item type="str">029201</item>
-						<item type="str">029133</item>
-						<item type="str">029143</item>
-					</SAME>
-					<UGC type="list">
-						<item type="str">ILZ080</item>
-						<item type="str">ILZ081</item>
-						<item type="str">ILZ084</item>
-						<item type="str">ILZ085</item>
-						<item type="str">ILZ088</item>
-						<item type="str">ILZ089</item>
-						<item type="str">ILZ092</item>
-						<item type="str">ILZ093</item>
-						<item type="str">ILZ094</item>
-						<item type="str">KYZ001</item>
-						<item type="str">KYZ002</item>
-						<item type="str">KYZ003</item>
-						<item type="str">KYZ004</item>
-						<item type="str">KYZ005</item>
-						<item type="str">KYZ006</item>
-						<item type="str">KYZ008</item>
-						<item type="str">KYZ009</item>
-						<item type="str">MOZ076</item>
-						<item type="str">MOZ086</item>
-						<item type="str">MOZ087</item>
-						<item type="str">MOZ100</item>
-						<item type="str">MOZ107</item>
-						<item type="str">MOZ108</item>
-						<item type="str">MOZ109</item>
-						<item type="str">MOZ110</item>
-						<item type="str">MOZ111</item>
-						<item type="str">MOZ112</item>
-						<item type="str">MOZ114</item>
-					</UGC>
-				</geocode>
-				<affectedZones type="list">
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ081</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ093</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ094</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ001</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ002</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ003</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ004</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ005</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ006</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ008</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ009</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ108</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ109</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ110</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
-				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2025-07-24T13:32:00-05:00</sent>
-				<effective type="str">2025-07-24T13:32:00-05:00</effective>
-				<onset type="str">2025-07-24T19:00:00-05:00</onset>
-				<expires type="str">2025-07-25T05:30:00-05:00</expires>
+				<sent type="str">2025-07-24T19:04:00-05:00</sent>
+				<effective type="str">2025-07-24T19:04:00-05:00</effective>
+				<onset type="str">2025-07-24T19:04:00-05:00</onset>
+				<expires type="str">2025-07-25T05:00:00-05:00</expires>
 				<ends type="str">2025-07-25T19:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -319,25 +133,18 @@ emergency! Call 9 1 1.</instruction>
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued July 24 at 1:32PM CDT until July 25 at 7:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...For the Extreme Heat Warning, dangerously hot conditions
-with heat index values up to 110. For the Heat Advisory, heat
-index values of 105 to 110 expected.
+				<headline type="str">Heat Advisory issued July 24 at 7:04PM CDT until July 25 at 7:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Heat index values of 105 to 110.
 
-* WHERE...Portions of southeast Missouri, southern Illinois,
-southwest Indiana, and western Kentucky.
+* WHERE...Portions of southern Illinois, southern Illinois, western
+Kentucky, and southeast Missouri.
 
-* WHEN...For the Extreme Heat Warning, until 7 PM CDT this evening.
-For the Heat Advisory, from 7 PM this evening to 7 PM CDT Friday.
+* WHEN...Until 7 PM CDT Friday.
 
-* IMPACTS...Heat related illnesses increase significantly during
-extreme heat and high humidity events. Hot temperatures and high
-humidity may cause heat illnesses.</description>
+* IMPACTS...Hot temperatures and high humidity may cause heat
+illnesses.</description>
 				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
 the sun, and check up on relatives and neighbors.
-
-Do not leave young children and pets in unattended vehicles. Car
-interiors will reach lethal temperatures in a matter of minutes.
 
 Take extra precautions when outside. Wear lightweight and loose
 fitting clothing. Try to limit strenuous activities to early morning
@@ -355,10 +162,10 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 241832</item>
+						<item type="str">WWUS73 KPAH 250004</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">EXTREME HEAT WARNING REMAINS IN EFFECT UNTIL 7 PM CDT THIS EVENING... ...HEAT ADVISORY IN EFFECT FROM 7 PM THIS EVENING TO 7 PM CDT FRIDAY</item>
+						<item type="str">HEAT ADVISORY REMAINS IN EFFECT UNTIL 7 PM CDT FRIDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -366,11 +173,14 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.EXB.KPAH.HT.Y.0006.250725T0000Z-250726T0000Z/</item>
+						<item type="str">/O.CON.KPAH.HT.Y.0006.000000T0000Z-250726T0000Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-07-25T19:00:00-05:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.237bf373f80d13b08af2c3b621b29f8c359b2fa7.003.1,2025-07-20T02:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed40626eaf85894f4d1d0ccf7f1651fdc4c70d3b.001.1,2025-07-20T13:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5bedd8755fc399922c1403ad9dd86fc18f3d5e7a.003.1,2025-07-19T19:46:00-05:00</item>
+					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -388,5 +198,5 @@ emergency! Call 9 1 1.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-07-24T18:35:50+00:00</updated>
+	<updated type="str">2025-07-25T00:04:41+00:00</updated>
 </all>
