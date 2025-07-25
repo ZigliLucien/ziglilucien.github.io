@@ -2,26 +2,26 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Sunny. High near 93, with temperatures falling to around 91 in the afternoon. Heat index values as high as 109. South southwest
-         wind 2 to 6 mph.<br></div>
+         <h3>This Afternoon</h3>Mostly sunny. High near 93, with temperatures falling to around 90 in the afternoon. Heat index values as high as 105. South
+         wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear, with a low around 77. South wind around 6 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear. Low around 75, with temperatures rising to around 77 overnight. South wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny. High near 90, with temperatures falling to around 87 in the
-         afternoon. South southwest wind 3 to 8 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Saturday</h3>A chance of showers and thunderstorms after 1pm. Partly sunny. High near 90, with temperatures falling to around 88 in the
+         afternoon. South southwest wind 6 to 10 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 76. South southwest wind around 7 mph. Chance
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 76. South southwest wind 6 to 9 mph. Chance
          of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 93. South southwest wind around 6 mph. Chance
+         <h3>Sunday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 93. South southwest wind around 7 mph. Chance
          of precipitation is 30%.<br></div>
    </p>
    <p>

@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1030818/" title="See Description">[$] Rethinking the Linux cloud stack for confidential VMs</a></li>
 <li><a href="#https://lwn.net/Articles/1031426/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1031287/" title="See Description">Wayback 0.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1031280/" title="See Description">Four new stable kernels</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/1031104/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1030971/" title="See Description">Firefox 141.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1030936/" title="See Description">Catanzaro: Fedora must (carefully) embrace Flathub</a></li>
-<li><a href="#https://lwn.net/Articles/1030935/" title="See Description">Google launches OSS Rebuild</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1030818/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 25 Jul 2025 14:55:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030818/" title="https://lwn.net/Articles/1030818/">[$] Rethinking the Linux cloud stack for confidential VMs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>There is an inherent limit to the privacy of the <em>public</em>
+cloud. While Linux can isolate virtual machines (VMs) from each other,
+nothing in the system's memory is ultimately out of reach for the host cloud
+provider. To accommodate the most privacy-conscious clients, <a
+href="https://en.wikipedia.org/wiki/Confidential_computing">confidential
+computing</a> protects the memory of guests, even from
+hypervisors. But the Linux cloud stack needs to be rethought in order to host
+confidential VMs, juggling two goals that are often at odds: performance
+and security.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1031426/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 25 Jul 2025 13:03:07 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -310,33 +326,6 @@ package-based version for users who prefer or require it: "<q>so no
 need to panic</q>".</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1030935/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 22 Jul 2025 13:51:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030935/" title="https://lwn.net/Articles/1030935/">Google launches OSS Rebuild</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Google has <a
-href="https://security.googleblog.com/2025/07/introducing-oss-rebuild-open-source.html">announced</a>
-the existence of OSS Rebuild, an infrastructure for the creation and
-verification of reproducible builds of software projects.
-<p>
-<blockquote class="bq">
-	Our aim with OSS Rebuild is to empower the security community to
-	deeply understand and control their supply chains by making package
-	consumption as transparent as using a source repository. Our
-	rebuild platform unlocks this transparency by utilizing a
-	declarative build process, build instrumentation, and network
-	monitoring capabilities which, within the SLSA Build framework,
-	produces fine-grained, durable, trustworthy security metadata. [...]
-<p>
-	Our vision extends beyond any single ecosystem: We are committed to
-	bringing supply chain transparency and security to all open source
-	software development. Our initial support for the PyPI (Python),
-	npm (JS/TS), and Crates.io (Rust) package registries—providing
-	rebuild provenance for many of their most popular packages—is just
-	the beginning of our journey.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
