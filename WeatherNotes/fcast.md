@@ -13,7 +13,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>Scattered showers and thunderstorms after 10am. Mostly sunny. High near 92, with temperatures falling to around 90 in the
-         afternoon. Heat index values as high as 107. Southwest wind around 7 mph. Chance of precipitation is 40%.<br></div>
+         afternoon. Heat index values as high as 106. Southwest wind around 7 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
