@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2beb84bff063aa96e2756953a16ab1a14f4a4e67.002.2</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08e0a5e44206889e2eef642a225a1c9d7518806c.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2beb84bff063aa96e2756953a16ab1a14f4a4e67.002.2</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08e0a5e44206889e2eef642a225a1c9d7518806c.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.2beb84bff063aa96e2756953a16ab1a14f4a4e67.002.2</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.08e0a5e44206889e2eef642a225a1c9d7518806c.002.1</id>
 				<areaDesc type="str">Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -198,14 +198,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2025-07-26T13:49:00-05:00</sent>
-				<effective type="str">2025-07-26T13:49:00-05:00</effective>
-				<onset type="str">2025-07-26T13:49:00-05:00</onset>
-				<expires type="str">2025-07-27T05:30:00-05:00</expires>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2beb84bff063aa96e2756953a16ab1a14f4a4e67.002.2</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.2beb84bff063aa96e2756953a16ab1a14f4a4e67.002.2</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-07-26T13:49:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2025-07-27T01:43:00-05:00</sent>
+				<effective type="str">2025-07-27T01:43:00-05:00</effective>
+				<onset type="str">2025-07-27T01:43:00-05:00</onset>
+				<expires type="str">2025-07-27T09:45:00-05:00</expires>
 				<ends type="str">2025-07-28T12:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -213,11 +220,11 @@
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued July 26 at 1:49PM CDT until July 28 at 12:00PM CDT by NWS Paducah KY</headline>
+				<headline type="str">Heat Advisory issued July 27 at 1:43AM CDT until July 28 at 12:00PM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...For the Heat Advisory, heat index values 105 to 110 degrees
-on Sunday. For the Extreme Heat Watch, dangerously hot conditions
-with daily peak heat index values of 110 to 115 degrees possible
-on Monday and Tuesday, and 105 to 110 degrees on Wednesday.
+today. For the Extreme Heat Watch, dangerously hot conditions with
+daily peak heat index values of 110 to 115 degrees possible on
+Monday and Tuesday, and 105 to 110 degrees on Wednesday.
 
 * WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
@@ -228,32 +235,25 @@ Wednesday evening.
 
 * IMPACTS...Heat related illnesses increase significantly during
 extreme heat and high humidity events. Hot temperatures and high
-humidity may cause heat illnesses.
-
-* ADDITIONAL DETAILS...Isolated to widely scattered thunderstorms
-may provide limited relief from the heat through Monday.</description>
+humidity may cause heat illnesses.</description>
 				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
 the sun, and check up on relatives and neighbors.
 
 Do not leave young children and pets in unattended vehicles. Car
 interiors will reach lethal temperatures in a matter of minutes.
 
-Monitor the latest forecasts and warnings for updates.
-
 Take extra precautions when outside. Wear lightweight and loose
-fitting clothing. Try to limit strenuous activities to early morning
-or evening. Take action when you see symptoms of heat exhaustion and
-heat stroke.</instruction>
+fitting clothing.</instruction>
 				<response type="str">Execute</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 261849</item>
+						<item type="str">WWUS73 KPAH 270643</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HEAT ADVISORY REMAINS IN EFFECT UNTIL NOON CDT /1 PM EDT/ MONDAY... ...EXTREME HEAT WATCH NOW IN EFFECT FROM MONDAY AFTERNOON THROUGH WEDNESDAY EVENING</item>
+						<item type="str">HEAT ADVISORY REMAINS IN EFFECT UNTIL NOON CDT /1 PM EDT/ MONDAY... ...EXTREME HEAT WATCH REMAINS IN EFFECT FROM MONDAY AFTERNOON THROUGH WEDNESDAY EVENING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -285,13 +285,13 @@ heat stroke.</instruction>
 			</properties>
 		</item>
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2beb84bff063aa96e2756953a16ab1a14f4a4e67.002.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08e0a5e44206889e2eef642a225a1c9d7518806c.002.2</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2beb84bff063aa96e2756953a16ab1a14f4a4e67.002.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.08e0a5e44206889e2eef642a225a1c9d7518806c.002.2</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.2beb84bff063aa96e2756953a16ab1a14f4a4e67.002.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.08e0a5e44206889e2eef642a225a1c9d7518806c.002.2</id>
 				<areaDesc type="str">Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -472,14 +472,21 @@ heat stroke.</instruction>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2025-07-26T13:49:00-05:00</sent>
-				<effective type="str">2025-07-26T13:49:00-05:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2beb84bff063aa96e2756953a16ab1a14f4a4e67.002.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.2beb84bff063aa96e2756953a16ab1a14f4a4e67.002.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-07-26T13:49:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2025-07-27T01:43:00-05:00</sent>
+				<effective type="str">2025-07-27T01:43:00-05:00</effective>
 				<onset type="str">2025-07-28T12:00:00-05:00</onset>
-				<expires type="str">2025-07-27T05:30:00-05:00</expires>
+				<expires type="str">2025-07-27T09:45:00-05:00</expires>
 				<ends type="str">2025-07-30T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Severe</severity>
 				<certainty type="str">Likely</certainty>
@@ -487,11 +494,11 @@ heat stroke.</instruction>
 				<event type="str">Extreme Heat Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Extreme Heat Watch issued July 26 at 1:49PM CDT until July 30 at 8:00PM CDT by NWS Paducah KY</headline>
+				<headline type="str">Extreme Heat Watch issued July 27 at 1:43AM CDT until July 30 at 8:00PM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...For the Heat Advisory, heat index values 105 to 110 degrees
-on Sunday. For the Extreme Heat Watch, dangerously hot conditions
-with daily peak heat index values of 110 to 115 degrees possible
-on Monday and Tuesday, and 105 to 110 degrees on Wednesday.
+today. For the Extreme Heat Watch, dangerously hot conditions with
+daily peak heat index values of 110 to 115 degrees possible on
+Monday and Tuesday, and 105 to 110 degrees on Wednesday.
 
 * WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
@@ -502,32 +509,25 @@ Wednesday evening.
 
 * IMPACTS...Heat related illnesses increase significantly during
 extreme heat and high humidity events. Hot temperatures and high
-humidity may cause heat illnesses.
-
-* ADDITIONAL DETAILS...Isolated to widely scattered thunderstorms
-may provide limited relief from the heat through Monday.</description>
+humidity may cause heat illnesses.</description>
 				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
 the sun, and check up on relatives and neighbors.
 
 Do not leave young children and pets in unattended vehicles. Car
 interiors will reach lethal temperatures in a matter of minutes.
 
-Monitor the latest forecasts and warnings for updates.
-
 Take extra precautions when outside. Wear lightweight and loose
-fitting clothing. Try to limit strenuous activities to early morning
-or evening. Take action when you see symptoms of heat exhaustion and
-heat stroke.</instruction>
+fitting clothing.</instruction>
 				<response type="str">Monitor</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 261849</item>
+						<item type="str">WWUS73 KPAH 270643</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HEAT ADVISORY REMAINS IN EFFECT UNTIL NOON CDT /1 PM EDT/ MONDAY... ...EXTREME HEAT WATCH NOW IN EFFECT FROM MONDAY AFTERNOON THROUGH WEDNESDAY EVENING</item>
+						<item type="str">HEAT ADVISORY REMAINS IN EFFECT UNTIL NOON CDT /1 PM EDT/ MONDAY... ...EXTREME HEAT WATCH REMAINS IN EFFECT FROM MONDAY AFTERNOON THROUGH WEDNESDAY EVENING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -535,7 +535,7 @@ heat stroke.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.EXT.KPAH.XH.A.0001.250728T1700Z-250731T0100Z/</item>
+						<item type="str">/O.CON.KPAH.XH.A.0001.250728T1700Z-250731T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-07-30T20:00:00-05:00</item>
@@ -560,5 +560,5 @@ heat stroke.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-07-26T18:49:54+00:00</updated>
+	<updated type="str">2025-07-27T06:44:02+00:00</updated>
 </all>
