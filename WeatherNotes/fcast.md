@@ -2,27 +2,24 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy, with a low around 76. South southwest wind around 6 mph.<br></div>
+         <h3>Today</h3>A chance of showers and thunderstorms after 10am. Mostly sunny. High near 92, with temperatures falling to around 88 in the
+         afternoon. Heat index values as high as 105. South southwest wind 3 to 8 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of showers and thunderstorms after 10am. Mostly sunny. High near 92, with temperatures falling to around 88 in the
-         afternoon. Heat index values as high as 105. South southwest wind around 8 mph. Chance of precipitation is 40%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of showers and thunderstorms before 7pm. Mostly cloudy. Low around 76, with temperatures rising to around 78 overnight.
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 7pm. Mostly cloudy. Low around 76, with temperatures rising to around 78 overnight.
          South southwest wind around 5 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Patchy fog before 7am, then patchy fog and a slight chance of showers and thunderstorms. Mostly sunny, with a high near 95.
-         Heat index values as high as 110. West wind around 5 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Monday</h3>Patchy fog before 7am, then patchy fog and a slight chance of showers and thunderstorms. Mostly sunny. High near 95, with
+         temperatures falling to around 92 in the afternoon. Heat index values as high as 110. West wind around 5 mph. Chance of precipitation
+         is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 77. South southwest wind around 3
-         mph. Chance of precipitation is 20%.<br></div>
+         <h3>Monday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 77. Heat index values as high as
+         108. South southwest wind around 3 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -62,5 +59,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 82. Northeast wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms. Partly cloudy, with a low around 67. Northeast wind 3 to 7 mph.<br></div>
    </p>
 </div>
