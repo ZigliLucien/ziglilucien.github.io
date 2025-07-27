@@ -1,9 +1,8 @@
 <p>
-   <h2>Heat Advisory issued July 27 at 1:43AM CDT until July 28 at 12:00PM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...For the Heat Advisory, heat index values 105 to 110 degrees
-      today. For the Extreme Heat Watch, dangerously hot conditions with
-      daily peak heat index values of 110 to 115 degrees possible on
-      Monday and Tuesday, and 105 to 110 degrees on Wednesday.
+   <h2>Extreme Heat Watch issued July 27 at 10:40AM CDT until July 30 at 8:00PM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...For the Heat Advisory, heat index values up to 106. For the
+      Extreme Heat Watch, dangerously hot conditions with heat index
+      values 110 to 115 possible.
       
       * WHERE...Portions of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
@@ -18,11 +17,10 @@
    </div>
 </p>
 <p>
-   <h2>Extreme Heat Watch issued July 27 at 1:43AM CDT until July 30 at 8:00PM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...For the Heat Advisory, heat index values 105 to 110 degrees
-      today. For the Extreme Heat Watch, dangerously hot conditions with
-      daily peak heat index values of 110 to 115 degrees possible on
-      Monday and Tuesday, and 105 to 110 degrees on Wednesday.
+   <h2>Heat Advisory issued July 27 at 10:40AM CDT until July 28 at 12:00PM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...For the Heat Advisory, heat index values up to 106. For the
+      Extreme Heat Watch, dangerously hot conditions with heat index
+      values 110 to 115 possible.
       
       * WHERE...Portions of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
