@@ -16,8 +16,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A slight chance of showers and thunderstorms after 7am. Mostly sunny, with a high near 95. Heat index values as high as 110.
-         West wind around 5 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Monday</h3>Patchy fog before 7am, then patchy fog and a slight chance of showers and thunderstorms. Mostly sunny, with a high near 95.
+         Heat index values as high as 110. West wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
