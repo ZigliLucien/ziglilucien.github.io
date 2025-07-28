@@ -7,7 +7,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday</h3>A slight chance of showers and thunderstorms after 10am. Mostly sunny. High near 94, with temperatures falling to around 92
-         in the afternoon. Heat index values as high as 111. West wind around 5 mph. Chance of precipitation is 20%.<br></div>
+         in the afternoon. Heat index values as high as 110. West wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
