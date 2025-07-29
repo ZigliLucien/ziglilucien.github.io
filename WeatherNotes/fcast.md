@@ -2,13 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A slight chance of showers and thunderstorms. Mostly sunny. High near 93, with temperatures falling to around 91 in the afternoon.
-         Heat index values as high as 109. West wind around 5 mph. Chance of precipitation is 20%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of showers and thunderstorms before 10pm. Partly cloudy, with a low around 77. Heat index values as high as
-         108. West wind around 3 mph. Chance of precipitation is 20%.<br></div>
+         105. West southwest wind around 2 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -22,7 +17,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>A chance of showers and thunderstorms between 1pm and 4pm, then a chance of showers and thunderstorms. Sunny, with a high
-         near 93. East northeast wind around 3 mph. Chance of precipitation is 30%.<br></div>
+         near 93. Heat index values as high as 107. East northeast wind around 3 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -33,7 +28,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms likely. Mostly cloudy, with a high near 83.
-         North northeast wind 5 to 8 mph.<br></div>
+         North northeast wind 5 to 8 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -64,5 +59,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday Night</h3>Partly cloudy, with a low around 67. East wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 85. South southeast wind around 5 mph.<br></div>
    </p>
 </div>
