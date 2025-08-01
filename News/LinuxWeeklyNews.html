@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1031208/" title="See Description">[$] The NNCPNET email network</a></li>
 <li><a href="#https://lwn.net/Articles/1032193/" title="See Description">More malware uploaded to Arch Linux AUR (Linuxiac)</a></li>
 <li><a href="#https://lwn.net/Articles/1032174/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1032147/" title="See Description">Three more stable kernel updates</a></li>
@@ -52,10 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1031919/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1031836/" title="See Description">HeliumOS 10 released</a></li>
 <li><a href="#https://lwn.net/Articles/1030842/" title="See Description">[$] A proxy-execution baby step</a></li>
-<li><a href="#https://lwn.net/Articles/1031813/" title="See Description">GNU C Library 2.42 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1031208/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 01 Aug 2025 17:20:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1031208/" title="https://lwn.net/Articles/1031208/">[$] The NNCPNET email network</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Running a modern mail server is a
+<a href="https://lwn.net/Articles/998153/">
+complicated business</a>. In part, this
+complication is caused by the series of incrementally developed practices
+designed to combat the huge flood of spam that dominates modern email
+communication. An unfortunate side effect is that it prevents people from
+running their own mail servers, concentrating people on a few big providers.
+<a href="https://salsa.debian.org/jgoerzen/docker-nncpnet-mailnode/-/wikis/home">
+NNCPNET</a> is a suite of software written by John Goerzen based on the
+<a href="http://www.nncpgo.org/">
+node-to-node copy</a> (NNCP)
+protocol that aims to make running one's own mail servers as easy as it once
+was. While the default configurations communicates only with other
+NNCPNET servers, there is a public relay that connects the system to the broader
+internet mail ecosystem.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1032193/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 01 Aug 2025 15:17:03 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -297,19 +321,6 @@ development for several years; LWN first <a href="https://lwn.net/Articles/82057
 at it</a> in 2020.  The 6.17 kernel is likely to contain an important step
 forward for this long-running project.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1031813/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 29 Jul 2025 13:52:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1031813/" title="https://lwn.net/Articles/1031813/">GNU C Library 2.42 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/all/5906001.DvuYhMxLoT@pinacolada">Version 2.42</a> of the GNU
-C Library has been released.  Changes include the addition of a number of
-new math functions, support for arbitrary baud rates in the
-<tt>termios.h</tt> interface, support for SFrame-based stack tracing
-(described in <a href="https://lwn.net/Articles/1029189/">this article</a>), support for
-<a href="https://lwn.net/Articles/1011366/">memory guard pages</a>, and a handful of
-security fixes.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
