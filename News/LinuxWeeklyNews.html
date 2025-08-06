@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1032744/" title="See Description">Almeida: a brief introduction on how GPU drivers work</a></li>
+<li><a href="#https://lwn.net/Articles/1032026/" title="See Description">[$] Don't fear the TPM</a></li>
+<li><a href="#https://lwn.net/Articles/1032736/" title="See Description">Tuba v0.10.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1032722/" title="See Description">A kbuild and kconfig maintainer change</a></li>
 <li><a href="#https://lwn.net/Articles/1032700/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1032622/" title="See Description">Proxmox Virtual Environment 9.0 released</a></li>
@@ -50,12 +53,65 @@
 <li><a href="#https://lwn.net/Articles/1031208/" title="See Description">[$] The NNCPNET email network</a></li>
 <li><a href="#https://lwn.net/Articles/1032193/" title="See Description">More malware uploaded to Arch Linux AUR (Linuxiac)</a></li>
 <li><a href="#https://lwn.net/Articles/1032174/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1032147/" title="See Description">Three more stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1030941/" title="See Description">[$] A look at the SilverBullet note-taking application</a></li>
-<li><a href="#https://lwn.net/Articles/1032090/" title="See Description">Garrett: Secure boot certificate rollover is real but probably won't hurt you</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1032744/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 06 Aug 2025 16:16:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032744/" title="https://lwn.net/Articles/1032744/">Almeida: a brief introduction on how GPU drivers work</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Daniel Almeida <a
+href="https://www.collabora.com/news-and-blog/blog/2025/08/06/writing-a-rust-gpu-kernel-driver-a-brief-introduction-on-how-gpu-drivers-work/">continues
+his look at graphics drivers</a> on the Collabora blog.
+<p>
+<blockquote class="bq">
+	The starting point is to understand that a kernel-mode GPU driver
+	connects a much larger UMD (user-mode driver) to the actual
+	GPU. The UMD will actually implement APIs like Vulkan, OpenGL,
+	OpenCL, and others. These APIs, in turn, will be used by actual
+	programs to describe their workload to the GPU. This includes
+	allocating and using not only the geometry and textures, but also
+	the shaders being used to process said data into the final
+	result. This means that a key aspect of GPU drivers is actually
+	allocating GPU memory to house data related to the current scene
+	being drawn so that it can actually be operated on by the hardware.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1032026/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 06 Aug 2025 15:24:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032026/" title="https://lwn.net/Articles/1032026/">[$] Don't fear the TPM</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>There is a great deal of misunderstanding, and some misinformation, about the
+<a
+href="https://en.wikipedia.org/wiki/Trusted_Platform_Module">Trusted
+Platform Module</a> (TPM); to combat this, Debian developer Jonathan
+McDowell would like to clear the air and help users understand what it
+is good for, as well as what it's not. At <a
+href="https://debconf25.debconf.org/">DebConf25</a> in Brest, France,
+he delivered <a
+href="https://debconf25.debconf.org/talks/31-dont-fear-the-tpm/">a
+talk about TPMs</a> that explained what they are, why people might be
+interested in using them, and how users might do so on a Debian
+system.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1032736/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 06 Aug 2025 15:23:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032736/" title="https://lwn.net/Articles/1032736/">Tuba v0.10.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://github.com/GeopJr/Tuba/releases/tag/v0.10.0">Version
+0.10.0</a> of the <a href="https://tuba.geopjr.dev/">Tuba</a>
+fediverse client has been released. Notable changes in this release
+include a new post composer, an in-app web browser, search history,
+and many other refinements. See this <a
+href="https://floss.social/@Tuba/114968038689023945">thread</a> for
+more details and highlights.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1032722/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 06 Aug 2025 13:41:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -242,61 +298,6 @@ installed a malicious script identified as a remote-access trojan.</p></blockquo
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox and thunderbird), <b>Debian</b> (libcommons-lang-java, node-form-data, redis, and sope), <b>Fedora</b> (chromium), <b>Mageia</b> (slurm), <b>Oracle</b> (apache-commons-beanutils, firefox, kernel, redis:6, and thunderbird), <b>Red Hat</b> (kernel, kernel-rt, libxml2, and redis), <b>SUSE</b> (chromium, docker, ffmpeg-7, gnutls, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, libgcrypt, rav1e, and sccache), and <b>Ubuntu</b> (linux-lowlatency, linux-lowlatency-hwe-6.8).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1032147/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 01 Aug 2025 14:07:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032147/" title="https://lwn.net/Articles/1032147/">Three more stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Greg Kroah-Hartman has released the
-<a href="https://lwn.net/Articles/1032148/">6.15.9</a>,
-<a href="https://lwn.net/Articles/1032149/">6.12.41</a>, and
-<a href="https://lwn.net/Articles/1032150/">6.6.101</a> stable kernels.
-</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1030941/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 31 Jul 2025 17:14:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1030941/" title="https://lwn.net/Articles/1030941/">[$] A look at the SilverBullet note-taking application</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://v2.silverbullet.md/">
-SilverBullet</a> is a MIT-licensed note-taking application, designed to run as a
-self-hosted web server. Started in 2022, the project is approaching
-its 2.0 release, making this a good time to explore the features it offers.
-SilverBullet stores notes as plain
-<a href="https://en.wikipedia.org/wiki/Markdown">
-Markdown</a> files, and provides a
-<a href="https://www.lua.org/">
-Lua</a>
-scripting API to customize the application's appearance and behavior.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1032090/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 31 Jul 2025 17:14:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032090/" title="https://lwn.net/Articles/1032090/">Garrett: Secure boot certificate rollover is real but probably won't hurt you</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Matthew Garrett has posted <a
-href="https://mjg59.dreamwidth.org/72892.html">a detailed followup</a> to
-our recent <a href="https://lwn.net/Articles/1029767/">article</a> on the coming
-expiration of Microsoft's Secure Boot signing key.
-<p>
-<blockquote class="bq">
-	The upshot is that nobody actually enforces these expiry dates - <a
-	href="https://github.com/tianocore/edk2/blob/edk2-stable202505/CryptoPkg/Library/BaseCryptLib/Pk/CryptPkcs7VerifyCommon.c#L893-L900">here's
-	the reference code that disables it</a>. In a year's time we'll
-	have gone past the expiration date for 'Microsoft Windows UEFI
-	Driver Publisher' and everything will still be working, and a few
-	months later 'Microsoft Windows Production PCA 2011' will also
-	expire and systems will keep booting Windows despite being signed
-	with a now-expired certificate. This isn't a Y2K scenario where
-	everything keeps working because people have done a huge amount of
-	work - it's a situation where everything keeps working even if
-	nobody does any work.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
