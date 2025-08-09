@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1033134/" title="See Description">Debian 13 ("trixie") released</a></li>
 <li><a href="#https://lwn.net/Articles/1033042/" title="See Description">Some turbulence at CalyxOS</a></li>
 <li><a href="#https://lwn.net/Articles/1031979/" title="See Description">[$] Treating Python's debugging woes</a></li>
 <li><a href="#https://lwn.net/Articles/1033009/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1032722/" title="See Description">A kbuild and kconfig maintainer change</a></li>
 <li><a href="#https://lwn.net/Articles/1032700/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1032622/" title="See Description">Proxmox Virtual Environment 9.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1032199/" title="See Description">[$] Improving control over transparent huge page use</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1033134/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 09 Aug 2025 22:14:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033134/" title="https://lwn.net/Articles/1033134/">Debian 13 ("trixie") released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Debian Project has released its latest stable version, <a
+href="https://www.debian.org/News/2025/20250809">Debian&#160;13</a>
+("trixie"), which will be supported through 2030. This release
+includes GNOME&#160;48, KDE&#160;Plasma&#160;6.3, Xfce&#160;4.20,
+Linux&#160;6.12, GCC&#160;14.2, Python&#160;3.13, and
+systemd&#160;257.
+
+<blockquote class="bq">
+<p>This release contains over 14,100 new packages for a total count of
+69,830 packages, while over 8,840 packages have been removed as
+"obsolete". 44,326 packages were updated in this release. The overall
+disk usage for "trixie" is 403,854,660 kB (403 GB), and is made up of
+1,463,291,186 lines of code. [...]</p>
+
+<p>With this broad selection of packages and its traditional wide
+architecture support, Debian once again stays true to its goal of
+being "<em>The Universal Operating System</em>". It is suitable for many
+different use cases: from desktop systems to netbooks; from
+development servers to cluster systems; and for database, web, and
+storage servers. At the same time, additional quality assurance
+efforts like automatic installation and upgrade tests for all packages
+in Debian's archive ensure that "<em>trixie</em>" fulfills the high
+expectations that users have of a stable Debian release.</p>
+</blockquote>
+
+<p>Trixie adds riscv64 as an officially supported architecture, and
+drops i386 as a regular architecture. Users with i386 systems should
+not upgrade to trixie; the project recommends reinstalling them as
+amd64, or retiring the hardware. See the <a
+href="https://www.debian.org/releases/trixie/release-notes/index.en.html">release
+notes</a> and <a
+href="https://www.debian.org/releases/trixie/release-notes/issues.en.html">issues
+to be aware of</a> before installing or upgrading to trixie.</p>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1033042/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 08 Aug 2025 17:25:51 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,24 +318,6 @@ href="https://pve.proxmox.com/wiki/Roadmap#9.0-known-issues">known
 issues</a> for more details about the release.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1032199/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 05 Aug 2025 16:15:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032199/" title="https://lwn.net/Articles/1032199/">[$] Improving control over transparent huge page use</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The use of huge pages can significantly increase the performance of many
-workloads by reducing both memory-management overhead in the kernel and
-pressure on the system's translation lookaside buffer (TLB).  The addition
-of transparent huge pages (THP) for the 2.6.38 kernel release in 2011
-caused the kernel to allocate huge pages automatically to make their
-benefits available to all workloads without any effort needed on the
-user-space side.  But it turns out that use of huge pages can make some
-workloads slower as the result of internal memory fragmentation, so the THP
-feature is often disabled.  Two patch sets aimed at better targeting the
-use of transparent huge pages are currently working their way through the
-review process.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
