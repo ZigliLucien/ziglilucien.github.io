@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong>  <strong>Dew Point</strong> </div>
+<div id='c'><strong>Temp</strong> 90.0 F. <strong>Dew Point</strong> 71.1 F.</div>
 
 <p/><br/><p/>
 
@@ -545,3 +545,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Mon Aug 11 15:08:14 2025 |  | |
 | Mon Aug 11 16:08:14 2025 |  | |
 | Mon Aug 11 17:08:14 2025 |  | |
+| Mon Aug 11 18:08:05 2025 | 90.0 F. | 71.1 F.|
