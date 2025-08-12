@@ -13,12 +13,13 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Patchy fog before 7am, then a chance of showers and thunderstorms between 1pm and 3pm. Mostly sunny. High near 89, with temperatures
-         falling to around 86 in the afternoon. West northwest wind around 5 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Wednesday</h3>Patchy fog before 7am, then a slight chance of showers and thunderstorms. Mostly sunny. High near 89, with temperatures falling
+         to around 86 in the afternoon. West northwest wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Partly cloudy, with a low around 70. North wind around 3 mph.<br></div>
+         <h3>Wednesday Night</h3>A slight chance of rain showers before 7pm. Partly cloudy, with a low around 70. North wind around 3 mph. Chance of precipitation
+         is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
