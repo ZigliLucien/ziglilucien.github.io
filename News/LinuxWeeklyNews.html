@@ -38,24 +38,217 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1033954/" title="See Description">Hashimoto: We rewrote the Ghostty GTK application</a></li>
+<li><a href="#https://lwn.net/Articles/1033941/" title="See Description">Five Friday stable kernels</a></li>
+<li><a href="#https://lwn.net/Articles/1032947/" title="See Description">[$] Finding a successor to the FHS</a></li>
+<li><a href="#https://lwn.net/Articles/1033901/" title="See Description">Security updates for Friday</a></li>
+<li><a href="#https://lwn.net/Articles/1033058/" title="See Description">[$] Simpler management of the huge zero folio</a></li>
+<li><a href="#https://lwn.net/Articles/1033737/" title="See Description">Security updates for Thursday</a></li>
+<li><a href="#https://lwn.net/Articles/1032862/" title="See Description">[$] LWN.net Weekly Edition for August 14, 2025</a></li>
+<li><a href="#https://lwn.net/Articles/1033657/" title="See Description">NGINX adds native support for ACME protocol</a></li>
+<li><a href="#https://lwn.net/Articles/1033646/" title="See Description">Go 1.25 released</a></li>
+<li><a href="#https://lwn.net/Articles/1033634/" title="See Description">Syncthing 2.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1032422/" title="See Description">[$] Indico: event management using Python</a></li>
+<li><a href="#https://lwn.net/Articles/1033588/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1031854/" title="See Description">[$] Possible paths for signing BPF programs</a></li>
 <li><a href="#https://lwn.net/Articles/1032604/" title="See Description">[$] Arch shares its wiki strategy with Debian</a></li>
 <li><a href="#https://lwn.net/Articles/1033446/" title="See Description">Radicle 1.3.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1033445/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1033414/" title="See Description">Debian GNU/Hurd 2025 released</a></li>
-<li><a href="#https://lwn.net/Articles/1033335/" title="See Description">Hughes: LVFS Sustainability Plan</a></li>
-<li><a href="#https://lwn.net/Articles/1032732/" title="See Description">[$] StarDict sends X11 clipboard to remote servers</a></li>
-<li><a href="#https://lwn.net/Articles/1032095/" title="See Description">[$] The rest of the 6.17 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1033328/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1033168/" title="See Description">Kernel prepatch 6.17-rc1</a></li>
-<li><a href="#https://lwn.net/Articles/1033134/" title="See Description">Debian 13 ("trixie") released</a></li>
-<li><a href="#https://lwn.net/Articles/1033042/" title="See Description">Some turbulence at CalyxOS</a></li>
-<li><a href="#https://lwn.net/Articles/1031979/" title="See Description">[$] Treating Python's debugging woes</a></li>
-<li><a href="#https://lwn.net/Articles/1033009/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1032612/" title="See Description">[$] On the use of LLM assistants for kernel development</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1033954/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 15 Aug 2025 19:26:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033954/" title="https://lwn.net/Articles/1033954/">Hashimoto: We rewrote the Ghostty GTK application</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Mitchell Hashimoto has written <a
+href="https://mitchellh.com/writing/ghostty-gtk-rewrite">a blog
+post</a> about "<q>fully embracing the GObject type system</q>" with a
+rewrite of the GTK version of <a
+href="https://ghostty.org/">Ghostty</a>:</p>
+
+<blockquote class="bq">
+In addition to memory management [improvements], we can now more
+easily create custom GTK widgets. This let us fully embrace modern GTK
+UI technologies such as Blueprint. For example, here is our terminal
+window Blueprint file. This has already led to more easily introducing
+GUI features like a new GTK titlebar tabs option, an animated border
+on bell, etc.
+</blockquote>
+
+<p>The rewrite is now the default if one builds Ghostty from source,
+and will be included in the 1.2 release that is expected in the next
+few weeks. LWN <a href="https://lwn.net/Articles/1004377/">covered</a>
+Ghostty in January.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1033941/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 15 Aug 2025 15:54:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033941/" title="https://lwn.net/Articles/1033941/">Five Friday stable kernels</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Greg Kroah-Hartman has announced the release of the
+<a href="https://lwn.net/Articles/1033942/">6.16.1</a>,
+<a href="https://lwn.net/Articles/1033943/">6.15.10</a>,
+<a href="https://lwn.net/Articles/1033944/">6.12.42</a>,
+<a href="https://lwn.net/Articles/1033945/">6.6.102</a>, and
+<a href="https://lwn.net/Articles/1033946/">6.1.148</a> stable kernels. Get them while they're
+hot!
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1032947/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 15 Aug 2025 14:33:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032947/" title="https://lwn.net/Articles/1032947/">[$] Finding a successor to the FHS</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The purpose of the <a
+href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard">Filesystem
+Hierarchy Standard</a> (FHS) is to provide a specification for
+filesystem layout; it specifies the location for files and directories
+on a Linux system to simplify application development for multiple
+distributions. In its heyday it had some success at this, but the
+standard has been frozen in time since 2015, and much has changed
+since then. There is a <span class="nobreak">slow-moving</span> effort
+to revive the FHS and create a FHS&#160;4.0, but a recent discussion
+among Fedora developers also raised the possibility of standardizing
+on the suggestions in systemd's <a
+href="https://www.freedesktop.org/software/systemd/man/latest/file-hierarchy.html"><tt>file-hierarchy</tt></a>
+documentation, which has now been added to the Linux Userspace API
+(UAPI) Group's <a
+href="https://uapi-group.org/specifications/">specifications</a>.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1033901/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 15 Aug 2025 13:15:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033901/" title="https://lwn.net/Articles/1033901/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel and webkit2gtk3), <b>Debian</b> (aide and postgresql-13), <b>Fedora</b> (libtiff, mupdf, and pandoc), <b>SUSE</b> (cairo, chromium, gstreamer-plugins-base, ImageMagick, iputils, kubernetes1.23, kubernetes1.26, matrix-synapse, Mesa, pgadmin4, python3, qemu, and rz-pm), and <b>Ubuntu</b> (aide).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1033058/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 Aug 2025 14:38:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033058/" title="https://lwn.net/Articles/1033058/">[$] Simpler management of the huge zero folio</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One might imagine that managing a page full of zeroes would be a relatively
+straightforward task; there is, after all, no data of note that must be
+preserved there.  The management of the huge zero folio in the kernel,
+though, shows that life is often not as simple as it seems.  Tradeoffs
+between conflicting objectives have driven the design of this core
+functionality in different directions over the years, but much of the
+associated complexity may be about to go away.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1033737/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 Aug 2025 14:00:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033737/" title="https://lwn.net/Articles/1033737/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, python3.11-setuptools, thunderbird, and toolbox), <b>Debian</b> (chromium), <b>Fedora</b> (open62541 and perl-Authen-SASL), <b>Oracle</b> (git, kernel, konsole, and webkit2gtk3), <b>SUSE</b> (framework-inputmodule-control and poppler), and <b>Ubuntu</b> (apache2, mysql-8.0, mysql-8.4, node-qs, request-tracker5, and ruby-sidekiq).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1032862/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 Aug 2025 02:15:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032862/" title="https://lwn.net/Articles/1032862/">[$] LWN.net Weekly Edition for August 14, 2025</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1032862/">Front</a>: Indico; Arch Linux wiki; StarDict; Python debugging; LLM assistants for kernel development; 6.17 Merge window; Signed BPF programs.
+            <li> <a href="https://lwn.net/Articles/1032864/">Briefs</a>: CalyxOS; ACME on NGINX; Debian 13; LVFS sustainability; Go 1.25; Radicle 1.3.0; Rust 1.89; Syncthing 2.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1032865/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1033657/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 Aug 2025 17:59:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033657/" title="https://lwn.net/Articles/1033657/">NGINX adds native support for ACME protocol</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>NGINX has <a
+href="https://blog.nginx.org/blog/native-support-for-acme-protocol">announced</a>
+the preview release of the <a
+href="https://github.com/nginx/nginx-acme?tab=readme-ov-file#nginx-acme">nginx-acme</a>
+module, which adds native support to NGINX for the <a
+href="https://www.rfc-editor.org/rfc/rfc8555.html">Automatic
+Certificate Management Environment</a> (ACME) protocol:</p>
+
+<blockquote class="bq">
+NGINX's native support for ACME brings a variety of benefits that
+simplify and enhance the overall SSL/TLS certificate management
+process. Being able to configure ACME directly using NGINX directives
+drastically reduces manual errors and eliminates much of the ongoing
+overhead traditionally associated with managing SSL/TLS
+certificates. It also reduces reliance on external tools like Certbot,
+creating a more secure and streamlined workflow with fewer
+vulnerabilities and a smaller attack surface.
+</blockquote>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1033646/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 Aug 2025 17:11:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033646/" title="https://lwn.net/Articles/1033646/">Go 1.25 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://go.dev/blog/go1.25">Version 1.25</a> of Go has
+been released. Notable changes include support for generating debug
+information in the <a
+href="https://dwarfstd.org/dwarf5std.html">DWARF&#160;5</a> format,
+"<a href="https://go.dev/doc/go1.25#runtime">container awareness</a>"
+when setting the maximum number of CPUs to be used, and a new <a
+href="https://go.dev/pkg/testing/synctest">testing/synctest</a>
+package with support for testing concurrent code. See the <a
+href="https://go.dev/doc/go1.25">release notes</a> for a comprehensive
+list of changes in 1.25.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1033634/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 Aug 2025 15:37:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033634/" title="https://lwn.net/Articles/1033634/">Syncthing 2.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://github.com/syncthing/syncthing/releases/tag/v2.0.0">Version
+2.0</a> of <a href="https://lwn.net/Articles/861978/">Syncthing</a>, a
+continuous file synchronization utility, has been released. Notable
+changes in 2.0 include multiple connections for synchronizing metadata
+and file data, a new logging format, as well as a switch from LevelDB
+to SQLite for Syncthing's backend. This the first release in the 2.0
+series, and the release notes advise users to "<q>expect some rough
+edges and keep a sense of adventure</q>".</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1032422/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 Aug 2025 14:23:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032422/" title="https://lwn.net/Articles/1032422/">[$] Indico: event management using Python</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://getindico.io/">Indico</a> event-management tool has
+been in development at <a href="https://home.cern/">CERN</a> for two
+decades at this point.  The MIT-licensed web application helps organize
+conferences, meetings, workshops, and so on; it runs on Python and uses the <a
+href="https://flask.palletsprojects.com/en/stable/">Flask web framework</a>. Two software engineers on the project, Dominic
+Hollis and Tomas Roun, came to 
+<a
+href="https://ep2025.europython.eu/">EuroPython&#160;2025</a> in Prague to talk about
+Indico, its history, and some metrics about its community.  There is a bit of a
+connection between Indico and the conference: in 2006 and 2007,
+the tool was used to manage EuroPython.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1033588/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 Aug 2025 13:23:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033588/" title="https://lwn.net/Articles/1033588/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (apache2, kernel, linux-6.1, openjdk-17, and pgpool2), <b>Fedora</b> (glib2, matrix-synapse, openjpeg, python3-docs, and python3.13), <b>Oracle</b> (gdk-pixbuf2, glibc, java-1.8.0-openjdk, kernel, libxml2, python-requests, python3.11-setuptools, and thunderbird), <b>SUSE</b> (amber-cli, apache-commons-lang3, eclipse-jgit, go1.23, go1.24, govulncheck-vulndb, grub2, icinga2, kubernetes1.23, libgcrypt, python3, python313, sccache, slurm, tiff, and webkit2gtk3), and <b>Ubuntu</b> (linux-oracle).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1031854/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 12 Aug 2025 16:31:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -114,222 +307,6 @@ this time around include <a
 href="https://radicle.xyz/2025/08/12/canonical-references">canonical
 references</a>, a new <tt>radicle-protocol</tt> crate, better log rotation,
 and more.  (LWN <a href="https://lwn.net/Articles/966869/">looked at Radicle</a> in 2024).</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033445/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 12 Aug 2025 13:20:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033445/" title="https://lwn.net/Articles/1033445/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and python-requests), <b>Debian</b> (ca-certificates-java), <b>Fedora</b> (chromium, clash-meta, mingw-python3, openjpeg, php-adodb, and toolbox), <b>Mageia</b> (kernel and kernel-linus), <b>SUSE</b> (chromium, ImageMagick, libgcrypt, libssh, libxml2, opensc, postgresql14, and postgresql16), and <b>Ubuntu</b> (dnsmasq, linux-gcp-6.8, linux-raspi, linux-oracle-6.14, and openjdk-17).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033414/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 12 Aug 2025 13:05:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033414/" title="https://lwn.net/Articles/1033414/">Debian GNU/Hurd 2025 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Debian's <a href="https://www.debian.org/ports/hurd/">GNU/Hurd</a>
-team has <a
-href="https://www.debian.org/ports/hurd/hurd-news">announced</a>
-the release of Debian GNU/Hurd&#160;2025:</p>
-
-<blockquote class="bq">
-<p>This is a snapshot of Debian "sid" at the time of the stable Debian
-"Trixie" release (August 2025), so it is mostly based on the same
-sources.  It is not an official Debian release, but it is an official
-Debian GNU/Hurd port release. [...]</p>
-
-<p>Debian GNU/Hurd is currently available for the i386 and amd64
-architectures with about 72% of the Debian archive, and more to
-come!</p>
-</blockquote>
-
-<p>See the <a
-href="https://www.gnu.org/software/hurd/faq.html">FAQ</a> and <a
-href="https://www.debian.org/ports/hurd/hurd-install">configuration
-guide</a> for more on the GNU/Hurd port.</p>
-<p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033335/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 11 Aug 2025 17:03:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033335/" title="https://lwn.net/Articles/1033335/">Hughes: LVFS Sustainability Plan</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Richard Hughes, creator and maintainer of the <a
-href="https://fwupd.org/">Linux Vendor Firmware Service</a> (LVFS), has
-written a <a
-href="https://blogs.gnome.org/hughsie/2025/08/08/lvfs-sustainability-plan/">blog
-post</a> about the <a
-href="https://docs.google.com/presentation/d/1l_Rmkn2-UwOkS0XK5d6u9pi29TZpmG-upa4Lu5HuEy4/edit?usp=sharing">sustainability
-plan</a> he has put together for the service.  He is calling for the
-vendors that use the service to help fund its development and maintenance
-going forward.
-
-<blockquote class="bq">
-The Linux Foundation is kindly paying for all the hosting costs of the LVFS, and Red Hat pays for all my time — but as LVFS grows and grows that's going to be less and less sustainable longer term. We're trying to find funding to hire additional resources as a "me replacement" so that there is backup and additional attention to LVFS (and so that I can go on holiday for two weeks without needing to take a laptop with me).
-<p>
-This year there will be a fair-use quota introduced, with different sponsorship levels having a different quota allowance. Nothing currently happens if the quota is exceeded, although there will be additional warnings asking the vendor to contribute. The "associate" (free) quota is also generous, with 50,000 monthly downloads and 50 monthly uploads. This means that almost all the 140 vendors on the LVFS should expect no changes.
-</blockquote>
-<p>
-(Thanks to Paul Wise.)</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1032732/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 11 Aug 2025 16:23:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032732/" title="https://lwn.net/Articles/1032732/">[$] StarDict sends X11 clipboard to remote servers</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://stardict-4.sourceforge.net/index_en.php">StarDict</a> is a
-GPLv3-licensed cross-platform dictionary application. It includes dictionaries
-for a number of languages, and has a rich plugin ecosystem. It also has a
-glaring security problem: while running on X11, using Debian's default configuration,
-it will send a user's text selections over unencrypted HTTP to two remote servers.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1032095/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 11 Aug 2025 15:45:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032095/" title="https://lwn.net/Articles/1032095/">[$] The rest of the 6.17 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1033167/">6.17-rc1</a> prepatch was released by
-Linus Torvalds on August&#160;10; the 6.17 merge window is now closed.
-There were 11,404 non-merge changesets pulled into the mainline this time
-around, a little over 7,000 of which came in after <a
-href="https://lwn.net/Articles/1031713/">the first-half merge-window summary</a> was
-written.  As one would expect, quite a few changes and new features were
-included in that work.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033328/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 11 Aug 2025 15:36:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033328/" title="https://lwn.net/Articles/1033328/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (jackson-annotations, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base and libxml2), <b>Debian</b> (distro-info-data, gnutls28, modsecurity-crs, and node-tmp), <b>Fedora</b> (chromium, incus, perl, perl-Devel-Cover, perl-PAR-Packer, polymake, varnish, and xen), <b>Red Hat</b> (kernel, kernel-rt, and rhc), and <b>SUSE</b> (chromedriver, ffmpeg-4, go1.23, go1.24, go1.25, govulncheck-vulndb, himmelblau, iperf, keylime-ima-policy, net-tools, sqlite3, texmaker, tomcat, and zabbix).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033168/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 10 Aug 2025 19:38:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033168/" title="https://lwn.net/Articles/1033168/">Kernel prepatch 6.17-rc1</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has <a href="https://lwn.net/Articles/1033167/">released 6.17-rc1</a> and closed the
-merge window for this development cycle.
-<p>
-<blockquote class="bq">
-	Anyway, the merge window did end up looking fairly healthy, despite
-	me having to go through a couple of bisections for trouble spots
-	(one during travels with a laptop - not optimal, but thankfully it
-	was at least one of the "reliable symptoms that bisect right to the
-	culprit" kind). The stats look pretty normal both in patch size and
-	in number of commits.
-</blockquote>
-<p>
-In the end, 11,404 non-merge changesets found their way into the mainline
-during the merge window.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033134/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 09 Aug 2025 22:14:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033134/" title="https://lwn.net/Articles/1033134/">Debian 13 ("trixie") released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Debian Project has released its latest stable version, <a
-href="https://www.debian.org/News/2025/20250809">Debian&#160;13</a>
-("trixie"), which will be supported through 2030. This release
-includes GNOME&#160;48, KDE&#160;Plasma&#160;6.3, Xfce&#160;4.20,
-Linux&#160;6.12, GCC&#160;14.2, Python&#160;3.13, and
-systemd&#160;257.
-
-<blockquote class="bq">
-<p>This release contains over 14,100 new packages for a total count of
-69,830 packages, while over 8,840 packages have been removed as
-"obsolete". 44,326 packages were updated in this release. The overall
-disk usage for "trixie" is 403,854,660 kB (403 GB), and is made up of
-1,463,291,186 lines of code. [...]</p>
-
-<p>With this broad selection of packages and its traditional wide
-architecture support, Debian once again stays true to its goal of
-being "<em>The Universal Operating System</em>". It is suitable for many
-different use cases: from desktop systems to netbooks; from
-development servers to cluster systems; and for database, web, and
-storage servers. At the same time, additional quality assurance
-efforts like automatic installation and upgrade tests for all packages
-in Debian's archive ensure that "<em>trixie</em>" fulfills the high
-expectations that users have of a stable Debian release.</p>
-</blockquote>
-
-<p>Trixie adds riscv64 as an officially supported architecture, and
-drops i386 as a regular architecture. Users with i386 systems should
-not upgrade to trixie; the project recommends reinstalling them as
-amd64, or retiring the hardware. See the <a
-href="https://www.debian.org/releases/trixie/release-notes/index.en.html">release
-notes</a> and <a
-href="https://www.debian.org/releases/trixie/release-notes/issues.en.html">issues
-to be aware of</a> before installing or upgrading to trixie.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033042/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 Aug 2025 17:25:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033042/" title="https://lwn.net/Articles/1033042/">Some turbulence at CalyxOS</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://calyxos.org/">CalyxOS</a> is an Android distribution that
-claims a focus on privacy and security.  So when <a
-href="https://calyxos.org/news/2025/08/01/a-letter-to-our-community/">an
-announcement from the project</a> begins by saying "<q>we want to assure
-you that we have no reason to believe the security of CalyxOS and its
-signing keys have been compromised</q>", chances are that good things are
-not happening.
-<p>
-In this case, it would appear that Nicholas Merrill, one of the founders of
-the project, has left for unclear reasons, and CalyxOS is responding by
-pausing all releases — and security updates — while its release process,
-signing keys, and security protocols are reworked.  The result will be no
-updates for "<q>four to six months</q>".  The project is recommending that
-its users "<q>should uninstall the OS</q>" and wait for an all-clear
-signal.  CalyxOS may have its work cut out for it when the time comes to
-try to convince those users to come back.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1031979/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 Aug 2025 13:51:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1031979/" title="https://lwn.net/Articles/1031979/">[$] Treating Python's debugging woes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Debugging in Python is not like it is for some other languages, as there is
-no way to attach a debugger to a running program to try to diagnose its
-ills.  Pablo Galindo Salgado noticed that when he started programming in
-Python ten years ago or so; it bugged him enough that he helped fill the hole. The results will be delivered in October with Python&#160;3.14.
-At <a href="https://ep2025.europython.eu/">EuroPython&#160;2025</a>, he
-gave a characteristically fast-paced and humorous look at debugging and
-what will soon be possible for Python debugging—while comparing it all to
-medical diagnosis.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033009/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 Aug 2025 13:26:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033009/" title="https://lwn.net/Articles/1033009/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gdk-pixbuf2, glibc, kernel, kernel-rt, libxml2, and opentelemetry-collector), <b>Fedora</b> (firefox, mingw-opencv, moby-engine, varnish, webkitgtk, xen, and yarnpkg), <b>Oracle</b> (firefox, gdk-pixbuf2, glibc, kernel, libblockdev, libxml2, python-requests, python3.12-setuptools, and qt5-qt3d), <b>Red Hat</b> (libxml2, pcs, and sudo), and <b>SUSE</b> (agama, chromium, dpkg, ghostscript, iperf, kubo, libIex-3_3-32, libpoppler-cpp2, libsoup, libtiff-devel-32bit, nginx, python-urllib3, ruby2.5, tgt, traefik, and traefik2).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1032612/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 07 Aug 2025 15:23:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032612/" title="https://lwn.net/Articles/1032612/">[$] On the use of LLM assistants for kernel development</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>By some appearances, at least, the kernel community has been relatively
-insulated from the onslaught of AI-driven software-development tools.
-There has not been a flood of vibe-coded memory-management patches — yet.
-But kernel development is, in the end, software development, and these
-tools threaten to change many aspects of how software development is done.
-In a world where companies are actively pushing their developers to use
-these tools, it is not surprising that the topic is increasingly prominent
-in kernel circles as well.  There are currently a number of ongoing
-discussions about how tools based on large language models (LLMs) fit into
-the kernel-development community.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
