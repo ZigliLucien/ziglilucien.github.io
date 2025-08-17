@@ -1,5 +1,5 @@
 <p>
-   <h2>Heat Advisory issued August 16 at 1:42PM CDT until August 19 at 7:00PM CDT by NWS Paducah KY</h2>
+   <h2>Heat Advisory issued August 17 at 2:34AM CDT until August 19 at 7:00PM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Heat index values up to 108 expected.
       
       * WHERE...Portions of southern Illinois, southwest Indiana, western
