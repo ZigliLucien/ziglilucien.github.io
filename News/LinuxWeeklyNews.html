@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1034306/" title="See Description">Git v2.51 released</a></li>
+<li><a href="#https://lwn.net/Articles/1033364/" title="See Description">[$] Kexec handover and the live update orchestrator</a></li>
 <li><a href="#https://lwn.net/Articles/1034267/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1034158/" title="See Description">Kernel prepatch 6.17-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/1033954/" title="See Description">Hashimoto: We rewrote the Ghostty GTK application</a></li>
@@ -51,11 +53,43 @@
 <li><a href="#https://lwn.net/Articles/1033646/" title="See Description">Go 1.25 released</a></li>
 <li><a href="#https://lwn.net/Articles/1033634/" title="See Description">Syncthing 2.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1032422/" title="See Description">[$] Indico: event management using Python</a></li>
-<li><a href="#https://lwn.net/Articles/1033588/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1031854/" title="See Description">[$] Possible paths for signing BPF programs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1034306/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 18 Aug 2025 20:01:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034306/" title="https://lwn.net/Articles/1034306/">Git v2.51 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://git-scm.com/">Git</a> distributed version-control
+system has release version 2.51, with "<q>506 non-merge commits since
+v2.50.1, contributed by 91 people, 21 of which are new faces</q>".  It
+brings multiple new features, some of which are highlighted in a <a
+href="https://github.blog/open-source/git/highlights-from-git-2-51/">post
+on the GitHub blog</a>.  It includes some performance improvements for multi-pack indexes
+(MIDXs),  a way to import and export stash entries so they can be migrated
+more easily, and smaller pack files:
+
+<blockquote class="bq">
+Git 2.51 takes the spirit of that change and goes a step further by introducing a new way to collect objects when repacking, called "path walk". Instead of walking objects in <a href="https://git-scm.com/docs/MyFirstObjectWalk#_changing_the_order">revision order</a> with Git emitting objects with their corresponding path names along the way, the path walk approach emits all objects from a given path at the same time. This approach avoids the name-hash heuristic altogether and can look for deltas within groups of objects that are known to be at the same path.
+<p>
+As a result, Git can generate packs using the path walk approach that are often significantly smaller than even those generated with the new name hash function described above. Its timings are competitive even with generating packs using the existing revision order traversal.
+</blockquote>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1033364/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 18 Aug 2025 18:37:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033364/" title="https://lwn.net/Articles/1033364/">[$] Kexec handover and the live update orchestrator</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Rebooting a computer ordinarily brings an abrupt end to any state built up
+by the old system; the new kernel starts from scratch.  There are, however,
+people who would like to be able to reboot their systems without
+disrupting the workloads running therein.  Various developers are currently
+partway through the project of adding this capability, in the form of
+"kexec handover" and the "live update orchestrator", to the kernel.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1034267/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 18 Aug 2025 14:28:17 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -259,41 +293,6 @@ href="https://ep2025.europython.eu/">EuroPython&#160;2025</a> in Prague to talk 
 Indico, its history, and some metrics about its community.  There is a bit of a
 connection between Indico and the conference: in 2006 and 2007,
 the tool was used to manage EuroPython.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033588/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 13 Aug 2025 13:23:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033588/" title="https://lwn.net/Articles/1033588/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (apache2, kernel, linux-6.1, openjdk-17, and pgpool2), <b>Fedora</b> (glib2, matrix-synapse, openjpeg, python3-docs, and python3.13), <b>Oracle</b> (gdk-pixbuf2, glibc, java-1.8.0-openjdk, kernel, libxml2, python-requests, python3.11-setuptools, and thunderbird), <b>SUSE</b> (amber-cli, apache-commons-lang3, eclipse-jgit, go1.23, go1.24, govulncheck-vulndb, grub2, icinga2, kubernetes1.23, libgcrypt, python3, python313, sccache, slurm, tiff, and webkit2gtk3), and <b>Ubuntu</b> (linux-oracle).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1031854/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 12 Aug 2025 16:31:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1031854/" title="https://lwn.net/Articles/1031854/">[$] Possible paths for signing BPF programs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-BPF programs are loaded directly into the kernel.
-Even though the verifier protects the kernel from certain kinds of
-misbehavior in BPF programs, some people are still justifiably concerned about
-adding unsigned code to their kernel. A fully correct BPF program can still be
-used to expose sensitive data, for example.
-To remedy this, Blaise Boscaccy and KP Singh
-have both shared patch sets that add ways to verify cryptographic
-signatures of BPF programs, allowing users to configure their kernels to load
-only pre-approved BPF programs. This work follows on from the
-<a href="https://lwn.net/Articles/1017549/">
-discussion</a> at the
-Linux Storage, Filesystem, Memory-Management, and BPF Summit (LSFMM+BPF)
-in April and Boscaccy's
-<a href="https://lwn.net/ml/all/20250502184421.1424368-1-bboscaccy@linux.microsoft.com/">
-earlier proposal</a> of a Linux Security Module (LSM) to accomplish the same goal.
-There are
-still some fundamental disagreements over the best approach to signing BPF
-programs, however.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
