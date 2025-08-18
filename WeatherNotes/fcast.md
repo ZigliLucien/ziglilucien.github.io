@@ -14,7 +14,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 96. Heat index values as high as 105. West
+         <h3>Tuesday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 96. Heat index values as high as 106. West
          southwest wind around 2 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
