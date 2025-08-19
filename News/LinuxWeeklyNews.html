@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1034450/" title="See Description">Preventing domain-resurrection attacks (PyPI blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1034436/" title="See Description">Firefox 142.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1033050/" title="See Description">[$] The Koka programming language</a></li>
 <li><a href="#https://lwn.net/Articles/1034402/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,40 @@
 <li><a href="#https://lwn.net/Articles/1033901/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1033058/" title="See Description">[$] Simpler management of the huge zero folio</a></li>
 <li><a href="#https://lwn.net/Articles/1033737/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1032862/" title="See Description">[$] LWN.net Weekly Edition for August 14, 2025</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1034450/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 19 Aug 2025 20:33:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034450/" title="https://lwn.net/Articles/1034450/">Preventing domain-resurrection attacks (PyPI blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Python Package Index (PyPI) has <a href="https://blog.pypi.org/posts/2025-08-18-preventing-domain-resurrections/">announced</a> that it is now
+checking for expired domains to try to prevent domain-resurrection
+attacks. In this type of attack, a malicious user buys an expired
+domain and uses it to take over an account by resetting the password
+associated with the email used with PyPI. Since June, PyPI has
+unverified more than 1,800 email addresses after their associated
+domains entered expiration phases.</p>
+
+<blockquote class="bq">
+<p>After an initial bulk check period that took place in April 2025,
+PyPI will check daily for any domains in use for status changes, and
+update its internal database with the most recent status.</p>
+
+<p>If a domain registration enters the redemption period, that's an
+indicator to PyPI that the previously verified email destinations may
+not be trusted, and will un-verify a previously-verified email
+address. PyPI will not issue a password reset request to addresses
+that have become unverified.</p>
+</blockquote>
+
+<p>PyPI recommends that users add a second verified email address
+"<q>from another notable domain (e.g. Gmail)</q>" to their account, if
+they do not have one already.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1034436/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 19 Aug 2025 17:10:53 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -268,21 +299,6 @@ associated complexity may be about to go away.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, python3.11-setuptools, thunderbird, and toolbox), <b>Debian</b> (chromium), <b>Fedora</b> (open62541 and perl-Authen-SASL), <b>Oracle</b> (git, kernel, konsole, and webkit2gtk3), <b>SUSE</b> (framework-inputmodule-control and poppler), and <b>Ubuntu</b> (apache2, mysql-8.0, mysql-8.4, node-qs, request-tracker5, and ruby-sidekiq).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1032862/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 14 Aug 2025 02:15:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032862/" title="https://lwn.net/Articles/1032862/">[$] LWN.net Weekly Edition for August 14, 2025</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1032862/">Front</a>: Indico; Arch Linux wiki; StarDict; Python debugging; LLM assistants for kernel development; 6.17 Merge window; Signed BPF programs.
-            <li> <a href="https://lwn.net/Articles/1032864/">Briefs</a>: CalyxOS; ACME on NGINX; Debian 13; LVFS sustainability; Go 1.25; Radicle 1.3.0; Rust 1.89; Syncthing 2.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1032865/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
