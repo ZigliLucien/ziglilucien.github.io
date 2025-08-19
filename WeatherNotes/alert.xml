@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6aa472369620000ceb12164bf5219ae657ee392.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44046a8cf82686ab0abc2f39be48b3cf8c248c88.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6aa472369620000ceb12164bf5219ae657ee392.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.44046a8cf82686ab0abc2f39be48b3cf8c248c88.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.b6aa472369620000ceb12164bf5219ae657ee392.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.44046a8cf82686ab0abc2f39be48b3cf8c248c88.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,16 +203,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8c912010294a4ebf631f09ea532550fd71a6912.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.e8c912010294a4ebf631f09ea532550fd71a6912.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6aa472369620000ceb12164bf5219ae657ee392.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.b6aa472369620000ceb12164bf5219ae657ee392.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-08-18T02:18:00-05:00</sent>
+						<sent type="str">2025-08-18T13:26:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2025-08-18T13:26:00-05:00</sent>
-				<effective type="str">2025-08-18T13:26:00-05:00</effective>
-				<onset type="str">2025-08-18T13:26:00-05:00</onset>
-				<expires type="str">2025-08-19T05:00:00-05:00</expires>
+				<sent type="str">2025-08-19T01:38:00-05:00</sent>
+				<effective type="str">2025-08-19T01:38:00-05:00</effective>
+				<onset type="str">2025-08-19T01:38:00-05:00</onset>
+				<expires type="str">2025-08-19T09:45:00-05:00</expires>
 				<ends type="str">2025-08-19T19:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -223,13 +223,13 @@
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued August 18 at 1:26PM CDT until August 19 at 7:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heat index values up to 108.
+				<headline type="str">Heat Advisory issued August 19 at 1:38AM CDT until August 19 at 7:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Daily Heat index values up to 108.
 
-* WHERE...All of southern Illinois, southwest Indiana, western
+* WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...Until 7 PM CDT /8 PM EDT/ Tuesday.
+* WHEN...Until 7 PM CDT /8 PM EDT/ this evening.
 
 * IMPACTS...Hot temperatures in the mid to upper 90s and high
 humidity may cause heat illnesses.</description>
@@ -246,10 +246,10 @@ heat stroke.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 181826</item>
+						<item type="str">WWUS73 KPAH 190638</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HEAT ADVISORY REMAINS IN EFFECT UNTIL 7 PM CDT /8 PM EDT/ TUESDAY</item>
+						<item type="str">HEAT ADVISORY REMAINS IN EFFECT UNTIL 7 PM CDT /8 PM EDT/ THIS EVENING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -263,7 +263,7 @@ heat stroke.</instruction>
 						<item type="str">2025-08-19T19:00:00-05:00</item>
 					</eventEndingTime>
 					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e8596f85c8c948fd9c39b6c60d48c6e137de1255.001.1,2025-08-17T10:19:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d6621e4023917429136324cba8bcb56d041f733f.001.1,2025-08-17T02:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cbc029890a35cd657cc9858b38c7a39d50939f51.001.1,2025-08-16T13:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dd00c963605a02874b76d521ca34f0d999339c35.001.1,2025-08-16T01:41:00-05:00</item>
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e8c912010294a4ebf631f09ea532550fd71a6912.001.1,2025-08-18T02:18:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e8596f85c8c948fd9c39b6c60d48c6e137de1255.001.1,2025-08-17T10:19:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d6621e4023917429136324cba8bcb56d041f733f.001.1,2025-08-17T02:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cbc029890a35cd657cc9858b38c7a39d50939f51.001.1,2025-08-16T13:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dd00c963605a02874b76d521ca34f0d999339c35.001.1,2025-08-16T01:41:00-05:00</item>
 					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
@@ -282,5 +282,5 @@ heat stroke.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-08-18T18:27:13+00:00</updated>
+	<updated type="str">2025-08-19T06:39:30+00:00</updated>
 </all>
