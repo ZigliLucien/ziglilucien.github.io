@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1033373/" title="See Description">[$] Python, tail calls, and performance</a></li>
+<li><a href="#https://lwn.net/Articles/1034558/" title="See Description">LibreOffice 25.8 released</a></li>
 <li><a href="#https://lwn.net/Articles/1033474/" title="See Description">[$] Lucky 13: a look at Debian trixie</a></li>
 <li><a href="#https://lwn.net/Articles/1034546/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1034450/" title="See Description">Preventing domain-resurrection attacks (PyPI blog)</a></li>
@@ -51,11 +53,45 @@
 <li><a href="#https://lwn.net/Articles/1034158/" title="See Description">Kernel prepatch 6.17-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/1033954/" title="See Description">Hashimoto: We rewrote the Ghostty GTK application</a></li>
 <li><a href="#https://lwn.net/Articles/1033941/" title="See Description">Five Friday stable kernels</a></li>
-<li><a href="#https://lwn.net/Articles/1032947/" title="See Description">[$] Finding a successor to the FHS</a></li>
-<li><a href="#https://lwn.net/Articles/1033901/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1033373/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 Aug 2025 14:45:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033373/" title="https://lwn.net/Articles/1033373/">[$] Python, tail calls, and performance</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Ken Jin welcomed <a
+href="https://ep2025.europython.eu/">EuroPython&#160;2025</a> attendees to
+his talk entitled "Building a new tail-calling interpreter for Python", but
+noted that the title really should be: "Measuring the performance of
+compilers and interpreters is really hard".  Jin's efforts <a
+href="https://lwn.net/Articles/1010905/">to switch the CPython interpreter to use tail calls</a>,
+which can be optimized as regular jumps,
+initially seemed to produce an almost miraculous performance improvement.
+As his modified title suggests, the <a
+href="https://blog.nelhage.com/post/cpython-tail-call/">actual improvement
+was rather smaller</a>; there is still some performance improvement and
+there are other benefits from the change.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1034558/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 Aug 2025 14:33:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034558/" title="https://lwn.net/Articles/1034558/">LibreOffice 25.8 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://blog.documentfoundation.org/blog/2025/08/20/libreoffice-25-8/">Version
+25.8</a> of the LibreOffice open-source office suite has been
+released. Notable changes include several new functions in the Calc
+spreadsheet application, ability to export to the PDF 2.0 format, 
+better PowerPoint font compatibility with Impress, and significant
+performance improvements. For a full list of changes, see the <a
+href="https://wiki.documentfoundation.org/ReleaseNotes/25.8">release
+notes</a> on the Document Foundation wiki.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1033474/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 20 Aug 2025 13:34:56 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -275,36 +311,6 @@ Greg Kroah-Hartman has announced the release of the
 <a href="https://lwn.net/Articles/1033946/">6.1.148</a> stable kernels. Get them while they're
 hot!
 </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1032947/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 Aug 2025 14:33:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1032947/" title="https://lwn.net/Articles/1032947/">[$] Finding a successor to the FHS</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The purpose of the <a
-href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard">Filesystem
-Hierarchy Standard</a> (FHS) is to provide a specification for
-filesystem layout; it specifies the location for files and directories
-on a Linux system to simplify application development for multiple
-distributions. In its heyday it had some success at this, but the
-standard has been frozen in time since 2015, and much has changed
-since then. There is a <span class="nobreak">slow-moving</span> effort
-to revive the FHS and create a FHS&#160;4.0, but a recent discussion
-among Fedora developers also raised the possibility of standardizing
-on the suggestions in systemd's <a
-href="https://www.freedesktop.org/software/systemd/man/latest/file-hierarchy.html"><tt>file-hierarchy</tt></a>
-documentation, which has now been added to the Linux Userspace API
-(UAPI) Group's <a
-href="https://uapi-group.org/specifications/">specifications</a>.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033901/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 Aug 2025 13:15:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033901/" title="https://lwn.net/Articles/1033901/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel and webkit2gtk3), <b>Debian</b> (aide and postgresql-13), <b>Fedora</b> (libtiff, mupdf, and pandoc), <b>SUSE</b> (cairo, chromium, gstreamer-plugins-base, ImageMagick, iputils, kubernetes1.23, kubernetes1.26, matrix-synapse, Mesa, pgadmin4, python3, qemu, and rz-pm), and <b>Ubuntu</b> (aide).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
