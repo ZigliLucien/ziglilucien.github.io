@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1034579/" title="See Description">Adding stubble to Ubuntu's generic Arm64 Desktop ISOs</a></li>
+<li><a href="#https://lwn.net/Articles/1034567/" title="See Description">Three stable kernels for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1033373/" title="See Description">[$] Python, tail calls, and performance</a></li>
 <li><a href="#https://lwn.net/Articles/1034558/" title="See Description">LibreOffice 25.8 released</a></li>
 <li><a href="#https://lwn.net/Articles/1033474/" title="See Description">[$] Lucky 13: a look at Debian trixie</a></li>
@@ -51,11 +53,57 @@
 <li><a href="#https://lwn.net/Articles/1033364/" title="See Description">[$] Kexec handover and the live update orchestrator</a></li>
 <li><a href="#https://lwn.net/Articles/1034267/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1034158/" title="See Description">Kernel prepatch 6.17-rc2</a></li>
-<li><a href="#https://lwn.net/Articles/1033954/" title="See Description">Hashimoto: We rewrote the Ghostty GTK application</a></li>
-<li><a href="#https://lwn.net/Articles/1033941/" title="See Description">Five Friday stable kernels</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1034579/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 Aug 2025 18:46:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034579/" title="https://lwn.net/Articles/1034579/">Adding stubble to Ubuntu's generic Arm64 Desktop ISOs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Tobias Heider has <a
+href="https://discourse.ubuntu.com/t/what-s-new-for-generic-arm64-desktop-isos-in-25-10/66559">written</a>
+an article that explains changes that are coming for Ubuntu's generic
+Arm64 desktop ISO images in the 25.10 release. The current solution,
+Heider says, depends on GRUB features that are unavailable in secure
+boot mode and require adding device-specific logic to multiple
+packages. The new solution, called <a
+href="https://github.com/canonical/stubble?tab=readme-ov-file#stubble">stubble</a>,
+is derived from <tt><a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-stub.html">systemd-stub</a></tt>: 
+
+<blockquote class="bq">
+<p>A bundled stubble image contains stubble itself, a Linux kernel, a
+HWID lookup table to map devices to device trees and multiple device
+trees. When grub loads this "kernel", stubble executes first, reads
+the SMBIOS table to generate HWIDs, looks for a match in the embeeded
+lookup table and loads a matching device tree before passing control
+to the actual Linux kernel.</p>
+
+<p>The elegance in this approach lies in how it interacts with the
+rest of the system. Integrating stubble happens entirely at build time
+in the kernel package. The stubble package is a build dependency for
+the kernel. After building the kernel itself, we bundle it with
+stubble and our DTBs and ship the combined binary instead. The
+resulting stubble + kernel + dtb bundle can be loaded by grub like any
+other Ubuntu kernel. No further changes in grub or other packages are
+necessary to make it work.</p>
+</blockquote>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1034567/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 Aug 2025 17:59:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034567/" title="https://lwn.net/Articles/1034567/">Three stable kernels for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1034570/">6.16.2</a>, <a
+href="https://lwn.net/Articles/1034571/">6.15.11</a>, and <a
+href="https://lwn.net/Articles/1034569/">6.12.43</a> stable kernels. He notes that
+this is the last release in the 6.15.y series, and recommends that
+users move to the 6.16.y kernel branch at this time.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1033373/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 20 Aug 2025 14:45:14 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -271,46 +319,6 @@ testing.  "<q>So it's been a very calm week, and this is one of the smaller
 rc2 releases we've had lately. I'm definitely not complaining, since I've
 been jetlagged much of the week, but I have this suspicion that it just
 means that next week will see more noise.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033954/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 Aug 2025 19:26:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033954/" title="https://lwn.net/Articles/1033954/">Hashimoto: We rewrote the Ghostty GTK application</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Mitchell Hashimoto has written <a
-href="https://mitchellh.com/writing/ghostty-gtk-rewrite">a blog
-post</a> about "<q>fully embracing the GObject type system</q>" with a
-rewrite of the GTK version of <a
-href="https://ghostty.org/">Ghostty</a>:</p>
-
-<blockquote class="bq">
-In addition to memory management [improvements], we can now more
-easily create custom GTK widgets. This let us fully embrace modern GTK
-UI technologies such as Blueprint. For example, here is our terminal
-window Blueprint file. This has already led to more easily introducing
-GUI features like a new GTK titlebar tabs option, an animated border
-on bell, etc.
-</blockquote>
-
-<p>The rewrite is now the default if one builds Ghostty from source,
-and will be included in the 1.2 release that is expected in the next
-few weeks. LWN <a href="https://lwn.net/Articles/1004377/">covered</a>
-Ghostty in January.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033941/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 Aug 2025 15:54:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033941/" title="https://lwn.net/Articles/1033941/">Five Friday stable kernels</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Greg Kroah-Hartman has announced the release of the
-<a href="https://lwn.net/Articles/1033942/">6.16.1</a>,
-<a href="https://lwn.net/Articles/1033943/">6.15.10</a>,
-<a href="https://lwn.net/Articles/1033944/">6.12.42</a>,
-<a href="https://lwn.net/Articles/1033945/">6.6.102</a>, and
-<a href="https://lwn.net/Articles/1033946/">6.1.148</a> stable kernels. Get them while they're
-hot!
-</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
