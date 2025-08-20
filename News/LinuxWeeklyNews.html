@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1034583/" title="See Description">Zig version 0.15.1</a></li>
 <li><a href="#https://lwn.net/Articles/1034579/" title="See Description">Adding stubble to Ubuntu's generic Arm64 Desktop ISOs</a></li>
 <li><a href="#https://lwn.net/Articles/1034567/" title="See Description">Three stable kernels for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1033373/" title="See Description">[$] Python, tail calls, and performance</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1034306/" title="See Description">Git v2.51 released</a></li>
 <li><a href="#https://lwn.net/Articles/1033364/" title="See Description">[$] Kexec handover and the live update orchestrator</a></li>
 <li><a href="#https://lwn.net/Articles/1034267/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1034158/" title="See Description">Kernel prepatch 6.17-rc2</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1034583/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 Aug 2025 20:58:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034583/" title="https://lwn.net/Articles/1034583/">Zig version 0.15.1</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The Zig project has
+<a href="https://ziglang.org/download/0.15.1/release-notes.html">announced</a> version 0.15.1 of the language. The release, much like the
+<a href="https://lwn.net/Articles/1012809/">last one</a>, includes incremental progress toward the goal of completely dropping LLVM and improving compile time, as well as a handful of breaking changes as the language team wrestles with past API design. The biggest change this time around is to the standard library <tt>Reader</tt> and <tt>Writer</tt> interfaces, which have been completely rearranged in the name of performance and reducing unneeded copies.
+</p>
+
+<blockquote class="bq">
+<p>
+All existing std.io readers and writers are deprecated in favor of the newly provided <tt>std.Io.Reader</tt> and <tt>std.Io.Writer</tt> which are non-generic and have the buffer above the vtable - in other words the buffer is in the interface, not the implementation. This means that although Reader and Writer are no longer generic, they are still transparent to optimization; all of the interface functions have a concrete hot path operating on the buffer, and only make vtable calls when the buffer is full.
+</p>
+<p>
+These changes are extremely breaking. I am sorry for that, but I have carefully examined the situation and acquired confidence that this is the direction that Zig needs to go. I hope you will strap in your seatbelt and come along for the ride; it will be worth it.
+</p>
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1034579/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 20 Aug 2025 18:46:47 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -308,17 +328,6 @@ partway through the project of adding this capability, in the form of
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (go-toolset:rhel8, kernel, and kernel-rt), <b>Fedora</b> (chromium), <b>Oracle</b> (libxml2), <b>Red Hat</b> (go-toolset:rhel8, golang, kernel, kernel-rt, openjpeg2, rsync, and tigervnc), and <b>SUSE</b> (apache-commons-lang3, chromedriver, fractal, framework_tool, go1.23-openssl, go1.24-openssl, grub2, gstreamer-devtools, gstreamer-plugins-rs, jasper, libavif, lighttpd, nginx, podman, postgresql13, postgresql14, postgresql15, postgresql16, python311-pypdf, ruby2.5, rust-keylime, tiff, tomcat, tomcat10, and tomcat11).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1034158/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 17 Aug 2025 23:04:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034158/" title="https://lwn.net/Articles/1034158/">Kernel prepatch 6.17-rc2</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1034157/">second 6.17 kernel prepatch</a> is out for
-testing.  "<q>So it's been a very calm week, and this is one of the smaller
-rc2 releases we've had lately. I'm definitely not complaining, since I've
-been jetlagged much of the week, but I have this suspicion that it just
-means that next week will see more noise.</q>"</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
