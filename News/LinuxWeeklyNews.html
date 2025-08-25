@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1034959/" title="See Description">PyCon US 2025 recap and recordings</a></li>
+<li><a href="#https://lwn.net/Articles/1033809/" title="See Description">[$] Linux's missing CRL infrastructure</a></li>
 <li><a href="#https://lwn.net/Articles/1034944/" title="See Description">Report: the state of commercial open source</a></li>
 <li><a href="#https://lwn.net/Articles/1034932/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1034877/" title="See Description">Kernel prepatch 6.17-rc3</a></li>
@@ -51,11 +53,64 @@
 <li><a href="#https://lwn.net/Articles/1033740/" title="See Description">[$] LWN.net Weekly Edition for August 21, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1034583/" title="See Description">Zig version 0.15.1</a></li>
 <li><a href="#https://lwn.net/Articles/1034579/" title="See Description">Adding stubble to Ubuntu's generic Arm64 Desktop ISOs</a></li>
-<li><a href="#https://lwn.net/Articles/1034567/" title="See Description">Three stable kernels for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1033373/" title="See Description">[$] Python, tail calls, and performance</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1034959/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 25 Aug 2025 15:29:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034959/" title="https://lwn.net/Articles/1034959/">PyCon US 2025 recap and recordings</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The PyCon team has <a
+href="https://pycon.blogspot.com/2025/08/pycon-us-2025-recap-and-recordings.html">announced</a>
+that all <a href="https://www.youtube.com/watch?v=flnVc2Ke-bw&list=PL2Uw4_HvXqvb98mQjN0-rYQjdDxJ_hcrs">PyCon US 2025 recordings</a> are now available on its
+<a href="https://www.youtube.com/c/pyconus">YouTube channel</a>.</p>
+
+<blockquote class="bq">
+We had an amazing and diverse group of community members join us for
+PyCon US 2025, attending from 58 different countries! By the numbers,
+we welcomed a total attendance of 2,225 Pythonistas to the David
+L. Lawrence Convention Center. We couldn't be more grateful for all
+who supported the Python ecosystem and helped make PyCon US 2025 a
+huge success.
+</blockquote>
+
+<p>See the <a
+href="https://lwn.net/Archives/ConferenceIndex/#PyCon-2025">LWN
+conference index</a> for coverage of some of the talks from
+PyCon US&#160;2025.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1033809/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 25 Aug 2025 14:52:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033809/" title="https://lwn.net/Articles/1033809/">[$] Linux's missing CRL infrastructure</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+In July 2024,
+<a href="https://letsencrypt.org/">
+Let's Encrypt</a>, the nonprofit TLS certificate authority (CA),
+<a href="https://lwn.net/Articles/982965/">
+announced</a>
+that it would be ending support for the
+<a href="https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol">
+online certificate status protocol</a>
+(OCSP), which is used to determine when a server's signing certificate has been
+revoked. This prevents a compromised key from being used to impersonate a web
+server.
+The organization cited privacy concerns, and recommended that people
+rely on
+<a href="https://en.wikipedia.org/wiki/Certificate_revocation_list">
+certificate revocation lists</a> (CRLs)
+instead. On August&#160;6, Let's Encrypt
+followed through and disabled its OCSP service. This poses a
+problem for Linux systems that must now rely on CRLs because, unlike on other
+operating systems, there is no standardized way for Linux programs to share a
+CRL cache.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1034944/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 25 Aug 2025 08:54:43 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -282,39 +337,6 @@ other Ubuntu kernel. No further changes in grub or other packages are
 necessary to make it work.</p>
 </blockquote>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1034567/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 Aug 2025 17:59:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034567/" title="https://lwn.net/Articles/1034567/">Three stable kernels for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1034570/">6.16.2</a>, <a
-href="https://lwn.net/Articles/1034571/">6.15.11</a>, and <a
-href="https://lwn.net/Articles/1034569/">6.12.43</a> stable kernels. He notes that
-this is the last release in the 6.15.y series, and recommends that
-users move to the 6.16.y kernel branch at this time.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033373/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 Aug 2025 14:45:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033373/" title="https://lwn.net/Articles/1033373/">[$] Python, tail calls, and performance</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Ken Jin welcomed <a
-href="https://ep2025.europython.eu/">EuroPython&#160;2025</a> attendees to
-his talk entitled "Building a new tail-calling interpreter for Python", but
-noted that the title really should be: "Measuring the performance of
-compilers and interpreters is really hard".  Jin's efforts <a
-href="https://lwn.net/Articles/1010905/">to switch the CPython interpreter to use tail calls</a>,
-which can be optimized as regular jumps,
-initially seemed to produce an almost miraculous performance improvement.
-As his modified title suggests, the <a
-href="https://blog.nelhage.com/post/cpython-tail-call/">actual improvement
-was rather smaller</a>; there is still some performance improvement and
-there are other benefits from the change.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
