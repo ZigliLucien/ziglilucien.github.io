@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1034989/" title="See Description">New restrictions on Android app sideloading</a></li>
 <li><a href="#https://lwn.net/Articles/1034959/" title="See Description">PyCon US 2025 recap and recordings</a></li>
 <li><a href="#https://lwn.net/Articles/1033809/" title="See Description">[$] Linux's missing CRL infrastructure</a></li>
 <li><a href="#https://lwn.net/Articles/1034944/" title="See Description">Report: the state of commercial open source</a></li>
@@ -52,10 +53,31 @@
 <li><a href="#https://lwn.net/Articles/1034650/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1033740/" title="See Description">[$] LWN.net Weekly Edition for August 21, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1034583/" title="See Description">Zig version 0.15.1</a></li>
-<li><a href="#https://lwn.net/Articles/1034579/" title="See Description">Adding stubble to Ubuntu's generic Arm64 Desktop ISOs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1034989/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 26 Aug 2025 05:01:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034989/" title="https://lwn.net/Articles/1034989/">New restrictions on Android app sideloading</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Google has <a
+href="https://android-developers.googleblog.com/2025/08/elevating-android-security.html">announced</a>
+a new set of restrictions on the ability of users to install apps on their
+own devices:
+<p>
+<blockquote class="bq">
+	Starting next year, Android will require all apps to be registered
+	by verified developers in order to be installed by users on
+	certified Android devices. This creates crucial accountability,
+	making it much harder for malicious actors to quickly distribute
+	another harmful app after we take the first one down. Think of it
+	like an ID check at the airport, which confirms a traveler's
+	identity but is separate from the security screening of their bags;
+	we will be confirming who the developer is, not reviewing the
+	content of their app or where it came from.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1034959/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 25 Aug 2025 15:29:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -303,40 +325,6 @@ All existing std.io readers and writers are deprecated in favor of the newly pro
 These changes are extremely breaking. I am sorry for that, but I have carefully examined the situation and acquired confidence that this is the direction that Zig needs to go. I hope you will strap in your seatbelt and come along for the ride; it will be worth it.
 </p>
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1034579/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 Aug 2025 18:46:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034579/" title="https://lwn.net/Articles/1034579/">Adding stubble to Ubuntu's generic Arm64 Desktop ISOs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Tobias Heider has <a
-href="https://discourse.ubuntu.com/t/what-s-new-for-generic-arm64-desktop-isos-in-25-10/66559">written</a>
-an article that explains changes that are coming for Ubuntu's generic
-Arm64 desktop ISO images in the 25.10 release. The current solution,
-Heider says, depends on GRUB features that are unavailable in secure
-boot mode and require adding device-specific logic to multiple
-packages. The new solution, called <a
-href="https://github.com/canonical/stubble?tab=readme-ov-file#stubble">stubble</a>,
-is derived from <tt><a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-stub.html">systemd-stub</a></tt>: 
-
-<blockquote class="bq">
-<p>A bundled stubble image contains stubble itself, a Linux kernel, a
-HWID lookup table to map devices to device trees and multiple device
-trees. When grub loads this "kernel", stubble executes first, reads
-the SMBIOS table to generate HWIDs, looks for a match in the embeeded
-lookup table and loads a matching device tree before passing control
-to the actual Linux kernel.</p>
-
-<p>The elegance in this approach lies in how it interacts with the
-rest of the system. Integrating stubble happens entirely at build time
-in the kernel package. The stubble package is a build dependency for
-the kernel. After building the kernel itself, we bundle it with
-stubble and our DTBs and ship the combined binary instead. The
-resulting stubble + kernel + dtb bundle can be loaded by grub like any
-other Ubuntu kernel. No further changes in grub or other packages are
-necessary to make it work.</p>
-</blockquote>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
