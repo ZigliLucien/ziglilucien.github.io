@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1034442/" title="See Description">[$] Shadow-stack control in clone3()</a></li>
+<li><a href="#https://lwn.net/Articles/1035110/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1034989/" title="See Description">New restrictions on Android app sideloading</a></li>
 <li><a href="#https://lwn.net/Articles/1034959/" title="See Description">PyCon US 2025 recap and recordings</a></li>
 <li><a href="#https://lwn.net/Articles/1033809/" title="See Description">[$] Linux's missing CRL infrastructure</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1034716/" title="See Description">Arch Linux recent service outages</a></li>
 <li><a href="#https://lwn.net/Articles/1033955/" title="See Description">[$] Bringing restartable sequences out of the niche</a></li>
 <li><a href="#https://lwn.net/Articles/1034650/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1033740/" title="See Description">[$] LWN.net Weekly Edition for August 21, 2025</a></li>
-<li><a href="#https://lwn.net/Articles/1034583/" title="See Description">Zig version 0.15.1</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1034442/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 26 Aug 2025 07:16:52 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034442/" title="https://lwn.net/Articles/1034442/">[$] Shadow-stack control in clone3()</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Shadow stacks are a control-flow-integrity feature designed to defend
+against exploits that manipulate a thread's call stack.  The kernel first
+<a href="https://lwn.net/Articles/926649/">gained support for hardware-implemented shadow
+stacks</a>, for the x86 architecture, in the 6.6 release; 64-bit Arm
+support followed in 6.13.  This feature does not give user space much
+control over the allocation of shadow stacks for new threads, though; a <a
+href="https://lwn.net/ml/all/20250819-clone3-shadow-stack-v19-0-bc957075479b@kernel.org">patch
+series</a> from Mark Brown may, after many attempts, finally be about
+to change that situation.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1035110/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 26 Aug 2025 07:13:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1035110/" title="https://lwn.net/Articles/1035110/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ffmpeg, firebird3.0, and luajit), <b>Fedora</b> (chromium, python3-docs, and python3.13), <b>Oracle</b> (aide, firefox, glibc, libxml2, and tomcat), <b>Red Hat</b> (aide, git, kernel, kernel-rt, libarchive, pam, python-cryptography, python3, python3.12, and webkit2gtk3), <b>SUSE</b> (cmake3, ffmpeg-4, kernel, kubernetes1.18, libqt4, minikube, net-tools, pam, postgresql16, proftpd, python-urllib3, python311, python312, python36, tomcat10, tomcat11, and webkit2gtk3), and <b>Ubuntu</b> (nginx).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1034989/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 26 Aug 2025 05:01:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,41 +314,6 @@ user space.
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libarchive, mingw-sqlite, pki-deps:10.6, and tomcat), <b>Debian</b> (chromium and firefox-esr), <b>Fedora</b> (python3.6 and suricata), <b>Oracle</b> (go-toolset:rhel8, kernel, libarchive, mingw-sqlite, tomcat, and xterm), <b>Red Hat</b> (kernel), <b>Slackware</b> (mozilla), <b>SUSE</b> (aws-efs-utils, docker-machine-driver-kvm2, nova, pluto, polaris, and python310), and <b>Ubuntu</b> (ceph, gcc-10, gcc-11, gcc-12, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gkeop, linux-ibm,
  linux-ibm-6.8, linux-hwe-6.14, linux-oem-6.14, linux-ibm, linux-intel-iotg, linux-oracle, linux-raspi, linux-iot, poppler, and tiff).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1033740/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 21 Aug 2025 03:01:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1033740/" title="https://lwn.net/Articles/1033740/">[$] LWN.net Weekly Edition for August 21, 2025</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1033740/">Front</a>: Debian; CPython; huge zero folio; kexec handover; FHS; Koka programming language
-            <li> <a href="https://lwn.net/Articles/1033742/">Briefs</a>: PyPI domain checks; Firefox 142.0; Git v2.51; Ghostty; LibreOffice 25.8; Zig 0.15.1; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1033743/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1034583/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 Aug 2025 20:58:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034583/" title="https://lwn.net/Articles/1034583/">Zig version 0.15.1</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The Zig project has
-<a href="https://ziglang.org/download/0.15.1/release-notes.html">announced</a> version 0.15.1 of the language. The release, much like the
-<a href="https://lwn.net/Articles/1012809/">last one</a>, includes incremental progress toward the goal of completely dropping LLVM and improving compile time, as well as a handful of breaking changes as the language team wrestles with past API design. The biggest change this time around is to the standard library <tt>Reader</tt> and <tt>Writer</tt> interfaces, which have been completely rearranged in the name of performance and reducing unneeded copies.
-</p>
-
-<blockquote class="bq">
-<p>
-All existing std.io readers and writers are deprecated in favor of the newly provided <tt>std.Io.Reader</tt> and <tt>std.Io.Writer</tt> which are non-generic and have the buffer above the vtable - in other words the buffer is in the interface, not the implementation. This means that although Reader and Writer are no longer generic, they are still transparent to optimization; all of the interface functions have a concrete hot path operating on the buffer, and only make vtable calls when the buffer is full.
-</p>
-<p>
-These changes are extremely breaking. I am sorry for that, but I have carefully examined the situation and acquired confidence that this is the direction that Zig needs to go. I hope you will strap in your seatbelt and come along for the ride; it will be worth it.
-</p>
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
