@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1036041/" title="See Description">Kernel prepatch 6.17-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1035736/" title="See Description">Bcachefs goes to "externally maintained"</a></li>
 <li><a href="#https://lwn.net/Articles/1034966/" title="See Description">[$] The challenge of maintaining curl</a></li>
 <li><a href="#https://lwn.net/Articles/1028275/" title="See Description">[$] Highlights from systemd v258: part one</a></li>
@@ -52,10 +53,20 @@
 <li><a href="#https://lwn.net/Articles/1035321/" title="See Description">GhostBSD 25.02 released</a></li>
 <li><a href="#https://lwn.net/Articles/1034849/" title="See Description">[$] The need to reliably preserve our community history</a></li>
 <li><a href="#https://lwn.net/Articles/1035307/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1034442/" title="See Description">[$] Shadow-stack control in clone3()</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1036041/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Sep 2025 13:29:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1036041/" title="https://lwn.net/Articles/1036041/">Kernel prepatch 6.17-rc4</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1036040/">6.17-rc4</a> for testing.
+"<q>So it all looks fairly good.
+
+Please do keep testing, and we'll get 6.17 out in a timely manner and
+in good shape.</q>"</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1035736/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 29 Aug 2025 17:08:42 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -315,22 +326,6 @@ remain available forever.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (node-cipher-base), <b>Fedora</b> (keylime-agent-rust and libtiff), <b>Oracle</b> (aide, kernel, mod_http2, pam, pki-deps:10.6, python-cryptography, python3, python3.12, and thunderbird), <b>SUSE</b> (cheat, ffmpeg, firebird, govulncheck-vulndb, postgresql17, tomcat, tomcat10, tomcat11, ucode-intel-20250812, and v2ray-core), and <b>Ubuntu</b> (binutils, gst-plugins-base1.0, gst-plugins-good1.0, and linux-raspi-realtime).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1034442/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 26 Aug 2025 07:16:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034442/" title="https://lwn.net/Articles/1034442/">[$] Shadow-stack control in clone3()</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Shadow stacks are a control-flow-integrity feature designed to defend
-against exploits that manipulate a thread's call stack.  The kernel first
-<a href="https://lwn.net/Articles/926649/">gained support for hardware-implemented shadow
-stacks</a>, for the x86 architecture, in the 6.6 release; 64-bit Arm
-support followed in 6.13.  This feature does not give user space much
-control over the allocation of shadow stacks for new threads, though; a <a
-href="https://lwn.net/ml/all/20250819-clone3-shadow-stack-v19-0-bc957075479b@kernel.org">patch
-series</a> from Mark Brown may, after many attempts, finally be about
-to change that situation.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
