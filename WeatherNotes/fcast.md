@@ -2,20 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly clear. Low around 56, with temperatures rising to around 58 overnight. North northeast wind around 3 mph.<br></div>
+         <h3>Labor Day</h3>Mostly sunny, with a high near 84. East northeast wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Labor Day</h3>Mostly sunny, with a high near 84. Northeast wind around 6 mph.<br></div>
+         <h3>Tonight</h3>Mostly cloudy. Low around 59, with temperatures rising to around 62 overnight. North northeast wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Mostly cloudy. Low around 59, with temperatures rising to around 62 overnight. North northeast wind 2 to 6 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tuesday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 81. Northeast wind around 3 mph. Chance
-         of precipitation is 20%.<br></div>
+         <h3>Tuesday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny. High near 81, with temperatures falling to around 79
+         in the afternoon. Northeast wind around 3 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -28,7 +24,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of showers and thunderstorms after 7pm. Partly cloudy, with a low around 58. West wind around 6 mph.<br></div>
+         <h3>Wednesday Night</h3>A chance of showers and thunderstorms after 7pm. Partly cloudy, with a low around 58. West wind around 6 mph. Chance of precipitation
+         is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -57,5 +54,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>Sunny, with a high near 81. North northeast wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Sunday Night</h3>Mostly clear, with a low around 53. East northeast wind around 3 mph.<br></div>
    </p>
 </div>
