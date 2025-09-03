@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1036625/" title="See Description">Niri 25.08 released</a></li>
+<li><a href="#https://lwn.net/Articles/1036624/" title="See Description">Linux From Scratch 12.4 released</a></li>
+<li><a href="#https://lwn.net/Articles/1034603/" title="See Description">[$] Tracking trust with Rust in the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/1035169/" title="See Description">Announcing the Rust Innovation Lab</a></li>
 <li><a href="#https://lwn.net/Articles/1036569/" title="See Description">New ELF specification for public review</a></li>
 <li><a href="#https://lwn.net/Articles/1036567/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1035491/" title="See Description">[$] Removing Guix from Debian</a></li>
@@ -49,13 +53,103 @@
 <li><a href="#https://lwn.net/Articles/1036041/" title="See Description">Kernel prepatch 6.17-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1035736/" title="See Description">Bcachefs goes to "externally maintained"</a></li>
 <li><a href="#https://lwn.net/Articles/1034966/" title="See Description">[$] The challenge of maintaining curl</a></li>
-<li><a href="#https://lwn.net/Articles/1028275/" title="See Description">[$] Highlights from systemd v258: part one</a></li>
-<li><a href="#https://lwn.net/Articles/1035724/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1035537/" title="See Description">Python: The Documentary</a></li>
-<li><a href="#https://lwn.net/Articles/1035512/" title="See Description">Seven stable kernels for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1036625/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Sep 2025 16:46:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1036625/" title="https://lwn.net/Articles/1036625/">Niri 25.08 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://github.com/YaLTeR/niri/releases/tag/v25.08">Version
+25.08</a> of the niri scrollable-tiling Wayland compositor has been
+released. Notable changes include <a
+href="https://github.com/Supreeeme/xwayland-satellite?tab=readme-ov-file#xwayland-satellite">xwayland-satellite</a>
+integration, modal exit confirmation, and the introduction of basic
+support for screen readers:</p>
+
+<blockquote class="bq">
+<p>A <a
+href="https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/">series
+of posts</a> by fireborn earlier this year on the screen reader
+situation in Linux got me curious: how <em>does</em> one support
+screen readers in a Wayland compositor? The documentation is
+unfortunately scarce and difficult to find. Thankfully, <a
+href="https://github.com/DataTriny">@DataTriny</a> from the <a
+href="https://accesskit.dev/">AccessKit</a> project came across <a
+href="https://github.com/YaLTeR/niri/issues/1904">my issue</a>,
+pointed me at the right protocols, and answered a lot of my questions.</p>
+
+<p>So, as of this release, niri has basic support for screen readers!
+We implement the <tt>org.freedesktop.a11y.KeyboardMonitor</tt> D-Bus
+interface for <a href="https://orca.gnome.org/">Orca</a> to listen and
+grab keyboard keys, and we expose the main niri UI elements via
+AccessKit. [...]</p>
+
+<p>The current screen reader support and further considerations are
+documented on the new <a href="https://yalter.github.io/niri/Accessibility.html">Accessibility</a> wiki page.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1025866/">covered</a> niri in
+July.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1036624/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Sep 2025 16:26:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1036624/" title="https://lwn.net/Articles/1036624/">Linux From Scratch 12.4 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.linuxfromscratch.org/lfs/view/12.4/">Version
+12.4</a> of Linux From Scratch (LFS) and Beyond Linux From Scratch
+(BLFS) have been <a
+href="https://lists.linuxfromscratch.org/sympa/arc/lfs-announce/2025-09/msg00000.html">released</a>. LFS
+provides step-by-step instructions on building a customized Linux
+system entirely from source, and BLFS helps to extend an LFS
+installation into a more usable system. Notable changes in this
+release include updates to GNU Binutils 2.45, GCC 15.2, GNU C Library
+(glibc) 2.42, and Linux 6.15.1. See the <a
+href="https://www.linuxfromscratch.org/lfs/view/12.4/chapter01/changelog.html">Changelog</a>
+for all updates since 12.3.</p>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1034603/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Sep 2025 16:15:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1034603/" title="https://lwn.net/Articles/1034603/">[$] Tracking trust with Rust in the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The Linux kernel has to handle many different sources of data that should not
+be trusted: user space, network connections, and removable storage, to name a
+few. The kernel has to remain secure even if one of these sends garbled (or
+malicious) data. Benno Lossin has been working on an API for kernel Rust code
+that makes it harder to accidentally make decisions based on data from user space. That work
+is now on its
+<a href="https://lwn.net/ml/all/20250814124424.516191-1-lossin@kernel.org/">
+fourth revision</a>, and Lossin has asked kernel developers to experiment with
+it and see where problems remain, making this a good time to look at the proposed API.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1035169/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Sep 2025 16:14:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1035169/" title="https://lwn.net/Articles/1035169/">Announcing the Rust Innovation Lab</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+During the opening of RustConf 2025 in Seattle, Washington,
+the Rust Foundation announced 
+<a href="https://rustfoundation.org/rust-innovation-lab/">
+a new initiative</a> to provide financial and administrative support to open-source Rust projects. The first project to benefit from the new Rust Innovation Lab is
+<a href="https://github.com/rustls/rustls">
+Rustls</a>, an implementation of TLS in Rust. The foundation welcomes inquiries from other projects. Dr. Rebecca Rumbul, Executive Director of the Rust Foundation said:
+</p>
+
+<blockquote class="bq">
+Rustls is hopefully the first of many really good [...] projects that will find a home in the foundation.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1036569/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 03 Sep 2025 13:46:17 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -235,87 +329,6 @@ project, managed to cram a lot into the 15&#160;minutes given to him.
 Like the maintainers of many other projects, Stenberg is feeling some
 stress, and the problems appear to be getting worse over time.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1028275/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 29 Aug 2025 14:47:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1028275/" title="https://lwn.net/Articles/1028275/">[$] Highlights from systemd v258: part one</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The next release of systemd has been percolating for an unusually
-long time. Systemd releases are usually about six months apart, but
-v257 <a href="https://lwn.net/Articles/1001657/">came out</a> in
-December&#160;2024, and v258 just now seems to be nearing the finish
-line; the third release candidate for v258 was published on
-August&#160;20 (<a
-href="https://github.com/systemd/systemd/releases/tag/v258-rc3">release
-notes</a>). Now is a good time to dig in and take a look at some of
-the new features, enhancements, and removals coming soon to
-systemd. These include new workload-management features, a concept for
-multiple home-directory environments, and the final, once-and-for-all
-removal of support for <a
-href="https://docs.kernel.org/admin-guide/cgroup-v1/index.html#cgroup-v1">control
-groups version&#160;1</a>.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1035724/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 29 Aug 2025 14:03:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1035724/" title="https://lwn.net/Articles/1035724/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (aide, fence-agents, firefox, kernel-rt, python-cryptography, and thunderbird), <b>Debian</b> (golang-github-gin-contrib-cors, libxml2, and udisks2), <b>Fedora</b> (chromium), <b>Oracle</b> (postgresql16, postgresql:16, python3.11, and thunderbird), <b>Red Hat</b> (lz4 and mpfr), <b>SUSE</b> (chromium, docker, dpkg, firefox, gdk-pixbuf, git, git, git-lfs, obs-scm-bridge, python-PyYAML, gnutls, kernel, libarchive, libxml2, net-tools, netty, perl-Crypt-CBC, polkit, postgresql14, postgresql15, sqlite3, thunderbird, tomcat10, and udisks2), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gkeop,
- linux-hwe-5.15, linux-ibm, linux-intel-iotg, linux-intel-iotg-5.15,
- linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia,
- linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx,
- linux-oracle, linux-raspi, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-6.14, linux-gcp, linux-hwe-6.14, linux-raspi,
- linux-realtime, linux-realtime-6.14, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-lowlatency,
- linux-lowlatency-hwe-6.8, linux-oracle, linux-oracle-6.8, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-azure, linux-fips, linux-fips, linux-aws-fips, linux-gcp-fips, linux-gke, linux-hwe-6.8, linux-nvidia, linux-nvidia-6.8,
- linux-nvidia-lowlatency, linux-raspi, linux-gke, linux-kvm, linux-oem-6.14, linux-realtime, linux-intel-iot-realtime, linux-realtime, linux-raspi-realtime, openldap, and udisks2).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1035537/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 28 Aug 2025 21:46:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1035537/" title="https://lwn.net/Articles/1035537/">Python: The Documentary</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Attendees at EuroPython had the chance to preview part of
-<em>Python: The Documentary</em> during <a
-href="https://programme.europython.eu/europython-2025/talk/JKZDUY/">a
-keynote panel</a>. The full film, created by <a
-href="https://www.cultrepo.com/">CultRepo</a>, is now available <a
-href="https://www.youtube.com/watch?v=GfH4QL4VqJ0">on YouTube</a>:</p>
-
-<blockquote class="bq">
-<p>This is the story of the world's most beloved programming language:
-Python. What began as a side project in Amsterdam during the 1990s
-became the software powering artificial intelligence, data science and
-some of the world's biggest companies. But Python's future wasn't
-certain; at one point it almost disappeared.</p>
-
-<p>This 90-minute documentary features Guido van Rossum, Travis
-Oliphant, Barry Warsaw, and many more, and they tell the story of
-Python's rise, its community-driven evolution, the conflicts that
-almost tore it apart, and the language's impact on... well...
-everything.</p>
-</blockquote>
-
-<p>The <a href="https://www.youtube.com/watch?v=Sf2AqQ5a38Y">video</a>
-of the keynote is also available.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1035512/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 28 Aug 2025 15:46:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1035512/" title="https://lwn.net/Articles/1035512/">Seven stable kernels for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a href="https://lwn.net/Articles/1035513/">6.16.4</a>, <a
-href="https://lwn.net/Articles/1035514/">6.12.44</a>, <a
-href="https://lwn.net/Articles/1035515/">6.6.103</a>, <a
-href="https://lwn.net/Articles/1035516/">6.1.149</a>, <a
-href="https://lwn.net/Articles/1035517/">5.15.190</a>, <a
-href="https://lwn.net/Articles/1035518/">5.10.241</a>, and <a
-href="https://lwn.net/Articles/1035511/">5.4.297</a> stable Linux kernels. Each one
-contains important fixes.</p>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
