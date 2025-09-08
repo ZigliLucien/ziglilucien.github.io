@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1037167/" title="See Description">npm debug and chalk packages compromised (Aikido)</a></li>
 <li><a href="#https://lwn.net/Articles/1035758/" title="See Description">[$] Testing the 2-in-1 Framework 12 Laptop</a></li>
 <li><a href="#https://lwn.net/Articles/1037157/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1037072/" title="See Description">Kernel prepatch 6.17-rc5</a></li>
@@ -52,10 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1036625/" title="See Description">Niri 25.08 released</a></li>
 <li><a href="#https://lwn.net/Articles/1036624/" title="See Description">Linux From Scratch 12.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/1034603/" title="See Description">[$] Tracking trust with Rust in the kernel</a></li>
-<li><a href="#https://lwn.net/Articles/1035169/" title="See Description">Announcing the Rust Innovation Lab</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1037167/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 08 Sep 2025 17:45:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037167/" title="https://lwn.net/Articles/1037167/">npm debug and chalk packages compromised (Aikido)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Aikido blog <a
+href="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised">describes</a>
+an apparently ongoing series of phishing attacks against npm package
+maintainers, resulting in the uploading of compromised versions of heavily
+used packages:
+<p>
+<blockquote class="bq">
+	All together, these packages have more than 2 billion downloads per
+	week.
+<p>
+	The packages were updated to contain a piece of code that would be
+	executed on the client of a website, which silently intercepts
+	crypto and web3 activity in the browser, manipulates wallet
+	interactions, and rewrites payment destinations so that funds and
+	approvals are redirected to attacker-controlled accounts without
+	any obvious signs to the user.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1035758/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 08 Sep 2025 15:12:27 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -271,24 +294,6 @@ fourth revision</a>, and Lossin has asked kernel developers to experiment with
 it and see where problems remain, making this a good time to look at the proposed API.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1035169/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 03 Sep 2025 16:14:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1035169/" title="https://lwn.net/Articles/1035169/">Announcing the Rust Innovation Lab</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-During the opening of RustConf 2025 in Seattle, Washington,
-the Rust Foundation announced 
-<a href="https://rustfoundation.org/rust-innovation-lab/">
-a new initiative</a> to provide financial and administrative support to open-source Rust projects. The first project to benefit from the new Rust Innovation Lab is
-<a href="https://github.com/rustls/rustls">
-Rustls</a>, an implementation of TLS in Rust. The foundation welcomes inquiries from other projects. Dr. Rebecca Rumbul, Executive Director of the Rust Foundation said:
-</p>
-
-<blockquote class="bq">
-Rustls is hopefully the first of many really good [...] projects that will find a home in the foundation.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
