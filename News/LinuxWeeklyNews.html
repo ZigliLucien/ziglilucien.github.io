@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1037788/" title="See Description">Six stable kernels patching the VMScape Spectre variant</a></li>
+<li><a href="#https://lwn.net/Articles/1037069/" title="See Description">[$] A policy for Link tags</a></li>
+<li><a href="#https://lwn.net/Articles/1037777/" title="See Description">Security updates for Thursday</a></li>
+<li><a href="#https://lwn.net/Articles/1037703/" title="See Description">How FOSS Projects Handle Legal Takedown Requests (F-Droid)</a></li>
 <li><a href="#https://lwn.net/Articles/1036683/" title="See Description">[$] LWN.net Weekly Edition for September 11, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1034811/" title="See Description">[$] How many ways are there to configure the Linux kernel?</a></li>
 <li><a href="#https://lwn.net/Articles/1037496/" title="See Description">OpenSUSE disables bcachefs</a></li>
@@ -49,13 +53,70 @@
 <li><a href="#https://lwn.net/Articles/1037349/" title="See Description">Anaconda WebUI: progress update and roadmap</a></li>
 <li><a href="#https://lwn.net/Articles/1036168/" title="See Description">[$] Introducing Space Grade Linux</a></li>
 <li><a href="#https://lwn.net/Articles/1037308/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1037167/" title="See Description">npm debug and chalk packages compromised (Aikido)</a></li>
-<li><a href="#https://lwn.net/Articles/1035758/" title="See Description">[$] Testing the 2-in-1 Framework 12 Laptop</a></li>
-<li><a href="#https://lwn.net/Articles/1037157/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1037072/" title="See Description">Kernel prepatch 6.17-rc5</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1037788/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 11 Sep 2025 16:46:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037788/" title="https://lwn.net/Articles/1037788/">Six stable kernels patching the VMScape Spectre variant</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://comsec.ethz.ch/research/microarch/vmscape-exposing-and-exploiting-incomplete-branch-predictor-isolation-in-cloud-environments/">VMScape</a>
+vulnerability is a Spectre variant that "<q>allows a malicious KVM guest to
+leak sensitive information such as encryption/decryption keys from a
+userspace hypervisor such as QEMU</q>".  Greg Kroah-Hartman has announced
+the <a href="https://lwn.net/Articles/1037790/">6.16.7</a>, <a
+href="https://lwn.net/Articles/1037791/">6.12.47</a>, <a
+href="https://lwn.net/Articles/1037792/">6.6.106</a>, <a
+href="https://lwn.net/Articles/1037793/">6.1.152</a>, <a
+href="https://lwn.net/Articles/1037794/">5.15.193</a>, and <a
+href="https://lwn.net/Articles/1037795/">5.10.244</a> stable kernels, which add a
+mitigation for the hardware bug.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1037069/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 11 Sep 2025 15:16:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037069/" title="https://lwn.net/Articles/1037069/">[$] A policy for Link tags</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Git source-code management system stores a lot of information about
+changes to code — but it does not hold everything that might be of interest
+to a developer who needs to investigate a specific change in the future.
+Commits in a repository are the end result of a (sometimes extended)
+discussion; often, that discussion will result in changes to the code that
+are not explained in the changelog.  For some years now, many maintainers
+have followed the convention of applying a Link tag to commits that points
+back to the mailing-list posting of the change.  Linus Torvalds has been
+expressing his dislike for this convention for a while, though, and its
+time appears to be coming to an end.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1037777/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 11 Sep 2025 15:12:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037777/" title="https://lwn.net/Articles/1037777/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (python3.12-cryptography), <b>Debian</b> (chromium, hsqldb1.8.0, and imagemagick), <b>Fedora</b> (bustle, cef, maturin, rust-busd, rust-crypto-auditing-agent, rust-crypto-auditing-client, rust-crypto-auditing-event-broker, rust-monitord, rust-monitord-exporter, rustup, tuigreet, and wireshark), <b>Oracle</b> (kernel, microcode_ctl, and python3.12-cryptography), <b>Red Hat</b> (httpd:2.4 and multiple packages), <b>SUSE</b> (coreutils, curl, dpkg, ffmpeg-4, glib2, gnutls, go1.23-openssl, go1.24-openssl, go1.25-openssl, grub2, ImageMagick, jbigkit, kernel, libxslt, Mesa, opensc, opera, perl-JSON-XS, polkit, postgresql16, protobuf, python311, python311-deepdiff, sqlite3, ucode-intel, and warewulf4), and <b>Ubuntu</b> (bind9 and libxml2).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1037703/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 11 Sep 2025 14:34:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037703/" title="https://lwn.net/Articles/1037703/">How FOSS Projects Handle Legal Takedown Requests (F-Droid)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The F-Droid project has <a
+href="https://f-droid.org/en/2025/09/10/how-foss-projects-handle-legal-takedown-requests.html">some
+advice for free-software projects</a> on how to deal with takedown
+requests.
+<p>
+<blockquote class="bq">
+	As part of our legal resilience research, we spoke with a range of
+	legal experts, software freedom advocates, and maintainers of
+	mature FOSS infrastructure to understand how others manage these
+	moments. In this article, we share what we learned, and how F-Droid
+	is incorporating these lessons into its own approach.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1036683/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 11 Sep 2025 00:19:23 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -219,68 +280,6 @@ different space-based use cases.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel and kernel-rt), <b>Debian</b> (openafs and qemu), <b>Fedora</b> (buildah, containers-common, podman, python-flask, and snapshot), <b>Mageia</b> (postgresql, python-django, and udisks2), <b>Oracle</b> (kernel and libxml2), <b>Red Hat</b> (apache-commons-beanutils, firefox, httpd, httpd:2.4, kernel, kernel-rt, mod_http2, qt5-qt3d, and thunderbird), <b>Slackware</b> (libxml2), <b>SUSE</b> (firebird, go1.25-openssl, ImageMagick, microcode_ctl, netty, netty-tcnative, and ovmf), and <b>Ubuntu</b> (libetpan and postgresql-14, postgresql-16, postgresql-17).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1037167/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 08 Sep 2025 17:45:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037167/" title="https://lwn.net/Articles/1037167/">npm debug and chalk packages compromised (Aikido)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Aikido blog <a
-href="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised">describes</a>
-an apparently ongoing series of phishing attacks against npm package
-maintainers, resulting in the uploading of compromised versions of heavily
-used packages:
-<p>
-<blockquote class="bq">
-	All together, these packages have more than 2 billion downloads per
-	week.
-<p>
-	The packages were updated to contain a piece of code that would be
-	executed on the client of a website, which silently intercepts
-	crypto and web3 activity in the browser, manipulates wallet
-	interactions, and rewrites payment destinations so that funds and
-	approvals are redirected to attacker-controlled accounts without
-	any obvious signs to the user.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1035758/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 08 Sep 2025 15:12:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1035758/" title="https://lwn.net/Articles/1035758/">[$] Testing the 2-in-1 Framework 12 Laptop</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://frame.work/">Framework Computer</a> is a US-based
-computer manufacturer with a line of Linux-supported, modular, easily
-repairable and upgradeable laptops. In February, the company <a
-href="https://frame.work/blog/introducing-the-framework-laptop-12">announced</a>
-a new model, the <a
-href="https://frame.work/laptop12">Framework&#160;Laptop&#160;12</a>,
-an "<q>entry-level</q>" 12.2-inch convertible notebook that can be
-used as a laptop or tablet. The systems were made available for pre-order
-in April, I received mine in mid-August. Since then, I have been
-putting it through its paces with Debian&#160;13 ("trixie") and
-Fedora&#160;Linux&#160;42. It's a good choice for users who want a
-Linux-friendly, lightweight, <span class="nobreak">2-in-1</span>
-device&mdash;if they are willing to make a few concessions on storage
-capacity, RAM, and CPU/GPU choices.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1037157/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 08 Sep 2025 14:32:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037157/" title="https://lwn.net/Articles/1037157/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, libhtp, modsecurity-apache, shibboleth-sp, and wireless-regdb), <b>Fedora</b> (chromium, kea, tcpreplay, and yq), <b>Mageia</b> (rootcerts, nspr, nss &amp; firefox and thunderbird), <b>Red Hat</b> (python3), and <b>SUSE</b> (7zip, chromedriver, go1.25, libQt5Pdf5, libsixel-bash-completion, libsoup2, libwireshark18, netty, rav1e, and trivy).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1037072/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 07 Sep 2025 23:02:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037072/" title="https://lwn.net/Articles/1037072/">Kernel prepatch 6.17-rc5</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1037071/">6.17-rc5</a> for testing.
-"<q>Things remain normal - both the diffstat and the commit counts look
-entirely sane</q>".  The announcement also contains a plea for maintainers
-to not overuse Link: tags when applying patches.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
