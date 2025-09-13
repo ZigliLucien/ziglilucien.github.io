@@ -7,7 +7,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of rain showers before 8pm. Mostly clear. Low around 68, with temperatures rising to around 70 overnight.
+         <h3>Tonight</h3>A slight chance of rain showers before 8pm. Partly cloudy. Low around 68, with temperatures rising to around 70 overnight.
          South wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
