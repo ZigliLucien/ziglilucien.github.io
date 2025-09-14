@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 97.0 F. <strong>Dew Point</strong> 64.0 F.</div>
+<div id='c'><strong>Temp</strong> 78.1 F. <strong>Dew Point</strong> 69.1 F.</div>
 
 <p/><br/><p/>
 
@@ -1361,3 +1361,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Sun Sep 14 15:08:05 2025 | 96.1 F. | 64.0 F.|
 | Sun Sep 14 16:08:04 2025 | 96.1 F. | 64.0 F.|
 | Sun Sep 14 17:08:04 2025 | 97.0 F. | 64.0 F.|
+| Sun Sep 14 18:08:05 2025 | 78.1 F. | 69.1 F.|
