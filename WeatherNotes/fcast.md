@@ -7,16 +7,16 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of showers and thunderstorms before 1am. Partly cloudy. Low around 68, with temperatures rising to around
-         70 overnight. North northwest wind around 3 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms before 10pm. Partly cloudy. Low around 68, with temperatures rising to around
+         70 overnight. East northeast wind around 3 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny. High near 92, with temperatures falling to around 88 in the afternoon. East wind around 5 mph.<br></div>
+         <h3>Monday</h3>Mostly sunny. High near 92, with temperatures falling to around 88 in the afternoon. East wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Mostly clear, with a low around 66. East wind around 3 mph.<br></div>
+         <h3>Monday Night</h3>Mostly clear, with a low around 66. East wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
