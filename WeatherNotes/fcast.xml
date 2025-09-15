@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-09-15T05:36:03+00:00</generatedAt>
-		<updateTime type="str">2025-09-15T05:01:28+00:00</updateTime>
-		<validTimes type="str">2025-09-14T23:00:00+00:00/P7DT2H</validTimes>
+		<generatedAt type="str">2025-09-15T08:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-09-15T07:46:20+00:00</updateTime>
+		<validTimes type="str">2025-09-15T01:00:00+00:00/P8D</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2025-09-15T00:00:00-05:00</startTime>
+				<startTime type="str">2025-09-15T03:00:00-05:00</startTime>
 				<endTime type="str">2025-09-15T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">67</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">13</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">NNE</windDirection>
+				<windDirection type="str">NE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/fog?size=medium</icon>
 				<shortForecast type="str">Patchy Fog</shortForecast>
-				<detailedForecast type="str">Patchy fog after 5am. Partly cloudy. Low around 67, with temperatures rising to around 70 overnight. North northeast wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Patchy fog after 5am. Mostly clear. Low around 67, with temperatures rising to around 70 overnight. Northeast wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -74,7 +74,7 @@
 				<startTime type="str">2025-09-15T06:00:00-05:00</startTime>
 				<endTime type="str">2025-09-15T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">92</temperature>
+				<temperature type="int">91</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
@@ -83,9 +83,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 6 mph</windSpeed>
 				<windDirection type="str">ENE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/fog/sct?size=medium</icon>
-				<shortForecast type="str">Patchy Fog then Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Patchy fog before 8am. Mostly sunny. High near 92, with temperatures falling to around 90 in the afternoon. East northeast wind 2 to 6 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/fog/few?size=medium</icon>
+				<shortForecast type="str">Patchy Fog then Sunny</shortForecast>
+				<detailedForecast type="str">Patchy fog before 8am. Sunny. High near 91, with temperatures falling to around 89 in the afternoon. East northeast wind 2 to 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -93,18 +93,18 @@
 				<startTime type="str">2025-09-15T18:00:00-05:00</startTime>
 				<endTime type="str">2025-09-16T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">66</temperature>
+				<temperature type="int">67</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">5</value>
+					<value type="int">3</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">ENE</windDirection>
+				<windSpeed type="str">1 to 5 mph</windSpeed>
+				<windDirection type="str">E</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 66. East northeast wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear. Low around 67, with temperatures rising to around 69 overnight. East wind 1 to 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -119,11 +119,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">1</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 mph</windSpeed>
+				<windSpeed type="str">1 to 5 mph</windSpeed>
 				<windDirection type="str">ENE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 92. East northeast wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 92. East northeast wind 1 to 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
@@ -139,10 +139,10 @@
 					<value type="int">1</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">E</windDirection>
+				<windDirection type="str">ENE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 65. East wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 65. East northeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">6</number>
@@ -150,7 +150,7 @@
 				<startTime type="str">2025-09-17T06:00:00-05:00</startTime>
 				<endTime type="str">2025-09-17T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">93</temperature>
+				<temperature type="int">92</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
@@ -161,7 +161,7 @@
 				<windDirection type="str">ENE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 93. East northeast wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 92. East northeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">7</number>
@@ -174,7 +174,7 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">3</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
 				<windDirection type="str">ESE</windDirection>
@@ -193,13 +193,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">14</value>
+					<value type="int">4</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 6 mph</windSpeed>
-				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
-				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 93. South wind 2 to 6 mph.</detailedForecast>
+				<windSpeed type="str">5 mph</windSpeed>
+				<windDirection type="str">SSE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
+				<shortForecast type="str">Sunny</shortForecast>
+				<detailedForecast type="str">Sunny, with a high near 93. South southeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">9</number>
@@ -212,13 +212,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">31</value>
+					<value type="int">21</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,30?size=medium</icon>
-				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms between 7pm and 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 66. South southwest wind around 5 mph.</detailedForecast>
+				<windSpeed type="str">3 mph</windSpeed>
+				<windDirection type="str">SE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/sct/rain_showers,20?size=medium</icon>
+				<shortForecast type="str">Partly Cloudy then Slight Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A slight chance of rain showers after 1am. Partly cloudy, with a low around 66. Southeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">10</number>
@@ -226,18 +226,18 @@
 				<startTime type="str">2025-09-19T06:00:00-05:00</startTime>
 				<endTime type="str">2025-09-19T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">88</temperature>
+				<temperature type="int">89</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">32</value>
+					<value type="int">31</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 6 mph</windSpeed>
-				<windDirection type="str">WSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,30?size=medium</icon>
+				<windDirection type="str">SSW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,20/tsra_hi,30?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly sunny, with a high near 88. West southwest wind 2 to 6 mph.</detailedForecast>
+				<detailedForecast type="str">A slight chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 89. South southwest wind 2 to 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">11</number>
@@ -245,18 +245,18 @@
 				<startTime type="str">2025-09-19T18:00:00-05:00</startTime>
 				<endTime type="str">2025-09-20T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">64</temperature>
+				<temperature type="int">65</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">36</value>
+					<value type="int">40</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">N</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,40?size=medium</icon>
+				<windDirection type="str">ESE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,30/tsra_sct,40?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms. Partly cloudy, with a low around 64. North wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly cloudy, with a low around 65. East southeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">12</number>
@@ -269,11 +269,11 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">28</value>
+					<value type="int">40</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 6 mph</windSpeed>
 				<windDirection type="str">SSE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,30/tsra_hi,30?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,40/tsra_hi,40?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers</shortForecast>
 				<detailedForecast type="str">A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 84. South southeast wind 2 to 6 mph.</detailedForecast>
 			</item>
@@ -283,18 +283,18 @@
 				<startTime type="str">2025-09-20T18:00:00-05:00</startTime>
 				<endTime type="str">2025-09-21T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">62</temperature>
+				<temperature type="int">63</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">27</value>
+					<value type="int">35</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">SE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,30/tsra_hi,20?size=medium</icon>
+				<windSpeed type="str">3 mph</windSpeed>
+				<windDirection type="str">S</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,40/tsra_hi,30?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms. Partly cloudy, with a low around 62. Southeast wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 1am, then a slight chance of showers and thunderstorms. Partly cloudy, with a low around 63. South wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">14</number>
@@ -302,18 +302,18 @@
 				<startTime type="str">2025-09-21T06:00:00-05:00</startTime>
 				<endTime type="str">2025-09-21T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">82</temperature>
+				<temperature type="int">83</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">18</value>
+					<value type="int">24</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 6 mph</windSpeed>
+				<windSpeed type="str">2 to 7 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,20/tsra_hi,20?size=medium</icon>
-				<shortForecast type="str">Slight Chance Rain Showers then Slight Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers before 7am, then a slight chance of showers and thunderstorms. Mostly sunny, with a high near 82. South southwest wind 2 to 6 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A slight chance of showers and thunderstorms. Mostly sunny, with a high near 83. South southwest wind 2 to 7 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
