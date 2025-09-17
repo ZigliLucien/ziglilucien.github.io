@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1038458/" title="See Description">Systemd v258 released</a></li>
+<li><a href="#https://lwn.net/Articles/1037132/" title="See Description">[$] Providing support for Windows 10 refugees</a></li>
+<li><a href="#https://lwn.net/Articles/1038453/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1036912/" title="See Description">[$] Comparing Rust to Carbon</a></li>
 <li><a href="#https://lwn.net/Articles/1038345/" title="See Description">Firefox 143.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1038326/" title="See Description">Another npm supply-chain attack</a></li>
@@ -50,12 +53,53 @@
 <li><a href="#https://lwn.net/Articles/1038074/" title="See Description">Kernel prepatch 6.17-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1036908/" title="See Description">[$] Creating a healthy kernel subsystem community</a></li>
 <li><a href="#https://lwn.net/Articles/1037919/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1037788/" title="See Description">Six stable kernels patching the VMScape Spectre variant</a></li>
-<li><a href="#https://lwn.net/Articles/1037069/" title="See Description">[$] A policy for Link tags</a></li>
-<li><a href="#https://lwn.net/Articles/1037777/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1038458/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 17 Sep 2025 13:57:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038458/" title="https://lwn.net/Articles/1038458/">Systemd v258 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://github.com/systemd/systemd/releases/tag/v258">Systemd
+v258</a> has been released with a long list of new features and
+changes; slice units now have basic workload management features,
+quotas for tmpfs have been added, the "<tt>systemctl&#160;start</tt>"
+command now has a verbose (<tt>-v</tt>) option, and more. This release
+also, finally, completely removes support for control groups v1
+support. LWN <a href="https://lwn.net/Articles/1028275/">covered</a>
+some of systemd v258's features and changes in August.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1037132/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 17 Sep 2025 13:41:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037132/" title="https://lwn.net/Articles/1037132/">[$] Providing support for Windows 10 refugees</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>In October, consumer versions of Windows&#160;10 will
+stop receiving security updates. Many users who would ordinarily move
+to the next version are blocked by Windows&#160;11's hardware
+requirements unless they are willing to buy a newer PC. The "<a
+href="https://endof10.org/">End of 10</a>" campaign is an effort to
+convince those users to switch to Linux rather than sticking with an
+end-of-life operating system or buying a new Windows system. At
+Akademy&#160;2025, Dr. Joseph De&#160;Veaugh-Geiss,
+Bettina Louis,  Carolina Silva Rodé, and Nicole Teale discussed their
+work on the campaign, its progress so far, and what's next.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1038453/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 17 Sep 2025 13:09:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038453/" title="https://lwn.net/Articles/1038453/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, kernel, and podman), <b>Debian</b> (node-sha.js), <b>Fedora</b> (firefox, kea, and perl-JSON-XS), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-latest-openjdk), <b>Oracle</b> (kernel, libarchive, podman, and python-cryptography), <b>Red Hat</b> (multiple packages, mysql:8.4, and python3.11), <b>SUSE</b> (expat, java-1_8_0-ibm, krb5, libavif, net-tools, nginx, nvidia-open-driver-G06-signed, onefetch, pcp, rabbitmq-server313, raptor, and vim), and <b>Ubuntu</b> (libyang2, linux, linux-aws, linux-aws-5.4, linux-bluefield, linux-gcp,
+ linux-gcp-5.4, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot,
+ linux-kvm, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux-aws-fips, linux-fips, linux-gcp-fips, and python-xmltodict).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1036912/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 16 Sep 2025 16:10:36 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -253,49 +297,6 @@ Source Summit Europe</a>.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (cups, imagemagick, libcpanel-json-xs-perl, and libjson-xs-perl), <b>Fedora</b> (checkpointctl, chromium, civetweb, glycin, kernel, libssh, ruff, rust-secret-service, snapshot, and uv), <b>Mageia</b> (curl), <b>Red Hat</b> (kernel), <b>SUSE</b> (cups, curl, perl-Cpanel-JSON-XS, regionServiceClientConfigAzure, regionServiceClientConfigEC2, regionServiceClientConfigGCE, trivy, and xen), and <b>Ubuntu</b> (cups, node-cipher-base, and qemu).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1037788/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 11 Sep 2025 16:46:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037788/" title="https://lwn.net/Articles/1037788/">Six stable kernels patching the VMScape Spectre variant</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a
-href="https://comsec.ethz.ch/research/microarch/vmscape-exposing-and-exploiting-incomplete-branch-predictor-isolation-in-cloud-environments/">VMScape</a>
-vulnerability is a Spectre variant that "<q>allows a malicious KVM guest to
-leak sensitive information such as encryption/decryption keys from a
-userspace hypervisor such as QEMU</q>".  Greg Kroah-Hartman has announced
-the <a href="https://lwn.net/Articles/1037790/">6.16.7</a>, <a
-href="https://lwn.net/Articles/1037791/">6.12.47</a>, <a
-href="https://lwn.net/Articles/1037792/">6.6.106</a>, <a
-href="https://lwn.net/Articles/1037793/">6.1.152</a>, <a
-href="https://lwn.net/Articles/1037794/">5.15.193</a>, and <a
-href="https://lwn.net/Articles/1037795/">5.10.244</a> stable kernels, which add a
-mitigation for the hardware bug.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1037069/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 11 Sep 2025 15:16:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037069/" title="https://lwn.net/Articles/1037069/">[$] A policy for Link tags</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Git source-code management system stores a lot of information about
-changes to code — but it does not hold everything that might be of interest
-to a developer who needs to investigate a specific change in the future.
-Commits in a repository are the end result of a (sometimes extended)
-discussion; often, that discussion will result in changes to the code that
-are not explained in the changelog.  For some years now, many maintainers
-have followed the convention of applying a Link tag to commits that points
-back to the mailing-list posting of the change.  Linus Torvalds has been
-expressing his dislike for this convention for a while, though, and its
-time appears to be coming to an end.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1037777/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 11 Sep 2025 15:12:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037777/" title="https://lwn.net/Articles/1037777/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (python3.12-cryptography), <b>Debian</b> (chromium, hsqldb1.8.0, and imagemagick), <b>Fedora</b> (bustle, cef, maturin, rust-busd, rust-crypto-auditing-agent, rust-crypto-auditing-client, rust-crypto-auditing-event-broker, rust-monitord, rust-monitord-exporter, rustup, tuigreet, and wireshark), <b>Oracle</b> (kernel, microcode_ctl, and python3.12-cryptography), <b>Red Hat</b> (httpd:2.4 and multiple packages), <b>SUSE</b> (coreutils, curl, dpkg, ffmpeg-4, glib2, gnutls, go1.23-openssl, go1.24-openssl, go1.25-openssl, grub2, ImageMagick, jbigkit, kernel, libxslt, Mesa, opensc, opera, perl-JSON-XS, polkit, postgresql16, protobuf, python311, python311-deepdiff, sqlite3, ucode-intel, and warewulf4), and <b>Ubuntu</b> (bind9 and libxml2).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
