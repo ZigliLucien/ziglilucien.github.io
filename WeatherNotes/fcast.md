@@ -2,24 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of showers and thunderstorms. Partly sunny. High near 89, with temperatures falling to around 87 in the afternoon.
-         West northwest wind around 3 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Today</h3>A slight chance of showers and thunderstorms. Mostly cloudy. High near 89, with temperatures falling to around 87 in the afternoon.
+         Southwest wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms before 4am, then a chance of showers and thunderstorms. Partly cloudy, with a low around
-         65. South southwest wind around 2 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 2am. Partly cloudy, with a low around 65. South southeast wind around 3 mph.
+         Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of showers and thunderstorms before 7am, then a slight chance of showers and thunderstorms. Mostly sunny. High near
-         88, with temperatures falling to around 86 in the afternoon. South southeast wind around 3 mph. Chance of precipitation is
-         30%.<br></div>
+         <h3>Saturday</h3>A slight chance of rain showers before 7am, then a slight chance of showers and thunderstorms. Mostly sunny. High near 88,
+         with temperatures falling to around 86 in the afternoon. South southwest wind 2 to 6 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Saturday Night</h3>A slight chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms between 1am and 4am, then
-         a chance of showers and thunderstorms. Mostly cloudy, with a low around 66. South southwest wind around 2 mph. Chance of precipitation
+         a chance of showers and thunderstorms. Mostly cloudy, with a low around 66. South southwest wind around 5 mph. Chance of precipitation
          is 30%.<br></div>
    </p>
    <p>
