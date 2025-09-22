@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Showers and thunderstorms before 10am, then showers and thunderstorms likely between 10am and 3pm, then showers and thunderstorms
-         between 3pm and 5pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 78. South wind 1 to 9 mph.
+         between 3pm and 5pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 78. South wind 3 to 9 mph.
          Chance of precipitation is 90%.<br></div>
    </p>
    <p>
