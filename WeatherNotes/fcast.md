@@ -2,24 +2,24 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of showers and thunderstorms before 10am, then showers and thunderstorms likely between 10am and 3pm, then showers
-         and thunderstorms between 3pm and 5pm, then a chance of showers and thunderstorms. Mostly cloudy. High near 77, with temperatures
-         falling to around 74 in the afternoon. South wind around 9 mph. Chance of precipitation is 80%.<br></div>
+         <h3>This Afternoon</h3>Showers and thunderstorms likely before 3pm, then showers and thunderstorms between 3pm and 5pm, then a chance of showers
+         and thunderstorms. Mostly cloudy. High near 77, with temperatures falling to around 74 in the afternoon. South southwest wind
+         around 9 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 10pm, then a chance of showers and thunderstorms. Mostly cloudy, with a low around
-         66. South southwest wind 2 to 7 mph. Chance of precipitation is 50%.<br></div>
+         66. South southwest wind 2 to 7 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>A chance of showers and thunderstorms. Mostly cloudy. High near 80, with temperatures falling to around 75 in the afternoon.
-         South southwest wind 2 to 6 mph. Chance of precipitation is 50%.<br></div>
+         South southwest wind 2 to 7 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Rain showers likely before 10pm, then showers and thunderstorms. Mostly cloudy, with a low around 66. South wind around 3
-         mph. Chance of precipitation is 80%.<br></div>
+         <h3>Tuesday Night</h3>Rain showers likely before 10pm, then showers and thunderstorms. Mostly cloudy, with a low around 66. South wind 2 to 6 mph.
+         Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
