@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>Showers and thunderstorms likely before 3am, then a chance of showers and thunderstorms between 3am and 4am, then showers
-         and thunderstorms likely. Cloudy. Low around 65, with temperatures rising to around 67 overnight. South wind around 5 mph.
-         Chance of precipitation is 70%.<br></div>
+         and thunderstorms likely. Cloudy. Low around 65, with temperatures rising to around 67 overnight. South southwest wind around
+         5 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
