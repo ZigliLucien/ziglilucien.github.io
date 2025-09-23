@@ -2,25 +2,25 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Widespread fog before 9am, then a chance of rain showers between 10am and 1pm, then a chance of showers and thunderstorms
-         between 1pm and 2pm, then showers and thunderstorms likely. Mostly cloudy. High near 81, with temperatures falling to around
-         75 in the afternoon. South southwest wind 2 to 7 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Today</h3>A chance of showers and thunderstorms between noon and 3pm, then showers and thunderstorms likely. Mostly cloudy. High near
+         81, with temperatures falling to around 75 in the afternoon. South wind around 7 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms before 7pm, then showers and thunderstorms. Some of the storms could produce heavy rain.
-         Mostly cloudy. Low around 66, with temperatures rising to around 68 overnight. South wind 3 to 7 mph. Chance of precipitation
-         is 80%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 11pm, then showers and thunderstorms between 11pm and 3am, then a chance of showers
+         and thunderstorms between 3am and 4am, then a chance of showers and thunderstorms. Some of the storms could produce heavy
+         rain. Mostly cloudy. Low around 66, with temperatures rising to around 68 overnight. South wind around 6 mph. Chance of precipitation
+         is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy. High near 77, with temperatures falling
-         to around 75 in the afternoon. West southwest wind around 8 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Wednesday</h3>Showers and thunderstorms likely. Mostly cloudy. High near 77, with temperatures falling to around 75 in the afternoon. West
+         wind around 6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 62. Northwest wind around 7 mph. Chance of precipitation
-         is 70%.<br></div>
+         <h3>Wednesday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 62. Northwest wind around 6 mph. Chance of precipitation
+         is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
