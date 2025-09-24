@@ -2,21 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Scattered showers and thunderstorms before 1pm, then scattered showers and thunderstorms. Cloudy. High near 74, with temperatures
-         falling to around 71 in the afternoon. North northwest wind around 5 mph. Chance of precipitation is 50%.<br></div>
+         <h3>This Afternoon</h3>A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms between 1pm and 5pm, then showers
+         and thunderstorms likely. Cloudy. High near 72, with temperatures falling to around 69 in the afternoon. North wind around
+         6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Scattered showers and thunderstorms before 10pm, then scattered showers and thunderstorms. Mostly cloudy, with a low around
-         62. North wind around 6 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Tonight</h3>Showers and thunderstorms likely before 7pm, then a chance of showers and thunderstorms between 7pm and 10pm, then a chance
+         of showers and thunderstorms. Mostly cloudy. Low around 62, with temperatures rising to around 64 overnight. North wind around
+         5 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Mostly sunny. High near 74, with temperatures falling to around 72 in the afternoon. North northwest wind 6 to 10 mph.<br></div>
+         <h3>Thursday</h3>Mostly sunny. High near 77, with temperatures falling to around 74 in the afternoon. North northwest wind 5 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 55. North northwest wind 2 to 7 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly clear, with a low around 54. North northwest wind 2 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

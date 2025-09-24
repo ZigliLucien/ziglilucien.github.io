@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1036924/" title="See Description">[$] Canceling asynchronous Rust</a></li>
+<li><a href="#https://lwn.net/Articles/1037974/" title="See Description">[$] CHERI with a Linux on top</a></li>
 <li><a href="#https://lwn.net/Articles/1039311/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1039127/" title="See Description">Open Infrastructure is Not Free: A Joint Statement on Sustainable Stewardship</a></li>
 <li><a href="#https://lwn.net/Articles/1038699/" title="See Description">[$] An unstable Debian stable update</a></li>
@@ -51,11 +53,48 @@
 <li><a href="#https://lwn.net/Articles/1036262/" title="See Description">[$] Blender 4.5 brings big changes</a></li>
 <li><a href="#https://lwn.net/Articles/1038802/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1038235/" title="See Description">[$] Extending the time-slice-extension discussion</a></li>
-<li><a href="#https://lwn.net/Articles/1038649/" title="See Description">Rust 1.90.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1038638/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1036924/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 24 Sep 2025 15:15:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1036924/" title="https://lwn.net/Articles/1036924/">[$] Canceling asynchronous Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Asynchronous Rust code has what Rain Paharia calls a "<q>universal cancellation
+protocol</q>", meaning that any asynchronous code can be interrupted in the same
+way. They claim
+that this is both a useful feature when used deliberately, and a source of
+errors when done by accident. They presented
+about this problem at
+<a href="https://rustconf.com/">
+RustConf&#160;2025</a>, offering a handful of techniques to avoid introducing bugs into
+asynchronous Rust code.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1037974/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 24 Sep 2025 14:09:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1037974/" title="https://lwn.net/Articles/1037974/">[$] CHERI with a Linux on top</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/">Capability
+Hardware Enhanced RISC Instructions</a> (CHERI) project is a rethinking of
+computer architecture in order to improve system security.  Carl Shaw gave
+a presentation at
+<a
+href="https://events.linuxfoundation.org/linux-security-summit-europe/">Linux
+Security Summit Europe</a> (LSS EU) about CHERI and the efforts to get
+Linux running on it.  He introduced <a
+href="https://en.wikipedia.org/wiki/Capability-based_security">capabilities</a>,
+which are a mechanism for access control, and outlined their
+history, which goes back many decades at this point, then looked more
+specifically at the CHERI project and what it will take to apply the
+<a href="https://lwn.net/Articles/909265/">security constraints of capabilities</a> to an operating system like Linux.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1039311/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 24 Sep 2025 13:18:11 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -228,26 +267,6 @@ attempt at time-slice extension is Thomas Gleixner, who has posted <a
 href="https://lwn.net/ml/all/20250908225709.144709889@linutronix.de">a new patch set</a>
 with a reworked API.  Chances are good that this implementation is close to
 what will actually be adopted by the kernel.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1038649/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 18 Sep 2025 14:56:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038649/" title="https://lwn.net/Articles/1038649/">Rust 1.90.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2025/09/18/Rust-1.90.0/">Version
-1.90.0</a> of the Rust language has been released.  Changes include
-switching to the <a href="https://lld.llvm.org/">LLD linker</a> by default,
-the addition of support for workspace publishing to <tt>cargo</tt>, and the
-usual set of stabilized APIs.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1038638/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 18 Sep 2025 14:28:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038638/" title="https://lwn.net/Articles/1038638/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gnutls, mysql:8.4, opentelemetry-collector, and python-cryptography), <b>Debian</b> (nextcloud-desktop), <b>Fedora</b> (chromium, firefox, forgejo, gitleaks, kernel, kernel-headers, lemonldap-ng, perl-Cpanel-JSON-XS, and python-pip), <b>Red Hat</b> (firefox and libxml2), <b>Slackware</b> (expat and mozilla), <b>SUSE</b> (avahi, bluez, cups, curl, firefox-esr, gdk-pixbuf, gstreamer, java-1_8_0-ibm, krb5, net-tools, podman, raptor, sevctl, tkimg, ucode-intel, and vim), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-gcp,
- linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux-fips, linux-azure-fips, linux-gcp-fips, and linux-gcp-6.14, linux-oracle, linux-oracle-6.14).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
