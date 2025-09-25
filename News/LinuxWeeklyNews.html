@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1039612/" title="See Description">Cuni: Tracing JITs in the real world @ CPython Core Dev Sprint</a></li>
 <li><a href="#https://lwn.net/Articles/1038715/" title="See Description">[$] The phaseout of the mmap() file operation</a></li>
 <li><a href="#https://lwn.net/Articles/1039603/" title="See Description">Fedora considers an AI-tool policy</a></li>
 <li><a href="#https://lwn.net/Articles/1039533/" title="See Description">Four stable kernels released</a></li>
@@ -52,10 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1039124/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1039071/" title="See Description">RPM 6.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1038523/" title="See Description">[$] Revocable references for transient devices</a></li>
-<li><a href="#https://lwn.net/Articles/1039053/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1039612/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 25 Sep 2025 19:13:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039612/" title="https://lwn.net/Articles/1039612/">Cuni: Tracing JITs in the real world @ CPython Core Dev Sprint</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Longtime <a href="https://pypy.org/">PyPy</a> developer Antonio Cuni has a
+<a
+href="https://antocuni.eu/2025/09/24/tracing-jits-in-the-real-world--cpython-core-dev-sprint/">lengthy
+blog post</a> that describes his talk at the recently completed 
+<a
+href="https://www.linkedin.com/posts/diegor_yesterday-we-wrapped-up-thecpython-core-activity-7375230888177057792-GezI">2025
+CPython
+Core Dev Sprint</a>, held at Arm in Cambridge, UK.  The talk, entitled
+"Tracing JIT and real world Python — aka: what we can learn from PyPy" was
+meant to try to pass on some of his experiences "<q>optimizing existing
+code for PyPy at a high-frequency trading firm</q>" to the
+developers working on the <a
+href="https://lwn.net/Archives/PythonIndex/#JIT">CPython JIT compiler</a>.  His goal was
+to raise awareness of some of the problems he encountered:
+
+<blockquote class="bq">
+Until now CPython's performance has been particularly predictable, there are well established "performance tricks" to make code faster, and generally speaking you can mostly reason about the speed of a given piece of code "locally".
+<p>
+Adding a JIT completely changes how we reason about performance of a given program, for two reasons:
+<ol class="spacylist">
+    <li>JITted code can be very fast if your code conforms to the heuristics applied by the JIT compiler, but unexpectedly slow(-ish) otherwise;
+
+    <li>the speed of a given piece of code might depend heavily on what
+    happens elsewhere in the program, making it much harder to reason about
+    performance locally.
+</ol>
+<p>
+The end result is that modifying a line of code can significantly impact seemingly unrelated code. This effect becomes more pronounced as the JIT becomes more sophisticated.
+</blockquote>
+
+
+<p>
+Cuni also gave a talk on Python performance, which LWN <a href="https://lwn.net/Articles/1031707/">covered</a>, at
+EuroPython 2025 in July.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1038715/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 25 Sep 2025 16:48:55 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -283,14 +323,6 @@ href="https://lwn.net/ml/all/20250912081718.3827390-1-tzungbi@kernel.org">revoca
 resource management patch set</a> from Tzung-Bi Shih is meant to help with
 the creation of more robust — and more secure — kernel subsystems in a
 dynamic world.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1039053/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 22 Sep 2025 13:59:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039053/" title="https://lwn.net/Articles/1039053/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ffmpeg, jetty12, jetty9, jq, and pam), <b>Fedora</b> (curl, libssh, podman-tui, and prometheus-podman-exporter), <b>Oracle</b> (firefox, gnutls, kernel, and thunderbird), and <b>SUSE</b> (bluez, cairo, chromium, cmake, cups, firefox, frr, govulncheck-vulndb, kernel, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, mariadb, mybatis, ognl, python-h2, and rke2).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
