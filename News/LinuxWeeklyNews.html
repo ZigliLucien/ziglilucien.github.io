@@ -38,6 +38,11 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1038715/" title="See Description">[$] The phaseout of the mmap() file operation</a></li>
+<li><a href="#https://lwn.net/Articles/1039603/" title="See Description">Fedora considers an AI-tool policy</a></li>
+<li><a href="#https://lwn.net/Articles/1039533/" title="See Description">Four stable kernels released</a></li>
+<li><a href="#https://lwn.net/Articles/1039528/" title="See Description">Security updates for Thursday</a></li>
+<li><a href="#https://lwn.net/Articles/1039483/" title="See Description">PostgreSQL 18 released</a></li>
 <li><a href="#https://lwn.net/Articles/1038643/" title="See Description">[$] LWN.net Weekly Edition for September 25, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1036924/" title="See Description">[$] Canceling asynchronous Rust</a></li>
 <li><a href="#https://lwn.net/Articles/1037974/" title="See Description">[$] CHERI with a Linux on top</a></li>
@@ -48,14 +53,98 @@
 <li><a href="#https://lwn.net/Articles/1039071/" title="See Description">RPM 6.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1038523/" title="See Description">[$] Revocable references for transient devices</a></li>
 <li><a href="#https://lwn.net/Articles/1039053/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1038976/" title="See Description">Kernel prepatch 6.17-rc7</a></li>
-<li><a href="#https://lwn.net/Articles/1038847/" title="See Description">[$] Multiple kernels on a single system</a></li>
-<li><a href="#https://lwn.net/Articles/1038840/" title="See Description">Four Friday stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1036262/" title="See Description">[$] Blender 4.5 brings big changes</a></li>
-<li><a href="#https://lwn.net/Articles/1038802/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1038715/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 25 Sep 2025 16:48:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038715/" title="https://lwn.net/Articles/1038715/">[$] The phaseout of the mmap() file operation</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://elixir.bootlin.com/linux/v6.16.7/source/include/linux/fs.h#L2151"><tt>file_operations</tt></a>
+structure in the kernel is a set of function pointers implementing, as the
+name would suggest, operations on files.  A subsystem that manages objects
+which can be represented by a file descriptor will provide a
+<tt>file_operations</tt> structure providing implementations of the various
+operations that a user of the file descriptor may want to carry out.  The
+<tt>mmap()</tt> method, in particular, is invoked when user space calls the
+<a
+href="https://man7.org/linux/man-pages/man2/mmap.2.html"><tt>mmap()</tt></a>
+system call to map the object behind a file descriptor into its address
+space.  That method, though, is currently on its way out in a multi-release
+process that started in 6.17.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1039603/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 25 Sep 2025 16:43:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039603/" title="https://lwn.net/Articles/1039603/">Fedora considers an AI-tool policy</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Fedora project has posted <a
+href="https://communityblog.fedoraproject.org/council-policy-proposal-policy-on-ai-assisted-contributions/">a
+proposal</a> for a policy regarding the use of AI tools when developing for
+the distribution.
+<p>
+<blockquote class="bq">
+	<b>You are responsible for your contributions</b>. AI-generated
+	content must be treated as a suggestion, not as final code or
+	text. It is your responsibility to review, test, and understand
+	everything you submit. Submitting unverified or low-quality
+	machine-generated content (sometimes called "AI slop") creates an
+	unfair review burden on the community and is not an acceptable
+	contribution.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1039533/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 25 Sep 2025 14:58:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039533/" title="https://lwn.net/Articles/1039533/">Four stable kernels released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1039534/">6.16.9</a>, <a
+href="https://lwn.net/Articles/1039535/">6.12.49</a>, <a
+href="https://lwn.net/Articles/1039536/">6.6.108</a>, and <a
+href="https://lwn.net/Articles/1039537/">6.1.154</a> stable kernels have been released.
+As usual, they all contain important fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1039528/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 25 Sep 2025 14:39:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039528/" title="https://lwn.net/Articles/1039528/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (grub2 and kernel), <b>Debian</b> (chromium and libxslt), <b>Fedora</b> (chromium, expat, libssh, and webkitgtk), <b>Oracle</b> (avahi, firefox, ImageMagick, kernel, libtpms, and mysql), <b>Red Hat</b> (kernel), <b>SUSE</b> (bird3, expat, kernel, and tiff), and <b>Ubuntu</b> (dpkg, gnuplot, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle, linux-raspi, linux-riscv-5.15, linux-xilinx-zynqmp, linux, linux-aws, linux-gcp, linux-gcp-6.14, linux-oracle, linux-realtime, linux-riscv, linux-riscv-6.14, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-azure-fips, linux-ibm, linux-ibm-6.8, linux-intel-iot-realtime, linux-realtime, linux-oem-6.14, linux-oracle-5.15, linux-realtime-6.14, and python-eventlet).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1039483/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 25 Sep 2025 14:08:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039483/" title="https://lwn.net/Articles/1039483/">PostgreSQL 18 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://www.postgresql.org/about/news/postgresql-18-released-3142/">Version
+18</a> of the PostgreSQL database has been released. Notable
+improvements in this release include "skip scan" lookups for
+multicolumn B-tree indexes, <a
+href="https://www.postgresql.org/docs/18/sql-createtable.html#SQL-CREATETABLE-PARMS-GENERATED-STORED">virtual
+generated columns</a>, better text processing, <a
+href="https://www.postgresql.org/docs/18/auth-oauth.html">oauth
+authentication</a>, and a new asynchronous I/O (AIO) subsystem to improve
+performance:</p>
+
+<blockquote class="bq">
+AIO lets PostgreSQL issue multiple I/O requests concurrently instead
+of waiting for each to finish in sequence. This expands existing
+readahead and improves overall throughput. AIO operations supported in
+PostgreSQL 18 include sequential scans, bitmap heap scans, and
+vacuum. Benchmarking has demonstrated performance gains of up to 3x in
+certain scenarios.
+</blockquote>
+
+<p>There are, of course, many other improvements and changes; see the
+<a href="https://www.postgresql.org/docs/18/release-18.html">release
+notes</a> for full details.</p>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1038643/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 25 Sep 2025 02:01:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -202,70 +291,6 @@ dynamic world.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ffmpeg, jetty12, jetty9, jq, and pam), <b>Fedora</b> (curl, libssh, podman-tui, and prometheus-podman-exporter), <b>Oracle</b> (firefox, gnutls, kernel, and thunderbird), and <b>SUSE</b> (bluez, cairo, chromium, cmake, cups, firefox, frr, govulncheck-vulndb, kernel, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, mariadb, mybatis, ognl, python-h2, and rke2).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1038976/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 21 Sep 2025 22:28:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038976/" title="https://lwn.net/Articles/1038976/">Kernel prepatch 6.17-rc7</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1038975/">6.17-rc7</a> for testing.
-"<q>Let's keep the testing going, and we'll have the final 6.17 in a
-week</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1038847/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 19 Sep 2025 19:14:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038847/" title="https://lwn.net/Articles/1038847/">[$] Multiple kernels on a single system</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Linux kernel generally wants to be in charge of the system as a whole;
-it runs on all of the available CPUs and controls access to them globally.
-Cong Wang has just come forward with <a
-href="https://lwn.net/ml/all/20250918222607.186488-1-xiyou.wangcong@gmail.com">a different
-approach</a>: allowing each CPU to run its own kernel.  The patch set is in
-an early form, but it gives a hint for what might be possible.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1038840/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 19 Sep 2025 15:13:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038840/" title="https://lwn.net/Articles/1038840/">Four Friday stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1038841/">6.16.8</a>, <a
-href="https://lwn.net/Articles/1038842/">6.12.48</a>, <a
-href="https://lwn.net/Articles/1038843/">6.6.107</a>, and <a
-href="https://lwn.net/Articles/1038844/">6.1.153</a> stable kernels; each
-contains an important set of fixes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1036262/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 19 Sep 2025 13:55:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1036262/" title="https://lwn.net/Articles/1036262/">[$] Blender 4.5 brings big changes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://blender.org/">Blender</a> 4.5 LTS <a
-href="https://www.blender.org/download/releases/4-5/">was released</a>
-on July 15, 2025, and will be supported through 2027. This is the last
-feature release of the 3D graphics-creation suite's 4.x series; it
-includes quality-of-life improvements, including work to bring the <a
-href="https://en.wikipedia.org/wiki/Vulkan">Vulkan</a> backend up to
-par with the default OpenGL backend. With 4.5 released, Blender
-developers are turning their attention toward Blender 5.0, planned for
-release later this year. It will introduce substantial changes,
-particularly in the <a
-href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html">Geometry
-Nodes</a> system, a central feature of Blender's procedural
-workflows.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1038802/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 19 Sep 2025 13:10:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038802/" title="https://lwn.net/Articles/1038802/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, cjson, and firefox-esr), <b>Fedora</b> (expat, gh, scap-security-guide, and xen), <b>Oracle</b> (container-tools:rhel8, firefox, grub2, and mysql:8.4), <b>SUSE</b> (busybox, busybox-links, element-web, kernel, shadowsocks-v2ray-plugin, and yt-dlp), and <b>Ubuntu</b> (imagemagick, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-hwe-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oracle, linux-azure, linux-azure-5.15, linux-azure-fips, linux-ibm, linux-ibm-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-raspi, linux-oracle-6.8, linux-realtime, and openjpeg2).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
