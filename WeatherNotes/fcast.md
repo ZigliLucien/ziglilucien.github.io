@@ -6,7 +6,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Patchy fog after 3am. Clear. Low around 56, with temperatures rising to around 58 overnight. South southeast wind around 2
+         <h3>Tonight</h3>Patchy fog after 3am. Clear. Low around 56, with temperatures rising to around 58 overnight. South southeast wind around 1
          mph.<br></div>
    </p>
    <p>
