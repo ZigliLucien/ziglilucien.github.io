@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1040152/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1040120/" title="See Description">Bcachefs removed from the mainline kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1038358/" title="See Description">[$] Development statistics for 6.17</a></li>
 <li><a href="#https://lwn.net/Articles/1040059/" title="See Description">NixOS moderation team resigns</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1039603/" title="See Description">Fedora considers an AI-tool policy</a></li>
 <li><a href="#https://lwn.net/Articles/1039533/" title="See Description">Four stable kernels released</a></li>
 <li><a href="#https://lwn.net/Articles/1039528/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1039483/" title="See Description">PostgreSQL 18 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1040152/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 30 Sep 2025 09:10:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1040152/" title="https://lwn.net/Articles/1040152/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (python-internetarchive and tiff), <b>Fedora</b> (nextcloud), <b>Oracle</b> (kernel, openssh, and squid), <b>Red Hat</b> (kernel, kernel-rt, and ncurses), <b>SUSE</b> (afterburn and chromium), and <b>Ubuntu</b> (open-vm-tools, ruby-rack, and tiff).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1040120/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 30 Sep 2025 07:10:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -339,36 +347,6 @@ As usual, they all contain important fixes throughout the kernel tree.</blockquo
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (grub2 and kernel), <b>Debian</b> (chromium and libxslt), <b>Fedora</b> (chromium, expat, libssh, and webkitgtk), <b>Oracle</b> (avahi, firefox, ImageMagick, kernel, libtpms, and mysql), <b>Red Hat</b> (kernel), <b>SUSE</b> (bird3, expat, kernel, and tiff), and <b>Ubuntu</b> (dpkg, gnuplot, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle, linux-raspi, linux-riscv-5.15, linux-xilinx-zynqmp, linux, linux-aws, linux-gcp, linux-gcp-6.14, linux-oracle, linux-realtime, linux-riscv, linux-riscv-6.14, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-azure-fips, linux-ibm, linux-ibm-6.8, linux-intel-iot-realtime, linux-realtime, linux-oem-6.14, linux-oracle-5.15, linux-realtime-6.14, and python-eventlet).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1039483/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Sep 2025 14:08:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039483/" title="https://lwn.net/Articles/1039483/">PostgreSQL 18 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://www.postgresql.org/about/news/postgresql-18-released-3142/">Version
-18</a> of the PostgreSQL database has been released. Notable
-improvements in this release include "skip scan" lookups for
-multicolumn B-tree indexes, <a
-href="https://www.postgresql.org/docs/18/sql-createtable.html#SQL-CREATETABLE-PARMS-GENERATED-STORED">virtual
-generated columns</a>, better text processing, <a
-href="https://www.postgresql.org/docs/18/auth-oauth.html">oauth
-authentication</a>, and a new asynchronous I/O (AIO) subsystem to improve
-performance:</p>
-
-<blockquote class="bq">
-AIO lets PostgreSQL issue multiple I/O requests concurrently instead
-of waiting for each to finish in sequence. This expands existing
-readahead and improves overall throughput. AIO operations supported in
-PostgreSQL 18 include sequential scans, bitmap heap scans, and
-vacuum. Benchmarking has demonstrated performance gains of up to 3x in
-certain scenarios.
-</blockquote>
-
-<p>There are, of course, many other improvements and changes; see the
-<a href="https://www.postgresql.org/docs/18/release-18.html">release
-notes</a> for full details.</p>
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
