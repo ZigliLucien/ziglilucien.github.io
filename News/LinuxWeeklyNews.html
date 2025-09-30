@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1040236/" title="See Description">Radicle 1.5.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1038750/" title="See Description">[$] Linting Rust code in the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1040152/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1040120/" title="See Description">Bcachefs removed from the mainline kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1038358/" title="See Description">[$] Development statistics for 6.17</a></li>
@@ -51,11 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1039612/" title="See Description">Cuni: Tracing JITs in the real world @ CPython Core Dev Sprint</a></li>
 <li><a href="#https://lwn.net/Articles/1038715/" title="See Description">[$] The phaseout of the mmap() file operation</a></li>
 <li><a href="#https://lwn.net/Articles/1039603/" title="See Description">Fedora considers an AI-tool policy</a></li>
-<li><a href="#https://lwn.net/Articles/1039533/" title="See Description">Four stable kernels released</a></li>
-<li><a href="#https://lwn.net/Articles/1039528/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1040236/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 30 Sep 2025 19:54:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1040236/" title="https://lwn.net/Articles/1040236/">Radicle 1.5.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a
+href="https://radicle.xyz/2025/09/30/radicle-1.5.0">Version 1.5.0</a>
+of the Radicle peer-to-peer Git collaboration platform has been
+released. This release includes better support for bare repositories,
+structured logging, and improvements in the output of <tt>rad patch
+show</tt>:</p>
+
+<blockquote class="bq">
+The previous output would differentiate "updates", where the original
+author creates a new revision, and "revisions", where another author
+creates a revision. This could be confusing since updates are also
+revisions. Instead, the output shows a timeline of the root of the
+patch and each new revision, without any differentiation. The revision
+identifiers, head commit of the revision, and author are still printed
+as per usual.
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/966869/">covered</a> Radicle
+in March 2024.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1038750/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 30 Sep 2025 17:22:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038750/" title="https://lwn.net/Articles/1038750/">[$] Linting Rust code in the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://github.com/Rust-for-Linux/klint?tab=readme-ov-file#klint">
+Klint</a> is a Rust compiler extension
+<a href="https://lwn.net/Articles/951550/">
+developed by Gary Guo</a> to run some
+kernel-specific lint rules, which may also be useful for embedded system
+development. He spoke about his
+recent work on the project at
+<a href="https://kangrejos.com/">
+Kangrejos 2025</a>. The next day, Alejandra González
+led a discussion about Rust's normal linter,
+<a href="https://doc.rust-lang.org/stable/clippy/index.html">
+Clippy</a>. The two tools offer complementary approaches to analyzing Rust
+kernel code, although both need some additional direction and support from
+kernel developers to reach their full potential.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1040152/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 30 Sep 2025 09:10:54 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -328,25 +378,6 @@ the distribution.
 	unfair review burden on the community and is not an acceptable
 	contribution.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1039533/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Sep 2025 14:58:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039533/" title="https://lwn.net/Articles/1039533/">Four stable kernels released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1039534/">6.16.9</a>, <a
-href="https://lwn.net/Articles/1039535/">6.12.49</a>, <a
-href="https://lwn.net/Articles/1039536/">6.6.108</a>, and <a
-href="https://lwn.net/Articles/1039537/">6.1.154</a> stable kernels have been released.
-As usual, they all contain important fixes throughout the kernel tree.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1039528/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Sep 2025 14:39:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039528/" title="https://lwn.net/Articles/1039528/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (grub2 and kernel), <b>Debian</b> (chromium and libxslt), <b>Fedora</b> (chromium, expat, libssh, and webkitgtk), <b>Oracle</b> (avahi, firefox, ImageMagick, kernel, libtpms, and mysql), <b>Red Hat</b> (kernel), <b>SUSE</b> (bird3, expat, kernel, and tiff), and <b>Ubuntu</b> (dpkg, gnuplot, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle, linux-raspi, linux-riscv-5.15, linux-xilinx-zynqmp, linux, linux-aws, linux-gcp, linux-gcp-6.14, linux-oracle, linux-realtime, linux-riscv, linux-riscv-6.14, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-azure-fips, linux-ibm, linux-ibm-6.8, linux-intel-iot-realtime, linux-realtime, linux-oem-6.14, linux-oracle-5.15, linux-realtime-6.14, and python-eventlet).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
