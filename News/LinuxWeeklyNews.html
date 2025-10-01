@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1039623/" title="See Description">[$] Fedora floats AI-assisted contributions policy</a></li>
 <li><a href="#https://lwn.net/Articles/1040375/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1040323/" title="See Description">OpenSUSE Leap 16 released</a></li>
 <li><a href="#https://lwn.net/Articles/1040236/" title="See Description">Radicle 1.5.0 released</a></li>
@@ -52,10 +53,26 @@
 <li><a href="#https://lwn.net/Articles/1038266/" title="See Description">The 6.17 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1019688/" title="See Description">[$] Jumping into openSUSE Leap 16</a></li>
 <li><a href="#https://lwn.net/Articles/1039749/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1039612/" title="See Description">Cuni: Tracing JITs in the real world @ CPython Core Dev Sprint</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1039623/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 01 Oct 2025 14:06:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039623/" title="https://lwn.net/Articles/1039623/">[$] Fedora floats AI-assisted contributions policy</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://docs.fedoraproject.org/en-US/council/">Fedora 
+Council</a> began a process to create a policy on AI-assisted
+contributions in 2024, starting with a survey to ask the community
+its opinions about AI and using AI technologies in Fedora. On
+September&#160;25, Jason Brooks <a
+href="https://communityblog.fedoraproject.org/council-policy-proposal-policy-on-ai-assisted-contributions/">published</a>
+a draft policy for discussion; so far, in keeping with the spirit of
+compromise, it has something to make everyone unhappy. For some it is
+too AI-friendly, while others have complained that it holds Fedora
+back from experimenting with AI tooling.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1040375/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 01 Oct 2025 13:13:26 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -325,46 +342,6 @@ through 2031.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, kernel, and thunderbird), <b>Debian</b> (ceph and thunderbird), <b>Fedora</b> (chromium, mingw-expat, python-deepdiff, python-orderly-set, python-pip, rust-az-cvm-vtpm, rust-az-snp-vtpm, rust-az-tdx-vtpm, and trustee-guest-components), <b>Oracle</b> (aide, kernel, and thunderbird), <b>Red Hat</b> (firefox, kernel, openssh, perl-YAML-LibYAML, and thunderbird), <b>Slackware</b> (expat), <b>SUSE</b> (jasper, libssh, openjpeg2, and python-pycares), and <b>Ubuntu</b> (linux-aws-6.14, linux-hwe-6.14, linux-azure, linux-hwe-6.8, linux-realtime-6.8, node-sha.js, and pcre2).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1039612/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Sep 2025 19:13:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039612/" title="https://lwn.net/Articles/1039612/">Cuni: Tracing JITs in the real world @ CPython Core Dev Sprint</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Longtime <a href="https://pypy.org/">PyPy</a> developer Antonio Cuni has a
-<a
-href="https://antocuni.eu/2025/09/24/tracing-jits-in-the-real-world--cpython-core-dev-sprint/">lengthy
-blog post</a> that describes his talk at the recently completed 
-<a
-href="https://www.linkedin.com/posts/diegor_yesterday-we-wrapped-up-thecpython-core-activity-7375230888177057792-GezI">2025
-CPython
-Core Dev Sprint</a>, held at Arm in Cambridge, UK.  The talk, entitled
-"Tracing JIT and real world Python — aka: what we can learn from PyPy" was
-meant to try to pass on some of his experiences "<q>optimizing existing
-code for PyPy at a high-frequency trading firm</q>" to the
-developers working on the <a
-href="https://lwn.net/Archives/PythonIndex/#JIT">CPython JIT compiler</a>.  His goal was
-to raise awareness of some of the problems he encountered:
-
-<blockquote class="bq">
-Until now CPython's performance has been particularly predictable, there are well established "performance tricks" to make code faster, and generally speaking you can mostly reason about the speed of a given piece of code "locally".
-<p>
-Adding a JIT completely changes how we reason about performance of a given program, for two reasons:
-<ol class="spacylist">
-    <li>JITted code can be very fast if your code conforms to the heuristics applied by the JIT compiler, but unexpectedly slow(-ish) otherwise;
-
-    <li>the speed of a given piece of code might depend heavily on what
-    happens elsewhere in the program, making it much harder to reason about
-    performance locally.
-</ol>
-<p>
-The end result is that modifying a line of code can significantly impact seemingly unrelated code. This effect becomes more pronounced as the JIT becomes more sophisticated.
-</blockquote>
-
-
-<p>
-Cuni also gave a talk on Python performance, which LWN <a href="https://lwn.net/Articles/1031707/">covered</a>, at
-EuroPython 2025 in July.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
