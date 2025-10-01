@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1040375/" title="See Description">Security updates for Wednesday</a></li>
+<li><a href="#https://lwn.net/Articles/1040323/" title="See Description">OpenSUSE Leap 16 released</a></li>
 <li><a href="#https://lwn.net/Articles/1040236/" title="See Description">Radicle 1.5.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1038750/" title="See Description">[$] Linting Rust code in the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1040152/" title="See Description">Security updates for Tuesday</a></li>
@@ -51,11 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1019688/" title="See Description">[$] Jumping into openSUSE Leap 16</a></li>
 <li><a href="#https://lwn.net/Articles/1039749/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1039612/" title="See Description">Cuni: Tracing JITs in the real world @ CPython Core Dev Sprint</a></li>
-<li><a href="#https://lwn.net/Articles/1038715/" title="See Description">[$] The phaseout of the mmap() file operation</a></li>
-<li><a href="#https://lwn.net/Articles/1039603/" title="See Description">Fedora considers an AI-tool policy</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1040375/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 01 Oct 2025 13:13:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1040375/" title="https://lwn.net/Articles/1040375/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, mysql:8.0, and openssh), <b>Debian</b> (libcommons-lang-java, libcommons-lang3-java, libcpanel-json-xs-perl, libjson-xs-perl, libxml2, open-vm-tools, and u-boot), <b>Fedora</b> (bird, dnsdist, mapserver, ntpd-rs, python-nh3, and rust-ammonia), <b>Oracle</b> (kernel and mysql:8.0), <b>Red Hat</b> (cups, postgresql:12, and postgresql:13), <b>SUSE</b> (cJSON-devel, gimp, kernel-devel, kubecolor, open-vm-tools, openssl-1_1, openssl-3, and ruby3.4-rubygem-rack), and <b>Ubuntu</b> (linux-azure-5.15 and openssl, openssl1.0).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1040323/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 01 Oct 2025 13:01:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1040323/" title="https://lwn.net/Articles/1040323/">OpenSUSE Leap 16 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://news.opensuse.org/2025/10/01/next-chapter-opens-with-leap-release/">openSUSE
+Leap 16 release</a> is now available.
+<p>
+<blockquote class="bq">
+	This major version update of our fixed-release community-Linux
+	distribution has a fresh software stack and introduces an unmatched
+	maintenance- and security-support cycle, a new installer and
+	simplified migration options.
+</blockquote>
+<p>
+See <a href="https://lwn.net/Articles/1019688/">our look at this release</a> for more
+information.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1040236/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 30 Sep 2025 19:54:48 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -338,46 +365,6 @@ The end result is that modifying a line of code can significantly impact seeming
 <p>
 Cuni also gave a talk on Python performance, which LWN <a href="https://lwn.net/Articles/1031707/">covered</a>, at
 EuroPython 2025 in July.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1038715/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Sep 2025 16:48:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1038715/" title="https://lwn.net/Articles/1038715/">[$] The phaseout of the mmap() file operation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a
-href="https://elixir.bootlin.com/linux/v6.16.7/source/include/linux/fs.h#L2151"><tt>file_operations</tt></a>
-structure in the kernel is a set of function pointers implementing, as the
-name would suggest, operations on files.  A subsystem that manages objects
-which can be represented by a file descriptor will provide a
-<tt>file_operations</tt> structure providing implementations of the various
-operations that a user of the file descriptor may want to carry out.  The
-<tt>mmap()</tt> method, in particular, is invoked when user space calls the
-<a
-href="https://man7.org/linux/man-pages/man2/mmap.2.html"><tt>mmap()</tt></a>
-system call to map the object behind a file descriptor into its address
-space.  That method, though, is currently on its way out in a multi-release
-process that started in 6.17.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1039603/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Sep 2025 16:43:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039603/" title="https://lwn.net/Articles/1039603/">Fedora considers an AI-tool policy</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Fedora project has posted <a
-href="https://communityblog.fedoraproject.org/council-policy-proposal-policy-on-ai-assisted-contributions/">a
-proposal</a> for a policy regarding the use of AI tools when developing for
-the distribution.
-<p>
-<blockquote class="bq">
-	<b>You are responsible for your contributions</b>. AI-generated
-	content must be treated as a suggestion, not as final code or
-	text. It is your responsibility to review, test, and understand
-	everything you submit. Submitting unverified or low-quality
-	machine-generated content (sometimes called "AI slop") creates an
-	unfair review burden on the community and is not an acceptable
-	contribution.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
