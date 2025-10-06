@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of rain showers between 11am and 1pm, then showers and thunderstorms likely. Mostly cloudy. High near 77,
-         with temperatures falling to around 73 in the afternoon. South southeast wind 2 to 7 mph. Chance of precipitation is 60%.<br></div>
+         with temperatures falling to around 73 in the afternoon. South southeast wind around 7 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
