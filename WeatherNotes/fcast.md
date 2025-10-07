@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Patchy fog and showers and thunderstorms likely before 11am, then a slight chance of showers and thunderstorms between 11am
-         and 5pm. Mostly cloudy. High near 77, with temperatures falling to around 73 in the afternoon. North wind 1 to 10 mph. Chance
-         of precipitation is 70%.<br></div>
+         and 5pm. Mostly cloudy. High near 77, with temperatures falling to around 73 in the afternoon. North northwest wind 2 to 10
+         mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
