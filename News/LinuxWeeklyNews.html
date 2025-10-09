@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1041078/" title="See Description">[$] Last-minute /boot boost for Fedora 43</a></li>
+<li><a href="#https://lwn.net/Articles/1041405/" title="See Description">Ubuntu 25.10 released</a></li>
+<li><a href="#https://lwn.net/Articles/1041404/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1040456/" title="See Description">[$] LWN.net Weekly Edition for October 9, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1041266/" title="See Description">Better profile management coming to Firefox</a></li>
 <li><a href="#https://lwn.net/Articles/1039073/" title="See Description">[$] Upcoming Rust language features for kernel development</a></li>
@@ -50,12 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1041023/" title="See Description">U-Boot v2025.10 released</a></li>
 <li><a href="#https://lwn.net/Articles/1040203/" title="See Description">[$] 6.18 merge window, part 1</a></li>
 <li><a href="#https://lwn.net/Articles/1039827/" title="See Description">[$] Next steps for BPF support in the GNU toolchain</a></li>
-<li><a href="#https://lwn.net/Articles/1040992/" title="See Description">Four new stable kernels</a></li>
-<li><a href="#https://lwn.net/Articles/1040991/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1040870/" title="See Description">OpenSSH 10.1 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1041078/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 09 Oct 2025 15:44:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1041078/" title="https://lwn.net/Articles/1041078/">[$] Last-minute /boot boost for Fedora 43</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Sudden increases in the size of Fedora's <a
+href="https://static.lwn.net/kerneldoc/filesystems/ramfs-rootfs-initramfs.html#what-is-initramfs">initramfs</a>
+files have prompted the project to fast-track a proposal to increase
+the default size of the <tt>/boot</tt> partition for new installs of
+Fedora&#160;43 and later. The project has also walked back a few
+changes that have contributed to larger initramfs files, but the
+ever-increasing size of firmware means that the need for more room is
+unavoidable. The Fedora Engineering Steering Council (FESCo) has
+approved a last-minute <a
+href="https://fedoraproject.org/wiki/Changes/2GbootPartition">change</a>
+just before the final freeze for Fedora&#160;43 to increase the
+default size of the <tt>/boot</tt> partition from 1GB to 2GB; this
+will leave plenty of space for kernels and initramfs images if a user
+is installing from scratch, but it is of no help for users upgrading
+from Fedora&#160;42.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1041405/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 09 Oct 2025 15:26:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1041405/" title="https://lwn.net/Articles/1041405/">Ubuntu 25.10 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://lists.ubuntu.com/archives/ubuntu-announce/2025-October/000318.html">Ubuntu
+25.10</a>, "Questing Quokka", has been released. This release includes
+Linux&#160;6.17, GNOME&#160;49, GCC&#160;15, Python&#160;3.13.7,
+Rust&#160;1.85, and more. This release also features Rust-based
+implementations of sudo and coreutils; LWN <a
+href="https://lwn.net/Articles/1014002/">covered</a> the switch to the
+Rust-based tools in March. The 25.10 version of Ubuntu flavors
+Edubuntu, Kubuntu, Lubuntu, Ubuntu Budgie, Ubuntu Cinnamon, Ubuntu
+Kylin, Ubuntu MATE, Ubuntu Studio, and Xubuntu have <a
+href="https://discourse.ubuntu.com/t/questing-quokka-release-notes/59220#heading--official-flavours">also
+been released</a>.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1041404/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 09 Oct 2025 15:00:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1041404/" title="https://lwn.net/Articles/1041404/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gnutls, kernel, kernel-rt, and open-vm-tools), <b>Debian</b> (chromium, python-django, and redis), <b>Fedora</b> (chromium, insight, mirrorlist-server, oci-seccomp-bpf-hook, rust-maxminddb, rust-prometheus, rust-prometheus_exporter, rust-protobuf, rust-protobuf-codegen, rust-protobuf-parse, rust-protobuf-support, turbo-attack, and yarnpkg), <b>Oracle</b> (iputils, kernel, open-vm-tools, redis, and valkey), <b>Red Hat</b> (perl-File-Find-Rule and perl-File-Find-Rule-Perl), <b>SUSE</b> (expat, ImageMagick, matrix-synapse, python-xmltodict, redis, redis7, and valkey), and <b>Ubuntu</b> (fort-validator and imagemagick).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1040456/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 09 Oct 2025 00:40:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -236,37 +286,6 @@ developers involved got together with representatives of the kernel
 community to talk about the state of that work and what needs to happen
 next.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1040992/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 06 Oct 2025 15:33:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1040992/" title="https://lwn.net/Articles/1040992/">Four new stable kernels</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1040993/">6.17.1</a>, <a
-href="https://lwn.net/Articles/1040995/">6.16.11</a>, <a
-href="https://lwn.net/Articles/1040996/">6.12.51</a>, and <a
-href="https://lwn.net/Articles/1040997/">6.6.110</a> stable kernels have been released.
-This time around, they contain a relatively small number of important fixes
-in various parts of the kernel.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1040991/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 06 Oct 2025 15:26:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1040991/" title="https://lwn.net/Articles/1040991/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel), <b>Debian</b> (dovecot, git, log4cxx, and openssl), <b>Fedora</b> (containernetworking-plugins, firebird, firefox, jupyterlab, mupdf, and thunderbird), <b>Oracle</b> (ipa), <b>Red Hat</b> (container-tools:rhel8, firefox, gnutls, kernel, kernel-rt, multiple packages, mysql, mysql:8.0, nginx, podman, and thunderbird), <b>Slackware</b> (fetchmail), <b>SUSE</b> (afterburn, chromium, firefox, haproxy, libvmtools-devel, logback, python311-Django, python311-Django4, and redis), and <b>Ubuntu</b> (linux-gcp, linux-gcp-6.14, linux-oem-6.14, linux-nvidia-tegra-igx, linux-oracle, mysql-8.0, poppler, and squid).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1040870/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 06 Oct 2025 09:23:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1040870/" title="https://lwn.net/Articles/1040870/">OpenSSH 10.1 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/all/dd12623ae86aa5eb@cvs.openbsd.org">OpenSSH 10.1</a> has
-been released.  Along with "<q>a minor security fix</q>" and some other bug
-fixes, this release disallows control characters in user names passed via
-the command line, adds better logging around certificate refusals, and a
-new <tt>RefuseConnection</tt> server configuration option.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
