@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Patchy fog before 8am. Sunny, with a high near 79. Southeast wind around 3 mph.<br></div>
+         <h3>Today</h3>Patchy fog before 8am. Sunny, with a high near 79. Southeast wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
