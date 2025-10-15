@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1039374/" title="See Description">[$] A new API for interrupt-aware spinlocks</a></li>
 <li><a href="#https://lwn.net/Articles/1042079/" title="See Description">Linux Mint Debian Edition (LMDE) 7 released</a></li>
 <li><a href="#https://lwn.net/Articles/1042076/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1042013/" title="See Description">Four new stable kernels released</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/1041779/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1041658/" title="See Description">Kernel prepatch 6.18-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/1039633/" title="See Description">[$] Enhancing FineIBT</a></li>
-<li><a href="#https://lwn.net/Articles/1041564/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1039374/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 15 Oct 2025 16:28:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1039374/" title="https://lwn.net/Articles/1039374/">[$] A new API for interrupt-aware spinlocks</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Boqun Feng spoke at
+<a href="https://kangrejos.com/">
+Kangrejos&#160;2025</a> about adding a frequently needed API for Rust drivers
+that need to handle interrupts: interrupt-aware spinlocks. Most drivers will
+need to communicate information from interrupt handlers to main driver code, and
+this exchange is frequently synchronized with the use of spinlocks. While his
+first attempts ran into problems, Feng's ultimate solution could help prevent bugs
+in C code as well, by tracking the number of nested scopes that have disabled
+interrupts. The <a href="https://lwn.net/ml/all/20251013155205.2004838-1-lyude@redhat.com/">
+patch set</a>, which contains work from Feng and Lyude Paul, is still under review.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1042079/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 15 Oct 2025 13:26:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -274,14 +293,6 @@ enhancements</a> more recently. The talk looked at the CFI vulnerability
 problem, FineIBT, and an enhanced version that is hoped to be able to unify
 all of the disparate hardware and software mitigations to address both
 regular and speculative CFI vulnerabilities.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1041564/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 10 Oct 2025 13:53:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1041564/" title="https://lwn.net/Articles/1041564/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (redis and valkey), <b>Fedora</b> (docker-buildkit, ibus-bamboo, pgadmin4, webkitgtk, and wordpress), <b>Mageia</b> (kernel-linus, kmod-virtualbox &amp; kmod-xtables-addons, and microcode), <b>Oracle</b> (compat-libtiff3 and udisks2), <b>Red Hat</b> (rsync), <b>Slackware</b> (python3), <b>SUSE</b> (chromium, cJSON, digger-cli, glow, go1.24, go1.25, go1.25-openssl, grafana, libexslt0, libruby3_4-3_4, pgadmin4, python311-python-socketio, and squid), and <b>Ubuntu</b> (dpdk, libhtp, vim, and webkit2gtk).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
