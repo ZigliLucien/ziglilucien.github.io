@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Partly sunny. High near 80, with temperatures falling to around 78 in the afternoon. South wind around 7 mph.<br></div>
+         <h3>This Afternoon</h3>Mostly cloudy. High near 80, with temperatures falling to around 78 in the afternoon. South wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -10,23 +10,23 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of rain showers between 7am and 10am, then showers and thunderstorms. Mostly sunny. High near 82, with temperatures
-         falling to around 74 in the afternoon. South southwest wind 8 to 13 mph, with gusts as high as 21 mph. Chance of precipitation
-         is 80%.<br></div>
+         <h3>Saturday</h3>A slight chance of showers and thunderstorms between 10am and noon, then showers and thunderstorms likely. Partly sunny. High
+         near 82, with temperatures falling to around 74 in the afternoon. South southwest wind 7 to 14 mph, with gusts as high as
+         23 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Showers and thunderstorms. Mostly cloudy, with a low around 50. West southwest wind 9 to 14 mph, with gusts as high as 23
-         mph. Chance of precipitation is 90%.<br></div>
+         <h3>Saturday Night</h3>Showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy, with a low around 50. West southwest
+         wind 9 to 15 mph, with gusts as high as 24 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Rain showers likely before 7am. Sunny, with a high near 64. West northwest wind 10 to 17 mph, with gusts as high as 25 mph.
-         Chance of precipitation is 60%.<br></div>
+         <h3>Sunday</h3>A chance of rain showers before 7am. Sunny, with a high near 64. West northwest wind 10 to 18 mph, with gusts as high as 29
+         mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Clear, with a low around 43. West southwest wind 2 to 8 mph.<br></div>
+         <h3>Sunday Night</h3>Clear, with a low around 43. West southwest wind 2 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
