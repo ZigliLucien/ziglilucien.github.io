@@ -2,22 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Rain showers likely. Mostly cloudy. Low around 53, with temperatures rising to around 59 overnight. West wind 8 to 12 mph,
-         with gusts as high as 25 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Today</h3>A chance of rain showers before 9am. Mostly sunny. High near 64, with temperatures falling to around 61 in the afternoon.
+         Northwest wind 13 to 18 mph, with gusts as high as 29 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Rain showers likely before 8am. Mostly sunny. High near 64, with temperatures falling to around 61 in the afternoon. Northwest
-         wind 12 to 20 mph, with gusts as high as 32 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Tonight</h3>Clear. Low around 42, with temperatures rising to around 44 overnight. West southwest wind 3 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Clear. Low around 42, with temperatures rising to around 44 overnight. West southwest wind 3 to 9 mph, with gusts as high
-         as 18 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Monday</h3>Sunny, with a high near 69. South wind 5 to 16 mph, with gusts as high as 26 mph.<br></div>
+         <h3>Monday</h3>Sunny. High near 69, with temperatures falling to around 67 in the afternoon. South wind 5 to 16 mph, with gusts as high as
+         26 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,5 +53,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A chance of rain showers. Partly sunny, with a high near 61. East wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 48. East northeast wind around 6 mph.<br></div>
    </p>
 </div>
