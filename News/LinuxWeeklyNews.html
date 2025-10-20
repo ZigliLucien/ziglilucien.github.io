@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1041120/" title="See Description">[$] Explicit lazy imports for Python</a></li>
+<li><a href="#https://lwn.net/Articles/1042680/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1042593/" title="See Description">Kernel prepatch 6.18-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/1042567/" title="See Description">Sunday stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1042480/" title="See Description">Transition of RubyGems Repository Ownership</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1042079/" title="See Description">Linux Mint Debian Edition (LMDE) 7 released</a></li>
 <li><a href="#https://lwn.net/Articles/1042076/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1042013/" title="See Description">Four new stable kernels released</a></li>
-<li><a href="#https://lwn.net/Articles/1041952/" title="See Description">The FSF's Librephone project</a></li>
-<li><a href="#https://lwn.net/Articles/1041004/" title="See Description">[$] The end of the 6.18 merge window</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1041120/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Oct 2025 16:30:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1041120/" title="https://lwn.net/Articles/1041120/">[$] Explicit lazy imports for Python</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Importing modules in Python is ubiquitous; most Python programs start
+with at least a few <tt>import</tt> statements.  But the performance impact
+of those imports can be large—and may be entirely wasted effort if the
+symbols imported end up being unused.  There are multiple ways to lazily
+import modules, including one in the standard library, but none of them are
+part of the Python language itself.  That
+may soon change, if the recently proposed
+<a href="https://peps.python.org/pep-0810/">PEP&#160;810</a> ("Explicit lazy
+imports") is approved.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1042680/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Oct 2025 14:21:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042680/" title="https://lwn.net/Articles/1042680/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (imagemagick, incus, lxd, pgagent, svgpp, and sysstat), <b>Fedora</b> (chromium, complyctl, fetchmail, firefox, mbedtls, mingw-binutils, mingw-python3, mingw-qt5-qtsvg, mingw-qt6-qtsvg, python3.10, python3.11, python3.12, python3.9, runc, and suricata), <b>Mageia</b> (expat), <b>Red Hat</b> (firefox, kernel, qt5-qtbase, and qt6-qtbase), <b>Slackware</b> (stunnel), <b>SUSE</b> (chromium, coredns, ctdb, firefox, kernel, libexslt0, libpoppler-cpp2, ollama, openssl-1_1, pam, samba, and thunderbird), and <b>Ubuntu</b> (samba).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1042593/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 20 Oct 2025 02:11:46 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -272,42 +296,6 @@ contains important fixes throughout the kernel tree. Users of these
 kernels are advised to upgrade.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1041952/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 Oct 2025 22:11:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1041952/" title="https://lwn.net/Articles/1041952/">The FSF's Librephone project</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Free Software Foundation has <a
-href="https://www.fsf.org/news/librephone-project">announced</a> the launch
-of the Librephone project, which is aimed at the creation of a fully-free
-operating system for mobile devices.
-<p>
-<blockquote class="bq">
-	Practically, Librephone aims to close the last gaps between
-	existing distributions of the Android operating system and software
-	freedom. The FSF has hired experienced developer Rob Savoye
-	(DejaGNU, Gnash, OpenStreetMap, and more) to lead the technical
-	project. He is currently investigating the state of device firmware
-	and binary blobs in other mobile phone freedom projects,
-	prioritizing the free software work done by the not entirely free
-	software mobile phone operating system LineageOS.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1041004/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 Oct 2025 17:07:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1041004/" title="https://lwn.net/Articles/1041004/">[$] The end of the 6.18 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The 6.18 merge window has come to an end, bringing with it a total of 11,974
-non-merge commits, 3,499 of which came in after LWN's
-<a href="https://lwn.net/Articles/1040203">first-half summary</a>.
-The total is a little higher than the 6.17 merge window, which saw 11,404
-non-merge commits. There are once again
-a good number of changes and new features included in this release.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
