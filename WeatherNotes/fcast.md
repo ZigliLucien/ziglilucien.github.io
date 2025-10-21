@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of rain showers between 11pm and midnight. Mostly clear. Low around 50, with temperatures rising to around 52 overnight.
-         Southwest wind 5 to 14 mph, with gusts as high as 25 mph.<br></div>
+         West southwest wind 8 to 12 mph, with gusts as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
