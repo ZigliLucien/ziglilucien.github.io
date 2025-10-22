@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1041095/" title="See Description">[$] DebugFS on Rust</a></li>
+<li><a href="#https://lwn.net/Articles/1042909/" title="See Description">OpenBSD 7.8 released</a></li>
+<li><a href="#https://lwn.net/Articles/1042911/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1042851/" title="See Description">Valkey 9.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1042172/" title="See Description">[$] Git considers SHA-256, Rust, LLMs, and more</a></li>
 <li><a href="#https://lwn.net/Articles/1042823/" title="See Description">DigiKam 8.8.0 released</a></li>
@@ -50,12 +53,52 @@
 <li><a href="#https://lwn.net/Articles/1042480/" title="See Description">Transition of RubyGems Repository Ownership</a></li>
 <li><a href="#https://lwn.net/Articles/1042131/" title="See Description">[$] A brief history of RubyGems.org</a></li>
 <li><a href="#https://lwn.net/Articles/1042452/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1041694/" title="See Description">[$] Large language models for patch review</a></li>
-<li><a href="#https://lwn.net/Articles/1042330/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1042229/" title="See Description">Forgejo 13.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1041095/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Oct 2025 13:37:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1041095/" title="https://lwn.net/Articles/1041095/">[$] DebugFS on Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://docs.kernel.org/filesystems/debugfs.html">
+DebugFS</a> is the kernel's anything-goes, no-rules interface: whenever a kernel
+developer needs quick access to internal details of the kernel to debug a
+problem, or to implement an experimental control interface,
+they can expose them via DebugFS. This is possible because DebugFS is not subject
+to the normal rules for user-space-interface stability, nor to the rules about
+exposing sensitive kernel information. Supporting DebugFS in Rust drivers is an
+important step toward being able to debug real drivers on real hardware. Matthew
+Maurer spoke at
+<a href="https://kangrejos.com/">
+Kangrejos&#160;2025</a> about his recently merged
+<a href="https://lwn.net/ml/all/20250904-debugfs-rust-v11-0-7d12a165685a@google.com/">
+DebugFS bindings for Rust</a>.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1042909/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Oct 2025 13:36:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042909/" title="https://lwn.net/Articles/1042909/">OpenBSD 7.8 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.openbsd.org/78.html">OpenBSD 7.8</a> has been
+released. As usual, this release includes a long list of changes; see
+the <a href="https://www.openbsd.org/plus78.html">changelog</a> for
+all of the details.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1042911/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Oct 2025 13:36:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042911/" title="https://lwn.net/Articles/1042911/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (inih, mingw-exiv2, and mod_http2), <b>SUSE</b> (ffmpeg-4, kernel, libqt5-qtbase, protobuf, python-ldap, and python313), and <b>Ubuntu</b> (erlang, ffmpeg, linux, linux-aws, linux-gcp, linux-oem-6.14, linux-oracle,
+ linux-oracle-6.14, linux-raspi, linux-realtime, linux-aws, linux-azure, linux-azure-6.14, linux-azure-nvidia-6.14, linux-azure-fips, linux-oracle-5.4, and linux-realtime-6.14).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1042851/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 21 Oct 2025 16:25:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,52 +304,6 @@ years.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel and libssh), <b>Debian</b> (firefox-esr and pgpool2), <b>Mageia</b> (varnish &amp; lighttpd), <b>Red Hat</b> (python3, python3.11, python3.12, python3.9, and python39:3.9), <b>SUSE</b> (expat, gstreamer-plugins-rs, kernel, openssl1, pgadmin4, python311-ldap, and squid), and <b>Ubuntu</b> (dotnet8, dotnet9, dotnet10 and mupdf).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1041694/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 Oct 2025 15:03:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1041694/" title="https://lwn.net/Articles/1041694/">[$] Large language models for patch review</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There have been many discussions in the free-software community about the
-role of large language models (LLMs) in software development.  For the most
-part, though, those conversations have focused on whether projects should
-be accepting code output by those models, and under what conditions.  But
-there are other ways in which these systems might participate in the
-development process.  Chris Mason recently <a
-href="https://lwn.net/ml/all/fc05f97b-1257-4dee-966f-ba66fff8aef1@meta.com">started a
-discussion</a> on the Kernel Summit discussion list about how these models
-can be used to review patches, rather than create them.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1042330/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 Oct 2025 15:01:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042330/" title="https://lwn.net/Articles/1042330/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel and libsoup3), <b>Debian</b> (chromium and firefox-esr), <b>Fedora</b> (httpd), <b>Oracle</b> (cups, ImageMagick, kernel, and vim), <b>Red Hat</b> (libssh), <b>Slackware</b> (samba), <b>SUSE</b> (alloy, exim, firefox-esr, ImageMagick, kernel, libcryptopp-devel, libQt6Svg6, libsoup-3_0-0, libtiff-devel-32bit, lsd, python3-gi-docgen, python311-Authlib, qt6-base, samba, and squid), and <b>Ubuntu</b> (ffmpeg, linux-oracle-6.8, redict, redis, samba, and subversion).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1042229/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 Oct 2025 14:15:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042229/" title="https://lwn.net/Articles/1042229/">Forgejo 13.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://forgejo.org/2025-10-release-v13-0/">Version
-13.0</a> of the Forgejo software forge has been released. Notable
-changes in this release include <a
-href="https://forgejo.org/2025-10-release-v13-0/#reporting-abusive-content">content
-moderation</a> features, ability to <a
-href="https://forgejo.org/2025-10-release-v13-0/#configurable-global-2fa-enforcement">require
-2FA</a> for users or administrators, and a <a
-href="https://forgejo.org/2025-10-release-v13-0/#migration-from-pagure">migration
-feature</a> for Pagure repositories. The last will be useful for
-Fedora's <a
-href="https://fedoramagazine.org/fedora-moves-towards-forgejo-a-unified-decision/">move
-to Forgejo</a> as its new git forge. See the <a
-href="https://codeberg.org/forgejo/forgejo/milestone/21377">release
-notes</a> for all changes in 13.0.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
