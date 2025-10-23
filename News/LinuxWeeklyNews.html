@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1043081/" title="See Description">Three new stable kernels for Thursday</a></li>
+<li><a href="#https://lwn.net/Articles/1042711/" title="See Description">[$] Safer speculation-free user-space access</a></li>
 <li><a href="#https://lwn.net/Articles/1043029/" title="See Description">Btrfs support coming to AlmaLinux 10.1</a></li>
 <li><a href="#https://lwn.net/Articles/1043027/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1042221/" title="See Description">[$] LWN.net Weekly Edition for October 23, 2025</a></li>
@@ -51,11 +53,38 @@
 <li><a href="#https://lwn.net/Articles/1042823/" title="See Description">DigiKam 8.8.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1042822/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1040778/" title="See Description">[$] The RubyGems.org takeover</a></li>
-<li><a href="#https://lwn.net/Articles/1041120/" title="See Description">[$] Explicit lazy imports for Python</a></li>
-<li><a href="#https://lwn.net/Articles/1042680/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1043081/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 Oct 2025 15:39:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043081/" title="https://lwn.net/Articles/1043081/">Three new stable kernels for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1043082/">6.17.5</a>, <a
+href="https://lwn.net/Articles/1043083/">6.12.55</a>, and <a
+href="https://lwn.net/Articles/1043084/">6.6.114</a> stable kernels. As usual, each
+contains important fixes throughout the tree; users are advised to
+upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1042711/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 Oct 2025 14:19:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042711/" title="https://lwn.net/Articles/1042711/">[$] Safer speculation-free user-space access</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Spectre class of hardware vulnerabilities truly is a gift that keeps on
+giving.  New variants are still being discovered in current CPUs nearly
+eight years after the <a href="https://lwn.net/Articles/742702/">disclosure</a> of this
+problem, and developers are still working to minimize the performance costs
+that come from defending against it.  The masked user-space access
+mechanism is a case in point: it reduces the cost of defending against some
+speculative attacks, but it brought some challenges of its own that are
+only now being addressed.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1043029/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 Oct 2025 13:35:23 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -294,30 +323,6 @@ href="https://en.wikipedia.org/wiki/RubyGems">RubyGems</a> and
 repositories was handed over to the Ruby core team, even though those projects had never been part of core Ruby
 previously. The takeover and subsequent events have raised a number of
 questions in the Ruby community.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1041120/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Oct 2025 16:30:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1041120/" title="https://lwn.net/Articles/1041120/">[$] Explicit lazy imports for Python</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Importing modules in Python is ubiquitous; most Python programs start
-with at least a few <tt>import</tt> statements.  But the performance impact
-of those imports can be large—and may be entirely wasted effort if the
-symbols imported end up being unused.  There are multiple ways to lazily
-import modules, including one in the standard library, but none of them are
-part of the Python language itself.  That
-may soon change, if the recently proposed
-<a href="https://peps.python.org/pep-0810/">PEP&#160;810</a> ("Explicit lazy
-imports") is approved.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1042680/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Oct 2025 14:21:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042680/" title="https://lwn.net/Articles/1042680/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (imagemagick, incus, lxd, pgagent, svgpp, and sysstat), <b>Fedora</b> (chromium, complyctl, fetchmail, firefox, mbedtls, mingw-binutils, mingw-python3, mingw-qt5-qtsvg, mingw-qt6-qtsvg, python3.10, python3.11, python3.12, python3.9, runc, and suricata), <b>Mageia</b> (expat), <b>Red Hat</b> (firefox, kernel, qt5-qtbase, and qt6-qtbase), <b>Slackware</b> (stunnel), <b>SUSE</b> (chromium, coredns, ctdb, firefox, kernel, libexslt0, libpoppler-cpp2, ollama, openssl-1_1, pam, samba, and thunderbird), and <b>Ubuntu</b> (samba).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
