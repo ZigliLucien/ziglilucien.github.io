@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1043103/" title="See Description">Date bug affects Ubuntu 25.10 automatic updates</a></li>
 <li><a href="#https://lwn.net/Articles/1043081/" title="See Description">Three new stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1042711/" title="See Description">[$] Safer speculation-free user-space access</a></li>
 <li><a href="#https://lwn.net/Articles/1043029/" title="See Description">Btrfs support coming to AlmaLinux 10.1</a></li>
@@ -52,10 +53,44 @@
 <li><a href="#https://lwn.net/Articles/1042172/" title="See Description">[$] Git considers SHA-256, Rust, LLMs, and more</a></li>
 <li><a href="#https://lwn.net/Articles/1042823/" title="See Description">DigiKam 8.8.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1042822/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1040778/" title="See Description">[$] The RubyGems.org takeover</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1043103/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 Oct 2025 20:34:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043103/" title="https://lwn.net/Articles/1043103/">Date bug affects Ubuntu 25.10 automatic updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Ubuntu Project has <a
+href="https://lists.ubuntu.com/archives/ubuntu-security-announce/2025-October/009890.html">announced</a>
+that a bug in the Rust-based <a
+href="https://uutils.github.io/">uutils</a> version of the
+<tt>date</tt> command shipped with Ubuntu&#160;25.10 broke automatic
+updates:</p>
+
+<blockquote class="bq">
+<p>Some Ubuntu 25.10 systems have been unable to automatically check
+for available software updates. Affected machines include cloud
+deployments, container images, Ubuntu Desktop and Ubuntu Server
+installs.</p>
+</blockquote>
+
+<p>The announcement includes remediation instructions for those
+affected by the bug. Systems with the <tt>rust-coreutils</tt> package
+version 0.2.2-0ubuntu2 or earlier have the bug, it is fixed in
+0.2.2-0ubuntu2.1 or later. It does not impact manual updates using the
+<tt>apt</tt> command or other utilities.</p>
+
+<p>Ubuntu embarked on a project to "oxidize" the distribution by
+switching to uutils and <a
+href="https://github.com/trifectatechfoundation/sudo-rs?tab=readme-ov-file#sudo-rs">sudo-rs</a>
+for the 25.10 release, and to see if the Rust-based utilities would be
+suitable for the long-term-release slated for next April. LWN <a
+href="https://lwn.net/Articles/1014002/">covered</a> that project in
+March.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1043081/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 Oct 2025 15:39:48 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -301,28 +336,6 @@ profile, and a background-blur tool.</blockquote></blockquote></div></td></tr>
  linux-ibm, linux-ibm-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15,
  linux-nvidia, linux-oracle, linux-oracle-5.15, linux-xilinx-zynqmp, linux-fips, linux-aws-fips, linux-azure-fips, linux-gcp-fips,
  linux-intel-iot-realtime, linux-realtime, and python-ldap).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1040778/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Oct 2025 20:45:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1040778/" title="https://lwn.net/Articles/1040778/">[$] The RubyGems.org takeover</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>In September, a group of long-time maintainers of Ruby packaging tools
-projects had their GitHub privileges revoked by nonprofit corporation <a
-href="https://rubycentral.org/">Ruby Central</a>
-in what many people are calling a
-hostile takeover. Ruby Central and its board members have issued
-several public statements that have, so far, failed to satisfy many in
-the Ruby community. In response, some of the former contributors to
-RubyGems are working on an alternative service called <a
-href="https://gem.coop/">gem.coop</a>. On October&#160;17, ownership
-of the <a
-href="https://en.wikipedia.org/wiki/RubyGems">RubyGems</a> and
-<a href="https://bundler.io/">Bundler</a>
-repositories was handed over to the Ruby core team, even though those projects had never been part of core Ruby
-previously. The takeover and subsequent events have raised a number of
-questions in the Ruby community.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
