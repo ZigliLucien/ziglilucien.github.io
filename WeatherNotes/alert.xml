@@ -11,14 +11,14 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64cba06590e479a645d537d8d0dd9fdcaadd0b8a.002.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5686a0e43d8a9992bbd305b73e3fc3bdfea3236b.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64cba06590e479a645d537d8d0dd9fdcaadd0b8a.002.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5686a0e43d8a9992bbd305b73e3fc3bdfea3236b.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.64cba06590e479a645d537d8d0dd9fdcaadd0b8a.002.1</id>
-				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.5686a0e43d8a9992bbd305b73e3fc3bdfea3236b.001.1</id>
+				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
 						<item type="str">017081</item>
@@ -48,6 +48,7 @@
 						<item type="str">018147</item>
 						<item type="str">021075</item>
 						<item type="str">021105</item>
+						<item type="str">021039</item>
 						<item type="str">021007</item>
 						<item type="str">021145</item>
 						<item type="str">021083</item>
@@ -104,6 +105,7 @@
 						<item type="str">INZ088</item>
 						<item type="str">KYZ001</item>
 						<item type="str">KYZ002</item>
+						<item type="str">KYZ003</item>
 						<item type="str">KYZ004</item>
 						<item type="str">KYZ005</item>
 						<item type="str">KYZ006</item>
@@ -161,6 +163,7 @@
 					<item type="str">https://api.weather.gov/zones/forecast/INZ088</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ001</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ002</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ003</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ004</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ005</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ006</item>
@@ -191,18 +194,6 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa48b195b79c3fa6fd2d46ad5ae27e587bbf9db1.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.aa48b195b79c3fa6fd2d46ad5ae27e587bbf9db1.001.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-10-23T02:13:00-05:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa48b195b79c3fa6fd2d46ad5ae27e587bbf9db1.002.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.aa48b195b79c3fa6fd2d46ad5ae27e587bbf9db1.002.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-10-23T02:13:00-05:00</sent>
-					</item>
-					<item type="dict">
 						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f72332539579a87e66922f93c69c94f9e05dac75.001.1</key>
 						<identifier type="str">urn:oid:2.49.0.1.840.0.f72332539579a87e66922f93c69c94f9e05dac75.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
@@ -214,11 +205,23 @@
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
 						<sent type="str">2025-10-23T13:06:00-05:00</sent>
 					</item>
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64cba06590e479a645d537d8d0dd9fdcaadd0b8a.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.64cba06590e479a645d537d8d0dd9fdcaadd0b8a.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-10-23T13:07:00-05:00</sent>
+					</item>
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64cba06590e479a645d537d8d0dd9fdcaadd0b8a.002.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.64cba06590e479a645d537d8d0dd9fdcaadd0b8a.002.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-10-23T13:07:00-05:00</sent>
+					</item>
 				</references>
-				<sent type="str">2025-10-23T13:07:00-05:00</sent>
-				<effective type="str">2025-10-23T13:07:00-05:00</effective>
-				<onset type="str">2025-10-24T01:00:00-05:00</onset>
-				<expires type="str">2025-10-24T05:45:00-05:00</expires>
+				<sent type="str">2025-10-24T02:06:00-05:00</sent>
+				<effective type="str">2025-10-24T02:06:00-05:00</effective>
+				<onset type="str">2025-10-24T02:06:00-05:00</onset>
+				<expires type="str">2025-10-24T08:00:00-05:00</expires>
 				<ends type="str">2025-10-24T08:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -229,13 +232,13 @@
 				<event type="str">Frost Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Frost Advisory issued October 23 at 1:07PM CDT until October 24 at 8:00AM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Temperatures as low as 34 will result in frost formation.
+				<headline type="str">Frost Advisory issued October 24 at 2:06AM CDT until October 24 at 8:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Temperatures in the mid 30s will result in frost formation.
 
 * WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From 1 AM CDT /2 AM EDT/ to 8 AM CDT /9 AM EDT/ Friday.
+* WHEN...Until 8 AM CDT /9 AM EDT/ this morning.
 
 * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive
 outdoor plants may be killed if left uncovered.</description>
@@ -246,10 +249,10 @@ outdoor plants may be killed if left uncovered.</description>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 231807</item>
+						<item type="str">WWUS73 KPAH 240706</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">FROST ADVISORY REMAINS IN EFFECT FROM 1 AM CDT /2 AM EDT/ TO 8 AM CDT /9 AM EDT/ FRIDAY</item>
+						<item type="str">FROST ADVISORY REMAINS IN EFFECT UNTIL 8 AM CDT /9 AM EDT/ THIS MORNING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -257,11 +260,14 @@ outdoor plants may be killed if left uncovered.</description>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.FR.Y.0003.251024T0600Z-251024T1300Z/</item>
+						<item type="str">/O.CON.KPAH.FR.Y.0003.000000T0000Z-251024T1300Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-10-24T08:00:00-05:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aa48b195b79c3fa6fd2d46ad5ae27e587bbf9db1.002.1,2025-10-23T02:13:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aa48b195b79c3fa6fd2d46ad5ae27e587bbf9db1.001.1,2025-10-23T02:13:00-05:00</item>
+					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -279,5 +285,5 @@ outdoor plants may be killed if left uncovered.</description>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-10-23T18:07:29+00:00</updated>
+	<updated type="str">2025-10-24T07:06:48+00:00</updated>
 </all>
