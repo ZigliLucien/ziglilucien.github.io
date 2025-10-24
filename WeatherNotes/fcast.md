@@ -2,21 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy, with a low around 37. South southeast wind around 2 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Friday</h3>Patchy frost before 8am. Partly sunny. High near 64, with temperatures falling to around 62 in the afternoon. East southeast
+         <h3>Today</h3>Patchy frost before 8am. Partly sunny. High near 64, with temperatures falling to around 62 in the afternoon. East southeast
          wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Mostly cloudy. Low around 50, with temperatures rising to around 52 overnight. East southeast wind around 6 mph.<br></div>
+         <h3>Tonight</h3>Mostly cloudy. Low around 50, with temperatures rising to around 52 overnight. East southeast wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A slight chance of rain showers after 1pm. Mostly cloudy, with a high near 63. East southeast wind around 8 mph. Chance of
-         precipitation is 20%.<br></div>
+         <h3>Saturday</h3>A slight chance of rain showers after 1pm. Mostly cloudy. High near 63, with temperatures falling to around 61 in the afternoon.
+         East southeast wind around 8 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -29,7 +25,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Rain showers. Cloudy, with a low around 49. East wind 6 to 9 mph.<br></div>
+         <h3>Sunday Night</h3>Rain showers. Cloudy, with a low around 49. East wind 6 to 9 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,5 +56,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>A slight chance of rain showers. Mostly sunny, with a high near 55. North northwest wind around 9 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Thursday Night</h3>A slight chance of rain showers before 1am. Partly cloudy, with a low around 40. Northwest wind 3 to 7 mph.<br></div>
    </p>
 </div>
