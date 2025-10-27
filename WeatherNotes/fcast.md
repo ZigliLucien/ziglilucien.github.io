@@ -2,22 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Cloudy, with a high near 56. East northeast wind around 7 mph.<br></div>
+         <h3>Tonight</h3>Areas of fog. Cloudy. Low around 50, with temperatures rising to around 52 overnight. East northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of drizzle after midnight. Cloudy, with a low around 50. East northeast wind around 5 mph. Chance of precipitation
-         is 20%.<br></div>
+         <h3>Tuesday</h3>Widespread fog before noon, then a chance of rain and patchy fog. Cloudy, with a high near 60. East wind 2 to 6 mph. Chance
+         of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of drizzle. Cloudy. High near 61, with temperatures falling to around 59 in the afternoon. East wind 2 to 6 mph.
-         Chance of precipitation is 50%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of drizzle before 7pm, then rain showers. Cloudy, with a low around 47. East wind 6 to 10 mph. Chance of precipitation
-         is 100%.<br></div>
+         <h3>Tuesday Night</h3>Rain before 1am, then rain showers. Cloudy. Low around 47, with temperatures rising to around 51 overnight. East wind 6 to
+         10 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -32,7 +27,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>A chance of rain showers before 7am. Mostly sunny, with a high near 56. Northwest wind 9 to 13 mph, with gusts as high as
-         21 mph.<br></div>
+         21 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +56,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday Night</h3>A slight chance of rain showers. Partly cloudy, with a low around 44. Southwest wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday</h3>Sunny, with a high near 60. West northwest wind 8 to 13 mph, with gusts as high as 23 mph.<br></div>
    </p>
 </div>
