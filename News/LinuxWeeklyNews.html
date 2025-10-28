@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1042938/" title="See Description">[$] Fil-C: A memory-safe C implementation</a></li>
+<li><a href="#https://lwn.net/Articles/1043785/" title="See Description">Fedora Linux 43 released (Fedora Magazine)</a></li>
 <li><a href="#https://lwn.net/Articles/1043776/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1042625/" title="See Description">[$] BPF signing LSM hook change rejected</a></li>
 <li><a href="#https://lwn.net/Articles/1043563/" title="See Description">Python Software Foundation withdraws security-related grant proposal</a></li>
@@ -51,11 +53,62 @@
 <li><a href="#https://lwn.net/Articles/1043103/" title="See Description">Date bug affects Ubuntu 25.10 automatic updates</a></li>
 <li><a href="#https://lwn.net/Articles/1043081/" title="See Description">Three new stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1042711/" title="See Description">[$] Safer speculation-free user-space access</a></li>
-<li><a href="#https://lwn.net/Articles/1043029/" title="See Description">Btrfs support coming to AlmaLinux 10.1</a></li>
-<li><a href="#https://lwn.net/Articles/1043027/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1042938/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 28 Oct 2025 16:49:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042938/" title="https://lwn.net/Articles/1042938/">[$] Fil-C: A memory-safe C implementation</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://fil-c.org/">
+Fil-C</a> is a memory-safe implementation of C and C++ that aims to let C code —
+complete with pointer arithmetic, unions, and other features that are often
+cited as a problem for memory-safe languages — run safely, unmodified.
+Its dedication to being "<q>fanatically
+compatible</q>" makes it an attractive choice for retrofitting memory-safety
+into existing applications. Despite the project's relative youth and single
+active contributor, Fil-C is capable of compiling an
+entire memory-safe Linux user space (based on
+<a href="https://www.linuxfromscratch.org/">
+Linux From Scratch</a>),
+albeit with some modifications to the more complex programs. It also features
+memory-safe signal handling and a concurrent garbage collector.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1043785/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 28 Oct 2025 14:11:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043785/" title="https://lwn.net/Articles/1043785/">Fedora Linux 43 released (Fedora Magazine)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Fedora Project has <a href="https://fedoramagazine.org/announcing-fedora-linux-43/">announced</a> the release of Fedora Linux&#160;43,
+with "what's new" articles for <a
+href="https://fedoramagazine.org/whats-new-fedora-workstation-43/">Fedora
+Workstation</a>, <a
+href="https://fedoramagazine.org/whats-new-in-fedora-kde-plasma-desktop-43/">Fedora
+KDE Plasma Desktop</a>, and <a
+href="https://fedoramagazine.org/whats-new-fedora-atomic-desktops-in-fedora-linux-43/">Fedora
+Atomic Desktops</a>.</p>
+
+<blockquote class="bq">
+<p>For those of you installing fresh Fedora Linux&#160;43 Spins, you may be
+greeted with the new Anaconda WebUI. This was the default installer
+interface for Fedora Workstation&#160;42, and now it's the default
+installer UI for the Spins as well.</p>
+
+<p>If you are a GNOME desktop user, you'll also notice that the GNOME
+is now Wayland-only in Fedora Linux&#160;43. GNOME upstream has deprecated
+X11 support, and has disabled it as a compile time default in GNOME&#160;49. Upstream GNOME plans to fully remove X11 support in GNOME&#160;50.</p>
+</blockquote>
+
+<p>See the <a
+href="https://docs.fedoraproject.org/en-US/fedora/latest/release-notes/">release
+notes</a> for a full list of changes in Fedora&#160;43.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1043776/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 28 Oct 2025 13:15:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -282,52 +335,6 @@ that come from defending against it.  The masked user-space access
 mechanism is a case in point: it reduces the cost of defending against some
 speculative attacks, but it brought some challenges of its own that are
 only now being addressed.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1043029/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 Oct 2025 13:35:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043029/" title="https://lwn.net/Articles/1043029/">Btrfs support coming to AlmaLinux 10.1</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The AlmaLinux project has <a
-href="https://almalinux.org/blog/2025-10-21-announcing-btrfs-support-in-almalinux-10-1/">announced</a>
-that the upcoming 10.1 release will include support for
-Btrfs:</p>
-
-<blockquote class="bq">
-<p>Btrfs support encompasses both kernel and userspace enablement, and
-it is now possible to install AlmaLinux OS with a Btrfs filesystem
-from the very beginning. Initial enablement was scoped to the
-installer and storage management stack, and broader support within the
-AlmaLinux software collection for Btrfs features is forthcoming.</p>
-
-<p>Btrfs support in AlmaLinux OS did not happen in isolation. This was
-proposed and scoped in <a href="https://github.com/AlmaLinux/ALESCo/blob/master/rfcs/0005-enable-btrfs-as-tech-preview.md">RFC 0005</a>, and has been built upon prior efforts
-by the <a href="https://fedoraproject.org/wiki/SIGs/Btrfs">Fedora
-Btrfs SIG</a> in Fedora Linux and the <a href="https://sigs.centos.org/hyperscale/">CentOS Hyperscale SIG</a>
-in CentOS Stream.</p>
-</blockquote>
-
-<p>AlmaLinux&#160;OS is designed to be binary compatible with Red Hat
-Enterprise Linux (RHEL); Btrfs, however, has never been supported in
-RHEL. A technology preview of Btrfs in RHEL&#160;6 and 7 <a
-href="https://access.redhat.com/solutions/197643">ended</a> with the
-filesystem being dropped from RHEL&#160;8 and
-onward. AlmaLinux&#160;OS&#160;10.1 is <a
-href="https://almalinux.org/blog/2025-10-21-announcing-almalinux-10-1-beta/">currently
-in beta</a>.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1043027/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 Oct 2025 13:12:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043027/" title="https://lwn.net/Articles/1043027/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (ipa, kernel, and thunderbird), <b>Debian</b> (gdk-pixbuf, gegl, gimp, intel-microcode, raptor2, request-tracker4, and request-tracker5), <b>Fedora</b> (samba and wireshark), <b>Mageia</b> (haproxy, nginx, openssl, and python-django), <b>Oracle</b> (kernel and thunderbird), <b>Red Hat</b> (redis and redis:7), <b>Slackware</b> (bind), <b>SUSE</b> (aws-cli, local-npm-registry, python-boto3, python- botocore, python-coverage, python-flaky, python-pluggy, python-pytest, python- pytest-cov, python-pytest-html, python-pytest-metada, cargo-audit-advisory-db-20251021, fetchmail, git-bug, ImageMagick, istioctl, kernel, krb5, libsoup, libxslt, python-Authlib, and sccache), and <b>Ubuntu</b> (bind9, linux, linux-aws, linux-azure, linux-azure-6.8, linux-gcp, linux-gkeop,
- linux-ibm, linux-ibm-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8,
- linux-oracle, linux-azure, linux-azure-5.15, linux-gcp-5.15, linux-gcp-6.8, linux-gke, linux-nvidia, linux-nvidia-6.8,
- linux-nvidia-lowlatency, and linux-realtime, linux-realtime-6.8).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>

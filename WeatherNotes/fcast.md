@@ -2,23 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of drizzle before 1pm, then a chance of rain. Cloudy, with a high near 59. East wind 2 to 6 mph. Chance of
-         precipitation is 30%.<br></div>
+         <h3>This Afternoon</h3>A slight chance of drizzle before 1pm, then a chance of rain. Cloudy, with a high near 59. East wind around 5 mph. Chance
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Rain. Cloudy. Low around 48, with temperatures rising to around 53 overnight. East wind 5 to 12 mph, with gusts as high as
-         20 mph. Chance of precipitation is 100%.<br></div>
+         <h3>Tonight</h3>Rain. Cloudy. Low around 48, with temperatures rising to around 53 overnight. East wind 3 to 10 mph, with gusts as high as
+         18 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Rain. Cloudy. High near 53, with temperatures falling to around 49 in the afternoon. Northeast wind around 14 mph, with gusts
-         as high as 23 mph. Chance of precipitation is 100%.<br></div>
+         <h3>Wednesday</h3>Rain. Cloudy. High near 53, with temperatures falling to around 49 in the afternoon. Northeast wind 12 to 16 mph, with gusts
+         as high as 28 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Rain before 7pm, then a chance of rain showers between 7pm and 1am. Mostly cloudy, with a low around 40. North wind 8 to 13
-         mph, with gusts as high as 22 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Wednesday Night</h3>Rain before 7pm, then a chance of rain showers between 7pm and 1am. Mostly cloudy, with a low around 40. North wind 8 to 15
+         mph, with gusts as high as 26 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
