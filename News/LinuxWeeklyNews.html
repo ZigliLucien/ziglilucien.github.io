@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1042715/" title="See Description">[$] Retrieving pixels from Android phones with Pixnapping</a></li>
+<li><a href="#https://lwn.net/Articles/1044047/" title="See Description">Tor Browser 15.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1043364/" title="See Description">[$] Debian splits ftpmaster team</a></li>
 <li><a href="#https://lwn.net/Articles/1043992/" title="See Description">Seven stable kernels for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1043983/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1042938/" title="See Description">[$] Fil-C: A memory-safe C implementation</a></li>
@@ -50,12 +53,74 @@
 <li><a href="#https://lwn.net/Articles/1043391/" title="See Description">Valgrind 3.26.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1043368/" title="See Description">Kernel prepatch 6.18-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/1043242/" title="See Description">Typst 0.14 released</a></li>
-<li><a href="#https://lwn.net/Articles/1043235/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1043075/" title="See Description">[$] GoFundMe to delete unwanted open-source foundation pages</a></li>
-<li><a href="#https://lwn.net/Articles/1043103/" title="See Description">Date bug affects Ubuntu 25.10 automatic updates</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1042715/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 29 Oct 2025 16:44:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042715/" title="https://lwn.net/Articles/1042715/">[$] Retrieving pixels from Android phones with Pixnapping</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A new class of attacks on Android phones, called "<a
+href="https://www.pixnapping.com/">Pixnapping</a>", was announced on
+October 13.  It allows a malicious app to gather output rendered in a
+victim app, pixel-by-pixel, by exploiting a GPU side-channel.  Depending on
+what the victim app displays, anything from sensitive email and chats to
+two-factor authentication (2FA) codes could be captured—and shipped off to
+an attacker's site.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1044047/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 29 Oct 2025 15:15:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044047/" title="https://lwn.net/Articles/1044047/">Tor Browser 15.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://blog.torproject.org/new-release-tor-browser-150/">Version&#160;15.0</a>
+of the <a href="https://tb-manual.torproject.org/about/">Tor
+Browser</a> has been released:</p>
+
+<blockquote class="bq">
+This is our first stable release based on <a href="https://www.firefox.com/en-US/firefox/140.0esr/releasenotes/">Firefox&#160;ESR&#160;140</a>, 
+incorporating a year's worth of changes that have been shipped
+upstream in Firefox. As part of this process, we've also completed our
+annual ESR transition audit, where we <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=esr-140&search=Review%20Mozilla&first_page_size=20">reviewed and addressed around
+200 Bugzilla issues</a> for changes in Firefox that may negatively affect
+the privacy and security of Tor Browser users. Our final reports from
+this audit are now available in the <a
+href="https://gitlab.torproject.org/tpo/applications/tor-browser-spec/-/tree/main/audits">tor-browser-spec
+repository</a> on our GitLab instance.
+</blockquote>
+
+<p>This release inherits the vertical tabs feature, unified search
+button, as well as other new features and usability improvements in
+Firefox that have passed the Tor Project's audit.</p>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1043364/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 29 Oct 2025 14:05:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043364/" title="https://lwn.net/Articles/1043364/">[$] Debian splits ftpmaster team</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Debian's <a href="https://ftp-master.debian.org/">ftpmaster</a>
+team has been responsible for allowing new packages to enter Debian,
+removing old packages, and otherwise maintaining Debian's package
+archive for more than two decades. As of October&#160;26, the team is
+no more and its duties are being split between two new teams. The <a
+href="https://wiki.debian.org/Teams/ArchiveOperations">Archive
+Operations Team</a> will focus on the infrastructure required to
+support the <a
+href="https://www.debian.org/doc/manuals/debian-faq/ftparchives.en">Debian
+archives</a>, and the <a
+href="https://wiki.debian.org/Teams/DFSG">DFSG, Licensing &amp; New
+Packages Team</a>, which is responsible for reviewing packages
+entering the <a href="https://wiki.debian.org/NewQueue">new
+queue</a>. In time, this move could speed up processing of new
+packages, as well as making the teams more sustainable, but only after
+new members are recruited and trained. For now, the same folks are
+doing the work but spread across two teams.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1043992/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 29 Oct 2025 14:01:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -267,72 +332,6 @@ Typst document processor has been released.
 </blockquote>
 <p>
 LWN <a href="https://lwn.net/Articles/1037577/">looked at Typst</a> in September.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1043235/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 Oct 2025 13:37:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043235/" title="https://lwn.net/Articles/1043235/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (webkit2gtk3), <b>Debian</b> (bind9, chromium, python-internetarchive, and tryton-sao), <b>Fedora</b> (dokuwiki and php-php81_bc-strftime), <b>Mageia</b> (firefox, nss &amp; rootcerts and thunderbird), <b>Slackware</b> (openssl), <b>SUSE</b> (bleachbit, chromium, kernel, mozilla-nss, and python311-uv), and <b>Ubuntu</b> (fetchmail, golang-go.crypto, and linux-oracle-5.4).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1043075/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 Oct 2025 11:44:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043075/" title="https://lwn.net/Articles/1043075/">[$] GoFundMe to delete unwanted open-source foundation pages</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Open-source foundations and projects that have charity status in
-the US may want to see if <a
-href="https://www.gofundme.com/">GoFundMe</a> has created a profile
-for them without permission. The company has operated since 2010 as a
-self-service fundraising platform; individuals or groups could create
-pages to raise money for all manner of causes. In June, the company <a
-href="https://www.gofundme.com/c/newsroom/gofundme-launches-giving-funds">announced</a>
-that it would expand its offerings to "<q>manage all aspects of
-charitable giving</q>" for users through its platform. That seems to
-include creating profiles for nonprofit organizations without their
-involvement. After pushback, the company <a
-href="https://www.linkedin.com/posts/gofundme-pro_at-gofundme-our-mission-has-always-been-activity-7387176830908407808-3AXY/">said</a>
-on October&#160;23 that it would be removing the pages. It has not
-answered more fundamental questions about how it planned to disburse
-funds to nonprofits that had no awareness of the GoFundMe pages in the
-first place.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1043103/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 Oct 2025 20:34:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043103/" title="https://lwn.net/Articles/1043103/">Date bug affects Ubuntu 25.10 automatic updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Ubuntu Project has <a
-href="https://lists.ubuntu.com/archives/ubuntu-security-announce/2025-October/009890.html">announced</a>
-that a bug in the Rust-based <a
-href="https://uutils.github.io/">uutils</a> version of the
-<tt>date</tt> command shipped with Ubuntu&#160;25.10 broke automatic
-updates:</p>
-
-<blockquote class="bq">
-<p>Some Ubuntu 25.10 systems have been unable to automatically check
-for available software updates. Affected machines include cloud
-deployments, container images, Ubuntu Desktop and Ubuntu Server
-installs.</p>
-</blockquote>
-
-<p>The announcement includes remediation instructions for those
-affected by the bug. Systems with the <tt>rust-coreutils</tt> package
-version 0.2.2-0ubuntu2 or earlier have the bug, it is fixed in
-0.2.2-0ubuntu2.1 or later. It does not impact manual updates using the
-<tt>apt</tt> command or other utilities.</p>
-
-<p>Ubuntu embarked on a project to "oxidize" the distribution by
-switching to uutils and <a
-href="https://github.com/trifectatechfoundation/sudo-rs?tab=readme-ov-file#sudo-rs">sudo-rs</a>
-for the 25.10 release, and to see if the Rust-based utilities would be
-suitable for the long-term-release slated for next April. LWN <a
-href="https://lwn.net/Articles/1014002/">covered</a> that project in
-March.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
