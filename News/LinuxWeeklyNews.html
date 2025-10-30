@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1044297/" title="See Description">Rust 1.91.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1043640/" title="See Description">[$] The long path toward optimizing short reads</a></li>
 <li><a href="#https://lwn.net/Articles/1044246/" title="See Description">Bazzite Fall update released</a></li>
 <li><a href="#https://lwn.net/Articles/1044222/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,20 @@
 <li><a href="#https://lwn.net/Articles/1042938/" title="See Description">[$] Fil-C: A memory-safe C implementation</a></li>
 <li><a href="#https://lwn.net/Articles/1043785/" title="See Description">Fedora Linux 43 released (Fedora Magazine)</a></li>
 <li><a href="#https://lwn.net/Articles/1043776/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1042625/" title="See Description">[$] BPF signing LSM hook change rejected</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1044297/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Oct 2025 21:07:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044297/" title="https://lwn.net/Articles/1044297/">Rust 1.91.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2025/10/30/Rust-1.91.0/">Version
+1.91.0</a> of the Rust language has been released.  Changes include
+promoting <tt>aarch64-pc-windows-msvc</tt> to a tier-1 platform, a new lint
+to catch dangling raw pointers from local variables, and a fair number of
+newly stabilized APIs.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1043640/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 30 Oct 2025 14:08:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -306,34 +317,6 @@ notes</a> for a full list of changes in Fedora&#160;43.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, libtiff, squid:4, and thunderbird), <b>Debian</b> (strongswan and webkit2gtk), <b>Fedora</b> (pcre2, qt5-qtbase, squid, unbound, and xen), <b>Mageia</b> (icu and libtpms), <b>Oracle</b> (java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, kernel, squid:4, and thunderbird), <b>Red Hat</b> (libtiff, squid, squid:4, and webkit2gtk3), <b>SUSE</b> (cmake, dracut-saltboot, erlang, exim, expat, ffmpeg-4, firefox, golang-github-prometheus-alertmanager, haproxy, java-11-openjdk, kernel, libxslt, multi-linux-manager, openssl-3, podman, rabbitmq-server, spacewalk-web, strongswan, and wireshark), and <b>Ubuntu</b> (gst-plugins-good1.0, linux-aws-5.15, radare2, ruby2.3, ruby2.5, ruby2.7, and strongswan).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1042625/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 Oct 2025 18:46:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042625/" title="https://lwn.net/Articles/1042625/">[$] BPF signing LSM hook change rejected</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-BPF lets users load programs into a running kernel.
-Even though BPF programs are checked by the verifier to
-ensure that they stay inside certain limits, some users would still like to ensure
-that only approved BPF programs are loaded. KP Singh's
-<a href="https://lwn.net/ml/linux-security-module/20250813205526.2992911-1-kpsingh@kernel.org/">
-patches</a> adding that capability to the kernel were accepted
-in version 6.18, but not everyone is
-satisfied with his implementation. Blaise Boscaccy, who has been working to get
-a version of BPF code signing with better auditability
-into the kernel for some time, posted
-<a href="https://lwn.net/ml/all/20250929213520.1821223-1-bboscaccy@linux.microsoft.com/">
-a patch set</a> on top of Singh's changes that alters the loading process to
-not invoke security module hooks
-until the entire loading process is complete.
-The discussion on the patch
-set is the continuation of a
-<a href="https://lwn.net/Articles/1031854/">
-long-running disagreement</a> over
-the interface for signed BPF programs.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
