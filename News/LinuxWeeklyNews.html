@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1042355/" title="See Description">[$] Mergiraf: syntax-aware merging for Git</a></li>
 <li><a href="#https://lwn.net/Articles/1044383/" title="See Description">Ubuntu introduces architecture variants</a></li>
 <li><a href="#https://lwn.net/Articles/1044380/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1044297/" title="See Description">Rust 1.91.0 released</a></li>
@@ -52,10 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1043364/" title="See Description">[$] Debian splits ftpmaster team</a></li>
 <li><a href="#https://lwn.net/Articles/1043992/" title="See Description">Seven stable kernels for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1043983/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1042938/" title="See Description">[$] Fil-C: A memory-safe C implementation</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1042355/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 31 Oct 2025 19:30:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042355/" title="https://lwn.net/Articles/1042355/">[$] Mergiraf: syntax-aware merging for Git</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The idea of automatic syntax-aware merging in version-control systems goes back to
+<a href="https://link.springer.com/chapter/10.1007/3-540-60578-9_14">
+2005 or earlier</a>, but initial implementations were
+often language-specific and slow.
+<a href="https://mergiraf.org/introduction.html">
+Mergiraf</a> is a merge-conflict resolver that uses a generic algorithm plus a
+small amount of language-specific knowledge
+to solve conflicts that Git's default strategy cannot.
+The project's contributors have been working on the
+tool for just under a year, but it already
+<a href="https://mergiraf.org/languages.html">
+supports 33 languages</a>, including C,
+Python, Rust, and even
+<a href="https://en.wikipedia.org/wiki/SystemVerilog">
+SystemVerilog</a>.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1044383/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 31 Oct 2025 13:39:00 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,28 +314,6 @@ are advised to upgrade.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (gimp, python-authlib, and xorg-server), <b>Fedora</b> (chromium and git-lfs), <b>Mageia</b> (poppler and tomcat), <b>Red Hat</b> (kernel, kernel-rt, redis, and redis:6), <b>SUSE</b> (fetchmail, grafana, ImageMagick, kernel-devel, libluajit-5_1-2, proxy-helm, python-Authlib, and xen), and <b>Ubuntu</b> (linux-intel-iotg, linux-intel-iotg-5.15 and squid, squid3).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1042938/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 28 Oct 2025 16:49:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042938/" title="https://lwn.net/Articles/1042938/">[$] Fil-C: A memory-safe C implementation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://fil-c.org/">
-Fil-C</a> is a memory-safe implementation of C and C++ that aims to let C code —
-complete with pointer arithmetic, unions, and other features that are often
-cited as a problem for memory-safe languages — run safely, unmodified.
-Its dedication to being "<q>fanatically
-compatible</q>" makes it an attractive choice for retrofitting memory-safety
-into existing applications. Despite the project's relative youth and single
-active contributor, Fil-C is capable of compiling an
-entire memory-safe Linux user space (based on
-<a href="https://www.linuxfromscratch.org/">
-Linux From Scratch</a>),
-albeit with some modifications to the more complex programs. It also features
-memory-safe signal handling and a concurrent garbage collector.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
