@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-11-02T04:36:17+00:00</generatedAt>
+		<generatedAt type="str">2025-11-02T05:36:06+00:00</generatedAt>
 		<updateTime type="str">2025-11-02T04:26:38+00:00</updateTime>
 		<validTimes type="str">2025-11-01T22:00:00+00:00/P7DT6H</validTimes>
 		<elevation type="dict">
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-11-01T23:00:00-05:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-11-02T00:00:00-05:00</startTime>
 				<endTime type="str">2025-11-02T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">34</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="str"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">26</value>
+					<value type="int">21</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">NW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,30/bkn?size=medium</icon>
-				<shortForecast type="str">Chance Rain Showers then Areas Of Frost</shortForecast>
-				<detailedForecast type="str">A chance of rain showers before 1am, then areas of frost. Mostly cloudy, with a low around 34. Northwest wind around 3 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/bkn?size=medium</icon>
+				<shortForecast type="str">Slight Chance Rain Showers then Areas Of Frost</shortForecast>
+				<detailedForecast type="str">A slight chance of rain showers before 1am, then areas of frost. Mostly cloudy, with a low around 34. Northwest wind around 3 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
