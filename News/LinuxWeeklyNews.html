@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1044786/" title="See Description">A new kernel port — to WebAssembly</a></li>
+<li><a href="#https://lwn.net/Articles/1044763/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1044582/" title="See Description">Kernel prepatch 6.18-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1044542/" title="See Description">Three stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1044496/" title="See Description">Debian to require Rust as of May 2026</a></li>
@@ -51,11 +53,37 @@
 <li><a href="#https://lwn.net/Articles/1042980/" title="See Description">[$] LWN.net Weekly Edition for October 30, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1044066/" title="See Description">GNU/Linux man pages 6.16 released</a></li>
 <li><a href="#https://lwn.net/Articles/1044064/" title="See Description">ICANN report: DNS runs on FOSS</a></li>
-<li><a href="#https://lwn.net/Articles/1042715/" title="See Description">[$] Retrieving pixels from Android phones with Pixnapping</a></li>
-<li><a href="#https://lwn.net/Articles/1044047/" title="See Description">Tor Browser 15.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1044786/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Nov 2025 14:55:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044786/" title="https://lwn.net/Articles/1044786/">A new kernel port — to WebAssembly</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Joel Severin has <a
+href="https://lwn.net/ml/all/618f3602-03aa-46a8-b2d4-3c9798c4cd2b@icemanor.se">announced</a>
+the availability of his port of the Linux kernel to WebAssembly; one can go
+to <a href="https://joelseverin.github.io/linux-wasm/">this page</a> and
+watch it boot in a browser.
+<p>
+<blockquote class="bq">
+	Wasm is similar to every other arch in Linux, but also
+	different. One important difference is that there is no way to
+	suspend execution of a task. There is a way around this though:
+	Linux supports up to 8k CPUs (or possibly more...). We can just
+	spin up a new CPU dedicated to each user task (process/thread) and
+	never preempt it
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1044763/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Nov 2025 13:15:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044763/" title="https://lwn.net/Articles/1044763/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, and webkit2gtk3), <b>Debian</b> (ruby-rack, strongswan, ublock-origin, and wordpress), <b>Fedora</b> (firefox, kea, openapi-python-client, openbao, python-uv-build, qt5-qtbase, ruby, ruff, rust-astral-tokio-tar, rust-attribute-derive, rust-attribute-derive-macro, rust-backon, rust-collection_literals, rust-get-size-derive2, rust-get-size2, rust-interpolator, rust-manyhow, rust-manyhow-macros, rust-proc-macro-utils, rust-quote-use, rust-quote-use-macros, rust-reqsign, rust-reqsign-aws-v4, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-http-send-reqwest, rust-tikv-jemalloc-sys, rust-tikv-jemallocator, samba, skopeo, sssd, Thunar, unbound, uv, vgrep, and xorg-x11-server-Xwayland), <b>Mageia</b> (bind, libtiff, sope, and transfig), <b>Oracle</b> (compat-libtiff3, kernel, libtiff, redis, redis:6, and redis:7), <b>Red Hat</b> (kernel, kernel-rt, libssh, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (seamonkey), <b>SUSE</b> (bind, chromedriver, chromium, colord, coreboot-utils, git-bug, ImageMagick, java-11-openj9, java-17-openj9, java-21-openj9, java-25-openj9, kea, libmozjs-115-0, libmozjs-140-0, libssh, libtiff-devel-32bit, nodejs18, ongres-scram, poppler, python311-starlette, rav1e, squid, strongswan, webkit2gtk3, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (linux-gcp-6.14 and linux-hwe-6.8).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1044582/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 02 Nov 2025 23:08:45 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -256,47 +284,6 @@ of critical Internet infrastructure.</p>
 </blockquote>
 
 <p>Thanks to SSAC member Maarten Aertsen for the tip.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1042715/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 Oct 2025 16:44:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042715/" title="https://lwn.net/Articles/1042715/">[$] Retrieving pixels from Android phones with Pixnapping</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>A new class of attacks on Android phones, called "<a
-href="https://www.pixnapping.com/">Pixnapping</a>", was announced on
-October 13.  It allows a malicious app to gather output rendered in a
-victim app, pixel-by-pixel, by exploiting a GPU side-channel.  Depending on
-what the victim app displays, anything from sensitive email and chats to
-two-factor authentication (2FA) codes could be captured—and shipped off to
-an attacker's site.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044047/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 Oct 2025 15:15:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044047/" title="https://lwn.net/Articles/1044047/">Tor Browser 15.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://blog.torproject.org/new-release-tor-browser-150/">Version&#160;15.0</a>
-of the <a href="https://tb-manual.torproject.org/about/">Tor
-Browser</a> has been released:</p>
-
-<blockquote class="bq">
-This is our first stable release based on <a href="https://www.firefox.com/en-US/firefox/140.0esr/releasenotes/">Firefox&#160;ESR&#160;140</a>, 
-incorporating a year's worth of changes that have been shipped
-upstream in Firefox. As part of this process, we've also completed our
-annual ESR transition audit, where we <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=esr-140&search=Review%20Mozilla&first_page_size=20">reviewed and addressed around
-200 Bugzilla issues</a> for changes in Firefox that may negatively affect
-the privacy and security of Tor Browser users. Our final reports from
-this audit are now available in the <a
-href="https://gitlab.torproject.org/tpo/applications/tor-browser-spec/-/tree/main/audits">tor-browser-spec
-repository</a> on our GitLab instance.
-</blockquote>
-
-<p>This release inherits the vertical tabs feature, unified search
-button, as well as other new features and usability improvements in
-Firefox that have passed the Tor Project's audit.</p>
 <p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
