@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1044867/" title="See Description">Defeating KASLR by Doing Nothing at All (Project Zero)</a></li>
 <li><a href="#https://lwn.net/Articles/1044844/" title="See Description">Python steering council accepts lazy imports</a></li>
 <li><a href="#https://lwn.net/Articles/1043568/" title="See Description">[$] An explicit thread-safety proposal for Python</a></li>
 <li><a href="#https://lwn.net/Articles/1044823/" title="See Description">Devuan 6.0 released</a></li>
@@ -52,10 +53,30 @@
 <li><a href="#https://lwn.net/Articles/1044380/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1044297/" title="See Description">Rust 1.91.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1043640/" title="See Description">[$] The long path toward optimizing short reads</a></li>
-<li><a href="#https://lwn.net/Articles/1044246/" title="See Description">Bazzite Fall update released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1044867/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Nov 2025 23:59:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044867/" title="https://lwn.net/Articles/1044867/">Defeating KASLR by Doing Nothing at All (Project Zero)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Project Zero blog <a
+href="https://googleprojectzero.blogspot.com/2025/11/defeating-kaslr-by-doing-nothing-at-all.html">explains</a>
+that, on 64-bit Arm systems, the kernel's direct map is always placed at
+the same virtual location, regardless of whether kernel address-space
+layout randomization (KASLR) is enabled.
+<p>
+<blockquote class="bq">
+	While it remains true that KASLR should not be trusted to prevent
+	exploitation, particularly in local contexts, it is regrettable
+	that the attitude around Linux KASLR is so fatalistic that putting
+	in the engineering effort to preserve its remaining integrity is
+	not considered to be worthwhile. The joint effect of these two
+	issues dramatically simplified what might otherwise have been a
+	more complicated and likely less reliable exploit.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1044844/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 03 Nov 2025 18:16:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -283,22 +304,6 @@ href="https://lwn.net/ml/all/20251017141536.577466-1-kirill@shutemov.name">a pat
 try to optimize this case, but the task is turning out to be harder than
 one might expect.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044246/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Oct 2025 14:07:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044246/" title="https://lwn.net/Articles/1044246/">Bazzite Fall update released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://universal-blue.org/">Universal Blue</a>
-project has <a
-href="https://universal-blue.discourse.group/t/bazzite-fall-update-fedora-43-xbox-allies-legion-go-2-nvidia-gtx/10948">announced</a>
-the Fall update for the Fedora-based <a
-href="https://bazzite.gg/">Bazzite</a> gaming distribution. This
-release brings Bazzite up to Fedora&#160;43, includes support for
-additional handheld gaming systems, as well as drivers for a number of
-steering wheel devices, and more.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
