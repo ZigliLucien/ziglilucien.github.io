@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1044280/" title="See Description">[$] Julia 1.12 brings progress on standalone binaries and more</a></li>
+<li><a href="#https://lwn.net/Articles/1044949/" title="See Description">Security updates for Tuesday</a></li>
+<li><a href="#https://lwn.net/Articles/1044915/" title="See Description">CHERIoT 1.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1044867/" title="See Description">Defeating KASLR by Doing Nothing at All (Project Zero)</a></li>
 <li><a href="#https://lwn.net/Articles/1044844/" title="See Description">Python steering council accepts lazy imports</a></li>
 <li><a href="#https://lwn.net/Articles/1043568/" title="See Description">[$] An explicit thread-safety proposal for Python</a></li>
@@ -50,12 +53,71 @@
 <li><a href="#https://lwn.net/Articles/1044496/" title="See Description">Debian to require Rust as of May 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1042355/" title="See Description">[$] Mergiraf: syntax-aware merging for Git</a></li>
 <li><a href="#https://lwn.net/Articles/1044383/" title="See Description">Ubuntu introduces architecture variants</a></li>
-<li><a href="#https://lwn.net/Articles/1044380/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1044297/" title="See Description">Rust 1.91.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1043640/" title="See Description">[$] The long path toward optimizing short reads</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1044280/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 04 Nov 2025 14:50:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044280/" title="https://lwn.net/Articles/1044280/">[$] Julia 1.12 brings progress on standalone binaries and more</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://julialang.org/">Julia</a> is a modern programming
+language that is of particular interest to scientists due to its high
+performance combined with language features such as Lisp-style macros, an
+advanced type system, and multiple dispatch. We last <a
+href="https://lwn.net/Articles/1006117/">looked at Julia</a> in January on the occasion of
+its 1.11&#160;release. Early in October <a
+href="https://julialang.org/blog/2025/10/julia-1.12-highlights">Julia&#160;1.12
+appeared</a>, bringing a handful of quality-of-life improvements for Julia
+programmers, most notably support, though still experimental and limited,
+for the creation of binaries.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1044949/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 04 Nov 2025 14:21:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044949/" title="https://lwn.net/Articles/1044949/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (dcmtk, geographiclib, gimp, pure-ftpd, and ruby-rack), <b>Fedora</b> (dotnet9.0), <b>Oracle</b> (expat, kernel, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (git, mariadb:10.5, multiple packages, osbuild-composer, pcs, sssd, and tigervnc), <b>SUSE</b> (kernel and redis), and <b>Ubuntu</b> (google-guest-agent).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1044915/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 04 Nov 2025 13:46:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044915/" title="https://lwn.net/Articles/1044915/">CHERIoT 1.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://github.com/CHERIoT-Platform/cheriot-sail/releases/tag/v1.0">Version
+1.0</a> of the Capability Hardware Extension to RISC-V for IoT
+(CHERIoT) specification has been released. CHERIoT is a
+hardware-software system for secure embedded devices, and the
+specification provides a full description of the ISA and its intended
+use by <a
+href="https://github.com/CHERIoT-Platform/cheriot-rtos/?tab=readme-ov-file#cheriot-rtos">CHERIoT
+RTOS</a>. David Chisnall has written a <a
+href="https://cheriot.org/sail/specification/release/2025/11/03/cheriot-1.0.html">blog
+post</a> about the release that explains its significance as well as plans
+for CHERIoT 2.0 and beyond:</p>
+
+<blockquote class="bq">
+<p>The last change that we made to the ISA was in December 2024, so we
+are confident that this is a stable release that we can support in
+hardware for a long time. This specification was implemented by the
+1.0 release of CHERIoT Ibex and by CHERIoT Kudu (which has not yet had
+an official release). These two implementations demonstrate that the
+ISA scales from three-stage single-issue pipelines to six-stage
+dual-issue pipelines, roughly the same range of microarchitectures
+supported by Arm's M profile.</p>
+
+<p>We at SCI have the first of our ICENI chips, which use the CHERIoT
+Ibex core, on the way back from the fab now and will be scaling up to
+mass production in the new year. I am not allowed to speak for other
+folks building CHERIoT silicon, but I expect 2026 to be an exciting
+year for the CHERIoT project!</p>
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1044867/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 03 Nov 2025 23:59:24 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -269,41 +331,6 @@ for the more modern <tt>x86-64-v3</tt> architecture level.</p>
 packages.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044380/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 31 Oct 2025 13:17:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044380/" title="https://lwn.net/Articles/1044380/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (java-1.8.0-openjdk, java-17-openjdk, libtiff, redis, and redis:6), <b>Debian</b> (chromium, mediawiki, pypy3, and squid), <b>Fedora</b> (openbao), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, chromium, chrony, expat, haproxy, himmelblau, ImageMagick, iputils, kernel, libssh, libxslt, openssl-3, podman, strongswan, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (kernel, libxml2, libyaml-syck-perl, linux, linux-aws, linux-aws-hwe, linux-gcp, linux-gcp-4.15, linux-hwe,
- linux-oracle, linux-fips, linux-aws-fips, linux-gcp-fips, linux-kvm, and netty).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044297/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Oct 2025 21:07:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044297/" title="https://lwn.net/Articles/1044297/">Rust 1.91.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2025/10/30/Rust-1.91.0/">Version
-1.91.0</a> of the Rust language has been released.  Changes include
-promoting <tt>aarch64-pc-windows-msvc</tt> to a tier-1 platform, a new lint rule
-to catch dangling raw pointers from local variables, and a fair number of
-newly stabilized APIs.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1043640/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Oct 2025 14:08:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043640/" title="https://lwn.net/Articles/1043640/">[$] The long path toward optimizing short reads</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's file-I/O subsystems have been highly optimized over the years
-in the hope of providing the best performance for a wide variety of
-workloads.  There is, however, one workload type that suffers with current
-kernels: applications that perform many short reads, in multiple processes,
-from the same file.  Kiryl Shutsemau has been working on <a
-href="https://lwn.net/ml/all/20251017141536.577466-1-kirill@shutemov.name">a patch</a> to
-try to optimize this case, but the task is turning out to be harder than
-one might expect.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
