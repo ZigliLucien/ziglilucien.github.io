@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1045161/" title="See Description">Removing XSLT from Chromium</a></li>
+<li><a href="#https://lwn.net/Articles/1045140/" title="See Description">LXQt 2.3.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1042888/" title="See Description">[$] A security model for systemd</a></li>
 <li><a href="#https://lwn.net/Articles/1045125/" title="See Description">OCI Runtime Specification 1.3 adds FreeBSD</a></li>
 <li><a href="#https://lwn.net/Articles/1045124/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1044987/" title="See Description">Incus 6.18 released</a></li>
@@ -50,12 +53,70 @@
 <li><a href="#https://lwn.net/Articles/1044823/" title="See Description">Devuan 6.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1043824/" title="See Description">[$] Namespace reference counting and listns()</a></li>
 <li><a href="#https://lwn.net/Articles/1044786/" title="See Description">A new kernel port — to WebAssembly</a></li>
-<li><a href="#https://lwn.net/Articles/1044763/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1044582/" title="See Description">Kernel prepatch 6.18-rc4</a></li>
-<li><a href="#https://lwn.net/Articles/1044542/" title="See Description">Three stable kernel updates</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1045161/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 05 Nov 2025 17:59:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045161/" title="https://lwn.net/Articles/1045161/">Removing XSLT from Chromium</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Mason Freed and Dominik Röttsches have published a <a
+href="https://developer.chrome.com/docs/web-platform/deprecating-xslt">document</a>
+with a timeline and plans for removing Extensible Stylesheet Language
+Transformations (XSLT) from the Chromium project and Chrome
+browser:</p>
+
+<blockquote class="bq">
+Chromium has officially deprecated XSLT, including the XSLTProcessor
+JavaScript API and the XML stylesheet processing instruction. We
+intend to remove support from version 155 (November 17, 2026). The
+Firefox and WebKit projects have also indicated plans to remove XSLT
+from their browser engines. This document provides some history and
+context, explains how we are removing XSLT to make Chrome safer, and
+provides a path for migrating before these features are removed from
+the browser.
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1034560/">covered</a> the Web
+Hypertext Application Technology Working Group (WHATWG) discussion
+about XSLT in August.</p>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1045140/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 05 Nov 2025 15:37:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045140/" title="https://lwn.net/Articles/1045140/">LXQt 2.3.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://lxqt-project.org/release/2025/11/05/release-lxqt-2-3-0/">Version
+2.3.0</a> of the Lightweight Qt Desktop Environment (LXQt) has been
+released. The highlight of this release is continued improvement in
+Wayland support across LXQt components. Rather than offering its own
+compositor, the LXQt project <a href="https://lxqt-project.org/blog/2025/09/22/2-way-of-wayland/">takes a modular approach</a> and works with
+several Wayland compositors, such as <a href="https://invent.kde.org/plasma/kwin#kwin">KWin</a>, <a
+href="https://labwc.github.io/">labwc</a>, and <a
+href="https://yalter.github.io/niri/">niri</a>.</p>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1042888/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 05 Nov 2025 15:04:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042888/" title="https://lwn.net/Articles/1042888/">[$] A security model for systemd</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Linux has many security features and tools that have evolved over
+the years to address threats as they emerge and security gaps as they
+are discovered. Linux security is all, as Lennart Poettering observed at the <a
+href="https://all-systems-go.io/">All Systems Go!</a> conference held
+in Berlin, somewhat random and <em>not</em> a "<q>clean</q>"
+design. To many observers, that may also appear to be the case for
+systemd; however, Poettering said that he does have a vision for how
+all of the security-related pieces of systemd are meant to fit
+together. He wanted to use his talk to explain "<q>how the individual
+security-related parts of systemd actually fit together and why they
+exist in the first place</q>".</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1045125/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 05 Nov 2025 14:32:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -292,35 +353,6 @@ watch it boot in a browser.
 	spin up a new CPU dedicated to each user task (process/thread) and
 	never preempt it
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044763/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 03 Nov 2025 13:15:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044763/" title="https://lwn.net/Articles/1044763/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, and webkit2gtk3), <b>Debian</b> (ruby-rack, strongswan, ublock-origin, and wordpress), <b>Fedora</b> (firefox, kea, openapi-python-client, openbao, python-uv-build, qt5-qtbase, ruby, ruff, rust-astral-tokio-tar, rust-attribute-derive, rust-attribute-derive-macro, rust-backon, rust-collection_literals, rust-get-size-derive2, rust-get-size2, rust-interpolator, rust-manyhow, rust-manyhow-macros, rust-proc-macro-utils, rust-quote-use, rust-quote-use-macros, rust-reqsign, rust-reqsign-aws-v4, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-http-send-reqwest, rust-tikv-jemalloc-sys, rust-tikv-jemallocator, samba, skopeo, sssd, Thunar, unbound, uv, vgrep, and xorg-x11-server-Xwayland), <b>Mageia</b> (bind, libtiff, sope, and transfig), <b>Oracle</b> (compat-libtiff3, kernel, libtiff, redis, redis:6, and redis:7), <b>Red Hat</b> (kernel, kernel-rt, libssh, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (seamonkey), <b>SUSE</b> (bind, chromedriver, chromium, colord, coreboot-utils, git-bug, ImageMagick, java-11-openj9, java-17-openj9, java-21-openj9, java-25-openj9, kea, libmozjs-115-0, libmozjs-140-0, libssh, libtiff-devel-32bit, nodejs18, ongres-scram, poppler, python311-starlette, rav1e, squid, strongswan, webkit2gtk3, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (linux-gcp-6.14 and linux-hwe-6.8).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044582/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 02 Nov 2025 23:08:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044582/" title="https://lwn.net/Articles/1044582/">Kernel prepatch 6.18-rc4</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1044581/">6.18-rc4</a> for testing.
-"<q>Last week in fact felt *so* calm that I was surprised to notice that
-rc4 isn't really smaller than usual: all the stats look very normal, both
-in number of changes and where the changes are.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044542/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 02 Nov 2025 15:37:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044542/" title="https://lwn.net/Articles/1044542/">Three stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The relatively small
-<a href="https://lwn.net/Articles/1044543/">6.17.7</a>,
-<a href="https://lwn.net/Articles/1044544/">6.12.57</a>, and
-<a href="https://lwn.net/Articles/1044545/">6.6.116</a>
-stable kernels have been released; each contains another set of important fixes.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
