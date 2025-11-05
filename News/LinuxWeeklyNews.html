@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1045125/" title="See Description">OCI Runtime Specification 1.3 adds FreeBSD</a></li>
+<li><a href="#https://lwn.net/Articles/1045124/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1044987/" title="See Description">Incus 6.18 released</a></li>
 <li><a href="#https://lwn.net/Articles/1044280/" title="See Description">[$] Julia 1.12 brings progress on standalone binaries and more</a></li>
 <li><a href="#https://lwn.net/Articles/1044949/" title="See Description">Security updates for Tuesday</a></li>
@@ -51,11 +53,47 @@
 <li><a href="#https://lwn.net/Articles/1044763/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1044582/" title="See Description">Kernel prepatch 6.18-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1044542/" title="See Description">Three stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1044496/" title="See Description">Debian to require Rust as of May 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1042355/" title="See Description">[$] Mergiraf: syntax-aware merging for Git</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1045125/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 05 Nov 2025 14:32:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045125/" title="https://lwn.net/Articles/1045125/">OCI Runtime Specification 1.3 adds FreeBSD</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://github.com/opencontainers/runtime-spec/releases/tag/v1.3.0">Version
+1.3</a> of the Open Container Initiative (OCI) <a
+href="https://github.com/opencontainers/runtime-spec/blob/main/spec.md">Runtime
+Specification</a> has been released. The specification covers the
+configuration, execution environment, and lifecycle of containers. The
+most notable change in 1.3 is the addition of FreeBSD to the
+specification, which the FreeBSD Foundation <a
+href="https://freebsdfoundation.org/blog/freebsd-officially-supported-in-oci-runtime-specification-v1-3/">calls</a>
+"<q>a watershed moment for FreeBSD</q>":</p>
+
+<blockquote class="bq">
+The addition of cloud-native container support complements FreeBSD's
+already robust virtualization capabilities, particularly the powerful
+FreeBSD jails technology that has been a cornerstone of the operating
+system for over two decades. In fact, OCI containers on FreeBSD are
+implemented using jails as the underlying isolation mechanism,
+bringing together the security and resource management benefits of
+jails with the portability and ecosystem advantages of OCI-compliant
+containers.
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1045124/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 05 Nov 2025 14:12:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045124/" title="https://lwn.net/Articles/1045124/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (bind9 and gimp), <b>Fedora</b> (chromium, fastapi-cli, fastapi-cloud-cli, gherkin, libnbd, maturin, openapi-python-client, python-annotated-doc, python-cron-converter, python-fastapi, python-inline-snapshot, python-jiter, python-openapi-core, python-platformio, python-pydantic, python-pydantic-core, python-pydantic-extra-types, python-rignore, python-starlette, python-typer, python-typing-inspection, python-uv-build, ruff, rust-astral-tokio-tar, rust-attribute-derive, rust-attribute-derive-macro, rust-collection_literals, rust-get-size-derive2, rust-get-size2, rust-interpolator, rust-jiter, rust-manyhow, rust-manyhow-macros, rust-proc-macro-utils, rust-quote-use, rust-quote-use-macros, rust-regex, rust-regex-automata, rust-reqsign, rust-reqsign-aws-v4, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-http-send-reqwest, rust-serde_json, rust-speedate, rust-tikv-jemalloc-sys, rust-tikv-jemallocator, and uv), <b>Mageia</b> (golang and libavif), <b>Red Hat</b> (bind9.16, pcs, and qt6-qtsvg), <b>SUSE</b> (colord, ffmpeg, govulncheck-vulndb, jasper, openjpeg, poppler, qatengine, qatlib, runc, sccache, and tiff), and <b>Ubuntu</b> (keystone, libssh, linux-hwe-6.14, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx,
+ linux-raspi, runc-app, runc-stable, squid, squid3, and unbound).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1044987/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 04 Nov 2025 15:55:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -283,42 +321,6 @@ in number of changes and where the changes are.</q>"</blockquote></blockquote></
 <a href="https://lwn.net/Articles/1044544/">6.12.57</a>, and
 <a href="https://lwn.net/Articles/1044545/">6.6.116</a>
 stable kernels have been released; each contains another set of important fixes.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044496/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 01 Nov 2025 18:42:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044496/" title="https://lwn.net/Articles/1044496/">Debian to require Rust as of May 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Julian Andres Klode has <a
-href="https://lwn.net/ml/all/20251031213541.GA73786@debian.org">announced</a> that the
-Debian APT package-management tool will acquire "<q>hard Rust
-dependencies</q> sometime after May 2026.  "<q>If you maintain a port
-without a working Rust toolchain, please ensure it has one within the next
-6 months, or sunset the port.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1042355/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 31 Oct 2025 19:30:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042355/" title="https://lwn.net/Articles/1042355/">[$] Mergiraf: syntax-aware merging for Git</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The idea of automatic syntax-aware merging in version-control systems goes back to
-<a href="https://link.springer.com/chapter/10.1007/3-540-60578-9_14">
-2005 or earlier</a>, but initial implementations were
-often language-specific and slow.
-<a href="https://mergiraf.org/introduction.html">
-Mergiraf</a> is a merge-conflict resolver that uses a generic algorithm plus a
-small amount of language-specific knowledge
-to solve conflicts that Git's default strategy cannot.
-The project's contributors have been working on the
-tool for just under a year, but it already
-<a href="https://mergiraf.org/languages.html">
-supports 33 languages</a>, including C,
-Python, Rust, and even
-<a href="https://en.wikipedia.org/wiki/SystemVerilog">
-SystemVerilog</a>.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
