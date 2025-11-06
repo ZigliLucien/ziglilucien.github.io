@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1045401/" title="See Description">Mastodon 4.5 released</a></li>
+<li><a href="#https://lwn.net/Articles/1045405/" title="See Description">Freedesktop.org now hosts the Filesystem Hierarchy Standard</a></li>
+<li><a href="#https://lwn.net/Articles/1044432/" title="See Description">[$] Toward fast, containerized, user-space filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/1045352/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1044227/" title="See Description">[$] LWN.net Weekly Edition for November 6, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1045161/" title="See Description">Removing XSLT from Chromium</a></li>
@@ -50,12 +53,67 @@
 <li><a href="#https://lwn.net/Articles/1044949/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1044915/" title="See Description">CHERIoT 1.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1044867/" title="See Description">Defeating KASLR by Doing Nothing at All (Project Zero)</a></li>
-<li><a href="#https://lwn.net/Articles/1044844/" title="See Description">Python steering council accepts lazy imports</a></li>
-<li><a href="#https://lwn.net/Articles/1043568/" title="See Description">[$] An explicit thread-safety proposal for Python</a></li>
-<li><a href="#https://lwn.net/Articles/1044823/" title="See Description">Devuan 6.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1045401/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 06 Nov 2025 15:32:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045401/" title="https://lwn.net/Articles/1045401/">Mastodon 4.5 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://blog.joinmastodon.org/2025/11/mastodon-4.5/">Version
+4.5</a> of the <a href="https://joinmastodon.org/">Mastodon</a>
+decentralized social-media platform has been released. Notable
+features in this release include <a
+href="https://blog.joinmastodon.org/2025/09/introducing-quote-posts/">quote
+posts</a>, native emoji support, as well as enhanced moderation and
+blocking features for server administrators. The project also has a <a
+href="https://blog.joinmastodon.org/2025/10/mastodon-4-5-for-devs/">post</a>
+detailing new features in 4.5 for developers of clients and other
+software that interacts with Mastodon.</p>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1045405/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 06 Nov 2025 15:30:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045405/" title="https://lwn.net/Articles/1045405/">Freedesktop.org now hosts the Filesystem Hierarchy Standard</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The future of the Filesystem Hierarchy Standard (FHS) has <a
+href="https://lwn.net/Articles/1032947/">been under discussion</a> for some time; now,
+Neal Gompa has <a
+href="https://lwn.net/ml/all/CAEg-Je-=WnZt1dwEbhtv=f_-wbSSYsYgsNzpu3R4bDGB_zgfQg@mail.gmail.com">announced</a>
+that the FHS is "<q>hosted and stewarded</q>" by Freedesktop.org.
+<p>
+<blockquote class="bq">
+	For those who are unaware, the Filesystem Hierarchy Standard (FHS)
+	is the definition for POSIX operating systems to organize system
+	and user data. It is broadly adopted by Linux, BSD, and other
+	operating systems that follow POSIX-like conventions.
+</blockquote>
+<p>
+See <a href="https://specifications.freedesktop.org/fhs/latest/">this
+page</a> for the specification's new home.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1044432/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 06 Nov 2025 15:22:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044432/" title="https://lwn.net/Articles/1044432/">[$] Toward fast, containerized, user-space filesystems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Filesystems are complex and performance-sensitive beasts.  They can also
+present security concerns.  Microkernel-based systems have long pushed
+filesystems into separate processes in order to contain any vulnerabilities
+that may be found there.  Linux can do the same with the <a
+href="https://docs.kernel.org/filesystems/fuse/">Filesystem in
+Userspace</a> (FUSE) subsystem, but using FUSE brings a significant
+performance penalty.  Darrick Wong is working on ways to eliminate that
+penalty, and he has <a
+href="https://lwn.net/ml/all/20251029002755.GK6174@frogsfrogsfrogs">a massive patch
+set</a> showing how ext4 filesystems can be safely implemented in user space by
+unprivileged processes with good performance.  This work has the potential
+to radically change how filesystems are managed on Linux systems.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1045352/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 06 Nov 2025 14:08:49 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,71 +336,6 @@ layout randomization (KASLR) is enabled.
 	issues dramatically simplified what might otherwise have been a
 	more complicated and likely less reliable exploit.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044844/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 03 Nov 2025 18:16:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044844/" title="https://lwn.net/Articles/1044844/">Python steering council accepts lazy imports</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Barry Warsaw, writing for the Python steering council, has <a
-href="https://discuss.python.org/t/pep-810-explicit-lazy-imports/104131/466">announced</a>
-that <a href="https://peps.python.org/pep-0810/">PEP&#160;810</a> ("Explicit lazy
-imports") has been approved, unanimously, by the four who could vote.  Since
-Pablo Galindo Salgado was one of the PEP authors, he did not vote.  The PEP provides a way to defer importing modules until the names
-defined in a module are
-needed by other parts of the program.  We <a
-href="https://lwn.net/Articles/1041120/">covered</a> the PEP and the discussion around it
-a few weeks back.  The council also had "<q>recommendations about some of
-the PEP's details, a few suggestions for filling a couple of small
-gaps</q>", including:
-
-<blockquote class="bq">
-Use <tt>lazy</tt> as the keyword. We debated many of the given alternatives
-(and some we came up with ourselves), and ultimately agreed with the PEP's
-choice of the <tt>lazy</tt> keyword. The closest challenger was
-<tt>defer</tt>, but once we tried to use that in all the places where the
-term is visible, we ultimately didn't think it was as good an overall
-fit. The same was true with all the other alternative keywords we could
-come up with, so... <b><tt>lazy</tt> it is!</b>
-<p>
-What about <tt>from foo lazy import bar</tt>? <b>Nope!</b> We like that in both module imports and <tt>from</tt>-imports that the <tt>lazy</tt> keyword is the first thing on the line. It helps to visually recognize lazy imports of both varieties.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1043568/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 03 Nov 2025 17:44:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1043568/" title="https://lwn.net/Articles/1043568/">[$] An explicit thread-safety proposal for Python</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Python already has several ways to run programs concurrently —
-including asynchronous functions, threads, subinterpreters, and multiprocessing
-— but all of those options have drawbacks of one kind or another.
-<a href="https://peps.python.org/pep-0703/">
-PEP&#160;703</a> ("Making the Global Interpreter Lock Optional in CPython")
-<a href="https://lwn.net/Articles/940780/">removed a major barrier</a> to running Python
-threads in parallel, but also exposed Python programmers to the same tricky
-synchronization problems found in other languages supporting multithreaded
-programs. A new draft proposal
-by Mark Shannon,
-<a href="https://pep-previews--4579.org.readthedocs.build/pep-0805/">
-PEP&#160;805</a> ("Safe Parallel Python"), suggests a way for the CPython runtime
-to cut down on concurrency bugs, making it more practical for Python programmers
-to use versions of the language without the global interpreter lock (GIL).
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044823/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 03 Nov 2025 15:18:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044823/" title="https://lwn.net/Articles/1044823/">Devuan 6.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/all/0babed59-acb2-42a9-8203-d0cd83578194@gmail.com">Version
-6.0 ("Excalibur")</a> of the systemd-averse Devuan distribution has been
-released.  It is based on Debian&#160;13 ("trixie"), and includes some of
-the significant changes from that release, including the merged
-<tt>/usr</tt> hierarchy.  See <a
-href="https://files.devuan.org/devuan_excalibur/Release_notes.txt">the
-release notes</a> for details.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
