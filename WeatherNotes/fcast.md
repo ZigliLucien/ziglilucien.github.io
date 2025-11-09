@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of rain showers between 10am and 3pm. Partly sunny. High near 41, with temperatures falling to around 36 in the afternoon.
-         Northwest wind 15 to 20 mph, with gusts as high as 31 mph. Chance of precipitation is 20%.<br></div>
+         Northwest wind 15 to 18 mph, with gusts as high as 31 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
