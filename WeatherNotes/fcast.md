@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of rain showers between 9pm and midnight. Mostly cloudy. Low around 40, with temperatures rising to around 42 overnight.
-         West wind 6 to 15 mph, with gusts as high as 24 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Tonight</h3>A chance of rain showers before midnight. Mostly cloudy. Low around 40, with temperatures rising to around 42 overnight. Northwest
+         wind 5 to 15 mph, with gusts as high as 24 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
