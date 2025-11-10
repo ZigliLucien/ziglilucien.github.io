@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 41, with temperatures falling to around 37 in the afternoon. Northwest wind 9 to 14 mph, with gusts as high
-         as 22 mph.<br></div>
+         <h3>This Afternoon</h3>Sunny. High near 41, with temperatures falling to around 37 in the afternoon. Northwest wind around 12 mph, with gusts as
+         high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
