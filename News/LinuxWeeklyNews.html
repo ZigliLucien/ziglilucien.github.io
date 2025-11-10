@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1045965/" title="See Description">Public-inbox 2.0.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1044824/" title="See Description">[$] Magic kernel functions for BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1045923/" title="See Description">Pytest 9.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1045922/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1045810/" title="See Description">Kernel prepatch 6.18-rc5</a></li>
@@ -51,11 +53,44 @@
 <li><a href="#https://lwn.net/Articles/1045352/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1044227/" title="See Description">[$] LWN.net Weekly Edition for November 6, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1045161/" title="See Description">Removing XSLT from Chromium</a></li>
-<li><a href="#https://lwn.net/Articles/1045140/" title="See Description">LXQt 2.3.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1042888/" title="See Description">[$] A security model for systemd</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1045965/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 10 Nov 2025 16:13:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045965/" title="https://lwn.net/Articles/1045965/">Public-inbox 2.0.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Version 2.0.0 of public-inbox, the mail archiving system behind
+lore.kernel.org and LWN's email archive, has been released.  "<q>This
+release includes several new features and fixes; mostly around improved
+integration between inboxes and coderepos for solver.  Portability and
+reliability is also improved, especially in the internal process management
+of lei.</q>"
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1044824/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 10 Nov 2025 15:04:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044824/" title="https://lwn.net/Articles/1044824/">[$] Magic kernel functions for BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+When programs written in BPF (the kernel's hot-loadable virtual-machine
+ bytecode) call kernel functions (kfuncs), it may be useful
+for those functions to have additional information about the context in which
+those BPF programs are executing. Rather than requiring it to supply
+that information, it would be convenient to let the BPF verifier pass that
+information to the called function automatically. That is already possible, but
+<a href="https://lwn.net/ml/all/20251029190113.3323406-1-ihor.solodrai@linux.dev/">
+a recent patch set</a> from Ihor Solodrai would make it more ergonomic.
+It allows kernel
+developers to specify that a kfunc should be passed additional
+parameters inferred by the verifier, invisibly to the BPF program. The
+discussion included concerns that Solodrai's implementation was unnecessarily
+ complex, however.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1045923/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 10 Nov 2025 14:37:39 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,40 +319,6 @@ the browser.
 Hypertext Application Technology Working Group (WHATWG) discussion
 about XSLT in August.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1045140/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Nov 2025 15:37:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045140/" title="https://lwn.net/Articles/1045140/">LXQt 2.3.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://lxqt-project.org/release/2025/11/05/release-lxqt-2-3-0/">Version
-2.3.0</a> of the Lightweight Qt Desktop Environment (LXQt) has been
-released. The highlight of this release is continued improvement in
-Wayland support across LXQt components. Rather than offering its own
-compositor, the LXQt project <a href="https://lxqt-project.org/blog/2025/09/22/2-way-of-wayland/">takes a modular approach</a> and works with
-several Wayland compositors, such as <a href="https://invent.kde.org/plasma/kwin#kwin">KWin</a>, <a
-href="https://labwc.github.io/">labwc</a>, and <a
-href="https://yalter.github.io/niri/">niri</a>.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1042888/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Nov 2025 15:04:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1042888/" title="https://lwn.net/Articles/1042888/">[$] A security model for systemd</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Linux has many security features and tools that have evolved over
-the years to address threats as they emerge and security gaps as they
-are discovered. Linux security is all, as Lennart Poettering observed at the <a
-href="https://all-systems-go.io/">All Systems Go!</a> conference held
-in Berlin, somewhat random and <em>not</em> a "<q>clean</q>"
-design. To many observers, that may also appear to be the case for
-systemd; however, Poettering said that he does have a vision for how
-all of the security-related pieces of systemd are meant to fit
-together. He wanted to use his talk to explain "<q>how the individual
-security-related parts of systemd actually fit together and why they
-exist in the first place</q>".</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
