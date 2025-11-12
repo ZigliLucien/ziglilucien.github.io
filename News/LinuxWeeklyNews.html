@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1046173/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1046082/" title="See Description">Firefox 145 released</a></li>
 <li><a href="#https://lwn.net/Articles/1044979/" title="See Description">[$] Protecting privacy with Tails</a></li>
 <li><a href="#https://lwn.net/Articles/1046042/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1045612/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1045401/" title="See Description">Mastodon 4.5 released</a></li>
 <li><a href="#https://lwn.net/Articles/1045405/" title="See Description">Freedesktop.org now hosts the Filesystem Hierarchy Standard</a></li>
-<li><a href="#https://lwn.net/Articles/1044432/" title="See Description">[$] Toward fast, containerized, user-space filesystems</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1046173/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Nov 2025 14:12:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046173/" title="https://lwn.net/Articles/1046173/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and libtiff), <b>Debian</b> (kernel, libarchive, rust-sudo-rs, and squid), <b>Fedora</b> (chromium, dotnet8.0, forgejo, ruby, and webkitgtk), <b>Oracle</b> (bind, bind9.18, kernel, kernel-uek*, libtiff, and runc), <b>Red Hat</b> (firefox, kernel, and kernel-rt), <b>Slackware</b> (mozilla), <b>SUSE</b> (buildah, colord, containerd, kernel, lasso, libsoup, micropython, ongres-scram, openssh, proxy-helm, uyuni-tools, python-pdfminer.six, qatengine, qatlib, regclient, and runc), and <b>Ubuntu</b> (raptor and raptor2).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1046082/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 11 Nov 2025 16:49:53 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -293,25 +301,6 @@ that the FHS is "<q>hosted and stewarded</q>" by Freedesktop.org.
 <p>
 See <a href="https://specifications.freedesktop.org/fhs/latest/">this
 page</a> for the specification's new home.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044432/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 06 Nov 2025 15:22:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044432/" title="https://lwn.net/Articles/1044432/">[$] Toward fast, containerized, user-space filesystems</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Filesystems are complex and performance-sensitive beasts.  They can also
-present security concerns.  Microkernel-based systems have long pushed
-filesystems into separate processes in order to contain any vulnerabilities
-that may be found there.  Linux can do the same with the <a
-href="https://docs.kernel.org/filesystems/fuse/">Filesystem in
-Userspace</a> (FUSE) subsystem, but using FUSE brings a significant
-performance penalty.  Darrick Wong is working on ways to eliminate that
-penalty, and he has <a
-href="https://lwn.net/ml/all/20251029002755.GK6174@frogsfrogsfrogs">a massive patch
-set</a> showing how ext4 filesystems can be safely implemented in user space by
-unprivileged processes with good performance.  This work has the potential
-to radically change how filesystems are managed on Linux systems.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
