@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1046397/" title="See Description">Rust in Android: move fast and fix things (Google Security Blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1046376/" title="See Description">Privilege escalation in LightDM Greeter by KDE (SUSE Security Team Blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1046375/" title="See Description">Thunderbird 145 released</a></li>
 <li><a href="#https://lwn.net/Articles/1045247/" title="See Description">[$] Another Fedora Flatpak discussion</a></li>
 <li><a href="#https://lwn.net/Articles/1046318/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1045243/" title="See Description">[$] LWN.net Weekly Edition for November 13, 2025</a></li>
@@ -50,12 +53,73 @@
 <li><a href="#https://lwn.net/Articles/1045965/" title="See Description">Public-inbox 2.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1044824/" title="See Description">[$] Magic kernel functions for BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1045923/" title="See Description">Pytest 9.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1045922/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1045810/" title="See Description">Kernel prepatch 6.18-rc5</a></li>
-<li><a href="#https://lwn.net/Articles/1045807/" title="See Description">About KeePassXC's code quality control (KeePassXC blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1046397/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 13 Nov 2025 20:41:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046397/" title="https://lwn.net/Articles/1046397/">Rust in Android: move fast and fix things (Google Security Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Google Security Blog has <a
+href="https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html">a
+new post</a> on just how well the use of Rust is working out for the
+Android project.
+<p>
+<blockquote class="bq">
+	We adopted Rust for its security and are seeing a 1000x reduction
+	in memory safety vulnerability density compared to Android's C and
+	C++ code. But the biggest surprise was Rust's impact on software
+	delivery. With Rust changes having a 4x lower rollback rate and
+	spending 25% less time in code review, the safer path is now also
+	the faster one. 
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1046376/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 13 Nov 2025 18:43:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046376/" title="https://lwn.net/Articles/1046376/">Privilege escalation in LightDM Greeter by KDE (SUSE Security Team Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The SUSE Security Team has published an <a
+href="https://security.opensuse.org/2025/11/13/lightdm-kde-greeter-auth-helper.html">in-depth
+article</a> on its findings after reviewing a D-Bus service contained
+in <a
+href="https://invent.kde.org/plasma/lightdm-kde-greeter">LightDM
+Greeter by KDE</a> (the <tt>lightdm-kde-greeter</tt> package)
+for addition to openSUSE Tumbleweed. The team found a privilege
+escalation from the <tt>lightdm</tt> service user to <tt>root</tt>, as
+well as other attack vectors in the service:</p>
+
+<blockquote class="bq">
+In agreement with upstream, we assigned CVE-2025-62876 to track the
+<tt>lightdm</tt> service user to <tt>root</tt> privilege escalation aspect described in
+this report. The severity of the issue is low, since it only affects
+defense-in-depth (if the <tt>lightdm</tt> service user were compromised) and
+the problematic logic can only be reached and exploited if triggered
+interactively by a privileged user.
+</blockquote>
+
+<p>The fixes are contained in the <a
+href="https://invent.kde.org/plasma/lightdm-kde-greeter/-/tags/v6.0.4">6.0.4
+release</a> of the project.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1046375/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 13 Nov 2025 18:21:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046375/" title="https://lwn.net/Articles/1046375/">Thunderbird 145 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://www.thunderbird.net/en-US/thunderbird/145.0/releasenotes/">Version
+145</a> of the Thunderbird email client has been released. Notable
+changes in this release include enabling DNS over HTTPS, support for
+Microsoft Exchange via Exchange Web Services, and quite a few bug
+fixes. As of 145, the project is no longer shipping 32-bit binaries
+for Linux on x86.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1045247/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 13 Nov 2025 14:49:07 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -236,65 +300,6 @@ href="https://docs.pytest.org/en/stable/explanation/goodpractices.html#strict-mo
 mode</a>.  See the <a
 href="https://docs.pytest.org/en/stable/changelog.html#pytest-9-0-0-2025-11-05">changelog</a>
 for a complete list of new features, enhancements, and bug fixes.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1045922/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 10 Nov 2025 14:05:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045922/" title="https://lwn.net/Articles/1045922/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (galera and mariadb, kernel, kernel-rt, mingw-libtiff, redis:7, tigervnc, and xorg-x11-server-Xwayland), <b>Fedora</b> (bind, bind-dyndb-ldap, bpfman, chromium, dolphin-emu, dotnet9.0, golang-github-openprinting-ipp-usb, kea, libnbd, luksmeta, python-cloudpickle, python-pydantic, python-pydantic-core, python-uv-build, ruby, ruff, rust-get-size-derive2, rust-get-size2, rust-regex, rust-regex-automata, rust-reqsign, rust-reqsign-aws-v4, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-http-send-reqwest, singularity-ce, uv, xen, and xorg-x11-server-Xwayland), <b>Mageia</b> (libxml2, libxslt, opencontainers-runc, and xen), <b>Oracle</b> (bind, galera and mariadb, libsoup, linux-firmware, mariadb:10.5, mingw-libtiff, osbuild-composer, qt5-qt3d, tigervnc, and xorg-x11-server-Xwayland), <b>SUSE</b> (chromium, erlang, google-osconfig-agent, govulncheck-vulndb, java-11-openjdk, java-17-openjdk, java-1_8_0-openj9, opentofu, python-djangorestframework-simplejwt, python311-Django, python315, squid, thunderbird, tiff, tomcat, tomcat11, and xen), and <b>Ubuntu</b> (linux-fips, linux-hwe-6.14, and linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx,
- linux-raspi).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1045810/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 09 Nov 2025 23:44:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045810/" title="https://lwn.net/Articles/1045810/">Kernel prepatch 6.18-rc5</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1045809/">6.18-rc5</a> kernel prepatch is out for
-testing.  "<q>In other words: it all looks just the way I like it at this
-point: small and boring.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1045807/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 09 Nov 2025 22:45:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045807/" title="https://lwn.net/Articles/1045807/">About KeePassXC's code quality control (KeePassXC blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The KeePassXC project has recently updated its <a
-href="https://github.com/keepassxreboot/keepassxc/blob/develop/.github/CONTRIBUTING.md">contribution
-policy</a> and <a
-href="https://github.com/keepassxreboot/keepassxc/blob/develop/README.md">README</a>
-to note its policy around contributions created with generative AI
-tools. The project's use of those tools, such as GitHub Copilot, have
-raised a number of questions and concerns, which the project has
-<a
-href="https://keepassxc.org/blog/2025-11-09-about-keepassxcs-code-quality-control/">responded
-to</a>:</p>
-
-<blockquote class="bq">
-<p><strong>There are no AI features inside KeePassXC and there never
-will be!</strong></p>
-
-<p>The use of Copilot for drafting pull requests is reserved for very
-simple and focused tasks with a small handful of changes, such as
-simple bugfixes or UI changes. We use it sparingly (mostly because
-it's not very good at complex tasks) and only where we think it offers
-a benefit. Copilot is good at helping developers plan complex changes
-by reviewing the code base and writing suggestions in markdown, as
-well as boilerplate tasks such as test development. Copilot can mess
-up, and we catch that in our standard review process (e.g., by
-committing a full directory of rubbish, which we identified and
-fixed). You can review our copilot instructions. Would we ever let AI
-rewrite our crypto stack? No. Would we let it refactor and rewrite
-large parts of the application? No. Would we ask it to fix a
-regression or add more test cases? Yes, sometimes.</p>
-</blockquote>
-
-<p>Emphasis in the original. See the full post to learn more about the
-project's processes and pull requests that have been created with AI
-assistance.</p>
-
 <p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
