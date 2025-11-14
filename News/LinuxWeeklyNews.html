@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1045453/" title="See Description">[$] A struct sockaddr sequel</a></li>
 <li><a href="#https://lwn.net/Articles/1046497/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1046410/" title="See Description">Two new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1046397/" title="See Description">Rust in Android: move fast and fix things (Google Security Blog)</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/1046082/" title="See Description">Firefox 145 released</a></li>
 <li><a href="#https://lwn.net/Articles/1044979/" title="See Description">[$] Protecting privacy with Tails</a></li>
 <li><a href="#https://lwn.net/Articles/1046042/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1045965/" title="See Description">Public-inbox 2.0.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1045453/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 14 Nov 2025 15:10:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045453/" title="https://lwn.net/Articles/1045453/">[$] A struct sockaddr sequel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the many objectives of the <a href="https://kspp.github.io/">Linux
+Kernel Self-Protection Project (KSPP)</a>, which just <a
+href="https://hachyderm.io/@kees/115500589609430241">completed ten years of
+work</a>, is to ensure that all array references can be bounds-checked,
+even in the case of flexible array members, the size of which is not known
+at compile time.  One of the most challenging flexible array members in the
+kernel is not even declared as such.  Almost exactly one year ago, LWN <a
+href="https://lwn.net/Articles/997094/">looked at</a> the effort to increase safety around
+the networking subsystem's heavily used <tt>sockaddr</tt> structure.  One
+year later, Kees Cook is still looking for a way to bring this work to a
+close.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1046497/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 14 Nov 2025 14:09:15 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -267,19 +285,6 @@ it for a spin.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, expat, kernel, osbuild-composer, qt6-qtsvg, runc, valkey, and xorg-x11-server-Xwayland), <b>Debian</b> (incus), <b>Fedora</b> (cef and dotnet8.0), <b>Mageia</b> (strongswan), <b>Red Hat</b> (fence-agents and python-requests), <b>SUSE</b> (chromium, colord, erlang26, java-1_8_0-openjdk, libsoup, python-django, thunderbird, tiff, and warewulf4), and <b>Ubuntu</b> (intel-microcode and rust-sudo-rs).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1045965/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 10 Nov 2025 16:13:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045965/" title="https://lwn.net/Articles/1045965/">Public-inbox 2.0.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Version 2.0.0 of public-inbox, the mail archiving system behind
-lore.kernel.org and LWN's email archive, has been released.  "<q>This
-release includes several new features and fixes; mostly around improved
-integration between inboxes and coderepos for solver.  Portability and
-reliability is also improved, especially in the internal process management
-of lei.</q>"
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
