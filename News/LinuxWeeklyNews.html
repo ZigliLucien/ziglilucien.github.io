@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1046497/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1046410/" title="See Description">Two new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1046397/" title="See Description">Rust in Android: move fast and fix things (Google Security Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1046376/" title="See Description">Privilege escalation in LightDM Greeter by KDE (SUSE Security Team Blog)</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1044979/" title="See Description">[$] Protecting privacy with Tails</a></li>
 <li><a href="#https://lwn.net/Articles/1046042/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1045965/" title="See Description">Public-inbox 2.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1044824/" title="See Description">[$] Magic kernel functions for BPF</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1046497/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 14 Nov 2025 14:09:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046497/" title="https://lwn.net/Articles/1046497/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (keystone and lxd), <b>Fedora</b> (docker-buildkit, firefox, gh, gitleaks, lasso, runc, and seamonkey), <b>Mageia</b> (perl-Authen-SASL, perl-Cpanel-JSON-XS, perl-Crypt-OpenSSL-RSA, perl-JSON-XS, python-flask-cors, python-py, python-setuptools, and ruby), <b>Oracle</b> (java-1.8.0-openjdk), <b>SUSE</b> (binutils, cargo-packaging, rust-bindgen, chromium, go-sendxmpp, helm, lasso, libxml2, openssh, openssh8.4, python-Django, python-Scrapy-doc, python311-Brotli, squid, tomcat10, and weblate), and <b>Ubuntu</b> (linux-nvidia-6.8, linux-oracle, linux-oracle-6.8 and linux-xilinx-zynqmp).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1046410/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 13 Nov 2025 22:20:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -145,7 +153,7 @@ built by the original developers and hosted on <a
 href="https://flathub.org/en">Flathub</a>. It has also been a source
 of conflict with upstream projects, because users complain of bugs in
 Flatpak packages they are not responsible for. The situation has also frustrated some
-Fedora developers, who would prefer to offer put Flathub's offerings
+Fedora developers, who would prefer to put Flathub's offerings
 first. A new complaint that Fedora has apparently used <a
 href="https://docs.flatpak.org/en/latest/manifests.html#manifests">manifests</a>
 from Flathub to build the packages for Fedora—without giving credit to
@@ -272,28 +280,6 @@ release includes several new features and fixes; mostly around improved
 integration between inboxes and coderepos for solver.  Portability and
 reliability is also improved, especially in the internal process management
 of lei.</q>"
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1044824/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 10 Nov 2025 15:04:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1044824/" title="https://lwn.net/Articles/1044824/">[$] Magic kernel functions for BPF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-When programs written in BPF (the kernel's hot-loadable virtual-machine
- bytecode) call kernel functions (kfuncs), it may be useful
-for those functions to have additional information about the context in which
-those BPF programs are executing. Rather than requiring it to supply
-that information, it would be convenient to let the BPF verifier pass that
-information to the called function automatically. That is already possible, but
-<a href="https://lwn.net/ml/all/20251029190113.3323406-1-ihor.solodrai@linux.dev/">
-a recent patch set</a> from Ihor Solodrai would make it more ergonomic.
-It allows kernel
-developers to specify that a kfunc should be passed additional
-parameters inferred by the verifier, invisibly to the BPF program. The
-discussion included concerns that Solodrai's implementation was unnecessarily
- complex, however.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
