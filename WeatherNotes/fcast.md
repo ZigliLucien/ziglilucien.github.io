@@ -7,12 +7,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear, with a low around 60. South southwest wind 7 to 10 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy, with a low around 60. South southwest wind 7 to 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>Mostly sunny. High near 74, with temperatures falling to around 71 in the afternoon. Southwest wind 9 to 14 mph, with gusts
-         as high as 22 mph.<br></div>
+         as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
