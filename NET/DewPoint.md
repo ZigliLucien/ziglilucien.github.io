@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 57.0 F. <strong>Dew Point</strong> 25.0 F.</div>
+<div id='c'><strong>Temp</strong> 59.0 F. <strong>Dew Point</strong> 23.0 F.</div>
 
 <p/><br/><p/>
 
@@ -2796,3 +2796,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Sun Nov 16 11:08:05 2025 | 54.0 F. | 28.0 F.|
 | Sun Nov 16 12:08:05 2025 | 57.0 F. | 25.0 F.|
 | Sun Nov 16 13:08:04 2025 | 57.0 F. | 25.0 F.|
+| Sun Nov 16 14:08:05 2025 | 59.0 F. | 23.0 F.|
