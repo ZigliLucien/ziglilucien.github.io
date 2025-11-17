@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1046249/" title="See Description">[$] Hot-page migration and specific-purpose NUMA nodes</a></li>
+<li><a href="#https://lwn.net/Articles/1046757/" title="See Description">Josefsson: Introducing the Debian Libre Live Images</a></li>
 <li><a href="#https://lwn.net/Articles/1046756/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1046651/" title="See Description">Kernel prepatch 6.18-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1045453/" title="See Description">[$] A struct sockaddr sequel</a></li>
@@ -51,11 +53,56 @@
 <li><a href="#https://lwn.net/Articles/1045243/" title="See Description">[$] LWN.net Weekly Edition for November 13, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1046227/" title="See Description">Homebrew 5.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1045006/" title="See Description">[$] The intersection of unstable pages and direct I/O</a></li>
-<li><a href="#https://lwn.net/Articles/1046173/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1046082/" title="See Description">Firefox 145 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1046249/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Nov 2025 16:46:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046249/" title="https://lwn.net/Articles/1046249/">[$] Hot-page migration and specific-purpose NUMA nodes</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>For better or for worse, the NUMA node is the abstraction used by the
+kernel to keep track of different types of memory.  How that abstraction is
+used, though, is still an active area of development.  Two patch sets
+focused on this problem are currently under review; one addresses the
+perennial problem of promoting heavily used folios from slower to faster
+memory, while the other aims to improve the kernel's handling of nodes
+containing special memory installed for a specific purpose.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1046757/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Nov 2025 15:07:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046757/" title="https://lwn.net/Articles/1046757/">Josefsson: Introducing the Debian Libre Live Images</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Debian developer Simon Josefsson has <a
+href="https://blog.josefsson.org/2025/11/13/introducing-the-debian-libre-live-images/">announced</a>
+the <a
+href="https://gitlab.com/debdistutils/debian-libre/debian-libre-live#debian-libre-live-images">Debian
+Libre Live Images</a> project, to allow installing Debian without any
+non-free software:</p>
+
+<blockquote class="bq">
+<p>Since the <a href="https://www.debian.org/vote/2022/vote_003">2022 decision on non-free firmware</a>, the official images
+for bookworm and trixie contains non-free software.</p>
+
+<p>The Debian Libre Live Images project provides Live ISO images for
+Intel/AMD-compatible 64-bit x86 CPUs (amd64) built without any
+non-free software, suitable for running and installing Debian. The
+images are similar to the <a
+href="https://www.debian.org/CD/live/">Debian Live Images</a>
+distributed as <a
+href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/">Debian
+live images</a>.</p>
+</blockquote>
+
+<p>He does warn that this is a first public release, so there may be
+problems. See the <a
+href="https://gitlab.com/debdistutils/debian-libre/debian-libre-live/-/issues">current
+list of known issues</a> before trying the images out.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1046756/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 17 Nov 2025 14:23:55 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -250,30 +297,6 @@ direct <span class="nobreak">I/O</span>.  There is some disagreement,
 though, over whether those problems are the result of user-space bugs and
 how much of a performance price should be paid to address them.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046173/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 12 Nov 2025 14:12:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046173/" title="https://lwn.net/Articles/1046173/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and libtiff), <b>Debian</b> (kernel, libarchive, rust-sudo-rs, and squid), <b>Fedora</b> (chromium, dotnet8.0, forgejo, ruby, and webkitgtk), <b>Oracle</b> (bind, bind9.18, kernel, kernel-uek*, libtiff, and runc), <b>Red Hat</b> (firefox, kernel, and kernel-rt), <b>Slackware</b> (mozilla), <b>SUSE</b> (buildah, colord, containerd, kernel, lasso, libsoup, micropython, ongres-scram, openssh, proxy-helm, uyuni-tools, python-pdfminer.six, qatengine, qatlib, regclient, and runc), and <b>Ubuntu</b> (raptor and raptor2).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046082/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 11 Nov 2025 16:49:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046082/" title="https://lwn.net/Articles/1046082/">Firefox 145 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Firefox 145 has been <a
-href="https://www.firefox.com/en-US/firefox/145.0/releasenotes/">released</a>. Notable
-changes in this release include <a
-href="https://support.mozilla.org/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer#w_comment-in-pdf-files">note-taking
-features</a> for PDFs viewed in Firefox, <a
-href="https://blog.mozilla.org/en/firefox/fingerprinting-protections/">enhanced
-privacy protections</a>, and the ability to access and manage passwords in
-the sidebar. This release also drops support for 32-bit Linux systems.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
