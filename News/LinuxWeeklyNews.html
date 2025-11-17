@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1046835/" title="See Description">Git 2.52.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1046249/" title="See Description">[$] Hot-page migration and specific-purpose NUMA nodes</a></li>
 <li><a href="#https://lwn.net/Articles/1046757/" title="See Description">Josefsson: Introducing the Debian Libre Live Images</a></li>
 <li><a href="#https://lwn.net/Articles/1046756/" title="See Description">Security updates for Monday</a></li>
@@ -52,10 +53,23 @@
 <li><a href="#https://lwn.net/Articles/1046318/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1045243/" title="See Description">[$] LWN.net Weekly Edition for November 13, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1046227/" title="See Description">Homebrew 5.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1045006/" title="See Description">[$] The intersection of unstable pages and direct I/O</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1046835/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 17 Nov 2025 19:55:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046835/" title="https://lwn.net/Articles/1046835/">Git 2.52.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/all/xmqqh5usmvsd.fsf@gitster.g">Version 2.52.0</a> of the Git
+source-code management system has been released.  Changes include a new
+<tt>last-modified</tt> command to find the closest ancestor commit that
+touched one or more paths, a couple of <tt>git refs</tt> improvements, a
+new <tt>git repo</tt> command for obtaining information about the
+repository itself, and more.  See the announcement and <a
+href="https://github.blog/open-source/git/highlights-from-git-2-52/">this
+GitHub blog entry</a> for more information.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1046249/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 17 Nov 2025 16:46:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -281,22 +295,6 @@ release include download concurrency by default, official support for
 64-bit Arm on Linux, and more.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1045006/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 12 Nov 2025 15:51:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045006/" title="https://lwn.net/Articles/1045006/">[$] The intersection of unstable pages and direct I/O</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Longtime LWN readers will have encountered the concept of "stable pages"
-before; it was first <a href="https://lwn.net/Articles/429295/">covered here</a> nearly
-15&#160;years ago.  For the most part, the problem that stable pages were
-meant to solve — preventing errors when user space modifies a buffer that
-is under <span class="nobreak">I/O</span> — has been dealt with.  But
-recent discussions show that there is one area where problems remain:
-direct <span class="nobreak">I/O</span>.  There is some disagreement,
-though, over whether those problems are the result of user-space bugs and
-how much of a performance price should be paid to address them.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
