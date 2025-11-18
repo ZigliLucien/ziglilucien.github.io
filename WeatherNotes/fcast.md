@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>A chance of showers and thunderstorms. Mostly cloudy. Low around 51, with temperatures rising to around 56 overnight. South
-         wind 10 to 14 mph, with gusts as high as 18 mph. Chance of precipitation is 40%.<br></div>
+         wind around 13 mph, with gusts as high as 18 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
