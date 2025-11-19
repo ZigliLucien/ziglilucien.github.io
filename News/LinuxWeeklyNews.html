@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1046319/" title="See Description">[$] Debian debates amending architecture support stratagem</a></li>
+<li><a href="#https://lwn.net/Articles/1047056/" title="See Description">Postmortem of the Xubuntu.org download site compromise</a></li>
+<li><a href="#https://lwn.net/Articles/1047055/" title="See Description">GStreamer Conference 2025 video recordings now available</a></li>
 <li><a href="#https://lwn.net/Articles/1047021/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1046962/" title="See Description">Blender 5.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1045363/" title="See Description">[$] The current state of Linux architecture support</a></li>
@@ -50,12 +53,77 @@
 <li><a href="#https://lwn.net/Articles/1046651/" title="See Description">Kernel prepatch 6.18-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1045453/" title="See Description">[$] A struct sockaddr sequel</a></li>
 <li><a href="#https://lwn.net/Articles/1046497/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1046410/" title="See Description">Two new stable kernels</a></li>
-<li><a href="#https://lwn.net/Articles/1046397/" title="See Description">Rust in Android: move fast and fix things (Google Security Blog)</a></li>
-<li><a href="#https://lwn.net/Articles/1046376/" title="See Description">Privilege escalation in LightDM Greeter by KDE (SUSE Security Team Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1046319/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Nov 2025 16:17:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046319/" title="https://lwn.net/Articles/1046319/">[$] Debian debates amending architecture support stratagem</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The Linux kernel
+<a href="https://lwn.net/Articles/1045363">supports a large number of architectures</a>.
+Not all of those are supported by Linux distributions, but Debian does support
+many of them, officially or unofficially. On October 26, Bastian Blank
+<a href="https://lists.debian.org/debian-68k/2025/10/msg00002.html">
+opened a discussion</a> about the minimum version of these architectures
+that Debian should support: in particular, raising the de-facto minimum
+versions in the next Debian release ("forky"). Thread participants were generally in favor of
+keeping support for older architecture variants, but didn't reach a firm
+conclusion.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1047056/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Nov 2025 16:16:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047056/" title="https://lwn.net/Articles/1047056/">Postmortem of the Xubuntu.org download site compromise</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>In mid-October, the <a href="https://xubuntu.org/">Xubuntu</a>
+download site was compromised and had directed users to a malicious
+zip file instead of the Torrent file that users expected. Elizabeth
+K. Joseph has <a
+href="https://lists.ubuntu.com/archives/xubuntu-users/2025-November/012210.html">published</a>
+a postmortem of the incident, along with plans to avoid such a breach
+in the future:</p>
+
+<blockquote class="bq">
+<p>To be perfectly clear: this only impacted our website, and the torrent
+links provided there.</p>
+
+<p>If you downloaded or opened a file named "Xubuntu-Safe-Download.zip"
+from the Xubuntu downloads page during this period, you should assume
+it was malicious. We strongly recommend scanning your computer with a
+trusted antivirus or anti-malware solution and deleting the file
+immediately.</p>
+
+<p>Nothing on cdimages.ubuntu.com or any of the other official Ubuntu
+repositories was impacted, and our mirrors remained safe as long as
+they were also mirroring from official resources.</p>
+
+<p>None of the build systems, packages, or other components of Xubuntu
+itself were impacted.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1047055/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 19 Nov 2025 15:56:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047055/" title="https://lwn.net/Articles/1047055/">GStreamer Conference 2025 video recordings now available</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Recordings from the <a
+href="https://gstreamer.freedesktop.org/conference/2025/">GStreamer
+Conference 2025</a>, held in London in late October, are <a
+href="https://gstconf.ubicast.tv/channels/#gstreamer-conference-2025">now
+available</a> on the GStreamer Conferences Archive site. Includes the
+<a
+href="https://gstconf.ubicast.tv/videos/gstreamer-state-of-the-union-2025_hk7g3xocv4/">GStreamer
+State of the Union</a> talk by Tim-Philipp Müller, <a
+href="https://gstconf.ubicast.tv/videos/state-of-mpeg-ts-in-gstreamer/">State
+of MPEG 2 Transport Stream (MPEG-TS)</a> by Edward Hervey, and many
+others.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1047021/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 19 Nov 2025 14:08:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -237,66 +305,6 @@ close.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (keystone and lxd), <b>Fedora</b> (docker-buildkit, firefox, gh, gitleaks, lasso, runc, and seamonkey), <b>Mageia</b> (perl-Authen-SASL, perl-Cpanel-JSON-XS, perl-Crypt-OpenSSL-RSA, perl-JSON-XS, python-flask-cors, python-py, python-setuptools, and ruby), <b>Oracle</b> (java-1.8.0-openjdk), <b>SUSE</b> (binutils, cargo-packaging, rust-bindgen, chromium, go-sendxmpp, helm, lasso, libxml2, openssh, openssh8.4, python-Django, python-Scrapy-doc, python311-Brotli, squid, tomcat10, and weblate), and <b>Ubuntu</b> (linux-nvidia-6.8, linux-oracle, linux-oracle-6.8 and linux-xilinx-zynqmp).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046410/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Nov 2025 22:20:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046410/" title="https://lwn.net/Articles/1046410/">Two new stable kernels</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1046412/">6.17.8</a> and <a
-href="https://lwn.net/Articles/1046411/">6.12.58</a> stable kernels. Each contains an
-important set of fixes. Users are advised to upgrade.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046397/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Nov 2025 20:41:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046397/" title="https://lwn.net/Articles/1046397/">Rust in Android: move fast and fix things (Google Security Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Google Security Blog has <a
-href="https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html">a
-new post</a> on just how well the use of Rust is working out for the
-Android project.
-<p>
-<blockquote class="bq">
-	We adopted Rust for its security and are seeing a 1000x reduction
-	in memory safety vulnerability density compared to Android's C and
-	C++ code. But the biggest surprise was Rust's impact on software
-	delivery. With Rust changes having a 4x lower rollback rate and
-	spending 25% less time in code review, the safer path is now also
-	the faster one. 
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046376/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Nov 2025 18:43:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046376/" title="https://lwn.net/Articles/1046376/">Privilege escalation in LightDM Greeter by KDE (SUSE Security Team Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The SUSE Security Team has published an <a
-href="https://security.opensuse.org/2025/11/13/lightdm-kde-greeter-auth-helper.html">in-depth
-article</a> on its findings after reviewing a D-Bus service contained
-in <a
-href="https://invent.kde.org/plasma/lightdm-kde-greeter">LightDM
-Greeter by KDE</a> (the <tt>lightdm-kde-greeter</tt> package)
-for addition to openSUSE Tumbleweed. The team found a privilege
-escalation from the <tt>lightdm</tt> service user to <tt>root</tt>, as
-well as other attack vectors in the service:</p>
-
-<blockquote class="bq">
-In agreement with upstream, we assigned CVE-2025-62876 to track the
-<tt>lightdm</tt> service user to <tt>root</tt> privilege escalation aspect described in
-this report. The severity of the issue is low, since it only affects
-defense-in-depth (if the <tt>lightdm</tt> service user were compromised) and
-the problematic logic can only be reached and exploited if triggered
-interactively by a privileged user.
-</blockquote>
-
-<p>The fixes are contained in the <a
-href="https://invent.kde.org/plasma/lightdm-kde-greeter/-/tags/v6.0.4">6.0.4
-release</a> of the project.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
