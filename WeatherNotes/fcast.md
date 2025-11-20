@@ -2,7 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Patchy fog after 11pm. Mostly cloudy. Low around 48, with temperatures rising to around 50 overnight. East wind around 3 mph.<br></div>
+         <h3>Tonight</h3>Patchy fog after 11pm. Mostly cloudy. Low around 48, with temperatures rising to around 50 overnight. East southeast wind
+         0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
