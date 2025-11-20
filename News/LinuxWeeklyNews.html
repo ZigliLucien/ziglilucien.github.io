@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1047291/" title="See Description">Racing karts on a Rust GPU kernel driver (Collabora blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1046950/" title="See Description">[$] BPF and io_uring, two different ways</a></li>
 <li><a href="#https://lwn.net/Articles/1047220/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1046323/" title="See Description">[$] LWN.net Weekly Edition for November 20, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1046319/" title="See Description">[$] Debian debates amending architecture support stratagem</a></li>
@@ -51,11 +53,66 @@
 <li><a href="#https://lwn.net/Articles/1046835/" title="See Description">Git 2.52.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1046249/" title="See Description">[$] Hot-page migration and specific-purpose NUMA nodes</a></li>
 <li><a href="#https://lwn.net/Articles/1046757/" title="See Description">Josefsson: Introducing the Debian Libre Live Images</a></li>
-<li><a href="#https://lwn.net/Articles/1046756/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1046651/" title="See Description">Kernel prepatch 6.18-rc6</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1047291/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Nov 2025 16:06:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047291/" title="https://lwn.net/Articles/1047291/">Racing karts on a Rust GPU kernel driver (Collabora blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>In July, Collabora <a
+href="https://www.collabora.com/news-and-blog/news-and-events/introducing-tyr-a-new-rust-drm-driver.html">announced</a>
+the Rust-based <a href="https://rust-for-linux.com/tyr-gpu-driver">Tyr
+GPU driver</a> for <a
+href="https://en.wikipedia.org/wiki/Mali_(processor)">Arm Mali</a>
+GPUs. Daniel Almeida has posted an <a
+href="https://www.collabora.com/news-and-blog/news-and-events/racing-karts-on-a-rust-gpu-kernel-driver.html">update</a>
+on progress with a prototype of the driver running on a Rock 5B board
+with the Rockchip RK3588 system-on-chip:</p>
+
+<blockquote class="bq">
+<p>The Tyr prototype has progressed from basic GPU job execution to
+running GNOME, Weston, and full-screen 3D games like SuperTuxKart,
+demonstrating a functional, high-performance Rust driver that matches
+C-driver performance and paves the way for eventual upstream
+integration! [...]</p>
+
+<p>Tyr is not ready to be used as a daily-driver, and it will still
+take time to replicate this upstream, although it is now clear that we
+will surely get there. And as a mere prototype, it has a lot of
+shortcuts that we would not have in an upstream version, even though
+it can run on top of an unmodified (i.e., upstream) version of
+Mesa.</p>
+
+<p>That said, this prototype can serve as an experimental driver and
+as a testbed for all the Rust abstraction work taking place
+upstream. It will let us experiment with different design decisions
+and gather data on what truly contributes to the project's
+objective.</p>
+</blockquote>
+
+<p>There is also a <a
+href="https://www.youtube.com/watch?v=wX9cTGenBDk">video</a> on
+YouTube of the prototype in action.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1046950/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Nov 2025 15:39:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046950/" title="https://lwn.net/Articles/1046950/">[$] BPF and io_uring, two different ways</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>BPF allows programs uploaded from user space to be run, safely, within the
+kernel.  The io_uring subsystem, too, can be thought of as a way of loading
+programs in the kernel, though the programs in question are mostly a
+sequence of I/O-related system calls.  It has sometimes seemed inevitable
+that io_uring would, like many other parts of the kernel, gain BPF
+capabilities as a way of providing more flexibility to user space.  That
+has not yet happened, but there are currently two patches sets under
+consideration that take different approaches to the problem.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1047220/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 20 Nov 2025 14:11:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -282,25 +339,6 @@ href="https://gitlab.com/debdistutils/debian-libre/debian-libre-live/-/issues">c
 list of known issues</a> before trying the images out.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046756/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Nov 2025 14:23:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046756/" title="https://lwn.net/Articles/1046756/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (gst-plugins-base1.0, lasso, and thunderbird), <b>Fedora</b> (bind9-next, chromium, containerd, fvwm3, luksmeta, opentofu, python-pdfminer, python-uv-build, ruff, rust-get-size-derive2, rust-get-size2, rust-regex, rust-regex-automata, rust-reqsign, rust-reqsign-aws-v4, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-http-send-reqwest, suricata, uv, and xmedcon), <b>Mageia</b> (apache-commons-beanutils, apache-commons-fileupload, apache-commons-lang, botan2, python-django, spdlog, stardict, webkit2, and yelp-xsl), <b>Slackware</b> (xpdf), and <b>SUSE</b> (bind, chromedriver, firefox, kernel, libxml2, and openssh).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046651/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Nov 2025 00:34:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046651/" title="https://lwn.net/Articles/1046651/">Kernel prepatch 6.18-rc6</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1046650/">6.18-rc6</a> for testing.
-"<q>So we have a slightly larger rc6 than usual, but I think it's just the
-random noise and a result of pull request timings rather than due to any
-issues with the release. But I guess we have a couple of weeks remaining to
-find out.</q>"</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
