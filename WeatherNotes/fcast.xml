@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-11-21T21:36:57+00:00</generatedAt>
-		<updateTime type="str">2025-11-21T21:16:40+00:00</updateTime>
-		<validTimes type="str">2025-11-21T15:00:00+00:00/P7DT13H</validTimes>
+		<generatedAt type="str">2025-11-21T23:36:08+00:00</generatedAt>
+		<updateTime type="str">2025-11-21T23:01:13+00:00</updateTime>
+		<validTimes type="str">2025-11-21T17:00:00+00:00/P7DT11H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">This Afternoon</name>
-				<startTime type="str">2025-11-21T15:00:00-06:00</startTime>
+				<startTime type="str">2025-11-21T17:00:00-06:00</startTime>
 				<endTime type="str">2025-11-21T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">65</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">21</value>
+					<value type="int">22</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain,20?size=medium</icon>
-				<shortForecast type="str">Slight Chance Light Rain</shortForecast>
-				<detailedForecast type="str">A slight chance of rain. Mostly cloudy. High near 65, with temperatures falling to around 62 in the afternoon. Southwest wind around 6 mph. Chance of precipitation is 20%.</detailedForecast>
+				<windSpeed type="str">5 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A slight chance of rain showers. Mostly cloudy, with a high near 65. South southwest wind around 5 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,13 +79,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">23</value>
+					<value type="int">40</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 6 mph</windSpeed>
+				<windSpeed type="str">3 to 8 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra,20?size=medium</icon>
-				<shortForecast type="str">Slight Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of showers and thunderstorms before 1am. Mostly cloudy. Low around 49, with temperatures rising to around 51 overnight. West northwest wind 2 to 6 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra,40/rain_showers?size=medium</icon>
+				<shortForecast type="str">Slight Chance Showers And Thunderstorms then Areas Of Fog</shortForecast>
+				<detailedForecast type="str">A slight chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 9pm, then a chance of rain showers and patchy fog between 9pm and 11pm, then areas of fog and a slight chance of rain showers. Mostly cloudy. Low around 49, with temperatures rising to around 51 overnight. West northwest wind 3 to 8 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -100,11 +100,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">4</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 6 mph</windSpeed>
-				<windDirection type="str">N</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
-				<shortForecast type="str">Partly Sunny</shortForecast>
-				<detailedForecast type="str">Partly sunny. High near 58, with temperatures falling to around 54 in the afternoon. North wind 2 to 6 mph.</detailedForecast>
+				<windSpeed type="str">3 to 7 mph</windSpeed>
+				<windDirection type="str">NNW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/fog/bkn?size=medium</icon>
+				<shortForecast type="str">Patchy Fog then Partly Sunny</shortForecast>
+				<detailedForecast type="str">Patchy fog before 10am. Partly sunny. High near 58, with temperatures falling to around 54 in the afternoon. North northwest wind 3 to 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -112,18 +112,18 @@
 				<startTime type="str">2025-11-22T18:00:00-06:00</startTime>
 				<endTime type="str">2025-11-23T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">40</temperature>
+				<temperature type="int">41</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">WNW</windDirection>
+				<windSpeed type="str">3 mph</windSpeed>
+				<windDirection type="str">W</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 40. West northwest wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 41. West wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
