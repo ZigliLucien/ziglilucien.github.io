@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1046216/" title="See Description">[$] Unpacking for Python comprehensions</a></li>
+<li><a href="#https://lwn.net/Articles/1047429/" title="See Description">PHP 8.5.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1047386/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1047291/" title="See Description">Racing karts on a Rust GPU kernel driver (Collabora blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1046950/" title="See Description">[$] BPF and io_uring, two different ways</a></li>
@@ -51,11 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1045363/" title="See Description">[$] The current state of Linux architecture support</a></li>
 <li><a href="#https://lwn.net/Articles/1046236/" title="See Description">[$] Pouring packages with Homebrew</a></li>
 <li><a href="#https://lwn.net/Articles/1046891/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1046835/" title="See Description">Git 2.52.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1046249/" title="See Description">[$] Hot-page migration and specific-purpose NUMA nodes</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1046216/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 21 Nov 2025 16:09:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046216/" title="https://lwn.net/Articles/1046216/">[$] Unpacking for Python comprehensions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Unpacking Python <a href="https://docs.python.org/3/glossary.html#term-iterable">iterables</a> of various sorts, such as dictionaries or lists,
+is useful in a number of contexts, including for function arguments, but
+there has long been a call for extending that capability to <a href="https://docs.python.org/3/glossary.html#term-list-comprehension">comprehensions</a>.  <a
+href="https://peps.python.org/pep-0798/">PEP&#160;798</a> ("Unpacking in
+Comprehensions") was first proposed in June 2025 to fill that gap.  In early
+November, the steering council <a
+href="https://discuss.python.org/t/pep-798-unpacking-in-comprehensions/99435/60">accepted</a>
+the PEP, which means that the feature will be coming to Python&#160;3.15 in
+October&#160;2026.  It may be something of a niche feature, but it is an
+inconsistency 
+that has been apparent for a while—to the point that some Python programmers
+assume that it is already present in the language.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1047429/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 21 Nov 2025 15:47:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047429/" title="https://lwn.net/Articles/1047429/">PHP 8.5.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a
+href="https://lwn.net/ml/all/CALaXqqT+vb-WoCrGaSG=d4d20wkuKPgA+gH7ThFygBQ4M0C_nw@mail.gmail.com">Version
+8.5.0</a> of the PHP language has been released.  Changes include a new
+"<tt>|&gt;</tt>" operator that, for some reason, makes these two lines
+equivalent:
+<p>
+<pre>
+    $result = strlen("Hello world");
+    $result = "Hello world" |&gt; strlen(...);
+</pre>
+<p>
+Other changes include a new function attribute, "<tt>#[\NoDiscard]</tt>" to
+indicate that the return value should be used, attributes on constants, and
+more; see <a href="https://www.php.net/manual/en/migration85.php">the
+migration guide</a> for details.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1047386/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 21 Nov 2025 14:42:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -288,34 +328,6 @@ downloads by default to speed up package downloads.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (libwebsockets), <b>Fedora</b> (chromium and fvwm3), <b>Mageia</b> (apache, firefox, and postgresql13, postgresql15), <b>Oracle</b> (idm:DL1), <b>Red Hat</b> (bind, bind9.18, firefox, and openssl), <b>SUSE</b> (alloy, ghostscript, and openssl-1_0_0), and <b>Ubuntu</b> (ffmpeg and freeglut).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046835/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Nov 2025 19:55:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046835/" title="https://lwn.net/Articles/1046835/">Git 2.52.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/all/xmqqh5usmvsd.fsf@gitster.g">Version 2.52.0</a> of the Git
-source-code management system has been released.  Changes include a new
-<tt>last-modified</tt> command to find the closest ancestor commit that
-touched one or more paths, a couple of <tt>git refs</tt> improvements, a
-new <tt>git repo</tt> command for obtaining information about the
-repository itself, and more.  See the announcement and <a
-href="https://github.blog/open-source/git/highlights-from-git-2-52/">this
-GitHub blog entry</a> for more information.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046249/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Nov 2025 16:46:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046249/" title="https://lwn.net/Articles/1046249/">[$] Hot-page migration and specific-purpose NUMA nodes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>For better or for worse, the NUMA node is the abstraction used by the
-kernel to keep track of different types of memory.  How that abstraction is
-used, though, is still an active area of development.  Two patch sets
-focused on this problem are currently under review; one addresses the
-perennial problem of promoting heavily used folios from slower to faster
-memory, while the other aims to improve the kernel's handling of nodes
-containing special memory installed for a specific purpose.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
