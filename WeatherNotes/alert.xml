@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.35bec4dfc1f38ae00069f5a0109cc3130a5790fc.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0655ce58b8be75cb6c6a97cc95640b173e2b975.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.35bec4dfc1f38ae00069f5a0109cc3130a5790fc.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a0655ce58b8be75cb6c6a97cc95640b173e2b975.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.35bec4dfc1f38ae00069f5a0109cc3130a5790fc.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.a0655ce58b8be75cb6c6a97cc95640b173e2b975.002.1</id>
 				<areaDesc type="str">Jefferson; Perry; Franklin; Hamilton; Jackson; Williamson; Saline; Union; Johnson; Pope; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -133,10 +133,16 @@
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
 						<sent type="str">2025-11-20T19:26:00-06:00</sent>
 					</item>
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.35bec4dfc1f38ae00069f5a0109cc3130a5790fc.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.35bec4dfc1f38ae00069f5a0109cc3130a5790fc.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-11-20T19:43:00-06:00</sent>
+					</item>
 				</references>
-				<sent type="str">2025-11-20T19:43:00-06:00</sent>
-				<effective type="str">2025-11-20T19:43:00-06:00</effective>
-				<onset type="str">2025-11-20T19:26:00-06:00</onset>
+				<sent type="str">2025-11-21T03:00:00-06:00</sent>
+				<effective type="str">2025-11-21T03:00:00-06:00</effective>
+				<onset type="str">2025-11-21T03:00:00-06:00</onset>
 				<expires type="str">2025-11-21T09:00:00-06:00</expires>
 				<ends type="str">2025-11-21T09:00:00-06:00</ends>
 				<status type="str">Actual</status>
@@ -148,29 +154,27 @@
 				<event type="str">Dense Fog Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Dense Fog Advisory issued November 20 at 7:43PM CST until November 21 at 9:00AM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Visibility of one quarter mile or less in dense fog is
-expected tonight into early Friday.
+				<headline type="str">Dense Fog Advisory issued November 21 at 3:00AM CST until November 21 at 9:00AM CST by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Visibility one quarter to one half mile in dense fog.
 
-* WHERE...This is for most of southern Illinois, far western
-Kentucky along and west of the Land Between the Lakes, and all of
+* WHERE...Portions of southern Illinois, western Kentucky, and
 southeast Missouri.
 
-* WHEN...Until 9 AM CST Friday.
+* WHEN...Until 9 AM CST this morning.
 
 * IMPACTS...Low visibility could make driving conditions hazardous.</description>
 				<instruction type="str">If driving, slow down, use your headlights, and leave plenty of
-distance ahead of you. Be prepared for sudden changes in visibility.</instruction>
+distance ahead of you.</instruction>
 				<response type="str">Execute</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 210143 CCA</item>
+						<item type="str">WWUS73 KPAH 210900</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">DENSE FOG ADVISORY IN EFFECT UNTIL 9 AM CST FRIDAY</item>
+						<item type="str">DENSE FOG ADVISORY REMAINS IN EFFECT UNTIL 9 AM CST THIS MORNING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -178,7 +182,7 @@ distance ahead of you. Be prepared for sudden changes in visibility.</instructio
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.COR.KPAH.FG.Y.0009.251121T0126Z-251121T1500Z/</item>
+						<item type="str">/O.CON.KPAH.FG.Y.0009.000000T0000Z-251121T1500Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-11-21T09:00:00-06:00</item>
@@ -200,5 +204,5 @@ distance ahead of you. Be prepared for sudden changes in visibility.</instructio
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-11-21T01:44:09+00:00</updated>
+	<updated type="str">2025-11-21T09:00:15+00:00</updated>
 </all>
