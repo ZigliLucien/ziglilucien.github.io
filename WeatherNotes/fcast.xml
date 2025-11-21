@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-11-21T14:36:07+00:00</generatedAt>
-		<updateTime type="str">2025-11-21T13:01:28+00:00</updateTime>
-		<validTimes type="str">2025-11-21T07:00:00+00:00/P7DT18H</validTimes>
+		<generatedAt type="str">2025-11-21T16:36:06+00:00</generatedAt>
+		<updateTime type="str">2025-11-21T16:31:18+00:00</updateTime>
+		<validTimes type="str">2025-11-21T10:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2025-11-21T08:00:00-06:00</startTime>
+				<startTime type="str">2025-11-21T10:00:00-06:00</startTime>
 				<endTime type="str">2025-11-21T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">63</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">92</value>
+					<value type="int">54</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">3 to 7 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,90/tsra,50?size=medium</icon>
-				<shortForecast type="str">Rain Showers</shortForecast>
-				<detailedForecast type="str">Rain showers and areas of fog before 2pm, then a chance of showers and thunderstorms. Mostly cloudy. High near 63, with temperatures falling to around 61 in the afternoon. South southwest wind 3 to 7 mph. Chance of precipitation is 90%.</detailedForecast>
+				<windSpeed type="str">6 mph</windSpeed>
+				<windDirection type="str">S</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,50/tsra,30?size=medium</icon>
+				<shortForecast type="str">Chance Rain Showers then Slight Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A chance of rain showers and patchy fog before 5pm, then a slight chance of showers and thunderstorms. Mostly cloudy. High near 63, with temperatures falling to around 61 in the afternoon. South wind around 6 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,13 +79,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">49</value>
+					<value type="int">42</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
-				<windDirection type="str">N</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra,50/bkn?size=medium</icon>
-				<shortForecast type="str">Chance Showers And Thunderstorms then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 11pm. Mostly cloudy, with a low around 48. North wind around 6 mph. Chance of precipitation is 50%.</detailedForecast>
+				<windSpeed type="str">2 to 6 mph</windSpeed>
+				<windDirection type="str">WNW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra,40/bkn?size=medium</icon>
+				<shortForecast type="str">Slight Chance Showers And Thunderstorms then Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">A slight chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and midnight. Mostly cloudy, with a low around 48. West northwest wind 2 to 6 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
