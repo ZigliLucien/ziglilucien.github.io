@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1047549/" title="See Description">Racket 9.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1047547/" title="See Description">Improving GCC Buffer Overflow Detection for C Flexible Array Members (Oracle)</a></li>
+<li><a href="#https://lwn.net/Articles/1047546/" title="See Description">The 2025 Linux Foundation Technical Advisory Board election</a></li>
 <li><a href="#https://lwn.net/Articles/1046216/" title="See Description">[$] Unpacking for Python comprehensions</a></li>
 <li><a href="#https://lwn.net/Articles/1047429/" title="See Description">PHP 8.5.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1047386/" title="See Description">Security updates for Friday</a></li>
@@ -50,12 +53,79 @@
 <li><a href="#https://lwn.net/Articles/1047055/" title="See Description">GStreamer Conference 2025 video recordings now available</a></li>
 <li><a href="#https://lwn.net/Articles/1047021/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1046962/" title="See Description">Blender 5.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1045363/" title="See Description">[$] The current state of Linux architecture support</a></li>
-<li><a href="#https://lwn.net/Articles/1046236/" title="See Description">[$] Pouring packages with Homebrew</a></li>
-<li><a href="#https://lwn.net/Articles/1046891/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1047549/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 23 Nov 2025 16:27:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047549/" title="https://lwn.net/Articles/1047549/">Racket 9.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://racket-lang.org/">Racket programming language</a>
+project has <a
+href="https://blog.racket-lang.org/2025/11/racket-v9-0.html">released Racket
+version 9.0</a>. Racket is a descendant of <a
+href="https://www.scheme.org/">Scheme</a>, so it is part of the Lisp family of languages. The headline feature in the release is <a
+href="https://blog.racket-lang.org/2025/11/parallel-threads.html">parallel
+threads</a>, which adds to the concurrency tools in the language: "<q>While
+Racket has had green threads for some time, and supports parallelism via
+futures and places, we feel parallel threads is a major addition.</q>"
+Other new features include the <a
+href="https://docs.racket-lang.org/reference/black-box.html#%28def._%28%28quote._~23~25kernel%29._black-box%29%29">black-box</a>
+wrapper to prevent the compiler from optimizing calculations away, the <a
+href="https://docs.racket-lang.org/reference/linklets.html#%28def._%28%28lib._racket%2Flinklet..rkt%29._decompile-linklet%29%29">decompile-linklet</a>
+function to map <a
+href="https://docs.racket-lang.org/reference/linklets.html">linklets</a>
+back to an <a
+href="https://en.wikipedia.org/wiki/S-expression">s-expression</a>, the
+addition of <a
+href="https://docs.racket-lang.org/math/Real_Distribution_Families.html#%28part._.Weibull_.Distributions%29">Weibull
+distributions</a> to the math library, and more.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1047547/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 23 Nov 2025 16:08:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047547/" title="https://lwn.net/Articles/1047547/">Improving GCC Buffer Overflow Detection for C Flexible Array Members (Oracle)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Oracle blog has <a
+href="https://blogs.oracle.com/linux/improving-gcc-buffer-overflow-detection-for-c-flexible-array-members">a
+lengthy article</a> on enhancements to GCC to help detect overflows of
+flexible array members (FAMs) in C programs.
+<p>
+<blockquote class="bq">
+	We describe here two new GNU extensions which specify size
+	information for FAMs. These are a new attribute,
+	"<tt>counted_by</tt>" and a new builtin function,
+	"<tt>__builtin_counted_by_ref</tt>". Both extensions can be used in
+	GNU C applications to specify size information for FAMs, improving
+	the buffer overflow detection for FAMs in general.
+</blockquote>
+<p>
+This work has been <a href="https://lwn.net/Articles/936728/">covered on LWN</a> as well.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1047546/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 23 Nov 2025 15:45:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047546/" title="https://lwn.net/Articles/1047546/">The 2025 Linux Foundation Technical Advisory Board election</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/ml/all/20251122004147.1655175-1-ojeda@kernel.org">call for
+candidates</a> for the 2025 election for the Linux Foundation Technical
+Advisory Board has been posted.
+<p>
+<blockquote class="bq">
+	The TAB exists to provide advice from the kernel community to the
+	Linux Foundation and holds a seat on the LF's board of directors;
+	it also serves to facilitate interactions both within the community
+	and with outside entities.  Over the last year, the TAB has
+	overseen the organization of the Linux Plumbers Conference, advised
+	on the setup of the kernel CVE numbering authority, worked behind
+	the scenes to help resolve a number of contentious community
+	discussions, worked with the Linux Foundation on community
+	conference planning, and more.
+</blockquote>
+<p>
+Nominations close on December 13.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1046216/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 21 Nov 2025 16:09:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,57 +348,6 @@ notes</a> for a lengthy list of new features and changes, and the <a
 href="https://developer.blender.org/docs/release_notes/5.0/bugfixes/">bugfixes
 page</a> for the 588 commits that fixed bugs in Blender 4.5 or older.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1045363/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 18 Nov 2025 15:28:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1045363/" title="https://lwn.net/Articles/1045363/">[$] The current state of Linux architecture support</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-There have been several recent announcements about Linux distributions changing
-the list of architectures they support, or adjusting how they build binaries for
-some versions of those architectures.
-Ubuntu <a href="https://lwn.net/Articles/1044383/">introduced</a> architecture variants, Fedora
-<a href="https://lwn.net/Articles/1026917/">considered</a> dropping support for i686 but
-reversed course after some pushback, and Debian developers
-<a href="https://lists.debian.org/debian-68k/2025/10/msg00002.html">
-have discussed</a> raising its architecture baseline for the upcoming
-<a href="https://www.debian.org/releases/forky/">
-Debian 14</a>
-("forky").
-Linux supports a large number of architectures, and it's not always
-clear where or by whom they are used.
- With increasing concerns about diminishing support for legacy
-architectures, it's a good time to look at the overall state of architecture
-support on Linux.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046236/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 18 Nov 2025 14:40:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046236/" title="https://lwn.net/Articles/1046236/">[$] Pouring packages with Homebrew</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://brew.sh/">Homebrew</a> project is an
-open-source package-management system that comes with a repository of
-useful packages for Linux and macOS. Even though Linux distributions
-have their own package management and repositories, Homebrew is often
-used to obtain software that is not available in a distribution's repository
-or to install more current versions of projects than are available
-from long-term-support (LTS) distributions. <a
-href="https://brew.sh/2025/11/12/homebrew-5.0.0/">Homebrew 5.0.0</a>,
-released on November 12, 2025, expanded Linux support to include
-64-bit Arm packages in addition to x86_64, and turned on concurrent
-downloads by default to speed up package downloads.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046891/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 18 Nov 2025 14:08:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046891/" title="https://lwn.net/Articles/1046891/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (libwebsockets), <b>Fedora</b> (chromium and fvwm3), <b>Mageia</b> (apache, firefox, and postgresql13, postgresql15), <b>Oracle</b> (idm:DL1), <b>Red Hat</b> (bind, bind9.18, firefox, and openssl), <b>SUSE</b> (alloy, ghostscript, and openssl-1_0_0), and <b>Ubuntu</b> (ffmpeg and freeglut).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
