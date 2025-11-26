@@ -2,21 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy. Low around 36, with temperatures rising to around 38 overnight. West northwest wind 10 to 14 mph, with gusts
-         as high as 30 mph.<br></div>
+         <h3>Today</h3>Mostly sunny. High near 44, with temperatures falling to around 41 in the afternoon. West northwest wind 10 to 17 mph, with
+         gusts as high as 32 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Sunny. High near 44, with temperatures falling to around 41 in the afternoon. West northwest wind 10 to 17 mph, with gusts
-         as high as 32 mph.<br></div>
+         <h3>Tonight</h3>Mostly cloudy. Low around 31, with temperatures rising to around 33 overnight. West northwest wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Mostly cloudy. Low around 31, with temperatures rising to around 33 overnight. West northwest wind around 8 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Thanksgiving Day</h3>Sunny, with a high near 43. West northwest wind 5 to 9 mph.<br></div>
+         <h3>Thanksgiving Day</h3>Sunny. High near 43, with temperatures falling to around 39 in the afternoon. West northwest wind 5 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -28,8 +23,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of snow showers after midnight. Mostly cloudy, with a low around 28. Southeast wind 2 to 7 mph. New snow accumulation
-         of less than half an inch possible.<br></div>
+         <h3>Friday Night</h3>A chance of snow showers after midnight. Mostly cloudy, with a low around 28. Southeast wind 2 to 7 mph. Chance of precipitation
+         is 30%. New snow accumulation of less than half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -62,5 +57,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>A chance of rain showers. Mostly sunny, with a high near 35. North northwest wind around 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>A slight chance of snow showers before midnight. Partly cloudy, with a low around 22. West northwest wind around 5 mph.<br></div>
    </p>
 </div>
