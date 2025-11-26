@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1048208/" title="See Description">KDE Plasma 6.8 will be Wayland-only</a></li>
 <li><a href="#https://lwn.net/Articles/1048195/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1047950/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1047763/" title="See Description">AlmaLinux 10.1 released</a></li>
@@ -52,10 +53,41 @@
 <li><a href="#https://lwn.net/Articles/1047429/" title="See Description">PHP 8.5.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1047386/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1047291/" title="See Description">Racing karts on a Rust GPU kernel driver (Collabora blog)</a></li>
-<li><a href="#https://lwn.net/Articles/1046950/" title="See Description">[$] BPF and io_uring, two different ways</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1048208/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Nov 2025 16:49:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048208/" title="https://lwn.net/Articles/1048208/">KDE Plasma 6.8 will be Wayland-only</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>KDE's Plasma team has <a
+href="https://blogs.kde.org/2025/11/26/going-all-in-on-a-wayland-future/">announced</a>
+that KDE Plasma will drop X11 session support with Plasma&#160;6.8:</p>
+
+<blockquote class="bq">
+<p>The Plasma X11 session will be supported by KDE into early
+2027.</p>
+
+<p>We cannot provide a specific date, as we're exploring the
+possibility of shipping some extra bug-fix releases for Plasma
+6.7. The exact timing of the last one will only be known when we get
+closer to its actual release, which we expect will be sometime in
+early 2027.</p>
+
+<strong><p>What if I still really need X11?</p></strong>
+
+<p>This is a perfect use case for long term support (LTS)
+distributions shipping older versions of Plasma. For example,
+AlmaLinux 9 includes the Plasma X11 session and will be supported
+until sometime in 2032.</p>
+</blockquote>
+
+<p>See the blog post for information on running X11 applications
+(still supported), accessibility, gaming, and more.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1048195/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 26 Nov 2025 14:32:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -326,21 +358,6 @@ href="https://www.youtube.com/watch?v=wX9cTGenBDk">video</a> on
 YouTube of the prototype in action.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046950/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Nov 2025 15:39:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046950/" title="https://lwn.net/Articles/1046950/">[$] BPF and io_uring, two different ways</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>BPF allows programs uploaded from user space to be run, safely, within the
-kernel.  The io_uring subsystem, too, can be thought of as a way of loading
-programs in the kernel, though the programs in question are mostly a
-sequence of I/O-related system calls.  It has sometimes seemed inevitable
-that io_uring would, like many other parts of the kernel, gain BPF
-capabilities as a way of providing more flexibility to user space.  That
-has not yet happened, but there are currently two patch sets under
-consideration that take different approaches to the problem.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
