@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Thanksgiving Day</h3>Sunny. High near 42, with temperatures falling to around 38 in the afternoon. Northwest wind 6 to 10 mph.<br></div>
+         <h3>Thanksgiving Day</h3>Sunny. High near 42, with temperatures falling to around 38 in the afternoon. Northwest wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
