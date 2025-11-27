@@ -2,19 +2,15 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly cloudy. Low around 31, with temperatures rising to around 33 overnight. Northwest wind around 6 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Thanksgiving Day</h3>Sunny. High near 42, with temperatures falling to around 38 in the afternoon. Northwest wind 6 to 12 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Clear. Low around 24, with temperatures rising to around 26 overnight. West northwest wind around 5 mph.<br></div>
+         <h3>Tonight</h3>Clear. Low around 24, with temperatures rising to around 26 overnight. West northwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Sunny, with a high near 40. Northwest wind around 3 mph.<br></div>
+         <h3>Friday</h3>Sunny. High near 40, with temperatures falling to around 37 in the afternoon. Northwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -29,7 +25,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday Night</h3>Rain before 3am, then a chance of rain and snow. Cloudy, with a low around 28. Southwest wind around 12 mph, with gusts as
-         high as 20 mph.<br></div>
+         high as 20 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -59,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>Mostly sunny, with a high near 40. South wind 3 to 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>Mostly cloudy, with a low around 28. South southwest wind around 5 mph.<br></div>
    </p>
 </div>
