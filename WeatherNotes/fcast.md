@@ -2,23 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Mostly sunny. High near 39, with temperatures falling to around 36 in the afternoon. Northeast wind around 2 mph.<br></div>
+         <h3>This Afternoon</h3>Mostly sunny. High near 39, with temperatures falling to around 36 in the afternoon. East wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of snow showers after 2am. Mostly cloudy. Low around 29, with temperatures rising to around 33 overnight. Southeast
-         wind 1 to 7 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Tonight</h3>A chance of snow after 2am. Cloudy. Low around 29, with temperatures rising to around 33 overnight. Southeast wind 1 to 7
+         mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Snow showers before 10am, then rain and snow showers. Cloudy. High near 42, with temperatures falling to around 39 in the
-         afternoon. South southeast wind 7 to 16 mph, with gusts as high as 28 mph. Chance of precipitation is 90%. New snow accumulation
-         of less than one inch possible.<br></div>
+         <h3>Saturday</h3>Snow before 8am, then snow showers between 8am and 10am, then rain and snow showers between 10am and noon, then rain. Cloudy.
+         High near 42, with temperatures falling to around 39 in the afternoon. South southeast wind 7 to 16 mph, with gusts as high
+         as 28 mph. Chance of precipitation is 90%. New snow accumulation of less than one inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Rain showers before 3am. Cloudy, with a low around 26. West southwest wind around 15 mph, with gusts as high as 25 mph. Chance
-         of precipitation is 90%.<br></div>
+         <h3>Saturday Night</h3>Rain before midnight, then a slight chance of rain showers between midnight and 3am. Cloudy, with a low around 26. West southwest
+         wind around 15 mph, with gusts as high as 25 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
