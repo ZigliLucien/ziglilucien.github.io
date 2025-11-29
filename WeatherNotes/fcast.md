@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Rain showers. Cloudy. High near 44, with temperatures falling to around 40 in the afternoon. South wind 14 to 17 mph, with
+         <h3>This Afternoon</h3>Rain showers. Cloudy. High near 44, with temperatures falling to around 40 in the afternoon. South wind around 12 mph, with
          gusts as high as 35 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
