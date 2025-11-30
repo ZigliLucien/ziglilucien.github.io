@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of rain showers before midnight. Mostly cloudy. Low around 26, with temperatures rising to around 29 overnight. West
-         wind 10 to 14 mph, with gusts as high as 23 mph. Chance of precipitation is 50%.<br></div>
+         northwest wind around 14 mph, with gusts as high as 22 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
