@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1048704/" title="See Description">Landlock-ing Linux (prizrak.me)</a></li>
 <li><a href="#https://lwn.net/Articles/1048596/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1048448/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1048208/" title="See Description">KDE Plasma 6.8 will be Wayland-only</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1047547/" title="See Description">Improving GCC Buffer Overflow Detection for C Flexible Array Members (Oracle)</a></li>
 <li><a href="#https://lwn.net/Articles/1047546/" title="See Description">The 2025 Linux Foundation Technical Advisory Board election</a></li>
 <li><a href="#https://lwn.net/Articles/1046216/" title="See Description">[$] Unpacking for Python comprehensions</a></li>
-<li><a href="#https://lwn.net/Articles/1047429/" title="See Description">PHP 8.5.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1048704/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 30 Nov 2025 15:58:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048704/" title="https://lwn.net/Articles/1048704/">Landlock-ing Linux (prizrak.me)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The prizrak.me blog is carrying <a
+href="https://blog.prizrak.me/post/landlock/">an introduction to the
+Landlock security module</a>.
+<p>
+<blockquote class="bq">
+	Landlock shines when an application has a predictable set of files
+	or directories it needs. For example, a web server could restrict
+	itself to accessing only <tt>/var/www/html</tt> and <tt>/tmp</tt>.
+	<p>
+	Unlike SELinux or AppArmor, Landlock policies don't require
+	administrator involvement or system-wide configuration. Developers
+	can embed policies directly in application code, making sandboxing
+	a natural part of the development process.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1048596/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 28 Nov 2025 14:55:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -303,27 +323,6 @@ inconsistency
 that has been apparent for a while—to the point that some Python programmers
 assume that it is already present in the language.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1047429/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 21 Nov 2025 15:47:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047429/" title="https://lwn.net/Articles/1047429/">PHP 8.5.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a
-href="https://lwn.net/ml/all/CALaXqqT+vb-WoCrGaSG=d4d20wkuKPgA+gH7ThFygBQ4M0C_nw@mail.gmail.com">Version
-8.5.0</a> of the PHP language has been released.  Changes include a new
-"<tt>|&gt;</tt>" operator that, for some reason, makes these two lines
-equivalent:
-<p>
-<pre>
-    $result = strlen("Hello world");
-    $result = "Hello world" |&gt; strlen(...);
-</pre>
-<p>
-Other changes include a new function attribute, "<tt>#[\NoDiscard]</tt>" to
-indicate that the return value should be used, attributes on constants, and
-more; see <a href="https://www.php.net/manual/en/migration85.php">the
-migration guide</a> for details.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
