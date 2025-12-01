@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of snow showers after 3pm. Mostly cloudy. High near 34, with temperatures falling to around 32 in the afternoon.
-         Northeast wind around 6 mph. Chance of precipitation is 30%.<br></div>
+         Northeast wind around 5 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
