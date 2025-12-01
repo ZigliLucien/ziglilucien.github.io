@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-12-01T17:36:06+00:00</generatedAt>
+		<generatedAt type="str">2025-12-01T18:36:06+00:00</generatedAt>
 		<updateTime type="str">2025-12-01T16:57:18+00:00</updateTime>
 		<validTimes type="str">2025-12-01T10:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2025-12-01T11:00:00-06:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2025-12-01T12:00:00-06:00</startTime>
 				<endTime type="str">2025-12-01T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">34</temperature>
@@ -64,8 +64,8 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/ovc/snow,50?size=medium</icon>
-				<shortForecast type="str">Cloudy then Chance Light Snow</shortForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/snow,50?size=medium</icon>
+				<shortForecast type="str">Chance Light Snow</shortForecast>
 				<detailedForecast type="str">A chance of snow after 3pm. Cloudy. High near 34, with temperatures falling to around 31 in the afternoon. Northeast wind around 5 mph. Chance of precipitation is 50%. New snow accumulation of less than half an inch possible.</detailedForecast>
 			</item>
 			<item type="dict">
