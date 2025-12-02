@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1046840/" title="See Description">[$] Checked-size array parameters in C</a></li>
 <li><a href="#https://lwn.net/Articles/1046966/" title="See Description">[$] Some 6.18 development statistics</a></li>
 <li><a href="#https://lwn.net/Articles/1048817/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1048755/" title="See Description">Three stable kernels for Monday</a></li>
@@ -52,10 +53,23 @@
 <li><a href="#https://lwn.net/Articles/1047763/" title="See Description">AlmaLinux 10.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1046841/" title="See Description">[$] APT Rust requirement raises questions</a></li>
 <li><a href="#https://lwn.net/Articles/1047683/" title="See Description">Three stable kernel updates, two french hens, ...</a></li>
-<li><a href="#https://lwn.net/Articles/1047682/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1046840/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Dec 2025 21:11:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046840/" title="https://lwn.net/Articles/1046840/">[$] Checked-size array parameters in C</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>There are many possible programmer mistakes that are not caught by the
+minimal checks specified by the C language; among those is passing an array
+of the wrong size to a function.  A recent attempt to add some safety
+around array parameters within the crypto layer involved the use of some
+clever tricks, but it turns out that clever tricks are unnecessary in this
+case.  There is an obscure C feature that can cause this checking to
+happen, and it is already in use in a few places within the kernel.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1046966/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 01 Dec 2025 17:50:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -294,14 +308,6 @@ Greg Kroah-Hartman has announced the release of the
 <a href="https://lwn.net/Articles/1047686/">6.6.117</a> stable kernels. As usual, he advises
 users of stable kernels to upgrade.
 </p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1047682/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 24 Nov 2025 14:05:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047682/" title="https://lwn.net/Articles/1047682/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (calibre, chromium, cri-o1.32, cri-o1.33, cri-o1.34, dotnet10.0, dovecot, gnutls, gopass, gopass-hibp, gopass-jsonapi, kubernetes1.31, kubernetes1.32, kubernetes1.33, kubernetes1.34, and linux-firmware), <b>Mageia</b> (ffmpeg, kernel, kmod-xtables-addons &amp; kmod-virtualbox, kernel-linus, konsole, and redis), <b>Red Hat</b> (bind and bind-dyndb-ldap and kernel), <b>SUSE</b> (act, alloy, amazon-ssm-agent, ansible-12, ansible-core, blender, chromium, cups-filters, curl, elfutils, expat, firefox, glib2, grub2, helm, kernel, libipa_hbac-devel, libxslt, nvidia-container-toolkit, ongres-scram, openexr, podman, poppler, runc, samba, sssd, thunderbird, and tomcat), and <b>Ubuntu</b> (cups-filters, linux, linux-aws, linux-gcp, linux-hwe-6.14, linux-oracle, linux-realtime, linux-oem-6.14, and linux-realtime-6.14).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
