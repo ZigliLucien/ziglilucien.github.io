@@ -11,14 +11,14 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e3ff9bd740af129a94f07f5564e5154b1415746.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e203285e2dd54f0db1338ec7e8f16cc859fe1cd.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e3ff9bd740af129a94f07f5564e5154b1415746.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e203285e2dd54f0db1338ec7e8f16cc859fe1cd.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.7e3ff9bd740af129a94f07f5564e5154b1415746.001.1</id>
-				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Union; Johnson; Alexander; Pulaski; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.7e203285e2dd54f0db1338ec7e8f16cc859fe1cd.001.1</id>
+				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Union; Johnson; Pope; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
 						<item type="str">017081</item>
@@ -34,8 +34,16 @@
 						<item type="str">017165</item>
 						<item type="str">017181</item>
 						<item type="str">017087</item>
+						<item type="str">017151</item>
 						<item type="str">017003</item>
 						<item type="str">017153</item>
+						<item type="str">017127</item>
+						<item type="str">021075</item>
+						<item type="str">021105</item>
+						<item type="str">021039</item>
+						<item type="str">021007</item>
+						<item type="str">021145</item>
+						<item type="str">021083</item>
 						<item type="str">029157</item>
 						<item type="str">029017</item>
 						<item type="str">029031</item>
@@ -45,6 +53,8 @@
 						<item type="str">029023</item>
 						<item type="str">029207</item>
 						<item type="str">029201</item>
+						<item type="str">029133</item>
+						<item type="str">029143</item>
 					</SAME>
 					<UGC type="list">
 						<item type="str">ILZ075</item>
@@ -60,8 +70,16 @@
 						<item type="str">ILZ086</item>
 						<item type="str">ILZ088</item>
 						<item type="str">ILZ089</item>
+						<item type="str">ILZ090</item>
 						<item type="str">ILZ092</item>
 						<item type="str">ILZ093</item>
+						<item type="str">ILZ094</item>
+						<item type="str">KYZ001</item>
+						<item type="str">KYZ002</item>
+						<item type="str">KYZ003</item>
+						<item type="str">KYZ004</item>
+						<item type="str">KYZ005</item>
+						<item type="str">KYZ006</item>
 						<item type="str">MOZ076</item>
 						<item type="str">MOZ086</item>
 						<item type="str">MOZ087</item>
@@ -71,6 +89,8 @@
 						<item type="str">MOZ109</item>
 						<item type="str">MOZ110</item>
 						<item type="str">MOZ111</item>
+						<item type="str">MOZ112</item>
+						<item type="str">MOZ114</item>
 					</UGC>
 				</geocode>
 				<affectedZones type="list">
@@ -87,8 +107,16 @@
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ086</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ090</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ093</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ094</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ001</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ002</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ003</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ004</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ005</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ006</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
@@ -98,15 +126,30 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ109</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ110</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2025-12-01T10:52:00-06:00</sent>
-				<effective type="str">2025-12-01T10:52:00-06:00</effective>
-				<onset type="str">2025-12-01T18:00:00-06:00</onset>
-				<expires type="str">2025-12-01T21:00:00-06:00</expires>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e3ff9bd740af129a94f07f5564e5154b1415746.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.7e3ff9bd740af129a94f07f5564e5154b1415746.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-12-01T10:52:00-06:00</sent>
+					</item>
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e3ff9bd740af129a94f07f5564e5154b1415746.004.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.7e3ff9bd740af129a94f07f5564e5154b1415746.004.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2025-12-01T10:52:00-06:00</sent>
+					</item>
+				</references>
+				<sent type="str">2025-12-01T19:24:00-06:00</sent>
+				<effective type="str">2025-12-01T19:24:00-06:00</effective>
+				<onset type="str">2025-12-01T19:24:00-06:00</onset>
+				<expires type="str">2025-12-02T06:00:00-06:00</expires>
 				<ends type="str">2025-12-02T06:00:00-06:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -114,20 +157,20 @@
 				<event type="str">Winter Weather Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Winter Weather Advisory issued December 1 at 10:52AM CST until December 2 at 6:00AM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...A mix of snow, sleet and freezing rain/freezing drizzle.
-Total snow and sleet accumulations up to two inches and ice
-accumulations around a light glaze. Cold ground temperatures may
-lead to very slick conditions.
+				<headline type="str">Winter Weather Advisory issued December 1 at 7:24PM CST until December 2 at 6:00AM CST by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Mixed precipitation. Snow and sleet accumulations of one to
+two inches and ice accumulations around a light glaze.
 
-* WHERE...Southern Illinois, southeast Missouri, southwest Indiana
-and western Kentucky.
+* WHERE...All of southeast Missouri, parts of western Kentucky along
+and west of U.S. Highway 45, and all of southern Illinois with the
+exception of Hardin and Gallatin County.
 
-* WHEN...From 6 PM this evening to 6 AM CST Tuesday.
+* WHEN...Until 6 AM CST Tuesday.
 
-* IMPACTS...Be prepared for roads, and especially bridges and
-overpasses to become slick and hazardous. Plan on slippery road
-conditions.</description>
+* IMPACTS...Roads, and especially bridges and overpasses, will
+likely become slick and hazardous. Plan on slippery road
+conditions.  The hazardous conditions could impact the Tuesday
+morning commute.</description>
 				<instruction type="str">Slow down and use caution while traveling. The latest road
 conditions can be obtained by visiting www.weather.gov/pah/roads</instruction>
 				<response type="str">Execute</response>
@@ -136,10 +179,10 @@ conditions can be obtained by visiting www.weather.gov/pah/roads</instruction>
 						<item type="str">WSWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS43 KPAH 011652</item>
+						<item type="str">WWUS43 KPAH 020124</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WINTER WEATHER ADVISORY IN EFFECT FROM 6 PM THIS EVENING TO 6 AM CST TUESDAY</item>
+						<item type="str">WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL 6 AM CST TUESDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -147,11 +190,14 @@ conditions can be obtained by visiting www.weather.gov/pah/roads</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.EXA.KPAH.WW.Y.0007.251202T0000Z-251202T1200Z/</item>
+						<item type="str">/O.CON.KPAH.WW.Y.0007.000000T0000Z-251202T1200Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2025-12-02T06:00:00-06:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1e49dd4568f3d8d21d7a81d1eb7b6fd10fa166a8.003.1,2025-12-01T02:20:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dc5ec24efa7a68ad7a7f89d83c949187851a1f69.001.1,2025-11-30T12:16:00-06:00</item>
+					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -169,5 +215,5 @@ conditions can be obtained by visiting www.weather.gov/pah/roads</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-12-01T18:00:00+00:00</updated>
+	<updated type="str">2025-12-02T01:25:41+00:00</updated>
 </all>
