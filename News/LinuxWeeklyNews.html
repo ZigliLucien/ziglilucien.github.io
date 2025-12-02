@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1048976/" title="See Description">Let's Encrypt to reduce certificate lifetimes</a></li>
 <li><a href="#https://lwn.net/Articles/1048975/" title="See Description">FreeBSD 15.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1046084/" title="See Description">[$] Zig's new plan for asynchronous programs</a></li>
 <li><a href="#https://lwn.net/Articles/1048973/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,45 @@
 <li><a href="#https://lwn.net/Articles/1048448/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1048208/" title="See Description">KDE Plasma 6.8 will be Wayland-only</a></li>
 <li><a href="#https://lwn.net/Articles/1048195/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1047950/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1048976/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 02 Dec 2025 15:37:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048976/" title="https://lwn.net/Articles/1048976/">Let's Encrypt to reduce certificate lifetimes</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Let's Encrypt has <a
+href="https://letsencrypt.org/2025/12/02/from-90-to-45.html">announced</a>
+that it will be reducing the validity period of its certificates from
+90 days to 45 days by 2028:</p>
+
+<blockquote class="bq">
+<p>Most users of Let's Encrypt who automatically issue certificates
+will not have to make any changes. However, you should verify that
+your automation is compatible with certificates that have shorter
+validity periods.</p>
+
+<p>To ensure your ACME client renews on time, we recommend using <a href="https://letsencrypt.org/2023/03/23/improving-resliiency-and-reliability-with-ari">ACME
+Renewal Information (ARI)</a>. ARI is a feature we've introduced to help
+clients know when they need to renew their certificates. Consult your
+ACME client's documentation on how to enable ARI, as it differs from
+client to client. If you are a client developer, check out this
+<a href="https://letsencrypt.org/2024/04/25/guide-to-integrating-ari-into-existing-acme-clients">integration guide</a>.</p>
+
+<p>If your client doesn't support ARI yet, ensure it runs on a
+schedule that is compatible with 45-day certificates. For example,
+renewing at a hardcoded interval of 60 days will no longer be
+sufficient. Acceptable behavior includes renewing certificates at
+approximately two thirds of the way through the current certificate's
+lifetime.</p>
+
+<p>Manually renewing certificates is not recommended, as it will need
+to be done more frequently with shorter certificate lifetimes.</p>
+</blockquote>
+    
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1048975/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 02 Dec 2025 14:19:56 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,14 +326,6 @@ until sometime in 2032.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, binutils, delve and golang, expat, firefox, haproxy, kernel, libsoup3, libssh, libtiff, openssh, openssl, pam, podman, python-kdcproxy, shadow-utils, squid, thunderbird, vim, xorg-x11-server-Xwayland, and zziplib), <b>Debian</b> (cups-filters, libsdl2, linux-6.1, net-snmp, pdfminer, rails, and tryton-sao), <b>Fedora</b> (chromium, docker-buildkit, docker-buildx, and sudo-rs), <b>Gentoo</b> (librnp), <b>Mageia</b> (webkit2), <b>SUSE</b> (amazon-ssm-agent, buildah, curl, dpdk, fontforge-20251009, kernel, libIex-3_4-33, librnp0, python311, rclone, and sssd), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-6.8, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oracle, linux-aws-6.14, linux-oracle-6.14, linux-aws-fips, linux-fips, linux-gcp-fips, linux-realtime, linux-realtime-6.8, mupdf, openjdk-17, openjdk-8, and openjdk-lts).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1047950/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 25 Nov 2025 14:46:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047950/" title="https://lwn.net/Articles/1047950/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, go-rpm-macros, kernel, kernel-rt, podman, and thunderbird), <b>Debian</b> (erlang, python-gevent, and r-cran-gh), <b>Fedora</b> (buildah, chromium, k9s, kubernetes1.33, kubernetes1.34, podman, python-mkdocs-include-markdown-plugin, and webkitgtk), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge. Opera, qtsvg, redict, redis, UDisks, and WebKitGTK+), <b>Mageia</b> (cups-filters and ruby-rack), <b>Oracle</b> (kernel and libssh), <b>Red Hat</b> (.NET 8.0, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (act, bind, cups-filters, govulncheck-vulndb, grub2, libebml, python39, and tcpreplay), and <b>Ubuntu</b> (linux-raspi, linux-raspi-realtime, openjdk-21, openjdk-25, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, python3.5, python3.4, and runc-app, runc-stable).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
