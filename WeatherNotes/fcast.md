@@ -2,8 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A chance of snow before 2am. Mostly cloudy, with a low around 23. Northwest wind around 6 mph. Chance of precipitation is
-         40%. New snow accumulation of less than one inch possible.<br></div>
+         <h3>Overnight</h3>Mostly cloudy, with a low around 23. Northwest wind around 6 mph. New snow accumulation of less than one inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
