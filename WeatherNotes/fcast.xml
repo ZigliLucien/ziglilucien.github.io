@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-12-02T05:36:09+00:00</generatedAt>
-		<updateTime type="str">2025-12-02T03:51:22+00:00</updateTime>
-		<validTimes type="str">2025-12-01T21:00:00+00:00/P7DT7H</validTimes>
+		<generatedAt type="str">2025-12-02T06:36:05+00:00</generatedAt>
+		<updateTime type="str">2025-12-02T05:31:43+00:00</updateTime>
+		<validTimes type="str">2025-12-01T23:00:00+00:00/P7DT5H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-12-01T23:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-12-02T00:00:00-06:00</startTime>
 				<endTime type="str">2025-12-02T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">23</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">77</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">3 to 7 mph</windSpeed>
+				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">NW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/snow,70/snow,80?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow,80?size=medium</icon>
 				<shortForecast type="str">Snow</shortForecast>
-				<detailedForecast type="str">Snow before 2am. Cloudy, with a low around 23. Northwest wind 3 to 7 mph. Chance of precipitation is 80%. New snow accumulation of 1 to 3 inches possible.</detailedForecast>
+				<detailedForecast type="str">Snow before 2am. Cloudy, with a low around 23. Northwest wind around 7 mph. Chance of precipitation is 80%. New snow accumulation of less than one inch possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
