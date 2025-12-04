@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1047238/" title="See Description">[$] A "frozen" dictionary for Python</a></li>
+<li><a href="#https://lwn.net/Articles/1049199/" title="See Description">cmocka 2.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1049251/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1049158/" title="See Description">Cro provides commentary on LWN's Zig asynchronicity article</a></li>
 <li><a href="#https://lwn.net/Articles/1047221/" title="See Description">[$] LWN.net Weekly Edition for December 4, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1049142/" title="See Description">Home Assistant 2025.12 released</a></li>
@@ -50,12 +53,73 @@
 <li><a href="#https://lwn.net/Articles/1046084/" title="See Description">[$] Zig's new plan for asynchronous programs</a></li>
 <li><a href="#https://lwn.net/Articles/1048973/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1046840/" title="See Description">[$] Checked-size array parameters in C</a></li>
-<li><a href="#https://lwn.net/Articles/1046966/" title="See Description">[$] Some 6.18 development statistics</a></li>
-<li><a href="#https://lwn.net/Articles/1048817/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1048755/" title="See Description">Three stable kernels for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1047238/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 04 Dec 2025 14:42:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047238/" title="https://lwn.net/Articles/1047238/">[$] A "frozen" dictionary for Python</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Dictionaries are ubiquitous in Python code; they are the data structure of
+choice for a wide variety of tasks.  But dictionaries are mutable, which
+makes them problematic for sharing data in concurrent code.  Python has
+added various concurrency features to the language over the last decade or
+so—<a href="https://lwn.net/Articles/726600/">async</a>, <a href="https://lwn.net/Articles/947138/">free threading without the global interpreter lock</a>
+(GIL), and <a href="https://lwn.net/Articles/941090/">independent subinterpreters</a>—but users must work out their own
+solution for an immutable dictionary that can be safely shared by
+concurrent code.  There are existing modules that could be used, but a recent proposal, <a
+href="https://peps.python.org/pep-0814/">PEP 814</a> ("Add frozendict
+built-in type"), looks to bring the feature to the language itself.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1049199/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 04 Dec 2025 14:09:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049199/" title="https://lwn.net/Articles/1049199/">cmocka 2.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Andreas Schneider has <a
+href="https://blog.cryptomilk.org/2025/12/04/cmocka-2-0-released-enhancing-unit-testing-in-c/">announced
+version 2.0</a> of the <a href="https://cmocka.org/">cmocka</a>
+unit-testing framework for C:</p>
+
+<blockquote class="bq">
+<p>This release represents a major modernization effort, bringing
+cmocka firmly into the "modern" C99 era while maintaining the
+simplicity and ease of use that users have come to expect.</p>
+
+<p>One of the most significant changes in cmocka 2.0 is the migration
+to C99 standard integer types. The LargestIntegralType typedef has
+been replaced with <tt>intmax_t</tt> and <tt>uintmax_t</tt> from
+<tt>stdint</tt>.h, providing better type safety and portability across
+different platforms. Additionally, we've adopted the bool type where
+appropriate, making the code more expressive and self-documenting.</p>
+
+<p>Using <tt>intmax_t</tt> and <tt>uintmax_t</tt> also allows to print
+better error messages. So you can now find
+e.g. <tt>assert_int_equal</tt> and <tt>assert_uint_equal</tt>.</p>
+
+<p>cmocka 2.0 introduces a comprehensive set of type-specific
+assertion macros, including `assert_uint_equal()`,
+`assert_float_equal()`, and enhanced pointer assertions. The mocking
+system has also been significantly improved with type-specific macros
+like `will_return_int()` and `will_return_float()`. The same for
+parameter checking etc.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/558106/">covered</a> the
+project early in its development in 2013. See the full list of new
+features, enhancements, and bug fixes in cmocka 2.0 in the <a
+href="https://gitlab.com/cmocka/cmocka/-/blob/cmocka-2.0.0/CHANGELOG.md#changelog">changelog</a>.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1049251/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 04 Dec 2025 14:07:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049251/" title="https://lwn.net/Articles/1049251/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (expat and libxml2), <b>Debian</b> (openvpn and webkit2gtk), <b>Fedora</b> (gi-loadouts, kf6-kcoreaddons, kf6-kguiaddons, kf6-kjobwidgets, kf6-knotifications, kf6-kstatusnotifieritem, kf6-kunitconversion, kf6-kwidgetsaddons, kf6-kxmlgui, nanovna-saver, persepolis, python-ezdxf, python-pyside6, sigil, stb, syncplay, tinyproxy, torbrowser-launcher, ubertooth, and usd), <b>Mageia</b> (cups), <b>SUSE</b> (cups, gegl, icinga2, mozjs128, and Security), and <b>Ubuntu</b> (ghostscript, kernel, linux, linux-aws, linux-aws-5.15, linux-gcp-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-hwe, linux-kvm, linux-oracle, linux-aws-fips, linux-fips, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure-fips, linux-gcp, linux-gcp-4.15, linux-hwe, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop, linux-gcp-6.14, linux-raspi, linux-gcp-fips, linux-intel-iot-realtime, linux-realtime, linux-raspi, linux-raspi-realtime, linux-xilinx, and postgresql-14, postgresql-16, postgresql-17).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1049158/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 04 Dec 2025 00:44:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -276,42 +340,6 @@ clever tricks, but it turns out that clever tricks are unnecessary in this
 case.  There is an obscure C feature that can cause this checking to
 happen, and it is already in use in a few places within the kernel.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046966/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 01 Dec 2025 17:50:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046966/" title="https://lwn.net/Articles/1046966/">[$] Some 6.18 development statistics</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds <a
-href="https://lwn.net/ml/all/CAHk-=whnC+hRftevTLeVs3tyyqwn+7un=jUES2-WX+pZhDdKNw@mail.gmail.com/">released</a>
-the 6.18 kernel as expected on November&#160;30, closing the last full
-development cycle of 2025.  It was another busy cycle, featuring a record
-number of developers.  The time has come for a look at where the code came
-from for this kernel release, but also for the year-long long-term-support
-cycle which has also reached its conclusion with this release.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1048817/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 01 Dec 2025 14:14:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048817/" title="https://lwn.net/Articles/1048817/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind9.18, cups, gimp, ipa, kernel, libssh, mingw-expat, openssl, pcs, sssd, tigervnc, and valkey), <b>Debian</b> (gnome-shell-extension-gsconnect, mistral-dashboard, pagure, python-mistralclient, pytorch, qtbase-opensource-src, sogo, tryton-server, and unbound), <b>Fedora</b> (cef, drupal7, glib2, linux-firmware, migrate, pack, pgadmin4, rnp, and unbound), <b>Slackware</b> (libxslt), <b>SUSE</b> (cpp-httplib, curl, glib2, grub2, kernel, libcoap-devel, libcryptopp, libwireshark19, postgresql15, and postgresql17), and <b>Ubuntu</b> (edk2).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1048755/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 01 Dec 2025 13:51:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048755/" title="https://lwn.net/Articles/1048755/">Three stable kernels for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1048756/">6.17.10</a>, <a
-href="https://lwn.net/Articles/1048757/">6.12.60</a>, and <a
-href="https://lwn.net/Articles/1048758/">6.6.118</a> stable kernels. As usual, each
-contains a number of important fixes throughout the tree. Users are
-advised to upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
