@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1049299/" title="See Description">Alpine Linux 3.23.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1048869/" title="See Description">[$] The beginning of the 6.19 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1047238/" title="See Description">[$] A "frozen" dictionary for Python</a></li>
 <li><a href="#https://lwn.net/Articles/1049199/" title="See Description">cmocka 2.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1049251/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,53 @@
 <li><a href="#https://lwn.net/Articles/1048976/" title="See Description">Let's Encrypt to reduce certificate lifetimes</a></li>
 <li><a href="#https://lwn.net/Articles/1048975/" title="See Description">FreeBSD 15.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1046084/" title="See Description">[$] Zig's new plan for asynchronous programs</a></li>
-<li><a href="#https://lwn.net/Articles/1048973/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1046840/" title="See Description">[$] Checked-size array parameters in C</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1049299/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 04 Dec 2025 19:26:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049299/" title="https://lwn.net/Articles/1049299/">Alpine Linux 3.23.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://alpinelinux.org/posts/Alpine-3.23.0-released.html">Version 3.23.0</a> of Alpine Linux has been released. Notable changes
+in this release include an upgrade to <a
+href="https://gitlab.alpinelinux.org/alpine/apk-tools/-/releases/v3.0.0">version&#160;3.0</a>
+of the <a
+href="https://gitlab.alpinelinux.org/alpine/apk-tools#apk-tools">Alpine
+Package Keeper</a> (apk), and replacing the <tt>linux-edge</tt>
+package with <tt>linux-stable</tt>:</p>
+
+<blockquote class="bq">
+<p>For years, linux-lts and linux-edge grew apart and developed their
+own kernel configs, different architectures, etc.</p>
+
+<p>Now linux-edge gets replaced with linux-stable which has the
+identical configuration as linux-lts, but follows the stable releases
+instead of the long-term releases (see https://kernel.org/).</p>
+</blockquote>
+
+<p>The <a
+href="https://www.alpinelinux.org/posts/2025-10-01-usr-merge.html"><tt>/usr</tt>
+merge planned for this release has been postponed</a>; a new timeline
+for the change will be published later. See the <a
+href="https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.23.0">release
+notes</a> for more information on this release.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1048869/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 04 Dec 2025 19:22:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048869/" title="https://lwn.net/Articles/1048869/">[$] The beginning of the 6.19 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>As of this writing, 4,124 non-merge commits have been pulled into the
+mainline repository for the 6.19 kernel development cycle.  That is a
+relatively small fraction of what can be expected this time around, but it
+contains quite a bit of significant work, with changes to many core kernel
+subsystems.  Read on for a summary of the first part of the 6.19 merge
+window.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1047238/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 04 Dec 2025 14:42:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -317,28 +361,6 @@ promises to solve the
 function coloring</a> problem, and allows writing code that will execute
 correctly using either synchronous or asynchronous I/O.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1048973/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 02 Dec 2025 14:06:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048973/" title="https://lwn.net/Articles/1048973/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (gnutls, libpng, mingw-python3, python-spotipy, source-to-image, unbound, and webkitgtk), <b>Mageia</b> (libpng), <b>SUSE</b> (bash-git-prompt, gitea-tea, java-17-openjdk, java-21-openjdk, kernel, openssh, python, and shadowsocks-v2ray-plugin, v2ray-core), and <b>Ubuntu</b> (binutils, openjdk-17-crac, openjdk-21-crac, and openjdk-25-crac).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046840/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 01 Dec 2025 21:11:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046840/" title="https://lwn.net/Articles/1046840/">[$] Checked-size array parameters in C</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There are many possible programmer mistakes that are not caught by the
-minimal checks specified by the C language; among those is passing an array
-of the wrong size to a function.  A recent attempt to add some safety
-around array parameters within the crypto layer involved the use of some
-clever tricks, but it turns out that clever tricks are unnecessary in this
-case.  There is an obscure C feature that can cause this checking to
-happen, and it is already in use in a few places within the kernel.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
