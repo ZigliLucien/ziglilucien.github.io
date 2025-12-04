@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-12-04T05:36:11+00:00</generatedAt>
+		<generatedAt type="str">2025-12-04T06:36:11+00:00</generatedAt>
 		<updateTime type="str">2025-12-04T04:36:20+00:00</updateTime>
 		<validTimes type="str">2025-12-03T22:00:00+00:00/P7DT6H</validTimes>
 		<elevation type="dict">
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-12-03T23:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-12-04T00:00:00-06:00</startTime>
 				<endTime type="str">2025-12-04T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">25</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">17</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 10 mph</windSpeed>
-				<windDirection type="str">NW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/ovc/fzra,20?size=medium</icon>
-				<shortForecast type="str">Cloudy then Slight Chance Freezing Rain</shortForecast>
-				<detailedForecast type="str">A slight chance of freezing rain between midnight and 3am. Cloudy. Low around 25, with temperatures rising to around 27 overnight. Northwest wind 2 to 10 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.</detailedForecast>
+				<windSpeed type="str">3 to 10 mph</windSpeed>
+				<windDirection type="str">NNW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/fzra,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Freezing Rain</shortForecast>
+				<detailedForecast type="str">A slight chance of freezing rain before 3am. Cloudy. Low around 25, with temperatures rising to around 27 overnight. North northwest wind 3 to 10 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
