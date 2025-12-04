@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1049158/" title="See Description">Cro provides commentary on LWN's Zig asynchronicity article</a></li>
+<li><a href="#https://lwn.net/Articles/1047221/" title="See Description">[$] LWN.net Weekly Edition for December 4, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1049142/" title="See Description">Home Assistant 2025.12 released</a></li>
 <li><a href="#https://lwn.net/Articles/1049111/" title="See Description">Django 6.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1047715/" title="See Description">[$] Just: a command runner</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/1046966/" title="See Description">[$] Some 6.18 development statistics</a></li>
 <li><a href="#https://lwn.net/Articles/1048817/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1048755/" title="See Description">Three stable kernels for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1048703/" title="See Description">The 6.18 kernel has been released</a></li>
-<li><a href="#https://lwn.net/Articles/1048727/" title="See Description">NixOS 25.11 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1049158/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 04 Dec 2025 00:44:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049158/" title="https://lwn.net/Articles/1049158/">Cro provides commentary on LWN's Zig asynchronicity article</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Loris Cro has published
+<a href="https://www.youtube.com/watch?v=JY2Zxu7kngc">
+a detailed YouTube video</a> talking about the terminology used to discuss asynchronicity, concurrency, and parallelism in <a href="https://lwn.net/Articles/1046084/">our recent article</a> about Zig's new <tt>Io</tt> interface. Our article is not completely clear because it uses the term "asynchronous <span style="white-space:nowrap;">I/O</span>" to refer to what should really be called "non-blocking <span style="white-space:nowrap;">I/O</span>", and sometimes confuses asynchronicity for concurrency, among other errors of terminology, he says. Readers interested in precise details about Zig's approach and some of the motivation behind the design may find Cro's video interesting.
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1047221/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 04 Dec 2025 00:10:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047221/" title="https://lwn.net/Articles/1047221/">[$] LWN.net Weekly Edition for December 4, 2025</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1047221/">Front</a>: Rust in Debian; Python comprehensions; asynchronous Zig; BPF and io_uring; C safety; 6.18 statistics; just.
+            <li> <a href="https://lwn.net/Articles/1047223/">Briefs</a>: Landlock; Let's Encrypt lifetimes; Last 5.4 kernel; TAB election; AlmaLinux 10.1; FreeBSD 15.0; NixOS 25.11; Django 6.0; Home Assistant 2025.12; PHP 8.5.0; Racket 9.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1047224/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1049142/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 03 Dec 2025 19:44:36 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -286,58 +312,6 @@ contains a number of important fixes throughout the tree. Users are
 advised to upgrade.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1048703/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 01 Dec 2025 00:03:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048703/" title="https://lwn.net/Articles/1048703/">The 6.18 kernel has been released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has <a href="https://lwn.net/ml/all/CAHk-=whnC+hRftevTLeVs3tyyqwn+7un=jUES2-WX+pZhDdKNw@mail.gmail.com/">released the 6.18 kernel</a>, as expected.
-<p>
-<blockquote class="bq">
-	So I'll have to admit that I'd have been happier with slightly less
-	bugfixing noise in this last week of the release, but while there's
-	a few more fixes than I would hope for, there was nothing that made
-	me feel like this needs more time to cook. So 6.18 is tagged and
-	pushed out.
-</blockquote>
-<p>
-Headline changes in this release include
-the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3ab378cfa793">ability</a>
-to manage namespaces with file handles,
-support for the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f60034689f2c">AccECN</a>
-congestion-control protocol,
-initial <a href="https://lwn.net/Articles/1031854/">support</a> for signing of BPF
-programs,
-improved memory management with <a href="https://lwn.net/Articles/1010667/">sheaves</a>,
-the <a href="https://lwn.net/Articles/953116/">Rust binder driver</a>,
-better <a href="https://lwn.net/Articles/1032199/">control over transparent huge
-pages</a>,
-and a lot more.
-This release also saw the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f2c61db29f27">removal
-of the bcachefs filesystem</a>.
-<p>
-See the LWN merge-window summaries 
-(<a href="https://lwn.net/Articles/1040203/">part&#160;1</a>, <a href="https://lwn.net/Articles/1041004/">part&#160;2</a>)
-and <a href="https://kernelnewbies.org/Linux_6.18">the KernelNewbies 6.18
-page</a> for more information.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1048727/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 30 Nov 2025 23:06:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048727/" title="https://lwn.net/Articles/1048727/">NixOS 25.11 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://nixos.org/blog/announcements/2025/nixos-2511/">Version
-25.11</a> of the NixOS distribution has been released.  "<q>The 25.11
-release was made possible due to the efforts of 2742 contributors, who
-authored 59430 commits since the previous release</q>".  Changes include
-7,002 new packages, GNOME&#160;49, LLVM&#160;21, a new COSMIC desktop
-environment beta, firewalld support, and more; see <a
-href="https://nixos.org/manual/nixos/stable/release-notes#sec-release-25.11">the
-release notes</a> for details.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
