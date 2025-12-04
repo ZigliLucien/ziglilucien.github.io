@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-12-04T00:36:04+00:00</generatedAt>
-		<updateTime type="str">2025-12-03T22:41:25+00:00</updateTime>
-		<validTimes type="str">2025-12-03T16:00:00+00:00/P7DT12H</validTimes>
+		<generatedAt type="str">2025-12-04T05:36:11+00:00</generatedAt>
+		<updateTime type="str">2025-12-04T04:36:20+00:00</updateTime>
+		<validTimes type="str">2025-12-03T22:00:00+00:00/P7DT6H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,21 +52,21 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2025-12-03T18:00:00-06:00</startTime>
+				<startTime type="str">2025-12-03T23:00:00-06:00</startTime>
 				<endTime type="str">2025-12-04T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">23</temperature>
+				<temperature type="int">25</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">20</value>
+					<value type="int">17</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 10 mph</windSpeed>
-				<windDirection type="str">WNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/fzra,20/snow_fzra,20?size=medium</icon>
-				<shortForecast type="str">Slight Chance Freezing Rain then Slight Chance Snow Showers</shortForecast>
-				<detailedForecast type="str">A slight chance of freezing rain between 9pm and 3am, then a slight chance of snow showers between 3am and 4am. Cloudy. Low around 23, with temperatures rising to around 25 overnight. West northwest wind 2 to 10 mph. Chance of precipitation is 20%.</detailedForecast>
+				<windDirection type="str">NW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/ovc/fzra,20?size=medium</icon>
+				<shortForecast type="str">Cloudy then Slight Chance Freezing Rain</shortForecast>
+				<detailedForecast type="str">A slight chance of freezing rain between midnight and 3am. Cloudy. Low around 25, with temperatures rising to around 27 overnight. Northwest wind 2 to 10 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
