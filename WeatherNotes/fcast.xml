@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-12-05T04:36:12+00:00</generatedAt>
-		<updateTime type="str">2025-12-05T04:26:31+00:00</updateTime>
-		<validTimes type="str">2025-12-04T22:00:00+00:00/P7DT6H</validTimes>
+		<generatedAt type="str">2025-12-05T06:36:05+00:00</generatedAt>
+		<updateTime type="str">2025-12-05T06:06:17+00:00</updateTime>
+		<validTimes type="str">2025-12-05T00:00:00+00:00/P7DT4H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,22 +51,22 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2025-12-04T22:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2025-12-05T00:00:00-06:00</startTime>
 				<endTime type="str">2025-12-05T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">22</temperature>
+				<temperature type="int">21</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">1 mph</windSpeed>
-				<windDirection type="str">N</windDirection>
+				<windSpeed type="str">2 mph</windSpeed>
+				<windDirection type="str">SW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 22. North wind around 1 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy. Low around 21, with temperatures rising to around 23 overnight. Southwest wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
