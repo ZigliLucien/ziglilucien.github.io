@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1046933/" title="See Description">[$] Eventual Rust in CPython</a></li>
+<li><a href="#https://lwn.net/Articles/1049417/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1049299/" title="See Description">Alpine Linux 3.23.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1048869/" title="See Description">[$] The beginning of the 6.19 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1047238/" title="See Description">[$] A "frozen" dictionary for Python</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1049103/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1049059/" title="See Description">A final stable kernel update for 5.4</a></li>
 <li><a href="#https://lwn.net/Articles/1048976/" title="See Description">Let's Encrypt to reduce certificate lifetimes</a></li>
-<li><a href="#https://lwn.net/Articles/1048975/" title="See Description">FreeBSD 15.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1046084/" title="See Description">[$] Zig's new plan for asynchronous programs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1046933/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 05 Dec 2025 14:33:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046933/" title="https://lwn.net/Articles/1046933/">[$] Eventual Rust in CPython</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Emma Smith and Kirill Podoprigora, two of Python's core developers, have
+<a href="https://discuss.python.org/t/pre-pep-rust-for-cpython/104906">opened a
+discussion</a> about including Rust code in CPython, the reference implementation of
+the Python programming language. Initially, Rust would only be used for optional
+extension modules, but they would like to see Rust become a required dependency
+over time. The initial plan was to make Rust required by 2028, but Smith and
+Podoprigora indefinitely postponed that goal in response to concerns raised in the discussion.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1049417/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 05 Dec 2025 14:12:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049417/" title="https://lwn.net/Articles/1049417/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, gimp:2.8, go-toolset:rhel8, ipa, kea, kernel, kernel-rt, pcs, qt6-qtquick3d, qt6-qtsvg, systemd, and valkey), <b>Debian</b> (chromium and unbound), <b>Fedora</b> (alexvsbus, CuraEngine, fcgi, libcoap, python-kdcproxy, texlive-base, timg, and xpdf), <b>Mageia</b> (digikam, darktable, libraw, gnutls, python-django, unbound, webkit2, and xkbcomp), <b>Oracle</b> (bind, firefox, gimp:2.8, haproxy, ipa, java-25-openjdk, kea, kernel, libsoup3, libssh, libtiff, openssl, podman, qt6-qtsvg, squid, systemd, vim, and xorg-x11-server-Xwayland), <b>Slackware</b> (httpd and libpng), <b>SUSE</b> (chromedriver, kernel, and python-mistralclient), and <b>Ubuntu</b> (cups, linux-azure, linux-gcp, linux-gcp, linux-gke, linux-gkeop, linux-ibm-6.8, linux-iot, and mame).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1049299/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 04 Dec 2025 19:26:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -313,55 +337,6 @@ to be done more frequently with shorter certificate lifetimes.</p>
 </blockquote>
     
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1048975/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 02 Dec 2025 14:19:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048975/" title="https://lwn.net/Articles/1048975/">FreeBSD 15.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://www.freebsd.org/releases/15.0R/announce/">FreeBSD
-15.0</a> has been released. Notable changes in this release include a new
-method for <a
-href="https://www.freebsd.org/releases/15.0R/announce/#:~:text=Packaged%20base%20system,-A">installing
-the base system using the <tt>pkg</tt> package manager</a>, an update
-to <a
-href="https://openzfs.org/wiki/Main_Page">OpenZFS&#160;2.4.0-rc4</a>,
-native support for the <tt><a
-href="https://man.freebsd.org/cgi/man.cgi?query=inotify&sektion=2&format=html">inotify(2)</a></tt>
-interface, and the addition of Open Container Initiative (OCI) images
-to FreeBSD's release artifacts. See the <a
-href="https://www.freebsd.org/releases/15.0R/relnotes/">release
-notes</a> for a full list of changes, <a
-href="https://www.freebsd.org/releases/15.0R/hardware/">hardware
-notes</a> for supported hardware, and check the <a
-href="https://www.freebsd.org/releases/15.0R/errata/">errata</a>
-before installing or upgrading.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1046084/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 02 Dec 2025 14:10:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1046084/" title="https://lwn.net/Articles/1046084/">[$] Zig's new plan for asynchronous programs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The designers of the
-<a href="https://ziglang.org/">
-Zig programming language</a> have been working to find a
-suitable design for asynchronous code for some time.
-Zig is a carefully minimalist language, and its
-<a href="https://ziglang.org/documentation/0.5.0/#Async-Functions">
-initial design</a> for
-asynchronous I/O did not fit well with its other
-features. Now, the project has
-<a href="https://zig.show/episodes/41/">
-announced</a> (in a Zig SHOWTIME video) a new approach to asynchronous I/O that
-promises to solve the
-<a href="https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/">
-function coloring</a> problem, and allows writing code that will execute
-correctly using either synchronous or asynchronous I/O.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
