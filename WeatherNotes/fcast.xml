@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-12-05T22:36:06+00:00</generatedAt>
-		<updateTime type="str">2025-12-05T22:31:17+00:00</updateTime>
-		<validTimes type="str">2025-12-05T16:00:00+00:00/P7DT15H</validTimes>
+		<generatedAt type="str">2025-12-06T01:36:18+00:00</generatedAt>
+		<updateTime type="str">2025-12-06T01:27:00+00:00</updateTime>
+		<validTimes type="str">2025-12-05T19:00:00+00:00/P7DT12H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,27 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">This Afternoon</name>
-				<startTime type="str">2025-12-05T16:00:00-06:00</startTime>
-				<endTime type="str">2025-12-05T18:00:00-06:00</endTime>
-				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">41</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">0</value>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/skc?size=medium</icon>
-				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny. High near 41, with temperatures falling to around 37 in the afternoon. South southwest wind around 6 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2025-12-05T18:00:00-06:00</startTime>
+				<startTime type="str">2025-12-05T19:00:00-06:00</startTime>
 				<endTime type="str">2025-12-06T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">28</temperature>
@@ -88,7 +69,7 @@
 				<detailedForecast type="str">Partly cloudy. Low around 28, with temperatures rising to around 30 overnight. South southwest wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
+				<number type="int">2</number>
 				<name type="str">Saturday</name>
 				<startTime type="str">2025-12-06T06:00:00-06:00</startTime>
 				<endTime type="str">2025-12-06T18:00:00-06:00</endTime>
@@ -107,7 +88,7 @@
 				<detailedForecast type="str">Partly sunny. High near 45, with temperatures falling to around 41 in the afternoon. Southwest wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Saturday Night</name>
 				<startTime type="str">2025-12-06T18:00:00-06:00</startTime>
 				<endTime type="str">2025-12-07T06:00:00-06:00</endTime>
@@ -123,10 +104,10 @@
 				<windDirection type="str">SSE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/ovc?size=medium</icon>
 				<shortForecast type="str">Cloudy</shortForecast>
-				<detailedForecast type="str">Cloudy, with a low around 34. South southeast wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Cloudy. Low around 34, with temperatures rising to around 37 overnight. South southeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Sunday</name>
 				<startTime type="str">2025-12-07T06:00:00-06:00</startTime>
 				<endTime type="str">2025-12-07T18:00:00-06:00</endTime>
@@ -145,7 +126,7 @@
 				<detailedForecast type="str">Mostly cloudy, with a high near 46. West wind 5 to 10 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Sunday Night</name>
 				<startTime type="str">2025-12-07T18:00:00-06:00</startTime>
 				<endTime type="str">2025-12-08T06:00:00-06:00</endTime>
@@ -164,7 +145,7 @@
 				<detailedForecast type="str">A slight chance of snow showers before 9pm, then a slight chance of rain and snow showers between 9pm and midnight. Mostly cloudy, with a low around 23. North wind around 10 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Monday</name>
 				<startTime type="str">2025-12-08T06:00:00-06:00</startTime>
 				<endTime type="str">2025-12-08T18:00:00-06:00</endTime>
@@ -183,7 +164,7 @@
 				<detailedForecast type="str">Mostly sunny, with a high near 35. North wind 1 to 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2025-12-08T18:00:00-06:00</startTime>
 				<endTime type="str">2025-12-09T06:00:00-06:00</endTime>
@@ -202,7 +183,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 23. South southeast wind 1 to 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Tuesday</name>
 				<startTime type="str">2025-12-09T06:00:00-06:00</startTime>
 				<endTime type="str">2025-12-09T18:00:00-06:00</endTime>
@@ -221,7 +202,7 @@
 				<detailedForecast type="str">Mostly sunny, with a high near 46. South southwest wind around 12 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Tuesday Night</name>
 				<startTime type="str">2025-12-09T18:00:00-06:00</startTime>
 				<endTime type="str">2025-12-10T06:00:00-06:00</endTime>
@@ -240,7 +221,7 @@
 				<detailedForecast type="str">Mostly cloudy, with a low around 38. Southwest wind 10 to 14 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Wednesday</name>
 				<startTime type="str">2025-12-10T06:00:00-06:00</startTime>
 				<endTime type="str">2025-12-10T18:00:00-06:00</endTime>
@@ -259,7 +240,7 @@
 				<detailedForecast type="str">A slight chance of rain showers. Partly sunny, with a high near 47. West wind 8 to 13 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">12</number>
+				<number type="int">11</number>
 				<name type="str">Wednesday Night</name>
 				<startTime type="str">2025-12-10T18:00:00-06:00</startTime>
 				<endTime type="str">2025-12-11T06:00:00-06:00</endTime>
@@ -278,7 +259,7 @@
 				<detailedForecast type="str">A slight chance of rain showers before midnight. Mostly cloudy, with a low around 28. Northwest wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">13</number>
+				<number type="int">12</number>
 				<name type="str">Thursday</name>
 				<startTime type="str">2025-12-11T06:00:00-06:00</startTime>
 				<endTime type="str">2025-12-11T18:00:00-06:00</endTime>
@@ -297,7 +278,7 @@
 				<detailedForecast type="str">Partly sunny, with a high near 42. West wind around 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Thursday Night</name>
 				<startTime type="str">2025-12-11T18:00:00-06:00</startTime>
 				<endTime type="str">2025-12-12T06:00:00-06:00</endTime>
@@ -314,6 +295,25 @@
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
 				<detailedForecast type="str">Mostly cloudy, with a low around 25. West wind around 7 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Friday</name>
+				<startTime type="str">2025-12-12T06:00:00-06:00</startTime>
+				<endTime type="str">2025-12-12T18:00:00-06:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">36</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="int">6</value>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">8 mph</windSpeed>
+				<windDirection type="str">NW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
+				<shortForecast type="str">Partly Sunny</shortForecast>
+				<detailedForecast type="str">Partly sunny, with a high near 36. Northwest wind around 8 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
