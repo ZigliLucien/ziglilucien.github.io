@@ -11,8 +11,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A slight chance of drizzle. Cloudy. High near 45, with temperatures falling to around 39 in the afternoon. West wind 3 to
-         10 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Sunday</h3>A slight chance of drizzle. Mostly cloudy. High near 45, with temperatures falling to around 39 in the afternoon. West wind
+         3 to 10 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
