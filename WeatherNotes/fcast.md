@@ -2,12 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Patchy fog between 2am and 5am. Mostly cloudy. Low around 34, with temperatures rising to around 36 overnight. South wind
-         around 3 mph.<br></div>
+         <h3>Overnight</h3>Patchy fog between 4am and 5am. Mostly cloudy. Low around 34, with temperatures rising to around 36 overnight. South southeast
+         wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A slight chance of drizzle. Mostly cloudy. High near 46, with temperatures falling to around 42 in the afternoon. West wind
+         <h3>Sunday</h3>A slight chance of drizzle. Mostly cloudy. High near 45, with temperatures falling to around 42 in the afternoon. West wind
          2 to 10 mph.<br></div>
    </p>
    <p>
@@ -36,16 +36,16 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A slight chance of rain showers before midnight, then a slight chance of rain and snow showers. Mostly cloudy, with a low
-         around 30. North northeast wind around 6 mph.<br></div>
+         <h3>Wednesday Night</h3>A slight chance of rain before midnight, then a slight chance of rain and snow. Mostly cloudy, with a low around 30. North
+         northeast wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of rain and snow showers. Mostly cloudy, with a high near 40. East northeast wind around 8 mph.<br></div>
+         <h3>Thursday</h3>A chance of rain and snow. Mostly cloudy, with a high near 40. East northeast wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A slight chance of rain showers before midnight. Mostly cloudy, with a low around 21. North northwest wind 6 to 10 mph.<br></div>
+         <h3>Thursday Night</h3>A slight chance of rain before midnight. Mostly cloudy, with a low around 21. North northwest wind 6 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

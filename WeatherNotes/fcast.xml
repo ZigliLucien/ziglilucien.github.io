@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-12-07T07:36:07+00:00</generatedAt>
-		<updateTime type="str">2025-12-07T07:16:24+00:00</updateTime>
-		<validTimes type="str">2025-12-07T01:00:00+00:00/P8D</validTimes>
+		<generatedAt type="str">2025-12-07T09:36:08+00:00</generatedAt>
+		<updateTime type="str">2025-12-07T09:31:39+00:00</updateTime>
+		<validTimes type="str">2025-12-07T03:00:00+00:00/P7DT22H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2025-12-07T01:00:00-06:00</startTime>
+				<startTime type="str">2025-12-07T03:00:00-06:00</startTime>
 				<endTime type="str">2025-12-07T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">34</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">14</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">S</windDirection>
+				<windSpeed type="str">2 mph</windSpeed>
+				<windDirection type="str">SSE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/fog?size=medium</icon>
 				<shortForecast type="str">Patchy Fog</shortForecast>
-				<detailedForecast type="str">Patchy fog between 2am and 5am. Mostly cloudy. Low around 34, with temperatures rising to around 36 overnight. South wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">Patchy fog between 4am and 5am. Mostly cloudy. Low around 34, with temperatures rising to around 36 overnight. South southeast wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -74,7 +74,7 @@
 				<startTime type="str">2025-12-07T06:00:00-06:00</startTime>
 				<endTime type="str">2025-12-07T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">46</temperature>
+				<temperature type="int">45</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -85,7 +85,7 @@
 				<windDirection type="str">W</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/rain?size=medium</icon>
 				<shortForecast type="str">Slight Chance Drizzle</shortForecast>
-				<detailedForecast type="str">A slight chance of drizzle. Mostly cloudy. High near 46, with temperatures falling to around 42 in the afternoon. West wind 2 to 10 mph.</detailedForecast>
+				<detailedForecast type="str">A slight chance of drizzle. Mostly cloudy. High near 45, with temperatures falling to around 42 in the afternoon. West wind 2 to 10 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -216,9 +216,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/snow,20?size=medium</icon>
-				<shortForecast type="str">Slight Chance Rain Showers then Slight Chance Rain And Snow Showers</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers before midnight, then a slight chance of rain and snow showers. Mostly cloudy, with a low around 30. North northeast wind around 6 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain,20/snow,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Light Rain then Slight Chance Rain And Snow</shortForecast>
+				<detailedForecast type="str">A slight chance of rain before midnight, then a slight chance of rain and snow. Mostly cloudy, with a low around 30. North northeast wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">10</number>
@@ -236,8 +236,8 @@
 				<windSpeed type="str">8 mph</windSpeed>
 				<windDirection type="str">ENE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/snow,40/snow,30?size=medium</icon>
-				<shortForecast type="str">Chance Rain And Snow Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain and snow showers. Mostly cloudy, with a high near 40. East northeast wind around 8 mph.</detailedForecast>
+				<shortForecast type="str">Chance Rain And Snow</shortForecast>
+				<detailedForecast type="str">A chance of rain and snow. Mostly cloudy, with a high near 40. East northeast wind around 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">11</number>
@@ -254,9 +254,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 to 10 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/bkn?size=medium</icon>
-				<shortForecast type="str">Slight Chance Rain Showers then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers before midnight. Mostly cloudy, with a low around 21. North northwest wind 6 to 10 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain,20/bkn?size=medium</icon>
+				<shortForecast type="str">Slight Chance Light Rain then Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">A slight chance of rain before midnight. Mostly cloudy, with a low around 21. North northwest wind 6 to 10 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">12</number>
