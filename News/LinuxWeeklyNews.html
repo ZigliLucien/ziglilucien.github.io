@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1049554/" title="See Description">Six stable kernels for the weekend</a></li>
 <li><a href="#https://lwn.net/Articles/1046933/" title="See Description">[$] Eventual Rust in CPython</a></li>
 <li><a href="#https://lwn.net/Articles/1049417/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1049299/" title="See Description">Alpine Linux 3.23.0 released</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1047715/" title="See Description">[$] Just: a command runner</a></li>
 <li><a href="#https://lwn.net/Articles/1049103/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1049059/" title="See Description">A final stable kernel update for 5.4</a></li>
-<li><a href="#https://lwn.net/Articles/1048976/" title="See Description">Let's Encrypt to reduce certificate lifetimes</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1049554/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 07 Dec 2025 15:48:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049554/" title="https://lwn.net/Articles/1049554/">Six stable kernels for the weekend</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the
+<a href="https://lwn.net/Articles/1049556/">6.17.11</a>,
+<a href="https://lwn.net/Articles/1049557/">6.12.61</a>,
+<a href="https://lwn.net/Articles/1049558/">6.6.119</a>,
+<a href="https://lwn.net/Articles/1049559/">6.1.159</a>,
+<a href="https://lwn.net/Articles/1049560/">5.15.197</a>, and
+<a href="https://lwn.net/Articles/1049555/">5.10.247</a> stable kernels. Each contains important fixes throughout the tree; users of these kernels should upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1046933/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 05 Dec 2025 14:33:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -301,42 +316,6 @@ only increase over time as more CVEs get assigned for kernel bugs.
 <p>For the curious, Kroah-Hartman has also <a
 href="https://lwn.net/ml/all/2025120358-skating-outage-7c61@gregkh/">provided</a>
 a list of the unfixed CVEs for 5.4.302.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1048976/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 02 Dec 2025 15:37:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1048976/" title="https://lwn.net/Articles/1048976/">Let's Encrypt to reduce certificate lifetimes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Let's Encrypt has <a
-href="https://letsencrypt.org/2025/12/02/from-90-to-45.html">announced</a>
-that it will be reducing the validity period of its certificates from
-90 days to 45 days by 2028:</p>
-
-<blockquote class="bq">
-<p>Most users of Let's Encrypt who automatically issue certificates
-will not have to make any changes. However, you should verify that
-your automation is compatible with certificates that have shorter
-validity periods.</p>
-
-<p>To ensure your ACME client renews on time, we recommend using <a href="https://letsencrypt.org/2023/03/23/improving-resliiency-and-reliability-with-ari">ACME
-Renewal Information (ARI)</a>. ARI is a feature we've introduced to help
-clients know when they need to renew their certificates. Consult your
-ACME client's documentation on how to enable ARI, as it differs from
-client to client. If you are a client developer, check out this
-<a href="https://letsencrypt.org/2024/04/25/guide-to-integrating-ari-into-existing-acme-clients">integration guide</a>.</p>
-
-<p>If your client doesn't support ARI yet, ensure it runs on a
-schedule that is compatible with 45-day certificates. For example,
-renewing at a hardcoded interval of 60 days will no longer be
-sufficient. Acceptable behavior includes renewing certificates at
-approximately two thirds of the way through the current certificate's
-lifetime.</p>
-
-<p>Manually renewing certificates is not recommended, as it will need
-to be done more frequently with shorter certificate lifetimes.</p>
-</blockquote>
-    
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
