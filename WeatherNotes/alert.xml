@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b5f04174481237944cb324394fbaefd393db1b3c.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f34e8a010eef942db871ff048c2b2c7748644876.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b5f04174481237944cb324394fbaefd393db1b3c.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f34e8a010eef942db871ff048c2b2c7748644876.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.b5f04174481237944cb324394fbaefd393db1b3c.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.f34e8a010eef942db871ff048c2b2c7748644876.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -202,10 +202,10 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
 				<references type="list"/>
-				<sent type="str">2025-12-09T14:23:00-06:00</sent>
-				<effective type="str">2025-12-09T14:23:00-06:00</effective>
-				<onset type="str">2025-12-09T14:23:00-06:00</onset>
-				<expires type="str">2025-12-10T04:00:00-06:00</expires>
+				<sent type="str">2025-12-10T03:51:00-06:00</sent>
+				<effective type="str">2025-12-10T03:51:00-06:00</effective>
+				<onset type="str">2025-12-10T03:51:00-06:00</onset>
+				<expires type="str">2025-12-10T14:30:00-06:00</expires>
 				<ends type="null"/>
 				<status type="str">Actual</status>
 				<messageType type="str">Alert</messageType>
@@ -216,13 +216,13 @@
 				<event type="str">Special Weather Statement</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Special Weather Statement issued December 9 at 2:23PM CST by NWS Paducah KY</headline>
-				<description type="str">Southwest winds will increase through the night, with sustained
-winds 15-25 mph and gusts 25-40 mph expected. As a cold front
-passes, the winds will gradually shift to the west early
-Wednesday and then become northwest by afternoon. The strongest
-winds are expected between midnight and noon, and some gusts over
-40 mph are possible.
+				<headline type="str">Special Weather Statement issued December 10 at 3:51AM CST by NWS Paducah KY</headline>
+				<description type="str">Southwest winds will increase this morning, with sustained winds
+of 15 to 25 mph and gusts of 25 to 35 mph expected. As a cold
+front passes, the winds will gradually shift to the west, then
+northwest by early afternoon. The strongest winds are expected
+late this morning and early this afternoon just behind the cold
+front, and some gusts over 40 mph are possible.
 
 Unsecured outdoor decorations and items may become displaced by
 the gusty winds.</description>
@@ -233,10 +233,10 @@ the gusty winds.</description>
 						<item type="str">SPSPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS83 KPAH 092023</item>
+						<item type="str">WWUS83 KPAH 100951</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">Gusty Winds Expected Tonight and Wednesday</item>
+						<item type="str">Gusty Winds Expected Today</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -263,5 +263,5 @@ the gusty winds.</description>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-12-09T20:23:36+00:00</updated>
+	<updated type="str">2025-12-10T10:00:00+00:00</updated>
 </all>
