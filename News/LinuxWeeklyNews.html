@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1049939/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1049831/" title="See Description">The (successful) end of the kernel Rust experiment</a></li>
 <li><a href="#https://lwn.net/Articles/1049822/" title="See Description">The 2024 Free Software Awards winners</a></li>
 <li><a href="#https://lwn.net/Articles/1046228/" title="See Description">[$] Bazzite: a gem for Linux gamers</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1049417/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1049299/" title="See Description">Alpine Linux 3.23.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1048869/" title="See Description">[$] The beginning of the 6.19 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1047238/" title="See Description">[$] A "frozen" dictionary for Python</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1049939/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 10 Dec 2025 14:16:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049939/" title="https://lwn.net/Articles/1049939/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (abrt and kernel), <b>Debian</b> (libpng1.6, libsoup2.4, pdns-recursor, webkit2gtk, and wordpress), <b>Fedora</b> (imhex, libwebsockets, lunasvg, python3-docs, and python3.14), <b>Mageia</b> (python3 and webkit2), <b>Red Hat</b> (abrt, firefox, mysql8.4, and postgresql:15), <b>Slackware</b> (mozilla), <b>SUSE</b> (gegl, gnutls, go1.24, go1.25, libpng16-16, openssh, postgresql13, python-Jinja2, and sssd), and <b>Ubuntu</b> (fonttools and netty).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1049831/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 10 Dec 2025 02:57:53 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -295,23 +303,6 @@ relatively small fraction of what can be expected this time around, but it
 contains quite a bit of significant work, with changes to many core kernel
 subsystems.  Read on for a summary of the first part of the 6.19 merge
 window.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1047238/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 04 Dec 2025 14:42:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1047238/" title="https://lwn.net/Articles/1047238/">[$] A "frozen" dictionary for Python</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Dictionaries are ubiquitous in Python code; they are the data structure of
-choice for a wide variety of tasks.  But dictionaries are mutable, which
-makes them problematic for sharing data in concurrent code.  Python has
-added various concurrency features to the language over the last decade or
-so—<a href="https://lwn.net/Articles/726600/">async</a>, <a href="https://lwn.net/Articles/947138/">free threading without the global interpreter lock</a>
-(GIL), and <a href="https://lwn.net/Articles/941090/">independent subinterpreters</a>—but users must work out their own
-solution for an immutable dictionary that can be safely shared by
-concurrent code.  There are existing modules that could be used, but a recent proposal, <a
-href="https://peps.python.org/pep-0814/">PEP 814</a> ("Add frozendict
-built-in type"), looks to bring the feature to the language itself.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
