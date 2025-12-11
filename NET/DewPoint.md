@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 44.1 F. <strong>Dew Point</strong> 37.0 F.</div>
+<div id='c'><strong>Temp</strong> 37.0 F. <strong>Dew Point</strong> 26.1 F.</div>
 
 <p/><br/><p/>
 
@@ -428,3 +428,32 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Wed Dec 10 07:08:05 2025 | 42.1 F. | 36.0 F.|
 | Wed Dec 10 08:08:05 2025 | 42.1 F. | 37.0 F.|
 | Wed Dec 10 09:08:04 2025 | 44.1 F. | 37.0 F.|
+| Wed Dec 10 10:08:05 2025 | 46.0 F. | 37.0 F.|
+| Wed Dec 10 11:08:04 2025 | 46.0 F. | 28.9 F.|
+| Wed Dec 10 12:08:04 2025 | 43.0 F. | 28.9 F.|
+| Wed Dec 10 13:08:05 2025 | 42.1 F. | 28.0 F.|
+| Wed Dec 10 14:08:05 2025 | 39.9 F. | 26.1 F.|
+| Wed Dec 10 15:08:05 2025 | 39.0 F. | 25.0 F.|
+| Wed Dec 10 16:08:05 2025 | 37.9 F. | 25.0 F.|
+| Wed Dec 10 17:08:04 2025 | 37.0 F. | 24.1 F.|
+| Wed Dec 10 18:08:05 2025 | 37.0 F. | 24.1 F.|
+| Wed Dec 10 19:08:04 2025 | 36.0 F. | 25.0 F.|
+| Wed Dec 10 20:08:05 2025 | 35.1 F. | 25.0 F.|
+| Wed Dec 10 21:08:04 2025 | 34.0 F. | 25.0 F.|
+| Wed Dec 10 22:08:05 2025 | 30.0 F. | 24.1 F.|
+| Wed Dec 10 23:08:04 2025 | 30.0 F. | 23.0 F.|
+| Thu Dec 11 00:08:05 2025 | 30.0 F. | 23.0 F.|
+| Thu Dec 11 01:08:05 2025 | 26.1 F. | 23.0 F.|
+| Thu Dec 11 02:08:05 2025 | 27.0 F. | 24.1 F.|
+| Thu Dec 11 03:08:04 2025 | 26.1 F. | 23.0 F.|
+| Thu Dec 11 04:08:04 2025 | 27.0 F. | 24.1 F.|
+| Thu Dec 11 05:08:06 2025 | 27.0 F. | 24.1 F.|
+| Thu Dec 11 06:08:05 2025 | 28.0 F. | 24.1 F.|
+| Thu Dec 11 07:08:05 2025 | 26.1 F. | 23.0 F.|
+| Thu Dec 11 08:08:04 2025 | 28.0 F. | 24.1 F.|
+| Thu Dec 11 09:08:05 2025 | 30.9 F. | 25.0 F.|
+| Thu Dec 11 10:08:05 2025 | 33.1 F. | 25.0 F.|
+| Thu Dec 11 11:08:05 2025 | 34.0 F. | 24.1 F.|
+| Thu Dec 11 12:08:05 2025 | 36.0 F. | 26.1 F.|
+| Thu Dec 11 13:08:04 2025 | 36.0 F. | 26.1 F.|
+| Thu Dec 11 14:08:04 2025 | 37.0 F. | 26.1 F.|
