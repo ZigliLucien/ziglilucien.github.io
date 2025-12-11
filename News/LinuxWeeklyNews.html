@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1050129/" title="See Description">Pop!_OS 24.04 LTS released</a></li>
+<li><a href="#https://lwn.net/Articles/1050125/" title="See Description">Rust 1.92.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1049830/" title="See Description">[$] Toward a policy for machine-learning tools in kernel development</a></li>
 <li><a href="#https://lwn.net/Articles/1050117/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1049161/" title="See Description">[$] LWN.net Weekly Edition for December 11, 2025</a></li>
@@ -51,11 +53,57 @@
 <li><a href="#https://lwn.net/Articles/1049771/" title="See Description">Firefox 146 released</a></li>
 <li><a href="#https://lwn.net/Articles/1049769/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1048978/" title="See Description">[$] Disagreements over post-quantum encryption for TLS</a></li>
-<li><a href="#https://lwn.net/Articles/1049663/" title="See Description">Addressing Linux's missing PKI infrastructure</a></li>
-<li><a href="#https://lwn.net/Articles/1049657/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1050129/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 11 Dec 2025 19:31:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1050129/" title="https://lwn.net/Articles/1050129/">Pop!_OS 24.04 LTS released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Version 24.04 LTS of the Ubuntu-based Pop!_OS distribution <a
+href="https://blog.system76.com/post/pop-os-letter-from-our-founder">has
+been released</a> with the COSMIC Desktop Environment:</p>
+
+<blockquote class="bq">
+<p>Today is special not only in that it's the culmination of over
+three years of work, but even more so in that System76 has built a
+complete desktop environment for the open source community. We're
+proud of this contribution to the open source ecosystem. COSMIC is
+built on the ethos that the best open source projects enable people to
+not only use them, but to build with them. COSMIC is modular and
+composable. It's the flagship experience for Pop!_OS in its own way,
+and can be adapted by anyone that wants to build their own unique user
+experience for Linux.</p>
+</blockquote>
+
+<p>In addition to the COSMIC desktop environment, Pop!_OS is now
+available for Arm computers with the 24.04 LTS release, and the
+distribution has added hybrid graphics support for better battery
+life. LWN <a href="https://lwn.net/Articles/984638/">covered</a> an
+alpha version of COSMIC in August 2024.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1050125/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 11 Dec 2025 18:40:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1050125/" title="https://lwn.net/Articles/1050125/">Rust 1.92.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://blog.rust-lang.org/2025/12/11/Rust-1.92.0/">Version
+1.92.0</a> of Rust has been released. This release includes a number
+of stabilized APIs, emits unwind tables by default on Linux, validates
+input to <tt>#[macro_export]</tt>, and much more. See the separate
+release notes for <a
+href="https://github.com/rust-lang/rust/releases/tag/1.92.0">Rust</a>,
+<a
+href="https://doc.rust-lang.org/nightly/cargo/CHANGELOG.html#cargo-192-2025-12-11">Cargo</a>,
+and <a
+href="https://github.com/rust-lang/rust-clippy/blob/master/CHANGELOG.md#rust-192">Clippy</a>.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1049830/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 11 Dec 2025 17:57:52 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -260,55 +308,6 @@ version 1.3. Discussion of the proposal has exposed a large disagreement between
 participants who worried about weakened security and others who worried about
 weakened marketability.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1049663/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 08 Dec 2025 17:48:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049663/" title="https://lwn.net/Articles/1049663/">Addressing Linux's missing PKI infrastructure</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Jon Seager, VP of engineering for Canonical, has <a
-href="https://discourse.ubuntu.com/t/addressing-linuxs-missing-pki-infrastructure/73314">announced</a>
-a plan to develop a universal Public Key Infrastructure tool called
-upki:</p>
-
-<blockquote class="bq">
-<p>Earlier this year, LWN featured an excellent article titled
-"<a href="https://lwn.net/Articles/1033809/">Linux's missing CRL
-infrastructure</a>". The article highlighted a number
-of key issues surrounding traditional Public Key Infrastructure (PKI),
-but critically noted how even the available measures are effectively
-ignored by the majority of system-level software on Linux.</p>
-
-<p>One of the motivators for the discussion is that the Online
-Certificate Status Protocol (OCSP) will cease to be supported by Let's
-Encrypt. The remaining alternative is to use Certificate Revocation
-Lists (CRLs), yet there is little or no support for managing (or even
-querying) these lists in most Linux system utilities.</p>
-
-<p>To solve this, I'm happy to share that in partnership with <a href="https://github.com/rustls/rustls">rustls</a>
-maintainers <a href="https://dirkjan.ochtman.nl/">Dirkjan Ochtman</a>
-and <a href="https://jbp.io/">Joe Birr-Pixton</a>, we're starting the
-development of upki: a universal PKI tool. This project initially aims
-to close the revocation gap through the combination of a new system
-utility and eventual library support for common TLS/SSL libraries such
-as <a href="https://openssl-library.org/">OpenSSL</a>, <a
-href="https://gnutls.org/">GnuTLS</a> and <a
-href="https://github.com/rustls/rustls">rustls</a>.</p>
-</blockquote>
-
-<p>No code is available as of yet, but the announcement indicates that
-upki will be available as an opt-in preview for
-Ubuntu&#160;26.04&#160;LTS. Thanks to Dirjan Ochtman for the tip.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1049657/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 08 Dec 2025 14:11:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049657/" title="https://lwn.net/Articles/1049657/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ffmpeg, krita, lasso, and libpng1.6), <b>Fedora</b> (abrt, cef, chromium, tinygltf, webkitgtk, and xkbcomp), <b>Oracle</b> (buildah, delve and golang, expat, python-kdcproxy, qt6-qtquick3d, qt6-qtsvg, sssd, thunderbird, and valkey), <b>Red Hat</b> (webkit2gtk3), and <b>SUSE</b> (git-bug, go1, and libpng12-0).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
