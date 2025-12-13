@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A slight chance of snow after 3pm. Cloudy. High near 36, with temperatures falling to around 27 in the afternoon. West wind
-         1 to 12 mph, with gusts as high as 20 mph. Chance of precipitation is 20%.<br></div>
+         <h3>This Afternoon</h3>A slight chance of snow after 3pm. Cloudy. High near 36, with temperatures falling to around 27 in the afternoon. North northwest
+         wind 7 to 12 mph, with gusts as high as 20 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
