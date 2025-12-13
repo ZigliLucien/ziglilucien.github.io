@@ -17,7 +17,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Sunny, with a high near 17. Wind chill values as low as -7. North wind 6 to 13 mph, with gusts as high as 23 mph.<br></div>
+         <h3>Sunday</h3>Sunny, with a high near 17. Wind chill values as low as -8. North wind 6 to 13 mph, with gusts as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
