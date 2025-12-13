@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea8812ecfbd494405a8a39d1225d2b0c5263306d.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8ad94833d7ff1444361ba68a9545be2fc20e435.002.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea8812ecfbd494405a8a39d1225d2b0c5263306d.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8ad94833d7ff1444361ba68a9545be2fc20e435.002.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.ea8812ecfbd494405a8a39d1225d2b0c5263306d.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.e8ad94833d7ff1444361ba68a9545be2fc20e435.002.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Scott; Mississippi</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -185,16 +185,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.af543c0ab5aa7e9af70c1cd54f2e23b0b4c8613b.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.af543c0ab5aa7e9af70c1cd54f2e23b0b4c8613b.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ea8812ecfbd494405a8a39d1225d2b0c5263306d.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.ea8812ecfbd494405a8a39d1225d2b0c5263306d.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2025-12-12T13:31:00-06:00</sent>
+						<sent type="str">2025-12-12T19:07:00-06:00</sent>
 					</item>
 				</references>
-				<sent type="str">2025-12-12T19:07:00-06:00</sent>
-				<effective type="str">2025-12-12T19:07:00-06:00</effective>
+				<sent type="str">2025-12-13T01:05:00-06:00</sent>
+				<effective type="str">2025-12-13T01:05:00-06:00</effective>
 				<onset type="str">2025-12-14T00:00:00-06:00</onset>
-				<expires type="str">2025-12-13T04:30:00-06:00</expires>
+				<expires type="str">2025-12-13T14:00:00-06:00</expires>
 				<ends type="str">2025-12-14T12:00:00-06:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -205,16 +205,16 @@
 				<event type="str">Cold Weather Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Cold Weather Advisory issued December 12 at 7:07PM CST until December 14 at 12:00PM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Very cold wind chills ranging from 0 to 10 below expected.
+				<headline type="str">Cold Weather Advisory issued December 13 at 1:05AM CST until December 14 at 12:00PM CST by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Very cold wind chills ranging from 0 to 13 below expected.
 
 * WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From midnight CST /1 AM EST/ Saturday Night to noon CST /1
-PM EST/ Sunday.
+* WHEN...From midnight CST /1 AM EST/ tonight to noon CST /1 PM EST/
+Sunday.
 
-* IMPACTS...The cold wind chills as low as 10 below zero could
+* IMPACTS...The cold wind chills as low as 15 below zero could
 result in hypothermia if precautions are not taken.</description>
 				<instruction type="str">Use caution while traveling outside. Wear appropriate clothing, a
 hat, and gloves.</instruction>
@@ -224,10 +224,10 @@ hat, and gloves.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 130107</item>
+						<item type="str">WWUS73 KPAH 130705</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">COLD WEATHER ADVISORY REMAINS IN EFFECT FROM MIDNIGHT CST /1 AM EST/ SATURDAY NIGHT TO NOON CST /1 PM EST/ SUNDAY</item>
+						<item type="str">COLD WEATHER ADVISORY REMAINS IN EFFECT FROM MIDNIGHT CST /1 AM EST/ TONIGHT TO NOON CST /1 PM EST/ SUNDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -240,6 +240,9 @@ hat, and gloves.</instruction>
 					<eventEndingTime type="list">
 						<item type="str">2025-12-14T12:00:00-06:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af543c0ab5aa7e9af70c1cd54f2e23b0b4c8613b.001.1,2025-12-12T13:31:00-06:00</item>
+					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -257,5 +260,5 @@ hat, and gloves.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2025-12-13T01:07:56+00:00</updated>
+	<updated type="str">2025-12-13T07:06:33+00:00</updated>
 </all>
