@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of freezing drizzle and a slight chance of drizzle between 11am and noon, then a slight chance of snow between
-         noon and 1pm, then a slight chance of freezing drizzle. Cloudy. High near 33, with temperatures falling to around 25 in the
-         afternoon. North wind 3 to 10 mph. Chance of precipitation is 20%.<br></div>
+         noon and 1pm, then a slight chance of freezing drizzle. Cloudy. High near 35, with temperatures falling to around 25 in the
+         afternoon. North wind 2 to 10 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
