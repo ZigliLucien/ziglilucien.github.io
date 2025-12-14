@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1050370/" title="See Description">Conill: Rethinking sudo with object capabilities</a></li>
 <li><a href="#https://lwn.net/Articles/1050174/" title="See Description">[$] The state of the kernel Rust experiment</a></li>
 <li><a href="#https://lwn.net/Articles/1050270/" title="See Description">Three new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1050027/" title="See Description">[$] Best practices for linux-next</a></li>
@@ -52,10 +53,30 @@
 <li><a href="#https://lwn.net/Articles/1049963/" title="See Description">Kroah-Hartman: Linux CVEs, more than you ever wanted to know</a></li>
 <li><a href="#https://lwn.net/Articles/1049423/" title="See Description">[$] Mix and match Linux distributions with Distrobox</a></li>
 <li><a href="#https://lwn.net/Articles/1049939/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1049831/" title="See Description">The (successful) end of the kernel Rust experiment</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1050370/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 14 Dec 2025 01:07:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1050370/" title="https://lwn.net/Articles/1050370/">Conill: Rethinking sudo with object capabilities</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Ariadne Conill <a
+href="https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html">is
+exploring</a> a capability-based approach to privilege escalation on Linux
+systems.
+<p>
+<blockquote class="bq">
+	Inspired by the object-capability model, I've been working on a
+	project named <a
+	href="https://github.com/kaniini/capsudo">capsudo</a>. Instead of
+	treating privilege escalation as a temporary change of identity,
+	capsudo reframes it as a mediated interaction with a service called
+	<tt>capsudod</tt> that holds specific authority, which may range
+	from full root privileges to a narrowly scoped set of capabilities
+	depending on how it is deployed.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1050174/"></a></td></tr>
 <tr><td><div class="date"><tt>Sat, 13 Dec 2025 01:19:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -291,19 +312,6 @@ favorite applications to a new system.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (abrt and kernel), <b>Debian</b> (libpng1.6, libsoup2.4, pdns-recursor, webkit2gtk, and wordpress), <b>Fedora</b> (imhex, libwebsockets, lunasvg, python3-docs, and python3.14), <b>Mageia</b> (python3 and webkit2), <b>Red Hat</b> (abrt, firefox, mysql8.4, and postgresql:15), <b>Slackware</b> (mozilla), <b>SUSE</b> (gegl, gnutls, go1.24, go1.25, libpng16-16, openssh, postgresql13, python-Jinja2, and sssd), and <b>Ubuntu</b> (fonttools and netty).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1049831/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 10 Dec 2025 02:57:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049831/" title="https://lwn.net/Articles/1049831/">The (successful) end of the kernel Rust experiment</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The topic of the Rust experiment was just discussed at the annual
-Maintainers Summit.  The consensus among the assembled developers is that
-Rust in the kernel is no longer experimental — it is now a core part of the
-kernel and is here to stay.  So the "experimental" tag will be coming off.
-Congratulations are in order for all of the Rust for Linux team.
-<p>
-(Stay tuned for details in our Maintainers Summit coverage.)</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
