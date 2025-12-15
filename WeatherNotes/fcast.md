@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Sunny. High near 37, with temperatures falling to around 34 in the afternoon. South southwest wind 9 to 13 mph, with gusts
-         as high as 24 mph.<br></div>
+         as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
