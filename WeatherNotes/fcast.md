@@ -2,21 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 37, with temperatures falling to around 34 in the afternoon. South southwest wind around 12 mph, with gusts
-         as high as 23 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy, with a low around 30. South southwest wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Partly cloudy, with a low around 27. South southwest wind 6 to 9 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tuesday</h3>Partly sunny. High near 44, with temperatures falling to around 41 in the afternoon. South southwest wind 6 to 12 mph, with
+         <h3>Tuesday</h3>Mostly sunny. High near 44, with temperatures falling to around 41 in the afternoon. South southwest wind 6 to 12 mph, with
          gusts as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Mostly cloudy, with a low around 34. South southwest wind 6 to 12 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Tuesday Night</h3>Mostly cloudy. Low around 34, with temperatures rising to around 36 overnight. South southwest wind 6 to 12 mph, with gusts
+         as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -30,7 +26,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>Rain and a slight chance of thunderstorms. Mostly cloudy, with a high near 55. West southwest wind around 15 mph, with gusts
-         as high as 25 mph.<br></div>
+         as high as 25 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -59,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday Night</h3>A slight chance of rain before midnight. Mostly cloudy, with a low around 39. East northeast wind around 6 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday</h3>Partly sunny, with a high near 56. South southeast wind around 7 mph.<br></div>
    </p>
 </div>
