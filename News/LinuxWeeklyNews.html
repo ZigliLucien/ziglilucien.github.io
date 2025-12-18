@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1051163/" title="See Description">Systemd v259 released</a></li>
+<li><a href="#https://lwn.net/Articles/1051157/" title="See Description">Three stable kernels for Thursday</a></li>
+<li><a href="#https://lwn.net/Articles/1051156/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1049996/" title="See Description">[$] LWN.net Weekly Edition for December 18, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1050268/" title="See Description">[$] Going boldly into the COSMIC desktop environment</a></li>
 <li><a href="#https://lwn.net/Articles/1050953/" title="See Description">Asahi Linux 6.18 progress report</a></li>
@@ -50,12 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1050539/" title="See Description">Announcing Vojtux: a Fedora-based accessible Linux distribution</a></li>
 <li><a href="#https://lwn.net/Articles/1050177/" title="See Description">[$] Better development tools for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1050523/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1049424/" title="See Description">[$] The rest of the 6.19 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1050381/" title="See Description">Kernel prepatch 6.19-rc1</a></li>
-<li><a href="#https://lwn.net/Articles/1050370/" title="See Description">Conill: Rethinking sudo with object capabilities</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1051163/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 18 Dec 2025 14:48:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051163/" title="https://lwn.net/Articles/1051163/">Systemd v259 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://github.com/systemd/systemd/releases/tag/v259">Systemd
+v259</a> has been released. Notable changes include a new
+"<tt>--empower</tt>" option for <tt>run0</tt> that provides elevated
+privileges to a user without switching to root, ability to propagate a
+user's home directory into a VM with <tt>systemd-vmspawn</tt>, and
+more. Support for System V service scripts has been deprecated, and
+will be removed in v260. See the release notes for other changes,
+feature removals, and deprecated features.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1051157/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 18 Dec 2025 14:18:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051157/" title="https://lwn.net/Articles/1051157/">Three stable kernels for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1051158/">6.18.2</a>, <a
+href="https://lwn.net/Articles/1051160/">6.17.13</a>, and <a
+href="https://lwn.net/Articles/1051161/">6.12.63</a> stable kernels. As always, each
+contains important fixes throughout the tree. He notes that
+6.17.13 is the last release of the 6.17.y kernel; users are
+advised to move to the 6.18.y kernel branch.</p>
+
+<p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1051156/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 18 Dec 2025 14:07:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051156/" title="https://lwn.net/Articles/1051156/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, keylime, mysql:8.4, and tomcat), <b>Debian</b> (c-ares and webkit2gtk), <b>Fedora</b> (brotli, cups, golang-github-facebook-time, nebula, NetworkManager, perl-Alien-Brotli, python-django4.2, python-django5, and vips), <b>Red Hat</b> (binutils, buildah, curl, go-toolset:rhel8, golang, grafana, multiple packages, php:8.3, podman, python3.12, python39:3.9, ruby:3.3, and skopeo), <b>SUSE</b> (buildah, cups, firefox, glib2, grub2, helm, icinga-php-library, icingaweb2, ImageMagick, imagemagick, kernel, libpng12, libpng16, mariadb, openssl-3, poppler, python39, usbmuxd, webkit2gtk3, wireshark, and xkbcomp), and <b>Ubuntu</b> (linux-azure-fips).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1049996/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 18 Dec 2025 00:16:15 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -259,57 +299,6 @@ process more efficient and accessible.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, grafana, kernel, libsoup3, mysql8.4, and wireshark), <b>Debian</b> (ruby-git, ruby-sidekiq, thunderbird, and vlc), <b>Fedora</b> (apptainer, chromium, firefox, golangci-lint, libpng, and xkbcomp), <b>Mageia</b> (golang), <b>SUSE</b> (binutils, chromium, firefox, gegl, go1.25, govulncheck-vulndb, hauler, kernel, keylime, libpng12, pgadmin4, postgresql16, python, python-Django, python-django, python3, python311, rhino, thunderbird, unbound, and xkbcomp), and <b>Ubuntu</b> (usbmuxd).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1049424/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 14 Dec 2025 22:23:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1049424/" title="https://lwn.net/Articles/1049424/">[$] The rest of the 6.19 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds <a href="https://lwn.net/Articles/1050380/">released 6.19-rc1</a> and
-closed the 6.19 merge window on December&#160;14 (Japan time), after having
-pulled 12,314 non-merge commits into the mainline.  Over 8,000 of those
-commits came in after <a href="https://lwn.net/Articles/1048869/">our first 6.19
-merge-window summary</a> was written.  The second part of the merge window
-was focused on drivers, but brought in a number of other changes as well.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1050381/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 14 Dec 2025 08:16:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1050381/" title="https://lwn.net/Articles/1050381/">Kernel prepatch 6.19-rc1</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1050380/">6.19-rc1</a>, perhaps a bit
-earlier than expected.
-<p>
-<blockquote class="bq">
-	So it's Sunday afternoon in the part of the world where I am now,
-	so if somebody was looking at trying to limbo under the merge
-	window timing with one last pull request and is taken by surprise
-	by the slightly unusual timing of the rc1 release, that failed.
-<p>
-	Teaching moment, or random capricious acts? You be the judge.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1050370/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 14 Dec 2025 01:07:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1050370/" title="https://lwn.net/Articles/1050370/">Conill: Rethinking sudo with object capabilities</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Ariadne Conill <a
-href="https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html">is
-exploring</a> a capability-based approach to privilege escalation on Linux
-systems.
-<p>
-<blockquote class="bq">
-	Inspired by the object-capability model, I've been working on a
-	project named <a
-	href="https://github.com/kaniini/capsudo">capsudo</a>. Instead of
-	treating privilege escalation as a temporary change of identity,
-	capsudo reframes it as a mediated interaction with a service called
-	<tt>capsudod</tt> that holds specific authority, which may range
-	from full root privileges to a narrowly scoped set of capabilities
-	depending on how it is deployed.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
