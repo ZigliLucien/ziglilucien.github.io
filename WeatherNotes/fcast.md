@@ -2,12 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Rain showers likely. Mostly cloudy. High near 57, with temperatures falling to around 47 in the afternoon. West wind around
-         8 mph, with gusts as high as 30 mph. Chance of precipitation is 70%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>Partly cloudy, with a low around 27. West northwest wind 7 to 17 mph, with gusts as high as 32 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy, with a low around 27. West wind 6 to 16 mph, with gusts as high as 31 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -15,7 +10,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Mostly clear, with a low around 33. South wind 6 to 15 mph, with gusts as high as 24 mph.<br></div>
+         <h3>Friday Night</h3>Mostly clear. Low around 33, with temperatures rising to around 35 overnight. South wind 6 to 15 mph, with gusts as high as
+         24 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -56,5 +52,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday Night</h3>Mostly cloudy, with a low around 57. South wind around 10 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Christmas Day</h3>Partly sunny, with a high near 67. South southwest wind around 12 mph, with gusts as high as 20 mph.<br></div>
    </p>
 </div>
