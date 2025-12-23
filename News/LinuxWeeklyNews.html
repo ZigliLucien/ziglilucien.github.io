@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1051773/" title="See Description">Elementary OS 8.1 released</a></li>
+<li><a href="#https://lwn.net/Articles/1051010/" title="See Description">[$] A high-memory elimination timeline for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1050779/" title="See Description">[$] Verifier-state pruning in BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1051758/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1051664/" title="See Description">Incus 6.20 released</a></li>
@@ -51,11 +53,42 @@
 <li><a href="#https://lwn.net/Articles/1051459/" title="See Description">Results from the 2025 TAB election</a></li>
 <li><a href="#https://lwn.net/Articles/1051394/" title="See Description">FreeBSD laptop progress</a></li>
 <li><a href="#https://lwn.net/Articles/1050585/" title="See Description">[$] A visualizer for BPF program state</a></li>
-<li><a href="#https://lwn.net/Articles/1051384/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1051179/" title="See Description">A change of maintainership for linux-next</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1051773/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 23 Dec 2025 15:40:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051773/" title="https://lwn.net/Articles/1051773/">Elementary OS 8.1 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://blog.elementary.io/os-8-1-available-now/">Version
+8.1</a> of elementary OS has been released. Notable changes in this
+release include making the Wayland session the default, changes to
+window management and multitasking, as well as a number of
+accessibility improvements. The 8.1 release is the first to be made
+available for Arm64 devices, which should allow users to run
+elementary on Apple M-series hardware or other Arm devices that can
+load UEFI-supporting firmware, such as some Raspberry Pi models. See
+the blog post for a full list of changes.</p>
+
+<p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1051010/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 23 Dec 2025 15:31:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051010/" title="https://lwn.net/Articles/1051010/">[$] A high-memory elimination timeline for the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Arnd Bergmann began his <a href="https://lpc.events/event/19/">2025 Linux
+Plumbers Conference</a> session on the future of 32-bit support in the
+Linux kernel by saying that it was to be a followup to <a
+href="https://lwn.net/Articles/1035727/">his September talk</a> on the same topic.  The
+focus this time, though, was on the kernel's "high memory" abstraction, and
+when it could be removed.  It seems that the kernel community will need to
+support 32-bit systems for some time yet, even if it might be possible to
+remove some functionality, including support for large amounts of memory on
+those systems, more quickly.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1050779/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 23 Dec 2025 14:29:33 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -294,44 +327,6 @@ BPF verifier visualizer</a> that they have been building
 to make diagnosing verification failures easier.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1051384/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 19 Dec 2025 14:16:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051384/" title="https://lwn.net/Articles/1051384/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (roundcube), <b>Fedora</b> (checkpointctl, containernetworking-plugins, mingw-libpng, NetworkManager, php, python3-docs, python3.13, and webkitgtk), <b>Oracle</b> (kernel, keylime, and libssh), and <b>SUSE</b> (apache2, clair, colord, flannel, gnutls, golang-github-prometheus-alertmanager, grafana, grub2, helm, ImageMagick, libpng16, netty, openssl-3, postgresql13, postgresql14, postgresql15, python36, salt, uyuni-tools, and venv-salt-minion).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1051179/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 18 Dec 2025 16:40:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051179/" title="https://lwn.net/Articles/1051179/">A change of maintainership for linux-next</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Stephen Rothwell, who has maintained the kernel's linux-next integration
-tree from its inception, has <a
-href="https://lwn.net/ml/all/20251218180721.20eb878e@canb.auug.org.au">announced</a> his
-retirement from that role:
-<p>
-<blockquote class="bq">
-	I will be stepping down as Linux-Next maintainer on Jan 16, 2026.
-	Mark Brown has generously volunteered to take up the challenge.  He
-	has helped in the past filling in when I have been unavailable, so
-	hopefully knows what he is getting in to.  I hope you will all
-	treat him with the same (or better) level of respect that I have
-	received.
-<p>
-	It has been a long but mostly interesting task and I hope it has
-	been helpful to others.  It seems a long time since I read Andrew
-	Morton's "I have a dream" email and decided that I could help out
-	there - little did I know what I was heading for.
-</blockquote>
-<p>
-Over the last two decades or so, the kernel's development process has evolved
-from an unorganized mess with irregular releases to a smooth machine with a
-new release every nine or ten weeks.  That would not have happened without
-linux-next; thanks are due to Stephen for helping to make the current
-process possible.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
