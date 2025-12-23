@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1050779/" title="See Description">[$] Verifier-state pruning in BPF</a></li>
+<li><a href="#https://lwn.net/Articles/1051758/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1051664/" title="See Description">Incus 6.20 released</a></li>
 <li><a href="#https://lwn.net/Articles/1051653/" title="See Description">GDB 17.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1051650/" title="See Description">Qubes OS 4.3.0 released</a></li>
@@ -51,11 +53,38 @@
 <li><a href="#https://lwn.net/Articles/1050585/" title="See Description">[$] A visualizer for BPF program state</a></li>
 <li><a href="#https://lwn.net/Articles/1051384/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1051179/" title="See Description">A change of maintainership for linux-next</a></li>
-<li><a href="#https://lwn.net/Articles/1050317/" title="See Description">[$] Episode 29 of the Dirk and Linus show</a></li>
-<li><a href="#https://lwn.net/Articles/1051163/" title="See Description">Systemd v259 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1050779/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 23 Dec 2025 14:29:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1050779/" title="https://lwn.net/Articles/1050779/">[$] Verifier-state pruning in BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The BPF verifier works, on a theoretical level, by considering every possible
+path that a BPF program could take. As a practical matter, however, it needs to
+do that in a reasonable amount of time. At the
+<a href="https://lpc.events/event/19/">
+2025 Linux Plumbers Conference</a>, Mahé Tardy and Paul Chaignon
+gave a detailed explanation
+(<a href="https://lpc.events/event/19/contributions/2162/attachments/1820/3904/LPC25_State_Pruning.pdf">slides</a>;
+<a href="http://www.youtube.com/watch?v=EoEBkFJ3St4">video</a>) of
+the main mechanism that it uses to accomplish that: state pruning. They focused
+on two optimizations that help reduce the number of paths the verifier needs to
+check, and discussed some of the complications the optimizations introduced to the verifier's
+code.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1051758/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 23 Dec 2025 14:12:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051758/" title="https://lwn.net/Articles/1051758/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (binutils, curl, gcc-toolset-13-binutils, git-lfs, httpd, httpd:2.4, keylime, libssh, mod_md, openssh, php:8.3, podman, python3.12, python3.9, python39:3.9, skopeo, tomcat, tomcat9, and webkit2gtk3), <b>Fedora</b> (mingw-glib2, mingw-libsoup, and mingw-python3), <b>Mageia</b> (roundcubemail), <b>Oracle</b> (git-lfs and mod_md), and <b>SUSE</b> (glib2, kernel, mariadb, and qemu).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1051664/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 22 Dec 2025 18:08:07 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -303,38 +332,6 @@ from an unorganized mess with irregular releases to a smooth machine with a
 new release every nine or ten weeks.  That would not have happened without
 linux-next; thanks are due to Stephen for helping to make the current
 process possible.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1050317/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 18 Dec 2025 15:17:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1050317/" title="https://lwn.net/Articles/1050317/">[$] Episode 29 of the Dirk and Linus show</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds is famously averse to presenting prepared talks, but the
-wider community is always interested in what he has to say about the
-condition of the Linux kernel.  So, for some time now, his appearances have
-been in the form of an informal conversation with Dirk Hohndel.  At the
-2025 Open Source Summit Japan, the pair followed that tradition for the
-29th time.  Topics covered include the state of the development process,
-what Torvalds actually does, and how machine-learning tools might fit into
-the kernel project.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1051163/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 18 Dec 2025 14:48:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051163/" title="https://lwn.net/Articles/1051163/">Systemd v259 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://github.com/systemd/systemd/releases/tag/v259">Systemd
-v259</a> has been released. Notable changes include a new
-"<tt>--empower</tt>" option for <tt>run0</tt> that provides elevated
-privileges to a user without switching to root, ability to propagate a
-user's home directory into a VM with <tt>systemd-vmspawn</tt>, and
-more. Support for System V service scripts has been deprecated, and
-will be removed in v260. See the release notes for other changes,
-feature removals, and deprecated features.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
