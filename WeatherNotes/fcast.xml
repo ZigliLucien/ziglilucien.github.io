@@ -41,8 +41,8 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-12-24T16:36:04+00:00</generatedAt>
-		<updateTime type="str">2025-12-24T16:22:10+00:00</updateTime>
+		<generatedAt type="str">2025-12-24T17:36:03+00:00</generatedAt>
+		<updateTime type="str">2025-12-24T16:41:36+00:00</updateTime>
 		<validTimes type="str">2025-12-24T10:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2025-12-24T10:00:00-06:00</startTime>
+				<startTime type="str">2025-12-24T11:00:00-06:00</startTime>
 				<endTime type="str">2025-12-24T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">67</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">16</value>
+					<value type="int">13</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">8 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain,20/bkn?size=medium</icon>
-				<shortForecast type="str">Patchy Drizzle then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Patchy drizzle before 11am. Mostly cloudy. High near 67, with temperatures falling to around 65 in the afternoon. South wind around 8 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy. High near 67, with temperatures falling to around 65 in the afternoon. South wind around 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -81,11 +81,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">8</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">9 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
+				<windSpeed type="str">7 to 10 mph</windSpeed>
+				<windDirection type="str">SW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 58. South southwest wind around 9 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 58. Southwest wind 7 to 10 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -98,13 +98,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">11</value>
+					<value type="int">15</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
+				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
-				<shortForecast type="str">Partly Sunny</shortForecast>
-				<detailedForecast type="str">Partly sunny. High near 69, with temperatures falling to around 66 in the afternoon. Southwest wind around 6 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn/bkn,20?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy. High near 69, with temperatures falling to around 66 in the afternoon. Southwest wind around 7 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
