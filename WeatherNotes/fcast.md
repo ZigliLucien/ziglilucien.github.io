@@ -6,11 +6,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly cloudy. Low around 61, with temperatures rising to around 63 overnight. South wind 6 to 10 mph.<br></div>
+         <h3>Tonight</h3>Mostly cloudy. Low around 61, with temperatures rising to around 63 overnight. South southwest wind 6 to 12 mph, with gusts
+         as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Mostly sunny. High near 72, with temperatures falling to around 67 in the afternoon. West southwest wind 3 to 10 mph, with
+         <h3>Friday</h3>Partly sunny. High near 72, with temperatures falling to around 67 in the afternoon. West southwest wind 5 to 12 mph, with
          gusts as high as 18 mph.<br></div>
    </p>
    <p>
