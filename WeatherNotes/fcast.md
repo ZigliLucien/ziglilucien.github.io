@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Christmas Day</h3>Partly sunny. High near 71, with temperatures falling to around 68 in the afternoon. South southwest wind around 7 mph.<br></div>
+         <h3>Christmas Day</h3>Mostly cloudy. High near 71, with temperatures falling to around 68 in the afternoon. South southwest wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
