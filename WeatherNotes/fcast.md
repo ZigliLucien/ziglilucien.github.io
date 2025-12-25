@@ -2,19 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy. Low around 59, with temperatures rising to around 61 overnight. Southwest wind around 6 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Christmas Day</h3>Partly sunny. High near 71, with temperatures falling to around 68 in the afternoon. South southwest wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly cloudy. Low around 61, with temperatures rising to around 63 overnight. South wind 6 to 10 mph.<br></div>
+         <h3>Tonight</h3>Mostly cloudy. Low around 61, with temperatures rising to around 63 overnight. South wind 6 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Mostly sunny, with a high near 72. West southwest wind 3 to 10 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Friday</h3>Mostly sunny. High near 72, with temperatures falling to around 67 in the afternoon. West southwest wind 3 to 10 mph, with
+         gusts as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -57,5 +54,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>Mostly sunny, with a high near 42. Southwest wind 6 to 9 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>Partly cloudy, with a low around 24. West wind around 7 mph.<br></div>
    </p>
 </div>
