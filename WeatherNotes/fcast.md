@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Patchy fog before 10am. Mostly cloudy. High near 67, with temperatures falling to around 64 in the afternoon. Southeast wind
-         3 to 8 mph.<br></div>
+         5 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
