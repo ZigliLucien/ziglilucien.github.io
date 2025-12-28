@@ -1,9 +1,9 @@
 <p>
-   <h2>Wind Advisory issued December 28 at 8:28AM CST until December 29 at 6:00AM CST by NWS Paducah KY</h2>
+   <h2>Wind Advisory issued December 28 at 9:21AM CST until December 29 at 6:00AM CST by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...West winds 15 to 25 mph with gusts up to 40 mph expected.
       
-      * WHERE...Portions of southern Illinois, southwest Indiana, and
-      western Kentucky.
+      * WHERE...All of southern Illinois, southeast Missouri, southwest
+      Indiana and western Kentucky.
       
       * WHEN...From 6 PM CST /7 PM EST/ this evening to 6 AM CST /7 AM
       EST/ Monday.
