@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2025-12-30T01:36:18+00:00</generatedAt>
-		<updateTime type="str">2025-12-30T01:11:47+00:00</updateTime>
-		<validTimes type="str">2025-12-29T19:00:00+00:00/P7DT9H</validTimes>
+		<generatedAt type="str">2025-12-30T03:36:04+00:00</generatedAt>
+		<updateTime type="str">2025-12-30T03:11:26+00:00</updateTime>
+		<validTimes type="str">2025-12-29T21:00:00+00:00/P7DT7H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2025-12-29T19:00:00-06:00</startTime>
+				<startTime type="str">2025-12-29T21:00:00-06:00</startTime>
 				<endTime type="str">2025-12-30T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">17</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">0</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">7 to 13 mph</windSpeed>
+				<windSpeed type="str">7 to 10 mph</windSpeed>
 				<windDirection type="str">NW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 17. Northwest wind 7 to 13 mph, with gusts as high as 22 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
+				<shortForecast type="str">Partly Cloudy</shortForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 17. Northwest wind 7 to 10 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
