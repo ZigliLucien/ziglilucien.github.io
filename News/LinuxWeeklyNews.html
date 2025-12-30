@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1052327/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1052241/" title="See Description">Graham: [KDE] Highlights from 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1052236/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1052191/" title="See Description">Kernel prepatch 6.19-rc3</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1051862/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1051773/" title="See Description">Elementary OS 8.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1051010/" title="See Description">[$] A high-memory elimination timeline for the kernel</a></li>
-<li><a href="#https://lwn.net/Articles/1050779/" title="See Description">[$] Verifier-state pruning in BPF</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1052327/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 30 Dec 2025 14:00:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1052327/" title="https://lwn.net/Articles/1052327/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (openjpeg2, osslsigncode, php-dompdf, and python-django), <b>Fedora</b> (fluidsynth, golang-github-alecthomas-chroma-2, golang-github-evanw-esbuild, golang-github-jwt-5, and opentofu), <b>Mageia</b> (ceph and ruby-rack), and <b>SUSE</b> (anubis, apache2-mod_auth_openidc, dpdk22, kernel, libpng16, and python311-openapi-core).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1052241/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 29 Dec 2025 15:48:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -281,27 +289,6 @@ when it could be removed.  It seems that the kernel community will need to
 support 32-bit systems for some time yet, even if it might be possible to
 remove some functionality, including support for large amounts of memory on
 those systems, more quickly.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1050779/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 23 Dec 2025 14:29:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1050779/" title="https://lwn.net/Articles/1050779/">[$] Verifier-state pruning in BPF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The BPF verifier works, on a theoretical level, by considering every possible
-path that a BPF program could take. As a practical matter, however, it needs to
-do that in a reasonable amount of time. At the
-<a href="https://lpc.events/event/19/">
-2025 Linux Plumbers Conference</a>, Mahé Tardy and Paul Chaignon
-gave a detailed explanation
-(<a href="https://lpc.events/event/19/contributions/2162/attachments/1820/3904/LPC25_State_Pruning.pdf">slides</a>;
-<a href="http://www.youtube.com/watch?v=EoEBkFJ3St4">video</a>) of
-the main mechanism that it uses to accomplish that: state pruning. They focused
-on two optimizations that help reduce the number of paths the verifier needs to
-check, and discussed some of the complications the optimizations introduced to the verifier's
-code.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
