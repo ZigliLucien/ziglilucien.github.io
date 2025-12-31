@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1052435/" title="See Description">Shadow-utils 4.19.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1052425/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1052355/" title="See Description">Stenberg: No strcpy either</a></li>
 <li><a href="#https://lwn.net/Articles/1052327/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,54 @@
 <li><a href="#https://lwn.net/Articles/1051064/" title="See Description">[$] LWN.net Weekly Edition for December 25, 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1051230/" title="See Description">[$] A 2025 retrospective</a></li>
 <li><a href="#https://lwn.net/Articles/1051235/" title="See Description">[$] What's new in systemd v259</a></li>
-<li><a href="#https://lwn.net/Articles/1051862/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1052435/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 31 Dec 2025 15:43:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1052435/" title="https://lwn.net/Articles/1052435/">Shadow-utils 4.19.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://github.com/shadow-maint/shadow/releases/tag/4.19.0">Version
+4.19.0</a> of the <a
+href="https://github.com/shadow-maint/shadow?tab=readme-ov-file#shadow-utils">shadow-utils</a>
+project has been released. Notable changes in this release include
+<a
+href="https://github.com/shadow-maint/shadow/commit/25aea74226152305e43213372bb26057698b0a90">disallowing
+some usernames that were previously accepted</a> with the
+<tt>--badname</tt> option, and <a
+href="https://github.com/shadow-maint/shadow/commit/b0a7ce58b924b04101a3a19f9f28673f578d7cce">removing
+support for escaped newlines</a> in configuration files. Possibly more
+interesting is the announcement that the project is deprecating a
+number of programs, hashing algorithms, and the ability to
+periodically expire passwords:</p>
+
+<blockquote class="bq">
+<p>Scientific research shows that periodic password expiration
+leads to predictable password patterns, and that even in a
+theoretical scenario where that wouldn't happen the gains in
+security are mathematically negligible (<a
+href="https://people.scs.carleton.ca/~paulv/papers/expiration-authorcopy.pdf">paper
+link</a>).</p>
+
+<p>Modern security standards, such as NIST SP 800-63B-4 in the USA,
+prohibit periodic password expiration. [...]</p>
+
+<p>To align with these, we're deprecating the ability to
+periodically expire passwords. The specifics and long-term
+roadmap are currently being discussed, and we invite feedback
+from users, particularly from those in regulated environments.
+See <a
+href="https://github.com/shadow-maint/shadow/pull/1432">#1432</a>.</p>
+</blockquote>
+
+<p>The release announcement notes that the features will remain
+functional "<q>for a significant period</q>" to minimize
+disruption.</p>
+
+<p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1052425/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 31 Dec 2025 14:04:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -279,14 +324,6 @@ href="https://man7.org/linux/man-pages/man3/dlopen.3.html"><tt>dlopen()</tt></a>
 for library linking, the ability to compile systemd with <a
 href="https://musl.libc.org/">musl libc</a>,
 and more.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1051862/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 24 Dec 2025 14:04:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051862/" title="https://lwn.net/Articles/1051862/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, grafana, opentelemetry-collector, and thunderbird), <b>Red Hat</b> (kernel), and <b>SUSE</b> (cheat, libsoup, mariadb, mozjs52, python310, python315, qemu, rsync, and zk).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
