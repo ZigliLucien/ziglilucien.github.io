@@ -2,19 +2,20 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear, with a low around 28. West wind around 5 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear. Low around 27, with temperatures rising to around 30 overnight. Southwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>New Year's Day</h3>Partly sunny. High near 42, with temperatures falling to around 39 in the afternoon. North northeast wind 1 to 5 mph.<br></div>
+         <h3>New Year's Day</h3>Mostly sunny. High near 42, with temperatures falling to around 38 in the afternoon. North northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly cloudy, with a low around 30. East northeast wind around 2 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly cloudy, with a low around 30. Northeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Cloudy, with a high near 44. East northeast wind 2 to 6 mph.<br></div>
+         <h3>Friday</h3>A slight chance of rain after 5pm. Cloudy, with a high near 45. East northeast wind 2 to 6 mph. Chance of precipitation is
+         20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
