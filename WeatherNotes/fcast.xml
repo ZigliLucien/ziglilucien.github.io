@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-01T16:36:04+00:00</generatedAt>
-		<updateTime type="str">2026-01-01T14:52:09+00:00</updateTime>
-		<validTimes type="str">2026-01-01T08:00:00+00:00/P7DT17H</validTimes>
+		<generatedAt type="str">2026-01-01T17:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-01-01T16:31:51+00:00</updateTime>
+		<validTimes type="str">2026-01-01T10:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">New Year's Day</name>
-				<startTime type="str">2026-01-01T10:00:00-06:00</startTime>
+				<startTime type="str">2026-01-01T11:00:00-06:00</startTime>
 				<endTime type="str">2026-01-01T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">42</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">1</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 mph</windSpeed>
+				<windSpeed type="str">1 to 5 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny. High near 42, with temperatures falling to around 38 in the afternoon. North northeast wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny. High near 42, with temperatures falling to around 38 in the afternoon. North northeast wind 1 to 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,13 +79,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">0</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">NE</windDirection>
+				<windSpeed type="str">2 mph</windSpeed>
+				<windDirection type="str">NNE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 30. Northeast wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 30. North northeast wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -100,11 +100,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">15</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 6 mph</windSpeed>
+				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">ENE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/ovc/rain,20?size=medium</icon>
 				<shortForecast type="str">Cloudy then Slight Chance Light Rain</shortForecast>
-				<detailedForecast type="str">A slight chance of rain after 5pm. Cloudy. High near 44, with temperatures falling to around 42 in the afternoon. East northeast wind 2 to 6 mph. Chance of precipitation is 20%.</detailedForecast>
+				<detailedForecast type="str">A slight chance of rain after 5pm. Cloudy. High near 44, with temperatures falling to around 42 in the afternoon. East northeast wind around 6 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
