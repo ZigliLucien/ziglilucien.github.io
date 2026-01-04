@@ -6,15 +6,15 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Mostly sunny. High near 42, with temperatures falling to around 39 in the afternoon. East wind around 3 mph.<br></div>
+         <h3>Sunday</h3>Mostly sunny. High near 42, with temperatures falling to around 39 in the afternoon. East wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Partly cloudy, with a low around 33. South wind 3 to 7 mph.<br></div>
+         <h3>Sunday Night</h3>Partly cloudy, with a low around 33. South wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny, with a high near 55. South southwest wind around 9 mph.<br></div>
+         <h3>Monday</h3>Sunny, with a high near 55. South southwest wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
