@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Partly sunny. High near 44, with temperatures falling to around 42 in the afternoon. Southeast wind around 3 mph.<br></div>
+         <h3>This Afternoon</h3>Partly sunny. High near 44, with temperatures falling to around 42 in the afternoon. South southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -30,24 +30,24 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain after midnight. Mostly cloudy, with a low around 48. South wind around 7 mph.<br></div>
+         <h3>Wednesday Night</h3>A chance of rain showers after midnight. Mostly cloudy, with a low around 48. South wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Rain likely. Mostly cloudy, with a high near 61. South southwest wind around 9 mph.<br></div>
+         <h3>Thursday</h3>Rain showers likely. Mostly cloudy, with a high near 61. South southwest wind around 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Rain likely. Mostly cloudy, with a low around 47. South southwest wind around 9 mph.<br></div>
+         <h3>Thursday Night</h3>Rain showers likely. Mostly cloudy, with a low around 47. South southwest wind around 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of rain and a slight chance of thunderstorms before noon, then a slight chance of thunderstorms and a slight chance
-         of rain. Mostly sunny, with a high near 57. Southwest wind around 10 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Friday</h3>A chance of showers and thunderstorms before noon, then a slight chance of showers and thunderstorms. Mostly sunny, with a
+         high near 57. Southwest wind around 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A slight chance of rain before midnight. Partly cloudy, with a low around 36. West wind around 9 mph.<br></div>
+         <h3>Friday Night</h3>A slight chance of rain showers before midnight. Partly cloudy, with a low around 36. West wind around 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
