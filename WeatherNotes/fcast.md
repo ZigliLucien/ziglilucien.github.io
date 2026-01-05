@@ -2,20 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Clear, with a low around 30. South southwest wind around 6 mph.<br></div>
+         <h3>Today</h3>Mostly sunny. High near 57, with temperatures falling to around 54 in the afternoon. South southwest wind 7 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny. High near 57, with temperatures falling to around 54 in the afternoon. South southwest wind 7 to 10 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Monday Night</h3>Partly cloudy. Low around 48, with temperatures rising to around 50 overnight. South wind 9 to 13 mph, with gusts as high
+         <h3>Tonight</h3>Partly cloudy. Low around 48, with temperatures rising to around 50 overnight. South wind 9 to 13 mph, with gusts as high
          as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Mostly sunny, with a high near 64. West southwest wind 5 to 12 mph, with gusts as high as 21 mph.<br></div>
+         <h3>Tuesday</h3>Mostly sunny. High near 64, with temperatures falling to around 60 in the afternoon. West southwest wind 5 to 12 mph, with
+         gusts as high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -27,7 +24,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain showers after midnight. Mostly cloudy, with a low around 48. South wind around 7 mph.<br></div>
+         <h3>Wednesday Night</h3>A chance of rain showers after midnight. Mostly cloudy, with a low around 48. South wind around 7 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -57,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>Sunny, with a high near 40. Northwest wind 5 to 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Sunday Night</h3>Mostly clear, with a low around 26. West wind around 5 mph.<br></div>
    </p>
 </div>
