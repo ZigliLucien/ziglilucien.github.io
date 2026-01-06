@@ -12,7 +12,7 @@
 	<atom:link href="https://www.raspberrypi.org/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.raspberrypi.org/</link>
 	<description>Teach, learn and make with Raspberry Pi</description>
-	<lastBuildDate>Thu, 18 Dec 2025 10:41:31 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 06 Jan 2026 10:20:24 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,163 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>A research-led framework for teaching about models in AI and data science</title>
+		<link>https://www.raspberrypi.org/blog/a-research-led-framework-for-teaching-about-models-in-ai-and-data-science/</link>
+					<comments>https://www.raspberrypi.org/blog/a-research-led-framework-for-teaching-about-models-in-ai-and-data-science/#respond</comments>
+		
+		<dc:creator><![CDATA[Manni Cheung]]></dc:creator>
+		<pubDate>Tue, 06 Jan 2026 10:20:23 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[AI literacy]]></category>
+		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92175</guid>
+
+					<description><![CDATA[<p>Research indicates that teaching learners to use and create with data-driven technologies such as AI and machine learning (ML) requires an entirely different approach for solving problems compared to traditional programming activities. In this blog, we share the new data paradigms framework that we have developed through research and used to help improve our understanding&#8230;</p>
+<p>The post <a href="https://www.raspberrypi.org/blog/a-research-led-framework-for-teaching-about-models-in-ai-and-data-science/">A research-led framework for teaching about models in AI and data science</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Research indicates that teaching learners to use and create with data-driven technologies such as AI and machine learning (ML) requires an entirely different approach for solving problems <a href="https://www.raspberrypi.org/blog/machine-learning-education-school-computational-thinking-2-0-research-seminar/">compared to traditional programming activities</a>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img fetchpriority="high" decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2023/11/NCCE-Enfeild-Primary-37-500x333.jpg" alt="Learner in a computing classroom." class="wp-image-85484" srcset="https://www.raspberrypi.org/app/uploads/2023/11/NCCE-Enfeild-Primary-37-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2023/11/NCCE-Enfeild-Primary-37-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2023/11/NCCE-Enfeild-Primary-37-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2023/11/NCCE-Enfeild-Primary-37-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2023/11/NCCE-Enfeild-Primary-37-2048x1365.jpg 2048w, https://www.raspberrypi.org/app/uploads/2023/11/NCCE-Enfeild-Primary-37-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2023/11/NCCE-Enfeild-Primary-37-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2023/11/NCCE-Enfeild-Primary-37-900x600.jpg 900w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
+</div>
+
+
+<p>In this blog, we share the new <strong>data paradigms framework</strong> that we have developed through research and used to help improve our understanding about how to teach and learn about AI and data science. We also invite you to register your interest in participating in our next collaborative study on the topic.</p>
+
+
+
+<h2 class="wp-block-heading">Knowledge-based approaches to systems design</h2>
+
+
+
+<p>Let&#8217;s start by highlighting an important distinction between different approaches to designing systems. In a <strong>knowledge-based</strong> approach to system design, a set of rules (e.g., if-then statements) are written for the system to execute. Every rule is explicitly defined. This approach is called &#8216;rule-based&#8217;, &#8216;symbolic&#8217;, or &#8216;logic-based&#8217;. For example, a developer could create a program that simulates dialogue by writing specific lines of code to handle a greeting, such as “IF user says &#8220;Hello&#8221; THEN output &#8220;Hi!&#8221;. If the user types &#8220;Greetings!&#8221; instead, the program fails because it has no rule for that specific word. </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" width="1000" height="651" src="https://www.raspberrypi.org/app/uploads/2025/03/ATHENS_CODE_CLUB_025.jpg" alt="An educator helps students with a coding task." class="wp-image-89708" style="width:700px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/03/ATHENS_CODE_CLUB_025.jpg 1000w, https://www.raspberrypi.org/app/uploads/2025/03/ATHENS_CODE_CLUB_025-300x195.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/03/ATHENS_CODE_CLUB_025-500x326.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/03/ATHENS_CODE_CLUB_025-768x500.jpg 768w, https://www.raspberrypi.org/app/uploads/2025/03/ATHENS_CODE_CLUB_025-800x521.jpg 800w, https://www.raspberrypi.org/app/uploads/2025/03/ATHENS_CODE_CLUB_025-450x293.jpg 450w, https://www.raspberrypi.org/app/uploads/2025/03/ATHENS_CODE_CLUB_025-900x586.jpg 900w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</div>
+
+
+<p>Knowledge-based models are often said to be explainable by design. This means the logic is accessible and interpretable and developers can trace the exact steps taken to produce an output. For example, if developers manually classify restaurant reviews as positive or negative using a pre-defined set of criteria, the rules their restaurant classifying system follows are entirely explicit, and the path from input to output is clear and explainable.</p>
+
+
+
+<h2 class="wp-block-heading">Data-driven approaches to systems design</h2>
+
+
+
+<p>By contrast, in a <strong>data-driven</strong> approach to system design developers do not write specific rules. Instead, they collect lots of data and train a model. In the dialogue simulator example, they would collect hundreds of examples of greetings and train a model to the pattern of a greeting. If the user types &#8220;Greetings!&#8221;, the system generates a response based on the patterns in its training data.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" width="1080" height="1080" src="https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36.png" alt="Photo focused on a young person working on a computer in a classroom." class="wp-image-89304" style="width:577px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36.png 1080w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-250x250.png 250w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-500x500.png 500w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-150x150.png 150w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-768x768.png 768w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-800x800.png 800w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-100x100.png 100w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-300x300.png 300w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-450x450.png 450w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-900x900.png 900w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-400x400.png 400w, https://www.raspberrypi.org/app/uploads/2025/01/Untitled-design-36-600x600.png 600w" sizes="(max-width: 1080px) 100vw, 1080px" /></figure>
+</div>
+
+
+<p>Data-driven models are often opaque. In other words, the internal workings of these ML models are hidden. While we can see our input and the system&#8217;s output, the internal mathematical process is so complex — often involving layers of calculations and abstractions — that we cannot simply “explain” why a specific output was produced. For example, developers can create a classification model by training a neural network using thousands of images. Due to the large quantity of data used to train the model, and complex internal parameters and hidden layers, developers and users of the system cannot understand or explain the logic or features that lead to a specific output. These kinds of models are often referred to as a “black box” (as opposed to a “glass” or “clear” box).</p>
+
+
+
+<h2 class="wp-block-heading">Comparing knowledge-based and data-driven approaches</h2>
+
+
+
+<p>Researchers have argued that the move from knowledge-based (or rule-based) programming to data-driven system design represents a paradigm shift and creates unique challenges for educators. The challenge is helping students shift from the expectation that a system produces a single &#8216;right&#8217; answer — characteristic of traditional rule-based programming — toward an understanding that systems trained on large quantities of data produce outcomes that aren&#8217;t always fixed or explainable. If the current instruction in the classroom still relies heavily on traditional rule-based programming approaches, we might be setting students up for misconceptions.</p>
+
+
+
+<h2 class="wp-block-heading">Data paradigms: A framework for analysing data science education approaches</h2>
+
+
+
+<p>In our <a href="https://computingeducationresearch.org/projects/data-science-project/" target="_blank" rel="noreferrer noopener">research work on AI and data science at the Raspberry Pi Computing Education Research Centre</a>, we analysed 84 research studies about the teaching and learning of data science. We categorised learning activities used in the studies to understand whether they were (i) knowledge-based or data-driven, and (ii) the extent to which the underlying models used were transparent or opaque. This led us to define four distinct <strong>data paradigms</strong>:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="1999" height="1031" src="https://www.raspberrypi.org/app/uploads/2026/01/image1.png" alt="The data paradigms framework" class="wp-image-92176" srcset="https://www.raspberrypi.org/app/uploads/2026/01/image1.png 1999w, https://www.raspberrypi.org/app/uploads/2026/01/image1-300x155.png 300w, https://www.raspberrypi.org/app/uploads/2026/01/image1-500x258.png 500w, https://www.raspberrypi.org/app/uploads/2026/01/image1-768x396.png 768w, https://www.raspberrypi.org/app/uploads/2026/01/image1-1536x792.png 1536w, https://www.raspberrypi.org/app/uploads/2026/01/image1-800x413.png 800w, https://www.raspberrypi.org/app/uploads/2026/01/image1-450x232.png 450w, https://www.raspberrypi.org/app/uploads/2026/01/image1-900x464.png 900w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption class="wp-element-caption">The data paradigms framework</figcaption></figure>
+</div>
+
+
+<ol class="wp-block-list">
+<li><strong>Knowledge-based and transparent (KB + T): </strong>Activities in this paradigm are ones where students write rules for systems, or work with systems that use rules, where the logic is fully explainable by design. For example, if students manually classify data (e.g. creating simple &#8216;if-then&#8217; statements to predict an outcome), the path from input to output is clear.</li>
+
+
+
+<li><strong>Data-driven + Transparent (DD + T): </strong>In this paradigm, activities involve students working with models trained on data, but the trained model&#8217;s logic remains explainable and interpretable. For example these could be models using k-nearest neighbors (KNN) algorithm to group data points based on proximity, or using linear regression to predict a trend. Even though the model produces an output, the student can look at the inner workings of the model and see how the decision is made.</li>
+
+
+
+<li><strong>Data-driven + Opaque (DD + O): </strong>This paradigm&#8217;s activities require students to work with data-driven ML models where the models&#8217; internal logic is hidden, for example an image classification model using a type of neural network (e.g. CNN). The model produces an output (e.g. classifying an image as &#8216;This is a dog&#8217;), but the student cannot inspect the system to find a rule or clear path explaining why that specific output was produced. To understand these systems, it&#8217;s necessary to use additional testing and evaluation tools.</li>
+
+
+
+<li><strong>Knowledge-based + Opaque (KB + O): </strong>Activities in this paradigm would involve systems with human-written rules that are not explainable. In our review of K–12 activities, we found no examples of activities within this paradigm.</li>
+</ol>
+
+
+
+<p>The data paradigms framework helps us to distinguish between different kinds of modeling activities students take part in and how instructional approaches could be classified across one or more paradigms. For instance, we found that most data-driven activities were also opaque (<strong>DD + O</strong>), usually meaning that students collected and used data to train a model, but how the system worked was opaque. This pattern, where the data is visible but the model is not explainable, risks students forming misconceptions about the capabilities and limitations of data-driven systems. Without understanding how outputs are generated, students may expect data-driven ML systems to operate like fully explainable (or transparent) ones.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="560" height="373" src="https://www.raspberrypi.org/app/uploads/2023/07/Hills-Road-Dojo_Low-res_22-01-23-24.jpg" alt="Learners at a Code Club." class="wp-image-84606" style="width:698px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2023/07/Hills-Road-Dojo_Low-res_22-01-23-24.jpg 560w, https://www.raspberrypi.org/app/uploads/2023/07/Hills-Road-Dojo_Low-res_22-01-23-24-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2023/07/Hills-Road-Dojo_Low-res_22-01-23-24-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2023/07/Hills-Road-Dojo_Low-res_22-01-23-24-450x300.jpg 450w" sizes="auto, (max-width: 560px) 100vw, 560px" /></figure>
+</div>
+
+
+<p>We think that lessons are needed in the data-driven opaque (DD + O) quadrant to explicitly teach students about how data-driven systems work and the role they play in everyday contexts. However, when teaching data-driven opaque (DD + O) activities, learners&#8217; attention needs to be directed to concepts such as model confidence, data quality, and model evaluation. Since an ML model is not inherently explainable, we need to teach students to use post-hoc explanation methods, such as testing different inputs to see how a system&#8217;s output changes. To prepare students for this learning experience, we think that first introducing activities about rule-based systems (knowledge-based + transparent; <strong>KB + T</strong>) or simple data exploration, such as linear regression or data visualisation (data-driven + transparent; <strong>DD + T</strong>) may serve as a ‘bridge’ to understanding data-driven modeling by helping students to distinguish between systems built from specific logical rules and systems trained on data.</p>
+
+
+
+<p>We believe the idea of data paradigms can serve as a way of framing teaching activities about data science and help educators and students to consider the transition between different paradigms when engaging with the systems we interact with every day.</p>
+
+
+
+<h2 class="wp-block-heading">Teachers in England, participate in our new study</h2>
+
+
+
+<p>We’re launching a new study to explore how to teach learners aged 9 to 11 about data-driven computing. The study will take place in collaboration with <strong>upper key stage 2 teachers in England </strong>and look at:</p>
+
+
+
+<ul class="wp-block-list">
+<li>What key ideas pupils need to understand</li>
+
+
+
+<li>How teachers currently approach topics related to data-driven computing</li>
+
+
+
+<li>How pupils make sense of data and probability</li>
+</ul>
+
+
+
+<p>Our goal is to find practical ways to help teachers build children’s confidence in working with data in computing lessons. The study will be collaborative, with two workshops held throughout 2026, and we’re inviting upper KS2 teachers in England to take part.</p>
+
+
+
+<p>You can express your interest in participating by filling in this form:</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://rpf.io/data-science-study-2026-registration">Register your interest</a></div>
+</div>
+<p>The post <a href="https://www.raspberrypi.org/blog/a-research-led-framework-for-teaching-about-models-in-ai-and-data-science/">A research-led framework for teaching about models in AI and data science</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.raspberrypi.org/blog/a-research-led-framework-for-teaching-about-models-in-ai-and-data-science/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title> Introducing our new &#8216;Programming with AI&#8217; unit</title>
 		<link>https://www.raspberrypi.org/blog/introducing-our-new-programming-with-ai-unit/</link>
 					<comments>https://www.raspberrypi.org/blog/introducing-our-new-programming-with-ai-unit/#comments</comments>
@@ -35,11 +192,11 @@
 		<dc:creator><![CDATA[Rajib Sarkar]]></dc:creator>
 		<pubDate>Thu, 18 Dec 2025 10:41:31 +0000</pubDate>
 				<category><![CDATA[Education]]></category>
-		<category><![CDATA[programming with AI]]></category>
-		<category><![CDATA[computing education]]></category>
 		<category><![CDATA[AI literacy]]></category>
 		<category><![CDATA[Telangana]]></category>
 		<category><![CDATA[programming education]]></category>
+		<category><![CDATA[programming with AI]]></category>
+		<category><![CDATA[computing education]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92115</guid>
 
 					<description><![CDATA[<p>In the age of AI, we believe kids still need to learn to code. We&#8217;re also testing how AI tools can be used to help with teaching and learning programming. This blog dives into our new classroom unit ‘Programming with AI’, which we&#8217;ve developed for teachers to introduce students to learning to code using tools&#8230;</p>
@@ -50,7 +207,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img fetchpriority="high" decoding="async" width="1999" height="1125" src="https://www.raspberrypi.org/app/uploads/2025/12/image4-1.jpg" alt="Students completing activities from lesson 1" class="wp-image-92116" style="width:756px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/12/image4-1.jpg 1999w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-300x169.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-500x281.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-768x432.jpg 768w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-1536x864.jpg 1536w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-800x450.jpg 800w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-450x253.jpg 450w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-900x507.jpg 900w" sizes="(max-width: 1999px) 100vw, 1999px" /><figcaption class="wp-element-caption">Students completing activities from lesson 1</figcaption></figure>
+<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="1999" height="1125" src="https://www.raspberrypi.org/app/uploads/2025/12/image4-1.jpg" alt="Students completing activities from lesson 1" class="wp-image-92116" style="width:756px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/12/image4-1.jpg 1999w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-300x169.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-500x281.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-768x432.jpg 768w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-1536x864.jpg 1536w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-800x450.jpg 800w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-450x253.jpg 450w, https://www.raspberrypi.org/app/uploads/2025/12/image4-1-900x507.jpg 900w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption class="wp-element-caption">Students completing activities from lesson 1</figcaption></figure>
 </div>
 
 
@@ -66,7 +223,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-500x333.jpg" alt="A group of male students at the Coding Academy in Telangana." class="wp-image-85231" srcset="https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-2048x1365.jpg 2048w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-900x600.jpg 900w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-500x333.jpg" alt="A group of male students at the Coding Academy in Telangana." class="wp-image-85231" srcset="https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-2048x1365.jpg 2048w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2023/10/YP7_1955-900x600.jpg 900w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure>
 </div>
 
 
@@ -100,7 +257,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full"><img decoding="async" width="1608" height="350" src="https://www.raspberrypi.org/app/uploads/2025/12/image6.png" alt="Comparison of Python syntax with equivalent Scratch block" class="wp-image-92117" srcset="https://www.raspberrypi.org/app/uploads/2025/12/image6.png 1608w, https://www.raspberrypi.org/app/uploads/2025/12/image6-300x65.png 300w, https://www.raspberrypi.org/app/uploads/2025/12/image6-500x109.png 500w, https://www.raspberrypi.org/app/uploads/2025/12/image6-768x167.png 768w, https://www.raspberrypi.org/app/uploads/2025/12/image6-1536x334.png 1536w, https://www.raspberrypi.org/app/uploads/2025/12/image6-800x174.png 800w, https://www.raspberrypi.org/app/uploads/2025/12/image6-450x98.png 450w, https://www.raspberrypi.org/app/uploads/2025/12/image6-900x196.png 900w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption class="wp-element-caption">Comparison of Python syntax with equivalent Scratch block</figcaption></figure>
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="1608" height="350" src="https://www.raspberrypi.org/app/uploads/2025/12/image6.png" alt="Comparison of Python syntax with equivalent Scratch block" class="wp-image-92117" srcset="https://www.raspberrypi.org/app/uploads/2025/12/image6.png 1608w, https://www.raspberrypi.org/app/uploads/2025/12/image6-300x65.png 300w, https://www.raspberrypi.org/app/uploads/2025/12/image6-500x109.png 500w, https://www.raspberrypi.org/app/uploads/2025/12/image6-768x167.png 768w, https://www.raspberrypi.org/app/uploads/2025/12/image6-1536x334.png 1536w, https://www.raspberrypi.org/app/uploads/2025/12/image6-800x174.png 800w, https://www.raspberrypi.org/app/uploads/2025/12/image6-450x98.png 450w, https://www.raspberrypi.org/app/uploads/2025/12/image6-900x196.png 900w" sizes="auto, (max-width: 1608px) 100vw, 1608px" /><figcaption class="wp-element-caption">Comparison of Python syntax with equivalent Scratch block</figcaption></figure>
 </div>
 
 
@@ -219,11 +376,11 @@
 		<dc:creator><![CDATA[Fergus Kirkpatrick]]></dc:creator>
 		<pubDate>Wed, 17 Dec 2025 12:15:44 +0000</pubDate>
 				<category><![CDATA[Astro Pi]]></category>
+		<category><![CDATA[astro pi]]></category>
+		<category><![CDATA[coding]]></category>
 		<category><![CDATA[Mission Zero]]></category>
 		<category><![CDATA[european astro pi challenge]]></category>
 		<category><![CDATA[10th anniversary]]></category>
-		<category><![CDATA[astro pi]]></category>
-		<category><![CDATA[coding]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92095</guid>
 
 					<description><![CDATA[<p>Today, we are marking the 10th anniversary of the European Astro Pi Challenge. At 11:03 on 15 December 2015, former ESA Astronaut Tim Peake launched from Baikonur cosmodrome in Kazakhstan on a Soyuz rocket as part of his UK Space agency ‘Principia’ mission to the International Space Station (ISS). Two Raspberry Pi-powered Astro Pi Mark&#8230;</p>
@@ -551,9 +708,9 @@
 		<dc:creator><![CDATA[Sarah Lygoe]]></dc:creator>
 		<pubDate>Mon, 15 Dec 2025 14:25:26 +0000</pubDate>
 				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Community stories]]></category>
 		<category><![CDATA[young creators]]></category>
 		<category><![CDATA[Code Club]]></category>
-		<category><![CDATA[Community stories]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92042</guid>
 
 					<description><![CDATA[<p>Two remarkable teenagers from Pune in the state of Maharashtra, India — Jayantika (age 16) and Ruturaj (age 14) — have turned curiosity into community impact. With support from the Bidkar Foundation and the Raspberry Pi Foundation, they now help run five Code Clubs, reaching over 200 young people in rural areas of Pune. Along&#8230;</p>
@@ -961,9 +1118,9 @@
 		<dc:creator><![CDATA[Sarah Lygoe]]></dc:creator>
 		<pubDate>Thu, 11 Dec 2025 09:31:30 +0000</pubDate>
 				<category><![CDATA[Community]]></category>
-		<category><![CDATA[Young Innovators]]></category>
 		<category><![CDATA[Community stories]]></category>
 		<category><![CDATA[Coolest Projects UK]]></category>
+		<category><![CDATA[Young Innovators]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92003</guid>
 
 					<description><![CDATA[<p>We love hearing from members of the community and sharing the stories of amazing young people, volunteers, and educators who are using their passion for technology to create positive change in the world around them. In our latest story, we’re meeting a group of inspiring young innovators from Belfast — Michelle, 15, Inilouwa, 18, Jedidiah,&#8230;</p>
@@ -1223,10 +1380,10 @@
 		<pubDate>Tue, 18 Nov 2025 09:29:56 +0000</pubDate>
 				<category><![CDATA[Events]]></category>
 		<category><![CDATA[Code Club]]></category>
-		<category><![CDATA[machine learning]]></category>
 		<category><![CDATA[AI literacy]]></category>
 		<category><![CDATA[Clubs Conference]]></category>
 		<category><![CDATA[Code Club Conference]]></category>
+		<category><![CDATA[machine learning]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=91937</guid>
 
 					<description><![CDATA[<p>Over the first weekend in November, members of the global Code Club community came together for two inspiring days of learning, creativity and connection. The annual event celebrates the people who make Code Clubs happen, allowing them to share ideas, explore new tools, and connect with others who help young people learn to code. Exploring&#8230;</p>
@@ -1406,11 +1563,11 @@
 		<dc:creator><![CDATA[Jaskaran Singh]]></dc:creator>
 		<pubDate>Thu, 13 Nov 2025 15:15:19 +0000</pubDate>
 				<category><![CDATA[Astro Pi]]></category>
-		<category><![CDATA[Impact of our work]]></category>
-		<category><![CDATA[astro pi]]></category>
 		<category><![CDATA[Mission Space Lab]]></category>
 		<category><![CDATA[Mission Zero]]></category>
 		<category><![CDATA[european astro pi challenge]]></category>
+		<category><![CDATA[Impact of our work]]></category>
+		<category><![CDATA[astro pi]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=91908</guid>
 
 					<description><![CDATA[<p>The European Astro Pi Challenge is a collaboration between ESA, the national European Space Education Resource Offices, and the Raspberry Pi Foundation. The 2025/26 challenge, which is currently open for registration, marks 10 years of incredible opportunities for young people to send their code into space. In this blog post, we are pleased to share&#8230;</p>
@@ -1527,122 +1684,6 @@
 					
 					<wfw:commentRss>https://www.raspberrypi.org/blog/astro-pi-debunking-myths-space-science-impact-24-25/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Designing for every learner in every classroom</title>
-		<link>https://www.raspberrypi.org/blog/designing-for-every-learner-in-every-classroom/</link>
-					<comments>https://www.raspberrypi.org/blog/designing-for-every-learner-in-every-classroom/#respond</comments>
-		
-		<dc:creator><![CDATA[Rachel Arthur]]></dc:creator>
-		<pubDate>Tue, 11 Nov 2025 09:25:35 +0000</pubDate>
-				<category><![CDATA[Education]]></category>
-		<category><![CDATA[computer science]]></category>
-		<category><![CDATA[Raspberry Pi Foundation]]></category>
-		<category><![CDATA[CSEd]]></category>
-		<category><![CDATA[educational for all]]></category>
-		<category><![CDATA[STEM]]></category>
-		<guid isPermaLink="false">https://www.raspberrypi.org/?p=91857</guid>
-
-					<description><![CDATA[<p>One of the things I love most about my role as Chief Learning Officer at the Raspberry Pi Foundation is hearing from teachers around the world. A teacher in Kenya told me how their students debugged their first programming projects on a shared laptop. In Scotland, another explained how our resources gave them the confidence&#8230;</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/designing-for-every-learner-in-every-classroom/">Designing for every learner in every classroom</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p>One of the things I love most about my role as Chief Learning Officer at the Raspberry Pi Foundation is hearing from teachers around the world. A teacher in Kenya told me how their students debugged their first programming projects on a shared laptop. In Scotland, another explained how our resources gave them the confidence to teach computing for the very first time. These stories remind me daily why our work matters: <strong>every young person, no matter where they live, should have the chance to explore the power of computing.</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-blog-entry is-resized"><img loading="lazy" decoding="async" width="800" height="534" src="https://www.raspberrypi.org/app/uploads/2025/08/DSC_6563-800x534.jpg" alt="Young people use laptops to do their coding tasks." class="wp-image-91250" style="width:631px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/08/DSC_6563-800x534.jpg 800w, https://www.raspberrypi.org/app/uploads/2025/08/DSC_6563-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/08/DSC_6563-500x334.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/08/DSC_6563-768x513.jpg 768w, https://www.raspberrypi.org/app/uploads/2025/08/DSC_6563-450x301.jpg 450w, https://www.raspberrypi.org/app/uploads/2025/08/DSC_6563-900x601.jpg 900w, https://www.raspberrypi.org/app/uploads/2025/08/DSC_6563.jpg 1000w" sizes="auto, (max-width: 800px) 100vw, 800px" /></figure>
-</div>
-
-
-<p>But creating resources that work in such different contexts is not easy. How do we design materials that work in a wide range of learning environments, from a bustling city classroom to a rural school where internet access can vary? How do we make sure that every learner sees themselves reflected in the examples we choose?</p>
-
-
-
-<p>That’s where our <strong>teaching and learning design principles</strong> come in.</p>
-
-
-
-<h2 class="wp-block-heading"><strong>What makes our approach different</strong></h2>
-
-
-
-<p>Over the past decade, we’ve learned a huge amount about what teachers and learners need from us. We’ve made mistakes, we’ve listened, and we’ve refined our practice again and again. The result is a set of design principles that guide the creation of everything we make, from full curricula to one-off projects.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-blog-entry is-resized"><img loading="lazy" decoding="async" width="800" height="533" src="https://www.raspberrypi.org/app/uploads/2025/09/YP7_1955-1536x1024-1-800x533.jpg" alt="Four students at laptops in a school in India." class="wp-image-91402" style="width:711px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/09/YP7_1955-1536x1024-1-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2025/09/YP7_1955-1536x1024-1-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/09/YP7_1955-1536x1024-1-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/09/YP7_1955-1536x1024-1-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2025/09/YP7_1955-1536x1024-1-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2025/09/YP7_1955-1536x1024-1-900x600.jpg 900w, https://www.raspberrypi.org/app/uploads/2025/09/YP7_1955-1536x1024-1.jpg 1536w" sizes="auto, (max-width: 800px) 100vw, 800px" /></figure>
-</div>
-
-
-<p>These principles are practical and based on real classroom experience. They’re our way of making sure our resources are reliable, inspiring, and flexible, wherever and however teachers use them.</p>
-
-
-
-<p>Here’s what that looks like in action:</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>High quality</strong> – You can trust our resources to be accurate and classroom-ready. We put every piece of content through rigorous checks because we understand how busy you are.<br></li>
-
-
-
-<li><strong>Research-informed</strong> – Our choices are grounded in evidence, not guesswork. We blend academic studies with insight from teachers like you and our own evaluations to create approaches that genuinely work.<br></li>
-
-
-
-<li><strong>Consistent</strong> – We design our materials to fit together, so learners can build skills step by step, without confusion or contradiction along the way.<br></li>
-
-
-
-<li><strong>Inclusive by design</strong> – We think carefully about accessibility, representation, and language right from the start. When young people see themselves reflected in computing, they see it as a future they can be a part of.<br></li>
-
-
-
-<li><strong>Adaptable</strong> – No two classrooms are the same. By making our resources editable and flexible, we give you the freedom to shape them for your learners.</li>
-</ul>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://s3.eu-west-2.amazonaws.com/static.raspberrypi.org/files/curriculum/reports/Teaching+and+learning+design+principles+%E2%80%93%C2%A0Raspberry+Pi+Foundation.pdf">Read the full set of design principles (PDF)</a></div>
-</div>
-
-
-
-<h2 class="wp-block-heading"><strong>Why share these design principles now?</strong></h2>
-
-
-
-<p>For us, being transparent about our approach is about trust. Teachers make daily decisions about which resources to use, often with limited preparation time. By showing you the principles behind our work, we want to give you the confidence that our content is not only free and adaptable, but also designed with care, expertise, and your learners at the heart.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-blog-entry is-resized"><img loading="lazy" decoding="async" width="800" height="534" src="https://www.raspberrypi.org/app/uploads/2025/06/IMG_2854-800x534.jpg" alt="Educators participate in a teacher training in Kenya." class="wp-image-90687" style="width:775px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2025/06/IMG_2854-800x534.jpg 800w, https://www.raspberrypi.org/app/uploads/2025/06/IMG_2854-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/06/IMG_2854-500x334.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/06/IMG_2854-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2025/06/IMG_2854-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2025/06/IMG_2854-900x600.jpg 900w, https://www.raspberrypi.org/app/uploads/2025/06/IMG_2854.jpg 1000w" sizes="auto, (max-width: 800px) 100vw, 800px" /></figure>
-</div>
-
-
-<h2 class="wp-block-heading"><strong>Looking ahead</strong></h2>
-
-
-
-<p>The world of computing education is moving fast, from new programming software, to artificial intelligence tools. Our design principles give us a strong foundation to keep innovating while staying true to our mission of <strong>enabling young people to realise their full potential through the power of computing and digital technologies.</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-blog-entry"><img loading="lazy" decoding="async" width="800" height="619" src="https://www.raspberrypi.org/app/uploads/2021/02/BARROWHILL_CC4542HL031319-800x619.jpg" alt="A boy and teacher in a computing class" class="wp-image-67985" srcset="https://www.raspberrypi.org/app/uploads/2021/02/BARROWHILL_CC4542HL031319-800x619.jpg 800w, https://www.raspberrypi.org/app/uploads/2021/02/BARROWHILL_CC4542HL031319-300x232.jpg 300w, https://www.raspberrypi.org/app/uploads/2021/02/BARROWHILL_CC4542HL031319-768x594.jpg 768w, https://www.raspberrypi.org/app/uploads/2021/02/BARROWHILL_CC4542HL031319-500x387.jpg 500w, https://www.raspberrypi.org/app/uploads/2021/02/BARROWHILL_CC4542HL031319-1536x1188.jpg 1536w, https://www.raspberrypi.org/app/uploads/2021/02/BARROWHILL_CC4542HL031319-2048x1584.jpg 2048w, https://www.raspberrypi.org/app/uploads/2021/02/BARROWHILL_CC4542HL031319-scaled-450x348.jpg 450w, https://www.raspberrypi.org/app/uploads/2021/02/BARROWHILL_CC4542HL031319-scaled-900x696.jpg 900w" sizes="auto, (max-width: 800px) 100vw, 800px" /></figure>
-</div>
-
-
-<p>And we’d love to hear from you! How do these principles resonate with your teaching? What helps you most in the classroom? Your feedback is what keeps making our work better.</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/designing-for-every-learner-in-every-classroom/">Designing for every learner in every classroom</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.raspberrypi.org/blog/designing-for-every-learner-in-every-classroom/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
