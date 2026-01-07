@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1051430/" title="See Description">[$] Lessons from creating a gaming-oriented scheduler</a></li>
+<li><a href="#https://lwn.net/Articles/1051808/" title="See Description">[$] 2025 Linux and free software timeline</a></li>
+<li><a href="#https://lwn.net/Articles/1053083/" title="See Description">IPFire 2.29 Core Update 199 released</a></li>
 <li><a href="#https://lwn.net/Articles/1053061/" title="See Description">Google will now only release Android source code twice a year (Android Authority)</a></li>
 <li><a href="#https://lwn.net/Articles/1053057/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1051768/" title="See Description">[$] Questions for the Technical Advisory Board</a></li>
@@ -50,12 +53,61 @@
 <li><a href="#https://lwn.net/Articles/1052732/" title="See Description">Kernel prepatch 6.19-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1052607/" title="See Description">Kroah-Hartman: Linux kernel security work</a></li>
 <li><a href="#https://lwn.net/Articles/1052589/" title="See Description">6.18.3 stable kernel released</a></li>
-<li><a href="#https://lwn.net/Articles/1052600/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1052526/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1052435/" title="See Description">Shadow-utils 4.19.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1051430/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 07 Jan 2026 17:24:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051430/" title="https://lwn.net/Articles/1051430/">[$] Lessons from creating a gaming-oriented scheduler</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>At the <a href="https://lpc.events/event/19/">2025 Linux Plumbers
+Conference</a> (LPC), held in Tokyo in mid-December, Changwoo Min led a <a
+href="https://lpc.events/event/19/contributions/2150/">session</a> on what
+he has learned while developing the
+"<a
+href="https://github.com/sched-ext/scx/tree/main/scheds/rust/scx_lavd#scx_lavd">latency-criticality
+aware virtual deadline</a>" (LAVD) scheduler, which is aimed at gaming
+workloads.  The session was part of the <a
+href="https://lpc.events/event/19/sessions/225/#20251213">Gaming
+on Linux</a> microconference, which is a new entrant into LPC; organizers
+hope to see it return <a href="https://lpc.events/event/20/">next year in
+Prague</a> and, presumably, beyond.  LAVD uses the <a
+href="https://lwn.net/Articles/922405/">extensible scheduler class</a> (sched_ext) and has
+the primary goal of minimizing <a
+href="https://www.gameslearningsociety.org/what-is-game-stuttering/">stuttering</a>
+in games;
+it is implemented in a combination of BPF and Rust.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1051808/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 07 Jan 2026 16:08:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051808/" title="https://lwn.net/Articles/1051808/">[$] 2025 Linux and free software timeline</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://lwn.net/Articles/1004204/">Last year</a> we
+revived the tradition of <a
+href="https://lwn.net/op/TimelineIdx.lwn">publishing a timeline</a> of
+notable events from the previous year. Since that seemed to go over
+well, we decided we should continue the practice and look back on some
+of the most noteworthy events and releases of 2025.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1053083/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 07 Jan 2026 15:45:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053083/" title="https://lwn.net/Articles/1053083/">IPFire 2.29 Core Update 199 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.ipfire.org/">IPFire project</a>, an
+open-source firewall Linux distribution, has released <a
+href="https://www.ipfire.org/blog/ipfire-2-29-core-update-199-released">version
+2.29 - Core Update 199</a>. Notable changes in this release include an
+update to Linux 6.12.58, support for WiFi&#160;6 and 7 features on
+wireless access points, as well as native support for link-local
+discovery protocol (LLDP) and Cisco discovery protocol (CDP).</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1053061/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 07 Jan 2026 14:54:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -241,67 +293,6 @@ update contains important fixes; users of this kernel are advised to
 upgrade.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1052600/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 02 Jan 2026 14:03:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1052600/" title="https://lwn.net/Articles/1052600/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (smb4k), <b>Fedora</b> (direwolf, gh, usd, and webkitgtk), <b>Slackware</b> (libpcap and seamonkey), and <b>SUSE</b> (kepler).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1052526/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 01 Jan 2026 14:04:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1052526/" title="https://lwn.net/Articles/1052526/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (imagemagick and net-snmp), <b>Fedora</b> (delve, golang-github-google-wire, and golang-github-googlecloudplatform-cloudsql-proxy), and <b>SUSE</b> (podman, python3, and python36).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1052435/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 31 Dec 2025 15:43:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1052435/" title="https://lwn.net/Articles/1052435/">Shadow-utils 4.19.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://github.com/shadow-maint/shadow/releases/tag/4.19.0">Version
-4.19.0</a> of the <a
-href="https://github.com/shadow-maint/shadow?tab=readme-ov-file#shadow-utils">shadow-utils</a>
-project has been released. Notable changes in this release include
-<a
-href="https://github.com/shadow-maint/shadow/commit/25aea74226152305e43213372bb26057698b0a90">disallowing
-some usernames that were previously accepted</a> with the
-<tt>--badname</tt> option, and <a
-href="https://github.com/shadow-maint/shadow/commit/b0a7ce58b924b04101a3a19f9f28673f578d7cce">removing
-support for escaped newlines</a> in configuration files. Possibly more
-interesting is the announcement that the project is deprecating a
-number of programs, hashing algorithms, and the ability to
-periodically expire passwords:</p>
-
-<blockquote class="bq">
-<p>Scientific research shows that periodic password expiration
-leads to predictable password patterns, and that even in a
-theoretical scenario where that wouldn't happen the gains in
-security are mathematically negligible (<a
-href="https://people.scs.carleton.ca/~paulv/papers/expiration-authorcopy.pdf">paper
-link</a>).</p>
-
-<p>Modern security standards, such as NIST SP 800-63B-4 in the USA,
-prohibit periodic password expiration. [...]</p>
-
-<p>To align with these, we're deprecating the ability to
-periodically expire passwords. The specifics and long-term
-roadmap are currently being discussed, and we invite feedback
-from users, particularly from those in regulated environments.
-See <a
-href="https://github.com/shadow-maint/shadow/pull/1432">#1432</a>.</p>
-</blockquote>
-
-<p>The release announcement notes that the features will remain
-functional "<q>for a significant period</q>" to minimize
-disruption.</p>
-
-<p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
