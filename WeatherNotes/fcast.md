@@ -3,17 +3,17 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms before 2am. Mostly cloudy. Low around 52, with temperatures rising to around 60 overnight. Southwest
-         wind 14 to 23 mph, with gusts as high as 38 mph. Chance of precipitation is 90%.<br></div>
+         wind 13 to 21 mph, with gusts as high as 38 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Partly sunny. High near 55, with temperatures falling to around 52 in the afternoon. North northwest wind 6 to 13 mph, with
+         <h3>Friday</h3>Partly sunny. High near 55, with temperatures falling to around 52 in the afternoon. North northwest wind 5 to 13 mph, with
          gusts as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of rain showers after midnight. Mostly cloudy, with a low around 42. North wind around 5 mph. Chance of precipitation
-         is 30%.<br></div>
+         <h3>Friday Night</h3>A chance of rain showers after midnight. Mostly cloudy, with a low around 42. North northeast wind around 5 mph. Chance of
+         precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
