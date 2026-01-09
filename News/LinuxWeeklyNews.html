@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1053492/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1053333/" title="See Description">Fedora Linux 43 election results</a></li>
 <li><a href="#https://lwn.net/Articles/1053289/" title="See Description">Gentoo looks back on 2025</a></li>
 <li><a href="#https://lwn.net/Articles/1052734/" title="See Description">[$] SFC v. VIZIO: who can enforce the GPL?</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1053061/" title="See Description">Google will now only release Android source code twice a year (Android Authority)</a></li>
 <li><a href="#https://lwn.net/Articles/1053057/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1051768/" title="See Description">[$] Questions for the Technical Advisory Board</a></li>
-<li><a href="#https://lwn.net/Articles/1050887/" title="See Description">[$] The difficulty of safe path traversal</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1053492/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 09 Jan 2026 13:59:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053492/" title="https://lwn.net/Articles/1053492/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (pdfminer and vlc), <b>Red Hat</b> (kernel, kernel-rt, and microcode_ctl), <b>Slackware</b> (libtasn1), <b>SUSE</b> (apptainer, curl, ImageMagick, libpcap, libvirt, libwget4, php8, podman, python311-cbor2, qemu, and rsync), and <b>Ubuntu</b> (gnupg, gnupg2, gpsd, libsodium, and python-tornado).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1053333/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 08 Jan 2026 17:56:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -324,31 +332,6 @@ answer session to address whatever it was the community wanted to know
 Those questions ended up covering the role of large language models in kernel
 development, what it is like to be on the TAB, how the TAB can help grease the
 wheels of corporate bureaucracy, and more.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1050887/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 06 Jan 2026 17:14:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1050887/" title="https://lwn.net/Articles/1050887/">[$] The difficulty of safe path traversal</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Aleksa Sarai, as the maintainer of the
-<a href="https://github.com/opencontainers/runc?tab=readme-ov-file#runc">runc container runtime</a>, faces a
-constant battle against security problems. Recently, runc has seen
-<a href="https://nvd.nist.gov/vuln/detail/CVE-2025-52565">
-another
-instance</a> of a security vulnerability that can be traced back to the difficulty
-of handling file paths on Linux. Sarai spoke at the 2025
-<a href="https://lpc.events/event/19">Linux Plumbers Conference</a>
-(<a href="https://lpc.events/event/19/contributions/2065/attachments/1851/3964/Path%20Safety%20in%20the%20Trenches%20%5BLPC%202025%5D.pdf">slides</a>;
-<a href="http://www.youtube.com/watch?v=z8v7ovIeDRM">video</a>)
-about
-some of the problems runc has had with path-traversal vulnerabilities, and to
-ask people to please use
-<a href="https://github.com/cyphar/libpathrs/?tab=readme-ov-file#libpathrs">
-libpathrs</a>, the library that he has been developing for
-safe path traversal.
 </p>
 </blockquote></blockquote></div></td></tr>
 </table>
