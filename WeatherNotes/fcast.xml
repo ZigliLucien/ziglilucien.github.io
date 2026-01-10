@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-10T16:36:06+00:00</generatedAt>
-		<updateTime type="str">2026-01-10T15:42:41+00:00</updateTime>
-		<validTimes type="str">2026-01-10T09:00:00+00:00/P7DT16H</validTimes>
+		<generatedAt type="str">2026-01-10T17:36:04+00:00</generatedAt>
+		<updateTime type="str">2026-01-10T17:12:37+00:00</updateTime>
+		<validTimes type="str">2026-01-10T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2026-01-10T10:00:00-06:00</startTime>
+				<startTime type="str">2026-01-10T11:00:00-06:00</startTime>
 				<endTime type="str">2026-01-10T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">47</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">11</value>
+					<value type="int">7</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 to 15 mph</windSpeed>
 				<windDirection type="str">NW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers/sct?size=medium</icon>
-				<shortForecast type="str">Slight Chance Rain Showers then Mostly Sunny</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers before 11am. Mostly sunny. High near 47, with temperatures falling to around 43 in the afternoon. Northwest wind 3 to 15 mph, with gusts as high as 26 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
+				<shortForecast type="str">Mostly Sunny</shortForecast>
+				<detailedForecast type="str">Mostly sunny. High near 47, with temperatures falling to around 43 in the afternoon. Northwest wind 3 to 15 mph, with gusts as high as 26 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -85,7 +85,7 @@
 				<windDirection type="str">WNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/snow,20/rain_showers?size=medium</icon>
 				<shortForecast type="str">Slight Chance Snow Showers then Slight Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers between 10pm and 11pm, then a slight chance of snow showers between 11pm and midnight, then a slight chance of rain showers between midnight and 1am. Mostly clear. Low around 27, with temperatures rising to around 29 overnight. West northwest wind 5 to 16 mph, with gusts as high as 28 mph. Chance of precipitation is 20%.</detailedForecast>
+				<detailedForecast type="str">A slight chance of rain showers between 10pm and 11pm, then a slight chance of snow showers between 11pm and midnight, then a slight chance of rain showers between midnight and 1am. Partly cloudy. Low around 27, with temperatures rising to around 29 overnight. West northwest wind 5 to 16 mph, with gusts as high as 28 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
