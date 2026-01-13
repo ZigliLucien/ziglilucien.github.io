@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1051982/" title="See Description">[$] A high-level quality-of-service interface</a></li>
 <li><a href="#https://lwn.net/Articles/1053995/" title="See Description">Firefox 147 released</a></li>
 <li><a href="#https://lwn.net/Articles/1053988/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1053355/" title="See Description">[$] Asciinema: making movies at the command-line</a></li>
@@ -52,10 +53,31 @@
 <li><a href="#https://lwn.net/Articles/1052734/" title="See Description">[$] SFC v. VIZIO: who can enforce the GPL?</a></li>
 <li><a href="#https://lwn.net/Articles/1052842/" title="See Description">[$] GPLv2 and installation requirements</a></li>
 <li><a href="#https://lwn.net/Articles/1053279/" title="See Description">Two new stable kernels</a></li>
-<li><a href="#https://lwn.net/Articles/1053277/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1051982/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 13 Jan 2026 19:04:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1051982/" title="https://lwn.net/Articles/1051982/">[$] A high-level quality-of-service interface</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Quality-of-service (QoS) mechanisms attempt to prioritize some processes (or
+network traffic, disk I/O, etc.) over others in order to meet a system's
+performance goals. This is a difficult topic to handle in the world of Linux,
+where workloads, hardware, and user expectations vary wildly. Qais Yousef spoke
+at the 2025 Linux Plumbers Conference, alongside his collaborators John Stultz,
+Steven Rostedt, and Vincent Guittot, about their plans for introducing a
+high-level QoS API for Linux in a way that leaves end users in control of its
+configuration. The talk focused specifically on a QoS mechanism for the
+scheduler, to prioritize access to CPU resources differently for different kinds
+of processes.
+(<a
+href="https://lpc.events/event/19/contributions/2089/attachments/1797/3877/Userspace%20Assisted%20Scheduling%20via%20Sched%20QoS.pdf">slides</a>;
+<a href="http://www.youtube.com/watch?v=zuOjTaVohm0">video</a>)
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1053995/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 13 Jan 2026 15:13:32 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -294,14 +316,6 @@ contains important fixes throughout the tree. Users are advised to
 upgrade.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1053277/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 08 Jan 2026 14:52:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053277/" title="https://lwn.net/Articles/1053277/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gcc-toolset-14-binutils, gcc-toolset-15-binutils, httpd, kernel, libpng, mariadb, mingw-libpng, poppler, python3.12, and ruby:3.3), <b>Debian</b> (foomuuri and libsodium), <b>Fedora</b> (python-pdfminer and wget2), <b>Oracle</b> (audiofile, bind, gcc-toolset-15-binutils, libpng, mariadb, mariadb10.11, mariadb:10.11, mariadb:10.5, mingw-libpng, poppler, and python3.12), <b>Red Hat</b> (git-lfs, kernel, libpng, libpq, mariadb:10.3, osbuild-composer, postgresql, postgresql:13, and postgresql:15), <b>Slackware</b> (curl), <b>SUSE</b> (c-ares-devel, capstone, curl, gpsd, ImageMagick, libpcap, log4j, python311-filelock, and python314), and <b>Ubuntu</b> (libcaca, libxslt, and net-snmp).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
