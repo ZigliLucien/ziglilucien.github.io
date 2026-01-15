@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1054258/" title="See Description">The State of OpenSSL for pyca/cryptography</a></li>
 <li><a href="#https://lwn.net/Articles/1053018/" title="See Description">[$] Format-specific compression with OpenZL</a></li>
 <li><a href="#https://lwn.net/Articles/1051006/" title="See Description">[$] Debian discusses removing GTK 2 for forky</a></li>
 <li><a href="#https://lwn.net/Articles/1054171/" title="See Description">Radicle 1.6.0 released</a></li>
@@ -52,10 +53,35 @@
 <li><a href="#https://lwn.net/Articles/1053595/" title="See Description">Evans: A data model for Git (and other docs updates)</a></li>
 <li><a href="#https://lwn.net/Articles/1053142/" title="See Description">[$] READ_ONCE(), WRITE_ONCE(), but not for Rust</a></li>
 <li><a href="#https://lwn.net/Articles/1053492/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1053333/" title="See Description">Fedora Linux 43 election results</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1054258/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 14 Jan 2026 23:16:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054258/" title="https://lwn.net/Articles/1054258/">The State of OpenSSL for pyca/cryptography</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Paul Kehrer and Alex Gaynor, maintainers of the Python <a
+href="https://cryptography.io/en/latest/"><tt>cryptography</tt></a> module, have put out some <a
+href="https://cryptography.io/en/latest/statements/state-of-openssl/">strongly
+worded criticism</a> of <a href="https://www.openssl.org/">OpenSSL</a>. It
+comes from a talk they gave at the <a href="https://2025.openssl-conference.org/">OpenSSL conference</a> in October 2025 (<a
+href="https://www.youtube.com/watch?v=RUIguklWwx0">YouTube video</a>).  The
+post goes into a lot of detail about the problems with the OpenSSL code
+base and testing, which has led the <tt>cryptography</tt> team to
+reconsider using the library. "<q>The mistakes we see in OpenSSL's
+development have become so significant that we believe substantial changes
+are required — either to OpenSSL, or to our reliance on it.</q>"  They go
+further in the conclusion:
+
+<blockquote class="bq">
+First, we will no longer require OpenSSL implementations for new functionality. Where we deem it desirable, we will add new APIs that are only on LibreSSL/BoringSSL/AWS-LC. Concretely, we expect to add ML-KEM and ML-DSA APIs that are only available with LibreSSL/BoringSSL/AWS-LC, and not with OpenSSL.
+<p>
+Second, we currently statically link a copy of OpenSSL in our wheels (binary artifacts). We are beginning the process of looking into what would be required to change our wheels to link against one of the OpenSSL forks.
+<p>
+If we are able to successfully switch to one of OpenSSL's forks for our binary wheels, we will begin considering the circumstances under which we would drop support for OpenSSL entirely.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1053018/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 14 Jan 2026 17:51:21 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -271,23 +297,6 @@ concurrent data access.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (pdfminer and vlc), <b>Red Hat</b> (kernel, kernel-rt, and microcode_ctl), <b>Slackware</b> (libtasn1), <b>SUSE</b> (apptainer, curl, ImageMagick, libpcap, libvirt, libwget4, php8, podman, python311-cbor2, qemu, and rsync), and <b>Ubuntu</b> (gnupg, gnupg2, gpsd, libsodium, and python-tornado).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1053333/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 08 Jan 2026 17:56:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053333/" title="https://lwn.net/Articles/1053333/">Fedora Linux 43 election results</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Fedora Project has <a
-href="https://communityblog.fedoraproject.org/f43-election-results/">announced</a>
-the results of the Fedora&#160;43 election cycle. Five seats were open
-on the <a
-href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering
-Steering Committee</a> (FESCo), and the <a
-href="https://elections.fedoraproject.org/about/f43-fesco">winners</a>
-are Kevin Fenzi, Zbigniew Jędrzejewski-Szmek, Timothée Ravier, Dave
-Cantrell, and Máirín Duffy.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
