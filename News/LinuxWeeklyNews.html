@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1053870/" title="See Description">[$] Removing a pointer dereference from slab allocations</a></li>
+<li><a href="#https://lwn.net/Articles/1054410/" title="See Description">A note for MXroute users</a></li>
+<li><a href="#https://lwn.net/Articles/1054408/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1053201/" title="See Description">[$] LWN.net Weekly Edition for January 15, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1054258/" title="See Description">The State of OpenSSL for pyca/cryptography</a></li>
 <li><a href="#https://lwn.net/Articles/1053018/" title="See Description">[$] Format-specific compression with OpenZL</a></li>
@@ -50,12 +53,50 @@
 <li><a href="#https://lwn.net/Articles/1053355/" title="See Description">[$] Asciinema: making movies at the command-line</a></li>
 <li><a href="#https://lwn.net/Articles/1053820/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1053698/" title="See Description">The LSFMM+BPF 2026 call for proposals is out</a></li>
-<li><a href="#https://lwn.net/Articles/1053664/" title="See Description">Four stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1053595/" title="See Description">Evans: A data model for Git (and other docs updates)</a></li>
-<li><a href="#https://lwn.net/Articles/1053142/" title="See Description">[$] READ_ONCE(), WRITE_ONCE(), but not for Rust</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1053870/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 15 Jan 2026 14:49:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053870/" title="https://lwn.net/Articles/1053870/">[$] Removing a pointer dereference from slab allocations</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Al Viro does not often stray outside of the core virtual filesystem area;
+when he does, it is usually worthy of note.  Recently, he wandered into
+memory management with <a
+href="https://lwn.net/ml/all/20260110040217.1927971-1-viro@zeniv.linux.org.uk">this patch
+series</a> to the slab allocator and some of its users.  Kernel developers
+will often put considerable effort into small optimizations, but it is
+still interesting to look at just how much effort has gone toward the purpose of
+avoiding a single pointer dereference in some memory-allocation hot paths.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1054410/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 15 Jan 2026 14:29:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054410/" title="https://lwn.net/Articles/1054410/">A note for MXroute users</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>We have recently noticed that email from LWN.net seems to be
+blocked by MXroute. Unfortunately, the company also does not seem to
+have a way for non-customers to report problems in mail delivery, so
+we have no good way to get ourselves unblocked.</p>
+
+<p>As a result, readers who have subscribed to an LWN mailing list
+from a domain hosted with MXroute will probably not receive our
+mailings. We have not yet unsubscribed addresses that are being
+blocked by MXroute, but will soon if the problem persists. Please
+accept our apologies for the inconvenience; it is unfortunate that it
+is becoming so difficult to send legitimate email as a small
+business.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1054408/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 15 Jan 2026 14:04:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054408/" title="https://lwn.net/Articles/1054408/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, gnupg2, and mongo-c-driver), <b>Fedora</b> (firefox, gpsd, linux-firmware, and seamonkey), <b>Mageia</b> (net-snmp), <b>Oracle</b> (kernel, podman, postgresql16, postgresql:13, postgresql:15, postgresql:16, and uek-kernel), <b>Red Hat</b> (libpq, net-snmp, and transfig), <b>Slackware</b> (libpng and mozilla), <b>SUSE</b> (avahi, bluez, capstone, curl, dpdk, firefox, firefox-esr, fluidsynth, glib2, kernel, kernel-devel, libmicrohttpd, libpcap, libpng16, libsoup, libsoup-3_0-0, libtasn1, libvirt, mcphost, openvswitch, ovmf, podman, poppler, python-tornado6, python311, qemu, rsync, and valkey), and <b>Ubuntu</b> (erlang, klibc, libpng1.6, and ruby-rack).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1053201/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 15 Jan 2026 00:03:54 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -249,61 +290,6 @@ href="https://lwn.net/ml/all/20260110-lsfmm-2026-cfp-ae970765d60e@brauner">call 
 proposals</a> has gone out for anybody who would like to attend this
 invitation-only meeting.  "<q>We are asking that you please let us know you
 want to be invited by February 20, 2026</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1053664/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 11 Jan 2026 15:41:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053664/" title="https://lwn.net/Articles/1053664/">Four stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The
-<a href="https://lwn.net/Articles/1053665/">6.18.5</a>,
-<a href="https://lwn.net/Articles/1053666/">6.12.65</a>,
-<a href="https://lwn.net/Articles/1053667/">6.6.120</a>, and
-<a href="https://lwn.net/Articles/1053668/">6.1.160</a>
-stable updates have been released.  They all contain <a
-href="https://lwn.net/ml/all/20251107160645.929564468@infradead.org/">a small patch
-set</a> fixing a scheduling regression associated with idle balancing; the
-6.6.120 and 6.1.60 updates also contain a large set of other important
-fixes.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1053595/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 10 Jan 2026 01:06:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053595/" title="https://lwn.net/Articles/1053595/">Evans: A data model for Git (and other docs updates)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>On her blog, Julia Evans <a
-href="https://jvns.ca/blog/2026/01/08/a-data-model-for-git/">writes about
-improving Git documentation</a>, including a new <a
-href="https://github.com/git/git/blob/master/Documentation/gitdatamodel.adoc">data
-model man page</a> she wrote with Marie
-LeBlanc Flanagan,  and updates to the pages for several other Git sub-commands
-(<tt>add</tt>, <tt>checkout</tt>, <tt>push</tt>, and <tt>pull</tt>).  As
-part of the process, she asked Git users to describe problems they had run into
-in the documentation, which helped guide the changes that she made.
-
-
-
-<blockquote class="bq">
-I'm excited about this because understanding how Git organizes its commit and branch data has really helped me reason about how Git works over the years, and I think it's important to have a short (1600 words!) version of the data model that's accurate.
-<p>
-The "accurate" part turned out to not be that easy: I knew the basics of how Git's data model worked, but during the review process I learned some new details and had to make quite a few changes (for example how merge conflicts are stored in the staging area).
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1053142/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 09 Jan 2026 15:47:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053142/" title="https://lwn.net/Articles/1053142/">[$] READ_ONCE(), WRITE_ONCE(), but not for Rust</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <tt>READ_ONCE()</tt> and <tt>WRITE_ONCE()</tt> macros are heavily used
-within the kernel; there are nearly 8,000 call sites for
-<tt>READ_ONCE()</tt>.  They are key to the implementation of many <a
-href="https://lwn.net/Articles/844224/">lockless algorithms</a> and can be necessary for some
-types of device-memory access.  So one might think that, as the
-amount of Rust code in the kernel increases, there would be a place for
-Rust versions of these macros as well.  The truth of the matter, though, is
-that the Rust community seems to want to take a different approach to
-concurrent data access.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
