@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1054547/" title="See Description">A 0-click exploit chain for the Pixel 9 (Project Zero)</a></li>
 <li><a href="#https://lwn.net/Articles/1054519/" title="See Description">Running Debian on the OpenWrt One (Collabora Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1054461/" title="See Description">Forgejo 14.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1053870/" title="See Description">[$] Removing a pointer dereference from slab allocations</a></li>
@@ -52,10 +53,46 @@
 <li><a href="#https://lwn.net/Articles/1051982/" title="See Description">[$] A high-level quality-of-service interface</a></li>
 <li><a href="#https://lwn.net/Articles/1053995/" title="See Description">Firefox 147 released</a></li>
 <li><a href="#https://lwn.net/Articles/1053988/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1053355/" title="See Description">[$] Asciinema: making movies at the command-line</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1054547/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 16 Jan 2026 00:04:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054547/" title="https://lwn.net/Articles/1054547/">A 0-click exploit chain for the Pixel 9 (Project Zero)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Project Zero blog has <a
+href="https://projectzero.google/2026/01/pixel-0-click-part-1.html">a
+three-part series</a> describing a working, zero-click exploit for
+Pixel&#160;9 devices.
+<p>
+<blockquote class="bq">
+	Over the past few years, several AI-powered features have been
+	added to mobile phones that allow users to better search and
+	understand their messages. One effect of this change is increased
+	0-click attack surface, as efficient analysis often requires
+	message media to be decoded before the message is opened by the
+	user. One such feature is audio transcription. Incoming SMS and RCS
+	audio attachments received by Google Messages are now automatically
+	decoded with no user interaction. As a result, audio decoders are
+	now in the 0-click attack surface of most Android phones.
+</blockquote>
+<p>
+The blog entry does not question the wisdom of directly exposing audio
+decoders to external attackers, but it does provide a lot of detail showing
+how it can go wrong.  The first part looks at compromising the codec; <a
+href="https://projectzero.google/2026/01/pixel-0-click-part-2.html">part
+two</a> extends the exploit to the kernel, and <a
+href="https://projectzero.google/2026/01/pixel-0-click-part-3.html">part
+three</a> looks at the implications:
+<P>
+<blockquote class="bq">
+	It is alarming that it took 139 days for a vulnerability
+	exploitable in a 0-click context to get patched on any Android
+	device, and it took Pixel 54 days longer. The vulnerability was
+	public for 82 days before it was patched by Pixel.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1054519/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 15 Jan 2026 18:57:56 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -303,23 +340,6 @@ fixes</a>, including several sandbox-escape vulnerabilities.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (mariadb10.11, mariadb:10.11, mariadb:10.3, mariadb:10.5, and tar), <b>Debian</b> (net-snmp), <b>Fedora</b> (coturn, NetworkManager-l2tp, openssh, and tuxanci), <b>Mageia</b> (libtasn1), <b>Oracle</b> (buildah, cups, httpd, kernel, libpq, libsoup, libsoup3, mariadb:10.11, mariadb:10.3, openssl, and podman), <b>SUSE</b> (cpp-httplib, ImageMagick, libtasn1, python-cbor2, util-linux, valkey, and wget2), and <b>Ubuntu</b> (google-guest-agent, linux-iot, and python-urllib3).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1053355/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 12 Jan 2026 17:30:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053355/" title="https://lwn.net/Articles/1053355/">[$] Asciinema: making movies at the command-line</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>In open-source circles there are many situations, such as bug
-reports, demos, and tutorials, when one might want to provide a
-play-by-play of a session in one's terminal. The <a
-href="https://asciinema.org/">asciinema</a> project provides a set of
-tools to do just that. Its tools let users record, edit, and share
-terminal sessions in a text-based format that has quite a few
-advantages compared to making and sharing videos of terminal sessions. For
-example, it is easy to use, offers the ability to search text from
-recorded sessions, and allows users to copy and paste directly from
-the recording.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
