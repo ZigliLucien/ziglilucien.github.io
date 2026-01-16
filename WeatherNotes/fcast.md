@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of rain showers between noon and 4pm. Mostly cloudy. High near 44, with temperatures falling to around 41 in the
-         afternoon. West southwest wind 8 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 30%.<br></div>
+         afternoon. West southwest wind around 10 mph, with gusts as high as 20 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
