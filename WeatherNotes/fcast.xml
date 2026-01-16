@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-16T00:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-01-15T21:16:30+00:00</updateTime>
-		<validTimes type="str">2026-01-15T15:00:00+00:00/P7DT13H</validTimes>
+		<generatedAt type="str">2026-01-16T02:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-01-16T01:46:59+00:00</updateTime>
+		<validTimes type="str">2026-01-15T19:00:00+00:00/P7DT9H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2026-01-15T18:00:00-06:00</startTime>
+				<startTime type="str">2026-01-15T20:00:00-06:00</startTime>
 				<endTime type="str">2026-01-16T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">26</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">23</value>
+					<value type="int">21</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">3 to 13 mph</windSpeed>
+				<windSpeed type="str">7 to 13 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/snow,20?size=medium</icon>
 				<shortForecast type="str">Slight Chance Snow Showers</shortForecast>
-				<detailedForecast type="str">A slight chance of snow showers between 11pm and 1am. Mostly cloudy. Low around 26, with temperatures rising to around 33 overnight. South southwest wind 3 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.</detailedForecast>
+				<detailedForecast type="str">A slight chance of snow showers between 11pm and 1am. Mostly cloudy. Low around 26, with temperatures rising to around 33 overnight. South southwest wind 7 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,7 +79,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">6</value>
+					<value type="int">13</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">7 to 12 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>

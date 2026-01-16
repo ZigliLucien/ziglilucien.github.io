@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of snow showers between 11pm and 1am. Mostly cloudy. Low around 26, with temperatures rising to around 33
-         overnight. South southwest wind 3 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.<br></div>
+         overnight. South southwest wind 7 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
