@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>A chance of snow showers. Partly cloudy. Low around 24, with temperatures rising to around 26 overnight. West northwest wind
-         7 to 10 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.<br></div>
+         around 9 mph, with gusts as high as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
