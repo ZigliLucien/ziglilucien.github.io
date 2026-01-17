@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-17T05:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-01-17T05:17:26+00:00</updateTime>
-		<validTimes type="str">2026-01-16T23:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2026-01-17T06:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-01-17T06:21:56+00:00</updateTime>
+		<validTimes type="str">2026-01-17T00:00:00+00:00/P7DT7H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2026-01-16T23:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2026-01-17T00:00:00-06:00</startTime>
 				<endTime type="str">2026-01-17T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">24</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">27</value>
+					<value type="int">21</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">7 to 10 mph</windSpeed>
+				<windSpeed type="str">6 to 10 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,30/snow,20?size=medium</icon>
-				<shortForecast type="str">Chance Rain Showers then Slight Chance Snow Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers before midnight, then a slight chance of snow showers between midnight and 2am. Partly cloudy. Low around 24, with temperatures rising to around 26 overnight. West northwest wind 7 to 10 mph, with gusts as high as 22 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Snow Showers</shortForecast>
+				<detailedForecast type="str">A slight chance of snow showers before 2am. Partly cloudy. Low around 24, with temperatures rising to around 26 overnight. West northwest wind 6 to 10 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
