@@ -2,20 +2,15 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy. Low around 16, with temperatures rising to around 23 overnight. West wind around 9 mph, with gusts as high
-         as 23 mph.<br></div>
+         <h3>M.L. King Jr. Day</h3>Mostly sunny, with a high near 23. Northwest wind 6 to 15 mph, with gusts as high as 25 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>M.L. King Jr. Day</h3>Mostly sunny, with a high near 23. Northwest wind 6 to 15 mph, with gusts as high as 26 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear, with a low around 13. West southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Mostly clear, with a low around 13. West southwest wind around 3 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tuesday</h3>Sunny, with a high near 37. South southwest wind 2 to 9 mph.<br></div>
+         <h3>Tuesday</h3>Sunny. High near 37, with temperatures falling to around 34 in the afternoon. South southwest wind 2 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,5 +53,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>Mostly sunny, with a high near 24. North wind around 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Sunday Night</h3>Mostly clear, with a low around 12. West northwest wind around 5 mph.<br></div>
    </p>
 </div>
