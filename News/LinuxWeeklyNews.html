@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1055033/" title="See Description">Haas: Who contributed to PostgreSQL development in 2025?</a></li>
+<li><a href="#https://lwn.net/Articles/1054225/" title="See Description">[$] Task-level io_uring restrictions</a></li>
 <li><a href="#https://lwn.net/Articles/1055001/" title="See Description">Wine 11.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1054993/" title="See Description">Two new stable kernels for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1054992/" title="See Description">Security updates for Monday</a></li>
@@ -51,11 +53,52 @@
 <li><a href="#https://lwn.net/Articles/1053870/" title="See Description">[$] Removing a pointer dereference from slab allocations</a></li>
 <li><a href="#https://lwn.net/Articles/1054410/" title="See Description">A note for MXroute users</a></li>
 <li><a href="#https://lwn.net/Articles/1054408/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1053201/" title="See Description">[$] LWN.net Weekly Edition for January 15, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1054258/" title="See Description">The State of OpenSSL for pyca/cryptography</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1055033/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 19 Jan 2026 16:18:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055033/" title="https://lwn.net/Articles/1055033/">Haas: Who contributed to PostgreSQL development in 2025?</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>PostgreSQL contributor Robert Haas has <a
+href="https://rhaas.blogspot.com/2026/01/who-contributed-to-postgresql.html">published</a>
+a blog post that breaks down code contributions to PostgreSQL in
+2025.</p>
+
+<blockquote class="bq">
+I calculate that, in 2025, there were 266 people who were the
+principal author of at least one PostgreSQL commit. 66% of the new
+lines of code where contributed by one of 26 people, and 90% of the
+lines of new code were contributed by one of 67 people.
+</blockquote>
+
+<p>Contributions to the project seem to be on the upswing; in his <a
+href="https://rhaas.blogspot.com/2025/01/who-contributed-to-postgresql.html">analysis
+of development in 2024</a>, there were 229 people who were the primary
+authors of a commit, and 66% of new lines of code were contributed by
+one of 18 people. The <a
+href="https://sites.google.com/site/robertmhaas/contributions">raw
+data</a> is also available.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1054225/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 19 Jan 2026 16:08:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054225/" title="https://lwn.net/Articles/1054225/">[$] Task-level io_uring restrictions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring
+subsystem</a> is more than an asynchronous I/O interface for Linux; it is,
+for all practical purposes, an independent system-call API.  It has enabled
+high-performance applications, but it also brings challenges for code built
+around classic, Unix-style system calls.  For example, the <a
+href="https://man7.org/linux/man-pages/man2/seccomp.2.html"><tt>seccomp()</tt></a>
+sandboxing mechanism does not work with it, causing applications using
+<tt>seccomp()</tt> to disable io_uring outright.  Io_uring maintainer Jens
+Axboe is seeking to improve that situation with a rapidly evolving patch
+series adding a new restrictive mechanism to that subsystem.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1055001/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 19 Jan 2026 14:32:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -273,47 +316,6 @@ business.</p></blockquote></blockquote></div></td></tr>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, gnupg2, and mongo-c-driver), <b>Fedora</b> (firefox, gpsd, linux-firmware, and seamonkey), <b>Mageia</b> (net-snmp), <b>Oracle</b> (kernel, podman, postgresql16, postgresql:13, postgresql:15, postgresql:16, and uek-kernel), <b>Red Hat</b> (libpq, net-snmp, and transfig), <b>Slackware</b> (libpng and mozilla), <b>SUSE</b> (avahi, bluez, capstone, curl, dpdk, firefox, firefox-esr, fluidsynth, glib2, kernel, kernel-devel, libmicrohttpd, libpcap, libpng16, libsoup, libsoup-3_0-0, libtasn1, libvirt, mcphost, openvswitch, ovmf, podman, poppler, python-tornado6, python311, qemu, rsync, and valkey), and <b>Ubuntu</b> (erlang, klibc, libpng1.6, and ruby-rack).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1053201/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 15 Jan 2026 00:03:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053201/" title="https://lwn.net/Articles/1053201/">[$] LWN.net Weekly Edition for January 15, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1053201/">Front</a>: SFC v. VIZIO; GPLv2 requirements; Debian and GTK 2; OpenZL; kernel scheduler QoS; Rust concurrent data access; Asciinema.
-            <li> <a href="https://lwn.net/Articles/1053203/">Briefs</a>: OpenSSL and Python; LSFMM+BPF 2026; Fedora elections; Gentoo retrospective; EU lawmaking; Git data model; Firefox 147; Radicle 1.6.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1053204/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1054258/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 14 Jan 2026 23:16:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054258/" title="https://lwn.net/Articles/1054258/">The State of OpenSSL for pyca/cryptography</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Paul Kehrer and Alex Gaynor, maintainers of the Python <a
-href="https://cryptography.io/en/latest/"><tt>cryptography</tt></a> module, have put out some <a
-href="https://cryptography.io/en/latest/statements/state-of-openssl/">strongly
-worded criticism</a> of <a href="https://www.openssl.org/">OpenSSL</a>. It
-comes from a talk they gave at the <a href="https://2025.openssl-conference.org/">OpenSSL conference</a> in October 2025 (<a
-href="https://www.youtube.com/watch?v=RUIguklWwx0">YouTube video</a>).  The
-post goes into a lot of detail about the problems with the OpenSSL code
-base and testing, which has led the <tt>cryptography</tt> team to
-reconsider using the library. "<q>The mistakes we see in OpenSSL's
-development have become so significant that we believe substantial changes
-are required — either to OpenSSL, or to our reliance on it.</q>"  They go
-further in the conclusion:
-
-<blockquote class="bq">
-First, we will no longer require OpenSSL implementations for new functionality. Where we deem it desirable, we will add new APIs that are only on LibreSSL/BoringSSL/AWS-LC. Concretely, we expect to add ML-KEM and ML-DSA APIs that are only available with LibreSSL/BoringSSL/AWS-LC, and not with OpenSSL.
-<p>
-Second, we currently statically link a copy of OpenSSL in our wheels (binary artifacts). We are beginning the process of looking into what would be required to change our wheels to link against one of the OpenSSL forks.
-<p>
-If we are able to successfully switch to one of OpenSSL's forks for our binary wheels, we will begin considering the circumstances under which we would drop support for OpenSSL entirely.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
