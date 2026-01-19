@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-19T04:36:03+00:00</generatedAt>
+		<generatedAt type="str">2026-01-19T06:36:02+00:00</generatedAt>
 		<updateTime type="str">2026-01-19T04:11:42+00:00</updateTime>
 		<validTimes type="str">2026-01-18T22:00:00+00:00/P7DT6H</validTimes>
 		<elevation type="dict">
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2026-01-18T22:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2026-01-19T00:00:00-06:00</startTime>
 				<endTime type="str">2026-01-19T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">16</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 to 12 mph</windSpeed>
-				<windDirection type="str">WNW</windDirection>
+				<windSpeed type="str">12 mph</windSpeed>
+				<windDirection type="str">NW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy. Low around 16, with temperatures rising to around 21 overnight. West northwest wind 8 to 12 mph, with gusts as high as 23 mph.</detailedForecast>
+				<detailedForecast type="str">Partly cloudy. Low around 16, with temperatures rising to around 21 overnight. Northwest wind around 12 mph, with gusts as high as 23 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
