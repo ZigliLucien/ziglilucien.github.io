@@ -2,7 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>M.L. King Jr. Day</h3>Mostly sunny, with a high near 23. Northwest wind 6 to 15 mph, with gusts as high as 25 mph.<br></div>
+         <h3>M.L. King Jr. Day</h3>Mostly sunny. High near 24, with temperatures falling to around 22 in the afternoon. Northwest wind 6 to 15 mph, with gusts
+         as high as 25 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
