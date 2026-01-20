@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1055191/" title="See Description">Mozilla introduces Firefox Nightly RPM package repository</a></li>
+<li><a href="#https://lwn.net/Articles/1054216/" title="See Description">[$] An alternate path for immutable distributions</a></li>
 <li><a href="#https://lwn.net/Articles/1055152/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1055051/" title="See Description">The end of OzLabs</a></li>
 <li><a href="#https://lwn.net/Articles/1055033/" title="See Description">Haas: Who contributed to PostgreSQL development in 2025?</a></li>
@@ -51,11 +53,57 @@
 <li><a href="#https://lwn.net/Articles/1054683/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1054547/" title="See Description">A 0-click exploit chain for the Pixel 9 (Project Zero)</a></li>
 <li><a href="#https://lwn.net/Articles/1054519/" title="See Description">Running Debian on the OpenWrt One (Collabora Blog)</a></li>
-<li><a href="#https://lwn.net/Articles/1054461/" title="See Description">Forgejo 14.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1053870/" title="See Description">[$] Removing a pointer dereference from slab allocations</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1055191/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 20 Jan 2026 17:26:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055191/" title="https://lwn.net/Articles/1055191/">Mozilla introduces Firefox Nightly RPM package repository</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Mozilla has <a
+href="https://blog.nightly.mozilla.org/2026/01/19/introducing-mozillas-firefox-nightly-rpm-package-for-rpm-based-linux-distributions/">announced</a>
+a repository with <a
+href="https://www.firefox.com/en-US/channel/desktop/">Firefox
+Nightly channel</a> packages for RPM-based Linux distributions such as CentOS
+Stream, Fedora, and openSUSE. Mozilla has provided a Debian repository
+since 2023.</p>
+
+<p>Note that this repository only includes the nightly builds of The
+<tt>firefox-nightly</tt> package. Mozilla is not providing stable
+builds as RPMs at this time. However, the package will not conflict
+with a distribution's regular <tt>firefox</tt> package; both packages
+can be installed at the same time for those who wish to test the
+nightly builds. See the blog post for instructions on setting up the
+repository.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1054216/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 20 Jan 2026 16:22:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054216/" title="https://lwn.net/Articles/1054216/">[$] An alternate path for immutable distributions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+LWN has had a number of articles on immutable distributions,
+such as <a href="https://lwn.net/Articles/954059/">Bluefin</a> and <a href="https://lwn.net/Articles/1046228/">
+Bazzite</a>, in recent years. These distributions have taken a variety of approaches, including
+using
+<a href="https://coreos.github.io/rpm-ostree/">
+rpm-ostree</a>, filesystem snapshots, and
+<a href="https://lwn.net/Articles/979182/">bootable container (bootc) images</a>. But those
+approaches, especially the latter, lead to extra complexity for a user
+attempting to install new software, instead of just
+using the existing package manager.
+<a href="https://github.com/ashos/ashos?tab=readme-ov-file#ashos-any-snapshot-hierarchical-os">
+AshOS</a> (Any Snapshot Hierarchical OS) is an experimental AGPL-3-licensed
+"<q>meta-distribution</q>" that tried a different approach more in line with
+traditional package management. Although the project is no longer updated,
+it remains usable, and can still shed some light on a potential alternate path for users
+worried about adopting bootc-based approaches.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1055152/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 20 Jan 2026 14:06:26 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -283,38 +331,6 @@ href="https://lwn.net/Articles/1014998/">covered</a> Denver
 Gingerich's talk at <a
 href="https://www.socallinuxexpo.org/scale/22x">SCALE 22x</a> about
 the making of the router in March 2025.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1054461/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 15 Jan 2026 15:04:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054461/" title="https://lwn.net/Articles/1054461/">Forgejo 14.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://forgejo.org/2026-01-release-v14-0/">Version
-14.0</a> of the Forgejo software forge has been released. Notable
-changes in this release include several <a
-href="https://forgejo.org/2026-01-release-v14-0/#database-improvements">database
-improvements</a>, new options for <a
-href="https://forgejo.org/2026-01-release-v14-0/#pull-request-trust-management">approving
-actions execution from pull requests</a>, a <a
-href="https://forgejo.org/2026-01-release-v14-0/#new-file-editor">new
-file editor</a>, and progress toward <a
-href="https://forgejo.org/2026-01-release-v14-0/#interact-with-ui-without-javascript">making
-Forgejo's web UI work without JavaScript</a>.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1053870/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 15 Jan 2026 14:49:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1053870/" title="https://lwn.net/Articles/1053870/">[$] Removing a pointer dereference from slab allocations</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Al Viro does not often stray outside of the core virtual filesystem area;
-when he does, it is usually worthy of note.  Recently, he wandered into
-memory management with <a
-href="https://lwn.net/ml/all/20260110040217.1927971-1-viro@zeniv.linux.org.uk">this patch
-series</a> to the slab allocator and some of its users.  Kernel developers
-will often put considerable effort into small optimizations, but it is
-still interesting to look at just how much effort has gone toward the purpose of
-avoiding a single pointer dereference in some memory-allocation hot paths.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
