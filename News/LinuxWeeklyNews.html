@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1055213/" title="See Description">Remote authentication bypass in telnetd</a></li>
 <li><a href="#https://lwn.net/Articles/1055191/" title="See Description">Mozilla introduces Firefox Nightly RPM package repository</a></li>
 <li><a href="#https://lwn.net/Articles/1054216/" title="See Description">[$] An alternate path for immutable distributions</a></li>
 <li><a href="#https://lwn.net/Articles/1055152/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,31 @@
 <li><a href="#https://lwn.net/Articles/1053099/" title="See Description">[$] A free and open-source rootkit for Linux</a></li>
 <li><a href="#https://lwn.net/Articles/1054683/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1054547/" title="See Description">A 0-click exploit chain for the Pixel 9 (Project Zero)</a></li>
-<li><a href="#https://lwn.net/Articles/1054519/" title="See Description">Running Debian on the OpenWrt One (Collabora Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1055213/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 20 Jan 2026 20:45:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055213/" title="https://lwn.net/Articles/1055213/">Remote authentication bypass in telnetd</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One would assume that most LWN readers stopped running network-accessible
+telnet services some number of decades ago.  For the rest of you, <a
+href="https://lwn.net/ml/all/87h5sg9yfs.fsf@josefsson.org">this security advisory from
+Simon Josefsson</a> is worthy of note:
+<p>
+<blockquote class="bq">
+	The telnetd server invokes /usr/bin/login (normally running as
+	root) passing the value of the USER environment variable received
+	from the client as the last parameter.
+<p>
+	If the client supplies a carefully crafted USER environment value
+	being the string "-f root", and passes the telnet(1) -a or --login
+	parameter to send this USER environment to the server, the client
+	will be automatically logged in as root bypassing normal
+	authentication processes.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1055191/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 20 Jan 2026 17:26:37 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -297,40 +319,6 @@ three</a> looks at the implications:
 	device, and it took Pixel 54 days longer. The vulnerability was
 	public for 82 days before it was patched by Pixel.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1054519/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 15 Jan 2026 18:57:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054519/" title="https://lwn.net/Articles/1054519/">Running Debian on the OpenWrt One (Collabora Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Sjoerd Simons has <a
-href="https://www.collabora.com/news-and-blog/news-and-events/openwrt-one-meets-debian.html">published
-a blog post</a> about running Debian on the <a
-href="https://sfconservancy.org/activities/openwrt-one.html">OpenWrt&#160;One</a>
-router hardware:</p>
-
-<blockquote class="bq">
-<p>With openwrt-one-debian, you can now install and run a full Debian
-system leveraging the OpenWrt One's NVMe storage, enabling everything
-from custom services and containers to development tools and
-lightweight server workloads, all on open hardware.</p>
-
-<p>This project provides a rust-based flasher to install Debian on the
-OpenWrt One, opening the door to standard Debian tooling, packages,
-and workflows. For developers and power users, it transforms the
-OpenWrt One from a network appliance into a compact, general-purpose
-Linux system.</p>
-</blockquote>
-
-<p>See the <a
-href="https://github.com/sjoerdsimons/openwrt-one-debian?tab=readme-ov-file#debian-on-openwrt-one">GitHub
-repository</a> for the code and latest build. LWN <a
-href="https://lwn.net/Articles/994961/">reviewed</a> the device in
-November 2024, and <a
-href="https://lwn.net/Articles/1014998/">covered</a> Denver
-Gingerich's talk at <a
-href="https://www.socallinuxexpo.org/scale/22x">SCALE 22x</a> about
-the making of the router in March 2025.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
