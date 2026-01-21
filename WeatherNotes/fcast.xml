@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-21T06:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-01-21T02:52:14+00:00</updateTime>
-		<validTimes type="str">2026-01-20T20:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2026-01-21T07:36:04+00:00</generatedAt>
+		<updateTime type="str">2026-01-21T07:27:10+00:00</updateTime>
+		<validTimes type="str">2026-01-21T01:00:00+00:00/P7DT3H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-01-21T00:00:00-06:00</startTime>
+				<startTime type="str">2026-01-21T01:00:00-06:00</startTime>
 				<endTime type="str">2026-01-21T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">28</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">27</value>
+					<value type="int">22</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">13 mph</windSpeed>
+				<windSpeed type="str">6 to 13 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/snow,30?size=medium</icon>
-				<shortForecast type="str">Chance Light Snow</shortForecast>
-				<detailedForecast type="str">A chance of snow after 3am. Mostly cloudy. Low around 28, with temperatures rising to around 35 overnight. South southwest wind around 13 mph, with gusts as high as 23 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Snow Showers</shortForecast>
+				<detailedForecast type="str">A slight chance of snow showers after 4am. Mostly cloudy. Low around 28, with temperatures rising to around 35 overnight. South southwest wind 6 to 13 mph, with gusts as high as 23 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,13 +79,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">32</value>
+					<value type="int">27</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 to 14 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain,30/bkn?size=medium</icon>
-				<shortForecast type="str">Chance Light Rain then Partly Sunny</shortForecast>
-				<detailedForecast type="str">A chance of rain before 7am. Partly sunny. High near 47, with temperatures falling to around 44 in the afternoon. Southwest wind 6 to 14 mph, with gusts as high as 23 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,30/bkn?size=medium</icon>
+				<shortForecast type="str">Chance Rain Showers then Partly Sunny</shortForecast>
+				<detailedForecast type="str">A chance of rain showers before 8am. Partly sunny. High near 47, with temperatures falling to around 44 in the afternoon. Southwest wind 6 to 14 mph, with gusts as high as 23 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -93,18 +93,18 @@
 				<startTime type="str">2026-01-21T18:00:00-06:00</startTime>
 				<endTime type="str">2026-01-22T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">25</temperature>
+				<temperature type="int">24</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">W</windDirection>
+				<windSpeed type="str">6 mph</windSpeed>
+				<windDirection type="str">WNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 25. West wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear. Low around 24, with temperatures rising to around 26 overnight. West northwest wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
