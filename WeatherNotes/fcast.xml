@@ -41,7 +41,7 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-21T05:36:02+00:00</generatedAt>
+		<generatedAt type="str">2026-01-21T06:36:03+00:00</generatedAt>
 		<updateTime type="str">2026-01-21T02:52:14+00:00</updateTime>
 		<validTimes type="str">2026-01-20T20:00:00+00:00/P7DT8H</validTimes>
 		<elevation type="dict">
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2026-01-20T23:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2026-01-21T00:00:00-06:00</startTime>
 				<endTime type="str">2026-01-21T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">28</temperature>
@@ -64,8 +64,8 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">13 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/bkn/snow,30?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy then Chance Light Snow</shortForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow,30?size=medium</icon>
+				<shortForecast type="str">Chance Light Snow</shortForecast>
 				<detailedForecast type="str">A chance of snow after 3am. Mostly cloudy. Low around 28, with temperatures rising to around 35 overnight. South southwest wind around 13 mph, with gusts as high as 23 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
