@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-21T15:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-01-21T15:02:27+00:00</updateTime>
-		<validTimes type="str">2026-01-21T09:00:00+00:00/P7DT16H</validTimes>
+		<generatedAt type="str">2026-01-21T17:36:02+00:00</generatedAt>
+		<updateTime type="str">2026-01-21T17:06:42+00:00</updateTime>
+		<validTimes type="str">2026-01-21T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2026-01-21T09:00:00-06:00</startTime>
+				<startTime type="str">2026-01-21T11:00:00-06:00</startTime>
 				<endTime type="str">2026-01-21T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">47</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">7</value>
+					<value type="int">2</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 to 12 mph</windSpeed>
+				<windSpeed type="str">7 to 13 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
-				<shortForecast type="str">Partly Sunny</shortForecast>
-				<detailedForecast type="str">Partly sunny. High near 47, with temperatures falling to around 44 in the afternoon. Southwest wind 6 to 12 mph, with gusts as high as 22 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
+				<shortForecast type="str">Mostly Sunny</shortForecast>
+				<detailedForecast type="str">Mostly sunny. High near 47, with temperatures falling to around 44 in the afternoon. Southwest wind 7 to 13 mph, with gusts as high as 22 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -82,10 +82,10 @@
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 mph</windSpeed>
-				<windDirection type="str">WNW</windDirection>
+				<windDirection type="str">W</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear. Low around 24, with temperatures rising to around 26 overnight. West northwest wind around 6 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear. Low around 24, with temperatures rising to around 26 overnight. West wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -102,9 +102,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">N</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
-				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny. High near 39, with temperatures falling to around 35 in the afternoon. North wind around 3 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
+				<shortForecast type="str">Sunny</shortForecast>
+				<detailedForecast type="str">Sunny. High near 39, with temperatures falling to around 35 in the afternoon. North wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -117,13 +117,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">3</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 13 mph</windSpeed>
+				<windSpeed type="str">1 to 12 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 16. North northeast wind 2 to 13 mph, with gusts as high as 21 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 16. North northeast wind 1 to 12 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
@@ -136,13 +136,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">11</value>
+					<value type="int">6</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">14 mph</windSpeed>
-				<windDirection type="str">N</windDirection>
+				<windSpeed type="str">15 mph</windSpeed>
+				<windDirection type="str">NNE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a high near 22. North wind around 14 mph, with gusts as high as 24 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy, with a high near 22. North northeast wind around 15 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">6</number>
@@ -155,13 +155,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">24</value>
+					<value type="int">40</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">14 mph</windSpeed>
+				<windSpeed type="str">15 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/cold/snow,20?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy then Slight Chance Snow Showers</shortForecast>
-				<detailedForecast type="str">A slight chance of snow showers after midnight. Mostly cloudy, with a low around 5. North northeast wind around 14 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/cold/snow,40?size=medium</icon>
+				<shortForecast type="str">Cloudy then Chance Snow Showers</shortForecast>
+				<detailedForecast type="str">A chance of snow showers after midnight. Cloudy, with a low around 5. North northeast wind around 15 mph, with gusts as high as 23 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">7</number>
@@ -174,13 +174,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">64</value>
+					<value type="int">78</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">13 mph</windSpeed>
+				<windSpeed type="str">14 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/snow,40/snow,60?size=medium</icon>
-				<shortForecast type="str">Snow Showers Likely</shortForecast>
-				<detailedForecast type="str">Snow showers likely. Cloudy, with a high near 14. North northeast wind around 13 mph, with gusts as high as 20 mph. New snow accumulation of 1 to 2 inches possible.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/snow,60/snow,80?size=medium</icon>
+				<shortForecast type="str">Snow Showers</shortForecast>
+				<detailedForecast type="str">Snow showers. Cloudy, with a high near 14. North northeast wind around 14 mph, with gusts as high as 22 mph. New snow accumulation of 1 to 2 inches possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">8</number>
@@ -193,13 +193,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">65</value>
+					<value type="int">79</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">7 to 10 mph</windSpeed>
+				<windSpeed type="str">12 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/snow,70/snow,40?size=medium</icon>
-				<shortForecast type="str">Snow Showers Likely</shortForecast>
-				<detailedForecast type="str">Snow showers likely. Mostly cloudy, with a low around 10. North northeast wind 7 to 10 mph. New snow accumulation of 1 to 3 inches possible.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow,80/snow,60?size=medium</icon>
+				<shortForecast type="str">Snow Showers</shortForecast>
+				<detailedForecast type="str">Snow showers. Cloudy, with a low around 10. North northeast wind around 12 mph, with gusts as high as 18 mph. New snow accumulation of 1 to 3 inches possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">9</number>
@@ -212,13 +212,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">23</value>
+					<value type="int">31</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 mph</windSpeed>
+				<windSpeed type="str">7 to 10 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/snow,20/bkn?size=medium</icon>
-				<shortForecast type="str">Slight Chance Snow Showers then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">A slight chance of snow showers before noon. Mostly cloudy, with a high near 20. North northwest wind around 8 mph. New snow accumulation of less than half an inch possible.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/snow,30/snow,20?size=medium</icon>
+				<shortForecast type="str">Chance Snow Showers</shortForecast>
+				<detailedForecast type="str">A chance of snow showers. Mostly cloudy, with a high near 20. North northwest wind 7 to 10 mph. New snow accumulation of less than half an inch possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">10</number>
@@ -233,11 +233,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">4</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 mph</windSpeed>
+				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">NW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/cold?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around 6. Northwest wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 6. Northwest wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">11</number>
@@ -252,11 +252,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">1</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
+				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
-				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 22. West northwest wind around 6 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
+				<shortForecast type="str">Mostly Sunny</shortForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 22. West northwest wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">12</number>
@@ -269,7 +269,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">2</value>
+					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
@@ -288,13 +288,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">2</value>
+					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
-				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 31. South southwest wind around 7 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
+				<shortForecast type="str">Mostly Sunny</shortForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 31. South southwest wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">14</number>
@@ -307,13 +307,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">2</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
-				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around 17. Southwest wind around 6 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 17. Southwest wind around 6 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
