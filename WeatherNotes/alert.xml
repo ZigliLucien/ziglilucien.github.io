@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f2d87186e3453dc08f2eb6656007e35548bbdfbc.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.309778cf973f094484ae003f1adab0d722a1ce6c.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f2d87186e3453dc08f2eb6656007e35548bbdfbc.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.309778cf973f094484ae003f1adab0d722a1ce6c.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.f2d87186e3453dc08f2eb6656007e35548bbdfbc.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.309778cf973f094484ae003f1adab0d722a1ce6c.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,16 +203,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.00c4fbe0ec2486d3a8cc0c543e646730b6c81cca.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.00c4fbe0ec2486d3a8cc0c543e646730b6c81cca.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f2d87186e3453dc08f2eb6656007e35548bbdfbc.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.f2d87186e3453dc08f2eb6656007e35548bbdfbc.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-01-21T15:37:00-06:00</sent>
+						<sent type="str">2026-01-21T21:34:00-06:00</sent>
 					</item>
 				</references>
-				<sent type="str">2026-01-21T21:34:00-06:00</sent>
-				<effective type="str">2026-01-21T21:34:00-06:00</effective>
+				<sent type="str">2026-01-22T01:22:00-06:00</sent>
+				<effective type="str">2026-01-22T01:22:00-06:00</effective>
 				<onset type="str">2026-01-24T00:00:00-06:00</onset>
-				<expires type="str">2026-01-22T05:15:00-06:00</expires>
+				<expires type="str">2026-01-22T15:00:00-06:00</expires>
 				<ends type="str">2026-01-25T12:00:00-06:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -223,33 +223,39 @@
 				<event type="str">Winter Storm Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Winter Storm Watch issued January 21 at 9:34PM CST until January 25 at 12:00PM CST by NWS Paducah KY</headline>
+				<headline type="str">Winter Storm Watch issued January 22 at 1:22AM CST until January 25 at 12:00PM CST by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Heavy mixed precipitation is possible in southern portions
 of west Kentucky, with heavy snow possible across the rest of west
 Kentucky, southeast Missouri, southern Illinois and southwest
 Indiana. Total snow accumulations between 7 and 13 inches, and ice
 accumulations around a light glaze possible.
 
-* WHERE...All of southern Illinois, southwest Indiana, western
+* WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
 * WHEN...From late Friday night through Sunday morning.
 
-* IMPACTS...Travel could be very difficult to impossible.
+* IMPACTS...Travel could be very difficult.
 
 * ADDITIONAL DETAILS...Prolonged cold is also expected between
 Friday and Monday. Wind chills Friday night could be as low as -10
 degrees across the north and -5 across the south.  Sunday night
 wind chills will range from -7 degrees to -12 degrees.</description>
-				<instruction type="str">Continue to monitor the latest forecasts for updates on this
-situation.</instruction>
+				<instruction type="str">Monitor the latest forecasts for updates on this situation.
+
+Persons should consider delaying all travel. If travel is absolutely
+necessary, drive with extreme caution. Consider taking a winter
+storm kit along with you, including such items as tire chains,
+booster cables, flashlight, shovel, blankets and extra clothing.
+Also take water, a first aid kit, and anything else that would help
+you survive in case you become stranded.</instruction>
 				<response type="str">Prepare</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">WSWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS43 KPAH 220334</item>
+						<item type="str">WWUS43 KPAH 220722</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">WINTER STORM WATCH REMAINS IN EFFECT FROM LATE FRIDAY NIGHT THROUGH SUNDAY MORNING</item>
@@ -269,7 +275,7 @@ situation.</instruction>
 						<item type="str">2026-01-25T12:00:00-06:00</item>
 					</eventEndingTime>
 					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.238ea4f7911672ec6b5a1bdb23c657ad3f62036e.002.1,2026-01-21T10:38:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.238ea4f7911672ec6b5a1bdb23c657ad3f62036e.001.1,2026-01-21T10:38:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7b294eb55df5916632cac20271dcbf1d9177145f.003.1,2026-01-21T05:27:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7b294eb55df5916632cac20271dcbf1d9177145f.001.2,2026-01-21T05:27:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5c71277deb43315a2af03c8e56b5aa87e8e355f5.001.1,2026-01-21T02:46:00-06:00</item>
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.00c4fbe0ec2486d3a8cc0c543e646730b6c81cca.001.1,2026-01-21T15:37:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.238ea4f7911672ec6b5a1bdb23c657ad3f62036e.002.1,2026-01-21T10:38:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.238ea4f7911672ec6b5a1bdb23c657ad3f62036e.001.1,2026-01-21T10:38:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7b294eb55df5916632cac20271dcbf1d9177145f.003.1,2026-01-21T05:27:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7b294eb55df5916632cac20271dcbf1d9177145f.001.2,2026-01-21T05:27:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5c71277deb43315a2af03c8e56b5aa87e8e355f5.001.1,2026-01-21T02:46:00-06:00</item>
 					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
@@ -286,128 +292,7 @@ situation.</instruction>
 				</eventCode>
 			</properties>
 		</item>
-		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f484165424314aca54d0cb88617c3eb59c5bca52.001.1</id>
-			<type type="str">Feature</type>
-			<geometry type="null"/>
-			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f484165424314aca54d0cb88617c3eb59c5bca52.001.1</key>
-				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.f484165424314aca54d0cb88617c3eb59c5bca52.001.1</id>
-				<areaDesc type="str">Jackson; Williamson; Union; Johnson; Alexander; Pulaski; Perry; Bollinger; Cape Girardeau; Wayne; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
-				<geocode type="dict">
-					<SAME type="list">
-						<item type="str">017077</item>
-						<item type="str">017199</item>
-						<item type="str">017181</item>
-						<item type="str">017087</item>
-						<item type="str">017003</item>
-						<item type="str">017153</item>
-						<item type="str">029157</item>
-						<item type="str">029017</item>
-						<item type="str">029031</item>
-						<item type="str">029223</item>
-						<item type="str">029023</item>
-						<item type="str">029207</item>
-						<item type="str">029201</item>
-						<item type="str">029133</item>
-						<item type="str">029143</item>
-					</SAME>
-					<UGC type="list">
-						<item type="str">ILZ084</item>
-						<item type="str">ILZ085</item>
-						<item type="str">ILZ088</item>
-						<item type="str">ILZ089</item>
-						<item type="str">ILZ092</item>
-						<item type="str">ILZ093</item>
-						<item type="str">MOZ076</item>
-						<item type="str">MOZ086</item>
-						<item type="str">MOZ087</item>
-						<item type="str">MOZ100</item>
-						<item type="str">MOZ109</item>
-						<item type="str">MOZ110</item>
-						<item type="str">MOZ111</item>
-						<item type="str">MOZ112</item>
-						<item type="str">MOZ114</item>
-					</UGC>
-				</geocode>
-				<affectedZones type="list">
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ089</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ093</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ109</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ110</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
-				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2026-01-21T21:18:00-06:00</sent>
-				<effective type="str">2026-01-21T21:18:00-06:00</effective>
-				<onset type="str">2026-01-21T21:18:00-06:00</onset>
-				<expires type="str">2026-01-22T01:00:00-06:00</expires>
-				<ends type="null"/>
-				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
-				<category type="str">Met</category>
-				<severity type="str">Moderate</severity>
-				<certainty type="str">Observed</certainty>
-				<urgency type="str">Expected</urgency>
-				<event type="str">Special Weather Statement</event>
-				<sender type="str">w-nws.webmaster@noaa.gov</sender>
-				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Special Weather Statement issued January 21 at 9:18PM CST by NWS Paducah KY</headline>
-				<description type="str">Patchy dense fog can be expected across much of southeast
-Missouri and southwest Illinois until just after midnight,
-reducing visibilities to around a quarter mile or less.
-Visibilities should gradually improve late tonight.
-
-If traveling, please remember to slow down, use your low-beam
-headlights and allow extra time to reach your destination. Be
-prepared for sudden drops in visibility.</description>
-				<instruction type="null"/>
-				<response type="str">Execute</response>
-				<parameters type="dict">
-					<AWIPSidentifier type="list">
-						<item type="str">SPSPAH</item>
-					</AWIPSidentifier>
-					<WMOidentifier type="list">
-						<item type="str">WWUS83 KPAH 220318</item>
-					</WMOidentifier>
-					<NWSheadline type="list">
-						<item type="str">Patchy dense fog expected across southeast Missouri and southwest Illinois</item>
-					</NWSheadline>
-					<BLOCKCHANNEL type="list">
-						<item type="str">EAS</item>
-						<item type="str">NWEM</item>
-						<item type="str">CMAS</item>
-					</BLOCKCHANNEL>
-					<EAS-ORG type="list">
-						<item type="str">WXR</item>
-					</EAS-ORG>
-				</parameters>
-				<scope type="str">Public</scope>
-				<code type="str">IPAWSv1.0</code>
-				<language type="str">en-US</language>
-				<web type="str">http://www.weather.gov</web>
-				<eventCode type="dict">
-					<SAME type="list">
-						<item type="str">SPS</item>
-					</SAME>
-					<NationalWeatherService type="list">
-						<item type="str">SPS</item>
-					</NationalWeatherService>
-				</eventCode>
-			</properties>
-		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-01-22T03:36:08+00:00</updated>
+	<updated type="str">2026-01-22T07:23:03+00:00</updated>
 </all>
