@@ -1,21 +1,43 @@
 <p>
-   <h2>Winter Storm Watch issued January 22 at 1:22AM CST until January 25 at 12:00PM CST by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...Heavy mixed precipitation is possible in southern portions
-      of west Kentucky, with heavy snow possible across the rest of west
-      Kentucky, southeast Missouri, southern Illinois and southwest
-      Indiana. Total snow accumulations between 7 and 13 inches, and ice
-      accumulations around a light glaze possible.
+   <h2>Winter Storm Warning issued January 22 at 12:29PM CST until January 25 at 6:00PM CST by NWS Paducah KY</h2>
+   <div style="font-size:120%">...MAJOR WINTER STORM EXPECTED TO IMPACT THE REGION...
       
-      * WHERE...Portions of southern Illinois, southwest Indiana, western
+      .Snow is expected to begin overnight Friday night, periods of sleet
+      will mix in over western Kentucky and far southeast Missouri. The
+      majority of the event is expected to persist at heavy snow through
+      Sunday afternoon.
+      
+      * WHAT...Heavy snow. A band of 8 to 13 inch accumulations peaking
+      roughly from around Poplar Bluff, MO to Paducah and Marion
+      northeastward to Evansville and Owensboro. 6 to 10 inches in other
+      locations across southern Illinois and far southwest Kentucky.
+      Periods of heavy sleet in far southeast Missouri and western
+      Kentucky with freezing rain mixed in. Some sleet accumulation and
+      up to a light glaze of freezing rain.
+      
+      * WHERE...All of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
       
-      * WHEN...From late Friday night through Sunday morning.
+      * WHEN...From midnight CST /1 AM EST/ Friday Night to 6 PM CST /7 PM
+      EST/ Sunday.
       
-      * IMPACTS...Travel could be very difficult.
+      * IMPACTS...Roads, and especially bridges and overpasses, will
+      likely become slick and hazardous. Travel could be very difficult.
+   </div>
+</p>
+<p>
+   <h2>Cold Weather Advisory issued January 22 at 12:00PM CST until January 25 at 6:00PM CST by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Very cold wind chills as low as 10 below expected.
       
-      * ADDITIONAL DETAILS...Prolonged cold is also expected between
-      Friday and Monday. Wind chills Friday night could be as low as -10
-      degrees across the north and -5 across the south.  Sunday night
-      wind chills will range from -7 degrees to -12 degrees.
+      * WHERE...All ofsouthern Illinois, southwest Indiana, western
+      Kentucky, and southeast Missouri.
+      
+      * WHEN...From 6 PM CST /7 PM EST/ Friday to 6 PM CST /7 PM EST/
+      Sunday.
+      
+      * IMPACTS...The cold wind chills as low as 10 below zero could
+      result in hypothermia if precautions are not taken. Frostbite and
+      hypothermia will occur if unprotected skin is exposed to these
+      temperatures. The winter storm will exacerbate these dangers.
    </div>
 </p>
