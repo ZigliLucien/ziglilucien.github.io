@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a3abfd1c6ab11d211c2df6aaf7f00813a2c78eab.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a5de2d70f37ab57163bb296f7cb5c5f612d345e.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a3abfd1c6ab11d211c2df6aaf7f00813a2c78eab.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a5de2d70f37ab57163bb296f7cb5c5f612d345e.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.a3abfd1c6ab11d211c2df6aaf7f00813a2c78eab.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.8a5de2d70f37ab57163bb296f7cb5c5f612d345e.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,22 +203,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dde2957f36e85504fc6c112cde50caab40626542.001.2</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.dde2957f36e85504fc6c112cde50caab40626542.001.2</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a3abfd1c6ab11d211c2df6aaf7f00813a2c78eab.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.a3abfd1c6ab11d211c2df6aaf7f00813a2c78eab.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-01-22T11:58:00-06:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a08df5a17d991f042b9f96a68de7bd25841ce3c1.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.a08df5a17d991f042b9f96a68de7bd25841ce3c1.001.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-01-22T12:29:00-06:00</sent>
+						<sent type="str">2026-01-22T21:51:00-06:00</sent>
 					</item>
 				</references>
-				<sent type="str">2026-01-22T21:51:00-06:00</sent>
-				<effective type="str">2026-01-22T21:51:00-06:00</effective>
+				<sent type="str">2026-01-23T01:18:00-06:00</sent>
+				<effective type="str">2026-01-23T01:18:00-06:00</effective>
 				<onset type="str">2026-01-24T00:00:00-06:00</onset>
-				<expires type="str">2026-01-23T04:00:00-06:00</expires>
+				<expires type="str">2026-01-23T15:00:00-06:00</expires>
 				<ends type="str">2026-01-25T18:00:00-06:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -229,8 +223,15 @@
 				<event type="str">Winter Storm Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Winter Storm Warning issued January 22 at 9:51PM CST until January 25 at 6:00PM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heavy snow. A band of 8 to 13 inch accumulations peaking
+				<headline type="str">Winter Storm Warning issued January 23 at 1:18AM CST until January 25 at 6:00PM CST by NWS Paducah KY</headline>
+				<description type="str">...MAJOR WINTER STORM EXPECTED TO IMPACT THE REGION...
+
+.Snow is expected to begin overnight tonight, periods of sleet will
+mix in over western Kentucky and far southeast Missouri. The
+majority of the event is expected to persist at heavy snow through
+Sunday afternoon.
+
+* WHAT...Heavy snow. A band of 8 to 13 inch accumulations peaking
 roughly from around Poplar Bluff, MO to Paducah and Marion
 northeastward to Evansville and Owensboro. 6 to 10 inches in other
 locations across southern Illinois and far southwest Kentucky.
@@ -241,12 +242,11 @@ up to a light glaze of freezing rain.
 * WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From midnight CST /1 AM EST/ Friday Night to 6 PM CST /7 PM
-EST/ Sunday.
+* WHEN...From midnight CST /1 AM EST/ tonight to 6 PM CST /7 PM EST/
+Sunday.
 
-* IMPACTS...Roads, and especially bridges and overpasses, will
-likely become slick and hazardous. Travel could be very difficult
-to impossible.</description>
+* IMPACTS...Travel could be very difficult and may become impossible
+at times. Extreme cold will exacerbate the danger.</description>
 				<instruction type="str">If you must travel, keep an extra flashlight, food, and water in
 your vehicle in case of an emergency. The latest road conditions can
 be obtained by visiting www.weather.gov/pah/roads
@@ -259,10 +259,10 @@ extreme caution if travel is absolutely necessary.</instruction>
 						<item type="str">WSWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS43 KPAH 230351</item>
+						<item type="str">WWUS43 KPAH 230718</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WINTER STORM WARNING REMAINS IN EFFECT FROM MIDNIGHT CST /1 AM EST/ FRIDAY NIGHT TO 6 PM CST /7 PM EST/ SUNDAY</item>
+						<item type="str">WINTER STORM WARNING REMAINS IN EFFECT FROM MIDNIGHT CST /1 AM EST/ TONIGHT TO 6 PM CST /7 PM EST/ SUNDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -278,6 +278,9 @@ extreme caution if travel is absolutely necessary.</instruction>
 					<eventEndingTime type="list">
 						<item type="str">2026-01-25T18:00:00-06:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a08df5a17d991f042b9f96a68de7bd25841ce3c1.001.1,2026-01-22T12:29:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dde2957f36e85504fc6c112cde50caab40626542.001.2,2026-01-22T11:58:00-06:00</item>
+					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -294,13 +297,13 @@ extreme caution if travel is absolutely necessary.</instruction>
 			</properties>
 		</item>
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d2acb6ac815115d1e4e40f3e26afd08cd48bb117.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46688d4c73054352b69a10f1b16d8633f1ed3df7.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d2acb6ac815115d1e4e40f3e26afd08cd48bb117.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46688d4c73054352b69a10f1b16d8633f1ed3df7.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.d2acb6ac815115d1e4e40f3e26afd08cd48bb117.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.46688d4c73054352b69a10f1b16d8633f1ed3df7.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -486,17 +489,17 @@ extreme caution if travel is absolutely necessary.</instruction>
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bebd8c67beb217aac090f3adfb52a8cc2b9b3172.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.bebd8c67beb217aac090f3adfb52a8cc2b9b3172.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d2acb6ac815115d1e4e40f3e26afd08cd48bb117.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.d2acb6ac815115d1e4e40f3e26afd08cd48bb117.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-01-22T12:00:00-06:00</sent>
+						<sent type="str">2026-01-22T21:40:00-06:00</sent>
 					</item>
 				</references>
-				<sent type="str">2026-01-22T21:40:00-06:00</sent>
-				<effective type="str">2026-01-22T21:40:00-06:00</effective>
+				<sent type="str">2026-01-23T01:13:00-06:00</sent>
+				<effective type="str">2026-01-23T01:13:00-06:00</effective>
 				<onset type="str">2026-01-23T18:00:00-06:00</onset>
-				<expires type="str">2026-01-23T04:00:00-06:00</expires>
-				<ends type="str">2026-01-25T18:00:00-06:00</ends>
+				<expires type="str">2026-01-23T15:00:00-06:00</expires>
+				<ends type="str">2026-01-24T13:00:00-06:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
@@ -506,19 +509,20 @@ extreme caution if travel is absolutely necessary.</instruction>
 				<event type="str">Cold Weather Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Cold Weather Advisory issued January 22 at 9:40PM CST until January 25 at 6:00PM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Very cold wind chills as low as 10 below expected.
+				<headline type="str">Cold Weather Advisory issued January 23 at 1:13AM CST until January 24 at 1:00PM CST by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Very cold wind chills between 2 to 12 below zero are
+expected.
 
 * WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From 6 PM CST /7 PM EST/ Friday to 6 PM CST /7 PM EST/
-Sunday.
+* WHEN...From 6 PM CST /7 PM EST/ this evening to 1 PM CST /2 PM
+EST/ Saturday.
 
-* IMPACTS...The cold wind chills as low as 10 below zero could
+* IMPACTS...The cold wind chills as low as 12 below zero could
 result in hypothermia if precautions are not taken. Frostbite and
 hypothermia will occur if unprotected skin is exposed to these
-temperatures.</description>
+temperatures. The winter storm will exacerbate these dangers.</description>
 				<instruction type="str">Use caution while traveling outside. Wear appropriate clothing, a
 hat, and gloves.</instruction>
 				<response type="str">Prepare</response>
@@ -527,10 +531,10 @@ hat, and gloves.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 230340</item>
+						<item type="str">WWUS73 KPAH 230713</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">COLD WEATHER ADVISORY REMAINS IN EFFECT FROM 6 PM CST /7 PM EST/ FRIDAY TO 6 PM CST /7 PM EST/ SUNDAY</item>
+						<item type="str">COLD WEATHER ADVISORY NOW IN EFFECT FROM 6 PM CST /7 PM EST/ THIS EVENING TO 1 PM CST /2 PM EST/ SATURDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -538,11 +542,14 @@ hat, and gloves.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.CW.Y.0001.260124T0000Z-260126T0000Z/</item>
+						<item type="str">/O.EXT.KPAH.CW.Y.0001.260124T0000Z-260124T1900Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
-						<item type="str">2026-01-25T18:00:00-06:00</item>
+						<item type="str">2026-01-24T13:00:00-06:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bebd8c67beb217aac090f3adfb52a8cc2b9b3172.001.1,2026-01-22T12:00:00-06:00</item>
+					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -560,5 +567,5 @@ hat, and gloves.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-01-23T03:52:06+00:00</updated>
+	<updated type="str">2026-01-23T07:18:58+00:00</updated>
 </all>
