@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Partly sunny. High near 19, with temperatures falling to around 12 in the afternoon. Wind chill values as low as -3. North
-         northeast wind 5 to 16 mph, with gusts as high as 26 mph.<br></div>
+         northeast wind 12 to 16 mph, with gusts as high as 25 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
