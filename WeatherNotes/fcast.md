@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Mostly sunny. High near 20, with temperatures falling to around 14 in the afternoon. Wind chill values as low as -1. North
-         wind around 15 mph, with gusts as high as 22 mph.<br></div>
+         wind around 14 mph, with gusts as high as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
