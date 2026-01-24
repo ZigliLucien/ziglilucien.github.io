@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-24T07:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-01-24T06:32:21+00:00</updateTime>
-		<validTimes type="str">2026-01-24T00:00:00+00:00/P8DT1H</validTimes>
+		<generatedAt type="str">2026-01-24T09:36:05+00:00</generatedAt>
+		<updateTime type="str">2026-01-24T09:06:34+00:00</updateTime>
+		<validTimes type="str">2026-01-24T03:00:00+00:00/P7DT22H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-01-24T01:00:00-06:00</startTime>
+				<startTime type="str">2026-01-24T03:00:00-06:00</startTime>
 				<endTime type="str">2026-01-24T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">5</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">14</value>
+					<value type="int">15</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">13 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/cold?size=medium</icon>
-				<shortForecast type="str">Cloudy</shortForecast>
-				<detailedForecast type="str">Cloudy, with a low around 5. Wind chill values as low as -12. North northeast wind around 13 mph, with gusts as high as 23 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Light Snow</shortForecast>
+				<detailedForecast type="str">A slight chance of snow after 5am. Cloudy, with a low around 5. Wind chill values as low as -12. North northeast wind around 13 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -85,7 +85,7 @@
 				<windDirection type="str">NE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/snow,60/snow,100?size=medium</icon>
 				<shortForecast type="str">Snow</shortForecast>
-				<detailedForecast type="str">Snow after 7am. Cloudy, with a high near 14. Wind chill values as low as -10. Northeast wind around 12 mph, with gusts as high as 22 mph. Chance of precipitation is 100%. New snow accumulation of 2 to 4 inches possible.</detailedForecast>
+				<detailedForecast type="str">Snow. Cloudy, with a high near 14. Wind chill values as low as -10. Northeast wind around 12 mph, with gusts as high as 22 mph. Chance of precipitation is 100%. New snow accumulation of 2 to 4 inches possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
