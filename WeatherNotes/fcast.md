@@ -2,11 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Mostly sunny. High near 20, with temperatures falling to around 14 in the afternoon. Wind chill values as low as -1. North
-         wind around 14 mph, with gusts as high as 22 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>A chance of snow after 3am. Mostly cloudy, with a low around 7. Wind chill values as low as -6. North northeast wind 9 to
          13 mph, with gusts as high as 22 mph. Chance of precipitation is 30%.<br></div>
    </p>
@@ -17,13 +12,14 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Snow. Cloudy, with a low around 12. Wind chill values as low as 0. North northeast wind around 12 mph, with gusts as high
-         as 20 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 5 inches possible.<br></div>
+         <h3>Saturday Night</h3>Snow. Cloudy. Low around 12, with temperatures rising to around 14 overnight. Wind chill values as low as 0. North northeast
+         wind around 12 mph, with gusts as high as 20 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 5 inches
+         possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Snow. Cloudy, with a high near 15. North wind around 14 mph, with gusts as high as 24 mph. Chance of precipitation is 90%.
-         New snow accumulation of 2 to 4 inches possible.<br></div>
+         <h3>Sunday</h3>Snow. Cloudy, with a high near 15. Wind chill values as low as -2. North wind around 14 mph, with gusts as high as 24 mph.
+         Chance of precipitation is 90%. New snow accumulation of 2 to 4 inches possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +57,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday Night</h3>Partly cloudy, with a low around 4. North northwest wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday</h3>Mostly sunny, with a high near 19. North northwest wind around 6 mph.<br></div>
    </p>
 </div>
