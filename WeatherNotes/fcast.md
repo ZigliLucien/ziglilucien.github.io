@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A slight chance of snow after 5am. Cloudy, with a low around 5. Wind chill values as low as -12. North northeast wind around
-         13 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Overnight</h3>A slight chance of snow. Cloudy. Low around 5, with temperatures rising to around 7 overnight. Wind chill values as low as
+         -5. Northeast wind around 7 mph, with gusts as high as 22 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
