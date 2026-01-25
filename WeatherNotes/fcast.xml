@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-25T04:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-01-25T02:17:15+00:00</updateTime>
-		<validTimes type="str">2026-01-24T20:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2026-01-25T05:36:04+00:00</generatedAt>
+		<updateTime type="str">2026-01-25T05:22:33+00:00</updateTime>
+		<validTimes type="str">2026-01-24T23:00:00+00:00/P7DT5H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,10 +52,10 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2026-01-24T22:00:00-06:00</startTime>
+				<startTime type="str">2026-01-24T23:00:00-06:00</startTime>
 				<endTime type="str">2026-01-25T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">12</temperature>
+				<temperature type="int">11</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -66,7 +66,7 @@
 				<windDirection type="str">NNE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/snow,100?size=medium</icon>
 				<shortForecast type="str">Heavy Snow</shortForecast>
-				<detailedForecast type="str">Snow. Cloudy, with a low around 12. Wind chill values as low as -1. North northeast wind 8 to 12 mph, with gusts as high as 20 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 7 inches possible.</detailedForecast>
+				<detailedForecast type="str">Snow. Cloudy, with a low around 11. Wind chill values as low as -2. North northeast wind 8 to 12 mph, with gusts as high as 23 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 7 inches possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -74,18 +74,18 @@
 				<startTime type="str">2026-01-25T06:00:00-06:00</startTime>
 				<endTime type="str">2026-01-25T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">17</temperature>
+				<temperature type="int">14</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">97</value>
+					<value type="int">100</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">13 to 16 mph</windSpeed>
+				<windSpeed type="str">12 to 15 mph</windSpeed>
 				<windDirection type="str">N</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/snow,100/snow,70?size=medium</icon>
-				<shortForecast type="str">Snow</shortForecast>
-				<detailedForecast type="str">Snow before 5pm. Cloudy, with a high near 17. Wind chill values as low as -3. North wind 13 to 16 mph, with gusts as high as 26 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 5 inches possible.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/snow,100/snow,60?size=medium</icon>
+				<shortForecast type="str">Heavy Snow</shortForecast>
+				<detailedForecast type="str">Snow before 5pm. Cloudy, with a high near 14. Wind chill values as low as -5. North wind 12 to 15 mph, with gusts as high as 28 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 5 inches possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -93,18 +93,18 @@
 				<startTime type="str">2026-01-25T18:00:00-06:00</startTime>
 				<endTime type="str">2026-01-26T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">-2</temperature>
+				<temperature type="int">-3</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">12</value>
+					<value type="int">2</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">10 to 16 mph</windSpeed>
-				<windDirection type="str">NNW</windDirection>
+				<windSpeed type="str">8 to 14 mph</windSpeed>
+				<windDirection type="str">NW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/cold?size=medium</icon>
-				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around -2. Wind chill values as low as -17. North northwest wind 10 to 16 mph, with gusts as high as 26 mph. New snow accumulation of less than half an inch possible.</detailedForecast>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around -3. Wind chill values as low as -17. Northwest wind 8 to 14 mph, with gusts as high as 26 mph. New snow accumulation of less than half an inch possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>

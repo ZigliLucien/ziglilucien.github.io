@@ -2,18 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Snow. Cloudy, with a low around 12. Wind chill values as low as -1. North northeast wind 8 to 12 mph, with gusts as high as
-         20 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 7 inches possible.<br></div>
+         <h3>Tonight</h3>Snow. Cloudy, with a low around 11. Wind chill values as low as -2. North northeast wind 8 to 12 mph, with gusts as high as
+         23 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 7 inches possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Snow before 5pm. Cloudy, with a high near 17. Wind chill values as low as -3. North wind 13 to 16 mph, with gusts as high
-         as 26 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 5 inches possible.<br></div>
+         <h3>Sunday</h3>Snow before 5pm. Cloudy, with a high near 14. Wind chill values as low as -5. North wind 12 to 15 mph, with gusts as high
+         as 28 mph. Chance of precipitation is 100%. New snow accumulation of 3 to 5 inches possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Partly cloudy, with a low around -2. Wind chill values as low as -17. North northwest wind 10 to 16 mph, with gusts as high
-         as 26 mph. New snow accumulation of less than half an inch possible.<br></div>
+         <h3>Sunday Night</h3>Mostly cloudy, with a low around -3. Wind chill values as low as -17. Northwest wind 8 to 14 mph, with gusts as high as 26
+         mph. New snow accumulation of less than half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
