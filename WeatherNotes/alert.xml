@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc26b70662b61b1a7c78fbb7de7a2ab07ae7c964.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d3954bff73ab90edad9c44908f0476fde6a4027.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc26b70662b61b1a7c78fbb7de7a2ab07ae7c964.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d3954bff73ab90edad9c44908f0476fde6a4027.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.dc26b70662b61b1a7c78fbb7de7a2ab07ae7c964.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.6d3954bff73ab90edad9c44908f0476fde6a4027.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,22 +203,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f9dd6d12de00e0508004470bb67269423b3cb82f.001.2</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.f9dd6d12de00e0508004470bb67269423b3cb82f.001.2</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc26b70662b61b1a7c78fbb7de7a2ab07ae7c964.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.dc26b70662b61b1a7c78fbb7de7a2ab07ae7c964.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-01-26T00:13:00-06:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb2eb740548fcd3009e8cb5ffc0139bb78116bda.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.eb2eb740548fcd3009e8cb5ffc0139bb78116bda.001.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-01-26T07:13:00-06:00</sent>
+						<sent type="str">2026-01-26T14:44:00-06:00</sent>
 					</item>
 				</references>
-				<sent type="str">2026-01-26T14:44:00-06:00</sent>
-				<effective type="str">2026-01-26T14:44:00-06:00</effective>
-				<onset type="str">2026-01-26T14:44:00-06:00</onset>
-				<expires type="str">2026-01-26T22:45:00-06:00</expires>
+				<sent type="str">2026-01-26T22:14:00-06:00</sent>
+				<effective type="str">2026-01-26T22:14:00-06:00</effective>
+				<onset type="str">2026-01-26T22:14:00-06:00</onset>
+				<expires type="str">2026-01-27T09:00:00-06:00</expires>
 				<ends type="str">2026-01-27T10:00:00-06:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -229,16 +223,16 @@
 				<event type="str">Extreme Cold Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Extreme Cold Warning issued January 26 at 2:44PM CST until January 27 at 10:00AM CST by NWS Paducah KY</headline>
+				<headline type="str">Extreme Cold Warning issued January 26 at 10:14PM CST until January 27 at 10:00AM CST by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Dangerously cold wind chills as low as 15 below.
 
-* WHERE...Portions of southern Illinois, southwest Indiana, western
+* WHERE...All of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
 * WHEN...Until 10 AM CST /11 AM EST/ Tuesday.
 
 * IMPACTS...The cold wind chills as low as 15 below zero could
-result in hypothermia and frostbite if precautions are not taken.</description>
+result in hypothermia if precautions are not taken.</description>
 				<instruction type="str">Dress in layers including a hat, face mask, and gloves if you must
 go outside.
 
@@ -251,7 +245,7 @@ inside.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 262044</item>
+						<item type="str">WWUS73 KPAH 270414</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">EXTREME COLD WARNING REMAINS IN EFFECT UNTIL 10 AM CST /11 AM EST/ TUESDAY</item>
@@ -268,7 +262,7 @@ inside.</instruction>
 						<item type="str">2026-01-27T10:00:00-06:00</item>
 					</eventEndingTime>
 					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.153fed12dc748ec5f927de14774f423d04f4dfd8.001.1,2026-01-25T13:42:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.44843b3f16075ed9333ba14e514b5c1c1515ca3c.001.1,2026-01-25T00:26:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9a53db55e614a34321aa0a0cf31e57a982e8a2e2.001.1,2026-01-24T10:12:00-06:00</item>
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f9dd6d12de00e0508004470bb67269423b3cb82f.001.2,2026-01-26T00:13:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.eb2eb740548fcd3009e8cb5ffc0139bb78116bda.001.1,2026-01-26T07:13:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.153fed12dc748ec5f927de14774f423d04f4dfd8.001.1,2026-01-25T13:42:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.44843b3f16075ed9333ba14e514b5c1c1515ca3c.001.1,2026-01-25T00:26:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9a53db55e614a34321aa0a0cf31e57a982e8a2e2.001.1,2026-01-24T10:12:00-06:00</item>
 					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
@@ -287,5 +281,5 @@ inside.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-01-26T20:45:05+00:00</updated>
+	<updated type="str">2026-01-27T04:14:50+00:00</updated>
 </all>
