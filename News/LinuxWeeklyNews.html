@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1056209/" title="See Description">A critical GnuPG security update</a></li>
+<li><a href="#https://lwn.net/Articles/1056206/" title="See Description">The GNU C Library is moving from Sourceware</a></li>
+<li><a href="#https://lwn.net/Articles/1055559/" title="See Description">[$] Implicit arguments for BPF kfuncs</a></li>
 <li><a href="#https://lwn.net/Articles/1056159/" title="See Description">Xfwl4: the roadmap for a Xfce Wayland compositor</a></li>
 <li><a href="#https://lwn.net/Articles/1056158/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1055053/" title="See Description">[$] Fedora and GPG 2.5</a></li>
@@ -50,12 +53,77 @@
 <li><a href="#https://lwn.net/Articles/1055672/" title="See Description">Two new stable kernels for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1055671/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1049295/" title="See Description">[$] Linux Kernel Runtime Guard reaches its 1.0 release</a></li>
-<li><a href="#https://lwn.net/Articles/1055485/" title="See Description">30 years of ReactOS</a></li>
-<li><a href="#https://lwn.net/Articles/1055487/" title="See Description">Rust 1.93.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1055484/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1056209/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 27 Jan 2026 17:31:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056209/" title="https://lwn.net/Articles/1056209/">A critical GnuPG security update</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>There is a new GnuPG update for a "<q>critical security bug</q>" in recent
+GnuPG releases.
+<p>
+<blockquote class="bq">
+	A crafted CMS (S/MIME) EnvelopedData message carrying an oversized
+	wrapped session key can cause a stack buffer overflow in gpg-agent
+	during the PKDECRYPT--kem=CMS handling.  This can easily be used
+	for a DoS but, worse, the memory corruption can very likley also be
+	used to mount a remote code execution attack.  The bug was
+	introduced while changing an internal API to the FIPS required KEM
+	API.
+</blockquote>
+<p>
+Only versions 2.5.13 through 2.5.16 are affected.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1056206/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 27 Jan 2026 16:58:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056206/" title="https://lwn.net/Articles/1056206/">The GNU C Library is moving from Sourceware</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>GNU C Library maintainer Carlos O'Donell has <a
+href="https://lwn.net/ml/all/287f1496-8f87-4ed3-a18b-3cb8c52c2ab3@redhat.com">announced</a>
+that the project will be moving its core services away from <a
+href="https://sourceware.org/">Sourceware</a> in favor of services hosted
+at the Linux Foundation.
+<p>
+<blockquote class="bq">
+	While it was clear to the GNU Toolchain leadership that
+	requirements were coming to improve the toolchain cyber-security
+	posture, these requirements were not clear to all project
+	developers. As part of receiving this feedback we have worked to
+	document and define a secure development policy for glibc and at a
+	higher level the GNU Toolchain.  While Sourceware has started
+	making some critical technical changes, the GNU Toolchain still
+	faces serious, systemic concerns about securing a global, highly
+	available service and building a sustainable, diverse sponsorship
+	model.
+</blockquote>
+<p>
+This has been a long-running discussion; see <a
+href="https://lwn.net/Articles/908638/">this 2022 article</a> for some background.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1055559/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 27 Jan 2026 15:41:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055559/" title="https://lwn.net/Articles/1055559/">[$] Implicit arguments for BPF kfuncs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's "kfunc" mechanism is a way of exporting kernel functions so
+that they can be called directly from BPF programs.  There are over 300
+kfuncs in current kernels, ranging in functionality from string processing
+(<a
+href="https://elixir.bootlin.com/linux/v6.18.6/source/kernel/bpf/helpers.c#L3550"><tt>bpf_strnlen()</tt></a>)
+to custom schedulers (<a
+href="https://elixir.bootlin.com/linux/v6.18.6/source/kernel/sched/ext.c#L6024"><tt>scx_bpf_kick_cpu()</tt></a>)
+and beyond.  Sometimes these kfuncs need access to context information that
+is not directly available to BPF programs, and which thus cannot be passed
+in as arguments.  The <a
+href="https://lwn.net/ml/all/20260116201700.864797-1-ihor.solodrai@linux.dev">implicit
+arguments patch set</a> from Ihor Solodrai is the latest attempt to solve
+this problem.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1056159/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 27 Jan 2026 14:20:10 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,55 +358,6 @@ initial release in 2018</a>. In September
 the 1.0 version. With the promises of stability that version brings, users might want more
 information to decide whether to include it in their kernel.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1055485/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 Jan 2026 14:28:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055485/" title="https://lwn.net/Articles/1055485/">30 years of ReactOS</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://reactos.org/">ReactOS</a>, an open-source project
-to develop an operating system that is compatible with Microsoft
-Windows NT applications and drivers, is <a
-href="https://reactos.org/blogs/30yrs-of-ros/">celebrating 30
-years</a> since the first commit to its source tree. In that time
-there have been more than 88,000 commits from 301 contributors, for a
-total of 14,929,578 lines of code. There is, of course, much left to
-do.</p>
-
-<blockquote class="bq">
-<p>It's been such a long journey that many of our contributors today,
-including myself, were not alive during this event. Yet our mission to
-deliver "your favorite Windows apps and drivers in an open-source
-environment you can trust" continues to bring people together. [...]</p>
-
-<p>We're continuing to move ReactOS forward. Behind the scenes there are
-several out-of-tree projects in development. Some of these exciting
-projects include a new build environment for developers (RosBE), a new
-NTFS driver, a new ATA driver, multi-processor (SMP) support, support
-for class 3 UEFI systems, kernel and usermode address space layout
-randomization (ASLR), and support for modern GPU drivers built on
-WDDM.</p>
-</blockquote>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1055487/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 Jan 2026 14:25:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055487/" title="https://lwn.net/Articles/1055487/">Rust 1.93.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2026/01/22/Rust-1.93.0/">Version
-1.93.0</a> of the Rust programming language has been released.  Notable
-changes include in updated version of the bundled musl library,
-thread-local storage for the global allocator, some <tt>asm!</tt>
-improvements, and a number of newly stabilized APIs.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1055484/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 Jan 2026 14:17:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055484/" title="https://lwn.net/Articles/1055484/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gpsd), <b>Debian</b> (inetutils and modsecurity-crs), <b>Fedora</b> (cpp-httplib, curl, mariadb11.8, mingw-libtasn1, mingw-libxslt, mingw-python3, rclone, and rpki-client), <b>Oracle</b> (gimp, glib2, go-toolset:rhel8, golang, kernel, mariadb-devel:10.3, and thunderbird), <b>Red Hat</b> (buildah, go-toolset:rhel8, golang, grafana, kernel, kernel-rt, multiple packages, openssl, osbuild-composer, podman, and skopeo), <b>Slackware</b> (bind), <b>SUSE</b> (ffmpeg-4, libsodium, libvirt, net-snmp, open-vm-tools, ovmf, postgresql17, postgresql18, python-FontTools, python-weasyprint, and webkit2gtk3), and <b>Ubuntu</b> (glib2.0 and opencc).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
