@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1056159/" title="See Description">Xfwl4: the roadmap for a Xfce Wayland compositor</a></li>
+<li><a href="#https://lwn.net/Articles/1056158/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1055053/" title="See Description">[$] Fedora and GPG 2.5</a></li>
 <li><a href="#https://lwn.net/Articles/1055996/" title="See Description">Stenberg: The end of the curl bug-bounty program</a></li>
 <li><a href="#https://lwn.net/Articles/1055958/" title="See Description">Security updates for Monday</a></li>
@@ -51,11 +53,53 @@
 <li><a href="#https://lwn.net/Articles/1055485/" title="See Description">30 years of ReactOS</a></li>
 <li><a href="#https://lwn.net/Articles/1055487/" title="See Description">Rust 1.93.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1055484/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1054411/" title="See Description">[$] LWN.net Weekly Edition for January 22, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1054228/" title="See Description">[$] Cleanup on aisle fsconfig()</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1056159/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 27 Jan 2026 14:20:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056159/" title="https://lwn.net/Articles/1056159/">Xfwl4: the roadmap for a Xfce Wayland compositor</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Xfce team has <a
+href="https://alexxcons.github.io/blogpost_15.html">announced</a> that
+it will be providing funding to Brian Tarricone to work on <a
+href="https://gitlab.xfce.org/kelnos/xfwl4#xfwl4-xfces-wayland-compositor">xfwl4</a>,
+a Wayland compositor for Xfce:</p>
+
+<blockquote class="bq">
+<p>Xfwl4 will not be based on the existing xfwm4 code. Instead, it
+will be written from scratch in rust, using smithay building
+blocks.</p>
+
+<p>The first attempt at creating an Xfce Wayland compositor involved
+modifying the existing xfwm4 code to support both X11 and Wayland in
+parallel. However, this approach turned out to be the wrong path
+forward for several reasons:</p>
+
+<p>
+<ul class="spacylist">
+    <li>Xfwm4 is architected in a way that makes it very difficult to put the window management behavior behind generic interfaces that don't include X11 specifics.</li>
+    <li>Refactoring Xfwm4 is risky, since it might introduce new bugs to X11. Having two parallel code bases will allow for rapid development and experimentation with the Wayland compositor, with zero risk to break xfwm4.</li>
+    <li>Some X11 window management concepts just aren't available or supported by Wayland protocols at this time, and dealing with those differences can be difficult in an X11-first code base.</li>
+    <li>Using the existing codebase would require us to use C and
+    wlroots, even if a better alternative is available.</li>
+</ul>
+</p>
+</blockquote>
+
+<p>Work has already commenced on the project, and the project hopes to
+share a development release in mid-2026.</p>
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1056158/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 27 Jan 2026 14:07:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056158/" title="https://lwn.net/Articles/1056158/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, python-urllib3, python3.11-urllib3, and python3.12-urllib3), <b>Debian</b> (imagemagick, openjdk-11, openjdk-17, and openjdk-21), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, ghostscript, glibc, mingw-glib2, mingw-harfbuzz, mingw-libsoup, mingw-openexr, and qownnotes), <b>Mageia</b> (kernel-linus), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (go1.24-openssl, go1.25-openssl, govulncheck-vulndb, kernel, nodejs22, openCryptoki, openvswitch3, python-pyasn1, python311, and qemu), and <b>Ubuntu</b> (git-lfs, node-form-data, and screen).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1055053/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 26 Jan 2026 17:28:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -295,39 +339,6 @@ improvements, and a number of newly stabilized APIs.</blockquote></blockquote></
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gpsd), <b>Debian</b> (inetutils and modsecurity-crs), <b>Fedora</b> (cpp-httplib, curl, mariadb11.8, mingw-libtasn1, mingw-libxslt, mingw-python3, rclone, and rpki-client), <b>Oracle</b> (gimp, glib2, go-toolset:rhel8, golang, kernel, mariadb-devel:10.3, and thunderbird), <b>Red Hat</b> (buildah, go-toolset:rhel8, golang, grafana, kernel, kernel-rt, multiple packages, openssl, osbuild-composer, podman, and skopeo), <b>Slackware</b> (bind), <b>SUSE</b> (ffmpeg-4, libsodium, libvirt, net-snmp, open-vm-tools, ovmf, postgresql17, postgresql18, python-FontTools, python-weasyprint, and webkit2gtk3), and <b>Ubuntu</b> (glib2.0 and opencc).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1054411/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 Jan 2026 00:47:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054411/" title="https://lwn.net/Articles/1054411/">[$] LWN.net Weekly Edition for January 22, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1054411/">Front</a>: Singularity; fsconfig(); io_uring restrictions; GPG vulnerabilities; slab allocator; AshOS.
-            <li> <a href="https://lwn.net/Articles/1054413/">Briefs</a>: Pixel exploit; telnetd exploit; OzLabs; korgalore; Firefox Nightly RPMs; Forgejo 14.0; Pandas 3.0; Wine 11.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1054414/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1054228/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 Jan 2026 18:34:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1054228/" title="https://lwn.net/Articles/1054228/">[$] Cleanup on aisle fsconfig()</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>As part of the process of writing man pages for the <a
-href="https://lwn.net/Articles/759499/">"new" mount API</a>, which has been available in the
-kernel since 2019, Aleksa Sarai encountered a number of places where the <a
-href="https://manpages.opensuse.org/Tumbleweed/man-pages/fsconfig.2.en.html"><tt>fsconfig()</tt></a>
-system call—for configuring filesystems before mounting—needs to be cleaned up.  In the 2025 Linux Plumbers Conference
-(LPC) <a href="https://lpc.events/event/19/contributions/2239/">session</a> 
-that he led, Sarai wanted to discuss some of the problems he found,
-including at least one with security implications.  The idea of the session
-was for him to describe the various bugs and ambiguities that he had found,
-but he also wanted attendees to raise other problems they had with the
-system call.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
