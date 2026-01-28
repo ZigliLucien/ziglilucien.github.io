@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 29, with temperatures falling to around 27 in the afternoon. West southwest wind around 5 mph.<br></div>
+         <h3>This Afternoon</h3>Sunny. High near 31, with temperatures falling to around 27 in the afternoon. Southwest wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -14,16 +14,16 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A slight chance of snow showers. Mostly cloudy, with a low around 10. North northeast wind around 6 mph. Chance of precipitation
-         is 20%.<br></div>
+         <h3>Thursday Night</h3>A chance of snow showers. Mostly cloudy, with a low around 12. North northeast wind around 6 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Partly sunny, with a high near 19. North wind 6 to 10 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Friday</h3>Partly sunny, with a high near 21. North wind 6 to 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Mostly cloudy, with a low around 3. North northwest wind around 10 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Friday Night</h3>Mostly cloudy, with a low around 6. North northwest wind around 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -31,7 +31,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Partly cloudy, with a low around 2. Northwest wind 3 to 7 mph.<br></div>
+         <h3>Saturday Night</h3>Partly cloudy, with a low around 4. Northwest wind 3 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -47,15 +47,15 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Partly cloudy, with a low around 19. Southwest wind around 3 mph.<br></div>
+         <h3>Monday Night</h3>Partly cloudy, with a low around 21. Southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Mostly cloudy, with a high near 35. South southwest wind around 6 mph.<br></div>
+         <h3>Tuesday</h3>Mostly cloudy, with a high near 37. South southwest wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tuesday Night</h3>A chance of rain showers before midnight, then a chance of snow showers. Mostly cloudy, with a low around 27. South wind around
-         6 mph. New snow accumulation of less than half an inch possible. New ice accumulation of less than half an inch possible.<br></div>
+         6 mph. New ice accumulation of less than half an inch possible.<br></div>
    </p>
 </div>
