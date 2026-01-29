@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1056593/" title="See Description">A proposed governance structure for openSUSE</a></li>
+<li><a href="#https://lwn.net/Articles/1056014/" title="See Description">[$] Sub-schedulers for sched_ext</a></li>
 <li><a href="#https://lwn.net/Articles/1056544/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1055441/" title="See Description">[$] LWN.net Weekly Edition for January 29, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1056384/" title="See Description">Mourning Didier Spaier</a></li>
@@ -51,11 +53,50 @@
 <li><a href="#https://lwn.net/Articles/1055559/" title="See Description">[$] Implicit arguments for BPF kfuncs</a></li>
 <li><a href="#https://lwn.net/Articles/1056159/" title="See Description">Xfwl4: the roadmap for a Xfce Wayland compositor</a></li>
 <li><a href="#https://lwn.net/Articles/1056158/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1055053/" title="See Description">[$] Fedora and GPG 2.5</a></li>
-<li><a href="#https://lwn.net/Articles/1055996/" title="See Description">Stenberg: The end of the curl bug-bounty program</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1056593/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 29 Jan 2026 15:44:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056593/" title="https://lwn.net/Articles/1056593/">A proposed governance structure for openSUSE</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://en.opensuse.org/User:Jeff_mahoney">Jeff Mahoney</a>, who
+holds a vice-president position at SUSE, has posted <a
+href="https://lwn.net/ml/all/570f67b7-bd58-41cb-8027-3eec220752b5@suse.com">a detailed
+proposal</a> for improving the governance of the openSUSE project.
+<p>
+<blockquote class="bq">
+	It's meant to be a way to move from governance by volume or
+	persistence toward governance by legitimacy, transparency, and
+	process - so that disagreements can be resolved fairly and the
+	project can keep moving forward.  Introducing structure and
+	predictability means it easier for newcomers to the project to
+	participate without needing to understand decades of accumulated
+	history.  It potentially could provide a clearer roadmap for
+	developers to find a place to contribute.
+</blockquote>
+<p>
+The stated purpose is to start a discussion; this is openSUSE, so he is
+likely to succeed.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1056014/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 29 Jan 2026 15:36:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056014/" title="https://lwn.net/Articles/1056014/">[$] Sub-schedulers for sched_ext</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/922405/">extensible scheduler class</a> (sched_ext)
+allows the installation of a custom CPU scheduler built as a set of BPF
+programs.  Its merging for the 6.12 kernel release moved the kernel away
+from the "one scheduler fits all" approach that had been taken until then;
+now any system can have its own scheduler optimized for its workloads.
+Within any given machine, though, it's still "one scheduler fits all"; only
+one scheduler can be loaded for the system as a whole.  The <a
+href="https://lwn.net/ml/all/20260121231140.832332-1-tj@kernel.org">sched_ext
+sub-scheduler patch series</a> from Tejun Heo aims to change that situation
+by allowing multiple CPU schedulers to run on a single system.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1056544/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 29 Jan 2026 14:33:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -322,58 +363,6 @@ share a development release in mid-2026.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, python-urllib3, python3.11-urllib3, and python3.12-urllib3), <b>Debian</b> (imagemagick, openjdk-11, openjdk-17, and openjdk-21), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, ghostscript, glibc, mingw-glib2, mingw-harfbuzz, mingw-libsoup, mingw-openexr, and qownnotes), <b>Mageia</b> (kernel-linus), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (go1.24-openssl, go1.25-openssl, govulncheck-vulndb, kernel, nodejs22, openCryptoki, openvswitch3, python-pyasn1, python311, and qemu), and <b>Ubuntu</b> (git-lfs, node-form-data, and screen).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1055053/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 26 Jan 2026 17:28:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055053/" title="https://lwn.net/Articles/1055053/">[$] Fedora and GPG 2.5</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.gnupg.org/">GNU Privacy Guard</a> (GPG)
-project decided to break from the <a
-href="https://www.openpgp.org/">OpenPGP</a> standard for email
-encryption in 2023, and instead <a href="https://lwn.net/Articles/953797/">adopted its own</a> homegrown <a
-href="https://librepgp.org/">LibrePGP</a> specification. The GPG 2.4
-branch, the last one to adhere to OpenPGP, will be reaching the end of
-life in mid-2026. The Fedora project is currently having a discussion
-about how that affects the distribution, its users, and what to offer
-once 2.4 is no longer receiving updates.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1055996/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 26 Jan 2026 16:52:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055996/" title="https://lwn.net/Articles/1055996/">Stenberg: The end of the curl bug-bounty program</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Curl creator Daniel Stenberg has written a <a
-href="https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/">blog
-post</a> explaining why the project is ending its bug-bounty
-program, which started in April 2019:</p>
-
-<blockquote class="bq">
-<p>The never-ending slop submissions take a serious mental toll to
-manage and sometimes also a long time to debunk. Time and energy that
-is completely wasted while also hampering our will to live.</p>
-
-<p>I have also started to get the feeling that a lot of the security
-reporters submit reports with a bad faith attitude. These "helpers"
-try too hard to twist whatever they find into something horribly bad
-and a critical vulnerability, but they rarely actively contribute to
-actually improve curl. They can go to extreme efforts to argue and
-insist on their specific current finding, but not to write a fix or
-work with the team on improving curl long-term etc. I don't think we
-need more of that.</p>
-
-<p>There are these three bad trends combined that makes us take this
-step: the mind-numbing AI slop, humans doing worse than ever and the
-apparent will to poke holes rather than to help.</p>
-</blockquote>
-
-<p>Stenberg writes that he still expects "<q>the best and our most
-valued security reporters</q>" to continue informing the project when
-security vulnerabilities are discovered. The program will officially
-end on January 31, 2026.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
