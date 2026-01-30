@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1055211/" title="See Description">[$] Compiling Rust to readable C with Eurydice</a></li>
+<li><a href="#https://lwn.net/Articles/1056699/" title="See Description">The Award for Excellence in Open Source goes to Greg Kroah-Hartman</a></li>
 <li><a href="#https://lwn.net/Articles/1056693/" title="See Description">Three stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1056692/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1056593/" title="See Description">A proposed governance structure for openSUSE</a></li>
@@ -51,11 +53,58 @@
 <li><a href="#https://lwn.net/Articles/1055539/" title="See Description">[$] Who should vote in Fedora elections?</a></li>
 <li><a href="#https://lwn.net/Articles/1056330/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1056209/" title="See Description">A critical GnuPG security update</a></li>
-<li><a href="#https://lwn.net/Articles/1056206/" title="See Description">The GNU C Library is moving from Sourceware</a></li>
-<li><a href="#https://lwn.net/Articles/1055559/" title="See Description">[$] Implicit arguments for BPF kfuncs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1055211/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Jan 2026 16:09:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055211/" title="https://lwn.net/Articles/1055211/">[$] Compiling Rust to readable C with Eurydice</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+A few years ago, the only way to compile Rust code was using the rustc compiler
+with LLVM as a backend. Since then, several projects, including
+<a href="https://github.com/thepowersgang/mrustc?tab=readme-ov-file#mutabahs-rust-compiler">
+Mutabah's Rust Compiler</a> (mrustc), <a href="https://lwn.net/Articles/1040197/">GCC's Rust
+support</a> (gccrs),
+<a href="https://lwn.net/Articles/907405/#rust_codegen_gcc">
+rust_codegen_gcc</a>, and
+<a href="https://lwn.net/Articles/964735/">
+Cranelift</a> have made enormous progress
+on diversifying Rust's compiler implementations. The most recent such project,
+<a href="https://github.com/AeneasVerif/eurydice?tab=readme-ov-file#eurydice">
+Eurydice</a>, has a
+more ambitious goal: converting Rust code to clean C code. This is especially
+useful in high-assurance software, where existing verification and compliance
+tools expect C. Until such tools can be updated to work with Rust, Eurydice could
+provide a smoother transition for these projects, as well as a stepping-stone
+for environments that have a C compiler but no working Rust compiler. Eurydice
+has been used to compile some post-quantum-cryptography routines from Rust to C,
+for example.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1056699/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Jan 2026 15:26:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056699/" title="https://lwn.net/Articles/1056699/">The Award for Excellence in Open Source goes to Greg Kroah-Hartman</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Daniel Stenberg, the recipient of last year's Award for Excellence in Open
+Source from the European Open Source Academy, <a
+href="https://daniel.haxx.se/blog/2026/01/30/gregkh-awarded-the-prize-for-excellence-in-open-source-2026/">presented
+that award to this year's recipient</a>: Greg Kroah-Hartman.
+<p>
+<blockquote class="bq">
+	It's impossible to overstate the importance of the work Greg has
+	done on Linux. In software, innovation grabs headlines, but
+	stability saves lives and livelihoods. Every Android phone, every
+	web server, every critical system running Linux depends on Greg's
+	meticulous work. He ensures that when hospitals, banks,
+	governments, and individuals rely on Linux, it doesn't fail
+	them. His work represents the highest form of service: unglamorous,
+	relentless, and essential.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1056693/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 30 Jan 2026 14:45:40 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,53 +339,6 @@ GnuPG releases.
 </blockquote>
 <p>
 Only versions 2.5.13 through 2.5.16 are affected.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1056206/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 27 Jan 2026 16:58:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056206/" title="https://lwn.net/Articles/1056206/">The GNU C Library is moving from Sourceware</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>GNU C Library maintainer Carlos O'Donell has <a
-href="https://lwn.net/ml/all/287f1496-8f87-4ed3-a18b-3cb8c52c2ab3@redhat.com">announced</a>
-that the project will be moving its core services away from <a
-href="https://sourceware.org/">Sourceware</a> in favor of services hosted
-at the Linux Foundation.
-<p>
-<blockquote class="bq">
-	While it was clear to the GNU Toolchain leadership that
-	requirements were coming to improve the toolchain cyber-security
-	posture, these requirements were not clear to all project
-	developers. As part of receiving this feedback we have worked to
-	document and define a secure development policy for glibc and at a
-	higher level the GNU Toolchain.  While Sourceware has started
-	making some critical technical changes, the GNU Toolchain still
-	faces serious, systemic concerns about securing a global, highly
-	available service and building a sustainable, diverse sponsorship
-	model.
-</blockquote>
-<p>
-This has been a long-running discussion; see <a
-href="https://lwn.net/Articles/908638/">this 2022 article</a> for some background.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1055559/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 27 Jan 2026 15:41:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055559/" title="https://lwn.net/Articles/1055559/">[$] Implicit arguments for BPF kfuncs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's "kfunc" mechanism is a way of exporting kernel functions so
-that they can be called directly from BPF programs.  There are over 300
-kfuncs in current kernels, ranging in functionality from string processing
-(<a
-href="https://elixir.bootlin.com/linux/v6.18.6/source/kernel/bpf/helpers.c#L3550"><tt>bpf_strnlen()</tt></a>)
-to custom schedulers (<a
-href="https://elixir.bootlin.com/linux/v6.18.6/source/kernel/sched/ext.c#L6024"><tt>scx_bpf_kick_cpu()</tt></a>)
-and beyond.  Sometimes these kfuncs need access to context information that
-is not directly available to BPF programs, and which thus cannot be passed
-in as arguments.  The <a
-href="https://lwn.net/ml/all/20260116201700.864797-1-ihor.solodrai@linux.dev">implicit
-arguments patch set</a> from Ihor Solodrai is the latest attempt to solve
-this problem.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
