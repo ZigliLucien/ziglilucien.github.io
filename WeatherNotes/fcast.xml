@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-01-30T02:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-01-30T01:36:39+00:00</updateTime>
-		<validTimes type="str">2026-01-29T19:00:00+00:00/P7DT9H</validTimes>
+		<generatedAt type="str">2026-01-30T04:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-01-30T04:31:34+00:00</updateTime>
+		<validTimes type="str">2026-01-29T22:00:00+00:00/P7DT6H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2026-01-29T20:00:00-06:00</startTime>
+				<startTime type="str">2026-01-29T22:00:00-06:00</startTime>
 				<endTime type="str">2026-01-30T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">11</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">14</value>
+					<value type="int">16</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
+				<windSpeed type="str">7 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/ovc/snow?size=medium</icon>
-				<shortForecast type="str">Cloudy then Chance Snow Showers</shortForecast>
-				<detailedForecast type="str">A chance of snow showers between midnight and 4am. Cloudy. Low around 11, with temperatures rising to around 15 overnight. North northeast wind around 6 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn/snow,20?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy then Chance Snow Showers</shortForecast>
+				<detailedForecast type="str">A chance of snow showers between midnight and 1am, then a slight chance of snow between 1am and 4am, then a chance of snow showers between 4am and 5am. Mostly cloudy. Low around 11, with temperatures rising to around 14 overnight. North northeast wind around 7 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,13 +79,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">3</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 to 10 mph</windSpeed>
+				<windSpeed type="str">7 to 12 mph</windSpeed>
 				<windDirection type="str">N</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
 				<shortForecast type="str">Partly Sunny</shortForecast>
-				<detailedForecast type="str">Partly sunny, with a high near 19. Wind chill values as low as 0. North wind 6 to 10 mph, with gusts as high as 18 mph.</detailedForecast>
+				<detailedForecast type="str">Partly sunny, with a high near 19. Wind chill values as low as 0. North wind 7 to 12 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -98,13 +98,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">7</value>
+					<value type="int">12</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">10 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/cold?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 6. Wind chill values as low as -8. North northwest wind around 10 mph, with gusts as high as 20 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow/cold?size=medium</icon>
+				<shortForecast type="str">Chance Snow Showers then Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">A chance of snow showers before midnight. Mostly cloudy, with a low around 6. Wind chill values as low as -8. North northwest wind around 10 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
