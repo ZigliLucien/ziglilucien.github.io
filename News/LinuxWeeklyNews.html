@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1056693/" title="See Description">Three stable kernel updates</a></li>
+<li><a href="#https://lwn.net/Articles/1056692/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1056593/" title="See Description">A proposed governance structure for openSUSE</a></li>
 <li><a href="#https://lwn.net/Articles/1056014/" title="See Description">[$] Sub-schedulers for sched_ext</a></li>
 <li><a href="#https://lwn.net/Articles/1056544/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,28 @@
 <li><a href="#https://lwn.net/Articles/1056209/" title="See Description">A critical GnuPG security update</a></li>
 <li><a href="#https://lwn.net/Articles/1056206/" title="See Description">The GNU C Library is moving from Sourceware</a></li>
 <li><a href="#https://lwn.net/Articles/1055559/" title="See Description">[$] Implicit arguments for BPF kfuncs</a></li>
-<li><a href="#https://lwn.net/Articles/1056159/" title="See Description">Xfwl4: the roadmap for a Xfce Wayland compositor</a></li>
-<li><a href="#https://lwn.net/Articles/1056158/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1056693/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Jan 2026 14:45:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056693/" title="https://lwn.net/Articles/1056693/">Three stable kernel updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The
+<a href="https://lwn.net/Articles/1056694/">6.18.8</a>,
+<a href="https://lwn.net/Articles/1056695/">6.12.68</a>, and
+<a href="https://lwn.net/Articles/1056696/">6.6.122</a> stable kernel updates have been
+released; each contains another set of important fixes.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1056692/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Jan 2026 14:43:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056692/" title="https://lwn.net/Articles/1056692/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (curl, gimp:2.8, glibc, grafana, grafana-pcp, kernel, osbuild-composer, php:8.3, python-urllib3, python3.11, and python3.12), <b>Debian</b> (chromium), <b>Mageia</b> (ceph, gpsd, libxml2, openjdk, openssl, and xen), <b>SUSE</b> (abseil-cpp, assertj-core, coredns, freerdp, java-11-openjdk, java-25-openjdk, libxml2, openssl-1_0_0, openssl-1_1, python, python-filelock, and python311-sse-starlette), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-aws-hwe, linux-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-aws-fips, linux-fips, linux-fips, and texlive-bin).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1056593/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 29 Jan 2026 15:44:17 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -318,50 +337,6 @@ in as arguments.  The <a
 href="https://lwn.net/ml/all/20260116201700.864797-1-ihor.solodrai@linux.dev">implicit
 arguments patch set</a> from Ihor Solodrai is the latest attempt to solve
 this problem.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1056159/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 27 Jan 2026 14:20:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056159/" title="https://lwn.net/Articles/1056159/">Xfwl4: the roadmap for a Xfce Wayland compositor</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Xfce team has <a
-href="https://alexxcons.github.io/blogpost_15.html">announced</a> that
-it will be providing funding to Brian Tarricone to work on <a
-href="https://gitlab.xfce.org/kelnos/xfwl4#xfwl4-xfces-wayland-compositor">xfwl4</a>,
-a Wayland compositor for Xfce:</p>
-
-<blockquote class="bq">
-<p>Xfwl4 will not be based on the existing xfwm4 code. Instead, it
-will be written from scratch in rust, using smithay building
-blocks.</p>
-
-<p>The first attempt at creating an Xfce Wayland compositor involved
-modifying the existing xfwm4 code to support both X11 and Wayland in
-parallel. However, this approach turned out to be the wrong path
-forward for several reasons:</p>
-
-<p>
-<ul class="spacylist">
-    <li>Xfwm4 is architected in a way that makes it very difficult to put the window management behavior behind generic interfaces that don't include X11 specifics.</li>
-    <li>Refactoring Xfwm4 is risky, since it might introduce new bugs to X11. Having two parallel code bases will allow for rapid development and experimentation with the Wayland compositor, with zero risk to break xfwm4.</li>
-    <li>Some X11 window management concepts just aren't available or supported by Wayland protocols at this time, and dealing with those differences can be difficult in an X11-first code base.</li>
-    <li>Using the existing codebase would require us to use C and
-    wlroots, even if a better alternative is available.</li>
-</ul>
-</p>
-</blockquote>
-
-<p>Work has already commenced on the project, and the project hopes to
-share a development release in mid-2026.</p>
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1056158/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 27 Jan 2026 14:07:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056158/" title="https://lwn.net/Articles/1056158/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, python-urllib3, python3.11-urllib3, and python3.12-urllib3), <b>Debian</b> (imagemagick, openjdk-11, openjdk-17, and openjdk-21), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, ghostscript, glibc, mingw-glib2, mingw-harfbuzz, mingw-libsoup, mingw-openexr, and qownnotes), <b>Mageia</b> (kernel-linus), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (go1.24-openssl, go1.25-openssl, govulncheck-vulndb, kernel, nodejs22, openCryptoki, openvswitch3, python-pyasn1, python311, and qemu), and <b>Ubuntu</b> (git-lfs, node-form-data, and screen).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
