@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of snow showers after noon. Mostly sunny, with a high near 20. North wind 6 to 12 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Today</h3>A chance of snow showers after noon. Mostly sunny, with a high near 20. North wind 8 to 12 mph, with gusts as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
