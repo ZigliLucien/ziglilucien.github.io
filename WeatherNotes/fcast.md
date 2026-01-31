@@ -12,7 +12,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Partly cloudy, with a low around 3. Wind chill values as low as -4. West northwest wind 3 to 8 mph.<br></div>
+         <h3>Saturday Night</h3>Partly cloudy, with a low around 3. Wind chill values as low as -3. West northwest wind 3 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
