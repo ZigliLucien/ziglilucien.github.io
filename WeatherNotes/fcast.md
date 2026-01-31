@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of snow showers before 3am. Mostly cloudy. Low around 6, with temperatures rising to around 8 overnight. Wind chill
-         values as low as -6. North northwest wind 7 to 10 mph, with gusts as high as 20 mph.<br></div>
+         values as low as -6. North northwest wind around 10 mph, with gusts as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
