@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1056812/" title="See Description">Kernel prepatch 6.19-rc8</a></li>
 <li><a href="#https://lwn.net/Articles/1055211/" title="See Description">[$] Compiling Rust to readable C with Eurydice</a></li>
 <li><a href="#https://lwn.net/Articles/1056699/" title="See Description">The Award for Excellence in Open Source goes to Greg Kroah-Hartman</a></li>
 <li><a href="#https://lwn.net/Articles/1056693/" title="See Description">Three stable kernel updates</a></li>
@@ -52,10 +53,18 @@
 <li><a href="#https://lwn.net/Articles/1056354/" title="See Description">PC Gamer on the scx_horoscope scheduler</a></li>
 <li><a href="#https://lwn.net/Articles/1055539/" title="See Description">[$] Who should vote in Fedora elections?</a></li>
 <li><a href="#https://lwn.net/Articles/1056330/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1056209/" title="See Description">A critical GnuPG security update</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1056812/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 01 Feb 2026 23:39:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056812/" title="https://lwn.net/Articles/1056812/">Kernel prepatch 6.19-rc8</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1056811/">6.19-rc8</a> kernel prepatch is out for
+testing.  "<q>So things all look good, and unless something odd happens
+we'll have a final 6.19 next weekend.</q>"</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1055211/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 30 Jan 2026 16:09:24 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -318,27 +327,6 @@ can be identified for voting purposes.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (java-1.8.0-openjdk), <b>Debian</b> (openssl), <b>Fedora</b> (assimp, chromium, curl, freerdp, gimp, and harfbuzz), <b>Mageia</b> (glibc, haproxy, iperf, and python-pyasn1), <b>Red Hat</b> (image-builder, openssl, and osbuild-composer), <b>Slackware</b> (mozilla), <b>SUSE</b> (avahi, cups, gio-branding-upstream, google-osconfig-agent, java-11-openjdk, java-17-openjdk, java-21-openjdk, kernel-firmware, libmatio-devel, libopenjp2-7, nodejs22, php8, python-python-multipart, python311-urllib3_1, qemu, and xen), and <b>Ubuntu</b> (ffmpeg, jaraco.context, openssl, and openssl, openssl1.0).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1056209/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 27 Jan 2026 17:31:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056209/" title="https://lwn.net/Articles/1056209/">A critical GnuPG security update</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There is a new GnuPG update for a "<q>critical security bug</q>" in recent
-GnuPG releases.
-<p>
-<blockquote class="bq">
-	A crafted CMS (S/MIME) EnvelopedData message carrying an oversized
-	wrapped session key can cause a stack buffer overflow in gpg-agent
-	during the PKDECRYPT--kem=CMS handling.  This can easily be used
-	for a DoS but, worse, the memory corruption can very likley also be
-	used to mount a remote code execution attack.  The bug was
-	introduced while changing an internal API to the FIPS required KEM
-	API.
-</blockquote>
-<p>
-Only versions 2.5.13 through 2.5.16 are affected.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
