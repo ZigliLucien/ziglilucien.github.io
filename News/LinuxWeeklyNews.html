@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1056405/" title="See Description">[$] Modernizing swapping: introducing the swap table</a></li>
 <li><a href="#https://lwn.net/Articles/1056923/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1056812/" title="See Description">Kernel prepatch 6.19-rc8</a></li>
 <li><a href="#https://lwn.net/Articles/1055211/" title="See Description">[$] Compiling Rust to readable C with Eurydice</a></li>
@@ -52,10 +53,26 @@
 <li><a href="#https://lwn.net/Articles/1056376/" title="See Description">OSI pauses 2026 board election cycle</a></li>
 <li><a href="#https://lwn.net/Articles/1055391/" title="See Description">[$] Open source for phones: postmarketOS</a></li>
 <li><a href="#https://lwn.net/Articles/1056354/" title="See Description">PC Gamer on the scx_horoscope scheduler</a></li>
-<li><a href="#https://lwn.net/Articles/1055539/" title="See Description">[$] Who should vote in Fedora elections?</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1056405/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 02 Feb 2026 15:28:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056405/" title="https://lwn.net/Articles/1056405/">[$] Modernizing swapping: introducing the swap table</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's swap subsystem is a complex and often unloved beast.  It is
+also a critical component in the memory-management subsystem and has a
+significant impact on the performance of the system as a whole.  At the
+2025 Linux Storage, Filesystem, Memory-Management and BPF Summit, Kairui
+Song <a href="https://lwn.net/Articles/1016136/">outlined a plan</a> to simplify and
+optimize the kernel's swap code.  A <a
+href="https://lwn.net/ml/all/20250916160100.31545-1-ryncsn@gmail.com/">first installment
+of that work</a>, written with help from Chris Li, was merged for the 6.18
+release.  This article will catch up with the 6.18 work, setting the stage
+for a future look at the changes that are yet to be merged.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1056923/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 02 Feb 2026 14:14:10 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -310,25 +327,6 @@ decisions.
 	of course) rules over interactive tasks, and Jupiter is assigned to
 	memory-heavy applications, among others.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1055539/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 28 Jan 2026 15:51:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055539/" title="https://lwn.net/Articles/1055539/">[$] Who should vote in Fedora elections?</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Creating fair governance models for open-source projects is not
-easy; defining criteria for participants to receive membership and
-voting rights is a particularly thorny problem for projects that have
-elections for representative bodies. The <a
-href="https://docs.fedoraproject.org/en-US/council/">Fedora
-Council</a>, the project's top-level governance body, is wrestling
-with that conundrum now. This was triggered by a Fedora special-interest
-group (SIG) granting temporary membership to at least one person for the
-sole purpose of allowing them to vote in the most recent Fedora
-Engineering Steering Council (FESCo) election. That opened a large can
-of worms about what it means to be a contributor and how contributors
-can be identified for voting purposes.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
