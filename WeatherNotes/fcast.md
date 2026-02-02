@@ -3,21 +3,22 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A slight chance of snow showers before 11pm. Mostly cloudy. Low around 18, with temperatures rising to around 20 overnight.
-         Southwest wind 3 to 7 mph. Chance of precipitation is 20%. New snow accumulation of less than half an inch possible.<br></div>
+         South southwest wind 5 to 9 mph, with gusts as high as 21 mph. Chance of precipitation is 20%. New snow accumulation of less
+         than half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Mostly sunny. High near 39, with temperatures falling to around 36 in the afternoon. West wind around 3 mph.<br></div>
+         <h3>Monday</h3>Mostly sunny. High near 39, with temperatures falling to around 36 in the afternoon. South southwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Mostly cloudy, with a low around 26. Southeast wind around 2 mph.<br></div>
+         <h3>Monday Night</h3>Mostly cloudy, with a low around 26. Southeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of snow before 9am, then a chance of rain and a slight chance of freezing rain between 9am and noon, then a chance
-         of freezing rain and a chance of rain between noon and 3pm, then a chance of snow. Cloudy, with a high near 36. Northeast
-         wind 2 to 7 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Tuesday</h3>A chance of snow before 9am, then a chance of rain between 9am and noon, then a chance of freezing rain and a chance of rain
+         between noon and 3pm, then a chance of snow. Cloudy, with a high near 36. Northeast wind 2 to 7 mph. Chance of precipitation
+         is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

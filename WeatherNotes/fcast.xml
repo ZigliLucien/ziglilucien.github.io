@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-02T03:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-02-02T02:46:55+00:00</updateTime>
-		<validTimes type="str">2026-02-01T20:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2026-02-02T04:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-02-02T04:06:32+00:00</updateTime>
+		<validTimes type="str">2026-02-01T22:00:00+00:00/P7DT6H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2026-02-01T21:00:00-06:00</startTime>
+				<startTime type="str">2026-02-01T22:00:00-06:00</startTime>
 				<endTime type="str">2026-02-02T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">18</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">20</value>
+					<value type="int">15</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">3 to 7 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
+				<windSpeed type="str">5 to 9 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/snow,20/bkn?size=medium</icon>
 				<shortForecast type="str">Slight Chance Snow Showers then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">A slight chance of snow showers before 11pm. Mostly cloudy. Low around 18, with temperatures rising to around 20 overnight. Southwest wind 3 to 7 mph. Chance of precipitation is 20%. New snow accumulation of less than half an inch possible.</detailedForecast>
+				<detailedForecast type="str">A slight chance of snow showers before 11pm. Mostly cloudy. Low around 18, with temperatures rising to around 20 overnight. South southwest wind 5 to 9 mph, with gusts as high as 21 mph. Chance of precipitation is 20%. New snow accumulation of less than half an inch possible.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -81,11 +81,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">1</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">W</windDirection>
+				<windSpeed type="str">5 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny. High near 39, with temperatures falling to around 36 in the afternoon. West wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly sunny. High near 39, with temperatures falling to around 36 in the afternoon. South southwest wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -98,13 +98,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">0</value>
+					<value type="int">4</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 mph</windSpeed>
+				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">SE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 26. Southeast wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 26. Southeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -121,9 +121,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 7 mph</windSpeed>
 				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/snow_fzra,30/snow_fzra,40?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/snow,40/snow_fzra,40?size=medium</icon>
 				<shortForecast type="str">Chance Light Snow</shortForecast>
-				<detailedForecast type="str">A chance of snow before 9am, then a chance of rain and a slight chance of freezing rain between 9am and noon, then a chance of freezing rain and a chance of rain between noon and 3pm, then a chance of snow. Cloudy, with a high near 36. Northeast wind 2 to 7 mph. Chance of precipitation is 40%.</detailedForecast>
+				<detailedForecast type="str">A chance of snow before 9am, then a chance of rain between 9am and noon, then a chance of freezing rain and a chance of rain between noon and 3pm, then a chance of snow. Cloudy, with a high near 36. Northeast wind 2 to 7 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
