@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1057550/" title="See Description">Six stable kernels for Friday</a></li>
+<li><a href="#https://lwn.net/Articles/1057548/" title="See Description">Ardour 9.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1056601/" title="See Description">[$] Kernel control-flow-integrity support comes to GCC</a></li>
+<li><a href="#https://lwn.net/Articles/1057509/" title="See Description">Linux from Scratch to drop System V versions</a></li>
 <li><a href="#https://lwn.net/Articles/1057506/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1057102/" title="See Description">[$] Modernizing swapping: the end of the swap map</a></li>
 <li><a href="#https://lwn.net/Articles/1057381/" title="See Description">Security updates for Thursday</a></li>
@@ -49,13 +53,107 @@
 <li><a href="#https://lwn.net/Articles/1055590/" title="See Description">[$] The future for Tyr</a></li>
 <li><a href="#https://lwn.net/Articles/1057047/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1056955/" title="See Description">Git 2.53.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1056405/" title="See Description">[$] Modernizing swapping: introducing the swap table</a></li>
-<li><a href="#https://lwn.net/Articles/1056923/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1056812/" title="See Description">Kernel prepatch 6.19-rc8</a></li>
-<li><a href="#https://lwn.net/Articles/1055211/" title="See Description">[$] Compiling Rust to readable C with Eurydice</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1057550/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Feb 2026 16:45:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057550/" title="https://lwn.net/Articles/1057550/">Six stable kernels for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1057551/">6.18.9</a>, <a
+href="https://lwn.net/Articles/1057552/">6.12.69</a>, <a
+href="https://lwn.net/Articles/1057553/">6.6.123</a>, <a
+href="https://lwn.net/Articles/1057554/">6.1.162</a>, <a
+href="https://lwn.net/Articles/1057555/">5.15.199</a>, and <a
+href="https://lwn.net/Articles/1057556/">5.10.249</a> stable kernels. As always, each
+contains important fixes throughout the tree; users are advised to
+upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1057548/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Feb 2026 16:24:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057548/" title="https://lwn.net/Articles/1057548/">Ardour 9.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://ardour.org/">Ardour</a> digital-audio-workstation (DAW)
+project has <a href="https://ardour.org/whatsnew.html">announced the
+release of version 9.0</a>.
+
+<blockquote class="bq">
+This is a major release for the project, seeing several substantive new features that users have asked for over a long period of time. Region FX, clip recording, a touch-sensitive GUI, pianoroll windows, clip editing and more, not to mention dozens of bug fixes, new MIDI binding maps, improved GUI performance on macOS (for most) ...
+<p>
+We expect to get feedback on some of the major new features in this release, and plan to take that into account as we improve and refine them and the rest of Ardour going forward. We have no doubt that there will be both delight and disappointment with certain things - rather than assume that we don't know what we're doing, please leave us feedback on <a href="https://discourse.ardour.org/">the forums</a> so that Ardour gets better over time. Those of you new to our clip launching implementation might care to read up on <a href="https://ardour.org/clip_differences.html">the differences with Ableton Live</a>.
+<p>
+In the coming weeks, we'll begin to sketch out what we have planned next for Ardour, in addition to responding to the feedback we get on this 9.0 release. 
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1056601/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Feb 2026 16:23:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056601/" title="https://lwn.net/Articles/1056601/">[$] Kernel control-flow-integrity support comes to GCC</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Control-flow integrity (CFI) is a set of techniques that make it more difficult for
+attackers to hijack indirect jumps to exploit a system. The Linux kernel has
+supported forward-edge CFI (which protects indirect function calls)
+<a href="https://lwn.net/Articles/810077/">since 2020</a>, with the most recent implementation
+of the feature introduced <a href="https://lwn.net/Articles/898040">in 2022</a>. That
+version avoids the overhead introduced by the earlier approach by using a
+compiler flag (<tt>-fsanitize=kcfi</tt>) that is present in Clang but not in
+GCC. Now, Kees Cook has
+<a href="https://lwn.net/ml/all/20251210022025.harder.803-kees@kernel.org/">
+a patch set</a> adding that support to GCC that looks likely to land in GCC
+17.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1057509/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Feb 2026 15:11:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057509/" title="https://lwn.net/Articles/1057509/">Linux from Scratch to drop System V versions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a
+href="https://rivendell.linuxfromscratch.org/index.html">Linux From
+Scratch</a> (LFS) project provides step-by-step instructions on
+building a customized Linux system entirely from source. Historically,
+the project has provided separate System&#160;V and systemd editions,
+which gave users a choice of init systems. Bruce Dubbs has <a
+href="https://lists.linuxfromscratch.org/sympa/arc/lfs-announce/2026-02/msg00000.html">announced</a>
+the project will no longer produce the System&#160;V version:</p>
+
+<blockquote class="bq">
+<p>There are two reasons for this decision. The first reason is
+workload. No one working on LFS is paid. We rely completely on
+volunteers. In LFS there are 88 packages. In BLFS there are over
+1000. The volume of changes from upstream is overwhelming the
+editors. In this release cycle that started on the 1st of September
+until now, there have been 70 commits to LFS and 1155 commits to BLFS
+(and counting). When making package updates, many packages need to be
+checked for both System V and systemd. When preparing for release, all
+packages need to be checked for each init system.</p>
+
+<p>The second reason for dropping System V is that packages like GNOME
+and soon KDE's Plasma are building in requirements that require
+capabilities in systemd that are not in System V. This could
+potentially be worked around with another init system like OpenRC, but
+beyond the transition process it still does not address the ongoing
+workload problem.</p>
+
+<p>[...] As a personal note, I do not like this decision. To me LFS is
+about learning how a system works. Understanding the boot process is a
+big part of that. systemd is about 1678 "C" files plus many data
+files. System V is "22" C files plus about 50 short bash scripts and
+data files. Yes, systemd provides a lot of capabilities, but we will
+be losing some things I consider important.</p>
+</blockquote>
+
+<p>The next version, 13.0, is expected in March and will only focus on
+systemd.</p>
+<p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1057506/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 06 Feb 2026 14:18:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -218,69 +316,6 @@ source-code management system has been released.  Changes include
 documentation for the Git data model, the ability to choose the diff
 algorithm to use with <tt>git blame</tt>, a new white-space error class,
 and more; see the announcement for details.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1056405/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Feb 2026 15:28:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056405/" title="https://lwn.net/Articles/1056405/">[$] Modernizing swapping: introducing the swap table</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's swap subsystem is a complex and often unloved beast.  It is
-also a critical component in the memory-management subsystem and has a
-significant impact on the performance of the system as a whole.  At the
-2025 Linux Storage, Filesystem, Memory-Management and BPF Summit, Kairui
-Song <a href="https://lwn.net/Articles/1016136/">outlined a plan</a> to simplify and
-optimize the kernel's swap code.  A <a
-href="https://lwn.net/ml/all/20250916160100.31545-1-ryncsn@gmail.com/">first installment
-of that work</a>, written with help from Chris Li, was merged for the 6.18
-release.  This article will catch up with the 6.18 work, setting the stage
-for a future look at the changes that are yet to be merged.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1056923/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Feb 2026 14:14:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056923/" title="https://lwn.net/Articles/1056923/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (iperf3, kernel, and php), <b>Debian</b> (ceph, pillow, pyasn1, python-django, and python-tornado), <b>Fedora</b> (bind9-next, cef, chromium, fontforge, java-21-openjdk, java-25-openjdk, java-latest-openjdk, mingw-python-urllib3, mingw-python-wheel, nodejs20, nodejs22, nodejs24, opencc, openssl, python-wheel, and qownnotes), <b>Red Hat</b> (binutils, gcc-toolset-13-binutils, gcc-toolset-14-binutils, gcc-toolset-15-binutils, java-1.8.0-openjdk, and java-25-openjdk), <b>Slackware</b> (expat), <b>SUSE</b> (bind, cacti, cacti-spine, chromedriver, chromium, dirmngr, fontforge-20251009, glib2, golang-github-prometheus-prometheus, govulncheck-vulndb, icinga2, ImageMagick, kernel, logback, openCryptoki, openssl-1_1, python311-djangorestframework, python311-pypdf, python314, python315, qemu, and xen), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-gcp, linux-gcp-5.4, linux-hwe-5.4,
- linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm and linux-aws-fips, linux-fips, linux-gcp-fips).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1056812/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 01 Feb 2026 23:39:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056812/" title="https://lwn.net/Articles/1056812/">Kernel prepatch 6.19-rc8</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1056811/">6.19-rc8</a> kernel prepatch is out for
-testing.  "<q>So things all look good, and unless something odd happens
-we'll have a final 6.19 next weekend.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1055211/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 30 Jan 2026 16:09:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055211/" title="https://lwn.net/Articles/1055211/">[$] Compiling Rust to readable C with Eurydice</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-A few years ago, the only way to compile Rust code was using the rustc compiler
-with LLVM as a backend. Since then, several projects, including
-<a href="https://github.com/thepowersgang/mrustc?tab=readme-ov-file#mutabahs-rust-compiler">
-Mutabah's Rust Compiler</a> (mrustc), <a href="https://lwn.net/Articles/1040197/">GCC's Rust
-support</a> (gccrs),
-<a href="https://lwn.net/Articles/907405/#rust_codegen_gcc">
-rust_codegen_gcc</a>, and
-<a href="https://lwn.net/Articles/964735/">
-Cranelift</a> have made enormous progress
-on diversifying Rust's compiler implementations. The most recent such project,
-<a href="https://github.com/AeneasVerif/eurydice?tab=readme-ov-file#eurydice">
-Eurydice</a>, has a
-more ambitious goal: converting Rust code to clean C code. This is especially
-useful in high-assurance software, where existing verification and compliance
-tools expect C. Until such tools can be updated to work with Rust, Eurydice could
-provide a smoother transition for these projects, as well as a stepping-stone
-for environments that have a C compiler but no working Rust compiler. Eurydice
-has been used to compile some post-quantum-cryptography routines from Rust to C,
-for example.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
