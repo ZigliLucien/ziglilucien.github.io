@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-09T09:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-02-09T09:16:38+00:00</updateTime>
-		<validTimes type="str">2026-02-09T03:00:00+00:00/P7DT22H</validTimes>
+		<generatedAt type="str">2026-02-09T11:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-02-09T11:06:44+00:00</updateTime>
+		<validTimes type="str">2026-02-09T05:00:00+00:00/P7DT20H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,21 +52,21 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-02-09T03:00:00-06:00</startTime>
+				<startTime type="str">2026-02-09T05:00:00-06:00</startTime>
 				<endTime type="str">2026-02-09T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">27</temperature>
+				<temperature type="int">26</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">1 mph</windSpeed>
-				<windDirection type="str">ENE</windDirection>
+				<windSpeed type="str">0 mph</windSpeed>
+				<windDirection type="str"/>
 				<icon type="str">https://api.weather.gov/icons/land/night/fog?size=medium</icon>
 				<shortForecast type="str">Patchy Fog</shortForecast>
-				<detailedForecast type="str">Patchy fog after 5am. Clear, with a low around 27. East northeast wind around 1 mph.</detailedForecast>
+				<detailedForecast type="str">Patchy fog. Clear, with a low around 26. Wind around 0 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -82,10 +82,10 @@
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">WNW</windDirection>
+				<windDirection type="str">NNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/fog/few?size=medium</icon>
 				<shortForecast type="str">Patchy Fog then Sunny</shortForecast>
-				<detailedForecast type="str">Patchy fog between 7am and 8am. Sunny. High near 54, with temperatures falling to around 51 in the afternoon. West northwest wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Patchy fog between 7am and 8am. Sunny. High near 54, with temperatures falling to around 51 in the afternoon. North northwest wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
