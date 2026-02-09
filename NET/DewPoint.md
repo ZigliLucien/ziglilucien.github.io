@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong> 41.0 F. <strong>Dew Point</strong> 27.0 F.</div>
+<div id='c'><strong>Temp</strong> 39.9 F. <strong>Dew Point</strong> 26.1 F.</div>
 
 <p/><br/><p/>
 
@@ -1870,3 +1870,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Sun Feb  8 15:08:17 2026 | 42.1 F. | 26.1 F.|
 | Sun Feb  8 16:08:17 2026 | 43.0 F. | 26.1 F.|
 | Sun Feb  8 17:08:14 2026 | 41.0 F. | 27.0 F.|
+| Sun Feb  8 18:08:16 2026 | 39.9 F. | 26.1 F.|
