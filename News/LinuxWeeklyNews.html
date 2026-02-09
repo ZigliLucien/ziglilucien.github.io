@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1057766/" title="See Description">Offpunk 3.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1057765/" title="See Description">Debian's tag2upload considered stable</a></li>
+<li><a href="#https://lwn.net/Articles/1057759/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1057417/" title="See Description">The 6.19 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1057569/" title="See Description">An in-kernel machine-learning library</a></li>
 <li><a href="#https://lwn.net/Articles/1057550/" title="See Description">Six stable kernels for Friday</a></li>
@@ -50,12 +53,88 @@
 <li><a href="#https://lwn.net/Articles/1056417/" title="See Description">[$] LWN.net Weekly Edition for February 5, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1056387/" title="See Description">[$] API changes for the futex robust list</a></li>
 <li><a href="#https://lwn.net/Articles/1054751/" title="See Description">[$] Sigil simplifies creating and editing EPUBs</a></li>
-<li><a href="#https://lwn.net/Articles/1057256/" title="See Description">LibreOffice 26.2 released</a></li>
-<li><a href="#https://lwn.net/Articles/1057247/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1055590/" title="See Description">[$] The future for Tyr</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1057766/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 09 Feb 2026 14:45:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057766/" title="https://lwn.net/Articles/1057766/">Offpunk 3.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://ploum.net/2026-02-09-offpunk3.html">Version
+3.0</a> of the <a href="https://offpunk.net/">Offpunk</a>
+offline-first, command-line web, <a
+href="https://en.wikipedia.org/wiki/Gemini_(protocol)">Gemini</a>, and
+<a href="https://en.wikipedia.org/wiki/Gopher_(protocol)">Gopher</a>
+browser has been released. Notable changes in this release include
+integration of the <a
+href="https://codeberg.org/vjousse/unmerdify#unmerdif">unmerdify</a>
+library to "<q>remove cruft</q>" from web sites, the <tt>xkcdpunk</tt>
+standalone tool for viewing <a href="https://www.xkcd.com/">xkcd</a>
+comics in the terminal, and a <tt>cookies</tt> command to enable
+browsing web sites (such as LWN.net) while being logged in.</p>
+
+<blockquote class="bq">
+<p>Something wonderful happened on the road leading to 3.0: Offpunk
+became a true cooperative effort. Offpunk 3.0 is probably the first
+release that contains code I didn't review line-by-line. Unmerdify (by
+Vincent Jousse), all the translation infrastructure (by the
+always-present JMCS), and the community packaging effort are areas for
+which I barely touched the code.</p>
+
+<p>So, before anything else, I want to thank all the people involved
+for sharing their energy and motivation. I'm very grateful for every
+contribution the project received. I'm also really happy to see "old
+names" replying from time to time on the mailing list. It makes me
+feel like there's an emerging Offpunk community where everybody can
+contribute at their own pace.</p>
+
+<p>There were a lot of changes between 2.8 and 3.0, which probably
+means some new bugs and some regressions. We count on you, yes, you!,
+to report them and make 3.1 a lot more stable. It's as easy at typing
+"bugreport" in offpunk!</p>
+</blockquote>
+
+<p>See the "<a href="https://offpunk.net/install.html">Installing
+Offpunk</a>" page to get started.</p>
+
+<p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1057765/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 09 Feb 2026 14:33:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057765/" title="https://lwn.net/Articles/1057765/">Debian's tag2upload considered stable</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Sean Whitton has <a
+href="https://lwn.net/ml/all/87o6ly2gfr.fsf@zephyr.silentflame.com/">announced</a>
+that Debian's <a href="https://tag2upload.debian.org/">tag2upload</a>
+service is now out of beta and ready for use by Debian developers and
+maintainers.</p>
+
+<blockquote class="bq">
+<p>During the beta we encountered only a few significant bugs.  Now that
+we've fixed those, our rate of successful uploads is hovering around
+95%. Failures are almost always due to packaging inconsistencies that
+older workflows don't detect, and therefore only need fixing once per
+package.</p>
+
+<p>We don't think you need explicit approval from your co-maintainers
+anymore.  Your upload workflows can be different to your teammates.
+They can be using dput, dgit or tag2upload.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/978324/">covered</a>
+tag2upload in July 2024.</p>
+<p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1057759/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 09 Feb 2026 14:06:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057759/" title="https://lwn.net/Articles/1057759/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (fontforge, kernel, and osbuild-composer), <b>Debian</b> (debian-security-support, sudo, wireshark, xrdp, and zabbix), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, k9s, libgit2, mingw-glib2, node-exporter, open-vm-tools, plantuml, xorgxrdp, and xrdp), <b>Oracle</b> (fence-agents, image-builder, kernel, libsoup3, and osbuild-composer), <b>Red Hat</b> (image-builder and osbuild-composer), <b>Slackware</b> (openssl and p11), <b>SUSE</b> (chromium, cockpit-354, cockpit-machines, cockpit-machines-346, cockpit-packages, cockpit-podman, cockpit-subscriptions, govulncheck-vulndb, kubernetes-old, libsnmp45-32bit, libxml2, localsearch, micropython, opencloud-server, python-django, python-djangorestframework, python-maturin, python311-Django, python311-wheel, python315, sqlite3, and xrdp), and <b>Ubuntu</b> (linux-fips, linux-aws-fips, linux-gcp-fips and python-pip).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1057417/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 08 Feb 2026 21:33:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -298,62 +377,6 @@ made easier with an application custom-made for the purpose. <a
 href="https://sigil-ebook.com/sigil/">Sigil</a> is an <a
 href="https://en.wikipedia.org/wiki/EPUB">EPUB</a> editor that
 provides the tooling authors and publishers may be looking for.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057256/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 04 Feb 2026 15:00:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057256/" title="https://lwn.net/Articles/1057256/">LibreOffice 26.2 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Version 26.2 of the <a href="https://www.libreoffice.org/">LibreOffice</a>
-office suite has been <a
-href="https://blog.documentfoundation.org/blog/2026/02/04/libreoffice-26-2-is-here/">released</a>.
-
-<blockquote class="bq">
-LibreOffice 26.2 is focused on improvements that make a difference in daily work and brings better performance, smoother interaction with complex documents and improved compatibility with files created in other office software. Whether you're writing reports, managing spreadsheets, or preparing presentations, the experience feels more responsive and reliable.
-<p>
-LibreOffice has always been about giving users control. LibreOffice 26.2 continues that tradition by strengthening support for open document standards, and ensuring long-term access to your files, without subscriptions, license restrictions, or data collection. Your documents stay yours – forever.
-</blockquote>
-
-
-<p>
-More information can be found in the <a
-href="https://wiki.documentfoundation.org/ReleaseNotes/26.2">release notes
-for LibreOffice 26.2</a>.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057247/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 04 Feb 2026 14:42:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057247/" title="https://lwn.net/Articles/1057247/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (thunderbird), <b>Fedora</b> (openqa, os-autoinst, python-jupytext, python-python-multipart, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-sq, rust-sequoia-sqv, and xen), <b>Oracle</b> (curl, kernel, net-snmp, python3, and python3.12), <b>Red Hat</b> (container-tools:rhel8, fence-agents, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, opentelemetry-collector, podman, python-s3transfer, python-wheel, and resource-agents), <b>SUSE</b> (alloy, chromium, cockpit-podman, cockpit-subscriptions, dpdk, elemental-register, elemental-toolkit, glib2, glibc, gpg2, ImageMagick, imagemagick, jasper, java-17-openjdk, java-21-openjdk, kernel, libheif, libmlt++, libpng16, libsodium, libsoup, libvirt, openssl-3, openvpn, php8, postgresql16, postgresql17 and postgresql18, protobuf, python-FontTools, python-fonttools, python-h2, python-python-multipart, python-urllib3, python-wheel, python311-PyNaCl, trivy, ucode-amd, udisks2, unbound, util-linux, wireshark, and xkbcomp), and <b>Ubuntu</b> (emacs, freerdp2, glibc, imagemagick, mysql-8.0, pagure, python-django, python-filelock, python-internetarchive, and python-keystonemiddleware).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1055590/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 03 Feb 2026 14:47:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1055590/" title="https://lwn.net/Articles/1055590/">[$] The future for Tyr</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The
-<a href="https://gitlab.freedesktop.org/panfrost/linux/-/project_members">
-team</a> behind
-<a href="https://rust-for-linux.com/tyr-gpu-driver">
-Tyr</a> started 2025 with little to show in our quest to
-produce a Rust GPU driver for Arm Mali hardware, and by the end of the
-year, we were able to play <a
-href="https://supertuxkart.net">SuperTuxKart</a> (a 3D open-source racing
-game) at the Linux Plumbers Conference (LPC). Our prototype was a joint
-effort between Arm, Collabora, and Google; it ran well for the duration
-of the event, and the performance was more than adequate for players.
-Thankfully, we picked up steam at precisely the right moment: Dave
-Airlie just
-<a href="https://lwn.net/Articles/1050174/">
-announced</a> in the Maintainers Summit that the DRM subsystem
-is only "<q>about a year away</q>" from disallowing new drivers written in C
-and requiring the use of Rust. Now it is time to lay out a
-possible roadmap for 2026 in order to upstream all of this work.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
