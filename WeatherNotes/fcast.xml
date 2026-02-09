@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-09T00:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-02-08T21:16:57+00:00</updateTime>
-		<validTimes type="str">2026-02-08T15:00:00+00:00/P7DT13H</validTimes>
+		<generatedAt type="str">2026-02-09T01:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-02-09T00:36:52+00:00</updateTime>
+		<validTimes type="str">2026-02-08T18:00:00+00:00/P7DT10H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2026-02-08T18:00:00-06:00</startTime>
+				<startTime type="str">2026-02-08T19:00:00-06:00</startTime>
 				<endTime type="str">2026-02-09T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">29</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">3</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 6 mph</windSpeed>
-				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/sct/fog?size=medium</icon>
-				<shortForecast type="str">Partly Cloudy then Patchy Fog</shortForecast>
-				<detailedForecast type="str">Patchy fog after 5am. Partly cloudy, with a low around 29. East wind 2 to 6 mph.</detailedForecast>
+				<windSpeed type="str">5 mph</windSpeed>
+				<windDirection type="str">ENE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/few/fog?size=medium</icon>
+				<shortForecast type="str">Mostly Clear then Patchy Fog</shortForecast>
+				<detailedForecast type="str">Patchy fog after 5am. Mostly clear, with a low around 29. East northeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
