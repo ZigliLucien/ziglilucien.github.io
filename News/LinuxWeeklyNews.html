@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1058028/" title="See Description">Dave Farber RIP</a></li>
+<li><a href="#https://lwn.net/Articles/1058024/" title="See Description">GTK hackfest, 2026 edition (GTK Development Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1056800/" title="See Description">[$] FOSS in times of war, scarcity, and AI</a></li>
 <li><a href="#https://lwn.net/Articles/1057993/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1057302/" title="See Description">[$] Development statistics for 6.19</a></li>
@@ -51,11 +53,57 @@
 <li><a href="#https://lwn.net/Articles/1056601/" title="See Description">[$] Kernel control-flow-integrity support comes to GCC</a></li>
 <li><a href="#https://lwn.net/Articles/1057509/" title="See Description">Linux from Scratch to drop System V versions</a></li>
 <li><a href="#https://lwn.net/Articles/1057506/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1057102/" title="See Description">[$] Modernizing swapping: the end of the swap map</a></li>
-<li><a href="#https://lwn.net/Articles/1057381/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1058028/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Feb 2026 16:38:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1058028/" title="https://lwn.net/Articles/1058028/">Dave Farber RIP</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>From the NANOG list comes <a
+href="https://seclists.org/nanog/2026/Feb/18">the sad news</a> of the
+passing of Dave Farber.
+<p>
+<blockquote class="bq">
+	His professional accomplishments and impact are almost endless, but
+	often captured by one moniker: "grandfather of the Internet,"
+	acknowledging the foundational contributions made by his many
+	students at the University of California, Irvine; the University of
+	Delaware; the University of Pennsylvania; and Carnegie Mellon
+	University.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1058024/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Feb 2026 16:28:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1058024/" title="https://lwn.net/Articles/1058024/">GTK hackfest, 2026 edition (GTK Development Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Matthias Clasen has published a short <a
+href="https://blogs.gnome.org/gtk/2026/02/06/gtk-hackfest-2026-edition/">summary of the GTK hackfest</a> held prior to <a
+href="https://fosdem.org/2026/">FOSDEM&#160;2026</a>. Topics include
+discussions on unstable APIs, a decision to bump the C runtime
+requirement to C11 in the next development cycle, limiting changes in
+GTK3 to crash and build fixes, as well as the state of
+accessibility:</p>
+
+<blockquote class="bq">
+<p>On the accessibility side, we are somewhat worried about the state
+of <a href="https://github.com/AccessKit/accesskit">AccessKit</a>. The
+code upstream is maintained, but we haven't seen movement in the GTK
+implementation. We still default to the AT-SPI backend on Linux, but
+AccessKit is used on Windows and macOS (and possibly Android in the
+future); it would be nice to have consumers of the accessibility stack
+looking at the code and issues.</p>
+
+<p>On the AT-SPI side we are still missing proper feature negotiation
+in the protocol; interfaces are now versioned on D-Bus, but there's no
+mechanism to negotiate the supported set of roles or events between
+toolkits, compositors, and assistive technologies, which makes running
+newer applications on older OS versions harder.</p>
+</blockquote>
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1056800/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 10 Feb 2026 14:50:44 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -337,34 +385,6 @@ systemd.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, kernel, python3, and python3.12-wheel), <b>Debian</b> (alsa-lib, chromium, openjdk-25, phpunit, tomcat10, tomcat11, and tomcat9), <b>Fedora</b> (openqa, pgadmin4, phpunit10, phpunit11, phpunit12, phpunit8, phpunit9, and yarnpkg), <b>Mageia</b> (python-django), <b>SUSE</b> (alloy, cups, dpdk, expat, glib2, java-1_8_0-ibm, java-1_8_0-openj9, java-25-openjdk, kernel, libpainter0, libsoup, libxml2, openssl-3, python-filelock, python-wheel, python312-Django6, thunderbird, traefik2, udisks2, wireshark, and xen), and <b>Ubuntu</b> (glib2.0, linux-azure, linux-azure-4.15, linux-gcp, linux-gcp-4.15, python3.14, python3.13, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, python3.5, python3.4, and tracker-miners).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057102/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Feb 2026 15:26:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057102/" title="https://lwn.net/Articles/1057102/">[$] Modernizing swapping: the end of the swap map</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/Articles/1056405/">The first installment in this series</a>
-introduced several data structures in the kernel's swap subsystem and
-described work to replace some of those with a new "swap table" structure.
-The work did not stop there, though; there is more modernization of the
-swap subsystem queued for an upcoming development cycle, and even more for
-multiple kernel releases after that.  Once that work is done, the swap
-subsystem will be both simpler and faster than it is now.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057381/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Feb 2026 14:28:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057381/" title="https://lwn.net/Articles/1057381/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (brotli, curl, kernel, python-wheel, and python3.12), <b>Debian</b> (containerd), <b>Fedora</b> (gnupg2, pgadmin4, phpunit10, phpunit11, phpunit12, phpunit8, phpunit9, and yarnpkg), <b>Mageia</b> (expat), <b>Oracle</b> (qemu-kvm and util-linux), <b>Red Hat</b> (kernel, kernel-rt, opentelemetry-collector, and python3.12-wheel), <b>SUSE</b> (abseil-cpp, dpdk, freerdp, glib2, ImageMagick, java-11-openj9, java-17-openj9, java-1_8_0-ibm, java-1_8_0-openj9, java-1_8_0-openjdk, java-21-openj9, kernel, libsoup, libsoup-3_0-0, openssl-3, patch, python-Django, rekor, rizin, udisks2, and xrdp), and <b>Ubuntu</b> (gh, linux, linux-aws, linux-azure, linux-azure-5.15, linux-gcp, linux-gke,
- linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg,
- linux-intel-iotg-5.15, linux-kvm, linux-lowlatency,
- linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra,
- linux-nvidia-tegra-5.15, linux-oracle, linux-raspi, linux, linux-aws, linux-azure, linux-gcp, linux-oem-6.17, linux-oracle,
- linux-raspi, linux-realtime, linux, linux-gke, linux-gkeop, linux-hwe-6.8, linux-oracle,
- linux-oracle-6.8, linux-raspi, linux-fips, linux-aws-fips, linux-azure-fips,  linux-gcp-fips, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-realtime, linux-intel-iot-realtime, and linux-realtime, linux-realtime-6.8, linux-raspi-realtime).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
