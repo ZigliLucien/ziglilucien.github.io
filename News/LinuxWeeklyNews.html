@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1056953/" title="See Description">[$] Poisoning scraperbots with iocaine</a></li>
+<li><a href="#https://lwn.net/Articles/1058041/" title="See Description">[$] The reverting of revocable</a></li>
 <li><a href="#https://lwn.net/Articles/1058480/" title="See Description">Debian DFSG Team announces new dashboard and queue processes</a></li>
 <li><a href="#https://lwn.net/Articles/1058478/" title="See Description">A single stable kernel for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1058473/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,44 @@
 <li><a href="#https://lwn.net/Articles/1058024/" title="See Description">GTK hackfest, 2026 edition (GTK Development Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1056800/" title="See Description">[$] FOSS in times of war, scarcity, and AI</a></li>
 <li><a href="#https://lwn.net/Articles/1057993/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1057302/" title="See Description">[$] Development statistics for 6.19</a></li>
-<li><a href="#https://lwn.net/Articles/1057766/" title="See Description">Offpunk 3.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1056953/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 12 Feb 2026 16:55:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056953/" title="https://lwn.net/Articles/1056953/">[$] Poisoning scraperbots with iocaine</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Web sites are being increasingly beset by AI scraperbots — a problem that we have
+<a href="https://lwn.net/Articles/1008897/">written about before</a>, and which has slowly
+ramped up to an occasional de-facto DDoS attack. This has not gone
+uncontested, however: web site operators from around the world have been working on
+inventive countermeasures. These solutions target the problem posed by scraperbots in different ways;
+<a href="https://iocaine.madhouse-project.org/">
+iocaine</a>, a MIT-licensed nonsense generator, is designed
+to make scraped text less useful by poisoning it with fake data. The hope is to
+make running scraperbots not economically viable, and thereby address the
+problem at its root instead of playing an eternal game of Whac-A-Mole.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1058041/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 12 Feb 2026 15:35:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1058041/" title="https://lwn.net/Articles/1058041/">[$] The reverting of revocable</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Transient devices pose a special challenge for an operating-system kernel.
+They can disappear at any time, leaving behind kernel data structures that
+no longer refer to an existing device, but which may still be in use by
+unknown kernel code.  Managing the resulting lifecycle issues has
+frustrated kernel developers for years.  In September 2025, the <a
+href="https://lwn.net/Articles/1038523/">revocable resource-management patch series</a>
+from Tzung-Bi Shih appeared to offer a partial solution to this problem.
+Since then, though, other problems have arisen, and the planned merging of
+this series into the 7.0 release has been called off.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1058480/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 12 Feb 2026 14:30:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -314,64 +349,6 @@ months.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (fence-agents, firefox, fontforge, freerdp, kernel-rt, keylime, libsoup, libsoup3, nodejs22, nodejs24, opentelemetry-collector, osbuild-composer, python3.12-wheel, qemu-kvm, resource-agents, thunderbird, and util-linux), <b>Debian</b> (kernel, rlottie, shaarli, and usbmuxd), <b>Fedora</b> (asciinema, atuin, bustle, cef, envision, glycin, greetd, helix, java-21-openjdk, java-25-openjdk, java-latest-openjdk, keylime-agent-rust, maturin, mirrorlist-server, ntpd-rs, python3.6, rust-add-determinism, rust-afterburn, rust-ambient-id, rust-app-store-connect, rust-bat, rust-below, rust-btrd, rust-busd, rust-bytes, rust-cargo-c, rust-cargo-deny, rust-coreos-installer, rust-crypto-auditing-agent, rust-crypto-auditing-client, rust-crypto-auditing-event-broker, rust-crypto-auditing-log-parser, rust-dua-cli, rust-eif_build, rust-git-delta, rust-git-interactive-rebase-tool, rust-git2, rust-gst-plugin-dav1d, rust-gst-plugin-reqwest, rust-heatseeker, rust-ingredients, rust-jsonwebtoken, rust-lsd, rust-monitord, rust-monitord-exporter, rust-muvm, rust-nu, rust-num-conv, rust-onefetch, rust-oo7-cli, rust-pleaser, rust-pore, rust-pretty-git-prompt, rust-procs, rust-rbspy, rust-rbw, rust-rd-agent, rust-rd-hashd, rust-redlib, rust-resctl-bench, rust-resctl-demo, rust-routinator, rust-sccache, rust-scx_layered, rust-scx_rustland, rust-scx_rusty, rust-sequoia-chameleon-gnupg, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-sq, rust-sevctl, rust-shadow-rs, rust-sigul-pesign-bridge, rust-snpguest, rust-speakersafetyd, rust-tealdeer, rust-time, rust-time-core, rust-time-macros, rust-tokei, rust-weezl, rust-wiremix, rust-ybaas, rustup, sad, tbtools, tuigreet, and uv), <b>Mageia</b> (fontforge and nginx), <b>Oracle</b> (firefox, fontforge, freerdp, kernel, keylime, libsoup, python, thunderbird, and uek-kernel), <b>SUSE</b> (abseil-cpp and kernel), and <b>Ubuntu</b> (freerdp2 and libsoup3).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057302/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 09 Feb 2026 18:02:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057302/" title="https://lwn.net/Articles/1057302/">[$] Development statistics for 6.19</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds <a
-href="https://lwn.net/ml/all/CAHk-=wh0Fj7yE7iuW8awFCFt53s9T186qNbZX673E+oNCeQSFg@mail.gmail.com/">released
-the 6.19 kernel</a> on February&#160;8, as expected.  This development
-cycle brought 14,344 non-merge changesets into the mainline, making it the
-busiest release since 6.16 in July 2025.  As usual, we have put together a
-set of statistics on where these changes come from, along with a quick look
-at how long new kernel developers stay around.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057766/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 09 Feb 2026 14:45:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057766/" title="https://lwn.net/Articles/1057766/">Offpunk 3.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://ploum.net/2026-02-09-offpunk3.html">Version
-3.0</a> of the <a href="https://offpunk.net/">Offpunk</a>
-offline-first, command-line web, <a
-href="https://en.wikipedia.org/wiki/Gemini_(protocol)">Gemini</a>, and
-<a href="https://en.wikipedia.org/wiki/Gopher_(protocol)">Gopher</a>
-browser has been released. Notable changes in this release include
-integration of the <a
-href="https://codeberg.org/vjousse/unmerdify#unmerdif">unmerdify</a>
-library to "<q>remove cruft</q>" from web sites, the <tt>xkcdpunk</tt>
-standalone tool for viewing <a href="https://www.xkcd.com/">xkcd</a>
-comics in the terminal, and a <tt>cookies</tt> command to enable
-browsing web sites (such as LWN.net) while being logged in.</p>
-
-<blockquote class="bq">
-<p>Something wonderful happened on the road leading to 3.0: Offpunk
-became a true cooperative effort. Offpunk 3.0 is probably the first
-release that contains code I didn't review line-by-line. Unmerdify (by
-Vincent Jousse), all the translation infrastructure (by the
-always-present JMCS), and the community packaging effort are areas for
-which I barely touched the code.</p>
-
-<p>So, before anything else, I want to thank all the people involved
-for sharing their energy and motivation. I'm very grateful for every
-contribution the project received. I'm also really happy to see "old
-names" replying from time to time on the mailing list. It makes me
-feel like there's an emerging Offpunk community where everybody can
-contribute at their own pace.</p>
-
-<p>There were a lot of changes between 2.8 and 3.0, which probably
-means some new bugs and some regressions. We count on you, yes, you!,
-to report them and make 3.1 a lot more stable. It's as easy at typing
-"bugreport" in offpunk!</p>
-</blockquote>
-
-<p>See the "<a href="https://offpunk.net/install.html">Installing
-Offpunk</a>" page to get started.</p>
-
-<p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>

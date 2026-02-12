@@ -12,7 +12,7 @@
 	<atom:link href="https://www.raspberrypi.org/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.raspberrypi.org/</link>
 	<description>Teach, learn and make with Raspberry Pi</description>
-	<lastBuildDate>Tue, 10 Feb 2026 15:23:32 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Feb 2026 14:30:24 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,167 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Embodied machine learning: From research ideas to classroom activities</title>
+		<link>https://www.raspberrypi.org/blog/embodied-machine-learning-from-research-ideas-to-classroom-activities/</link>
+					<comments>https://www.raspberrypi.org/blog/embodied-machine-learning-from-research-ideas-to-classroom-activities/#respond</comments>
+		
+		<dc:creator><![CDATA[Katharine Childs]]></dc:creator>
+		<pubDate>Thu, 12 Feb 2026 14:30:24 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[research seminar]]></category>
+		<category><![CDATA[AI literacy]]></category>
+		<category><![CDATA[micro:bit]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92555</guid>
+
+					<description><![CDATA[<p>Where do great research ideas come from in computer science education? We might think of research breakthroughs as a single moment of genius, but in reality impactful research is often the result of many years of iterative development. In November’s research seminar, we heard from Karl-Emil Kjær Bilstrup, a researcher at the University of Copenhagen,&#8230;</p>
+<p>The post <a href="https://www.raspberrypi.org/blog/embodied-machine-learning-from-research-ideas-to-classroom-activities/">Embodied machine learning: From research ideas to classroom activities</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Where do great research ideas come from in computer science education? We might think of research breakthroughs as a single moment of genius, but in reality impactful research is often the result of many years of iterative development. In November’s research seminar, we heard from <a href="https://www.karl-emil.com/" target="_blank" rel="noreferrer noopener">Karl-Emil Kjær Bilstrup</a>, a researcher at the University of Copenhagen, about his work to develop<a href="http://ml-machine.org" target="_blank" rel="noreferrer noopener"> ML-Machine</a>. This work uses embodied learning principles and the BBC micro:bit to introduce learners to machine learning concepts. Findings from this research have been used to develop the <a href="https://createai.microbit.org/" target="_blank" rel="noreferrer noopener">micro:bit CreateAI resources</a>, and in this blog, we will explain the research journey from initial small-scale work to educational resources used by many young learners around the world.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img fetchpriority="high" decoding="async" width="1300" height="731" src="https://www.raspberrypi.org/app/uploads/2026/02/image1.jpg" alt="Karl-Emil Kjær Bilstrup, a tool designer and researcher from the University of Copenhagen" class="wp-image-92556" style="aspect-ratio:1.7784246915213868;width:786px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/02/image1.jpg 1300w, https://www.raspberrypi.org/app/uploads/2026/02/image1-300x169.jpg 300w, https://www.raspberrypi.org/app/uploads/2026/02/image1-500x281.jpg 500w, https://www.raspberrypi.org/app/uploads/2026/02/image1-768x432.jpg 768w, https://www.raspberrypi.org/app/uploads/2026/02/image1-800x450.jpg 800w, https://www.raspberrypi.org/app/uploads/2026/02/image1-450x253.jpg 450w, https://www.raspberrypi.org/app/uploads/2026/02/image1-900x506.jpg 900w" sizes="(max-width: 1300px) 100vw, 1300px" /><figcaption class="wp-element-caption">Karl-Emil Kjær Bilstrup, a tool designer and researcher from the University of Copenhagen</figcaption></figure>
+</div>
+
+
+<h2 class="wp-block-heading">From hypothetical ethics to concrete machines</h2>
+
+
+
+<p>In Karl-Emil’s <a href="https://pure.au.dk/ws/portalfiles/portal/190605815/StagingReflectionsOnEthicalDilemmasInMachineLearning.pdf" target="_blank" rel="noreferrer noopener">first research study</a>, students used prompt cards to develop ideas for machine learning applications that could solve real-world problems, and to discuss the ethical dilemmas associated with their solutions. Students found it difficult to address these ethical dilemmas in their designs; for example, their ideas often featured a trade-off of user privacy. The findings from this research informed Karl-Emil’s next study, which moved from hypothetical scenarios to implementing machine learning in real-world settings.&nbsp;</p>
+
+
+
+<p>The <a href="https://dl.acm.org/doi/epdf/10.1145/3430524.3440638">‘Machine Learning Machine’ study</a> made machine learning processes tangible for students through the use of two physical boxes, shown in the picture below. Students created drawings and fed them into the first box to train a model, and then tested the model by placing new drawings under a camera in the second box and having the model produce predictions of what the drawings showed. For example, students could draw pictures of the sun to represent daytime and the moon to represent nighttime to train a model to predict whether new drawings represented day or night. The machine was built for slow interaction, giving students time to think about the concepts and practices that they were developing. In <a href="https://www.researchgate.net/profile/Marianne-Petersen/publication/364264949_The_Best_of_Both_Worlds_Designing_a_Tiered_Hybrid_Interface_for_Teaching_Machine_Learning_in_K-9_Education/links/647dbc87b3dfd73b7767dd59/The-Best-of-Both-Worlds-Designing-a-Tiered-Hybrid-Interface-for-Teaching-Machine-Learning-in-K-9-Education.pdf" target="_blank" rel="noreferrer noopener">a follow-up study</a>, a new version of the Machine Learning Machine had been designed, which was controlled using a graphical user interface (GUI). This allowed users to “unbox” and influence parts of the machine learning process. For example, students could adjust the number of complete passes (called ‘epochs’<em>) </em>through the training data to improve the model’s accuracy.&nbsp;</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" width="772" height="314" src="https://www.raspberrypi.org/app/uploads/2026/02/image3.png" alt="The two components of the Machine Learning Machine: the training box (left) and the evaluator box (right) " class="wp-image-92558" style="width:698px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/02/image3.png 772w, https://www.raspberrypi.org/app/uploads/2026/02/image3-300x122.png 300w, https://www.raspberrypi.org/app/uploads/2026/02/image3-500x203.png 500w, https://www.raspberrypi.org/app/uploads/2026/02/image3-768x312.png 768w, https://www.raspberrypi.org/app/uploads/2026/02/image3-450x183.png 450w" sizes="(max-width: 772px) 100vw, 772px" /><figcaption class="wp-element-caption">The two components of the Machine Learning Machine: the training box (left) and the evaluator box (right)</figcaption></figure>
+</div>
+
+
+<p>The two studies with the Machine Learning Machines provided many useful findings for teaching about machine learning with K–12 (primary and secondary) learners. However, two constraints remained: firstly, there were limited opportunities for whole-class work because there was only one Machine Learning Machine, and secondly, learning experiences needed to be better connected to examples from students’ daily lives. As a result, the next iteration in Karl-Emil’s research involved using the micro:bit, which ensured access to a tangible device for every student, and a new graphical platform called <a href="http://ml-machine.org" target="_blank" rel="noreferrer noopener">ML-Machine</a> that students could interact with.</p>
+
+
+
+<h2 class="wp-block-heading">Machine learning and the micro:bit</h2>
+
+
+
+<p>The <a href="https://microbit.org/get-started/what-is-the-microbit/" target="_blank" rel="noreferrer noopener">micro:bit</a> is a small, programmable computing device that features sensors to gather data from the immediate environment. For example, the <a href="https://microbit.org/get-started/features/sensors/" target="_blank" rel="noreferrer noopener">accelerometer</a> is a motion sensor that can detect when the micro:bit is tilted from left to right, backwards and forwards, and up and down. Using the micro:bit with <a href="http://ml-machine.org" target="_blank" rel="noreferrer noopener">ML-Machine</a> and some common household objects, students can create simple machine learning models that use data from the micro:bit’s accelerometer to detect whether the micro:bit is moving. This is a very different approach from rule-based programs on the micro:bit, where students might use programming constructs such as if statements to detect movement if the numerical reading from the accelerometer is above a certain value. Here, a machine learning model trained using a set of 20 examples is used to analyse live data readings and produce predictions about whether the micro:bit is moving.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" width="808" height="367" src="https://www.raspberrypi.org/app/uploads/2026/02/image2.png" alt="A visualisation of a simple machine learning model to detect whether a micro:bit is being shaken or is still" class="wp-image-92560" style="width:772px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/02/image2.png 808w, https://www.raspberrypi.org/app/uploads/2026/02/image2-300x136.png 300w, https://www.raspberrypi.org/app/uploads/2026/02/image2-500x227.png 500w, https://www.raspberrypi.org/app/uploads/2026/02/image2-768x349.png 768w, https://www.raspberrypi.org/app/uploads/2026/02/image2-800x363.png 800w, https://www.raspberrypi.org/app/uploads/2026/02/image2-450x204.png 450w" sizes="(max-width: 808px) 100vw, 808px" /><figcaption class="wp-element-caption">A visualisation of a simple machine learning model to detect whether a micro:bit is being shaken or is still</figcaption></figure>
+</div>
+
+
+<p>In our seminar, Karl-Emil gave a live demonstration of the ML-Machine toolkit, so we highly recommend watching the <a href="https://www.youtube.com/watch?v=GnPwaIckR9c&amp;list=PLxyaWvsfmq497kQR_KGF1UoijvZHDBZfh" target="_blank" rel="noreferrer noopener">recording</a> to see how this toolkit brings machine learning concepts to life.&nbsp;</p>
+
+
+
+<p>ML-Machine is the precursor to the <a href="https://createai.microbit.org/" target="_blank" rel="noreferrer noopener">micro:bit CreateAI</a> resources, and the software is fully <a href="https://github.com/microbit-foundation/cctd-ml-machine" target="_blank" rel="noreferrer noopener">open-source</a>. However, the innovation doesn’t stop there: Karl-Emil also explained that he is currently developing a new tool called <a href="http://math.ml-machine.org" target="_blank" rel="noreferrer noopener">math.ml-machine.org</a>, where students can train a neural network and see a visualised k-nearest neighbour model to explore how a model makes predictions. The research journey is continuing, with new possibilities for educational opportunities to teach about machine learning.</p>
+
+
+
+<h2 class="wp-block-heading">Embodied learning</h2>
+
+
+
+<p>The idea of embodied learning is interwoven throughout all of Karl-Emil’s research projects and is a cornerstone of all of his work. Embodied learning suggests that we learn more effectively when our whole body is involved in the learning process, not just our minds. For example, in the work described in this seminar, the Machine Learning Machines and the micro:bit were all tangible devices that students could touch and see.&nbsp;</p>
+
+
+
+<p>Embodied learning is particularly important in activities that involve working with <a href="https://www.raspberrypi.org/blog/a-research-led-framework-for-teaching-about-models-in-ai-and-data-science/" target="_blank" rel="noreferrer noopener">data-driven systems</a>. In traditional programming activities, the flow of code can be traced transparently through a program. However, <a href="https://static.raspberrypi.org/files/curriculum/quickreads/21-Pedagogy_Summary_Computational_Thinking_2_2025.pdf" target="_blank" rel="noreferrer noopener">machine learning models are more opaque</a>, and their outputs cannot be traced step by step. Students can benefit from using bodily movements and sensorimotor information to help understand machine learning concepts.&nbsp;</p>
+
+
+
+<p>The ML-Machine toolkit was designed to support students to learn through embodied learning in three different ways:</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Enacting machine learning processes:</strong> Students used bodily movement to collect the data samples needed for the ML-Machine model to detect and predict gestures&nbsp;</li>
+
+
+
+<li><strong>Using machine learning as a design material:</strong> Students created concrete ‘objects-to-think-with’, which helps form deeper connections to abstract concepts</li>
+
+
+
+<li><strong>Embodied exploration of machine learning:</strong> Students experienced how their bodily movements were translated into data points on the screen</li>
+</ol>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="2560" height="1707" src="https://www.raspberrypi.org/app/uploads/2023/11/Spencer-5--scaled.jpg" alt="Secondary school age learners in a computing classroom." class="wp-image-85670" style="aspect-ratio:1.4997489259610557;width:740px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2023/11/Spencer-5--scaled.jpg 2560w, https://www.raspberrypi.org/app/uploads/2023/11/Spencer-5--300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2023/11/Spencer-5--500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2023/11/Spencer-5--768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2023/11/Spencer-5--1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2023/11/Spencer-5--2048x1365.jpg 2048w, https://www.raspberrypi.org/app/uploads/2023/11/Spencer-5--800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2023/11/Spencer-5--450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2023/11/Spencer-5--900x600.jpg 900w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></figure>
+</div>
+
+
+<p>Embodied learning helped students grasp concepts such as data quality. They could see how their bodily movements were being translated into digital data, and could spot when movements that appeared different to them were being classified as similar by the ML-Machine model. One case study participant described that the immediate feedback on screen made the concept of machine learning feel as if it were “coming to life as they [the students] manipulate something themselves and they’ve got control over it”.</p>
+
+
+
+<h2 class="wp-block-heading">Find out more</h2>
+
+
+
+<p>Karl-Emil’s work shows how research ideas can be used in the classroom through a cycle of discovery, design, and reflection. From prompt cards exploring ethics to tangible machines and the micro:bit-based ML-Machine, his research shows how embodied learning can make complex ideas like machine learning not only understandable, but deeply engaging for young learners. The micro:bit CreateAI resources are a great example of how research findings can evolve into accessible, hands-on tools that empower educators and students alike. As this work continues to grow, it invites us to imagine new ways for learners to experience machine learning not as abstract theory, but as something they can see, feel, and shape with their own hands.</p>
+
+
+
+<p>If you’d like to try out some of the ideas from this seminar, here are some useful resources:&nbsp;</p>
+
+
+
+<ul class="wp-block-list">
+<li>Explore machine learning projects using the micro:bit: <a href="https://createai.microbit.org/" target="_blank" rel="noreferrer noopener">micro:bit CreateAI</a> and our <a href="https://projects.raspberrypi.org/en/projects/dance-detector" target="_blank" rel="noreferrer noopener">Dance detector</a> project are great places to start</li>
+
+
+
+<li>Find out more about the research: Read more about Karl-Emil’s work in this <a href="https://dl.acm.org/doi/full/10.1145/3715336.3735737" target="_blank" rel="noreferrer noopener">open-access paper</a></li>
+
+
+
+<li>Investigate new tools: Explore neural networks and k-nearest neighbours algorithms in the new maths-focused version of ML-Machine at <a href="http://math.ml-machine.org" target="_blank" rel="noreferrer noopener">math.ml-machine.org</a></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Join our next seminar</h2>
+
+
+
+<p>Join us at our next seminar on Tuesday 17 March from 17:00 to 18:30 GMT to hear Rebecca Fiebrink (University of the Arts London speak about teaching AI for creative practitioners. This will be the second seminar in our <a href="https://www.raspberrypi.org/blog/how-can-we-teach-about-ai-in-the-arts-humanities-and-sciences-research-seminar-series-2026/" target="_blank" rel="noreferrer noopener">new series on how to teach about AI across disciplines</a>. We hope to see you there!</p>
+
+
+
+<p>To sign up and take part in our research seminars, click below:</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-16018d1d wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://form.raspberrypi.org/f/research-seminar-sign-up">I want to join the next seminar</a></div>
+</div>
+
+
+
+<p>You can also view the <a href="https://www.raspberrypi.org/research/seminars" target="_blank" rel="noreferrer noopener">schedule of our upcoming seminars</a>, and catch up on past seminars on our <a href="https://www.raspberrypi.org/research-impact/research/seminars/previous" target="_blank" rel="noreferrer noopener">previous seminars page</a>.</p>
+
+
+
+<p></p>
+<p>The post <a href="https://www.raspberrypi.org/blog/embodied-machine-learning-from-research-ideas-to-classroom-activities/">Embodied machine learning: From research ideas to classroom activities</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.raspberrypi.org/blog/embodied-machine-learning-from-research-ideas-to-classroom-activities/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Helping young people stay safe online in the age of AI</title>
 		<link>https://www.raspberrypi.org/blog/helping-young-people-stay-safe-online-in-the-age-of-ai/</link>
 					<comments>https://www.raspberrypi.org/blog/helping-young-people-stay-safe-online-in-the-age-of-ai/#respond</comments>
@@ -48,7 +209,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img fetchpriority="high" decoding="async" width="600" height="338" src="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage1-1.png" alt="Experience AI Safety Image" class="wp-image-92537" style="width:690px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage1-1.png 600w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage1-1-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage1-1-500x282.png 500w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage1-1-450x254.png 450w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
+<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="600" height="338" src="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage1-1.png" alt="Experience AI Safety Image" class="wp-image-92537" style="width:690px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage1-1.png 600w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage1-1-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage1-1-500x282.png 500w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage1-1-450x254.png 450w" sizes="auto, (max-width: 600px) 100vw, 600px" /></figure>
 </div>
 
 
@@ -68,7 +229,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img decoding="async" width="600" height="338" src="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage2-1.png" alt="Experience AI safety image" class="wp-image-92538" style="width:746px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage2-1.png 600w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage2-1-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage2-1-500x282.png 500w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage2-1-450x254.png 450w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
+<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="600" height="338" src="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage2-1.png" alt="Experience AI safety image" class="wp-image-92538" style="width:746px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage2-1.png 600w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage2-1-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage2-1-500x282.png 500w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage2-1-450x254.png 450w" sizes="auto, (max-width: 600px) 100vw, 600px" /></figure>
 </div>
 
 
@@ -84,7 +245,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img decoding="async" width="600" height="338" src="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage3-1.png" alt="Experience AI safety image" class="wp-image-92542" style="width:756px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage3-1.png 600w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage3-1-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage3-1-500x282.png 500w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage3-1-450x254.png 450w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
+<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="600" height="338" src="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage3-1.png" alt="Experience AI safety image" class="wp-image-92542" style="width:756px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage3-1.png 600w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage3-1-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage3-1-500x282.png 500w, https://www.raspberrypi.org/app/uploads/2026/02/AISAfetyImage3-1-450x254.png 450w" sizes="auto, (max-width: 600px) 100vw, 600px" /></figure>
 </div>
 
 
@@ -125,10 +286,10 @@
 		<dc:creator><![CDATA[Bobby Whyte]]></dc:creator>
 		<pubDate>Mon, 09 Feb 2026 12:39:22 +0000</pubDate>
 				<category><![CDATA[Research]]></category>
-		<category><![CDATA[Raspberry Pi Computing Education Research Centre]]></category>
-		<category><![CDATA[AI literacy]]></category>
 		<category><![CDATA[data-driven computing]]></category>
 		<category><![CDATA[new study]]></category>
+		<category><![CDATA[Raspberry Pi Computing Education Research Centre]]></category>
+		<category><![CDATA[AI literacy]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92517</guid>
 
 					<description><![CDATA[<p>Are you a primary school teacher in England, Scotland or Wales interested in AI and data science and how students learn about AI and data in computing? The Raspberry Pi Computing Education Research Centre is starting an exciting new research project investigating how to teach about AI and data in the primary computing classroom, and&#8230;</p>
@@ -256,11 +417,11 @@
 		<dc:creator><![CDATA[Sean Sayers]]></dc:creator>
 		<pubDate>Fri, 06 Feb 2026 09:37:05 +0000</pubDate>
 				<category><![CDATA[Education]]></category>
-		<category><![CDATA[quick reads]]></category>
-		<category><![CDATA[PICRAT]]></category>
 		<category><![CDATA[research]]></category>
 		<category><![CDATA[computing education]]></category>
 		<category><![CDATA[pedagogy]]></category>
+		<category><![CDATA[quick reads]]></category>
+		<category><![CDATA[PICRAT]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92494</guid>
 
 					<description><![CDATA[<p>There’s always something new to consider when teaching with technology. From the latest advancements in AI, to new software and hardware updates, it can be difficult to know which tools to use and how to incorporate it effectively into your lessons. In today’s blog, we explore the PICRAT framework and how it can help you&#8230;</p>
@@ -452,9 +613,9 @@
 		<dc:creator><![CDATA[Tanaka Dhliwayo]]></dc:creator>
 		<pubDate>Thu, 05 Feb 2026 13:06:25 +0000</pubDate>
 				<category><![CDATA[Coolest Projects]]></category>
+		<category><![CDATA[coolest projects 2026]]></category>
 		<category><![CDATA[Coolest Projects South Africa]]></category>
 		<category><![CDATA[young creators]]></category>
-		<category><![CDATA[coolest projects 2026]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92448</guid>
 
 					<description><![CDATA[<p>Coolest Projects is the world’s leading technology showcase for young people, a space where creativity, curiosity, and problem-solving come together through code. Last November, Coolest Projects returned to South Africa, providing another exciting opportunity to celebrate and amplify the voices of young digital creators across Mzansi, a local name for South Africa. Coolest Projects brings&#8230;</p>
@@ -600,9 +761,9 @@
 		<dc:creator><![CDATA[Diane Dowling]]></dc:creator>
 		<pubDate>Thu, 29 Jan 2026 15:42:55 +0000</pubDate>
 				<category><![CDATA[AI]]></category>
-		<category><![CDATA[AI literacy]]></category>
 		<category><![CDATA[computing education]]></category>
 		<category><![CDATA[data science]]></category>
+		<category><![CDATA[AI literacy]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92405</guid>
 
 					<description><![CDATA[<p>At the end of last year, Professor Becky Francis published her long-awaited Curriculum and Assessment Review for England, accompanied by the UK government’s official response. Buried within that response — and not actually proposed in the Review itself — was a notable commitment: to “explore introducing a new Level 3 qualification* in data science and&#8230;</p>
@@ -786,10 +947,10 @@
 		<dc:creator><![CDATA[Sean Sayers]]></dc:creator>
 		<pubDate>Tue, 27 Jan 2026 09:42:29 +0000</pubDate>
 				<category><![CDATA[Education]]></category>
-		<category><![CDATA[computing education]]></category>
-		<category><![CDATA[pedagogy]]></category>
 		<category><![CDATA[quick reads]]></category>
 		<category><![CDATA[Learning Graphs]]></category>
+		<category><![CDATA[computing education]]></category>
+		<category><![CDATA[pedagogy]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92389</guid>
 
 					<description><![CDATA[<p>Traditionally, curriculum planning has often looked like a linear list: Topic A leads to Topic B, which leads to Topic C. However, as educators we know that learning rarely happens in such a simple, linear way. Concepts are regularly covered in different overlapping topics, and students can often take different routes to reach the same&#8230;</p>
@@ -976,10 +1137,10 @@
 		<pubDate>Thu, 22 Jan 2026 13:01:18 +0000</pubDate>
 				<category><![CDATA[Education]]></category>
 		<category><![CDATA[Community]]></category>
-		<category><![CDATA[kenya partner showcase]]></category>
-		<category><![CDATA[ecosystem]]></category>
 		<category><![CDATA[computing education]]></category>
 		<category><![CDATA[Kenya]]></category>
+		<category><![CDATA[kenya partner showcase]]></category>
+		<category><![CDATA[ecosystem]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92354</guid>
 
 					<description><![CDATA[<p>In November, our first-ever Kenya Partner Showcase brought together all our partners from across the country for two days of collaboration, learning, and shared strategy. What stood out to us most from the event was not just the diversity of work that the Kenyan partners are doing in computing education, but also the clear alignment&#8230;</p>
@@ -1109,11 +1270,11 @@
 		<dc:creator><![CDATA[Manni Cheung]]></dc:creator>
 		<pubDate>Tue, 20 Jan 2026 11:35:40 +0000</pubDate>
 				<category><![CDATA[Research]]></category>
+		<category><![CDATA[research seminar]]></category>
 		<category><![CDATA[data science]]></category>
 		<category><![CDATA[AI education]]></category>
 		<category><![CDATA[AI literacy]]></category>
 		<category><![CDATA[research and impact]]></category>
-		<category><![CDATA[research seminar]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92324</guid>
 
 					<description><![CDATA[<p>In Germany, as in many countries, AI topics are rapidly entering formal computer science education. Yet, this haste often risks us focusing on fleeting technological developments rather than fundamental concepts. As computer science educator Viktoriya Olari, from Free University of Berlin, discovered in her research, the fundamental role of data, which powers most modern AI&#8230;</p>
@@ -1350,15 +1511,15 @@
 		<item>
 		<title>Coolest Projects 2026: Opens for entries in January!</title>
 		<link>https://www.raspberrypi.org/blog/coolest-projects-2026-opens-for-entries-in-january/</link>
-					<comments>https://www.raspberrypi.org/blog/coolest-projects-2026-opens-for-entries-in-january/#respond</comments>
+					<comments>https://www.raspberrypi.org/blog/coolest-projects-2026-opens-for-entries-in-january/#comments</comments>
 		
 		<dc:creator><![CDATA[Helen Gardner]]></dc:creator>
 		<pubDate>Wed, 14 Jan 2026 11:19:23 +0000</pubDate>
 				<category><![CDATA[Coolest Projects]]></category>
+		<category><![CDATA[Our impact]]></category>
 		<category><![CDATA[STEM]]></category>
 		<category><![CDATA[coolest projects]]></category>
 		<category><![CDATA[coding for kids]]></category>
-		<category><![CDATA[Our impact]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92292</guid>
 
 					<description><![CDATA[<p>Coolest Projects is our global technology showcase for young people up to age 18. It’s a place where young creators share the brilliant things they’ve made using digital technology — from first-ever Scratch projects and coding for fun experiments to ambitious robotics builds — with a global audience. Everyone who takes part receives certificates and&#8230;</p>
@@ -1666,160 +1827,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.raspberrypi.org/blog/coolest-projects-2026-opens-for-entries-in-january/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Learning from Code Clubs around the world: How approaches differ but values are shared</title>
-		<link>https://www.raspberrypi.org/blog/learning-from-code-clubs-around-the-world-how-approaches-differ-but-values-are-shared/</link>
-					<comments>https://www.raspberrypi.org/blog/learning-from-code-clubs-around-the-world-how-approaches-differ-but-values-are-shared/#respond</comments>
-		
-		<dc:creator><![CDATA[Sarah Lygoe]]></dc:creator>
-		<pubDate>Tue, 13 Jan 2026 12:54:19 +0000</pubDate>
-				<category><![CDATA[Code Club]]></category>
-		<category><![CDATA[CSEd]]></category>
-		<category><![CDATA[community]]></category>
-		<guid isPermaLink="false">https://www.raspberrypi.org/?p=92248</guid>
-
-					<description><![CDATA[<p>Every week, young people around the world gather in libraries, classrooms, community centres, and makerspaces to create with code. From Gujarat to Glasgow, Nairobi to New Jersey, the settings may differ, but the energy is unmistakable.&#160; We set out to learn from the wealth of experiences within the global Code Club community: how clubs adapt&#8230;</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/learning-from-code-clubs-around-the-world-how-approaches-differ-but-values-are-shared/">Learning from Code Clubs around the world: How approaches differ but values are shared</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p>Every week, young people around the world gather in libraries, classrooms, community centres, and makerspaces to create with code. From Gujarat to Glasgow, Nairobi to New Jersey, the settings may differ, but the energy is unmistakable.&nbsp;</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="1333" height="889" src="https://www.raspberrypi.org/app/uploads/2026/01/IMG_9862.jpg" alt="Code Club meeting at the shared hub at AEF Reuben in Kenya" class="wp-image-92271" style="aspect-ratio:1.4994561124592085;width:734px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/01/IMG_9862.jpg 1333w, https://www.raspberrypi.org/app/uploads/2026/01/IMG_9862-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2026/01/IMG_9862-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2026/01/IMG_9862-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2026/01/IMG_9862-800x534.jpg 800w, https://www.raspberrypi.org/app/uploads/2026/01/IMG_9862-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2026/01/IMG_9862-900x600.jpg 900w" sizes="auto, (max-width: 1333px) 100vw, 1333px" /><figcaption class="wp-element-caption">Code Club meeting at the shared hub at AEF Reuben in Kenya</figcaption></figure>
-</div>
-
-
-<p>We set out to learn from the wealth of experiences within the global Code Club community: how clubs adapt to local needs, and which practices consistently support young people’s learning. Although we found small differences in how clubs make Code Club work locally, what stands out far more are the shared principles that make it work everywhere. Here we share stories from across our network that collectively paint a vibrant picture of what makes this movement work.</p>
-
-
-
-<h2 class="wp-block-heading">Inspiration from the people who make Code Club thrive</h2>
-
-
-
-<p>One theme runs through every story: Code Club is powered by people who really understand the needs of <strong>their</strong> community.</p>
-
-
-
-<p>During a visit to a set of Code Clubs in India, our team met a group of girls who once faced barriers to attending school. Now, they are confidently creating Scratch projects and exploring new technologies. Their club leader explained how a simple change — allowing girls to attend school wearing traditional attire — opened doors for families. Seeing these young creators code with pride is a vivid reminder of how opportunity can reshape futures.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="2000" height="924" src="https://www.raspberrypi.org/app/uploads/2026/01/1ebbd9e4-b93b-4e76-9d7a-df510524e986.jpg" alt="Welspun Vapi Code Club in Gujarat" class="wp-image-92249" style="aspect-ratio:2.1645997745208567;width:730px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/01/1ebbd9e4-b93b-4e76-9d7a-df510524e986.jpg 2000w, https://www.raspberrypi.org/app/uploads/2026/01/1ebbd9e4-b93b-4e76-9d7a-df510524e986-300x139.jpg 300w, https://www.raspberrypi.org/app/uploads/2026/01/1ebbd9e4-b93b-4e76-9d7a-df510524e986-500x231.jpg 500w, https://www.raspberrypi.org/app/uploads/2026/01/1ebbd9e4-b93b-4e76-9d7a-df510524e986-768x355.jpg 768w, https://www.raspberrypi.org/app/uploads/2026/01/1ebbd9e4-b93b-4e76-9d7a-df510524e986-1536x710.jpg 1536w, https://www.raspberrypi.org/app/uploads/2026/01/1ebbd9e4-b93b-4e76-9d7a-df510524e986-800x370.jpg 800w, https://www.raspberrypi.org/app/uploads/2026/01/1ebbd9e4-b93b-4e76-9d7a-df510524e986-450x208.jpg 450w, https://www.raspberrypi.org/app/uploads/2026/01/1ebbd9e4-b93b-4e76-9d7a-df510524e986-900x416.jpg 900w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /><figcaption class="wp-element-caption">Welspun Vapi Code Club in Gujarat</figcaption></figure>
-</div>
-
-
-<p>A club leader at Better Juniors Digital Club at Better Life Primary and Junior School in Kenya described how their programme began with just one laptop. Rather than letting that limit what learners could do, he found solutions everywhere: applying for grants, borrowing digital space from a nearby hub, and setting up equipment so children could work on projects together. His determination effectively created a bridge between schools and resources, opening up real opportunities for every child to learn.</p>
-
-
-
-<p>We also heard from educators whose clubs have become long-standing pillars of their communities. At Rhiwbina Library in Wales, leaders have been running Code Club for over a decade, creating a space where older creators naturally guide new ones. When asked about club rules, one child replied: “There’s only one and that’s ‘respect’.” That simple principle continues to shape a joyful, collaborative atmosphere.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="600" height="450" src="https://www.raspberrypi.org/app/uploads/2026/01/IMG_20250930_125643.jpg" alt="Fiona Lindsay and pupils at Hillside Primary School in Scotland
-" class="wp-image-92268" style="width:708px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/01/IMG_20250930_125643.jpg 600w, https://www.raspberrypi.org/app/uploads/2026/01/IMG_20250930_125643-300x225.jpg 300w, https://www.raspberrypi.org/app/uploads/2026/01/IMG_20250930_125643-500x375.jpg 500w, https://www.raspberrypi.org/app/uploads/2026/01/IMG_20250930_125643-450x338.jpg 450w" sizes="auto, (max-width: 600px) 100vw, 600px" /><figcaption class="wp-element-caption">Fiona Lindsay and pupils at Hillside Primary School in Scotland</figcaption></figure>
-</div>
-
-
-<p>And sometimes the inspiration comes from the young people themselves. At Hillside Primary in Scotland, an enthusiastic creator took it upon himself to run taster sessions and codealongs for new members, helping them discover whether Code Club was right for them. His enthusiasm and leadership were infectious, and that spirit of young people lifting up their peers is something we’ve seen in clubs all over the world.</p>
-
-
-
-<h2 class="wp-block-heading">Moments of joyful learning capture the spirit of Code Club</h2>
-
-
-
-<p>In one club that meets across three different venues in Pennsylvania, USA — a creative arts centre, a coffee shop, and a library — the excitement became contagious. The librarian, Miss Sandy, was so inspired by the learners’ projects — including the moment they added “Shredder Cat”, the library’s pet mascot, into their digital creations — that she has begun learning to code alongside them.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="1200" height="671" src="https://www.raspberrypi.org/app/uploads/2026/01/Screenshot-2026-01-12-at-10.21.06-1.png" alt="Miss Sandy, Ruth, and her Code Club in Pennsylvania 
-" class="wp-image-92266" style="aspect-ratio:1.7884231536926147;width:780px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/01/Screenshot-2026-01-12-at-10.21.06-1.png 1200w, https://www.raspberrypi.org/app/uploads/2026/01/Screenshot-2026-01-12-at-10.21.06-1-300x168.png 300w, https://www.raspberrypi.org/app/uploads/2026/01/Screenshot-2026-01-12-at-10.21.06-1-500x280.png 500w, https://www.raspberrypi.org/app/uploads/2026/01/Screenshot-2026-01-12-at-10.21.06-1-768x429.png 768w, https://www.raspberrypi.org/app/uploads/2026/01/Screenshot-2026-01-12-at-10.21.06-1-800x447.png 800w, https://www.raspberrypi.org/app/uploads/2026/01/Screenshot-2026-01-12-at-10.21.06-1-450x252.png 450w, https://www.raspberrypi.org/app/uploads/2026/01/Screenshot-2026-01-12-at-10.21.06-1-900x503.png 900w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /><figcaption class="wp-element-caption">Miss Sandy, Ruth, and her Code Club in Pennsylvania&nbsp;</figcaption></figure>
-</div>
-
-
-<p>At one showcase event in India, learners proudly demonstrated text-to-speech and video-sensing projects — remarkable achievements for many of them in their first year of coding. They explained their ideas with confidence and clarity, sharing the logic behind their work as parents, teachers, and mentors looked on with pride.&nbsp;</p>
-
-
-
-<p>In the UK, we experienced a beautiful moment at Fakenham Academy where the room filled with a chorus of squarks, clicking, tapping, and squeaking sounds as learners adapted the <a href="https://projects.raspberrypi.org/en/projects/grow-a-dragonfly" target="_blank" rel="noreferrer noopener">Grow a Dragonfly</a> project in their own creative ways.</p>
-
-
-
-<p>From applause erupting whenever a project is finished to a room buzzing with micro:bits or young people debugging together on a shared laptop, these snapshots show Code Club at its best.</p>
-
-
-
-<h2 class="wp-block-heading">All about community: <strong>Belonging, identity, and a resourceful spirit</strong></h2>
-
-
-
-<p>Whatever the context or setting, Code Club leaders are resourceful. They are not waiting for others to solve their challenges; together with their creators, they are finding local solutions that work. Communities share equipment, mentor each other, offer space, and build continuity for learners in imaginative ways. Young people are gaining far more than digital skills: they are developing belonging, confidence, and a clear sense that they are part of something bigger.</p>
-
-
-
-<p>For example, in a club in Kenya, two groups learnt side by side in a shared space. Younger learners were welcomed by older peers who acted as mentors, creating a real sense of community — collaborative, vibrant, and full of pride in each other’s achievements.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="625" src="https://www.raspberrypi.org/app/uploads/2024/04/1-1-500x625.png" alt="Learners at a Code Club at Oasis Mathare in Kenya " class="wp-image-86862" srcset="https://www.raspberrypi.org/app/uploads/2024/04/1-1-500x625.png 500w, https://www.raspberrypi.org/app/uploads/2024/04/1-1-200x250.png 200w, https://www.raspberrypi.org/app/uploads/2024/04/1-1-768x960.png 768w, https://www.raspberrypi.org/app/uploads/2024/04/1-1-800x1000.png 800w, https://www.raspberrypi.org/app/uploads/2024/04/1-1-450x562.png 450w, https://www.raspberrypi.org/app/uploads/2024/04/1-1-900x1125.png 900w, https://www.raspberrypi.org/app/uploads/2024/04/1-1.png 945w" sizes="auto, (max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">Code Club at Oasis Mathare in Kenya </figcaption></figure>
-</div>
-
-
-<p>We also saw how deeply this work is woven into people’s identities. One team member visiting three clubs in Malvern, UK, wrote about Bob Bilsland, a Code Club champion for 13 years, describing how naturally he connected with learners at their own level and how fully he embodied the role of mentor and champion:</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p>“Seeing his versatility as he mentored, sparked excitement and connected with creators at their own level was a thing to behold… he truly walks the talk.”</p>
-</blockquote>
-
-
-
-<p>The impact can sometimes show up in unexpected ways. Holly, a leader from Illinois, USA, shared that her learners wear their Code Club t-shirts to school as “spirit gear” on Fridays. She told us how much this meant to her students: </p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p>“They absolutely love their shirts and are thrilled to be able to wear them… It makes them feel like a team.” A reminder that belonging matters just as much as skills.</p>
-</blockquote>
-
-
-
-<p>Across every example, we saw resilience, creativity, and generosity in action because Code Clubs grow from strong communities.</p>
-
-
-
-<h2 class="wp-block-heading">Locally rooted but globally informed</h2>
-
-
-
-<p>These stories underscore something essential: Code Club grows not because of any one model, but because communities everywhere make it their own. Sandra Keeru, Programme Coordinator in Kenya, put it beautifully when she reflected that: </p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p>“Code Club is locally rooted but globally informed.”&nbsp;</p>
-</blockquote>
-
-
-
-<p>Each club reflects the needs, culture, and creativity of its community, yet everywhere the same shared values shine through: curiosity, inclusion, and the belief that young people can achieve remarkable things.</p>
-
-
-
-<p>Code Club is more than just learning to code; it’s about creating opportunities, encouraging confidence, and building a global network of digital creators. Whether you’re a mentor, educator, or young digital maker, there’s a place for you in the community. <a href="https://codeclub.org/" target="_blank" rel="noreferrer noopener">Start your Code Club</a> journey today and join a global community of digital creators.</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/learning-from-code-clubs-around-the-world-how-approaches-differ-but-values-are-shared/">Learning from Code Clubs around the world: How approaches differ but values are shared</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.raspberrypi.org/blog/learning-from-code-clubs-around-the-world-how-approaches-differ-but-values-are-shared/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 			</item>
