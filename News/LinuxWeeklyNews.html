@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1057382/" title="See Description">[$] LWN.net Weekly Edition for February 12, 2026</a></li>
+<li><a href="#https://lwn.net/Articles/1058323/" title="See Description">Linux man pages 6.17 released</a></li>
 <li><a href="#https://lwn.net/Articles/1057561/" title="See Description">[$] Evolving Git for the next decade</a></li>
 <li><a href="#https://lwn.net/Articles/1058285/" title="See Description">postmarketOS FOSDEM 2026 and hackathon recap</a></li>
 <li><a href="#https://lwn.net/Articles/1058268/" title="See Description">Stable kernels for Wednesday</a></li>
@@ -51,11 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1057765/" title="See Description">Debian's tag2upload considered stable</a></li>
 <li><a href="#https://lwn.net/Articles/1057759/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1057417/" title="See Description">The 6.19 kernel has been released</a></li>
-<li><a href="#https://lwn.net/Articles/1057569/" title="See Description">An in-kernel machine-learning library</a></li>
-<li><a href="#https://lwn.net/Articles/1057550/" title="See Description">Six stable kernels for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1057382/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 12 Feb 2026 00:02:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057382/" title="https://lwn.net/Articles/1057382/">[$] LWN.net Weekly Edition for February 12, 2026</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1057382/">Front</a>: Git; GCC and KCFI; modernizing swapping; 6.18 statistics; modern FOSS challenges.
+            <li> <a href="https://lwn.net/Articles/1057384/">Briefs</a>: Kernel ML; tag2upload; LFS sysvinit; postmarketOS FOSDEM; Ardour 9.0; Offpunk 3.0; Dave Farber RIP; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1057385/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1058323/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 11 Feb 2026 21:24:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1058323/" title="https://lwn.net/Articles/1058323/">Linux man pages 6.17 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/all/aYy41v6tYda2Qc_1@devuan">Version 6.17</a> of the Linux
+manual-page collection has been released.  Along with a long list of
+updates to the man pages themselves, it includes some new utility programs
+of interest.
+<p>
+<blockquote class="bq">
+	The grepc(1) program is something that originated in this project,
+	as it helped me find code quickly in glibc and the Linux kernel.
+	However, I've found it incredibly useful outside of this project.
+	I'll take some space to announce it, as it's much more than just a
+	tool for writing manual pages, and I expect it to be useful to most
+	--if not all-- C programmers.
+<p>
+	It is a command-line tool that finds C source code (for example, a
+	function definition) in arbitrary projects.  It doesn't use any
+	indexing mechanism (unlike ctags and similar tools).  This means
+	that it can be used right after cloning some repository, without
+	having to first generate an index.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1057561/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 11 Feb 2026 15:55:58 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -345,50 +385,6 @@ href="https://lwn.net/Articles/1048869/">part&#160;1</a>, <a
 href="https://lwn.net/Articles/1049424/">part&#160;2</a>) and the <a
 href="https://kernelnewbies.org/Linux_6.19">KernelNewbies 6.19 page</a> for
 details.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057569/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 06 Feb 2026 23:01:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057569/" title="https://lwn.net/Articles/1057569/">An in-kernel machine-learning library</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>For those wanting more machine learning in the kernel, Viacheslav Dubeyko
-has posted <a href="https://lwn.net/ml/all/20260206191136.2609767-1-slava@dubeyko.com">a
-new in-kernel library</a> for that purpose.
-<p>
-<blockquote class="bq">
-	What is the goal of using ML models in Linux kernel? The main goal
-	is to employ ML models for elaboration of a logic of particular
-	Linux kernel subsystem based on processing data or/and an efficient
-	subsystem configuration based on internal state of subsystem. As a
-	result, it needs: (1) collect data for training, (2) execute ML
-	model training phase, (3) test trained ML model, (4) use ML model
-	for executing the inference phase.  The ML model inference can be
-	used for recommendation of Linux kernel subsystem configuration
-	or/and for injecting a synthesized subsystem logic into kernel
-	space (for example, eBPF logic).
-</blockquote>
-<p>
-It is rigorously undocumented
-and there are no real users, so it's not entirely clear what the purpose
-is, but there are undoubtedly interesting things that could be done with
-it.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057550/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 06 Feb 2026 16:45:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057550/" title="https://lwn.net/Articles/1057550/">Six stable kernels for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1057551/">6.18.9</a>, <a
-href="https://lwn.net/Articles/1057552/">6.12.69</a>, <a
-href="https://lwn.net/Articles/1057553/">6.6.123</a>, <a
-href="https://lwn.net/Articles/1057554/">6.1.162</a>, <a
-href="https://lwn.net/Articles/1057555/">5.15.199</a>, and <a
-href="https://lwn.net/Articles/1057556/">5.10.249</a> stable kernels. As always, each
-contains important fixes throughout the tree; users are advised to
-upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
