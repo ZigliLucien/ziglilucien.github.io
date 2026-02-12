@@ -2,19 +2,15 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly cloudy, with a low around 29. East wind around 2 mph.<br></div>
+         <h3>Today</h3>Partly sunny. High near 52, with temperatures falling to around 49 in the afternoon. Southeast wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Partly sunny. High near 52, with temperatures falling to around 49 in the afternoon. Southeast wind 2 to 6 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy. Low around 32, with temperatures rising to around 34 overnight. Southeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Partly cloudy. Low around 32, with temperatures rising to around 34 overnight. Southeast wind around 5 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Friday</h3>Sunny, with a high near 57. South southeast wind 2 to 6 mph.<br></div>
+         <h3>Friday</h3>Sunny. High near 57, with temperatures falling to around 54 in the afternoon. South southeast wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -26,7 +22,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Rain. Cloudy, with a low around 45. East northeast wind 6 to 9 mph.<br></div>
+         <h3>Saturday Night</h3>Rain. Cloudy, with a low around 45. East northeast wind 6 to 9 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -56,5 +52,10 @@
       <div style="font-size:120%">
          <h3>Wednesday</h3>A slight chance of rain after noon. Mostly cloudy, with a high near 67. Southwest wind 12 to 15 mph, with gusts as high as
          24 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>A slight chance of rain before midnight. Partly cloudy, with a low around 46. Southwest wind 8 to 12 mph, with gusts as high
+         as 18 mph.<br></div>
    </p>
 </div>
