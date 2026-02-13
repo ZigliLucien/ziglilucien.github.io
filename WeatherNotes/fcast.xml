@@ -41,8 +41,8 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-13T22:36:04+00:00</generatedAt>
-		<updateTime type="str">2026-02-13T22:17:36+00:00</updateTime>
+		<generatedAt type="str">2026-02-13T23:36:04+00:00</generatedAt>
+		<updateTime type="str">2026-02-13T22:57:11+00:00</updateTime>
 		<validTimes type="str">2026-02-13T16:00:00+00:00/P7DT12H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
@@ -52,21 +52,21 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">This Afternoon</name>
-				<startTime type="str">2026-02-13T16:00:00-06:00</startTime>
+				<startTime type="str">2026-02-13T17:00:00-06:00</startTime>
 				<endTime type="str">2026-02-13T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">59</temperature>
+				<temperature type="int">60</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">3 mph</windSpeed>
+				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/skc?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny. High near 59, with temperatures falling to around 54 in the afternoon. South wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny. High near 60, with temperatures falling to around 55 in the afternoon. South wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -98,13 +98,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">87</value>
+					<value type="int">90</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 6 mph</windSpeed>
 				<windDirection type="str">SSE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,60/rain_showers,90?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,50/rain_showers,90?size=medium</icon>
 				<shortForecast type="str">Rain Showers</shortForecast>
-				<detailedForecast type="str">Rain showers. Cloudy. High near 53, with temperatures falling to around 51 in the afternoon. South southeast wind 2 to 6 mph. Chance of precipitation is 90%.</detailedForecast>
+				<detailedForecast type="str">Rain showers after 8am. Cloudy. High near 53, with temperatures falling to around 51 in the afternoon. South southeast wind 2 to 6 mph. Chance of precipitation is 90%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
