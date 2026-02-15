@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-15T16:36:04+00:00</generatedAt>
-		<updateTime type="str">2026-02-15T16:27:25+00:00</updateTime>
-		<validTimes type="str">2026-02-15T10:00:00+00:00/P7DT18H</validTimes>
+		<generatedAt type="str">2026-02-15T19:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-02-15T19:27:09+00:00</updateTime>
+		<validTimes type="str">2026-02-15T13:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2026-02-15T10:00:00-06:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2026-02-15T13:00:00-06:00</startTime>
 				<endTime type="str">2026-02-15T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">54</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">1</value>
+					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 to 14 mph</windSpeed>
+				<windSpeed type="str">6 to 10 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/fog/bkn?size=medium</icon>
-				<shortForecast type="str">Patchy Fog then Partly Sunny</shortForecast>
-				<detailedForecast type="str">Patchy fog before 11am. Partly sunny. High near 54, with temperatures falling to around 52 in the afternoon. North northeast wind 8 to 14 mph, with gusts as high as 23 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
+				<shortForecast type="str">Partly Sunny</shortForecast>
+				<detailedForecast type="str">Partly sunny. High near 54, with temperatures falling to around 52 in the afternoon. North northeast wind 6 to 10 mph, with gusts as high as 23 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -104,7 +104,7 @@
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/fog/sct?size=medium</icon>
 				<shortForecast type="str">Areas Of Fog then Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Areas of fog before 9am. Mostly sunny. High near 62, with temperatures falling to around 59 in the afternoon. South southwest wind 2 to 8 mph.</detailedForecast>
+				<detailedForecast type="str">Areas of fog before 9am. Mostly sunny. High near 62, with temperatures falling to around 58 in the afternoon. South southwest wind 2 to 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
