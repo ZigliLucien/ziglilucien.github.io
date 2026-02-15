@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Rain. Cloudy, with a low around 45. Northeast wind 3 to 7 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Overnight</h3>Rain. Cloudy, with a low around 45. Northeast wind around 7 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
