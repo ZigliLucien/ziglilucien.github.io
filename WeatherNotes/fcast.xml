@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-15T14:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-02-15T13:37:38+00:00</updateTime>
-		<validTimes type="str">2026-02-15T07:00:00+00:00/P7DT18H</validTimes>
+		<generatedAt type="str">2026-02-15T15:36:04+00:00</generatedAt>
+		<updateTime type="str">2026-02-15T15:22:07+00:00</updateTime>
+		<validTimes type="str">2026-02-15T09:00:00+00:00/P7DT16H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2026-02-15T08:00:00-06:00</startTime>
+				<startTime type="str">2026-02-15T09:00:00-06:00</startTime>
 				<endTime type="str">2026-02-15T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">54</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">26</value>
+					<value type="int">3</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 to 14 mph</windSpeed>
+				<windSpeed type="str">8 to 14 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain,30/bkn?size=medium</icon>
-				<shortForecast type="str">Chance Light Rain then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">A chance of rain before 9am. Mostly cloudy, with a high near 54. North northeast wind 6 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 30%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
+				<shortForecast type="str">Partly Sunny</shortForecast>
+				<detailedForecast type="str">Partly sunny, with a high near 54. North northeast wind 8 to 14 mph, with gusts as high as 23 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -81,11 +81,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">1 to 6 mph</windSpeed>
+				<windSpeed type="str">2 to 6 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/fog?size=medium</icon>
 				<shortForecast type="str">Areas Of Fog</shortForecast>
-				<detailedForecast type="str">Areas of fog after 10pm. Partly cloudy, with a low around 36. West northwest wind 1 to 6 mph.</detailedForecast>
+				<detailedForecast type="str">Areas of fog after 10pm. Partly cloudy, with a low around 36. West northwest wind 2 to 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -98,13 +98,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">1</value>
+					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">1 to 8 mph</windSpeed>
-				<windDirection type="str">S</windDirection>
+				<windSpeed type="str">2 to 8 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/fog/sct?size=medium</icon>
 				<shortForecast type="str">Areas Of Fog then Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Areas of fog before 9am. Mostly sunny. High near 62, with temperatures falling to around 58 in the afternoon. South wind 1 to 8 mph.</detailedForecast>
+				<detailedForecast type="str">Areas of fog before 9am. Mostly sunny. High near 62, with temperatures falling to around 58 in the afternoon. South southwest wind 2 to 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
