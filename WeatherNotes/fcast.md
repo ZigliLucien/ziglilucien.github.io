@@ -2,20 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Rain. Cloudy, with a low around 45. North northeast wind around 7 mph. Chance of precipitation is 80%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday</h3>Rain before 9am. Mostly cloudy, with a high near 54. North northeast wind 6 to 14 mph, with gusts as high as 24 mph. Chance
+         <h3>Today</h3>Rain before 9am. Mostly cloudy, with a high near 54. North northeast wind 6 to 14 mph, with gusts as high as 24 mph. Chance
          of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Areas of fog after 10pm. Partly cloudy, with a low around 36. West northwest wind 1 to 6 mph.<br></div>
+         <h3>Tonight</h3>Areas of fog after 10pm. Partly cloudy, with a low around 36. West northwest wind 1 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Washington's Birthday</h3>Areas of fog before 9am. Mostly sunny, with a high near 62. South wind 1 to 8 mph.<br></div>
+         <h3>Washington's Birthday</h3>Areas of fog before 9am. Mostly sunny. High near 62, with temperatures falling to around 58 in the afternoon. South wind 1
+         to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>Sunny, with a high near 52. West northwest wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>Mostly clear, with a low around 28. Northwest wind around 6 mph.<br></div>
    </p>
 </div>
