@@ -11,11 +11,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Partly cloudy, with a low around 36. West northwest wind 1 to 6 mph.<br></div>
+         <h3>Sunday Night</h3>Areas of fog after 10pm. Partly cloudy, with a low around 36. West northwest wind 1 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Washington's Birthday</h3>Mostly sunny, with a high near 62. South wind 1 to 8 mph.<br></div>
+         <h3>Washington's Birthday</h3>Areas of fog before 9am. Mostly sunny, with a high near 62. South wind 1 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
