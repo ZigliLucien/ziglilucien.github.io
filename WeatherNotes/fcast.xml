@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-15T04:36:04+00:00</generatedAt>
-		<updateTime type="str">2026-02-15T02:52:27+00:00</updateTime>
-		<validTimes type="str">2026-02-14T20:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2026-02-15T06:36:06+00:00</generatedAt>
+		<updateTime type="str">2026-02-15T05:36:58+00:00</updateTime>
+		<validTimes type="str">2026-02-14T23:00:00+00:00/P7DT5H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,22 +51,22 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Tonight</name>
-				<startTime type="str">2026-02-14T22:00:00-06:00</startTime>
+				<name type="str">Overnight</name>
+				<startTime type="str">2026-02-15T00:00:00-06:00</startTime>
 				<endTime type="str">2026-02-15T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">46</temperature>
+				<temperature type="int">45</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">91</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">7 mph</windSpeed>
-				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,70/rain_showers,90?size=medium</icon>
+				<windSpeed type="str">6 mph</windSpeed>
+				<windDirection type="str">ENE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,90?size=medium</icon>
 				<shortForecast type="str">Rain Showers</shortForecast>
-				<detailedForecast type="str">Rain showers. Cloudy. Low around 46, with temperatures rising to around 49 overnight. East wind around 7 mph. Chance of precipitation is 90%.</detailedForecast>
+				<detailedForecast type="str">Rain showers. Cloudy, with a low around 45. East northeast wind around 6 mph. Chance of precipitation is 90%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
