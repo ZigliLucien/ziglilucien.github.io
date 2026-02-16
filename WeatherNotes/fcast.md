@@ -2,8 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Washington's Birthday</h3>Areas of fog before 9am. Mostly sunny. High near 64, with temperatures falling to around 61 in the afternoon. South southwest
-         wind 5 to 9 mph.<br></div>
+         <h3>Washington's Birthday</h3>Mostly sunny. High near 64, with temperatures falling to around 61 in the afternoon. South southwest wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
