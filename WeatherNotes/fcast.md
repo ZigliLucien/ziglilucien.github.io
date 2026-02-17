@@ -2,21 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly cloudy. Low around 40, with temperatures rising to around 43 overnight. South wind around 7 mph.<br></div>
+         <h3>Today</h3>Patchy fog before 10am. Mostly cloudy. High near 64, with temperatures falling to around 62 in the afternoon. South southwest
+         wind 5 to 17 mph, with gusts as high as 30 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Patchy fog before 10am. Mostly cloudy. High near 64, with temperatures falling to around 62 in the afternoon. South southwest
-         wind 8 to 17 mph, with gusts as high as 30 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A slight chance of rain after 5am. Mostly cloudy. Low around 56, with temperatures rising to around 59 overnight. South southwest
+         <h3>Tonight</h3>A slight chance of rain after 5am. Mostly cloudy. Low around 56, with temperatures rising to around 59 overnight. South southwest
          wind 16 to 21 mph, with gusts as high as 33 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Mostly sunny, with a high near 72. Southwest wind 8 to 17 mph, with gusts as high as 28 mph.<br></div>
+         <h3>Wednesday</h3>Mostly sunny. High near 72, with temperatures falling to around 68 in the afternoon. Southwest wind 8 to 17 mph, with gusts
+         as high as 28 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -31,7 +28,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday Night</h3>A chance of showers and thunderstorms before midnight. Partly cloudy, with a low around 41. West southwest wind 8 to 13 mph,
-         with gusts as high as 21 mph.<br></div>
+         with gusts as high as 21 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,5 +57,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday</h3>Sunny, with a high near 40. North northwest wind 5 to 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday Night</h3>Mostly clear, with a low around 22. East wind around 5 mph.<br></div>
    </p>
 </div>
