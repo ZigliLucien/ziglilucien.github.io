@@ -2,10 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Washington's Birthday</h3>Mostly sunny. High near 63, with temperatures falling to around 59 in the afternoon. South southwest wind around 6 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>Patchy fog after 3am. Partly cloudy, with a low around 43. South southwest wind around 7 mph.<br></div>
    </p>
    <p>
@@ -14,7 +10,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Mostly cloudy, with a low around 57. South southwest wind 18 to 22 mph, with gusts as high as 33 mph.<br></div>
+         <h3>Tuesday Night</h3>Mostly cloudy. Low around 57, with temperatures rising to around 59 overnight. South southwest wind 18 to 22 mph, with gusts
+         as high as 33 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -27,7 +24,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Rain showers likely. Partly sunny, with a high near 72. South southwest wind 6 to 15 mph, with gusts as high as 26 mph.<br></div>
+         <h3>Thursday</h3>Rain showers likely. Partly sunny, with a high near 72. South southwest wind 6 to 15 mph, with gusts as high as 26 mph. Chance
+         of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -57,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday Night</h3>Mostly clear, with a low around 23. North northwest wind around 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday</h3>Mostly sunny, with a high near 43. North northwest wind around 6 mph.<br></div>
    </p>
 </div>
