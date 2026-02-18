@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1058666/" title="See Description">[$] More accurate congestion notification for TCP</a></li>
+<li><a href="#https://lwn.net/Articles/1059342/" title="See Description">Fedora now available in Syria</a></li>
 <li><a href="#https://lwn.net/Articles/1059339/" title="See Description">An Asahi Linux progress report</a></li>
 <li><a href="#https://lwn.net/Articles/1059338/" title="See Description">An update to the malicious crate notification policy (Rust Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1059333/" title="See Description">Security updates for Wednesday</a></li>
@@ -51,11 +53,52 @@
 <li><a href="#https://lwn.net/Articles/1058990/" title="See Description">Four stable kernels for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1058989/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1058744/" title="See Description">Vim 9.2 released</a></li>
-<li><a href="#https://lwn.net/Articles/1058663/" title="See Description">New delegation for Debian's data protection team</a></li>
-<li><a href="#https://lwn.net/Articles/1057769/" title="See Description">[$] The first half of the 7.0 merge window</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1058666/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Feb 2026 15:38:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1058666/" title="https://lwn.net/Articles/1058666/">[$] More accurate congestion notification for TCP</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The "More Accurate Explicit Congestion Notification" (AccECN) mechanism is
+defined by <a
+href="https://datatracker.ietf.org/doc/draft-ietf-tcpm-accurate-ecn/">this
+RFC draft</a>.  The Linux kernel has been gaining support for AccECN with
+TCP over the last few releases; the 7.0 release will enable it by default
+for general use.  AccECN is a subtle change to how TCP works, but it has
+the potential to improve how traffic flows over both public and private
+networks.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1059342/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Feb 2026 15:11:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059342/" title="https://lwn.net/Articles/1059342/">Fedora now available in Syria</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Justin Wheeler <a
+href="https://fedoramagazine.org/fedora-syria/">writes</a>, on Fedora
+Magazine, that Fedora is now available in Syria once again:</p>
+
+<blockquote class="bq">
+<p>Last week, the Fedora Infrastructure Team <a
+href="https://forge.fedoraproject.org/infra/tickets/issues/13135">lifted
+the IP range block</a> on IP addresses in Syria. This action restores
+download access to Fedora Linux deliverables, such as ISOs. It also
+restores access from Syria to Fedora Linux RPM repositories, the
+Fedora Account System, and Fedora build systems. Users can now access
+the various applications and services that make up the Fedora
+Project. This change follows a recent update to the Fedora Export
+Control Policy. Today, anyone connecting to the public Internet from
+Syria should once again be able to access Fedora.</p>
+
+<p>[...] Opening the firewall to Syria took seconds. However, months of
+conversations and hidden work occurred behind the scenes to make this
+happen.</p>
+</blockquote>
+
+<p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1059339/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 18 Feb 2026 14:39:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -275,55 +318,6 @@ enhancements to the Vim9 scripting language, improved diff mode,
 comprehensive completion features, and platform-specific improvements
 including experimental Wayland support.</q>"  Also included is a new
 interactive tutor mode.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1058663/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Feb 2026 15:38:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1058663/" title="https://lwn.net/Articles/1058663/">New delegation for Debian's data protection team</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Debian Project Leader (DPL) Andreas Tille has <a
-href="https://lwn.net/ml/all/aY88XeSX9OZ-5r48%40an3as.eu/">announced</a>
-a new delegation for Debian's data protection team:</p>
-
-<blockquote class="bq">
-<p>Following the end of the previous delegation, Debian was left
-without an active Data Protection team. This situation has
-understandably drawn external attention and highlighted the importance
-of having a clearly identified point of contact for data protection
-matters within the project.</p>
-
-<p>I am therefore very pleased to announce that new volunteers have
-stepped forward, allowing us to re-establish the Debian Data
-Protection team with a fresh delegation.</p>
-</blockquote> 
-
-<p>Tille had put out a <a
-href="https://lwn.net/ml/all/aVd45MIkPgJdTa6_%40an3as.eu/">call for
-volunteers</a> in January after all previous members of the team had
-stepped down. He has appointed Aigars Mahinovs, Andrew M.A. Cater,
-Bart Martens, Emmanuel Arias, Gunnar Wolf, Kiran S Kunjumon, and Salvo
-Tomaselli as the new members of the team. The team provides a central
-coordination and advisory function around Debian's data handling,
-retention, dealing with deletion requests, and more.</p>
-
-<p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057769/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Feb 2026 15:32:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057769/" title="https://lwn.net/Articles/1057769/">[$] The first half of the 7.0 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The merge window for Linux 7.0 has opened, and with it
-comes a number of interesting improvements and enhancements. At the time of
-writing, there have been 7,695 non-merge commits accepted. The 7.0 release is
-not special,
-<a href="http://www.kroah.com/log/blog/2025/12/09/linux-kernel-version-numbers/">
-according to the kernel's versioning scheme</a> — just the release
-that comes after 6.19. Humans love symbolism and round numbers, though, so it
-may feel like something of a milestone.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
