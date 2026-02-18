@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1059339/" title="See Description">An Asahi Linux progress report</a></li>
+<li><a href="#https://lwn.net/Articles/1059338/" title="See Description">An update to the malicious crate notification policy (Rust Blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1059333/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1058643/" title="See Description">[$] Do androids dream of accepted pull requests?</a></li>
 <li><a href="#https://lwn.net/Articles/1059187/" title="See Description">Plasma 6.6.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1059184/" title="See Description">An update on upki</a></li>
@@ -50,12 +53,78 @@
 <li><a href="#https://lwn.net/Articles/1058744/" title="See Description">Vim 9.2 released</a></li>
 <li><a href="#https://lwn.net/Articles/1058663/" title="See Description">New delegation for Debian's data protection team</a></li>
 <li><a href="#https://lwn.net/Articles/1057769/" title="See Description">[$] The first half of the 7.0 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1057691/" title="See Description">[$] Open-source mapping for disaster response</a></li>
-<li><a href="#https://lwn.net/Articles/1058642/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1056953/" title="See Description">[$] Poisoning scraperbots with iocaine</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1059339/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Feb 2026 14:39:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059339/" title="https://lwn.net/Articles/1059339/">An Asahi Linux progress report</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Asahi Linux project, which is working to implement support for Linux on
+Apple CPUs, has published <a
+href="https://asahilinux.org/2026/02/progress-report-6-19/">a detailed 6.19
+progress report</a>.
+<p>
+<blockquote class="bq">
+	We've made incredible progress upstreaming patches over the past 12
+	months. Our patch set has shrunk from 1232 patches with 6.13.8, to
+	858 as of 6.18.8. Our total delta in terms of lines of code has
+	also shrunk, from 95,000 lines to 83,000 lines for the same kernel
+	versions. Hmm, a 15% reduction in lines of code for a 30% reduction
+	in patches seems a bit wrong…
+<p>
+	Not all patches are created equal. Some of the upstreamed patches
+	have been small fixes, others have been thousands of lines. All of
+	them, however, pale in comparison to the GPU driver.
+<p>
+	The GPU driver is 21,000 lines by itself, discounting the
+	downstream Rust abstractions we are still carrying. It is almost
+	double the size of the DCP driver and thrice the size of the
+	ISP/webcam driver, its two closest rivals. And upstreaming work has
+	now begun.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1059338/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Feb 2026 14:35:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059338/" title="https://lwn.net/Articles/1059338/">An update to the malicious crate notification policy (Rust Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Adam Harvey, on behalf of the <a
+href="https://rust-lang.org/governance/teams/dev-tools/#team-crates-io">crates.io
+team</a> has published a <a
+href="https://blog.rust-lang.org/2026/02/13/crates.io-malicious-crate-update/">blog
+post</a> to inform users of a change in their practice of publishing
+information about malicious Rust crates:</p>
+
+<blockquote class="bq">
+<p>The crates.io team will no longer publish a blog post each time a
+malicious crate is detected or reported. In the vast majority of cases
+to date, these notifications have involved crates that have no
+evidence of real world usage, and we feel that publishing these blog
+posts is generating noise, rather than signal.</p>
+
+<p>We will always publish a <a href="https://rustsec.org/">RustSec</a>
+advisory when a crate is removed for containing malware. You can
+subscribe to the <a href="https://rustsec.org/feed.xml">RustSec
+advisory RSS feed</a> to receive updates.</p>
+
+<p>Crates that contain malware and are seeing real usage or
+exploitation will still get both a blog post and a RustSec
+advisory. We may also notify via additional communication channels
+(such as social media) if we feel it is warranted.</p>
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1059333/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Feb 2026 14:03:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059333/" title="https://lwn.net/Articles/1059333/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ceph, gimp, gnutls28, and libpng1.6), <b>Fedora</b> (freerdp, libpng, libssh, mingw-libpng, mingw-libsoup, mingw-python3, pgadmin4, python-pillow, thunderbird, and vim), <b>Mageia</b> (postgresql15), <b>Red Hat</b> (python-urllib3), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, frr, gpg2, kubernetes, kubernetes-old, libsodium, libsoup-2_4-1, libssh, libtasn1, libxml2, nodejs22, openCryptoki, openssl-3, and python311-pip), and <b>Ubuntu</b> (frr, linux-aws, linux-aws-6.8, linux-gkeop, linux-nvidia, linux-nvidia-6.8, linux-oracle, linux-oracle-6.8, linux-aws-fips, linux-fips, linux-gcp-5.15, linux-kvm, linux-oracle, linux-oracle-5.15, linux-gcp-fips, linux-nvidia, linux-nvidia-tegra-igx, linux-oem-6.17, linux-realtime, linux-raspi-realtime, nova, and pillow).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1058643/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 17 Feb 2026 15:22:40 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -253,51 +322,6 @@ not special,
 according to the kernel's versioning scheme</a> — just the release
 that comes after 6.19. Humans love symbolism and round numbers, though, so it
 may feel like something of a milestone.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057691/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Feb 2026 15:17:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057691/" title="https://lwn.net/Articles/1057691/">[$] Open-source mapping for disaster response</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>At <a href="https://fosdem.org/2026/">FOSDEM 2026</a> Petya
-Kangalova, a senior tech partnership and engagement manager for the <a
-href="https://www.hotosm.org/">Humanitarian OpenStreetMap
-Team</a> (HOT) spoke about how
-the project helps people map their surroundings to assist in
-disaster response and humanitarian aid. The project has
-developed a stack of technology to help volunteers collectively map an
-area and add in local knowledge metadata. "<q>One of the core things
-that we believe is that when we speak about disaster response or
-people having access to data is that they really need accessible
-technology that's free and open for anyone to use</q>."</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1058642/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Feb 2026 14:06:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1058642/" title="https://lwn.net/Articles/1058642/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, gcc-toolset-14-binutils, nodejs:20, nodejs:22, nodejs:24, php:7.4, and python3.12), <b>Debian</b> (haproxy, nginx, postgresql-15, and postgresql-17), <b>Fedora</b> (libssh), <b>Oracle</b> (glib2, libsoup, nodejs:20, nodejs:22, and php:7.4), <b>SUSE</b> (assimp, gnutls, helm, kernel, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, libmunge2, libsodium, libsoup, micropython, munge, openCryptoki, python-azure-core, rust-keylime, rustup, sccache, snpguest, tcpreplay, xorg-x11-server, xrdp, and zabbix), and <b>Ubuntu</b> (dnsdist, dotnet8, dotnet9, dotnet10, haproxy, libpng1.6, linux-aws-5.15, linux-azure, linux-azure-fips, linux-oracle, linux-oracle-5.4, munge, nginx, and node-dottie).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1056953/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Feb 2026 16:55:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1056953/" title="https://lwn.net/Articles/1056953/">[$] Poisoning scraperbots with iocaine</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Web sites are being increasingly beset by AI scraperbots — a problem that we have
-<a href="https://lwn.net/Articles/1008897/">written about before</a>, and which has slowly
-ramped up to an occasional de-facto DDoS attack. This has not gone
-uncontested, however: web site operators from around the world have been working on
-inventive countermeasures. These solutions target the problem posed by scraperbots in different ways;
-<a href="https://iocaine.madhouse-project.org/">
-iocaine</a>, a MIT-licensed nonsense generator, is designed
-to make scraped text less useful by poisoning it with fake data. The hope is to
-make running scraperbots not economically viable, and thereby address the
-problem at its root instead of playing an eternal game of Whac-A-Mole.
 </p>
 </blockquote></blockquote></div></td></tr>
 </table>
