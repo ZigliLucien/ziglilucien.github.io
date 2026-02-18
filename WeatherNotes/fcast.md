@@ -2,23 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Mostly cloudy. High near 56, with temperatures falling to around 54 in the afternoon. South wind around 16 mph, with gusts
-         as high as 26 mph.<br></div>
+         <h3>Tonight</h3>A slight chance of rain showers between 1am and 4am. Cloudy. Low around 56, with temperatures rising to around 60 overnight.
+         South southwest wind 16 to 21 mph, with gusts as high as 37 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of rain showers between 1am and 4am. Mostly cloudy. Low around 56, with temperatures rising to around 60 overnight.
-         South southwest wind 16 to 21 mph, with gusts as high as 33 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Wednesday</h3>Mostly sunny. High near 72, with temperatures falling to around 68 in the afternoon. South southwest wind 8 to 15 mph, with
+         gusts as high as 29 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Partly sunny. High near 72, with temperatures falling to around 68 in the afternoon. South southwest wind 8 to 15 mph, with
-         gusts as high as 26 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain showers after midnight. Partly cloudy, with a low around 56. South wind around 7 mph. Chance of precipitation
-         is 30%.<br></div>
+         <h3>Wednesday Night</h3>A chance of rain showers after midnight. Partly cloudy. Low around 56, with temperatures rising to around 58 overnight. South
+         wind around 7 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -63,5 +58,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday Night</h3>Mostly clear, with a low around 21. Northeast wind around 3 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday</h3>Mostly sunny, with a high near 46. South wind 5 to 10 mph, with gusts as high as 20 mph.<br></div>
    </p>
 </div>
