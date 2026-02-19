@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-19T10:36:04+00:00</generatedAt>
-		<updateTime type="str">2026-02-19T10:06:58+00:00</updateTime>
-		<validTimes type="str">2026-02-19T04:00:00+00:00/P7DT21H</validTimes>
+		<generatedAt type="str">2026-02-19T12:36:12+00:00</generatedAt>
+		<updateTime type="str">2026-02-19T12:17:01+00:00</updateTime>
+		<validTimes type="str">2026-02-19T06:00:00+00:00/P7DT19H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,26 +51,7 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Overnight</name>
-				<startTime type="str">2026-02-19T04:00:00-06:00</startTime>
-				<endTime type="str">2026-02-19T06:00:00-06:00</endTime>
-				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">56</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">3</value>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy. Low around 56, with temperatures rising to around 59 overnight. South southwest wind around 8 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
-				<name type="str">Thursday</name>
+				<name type="str">Today</name>
 				<startTime type="str">2026-02-19T06:00:00-06:00</startTime>
 				<endTime type="str">2026-02-19T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
@@ -81,15 +62,15 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">72</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 to 17 mph</windSpeed>
+				<windSpeed type="str">7 to 17 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,50/tsra_sct,70?size=medium</icon>
 				<shortForecast type="str">Slight Chance Showers And Thunderstorms then Showers And Thunderstorms Likely</shortForecast>
-				<detailedForecast type="str">Patchy fog between 7am and 8am, then a slight chance of showers and thunderstorms between 9am and 10am, then showers and thunderstorms likely between 10am and 2pm, then a slight chance of showers and thunderstorms. Mostly cloudy, with a high near 70. South wind 8 to 17 mph, with gusts as high as 23 mph. Chance of precipitation is 70%.</detailedForecast>
+				<detailedForecast type="str">Patchy fog between 7am and 8am, then a slight chance of showers and thunderstorms between 9am and 10am, then showers and thunderstorms likely between 10am and 2pm, then a slight chance of showers and thunderstorms. Mostly cloudy, with a high near 70. South wind 7 to 17 mph, with gusts as high as 23 mph. Chance of precipitation is 70%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
-				<name type="str">Thursday Night</name>
+				<number type="int">2</number>
+				<name type="str">Tonight</name>
 				<startTime type="str">2026-02-19T18:00:00-06:00</startTime>
 				<endTime type="str">2026-02-20T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
@@ -107,7 +88,7 @@
 				<detailedForecast type="str">Mostly clear. Low around 40, with temperatures rising to around 43 overnight. West southwest wind around 13 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Friday</name>
 				<startTime type="str">2026-02-20T06:00:00-06:00</startTime>
 				<endTime type="str">2026-02-20T18:00:00-06:00</endTime>
@@ -123,10 +104,10 @@
 				<windDirection type="str">WNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 53. West northwest wind 3 to 12 mph, with gusts as high as 18 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny. High near 53, with temperatures falling to around 51 in the afternoon. West northwest wind 3 to 12 mph, with gusts as high as 18 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Friday Night</name>
 				<startTime type="str">2026-02-20T18:00:00-06:00</startTime>
 				<endTime type="str">2026-02-21T06:00:00-06:00</endTime>
@@ -145,7 +126,7 @@
 				<detailedForecast type="str">Partly cloudy, with a low around 34. North wind 2 to 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Saturday</name>
 				<startTime type="str">2026-02-21T06:00:00-06:00</startTime>
 				<endTime type="str">2026-02-21T18:00:00-06:00</endTime>
@@ -164,7 +145,7 @@
 				<detailedForecast type="str">A slight chance of rain showers after noon. Mostly sunny, with a high near 48. North wind 6 to 9 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Saturday Night</name>
 				<startTime type="str">2026-02-21T18:00:00-06:00</startTime>
 				<endTime type="str">2026-02-22T06:00:00-06:00</endTime>
@@ -183,7 +164,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 26. Northwest wind 7 to 10 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Sunday</name>
 				<startTime type="str">2026-02-22T06:00:00-06:00</startTime>
 				<endTime type="str">2026-02-22T18:00:00-06:00</endTime>
@@ -202,7 +183,7 @@
 				<detailedForecast type="str">Sunny, with a high near 40. Northwest wind 10 to 16 mph, with gusts as high as 28 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Sunday Night</name>
 				<startTime type="str">2026-02-22T18:00:00-06:00</startTime>
 				<endTime type="str">2026-02-23T06:00:00-06:00</endTime>
@@ -221,7 +202,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 21. North northwest wind around 12 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Monday</name>
 				<startTime type="str">2026-02-23T06:00:00-06:00</startTime>
 				<endTime type="str">2026-02-23T18:00:00-06:00</endTime>
@@ -240,7 +221,7 @@
 				<detailedForecast type="str">Sunny, with a high near 37. North northwest wind 6 to 12 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2026-02-23T18:00:00-06:00</startTime>
 				<endTime type="str">2026-02-24T06:00:00-06:00</endTime>
@@ -259,7 +240,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 20. West northwest wind 1 to 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">12</number>
+				<number type="int">11</number>
 				<name type="str">Tuesday</name>
 				<startTime type="str">2026-02-24T06:00:00-06:00</startTime>
 				<endTime type="str">2026-02-24T18:00:00-06:00</endTime>
@@ -278,7 +259,7 @@
 				<detailedForecast type="str">Mostly sunny, with a high near 47. South southwest wind 2 to 13 mph, with gusts as high as 22 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">13</number>
+				<number type="int">12</number>
 				<name type="str">Tuesday Night</name>
 				<startTime type="str">2026-02-24T18:00:00-06:00</startTime>
 				<endTime type="str">2026-02-25T06:00:00-06:00</endTime>
@@ -297,7 +278,7 @@
 				<detailedForecast type="str">Mostly cloudy, with a low around 37. South southwest wind 12 to 15 mph, with gusts as high as 25 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Wednesday</name>
 				<startTime type="str">2026-02-25T06:00:00-06:00</startTime>
 				<endTime type="str">2026-02-25T18:00:00-06:00</endTime>
@@ -314,6 +295,25 @@
 				<icon type="str">https://api.weather.gov/icons/land/day/bkn/rain_showers,20?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy then Slight Chance Rain Showers</shortForecast>
 				<detailedForecast type="str">A slight chance of rain showers after noon. Mostly cloudy, with a high near 58. South southwest wind around 16 mph, with gusts as high as 26 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Wednesday Night</name>
+				<startTime type="str">2026-02-25T18:00:00-06:00</startTime>
+				<endTime type="str">2026-02-26T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">41</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="int">33</value>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">13 mph</windSpeed>
+				<windDirection type="str">SW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,30?size=medium</icon>
+				<shortForecast type="str">Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A chance of rain showers. Mostly cloudy, with a low around 41. Southwest wind around 13 mph, with gusts as high as 21 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
