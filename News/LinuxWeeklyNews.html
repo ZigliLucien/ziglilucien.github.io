@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1059538/" title="See Description">Seven stable kernels for Thursday</a></li>
+<li><a href="#https://lwn.net/Articles/1059201/" title="See Description">[$] Modernizing swapping: virtual swap spaces</a></li>
 <li><a href="#https://lwn.net/Articles/1059511/" title="See Description">openSUSE governance proposal advances</a></li>
 <li><a href="#https://lwn.net/Articles/1059500/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1058474/" title="See Description">[$] LWN.net Weekly Edition for February 19, 2026</a></li>
@@ -51,11 +53,42 @@
 <li><a href="#https://lwn.net/Articles/1059184/" title="See Description">An update on upki</a></li>
 <li><a href="#https://lwn.net/Articles/1059176/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1058266/" title="See Description">[$] Open source security in spite of AI</a></li>
-<li><a href="#https://lwn.net/Articles/1059031/" title="See Description">Four stable kernels to fix problematic commit</a></li>
-<li><a href="#https://lwn.net/Articles/1057295/" title="See Description">[$] Compact formats for debugging—and more</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1059538/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 19 Feb 2026 16:38:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059538/" title="https://lwn.net/Articles/1059538/">Seven stable kernels for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has announced the <a
+href="https://lwn.net/Articles/1059539/">6.19.3</a>, <a
+href="https://lwn.net/Articles/1059540/">6.18.13</a>, <a
+href="https://lwn.net/Articles/1059541/">6.12.74</a>, <a
+href="https://lwn.net/Articles/1059542/">6.6.127</a>, <a
+href="https://lwn.net/Articles/1059543/">6.1.164</a>, <a
+href="https://lwn.net/Articles/1059544/">5.15.201</a>, and <a
+href="https://lwn.net/Articles/1059545/">5.10.251</a> stable kernels. As usual, each
+includes important fixes and users are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1059201/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 19 Feb 2026 15:20:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059201/" title="https://lwn.net/Articles/1059201/">[$] Modernizing swapping: virtual swap spaces</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's unloved but performance-critical swapping subsystem has been
+undergoing multiple rounds of improvement in recent times.  Recent articles
+have described <a href="https://lwn.net/Articles/1056405/">the addition of the swap
+table</a> as a new way of representing the state of the swap cache, and <a
+href="https://lwn.net/Articles/1057102/">the removal of the swap map</a> as the way of
+tracking swap space.  Work in this area is not done, though; <a
+href="https://lwn.net/ml/all/20260208215839.87595-1-nphamcs@gmail.com">this series from
+Nhat Pham</a> addresses a number of swap-related problems by replacing the
+new swap table structures with a single, virtual swap space.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1059511/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 19 Feb 2026 14:46:31 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -110,7 +143,7 @@ and future community meetings.</p>
 <tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
         <p>
         <ul>
-<li> <a href="https://lwn.net/Articles/1058474/">Front</a>: AI agent goes rogue; debuginfo; iocane; revocable resource-management patches; 7.0 merge window; AccECN; LLMs and security; Humanitarian OpenStreetMap Team.
+<li> <a href="https://lwn.net/Articles/1058474/">Front</a>: AI agent goes rogue; debuginfo; iocaine; revocable resource-management patches; 7.0 merge window; AccECN; LLMs and security; Humanitarian OpenStreetMap Team.
             <li> <a href="https://lwn.net/Articles/1058476/">Briefs</a>: upki; Asahi Linux progress; DFSG processes; Fedora in Syria; Plasma 6.6.0; Vim 9.2; ...
             <li> <a href="https://lwn.net/Articles/1058477/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
             </ul>
@@ -310,38 +343,6 @@ lead developer Daniel Stenberg used his keynote session to discuss his
 experience receiving a slew of low-quality reports and, at the same
 time, realizing that large language model (LLM) tools can sometimes
 find flaws that other tools have missed.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059031/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 16 Feb 2026 16:32:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059031/" title="https://lwn.net/Articles/1059031/">Four stable kernels to fix problematic commit</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg-Kroah Hartman has released the <a
-href="https://lwn.net/Articles/1059034/">6.19.2</a>, <a
-href="https://lwn.net/Articles/1059035/">6.18.12</a>, <a
-href="https://lwn.net/Articles/1059036/">6.12.73</a>, and <a
-href="https://lwn.net/Articles/1059033/">6.6.126</a> stable kernels. These kernels
-each contain a single change; Kroah-Hartman has reverted one
-problematic commit that prevents some systems from booting. "<q>If the
-last stable release worked just fine, no need to upgrade.</q>"</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1057295/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 16 Feb 2026 14:32:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1057295/" title="https://lwn.net/Articles/1057295/">[$] Compact formats for debugging—and more</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>At the 2025 Linux Plumbers Conference in Tokyo, Stephen Brennan gave a
-presentation on the <a
-href="https://developers.redhat.com/articles/2022/01/10/gdb-developers-gnu-debugger-tutorial-part-2-all-about-debuginfo">debuginfo
-format</a>, which contains the symbols and other information needed for
-debugging, along with some alternatives. Debuginfo files are large and, he
-believes, are a bit scary to customers because of the "debug" in their name.
-By rethinking debuginfo and the tools that use it, he hopes that
-free-software developers "<q>can add new, interesting capabilities to tools
-that we are already using or build new interesting tools</q>".
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
