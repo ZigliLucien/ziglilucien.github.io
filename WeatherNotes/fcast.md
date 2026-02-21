@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of snow showers between 7am and 1pm, then a chance of rain showers between 1pm and 2pm. Mostly cloudy, with a high
-         near 41. North wind around 8 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Today</h3>A chance of snow showers before 1pm, then a chance of rain showers between 1pm and 2pm. Mostly cloudy, with a high near 41.
+         North wind around 8 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
