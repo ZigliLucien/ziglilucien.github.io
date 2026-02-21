@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>A chance of rain showers before 3am, then a chance of snow showers between 3am and 4am. Mostly cloudy, with a low around 33.
-         North wind 1 to 5 mph. Chance of precipitation is 30%.<br></div>
+         North northeast wind around 5 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
