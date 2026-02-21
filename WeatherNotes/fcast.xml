@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-21T02:36:08+00:00</generatedAt>
-		<updateTime type="str">2026-02-21T02:26:55+00:00</updateTime>
-		<validTimes type="str">2026-02-20T20:00:00+00:00/P7DT8H</validTimes>
+		<generatedAt type="str">2026-02-21T03:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-02-21T03:16:36+00:00</updateTime>
+		<validTimes type="str">2026-02-20T21:00:00+00:00/P7DT7H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2026-02-20T20:00:00-06:00</startTime>
+				<startTime type="str">2026-02-20T21:00:00-06:00</startTime>
 				<endTime type="str">2026-02-21T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">31</temperature>
@@ -63,10 +63,10 @@
 					<value type="int">8</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
-				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around 31. North northwest wind around 5 mph.</detailedForecast>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 31. North wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -81,11 +81,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">13</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 mph</windSpeed>
-				<windDirection type="str">NNW</windDirection>
+				<windSpeed type="str">6 to 9 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/snow?size=medium</icon>
 				<shortForecast type="str">Chance Snow Showers</shortForecast>
-				<detailedForecast type="str">A chance of snow showers between 7am and 9am, then a chance of rain and snow showers between 9am and 1pm. Partly sunny. High near 44, with temperatures falling to around 42 in the afternoon. North northwest wind around 8 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of snow showers between 7am and 9am, then a chance of rain and snow showers between 9am and 1pm. Mostly cloudy. High near 44, with temperatures falling to around 42 in the afternoon. North wind 6 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
