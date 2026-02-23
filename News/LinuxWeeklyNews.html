@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1058664/" title="See Description">[$] The second half of the 7.0 merge window</a></li>
+<li><a href="#https://lwn.net/Articles/1059933/" title="See Description">Vlad: Weston 15.0 is here: Lua shells, Vulkan rendering, and a smoother display stack</a></li>
 <li><a href="#https://lwn.net/Articles/1059864/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1059812/" title="See Description">The Ladybird browser project shifts to Rust</a></li>
 <li><a href="#https://lwn.net/Articles/1058831/" title="See Description">[$] Lessons on attracting new contributors from 30 years of PostgreSQL</a></li>
@@ -51,11 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1059500/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1058474/" title="See Description">[$] LWN.net Weekly Edition for February 19, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1058666/" title="See Description">[$] More accurate congestion notification for TCP</a></li>
-<li><a href="#https://lwn.net/Articles/1059342/" title="See Description">Fedora now available in Syria</a></li>
-<li><a href="#https://lwn.net/Articles/1059339/" title="See Description">An Asahi Linux progress report</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1058664/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 23 Feb 2026 19:36:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1058664/" title="https://lwn.net/Articles/1058664/">[$] The second half of the 7.0 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The 7.0 merge window
+<a href="https://lwn.net/ml/all/CAHk-%3DwiiRA_XxoF96Q_1n4BadBGJLRkHarHG92u3aTc%2B1ZMeGQ%40mail.gmail.com/">
+closed</a> on February 22 with 11,588 non-merge commits total,
+3,893 of which came in after
+<a href="https://lwn.net/Articles/1057769/">the article covering the first half of the merge
+window</a>. The changes in the second half were weighted toward bug fixes over
+new features, which is usual. There were still a handful of surprises, however, including
+89 separate tiny code-cleanup changes from different people for the rtl8723bs
+driver, a number that
+<a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a5f22b9b1397">surprised</a>
+Greg Kroah-Hartman. It's unusual for a WiFi-chip driver to receive that much
+attention, especially a staging driver that is not yet ready for general use.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1059933/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 23 Feb 2026 18:42:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059933/" title="https://lwn.net/Articles/1059933/">Vlad: Weston 15.0 is here: Lua shells, Vulkan rendering, and a smoother display stack</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Over on the Collabora blog, Marius Vlad has an <a
+href="https://www.collabora.com/news-and-blog/news-and-events/weston-15-here-lua-shells-vulkan-rendering-smoother-display-stack.html">overview
+of Weston 15.0</a>, which was released on February 19.  <a href="https://wayland.pages.freedesktop.org/weston/#">Weston</a> is the
+reference implementation of a <a
+href="https://wayland.freedesktop.org/">Wayland</a> compositor.  The new
+release comes with a new shell that can be programmed using the <a
+href="https://lua.org/">Lua</a> language, a new, experimental Vulkan
+renderer, smoother media playback, color-management additions, and more.
+
+<blockquote class="bq">
+One of Weston's fundamental pillars has always been making the most efficient use of display hardware. Over time, all the work we did to track and offload as much work as possible to this efficient fixed-function hardware has come at the cost of eating CPU time. In the last couple of release cycles, we've focused really hard on improving performance on even the most low-end of devices, so not only do we make the most efficient use of the GPU and display hardware, but we're also really kind on your CPU now. As part of that and to improve our tooling, Weston 15 now comes with support for the <a href="https://perfetto.dev/">Perfetto</a> profiler.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1059864/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 23 Feb 2026 15:30:44 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -273,63 +313,6 @@ for general use.  AccECN is a subtle change to how TCP works, but it has
 the potential to improve how traffic flows over both public and private
 networks.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059342/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Feb 2026 15:11:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059342/" title="https://lwn.net/Articles/1059342/">Fedora now available in Syria</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Justin Wheeler <a
-href="https://fedoramagazine.org/fedora-syria/">writes</a> in Fedora
-Magazine that Fedora is now available in Syria once again:</p>
-
-<blockquote class="bq">
-<p>Last week, the Fedora Infrastructure Team <a
-href="https://forge.fedoraproject.org/infra/tickets/issues/13135">lifted
-the IP range block</a> on IP addresses in Syria. This action restores
-download access to Fedora Linux deliverables, such as ISOs. It also
-restores access from Syria to Fedora Linux RPM repositories, the
-Fedora Account System, and Fedora build systems. Users can now access
-the various applications and services that make up the Fedora
-Project. This change follows a recent update to the Fedora Export
-Control Policy. Today, anyone connecting to the public Internet from
-Syria should once again be able to access Fedora.</p>
-
-<p>[...] Opening the firewall to Syria took seconds. However, months of
-conversations and hidden work occurred behind the scenes to make this
-happen.</p>
-</blockquote>
-
-<p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059339/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Feb 2026 14:39:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059339/" title="https://lwn.net/Articles/1059339/">An Asahi Linux progress report</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Asahi Linux project, which is working to implement support for Linux on
-Apple CPUs, has published <a
-href="https://asahilinux.org/2026/02/progress-report-6-19/">a detailed 6.19
-progress report</a>.
-<p>
-<blockquote class="bq">
-	We've made incredible progress upstreaming patches over the past 12
-	months. Our patch set has shrunk from 1232 patches with 6.13.8, to
-	858 as of 6.18.8. Our total delta in terms of lines of code has
-	also shrunk, from 95,000 lines to 83,000 lines for the same kernel
-	versions. Hmm, a 15% reduction in lines of code for a 30% reduction
-	in patches seems a bit wrong…
-<p>
-	Not all patches are created equal. Some of the upstreamed patches
-	have been small fixes, others have been thousands of lines. All of
-	them, however, pale in comparison to the GPU driver.
-<p>
-	The GPU driver is 21,000 lines by itself, discounting the
-	downstream Rust abstractions we are still carrying. It is almost
-	double the size of the DCP driver and thrice the size of the
-	ISP/webcam driver, its two closest rivals. And upstreaming work has
-	now begun.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
