@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1059864/" title="See Description">Security updates for Monday</a></li>
+<li><a href="#https://lwn.net/Articles/1059812/" title="See Description">The Ladybird browser project shifts to Rust</a></li>
 <li><a href="#https://lwn.net/Articles/1058831/" title="See Description">[$] Lessons on attracting new contributors from 30 years of PostgreSQL</a></li>
 <li><a href="#https://lwn.net/Articles/1059773/" title="See Description">Kernel prepatch 7.0-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/1058319/" title="See Description">[$] Open-source Discord alternatives</a></li>
@@ -51,11 +53,42 @@
 <li><a href="#https://lwn.net/Articles/1058666/" title="See Description">[$] More accurate congestion notification for TCP</a></li>
 <li><a href="#https://lwn.net/Articles/1059342/" title="See Description">Fedora now available in Syria</a></li>
 <li><a href="#https://lwn.net/Articles/1059339/" title="See Description">An Asahi Linux progress report</a></li>
-<li><a href="#https://lwn.net/Articles/1059338/" title="See Description">An update to the malicious crate notification policy (Rust Blog)</a></li>
-<li><a href="#https://lwn.net/Articles/1059333/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1059864/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 23 Feb 2026 15:30:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059864/" title="https://lwn.net/Articles/1059864/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel-rt and openssl), <b>Debian</b> (ca-certificates, chromium, gegl, glib2.0, libvpx, modsecurity-crs, nova, and pillow), <b>Fedora</b> (chromium, mingw-libpng, mupdf, python-pyasn1, python-PyMuPDF, python-uv-build, python3.13, qpdfview, rust-ambient-id, uv, and zathura-pdf-mupdf), <b>Mageia</b> (freerdp, gnutls, and libvpx), <b>Red Hat</b> (butane and grafana-pcp), <b>SUSE</b> (chromedriver, chromium, cockpit-repos, firefox, kernel, libpng16, postgresql16, postgresql17, postgresql18, python, python311-nltk, snpguest, ucode-intel-20260210, vexctl, and xen), and <b>Ubuntu</b> (djvulibre, evolution-data-server, linux-lowlatency, linux-xilinx, and u-boot).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1059812/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 23 Feb 2026 15:20:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059812/" title="https://lwn.net/Articles/1059812/">The Ladybird browser project shifts to Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Ladybird browser project has <a
+href="https://ladybird.org/posts/adopting-rust/">announced</a> a move to
+the Rust programming language:
+<p>
+<blockquote class="bq">
+	When we originally evaluated Rust back in 2024, we rejected it
+	because it's not great at C++ style OOP. The web platform object
+	model inherits a lot of 1990s OOP flavor, with garbage collection,
+	deep inheritance hierarchies, and so on. Rust's ownership model is
+	not a natural fit for that.
+<p>
+	But after another year of treading water, it's time to make the
+	pragmatic choice. Rust has the ecosystem and the safety guarantees
+	we need. Both Firefox and Chromium have already begun introducing
+	Rust into their codebases, and we think it's the right choice for
+	Ladybird too.
+</blockquote>
+<p>
+Large language models are being used to translate existing code.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1058831/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 23 Feb 2026 15:00:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -297,46 +330,6 @@ progress report</a>.
 	ISP/webcam driver, its two closest rivals. And upstreaming work has
 	now begun.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059338/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Feb 2026 14:35:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059338/" title="https://lwn.net/Articles/1059338/">An update to the malicious crate notification policy (Rust Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Adam Harvey, on behalf of the <a
-href="https://rust-lang.org/governance/teams/dev-tools/#team-crates-io">crates.io
-team</a> has published a <a
-href="https://blog.rust-lang.org/2026/02/13/crates.io-malicious-crate-update/">blog
-post</a> to inform users of a change in their practice of publishing
-information about malicious Rust crates:</p>
-
-<blockquote class="bq">
-<p>The crates.io team will no longer publish a blog post each time a
-malicious crate is detected or reported. In the vast majority of cases
-to date, these notifications have involved crates that have no
-evidence of real world usage, and we feel that publishing these blog
-posts is generating noise, rather than signal.</p>
-
-<p>We will always publish a <a href="https://rustsec.org/">RustSec</a>
-advisory when a crate is removed for containing malware. You can
-subscribe to the <a href="https://rustsec.org/feed.xml">RustSec
-advisory RSS feed</a> to receive updates.</p>
-
-<p>Crates that contain malware and are seeing real usage or
-exploitation will still get both a blog post and a RustSec
-advisory. We may also notify via additional communication channels
-(such as social media) if we feel it is warranted.</p>
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059333/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Feb 2026 14:03:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059333/" title="https://lwn.net/Articles/1059333/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ceph, gimp, gnutls28, and libpng1.6), <b>Fedora</b> (freerdp, libpng, libssh, mingw-libpng, mingw-libsoup, mingw-python3, pgadmin4, python-pillow, thunderbird, and vim), <b>Mageia</b> (postgresql15), <b>Red Hat</b> (python-urllib3), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, frr, gpg2, kubernetes, kubernetes-old, libsodium, libsoup-2_4-1, libssh, libtasn1, libxml2, nodejs22, openCryptoki, openssl-3, and python311-pip), and <b>Ubuntu</b> (frr, linux-aws, linux-aws-6.8, linux-gkeop, linux-nvidia, linux-nvidia-6.8, linux-oracle, linux-oracle-6.8, linux-aws-fips, linux-fips, linux-gcp-5.15, linux-kvm, linux-oracle, linux-oracle-5.15, linux-gcp-fips, linux-nvidia, linux-nvidia-tegra-igx, linux-oem-6.17, linux-realtime, linux-raspi-realtime, nova, and pillow).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
