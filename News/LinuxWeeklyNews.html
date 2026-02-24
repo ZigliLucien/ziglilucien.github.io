@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1060050/" title="See Description">GNU Awk 5.4.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1060047/" title="See Description">Firefox 148.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1059673/" title="See Description">[$] As ye clone(), so shall ye AUTOREAP</a></li>
 <li><a href="#https://lwn.net/Articles/1060018/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1059965/" title="See Description">GNU Octave 11.1.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1058664/" title="See Description">[$] The second half of the 7.0 merge window</a></li>
@@ -50,12 +53,82 @@
 <li><a href="#https://lwn.net/Articles/1059641/" title="See Description">The Book of Remind</a></li>
 <li><a href="#https://lwn.net/Articles/1059638/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1059538/" title="See Description">Seven stable kernels for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1059201/" title="See Description">[$] Modernizing swapping: virtual swap spaces</a></li>
-<li><a href="#https://lwn.net/Articles/1059511/" title="See Description">openSUSE governance proposal advances</a></li>
-<li><a href="#https://lwn.net/Articles/1059500/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1060050/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Feb 2026 16:22:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1060050/" title="https://lwn.net/Articles/1060050/">GNU Awk 5.4.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://lists.gnu.org/archive/html/info-gnu/2026-02/msg00011.html">Version
+5.4.0</a> of <a href="https://www.gnu.org/software/gawk/">GNU awk</a>
+(gawk) has been released. This is a major release with a change in
+gawk's default regular-expression matcher: it now uses <a
+href="https://github.com/mikehaertel/minrx?tab=readme-ov-file#minrx-a-minimalist-posix-extended-regular-expression-matcher">MinRX</a>
+as the default regular-expression engine.</p>
+
+<blockquote class="bq">
+<p>This matcher is fully POSIX compliant, which the current GNU matchers
+are not. In particular it follows POSIX rules for finding the longest
+leftmost submatches.  It is also more strict as to regular expression
+syntax, but primarily in a few corner cases that normal, correct,
+regular expression usage should not encounter.</p>
+
+<p>Because regular expression matching is such a fundamental part of
+awk/gawk, the original GNU matchers are still included in gawk.  In order
+to use them, give a value to the GAWK_GNU_MATCHERS environment variable
+before invoking gawk.</p>
+
+<p>[...] The original GNU matchers will eventually be removed from
+gawk.  So, please take the time to notice and report any issues in the
+MinRX matcher, so that they can be ironed out sooner rather than later.</p>
+</blockquote>
+
+<p>See the release announcement for additional changes.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1060047/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Feb 2026 15:52:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1060047/" title="https://lwn.net/Articles/1060047/">Firefox 148.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://www.firefox.com/en-US/firefox/148.0/releasenotes/">Version
+148</a> of Firefox has been released. The most notable change in this
+release is the addition of a <a href="https://support.mozilla.org/en-US/kb/firefox-ai-controls">"Block AI enhancements" option</a> that
+allows turning off "<q>new or current AI enhancements in Firefox, or
+pop-ups about them</q>" with a single toggle.</p>
+
+<p>With this release, Firefox now supports the <a
+href="https://developer.mozilla.org/docs/Web/API/Trusted_Types_API">Trusted
+Types API</a> to help prevent cross-site scripting attacks as well as
+the <a
+href="https://developer.mozilla.org/en-US/docs/Web/API/Sanitizer">Sanitizer
+API</a> that provides new methods for HTML manipulation. See the <a
+href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/148">release
+notes for developers</a> for changes that may affect web developers or
+those who create Firefox add-ons.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1059673/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Feb 2026 15:26:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059673/" title="https://lwn.net/Articles/1059673/">[$] As ye clone(), so shall ye AUTOREAP</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The facilities provided by the kernel for the management of processes have
+evolved considerably in the last few years, driven mostly by the advent of
+the <a href="https://lwn.net/Kernel/Index/#pidfd">pidfd API</a>.  A pidfd is a file
+descriptor that refers to a process; unlike a process ID, a pidfd is an
+unambiguous handle for a process; that makes it a safer, more deterministic
+way of operating on processes.  Christian Brauner, who has driven much of
+the pidfd-related work, is <a
+href="https://lwn.net/ml/all/20260223-work-pidfs-autoreap-v4-0-e393c08c09d1@kernel.org">proposing
+two new flags</a> for the <a
+href="https://man7.org/linux/man-pages/man2/clone.2.html"><tt>clone3()</tt></a>
+system call, one of which changes the kernel's security model in a
+somewhat controversial way.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1060018/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 24 Feb 2026 14:33:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -253,67 +326,6 @@ href="https://lwn.net/Articles/1059545/">5.10.251</a> stable kernels. As usual, 
 includes important fixes and users are advised to upgrade.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059201/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 19 Feb 2026 15:20:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059201/" title="https://lwn.net/Articles/1059201/">[$] Modernizing swapping: virtual swap spaces</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's unloved but performance-critical swapping subsystem has been
-undergoing multiple rounds of improvement in recent times.  Recent articles
-have described <a href="https://lwn.net/Articles/1056405/">the addition of the swap
-table</a> as a new way of representing the state of the swap cache, and <a
-href="https://lwn.net/Articles/1057102/">the removal of the swap map</a> as the way of
-tracking swap space.  Work in this area is not done, though; <a
-href="https://lwn.net/ml/all/20260208215839.87595-1-nphamcs@gmail.com">this series from
-Nhat Pham</a> addresses a number of swap-related problems by replacing the
-new swap table structures with a single, virtual swap space.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059511/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 19 Feb 2026 14:46:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059511/" title="https://lwn.net/Articles/1059511/">openSUSE governance proposal advances</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Douglas DeMaio has <a
-href="https://news.opensuse.org/2026/02/19/comm-advances-gov-proposal-after-virtual-meeting/">announced</a>
-that Jeff Mahoney's new <a
-href="https://gitlab.com/jeffmahoney/opensuse-docs/-/blob/main/governance-draft.md">governance
-proposal</a> for openSUSE, which was <a
-href="https://lwn.net/Articles/1056593/">published in January</a>,
-is moving forward. The new structure would have three governance
-bodies: a new technical steering committee (TSC), a community and 
-marketing committee (CMC), as well as the existing openSUSE
-board.</p>
-
-<blockquote class="bq">
-<p>The discussions during the meeting proposed that the Technical
-Steering Committee should begin with five members with a chair elected
-by the committee. The group would establish clear processes for
-reviewing and approving technical changes, drawing inspiration from
-Fedora's FESCo model. Decisions for the TSC would use a voting system
-of +1 to approve, 0 for neutral, or -1 to block. A proposal passes
-without objection. A -1 vote would require a dedicated meeting, where
-a majority of attendees would decide the outcome. Objections must
-include a clear, documented rationale.</p>
-
-<p>Discussions related to the Community and Marketing Committee would
-focus on outreach, advocacy, and community growth. It could also serve
-as an initial escalation point for disputes. If consensus cannot be
-reached at that level, matters would advance to the Board.</p>
-
-<p>[...] No timeline for final adoption was announced. Project
-contributors will continue discussions through the GitLab repository
-and future community meetings.</p>
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059500/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 19 Feb 2026 14:11:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059500/" title="https://lwn.net/Articles/1059500/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (edk2, glibc, gnupg2, golang, grafana, nodejs:24, and php), <b>Debian</b> (gimp and kernel), <b>Fedora</b> (fvwm3), <b>Mageia</b> (microcode and vim), <b>Oracle</b> (edk2, glibc, kernel, nodejs:24, and php), <b>Red Hat</b> (python-s3transfer), <b>SUSE</b> (abseil-cpp, avahi, azure-cli-core, fontforge, go1.24, go1.25, golang-github-prometheus-prometheus, libpcap, libsoup2, libxml2-16, mupdf, nodejs22, openCryptoki, openjpeg2, patch, python-aiohttp, python-Brotli, python-pip, python311-asgiref, rust1.93, and traefik), and <b>Ubuntu</b> (inetutils, libssh, linux-gcp, linux-gke, linux-hwe-6.8, linux-lowlatency-hwe-6.8, linux-intel-iotg-5.15, linux-xilinx-zynqmp, linux-lowlatency, linux-nvidia-lowlatency, and trafficserver).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
