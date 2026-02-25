@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-25T07:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-02-25T06:46:26+00:00</updateTime>
-		<validTimes type="str">2026-02-25T00:00:00+00:00/P8DT1H</validTimes>
+		<generatedAt type="str">2026-02-25T11:36:04+00:00</generatedAt>
+		<updateTime type="str">2026-02-25T10:12:13+00:00</updateTime>
+		<validTimes type="str">2026-02-25T04:00:00+00:00/P7DT21H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-02-25T01:00:00-06:00</startTime>
+				<startTime type="str">2026-02-25T05:00:00-06:00</startTime>
 				<endTime type="str">2026-02-25T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">40</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">5</value>
+					<value type="int">4</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 to 12 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
+				<windSpeed type="str">5 mph</windSpeed>
+				<windDirection type="str">WSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy. Low around 40, with temperatures rising to around 42 overnight. Southwest wind 6 to 12 mph, with gusts as high as 20 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy. Low around 40, with temperatures rising to around 44 overnight. West southwest wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -74,7 +74,7 @@
 				<startTime type="str">2026-02-25T06:00:00-06:00</startTime>
 				<endTime type="str">2026-02-25T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">55</temperature>
+				<temperature type="int">58</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -85,7 +85,7 @@
 				<windDirection type="str">N</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy. High near 55, with temperatures falling to around 53 in the afternoon. North wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy. High near 58, with temperatures falling to around 56 in the afternoon. North wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
