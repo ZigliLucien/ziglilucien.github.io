@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1059218/" title="See Description">[$] No hardware memory isolation for BPF programs</a></li>
 <li><a href="#https://lwn.net/Articles/1059200/" title="See Description">[$] An effort to secure the Network Time Protocol</a></li>
 <li><a href="#https://lwn.net/Articles/1060189/" title="See Description">MetaBrainz mourns the loss of Robert Kaye</a></li>
 <li><a href="#https://lwn.net/Articles/1060185/" title="See Description">Security updates for Wednesday</a></li>
@@ -52,10 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1059864/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1059812/" title="See Description">The Ladybird browser project shifts to Rust</a></li>
 <li><a href="#https://lwn.net/Articles/1058831/" title="See Description">[$] Lessons on attracting new contributors from 30 years of PostgreSQL</a></li>
-<li><a href="#https://lwn.net/Articles/1059773/" title="See Description">Kernel prepatch 7.0-rc1</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1059218/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 25 Feb 2026 15:27:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059218/" title="https://lwn.net/Articles/1059218/">[$] No hardware memory isolation for BPF programs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+On February&#160;12, Yeoreum Yun posted a
+<a href="https://lwn.net/ml/all/aY3+Raf8eZqipCd6@e129823.arm.com/">suggestion</a>
+for an improvement to the security of the kernel's BPF implementation: use
+<a href="https://lwn.net/Articles/643797/">
+memory protection keys</a> to prevent unauthorized access to memory by BPF
+programs.
+Yun wanted to put the topic on the list for discussion at the Linux
+Storage, Filesystem, Memory Management, and BPF Summit in May, but the
+lack of engagement makes that unlikely. They also have a patch set implementing
+some of the proposed changes, but has not yet shared that with the mailing list.
+Yun's proposal does not seem likely to be accepted in its
+current form, but the kernel has
+<a href="https://lwn.net/Articles/517475/">
+added hardware-based hardening options</a> in the
+past, sometimes after substantial discussion.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1059200/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 25 Feb 2026 14:26:21 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -264,8 +288,8 @@ attention, especially a staging driver that is not yet ready for general use.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Over on the Collabora blog, Marius Vlad has an <a
 href="https://www.collabora.com/news-and-blog/news-and-events/weston-15-here-lua-shells-vulkan-rendering-smoother-display-stack.html">overview
-of Weston 15.0</a>, which was released on February 19.  <a href="https://wayland.pages.freedesktop.org/weston/#">Weston</a> is the
-reference implementation of a <a
+of Weston 15.0</a>, which was released on February 19.  <a href="https://wayland.pages.freedesktop.org/weston/#">Weston</a> is <strike>the
+reference</strike> an implementation of a <a
 href="https://wayland.freedesktop.org/">Wayland</a> compositor.  The new
 release comes with a new shell that can be programmed using the <a
 href="https://lua.org/">Lua</a> language, a new, experimental Vulkan
@@ -321,15 +345,6 @@ Giordano shared some of the lessons learned and where the project is still
 struggling. The lessons might be of interest to others who are thinking about
 how their own projects can evolve.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059773/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 23 Feb 2026 00:41:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059773/" title="https://lwn.net/Articles/1059773/">Kernel prepatch 7.0-rc1</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has <a href="https://lwn.net/Articles/1059772/">released 7.0-rc1</a> and closed the
-merge window for this development cycle.  "<q>You all know the drill by
-now: two weeks have passed, and the kernel merge window is closed.</q>"</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
