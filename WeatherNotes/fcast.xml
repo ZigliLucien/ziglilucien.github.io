@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-26T07:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-02-26T06:46:10+00:00</updateTime>
-		<validTimes type="str">2026-02-26T00:00:00+00:00/P8DT1H</validTimes>
+		<generatedAt type="str">2026-02-26T11:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-02-26T10:41:50+00:00</updateTime>
+		<validTimes type="str">2026-02-26T04:00:00+00:00/P7DT21H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-02-26T01:00:00-06:00</startTime>
+				<startTime type="str">2026-02-26T05:00:00-06:00</startTime>
 				<endTime type="str">2026-02-26T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">39</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">53</value>
+					<value type="int">22</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 mph</windSpeed>
-				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,50?size=medium</icon>
-				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers. Mostly cloudy. Low around 39, with temperatures rising to around 43 overnight. Northeast wind around 6 mph. Chance of precipitation is 50%.</detailedForecast>
+				<windDirection type="str">ENE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20?size=medium</icon>
+				<shortForecast type="str">Slight Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A slight chance of rain showers. Mostly cloudy. Low around 39, with temperatures rising to around 42 overnight. East northeast wind around 6 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
