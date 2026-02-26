@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-02-26T17:36:02+00:00</generatedAt>
-		<updateTime type="str">2026-02-26T16:42:18+00:00</updateTime>
-		<validTimes type="str">2026-02-26T10:00:00+00:00/P7DT15H</validTimes>
+		<generatedAt type="str">2026-02-26T19:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-02-26T19:11:30+00:00</updateTime>
+		<validTimes type="str">2026-02-26T13:00:00+00:00/P7DT15H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,8 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Today</name>
-				<startTime type="str">2026-02-26T11:00:00-06:00</startTime>
+				<name type="str">This Afternoon</name>
+				<startTime type="str">2026-02-26T13:00:00-06:00</startTime>
 				<endTime type="str">2026-02-26T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">57</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
-				<windDirection type="str">ENE</windDirection>
+				<windSpeed type="str">3 mph</windSpeed>
+				<windDirection type="str">NE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 57. East northeast wind around 6 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 57. Northeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -131,18 +131,18 @@
 				<startTime type="str">2026-02-28T06:00:00-06:00</startTime>
 				<endTime type="str">2026-02-28T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">68</temperature>
+				<temperature type="int">67</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">5</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 to 9 mph</windSpeed>
-				<windDirection type="str">SE</windDirection>
+				<windSpeed type="str">7 mph</windSpeed>
+				<windDirection type="str">SSE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 68. Southeast wind 5 to 9 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 67. South southeast wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">6</number>
@@ -150,18 +150,18 @@
 				<startTime type="str">2026-02-28T18:00:00-06:00</startTime>
 				<endTime type="str">2026-03-01T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">36</temperature>
+				<temperature type="int">35</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">22</value>
+					<value type="int">14</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 to 12 mph</windSpeed>
+				<windSpeed type="str">7 to 10 mph</windSpeed>
 				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/sct/rain_showers,20?size=medium</icon>
-				<shortForecast type="str">Partly Cloudy then Slight Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers after midnight. Partly cloudy, with a low around 36. North northwest wind 8 to 12 mph, with gusts as high as 18 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
+				<shortForecast type="str">Partly Cloudy</shortForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 35. North northwest wind 7 to 10 mph, with gusts as high as 18 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">7</number>
@@ -169,18 +169,18 @@
 				<startTime type="str">2026-03-01T06:00:00-06:00</startTime>
 				<endTime type="str">2026-03-01T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">45</temperature>
+				<temperature type="int">46</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">46</value>
+					<value type="int">28</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">12 mph</windSpeed>
+				<windSpeed type="str">10 mph</windSpeed>
 				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,20/rain_showers,50?size=medium</icon>
-				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers. Mostly cloudy, with a high near 45. Northeast wind around 12 mph, with gusts as high as 20 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn/rain_showers,30?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy then Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A chance of rain showers after noon. Mostly cloudy, with a high near 46. Northeast wind around 10 mph, with gusts as high as 18 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">8</number>
@@ -188,18 +188,18 @@
 				<startTime type="str">2026-03-01T18:00:00-06:00</startTime>
 				<endTime type="str">2026-03-02T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">32</temperature>
+				<temperature type="int">34</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">75</value>
+					<value type="int">73</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">10 mph</windSpeed>
 				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/snow,80/snow_fzra,70?size=medium</icon>
-				<shortForecast type="str">Rain And Snow Showers</shortForecast>
-				<detailedForecast type="str">Rain and snow showers before midnight, then freezing rain likely and rain and snow showers likely. Cloudy, with a low around 32. Northeast wind around 10 mph, with gusts as high as 18 mph. Little or no ice accumulation expected.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/snow,60/snow,70?size=medium</icon>
+				<shortForecast type="str">Rain And Snow Showers Likely</shortForecast>
+				<detailedForecast type="str">Rain and snow showers likely. Cloudy, with a low around 34. Northeast wind around 10 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">9</number>
@@ -207,18 +207,18 @@
 				<startTime type="str">2026-03-02T06:00:00-06:00</startTime>
 				<endTime type="str">2026-03-02T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">43</temperature>
+				<temperature type="int">44</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">34</value>
+					<value type="int">33</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">10 mph</windSpeed>
+				<windSpeed type="str">7 to 10 mph</windSpeed>
 				<windDirection type="str">NE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/snow,30/snow,20?size=medium</icon>
 				<shortForecast type="str">Chance Rain And Snow Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain and snow showers. Cloudy, with a high near 43. Northeast wind around 10 mph, with gusts as high as 18 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of rain and snow showers. Mostly cloudy, with a high near 44. Northeast wind 7 to 10 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">10</number>
@@ -226,18 +226,18 @@
 				<startTime type="str">2026-03-02T18:00:00-06:00</startTime>
 				<endTime type="str">2026-03-03T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">31</temperature>
+				<temperature type="int">33</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">39</value>
+					<value type="int">34</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 mph</windSpeed>
-				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,30/rain_showers,40?size=medium</icon>
+				<windSpeed type="str">6 mph</windSpeed>
+				<windDirection type="str">ENE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/rain_showers,30?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers. Mostly cloudy, with a low around 31. Northeast wind around 8 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of rain showers. Mostly cloudy, with a low around 33. East northeast wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">11</number>
@@ -245,18 +245,18 @@
 				<startTime type="str">2026-03-03T06:00:00-06:00</startTime>
 				<endTime type="str">2026-03-03T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">49</temperature>
+				<temperature type="int">50</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">46</value>
+					<value type="int">53</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 mph</windSpeed>
-				<windDirection type="str">N</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,50/rain_showers,40?size=medium</icon>
+				<windSpeed type="str">7 mph</windSpeed>
+				<windDirection type="str">SE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,50?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers. Cloudy, with a high near 49. North wind around 8 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of rain showers. Cloudy, with a high near 50. Southeast wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">12</number>
@@ -264,18 +264,18 @@
 				<startTime type="str">2026-03-03T18:00:00-06:00</startTime>
 				<endTime type="str">2026-03-04T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">35</temperature>
+				<temperature type="int">42</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">47</value>
+					<value type="int">56</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">7 mph</windSpeed>
-				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,50?size=medium</icon>
-				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers. Cloudy, with a low around 35. North northeast wind around 7 mph.</detailedForecast>
+				<windDirection type="str">S</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,50/rain_showers,60?size=medium</icon>
+				<shortForecast type="str">Rain Showers Likely</shortForecast>
+				<detailedForecast type="str">Rain showers likely. Cloudy, with a low around 42. South wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">13</number>
@@ -283,26 +283,7 @@
 				<startTime type="str">2026-03-04T06:00:00-06:00</startTime>
 				<endTime type="str">2026-03-04T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">55</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">39</value>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 mph</windSpeed>
-				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,40?size=medium</icon>
-				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers. Mostly cloudy, with a high near 55. East wind around 8 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">14</number>
-				<name type="str">Wednesday Night</name>
-				<startTime type="str">2026-03-04T18:00:00-06:00</startTime>
-				<endTime type="str">2026-03-05T06:00:00-06:00</endTime>
-				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">41</temperature>
+				<temperature type="int">61</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -311,9 +292,28 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">7 to 10 mph</windSpeed>
 				<windDirection type="str">SSE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,50?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,50/rain_showers,40?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers. Mostly cloudy, with a low around 41. South southeast wind 7 to 10 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of rain showers. Cloudy, with a high near 61. South southeast wind 7 to 10 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Wednesday Night</name>
+				<startTime type="str">2026-03-04T18:00:00-06:00</startTime>
+				<endTime type="str">2026-03-05T06:00:00-06:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">52</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="int">55</value>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">8 to 12 mph</windSpeed>
+				<windDirection type="str">S</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,60?size=medium</icon>
+				<shortForecast type="str">Rain Showers Likely</shortForecast>
+				<detailedForecast type="str">Rain showers likely. Cloudy, with a low around 52. South wind 8 to 12 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
