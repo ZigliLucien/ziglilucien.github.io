@@ -2,20 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A slight chance of rain showers. Mostly cloudy. Low around 39, with temperatures rising to around 42 overnight. East northeast
-         wind around 6 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Today</h3>Mostly sunny, with a high near 57. Northeast wind 2 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Mostly sunny, with a high near 57. Northeast wind 2 to 7 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear. Low around 37, with temperatures rising to around 39 overnight. South wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear. Low around 37, with temperatures rising to around 39 overnight. South wind around 2 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Friday</h3>Sunny, with a high near 66. South southwest wind 3 to 12 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Friday</h3>Sunny. High near 66, with temperatures falling to around 63 in the afternoon. South southwest wind 3 to 12 mph, with gusts
+         as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -28,7 +24,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday Night</h3>A slight chance of rain showers after midnight. Partly cloudy, with a low around 36. North northwest wind 8 to 12 mph, with
-         gusts as high as 18 mph.<br></div>
+         gusts as high as 18 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,5 +54,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>A chance of rain showers. Mostly cloudy, with a high near 55. East wind around 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 41. South southeast wind 7 to 10 mph.<br></div>
    </p>
 </div>
