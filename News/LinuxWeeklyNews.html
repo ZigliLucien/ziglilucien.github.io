@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1059177/" title="See Description">[$] The troubles with Boolean inversion in Python</a></li>
 <li><a href="#https://lwn.net/Articles/1060646/" title="See Description">Two new stable kernels, possible regression</a></li>
 <li><a href="#https://lwn.net/Articles/1060645/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1059565/" title="See Description">[$] IIIF: images and visual presentations for the web</a></li>
@@ -52,10 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1060050/" title="See Description">GNU Awk 5.4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1060047/" title="See Description">Firefox 148.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1059673/" title="See Description">[$] As ye clone(), so shall ye AUTOREAP</a></li>
-<li><a href="#https://lwn.net/Articles/1060018/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1059177/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 27 Feb 2026 16:21:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059177/" title="https://lwn.net/Articles/1059177/">[$] The troubles with Boolean inversion in Python</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Python bitwise-inversion (or complement) operator, "<tt>~</tt>", <a
+href="https://docs.python.org/3/library/stdtypes.html#index-16">behaves</a>
+pretty much as expected when it is applied to integers—it toggles every
+bit, from one
+to zero and vice versa.  It might be expected that applying the
+operator to a non-integer, a <a
+href="https://docs.python.org/3/library/stdtypes.html#boolean-type-bool"><tt>bool</tt></a>
+for example, would raise a <tt>TypeError</tt>, but, because the
+<tt>bool</tt> type is really an <a
+href="https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex"><tt>int</tt></a>
+in disguise, the complement operator is allowed, at least for now.  For
+nearly 15&#160;years (and perhaps longer), there have been discussions about the
+oddity of that behavior and whether it should be changed.  Eventually,
+that resulted in the "feature" being deprecated, producing a warning, with removal slated for
+Python&#160;3.16 (due October 2027). That has led to some reconsideration and the
+deprecation may itself be deprecated.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1060646/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 27 Feb 2026 14:36:33 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -305,14 +328,6 @@ two new flags</a> for the <a
 href="https://man7.org/linux/man-pages/man2/clone.2.html"><tt>clone3()</tt></a>
 system call, one of which changes the kernel's security model in a
 somewhat controversial way.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1060018/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Feb 2026 14:33:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1060018/" title="https://lwn.net/Articles/1060018/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and munge), <b>Debian</b> (openssl), <b>Mageia</b> (gegl), <b>Oracle</b> (firefox, freerdp, gnupg2, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, java-11-openjdk, kernel, libpng15, munge, nodejs:20, nodejs:22, protobuf, and uek-kernel), <b>SUSE</b> (libpng12, libpng16, and openQA, openQA-devel-container, os-autoinst), and <b>Ubuntu</b> (gimp, libssh, and linux-azure).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>

@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Sunny. High near 69, with temperatures falling to around 67 in the afternoon. South southwest wind 8 to 12 mph, with gusts
+         <h3>This Afternoon</h3>Sunny. High near 69, with temperatures falling to around 67 in the afternoon. South southwest wind around 12 mph, with gusts
          as high as 20 mph.<br></div>
    </p>
    <p>
@@ -35,15 +35,16 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Showers and thunderstorms likely. Mostly cloudy, with a high near 63. South wind around 10 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Tuesday</h3>Showers and thunderstorms likely. Cloudy, with a high near 63. South wind around 10 mph, with gusts as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Showers and thunderstorms likely. Cloudy, with a low around 53. South southeast wind around 9 mph.<br></div>
+         <h3>Tuesday Night</h3>Rain showers likely before midnight, then showers and thunderstorms likely. Cloudy, with a low around 53. South southeast
+         wind around 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Rain showers likely. Cloudy, with a high near 65. South wind around 12 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Wednesday</h3>Showers and thunderstorms likely. Cloudy, with a high near 65. South wind around 12 mph, with gusts as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -52,11 +53,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Rain showers likely before noon, then showers and thunderstorms likely. Mostly cloudy, with a high near 68. South southwest
-         wind around 13 mph, with gusts as high as 23 mph.<br></div>
+         <h3>Thursday</h3>Rain showers likely. Mostly cloudy, with a high near 68. South southwest wind around 13 mph, with gusts as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 55. South wind around 9 mph.<br></div>
+         <h3>Thursday Night</h3>A chance of rain showers before midnight, then showers and thunderstorms likely. Mostly cloudy, with a low around 55. South
+         wind around 9 mph.<br></div>
    </p>
 </div>
