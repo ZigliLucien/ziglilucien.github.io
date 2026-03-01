@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-03-01T15:36:04+00:00</generatedAt>
-		<updateTime type="str">2026-03-01T13:56:44+00:00</updateTime>
-		<validTimes type="str">2026-03-01T07:00:00+00:00/P7DT18H</validTimes>
+		<generatedAt type="str">2026-03-01T17:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-03-01T17:02:03+00:00</updateTime>
+		<validTimes type="str">2026-03-01T11:00:00+00:00/P7DT14H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2026-03-01T09:00:00-06:00</startTime>
+				<startTime type="str">2026-03-01T11:00:00-06:00</startTime>
 				<endTime type="str">2026-03-01T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">52</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">8</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">10 mph</windSpeed>
+				<windSpeed type="str">12 mph</windSpeed>
 				<windDirection type="str">NE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
 				<shortForecast type="str">Partly Sunny</shortForecast>
-				<detailedForecast type="str">Partly sunny, with a high near 52. Northeast wind around 10 mph, with gusts as high as 18 mph.</detailedForecast>
+				<detailedForecast type="str">Partly sunny, with a high near 52. Northeast wind around 12 mph, with gusts as high as 18 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,13 +79,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">89</value>
+					<value type="int">95</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">9 mph</windSpeed>
-				<windDirection type="str">ENE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,60/rain_showers,90?size=medium</icon>
-				<shortForecast type="str">Rain Showers</shortForecast>
-				<detailedForecast type="str">Rain showers after 8pm. Mostly cloudy. Low around 37, with temperatures rising to around 39 overnight. East northeast wind around 9 mph. Chance of precipitation is 90%.</detailedForecast>
+				<windSpeed type="str">7 to 12 mph</windSpeed>
+				<windDirection type="str">NE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain,80/rain,100?size=medium</icon>
+				<shortForecast type="str">Heavy Rain</shortForecast>
+				<detailedForecast type="str">Rain after 7pm. Cloudy. Low around 37, with temperatures rising to around 39 overnight. Northeast wind 7 to 12 mph, with gusts as high as 21 mph. Chance of precipitation is 100%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -98,13 +98,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">81</value>
+					<value type="int">82</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 to 9 mph</windSpeed>
-				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,80/rain_showers,30?size=medium</icon>
-				<shortForecast type="str">Rain Showers</shortForecast>
-				<detailedForecast type="str">Rain showers. Cloudy, with a high near 49. East wind 5 to 9 mph. Chance of precipitation is 80%.</detailedForecast>
+				<windSpeed type="str">6 to 10 mph</windSpeed>
+				<windDirection type="str">ENE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain,80/rain,20?size=medium</icon>
+				<shortForecast type="str">Rain</shortForecast>
+				<detailedForecast type="str">Rain. Cloudy, with a high near 49. East northeast wind 6 to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 80%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -119,11 +119,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">54</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 to 9 mph</windSpeed>
+				<windSpeed type="str">2 to 9 mph</windSpeed>
 				<windDirection type="str">ESE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,50?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/rain_showers,50?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers. Mostly cloudy, with a low around 45. East southeast wind 5 to 9 mph. Chance of precipitation is 50%.</detailedForecast>
+				<detailedForecast type="str">A chance of rain showers. Mostly cloudy, with a low around 45. East southeast wind 2 to 9 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
