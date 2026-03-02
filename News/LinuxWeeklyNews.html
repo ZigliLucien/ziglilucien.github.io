@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1060953/" title="See Description">Høiland-Jørgensen: The inner workings of TCP zero-copy</a></li>
+<li><a href="#https://lwn.net/Articles/1060950/" title="See Description">Texinfo 7.3 released</a></li>
 <li><a href="#https://lwn.net/Articles/1058031/" title="See Description">[$] The exploitation paradox in open source</a></li>
 <li><a href="#https://lwn.net/Articles/1060913/" title="See Description">Motorola announces a partnership with the GrapheneOS Foundation</a></li>
 <li><a href="#https://lwn.net/Articles/1060912/" title="See Description">Gram 1.0 released</a></li>
@@ -51,11 +53,37 @@
 <li><a href="#https://lwn.net/Articles/1060391/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1059501/" title="See Description">[$] LWN.net Weekly Edition for February 26, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1060271/" title="See Description">Support period lengthened for the 6.6, 6.12, and 6.18 kernels</a></li>
-<li><a href="#https://lwn.net/Articles/1059218/" title="See Description">[$] No hardware memory isolation for BPF programs</a></li>
-<li><a href="#https://lwn.net/Articles/1059200/" title="See Description">[$] An effort to secure the Network Time Protocol</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1060953/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 02 Mar 2026 20:12:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1060953/" title="https://lwn.net/Articles/1060953/">Høiland-Jørgensen: The inner workings of TCP zero-copy</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Toke Høiland-Jørgensen has posted <a
+href="https://blog.tohojo.dk/2026/02/the-inner-workings-of-tcp-zero-copy.html">an
+overview of how zero-copy networking works</a> in the Linux kernel.
+<p>
+<blockquote class="bq">
+	Since the memory is being copied directly from userspace to the
+	network device, the userspace application has to keep it around
+	unmodified, until it has finished sending. The <tt>sendmsg()</tt>
+	syscall itself is asynchronous, and will return without waiting for
+	this. Instead, once the memory buffers are no longer needed by the
+	stack, the kernel will return a notification to userspace that the
+	buffers can be reused.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1060950/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 02 Mar 2026 18:47:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1060950/" title="https://lwn.net/Articles/1060950/">Texinfo 7.3 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Version 7.3 of Texinfo, the GNU documentation-formatting system, has been released. 
+It contains a number of new features, performance improvements, and enhancements.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1058031/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 02 Mar 2026 15:28:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -269,46 +297,6 @@ href="https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da
 The 6.6 kernel will be supported with stable updates through the end of
 2027 (for four years of support total), while 6.12 and 6.18 will get
 updates through the end of 2028, for four and three years of support.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059218/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 25 Feb 2026 15:27:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059218/" title="https://lwn.net/Articles/1059218/">[$] No hardware memory isolation for BPF programs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-On February&#160;12, Yeoreum Yun posted a
-<a href="https://lwn.net/ml/all/aY3+Raf8eZqipCd6@e129823.arm.com/">suggestion</a>
-for an improvement to the security of the kernel's BPF implementation: use
-<a href="https://lwn.net/Articles/643797/">
-memory protection keys</a> to prevent unauthorized access to memory by BPF
-programs.
-Yun wanted to put the topic on the list for discussion at the Linux
-Storage, Filesystem, Memory Management, and BPF Summit in May, but the
-lack of engagement makes that unlikely. They also have a patch set implementing
-some of the proposed changes, but has not yet shared that with the mailing list.
-Yun's proposal does not seem likely to be accepted in its
-current form, but the kernel has
-<a href="https://lwn.net/Articles/517475/">
-added hardware-based hardening options</a> in the
-past, sometimes after substantial discussion.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1059200/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 25 Feb 2026 14:26:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1059200/" title="https://lwn.net/Articles/1059200/">[$] An effort to secure the Network Time Protocol</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.rfc-editor.org/rfc/rfc5905">Network Time
-Protocol</a> (NTP) debuted in 1985; it is a universally used, open
-specification that is deeply important for all sorts of activities we
-take for granted. It also, despite a number of efforts, remains
-stubbornly unsecured. Ruben Nijveld presented work at FOSDEM 2026 to
-speed adoption of the thus-far largely ignored standard for securing
-NTP traffic: IETF's RFC-8915 that specifies <a
-href="https://datatracker.ietf.org/doc/html/rfc8915">Network Time
-Security</a> (NTS) for NTP.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
