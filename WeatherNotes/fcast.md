@@ -2,22 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Rain. Cloudy, with a low around 36. Northeast wind 6 to 12 mph, with gusts as high as 21 mph. Chance of precipitation is 100%.<br></div>
+         <h3>Tonight</h3>Rain showers. Cloudy, with a low around 36. East northeast wind 7 to 12 mph, with gusts as high as 18 mph. Chance of precipitation
+         is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Rain. Cloudy, with a high near 47. East northeast wind 6 to 10 mph, with gusts as high as 18 mph. Chance of precipitation
-         is 80%.<br></div>
+         <h3>Monday</h3>Rain showers before 2pm. Cloudy, with a high near 47. East northeast wind 5 to 10 mph, with gusts as high as 18 mph. Chance
+         of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Rain showers likely. Mostly cloudy. Low around 43, with temperatures rising to around 47 overnight. East wind 2 to 7 mph.
-         Chance of precipitation is 60%.<br></div>
+         <h3>Monday Night</h3>Rain showers likely after 2am. Mostly cloudy. Low around 43, with temperatures rising to around 47 overnight. East northeast
+         wind around 5 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of rain showers. Mostly cloudy, with a high near 71. South wind 8 to 14 mph, with gusts as high as 24 mph. Chance
-         of precipitation is 40%.<br></div>
+         <h3>Tuesday</h3>A chance of rain showers. Mostly cloudy, with a high near 71. South southeast wind 6 to 14 mph, with gusts as high as 24 mph.
+         Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
