@@ -2,23 +2,26 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Showers and thunderstorms likely. Some of the storms could be severe. Mostly cloudy. High near 73, with temperatures falling
-         to around 68 in the afternoon. South southwest wind 6 to 10 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Today</h3>A chance of showers and thunderstorms before noon, then a chance of showers and thunderstorms between noon and 1pm, then showers
+         and thunderstorms likely. Some of the storms could be severe. Mostly cloudy. High near 73, with temperatures falling to around
+         68 in the afternoon. Southwest wind 6 to 10 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms likely before midnight, then showers and thunderstorms. Some of the storms could be severe. Mostly
-         cloudy, with a low around 59. South wind 6 to 9 mph. Chance of precipitation is 100%.<br></div>
+         <h3>Tonight</h3>Showers and thunderstorms likely before 7pm, then a chance of showers and thunderstorms between 7pm and 2am, then showers
+         and thunderstorms. Some of the storms could be severe. Mostly cloudy, with a low around 59. South southwest wind 6 to 9 mph.
+         Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Showers and thunderstorms. Mostly cloudy. High near 72, with temperatures falling to around 70 in the afternoon. South southwest
-         wind 7 to 12 mph, with gusts as high as 20 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Thursday</h3>Showers and thunderstorms before 3pm, then a chance of showers and thunderstorms. Mostly cloudy. High near 72, with temperatures
+         falling to around 70 in the afternoon. South southwest wind 6 to 12 mph, with gusts as high as 18 mph. Chance of precipitation
+         is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms before 9pm, then a chance of showers and thunderstorms. Mostly cloudy, with a low around
-         60. South wind 5 to 8 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms before midnight, then a chance of showers and thunderstorms. Mostly cloudy, with a low
+         around 60. South southwest wind 5 to 8 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
