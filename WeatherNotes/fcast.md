@@ -8,14 +8,15 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Showers and thunderstorms likely before 9am, then a chance of showers and thunderstorms between 9am and noon, then showers
-         and thunderstorms. Mostly cloudy. High near 72, with temperatures falling to around 70 in the afternoon. South southwest wind
-         6 to 10 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Wednesday</h3>Showers and thunderstorms before 11am, then a chance of showers and thunderstorms between 11am and noon, then showers and
+         thunderstorms. Mostly cloudy. High near 72, with temperatures falling to around 70 in the afternoon. South southwest wind
+         6 to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Showers and thunderstorms. Mostly cloudy. Low around 59, with temperatures rising to around 61 overnight. South wind 6 to
-         9 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Wednesday Night</h3>A chance of showers and thunderstorms before 8pm, then showers and thunderstorms likely between 8pm and 9pm, then showers
+         and thunderstorms likely between 9pm and midnight, then showers and thunderstorms. Mostly cloudy. Low around 59, with temperatures
+         rising to around 61 overnight. South wind 6 to 9 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
