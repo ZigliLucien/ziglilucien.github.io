@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of rain showers between 10pm and 3am, then showers and thunderstorms likely. Mostly cloudy, with a low around 58.
-         South wind around 8 mph. Chance of precipitation is 60%.<br></div>
+         South wind around 7 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
