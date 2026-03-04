@@ -2,12 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Partly sunny. High near 71, with temperatures falling to around 68 in the afternoon. South southwest wind around 8 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>A chance of rain showers between 10pm and 3am, then showers and thunderstorms likely. Mostly cloudy, with a low around 58.
-         South wind around 7 mph. Chance of precipitation is 60%.<br></div>
+         South wind around 8 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -17,7 +13,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Showers and thunderstorms. Mostly cloudy, with a low around 59. South wind 6 to 9 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Wednesday Night</h3>Showers and thunderstorms. Mostly cloudy. Low around 59, with temperatures rising to around 61 overnight. South wind 6 to
+         9 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -31,7 +28,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A slight chance of rain showers. Partly sunny, with a high near 79. South wind 8 to 15 mph, with gusts as high as 25 mph.<br></div>
+         <h3>Friday</h3>A slight chance of rain showers. Partly sunny, with a high near 79. South wind 8 to 15 mph, with gusts as high as 25 mph.
+         Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -62,5 +60,10 @@
       <div style="font-size:120%">
          <h3>Monday Night</h3>A chance of rain showers before 1am, then a chance of showers and thunderstorms. Mostly clear, with a low around 59. South
          southwest wind around 10 mph, with gusts as high as 20 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday</h3>A chance of showers and thunderstorms. Partly sunny, with a high near 77. South southwest wind 10 to 15 mph, with gusts as
+         high as 26 mph.<br></div>
    </p>
 </div>
