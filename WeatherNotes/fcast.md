@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Patchy fog and showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy, with a low around 60. Southwest
-         wind around 8 mph. Chance of precipitation is 100%.<br></div>
+         <h3>Overnight</h3>Patchy fog and showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy, with a low around 60. East
+         wind around 5 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
