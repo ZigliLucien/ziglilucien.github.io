@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1061550/" title="See Description">Rust 1.94.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1061548/" title="See Description">A GitHub Issue Title Compromised 4,000 Developer Machines (grith.ai)</a></li>
+<li><a href="#https://lwn.net/Articles/1061534/" title="See Description">[$] The relicensing of chardet</a></li>
+<li><a href="#https://lwn.net/Articles/1061543/" title="See Description">Buildroot 2026.02 released</a></li>
 <li><a href="#https://lwn.net/Articles/1061524/" title="See Description">New stable kernels to address build failures</a></li>
 <li><a href="#https://lwn.net/Articles/1060967/" title="See Description">[$] Reconsidering the multi-generational LRU</a></li>
 <li><a href="#https://lwn.net/Articles/1061464/" title="See Description">Security updates for Thursday</a></li>
@@ -50,13 +54,86 @@
 <li><a href="#https://lwn.net/Articles/1060649/" title="See Description">[$] Free software needs free tools</a></li>
 <li><a href="#https://lwn.net/Articles/1061048/" title="See Description">Garrett: To update blobs or not to update blobs</a></li>
 <li><a href="#https://lwn.net/Articles/1061043/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1060063/" title="See Description">[$] The ongoing quest for atomic buffered writes</a></li>
-<li><a href="#https://lwn.net/Articles/1060953/" title="See Description">Høiland-Jørgensen: The inner workings of TCP zero-copy</a></li>
-<li><a href="#https://lwn.net/Articles/1060950/" title="See Description">Texinfo 7.3 released</a></li>
-<li><a href="#https://lwn.net/Articles/1058031/" title="See Description">[$] The exploitation paradox in open source</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1061550/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Mar 2026 19:43:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1061550/" title="https://lwn.net/Articles/1061550/">Rust 1.94.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2026/03/05/Rust-1.94.0/">Version
+1.94.0</a> of the Rust language has been released.  Changes include <a
+href="https://doc.rust-lang.org/stable/std/primitive.slice.html#method.array_windows">array
+windows</a> (an iterator for slices), some Cargo enhancements, and a number
+of newly stabilized APIs.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1061548/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Mar 2026 19:21:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1061548/" title="https://lwn.net/Articles/1061548/">A GitHub Issue Title Compromised 4,000 Developer Machines (grith.ai)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The grith.ai blog <a
+href="https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another">reports</a>
+on an LLM prompt-injection vulnerability that led to 4,000 installations of
+a compromised version of the Cline utility.
+<p>
+<blockquote class="bq">
+	For the next eight hours, every developer who installed or updated
+	Cline got OpenClaw - a separate AI agent with full system access -
+	installed globally on their machine without consent. Approximately
+	4,000 downloads occurred before the package was pulled.
+<p>
+	The interesting part is not the payload. It is how the attacker got
+	the npm token in the first place: by injecting a prompt into a
+	GitHub issue title, which an AI triage bot read, interpreted as an
+	instruction, and executed.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1061534/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Mar 2026 19:13:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1061534/" title="https://lwn.net/Articles/1061534/">[$] The relicensing of chardet</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a
+href="https://github.com/chardet/chardet?tab=readme-ov-file#chardet">Chardet</a>
+is a Python module that attempts to determine which character set was used
+to encode a text string.  It was originally written by Mark Pilgrim, who is
+also the author of a number of Python books; the <a
+href="https://pypi.org/project/chardet/1.0/">1.0 release</a> happened in
+2006.  For many years, this module has been under the maintainership of
+Dan Blanchard.  Chardet has always been licensed under the LGPL, but, with
+the <a href="https://github.com/chardet/chardet/releases/tag/7.0.0">7.0.0
+release</a>, Blanchard changed the terms to the permissive MIT license.
+That has led to an extensive (and ongoing) discussion on when code can be
+relicensed against the wishes of its original author, and whether using a
+large language model to rewrite code is a legitimate way to strip copyleft
+requirements from code.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1061543/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Mar 2026 18:33:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1061543/" title="https://lwn.net/Articles/1061543/">Buildroot 2026.02 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Peter Korsgaard has <a
+href="https://lore.kernel.org/buildroot/87ecm0huqz.fsf@dell.be.48ers.dk/T/#u">
+announced version 2026.02</a> of <a
+href="https://buildroot.net/">Buildroot</a>, a tool for generating
+embedded Linux systems through cross-compilation. Notable changes
+include added support for HPPA, use of the 6.19.x kernel headers by
+default, better SBOM generation, and more.</p>
+
+<blockquote class="bq">
+Again a very active cycle with more than 1500 changes from 97 unique
+contributors. I'm once again very happy to see so many "new" people next
+to the "oldtimers".
+</blockquote>
+
+<p>See the <a
+href="https://gitlab.com/buildroot.org/buildroot/-/blob/2026.02/CHANGES">changelog</a>
+for full details. Thanks to Julien Olivain for pointing us to the announcement.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1061524/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 05 Mar 2026 16:01:07 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -234,74 +311,6 @@ firmware update or not.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (containernetworking-plugins, gnutls, kernel, libpng, and skopeo), <b>Debian</b> (firefox-esr, php8.2, and spip), <b>Fedora</b> (erlang and python-pillow), <b>Red Hat</b> (go-toolset:rhel8, golang, and yggdrasil), <b>SUSE</b> (cups, fluidsynth, gvfs, haproxy, libsoup, libsoup-3_0-0, mozilla-nss, python-azure-core, and shim), and <b>Ubuntu</b> (git and mailman).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1060063/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Mar 2026 22:27:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1060063/" title="https://lwn.net/Articles/1060063/">[$] The ongoing quest for atomic buffered writes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There are many applications that need to be able to write multi-block
-chunks of data to disk with the assurance that the operation will either
-complete successfully or fail altogether — that the write will not be
-partially completed (or "torn"), in other words.  For years, kernel
-developers have worked on providing atomic writes as a way of satisfying
-that need; see, for example, sessions from the Linux Storage, Filesystem,
-Memory Management, and BPF (LSFMM+BPF) Summit from <a
-href="https://lwn.net/Articles/933015/">2023</a>, <a href="https://lwn.net/Articles/974578/">2024</a>,
-and <a href="https://lwn.net/Articles/1016015/">2025</a> (<a
-href="https://lwn.net/Articles/1016406/">twice</a>).  While atomic <i>direct</i> <span
-class="nobreak">I/O</span> is now supported by some filesystems, atomic
-<i>buffered</i> <span class="nobreak">I/O</span> still is not.  Filling
-that gap seems certain to be a 2026 LSFMM+BPF topic but, thanks to an early
-discussion, the shape of a solution might already be coming into focus.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1060953/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Mar 2026 20:12:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1060953/" title="https://lwn.net/Articles/1060953/">Høiland-Jørgensen: The inner workings of TCP zero-copy</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Toke Høiland-Jørgensen has posted <a
-href="https://blog.tohojo.dk/2026/02/the-inner-workings-of-tcp-zero-copy.html">an
-overview of how zero-copy networking works</a> in the Linux kernel.
-<p>
-<blockquote class="bq">
-	Since the memory is being copied directly from userspace to the
-	network device, the userspace application has to keep it around
-	unmodified, until it has finished sending. The <tt>sendmsg()</tt>
-	syscall itself is asynchronous, and will return without waiting for
-	this. Instead, once the memory buffers are no longer needed by the
-	stack, the kernel will return a notification to userspace that the
-	buffers can be reused.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1060950/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Mar 2026 18:47:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1060950/" title="https://lwn.net/Articles/1060950/">Texinfo 7.3 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 7.3 of Texinfo, the GNU documentation-formatting system, has been released. 
-It contains a number of new features, performance improvements, and enhancements.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1058031/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Mar 2026 15:28:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1058031/" title="https://lwn.net/Articles/1058031/">[$] The exploitation paradox in open source</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The free and open-source software (FOSS) movements have always been
-about giving freedom and power to individuals and organizations;
-throughout that history, though, there have also been actors trying
-to exploit FOSS to their own advantage. At <a
-href="https://cfgmgmtcamp.org/ghent2026/">Configuration Management
-Camp</a> (CfgMgmtCamp) 2026 in Ghent, Belgium, Richard Fontana <a
-href="https://cfp.cfgmgmtcamp.org/ghent2026/talk/KP9YPK/">described</a>
-the "<q>exploitation paradox</q>" of open source: the recurring
-pattern of crises when actors exploit loopholes to restrict freedoms
-or gain the upper hand over others in the community. He also talked
-about the attempts to close those loopholes as well as the need to
-look beyond licenses as a means of keeping freedom alive.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
