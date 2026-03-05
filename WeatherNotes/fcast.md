@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms before midnight, then patchy fog and showers and thunderstorms. Some of the storms could produce
-         heavy rain. Cloudy, with a low around 60. South southwest wind 5 to 8 mph. Chance of precipitation is 100%.<br></div>
+         heavy rain. Cloudy, with a low around 60. Southwest wind 5 to 8 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
