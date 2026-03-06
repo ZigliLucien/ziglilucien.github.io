@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-03-06T06:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-03-06T06:26:13+00:00</updateTime>
-		<validTimes type="str">2026-03-06T00:00:00+00:00/P8DT1H</validTimes>
+		<generatedAt type="str">2026-03-06T07:36:04+00:00</generatedAt>
+		<updateTime type="str">2026-03-06T07:11:41+00:00</updateTime>
+		<validTimes type="str">2026-03-06T01:00:00+00:00/P8D</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-03-06T00:00:00-06:00</startTime>
+				<startTime type="str">2026-03-06T01:00:00-06:00</startTime>
 				<endTime type="str">2026-03-06T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">61</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">9</value>
+					<value type="int">6</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/fog?size=medium</icon>
 				<shortForecast type="str">Patchy Fog</shortForecast>
-				<detailedForecast type="str">Patchy fog between 1am and 5am. Partly cloudy, with a low around 61. South wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Patchy fog. Partly cloudy, with a low around 61. South wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -83,9 +83,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 to 16 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct/tsra_hi,20?size=medium</icon>
-				<shortForecast type="str">Mostly Sunny then Slight Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of showers and thunderstorms between 1pm and 2pm. Mostly sunny. High near 79, with temperatures falling to around 76 in the afternoon. South wind 6 to 16 mph, with gusts as high as 29 mph. Chance of precipitation is 20%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/fog/tsra_hi,20?size=medium</icon>
+				<shortForecast type="str">Patchy Fog then Slight Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">Patchy fog before 8am, then a slight chance of showers and thunderstorms between 1pm and 2pm. Mostly sunny. High near 79, with temperatures falling to around 76 in the afternoon. South wind 6 to 16 mph, with gusts as high as 29 mph. Chance of precipitation is 20%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
