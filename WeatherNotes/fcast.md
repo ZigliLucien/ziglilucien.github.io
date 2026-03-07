@@ -2,23 +2,24 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms likely after 1am. Mostly cloudy. Low around 64, with temperatures rising to around 66 overnight.
-         South southwest wind around 15 mph, with gusts as high as 25 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms between 1am and 3am, then showers and thunderstorms likely. Mostly cloudy. Low around
+         64, with temperatures rising to around 66 overnight. South southwest wind around 16 mph, with gusts as high as 26 mph. Chance
+         of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Showers and thunderstorms likely before 7am, then showers and thunderstorms between 7am and 10am, then a chance of showers
-         and thunderstorms. Mostly cloudy. High near 73, with temperatures falling to around 65 in the afternoon. Southwest wind 10
-         to 14 mph, with gusts as high as 23 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Saturday</h3>Showers and thunderstorms before 4pm, then a chance of showers and thunderstorms. Mostly cloudy. High near 73, with temperatures
+         falling to around 65 in the afternoon. West southwest wind 12 to 15 mph, with gusts as high as 25 mph. Chance of precipitation
+         is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms before midnight. Mostly cloudy. Low around 41, with temperatures rising to around
-         43 overnight. Northwest wind 3 to 10 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Saturday Night</h3>A slight chance of rain showers before 7pm. Mostly cloudy. Low around 41, with temperatures rising to around 43 overnight.
+         Northwest wind 2 to 10 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Sunny, with a high near 65. West northwest wind 2 to 6 mph.<br></div>
+         <h3>Sunday</h3>Sunny, with a high near 65. West wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
