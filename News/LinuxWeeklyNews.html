@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1062163/" title="See Description">[$] Practical uses for a null filesystem</a></li>
 <li><a href="#https://lwn.net/Articles/1062575/" title="See Description">Two stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1062570/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1061465/" title="See Description">[$] LWN.net Weekly Edition for March 12, 2026</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1061083/" title="See Description">[$] Inspecting and modifying Python types during type checking</a></li>
 <li><a href="#https://lwn.net/Articles/1062105/" title="See Description">digiKam 9.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1062103/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1062002/" title="See Description">Kernel prepatch 7.0-rc3</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1062163/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 12 Mar 2026 14:58:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062163/" title="https://lwn.net/Articles/1062163/">[$] Practical uses for a null filesystem</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the first changes merged for the upcoming 7.0 release was <a
+href="https://lwn.net/ml/all/20260112-work-immutable-rootfs-v2-0-88dd1c34a204@kernel.org/">nullfs</a>,
+an empty filesystem that cannot actually contain any files.  One might
+logically wonder why the kernel would need such a thing.  It turns out,
+though, that there are places where a null filesystem can come in handy.
+For 7.0, nullfs will be used to make life a bit easier for <tt>init</tt>
+programs; future releases will likely use nullfs to increase the isolation
+of kernel threads from the init process.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1062575/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 12 Mar 2026 13:19:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -288,16 +303,6 @@ editing of geolocation coordinates</a>.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (delve, git-lfs, and postgresql16), <b>Fedora</b> (cef, chezmoi, chromium, coturn, erlang-hex_core, firefox, gh, gimp, k9s, keylime, keylime-agent-rust, libsixel, microcode_ctl, nextcloud, nss, perl-Crypt-URandom, pgadmin4, php-zumba-json-serializer, postgresql16-anonymizer, prometheus, python-asyncmy, python3.10, python3.11, python3.9, staticcheck, valkey, and vim), <b>SUSE</b> (chromedriver, chromium, coredns, expat, freetype2-devel, gitea-tea, go1.24-openssl, go1.25-openssl, grpc, gstreamer-rtsp-server, gstreamer-plugins-ugly,, helm, jetty-annotations, kubeshark-cli, libaec, libblkid-devel, libsoup, libxml2, libxslt, NetworkManager-applet-strongswan, podman, python-joserfc, python-Markdown, python-pypdf2, python-tornado, python-uv, python311-Django, python311-joserfc, python311-nltk, roundcubemail, and valkey), and <b>Ubuntu</b> (python3.4, python3.5, python3.6, python3.7, python3.8, python3.9, python3.10, python3.11, python3.12, python3.13, python3.14).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1062002/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 09 Mar 2026 00:28:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062002/" title="https://lwn.net/Articles/1062002/">Kernel prepatch 7.0-rc3</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1062003/">7.0-rc3</a> for testing.
-"<q>So it's still pretty early in the release cycle, and it just feels a
-bit busier than I'd like. But nothing particularly stands out or looks
-bad.</q>"</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
