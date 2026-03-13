@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1062778/" title="See Description">A set of AppArmor vulnerabilities</a></li>
+<li><a href="#https://lwn.net/Articles/1061743/" title="See Description">[$] More timing side-channels for the page cache</a></li>
+<li><a href="#https://lwn.net/Articles/1062775/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1062163/" title="See Description">[$] Practical uses for a null filesystem</a></li>
 <li><a href="#https://lwn.net/Articles/1062575/" title="See Description">Two stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1062570/" title="See Description">Security updates for Thursday</a></li>
@@ -50,12 +53,62 @@
 <li><a href="#https://lwn.net/Articles/1062316/" title="See Description">SUSE may be for sale, again</a></li>
 <li><a href="#https://lwn.net/Articles/1061544/" title="See Description">[$] Debian decides not to decide on AI-generated contributions</a></li>
 <li><a href="#https://lwn.net/Articles/1062260/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1061083/" title="See Description">[$] Inspecting and modifying Python types during type checking</a></li>
-<li><a href="#https://lwn.net/Articles/1062105/" title="See Description">digiKam 9.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1062103/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1062778/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 13 Mar 2026 14:02:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062778/" title="https://lwn.net/Articles/1062778/">A set of AppArmor vulnerabilities</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Qualys has sent out <a
+href="https://blog.qualys.com/vulnerabilities-threat-research/2026/03/12/crackarmor-critical-apparmor-flaws-enable-local-privilege-escalation-to-root">a
+somewhat breathless advisory</a> describing a number of vulnerabilities in
+the AppArmor security module, which is used in a number of Debian-based
+distributions (among others).
+<p>
+<blockquote class="bq">
+	This "CrackArmor" advisory exposes a confused-deputy flaw allowing
+	unprivileged users to manipulate security profiles via
+	pseudo-files, bypass user-namespace restrictions, and execute
+	arbitrary code within the kernel. These flaws facilitate local
+	privilege escalation to root through complex interactions with
+	tools like Sudo and Postfix, alongside denial-of-service attacks
+	via stack exhaustion and Kernel Address Space Layout Randomization
+	(KASLR) bypasses via out-of-bounds reads.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1061743/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 13 Mar 2026 13:59:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1061743/" title="https://lwn.net/Articles/1061743/">[$] More timing side-channels for the page cache</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+In 2019, researchers published a way to
+<a href="https://lwn.net/Articles/776801/">identify which file-backed pages</a>
+were being accessed on a system using timing information from the page cache,
+leading to a handful of unpleasant consequences and a change to the design of
+the
+<a href="https://www.man7.org/linux/man-pages/man2/mincore.2.html">
+<tt>mincore()</tt></a> system call. Discussion at the time
+<a href="https://lwn.net/Articles/778437/">led to a number of ad-hoc patches</a> to address the
+problem. The lack of new page-cache attacks suggested that attempts to fix
+things in a piecemeal fashion had succeeded. Now, however, Sudheendra Raghav Neela,
+Jonas Juffinger, Lukas Maar, and Daniel Gruss have
+<a href="https://snee.la/pdf/pubs/eviction-notice.pdf">found a new set of
+holes</a>  in the Linux kernel's page-cache-timing protections that allow
+the same general class of attack.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1062775/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 13 Mar 2026 13:09:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062775/" title="https://lwn.net/Articles/1062775/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, kernel, and multipart), <b>Fedora</b> (dnf5, dr_libs, easyrpg-player, libmaxminddb, python3.12, strongswan, task, and udisks2), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, gnutls, ImageMagick, kernel, libvpx, mingw-libpng, nginx:1.26, python3.11, and uek-kernel), <b>Red Hat</b> (delve, git-lfs, mingw-libpng, osbuild-composer, and rhc-worker-playbook), <b>SUSE</b> (cjson, curl, dnsdist, libsoup2, postgresql16, postgresql17, postgresql18, python-lxml_html_clean, python-pypdf2, python36, and thunderbird), and <b>Ubuntu</b> (dotnet8, dotnet9, dotnet10, freetype, golang-github-go-git-go-git, golang-golang-x-net, openssh, python-cryptography, sudo, and util-linux).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1062163/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 12 Mar 2026 14:58:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -247,61 +300,6 @@ nonetheless.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (imagemagick), <b>Fedora</b> (chromium, matrix-synapse, mingw-zlib, perl-Net-CIDR, polkit, and rust-pythonize), <b>Mageia</b> (coturn, firefox, and thunderbird), <b>Oracle</b> (delve, git-lfs, gnutls, go-rpm-macros, image-builder, kernel, libsoup, nfs-utils, nginx:1.24, osbuild-composer, postgresql, thunderbird, udisks2, and valkey), <b>Red Hat</b> (grafana, image-builder, and opentelemetry-collector), <b>SUSE</b> (c3p0 and mchange-commons, corepack24, go1, ImageMagick, python-Flask, tomcat, tomcat10, tomcat11, virtiofsd, and weblate), and <b>Ubuntu</b> (apache2 and yara).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1061083/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 09 Mar 2026 13:53:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1061083/" title="https://lwn.net/Articles/1061083/">[$] Inspecting and modifying Python types during type checking</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Python has a
-<a href="https://lwn.net/Articles/958326/">
-unique approach to static typing</a>. Python programs can contain type
-annotations, and even access those annotations at run time, but the annotations
-aren't evaluated by default. Instead, it is up to external programs to ascribe
-meaning to those annotations. The annotations themselves can be arbitrary Python
-expressions, but in practice usually involve using helpers from the built-in
-<a href="https://docs.python.org/3/library/typing.html">
-<tt>typing</tt></a> module, the meanings of which external type-checkers mostly
-agree upon. Yet the type system implicitly defined by the <tt>typing</tt> module
-and common type-checkers is insufficiently powerful to model all of the kinds of
-dynamic metaprogramming found in real-world Python programs.
-<a href="https://peps.python.org/pep-0827/">PEP 827</a> ("Type Manipulation")
-aims to add additional
-capabilities to Python's type system to fix this, but
-<a href="https://discuss.python.org/t/pep-827-type-manipulation/106353">discussion</a>
-of the PEP has been of mixed sentiment.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1062105/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 09 Mar 2026 13:13:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062105/" title="https://lwn.net/Articles/1062105/">digiKam 9.0.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://www.digikam.org/news/2026-03-08-9.0.0_release_announcement/">Version
-9.0.0</a> of the digiKam photo-management system has been
-released. "<q>This major version introduces groundbreaking
-improvements in performance, usability, and workflow efficiency, with
-a strong focus on modernizing the user interface, enhancing metadata
-management, and expanding support for new camera models and file
-formats.</q>" Some of the changes include <a
-href="https://www.digikam.org/news/2026-03-08-9.0.0_release_announcement/#new-survey-tool">a
-new survey tool</a>, more advanced search and sorting options, as well
-as <a
-href="https://www.digikam.org/news/2026-03-08-9.0.0_release_announcement/#geolocation-editor">bulk
-editing of geolocation coordinates</a>.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1062103/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 09 Mar 2026 13:06:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062103/" title="https://lwn.net/Articles/1062103/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (delve, git-lfs, and postgresql16), <b>Fedora</b> (cef, chezmoi, chromium, coturn, erlang-hex_core, firefox, gh, gimp, k9s, keylime, keylime-agent-rust, libsixel, microcode_ctl, nextcloud, nss, perl-Crypt-URandom, pgadmin4, php-zumba-json-serializer, postgresql16-anonymizer, prometheus, python-asyncmy, python3.10, python3.11, python3.9, staticcheck, valkey, and vim), <b>SUSE</b> (chromedriver, chromium, coredns, expat, freetype2-devel, gitea-tea, go1.24-openssl, go1.25-openssl, grpc, gstreamer-rtsp-server, gstreamer-plugins-ugly,, helm, jetty-annotations, kubeshark-cli, libaec, libblkid-devel, libsoup, libxml2, libxslt, NetworkManager-applet-strongswan, podman, python-joserfc, python-Markdown, python-pypdf2, python-tornado, python-uv, python311-Django, python311-joserfc, python311-nltk, roundcubemail, and valkey), and <b>Ubuntu</b> (python3.4, python3.5, python3.6, python3.7, python3.8, python3.9, python3.10, python3.11, python3.12, python3.13, python3.14).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
