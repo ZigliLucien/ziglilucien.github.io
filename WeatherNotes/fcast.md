@@ -56,7 +56,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Partly cloudy, with a low around 49. South southwest wind around 6 mph.<br></div>
+         <h3>Thursday Night</h3>Partly cloudy, with a low around 48. South southwest wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
