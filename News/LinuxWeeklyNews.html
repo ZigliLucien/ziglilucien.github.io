@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1062856/" title="See Description">[$] A safer kmalloc() for 7.0</a></li>
 <li><a href="#https://lwn.net/Articles/1063095/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1062952/" title="See Description">Kernel prepatch 7.0-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1062862/" title="See Description">Stable kernels for Friday the 13th</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/1062112/" title="See Description">[$] California's Digital Age Assurance Act and Linux distributions</a></li>
 <li><a href="#https://lwn.net/Articles/1062451/" title="See Description">Introducing Moonforge: a Yocto-based Linux OS (Igalia Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1060941/" title="See Description">[$] HTTPS certificates in the age of quantum computing</a></li>
-<li><a href="#https://lwn.net/Articles/1062403/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1062856/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 16 Mar 2026 14:22:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062856/" title="https://lwn.net/Articles/1062856/">[$] A safer kmalloc() for 7.0</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A pull request that touches over 8,000 files, changing over 20,000 lines of
+code in the process, is (fortunately) not something that happens every day.
+It did happen at the end of the 7.0 merge window, though, when Linus
+Torvalds <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8934827db540">merged</a>
+an extensive set of changes by Kees Cook to the venerable <tt>kmalloc()</tt> API (and
+its users).  As a result of that work, though, the kernel has a new set of
+type-safe memory-allocation functions, with a last-minute bonus change to
+make the API a little easier to use.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1063095/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 16 Mar 2026 13:07:00 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -296,14 +312,6 @@ certificates — around 40 times larger. The techniques that the working group i
 to reduce that overhead could have efficiency benefits for traditional
 certificates as well.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1062403/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 11 Mar 2026 13:09:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062403/" title="https://lwn.net/Articles/1062403/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, libvpx, nfs-utils, nginx:1.26, osbuild-composer, postgresql, postgresql:12, postgresql:13, postgresql:15, postgresql:16, and python-pyasn1), <b>Debian</b> (imagemagick), <b>Fedora</b> (perl-Crypt-SysRandom-XS and systemd), <b>Mageia</b> (yt-dlp), <b>Oracle</b> (delve, gimp, git-lfs, go-rpm-macros, image-builder, kernel, libpng, libvpx, mysql8.4, nfs-utils, osbuild-composer, postgresql16, postgresql:12, postgresql:13, postgresql:15, postgresql:16, python-pyasn1, python3, python3.12, python3.9, and thunderbird), <b>SUSE</b> (python-aiohttp, python-maturin, python311-pymongo, rclone, and util-linux), and <b>Ubuntu</b> (linux-nvidia, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and python-geopandas).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
