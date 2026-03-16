@@ -3,16 +3,16 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Mostly cloudy. Low around 26, with temperatures rising to around 32 overnight. West northwest wind around 22 mph, with gusts
-         as high as 38 mph.<br></div>
+         as high as 35 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A slight chance of snow showers between 9am and noon. Mostly cloudy. High near 35, with temperatures falling to around 33
-         in the afternoon. West northwest wind 18 to 22 mph, with gusts as high as 37 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Monday</h3>Mostly cloudy. High near 35, with temperatures falling to around 33 in the afternoon. West northwest wind 18 to 22 mph, with
+         gusts as high as 32 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Partly cloudy, with a low around 18. Northwest wind 9 to 17 mph, with gusts as high as 31 mph.<br></div>
+         <h3>Monday Night</h3>Partly cloudy, with a low around 18. Northwest wind 10 to 17 mph, with gusts as high as 26 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
