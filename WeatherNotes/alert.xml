@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53a5b403b31969c2e222a46041d6ede4470feb4f.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52a6a0b1a9bf24a588b3c765aa9d9ca588cdc87b.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53a5b403b31969c2e222a46041d6ede4470feb4f.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.52a6a0b1a9bf24a588b3c765aa9d9ca588cdc87b.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.53a5b403b31969c2e222a46041d6ede4470feb4f.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.52a6a0b1a9bf24a588b3c765aa9d9ca588cdc87b.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Posey; Vanderburgh; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Henderson; Perry; Bollinger; Cape Girardeau; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -162,76 +162,55 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list">
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b8b4eee3ccd7ad6e662c1edee31c176820f06854.002.2</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.b8b4eee3ccd7ad6e662c1edee31c176820f06854.002.2</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-03-15T12:57:00-05:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b8b4eee3ccd7ad6e662c1edee31c176820f06854.003.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.b8b4eee3ccd7ad6e662c1edee31c176820f06854.003.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-03-15T12:57:00-05:00</sent>
-					</item>
-				</references>
-				<sent type="str">2026-03-15T12:59:00-05:00</sent>
-				<effective type="str">2026-03-15T12:59:00-05:00</effective>
-				<onset type="str">2026-03-15T12:59:00-05:00</onset>
-				<expires type="str">2026-03-15T21:00:00-05:00</expires>
-				<ends type="str">2026-03-15T21:00:00-05:00</ends>
+				<references type="list"/>
+				<sent type="str">2026-03-15T18:48:00-05:00</sent>
+				<effective type="str">2026-03-15T18:48:00-05:00</effective>
+				<onset type="str">2026-03-15T18:48:00-05:00</onset>
+				<expires type="str">2026-03-16T07:00:00-05:00</expires>
+				<ends type="str">2026-03-16T07:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Update</messageType>
+				<messageType type="str">Alert</messageType>
 				<category type="str">Met</category>
-				<severity type="str">Severe</severity>
+				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
 				<urgency type="str">Expected</urgency>
-				<event type="str">High Wind Warning</event>
+				<event type="str">Wind Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">High Wind Warning issued March 15 at 12:59PM CDT until March 15 at 9:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...South winds 15 to 25 mph with gusts up to 60 mph.
+				<headline type="str">Wind Advisory issued March 15 at 6:48PM CDT until March 16 at 7:00AM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...West winds 15 to 25 mph with gusts up to 45 mph.
 
 * WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...Until 9 PM CDT this evening.
+* WHEN...Until 7 AM CDT Monday.
 
-* IMPACTS...Damaging winds will blow down trees and power lines.
-Widespread power outages are expected. Travel will be difficult,
-especially for high profile vehicles.</description>
-				<instruction type="str">Remain in the lower levels of your home during the windstorm, and
-avoid windows. Watch for falling debris and tree limbs. Use caution
-if you must drive.</instruction>
-				<response type="str">Prepare</response>
+* IMPACTS...Gusty winds will blow around unsecured objects. Tree
+limbs could be blown down and a few power outages may result.</description>
+				<instruction type="str">Winds this strong can make driving difficult, especially for high
+profile vehicles. Use extra caution.</instruction>
+				<response type="str">Execute</response>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 151759</item>
+						<item type="str">WWUS73 KPAH 152348</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HIGH WIND WARNING REMAINS IN EFFECT UNTIL 9 PM CDT THIS EVENING</item>
+						<item type="str">WIND ADVISORY IN EFFECT UNTIL 7 AM CDT MONDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
 						<item type="str">NWEM</item>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
-					<EAS-ORG type="list">
-						<item type="str">WXR</item>
-					</EAS-ORG>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.HW.W.0001.000000T0000Z-260316T0200Z/</item>
+						<item type="str">/O.EXA.KPAH.WI.Y.0004.000000T0000Z-260316T1200Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
-						<item type="str">2026-03-15T21:00:00-05:00</item>
+						<item type="str">2026-03-16T07:00:00-05:00</item>
 					</eventEndingTime>
-					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5626597442161e0f9ae5458439517363562092a0.001.2,2026-03-15T10:45:00-05:00</item>
-					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -239,15 +218,15 @@ if you must drive.</instruction>
 				<web type="str">http://www.weather.gov</web>
 				<eventCode type="dict">
 					<SAME type="list">
-						<item type="str">HWW</item>
+						<item type="str">NWS</item>
 					</SAME>
 					<NationalWeatherService type="list">
-						<item type="str">HWW</item>
+						<item type="str">WIY</item>
 					</NationalWeatherService>
 				</eventCode>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-03-15T17:59:37+00:00</updated>
+	<updated type="str">2026-03-15T23:49:31+00:00</updated>
 </all>
