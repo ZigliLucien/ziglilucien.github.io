@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1063466/" title="See Description">GNOME 50 released</a></li>
+<li><a href="#https://lwn.net/Articles/1063453/" title="See Description">Local-privilege escalation in snapd</a></li>
+<li><a href="#https://lwn.net/Articles/1063451/" title="See Description">Fedora Asahi Remix 43 released</a></li>
+<li><a href="#https://lwn.net/Articles/1062286/" title="See Description">[$] BPF comes to io_uring at last</a></li>
 <li><a href="#https://lwn.net/Articles/1063446/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1063292/" title="See Description">The Sashiko patch-review system</a></li>
 <li><a href="#https://lwn.net/Articles/1063287/" title="See Description">FSFE reports trouble with payment provider</a></li>
@@ -49,13 +53,97 @@
 <li><a href="#https://lwn.net/Articles/1062856/" title="See Description">[$] A safer kmalloc() for 7.0</a></li>
 <li><a href="#https://lwn.net/Articles/1063095/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1062952/" title="See Description">Kernel prepatch 7.0-rc4</a></li>
-<li><a href="#https://lwn.net/Articles/1062862/" title="See Description">Stable kernels for Friday the 13th</a></li>
-<li><a href="#https://lwn.net/Articles/1062779/" title="See Description">An investigation of the forces behind the age-verification bills</a></li>
-<li><a href="#https://lwn.net/Articles/1062778/" title="See Description">A set of AppArmor vulnerabilities</a></li>
-<li><a href="#https://lwn.net/Articles/1061743/" title="See Description">[$] More timing side-channels for the page cache</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1063466/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Mar 2026 16:59:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063466/" title="https://lwn.net/Articles/1063466/">GNOME 50 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://release.gnome.org/50/">GNOME&#160;50</a> has been
+released. Notable changes in this release include enhancements to the
+Orca screen-reader application, interface and performance improvements
+for GNOME's file manager (Files), a "<q>massive set of stability and
+performance updates</q>" for its display-handling technologies, and
+much more. See also the "<a
+href="https://release.gnome.org/50/developers/index.html">What's new
+for developers</a>" article that covers changes of interest to GNOME
+and GNOME application developers.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1063453/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Mar 2026 15:34:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063453/" title="https://lwn.net/Articles/1063453/">Local-privilege escalation in snapd</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Qualys has <a
+href="https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root">discovered
+a local-privilege escalation (LPE) vulnerability</a> affecting Ubuntu
+Desktop 24.04 and later:</p>
+
+<blockquote class="bq">
+This flaw (CVE-2026-3888) allows an unprivileged local attacker to
+escalate privileges to full root access through the interaction of two
+standard system components: snap-confine and systemd-tmpfiles.
+</blockquote>
+
+<p>More details are available in the <a
+href="https://cdn2.qualys.com/advisory/2026/03/17/snap-confine-systemd-tmpfiles.txt">security
+advisory</a>. Canonical has published updated packages as well as <a
+href="https://discourse.ubuntu.com/t/snapd-local-privilege-escalation-cve-2026-3888/78627">instructions</a>
+for verifying if a system is vulnerable and how to upgrade if so.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1063451/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Mar 2026 15:21:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063451/" title="https://lwn.net/Articles/1063451/">Fedora Asahi Remix 43 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Fedora Asahi&#160;Remix&#160;43 <a
+href="https://fedoramagazine.org/fedora-asahi-remix-43-is-now-available/">is
+now available</a>:</p>
+
+<blockquote class="bq">
+<p>This release incorporates all the exciting improvements brought by
+<a
+href="https://fedoramagazine.org/announcing-fedora-linux-43/">Fedora
+Linux&#160;43</a>. Notably, package management is significantly
+upgraded with <a
+href="https://rpm.org/releases/6.0.0">RPM&#160;6.0</a> and the new
+DNF5 backend for PackageKit for Plasma Discover and GNOME Software
+ahead of Fedora Linux&#160;44. It also continues to provide extensive
+device support. This includes newly added support for the Mac Pro,
+microphones in M2 Pro/Max MacBooks, and&#160;120Hz refresh rate for
+the built-in displays for MacBook Pro&#160;14/16 models.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1062286/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 18 Mar 2026 14:57:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062286/" title="https://lwn.net/Articles/1062286/">[$] BPF comes to io_uring at last</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The kernel's asynchronous
+<a href="https://man7.org/linux/man-pages/man7/io_uring.7.html">
+io_uring interface</a> maintains two shared ring buffers:
+a submission queue for sending requests to the kernel, and a completion queue
+containing the results of those requests. Even with shared memory removing much
+of the overhead of communicating with user space, there is still some overhead
+whenever the kernel must switch to user space to give it the opportunity to
+process completion requests and
+queue up any subsequent work items. A
+<a href="https://lwn.net/ml/all/cover.1772109579.git.asml.silence@gmail.com/">
+patch set</a> from Pavel Begunkov minimizes this overhead by letting
+programmers extend the io_uring event loop with a BPF program that can enqueue
+additional work in response to completion events. The patch set has
+<a href="https://lwn.net/Articles/847951/">been in development</a> for a long time, but has
+finally been accepted.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1063446/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 18 Mar 2026 13:16:28 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,90 +354,6 @@ make the API a little easier to use.
 	result of "hey, new major number", and people are just being a bit
 	more active as a result.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1062862/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Mar 2026 18:26:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062862/" title="https://lwn.net/Articles/1062862/">Stable kernels for Friday the 13th</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1062864/">6.19.8</a>, <a
-href="https://lwn.net/Articles/1062865/">6.18.18</a>, and <a
-href="https://lwn.net/Articles/1062866/">6.12.77</a> stable kernels. Each of these
-kernels includes a number of important fixes; users are advised to
-upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1062779/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Mar 2026 14:09:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062779/" title="https://lwn.net/Articles/1062779/">An investigation of the forces behind the age-verification bills</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Reddit user "Ok_Lingonberry3296" has posted <a
-href="https://web.archive.org/web/20260313143853/https://www.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/">the
-results of an extensive investigation</a> into the companies that are
-pushing US state legislatures to enact age-verification bills.
-<p>
-<blockquote class="bq">
-	I've been pulling public records on the wave of "age verification"
-	bills moving through US state legislatures. IRS 990 filings, Senate
-	lobbying disclosures, state ethics databases, campaign finance
-	records, corporate registries, WHOIS lookups, Wayback Machine
-	archives. What started as curiosity about who was pushing these
-	bills turned into documenting a coordinated influence operation
-	that, from a privacy standpoint, is building surveillance
-	infrastructure at the operating system level while the company
-	behind it faces zero new requirements for its own platforms.
-</blockquote>
-<p>
-(See also <a href="https://lwn.net/Articles/1062112/">this article</a> for a look at the
-California law.)</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1062778/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Mar 2026 14:02:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062778/" title="https://lwn.net/Articles/1062778/">A set of AppArmor vulnerabilities</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Qualys has sent out <a
-href="https://blog.qualys.com/vulnerabilities-threat-research/2026/03/12/crackarmor-critical-apparmor-flaws-enable-local-privilege-escalation-to-root">a
-somewhat breathless advisory</a> describing a number of vulnerabilities in
-the AppArmor security module, which is used in a number of Debian-based
-distributions (among others).
-<p>
-<blockquote class="bq">
-	This "CrackArmor" advisory exposes a confused-deputy flaw allowing
-	unprivileged users to manipulate security profiles via
-	pseudo-files, bypass user-namespace restrictions, and execute
-	arbitrary code within the kernel. These flaws facilitate local
-	privilege escalation to root through complex interactions with
-	tools like Sudo and Postfix, alongside denial-of-service attacks
-	via stack exhaustion and Kernel Address Space Layout Randomization
-	(KASLR) bypasses via out-of-bounds reads.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1061743/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 13 Mar 2026 13:59:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1061743/" title="https://lwn.net/Articles/1061743/">[$] More timing side-channels for the page cache</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-In 2019, researchers published a way to
-<a href="https://lwn.net/Articles/776801/">identify which file-backed pages</a>
-were being accessed on a system using timing information from the page cache,
-leading to a handful of unpleasant consequences and a change to the design of
-the
-<a href="https://www.man7.org/linux/man-pages/man2/mincore.2.html">
-<tt>mincore()</tt></a> system call. Discussion at the time
-<a href="https://lwn.net/Articles/778437/">led to a number of ad-hoc patches</a> to address the
-problem. The lack of new page-cache attacks suggested that attempts to fix
-things in a piecemeal fashion had succeeded. Now, however, Sudheendra Raghav Neela,
-Jonas Juffinger, Lukas Maar, and Daniel Gruss have
-<a href="https://snee.la/pdf/pubs/eviction-notice.pdf">found a new set of
-holes</a>  in the Linux kernel's page-cache-timing protections that allow
-the same general class of attack.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
