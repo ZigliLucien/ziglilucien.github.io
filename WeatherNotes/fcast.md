@@ -34,15 +34,15 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Partly cloudy, with a low around 42. Northwest wind around 14 mph, with gusts as high as 23 mph.<br></div>
+         <h3>Sunday Night</h3>Partly cloudy, with a low around 43. Northwest wind around 14 mph, with gusts as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny, with a high near 56. North wind 9 to 14 mph, with gusts as high as 22 mph.<br></div>
+         <h3>Monday</h3>Sunny, with a high near 57. North wind 9 to 14 mph, with gusts as high as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Partly cloudy, with a low around 37. Northeast wind 5 to 8 mph.<br></div>
+         <h3>Monday Night</h3>Partly cloudy, with a low around 36. Northeast wind 5 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -54,6 +54,6 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Mostly sunny, with a high near 69. Southeast wind 6 to 9 mph.<br></div>
+         <h3>Wednesday</h3>Mostly sunny, with a high near 70. Southeast wind 6 to 9 mph.<br></div>
    </p>
 </div>
