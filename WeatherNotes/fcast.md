@@ -31,7 +31,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Partly cloudy, with a low around 41. East northeast wind 3 to 7 mph.<br></div>
+         <h3>Monday Night</h3>Partly cloudy, with a low around 40. East northeast wind 3 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -39,11 +39,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Mostly cloudy, with a low around 45. South southeast wind around 5 mph.<br></div>
+         <h3>Tuesday Night</h3>A slight chance of showers and thunderstorms after 1am. Mostly cloudy, with a low around 45. South southeast wind around 5
+         mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Partly sunny, with a high near 69. East southeast wind around 8 mph.<br></div>
+         <h3>Wednesday</h3>A slight chance of showers and thunderstorms before 7am. Partly sunny, with a high near 69. East southeast wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
