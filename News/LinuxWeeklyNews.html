@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1062868/" title="See Description">[$] Tracking when BPF programs may sleep</a></li>
+<li><a href="#https://lwn.net/Articles/1064306/" title="See Description">Kernel prepatch 7.0-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/1064298/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1064097/" title="See Description">b4 v0.15.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1064067/" title="See Description">Agama 19 released</a></li>
@@ -52,11 +54,37 @@ Technica)</a></li>
 <li><a href="#https://lwn.net/Articles/1062571/" title="See Description">[$] LWN.net Weekly Edition for March 19, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1061979/" title="See Description">[$] Cindy Cohn on privacy battles old and new</a></li>
 <li><a href="#https://lwn.net/Articles/1063517/" title="See Description">Samba 4.24.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1063466/" title="See Description">GNOME 50 released</a></li>
-<li><a href="#https://lwn.net/Articles/1063453/" title="See Description">Local-privilege escalation in snapd</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1062868/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 23 Mar 2026 16:00:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062868/" title="https://lwn.net/Articles/1062868/">[$] Tracking when BPF programs may sleep</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+BPF programs can run in both sleepable and non-sleepable (atomic) contexts.
+Currently, sleepable BPF programs are not allowed to enter an atomic context.
+Puranjay Mohan has a
+<a href="https://lwn.net/ml/all/20260226161500.775715-1-puranjay@kernel.org/">
+new patch set</a> that changes that. The patch set would let BPF programs called
+in sleepable contexts temporarily acquire locks that cause the programs to
+transition to an atomic context. BPF maintainer Alexei
+Starovoitov objected to parts of the implementation, however, so acceptance of
+the patch depends on whether Mohan is willing and able to straighten it out.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1064306/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 23 Mar 2026 14:13:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064306/" title="https://lwn.net/Articles/1064306/">Kernel prepatch 7.0-rc5</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1064305/">7.0-rc5</a> for testing.
+"<q>It looks like things are starting to calm down - rc5 is smaller than
+the previous rc's this merge window, although it still tracks a bit larger
+than rc5s historically do.</q>"</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1064298/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 23 Mar 2026 13:05:13 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -267,47 +295,6 @@ released.  There are a number of significant changes, including audit
 support for authentication information, remote password management, a
 number of Kerberos improvements, asynchronous-I/O rate limiting, and more.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1063466/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Mar 2026 16:59:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063466/" title="https://lwn.net/Articles/1063466/">GNOME 50 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://release.gnome.org/50/">GNOME&#160;50</a> has been
-released. Notable changes in this release include enhancements to the
-Orca screen-reader application, interface and performance improvements
-for GNOME's file manager (Files), a "<q>massive set of stability and
-performance updates</q>" for its display-handling technologies, and
-much more. See also the "<a
-href="https://release.gnome.org/50/developers/index.html">What's new
-for developers</a>" article that covers changes of interest to GNOME
-and GNOME application developers.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1063453/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Mar 2026 15:34:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063453/" title="https://lwn.net/Articles/1063453/">Local-privilege escalation in snapd</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Qualys has <a
-href="https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root">discovered
-a local-privilege escalation (LPE) vulnerability</a> affecting Ubuntu
-Desktop 24.04 and later:</p>
-
-<blockquote class="bq">
-This flaw (CVE-2026-3888) allows an unprivileged local attacker to
-escalate privileges to full root access through the interaction of two
-standard system components: snap-confine and systemd-tmpfiles.
-</blockquote>
-
-<p>More details are available in the <a
-href="https://cdn2.qualys.com/advisory/2026/03/17/snap-confine-systemd-tmpfiles.txt">security
-advisory</a>. Canonical has published updated packages as well as <a
-href="https://discourse.ubuntu.com/t/snapd-local-privilege-escalation-cve-2026-3888/78627">instructions</a>
-for verifying if a system is vulnerable and how to upgrade if so.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
