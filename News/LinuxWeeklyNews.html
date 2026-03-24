@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1064479/" title="See Description">LiteLLM on PyPI is compromised</a></li>
+<li><a href="#https://lwn.net/Articles/1064478/" title="See Description">Down: Debunking zswap and zram myths</a></li>
+<li><a href="#https://lwn.net/Articles/1064477/" title="See Description">Krita 5.3.0 and 6.0.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1064474/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1062868/" title="See Description">[$] Tracking when BPF programs may sleep</a></li>
 <li><a href="#https://lwn.net/Articles/1064306/" title="See Description">Kernel prepatch 7.0-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/1064298/" title="See Description">Security updates for Monday</a></li>
@@ -50,13 +54,83 @@ Technica)</a></li>
 <li><a href="#https://lwn.net/Articles/1063723/" title="See Description">Two new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1063712/" title="See Description">Radicle 1.7.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1063303/" title="See Description">[$] Development tools: Sashiko, b4 review, and API specification</a></li>
-<li><a href="#https://lwn.net/Articles/1063659/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1062571/" title="See Description">[$] LWN.net Weekly Edition for March 19, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1061979/" title="See Description">[$] Cindy Cohn on privacy battles old and new</a></li>
-<li><a href="#https://lwn.net/Articles/1063517/" title="See Description">Samba 4.24.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1064479/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Mar 2026 13:48:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064479/" title="https://lwn.net/Articles/1064479/">LiteLLM on PyPI is compromised</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://github.com/BerriAI/litellm/issues/24512">This issue
+report</a> describes a credential-stealing attack buried within LiteLLM
+1.82.8 in the PyPI repository.  It collects and exfiltrates a wide variety
+of information, including SSH keys, credentials for a number of cloud
+services, crypto wallets, and so on.  Anybody who has installed this
+package has likely been compromised and needs to respond accordingly.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1064478/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Mar 2026 13:34:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064478/" title="https://lwn.net/Articles/1064478/">Down: Debunking zswap and zram myths</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Chris Down has posted <a
+href="https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html">a
+detailed look</a> at how the kernel's zswap and zram subsystems work — and
+how they differ.
+<p>
+<blockquote class="bq">
+	Most people think of zswap and zram simply as two different
+	flavours of the same thing: compressed swap. At a surface level,
+	that's correct – both compress pages that would otherwise end up on
+	disk – but they make fundamentally different bets about how the
+	kernel should handle memory pressure, and picking the wrong one for
+	your situation can actively make things worse than having no swap
+	at all
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1064477/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Mar 2026 13:31:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064477/" title="https://lwn.net/Articles/1064477/">Krita 5.3.0 and 6.0.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Krita project has <a
+href="https://krita.org/en/posts/2026/krita-5.3.0-released/">announced</a>
+the release of Krita 5.3.0 and 6.0.0:</p>
+
+<blockquote class="bq">
+<p>Krita 5.3/6.0 is the result of many years of work by the Krita
+developers. Some features have been rewritten from the ground up,
+others make their first appearance.</p>
+
+<p>Enjoy the completely new text feature: on canvas editing, full
+opentype support, text flowing into shapes. It is now easier than ever
+to create vector-based panels for comic pages. Tools got extended: for
+instance, the fill tool now can close gaps. The liquify mode of the
+transform tool is much faster. There are new filters: a propagate
+colors filter and a reset transparent filter. Support for HDR painting
+has been improved. The recorder docker can now work in real
+time. There is improved support for file formats, like support for
+text objects in PSD files. And much, much, much more!</p>
+</blockquote>
+
+
+<p>According to the announcement, the versions are almost functionally
+identical. However, the 6.0.0 release is the first based on Qt&#160;6;
+it has more Wayland functionality but is considered experimental. It
+cautions that users should stick to 5.3.0 for real work. See
+the <a
+href="https://krita.org/en/release-notes/krita-5-3-release-notes/">release
+notes</a> for a full list of changes.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1064474/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Mar 2026 13:06:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064474/" title="https://lwn.net/Articles/1064474/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (strongswan and vlc), <b>Fedora</b> (cmake, giflib, and python-diskcache), <b>SUSE</b> (curl, docker-stable, freeciv, freerdp, freerdp2, freetype2, go1.25-openssl, go1.26-openssl, GraphicsMagick, gvfs, harfbuzz, kernel, lemon, libpng16, librsvg, libsodium, libsoup, net-snmp, protobuf, python-Authlib, python-maturin, python-tornado6, python310, python311-pypdf, python311-PyPDF2, python314, python39, rust-keylime, strongswan, systemd, ucode-intel, util-linux, and vim), and <b>Ubuntu</b> (gvfs, linux-aws-6.8, linux-azure, linux-azure, linux-azure-4.15, linux-azure-fips, linux-hwe-5.4, linux-ibm, linux-intel-iot-realtime, linux-nvidia-tegra-igx, linux-realtime-6.17, pyopenssl, rust-sized-chunks, strongswan, systemd, and tiff).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1062868/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 23 Mar 2026 16:00:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -243,57 +317,6 @@ some interesting results.  Recent developments in this area include the
 Sashiko code-review system, a patch-review manager built into b4, and a new
 attempt at a framework for the specification and verification of kernel
 APIs.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1063659/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 19 Mar 2026 13:01:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063659/" title="https://lwn.net/Articles/1063659/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (freetype), <b>Fedora</b> (aqualung, kiss-fft, libtasn1, mac, and vim), <b>Red Hat</b> (libarchive, osbuild-composer, and rhc), <b>Slackware</b> (expat), <b>SUSE</b> (ca-certificates-mozilla, chromium, cockpit, cockpit-machines, cockpit-podman, curl, docker, docker-compose, docker-stable, gnutls, gstreamer-rtsp-server, gstreamer-plugins-ugly, gstreamer- plugins-rs, gstreamer-plugins-libav, gstreamer-plugins-good, gstreamer-plugins- base, gstreamer-plugins-bad, gstreamer-docs, gstreamer-devtools, gstreamer, gvfs, helm, kernel, krb5-appl, libsoup, libxslt, libxml2, openssh, python-cryptography, python-django, python-pypdf2, python-simpleeval, python311, qemu, ruby4.0-rubygem-sprockets, ruby4.0-rubygem-thor, ruby4.0-rubygem-web-console, ruby4.0-rubygem-websocket-extensions, skaffold, smb4k, tomcat, ucode-intel, util-linux, virtiofsd, and zlib), and <b>Ubuntu</b> (bouncycastle, exiv2, freerdp3, linux-aws, linux-aws-5.4, linux-gcp-5.4, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-aws-fips, python2.7, roundcube, and valkey).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1062571/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 19 Mar 2026 00:00:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062571/" title="https://lwn.net/Articles/1062571/">[$] LWN.net Weekly Edition for March 19, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1062571/">Front</a>: Privacy battles; page-cache-timing protections; null filesystems; Fedora Sandbox; safer kmalloc(); BPF in io_uring.
-            <li> <a href="https://lwn.net/Articles/1062573/">Briefs</a>: AppArmor vulnerabilities; snapd vulnerability; Sashiko; DPL election; Fedora Asahi 43; GIMP 3.2; Marknote 1.5; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1062574/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1061979/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Mar 2026 19:14:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1061979/" title="https://lwn.net/Articles/1061979/">[$] Cindy Cohn on privacy battles old and new</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Cindy Cohn is the executive director of the <a
-href="https://www.eff.org/">Electronic Frontier Foundation</a> (EFF) and
-she gave the Saturday morning keynote at <a
-href="https://www.socallinuxexpo.org/scale/23x">SCALE 23x</a> in Pasadena
-about some of the work she and others have done to help protect online
-rights, especially digital privacy.  The talk recounted some of the history
-of the court cases that the organization has brought over the years to try
-to dial back privacy invasions. One underlying theme was the
-role that attendees can play in protecting our rights, hearkening back to
-earlier efforts by the technical community.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1063517/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Mar 2026 17:47:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063517/" title="https://lwn.net/Articles/1063517/">Samba 4.24.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Version 4.24.0 of the Samba SMB filesystem implementation has been
-released.  There are a number of significant changes, including audit
-support for authentication information, remote password management, a
-number of Kerberos improvements, asynchronous-I/O rate limiting, and more.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
