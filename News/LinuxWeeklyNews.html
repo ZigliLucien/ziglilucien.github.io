@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1063993/" title="See Description">[$] A PHP license change is imminent</a></li>
 <li><a href="#https://lwn.net/Articles/1064479/" title="See Description">LiteLLM on PyPI is compromised</a></li>
 <li><a href="#https://lwn.net/Articles/1064478/" title="See Description">Down: Debunking zswap and zram myths</a></li>
 <li><a href="#https://lwn.net/Articles/1064477/" title="See Description">Krita 5.3.0 and 6.0.0 released</a></li>
@@ -53,10 +54,29 @@
 Technica)</a></li>
 <li><a href="#https://lwn.net/Articles/1063723/" title="See Description">Two new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1063712/" title="See Description">Radicle 1.7.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1063303/" title="See Description">[$] Development tools: Sashiko, b4 review, and API specification</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1063993/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Mar 2026 16:00:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063993/" title="https://lwn.net/Articles/1063993/">[$] A PHP license change is imminent</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>PHP's licensing has been a source of confusion for some time. The project is,
+currently, using two licenses that cover different parts of the code base: <a
+href="https://spdx.org/licenses/PHP-3.01.html">PHP v3.01</a> for the
+bulk of the code and <a
+href="https://spdx.org/licenses/Zend-2.0.html">Zend v2.0</a> for code
+in the <tt>Zend</tt> directory. Much has changed
+since the project settled on those licenses in 2006, and the need for custom
+licensing seems to have passed. An effort to simplify PHP's licensing, led by
+Ben Ramsey, is underway; if successful, the existing licenses will be deprecated
+and replaced by the <a href="https://spdx.org/licenses/BSD-3-Clause.html">BSD
+three-clause</a> license. The PHP community is now voting on the <a
+href="https://wiki.php.net/rfc/php_license_update#php_rfcphp_license_update">license
+update RFC</a> through April&#160;4, 2026.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1064479/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 24 Mar 2026 13:48:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -68,7 +88,14 @@ report</a> describes a credential-stealing attack buried within LiteLLM
 1.82.8 in the PyPI repository.  It collects and exfiltrates a wide variety
 of information, including SSH keys, credentials for a number of cloud
 services, crypto wallets, and so on.  Anybody who has installed this
-package has likely been compromised and needs to respond accordingly.</blockquote></blockquote></div></td></tr>
+package has likely been compromised and needs to respond accordingly.
+<p>
+<b>Update</b>: see <a
+href="https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/">this
+futuresearch article</a> for some more information.  "<q>The release
+contains a malicious <tt>.pth</tt> file (<tt>litellm_init.pth</tt>) that <b>executes
+automatically on every Python process startup</b> when litellm is installed in
+the environment.</q>"</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1064478/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 24 Mar 2026 13:34:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -301,23 +328,6 @@ updates. See the release notes for a full list of changes and bug
 fixes.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1063303/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 19 Mar 2026 14:19:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063303/" title="https://lwn.net/Articles/1063303/">[$] Development tools: Sashiko, b4 review, and API specification</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel project has a unique approach to tooling that avoids many
-commonly used development systems that do not fit the community's scale and
-ways of working.  Another way of looking at the situation is that the kernel
-project has often under-invested in tooling, and sometimes seems bent on
-doing things the hard way.  In recent times, though, the amount of effort
-that has gone into development tools for the kernel has increased, with
-some interesting results.  Recent developments in this area include the
-Sashiko code-review system, a patch-review manager built into b4, and a new
-attempt at a framework for the specification and verification of kernel
-APIs.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
