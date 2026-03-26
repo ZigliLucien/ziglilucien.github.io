@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1064809/" title="See Description">The forge is our new home (Fedora Community Blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1064541/" title="See Description">[$] Vibe-coded ext4 for OpenBSD</a></li>
 <li><a href="#https://lwn.net/Articles/1064761/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1063660/" title="See Description">[$] LWN.net Weekly Edition for March 26, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1063459/" title="See Description">[$] Collaboration for battling security incidents</a></li>
@@ -51,11 +53,62 @@
 <li><a href="#https://lwn.net/Articles/1064479/" title="See Description">LiteLLM on PyPI is compromised</a></li>
 <li><a href="#https://lwn.net/Articles/1064478/" title="See Description">Down: Debunking zswap and zram myths</a></li>
 <li><a href="#https://lwn.net/Articles/1064477/" title="See Description">Krita 5.3.0 and 6.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1064474/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1062868/" title="See Description">[$] Tracking when BPF programs may sleep</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1064809/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Mar 2026 14:53:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064809/" title="https://lwn.net/Articles/1064809/">The forge is our new home (Fedora Community Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Tomáš Hrčka has <a
+href="https://communityblog.fedoraproject.org/the-forge-is-our-new-home/">announced</a>
+that the <a href="https://forgejo.org/">Forgejo</a>-based <a
+href="https://forge.fedoraproject.org/">Fedora Forge</a> is now a
+fully operational collaborative-development platform; it is ready for
+use by the larger Fedora community, which means the homegrown <a
+href="https://pagure.io/">Pagure</a> platform's days are numbered:</p>
+
+<blockquote class="bq">
+<p>While pagure.io has been a vital part of our community for many
+years, the time has come to retire our homegrown forge and transition
+to this powerful new tool.</p>
+
+<p>The final cutover is planned for Flock to Fedora 2026. We strongly
+encourage teams to migrate their projects well before the conference
+to ensure a smooth transition. The pagure.io migration is only the
+first step in a broader infrastructure modernization effort. By the
+2027 Fedora 46 release, we plan to retire all remaining Pagure
+instances across the project, including the package source
+repositories on src.fedoraproject.org. Getting familiar with Fedora
+Forge now will help ensure your team is ready as the rest of the
+Fedora ecosystem transitions.</p>
+</blockquote>
+
+<p>There is a <a
+href="https://docs.fedoraproject.org/en-US/forge-documentation/migration/pagure_repository/">migration
+guide</a> for Fedora community members that own projects hosted on
+Pagure and need to move to the new forge.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1064541/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 26 Mar 2026 14:35:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064541/" title="https://lwn.net/Articles/1064541/">[$] Vibe-coded ext4 for OpenBSD</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A number of projects have been struggling with the question of which
+submissions created by large language models (LLMs), if any, should be
+accepted into their code base.  This discussion has been further muddied by
+efforts to use LLM-driven reimplemention as a way to remove copyleft
+restrictions from a body of existing code, as recently <a
+href="https://lwn.net/Articles/1061534/">happened with the Python chardet module</a>.  In
+this context, an attempt to introduce an LLM-generated implementation of
+the Linux ext4 filesystem into OpenBSD was always going to create some
+fireworks, but that project has its own, clearly defined reasons for
+looking askance at such submissions.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1064761/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 26 Mar 2026 13:10:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -306,32 +359,6 @@ cautions that users should stick to 5.3.0 for real work. See
 the <a
 href="https://krita.org/en/release-notes/krita-5-3-release-notes/">release
 notes</a> for a full list of changes.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064474/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Mar 2026 13:06:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064474/" title="https://lwn.net/Articles/1064474/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (strongswan and vlc), <b>Fedora</b> (cmake, giflib, and python-diskcache), <b>SUSE</b> (curl, docker-stable, freeciv, freerdp, freerdp2, freetype2, go1.25-openssl, go1.26-openssl, GraphicsMagick, gvfs, harfbuzz, kernel, lemon, libpng16, librsvg, libsodium, libsoup, net-snmp, protobuf, python-Authlib, python-maturin, python-tornado6, python310, python311-pypdf, python311-PyPDF2, python314, python39, rust-keylime, strongswan, systemd, ucode-intel, util-linux, and vim), and <b>Ubuntu</b> (gvfs, linux-aws-6.8, linux-azure, linux-azure, linux-azure-4.15, linux-azure-fips, linux-hwe-5.4, linux-ibm, linux-intel-iot-realtime, linux-nvidia-tegra-igx, linux-realtime-6.17, pyopenssl, rust-sized-chunks, strongswan, systemd, and tiff).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1062868/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 23 Mar 2026 16:00:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062868/" title="https://lwn.net/Articles/1062868/">[$] Tracking when BPF programs may sleep</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-BPF programs can run in both sleepable and non-sleepable (atomic) contexts.
-Currently, sleepable BPF programs are not allowed to enter an atomic context.
-Puranjay Mohan has a
-<a href="https://lwn.net/ml/all/20260226161500.775715-1-puranjay@kernel.org/">
-new patch set</a> that changes that. The patch set would let BPF programs called
-in sleepable contexts temporarily acquire locks that cause the programs to
-transition to an atomic context. BPF maintainer Alexei
-Starovoitov objected to parts of the implementation, however, so acceptance of
-the patch depends on whether Mohan is willing and able to straighten it out.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
