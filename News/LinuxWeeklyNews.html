@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1065018/" title="See Description">Stable kernel update to fix regression on LoongArch platform</a></li>
+<li><a href="#https://lwn.net/Articles/1065015/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1064809/" title="See Description">The forge is our new home (Fedora Community Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1064541/" title="See Description">[$] Vibe-coded ext4 for OpenBSD</a></li>
 <li><a href="#https://lwn.net/Articles/1064761/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,31 @@
 <li><a href="#https://lwn.net/Articles/1064537/" title="See Description">Firefox 149.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1063993/" title="See Description">[$] A PHP license change is imminent</a></li>
 <li><a href="#https://lwn.net/Articles/1064479/" title="See Description">LiteLLM on PyPI is compromised</a></li>
-<li><a href="#https://lwn.net/Articles/1064478/" title="See Description">Down: Debunking zswap and zram myths</a></li>
-<li><a href="#https://lwn.net/Articles/1064477/" title="See Description">Krita 5.3.0 and 6.0.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1065018/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 27 Mar 2026 13:32:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065018/" title="https://lwn.net/Articles/1065018/">Stable kernel update to fix regression on LoongArch platform</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1065019/">6.12.79</a> stable kernel. This release
+only reverts a <a
+href="https://lwn.net/ml/all/20251213094950.1068951-1-chenhuacai%40loongson.cn/">patch</a>
+that caused a regression on the LoongArch platform; users who
+could not build 6.12.78 on LoongArch need to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1065015/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 27 Mar 2026 13:07:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065015/" title="https://lwn.net/Articles/1065015/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, gnutls, mysql:8.0, mysql:8.4, nginx, nginx:1.24, opencryptoki, python3, vim, and virt:rhel and virt-devel:rhel), <b>Debian</b> (firefox-esr, ruby-rack, and thunderbird), <b>Fedora</b> (fontforge, headscale, kryoptic, libopenmpt, pyOpenSSL, python-cryptography, rubygem-json, rust-asn1, rust-asn1_derive, rust-cryptoki, rust-cryptoki-sys, rust-wycheproof, vim, and vtk), <b>Oracle</b> (freerdp, golang, mysql:8.0, and ncurses), <b>Red Hat</b> (osbuild-composer), <b>Slackware</b> (libpng and tigervnc), <b>SUSE</b> (chromium, frr, kea, kernel, nghttp2, pgvector, python-deepdiff, python-pyasn1, python-tornado6, python-urllib3, python3, python310, ruby2.5, salt, sqlite3, systemd, tomcat, vim, and xen), and <b>Ubuntu</b> (libcryptx-perl).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1064809/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 26 Mar 2026 14:53:36 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -305,60 +327,6 @@ futuresearch article</a> for some more information.  "<q>The release
 contains a malicious <tt>.pth</tt> file (<tt>litellm_init.pth</tt>) that <b>executes
 automatically on every Python process startup</b> when litellm is installed in
 the environment.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064478/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Mar 2026 13:34:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064478/" title="https://lwn.net/Articles/1064478/">Down: Debunking zswap and zram myths</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Chris Down has posted <a
-href="https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html">a
-detailed look</a> at how the kernel's zswap and zram subsystems work — and
-how they differ.
-<p>
-<blockquote class="bq">
-	Most people think of zswap and zram simply as two different
-	flavours of the same thing: compressed swap. At a surface level,
-	that's correct – both compress pages that would otherwise end up on
-	disk – but they make fundamentally different bets about how the
-	kernel should handle memory pressure, and picking the wrong one for
-	your situation can actively make things worse than having no swap
-	at all
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064477/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Mar 2026 13:31:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064477/" title="https://lwn.net/Articles/1064477/">Krita 5.3.0 and 6.0.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Krita project has <a
-href="https://krita.org/en/posts/2026/krita-5.3.0-released/">announced</a>
-the release of Krita 5.3.0 and 6.0.0:</p>
-
-<blockquote class="bq">
-<p>Krita 5.3/6.0 is the result of many years of work by the Krita
-developers. Some features have been rewritten from the ground up,
-others make their first appearance.</p>
-
-<p>Enjoy the completely new text feature: on canvas editing, full
-opentype support, text flowing into shapes. It is now easier than ever
-to create vector-based panels for comic pages. Tools got extended: for
-instance, the fill tool now can close gaps. The liquify mode of the
-transform tool is much faster. There are new filters: a propagate
-colors filter and a reset transparent filter. Support for HDR painting
-has been improved. The recorder docker can now work in real
-time. There is improved support for file formats, like support for
-text objects in PSD files. And much, much, much more!</p>
-</blockquote>
-
-
-<p>According to the announcement, the versions are almost functionally
-identical. However, the 6.0.0 release is the first based on Qt&#160;6;
-it has more Wayland functionality but is considered experimental. It
-cautions that users should stick to 5.3.0 for real work. See
-the <a
-href="https://krita.org/en/release-notes/krita-5-3-release-notes/">release
-notes</a> for a full list of changes.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
