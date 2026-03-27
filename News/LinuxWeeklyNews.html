@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1064693/" title="See Description">[$] The many failures leading to the LiteLLM compromise</a></li>
+<li><a href="#https://lwn.net/Articles/1065059/" title="See Description">The telnyx packages on PyPI have been compromised</a></li>
 <li><a href="#https://lwn.net/Articles/1065018/" title="See Description">Stable kernel update to fix regression on LoongArch platform</a></li>
 <li><a href="#https://lwn.net/Articles/1065015/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1064809/" title="See Description">The forge is our new home (Fedora Community Blog)</a></li>
@@ -51,11 +53,48 @@
 <li><a href="#https://lwn.net/Articles/1064648/" title="See Description">Five new stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1064634/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1064537/" title="See Description">Firefox 149.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1063993/" title="See Description">[$] A PHP license change is imminent</a></li>
-<li><a href="#https://lwn.net/Articles/1064479/" title="See Description">LiteLLM on PyPI is compromised</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1064693/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 27 Mar 2026 16:44:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064693/" title="https://lwn.net/Articles/1064693/">[$] The many failures leading to the LiteLLM compromise</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a
+href="https://github.com/BerriAI/litellm?tab=readme-ov-file#---------litellm----">LiteLLM</a>
+is a gateway library providing access to a number of large language models
+(LLMs); it is popular and widely used.  On March&#160;24, the word went out
+that the version of LiteLLM found in the <a href="https://pypi.org/">Python
+Package Index (PyPI)</a> repository had been
+compromised with information-stealing malware and downloaded thousands of
+times, sparking concern across the net.  This may look like just another
+supply-chain attack — and it is — but the way it came about reveals just
+how many weak links there are in the software supply chains that we all
+depend on.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1065059/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 27 Mar 2026 16:21:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065059/" title="https://lwn.net/Articles/1065059/">The telnyx packages on PyPI have been compromised</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The SafeDep blog <a
+href="https://safedep.io/malicious-telnyx-pypi-compromise/">reports</a>
+that compromised versions of the telnyx package have been found in the PyPI
+repository:
+<p>
+<blockquote class="bq">
+	Two versions of <tt>telnyx</tt> (4.87.1 and 4.87.2) published to
+	PyPI on March 27, 2026 contain malicious code injected into
+	<tt>telnyx/_client.py</tt>. The telnyx package averages <b>over 1 million
+	downloads per month</b> (~30,000/day), making this a high-impact
+	supply chain compromise. The payload downloads a second-stage
+	binary hidden inside WAV audio files from a remote server, then
+	either drops a persistent executable on Windows or harvests
+	credentials on Linux/macOS.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1065018/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 27 Mar 2026 13:32:07 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -288,45 +327,6 @@ href="https://support.mozilla.org/en-US/kb/built-in-vpn">built-in
 VPN</a> for browser traffic only, and more.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1063993/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Mar 2026 16:00:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063993/" title="https://lwn.net/Articles/1063993/">[$] A PHP license change is imminent</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>PHP's licensing has been a source of confusion for some time. The project is,
-currently, using two licenses that cover different parts of the code base: <a
-href="https://spdx.org/licenses/PHP-3.01.html">PHP v3.01</a> for the
-bulk of the code and <a
-href="https://spdx.org/licenses/Zend-2.0.html">Zend v2.0</a> for code
-in the <tt>Zend</tt> directory. Much has changed
-since the project settled on those licenses in 2006, and the need for custom
-licensing seems to have passed. An effort to simplify PHP's licensing, led by
-Ben Ramsey, is underway; if successful, the existing licenses will be deprecated
-and replaced by the <a href="https://spdx.org/licenses/BSD-3-Clause.html">BSD
-three-clause</a> license. The PHP community is now voting on the <a
-href="https://wiki.php.net/rfc/php_license_update#php_rfcphp_license_update">license
-update RFC</a> through April&#160;4, 2026.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064479/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 24 Mar 2026 13:48:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064479/" title="https://lwn.net/Articles/1064479/">LiteLLM on PyPI is compromised</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://github.com/BerriAI/litellm/issues/24512">This issue
-report</a> describes a credential-stealing attack buried within LiteLLM
-1.82.8 in the PyPI repository.  It collects and exfiltrates a wide variety
-of information, including SSH keys, credentials for a number of cloud
-services, crypto wallets, and so on.  Anybody who has installed this
-package has likely been compromised and needs to respond accordingly.
-<p>
-<b>Update</b>: see <a
-href="https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/">this
-futuresearch article</a> for some more information.  "<q>The release
-contains a malicious <tt>.pth</tt> file (<tt>litellm_init.pth</tt>) that <b>executes
-automatically on every Python process startup</b> when litellm is installed in
-the environment.</q>"</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
