@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-03-27T13:36:04+00:00</generatedAt>
-		<updateTime type="str">2026-03-27T13:26:36+00:00</updateTime>
-		<validTimes type="str">2026-03-27T07:00:00+00:00/P7DT18H</validTimes>
+		<generatedAt type="str">2026-03-27T16:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-03-27T15:36:30+00:00</updateTime>
+		<validTimes type="str">2026-03-27T09:00:00+00:00/P7DT16H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2026-03-27T08:00:00-05:00</startTime>
+				<startTime type="str">2026-03-27T11:00:00-05:00</startTime>
 				<endTime type="str">2026-03-27T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">53</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">25</value>
+					<value type="int">39</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">7 to 16 mph</windSpeed>
-				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,30/rain_showers,20?size=medium</icon>
+				<windSpeed type="str">8 to 15 mph</windSpeed>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,40?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers</shortForecast>
-				<detailedForecast type="str">A chance of rain showers before 1pm. Mostly cloudy, with a high near 53. North northwest wind 7 to 16 mph, with gusts as high as 29 mph. Chance of precipitation is 30%.</detailedForecast>
+				<detailedForecast type="str">A chance of rain showers before 2pm. Mostly cloudy. High near 53, with temperatures falling to around 50 in the afternoon. North wind 8 to 15 mph, with gusts as high as 28 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -81,11 +81,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 to 15 mph</windSpeed>
+				<windSpeed type="str">6 to 14 mph</windSpeed>
 				<windDirection type="str">N</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear. Low around 32, with temperatures rising to around 34 overnight. North wind 6 to 15 mph, with gusts as high as 25 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear. Low around 32, with temperatures rising to around 34 overnight. North wind 6 to 14 mph, with gusts as high as 25 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
