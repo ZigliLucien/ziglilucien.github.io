@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1064830/" title="See Description">[$] The role of LLMs in patch review</a></li>
 <li><a href="#https://lwn.net/Articles/1064706/" title="See Description">[$] Objections to systemd age-attestation changes go overboard</a></li>
 <li><a href="#https://lwn.net/Articles/1065586/" title="See Description">Vulnerability Research Is Cooked (sockpuppet.org)</a></li>
 <li><a href="#https://lwn.net/Articles/1065585/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1065015/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1064809/" title="See Description">The forge is our new home (Fedora Community Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1064541/" title="See Description">[$] Vibe-coded ext4 for OpenBSD</a></li>
-<li><a href="#https://lwn.net/Articles/1064761/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1064830/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 31 Mar 2026 15:40:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064830/" title="https://lwn.net/Articles/1064830/">[$] The role of LLMs in patch review</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Discussion of
+<a href="https://lwn.net/ml/all/cover.1773924928.git.ljs@kernel.org/">
+a memory-management patch set</a> intended to clean up a helper function for
+handling huge pages spiraled into something else entirely after it was posted on March&#160;19.
+Memory-management maintainer Andrew Morton
+<a href="https://lwn.net/ml/all/20260319200917.ce345a369d035050b6329ac5@linux-foundation.org/">
+proposed</a> making changes to the subsystem's review process, to require
+patch authors to respond to feedback from <a href="https://sashiko.dev/">Sashiko</a>,
+the
+<a href="https://lwn.net/Articles/1063303/#sashiko">
+recently released LLM-based kernel patch review system</a>. Other
+sub-maintainers, particularly Lorenzo Stoakes, objected. The
+resulting discussion about how and when to adopt Sashiko is potentially relevant
+to many other parts of the kernel.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1064706/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 31 Mar 2026 13:52:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -309,14 +332,6 @@ this context, an attempt to introduce an LLM-generated implementation of
 the Linux ext4 filesystem into OpenBSD was always going to create some
 fireworks, but that project has its own, clearly defined reasons for
 looking askance at such submissions.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064761/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 26 Mar 2026 13:10:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064761/" title="https://lwn.net/Articles/1064761/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (awstats, firefox-esr, and nss), <b>Fedora</b> (chromium, dotnet10.0, dotnet8.0, dotnet9.0, freerdp, and wireshark), <b>Mageia</b> (graphicsmagick and xen), <b>Oracle</b> (mysql:8.4 and nginx), <b>Red Hat</b> (podman), <b>Slackware</b> (bind and tigervnc), <b>SUSE</b> (azure-storage-azcopy, firefox-esr, giflib, glances-common, govulncheck-vulndb, grafana, kernel, libpng16, libsoup, mumble, net-snmp, perl-Crypt-URandom, pgvector-devel, pnpm, postgresql17, Prometheus, protobuf, python-cbor2, python-Jinja2, python-simpleeval, python311-dynaconf, python311-pydicom, python313-PyMuPDF, salt, snpguest, systemd, and vim), and <b>Ubuntu</b> (bind9, linux-azure, linux-azure, linux-azure-6.17, linux-azure-6.8, and mbedtls).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
