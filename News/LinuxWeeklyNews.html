@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1064706/" title="See Description">[$] Objections to systemd age-attestation changes go overboard</a></li>
+<li><a href="#https://lwn.net/Articles/1065586/" title="See Description">Vulnerability Research Is Cooked (sockpuppet.org)</a></li>
+<li><a href="#https://lwn.net/Articles/1065585/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1065480/" title="See Description">SystemRescue 13.00 released</a></li>
 <li><a href="#https://lwn.net/Articles/1065476/" title="See Description">Rspamd version 4.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1063124/" title="See Description">[$] Rust's next-generation trait solver</a></li>
@@ -50,12 +53,72 @@
 <li><a href="#https://lwn.net/Articles/1064809/" title="See Description">The forge is our new home (Fedora Community Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1064541/" title="See Description">[$] Vibe-coded ext4 for OpenBSD</a></li>
 <li><a href="#https://lwn.net/Articles/1064761/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1063660/" title="See Description">[$] LWN.net Weekly Edition for March 26, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1063459/" title="See Description">[$] Collaboration for battling security incidents</a></li>
-<li><a href="#https://lwn.net/Articles/1064671/" title="See Description">Setting up a Tor Relay at National Taiwan Normal University (Tor Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1064706/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 31 Mar 2026 13:52:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064706/" title="https://lwn.net/Articles/1064706/">[$] Objections to systemd age-attestation changes go overboard</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>In early March, Dylan M. Taylor submitted a <a
+href="https://github.com/systemd/systemd/pull/40954">pull request</a> to add a field
+to store a user's birth date in systemd's <a
+href="https://systemd.io/USER_RECORD/">JSON user records</a>. This was done to allow
+applications to store the date to facilitate compliance with age-attestation and
+-verification laws. It was to be expected that some members of the community would
+object; the actual response, however, has been shockingly hostile. Some of this has
+been fueled by a misinformation campaign that has targeted the systemd project and
+Taylor specifically, resulting in Taylor being doxxed and receiving death
+threats. Such behavior is not just problematic; it is also deeply misguided given the
+actual nature of the changes.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1065586/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 31 Mar 2026 13:26:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065586/" title="https://lwn.net/Articles/1065586/">Vulnerability Research Is Cooked (sockpuppet.org)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>There is <a
+href="https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/">a
+blog post on sockpuppet.org</a> arguing that we are not prepared for the
+upcoming flood of high-quality, LLM-generated vulnerability reports and
+exploits.
+<p>
+<blockquote class="bq">
+	Now consider the poor open source developers who, for the last 18
+	months, have complained about a torrent of slop vulnerability
+	reports. I'd had mixed sympathies, but the complaints were at least
+	empirically correct. That could change real fast. The new models
+	find real stuff. Forget the slop; will projects be able to keep up
+	with a steady feed of verified, reproducible, reliably-exploitable
+	sev:hi vulnerabilities? That's what's coming down the pipe.
+<p>
+	Everything is up in the air. The industry is sold on memory-safe
+	software, but the shift is slow going. We've bought time with
+	sandboxing and attack surface restriction. How well will these
+	countermeasures hold up? A 4 layer system of sandboxes, kernels,
+	hypervisors, and IPC schemes are, to an agent, an iterated version
+	of the same problem. Agents will generate full-chain exploits, and
+	they will do so soon.
+<p>
+	Meanwhile, no defense looks flimsier now than closed source
+	code. Reversing was already mostly a speed-bump even for
+	entry-level teams, who lift binaries into IR or decompile them all
+	the way back to source. Agents can do this too, but they can also
+	reason directly from assembly. If you want a problem better suited
+	to LLMs than bug hunting, program translation is a good place to
+	start.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1065585/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 31 Mar 2026 13:09:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065585/" title="https://lwn.net/Articles/1065585/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, kernel, and kernel-rt), <b>Debian</b> (phpseclib and roundcube), <b>Fedora</b> (bind, bind-dyndb-ldap, dotnet8.0, dotnet9.0, firefox, freerdp, mingw-expat, musescore, nss, ntpd-rs, perl-YAML-Syck, php-phpseclib3, polkit, pyOpenSSL, python3.12, rust, rust-cargo-rpmstatus, rust-cargo-vendor-filterer, stgit, webkitgtk, and xen), <b>SUSE</b> (dovecot24, ImageMagick, jupyter-nbclassic, kernel, libjxl, libsuricata8_0_4, obs-service-recompress, obs-service-tar_scm, obs-service-set_version, openbao, perl-Crypt-URandom, plexus-utils, python-pyasn1, python-PyJWT, strongswan, traefik, traefik2, and webkit2gtk3), and <b>Ubuntu</b> (gst-plugins-base1.0, gst-plugins-good1.0, imagemagick, pillow, pyasn1, pyjwt, and roundcube).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1065480/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 30 Mar 2026 17:25:40 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -255,68 +318,6 @@ looking askance at such submissions.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (awstats, firefox-esr, and nss), <b>Fedora</b> (chromium, dotnet10.0, dotnet8.0, dotnet9.0, freerdp, and wireshark), <b>Mageia</b> (graphicsmagick and xen), <b>Oracle</b> (mysql:8.4 and nginx), <b>Red Hat</b> (podman), <b>Slackware</b> (bind and tigervnc), <b>SUSE</b> (azure-storage-azcopy, firefox-esr, giflib, glances-common, govulncheck-vulndb, grafana, kernel, libpng16, libsoup, mumble, net-snmp, perl-Crypt-URandom, pgvector-devel, pnpm, postgresql17, Prometheus, protobuf, python-cbor2, python-Jinja2, python-simpleeval, python311-dynaconf, python311-pydicom, python313-PyMuPDF, salt, snpguest, systemd, and vim), and <b>Ubuntu</b> (bind9, linux-azure, linux-azure, linux-azure-6.17, linux-azure-6.8, and mbedtls).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1063660/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 26 Mar 2026 00:41:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063660/" title="https://lwn.net/Articles/1063660/">[$] LWN.net Weekly Edition for March 26, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1063660/">Front</a>: Security collaboration; Manjaro governance; kernel development tools; PHP licensing; kernel direct map patches; sleepable BPF.
-            <li> <a href="https://lwn.net/Articles/1063662/">Briefs</a>: LiteLLM compromise; Tor in Taiwan; b4 v0.15.0; 24-hour sideloading; Agama 19; Firefox 149.0; GNOME 50; Krita 5.3.0 and 6.0.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1063663/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1063459/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 25 Mar 2026 17:07:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063459/" title="https://lwn.net/Articles/1063459/">[$] Collaboration for battling security incidents</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The keynote for <a href="https://www.sunseccon.org/2026/">Sun Security Con
-2026</a> (SunSecCon) was given by Farzan Karimi on how incident handling
-can go awry because of a lack of collaboration between the "good
-guys"—which stands in contrast to how attackers collaboratively operate.
-He provided some "war stories" where security incident handling had
-benefited from collaboration and others where it was hampered by its lack.
-SunSecCon was held in conjunction with <a
-href="https://www.socallinuxexpo.org/scale/23x">SCALE 23x</a> in Pasadena
-in early March.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064671/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 25 Mar 2026 15:10:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064671/" title="https://lwn.net/Articles/1064671/">Setting up a Tor Relay at National Taiwan Normal University (Tor Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Tor Blog has an interesting <a
-href="https://blog.torproject.org/setting-up-tor-university-relay-taiwan/">article</a>
-about the non-technical side of setting up a Tor Relay. It documents how a
-computer science student at National Taiwan Normal University worked with the
-university system to set up a relay and provides a template for future
-attempts:</p>
-
-<blockquote class="bq">
-<p>In Taiwan, anonymous networks do not lack technical documentation or
-ideological support. The real scarcity is experience from actually working
-through the real institutional system once. Especially in an environment where
-academic networks are highly centralized and outbound connectivity is tightly
-controlled, distributed anonymous infrastructure like Tor Relays is inherently
-difficult to sustain.</p>
-
-<p>This implementation at National Taiwan Normal University was not meant to
-provide a final answer for anonymous networks. It was a concrete attempt made
-within real-world institutions. It may not immediately improve the performance
-or security of anonymous networks, and it was not intended to become a directly
-reproducible standard process. What it did achieve was leaving behind a clearly
-visible path of practice—one that can be understood, referenced, and built
-upon.</p>
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
