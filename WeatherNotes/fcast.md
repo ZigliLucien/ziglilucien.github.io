@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Showers and thunderstorms likely before 2pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 76.
-         Southwest wind 7 to 12 mph, with gusts as high as 20 mph. Chance of precipitation is 70%.<br></div>
+         Southwest wind 6 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
