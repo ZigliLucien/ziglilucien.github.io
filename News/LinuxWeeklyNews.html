@@ -38,24 +38,251 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1066371/" title="See Description">Hackers breached the European Commission (The Next Web)</a></li>
+<li><a href="#https://lwn.net/Articles/1065420/" title="See Description">[$] Ubuntu's GRUBby plans</a></li>
+<li><a href="#https://lwn.net/Articles/1066241/" title="See Description">No kidding: Gentoo GNU/Hurd</a></li>
+<li><a href="#https://lwn.net/Articles/1066236/" title="See Description">Security updates for Friday</a></li>
+<li><a href="#https://lwn.net/Articles/1066162/" title="See Description">SFC: What the FCC router ban means for FOSS</a></li>
+<li><a href="#https://lwn.net/Articles/1065490/" title="See Description">[$] IPC medley: message-queue peeking, io_uring, and bus1</a></li>
+<li><a href="#https://lwn.net/Articles/1065971/" title="See Description">Exelbierd: What's actually in a Sashiko review?</a></li>
+<li><a href="#https://lwn.net/Articles/1065991/" title="See Description">OpenSSH 10.3 released</a></li>
+<li><a href="#https://lwn.net/Articles/1066084/" title="See Description">Security updates for Thursday</a></li>
+<li><a href="#https://lwn.net/Articles/1065984/" title="See Description">New stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1064762/" title="See Description">[$] LWN.net Weekly Edition for April 2, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1065908/" title="See Description">Turbulence at The Document Foundation</a></li>
 <li><a href="#https://lwn.net/Articles/1064692/" title="See Description">[$] Pandoc: a workhorse for document conversion</a></li>
 <li><a href="#https://lwn.net/Articles/1065827/" title="See Description">Servo 0.0.6 released</a></li>
 <li><a href="#https://lwn.net/Articles/1065814/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1064830/" title="See Description">[$] The role of LLMs in patch review</a></li>
-<li><a href="#https://lwn.net/Articles/1064706/" title="See Description">[$] Objections to systemd age-attestation changes go overboard</a></li>
-<li><a href="#https://lwn.net/Articles/1065586/" title="See Description">Vulnerability Research Is Cooked (sockpuppet.org)</a></li>
-<li><a href="#https://lwn.net/Articles/1065585/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1065480/" title="See Description">SystemRescue 13.00 released</a></li>
-<li><a href="#https://lwn.net/Articles/1065476/" title="See Description">Rspamd version 4.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1063124/" title="See Description">[$] Rust's next-generation trait solver</a></li>
-<li><a href="#https://lwn.net/Articles/1065419/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1065194/" title="See Description">Kernel prepatch 7.0-rc6</a></li>
-<li><a href="#https://lwn.net/Articles/1064693/" title="See Description">[$] The many failures leading to the LiteLLM compromise</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1066371/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 05 Apr 2026 13:55:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066371/" title="https://lwn.net/Articles/1066371/">Hackers breached the European Commission (The Next Web)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>LWN recently <a href="https://lwn.net/Articles/1064693/">reported on</a> the Trivy
+compromise that led, in turn, to the compromise of the LiteLLM system; that
+article made the point that the extent of the problem was likely rather
+larger than was known.  The Next Web now <a
+href="https://thenextweb.com/news/european-commission-breach-trivy-supply-chain">reports</a>
+that the Trivy attack was used to compromise a wide range of European
+Commission systems.
+<p>
+<blockquote class="bq">
+	The European Union's computer emergency response team said on
+	Thursday that a supply chain attack on an open-source security
+	scanner gave hackers the keys to the European Commission's cloud
+	infrastructure, resulting in the theft and public leak of
+	approximately 92 gigabytes of compressed data including the
+	personal information and email contents of staff across dozens of
+	EU institutions.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1065420/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 03 Apr 2026 15:12:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065420/" title="https://lwn.net/Articles/1065420/">[$] Ubuntu's GRUBby plans</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.gnu.org/software/grub/">GNU GRUB 2</a>, mostly just
+referred to as GRUB these days, is the most widely used boot loader
+for x86_64 Linux systems. It <a
+href="https://www.gnu.org/software/grub/manual/grub/grub.html#Features">supports</a> reading
+from a vast selection of filesystems, handles booting modern systems
+with UEFI or legacy systems with a BIOS, and even allows users to customize the
+"splash" image displayed when a system boots. Alas, all of those features come with
+a price; GRUB has had <a
+href="https://www.cvedetails.com/version-list/72/32736/1/GNU-Grub2.html">a parade
+of security vulnerabilities</a> over the years. To mitigate some of those
+problems, <a
+href="https://documentation.ubuntu.com/project/who-makes-ubuntu/developers/dmb-joining-core-dev/">Ubuntu
+core developer</a> and Canonical employee Julian Andres Klode has <a
+href="https://discourse.ubuntu.com/t/streamlining-secure-boot-for-26-10/79069">proposed removing
+a number of features</a> from GRUB in Ubuntu&#160;26.10 to improve GRUB's
+security profile. His proposal has not been met with universal acclaim; many of the
+features Klode would like to remove have vocal proponents.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1066241/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 03 Apr 2026 14:12:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066241/" title="https://lwn.net/Articles/1066241/">No kidding: Gentoo GNU/Hurd</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>On April 1, the Gentoo Linux project published a blog post
+announcing that it was switching to <a
+href="https://www.gnu.org/software/hurd/">GNU Hurd</a> as its primary
+kernel as an April Fool's joke. While that is not true, the project
+has followed up with <a
+href="https://www.gentoo.org/news/2026/04/01/gentoo-hurd.html">an announcement</a>
+of a new Gentoo port to the Hurd:</p>
+
+<blockquote class="bq">
+<p>Our crack team has been working hard to port Gentoo to the Hurd and
+can now share that they've succeeded, though it remains still in a
+heavily experimental stage. You can try Gentoo GNU/Hurd using a
+pre-prepared disk image. The easiest way to do this is with QEMU
+[...]</p>
+
+<p>We have developed scripts to build this image locally and
+conveniently work on further development of the Hurd port. Release
+media like stages and automated image builds are future goals, as is
+feature parity on x86-64. Further contributions are welcome,
+encouraged, and needed. Be patient, expect to get your hands dirty,
+anticipate breakage, and have fun!</p>
+
+<p>Oh, and Gentoo GNU/Hurd also works on real hardware!</p>
+</blockquote>
+
+<p>Text for the April Fool's post is available at the bottom of the
+real announcement.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1066236/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 03 Apr 2026 13:24:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066236/" title="https://lwn.net/Articles/1066236/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, grafana, kernel, rsync, and thunderbird), <b>Debian</b> (chromium, inetutils, and libpng1.6), <b>Fedora</b> (bind9-next, nginx-mod-modsecurity, and openbao), <b>Mageia</b> (firefox, nss and thunderbird), <b>Red Hat</b> (container-tools:rhel8), <b>SUSE</b> (conftest, dnsdist, ignition, libsoup, libsoup2, LibVNCServer, libXvnc-devel, opensc, ovmf-202602, perl-Crypt-URandom, python-tornado, python311-ecdsa, python311-Pygments, python315, tar, and wireshark), and <b>Ubuntu</b> (cairo, jpeg-xl, linux, linux-aws, linux-aws-6.17, linux-gcp, linux-gcp-6.17,
+ linux-hwe-6.17, linux-realtime, linux, linux-aws, linux-aws-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-ibm,
+ linux-lowlatency, linux-nvidia, linux-raspi, linux-fips, linux-fips, linux-aws-fips, linux-fips, linux-aws-fips, linux-gcp-fips, and linux-realtime, linux-realtime-6.8, linux-raspi-realtime).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1066162/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 Apr 2026 20:21:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066162/" title="https://lwn.net/Articles/1066162/">SFC: What the FCC router ban means for FOSS</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Denver Gingerich of the Software Freedom Conservancy (SFC) has published
+an <a
+href="https://sfconservancy.org/blog/2026/apr/02/fcc-router-ban/">article</a>
+on the impact of the <a
+href="https://docs.fcc.gov/public/attachments/DOC-420034A1.pdf">ban on
+the sale of all new home routers</a> not made in the United States
+issued by the Federal Communications Commission (FCC). The SFC, of
+course, is the <a href="https://lwn.net/Articles/1014998/">organization
+behind the OpenWrt One router</a>.</p>
+
+<blockquote class="bq">
+<p>Since software updates to already-FCC-approved devices do not
+require a new FCC approval, it appears the FCC is trying to move
+beyond its usual authorization procedures to restrict what
+manufacturers are allowed to push to existing routers. However, the
+FCC notably does not restrict software changes made by owners of
+routers in the U.S. In particular, there is no indication that updates
+people make to their own routers, using software they have sourced
+themselves, would run afoul of any past or present FCC rule.</p>
+
+<p>As a result, we do not believe that this new FCC decision affects
+whether and how people can run OpenWrt or other user-selected firmware
+updates on routers they have already purchased. Not only is this an
+important right in relation to our ownership and control of our own
+devices, it also ensures that people can keep their routers secure for
+far longer than the manufacturer may choose to provide security
+updates, by allowing them to install up-to-date community software
+that supports routers for 10, 15, or even more years after their
+initial release date, as OpenWrt does for many devices.</p>
+</blockquote>
+
+<p>He also notes that, as the OpenWrt One is already FCC-approved,
+there should be no impact on its availability in the US. The SFC has
+asked the FCC for clarification and plans to provide updates when they
+receive a reply.</p>
+
+<p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1065490/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 Apr 2026 15:07:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065490/" title="https://lwn.net/Articles/1065490/">[$] IPC medley: message-queue peeking, io_uring, and bus1</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel provides a number of ways for processes to communicate with each
+other, but they never quite seem to fit the bill for many users.  There are
+currently a few proposals for interprocess communication (IPC) enhancements
+circulating on the mailing lists.  The most straightforward one adds a new
+system call for POSIX message queues that enables the addition of new
+features.  For those wanting an entirely new way to do interprocess
+communication, there is a proposal to add a new subsystem for that purpose
+to io_uring.  Finally, the bus1 proposal has made a return after ten years.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1065971/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 Apr 2026 13:27:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065971/" title="https://lwn.net/Articles/1065971/">Exelbierd: What's actually in a Sashiko review?</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Brian "bex" Exelbierd has published
+<a href="https://www.bexelbie.com/2026/04/01/whats-in-a-sashiko-review">a blog
+post</a> exploring follow-up questions raised by
+<a href="https://lwn.net/Articles/1064830/">the recent debate</a> about the use of the LLM-based review
+tool Sashiko
+in the memory-management subsystem. His main finding is that Sashiko reviews are
+bi-modal with regards to whether they contain reports about code not directly
+changed by the patch set — most do not, but the ones that do often have several
+such comments.
+</p>
+
+<blockquote class="bq">
+<p>
+<b>Hypothesis 1: Reviewers are getting told about bugs they didn't create.</b>
+Sashiko's review protocol explicitly instructs the LLM to read surrounding code,
+not just the diff. That's good review practice — but it means the tool might
+flag pre-existing bugs in code the patch author merely touched, putting those
+problems in their inbox.
+</p>
+<p>
+<b>Hypothesis 2: The same pre-existing bugs surface repeatedly.</b> If a known
+issue in a subsystem doesn't get fixed between review runs, every patch touching
+nearby code could trigger the same finding. That would create a steady drip of
+duplicate noise across the mailing list.
+</p>
+<p>
+I pulled data from Sashiko's public API and tested both.
+</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1065991/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 Apr 2026 13:18:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065991/" title="https://lwn.net/Articles/1065991/">OpenSSH 10.3 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.openssh.org/txt/release-10.3">OpenSSH 10.3</a>
+has been released. Among the many changes in this release are a
+security fix to address late validation of metacharacters in user
+names, removal of bug compatibility for SSH implementations that do
+not support <a
+href="https://datatracker.ietf.org/doc/html/rfc4344#section-3">rekeying</a>,
+and a fix to ensure that <tt>scp</tt> clears setuid/setgid bits from downloaded
+files when operating as root in legacy (<tt>-O</tt>) mode. See the
+release announcement for a full list of new features, bug fixes, and
+potentially incompatible changes.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1066084/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 Apr 2026 13:17:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066084/" title="https://lwn.net/Articles/1066084/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (python3.11, python3.12, squid, and thunderbird), <b>Debian</b> (gst-plugins-bad1.0 and gst-plugins-ugly1.0), <b>Fedora</b> (bpfman, crun, gnome-remote-desktop, polkit, python3.14, rust-rustls-webpki, rust-sccache, rust-scx_layered, rust-scx_rustland, rust-scx_rusty, and scap-security-guide), <b>Oracle</b> (freerdp, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, and gstreamer1-plugins-ugly-free, kernel, libxslt, python3.11, python3.12, squid, and thunderbird), <b>SUSE</b> (389-ds, busybox, chromium, cosign, curl, docker-compose, exiv2, expat, firefox, freerdp, freerdp2, gstreamer-plugins-ugly, harfbuzz, heroic-games-launcher, ImageMagick, kea, keylime, libjxl, librsvg, libsodium, libsoup, net-snmp, net-tools, netty, nghttp2, poppler, postgresql13, postgresql16, postgresql17, postgresql18, protobuf, python-black, python-orjson, python-pyasn1, python-pyOpenSSL, python-tornado, python-tornado6, python311-nltk, thunderbird, tomcat10, tomcat11, vim, and xen), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-raspi, linux-raspi, linux-raspi-realtime, rust-cargo-c, rust-tar, and undertow).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1065984/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 Apr 2026 12:55:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065984/" title="https://lwn.net/Articles/1065984/">New stable kernels for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1065986/">6.19.11</a>, <a href="https://lwn.net/Articles/1065987/">6.18.21</a>,
+<a href="https://lwn.net/Articles/1065988/">6.12.80</a>, and <a
+href="https://lwn.net/Articles/1065985/">6.6.131</a> stable kernels, followed by a quick
+release of <a href="https://lwn.net/Articles/1065989/">6.6.132</a> with two patches reverted to
+address a problem building the rust core in 6.6.131. Each kernel contains
+important fixes; users are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1064762/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 02 Apr 2026 00:39:21 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -140,187 +367,6 @@ tools enhancements</a>.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, libxslt, python3.11, and python3.12), <b>Debian</b> (libpng1.6, lxd, netty, and python-tornado), <b>Fedora</b> (chunkah, cpp-httplib, firefox, freerdp, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, gstreamer1-vaapi, insight, python-gstreamer1, python3.14, rust, rust-cargo-rpmstatus, rust-cargo-vendor-filterer, rust-resctl-bench, rust-scx_layered, rust-scx_rustland, rust-scx_rusty, and xen), <b>Mageia</b> (freeipmi, python-openssl, python-ply, ruby-rack, vim, and zlib), <b>Oracle</b> (firefox, freerdp, kernel, libpng, thunderbird, uek-kernel, and virt:ol and virt-devel:ol), <b>Red Hat</b> (golang), <b>SUSE</b> (bind, expat, fetchmail, ffmpeg-7, freerdp, gsl, incus, kernel, libjavamapscript, libjxl, libpng16-16, libpolkit-agent-1-0-127, net-snmp, net-tools, openexr, perl-XML-Parser, python-ldap, python-pyasn1, python-PyJWT, python311-requests, tailscale, thunderbird, tinyproxy, and ucode-intel), and <b>Ubuntu</b> (golang-golang-x-net-dev and ruby2.3, ruby2.5, ruby2.7, ruby3.0, ruby3.2, ruby3.3).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064830/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 31 Mar 2026 15:40:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064830/" title="https://lwn.net/Articles/1064830/">[$] The role of LLMs in patch review</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Discussion of
-<a href="https://lwn.net/ml/all/cover.1773924928.git.ljs@kernel.org/">
-a memory-management patch set</a> intended to clean up a helper function for
-handling huge pages spiraled into something else entirely after it was posted on March&#160;19.
-Memory-management maintainer Andrew Morton
-<a href="https://lwn.net/ml/all/20260319200917.ce345a369d035050b6329ac5@linux-foundation.org/">
-proposed</a> making changes to the subsystem's review process, to require
-patch authors to respond to feedback from <a href="https://sashiko.dev/">Sashiko</a>,
-the
-<a href="https://lwn.net/Articles/1063303/#sashiko">
-recently released LLM-based kernel patch review system</a>. Other
-sub-maintainers, particularly Lorenzo Stoakes, objected. The
-resulting discussion about how and when to adopt Sashiko is potentially relevant
-to many other parts of the kernel.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064706/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 31 Mar 2026 13:52:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064706/" title="https://lwn.net/Articles/1064706/">[$] Objections to systemd age-attestation changes go overboard</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>In early March, Dylan M. Taylor submitted a <a
-href="https://github.com/systemd/systemd/pull/40954">pull request</a> to add a field
-to store a user's birth date in systemd's <a
-href="https://systemd.io/USER_RECORD/">JSON user records</a>. This was done to allow
-applications to store the date to facilitate compliance with age-attestation and
--verification laws. It was to be expected that some members of the community would
-object; the actual response, however, has been shockingly hostile. Some of this has
-been fueled by a misinformation campaign that has targeted the systemd project and
-Taylor specifically, resulting in Taylor being doxxed and receiving death
-threats. Such behavior is not just problematic; it is also deeply misguided given the
-actual nature of the changes.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065586/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 31 Mar 2026 13:26:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065586/" title="https://lwn.net/Articles/1065586/">Vulnerability Research Is Cooked (sockpuppet.org)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There is <a
-href="https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/">a
-blog post on sockpuppet.org</a> arguing that we are not prepared for the
-upcoming flood of high-quality, LLM-generated vulnerability reports and
-exploits.
-<p>
-<blockquote class="bq">
-	Now consider the poor open source developers who, for the last 18
-	months, have complained about a torrent of slop vulnerability
-	reports. I'd had mixed sympathies, but the complaints were at least
-	empirically correct. That could change real fast. The new models
-	find real stuff. Forget the slop; will projects be able to keep up
-	with a steady feed of verified, reproducible, reliably-exploitable
-	sev:hi vulnerabilities? That's what's coming down the pipe.
-<p>
-	Everything is up in the air. The industry is sold on memory-safe
-	software, but the shift is slow going. We've bought time with
-	sandboxing and attack surface restriction. How well will these
-	countermeasures hold up? A 4 layer system of sandboxes, kernels,
-	hypervisors, and IPC schemes are, to an agent, an iterated version
-	of the same problem. Agents will generate full-chain exploits, and
-	they will do so soon.
-<p>
-	Meanwhile, no defense looks flimsier now than closed source
-	code. Reversing was already mostly a speed-bump even for
-	entry-level teams, who lift binaries into IR or decompile them all
-	the way back to source. Agents can do this too, but they can also
-	reason directly from assembly. If you want a problem better suited
-	to LLMs than bug hunting, program translation is a good place to
-	start.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065585/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 31 Mar 2026 13:09:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065585/" title="https://lwn.net/Articles/1065585/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, kernel, and kernel-rt), <b>Debian</b> (phpseclib and roundcube), <b>Fedora</b> (bind, bind-dyndb-ldap, dotnet8.0, dotnet9.0, firefox, freerdp, mingw-expat, musescore, nss, ntpd-rs, perl-YAML-Syck, php-phpseclib3, polkit, pyOpenSSL, python3.12, rust, rust-cargo-rpmstatus, rust-cargo-vendor-filterer, stgit, webkitgtk, and xen), <b>SUSE</b> (dovecot24, ImageMagick, jupyter-nbclassic, kernel, libjxl, libsuricata8_0_4, obs-service-recompress, obs-service-tar_scm, obs-service-set_version, openbao, perl-Crypt-URandom, plexus-utils, python-pyasn1, python-PyJWT, strongswan, traefik, traefik2, and webkit2gtk3), and <b>Ubuntu</b> (gst-plugins-base1.0, gst-plugins-good1.0, imagemagick, pillow, pyasn1, pyjwt, and roundcube).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065480/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 30 Mar 2026 17:25:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065480/" title="https://lwn.net/Articles/1065480/">SystemRescue 13.00 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>SystemRescue 13.00 has been <a
-href="https://www.system-rescue.org/Changes-x86/">released</a>. The
-SystemRescue distribution is a live boot system-rescue toolkit, based
-on Arch Linux, for repairing systems in the event of a crash. This
-release includes the 6.18.20 LTS kernel, updates bcachefs tools and
-kernel module to 1.37.3, and <a
-href="https://www.system-rescue.org/Detailed-packages-list/">many
-upgraded packages</a>. See the <a
-href="https://www.system-rescue.org/Books/">step-by-step guide</a> for
-instructions on performing common operations such as recovering files,
-creating disk clones, and resetting lost passwords.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065476/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 30 Mar 2026 17:12:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065476/" title="https://lwn.net/Articles/1065476/">Rspamd version 4.0.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://github.com/rspamd/rspamd/releases/tag/4.0.0">Version
-4.0.0</a> of the <a
-href="https://github.com/rspamd/rspamd?tab=readme-ov-file#introduction">Rspamd</a>
-spam-filtering system has been released. Notable new features include
-HTML fuzzy phishing detection, support for up to eight flags with <a
-href="https://docs.rspamd.com/tutorials/fuzzy_storage/">fuzzy
-hashes</a>, and more. See the <a
-href="https://docs.rspamd.com/changelog/">changelog</a> for more on
-improvements, breaking changes, and bug fixes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1063124/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 30 Mar 2026 14:24:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1063124/" title="https://lwn.net/Articles/1063124/">[$] Rust's next-generation trait solver</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Rust's compiler team has been working on a long-term project to
-<a href="https://github.com/rust-lang/rust/issues/107374">
-rewrite the trait solver</a> — the part of the compiler that determines which
-concrete function should be called when a programmer uses a trait method that is
-implemented for multiple types. The rewrite is intended to simplify
-future changes to the trait system, fix a handful of tricky soundness bugs, and
-provide faster compile times. It's also nearly finished, with a relatively
-small number of remaining blocking bugs.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065419/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 30 Mar 2026 13:07:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065419/" title="https://lwn.net/Articles/1065419/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, golang, and ncurses), <b>Debian</b> (asterisk, bind9, gst-plugins-base1.0, gst-plugins-ugly1.0, gvfs, incus, libxml-parser-perl, nodejs, php-phpseclib, php-phpseclib3, phpseclib, and strongswan), <b>Fedora</b> (bcftools, bind, bind-dyndb-ldap, chromium, dotnet10.0, dotnet8.0, dotnet9.0, giflib, htslib, libsoup3, libtasn1, maturin, mingw-expat, mingw-freetype, mongo-c-driver, perl-XML-Parser, php-phpseclib, php-phpseclib3, pypy, pypy3.10, pypy3.11, python-cryptography, python-fastar, python-ply, python-pycparser, python-uv-build, python3.11, python3.12, python3.13, python3.6, roundcubemail, rubygem-json, rust-ambient-id, rust-astral-reqwest-middleware, rust-astral-reqwest-retry, rust-astral-tokio-tar, rust-astral_async_http_range_reader, rust-cargo-c, rust-ingredients, rust-native-tls, rust-nix, rust-openssl-probe, rust-openssl-probe0.1, rust-pty-process, rust-reqsign, rust-reqsign-aliyun-oss, rust-reqsign-aws-v4, rust-reqsign-azure-storage, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-google, rust-reqsign-http-send-reqwest, rust-reqsign-huaweicloud-obs, rust-reqsign-tencent-cos, rust-rustls-native-certs, rust-sequoia-chameleon-gnupg, rust-tar, rust-webpki-root-certs, rustup, samtools, suricata, uv, and vim), <b>Mageia</b> (cmake, libpng, nodejs, python-ujson, and strongswan), <b>Red Hat</b> (python3 and python3.9), <b>SUSE</b> (389-ds, amazon-cloudwatch-agent, capstone, chromium, containerd, cosign, curl, docker-compose, docker-stable, exiv2, expat, firefox, freeipmi, freerdp, gimp, glusterfs, govulncheck-vulndb, gstreamer-plugins-ugly, jupyter-bqplot-jupyterlab, jupyter-jupyterlab-templates, jupyter-matplotlib, kea, kernel, libsodium, libtpms-devel, LibVNCServer, nghttp2, nginx, poppler, python-dynaconf, python-ldap, python-nltk, python-orjson, python-pyasn1, python-pydicom, python-PyJWT, python-pyopenssl, python-tornado6, python311, python311-cbor2, python311-deepdiff, python311-intake, python311-jsonpath-ng, python311-lmdb, python311-oci-sdk, python312, rclone, redis, salt, tomcat11, v2ray-core, and vim), and <b>Ubuntu</b> (linux-ibm-5.4).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065194/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 29 Mar 2026 23:28:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065194/" title="https://lwn.net/Articles/1065194/">Kernel prepatch 7.0-rc6</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1065193/">7.0-rc6</a> kernel prepatch is out for
-testing.
-<p>
-<blockquote class="bq">
-	Anyway, exactly because it's just "more than usual" rather than
-	feeling *worse* than usual, I don't currently feel this merits
-	extending the release, and I still hope that next weekend will be
-	the last rc. But it's just a bit unnerving how this release doesn't
-	want to calm down, so no promises.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064693/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 27 Mar 2026 16:44:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064693/" title="https://lwn.net/Articles/1064693/">[$] The many failures leading to the LiteLLM compromise</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a
-href="https://github.com/BerriAI/litellm?tab=readme-ov-file#---------litellm----">LiteLLM</a>
-is a gateway library providing access to a number of large language models
-(LLMs); it is popular and widely used.  On March&#160;24, the word went out
-that the version of LiteLLM found in the <a href="https://pypi.org/">Python
-Package Index (PyPI)</a> repository had been
-compromised with information-stealing malware and downloaded thousands of
-times, sparking concern across the net.  This may look like just another
-supply-chain attack — and it is — but the way it came about reveals just
-how many weak links there are in the software supply chains that we all
-depend on.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
