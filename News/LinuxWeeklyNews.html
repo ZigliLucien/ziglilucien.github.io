@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1066507/" title="See Description">6.6.133 stable kernel released</a></li>
+<li><a href="#https://lwn.net/Articles/1066505/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1066406/" title="See Description">Kernel prepatch 7.0-rc7</a></li>
 <li><a href="#https://lwn.net/Articles/1066371/" title="See Description">Hackers breached the European Commission (The Next Web)</a></li>
 <li><a href="#https://lwn.net/Articles/1065420/" title="See Description">[$] Ubuntu's GRUBby plans</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1065984/" title="See Description">New stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1064762/" title="See Description">[$] LWN.net Weekly Edition for April 2, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1065908/" title="See Description">Turbulence at The Document Foundation</a></li>
-<li><a href="#https://lwn.net/Articles/1064692/" title="See Description">[$] Pandoc: a workhorse for document conversion</a></li>
-<li><a href="#https://lwn.net/Articles/1065827/" title="See Description">Servo 0.0.6 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1066507/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 06 Apr 2026 13:57:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066507/" title="https://lwn.net/Articles/1066507/">6.6.133 stable kernel released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1066508/">6.6.133</a> stable kernel. This <a
+href="https://lwn.net/ml/all/20260405114505.568530-2-tomasz@kramkow.ski/">reverts
+a backporting mistake</a> that removed file descriptor checks which
+led to kernel panics if the <tt>fgetxattr</tt>, <tt>flistxattr</tt>,
+<tt>fremovexattr</tt>, or <tt>fsetxattr</tt> functions were called
+from user space with a file descriptor that did not reference an open
+file.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1066505/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 06 Apr 2026 13:16:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066505/" title="https://lwn.net/Articles/1066505/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, grafana, grafana-pcp, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, and gstreamer1-plugins-ugly-free, kernel, libpng12, libpng15, perl-YAML-Syck, python3, and rsync), <b>Debian</b> (dovecot, libxml-parser-perl, pyasn1, python-tornado, roundcube, tor, trafficserver, and valkey), <b>Fedora</b> (bind9-next, chromium, cmake, domoticz, freerdp, giflib, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, gstreamer1-vaapi, libgsasl, libinput, libopenmpt, mapserver, mingw-binutils, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-libpng, mingw-python3, nginx-mod-modsecurity, openbao, python-gstreamer1, python3.12, python3.13, python3.14, python3.9, rust, rust-sccache, tcpflow, and vim), <b>Red Hat</b> (ncurses), <b>Slackware</b> (infozip and krita), <b>SUSE</b> (chromium, corosync, keybase-client, libinput-devel, osslsigncode, python-pillow, python311-Flask-Cors, python313, and python314), and <b>Ubuntu</b> (libarchive and spip).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1066406/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 06 Apr 2026 01:01:46 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -326,49 +350,6 @@ certainly plays into this as well.
 <p>
 Details are fuzzy at best; we will be working at providing a clearer
 picture, but that will take some time.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064692/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 01 Apr 2026 14:41:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064692/" title="https://lwn.net/Articles/1064692/">[$] Pandoc: a workhorse for document conversion</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://pandoc.org/">Pandoc</a> is a document-conversion program
-that can translate among  a myriad of formats, including <a
-href="https://www.latex-project.org/">LaTeX</a>, HTML, <a
-href="https://en.wikipedia.org/wiki/Office_Open_XML">Office Open XML</a>
-(docx), plain text, and <a
-href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>. It is also
-extensible by writing <a href="http://www.lua.org/about.html">Lua</a>
-filters that can manipulate the document structure and perform arbitrary
-computations.
-Pandoc has appeared in various LWN articles over the years, such as my <a
-href="https://lwn.net/Articles/1037577/">look at Typst</a> and at <a
-href="https://lwn.net/Articles/1023299/">the importance of free software to science</a> in
-2025, but we have missed providing an overview of the tool.  The February <a
-href="https://github.com/jgm/pandoc/releases/3.9">release of Pandoc
-3.9</a>, which comes with the ability to compile the program to <a
-href="https://webassembly.org">WebAssembly</a> (Wasm), allowing Pandoc
-to run in web browsers, will likely also be of interest.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065827/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 01 Apr 2026 14:25:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065827/" title="https://lwn.net/Articles/1065827/">Servo 0.0.6 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://github.com/servo/servo/releases/tag/v0.0.6">Version
-0.0.6</a> of the Rust-based <a href="https://servo.org/">Servo</a> web
-browser rendering engine has been released. This release boasts a <a href="https://servo.org/blog/2026/03/31/february-in-servo/">long
-list of new features, performance enhancements, improvements, and bug
-fixes</a>. Some of the notable changes include <a
-href="https://servo.org/blog/2026/03/31/february-in-servo/#performance-and-stability">layout
-performance improvements</a>, a <tt>servo:config</tt> page for setting
-any preference, and <a
-href="https://servo.org/blog/2026/03/31/february-in-servo/#developer-tools">developer
-tools enhancements</a>.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
