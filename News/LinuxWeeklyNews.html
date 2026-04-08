@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1066813/" title="See Description">Nix privilege escalation security advisory</a></li>
+<li><a href="#https://lwn.net/Articles/1066809/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1065471/" title="See Description">[$] Sharing stories on Scuttlebutt</a></li>
 <li><a href="#https://lwn.net/Articles/1066665/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1066593/" title="See Description">Introducing the FreeBSD laptop integration testing project</a></li>
@@ -51,11 +53,53 @@
 <li><a href="#https://lwn.net/Articles/1066236/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1066162/" title="See Description">SFC: What the FCC router ban means for FOSS</a></li>
 <li><a href="#https://lwn.net/Articles/1065490/" title="See Description">[$] IPC medley: message-queue peeking, io_uring, and bus1</a></li>
-<li><a href="#https://lwn.net/Articles/1065971/" title="See Description">Exelbierd: What's actually in a Sashiko review?</a></li>
-<li><a href="#https://lwn.net/Articles/1065991/" title="See Description">OpenSSH 10.3 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1066813/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 08 Apr 2026 13:52:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066813/" title="https://lwn.net/Articles/1066813/">Nix privilege escalation security advisory</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The NixOS project has <a
+href="https://discourse.nixos.org/t/nix-security-advisory-privilege-escalation-via-symlink-following-during-fod-output-registration/76900">announced
+a critical vulnerability</a> in many versions of the Nix package
+manager's daemon. The flaw was introduced as part of a fix for <a
+href="https://github.com/NixOS/nix/security/advisories/GHSA-2ffj-w4mj-pg37">a
+prior vulnerability in 2024</a>. According to the <a
+href="https://github.com/NixOS/nix/security/advisories/GHSA-g3g9-5vj6-r3gj">advisory</a>,
+all default configurations of NixOS and systems building untrusted <a
+href="https://nix.dev/manual/nix/2.28/language/derivations.html">derivations</a>
+are impacted.</p>
+
+<blockquote class="bq">
+<p>A bug in the fix for <a
+href="https://nvd.nist.gov/vuln/detail/CVE-2024-27297">CVE-2024-27297</a>
+allowed for arbitrary overwrites of files writable by the Nix process
+orchestrating the builds (typically the Nix daemon running as root in
+multi-user installations) by following symlinks during fixed-output
+derivation output registration. This affects sandboxed Linux builds -
+sandboxed macOS builds are unaffected. The location of the temporary
+output used for the output copy was located inside the build chroot. A
+symlink, pointing to an arbitrary location in the filesystem, could be
+created by the derivation builder at that path. During output
+registration, the Nix process (running in the host mount namespace)
+would follow that symlink and overwrite the destination with the
+derivation's output contents.</p>
+
+<p>In multi-user installations, this allows all users able to submit
+builds to the Nix daemon (<tt>allowed-users</tt> - defaulting to all users) to
+gain root privileges by modifying sensitive files.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1066809/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 08 Apr 2026 13:28:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066809/" title="https://lwn.net/Articles/1066809/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (openssl), <b>Fedora</b> (corosync, goose, kea, pspp, and rauc), <b>Mageia</b> (python-pygments, roundcubemail, and tigervnc), <b>SUSE</b> (bind, gimp, google-cloud-sap-agent, govulncheck-vulndb, ignition, ImageMagick, python, python-PyJWT, and python-pyOpenSSL), and <b>Ubuntu</b> (adsys, juju-core, lxd, python-django, and salt).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1065471/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 07 Apr 2026 14:05:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -322,60 +366,6 @@ features.  For those wanting an entirely new way to do interprocess
 communication, there is a proposal to add a new subsystem for that purpose
 to io_uring.  Finally, the bus1 proposal has made a return after ten years.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065971/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 02 Apr 2026 13:27:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065971/" title="https://lwn.net/Articles/1065971/">Exelbierd: What's actually in a Sashiko review?</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Brian "bex" Exelbierd has published
-<a href="https://www.bexelbie.com/2026/04/01/whats-in-a-sashiko-review">a blog
-post</a> exploring follow-up questions raised by
-<a href="https://lwn.net/Articles/1064830/">the recent debate</a> about the use of the LLM-based review
-tool Sashiko
-in the memory-management subsystem. His main finding is that Sashiko reviews are
-bi-modal with regards to whether they contain reports about code not directly
-changed by the patch set — most do not, but the ones that do often have several
-such comments.
-</p>
-
-<blockquote class="bq">
-<p>
-<b>Hypothesis 1: Reviewers are getting told about bugs they didn't create.</b>
-Sashiko's review protocol explicitly instructs the LLM to read surrounding code,
-not just the diff. That's good review practice — but it means the tool might
-flag pre-existing bugs in code the patch author merely touched, putting those
-problems in their inbox.
-</p>
-<p>
-<b>Hypothesis 2: The same pre-existing bugs surface repeatedly.</b> If a known
-issue in a subsystem doesn't get fixed between review runs, every patch touching
-nearby code could trigger the same finding. That would create a steady drip of
-duplicate noise across the mailing list.
-</p>
-<p>
-I pulled data from Sashiko's public API and tested both.
-</p>
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065991/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 02 Apr 2026 13:18:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065991/" title="https://lwn.net/Articles/1065991/">OpenSSH 10.3 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.openssh.org/txt/release-10.3">OpenSSH 10.3</a>
-has been released. Among the many changes in this release are a
-security fix to address late validation of metacharacters in user
-names, removal of bug compatibility for SSH implementations that do
-not support <a
-href="https://datatracker.ietf.org/doc/html/rfc4344#section-3">rekeying</a>,
-and a fix to ensure that <tt>scp</tt> clears setuid/setgid bits from downloaded
-files when operating as root in legacy (<tt>-O</tt>) mode. See the
-release announcement for a full list of new features, bug fixes, and
-potentially incompatible changes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
