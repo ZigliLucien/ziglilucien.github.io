@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1062141/" title="See Description">[$] Ripping CDs and converting audio with fre:ac</a></li>
+<li><a href="#https://lwn.net/Articles/1065889/" title="See Description">[$] An API for handling arithmetic overflow</a></li>
 <li><a href="#https://lwn.net/Articles/1066813/" title="See Description">Nix privilege escalation security advisory</a></li>
 <li><a href="#https://lwn.net/Articles/1066809/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1065471/" title="See Description">[$] Sharing stories on Scuttlebutt</a></li>
@@ -51,11 +53,46 @@
 <li><a href="#https://lwn.net/Articles/1065420/" title="See Description">[$] Ubuntu's GRUBby plans</a></li>
 <li><a href="#https://lwn.net/Articles/1066241/" title="See Description">No kidding: Gentoo GNU/Hurd</a></li>
 <li><a href="#https://lwn.net/Articles/1066236/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1066162/" title="See Description">SFC: What the FCC router ban means for FOSS</a></li>
-<li><a href="#https://lwn.net/Articles/1065490/" title="See Description">[$] IPC medley: message-queue peeking, io_uring, and bus1</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1062141/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 08 Apr 2026 15:40:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1062141/" title="https://lwn.net/Articles/1062141/">[$] Ripping CDs and converting audio with fre:ac</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>It has been a little while since LWN last <a
+href="https://lwn.net/Articles/160704/">surveyed tools for managing a digital
+music collection</a>. In the intervening decades, many Linux users have moved on to
+music streaming services, found them wanting, and are looking to curate their own
+collection once again. There are plenty of choices when it comes to
+ripping, managing, and playing digital audio; so many, in fact, that it can be a
+bit daunting. After years of tinkering, I've found a few tools that work well for
+managing my digital library: the first I'd like to cover is the <a
+href="https://www.freac.org/">fre:ac</a> free audio encoder for ripping music from
+CDs and converting between audio formats.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1065889/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 08 Apr 2026 14:53:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065889/" title="https://lwn.net/Articles/1065889/">[$] An API for handling arithmetic overflow</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+On March 31, Kees Cook shared
+<a href="https://lwn.net/ml/all/20260331163716.work.696-kees@kernel.org/">
+a patch set</a> that represents the culmination of more than a year of work
+toward eliminating the possibility of silent, unintentional integer overflow in
+the kernel. Linus Torvalds was
+<a href="https://lwn.net/ml/all/CAHk-=wg=q7ptcMyUAqPGDbX_DKHivJVppc8bP0zpQqzOky_avA@mail.gmail.com/">
+not pleased</a> with the approach, leading to a detailed discussion about the
+meaning of "safe" integer operations and the design of APIs for handling integer
+overflows. Eventually, the developers involved reached a consensus for a
+different API that should make handling overflow errors in the kernel much less
+of a hassle.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1066813/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 08 Apr 2026 13:52:21 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -307,64 +344,6 @@ real announcement.</p>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, grafana, kernel, rsync, and thunderbird), <b>Debian</b> (chromium, inetutils, and libpng1.6), <b>Fedora</b> (bind9-next, nginx-mod-modsecurity, and openbao), <b>Mageia</b> (firefox, nss and thunderbird), <b>Red Hat</b> (container-tools:rhel8), <b>SUSE</b> (conftest, dnsdist, ignition, libsoup, libsoup2, LibVNCServer, libXvnc-devel, opensc, ovmf-202602, perl-Crypt-URandom, python-tornado, python311-ecdsa, python311-Pygments, python315, tar, and wireshark), and <b>Ubuntu</b> (cairo, jpeg-xl, linux, linux-aws, linux-aws-6.17, linux-gcp, linux-gcp-6.17,
  linux-hwe-6.17, linux-realtime, linux, linux-aws, linux-aws-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-ibm,
  linux-lowlatency, linux-nvidia, linux-raspi, linux-fips, linux-fips, linux-aws-fips, linux-fips, linux-aws-fips, linux-gcp-fips, and linux-realtime, linux-realtime-6.8, linux-raspi-realtime).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1066162/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 02 Apr 2026 20:21:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066162/" title="https://lwn.net/Articles/1066162/">SFC: What the FCC router ban means for FOSS</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Denver Gingerich of the Software Freedom Conservancy (SFC) has published
-an <a
-href="https://sfconservancy.org/blog/2026/apr/02/fcc-router-ban/">article</a>
-on the impact of the <a
-href="https://docs.fcc.gov/public/attachments/DOC-420034A1.pdf">ban on
-the sale of all new home routers</a> not made in the United States
-issued by the Federal Communications Commission (FCC). The SFC, of
-course, is the <a href="https://lwn.net/Articles/1014998/">organization
-behind the OpenWrt One router</a>.</p>
-
-<blockquote class="bq">
-<p>Since software updates to already-FCC-approved devices do not
-require a new FCC approval, it appears the FCC is trying to move
-beyond its usual authorization procedures to restrict what
-manufacturers are allowed to push to existing routers. However, the
-FCC notably does not restrict software changes made by owners of
-routers in the U.S. In particular, there is no indication that updates
-people make to their own routers, using software they have sourced
-themselves, would run afoul of any past or present FCC rule.</p>
-
-<p>As a result, we do not believe that this new FCC decision affects
-whether and how people can run OpenWrt or other user-selected firmware
-updates on routers they have already purchased. Not only is this an
-important right in relation to our ownership and control of our own
-devices, it also ensures that people can keep their routers secure for
-far longer than the manufacturer may choose to provide security
-updates, by allowing them to install up-to-date community software
-that supports routers for 10, 15, or even more years after their
-initial release date, as OpenWrt does for many devices.</p>
-</blockquote>
-
-<p>He also notes that, as the OpenWrt One is already FCC-approved,
-there should be no impact on its availability in the US. The SFC has
-asked the FCC for clarification and plans to provide updates when they
-receive a reply.</p>
-
-<p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065490/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 02 Apr 2026 15:07:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065490/" title="https://lwn.net/Articles/1065490/">[$] IPC medley: message-queue peeking, io_uring, and bus1</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel provides a number of ways for processes to communicate with each
-other, but they never quite seem to fit the bill for many users.  There are
-currently a few proposals for interprocess communication (IPC) enhancements
-circulating on the mailing lists.  The most straightforward one adds a new
-system call for POSIX message queues that enables the addition of new
-features.  For those wanting an entirely new way to do interprocess
-communication, there is a proposal to add a new subsystem for that purpose
-to io_uring.  Finally, the bus1 proposal has made a return after ten years.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
