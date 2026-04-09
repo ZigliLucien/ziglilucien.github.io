@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1066581/" title="See Description">[$] A flood of useful security reports</a></li>
+<li><a href="#https://lwn.net/Articles/1066926/" title="See Description">Relicensing versus license compatibility (FSF Blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1066972/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1065979/" title="See Description">[$] LWN.net Weekly Edition for April 9, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1062141/" title="See Description">[$] Ripping CDs and converting audio with fre:ac</a></li>
 <li><a href="#https://lwn.net/Articles/1065889/" title="See Description">[$] An API for handling arithmetic overflow</a></li>
@@ -50,12 +53,71 @@
 <li><a href="#https://lwn.net/Articles/1066507/" title="See Description">6.6.133 stable kernel released</a></li>
 <li><a href="#https://lwn.net/Articles/1066505/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1066406/" title="See Description">Kernel prepatch 7.0-rc7</a></li>
-<li><a href="#https://lwn.net/Articles/1066371/" title="See Description">Hackers breached the European Commission (The Next Web)</a></li>
-<li><a href="#https://lwn.net/Articles/1065420/" title="See Description">[$] Ubuntu's GRUBby plans</a></li>
-<li><a href="#https://lwn.net/Articles/1066241/" title="See Description">No kidding: Gentoo GNU/Hurd</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1066581/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 09 Apr 2026 13:28:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066581/" title="https://lwn.net/Articles/1066581/">[$] A flood of useful security reports</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The idea of using large language models (LLMs) to discover security problems is
+not new. Google's Project Zero
+<a href="https://projectzero.google/2024/06/project-naptime.html">investigated</a>
+the feasibility of using LLMs for security research in 2024. At the time, they
+found that models could identify real problems, but required a good deal of
+structure and hand-holding to do so on small benchmark problems. In February
+2026, Anthropic
+<a href="https://red.anthropic.com/2026/zero-days/">published a report</a>
+claiming that the company's most recent LLM at that point in time, Claude Opus 4.6, had discovered
+real-world vulnerabilities in critical open-source software, including the Linux
+kernel, with far less scaffolding. On April&#160;7, Anthropic announced a new experimental model that is
+<a href="https://red.anthropic.com/2026/mythos-preview/">
+supposedly even better</a>; which they have
+<a href="https://www.linuxfoundation.org/blog/project-glasswing-gives-maintainers-advanced-ai-to-secure-open-source">
+partnered with the Linux Foundation</a>
+to supply to some open-source developers with access to the tool for security reviews.
+LLMs seem to have progressed significantly in the last few months, a change
+which is being noticed in the open-source community.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1066926/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 09 Apr 2026 13:19:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066926/" title="https://lwn.net/Articles/1066926/">Relicensing versus license compatibility (FSF Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Free Software Foundation has <a
+href="https://www.fsf.org/blogs/licensing/relicensing-versus-compatibility">published</a>
+a short article on relicensing versus license compatibility.</p>
+
+<blockquote class="bq">
+The <a href="https://www.fsf.org/licensing/">FSF's Licensing and
+Compliance Lab</a> receives many questions and license violation reports
+related to projects that had their license changed by a downstream
+distributor, or that are combined from two or more programs under
+different licenses. We collaborated with Yoni Rabkin, an experienced
+and long time FSF licensing volunteer, on an updated version of his
+article to provide the free software community with a general
+explanation on how the GNU General Public License (GNU&#160;GPL) is
+intended to work in such situations.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1066972/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 09 Apr 2026 13:18:21 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066972/" title="https://lwn.net/Articles/1066972/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr, postgresql-13, and tiff), <b>Fedora</b> (bind, bind-dyndb-ldap, cef, opensc, python-biopython, python-pydicom, and roundcubemail), <b>Slackware</b> (mozilla), <b>SUSE</b> (ckermit, cockpit-repos, dnsdist, expat, freerdp, git-cliff, gnutls, heroic-games-launcher, libeverest, openssl-1_1, openssl-3, polkit, python-poetry, python-requests, python311-social-auth-app-django, and SDL2_image-devel), and <b>Ubuntu</b> (dogtag-pki, gdk-pixbuf, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke,
+ linux-gkeop, linux-ibm, linux-ibm-5.15, linux-intel-iotg,
+ linux-intel-iotg-5.15, linux-kvm, linux-lowlatency,
+ linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra,
+ linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux-raspi,
+ linux-xilinx-zynqmp, linux-aws-6.8, linux-gcp-6.8, linux-hwe-6.8, linux-ibm-6.8,
+ linux-lowlatency-hwe-6.8, linux-fips, linux-aws-fips, linux-gcp-fips, linux-oracle, linux-oracle-6.17, linux-raspi, linux-realtime, openssl, and squid).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1065979/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 09 Apr 2026 00:19:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -268,88 +330,6 @@ file.</p>
 <tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1066405/">7.0-rc7</a> for testing.
 "<q>Things look set for a final release next weekend, but please keep
 testing.  The Easter bunny is watching</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1066371/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 05 Apr 2026 13:55:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066371/" title="https://lwn.net/Articles/1066371/">Hackers breached the European Commission (The Next Web)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>LWN recently <a href="https://lwn.net/Articles/1064693/">reported on</a> the Trivy
-compromise that led, in turn, to the compromise of the LiteLLM system; that
-article made the point that the extent of the problem was likely rather
-larger than was known.  The Next Web now <a
-href="https://thenextweb.com/news/european-commission-breach-trivy-supply-chain">reports</a>
-that the Trivy attack was used to compromise a wide range of European
-Commission systems.
-<p>
-<blockquote class="bq">
-	The European Union's computer emergency response team said on
-	Thursday that a supply chain attack on an open-source security
-	scanner gave hackers the keys to the European Commission's cloud
-	infrastructure, resulting in the theft and public leak of
-	approximately 92 gigabytes of compressed data including the
-	personal information and email contents of staff across dozens of
-	EU institutions.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1065420/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 03 Apr 2026 15:12:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1065420/" title="https://lwn.net/Articles/1065420/">[$] Ubuntu's GRUBby plans</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.gnu.org/software/grub/">GNU GRUB 2</a>, mostly just
-referred to as GRUB these days, is the most widely used boot loader
-for x86_64 Linux systems. It <a
-href="https://www.gnu.org/software/grub/manual/grub/grub.html#Features">supports</a> reading
-from a vast selection of filesystems, handles booting modern systems
-with UEFI or legacy systems with a BIOS, and even allows users to customize the
-"splash" image displayed when a system boots. Alas, all of those features come with
-a price; GRUB has had <a
-href="https://www.cvedetails.com/version-list/72/32736/1/GNU-Grub2.html">a parade
-of security vulnerabilities</a> over the years. To mitigate some of those
-problems, <a
-href="https://documentation.ubuntu.com/project/who-makes-ubuntu/developers/dmb-joining-core-dev/">Ubuntu
-core developer</a> and Canonical employee Julian Andres Klode has <a
-href="https://discourse.ubuntu.com/t/streamlining-secure-boot-for-26-10/79069">proposed removing
-a number of features</a> from GRUB in Ubuntu&#160;26.10 to improve GRUB's
-security profile. His proposal has not been met with universal acclaim; many of the
-features Klode would like to remove have vocal proponents.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1066241/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 03 Apr 2026 14:12:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066241/" title="https://lwn.net/Articles/1066241/">No kidding: Gentoo GNU/Hurd</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>On April 1, the Gentoo Linux project published a blog post
-announcing that it was switching to <a
-href="https://www.gnu.org/software/hurd/">GNU Hurd</a> as its primary
-kernel as an April Fool's joke. While that is not true, the project
-has followed up with <a
-href="https://www.gentoo.org/news/2026/04/01/gentoo-hurd.html">an announcement</a>
-of a new Gentoo port to the Hurd:</p>
-
-<blockquote class="bq">
-<p>Our crack team has been working hard to port Gentoo to the Hurd and
-can now share that they've succeeded, though it remains still in a
-heavily experimental stage. You can try Gentoo GNU/Hurd using a
-pre-prepared disk image. The easiest way to do this is with QEMU
-[...]</p>
-
-<p>We have developed scripts to build this image locally and
-conveniently work on further development of the Hurd port. Release
-media like stages and automated image builds are future goals, as is
-feature parity on x86-64. Further contributions are welcome,
-encouraged, and needed. Be patient, expect to get your hands dirty,
-anticipate breakage, and have fun!</p>
-
-<p>Oh, and Gentoo GNU/Hurd also works on real hardware!</p>
-</blockquote>
-
-<p>Text for the April Fool's post is available at the bottom of the
-real announcement.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
