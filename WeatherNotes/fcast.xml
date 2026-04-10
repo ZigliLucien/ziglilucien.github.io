@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-04-10T05:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-04-10T05:22:10+00:00</updateTime>
-		<validTimes type="str">2026-04-09T23:00:00+00:00/P8DT2H</validTimes>
+		<generatedAt type="str">2026-04-10T06:36:06+00:00</generatedAt>
+		<updateTime type="str">2026-04-10T06:26:30+00:00</updateTime>
+		<validTimes type="str">2026-04-10T00:00:00+00:00/P8DT1H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-04-10T00:00:00-05:00</startTime>
+				<startTime type="str">2026-04-10T01:00:00-05:00</startTime>
 				<endTime type="str">2026-04-10T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">57</temperature>
@@ -216,9 +216,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">15 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,30/bkn?size=medium</icon>
-				<shortForecast type="str">Chance Showers And Thunderstorms then Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms before 7pm. Mostly cloudy, with a low around 68. South southwest wind around 15 mph, with gusts as high as 24 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,30/sct?size=medium</icon>
+				<shortForecast type="str">Chance Showers And Thunderstorms then Partly Cloudy</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 68. South southwest wind around 15 mph, with gusts as high as 24 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">10</number>
@@ -292,7 +292,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">7 to 12 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,30/tsra_hi,40?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,30/tsra_sct,40?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly cloudy, with a low around 62. South southwest wind 7 to 12 mph, with gusts as high as 20 mph.</detailedForecast>
 			</item>
