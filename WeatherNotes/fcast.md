@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of showers and thunderstorms after 2pm. Partly sunny. High near 79, with temperatures falling to around 75 in the
-         afternoon. West southwest wind 6 to 10 mph, with gusts as high as 20 mph. Chance of precipitation is 50%.<br></div>
+         afternoon. West southwest wind 6 to 13 mph, with gusts as high as 23 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
