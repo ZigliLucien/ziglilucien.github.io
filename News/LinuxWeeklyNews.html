@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1066582/" title="See Description">[$] Removing read-only transparent huge pages for the page cache</a></li>
+<li><a href="#https://lwn.net/Articles/1067200/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1066581/" title="See Description">[$] A flood of useful security reports</a></li>
 <li><a href="#https://lwn.net/Articles/1066926/" title="See Description">Relicensing versus license compatibility (FSF Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1066972/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,34 @@
 <li><a href="#https://lwn.net/Articles/1066593/" title="See Description">Introducing the FreeBSD laptop integration testing project</a></li>
 <li><a href="#https://lwn.net/Articles/1064685/" title="See Description">[$] Protecting against TPM interposer attacks</a></li>
 <li><a href="#https://lwn.net/Articles/1066507/" title="See Description">6.6.133 stable kernel released</a></li>
-<li><a href="#https://lwn.net/Articles/1066505/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1066406/" title="See Description">Kernel prepatch 7.0-rc7</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1066582/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 10 Apr 2026 13:26:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066582/" title="https://lwn.net/Articles/1066582/">[$] Removing read-only transparent huge pages for the page cache</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Things do not always go the way kernel developers think they will.  When
+the kernel gained support for the creation of read-only transparent huge
+pages for the page cache in 2019, the developer of that feature, Song Liu,
+added <a
+href="https://elixir.bootlin.com/linux/v6.19.11/source/mm/Kconfig#L956">a
+<tt>Kconfig</tt> file entry</a> promising that support for writable huge
+pages would arrive "<q>in the next few release cycles</q>".  Over six years
+later, that promise is still present, but it will never be fulfilled.
+Instead, the read-only option will soon be removed, reflecting how the core
+of the memory-subsystem has changed underneath this particular feature.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1067200/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 10 Apr 2026 13:12:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067200/" title="https://lwn.net/Articles/1067200/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, fontforge, freerdp, go-toolset:rhel8, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, and gstreamer1-plugins-good, kernel, kernel-rt, libtasn1, mariadb:10.11, mysql:8.4, nginx:1.24, openssh, pcs, python-jinja2, python3.9, ruby:3.1, vim, virt:rhel and virt-devel:rhel, and xmlrpc-c), <b>Debian</b> (libyaml-syck-perl and openssh), <b>Fedora</b> (cockpit, crun, dnsdist, doctl, fido-device-onboard, libcgif, libpng12, libpng15, mbedtls, opensc, and util-linux), <b>Red Hat</b> (git-lfs, go-toolset:rhel8, grafana, grafana-pcp, and rhc), <b>Slackware</b> (libpng), <b>SUSE</b> (389-ds, aws-c-event-stream, bind, cockpit, cockpit-repos, corepack24, dcmtk, dnsdist, docker-compose, expat, firefox, firefox-esr, gnome-online-accounts, gvfs, gnutls, jupyter-jupyterlab-templates, kea, libIex-3_4-33, libpng16, mapserver, perl-XML-Parser, postgresql13, postgresql16, python-Pillow, python311-lupa, thunderbird, tigervnc, and tomcat10), and <b>Ubuntu</b> (linux-azure-fips, linux-hwe, linux-intel-iot-realtime, linux-nvidia-tegra-5.15, openssl, openssl1.0, and python-django).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1066581/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 09 Apr 2026 13:28:44 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -313,23 +338,6 @@ from user space with a file descriptor that did not reference an open
 file.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1066505/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 06 Apr 2026 13:16:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066505/" title="https://lwn.net/Articles/1066505/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, grafana, grafana-pcp, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, and gstreamer1-plugins-ugly-free, kernel, libpng12, libpng15, perl-YAML-Syck, python3, and rsync), <b>Debian</b> (dovecot, libxml-parser-perl, pyasn1, python-tornado, roundcube, tor, trafficserver, and valkey), <b>Fedora</b> (bind9-next, chromium, cmake, domoticz, freerdp, giflib, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, gstreamer1-vaapi, libgsasl, libinput, libopenmpt, mapserver, mingw-binutils, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-libpng, mingw-python3, nginx-mod-modsecurity, openbao, python-gstreamer1, python3.12, python3.13, python3.14, python3.9, rust, rust-sccache, tcpflow, and vim), <b>Red Hat</b> (ncurses), <b>Slackware</b> (infozip and krita), <b>SUSE</b> (chromium, corosync, keybase-client, libinput-devel, osslsigncode, python-pillow, python311-Flask-Cors, python313, and python314), and <b>Ubuntu</b> (libarchive and spip).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1066406/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 06 Apr 2026 01:01:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066406/" title="https://lwn.net/Articles/1066406/">Kernel prepatch 7.0-rc7</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has released <a href="https://lwn.net/Articles/1066405/">7.0-rc7</a> for testing.
-"<q>Things look set for a final release next weekend, but please keep
-testing.  The Easter bunny is watching</q>".</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
