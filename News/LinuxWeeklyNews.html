@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1067272/" title="See Description">A set of Saturday stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1066582/" title="See Description">[$] Removing read-only transparent huge pages for the page cache</a></li>
 <li><a href="#https://lwn.net/Articles/1067200/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1066581/" title="See Description">[$] A flood of useful security reports</a></li>
@@ -52,10 +53,23 @@
 <li><a href="#https://lwn.net/Articles/1066665/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1066593/" title="See Description">Introducing the FreeBSD laptop integration testing project</a></li>
 <li><a href="#https://lwn.net/Articles/1064685/" title="See Description">[$] Protecting against TPM interposer attacks</a></li>
-<li><a href="#https://lwn.net/Articles/1066507/" title="See Description">6.6.133 stable kernel released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1067272/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 11 Apr 2026 13:16:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067272/" title="https://lwn.net/Articles/1067272/">A set of Saturday stable kernel updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The
+<a href="https://lwn.net/Articles/1067273/">6.19.12</a>,
+<a href="https://lwn.net/Articles/1067274/">6.18.22</a>,
+<a href="https://lwn.net/Articles/1067275/">6.12.81</a>,
+<a href="https://lwn.net/Articles/1067276/">6.6.134</a>, and
+<a href="https://lwn.net/Articles/1067277/">6.1.168</a>
+stable kernel updates have been released; each contains another set of
+important fixes.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1066582/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 10 Apr 2026 13:26:00 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -322,22 +336,6 @@ particular, he described the problems with interposer attacks, which target
 the communication between the TPM and the kernel, and what has
 been added to the kernel to thwart them.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1066507/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 06 Apr 2026 13:57:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066507/" title="https://lwn.net/Articles/1066507/">6.6.133 stable kernel released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1066508/">6.6.133</a> stable kernel. This <a
-href="https://lwn.net/ml/all/20260405114505.568530-2-tomasz@kramkow.ski/">reverts
-a backporting mistake</a> that removed file descriptor checks which
-led to kernel panics if the <tt>fgetxattr</tt>, <tt>flistxattr</tt>,
-<tt>fremovexattr</tt>, or <tt>fsetxattr</tt> functions were called
-from user space with a file descriptor that did not reference an open
-file.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
