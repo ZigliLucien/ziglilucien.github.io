@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Mostly cloudy, with a high near 81. South southwest wind 12 to 17 mph, with gusts as high as 28 mph.<br></div>
+         <h3>This Afternoon</h3>Mostly cloudy, with a high near 81. South southwest wind 13 to 16 mph, with gusts as high as 28 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -54,7 +54,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of showers and thunderstorms after 7pm. Mostly cloudy, with a low around 67. South wind around 10 mph, with gusts
+         <h3>Friday Night</h3>A chance of showers and thunderstorms after 7pm. Partly cloudy, with a low around 67. South wind around 10 mph, with gusts
          as high as 20 mph.<br></div>
    </p>
    <p>
