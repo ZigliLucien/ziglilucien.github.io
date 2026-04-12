@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1067279/" title="See Description">The 7.0 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1067272/" title="See Description">A set of Saturday stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1066582/" title="See Description">[$] Removing read-only transparent huge pages for the page cache</a></li>
 <li><a href="#https://lwn.net/Articles/1067200/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,50 @@
 <li><a href="#https://lwn.net/Articles/1065471/" title="See Description">[$] Sharing stories on Scuttlebutt</a></li>
 <li><a href="#https://lwn.net/Articles/1066665/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1066593/" title="See Description">Introducing the FreeBSD laptop integration testing project</a></li>
-<li><a href="#https://lwn.net/Articles/1064685/" title="See Description">[$] Protecting against TPM interposer attacks</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1067279/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 12 Apr 2026 21:09:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067279/" title="https://lwn.net/Articles/1067279/">The 7.0 kernel has been released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has <a href="https://lwn.net/Articles/1067330/">released</a> the 7.0 kernel after a
+busy nine-week development cycle.
+<p>
+<blockquote class="bq">
+	The last week of the release continued the same "lots of small
+	fixes" trend, but it all really does seem pretty benign, so I've
+	tagged the final 7.0 and pushed it out.
+<p>
+	I suspect it's a lot of AI tool use that will keep finding corner
+	cases for us for a while, so this may be the "new normal" at least
+	for a while. Only time will tell.
+</blockquote>
+<p>
+Significant changes in this release include
+the <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9fa7153c31a3">removal</a>
+of the "experimental" status for Rust code,
+a new <a href="https://lwn.net/Articles/1054225/">filtering mechanism</a> for io_uring
+operations,
+a switch to <a href="https://lwn.net/Articles/994322/">lazy preemption</a> by default in
+the CPU scheduler,
+support for <a href="https://lwn.net/Articles/1038235/">time-slice extension</a>,
+the <a href="https://lwn.net/Articles/1062163/">nullfs</a> filesystem,
+<a href="https://lwn.net/Articles/1055062/#xfs">self-healing support</a> for the XFS
+filesystem,
+a number of improvements to the swap subsystem (described in <a
+href="https://lwn.net/Articles/1056405/">this article</a> and <a
+href="https://lwn.net/Articles/1057102/">this one</a>),
+general support for <a href="https://lwn.net/Articles/1058666/">AccECN congestion
+notification</a>, and more.
+See the LWN merge-window summaries (<a
+href="https://lwn.net/Articles/1057769/">part&#160;1</a>, <a
+href="https://lwn.net/Articles/1058664/">part&#160;2</a>) and the <a
+href="https://kernelnewbies.org/Linux_7.0">KernelNewbies 7.0 page</a> for
+more details.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1067272/"></a></td></tr>
 <tr><td><div class="date"><tt>Sat, 11 Apr 2026 13:16:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -320,22 +361,6 @@ repository</a> and <a
 href="https://github.com/FreeBSDFoundation/freebsd-laptop-testing/blob/main/CONTRIBUTING.md#help-us-test-more-laptops-and-desktops">testing
 instructions</a> for more.</p>
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1064685/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 06 Apr 2026 14:08:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064685/" title="https://lwn.net/Articles/1064685/">[$] Protecting against TPM interposer attacks</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://en.wikipedia.org/wiki/Trusted_Platform_Module">Trusted
-Platform Module</a> (TPM) is a widely misunderstood piece of hardware (or
-firmware) that lives in most x86-based computers.  At <a
-href="https://www.socallinuxexpo.org/scale/23x">SCALE 23x</a> in Pasadena, California,
-James Bottomley gave a presentation on the TPM and the work that he and
-others have done to enable the Linux kernel to work with it.  In
-particular, he described the problems with interposer attacks, which target
-the communication between the TPM and the kernel, and what has
-been added to the kernel to thwart them.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
