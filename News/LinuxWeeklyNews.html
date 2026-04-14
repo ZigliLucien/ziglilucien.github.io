@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1067595/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1066723/" title="See Description">[$] Development statistics for the 7.0 kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1066103/" title="See Description">[$] A build system aimed at license compliance</a></li>
 <li><a href="#https://lwn.net/Articles/1067467/" title="See Description">Servo now on crates.io</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1065979/" title="See Description">[$] LWN.net Weekly Edition for April 9, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1062141/" title="See Description">[$] Ripping CDs and converting audio with fre:ac</a></li>
 <li><a href="#https://lwn.net/Articles/1065889/" title="See Description">[$] An API for handling arithmetic overflow</a></li>
-<li><a href="#https://lwn.net/Articles/1066813/" title="See Description">Nix privilege escalation security advisory</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1067595/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 14 Apr 2026 13:05:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067595/" title="https://lwn.net/Articles/1067595/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (gdk-pixbuf, gst-plugins-bad1.0, and xdg-dbus-proxy), <b>Fedora</b> (chromium, deepin-image-viewer, dtk6gui, dtkgui, efl, elementary-photos, entangle, flatpak, freeimage, geeqie, gegl04, gthumb, ImageMagick, kf5-kimageformats, kf5-libkdcraw, kf6-kimageformats, kstars, libkdcraw, libpasraw, LibRaw, luminance-hdr, nomacs, OpenImageIO, OpenImageIO2.5, photoqt, python-cryptography, rawtherapee, shotwell, siril, swayimg, vips, and webkitgtk), <b>Red Hat</b> (firefox and podman), <b>Slackware</b> (libarchive), <b>SUSE</b> (expat, glibc, GraphicsMagick, libcap-devel, libpng16, libtpms, nodejs24, openssl-1_0_0, openssl-1_1, openssl-3, openvswitch, polkit, python-requests, python311-biopython, python312, python39, and tigervnc), and <b>Ubuntu</b> (corosync, kvmtool, libxml-parser-perl, linux-azure, linux-azure, linux-azure-6.17, linux-azure, linux-azure-6.8, policykit-1, redis, lua5.1, lua-cjson, lua-bitop, rustc, vim, and xdg-dbus-proxy).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1066723/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 13 Apr 2026 16:04:23 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -321,42 +329,6 @@ different API that should make handling overflow errors in the kernel much less
 of a hassle.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1066813/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 08 Apr 2026 13:52:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066813/" title="https://lwn.net/Articles/1066813/">Nix privilege escalation security advisory</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The NixOS project has <a
-href="https://discourse.nixos.org/t/nix-security-advisory-privilege-escalation-via-symlink-following-during-fod-output-registration/76900">announced
-a critical vulnerability</a> in many versions of the Nix package
-manager's daemon. The flaw was introduced as part of a fix for <a
-href="https://github.com/NixOS/nix/security/advisories/GHSA-2ffj-w4mj-pg37">a
-prior vulnerability in 2024</a>. According to the <a
-href="https://github.com/NixOS/nix/security/advisories/GHSA-g3g9-5vj6-r3gj">advisory</a>,
-all default configurations of NixOS and systems building untrusted <a
-href="https://nix.dev/manual/nix/2.28/language/derivations.html">derivations</a>
-are impacted.</p>
-
-<blockquote class="bq">
-<p>A bug in the fix for <a
-href="https://nvd.nist.gov/vuln/detail/CVE-2024-27297">CVE-2024-27297</a>
-allowed for arbitrary overwrites of files writable by the Nix process
-orchestrating the builds (typically the Nix daemon running as root in
-multi-user installations) by following symlinks during fixed-output
-derivation output registration. This affects sandboxed Linux builds -
-sandboxed macOS builds are unaffected. The location of the temporary
-output used for the output copy was located inside the build chroot. A
-symlink, pointing to an arbitrary location in the filesystem, could be
-created by the derivation builder at that path. During output
-registration, the Nix process (running in the host mount namespace)
-would follow that symlink and overwrite the destination with the
-derivation's output contents.</p>
-
-<p>In multi-user installations, this allows all users able to submit
-builds to the Nix daemon (<tt>allowed-users</tt> - defaulting to all users) to
-gain root privileges by modifying sensitive files.</p>
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
