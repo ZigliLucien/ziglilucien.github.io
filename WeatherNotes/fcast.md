@@ -44,7 +44,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Showers and thunderstorms likely. Partly cloudy, with a low around 41. West northwest wind 7 to 13 mph, with gusts as high
+         <h3>Saturday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 41. West northwest wind 7 to 13 mph, with gusts as high
          as 21 mph.<br></div>
    </p>
    <p>
@@ -66,6 +66,6 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Sunny, with a high near 76. South southwest wind 7 to 12 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Tuesday</h3>Mostly sunny, with a high near 76. South southwest wind 7 to 12 mph, with gusts as high as 20 mph.<br></div>
    </p>
 </div>
