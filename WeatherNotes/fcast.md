@@ -2,23 +2,20 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy. Low around 60, with temperatures rising to around 63 overnight. South wind around 3 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Friday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny. High near 85, with temperatures falling to around 83
+         <h3>Today</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny. High near 85, with temperatures falling to around 83
          in the afternoon. South southwest wind 5 to 14 mph, with gusts as high as 25 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of showers and thunderstorms between midnight and 3am, then showers and thunderstorms. Mostly cloudy. Low around
+         <h3>Tonight</h3>A chance of showers and thunderstorms between midnight and 3am, then showers and thunderstorms. Mostly cloudy. Low around
          51, with temperatures rising to around 65 overnight. Southwest wind around 14 mph, with gusts as high as 24 mph. Chance of
          precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 67. West
-         northwest wind around 14 mph, with gusts as high as 25 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Saturday</h3>Showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Mostly cloudy. High near 67, with temperatures
+         falling to around 55 in the afternoon. West northwest wind around 14 mph, with gusts as high as 25 mph. Chance of precipitation
+         is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +58,10 @@
       <div style="font-size:120%">
          <h3>Thursday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 83. South wind 6 to 12 mph, with gusts
          as high as 20 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Thursday Night</h3>A slight chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms. Partly cloudy, with a
+         low around 62. South wind around 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
 </div>
