@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1066156/" title="See Description">[$] A more efficient implementation of Shor's algorithm</a></li>
 <li><a href="#https://lwn.net/Articles/1067029/" title="See Description">[$] The 7.0 scheduler regression that wasn't</a></li>
 <li><a href="#https://lwn.net/Articles/1068400/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1068011/" title="See Description">Rust 1.95.0 released</a></li>
@@ -52,10 +53,34 @@
 <li><a href="#https://lwn.net/Articles/1067634/" title="See Description">Zig 0.16.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1066384/" title="See Description">[$] Tagging music with MusicBrainz Picard</a></li>
 <li><a href="#https://lwn.net/Articles/1067622/" title="See Description">OpenSSL 4.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1067595/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1066156/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 Apr 2026 15:53:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066156/" title="https://lwn.net/Articles/1066156/">[$] A more efficient implementation of Shor's algorithm</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://en.wikipedia.org/wiki/Shor%27s_algorithm">
+Shor's algorithm</a> is the main practical example of an algorithm that runs more
+quickly on a quantum computer than a classical computer — at least in theory.
+Shor's algorithm allows large numbers to be factored
+into their component prime factors quickly.
+In reality, existing quantum computers do not have nearly
+enough memory to factor interesting numbers using Shor's algorithm, despite
+decades of research.
+<a href="https://arxiv.org/pdf/2603.28846">A new paper</a> provides a major step
+in that direction, however. While still impractical on today's quantum
+computers, the recent discovery
+cuts the amount of memory needed to attack 256-bit elliptic-curve cryptography
+by a factor of 20. More interesting, however, is that the researchers chose to
+publish a zero-knowledge proof demonstrating that they know a quantum circuit
+that shows these improvements, rather than publishing the actual
+knowledge of how to do it.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1067029/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 17 Apr 2026 13:34:00 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,14 +315,6 @@ database project and writes it to almost any audio file format.</p>
 release includes support for a number of new cryptographic algorithms and
 has a number of incompatible changes as well; see the announcement for the
 details.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1067595/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 Apr 2026 13:05:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067595/" title="https://lwn.net/Articles/1067595/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (gdk-pixbuf, gst-plugins-bad1.0, and xdg-dbus-proxy), <b>Fedora</b> (chromium, deepin-image-viewer, dtk6gui, dtkgui, efl, elementary-photos, entangle, flatpak, freeimage, geeqie, gegl04, gthumb, ImageMagick, kf5-kimageformats, kf5-libkdcraw, kf6-kimageformats, kstars, libkdcraw, libpasraw, LibRaw, luminance-hdr, nomacs, OpenImageIO, OpenImageIO2.5, photoqt, python-cryptography, rawtherapee, shotwell, siril, swayimg, vips, and webkitgtk), <b>Red Hat</b> (firefox and podman), <b>Slackware</b> (libarchive), <b>SUSE</b> (expat, glibc, GraphicsMagick, libcap-devel, libpng16, libtpms, nodejs24, openssl-1_0_0, openssl-1_1, openssl-3, openvswitch, polkit, python-requests, python311-biopython, python312, python39, and tigervnc), and <b>Ubuntu</b> (corosync, kvmtool, libxml-parser-perl, linux-azure, linux-azure, linux-azure-6.17, linux-azure, linux-azure-6.8, policykit-1, redis, lua5.1, lua-cjson, lua-bitop, rustc, vim, and xdg-dbus-proxy).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
