@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1067029/" title="See Description">[$] The 7.0 scheduler regression that wasn't</a></li>
+<li><a href="#https://lwn.net/Articles/1068400/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1068011/" title="See Description">Rust 1.95.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1068001/" title="See Description">Forgejo 15.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1067250/" title="See Description">[$] The first half of the 7.1 merge window</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/1066384/" title="See Description">[$] Tagging music with MusicBrainz Picard</a></li>
 <li><a href="#https://lwn.net/Articles/1067622/" title="See Description">OpenSSL 4.0.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1067595/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1066723/" title="See Description">[$] Development statistics for the 7.0 kernel</a></li>
-<li><a href="#https://lwn.net/Articles/1066103/" title="See Description">[$] A build system aimed at license compliance</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1067029/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 Apr 2026 13:34:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067029/" title="https://lwn.net/Articles/1067029/">[$] The 7.0 scheduler regression that wasn't</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the more significant changes in the 7.0 kernel release is to use <a
+href="https://lwn.net/Articles/994322/">the lazy-preemption mode</a> by default in the CPU
+scheduler.  The scheduler developers have wanted to reduce the number of
+preemption modes for years, and lazy preemption looks like a step toward
+that goal.  But then there came <a
+href="https://lwn.net/ml/all/20260403191942.21410-1-dipiets@amazon.it">this report</a>
+from Salvatore Dipietro that lazy preemption caused a 50% performance
+regression on a PostgreSQL benchmark.  Investigation showed that the
+situation is not actually so grave, but the episode highlights just how
+sensitive some workloads can be to configuration changes; there may be
+surprises in store for other users as well.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1068400/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 Apr 2026 13:33:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068400/" title="https://lwn.net/Articles/1068400/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, freerdp, libarchive, and thunderbird), <b>Debian</b> (chromium, openssh, and thunderbird), <b>Fedora</b> (aurorae, bluedevil, breeze-gtk, buildah, cockpit, extra-cmake-modules, flatpak-kcm, grub2-breeze-theme, kactivitymanagerd, kcm_wacomtablet, kde-cli-tools, kde-gtk-config, kdecoration, kdeplasma-addons, kf6, kf6-attica, kf6-baloo, kf6-bluez-qt, kf6-breeze-icons, kf6-frameworkintegration, kf6-kapidox, kf6-karchive, kf6-kauth, kf6-kbookmarks, kf6-kcalendarcore, kf6-kcmutils, kf6-kcodecs, kf6-kcolorscheme, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcontacts, kf6-kcoreaddons, kf6-kcrash, kf6-kdav, kf6-kdbusaddons, kf6-kdeclarative, kf6-kded, kf6-kdesu, kf6-kdnssd, kf6-kdoctools, kf6-kfilemetadata, kf6-kglobalaccel, kf6-kguiaddons, kf6-kholidays, kf6-ki18n, kf6-kiconthemes, kf6-kidletime, kf6-kimageformats, kf6-kio, kf6-kirigami, kf6-kitemmodels, kf6-kitemviews, kf6-kjobwidgets, kf6-knewstuff, kf6-knotifications, kf6-knotifyconfig, kf6-kpackage, kf6-kparts, kf6-kpeople, kf6-kplotting, kf6-kpty, kf6-kquickcharts, kf6-krunner, kf6-kservice, kf6-kstatusnotifieritem, kf6-ksvg, kf6-ktexteditor, kf6-ktexttemplate, kf6-ktextwidgets, kf6-kunitconversion, kf6-kuserfeedback, kf6-kwallet, kf6-kwidgetsaddons, kf6-kwindowsystem, kf6-kxmlgui, kf6-modemmanager-qt, kf6-networkmanager-qt, kf6-prison, kf6-purpose, kf6-qqc2-desktop-style, kf6-solid, kf6-sonnet, kf6-syndication, kf6-syntax-highlighting, kf6-threadweaver, kgamma, kglobalacceld, kinfocenter, kmenuedit, knighttime, kpipewire, krdp, kscreen, kscreenlocker, ksshaskpass, ksystemstats, kwayland, kwayland-integration, kwin, kwin-x11, kwrited, layer-shell-qt, libexif, libkscreen, libksysguard, libplasma, nix, ocean-sound-theme, oxygen-sounds, pam-kwallet, plasma-activities, plasma-activities-stats, plasma-breeze, plasma-browser-integration, plasma-desktop, plasma-dialer, plasma-discover, plasma-disks, plasma-drkonqi, plasma-firewall, plasma-integration, plasma-keyboard, plasma-login-manager, plasma-milou, plasma-mobile, plasma-nano, plasma-nm, plasma-oxygen, plasma-pa, plasma-print-manager, plasma-sdk, plasma-setup, plasma-systemmonitor, plasma-systemsettings, plasma-thunderbolt, plasma-vault, plasma-welcome, plasma-workspace, plasma-workspace-wallpapers, plasma-workspace-x11, plasma5support, plymouth-kcm, plymouth-theme-breeze, podman, polkit-kde, powerdevil, qqc2-breeze-style, sddm-kcm, skopeo, spacebar, spectacle, thunderbird, and xdg-desktop-portal-kde), <b>Mageia</b> (cockpit-338), <b>Oracle</b> (capstone, cockpit, firefox, fontforge, freerdp, golang-github-openprinting-ipp-usb, kernel, nghttp2, nodejs:20, nodejs:24, openexr, and squid), <b>Red Hat</b> (gnutls, libarchive, libpng, libpng12, libpng15, libtiff, libvpx, libxslt, multiple packages, python, python3, python3.11, python3.12, and python3.9), <b>Slackware</b> (libxml2), <b>SUSE</b> (apache-pdfbox, azure-storage-azcopy, corosync, cups, freerdp, iproute2, libsdb2_4_2, libtpms, NetworkManager, openssl-1_1, ovmf, plexus-utils, python, python-CairoSVG, python-jwcrypto, python-PyJWT, python-pyOpenSSL, python-urllib3, python3, python314, rust1.93, shim, smc-tools, terraform-provider-local, terraform-provider-random, terraform-provider-tls, thunderbird, tiff, util-linux, and vim), and <b>Ubuntu</b> (libowasp-esapi-java, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gke, linux-gkeop, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gke, linux-gkeop, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux, linux-realtime, linux-aws-fips, linux-fips, linux-gcp-fips, linux-fips, linux-gcp-fips, linux-gcp, linux-gcp-6.17, linux-hwe-5.15, linux-intel-iot-realtime, linux-realtime, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-nvidia-tegra, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-realtime, linux-realtime-6.8, linux-realtime-6.17, ofono, and ruby-rack).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1068011/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 16 Apr 2026 17:24:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -272,41 +298,6 @@ details.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (gdk-pixbuf, gst-plugins-bad1.0, and xdg-dbus-proxy), <b>Fedora</b> (chromium, deepin-image-viewer, dtk6gui, dtkgui, efl, elementary-photos, entangle, flatpak, freeimage, geeqie, gegl04, gthumb, ImageMagick, kf5-kimageformats, kf5-libkdcraw, kf6-kimageformats, kstars, libkdcraw, libpasraw, LibRaw, luminance-hdr, nomacs, OpenImageIO, OpenImageIO2.5, photoqt, python-cryptography, rawtherapee, shotwell, siril, swayimg, vips, and webkitgtk), <b>Red Hat</b> (firefox and podman), <b>Slackware</b> (libarchive), <b>SUSE</b> (expat, glibc, GraphicsMagick, libcap-devel, libpng16, libtpms, nodejs24, openssl-1_0_0, openssl-1_1, openssl-3, openvswitch, polkit, python-requests, python311-biopython, python312, python39, and tigervnc), and <b>Ubuntu</b> (corosync, kvmtool, libxml-parser-perl, linux-azure, linux-azure, linux-azure-6.17, linux-azure, linux-azure-6.8, policykit-1, redis, lua5.1, lua-cjson, lua-bitop, rustc, vim, and xdg-dbus-proxy).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1066723/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 13 Apr 2026 16:04:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066723/" title="https://lwn.net/Articles/1066723/">[$] Development statistics for the 7.0 kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds <a href="https://lwn.net/Articles/1067330/">released the 7.0 kernel</a> as
-expected on April&#160;12, ending a relatively busy development cycle.  The
-7.0 release brings a large number of interesting changes; see the LWN
-merge-window summaries (<a href="https://lwn.net/Articles/1057769/">part&#160;1</a>, <a
-href="https://lwn.net/Articles/1058664/">part&#160;2</a>) for all the details.  Here,
-instead, comes our traditional look at where those changes came from and
-who supported that work.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1066103/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 13 Apr 2026 15:17:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066103/" title="https://lwn.net/Articles/1066103/">[$] A build system aimed at license compliance</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://openwrt.org/toh/openwrt/one">OpenWrt One</a> is a
-router powered by the open-source firmware from <a
-href="https://openwrt.org/start">the OpenWrt project</a>; it was also the
-<a href="https://lwn.net/Articles/1014998/">subject of a keynote</a> at <a
-href="https://www.socallinuxexpo.org/scale/22x/">SCALE in 2025</a>
-given by Denver Gingerich of the <a
-href="https://sfconservancy.org/">Software Freedom Conservancy</a> (SFC),
-which played a big role in developing the router.  Gingerich returned to
-the <a href="https://www.socallinuxexpo.org/scale/23x">conference in
-2026</a> to talk about the build system used by the OpenWrt One, which is
-focused on creating the needed binaries, naturally, but doing so in a way
-that makes it easy to comply with the licenses of the underlying code.
-That makes good sense for a project of this sort—and for a talk given by
-the director of compliance at SFC.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
