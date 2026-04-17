@@ -2,25 +2,24 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of showers and thunderstorms after 11am. Mostly sunny, with a high near 85. South southwest wind 8 to 14 mph, with
-         gusts as high as 25 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Today</h3>A slight chance of showers and thunderstorms between 3pm and 4pm. Mostly sunny, with a high near 85. South southwest wind
+         9 to 14 mph, with gusts as high as 25 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms between midnight and 3am, then showers and thunderstorms. Mostly cloudy. Low around
-         51, with temperatures rising to around 65 overnight. Southwest wind around 14 mph, with gusts as high as 24 mph. Chance of
-         precipitation is 80%.<br></div>
+         <h3>Tonight</h3>A slight chance of rain showers between 11pm and 1am, then a chance of showers and thunderstorms between 1am and 3am, then
+         showers and thunderstorms. Mostly cloudy. Low around 51, with temperatures rising to around 68 overnight. West southwest wind
+         around 14 mph, with gusts as high as 25 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Mostly cloudy. High near 67, with temperatures
-         falling to around 55 in the afternoon. West northwest wind around 14 mph, with gusts as high as 25 mph. Chance of precipitation
-         is 80%.<br></div>
+         <h3>Saturday</h3>Showers and thunderstorms before 9am, then a chance of showers and thunderstorms between 9am and 5pm. Mostly cloudy. High
+         near 65, with temperatures falling to around 57 in the afternoon. West northwest wind 12 to 15 mph, with gusts as high as
+         25 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of rain showers before 7pm. Mostly clear, with a low around 39. Northwest wind 3 to 13 mph, with gusts as high as
-         22 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Saturday Night</h3>Mostly clear, with a low around 39. Northwest wind 3 to 13 mph, with gusts as high as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
