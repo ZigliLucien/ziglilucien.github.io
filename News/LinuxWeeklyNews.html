@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1068703/" title="See Description">Git 2.54.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1068699/" title="See Description">Arch Linux now has a reproducible container image</a></li>
 <li><a href="#https://lwn.net/Articles/1066418/" title="See Description">[$] Digging into drama at The Document Foundation</a></li>
 <li><a href="#https://lwn.net/Articles/1068682/" title="See Description">Debian Project Leader Election 2026 results</a></li>
 <li><a href="#https://lwn.net/Articles/1068681/" title="See Description">Security updates for Monday</a></li>
@@ -51,11 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1067994/" title="See Description">KDE Gear 26.04 released</a></li>
 <li><a href="#https://lwn.net/Articles/1067993/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1066922/" title="See Description">[$] LWN.net Weekly Edition for April 16, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1067771/" title="See Description">FSF clarifies its stance on AGPLv3 additional terms</a></li>
-<li><a href="#https://lwn.net/Articles/1067007/" title="See Description">[$] Forking Vim to avoid LLM-generated code</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1068703/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Apr 2026 18:20:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068703/" title="https://lwn.net/Articles/1068703/">Git 2.54.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Git maintainer Junio Hamano has <a
+href="https://lwn.net/ml/all/xmqqa4uxsjrs.fsf%40gitster.g/">announced</a>
+Git 2.54.0, which includes contributions from 137 people; 66 of those
+people are first-time contributors to the project. Changes include the
+addition of Git history rewriting, Git's web interface (gitweb)
+"<q>has been taught to be mobile friendly</q>", and much more. See the
+announcement for all improvements, additions, and bug fixes. Hamano
+is now taking a short break:</p>
+
+<blockquote class="bq">
+I will go offline for a couple of weeks starting this evening,
+hopefully after updating 'next' and possibly also pushing out the
+first batch of the new cycle.  There is no designated interim
+maintainer this time, but I trust that the community can self
+organize during my absense, if the shape of the release and the tree
+turns out to be super bad ;-).
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1068699/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Apr 2026 17:27:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068699/" title="https://lwn.net/Articles/1068699/">Arch Linux now has a reproducible container image</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Robin Candau has <a
+href="https://lists.archlinux.org/archives/list/arch-dev-public@lists.archlinux.org/thread/44PW52T547MACXFU5HZ5U7SIPAX3BAXS/">announced</a>
+the availability of a bit-for-bit reproducible container image for
+Arch Linux:</p>
+
+<blockquote class="bq">
+<p>The bit-for-bit reproducibility of the image is confirmed by digest
+equality across builds (<tt>podman inspect --format '{{.Digest}}'
+&lt;image&gt;</tt>) and by running <a
+href="https://github.com/reproducible-containers/diffoci"><tt>diffoci</tt></a>
+to compare builds. We provide documentation on how to <a href="https://gitlab.archlinux.org/archlinux/archlinux-docker/-/blob/master/REPRO.md">reproduce this
+Docker image</a> (as <a href="https://gitlab.archlinux.org/archlinux/archlinux-wsl/-/blob/main/REPRO.md">we did for the WSL image as well</a>).</p>
+
+<p>Building the base rootFS for the Docker image in a deterministic way was 
+the main challenge, but it reuses the <a href="https://gitlab.archlinux.org/archlinux/archlinux-wsl/-/commit/7c0340e26358048f3f8ee03b3ab3aea666751712">same process as for our WSL image</a>
+(as both share the same rootFS build system).</p>
+
+<p>[...] This represents another meaningful achievement in our
+"reproducible builds" efforts and we're already looking forward to the
+next step!</p>
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1066418/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 20 Apr 2026 16:46:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -259,57 +309,6 @@ a full list of updates, enhancements, and bug fixes.</p>
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1067771/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 15 Apr 2026 18:30:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067771/" title="https://lwn.net/Articles/1067771/">FSF clarifies its stance on AGPLv3 additional terms</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>OnlyOffice CEO Lev Bannov has <a
-href="https://www.onlyoffice.com/blog/2026/03/interview-with-lev-bannov-ceo-at-onlyoffice-on-the-euro-office-situation">recently
-claimed</a> that the <a
-href="https://github.com/Euro-Office">Euro-Office</a> fork of the
-<a href="https://en.wikipedia.org/wiki/OnlyOffice">OnlyOffice</a> suite violates the GNU Affero General Public License
-version&#160;3 (AGPLv3). Krzysztof Siewicz of the Free Software
-Foundation (FSF) has <a
-href="https://www.fsf.org/blogs/licensing/agpl-is-not-a-tool-for-taking-freedom-away">published
-an article</a> on the FSF's position on adding terms to the AGPLv3. In
-short, Siewicz concludes that OnlyOffice has added restrictions to
-the license that are not compatible with the AGPLv3, and those
-restrictions can be removed by recipients of the code.</p>
-
-<blockquote class="bq">
-We urge OnlyOffice to clarify the situation by making it unambiguous
-that OnlyOffice is licensed under the AGPLv3, and that users who
-already received copies of the software are allowed to remove any
-further restrictions. Additionally, if they intend to continue to use
-the AGPLv3 for future releases, they should state clearly that the
-program is licensed under the AGPLv3 and make sure they remove any
-further restrictions from their program documentation and source
-code. Confusing users by attaching further restrictions to any of the
-FSF's family of GNU General Public Licenses is not in line with free
-software.
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1067007/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 15 Apr 2026 13:51:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067007/" title="https://lwn.net/Articles/1067007/">[$] Forking Vim to avoid LLM-generated code</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Many people dislike the proliferation of Large Language Models (LLMs) in recent
-years, and so make an understandable attempt to avoid them.
-That may not be possible in general, but there are two new forks of
-<a href="https://www.vim.org/">Vim</a> that seek to provide an editing
-environment with no LLM-generated code. <a href="https://codeberg.org/NerdNextDoor/evi#evi">EVi</a> focuses on being a modern Vim
-without LLM-assisted contributions, while <a href="https://vim-classic.org/">Vim Classic</a> focuses on providing a long-term maintenance
-version of Vim 8. While both are still in their early phases,
-the projects look to be on track to provide stable alternatives — as long as
-enough people are interested.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
