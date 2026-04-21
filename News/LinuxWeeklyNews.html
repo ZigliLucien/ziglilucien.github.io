@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1067234/" title="See Description">[$] Using LLMs to find Python C-extension bugs</a></li>
+<li><a href="#https://lwn.net/Articles/1068839/" title="See Description">Firefox 150 released</a></li>
 <li><a href="#https://lwn.net/Articles/1068830/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1068703/" title="See Description">Git 2.54.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1068699/" title="See Description">Arch Linux now has a reproducible container image</a></li>
@@ -51,11 +53,48 @@
 <li><a href="#https://lwn.net/Articles/1068011/" title="See Description">Rust 1.95.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1068001/" title="See Description">Forgejo 15.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1067250/" title="See Description">[$] The first half of the 7.1 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1067994/" title="See Description">KDE Gear 26.04 released</a></li>
-<li><a href="#https://lwn.net/Articles/1067993/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1067234/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 21 Apr 2026 14:24:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067234/" title="https://lwn.net/Articles/1067234/">[$] Using LLMs to find Python C-extension bugs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The open-source world is currently <a href="https://lwn.net/Articles/1066581/">awash in
+reports of LLM-discovered bugs and vulnerabilities</a>, which makes for a lot more
+work for maintainers, but many of the current crop are being reported
+responsibly with an eye toward minimizing that impact.  A recent <a
+href="https://discuss.python.org/t/systematically-finding-bugs-in-python-c-extensions-575-confirmed-so-far/106875">report</a>
+on an effort to systematically find bugs in <a
+href="https://docs.python.org/3/extending/extending.html">Python extensions
+written in C</a> has followed that approach.  Hobbyist Daniel Diniz used Claude
+Code to find more than 500 bugs of various sorts across nearly a million
+lines of code in 44 extensions; he has been working with maintainers to get
+fixes upstream and his methodology serves as a great example of how to keep
+the human in the loop—and the maintainers out of burnout—when employing LLMs.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1068839/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 21 Apr 2026 14:22:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068839/" title="https://lwn.net/Articles/1068839/">Firefox 150 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://www.firefox.com/en-US/firefox/150.0/releasenotes/">Version
+150</a> of the Firefox web browser has been released. Notable changes
+include <a
+href="https://support.mozilla.org/en-US/kb/control-personal-device-local-network-permissions-firefox">local-network-access
+restrictions</a> being turned on for all users, the ability to
+reorder, copy, delete, paste, and export pages from a PDF using
+Firefox's built-in viewer, as well as improvements in its <a
+href="https://support.mozilla.org/kb/split-view-firefox">split
+view</a> feature, and more. See also the <a
+href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/150">release
+notes for developers</a> and <a
+href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-30/">list
+of security fixes</a> in this release.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1068830/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 21 Apr 2026 13:06:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -279,32 +318,6 @@ of the 7.0 kernel.  Since then, 3,855 non-merge changesets have been
 pulled into the mainline repository for the next release.  This merge
 window is thus just getting started, but there has still been a fair amount
 of interesting work moving into the mainline.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1067994/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 Apr 2026 13:17:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067994/" title="https://lwn.net/Articles/1067994/">KDE Gear 26.04 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://kde.org/announcements/gear/26.04.0/">Version 26.04</a> of
-the KDE&#160;Gear collection of applications has been released. Notable changes
-include improvements in the <a href="https://apps.kde.org/merkuro/">Merkuro
-Calendar</a> schedule view and event editor, support for threads in the <a
-href="https://apps.kde.org/neochat/">NeoChat</a> Matrix chat client, as well as
-the ability to add keyboard shortcuts in the <a
-href="https://apps.kde.org/dolphin/">Dolphin</a> file manager "<q>to nearly any
-option in any menu, plugin or extension</q>". See the <a
-href="https://kde.org/announcements/changelogs/gear/26.04.0/">changelog</a> for
-a full list of updates, enhancements, and bug fixes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1067993/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 Apr 2026 13:00:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067993/" title="https://lwn.net/Articles/1067993/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, bind9.18, cockpit, fence-agents, firefox, fontforge, git-lfs, grafana, grafana-pcp, kernel, nghttp2, nginx, nginx:1.24, nginx:1.26, nodejs:20, nodejs:22, nodejs:24, pcs, perl-XML-Parser, perl:5.32, resource-agents, squid:4, thunderbird, and vim), <b>Debian</b> (incus, lxd, and python3.9), <b>Fedora</b> (cef, composer, erlang, libpng, micropython, mingw-openexr, moby-engine, NetworkManager-ssh, perl, perl-Devel-Cover, perl-PAR-Packer, polymake, pypy, python-cairosvg, python-flask-httpauth, and python3.15), <b>Mageia</b> (kernel, kmod-virtualbox, kmod-xtables-addons and kernel-linus), <b>Oracle</b> (\cockpit, bind, bind9.16, bind9.18, firefox, git-lfs, go-toolset:ol8, grafana, grafana-pcp, grub2, kea, kernel, libtiff, nghttp2, nginx, nginx:1.24, nginx:1.26, nodejs22, nodejs24, nodejs:22, nodejs:24, perl-XML-Parser, python3.9, thunderbird, uek-kernel, and vim), <b>Red Hat</b> (delve, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, osbuild-composer, and rhc), <b>SUSE</b> (bind, Botan, cockpit, cockpit-subscriptions, expat, flatpak, glibc, goshs, himmelblau, kea, kernel, kubo, libpng16, libssh, log4j, mariadb, Mesa, netty, netty-tcnative, nfs-utils, nghttp2, nodejs20, openssl-3, pam, pcre2, python, python310, python311, python311-aiohttp, python311-rfc3161-client, python313, python36, rubygem-bundler, sqlite3, sudo, tigervnc, tomcat, tomcat10, tomcat11, util-linux, vim, and webkit2gtk3), and <b>Ubuntu</b> (dotnet8, dotnet9, dotnet10, frr, and linux-azure, linux-azure-4.15).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
