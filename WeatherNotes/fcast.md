@@ -42,25 +42,25 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday</h3>A chance of showers and thunderstorms before 1pm, then showers and thunderstorms likely. Partly sunny, with a high near 80.
-         South wind 10 to 16 mph, with gusts as high as 28 mph.<br></div>
+         South wind 10 to 20 mph, with gusts as high as 32 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Showers and thunderstorms likely. Partly cloudy, with a low around 57. Southwest wind 6 to 14 mph, with gusts as high as 25
+         <h3>Monday Night</h3>Showers and thunderstorms likely. Partly cloudy, with a low around 57. Southwest wind 5 to 18 mph, with gusts as high as 29
          mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A slight chance of rain showers. Sunny, with a high near 76. West northwest wind around 8 mph.<br></div>
+         <h3>Tuesday</h3>A slight chance of rain showers. Sunny, with a high near 76. West northwest wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of rain showers. Mostly clear, with a low around 52. North northwest wind around 7 mph.<br></div>
+         <h3>Tuesday Night</h3>A chance of rain showers. Mostly clear, with a low around 52. North northwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>A chance of rain showers before 7am, then a slight chance of showers and thunderstorms. Mostly sunny, with a high near 73.
-         North northwest wind around 8 mph.<br></div>
+         North northwest wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
