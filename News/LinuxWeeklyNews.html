@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1068686/" title="See Description">[$] Famfs, FUSE, and BPF</a></li>
+<li><a href="#https://lwn.net/Articles/1069356/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1067989/" title="See Description">[$] LWN.net Weekly Edition for April 23, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1068692/" title="See Description">[$] Dependency-cooldown discussions warm up</a></li>
 <li><a href="#https://lwn.net/Articles/1067220/" title="See Description">[$] One Sized trait does not fit all</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/1068839/" title="See Description">Firefox 150 released</a></li>
 <li><a href="#https://lwn.net/Articles/1068830/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1068703/" title="See Description">Git 2.54.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1068699/" title="See Description">Arch Linux now has a reproducible container image</a></li>
-<li><a href="#https://lwn.net/Articles/1066418/" title="See Description">[$] Digging into drama at The Document Foundation</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1068686/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 Apr 2026 13:44:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068686/" title="https://lwn.net/Articles/1068686/">[$] Famfs, FUSE, and BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The famfs filesystem first <a
+href="https://lwn.net/ml/all/cover.1708709155.git.john@groves.net/">showed up on the
+mailing lists</a> in early 2024; since then, it has been the topic of
+regular discussions at the Linux Storage, Filesystem, Memory Management and
+BPF (LSFMM+BPF) Summit.  It has also, as result of those discussions, been
+through some significant changes since that initial posting.  So it is not
+surprising that a suggestion that it needed to be rewritten yet again was
+not entirely well received.  How much more rewriting will actually be
+needed is unclear, but more discussion appears certain.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1069356/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 Apr 2026 13:11:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069356/" title="https://lwn.net/Articles/1069356/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel and osbuild-composer), <b>Debian</b> (cpp-httplib, firefox-esr, gimp, and packagekit), <b>Fedora</b> (chromium, composer, libcap, pgadmin4, pie, python3-docs, python3.14, and sudo), <b>Mageia</b> (gvfs), <b>Oracle</b> (.NET 8.0, delve, freerdp, giflib, ImageMagick, kernel, OpenEXR, and osbuild-composer), <b>SUSE</b> (erlang, giflib, google-guest-agent, GraphicsMagick, ignition, imagemagick, kea, kernel, kissfft, libraw, libssh, ocaml-patch, opam, openCryptoki, openexr, openssl-1_1, tomcat, tomcat10, tomcat11, and tor), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-azure, linux-gcp, linux-gcp-5.4,
+ linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm,
+ linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-aws, linux-aws-6.17, linux-hwe-6.17, linux-oracle, linux-oracle-6.17, linux-azure, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-oracle-5.15, linux-azure-5.4, linux-azure-fips, linux-fips, linux-aws-fips, linux-azure-fips, linux-gcp-fips, linux-hwe-6.8, linux-ibm-6.8, linux-raspi, linux-oracle, linux-oracle-6.8, linux-raspi, linux-raspi-5.4, linux-raspi-realtime, packagekit, python-tornado, ruby-rack-session, slurm-llnl, and strongswan).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1067989/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 Apr 2026 00:11:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -322,56 +348,6 @@ turns out to be super bad ;-).
 See <a
 href="https://github.blog/open-source/git/highlights-from-git-2-54/">this
 GitHub blog entry</a> for highlights from this release.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1068699/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Apr 2026 17:27:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068699/" title="https://lwn.net/Articles/1068699/">Arch Linux now has a reproducible container image</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Robin Candau has <a
-href="https://lists.archlinux.org/archives/list/arch-dev-public@lists.archlinux.org/thread/44PW52T547MACXFU5HZ5U7SIPAX3BAXS/">announced</a>
-the availability of a bit-for-bit reproducible container image for
-Arch Linux:</p>
-
-<blockquote class="bq">
-<p>The bit-for-bit reproducibility of the image is confirmed by digest
-equality across builds (<tt>podman inspect --format '{{.Digest}}'
-&lt;image&gt;</tt>) and by running <a
-href="https://github.com/reproducible-containers/diffoci"><tt>diffoci</tt></a>
-to compare builds. We provide documentation on how to <a href="https://gitlab.archlinux.org/archlinux/archlinux-docker/-/blob/master/REPRO.md">reproduce this
-Docker image</a> (as <a href="https://gitlab.archlinux.org/archlinux/archlinux-wsl/-/blob/main/REPRO.md">we did for the WSL image as well</a>).</p>
-
-<p>Building the base rootFS for the Docker image in a deterministic way was 
-the main challenge, but it reuses the <a href="https://gitlab.archlinux.org/archlinux/archlinux-wsl/-/commit/7c0340e26358048f3f8ee03b3ab3aea666751712">same process as for our WSL image</a>
-(as both share the same rootFS build system).</p>
-
-<p>[...] This represents another meaningful achievement in our
-"reproducible builds" efforts and we're already looking forward to the
-next step!</p>
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1066418/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Apr 2026 16:46:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1066418/" title="https://lwn.net/Articles/1066418/">[$] Digging into drama at The Document Foundation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.documentfoundation.org/">The Document Foundation</a> (TDF) is
-the nonprofit entity behind the <a
-href="https://www.libreoffice.org/">LibreOffice</a> productivity suite. Most of the
-time, the software takes the spotlight, but that has changed in the past few weeks, and
-not for pleasant reasons. TDF has <a
-href="https://blog.documentfoundation.org/blog/2026/04/01/comment-about-collabora-blog-post/">revoked
-foundation membership status</a> from about 30 people who work for or have
-contracting status with <a href="https://www.collabora.com/">Collabora</a>. In
-response, Collabora has <a
-href="https://www.collaboraonline.com/blog/tdf-ejects-its-core-developers/">announced</a>
-plans to focus on a "<q>entirely new, cut-down, differentiated Collabora Office</q>"
-project and reduce its involvement with LibreOffice. TDF's representatives claim that
-its actions were necessary to maintain the foundation's nonprofit status, while other
-community members assert that this is part of a power grab. The facts seem to
-indicate that there are legitimate issues to be addressed, but it is unclear
-that TDF needed to go so far as to disenfranchise all Collabora-affiliated contributors.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
