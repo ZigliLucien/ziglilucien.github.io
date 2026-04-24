@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1069552/" title="See Description">GnuPG 2.5.19 released</a></li>
+<li><a href="#https://lwn.net/Articles/1064861/" title="See Description">[$] On pages and folios</a></li>
+<li><a href="#https://lwn.net/Articles/1069549/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1069399/" title="See Description">Ubuntu 26.04 LTS released</a></li>
 <li><a href="#https://lwn.net/Articles/1068686/" title="See Description">[$] Famfs, FUSE, and BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1069356/" title="See Description">Security updates for Thursday</a></li>
@@ -50,12 +53,61 @@
 <li><a href="#https://lwn.net/Articles/1068928/" title="See Description">Kernel code removals driven by LLM-created security reports</a></li>
 <li><a href="#https://lwn.net/Articles/1068906/" title="See Description">Firefox: The zero-days are numbered</a></li>
 <li><a href="#https://lwn.net/Articles/1068861/" title="See Description">Fedora Verified: a proposal to recognize Fedora contributor status</a></li>
-<li><a href="#https://lwn.net/Articles/1067234/" title="See Description">[$] Using LLMs to find Python C-extension bugs</a></li>
-<li><a href="#https://lwn.net/Articles/1068839/" title="See Description">Firefox 150 released</a></li>
-<li><a href="#https://lwn.net/Articles/1068830/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1069552/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 Apr 2026 13:43:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069552/" title="https://lwn.net/Articles/1069552/">GnuPG 2.5.19 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Werner Koch has <a
+href="https://lists.gnu.org/archive/html/info-gnu/2026-04/msg00010.html">announced</a>
+the release of GnuPG&#160;2.5.19. This release includes a few new options
+and a number of bug fixes, and comes with the reminder that the
+GnuPG&#160;2.4 series will reach end-of-life soon</p>
+
+<blockquote class="bq">
+<p>The main features in the&#160;2.5 series are improvements for&#160;64 bit Windows
+and the introduction of Kyber (aka ML-KEM or FIPS-203) as PQC encryption
+algorithm.  Other than PQC support the&#160;2.6 series will not differ a lot
+from&#160;2.4 because the majority of changes are internal to make use of
+newer features from the supporting libraries.</p>
+
+<p>Note that the old&#160;2.4 series reaches end-of-life in just two months.
+Thus update to&#160;2.5.19 in time.  As always with GnuPG new versions are
+fully compatible with previous versions.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1055053/">recently
+covered</a> Fedora's discussion about what to offer after GnuPG&#160;2.4 is no
+longer supported.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1064861/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 Apr 2026 13:08:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1064861/" title="https://lwn.net/Articles/1064861/">[$] On pages and folios</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel coverage here at LWN often touches on memory-management topics
+and, as a result, tends to talk a lot about both pages and folios.  As the
+folio transition in the kernel has moved forward, it has often become
+difficult to decide which term to use in writing that is meant to be both
+approachable and technically correct.  As this work continues, it will be
+increasingly common to use "folio" rather than page.  This article is
+intended to be a convenient reference for readers wanting to differentiate
+the two terms or understand the state of this transition.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1069549/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 Apr 2026 13:08:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069549/" title="https://lwn.net/Articles/1069549/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Fedora</b> (anaconda, dnf5, firefox, flatpak-builder, libexif, minetest, nss, plasma-setup, python-blivet, rpki-client, and xorg-x11-server), <b>Oracle</b> (bind, kernel, osbuild-composer, thunderbird, webkit2gtk3, and wireshark), <b>Red Hat</b> (java-25-openjdk), <b>SUSE</b> (cacti, cacti, cacti-spine, cockpit-machines, cockpit-podman, cockpit-tukit, csync2, flannel, gdk-pixbuf, go1.25-openssl, go1.26-openssl, haproxy, kernel, libcap, libpng16, libtree-sitter0_26, libvirt, ncurses, ntfs-3g_ntfsprogs, openssl-1_1, openssl-3, openvswitch, perl, python-pyOpenSSL, python311, rclone, sudo, and tomcat), and <b>Ubuntu</b> (gst-plugins-bad1.0, jq, libopenmpt, linux-ibm, linux-ibm-5.15, and php-league-commonmark).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1069399/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 Apr 2026 18:16:00 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -306,55 +358,6 @@ href="https://fedoraproject.limequery.com/verified-concept-survey">survey
 on the topic</a> will be open until May&#160;5.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1067234/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 21 Apr 2026 14:24:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067234/" title="https://lwn.net/Articles/1067234/">[$] Using LLMs to find Python C-extension bugs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The open-source world is currently <a href="https://lwn.net/Articles/1066581/">awash in
-reports of LLM-discovered bugs and vulnerabilities</a>, which makes for a lot more
-work for maintainers, but many of the current crop are being reported
-responsibly with an eye toward minimizing that impact.  A recent <a
-href="https://discuss.python.org/t/systematically-finding-bugs-in-python-c-extensions-575-confirmed-so-far/106875">report</a>
-on an effort to systematically find bugs in <a
-href="https://docs.python.org/3/extending/extending.html">Python extensions
-written in C</a> has followed that approach.  Hobbyist Daniel Diniz used Claude
-Code to find more than 500 bugs of various sorts across nearly a million
-lines of code in 44 extensions; he has been working with maintainers to get
-fixes upstream and his methodology serves as a great example of how to keep
-the human in the loop—and the maintainers out of burnout—when employing LLMs.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1068839/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 21 Apr 2026 14:22:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068839/" title="https://lwn.net/Articles/1068839/">Firefox 150 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://www.firefox.com/en-US/firefox/150.0/releasenotes/">Version
-150</a> of the Firefox web browser has been released. Notable changes
-include <s><a
-href="https://support.mozilla.org/en-US/kb/control-personal-device-local-network-permissions-firefox">local-network-access
-restrictions</a> being turned on for all users</s>, the ability to
-reorder, copy, delete, paste, and export pages from a PDF using
-Firefox's built-in viewer, as well as improvements in its <a
-href="https://support.mozilla.org/kb/split-view-firefox">split
-view</a> feature, and more. See also the <a
-href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/150">release
-notes for developers</a> and <a
-href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-30/">list
-of security fixes</a> in this release.</p> 
-
-<p>(Update: Mozilla seems to have removed the local-network-access restrictions information since the release was <a href="https://web.archive.org/web/20260421135451/https://www.firefox.com/en-US/firefox/150.0/releasenotes/">published yesterday</a>.)</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1068830/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 21 Apr 2026 13:06:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068830/" title="https://lwn.net/Articles/1068830/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, kernel, and kernel-rt), <b>Debian</b> (mupdf, opam, simpleeval, and xdg-dbus-proxy), <b>Mageia</b> (firefox, thunderbird and libtiff), <b>Red Hat</b> (containernetworking-plugins, gvisor-tap-vsock, nodejs22, nodejs:20, nodejs:22, perl-XML-Parser, python3.11, python3.9, runc, and skopeo), and <b>SUSE</b> (bind, buildah, cockpit-subscriptions, container-suseconnect, containerd, corosync, cosign, docker, dovecot24, flatpak, freeipmi, gegl, GraphicsMagick, helm, ImageMagick, kubernetes, kubernetes-old, libpng15, LibVNCServer, ncurses, nodejs22, opensc, openvswitch, patterns-glibc-hwcaps, podman, python, python310, python312, python315, rekor, rootlesskit, roundcubemail, and runc).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
