@@ -6,18 +6,18 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Mostly sunny, with a high near 80. East southeast wind around 7 mph.<br></div>
+         <h3>Sunday</h3>Mostly sunny, with a high near 80. East southeast wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of rain showers after 1am. Partly cloudy. Low around 62, with temperatures rising to around 64 overnight. Southeast
-         wind around 8 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Sunday Night</h3>A slight chance of showers and thunderstorms after 2am. Partly cloudy. Low around 62, with temperatures rising to around 64
+         overnight. Southeast wind 6 to 9 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A chance of rain showers before 7am, then a chance of showers and thunderstorms between 7am and 10am, then a chance of showers
-         and thunderstorms between 10am and 1pm, then showers and thunderstorms likely. Partly sunny, with a high near 84. South wind
-         9 to 21 mph, with gusts as high as 33 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Monday</h3>A slight chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 10am,
+         then a chance of showers and thunderstorms between 10am and 1pm, then showers and thunderstorms likely. Mostly sunny, with
+         a high near 84. South wind 9 to 21 mph, with gusts as high as 33 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
