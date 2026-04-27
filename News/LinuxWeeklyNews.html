@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1067785/" title="See Description">[$] The rest of the 7.1 merge window</a></li>
+<li><a href="#https://lwn.net/Articles/1069965/" title="See Description">Four new stable kernels for Monday</a></li>
+<li><a href="#https://lwn.net/Articles/1069951/" title="See Description">pgBackRest is no longer maintained</a></li>
 <li><a href="#https://lwn.net/Articles/1068409/" title="See Description">[$] Zig explores structured concurrency</a></li>
 <li><a href="#https://lwn.net/Articles/1069944/" title="See Description">The future of AI in Ubuntu</a></li>
 <li><a href="#https://lwn.net/Articles/1069939/" title="See Description">Niri 26.04 released</a></li>
@@ -50,12 +53,65 @@
 <li><a href="#https://lwn.net/Articles/1068686/" title="See Description">[$] Famfs, FUSE, and BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1069356/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1067989/" title="See Description">[$] LWN.net Weekly Edition for April 23, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1068692/" title="See Description">[$] Dependency-cooldown discussions warm up</a></li>
-<li><a href="#https://lwn.net/Articles/1067220/" title="See Description">[$] One Sized trait does not fit all</a></li>
-<li><a href="#https://lwn.net/Articles/1069107/" title="See Description">LilyPond 2.26.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1067785/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Apr 2026 16:39:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067785/" title="https://lwn.net/Articles/1067785/">[$] The rest of the 7.1 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>By the time Linus Torvalds released <a
+href="https://lwn.net/ml/all/CAHk-=wh7jmSh6bO5VL31hOC3HdTY0QAV-P1H4XZauwL2x=w35Q@mail.gmail.com/">7.1-rc1</a>
+and closed the 7.1 merge window, 12,996 non-merge changesets had been
+pulled into the mainline repository; just over 9,000 of those arrived after
+<a href="https://lwn.net/Articles/1067250/">the first-half summary</a> was written.  These
+changes were more driver-oriented than those seen earlier, but still also
+included many new features across the kernel as a whole.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1069965/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Apr 2026 16:01:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069965/" title="https://lwn.net/Articles/1069965/">Four new stable kernels for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1069968/">7.0.2</a>, <a
+href="https://lwn.net/Articles/1069969/">6.18.25</a>, <a
+href="https://lwn.net/Articles/1069970/">6.12.84</a>, and <a
+href="https://lwn.net/Articles/1069971/">6.6.136</a> stable kernels. As usual, each
+contains important fixes throughout; users are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1069951/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Apr 2026 14:06:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069951/" title="https://lwn.net/Articles/1069951/">pgBackRest is no longer maintained</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>David Steele, maintainer of the popular <a
+href="https://pgbackrest.org/">pgBackRest</a> backup and restore project for
+PostgreSQL, has <a
+href="https://github.com/pgbackrest/pgbackrest#notice-of-obsolescence">archived
+the project</a> and announced that it is no longer being maintained.</p>
+
+<blockquote class="bq">
+<p>After a lot of thought, I have decided to stop working on pgBackRest. I did
+not come to this decision lightly. pgBackRest has been my passion project for
+the last thirteen years, and I was fortunate to have corporate sponsorship for
+much of this time, but there were also many late nights and weekends as I worked
+to make pgBackRest the project it is today, aided by numerous
+contributors. Every open-source developer knows exactly what I mean and how much
+of your life gets devoted to a special project.</p>
+
+<p>Since Crunchy Data was sold, I have been maintaining pgBackRest and looking
+for a position that would allow me to continue the work, but so far I have not
+been successful. Likewise, my efforts to secure sponsorship have also fallen far
+short of what I need to make the project viable.</p>
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1068409/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 27 Apr 2026 13:52:05 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -293,62 +349,6 @@ needed is unclear, but more discussion appears certain.
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1068692/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 Apr 2026 15:21:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068692/" title="https://lwn.net/Articles/1068692/">[$] Dependency-cooldown discussions warm up</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Efforts to introduce malicious code into the open-source supply
-chain have been on the rise in recent years, and there is no indication that they
-will abate anytime soon. These attacks are often found quickly, but not quickly
-enough to prevent the compromised code from being automatically injected into other
-projects or code deployed by users where it can wreak havoc. One method of avoiding
-supply-chain attacks is to add a delay of a few days before pulling upates in what
-is known as a "dependency cooldown". That tactic is starting to find favor with
-users and some language ecosystem package managers. While this practice is
-considered a reasonable response by many, others are complaining that those
-employing dependency cooldowns are free-riding on the larger community by letting
-others take the risk.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1067220/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 Apr 2026 13:58:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067220/" title="https://lwn.net/Articles/1067220/">[$] One Sized trait does not fit all</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-In Rust, types either possess a constant size known at compile time, or a
-dynamically calculated size known at
-run time. That is fine for most purposes, but recent proposals for the language
-have shown the need for a more fine-grained hierarchy.
-<a href="https://github.com/davidtwco/rfcs/blob/sized-hierarchy/text/3729-sized-hierarchy.md">
-RFC 3729</a> from David Wood and Rémy Rakic would add a hierarchy of
-traits to describe types with sizes known under different circumstances. While
-the idea has been subject to discussion for many years, a growing number of
-use cases for the feature have come to light.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1069107/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 Apr 2026 13:23:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069107/" title="https://lwn.net/Articles/1069107/">LilyPond 2.26.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://lilypond.org/doc/v2.26/Documentation/changes/">Version
-2.26.0</a> of the <a href="https://lilypond.org/">LilyPond</a>
-music-engraving program has been released. <a
-href="https://lilypond.org/doc/v2.26/Documentation/changes/major-changes-in-lilypond">Major
-changes</a> include the ability to use the Cairo library to generate
-output and improvements in spacing between clefs and time
-signatures. See the release notes for a full list of <a
-href="https://lilypond.org/doc/v2.26/Documentation/changes/miscellaneous-improvements">miscellaneous
-improvements</a> as well as what's new with <a
-href="https://lilypond.org/doc/v2.26/Documentation/changes/new-for-musical-notation">musical</a>
-and <a
-href="https://lilypond.org/doc/v2.26/Documentation/changes/new-for-specialist-notation">specialist</a>
-notation.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
