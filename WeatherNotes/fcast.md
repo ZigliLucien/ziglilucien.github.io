@@ -2,25 +2,20 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 63. South southeast wind around 10 mph, with gusts as high
-         as 18 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Today</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms likely. Some of the storms could be severe
+         and produce heavy rain. Mostly cloudy. High near 84, with temperatures falling to around 81 in the afternoon. South wind 10
+         to 21 mph, with gusts as high as 37 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Showers and thunderstorms likely before 8am, then a chance of showers and thunderstorms. Some of the storms could produce
-         heavy rain. Mostly cloudy. High near 84, with temperatures falling to around 81 in the afternoon. South wind 10 to 21 mph,
-         with gusts as high as 37 mph. Chance of precipitation is 70%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Monday Night</h3>Showers and thunderstorms likely before 9pm, then showers and thunderstorms between 9pm and midnight, then a chance of showers
+         <h3>Tonight</h3>Showers and thunderstorms likely before 9pm, then showers and thunderstorms between 9pm and midnight, then a chance of showers
          and thunderstorms between midnight and 3am. Mostly cloudy. Low around 59, with temperatures rising to around 62 overnight.
          West southwest wind 6 to 18 mph, with gusts as high as 36 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of showers and thunderstorms after 4pm. Mostly sunny, with a high near 78. West wind around 6 mph. Chance of precipitation
-         is 50%.<br></div>
+         <h3>Tuesday</h3>A chance of showers and thunderstorms after 4pm. Mostly sunny. High near 78, with temperatures falling to around 76 in the
+         afternoon. West wind around 6 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -63,5 +58,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>Sunny, with a high near 72. West wind 3 to 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Sunday Night</h3>Mostly clear, with a low around 50. Southwest wind around 6 mph.<br></div>
    </p>
 </div>
