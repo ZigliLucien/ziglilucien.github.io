@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1068409/" title="See Description">[$] Zig explores structured concurrency</a></li>
+<li><a href="#https://lwn.net/Articles/1069944/" title="See Description">The future of AI in Ubuntu</a></li>
+<li><a href="#https://lwn.net/Articles/1069939/" title="See Description">Niri 26.04 released</a></li>
+<li><a href="#https://lwn.net/Articles/1069938/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1069722/" title="See Description">Kernel prepatch 7.1-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/1069552/" title="See Description">GnuPG 2.5.19 released</a></li>
 <li><a href="#https://lwn.net/Articles/1064861/" title="See Description">[$] On pages and folios</a></li>
@@ -49,13 +53,98 @@
 <li><a href="#https://lwn.net/Articles/1068692/" title="See Description">[$] Dependency-cooldown discussions warm up</a></li>
 <li><a href="#https://lwn.net/Articles/1067220/" title="See Description">[$] One Sized trait does not fit all</a></li>
 <li><a href="#https://lwn.net/Articles/1069107/" title="See Description">LilyPond 2.26.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1068981/" title="See Description">Four stable kernels for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1069105/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1068928/" title="See Description">Kernel code removals driven by LLM-created security reports</a></li>
-<li><a href="#https://lwn.net/Articles/1068906/" title="See Description">Firefox: The zero-days are numbered</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1068409/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Apr 2026 13:52:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068409/" title="https://lwn.net/Articles/1068409/">[$] Zig explores structured concurrency</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Version 0.16.0 of the Zig programming language was
+<a href="https://ziglang.org/download/0.16.0/release-notes.html">
+recently announced</a>, and with
+it an expanded version of the new <tt>Io</tt> interface that we
+<a href="https://lwn.net/Articles/1046084/">
+covered in December</a>.
+The new interface is based on an idea called structured concurrency that makes writing
+correct concurrent applications easier. Zig's implementation of
+the idea is more explicit and verbose than other languages, however, which could
+offer an opportunity to explore the consequences of different designs.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1069944/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Apr 2026 13:50:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069944/" title="https://lwn.net/Articles/1069944/">The future of AI in Ubuntu</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Jon Seager, VP engineering for Canonical, has <a
+href="https://discourse.ubuntu.com/t/the-future-of-ai-in-ubuntu/81130">posted</a>
+an update on "<q>what Canonical and Ubuntu will do (or not) to
+incorporate AI</q>" that explains what part AI will play in the future
+of the company and its distribution.</p>
+
+<blockquote class="bq">
+<p>The bottom line is that Canonical is ramping up its use of AI tools
+in a focused and principled manner that favours open weight models
+with license terms that feel most compatible with our values, combined
+with open source harnesses. AI features will be landing in Ubuntu
+throughout the next year as we feel that they're of sufficient
+maturity and quality, with a bias toward local inference by
+default.</p>
+
+<p>AI features in Ubuntu features will come in two forms: first as a
+means of enhancing existing OS functionality with AI models in the
+background, and latterly in the form of "AI native" features and
+workflows for those who want them.</p>
+
+<p>This year Canonical has begun a more deliberate push toward
+education and developing competence with AI tools. We are not setting
+shallow metrics on token usage, or percentages of code written with
+AI, but rather incentivising engineers to experiment and understand
+where AI tools add value. Rather than force a single early-choice AI
+stack, we're incentivising teams to each pick 'something different'
+and go deep, so we learn more as an org in the next six months.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1069939/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Apr 2026 13:36:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069939/" title="https://lwn.net/Articles/1069939/">Niri 26.04 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://github.com/niri-wm/niri/releases/tag/v26.04">Version 26.04</a>
+of the niri scrollable-tiling Wayland compositor has been released. The most
+notable change in this release, as the "<q>most requested niri feature by far</q>",
+is support for the blur effect using the Wayland protocol's <a
+href="https://wayland.app/protocols/ext-background-effect-v1"><tt>ext-background-effect</tt></a>. This
+release also features optional <a
+href="https://niri-wm.github.io/niri/Configuration%3A-Include.html">configuration
+includes</a>, screencasting support enhancements, and a number of improvements for
+input devices.</p>
+
+<blockquote class="bq">
+In short, background blur turned out to be a massive undertaking. Not because of
+the blur algorithm itself (by the way, if you want to learn about different blurs,
+including the widely used Dual Kawase, I highly recommend <a
+href="https://blog.frost.kiwi/dual-kawase/">this blog post</a>), but because window
+background effects in general required a lot of thinking and additions to the code,
+especially to make them as efficient as possible. This is one of the most complex
+niri features thus far.
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1025866/">covered</a> niri in July
+2025.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1069938/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Apr 2026 13:04:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069938/" title="https://lwn.net/Articles/1069938/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (java-25-openjdk, kernel, osbuild-composer, thunderbird, webkit2gtk3, and wireshark), <b>Debian</b> (chromium, distro-info-data, libde265, mbedtls, and thunderbird), <b>Fedora</b> (awstats, bind9-next, bpfman, buildah, calibre, cef, chromium, composer, corosync, coturn, cups, curl, dnsdist, doctl, erlang, fido-device-onboard, flatpak-builder, freetype, glab, goose, jq, kea, libarchive, libcap, libcgif, libgsasl, libinput, libmicrohttpd, libpng, libpng12, libpng15, mapserver, mbedtls, micropython, minetest, mingw-exiv2, mingw-libpng, mingw-LibRaw, mingw-openexr, mingw-python3, moby-engine, mupdf, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, opam, openbao, opensc, openssh, openssl, opkssh, perl-Net-CIDR-Lite, pgadmin4, pie, podman, pspp, pypy, python-biopython, python-cairosvg, python-cbor2, python-cryptography, python-flask-httpauth, python-msal, python-pillow, python-pydicom, python-tomli, python3-docs, python3.13, python3.14, python3.15, python3.9, rauc, roundcubemail, rpki-client, rust-sccache, skopeo, smb4k, stb, sudo, tcpflow, thunderbird, tigervnc, tinyproxy, trafficserver, trivy, usd, util-linux, vim, xdg-dbus-proxy, xorg-x11-server, xorg-x11-server-Xwayland, and yarnpkg), <b>Oracle</b> (buildah, golang, grafana, java-17-openjdk, and java-25-openjdk), and <b>SUSE</b> (chromium, cockpit-podman, coredns, corosync, cups, dnsdist, flatpak, freerdp2, frr, gdk-pixbuf, golang-github-prometheus-alertmanager, golang-github-prometheus-prometheus, google-guest-agent, haproxy, ignition, ImageMagick, kernel, kyverno, libcap, libminizip1, libpng16, librsvg, libXpm-devel, Mesa, opensc, openssl-3, ovmf-202602, PackageKit, podman, python-ecdsa, python-pillow, python311-Mako, sudo, thunderbird, tomcat, tomcat10, and vim).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1069722/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 27 Apr 2026 05:53:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -260,86 +349,6 @@ href="https://lilypond.org/doc/v2.26/Documentation/changes/new-for-musical-notat
 and <a
 href="https://lilypond.org/doc/v2.26/Documentation/changes/new-for-specialist-notation">specialist</a>
 notation.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1068981/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 Apr 2026 13:06:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068981/" title="https://lwn.net/Articles/1068981/">Four stable kernels for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1068980/">7.0.1</a>, <a
-href="https://lwn.net/Articles/1068982/">6.19.14</a>, <a
-href="https://lwn.net/Articles/1068983/">6.18.24</a>, and <a
-href="https://lwn.net/Articles/1068984/">6.12.83</a> stable kernels. As usual, each
-contains important fixes throughout the tree. Users are encouraged to
-upgrade.</p>
-<p>
-Note that the 6.19.x series ends with 6.19.14.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1069105/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 Apr 2026 13:04:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069105/" title="https://lwn.net/Articles/1069105/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (firefox-esr, flatpak, ngtcp2, ntfs-3g, packagekit, python-geopandas, simpleeval, strongswan, and xdg-dbus-proxy), <b>Fedora</b> (chromium, cups, curl, jq, opkssh, perl-Net-CIDR-Lite, python-cbor2, python-pillow, tinyproxy, xdg-dbus-proxy, and xorg-x11-server-Xwayland), <b>Slackware</b> (libXpm and mozilla), <b>SUSE</b> (botan, chromium, clamav, cockpit, cockpit-machines, cockpit-packages, cockpit-podman, cockpit-subscriptions, dovecot24, firefox, flatpak, freeipmi, gdk-pixbuf, glibc, gnome-remote-desktop, go1.25, go1.26, go1.26-openssl, google-cloud-sap-agent, gosec, graphicsmagick, haproxy, kernel, libpng16, libraw, libtasn1, libvncserver, ncurses, nebula, nodejs24, openssl-3, ovmf, pam, pcre2, perl-Authen-SASL, pgvector, plexus-utils, podman, python-cbor2, python-cryptography, python-django, python-gi-docgen, python-pypdf2, python-python-multipart, python311, python311-PyPDF2, python313, qemu, roundcubemail, rust1.94, sqlite3, strongswan, systemd, tar, tigervnc, util-linux, vim, webkit2gtk3, xorg-x11-server, xwayland, and zlib), and <b>Ubuntu</b> (commons-io, libcap2, ntfs-3g, and rapidjson).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1068928/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 Apr 2026 06:56:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068928/" title="https://lwn.net/Articles/1068928/">Kernel code removals driven by LLM-created security reports</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There are a number of ongoing efforts to remove kernel code, mostly from
-the networking subsystem, as an alternative to dealing with the increase in
-security-bug reports from large language models.  The proposed removals
-include <a
-href="https://lwn.net/ml/all/20260421-v7-0-0-net-next-driver-removal-v1-v1-0-69517c689d1f@lunn.ch">ISA
-and PCMCIA Ethernet drivers</a>, a <a
-href="https://lwn.net/ml/all/20260422044820.485660-1-25181214217@stu.xidian.edu.cn">pair
-of PCI drivers</a>, the <a
-href="https://lwn.net/ml/all/20260421021824.1293976-1-kuba@kernel.org">ax25 and amateur
-radio subsystem</a>, the <a
-href="https://lwn.net/ml/all/20260421021943.1295109-1-kuba@kernel.org">ATM protocols and drivers</a>,
-and the <a href="https://lwn.net/ml/all/20260421022108.1299678-1-kuba@kernel.org">ISDN
-subsystem</a>.
-<p>
-<blockquote class="bq">
-	Remove the amateur radio (AX.25, NET/ROM, ROSE) protocol
-	implementation and all associated hamradio device drivers from the
-	kernel tree.  This set of protocols has long been a huge bug/syzbot
-	magnet, and since nobody stepped up to help us deal with the influx
-	of the AI-generated bug reports we need to move it out of tree to
-	protect our sanity.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1068906/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 22 Apr 2026 06:23:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068906/" title="https://lwn.net/Articles/1068906/">Firefox: The zero-days are numbered</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a
-href="https://blog.mozilla.org/en/firefox/ai-security-zero-day-vulnerabilities/">This
-Firefox blog post</a> reports that the Firefox&#160;150 release includes
-fixes for 271 vulnerabilities found by the Claude Mythos preview.
-<p>
-<blockquote class="bq">
-	Elite security researchers find bugs that fuzzers can't largely by
-	reasoning through the source code. This is effective, but
-	time-consuming and bottlenecked on scarce human
-	expertise. Computers were completely incapable of doing this a few
-	months ago, and now they excel at it. We have many years of
-	experience picking apart the work of the world's best security
-	researchers, and Mythos Preview is every bit as capable. So far
-	we've found no category or complexity of vulnerability that humans
-	can find that this model can't.
-<p>
-	This can feel terrifying in the immediate term, but it's ultimately
-	great news for defenders. A gap between machine-discoverable and
-	human-discoverable bugs favors the attacker, who can concentrate
-	many months of costly human effort to find a single bug. Closing
-	this gap erodes the attacker's long-term advantage by making all
-	discoveries cheap.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
