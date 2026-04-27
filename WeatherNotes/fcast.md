@@ -2,21 +2,19 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of rain showers between 3am and 4am, then a slight chance of showers and thunderstorms between 4am and 5am.
-         Partly cloudy. Low around 62, with temperatures rising to around 64 overnight. Southeast wind 6 to 10 mph, with gusts as high
-         as 18 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms after 5am. Partly cloudy. Low around 62, with temperatures rising to around 64
+         overnight. Southeast wind 3 to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A slight chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 8am and 10am,
-         then a chance of showers and thunderstorms between 10am and 5pm, then showers and thunderstorms likely. Some of the storms
-         could produce heavy rain. Partly sunny, with a high near 83. South wind 10 to 22 mph, with gusts as high as 37 mph. Chance
-         of precipitation is 40%.<br></div>
+         <h3>Monday</h3>A chance of showers and thunderstorms before 4pm, then a chance of showers and thunderstorms. Some of the storms could produce
+         heavy rain. Partly sunny, with a high near 83. South wind 10 to 22 mph, with gusts as high as 37 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Showers and thunderstorms. Partly cloudy. Low around 60, with temperatures rising to around 62 overnight. Southwest wind 6
-         to 22 mph, with gusts as high as 37 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Monday Night</h3>A chance of showers and thunderstorms before 7pm, then showers and thunderstorms. Partly cloudy. Low around 60, with temperatures
+         rising to around 62 overnight. Southwest wind 6 to 22 mph, with gusts as high as 37 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
