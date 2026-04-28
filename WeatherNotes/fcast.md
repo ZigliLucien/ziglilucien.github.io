@@ -4,7 +4,7 @@
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 9pm, then showers and thunderstorms between 9pm and 10pm, then showers and thunderstorms
          likely between 10pm and 1am. Some of the storms could be severe and produce heavy rain. Mostly cloudy. Low around 59, with
-         temperatures rising to around 61 overnight. West southwest wind 6 to 16 mph, with gusts as high as 33 mph. Chance of precipitation
+         temperatures rising to around 61 overnight. West southwest wind 6 to 16 mph, with gusts as high as 31 mph. Chance of precipitation
          is 100%.<br></div>
    </p>
    <p>
