@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1069206/" title="See Description">[$] LWN.net Weekly Edition for April 30, 2026</a></li>
+<li><a href="#https://lwn.net/Articles/1070454/" title="See Description">A security bug in AEAD sockets</a></li>
 <li><a href="#https://lwn.net/Articles/1068704/" title="See Description">[$] Python packaging council approved</a></li>
 <li><a href="#https://lwn.net/Articles/1070434/" title="See Description">Security review of Plasma Login Manager (SUSE Security Team Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1070428/" title="See Description">Security updates for Wednesday</a></li>
@@ -51,11 +53,57 @@
 <li><a href="#https://lwn.net/Articles/1067785/" title="See Description">[$] The rest of the 7.1 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1069965/" title="See Description">Four new stable kernels for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1069951/" title="See Description">pgBackRest is no longer maintained</a></li>
-<li><a href="#https://lwn.net/Articles/1068409/" title="See Description">[$] Zig explores structured concurrency</a></li>
-<li><a href="#https://lwn.net/Articles/1069944/" title="See Description">The future of AI in Ubuntu</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1069206/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Apr 2026 00:18:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069206/" title="https://lwn.net/Articles/1069206/">[$] LWN.net Weekly Edition for April 30, 2026</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1069206/">Front</a>: Famfs; Python packaging council; Zig concurrency; pages and folios; Strawberry music manager; 7.1 merge window.
+            <li> <a href="https://lwn.net/Articles/1069208/">Briefs</a>: GnuPG 2.5.19; Copy Fail; Plasma security; Fedora 44; Ubuntu 26.04; Niri 26.04; pip 26.1; RIP Seth Nickell; RIP Tomáš Kalibera; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1069209/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1070454/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Apr 2026 00:01:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070454/" title="https://lwn.net/Articles/1070454/">A security bug in AEAD sockets</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Security analysis firm <a href="https://xint.io">Xint</a> has disclosed <a
+href="https://copy.fail/">a security bug</a> in the Linux kernel
+that allows for arbitrary 4-byte writes to the page cache, and which has been
+present since 2017.
+The vulnerability has
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a664bf3d603dc3bdcf9ae47cc21e0daec706d7a5">
+been fixed</a> in mainline kernels. A <a
+href="https://github.com/theori-io/copy-fail-CVE-2026-31431/blob/main/copy_fail_exp.py">
+proof-of-concept script</a> demonstrates how to use the flaw to corrupt a setuid
+binary, which works on
+multiple distributions, by requesting an AEAD-encrypted socket from user space
+and splicing a particular payload into it.
+A <a
+href="https://xint.io/blog/copy-fail-linux-distributions">supplemental blog
+post</a> gives more details about the discovery and remediation.
+</p>
+
+<blockquote class="bq">
+A core primitive underlying this bug is splice(): it transfers data between file
+descriptors and pipes without copying, passing page cache pages by reference.
+When a user splices a file into a pipe and then into an AF_ALG socket, the
+socket's input scatterlist holds direct references to the kernel's cached pages
+of that file. The pages are not duplicated; the scatterlist entries point at the
+same physical pages that back every <tt>read()</tt>, <tt>mmap()</tt>, and
+<tt>execve()</tt> of that file.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1068704/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 29 Apr 2026 16:48:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -340,59 +388,6 @@ short of what I need to make the project viable.</p>
 </blockquote>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1068409/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 Apr 2026 13:52:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068409/" title="https://lwn.net/Articles/1068409/">[$] Zig explores structured concurrency</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Version 0.16.0 of the Zig programming language was
-<a href="https://ziglang.org/download/0.16.0/release-notes.html">
-recently announced</a>, and with
-it an expanded version of the new <tt>Io</tt> interface that we
-<a href="https://lwn.net/Articles/1046084/">
-covered in December</a>.
-The new interface is based on an idea called structured concurrency that makes writing
-correct concurrent applications easier. Zig's implementation of
-the idea is more explicit and verbose than other languages, however, which could
-offer an opportunity to explore the consequences of different designs.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1069944/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 Apr 2026 13:50:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069944/" title="https://lwn.net/Articles/1069944/">The future of AI in Ubuntu</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Jon Seager, VP engineering for Canonical, has <a
-href="https://discourse.ubuntu.com/t/the-future-of-ai-in-ubuntu/81130">posted</a>
-an update on "<q>what Canonical and Ubuntu will do (or not) to
-incorporate AI</q>" that explains what part AI will play in the future
-of the company and its distribution.</p>
-
-<blockquote class="bq">
-<p>The bottom line is that Canonical is ramping up its use of AI tools
-in a focused and principled manner that favours open weight models
-with license terms that feel most compatible with our values, combined
-with open source harnesses. AI features will be landing in Ubuntu
-throughout the next year as we feel that they're of sufficient
-maturity and quality, with a bias toward local inference by
-default.</p>
-
-<p>AI features in Ubuntu features will come in two forms: first as a
-means of enhancing existing OS functionality with AI models in the
-background, and latterly in the form of "AI native" features and
-workflows for those who want them.</p>
-
-<p>This year Canonical has begun a more deliberate push toward
-education and developing competence with AI tools. We are not setting
-shallow metrics on token usage, or percentages of code written with
-AI, but rather incentivising engineers to experiment and understand
-where AI tools add value. Rather than force a single early-choice AI
-stack, we're incentivising teams to each pick 'something different'
-and go deep, so we learn more as an org in the next six months.</p>
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
