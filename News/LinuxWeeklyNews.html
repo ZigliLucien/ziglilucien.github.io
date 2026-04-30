@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1070072/" title="See Description">[$] Restartable sequences, TCMalloc, and Hyrum's Law</a></li>
+<li><a href="#https://lwn.net/Articles/1070649/" title="See Description">GCC 16.1 released</a></li>
+<li><a href="#https://lwn.net/Articles/1070641/" title="See Description">Seven new stable kernels for Thursday</a></li>
+<li><a href="#https://lwn.net/Articles/1070640/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1069206/" title="See Description">[$] LWN.net Weekly Edition for April 30, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1070454/" title="See Description">A security bug in AEAD sockets</a></li>
 <li><a href="#https://lwn.net/Articles/1068704/" title="See Description">[$] Python packaging council approved</a></li>
@@ -49,13 +53,78 @@
 <li><a href="#https://lwn.net/Articles/1070185/" title="See Description">In Memoriam: Tomáš Kalibera</a></li>
 <li><a href="#https://lwn.net/Articles/1070094/" title="See Description">All FOSDEM 2026 videos are online</a></li>
 <li><a href="#https://lwn.net/Articles/1070184/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1070010/" title="See Description">pip 26.1 released</a></li>
-<li><a href="#https://lwn.net/Articles/1067785/" title="See Description">[$] The rest of the 7.1 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1069965/" title="See Description">Four new stable kernels for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1069951/" title="See Description">pgBackRest is no longer maintained</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1070072/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Apr 2026 14:01:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070072/" title="https://lwn.net/Articles/1070072/">[$] Restartable sequences, TCMalloc, and Hyrum's Law</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://www.hyrumslaw.com/">Hyrum's Law</a> states that any
+observable behavior of a system will eventually be depended upon by
+somebody.  The kernel community is currently contending with a clear
+demonstration of that principle.  The recent <a
+href="https://lwn.net/Articles/1033955/">work to address some restartable-sequences
+performance problems</a> in the 6.19 release maintained the documented API
+in all respects, but that was not enough; Google's <a
+href="https://google.github.io/tcmalloc/overview.html">TCMalloc</a>
+library, as it turns out, violates the documented API, prevents other code
+from using restartable features, and breaks with 6.19.  But the kernel's
+no-regressions rule is forcing developers to find a way to accommodate
+TCMalloc's behavior.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1070649/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Apr 2026 13:38:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070649/" title="https://lwn.net/Articles/1070649/">GCC 16.1 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://lwn.net/ml/all/170o3r2r-3r4s-opp9-q8or-2no672o6q390%40fhfr.qr/">Version
+16.1</a> of the GNU Compiler Collection (GCC) has been
+released.</p>
+
+<blockquote class="bq">
+The C++ frontend now defaults to the GNU C++20 dialect and the corresponding
+parts of the standard library are no longer experimental.  Several
+C++26 features receive experimental support, including Reflection
+(<tt>-freflection</tt>), Contracts, expansion statements and <tt>std::simd</tt>.
+</blockquote>
+
+<p>Other changes include the introduction of an experimental compiler
+frontend for the <a
+href="https://en.wikipedia.org/wiki/ALGOL_68">Algol68</a> language,
+ability to output GCC diagnostics in HTML form, and more.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1070641/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Apr 2026 13:28:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070641/" title="https://lwn.net/Articles/1070641/">Seven new stable kernels for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1070642/">7.0.3</a>, <a
+href="https://lwn.net/Articles/1070643/">6.18.26</a>, <a
+href="https://lwn.net/Articles/1070644/">6.12.85</a>, <a
+href="https://lwn.net/Articles/1070645/">6.6.137</a>, <a
+href="https://lwn.net/Articles/1070646/">6.1.170</a>, <a
+href="https://lwn.net/Articles/1070647/">5.15.204</a>, and <a
+href="https://lwn.net/Articles/1070647/">5.10.254</a> stable kernels. The 7.0.3 and
+6.18.26 kernels only contain fixes needed for Xen users; he advises
+that all users of the other kernel series must upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1070640/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Apr 2026 13:06:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070640/" title="https://lwn.net/Articles/1070640/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, gdk-pixbuf2, giflib, grafana, java-1.8.0-openjdk, java-21-openjdk, LibRaw, OpenEXR, PackageKit, pcs, python3.11, python3.12, python3.9, sudo, tigervnc, vim, xorg-x11-server, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Debian</b> (calibre, firefox-esr, and openjdk-17), <b>Fedora</b> (asterisk, binaryen, buildah, dokuwiki, lemonldap-ng, libexif, libgcrypt, miniupnpd, openvpn, podman, python3.9, rust-rpm-sequoia, skopeo, and xdg-dbus-proxy), <b>Red Hat</b> (buildah, gdk-pixbuf2, and nodejs:20), <b>SUSE</b> (dnsdist, libheif, openCryptoki, polkit, sed, and xen), and <b>Ubuntu</b> (linux-bluefield, python-marshmallow, and roundcube).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1069206/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 30 Apr 2026 00:18:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -311,83 +380,6 @@ index</a>.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (openjdk-21 and webkit2gtk), <b>Fedora</b> (botan3, chromium, cockpit, firefox, flatpak, gum, libarchive, libcoap, mingw-python3, ngtcp2, nss, openssh, openssl, openvpn, PackageKit, python3-docs, python3.11, python3.12, python3.13, python3.14, vim, and xrdp), <b>Oracle</b> (firefox, gdk-pixbuf2, java-1.8.0-openjdk, java-21-openjdk, python3.12, python3.9, sudo, and tigervnc), <b>Red Hat</b> (tigervnc and xorg-x11-server-Xwayland), <b>Slackware</b> (mpg123 and proftpd), <b>SUSE</b> (emacs, firefox, fontforge, freeciv, freerdp, libngtcp2-16, libsystemd0, and strongswan), and <b>Ubuntu</b> (authd, clamav, glance, haproxy, jq, lcms2, nginx, nltk, ntfs-3g, packagekit, pillow, strongswan, and vim).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1070010/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 Apr 2026 18:45:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070010/" title="https://lwn.net/Articles/1070010/">pip 26.1 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://pip.pypa.io/en/stable/news/#v26-1">Version 26.1</a> of
-the pip package installer for Python has been released. Richard Si
-has published a <a
-href="https://ichard26.github.io/blog/2026/04/whats-new-in-pip-26.1/">blog
-post</a> that looks at some of the highlights of 26.1 including
-dependency cooldowns, experimental support for pylock (<a
-href="https://packaging.python.org/en/latest/specifications/pylock-toml/#pylock-toml-spec"><tt>pylock.toml</tt></a>)
-files, and <a
-href="https://ichard26.github.io/blog/2026/04/whats-new-in-pip-26.1/#lifting-several-2020-resolver-limitations">resolver
-improvements</a> that will move pip closer to the goal of removing its
-legacy resolver. The release also includes several security fixes and
-drops support for Python&#160;3.9.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1067785/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 Apr 2026 16:39:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1067785/" title="https://lwn.net/Articles/1067785/">[$] The rest of the 7.1 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>By the time Linus Torvalds released <a
-href="https://lwn.net/ml/all/CAHk-=wh7jmSh6bO5VL31hOC3HdTY0QAV-P1H4XZauwL2x=w35Q@mail.gmail.com/">7.1-rc1</a>
-and closed the 7.1 merge window, 12,996 non-merge changesets had been
-pulled into the mainline repository; just over 9,000 of those arrived after
-<a href="https://lwn.net/Articles/1067250/">the first-half summary</a> was written.  These
-changes were more driver-oriented than those seen earlier, but still also
-included many new features across the kernel as a whole.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1069965/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 Apr 2026 16:01:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069965/" title="https://lwn.net/Articles/1069965/">Four new stable kernels for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1069968/">7.0.2</a>, <a
-href="https://lwn.net/Articles/1069969/">6.18.25</a>, <a
-href="https://lwn.net/Articles/1069970/">6.12.84</a>, and <a
-href="https://lwn.net/Articles/1069971/">6.6.136</a> stable kernels. As usual, each
-contains important fixes throughout; users are advised to upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1069951/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 Apr 2026 14:06:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1069951/" title="https://lwn.net/Articles/1069951/">pgBackRest is no longer maintained</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>David Steele, maintainer of the popular <a
-href="https://pgbackrest.org/">pgBackRest</a> backup and restore project for
-PostgreSQL, has <a
-href="https://github.com/pgbackrest/pgbackrest#notice-of-obsolescence">archived
-the project</a> and announced that it is no longer being maintained.</p>
-
-<blockquote class="bq">
-<p>After a lot of thought, I have decided to stop working on pgBackRest. I did
-not come to this decision lightly. pgBackRest has been my passion project for
-the last thirteen years, and I was fortunate to have corporate sponsorship for
-much of this time, but there were also many late nights and weekends as I worked
-to make pgBackRest the project it is today, aided by numerous
-contributors. Every open-source developer knows exactly what I mean and how much
-of your life gets devoted to a special project.</p>
-
-<p>Since Crunchy Data was sold, I have been maintaining pgBackRest and looking
-for a position that would allow me to continue the work, but so far I have not
-been successful. Likewise, my efforts to secure sponsorship have also fallen far
-short of what I need to make the project viable.</p>
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
