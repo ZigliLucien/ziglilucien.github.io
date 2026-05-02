@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.072a2f03e5dd04624f38581d5886a5be657765bb.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ce748d2d07dd8c1e025a4c15fdca57bdeea66a1.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.072a2f03e5dd04624f38581d5886a5be657765bb.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ce748d2d07dd8c1e025a4c15fdca57bdeea66a1.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.072a2f03e5dd04624f38581d5886a5be657765bb.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.7ce748d2d07dd8c1e025a4c15fdca57bdeea66a1.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Cape Girardeau; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -184,10 +184,10 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
 				<references type="list"/>
-				<sent type="str">2026-05-02T11:48:00-05:00</sent>
-				<effective type="str">2026-05-02T11:48:00-05:00</effective>
-				<onset type="str">2026-05-02T11:48:00-05:00</onset>
-				<expires type="str">2026-05-02T17:30:00-05:00</expires>
+				<sent type="str">2026-05-02T17:32:00-05:00</sent>
+				<effective type="str">2026-05-02T17:32:00-05:00</effective>
+				<onset type="str">2026-05-02T17:32:00-05:00</onset>
+				<expires type="str">2026-05-03T01:00:00-05:00</expires>
 				<ends type="null"/>
 				<status type="str">Actual</status>
 				<messageType type="str">Alert</messageType>
@@ -198,19 +198,14 @@
 				<event type="str">Special Weather Statement</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Special Weather Statement issued May 2 at 11:48AM CDT by NWS Paducah KY</headline>
-				<description type="str">Scattered showers and isolated thunderstorms are forecast through
-this afternoon, mainly near and east of the Mississippi River. Due
-to very cold temperatures just off the ground, some of the showers
-or thunderstorms could produce small hail and cold air funnel
-clouds.
+				<headline type="str">Special Weather Statement issued May 2 at 5:32PM CDT by NWS Paducah KY</headline>
+				<description type="str">Clouds will clear this evening, allowing temperatures to fall
+by daybreak Sunday into the mid to upper 30s across portions of
+our region. Patchy frost is possible...particularly in
+notoriously cold low lying areas...for Sunday morning.
 
-Cold air funnels are due to very cool air aloft...warm moist air
-near the ground...and are usually in association with a strong
-area of low pressure in the upper levels of the atmosphere. Due to
-little or no wind shear...they are usually very brief and rarely
-reach the ground. If the funnels do reach the ground, minor wind
-damage is possible.</description>
+Consider covering outdoor plants or bringing them indoors should
+frost form in the morning.</description>
 				<instruction type="null"/>
 				<response type="str">Execute</response>
 				<note type="null"/>
@@ -219,10 +214,10 @@ damage is possible.</description>
 						<item type="str">SPSPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS83 KPAH 021648</item>
+						<item type="str">WWUS83 KPAH 022232</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">Small Hail and Cold Air Funnel Clouds Possible Through this Afternoon</item>
+						<item type="str">Patchy Frost Possible Early Sunday Morning</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -249,5 +244,5 @@ damage is possible.</description>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-05-02T16:49:11+00:00</updated>
+	<updated type="str">2026-05-02T22:32:35+00:00</updated>
 </all>
