@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny, with a high near 70. South southwest wind 10 to 15 mph, with gusts as high as 24 mph.<br></div>
+         <h3>This Afternoon</h3>Sunny, with a high near 70. South southwest wind around 15 mph, with gusts as high as 24 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -43,23 +43,22 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 47. Southwest wind around 5 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly clear, with a low around 47. Southwest wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 74. South southwest wind 5 to 9 mph.<br></div>
+         <h3>Friday</h3>Sunny, with a high near 71. South southwest wind 5 to 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A slight chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms. Partly cloudy, with a
-         low around 52. West southwest wind around 8 mph.<br></div>
+         <h3>Friday Night</h3>A chance of showers and thunderstorms after 7pm. Partly cloudy, with a low around 52. West southwest wind 3 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A slight chance of rain showers before 7am. Sunny, with a high near 76. Northwest wind around 7 mph.<br></div>
+         <h3>Saturday</h3>A slight chance of rain showers before 7am. Sunny, with a high near 74. Northwest wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Mostly clear, with a low around 55. Southeast wind around 6 mph.<br></div>
+         <h3>Saturday Night</h3>Mostly clear, with a low around 55. Southeast wind around 5 mph.<br></div>
    </p>
 </div>
