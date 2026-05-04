@@ -2,22 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy. Low around 57, with temperatures rising to around 59 overnight. South southwest wind around 9 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Monday</h3>Mostly sunny. High near 81, with temperatures falling to around 79 in the afternoon. South southwest wind 9 to 18 mph, with
+         <h3>Today</h3>Mostly sunny. High near 81, with temperatures falling to around 79 in the afternoon. South southwest wind 9 to 18 mph, with
          gusts as high as 30 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A chance of showers and thunderstorms after 4am. Partly cloudy. Low around 58, with temperatures rising to around 63 overnight.
+         <h3>Tonight</h3>A chance of showers and thunderstorms after 4am. Partly cloudy. Low around 58, with temperatures rising to around 63 overnight.
          South southwest wind 10 to 16 mph, with gusts as high as 29 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Showers and thunderstorms. Mostly cloudy, with a high near 66. South southwest wind around 10 mph, with gusts as high as 21
-         mph. Chance of precipitation is 100%.<br></div>
+         <h3>Tuesday</h3>Showers and thunderstorms. Cloudy. High near 66, with temperatures falling to around 62 in the afternoon. South southwest
+         wind around 10 mph, with gusts as high as 21 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -31,7 +27,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain showers before 1am. Mostly cloudy, with a low around 46. North wind around 7 mph.<br></div>
+         <h3>Wednesday Night</h3>A chance of rain showers before 1am. Mostly cloudy, with a low around 46. North wind around 7 mph. Chance of precipitation
+         is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,5 +57,10 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>A chance of rain showers. Mostly sunny, with a high near 76. Southwest wind 5 to 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Sunday Night</h3>A chance of rain showers before 7pm, then a slight chance of showers and thunderstorms. Partly cloudy, with a low around 53.
+         Northwest wind around 7 mph.<br></div>
    </p>
 </div>
