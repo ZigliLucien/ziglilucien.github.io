@@ -2,28 +2,27 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Mostly sunny. High near 81, with temperatures falling to around 79 in the afternoon. South southwest wind 10 to 18 mph, with
-         gusts as high as 30 mph.<br></div>
+         <h3>Today</h3>Mostly sunny. High near 82, with temperatures falling to around 80 in the afternoon. Southwest wind 13 to 20 mph, with gusts
+         as high as 30 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms after 4am. Partly cloudy. Low around 58, with temperatures rising to around 63 overnight.
-         South southwest wind 10 to 16 mph, with gusts as high as 29 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms after 11pm. Partly cloudy. Low around 58, with temperatures rising to around 63 overnight.
+         South southwest wind 10 to 16 mph, with gusts as high as 29 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Showers and thunderstorms. Cloudy. High near 66, with temperatures falling to around 62 in the afternoon. South southwest
-         wind around 10 mph, with gusts as high as 21 mph. Chance of precipitation is 100%.<br></div>
+         <h3>Tuesday</h3>Showers and thunderstorms. Cloudy. High near 67, with temperatures falling to around 65 in the afternoon. South wind around
+         10 mph, with gusts as high as 18 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Showers and thunderstorms. Mostly cloudy, with a low around 47. North northwest wind around 12 mph, with gusts as high as
+         <h3>Tuesday Night</h3>Showers and thunderstorms. Mostly cloudy, with a low around 46. North northeast wind around 12 mph, with gusts as high as
          20 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of rain showers. Partly sunny, with a high near 62. North northeast wind around 9 mph. Chance of precipitation is
-         50%.<br></div>
+         <h3>Wednesday</h3>Rain showers likely. Partly sunny, with a high near 62. North northeast wind around 9 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
