@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1071324/" title="See Description">Security updates for Tuesday</a></li>
+<li><a href="#https://lwn.net/Articles/1071253/" title="See Description">The retirement of the PHP license</a></li>
 <li><a href="#https://lwn.net/Articles/1071176/" title="See Description">Alpine Linux systems currently offline</a></li>
 <li><a href="#https://lwn.net/Articles/1070006/" title="See Description">[$] Bug-monitoring expectations and Fedora GNOME packages</a></li>
 <li><a href="#https://lwn.net/Articles/1071175/" title="See Description">NetHack 5.0.0 released</a></li>
@@ -51,11 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1070641/" title="See Description">Seven new stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1070640/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1069206/" title="See Description">[$] LWN.net Weekly Edition for April 30, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1070454/" title="See Description">A security bug in AEAD sockets</a></li>
-<li><a href="#https://lwn.net/Articles/1068704/" title="See Description">[$] Python packaging council approved</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1071324/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 05 May 2026 13:14:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071324/" title="https://lwn.net/Articles/1071324/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, libcap, LibRaw, openssh, thunderbird, and tigervnc), <b>Debian</b> (libarchive and lxd), <b>Fedora</b> (chromium, insight, nodejs20, rust-sequoia-git, and uriparser), <b>Mageia</b> (kernel, kmod-virtualbox), <b>Oracle</b> (kernel, libcap, thunderbird, and uek-kernel), <b>Red Hat</b> (.NET 10.0, .NET 8.0, .NET 9.0, fence-agents, sudo, and systemd), <b>Slackware</b> (httpd), <b>SUSE</b> (freerdp, hauler, helm, himmelblau, kernel, libspectre, thunderbird, trivy, and xen), and <b>Ubuntu</b> (curl, exim4, and sed).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1071253/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 05 May 2026 11:27:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071253/" title="https://lwn.net/Articles/1071253/">The retirement of the PHP license</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The PHP project has long shipped under its own license — except for
+the parts under the Zend Engine License.  The PHP project has now <a
+href="https://lwn.net/ml/all/8FE97D51-963A-49D6-8302-C808108FC4C9@benramsey.com">announced</a>
+that the PHP license has been retired, and the PHP code has been relicensed
+under the three-clause BSD license.  See <a
+href="https://ben.ramsey.dev/blog/2026/05/the-php-license-simplified">this
+blog entry</a> for more details.
+<p>
+<blockquote class="bq">
+	Getting here required more than <a
+	href="https://wiki.php.net/rfc/php_license_update">writing an
+	RFC</a>. The PHP License gives the PHP Group the authority to
+	change it, which meant tracking down each of the original PHP Group
+	members and getting their written consent. Each approved the
+	proposal. Perforce Software, the successor to Zend Technologies,
+	needed to sign off on the Zend Engine side, as well. They provided
+	a formal letter confirming their full authority and support for the
+	change. I hired an attorney to review the proposal and provide
+	advice on any legal questions that might surface during the
+	discussion period. Speaking of which, I allowed for a six-month
+	community discussion period preceding the vote, which passed
+	unanimously.
+</blockquote>
+
+<p>
+LWN <a href="https://lwn.net/Articles/1063993/">covered</a> the license-change process back in March.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1071176/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 04 May 2026 15:20:32 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -275,59 +315,6 @@ that all users of the other kernel series must upgrade.</p>
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1070454/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Apr 2026 00:01:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070454/" title="https://lwn.net/Articles/1070454/">A security bug in AEAD sockets</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Security analysis firm <a href="https://xint.io">Xint</a> has disclosed <a
-href="https://copy.fail/">a security bug</a> in the Linux kernel
-that allows for arbitrary 4-byte writes to the page cache, and which has been
-present since 2017.
-The vulnerability has
-<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a664bf3d603dc3bdcf9ae47cc21e0daec706d7a5">
-been fixed</a> in mainline kernels. A <a
-href="https://github.com/theori-io/copy-fail-CVE-2026-31431/blob/main/copy_fail_exp.py">
-proof-of-concept script</a> demonstrates how to use the flaw to corrupt a setuid
-binary, which works on
-multiple distributions, by requesting an AEAD-encrypted socket from user space
-and splicing a particular payload into it.
-A <a
-href="https://xint.io/blog/copy-fail-linux-distributions">supplemental blog
-post</a> gives more details about the discovery and remediation.
-</p>
-
-<blockquote class="bq">
-A core primitive underlying this bug is splice(): it transfers data between file
-descriptors and pipes without copying, passing page cache pages by reference.
-When a user splices a file into a pipe and then into an AF_ALG socket, the
-socket's input scatterlist holds direct references to the kernel's cached pages
-of that file. The pages are not duplicated; the scatterlist entries point at the
-same physical pages that back every <tt>read()</tt>, <tt>mmap()</tt>, and
-<tt>execve()</tt> of that file.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1068704/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 Apr 2026 16:48:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1068704/" title="https://lwn.net/Articles/1068704/">[$] Python packaging council approved</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/924104/">Python packaging world</a> now has a formal
-governance council, of the form described in <a
-href="https://peps.python.org/pep-0772/">PEP&#160;772</a> ("Packaging
-Council governance process"), which was <a
-href="https://discuss.python.org/t/pep-772-packaging-council-governance-process-round-3/100181/118">approved
-by the steering council</a> on April&#160;16.  It has been over a year
-since the PEP was first proposed in February&#160;2025 and it has undergone
-lengthy discussions in multiple postings to the <a
-href="https://discuss.python.org/">Python discussion forum</a>.  The
-packaging council will have "<q>broad authority over packaging standards,
-tools, and implementations</q>"; it will consist of five members who will
-be elected in a vote that is likely to come in June—after <a
-href="https://us.pycon.org/2026/">PyCon US 2026</a> is held mid-May.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
