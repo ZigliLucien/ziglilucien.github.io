@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms. Mostly cloudy. Low around 46, with temperatures rising to around 48 overnight. North wind 8 to
-         14 mph, with gusts as high as 24 mph. Chance of precipitation is 90%.<br></div>
+         <h3>Tonight</h3>Showers and thunderstorms. Mostly cloudy, with a low around 47. North wind 8 to 14 mph, with gusts as high as 24 mph. Chance
+         of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
