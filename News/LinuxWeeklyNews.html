@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1070466/" title="See Description">[$] LWN.net Weekly Edition for May 7, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1070698/" title="See Description">[$] LLM-driven security reports disrupt coordinated disclosure</a></li>
 <li><a href="#https://lwn.net/Articles/1071469/" title="See Description">Incus 7.0 LTS released</a></li>
 <li><a href="#https://lwn.net/Articles/1071466/" title="See Description">Security updates for Wednesday</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1070864/" title="See Description">Eden: NHS goes to war against open source</a></li>
 <li><a href="#https://lwn.net/Articles/1068864/" title="See Description">[$] Version-controlled databases using Prolly trees</a></li>
 <li><a href="#https://lwn.net/Articles/1070848/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1070072/" title="See Description">[$] Restartable sequences, TCMalloc, and Hyrum's Law</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1070466/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 07 May 2026 00:01:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070466/" title="https://lwn.net/Articles/1070466/">[$] LWN.net Weekly Edition for May 7, 2026</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1070466/">Front</a>: LLMs and security; restartable sequences and TCMalloc; Fedora and GNOME bug reports; Prolly trees; Arm on s390.
+            <li> <a href="https://lwn.net/Articles/1070468/">Briefs</a>: NHS open source; Alpine outage; GCC 16.1; Incus 7.0 LTS; NetHack 5.0.0; PHP license; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1070469/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1070698/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 06 May 2026 14:56:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -300,25 +315,6 @@ The data structure it uses could well be of interest to other projects.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (fence-agents), <b>Debian</b> (chromium, dovecot, and kernel), <b>Fedora</b> (chromium, dotnet10.0, dotnet8.0, dotnet9.0, emacs, glow, jfrog-cli, openbao, pyp2spec, python3.6, rust-rustls-webpki, vhs, and xen), <b>Oracle</b> (grafana, grafana-pcp, PackageKit, sudo, vim, and xorg-x11-server), <b>Red Hat</b> (rhc), <b>SUSE</b> (avahi, bouncycastle, chromium, container-suseconnect, firewalld, gdk-pixbuf, grafana, java-25-openjdk, kernel, libixml11, libmozjs-140-0, libpng12-0, libsodium, libssh, mariadb, Mesa, ntfs-3g_ntfsprogs, openCryptoki, openexr, packagekit, prometheus-postgres_exporter, python-jwcrypto, python-mako, python-Pygments, python-pynacl, python311, python311-pyOpenSSL, python315, radare2, sed, and vim), and <b>Ubuntu</b> (kmod and zulucrypt).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1070072/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Apr 2026 14:01:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070072/" title="https://lwn.net/Articles/1070072/">[$] Restartable sequences, TCMalloc, and Hyrum's Law</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://www.hyrumslaw.com/">Hyrum's Law</a> states that any
-observable behavior of a system will eventually be depended upon by
-somebody.  The kernel community is currently contending with a clear
-demonstration of that principle.  The recent <a
-href="https://lwn.net/Articles/1033955/">work to address some restartable-sequences
-performance problems</a> in the 6.19 release maintained the documented API
-in all respects, but that was not enough; Google's <a
-href="https://google.github.io/tcmalloc/overview.html">TCMalloc</a>
-library, as it turns out, violates the documented API, prevents other code
-from using restartable features, and breaks with 6.19.  But the kernel's
-no-regressions rule is forcing developers to find a way to accommodate
-TCMalloc's behavior.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
