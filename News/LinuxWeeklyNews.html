@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1071719/" title="See Description">Dirty Frag: a zero-day universal Linux LPE</a></li>
 <li><a href="#https://lwn.net/Articles/1070994/" title="See Description">[$] A new era for memory-management maintainership</a></li>
 <li><a href="#https://lwn.net/Articles/1071703/" title="See Description">An update on KDE's Union style engine</a></li>
 <li><a href="#https://lwn.net/Articles/1071700/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,41 @@
 <li><a href="#https://lwn.net/Articles/1071176/" title="See Description">Alpine Linux systems currently offline</a></li>
 <li><a href="#https://lwn.net/Articles/1070006/" title="See Description">[$] Bug-monitoring expectations and Fedora GNOME packages</a></li>
 <li><a href="#https://lwn.net/Articles/1071175/" title="See Description">NetHack 5.0.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1071167/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1071719/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 07 May 2026 20:25:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071719/" title="https://lwn.net/Articles/1071719/">Dirty Frag: a zero-day universal Linux LPE</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Hyunwoo Kim has <a
+href="https://lwn.net/ml/all/afzgS2SCWNcZU3vU%40v4bel/">announced</a>
+the <a
+href="https://github.com/V4bel/dirtyfrag#dirty-frag-universal-linux-lpe">Dirty
+Frag</a> security flaw, a
+local-privilege-escalation (LPE) vulnerability similar to the
+recently disclosed <a href="https://copy.fail/">Copy Fail</a>
+flaw:</p>
+
+<blockquote class="bq">
+<p>Because the embargo has now been broken, no patches or CVEs exist for 
+these vulnerabilities. After consultation with the linux-distros@vs.openwall.org
+maintainers, and at the maintainers' request, I am publicly releasing this 
+Dirty Frag document.</p>
+<p>As with the previous Copy Fail vulnerability, Dirty Frag likewise allows 
+immediate root privilege escalation on all major distributions.</p>
+</blockquote>
+
+<p>Kim, who discovered the flaw and had attempted a coordinated
+disclosure set for May&#160;12, has released the code for an exploit, as well as a example
+script to remove the vulnerable modules. A <a
+href="https://github.com/V4bel/dirtyfrag/blob/master/assets/write-up.md">full
+write-up</a>, with the disclosure timeline, is also available. It's
+unknown at this time whether this is an example of parallel discovery
+or how the third party was able to disclose it prior to the end of the
+embargo. We will be following up as more information comes to light.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1070994/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 07 May 2026 14:42:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -301,14 +333,6 @@ bug fixes and changes, detailed in <a
 href="https://github.com/NetHack/NetHack/blob/NetHack-5.0/doc/fixes5-0-0.txt"><tt>doc/fixes5-0-0.txt</tt></a>
 (may contain game spoilers). Saved games from previous versions will
 not work with NetHack&#160;5.0.0.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071167/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 04 May 2026 13:26:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071167/" title="https://lwn.net/Articles/1071167/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, libcap, libtiff, sudo, and thunderbird), <b>Debian</b> (dovecot, imagemagick, incus, kernel, libexif, linux-6.1, openjdk-25, pyasn1, python-aiohttp, and thunderbird), <b>Fedora</b> (chromium, firefox, GitPython, glibc, insight, krb5, nano, nss, openssh, openvpn, perl-CryptX, python3.14, rust-openssl, rust-openssl-sys, rust-sequoia-git, and xen), <b>Oracle</b> (dtrace, fence-agents, grafana-pcp, libcap, libtiff, sudo, and xorg-x11-server-Xwayland), <b>Red Hat</b> (buildah, fence-agents, firefox, java-11-openjdk with Extended Lifecycle Support, LibRaw, nodejs24, nodejs:24, openssh, python-pyasn1, resource-agents, thunderbird, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (mozilla), and <b>SUSE</b> (avahi, curl, freeipmi, freerdp, google-guest-agent, google-osconfig-agent, gvim, helm, himmelblau, java-1_8_0-openjdk, kernel, krb5-appl-clients, libsodium, libssh, libtiff-devel-32bit, ntfs-3g_ntfsprogs, openCryptoki, openexr, ovmf, PackageKit, python-jwcrypto, python-Mako, python-PyNaCl, python311, python311-pypdf, sed, trivy, and vim).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
