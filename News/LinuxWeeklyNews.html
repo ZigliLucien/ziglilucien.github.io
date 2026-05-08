@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1071861/" title="See Description">killswitch for short-term emergency vulnerability mitigation</a></li>
+<li><a href="#https://lwn.net/Articles/1071256/" title="See Description">[$] A 2026 DAMON update</a></li>
+<li><a href="#https://lwn.net/Articles/1071859/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1071775/" title="See Description">Four stable kernels with partial fixes for Dirty Frag</a></li>
 <li><a href="#https://lwn.net/Articles/1071719/" title="See Description">Dirty Frag: a zero-day universal Linux LPE</a></li>
 <li><a href="#https://lwn.net/Articles/1070994/" title="See Description">[$] A new era for memory-management maintainership</a></li>
@@ -50,12 +53,50 @@
 <li><a href="#https://lwn.net/Articles/1071466/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1069954/" title="See Description">[$] Hardware-assisted Arm VMs for s390</a></li>
 <li><a href="#https://lwn.net/Articles/1071324/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1071253/" title="See Description">The retirement of the PHP license</a></li>
-<li><a href="#https://lwn.net/Articles/1071176/" title="See Description">Alpine Linux systems currently offline</a></li>
-<li><a href="#https://lwn.net/Articles/1070006/" title="See Description">[$] Bug-monitoring expectations and Fedora GNOME packages</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1071861/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 08 May 2026 13:36:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071861/" title="https://lwn.net/Articles/1071861/">killswitch for short-term emergency vulnerability mitigation</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>It seems that we are in for an extended period of the disclosure of
+vulnerabilities before fixes become available.  One possible way of coping
+with this flood might be the <a
+href="https://lwn.net/ml/all/20260507070547.2268452-1-sashal@kernel.org">killswitch</a>
+proposal from Sasha Levin.  In short, killswitch can immediately disable
+access to specific functionality in a running kernel, essentially blasting
+a vulnerable path (and its associated functionality) out of existence until
+a fix can be installed.  "<q>For most users, the cost of 'this socket
+family stops working for the day' is much smaller than the cost of running
+a known vulnerable kernel until the fix land.</q>"</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1071256/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 08 May 2026 13:20:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071256/" title="https://lwn.net/Articles/1071256/">[$] A 2026 DAMON update</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
+href="https://docs.kernel.org/admin-guide/mm/damon/">DAMON</a> subsystem
+provides user-space monitoring and management of system memory.  DAMON is
+developing rapidly, so an update on its progress has become a regular
+feature of the annual <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  This tradition
+continued at the 2026 gathering with an update from DAMON creator SeongJae
+Park covering a long list of new capabilities — tiering, data attributes
+monitoring, transparent huge pages, and more — being added to this subsystem.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1071859/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 08 May 2026 13:13:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071859/" title="https://lwn.net/Articles/1071859/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libsoup and mingw-libtiff), <b>Debian</b> (apache2, chromium, lcms2, libreoffice, and prosody), <b>Fedora</b> (openssl and perl-Starman), <b>Oracle</b> (git-lfs, libsoup, and perl-XML-Parser), <b>Slackware</b> (libgpg, mozilla, and php), <b>SUSE</b> (389-ds, cairo, cf-cli, chromedriver, cri-tools, freeipmi, gnutls, grafana, java-11-openjdk, java-17-openjdk, jetty-minimal, libmariadbd-devel, librsvg, mesa, mozjs52, mutt, nix, opencryptoki, python-Django, python-django, python-pytest, rmt-server, thunderbird, traefik, webkit2gtk3, wireshark, and xen), and <b>Ubuntu</b> (civicrm, dpkg, htmlunit, lcms2, libpng1.6, linux, linux-*, linux-azure, linux-azure-fips, linux-raspi, linux-xilinx, lua5.1, nasm, opam, openexr, openjpeg2, owslib, postfix, postfixadmin, and vim).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1071775/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 08 May 2026 09:49:05 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -271,71 +312,6 @@ near-native speeds.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, libcap, LibRaw, openssh, thunderbird, and tigervnc), <b>Debian</b> (libarchive and lxd), <b>Fedora</b> (chromium, insight, nodejs20, rust-sequoia-git, and uriparser), <b>Mageia</b> (kernel, kmod-virtualbox), <b>Oracle</b> (kernel, libcap, thunderbird, and uek-kernel), <b>Red Hat</b> (.NET 10.0, .NET 8.0, .NET 9.0, fence-agents, sudo, and systemd), <b>Slackware</b> (httpd), <b>SUSE</b> (freerdp, hauler, helm, himmelblau, kernel, libspectre, thunderbird, trivy, and xen), and <b>Ubuntu</b> (curl, exim4, and sed).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071253/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 05 May 2026 11:27:49 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071253/" title="https://lwn.net/Articles/1071253/">The retirement of the PHP license</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The PHP project has long shipped under its own license — except for
-the parts under the Zend Engine License.  The PHP project has now <a
-href="https://lwn.net/ml/all/8FE97D51-963A-49D6-8302-C808108FC4C9@benramsey.com">announced</a>
-that the PHP license has been retired, and the PHP code has been relicensed
-under the three-clause BSD license.  See <a
-href="https://ben.ramsey.dev/blog/2026/05/the-php-license-simplified">this
-blog entry</a> for more details.
-<p>
-<blockquote class="bq">
-	Getting here required more than <a
-	href="https://wiki.php.net/rfc/php_license_update">writing an
-	RFC</a>. The PHP License gives the PHP Group the authority to
-	change it, which meant tracking down each of the original PHP Group
-	members and getting their written consent. Each approved the
-	proposal. Perforce Software, the successor to Zend Technologies,
-	needed to sign off on the Zend Engine side, as well. They provided
-	a formal letter confirming their full authority and support for the
-	change. I hired an attorney to review the proposal and provide
-	advice on any legal questions that might surface during the
-	discussion period. Speaking of which, I allowed for a six-month
-	community discussion period preceding the vote, which passed
-	unanimously.
-</blockquote>
-
-<p>
-LWN <a href="https://lwn.net/Articles/1063993/">covered</a> the license-change process back in March.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071176/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 04 May 2026 15:20:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071176/" title="https://lwn.net/Articles/1071176/">Alpine Linux systems currently offline</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Alpine Linux account on fosstodon.org <a
-href="https://fosstodon.org/@alpinelinux/116516953669188535">reports</a>
-that all systems hosted at Linode, including its GitLab instance,
-"<q>are suspended at the moment due to some billing issue</q>". They
-are working to get it resolved, but in the meantime all of their
-services appear to be down.</p>
-
-<p><strong>Update</strong>: Alpine Linux's <a href="https://fosstodon.org/@alpinelinux/116517090251692139">servers are back online</a>.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1070006/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 04 May 2026 14:59:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070006/" title="https://lwn.net/Articles/1070006/">[$] Bug-monitoring expectations and Fedora GNOME packages</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>For a number of years, users submitting bugs reports against GNOME packages in Fedora have
-received an auto-reply saying that the reports were not actively
-monitored; users were encouraged to file bugs with GNOME upstream instead. However,
-that practice seems to be in conflict with the <a
-href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering Steering
-Committee</a> (FESCo) <a
-href="https://docs.fedoraproject.org/en-US/fesco/Package_maintainer_responsibilities/#_deal_with_bugs">policy</a>
-that package maintainers "<q>deal with reported bugs in a timely manner</q>". On
-April 28, FESCo discussed the disconnect between practice and policy; so far,
-it has only opted to tweak the wording of the automatic response.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
