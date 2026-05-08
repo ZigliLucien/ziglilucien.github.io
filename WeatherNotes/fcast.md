@@ -2,21 +2,17 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Clear. Low around 47, with temperatures rising to around 50 overnight. South wind around 3 mph.<br></div>
+         <h3>Today</h3>Sunny, with a high near 75. South southwest wind 6 to 13 mph, with gusts as high as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Sunny, with a high near 75. South southwest wind 6 to 13 mph, with gusts as high as 22 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Friday Night</h3>A slight chance of showers and thunderstorms between 8pm and 9pm, then showers and thunderstorms between 9pm and 3am. Mostly
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms between 8pm and 9pm, then showers and thunderstorms between 9pm and 3am. Mostly
          cloudy. Low around 54, with temperatures rising to around 56 overnight. Southwest wind 1 to 10 mph, with gusts as high as
          20 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny, with a high near 79. West southwest wind around 5 mph.<br></div>
+         <h3>Saturday</h3>Sunny. High near 79, with temperatures falling to around 77 in the afternoon. West southwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -29,7 +25,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A slight chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 47. North wind 5 to 10 mph.<br></div>
+         <h3>Sunday Night</h3>A slight chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 47. North wind 5 to 10 mph. Chance
+         of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>Sunny, with a high near 78. East southeast wind 3 to 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Thursday Night</h3>Partly cloudy, with a low around 58. South southeast wind around 6 mph.<br></div>
    </p>
 </div>
