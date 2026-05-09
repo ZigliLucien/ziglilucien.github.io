@@ -6,56 +6,56 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear. Low around 58, with temperatures rising to around 60 overnight. Southwest wind 2 to 7 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy. Low around 57, with temperatures rising to around 59 overnight. West southwest wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Partly sunny. High near 72, with temperatures falling to around 68 in the afternoon. North wind 2 to 9 mph.<br></div>
+         <h3>Sunday</h3>Partly sunny. High near 72, with temperatures falling to around 69 in the afternoon. North wind 5 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Partly cloudy, with a low around 48. North wind 3 to 9 mph.<br></div>
+         <h3>Sunday Night</h3>Partly cloudy, with a low around 48. North northeast wind 2 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny, with a high near 71. North northeast wind 2 to 6 mph.<br></div>
+         <h3>Monday</h3>Sunny, with a high near 73. North northeast wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Clear, with a low around 48. East southeast wind 1 to 5 mph.<br></div>
+         <h3>Monday Night</h3>Clear, with a low around 49. Southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Sunny, with a high near 76. South wind 2 to 13 mph, with gusts as high as 21 mph.<br></div>
+         <h3>Tuesday</h3>Sunny, with a high near 78. South southwest wind 2 to 12 mph, with gusts as high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A slight chance of rain showers after 1am. Mostly clear, with a low around 59. Southwest wind 8 to 12 mph, with gusts as high
-         as 20 mph.<br></div>
+         <h3>Tuesday Night</h3>A slight chance of rain showers after 1am. Partly cloudy, with a low around 59. Southwest wind 6 to 12 mph, with gusts as
+         high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A slight chance of rain showers before 7am. Sunny, with a high near 79. West northwest wind 7 to 13 mph, with gusts as high
-         as 22 mph.<br></div>
+         <h3>Wednesday</h3>A slight chance of rain showers before 7am. Sunny, with a high near 77. West northwest wind 6 to 14 mph, with gusts as high
+         as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Clear, with a low around 52. North northeast wind 2 to 10 mph.<br></div>
+         <h3>Wednesday Night</h3>Clear, with a low around 51. North wind 2 to 12 mph, with gusts as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny, with a high near 77. East southeast wind around 5 mph.<br></div>
+         <h3>Thursday</h3>Sunny, with a high near 76. Northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A slight chance of rain showers after 1am. Partly cloudy, with a low around 57. South southeast wind around 6 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly clear, with a low around 56. Southeast wind 3 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A slight chance of rain showers before 7am. Mostly sunny, with a high near 82. South wind around 9 mph.<br></div>
+         <h3>Friday</h3>Mostly sunny, with a high near 83. South wind 7 to 12 mph, with gusts as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Partly cloudy, with a low around 63. South wind around 8 mph.<br></div>
+         <h3>Friday Night</h3>Partly cloudy, with a low around 64. South southwest wind 7 to 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
 </div>
