@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1072311/" title="See Description">Two stable kernels with Dirty Frag fixes</a></li>
+<li><a href="#https://lwn.net/Articles/1071484/" title="See Description">[$] Providing 64KB base pages with 4KB kernels, two different ways</a></li>
+<li><a href="#https://lwn.net/Articles/1072314/" title="See Description">Debian to require reproducible builds</a></li>
+<li><a href="#https://lwn.net/Articles/1072301/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1072100/" title="See Description">Kernel prepatch 7.1-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/1071483/" title="See Description">More stable kernels with partial Dirty Frag fixes</a></li>
 <li><a href="#https://lwn.net/Articles/1071499/" title="See Description">[$] Forgejo "carrot disclosure" raises security questions</a></li>
@@ -49,13 +53,76 @@
 <li><a href="#https://lwn.net/Articles/1070994/" title="See Description">[$] A new era for memory-management maintainership</a></li>
 <li><a href="#https://lwn.net/Articles/1071703/" title="See Description">An update on KDE's Union style engine</a></li>
 <li><a href="#https://lwn.net/Articles/1071700/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1071568/" title="See Description">Three stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1070466/" title="See Description">[$] LWN.net Weekly Edition for May 7, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1070698/" title="See Description">[$] LLM-driven security reports disrupt coordinated disclosure</a></li>
-<li><a href="#https://lwn.net/Articles/1071469/" title="See Description">Incus 7.0 LTS released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1072311/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 11 May 2026 13:35:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072311/" title="https://lwn.net/Articles/1072311/">Two stable kernels with Dirty Frag fixes</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1072312/">7.0.6</a> and <a
+href="https://lwn.net/Articles/1072313/">6.18.29</a> stable kernels with Hyunwoo
+Kim's <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71">patch</a>
+for the second vulnerability (<a
+href="https://lwn.net/ml/all/2026051149-CVE-2026-43500-60d6%40gregkh/">CVE-2026-43500</a>)
+reported with <a
+href="https://github.com/V4bel/dirtyfrag#dirty-frag-universal-linux-lpe">Dirty&#160;Frag</a>
+and <a
+href="https://www.openwall.com/lists/oss-security/2026/05/07/12">Copy&#160;Fail&#160;2</a>. All
+users are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1071484/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 11 May 2026 13:35:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071484/" title="https://lwn.net/Articles/1071484/">[$] Providing 64KB base pages with 4KB kernels, two different ways</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Some CPU architectures are able to run with a number of different base-page
+sizes; using a larger size can often result in better performance at the
+cost of increased memory use.  Other architectures are more limited.  At
+the 2026 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
+Storage, Filesystem, Memory Management, and BPF Summit</a>, two sessions in
+the memory-management track explored options for letting processes run with
+64KB page sizes when the underlying kernel does not.  The first was focused
+on letting each process have its own page size, while the second concerned
+bringing 64KB pages to x86 systems.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072314/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 11 May 2026 13:21:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072314/" title="https://lwn.net/Articles/1072314/">Debian to require reproducible builds</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Paul Gevers has slipped an interesting bit of news into a "<a
+href="https://lwn.net/ml/all/E1wLw4g-000n88-0p@respighi.debian.org">bits from the release
+team</a>" message:
+<p>
+<blockquote class="bq">
+	Aided by the efforts of the Reproducible Builds project, we've
+	decided it's time to say that Debian must ship reproducible
+	packages. Since yesterday, we have enabled our migration software
+	to block migration of new packages that can't be reproduced or
+	existing packages (in testing) that regress in reproducibility.
+</blockquote>
+<p>
+As Gioele Barabucci <a
+href="https://lwn.net/ml/all/603a3905-a87b-47c2-b834-12e58bed136f@debian.org">pointed
+out</a>, "reproducible" in this sense is limited to building within an
+instance of Debian's build environment, which is a tighter requirement than
+is normally used.  It is still a big step forward for reproducible builds.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072301/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 11 May 2026 13:10:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072301/" title="https://lwn.net/Articles/1072301/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (corosync, freeipmi, kernel, and kernel-rt), <b>Debian</b> (corosync, firefox-esr, kernel, lcms2, libpng1.6, linux-6.1, php8.2, php8.4, postorius, pyjwt, and tor), <b>Fedora</b> (dotnet10.0, exim, gnutls, kernel, nextcloud, nodejs22, php, proftpd, prosody, python-pulp-glue, python-requests, rclone, and SDL3_image), <b>Mageia</b> (firefox, nss, rootcerts, openvpn, thunderbird, and vim), <b>Oracle</b> (corosync, freeipmi, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, and gstreamer1-plugins-good, kernel, libpng, and mingw-libtiff), <b>Slackware</b> (kernel and mozilla), <b>SUSE</b> (build, product-composer, c-ares, cairo, copacetic, distribution, firefox, firefox-esr, frr, glibc, go1.25, google-cloud-sap-agent, iproute2, java-11-openj9, java-17-openj9, java-17-openjdk, java-1_8_0-openj9, java-21-openj9, java-21-openjdk, java-25-openjdk, kernel, libexif-devel, libpcp-devel, libtpms, libtree-sitter0_26, Mesa, micropython, mozjs128, nginx, opencc, openCryptoki, php-composer2, podman, postfix, python-pytest, python311-Django, python311-Django4, redis, semaphore, strongswan, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, tor, valkey, vim, and wireshark), and <b>Ubuntu</b> (linux-nvidia-tegra, linux-raspi, linux-raspi-5.4, and nasm).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072100/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 10 May 2026 23:23:10 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -255,75 +322,6 @@ project and its creation. KDE&#160;6.7 is expected to be released in mid-June.</
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (dovecot, fence-agents, freeipmi, git-lfs, image-builder, kernel, libsoup, osbuild-composer, and python-tornado), <b>Debian</b> (apache2, libdatetime-timezone-perl, lrzip, tzdata, and wireshark), <b>Fedora</b> (dovecot, forgejo-runner, gh, gnutls, krb5, nano, pdns, pyOpenSSL, squid, vim, and xorg-x11-server-Xwayland), <b>Mageia</b> (graphicsmagick, kernel-linus, krb5-appl, libexif, libtiff, nano, nginx, ntfs-3g, opam, perl-Net-CIDR-Lite, perl-Starlet, perl-Starman, tcpflow, and virtualbox), <b>Oracle</b> (dovecot, fence-agents, freeipmi, image-builder, kernel, libcap, LibRaw, libsoup, openssh, osbuild-composer, python, python-tornado, python3, systemd, thunderbird, and tigervnc), <b>SUSE</b> (containerd, curl, erlang, flatpak, java-11-openjdk, java-21-openjdk, java-25-openjdk, liblxc-devel, libpng12, libthrift-0_23_0, openCryptoki, openexr, openssl-3, python3, python311-social-auth-core, rclone, skim, and thunderbird), and <b>Ubuntu</b> (apache2, coin3, editorconfig-core, insighttoolkit, linux, linux-aws, linux-aws-6.17, linux-gcp, linux-gcp-6.17, linux-hwe-6.17, linux-oracle, linux-realtime, linux-realtime-6.17, linux-azure, linux-azure-6.17, linux-oem-6.17, linux-azure-5.15, linux-gcp-6.8, nghttp2, python-dynaconf, slurm-wlm, swish-e, and webkit2gtk).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071568/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 07 May 2026 06:36:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071568/" title="https://lwn.net/Articles/1071568/">Three stable kernel updates</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The
-<a href="https://lwn.net/Articles/1071569/">7.0.4</a>,
-<a href="https://lwn.net/Articles/1071570/">6.18.27</a>, and
-<a href="https://lwn.net/Articles/1071571/">6.12.86</a>
-stable kernels have been released; each contains another set of important
-fixes.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1070466/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 07 May 2026 00:01:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070466/" title="https://lwn.net/Articles/1070466/">[$] LWN.net Weekly Edition for May 7, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1070466/">Front</a>: LLMs and security; restartable sequences and TCMalloc; Fedora and GNOME bug reports; Prolly trees; Arm on s390.
-            <li> <a href="https://lwn.net/Articles/1070468/">Briefs</a>: NHS open source; Alpine outage; GCC 16.1; Incus 7.0 LTS; NetHack 5.0.0; PHP license; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1070469/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1070698/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 06 May 2026 14:56:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070698/" title="https://lwn.net/Articles/1070698/">[$] LLM-driven security reports disrupt coordinated disclosure</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Predictions that LLM tools would cause a surge in reports of security vulnerabilities
-have, unquestionably, borne out. As expected, maintainers are having to wade
-through more security reports than ever before; in addition, LLM tools are
-disrupting traditional-coordinated disclosure practices as well. The method of <a
-href="https://copy.fail/">Copy Fail</a>'s disclosure, in particular, left
-vendors, projects, and users scrambling. In addition, maintainers are seeing
-parallel discovery of the same security flaws within the embargo window. Both
-of these developments mean that coordinated security disclosures may become a
-thing of the past.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071469/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 06 May 2026 13:53:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071469/" title="https://lwn.net/Articles/1071469/">Incus 7.0 LTS released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://discuss.linuxcontainers.org/t/incus-7-0-lts-has-been-released/26641">Version
-7.0</a> of the Incus container and
-virtual-machine management system has been released. Notable changes in this
-release include the inclusion of a low-level backup API, the <a
-href="https://discuss.linuxcontainers.org/t/incus-7-0-lts-has-been-released/26641#p-90660-minio-replaced-by-built-in-s3-listener-5">addition
-of basic S3 operations</a> directly in Incus to replace the now-unmaintained
-MinIO project, as well as the removal of support for
-cgroups v1 and xtables (iptables/ip6tables/ebtables). This is a
-long-term-support (LTS) release, with support through June 2031.</p>
-
-<blockquote class="bq">
-<p>The first 2 years will feature bug and security fixes as well as minor
-usability improvements, delivered through occasional point releases
-(7.0.x). After that initial two years, Incus 7.0 LTS will move to security only
-maintenance for the remaining of its 5 years of support.</p>
-
-<p>A total of 204 individuals contributed to Incus between the 6.0 LTS and 7.0
-LTS releases with 45 contributing between the 6.23 and 7.0 LTS releases.</p>
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
