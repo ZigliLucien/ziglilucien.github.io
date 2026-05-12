@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1072317/" title="See Description">[$] Using dma-bufs for read and write operations</a></li>
 <li><a href="#https://lwn.net/Articles/1071716/" title="See Description">[$] Scaling transparent huge pages to 1GB</a></li>
 <li><a href="#https://lwn.net/Articles/1072498/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1072325/" title="See Description">Stenberg: Mythos finds a curl vulnerability</a></li>
@@ -52,10 +53,26 @@
 <li><a href="#https://lwn.net/Articles/1071256/" title="See Description">[$] A 2026 DAMON update</a></li>
 <li><a href="#https://lwn.net/Articles/1071859/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1071775/" title="See Description">Four stable kernels with partial fixes for Dirty Frag</a></li>
-<li><a href="#https://lwn.net/Articles/1071719/" title="See Description">Dirty Frag: a zero-day universal Linux LPE</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1072317/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 12 May 2026 17:25:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072317/" title="https://lwn.net/Articles/1072317/">[$] Using dma-bufs for read and write operations</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
+href="https://docs.kernel.org/driver-api/dma-buf.html">dma-buf
+subsystem</a> provides a way for drivers to share memory buffers, usually
+in order to support efficient device-to-device <span class="nobreak">I/O</span>.  At the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Pavel Begunkov, assisted
+by Kanchan Joshi, led a joint session of the storage and memory-management
+tracks to explore ways to make the use of dma-bufs more efficient yet, and
+to make them available for read and write operations initiated by user
+space.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1071716/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 12 May 2026 13:24:49 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -294,38 +311,6 @@ href="https://lwn.net/ml/all/2026050859-ahead-anchovy-05e2@gregkh/">confirmed</a
 that a second patch is required, but it is still in development and has not yet been merged.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071719/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 07 May 2026 20:25:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071719/" title="https://lwn.net/Articles/1071719/">Dirty Frag: a zero-day universal Linux LPE</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Hyunwoo Kim has <a
-href="https://lwn.net/ml/all/afzgS2SCWNcZU3vU%40v4bel/">announced</a>
-the <a
-href="https://github.com/V4bel/dirtyfrag#dirty-frag-universal-linux-lpe">Dirty
-Frag</a> security flaw, a
-local-privilege-escalation (LPE) vulnerability similar to the
-recently disclosed <a href="https://copy.fail/">Copy Fail</a>
-flaw:</p>
-
-<blockquote class="bq">
-<p>Because the embargo has now been broken, no patches or CVEs exist for 
-these vulnerabilities. After consultation with the linux-distros@vs.openwall.org
-maintainers, and at the maintainers' request, I am publicly releasing this 
-Dirty Frag document.</p>
-<p>As with the previous Copy Fail vulnerability, Dirty Frag likewise allows 
-immediate root privilege escalation on all major distributions.</p>
-</blockquote>
-
-<p>Kim, who discovered the flaw and had attempted a coordinated
-disclosure set for May&#160;12, has released the code for an exploit, as well as a example
-script to remove the vulnerable modules. A <a
-href="https://github.com/V4bel/dirtyfrag/blob/master/assets/write-up.md">full
-write-up</a>, with the disclosure timeline, is also available. It's
-unknown at this time whether this is an example of parallel discovery
-or how the third party was able to disclose it prior to the end of the
-embargo. We will be following up as more information comes to light.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
