@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1071716/" title="See Description">[$] Scaling transparent huge pages to 1GB</a></li>
+<li><a href="#https://lwn.net/Articles/1072498/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1072325/" title="See Description">Stenberg: Mythos finds a curl vulnerability</a></li>
 <li><a href="#https://lwn.net/Articles/1072311/" title="See Description">Two stable kernels with Dirty Frag fixes</a></li>
 <li><a href="#https://lwn.net/Articles/1071484/" title="See Description">[$] Providing 64KB base pages with 4KB kernels, two different ways</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/1071859/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1071775/" title="See Description">Four stable kernels with partial fixes for Dirty Frag</a></li>
 <li><a href="#https://lwn.net/Articles/1071719/" title="See Description">Dirty Frag: a zero-day universal Linux LPE</a></li>
-<li><a href="#https://lwn.net/Articles/1070994/" title="See Description">[$] A new era for memory-management maintainership</a></li>
-<li><a href="#https://lwn.net/Articles/1071703/" title="See Description">An update on KDE's Union style engine</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1071716/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 12 May 2026 13:24:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071716/" title="https://lwn.net/Articles/1071716/">[$] Scaling transparent huge pages to 1GB</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>As a general rule, when developers talk about huge pages, they are
+referring to PMD-level pages that are 1MB or 2MB in size, depending on the
+CPU architecture.  Most CPUs can support other huge-page sizes, though.  On
+x86 systems, PUD-level huge pages hold 1GB of data.  Providing such large
+pages transparently to processes has generally not been considered as
+either feasible or desirable, but Usama Arif is trying to change that
+assessment.  At the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, he led a session in the
+memory-management track on how to make transparent huge pages (THPs) truly
+huge.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072498/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 12 May 2026 13:17:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072498/" title="https://lwn.net/Articles/1072498/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, glib2, libsoup3, and openexr), <b>Debian</b> (dnsmasq, p7zip, p7zip-rar, python-authlib, and rails), <b>Fedora</b> (chromium, firefox, httpd, and nss), <b>SUSE</b> (java-25-openj9, krb5, libmodsecurity3, and mcphost), and <b>Ubuntu</b> (imagemagick, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-azure-4.15, linux-fips, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-hwe, linux-kvm, linux-oracle, linux-azure, linux-azure-fips, linux-oracle, linux-azure-5.15, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and linux-raspi).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072325/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 11 May 2026 14:35:53 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -300,55 +326,6 @@ write-up</a>, with the disclosure timeline, is also available. It's
 unknown at this time whether this is an example of parallel discovery
 or how the third party was able to disclose it prior to the end of the
 embargo. We will be following up as more information comes to light.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1070994/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 07 May 2026 14:42:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070994/" title="https://lwn.net/Articles/1070994/">[$] A new era for memory-management maintainership</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>On April 21, Andrew Morton <a
-href="https://lwn.net/ml/all/20260421094216.8dfe14a8c62f2420fa5aace1@linux-foundation.org">let
-it be known</a> that he intends to begin stepping away from the
-maintainership of kernel's memory-management subsystem — a responsibility
-he has carried since before memory management was even seen as its own
-subsystem.  At the 2026 Linux Storage, Filesystem, Memory Management, and
-BPF Summit, one of the first sessions in the memory-management track was
-devoted to how the maintainership would be managed going forward.  There
-are a lot of questions still to be answered.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071703/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 07 May 2026 14:10:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071703/" title="https://lwn.net/Articles/1071703/">An update on KDE's Union style engine</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Arjen Hiemstra has <a
-href="https://quantumproductions.info/articles/2026-05/union-spring-2026-update">published</a>
-an article on the status of the <a
-href="https://invent.kde.org/plasma/union#union">Union</a> project: a
-single system to support all of KDE's technologies used for styling
-applications.</p>
-
-<blockquote class="bq">
-<p>The work on Union's Breeze implementation has progressed to the
-point where it is very hard to distinguish whether or not you are
-running the Union version. We have also tested with a bunch of
-applications and made sure that any differences were fixed. So we are
-at a stage where we need to get Union into the hands of more people,
-both to get extra people testing whether there are any major issues,
-but also to have interested people creating new styles.</p>
-
-<p>This means that with the upcoming Plasma 6.7 release, we plan to
-include Union. Discussion is currently ongoing whether we will enable
-it by default, but even if not there will be a way to try it out.</p>
-</blockquote>
-
-<p>See Hiemstra's <a
-href="https://planet.kde.org/arjen-hiemstra-2025-02-10-moving-kde-s-styling-into-the-future/">introductory
-article on Union</a>, published in February 2025, for more about the
-project and its creation. KDE&#160;6.7 is expected to be released in mid-June.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
