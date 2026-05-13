@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1072333/" title="See Description">[$] Revisiting mshare</a></li>
+<li><a href="#https://lwn.net/Articles/1072596/" title="See Description">Security updates for Wednesday</a></li>
+<li><a href="#https://lwn.net/Articles/1072565/" title="See Description">Sovereign Tech Fund invests in KDE</a></li>
 <li><a href="#https://lwn.net/Articles/1072317/" title="See Description">[$] Using dma-bufs for read and write operations</a></li>
 <li><a href="#https://lwn.net/Articles/1071716/" title="See Description">[$] Scaling transparent huge pages to 1GB</a></li>
 <li><a href="#https://lwn.net/Articles/1072498/" title="See Description">Security updates for Tuesday</a></li>
@@ -50,12 +53,47 @@
 <li><a href="#https://lwn.net/Articles/1071483/" title="See Description">More stable kernels with partial Dirty Frag fixes</a></li>
 <li><a href="#https://lwn.net/Articles/1071499/" title="See Description">[$] Forgejo "carrot disclosure" raises security questions</a></li>
 <li><a href="#https://lwn.net/Articles/1071861/" title="See Description">killswitch for short-term emergency vulnerability mitigation</a></li>
-<li><a href="#https://lwn.net/Articles/1071256/" title="See Description">[$] A 2026 DAMON update</a></li>
-<li><a href="#https://lwn.net/Articles/1071859/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1071775/" title="See Description">Four stable kernels with partial fixes for Dirty Frag</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1072333/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 May 2026 13:19:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072333/" title="https://lwn.net/Articles/1072333/">[$] Revisiting mshare</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linux can share memory between processes, but each process (almost always)
+has its own set of page tables.  In situations where vast numbers of
+processes are sharing a memory region, the combined size of the page
+tables can exceed that of the shared memory itself.  There has, thus, long
+been an interest in enabling unrelated processes to share page tables
+referring to shared memory.  Anthony Yznaga is the latest developer to try
+to push this idea (known as "mshare") forward; he described the status of
+that work in a memory-management-track discussion at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> (LSFMM+BPF).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072596/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 May 2026 13:17:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072596/" title="https://lwn.net/Articles/1072596/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (corosync, freerdp, git-lfs, glib2, jq, kernel-rt, krb5, libpng, libtiff, openexr, and thunderbird), <b>Debian</b> (exim4), <b>Mageia</b> (apache, perl-Gazelle, php, and sed), <b>Slackware</b> (expat), <b>SUSE</b> (assimp-devel, go1.26, libQt6Svg6, python-jupyterlab, raylib, thunderbird, tor, and trivy), and <b>Ubuntu</b> (exim4).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072565/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 May 2026 13:09:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072565/" title="https://lwn.net/Articles/1072565/">Sovereign Tech Fund invests in KDE</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The KDE project has <a
+href="https://kde.org/announcements/sovereign-tech-fund-invests-kde/">announced</a>
+that it has been awarded over €1&#160;million from the Sovereign Tech Fund
+to improve its desktop-environment software.  "<q>The investment will be
+used to strengthen the structural reliability and security of KDE's core
+infrastructure, including Plasma, KDE Linux, and the frameworks underlying
+its communication services.</q>"</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072317/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 12 May 2026 17:25:31 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,51 +304,6 @@ a vulnerable path (and its associated functionality) out of existence until
 a fix can be installed.  "<q>For most users, the cost of 'this socket
 family stops working for the day' is much smaller than the cost of running
 a known vulnerable kernel until the fix land.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071256/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 May 2026 13:20:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071256/" title="https://lwn.net/Articles/1071256/">[$] A 2026 DAMON update</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
-href="https://docs.kernel.org/admin-guide/mm/damon/">DAMON</a> subsystem
-provides user-space monitoring and management of system memory.  DAMON is
-developing rapidly, so an update on its progress has become a regular
-feature of the annual <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  This tradition
-continued at the 2026 gathering with an update from DAMON creator SeongJae
-Park covering a long list of new capabilities — tiering, data attributes
-monitoring, transparent huge pages, and more — being added to this subsystem.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071859/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 May 2026 13:13:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071859/" title="https://lwn.net/Articles/1071859/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libsoup and mingw-libtiff), <b>Debian</b> (apache2, chromium, lcms2, libreoffice, and prosody), <b>Fedora</b> (openssl and perl-Starman), <b>Oracle</b> (git-lfs, libsoup, and perl-XML-Parser), <b>Slackware</b> (libgpg, mozilla, and php), <b>SUSE</b> (389-ds, cairo, cf-cli, chromedriver, cri-tools, freeipmi, gnutls, grafana, java-11-openjdk, java-17-openjdk, jetty-minimal, libmariadbd-devel, librsvg, mesa, mozjs52, mutt, nix, opencryptoki, python-Django, python-django, python-pytest, rmt-server, thunderbird, traefik, webkit2gtk3, wireshark, and xen), and <b>Ubuntu</b> (civicrm, dpkg, htmlunit, lcms2, libpng1.6, linux, linux-*, linux-azure, linux-azure-fips, linux-raspi, linux-xilinx, lua5.1, nasm, opam, openexr, openjpeg2, owslib, postfix, postfixadmin, and vim).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071775/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 May 2026 09:49:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071775/" title="https://lwn.net/Articles/1071775/">Four stable kernels with partial fixes for Dirty Frag</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1071776/">7.0.5</a>, <a
-href="https://lwn.net/Articles/1071777/">6.18.28</a>, <a
-href="https://lwn.net/Articles/1071778/">6.12.87</a>, and <a
-href="https://lwn.net/Articles/1071779/">6.6.138</a> stable kernels. These kernels
-contain a partial fix for the <a
-href="https://github.com/V4bel/dirtyfrag#dirty-frag-universal-linux-lpe">Dirty
-Frag</a> and <a
-href="https://www.openwall.com/lists/oss-security/2026/05/07/12">Copy&#160;Fail&#160;2</a>
-security flaws. Kroah-Hartman has <a
-href="https://lwn.net/ml/all/2026050859-ahead-anchovy-05e2@gregkh/">confirmed</a>
-that a second patch is required, but it is still in development and has not yet been merged.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
