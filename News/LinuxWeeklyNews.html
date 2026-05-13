@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1071949/" title="See Description">[$] Friction in Fedora over AI developer desktop initiative</a></li>
+<li><a href="#https://lwn.net/Articles/1072647/" title="See Description">Yet another Dirty Frag type vulnerability: Fragnesia</a></li>
+<li><a href="#https://lwn.net/Articles/1072367/" title="See Description">[$] Managing pages outside of the direct map</a></li>
 <li><a href="#https://lwn.net/Articles/1072333/" title="See Description">[$] Revisiting mshare</a></li>
 <li><a href="#https://lwn.net/Articles/1072596/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1072565/" title="See Description">Sovereign Tech Fund invests in KDE</a></li>
@@ -50,12 +53,73 @@
 <li><a href="#https://lwn.net/Articles/1072314/" title="See Description">Debian to require reproducible builds</a></li>
 <li><a href="#https://lwn.net/Articles/1072301/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1072100/" title="See Description">Kernel prepatch 7.1-rc3</a></li>
-<li><a href="#https://lwn.net/Articles/1071483/" title="See Description">More stable kernels with partial Dirty Frag fixes</a></li>
-<li><a href="#https://lwn.net/Articles/1071499/" title="See Description">[$] Forgejo "carrot disclosure" raises security questions</a></li>
-<li><a href="#https://lwn.net/Articles/1071861/" title="See Description">killswitch for short-term emergency vulnerability mitigation</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1071949/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 May 2026 16:05:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071949/" title="https://lwn.net/Articles/1071949/">[$] Friction in Fedora over AI developer desktop initiative</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>A push by Red Hat employees to create a Fedora "AI Developer
+Desktop" with support for out-of-tree kernel drivers and AI toolkits
+has been met with objections from some long-time members of the Fedora
+community. After more than a month of sometimes heated discussion, the
+<a href="https://docs.fedoraproject.org/en-US/council/">Fedora
+Council</a> had <a
+href="https://forge.fedoraproject.org/council/tickets/issues/562#issuecomment-697648">voted</a>
+to approve the initiative; however, a last-minute change to vote against the
+proposal by council member Justin Wheeler has (at least temporarily)
+sent it back to the drawing board.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072647/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 May 2026 15:26:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072647/" title="https://lwn.net/Articles/1072647/">Yet another Dirty Frag type vulnerability: Fragnesia</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Sam James has sent an <a
+href="https://lwn.net/ml/all/8733zvfucm.fsf%40gentoo.org/">announcement</a>
+to the OSS Security mailing list about another
+local-privilege-escalation (LPE) exploit in the same class as <a
+href="https://github.com/V4bel/dirtyfrag">Dirty Frag</a>, called
+"Fragnesia". From the <a
+href="https://github.com/v12-security/pocs/tree/main/fragnesia#fragnesia">disclosure</a>:</p>
+
+<blockquote class="bq">
+<p>This is a separate bug in the ESP/XFRM from dirtyfrag which has received its own patch. However, it is in the same surface and the mitigation is the same as for dirtyfrag.</p>
+
+<p>It abuses a logic bug in the Linux XFRM ESP-in-TCP subsystem to
+achieve arbitrary byte writes into the kernel page cache of read-only
+files, without requiring any race condition.</p>
+</blockquote>
+
+<p>James noted that there is a <a
+href="https://lwn.net/ml/all/20260513041635.1289541-1-vakzz%40zellic.io/">patch</a>
+in the works, but it has not yet been pulled into Linus Torvalds's
+tree nor into any of the stable kernels. A <a
+href="https://github.com/v12-security/pocs/blob/d4043edc2acbd75d093e3f5795751b678c66b259/fragnesia/fragnesia.c">proof
+of concept</a> is also available.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072367/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 13 May 2026 14:20:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072367/" title="https://lwn.net/Articles/1072367/">[$] Managing pages outside of the direct map</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>When Brendan Jackman <a
+href="https://lwn.net/ml/linux-mm/20260219175113.618562-1-jackmanb@google.com/">proposed</a>
+a session for the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, his topic was "<q>a
+pagetable library for the kernel</q>".  During the actual
+memory-management-track session, though, he stated that the idea had
+"<q>fizzled</q>" and he was going to cover related topics instead.  What
+resulted was a session on ways to efficiently manage pages that are not
+present in the kernel's direct map.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072333/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 13 May 2026 13:19:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -249,61 +313,6 @@ is normally used.  It is still a big step forward for reproducible builds.</bloc
 "<q>I think this answers the 'is 7.1 continuing the larger size pattern
 that we saw with 7.0?' question, and the answer is yes: that wasn't a fluke
 brought on by a .0 release - it simply seems to be the new normal.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071483/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 May 2026 19:50:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071483/" title="https://lwn.net/Articles/1071483/">More stable kernels with partial Dirty Frag fixes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1071994/">6.1.171</a>, <a
-href="https://lwn.net/Articles/1071996/">5.15.205</a>, and <a
-href="https://lwn.net/Articles/1071997/">5.10.255</a> stable kernels, quickly
-followed by <a href="https://lwn.net/Articles/1071998/">6.1.172</a> and <a
-href="https://lwn.net/Articles/1071999/">5.15.206</a> kernels. This is another round
-of stable kernels to provide fixes for one of the CVEs (<a
-href="https://www.cve.org/CVERecord?id=CVE-2026-43284">CVE-2026-43284</a>)
-assigned following the <a
-href="https://github.com/V4bel/dirtyfrag#dirty-frag-universal-linux-lpe">Dirty
-Frag</a> and <a
-href="https://www.openwall.com/lists/oss-security/2026/05/07/12">Copy&#160;Fail&#160;2</a>
-security disclosures. There is not, yet, a stable kernel with a fix
-for <a
-href="https://www.cve.org/CVERecord?id=CVE-2026-43500">CVE-2026-43500</a>,
-though <a href="https://lwn.net/ml/all/af2kdW2F1gJ9U-Gg%40v4bel/">a
-patch</a> to fix the second half is in the works.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071499/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 May 2026 16:30:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071499/" title="https://lwn.net/Articles/1071499/">[$] Forgejo "carrot disclosure" raises security questions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>An unusual, some might say hostile, approach to disclosing an alleged
-remote-code-execution (RCE) flaw in the <a
-href="https://forgejo.org/">Forgejo</a> software-collaboration platform has
-sparked a multifaceted conversation. A <span class="nobreak">so-called</span>
-"<q>carrot disclosure</q>" in April has raised questions about the
-researcher's methods of unveiling a security problem, Forgejo's
-security policies, and the project's overall security posture.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071861/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 08 May 2026 13:36:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071861/" title="https://lwn.net/Articles/1071861/">killswitch for short-term emergency vulnerability mitigation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>It seems that we are in for an extended period of the disclosure of
-vulnerabilities before fixes become available.  One possible way of coping
-with this flood might be the <a
-href="https://lwn.net/ml/all/20260507070547.2268452-1-sashal@kernel.org">killswitch</a>
-proposal from Sasha Levin.  In short, killswitch can immediately disable
-access to specific functionality in a running kernel, essentially blasting
-a vulnerable path (and its associated functionality) out of existence until
-a fix can be installed.  "<q>For most users, the cost of 'this socket
-family stops working for the day' is much smaller than the cost of running
-a known vulnerable kernel until the fix land.</q>"</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
