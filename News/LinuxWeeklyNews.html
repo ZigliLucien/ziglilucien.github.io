@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1072378/" title="See Description">[$] Keeping COWs in context (a.k.a. anonymous reverse mapping)</a></li>
+<li><a href="#https://lwn.net/Articles/1072838/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1071535/" title="See Description">[$] LWN.net Weekly Edition for May 14, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1071949/" title="See Description">[$] Friction in Fedora over AI developer desktop initiative</a></li>
 <li><a href="#https://lwn.net/Articles/1072647/" title="See Description">Yet another Dirty Frag type vulnerability: Fragnesia</a></li>
@@ -51,11 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1072325/" title="See Description">Stenberg: Mythos finds a curl vulnerability</a></li>
 <li><a href="#https://lwn.net/Articles/1072311/" title="See Description">Two stable kernels with Dirty Frag fixes</a></li>
 <li><a href="#https://lwn.net/Articles/1071484/" title="See Description">[$] Providing 64KB base pages with 4KB kernels, two different ways</a></li>
-<li><a href="#https://lwn.net/Articles/1072314/" title="See Description">Debian to require reproducible builds</a></li>
-<li><a href="#https://lwn.net/Articles/1072301/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1072378/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 May 2026 13:14:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072378/" title="https://lwn.net/Articles/1072378/">[$] Keeping COWs in context (a.k.a. anonymous reverse mapping)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's reverse-mapping machinery is charged with locating the
+page-table entries that refer to a given page in memory.  The reverse
+mapping of anonymous pages is handled differently than for file-backed
+pages.  The kernel's implementation of reverse mapping for anonymous pages
+is, according to Lorenzo Stoakes in his <a
+href="https://lwn.net/ml/all/aec533b2-37a7-4f44-a279-c4aa604206ac@lucifer.local/">proposal</a>
+for a memory-management-track session at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, "<q>a very broken
+abstraction</q>", due to its complexity.  It also has some performance
+problems.  Stoakes was there to present, in raw form, a proposed
+replacement that he calls a "COW context".
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072838/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 May 2026 13:09:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072838/" title="https://lwn.net/Articles/1072838/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gimp, jq, and yggdrasil), <b>Debian</b> (nghttp2 and thunderbird), <b>Fedora</b> (chromium, firefox, freerdp, GitPython, kernel, kernel-headers, krb5, nano, nix, nodejs20, php, python-click, python-django5, SDL2_image, and xen), <b>Mageia</b> (dnsmasq, flatpak, kernel, kmod-virtualbox, kernel-linus, perl-Net-CIDR-Lite, perl-XML-LibXML, and redis), <b>SUSE</b> (dnsmasq, firefox, jupyter-jupyterlab, kernel, krb5, libvinylapi3, log4j, Mesa, mozjs60, NetworkManager, OpenImageIO, python-Mako, python-Pillow, and python39), and <b>Ubuntu</b> (dnsmasq and nginx).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1071535/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 14 May 2026 01:04:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -286,37 +313,6 @@ the memory-management track explored options for letting processes run with
 64KB page sizes when the underlying kernel does not.  The first was focused
 on letting each process have its own page size, while the second concerned
 bringing 64KB pages to x86 systems.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072314/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 11 May 2026 13:21:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072314/" title="https://lwn.net/Articles/1072314/">Debian to require reproducible builds</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Paul Gevers has slipped an interesting bit of news into a "<a
-href="https://lwn.net/ml/all/E1wLw4g-000n88-0p@respighi.debian.org">bits from the release
-team</a>" message:
-<p>
-<blockquote class="bq">
-	Aided by the efforts of the Reproducible Builds project, we've
-	decided it's time to say that Debian must ship reproducible
-	packages. Since yesterday, we have enabled our migration software
-	to block migration of new packages that can't be reproduced or
-	existing packages (in testing) that regress in reproducibility.
-</blockquote>
-<p>
-As Gioele Barabucci <a
-href="https://lwn.net/ml/all/603a3905-a87b-47c2-b834-12e58bed136f@debian.org">pointed
-out</a>, "reproducible" in this sense is limited to building within an
-instance of Debian's build environment, which is a tighter requirement than
-is normally used.  It is still a big step forward for reproducible builds.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072301/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 11 May 2026 13:10:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072301/" title="https://lwn.net/Articles/1072301/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (corosync, freeipmi, kernel, and kernel-rt), <b>Debian</b> (corosync, firefox-esr, kernel, lcms2, libpng1.6, linux-6.1, php8.2, php8.4, postorius, pyjwt, and tor), <b>Fedora</b> (dotnet10.0, exim, gnutls, kernel, nextcloud, nodejs22, php, proftpd, prosody, python-pulp-glue, python-requests, rclone, and SDL3_image), <b>Mageia</b> (firefox, nss, rootcerts, openvpn, thunderbird, and vim), <b>Oracle</b> (corosync, freeipmi, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, and gstreamer1-plugins-good, kernel, libpng, and mingw-libtiff), <b>Slackware</b> (kernel and mozilla), <b>SUSE</b> (build, product-composer, c-ares, cairo, copacetic, distribution, firefox, firefox-esr, frr, glibc, go1.25, google-cloud-sap-agent, iproute2, java-11-openj9, java-17-openj9, java-17-openjdk, java-1_8_0-openj9, java-21-openj9, java-21-openjdk, java-25-openjdk, kernel, libexif-devel, libpcp-devel, libtpms, libtree-sitter0_26, Mesa, micropython, mozjs128, nginx, opencc, openCryptoki, php-composer2, podman, postfix, python-pytest, python311-Django, python311-Django4, redis, semaphore, strongswan, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, tor, valkey, vim, and wireshark), and <b>Ubuntu</b> (linux-nvidia-tegra, linux-raspi, linux-raspi-5.4, and nasm).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
