@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1072019/" title="See Description">[$] Buffered atomic writes, writethrough, and more</a></li>
+<li><a href="#https://lwn.net/Articles/1072849/" title="See Description">Three stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1072378/" title="See Description">[$] Keeping COWs in context (a.k.a. anonymous reverse mapping)</a></li>
 <li><a href="#https://lwn.net/Articles/1072838/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1071535/" title="See Description">[$] LWN.net Weekly Edition for May 14, 2026</a></li>
@@ -51,11 +53,47 @@
 <li><a href="#https://lwn.net/Articles/1071716/" title="See Description">[$] Scaling transparent huge pages to 1GB</a></li>
 <li><a href="#https://lwn.net/Articles/1072498/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1072325/" title="See Description">Stenberg: Mythos finds a curl vulnerability</a></li>
-<li><a href="#https://lwn.net/Articles/1072311/" title="See Description">Two stable kernels with Dirty Frag fixes</a></li>
-<li><a href="#https://lwn.net/Articles/1071484/" title="See Description">[$] Providing 64KB base pages with 4KB kernels, two different ways</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1072019/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 May 2026 14:54:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072019/" title="https://lwn.net/Articles/1072019/">[$] Buffered atomic writes, writethrough, and more</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>In back-to-back sessions at the start of the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> (which spilled over into
+a third slot), the <a href="https://lwn.net/Articles/1060063/">atomic-buffered-writes
+feature</a> was discussed.  In the first session, Pankaj Raghav and Andres
+Freund set the stage with an introduction to the problem, along with a use
+case for its solution: the PostgreSQL database system.  In the second, Ojaswin Mujoo
+described a potential way forward for the feature using an approach based
+on writethrough, which effectively means that the kernel immediately writes
+the data to disk instead of waiting for writeback from the page cache to occur.  As might be
+expected, there was quite a bit of discussion among the assembled
+filesystems and storage developers during the combined sessions for those
+tracks.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072849/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 May 2026 14:44:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072849/" title="https://lwn.net/Articles/1072849/">Three stable kernels for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1072850/">7.0.7</a>, <a
+href="https://lwn.net/Articles/1072851/">6.18.30</a>, and <a
+href="https://lwn.net/Articles/1072852/">6.12.88</a> stable kernels. These kernels do
+not include a patch for the <a
+href="https://github.com/v12-security/pocs/tree/main/fragnesia#fragnesia">Fragnesia</a>
+<span class="nobreak">local-privilege-escalation</span> exploit that <a
+href="https://lwn.net/Articles/1072647/">came to light</a> on
+May&#160;13, but do include many other important fixes throughout the
+tree. Users are, as always, advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072378/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 14 May 2026 13:14:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,42 +316,6 @@ quality chaos</a> is real.</p>
 </blockquote>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072311/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 11 May 2026 13:35:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072311/" title="https://lwn.net/Articles/1072311/">Two stable kernels with Dirty Frag fixes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1072312/">7.0.6</a> and <a
-href="https://lwn.net/Articles/1072313/">6.18.29</a> stable kernels with Hyunwoo
-Kim's <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71">patch</a>
-for the second vulnerability (<a
-href="https://lwn.net/ml/all/2026051149-CVE-2026-43500-60d6%40gregkh/">CVE-2026-43500</a>)
-reported with <a
-href="https://github.com/V4bel/dirtyfrag#dirty-frag-universal-linux-lpe">Dirty&#160;Frag</a>
-and <a
-href="https://www.openwall.com/lists/oss-security/2026/05/07/12">Copy&#160;Fail&#160;2</a>. All
-users are advised to upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071484/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 11 May 2026 13:35:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071484/" title="https://lwn.net/Articles/1071484/">[$] Providing 64KB base pages with 4KB kernels, two different ways</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Some CPU architectures are able to run with a number of different base-page
-sizes; using a larger size can often result in better performance at the
-cost of increased memory use.  Other architectures are more limited.  At
-the 2026 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
-Storage, Filesystem, Memory Management, and BPF Summit</a>, two sessions in
-the memory-management track explored options for letting processes run with
-64KB page sizes when the underlying kernel does not.  The first was focused
-on letting each process have its own page size, while the second concerned
-bringing 64KB pages to x86 systems.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
