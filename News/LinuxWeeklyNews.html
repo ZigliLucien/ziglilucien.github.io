@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1072517/" title="See Description">[$] Policy groups for memory management</a></li>
 <li><a href="#https://lwn.net/Articles/1072019/" title="See Description">[$] Buffered atomic writes, writethrough, and more</a></li>
 <li><a href="#https://lwn.net/Articles/1072849/" title="See Description">Three stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1072378/" title="See Description">[$] Keeping COWs in context (a.k.a. anonymous reverse mapping)</a></li>
@@ -52,10 +53,26 @@
 <li><a href="#https://lwn.net/Articles/1072317/" title="See Description">[$] Using dma-bufs for read and write operations</a></li>
 <li><a href="#https://lwn.net/Articles/1071716/" title="See Description">[$] Scaling transparent huge pages to 1GB</a></li>
 <li><a href="#https://lwn.net/Articles/1072498/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1072325/" title="See Description">Stenberg: Mythos finds a curl vulnerability</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1072517/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 14 May 2026 19:02:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072517/" title="https://lwn.net/Articles/1072517/">[$] Policy groups for memory management</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
+href="https://docs.kernel.org/admin-guide/cgroup-v2.html">control-group
+subsystem</a> works well for resource management, Chris Li said at the
+beginning of his memory-management-track session at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  Control groups work
+less well for other use cases, though.  He was there to present his
+proposed enhancement, called "policy groups", that would address some of
+the shortcomings that he has encountered.  A consensus on how this feature
+should look still seems distant, though.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072019/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 14 May 2026 14:54:26 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -281,41 +298,6 @@ huge.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, glib2, libsoup3, and openexr), <b>Debian</b> (dnsmasq, p7zip, p7zip-rar, python-authlib, and rails), <b>Fedora</b> (chromium, firefox, httpd, and nss), <b>SUSE</b> (java-25-openj9, krb5, libmodsecurity3, and mcphost), and <b>Ubuntu</b> (imagemagick, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-azure-4.15, linux-fips, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-hwe, linux-kvm, linux-oracle, linux-azure, linux-azure-fips, linux-oracle, linux-azure-5.15, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and linux-raspi).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072325/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 11 May 2026 14:35:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072325/" title="https://lwn.net/Articles/1072325/">Stenberg: Mythos finds a curl vulnerability</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Daniel Stenberg has published a <a
-href="https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/">lengthy
-article</a> on his thoughts on Anthropic's Mythos, which the company
-decided was too dangerous for wide public release.</p>
-
-<blockquote class="bq">
-<p>My personal conclusion can however not end up with anything else
-than that the big hype around this model so far was primarily
-marketing. I see no evidence that this setup finds issues to any
-particular higher or more advanced degree than the other tools have
-done before Mythos. Maybe this model is a little bit better, but even
-if it is, it is not better to a degree that seems to make a
-significant dent in code analyzing.</p>
-
-<p>This is just one source code repository and maybe it is much better
-on other things. I can only tell and comment on what it found
-here.</p>
-
-<p>But allow me to highlight and reiterate what I have said before: AI
-powered code analyzers are significantly better at finding security
-flaws and mistakes in source code than any traditional code analyzers
-did in the past. All modern AI models are good at this now. Anyone
-with time and some experimental spirits can find security problems
-now. The <a
-href="https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/">high
-quality chaos</a> is real.</p>
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
