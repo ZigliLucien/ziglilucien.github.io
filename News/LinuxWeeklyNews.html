@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1073060/" title="See Description">Seven new stable kernels with patches for CVE-2026-46333</a></li>
+<li><a href="#https://lwn.net/Articles/1072531/" title="See Description">[$] HugeTLB preservation over live update</a></li>
+<li><a href="#https://lwn.net/Articles/1073059/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1072517/" title="See Description">[$] Policy groups for memory management</a></li>
 <li><a href="#https://lwn.net/Articles/1072019/" title="See Description">[$] Buffered atomic writes, writethrough, and more</a></li>
 <li><a href="#https://lwn.net/Articles/1072849/" title="See Description">Three stable kernels for Thursday</a></li>
@@ -50,12 +53,58 @@
 <li><a href="#https://lwn.net/Articles/1072333/" title="See Description">[$] Revisiting mshare</a></li>
 <li><a href="#https://lwn.net/Articles/1072596/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1072565/" title="See Description">Sovereign Tech Fund invests in KDE</a></li>
-<li><a href="#https://lwn.net/Articles/1072317/" title="See Description">[$] Using dma-bufs for read and write operations</a></li>
-<li><a href="#https://lwn.net/Articles/1071716/" title="See Description">[$] Scaling transparent huge pages to 1GB</a></li>
-<li><a href="#https://lwn.net/Articles/1072498/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1073060/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 15 May 2026 13:34:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073060/" title="https://lwn.net/Articles/1073060/">Seven new stable kernels with patches for CVE-2026-46333</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the <a
+href="https://lwn.net/Articles/1073061/">7.0.8</a>, <a
+href="https://lwn.net/Articles/1073062/">6.18.31</a>, <a
+href="https://lwn.net/Articles/1073063/">6.12.89</a>, <a
+href="https://lwn.net/Articles/1073064/">6.6.139</a>, <a
+href="https://lwn.net/Articles/1073065/">6.1.173</a>, <a
+href="https://lwn.net/Articles/1073066/">5.15.207</a>, and <a
+href="https://lwn.net/Articles/1073067/">5.10.256</a> stable kernels. These kernels
+contain a patch for <a
+href="https://lwn.net/ml/all/2026051554-CVE-2026-46333-662a%40gregkh/">CVE-2026-46333</a>
+a vulnerability <a
+href="https://lwn.net/ml/all/20260515022033.GA10889%40localhost.localdomain/">reported
+by the Qualys Security Advisory team</a>, though Jann Horn <a
+href="https://lwn.net/ml/all/20201016230915.1972840-1-jannh%40google.com/">proposed
+a patch</a> in 2020. The vulnerability has a <a
+href="https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn#ssh-keysign-pwn">proof-of-concept
+exploit</a> published already. Some of the kernels have additional
+patches for other bugs; as always, users are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072531/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 15 May 2026 13:27:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072531/" title="https://lwn.net/Articles/1072531/">[$] HugeTLB preservation over live update</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Recent times have seen a lot of effort put into the implementation of the <a
+href="https://lwn.net/Articles/1033364/">kexec handover and live update orchestrator</a>
+features in the Linux kernel.  But that work is not yet complete.  At the
+2026 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Pratyush Yadav led a
+memory-management-track session on adding the ability to preserve <a
+href="https://docs.kernel.org/admin-guide/mm/hugetlbpage.html">hugetlbfs</a>-provided
+memory during the live-update process.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073059/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 15 May 2026 13:16:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073059/" title="https://lwn.net/Articles/1073059/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ffmpeg, gsasl, nodejs, postgresql-15, postgresql-17, python3.9, and thunderbird), <b>Fedora</b> (expat, firefox, freerdp, GitPython, kernel, php, rust-podman-sequoia, rust-rpm-sequoia, rust-sequoia-chameleon-gnupg, rust-sequoia-git, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-openpgp, rust-sequoia-sop, rust-sequoia-sq, and rust-sequoia-sqv), <b>Mageia</b> (awstats, libreoffice, perl-HTTP-Tiny, and tomcat), <b>Oracle</b> (corosync, freerdp, gimp, git-lfs, glib2, jq, kernel, krb5, libsoup3, libtiff, openexr, thunderbird, uek-kernel, and yggdrasil), <b>Red Hat</b> (podman and skopeo), <b>SUSE</b> (amazon-ssm-agent, avahi, c-ares, cairo, containerd, cpp-httplib, dnsmasq, dovecot24, ffmpeg-4, firefox, helm, ImageMagick, iproute2, kernel, krb5, libtpms, ongres-scram, ongres-stringprep, plexus-testing, maven, maven-doxia, mojo-parent, sisu, openCryptoki, openssh, perl-Text-CSV_XS, php8, python-lxml, python-Twisted-doc, python311-click, python311-GitPython, rclone, regclient, and syncthing), and <b>Ubuntu</b> (avahi).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072517/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 14 May 2026 19:02:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -255,49 +304,6 @@ to improve its desktop-environment software.  "<q>The investment will be
 used to strengthen the structural reliability and security of KDE's core
 infrastructure, including Plasma, KDE Linux, and the frameworks underlying
 its communication services.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072317/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 12 May 2026 17:25:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072317/" title="https://lwn.net/Articles/1072317/">[$] Using dma-bufs for read and write operations</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
-href="https://docs.kernel.org/driver-api/dma-buf.html">dma-buf
-subsystem</a> provides a way for drivers to share memory buffers, usually
-in order to support efficient device-to-device <span class="nobreak">I/O</span>.  At the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Pavel Begunkov, assisted
-by Kanchan Joshi, led a joint session of the storage and memory-management
-tracks to explore ways to make the use of dma-bufs more efficient yet, and
-to make them available for read and write operations initiated by user
-space.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071716/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 12 May 2026 13:24:49 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071716/" title="https://lwn.net/Articles/1071716/">[$] Scaling transparent huge pages to 1GB</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>As a general rule, when developers talk about huge pages, they are
-referring to PMD-level pages that are 1MB or 2MB in size, depending on the
-CPU architecture.  Most CPUs can support other huge-page sizes, though.  On
-x86 systems, PUD-level huge pages hold 1GB of data.  Providing such large
-pages transparently to processes has generally not been considered as
-either feasible or desirable, but Usama Arif is trying to change that
-assessment.  At the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, he led a session in the
-memory-management track on how to make transparent huge pages (THPs) truly
-huge.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072498/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 12 May 2026 13:17:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072498/" title="https://lwn.net/Articles/1072498/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, glib2, libsoup3, and openexr), <b>Debian</b> (dnsmasq, p7zip, p7zip-rar, python-authlib, and rails), <b>Fedora</b> (chromium, firefox, httpd, and nss), <b>SUSE</b> (java-25-openj9, krb5, libmodsecurity3, and mcphost), and <b>Ubuntu</b> (imagemagick, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-azure-4.15, linux-fips, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-hwe, linux-kvm, linux-oracle, linux-azure, linux-azure-fips, linux-oracle, linux-azure-5.15, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and linux-raspi).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
