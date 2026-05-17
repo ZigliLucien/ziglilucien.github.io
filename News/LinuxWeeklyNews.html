@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1073186/" title="See Description">RIP Peter G. Neumann</a></li>
+<li><a href="#https://lwn.net/Articles/1073161/" title="See Description">Some weekend stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1072538/" title="See Description">[$] Controlling memory management with BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1073060/" title="See Description">Seven new stable kernels with patches for CVE-2026-46333</a></li>
 <li><a href="#https://lwn.net/Articles/1072531/" title="See Description">[$] HugeTLB preservation over live update</a></li>
@@ -51,11 +53,31 @@
 <li><a href="#https://lwn.net/Articles/1071949/" title="See Description">[$] Friction in Fedora over AI developer desktop initiative</a></li>
 <li><a href="#https://lwn.net/Articles/1072647/" title="See Description">Yet another Dirty Frag type vulnerability: Fragnesia</a></li>
 <li><a href="#https://lwn.net/Articles/1072367/" title="See Description">[$] Managing pages outside of the direct map</a></li>
-<li><a href="#https://lwn.net/Articles/1072333/" title="See Description">[$] Revisiting mshare</a></li>
-<li><a href="#https://lwn.net/Articles/1072596/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1073186/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 17 May 2026 19:36:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073186/" title="https://lwn.net/Articles/1073186/">RIP Peter G. Neumann</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>We have <a
+href="https://lwn.net/ml/all/CAEoi9W7rpLzdJzYJ3-F0KVJo-wQXa7UawUYtUoUUYy36m5e_3Q@mail.gmail.com">received
+word</a> that Peter G. Neumann, who, among many other things, ran the <a
+href="https://catless.ncl.ac.uk/Risks/">RISKS Digest</a> for decades, has
+passed away.  He will be much missed.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073161/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 17 May 2026 17:43:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073161/" title="https://lwn.net/Articles/1073161/">Some weekend stable kernel updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1073162/">7.0.9</a>,
+<a href="https://lwn.net/Articles/1073163/">6.18.32</a>,
+<a href="https://lwn.net/Articles/1073164/">6.12.90</a>, and
+<a href="https://lwn.net/Articles/1073165/">6.6.140</a> stable kernels have been released.
+Each contains yet another set of important fixes.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072538/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 15 May 2026 14:54:56 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -281,31 +303,6 @@ memory-management-track session, though, he stated that the idea had
 "<q>fizzled</q>" and he was going to cover related topics instead.  What
 resulted was a session on ways to efficiently manage pages that are not
 present in the kernel's direct map.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072333/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 13 May 2026 13:19:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072333/" title="https://lwn.net/Articles/1072333/">[$] Revisiting mshare</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linux can share memory between processes, but each process (almost always)
-has its own set of page tables.  In situations where vast numbers of
-processes are sharing a memory region, the combined size of the page
-tables can exceed that of the shared memory itself.  There has, thus, long
-been an interest in enabling unrelated processes to share page tables
-referring to shared memory.  Anthony Yznaga is the latest developer to try
-to push this idea (known as "mshare") forward; he described the status of
-that work in a memory-management-track discussion at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> (LSFMM+BPF).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072596/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 13 May 2026 13:17:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072596/" title="https://lwn.net/Articles/1072596/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (corosync, freerdp, git-lfs, glib2, jq, kernel-rt, krb5, libpng, libtiff, openexr, and thunderbird), <b>Debian</b> (exim4), <b>Mageia</b> (apache, perl-Gazelle, php, and sed), <b>Slackware</b> (expat), <b>SUSE</b> (assimp-devel, go1.26, libQt6Svg6, python-jupyterlab, raylib, thunderbird, tor, and trivy), and <b>Ubuntu</b> (exim4).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
