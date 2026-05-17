@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1073193/" title="See Description">Kernel prepatch 7.1-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1073186/" title="See Description">RIP Peter G. Neumann</a></li>
 <li><a href="#https://lwn.net/Articles/1073161/" title="See Description">Some weekend stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1072538/" title="See Description">[$] Controlling memory management with BPF</a></li>
@@ -52,10 +53,39 @@
 <li><a href="#https://lwn.net/Articles/1071535/" title="See Description">[$] LWN.net Weekly Edition for May 14, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1071949/" title="See Description">[$] Friction in Fedora over AI developer desktop initiative</a></li>
 <li><a href="#https://lwn.net/Articles/1072647/" title="See Description">Yet another Dirty Frag type vulnerability: Fragnesia</a></li>
-<li><a href="#https://lwn.net/Articles/1072367/" title="See Description">[$] Managing pages outside of the direct map</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1073193/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 17 May 2026 21:39:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073193/" title="https://lwn.net/Articles/1073193/">Kernel prepatch 7.1-rc4</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1073192/">7.1-rc4</a> kernel prepatch is out for
+testing.
+<p>
+<blockquote class="bq">
+	Some of the documentation updates might be worth highlighting: the
+	continued flood of AI reports has basically made the security list
+	almost entirely unmanageable, with enormous duplication due to
+	different people finding the same things with the same
+	tools. People spend all their time just forwarding things to the
+	right people or saying "that was already fixed a week/month ago"
+	and pointing to the public discussion.
+<p>
+	Which is all entirely pointless churn, and we're making it clear
+	that AI detected bugs are pretty much by definition not secret, and
+	treating them on some private list is a waste of time for everybody
+	involved - and only makes that duplication worse because the
+	reporters can't even see each other's reports.
+</blockquote>
+<p>
+(He is referring to <a href="https://lwn.net/ml/all/87lddksslx.fsf@trenco.lwn.net/">this
+pull request</a> with patches from Willy Tarreau defining <a
+href="https://lwn.net/ml/all/20260509094755.2838-3-w@1wt.eu/">what constitutes a security
+bug</a> and <a href="https://lwn.net/ml/all/20260509094755.2838-4-w@1wt.eu/">responsible
+ways to use AI to find bugs</a>).</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1073186/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 17 May 2026 19:36:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -287,23 +317,6 @@ href="https://github.com/v12-security/pocs/blob/d4043edc2acbd75d093e3f5795751b67
 of concept exploit</a> is also available.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072367/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 13 May 2026 14:20:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072367/" title="https://lwn.net/Articles/1072367/">[$] Managing pages outside of the direct map</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>When Brendan Jackman <a
-href="https://lwn.net/ml/linux-mm/20260219175113.618562-1-jackmanb@google.com/">proposed</a>
-a session for the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, his topic was "<q>a
-pagetable library for the kernel</q>".  During the actual
-memory-management-track session, though, he stated that the idea had
-"<q>fizzled</q>" and he was going to cover related topics instead.  What
-resulted was a session on ways to efficiently manage pages that are not
-present in the kernel's direct map.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
