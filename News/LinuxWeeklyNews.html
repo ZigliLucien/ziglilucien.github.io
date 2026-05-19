@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1073579/" title="See Description">Firefox 151.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1072689/" title="See Description">[$] openSUSE "terms of site" raise complaints about age restrictions</a></li>
+<li><a href="#https://lwn.net/Articles/1073395/" title="See Description">[$] In search of faster this_cpu operations</a></li>
+<li><a href="#https://lwn.net/Articles/1072858/" title="See Description">[$] What's brewing in CXL</a></li>
 <li><a href="#https://lwn.net/Articles/1072840/" title="See Description">[$] Improving the per-CPU memory allocator</a></li>
 <li><a href="#https://lwn.net/Articles/1073542/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1073470/" title="See Description">pgBackRest will continue</a></li>
@@ -49,13 +53,70 @@
 <li><a href="#https://lwn.net/Articles/1072538/" title="See Description">[$] Controlling memory management with BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1073060/" title="See Description">Seven new stable kernels with patches for CVE-2026-46333</a></li>
 <li><a href="#https://lwn.net/Articles/1072531/" title="See Description">[$] HugeTLB preservation over live update</a></li>
-<li><a href="#https://lwn.net/Articles/1073059/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1072517/" title="See Description">[$] Policy groups for memory management</a></li>
-<li><a href="#https://lwn.net/Articles/1072019/" title="See Description">[$] Buffered atomic writes, writethrough, and more</a></li>
-<li><a href="#https://lwn.net/Articles/1072849/" title="See Description">Three stable kernels for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1073579/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 19 May 2026 16:10:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073579/" title="https://lwn.net/Articles/1073579/">Firefox 151.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a
+href="https://www.firefox.com/en-US/firefox/151.0/releasenotes/">Version
+151.0</a> of the Firefox browser has been released.  Significant changes
+include the ability to clear and restart a private-browsing session, better
+fingerprinting protection, control over the apparent location when using the
+Firefox VPN, and more.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072689/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 19 May 2026 15:27:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072689/" title="https://lwn.net/Articles/1072689/">[$] openSUSE "terms of site" raise complaints about age restrictions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Many people in the Linux community began using the operating system&mdash;and
+contributing to open source&mdash;at a tender age, often well before
+their 16th birthday. Thus, a recent change in openSUSE's <a
+href="https://en.opensuse.org/Terms_of_site">terms of site</a> (ToS)
+that required users of the project's web site to be "<q>at least 16
+years of age or the age of majority</q>" in their jurisdiction has
+raised objections. The terms have since been modified, though users
+must still have parental approval to create accounts if they are
+younger than 16.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073395/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 19 May 2026 14:30:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073395/" title="https://lwn.net/Articles/1073395/">[$] In search of faster this_cpu operations</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
+href="https://docs.kernel.org/core-api/this_cpu_ops.html">this_cpu
+operations</a> are meant to speed access to per-CPU variables.  They are
+more optimal on some CPUs than others, though.  During a
+memory-management-track session at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Yang Shi proposed a
+fundamental, and somewhat controversial, change to how these operations
+work in order to provide better performance on a wider range of architectures.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1072858/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 19 May 2026 14:15:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072858/" title="https://lwn.net/Articles/1072858/">[$] What's brewing in CXL</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://en.wikipedia.org/wiki/Compute_Express_Link">Compute
+Express Link (CXL)</a> is a technology intended to enable the provision of
+"memory nodes" in data centers that provide (possibly shared) memory to
+nearby CPUs.  It has, Dan Williams said at the beginning of his
+memory-management-track session on the topic at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, "<q>been making
+memory-management problems worse since 2021</q>".  He used the session to
+provide an overview of the ways in which CXL can be expected to extend that
+record into the future.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072840/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 19 May 2026 13:27:28 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -248,69 +309,6 @@ memory-management-track session on adding the ability to preserve <a
 href="https://docs.kernel.org/admin-guide/mm/hugetlbpage.html">hugetlbfs</a>-provided
 memory during the live-update process.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073059/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 May 2026 13:16:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073059/" title="https://lwn.net/Articles/1073059/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ffmpeg, gsasl, nodejs, postgresql-15, postgresql-17, python3.9, and thunderbird), <b>Fedora</b> (expat, firefox, freerdp, GitPython, kernel, php, rust-podman-sequoia, rust-rpm-sequoia, rust-sequoia-chameleon-gnupg, rust-sequoia-git, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-openpgp, rust-sequoia-sop, rust-sequoia-sq, and rust-sequoia-sqv), <b>Mageia</b> (awstats, libreoffice, perl-HTTP-Tiny, and tomcat), <b>Oracle</b> (corosync, freerdp, gimp, git-lfs, glib2, jq, kernel, krb5, libsoup3, libtiff, openexr, thunderbird, uek-kernel, and yggdrasil), <b>Red Hat</b> (podman and skopeo), <b>SUSE</b> (amazon-ssm-agent, avahi, c-ares, cairo, containerd, cpp-httplib, dnsmasq, dovecot24, ffmpeg-4, firefox, helm, ImageMagick, iproute2, kernel, krb5, libtpms, ongres-scram, ongres-stringprep, plexus-testing, maven, maven-doxia, mojo-parent, sisu, openCryptoki, openssh, perl-Text-CSV_XS, php8, python-lxml, python-Twisted-doc, python311-click, python311-GitPython, rclone, regclient, and syncthing), and <b>Ubuntu</b> (avahi).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072517/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 14 May 2026 19:02:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072517/" title="https://lwn.net/Articles/1072517/">[$] Policy groups for memory management</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's <a
-href="https://docs.kernel.org/admin-guide/cgroup-v2.html">control-group
-subsystem</a> works well for resource management, Chris Li said at the
-beginning of his memory-management-track session at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  Control groups work
-less well for other use cases, though.  He was there to present his
-proposed enhancement, called "policy groups", that would address some of
-the shortcomings that he has encountered.  A consensus on how this feature
-should look still seems distant, though.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072019/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 14 May 2026 14:54:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072019/" title="https://lwn.net/Articles/1072019/">[$] Buffered atomic writes, writethrough, and more</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In back-to-back sessions at the start of the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> (which spilled over into
-a third slot), the <a href="https://lwn.net/Articles/1060063/">atomic-buffered-writes
-feature</a> was discussed.  In the first session, Pankaj Raghav and Andres
-Freund set the stage with an introduction to the problem, along with a use
-case for its solution: the PostgreSQL database system.  In the second, Ojaswin Mujoo
-described a potential way forward for the feature using an approach based
-on writethrough, which effectively means that the kernel immediately writes
-the data to disk instead of waiting for writeback from the page cache to occur.  As might be
-expected, there was quite a bit of discussion among the assembled
-filesystems and storage developers during the combined sessions for those
-tracks.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072849/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 14 May 2026 14:44:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072849/" title="https://lwn.net/Articles/1072849/">Three stable kernels for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1072850/">7.0.7</a>, <a
-href="https://lwn.net/Articles/1072851/">6.18.30</a>, and <a
-href="https://lwn.net/Articles/1072852/">6.12.88</a> stable kernels. These kernels do
-not include a patch for the <a
-href="https://github.com/v12-security/pocs/tree/main/fragnesia#fragnesia">Fragnesia</a>
-<span class="nobreak">local-privilege-escalation</span> exploit that <a
-href="https://lwn.net/Articles/1072647/">came to light</a> on
-May&#160;13, but do include many other important fixes throughout the
-tree. Users are, as always, advised to upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
