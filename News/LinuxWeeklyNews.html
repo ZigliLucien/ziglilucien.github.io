@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1072840/" title="See Description">[$] Improving the per-CPU memory allocator</a></li>
+<li><a href="#https://lwn.net/Articles/1073542/" title="See Description">Security updates for Tuesday</a></li>
+<li><a href="#https://lwn.net/Articles/1073470/" title="See Description">pgBackRest will continue</a></li>
 <li><a href="#https://lwn.net/Articles/1072657/" title="See Description">[$] Swap tables, flash-friendly swap, swap_ops, and more</a></li>
 <li><a href="#https://lwn.net/Articles/1073356/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1073193/" title="See Description">Kernel prepatch 7.1-rc4</a></li>
@@ -50,12 +53,62 @@
 <li><a href="#https://lwn.net/Articles/1072517/" title="See Description">[$] Policy groups for memory management</a></li>
 <li><a href="#https://lwn.net/Articles/1072019/" title="See Description">[$] Buffered atomic writes, writethrough, and more</a></li>
 <li><a href="#https://lwn.net/Articles/1072849/" title="See Description">Three stable kernels for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1072378/" title="See Description">[$] Keeping COWs in context (a.k.a. anonymous reverse mapping)</a></li>
-<li><a href="#https://lwn.net/Articles/1072838/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1071535/" title="See Description">[$] LWN.net Weekly Edition for May 14, 2026</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1072840/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 19 May 2026 13:27:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072840/" title="https://lwn.net/Articles/1072840/">[$] Improving the per-CPU memory allocator</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>There are many places in the kernel where performance can be improved by
+using per-CPU data.  But, as it turns out, the kernel's allocator for
+per-CPU data has some performance problems of its own.  Harry Yoo led a
+session in the memory-management track of the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> to explore ways to
+address those problems and accelerate the allocation and initialization of
+per-CPU data.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073542/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 19 May 2026 13:24:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073542/" title="https://lwn.net/Articles/1073542/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libpng and nginx), <b>Debian</b> (erlang, netatalk, and nginx), <b>Fedora</b> (mod_md and SDL2_image), <b>Mageia</b> (perl-libwww-perl, perl-HTTP-Message, perl-WWW-Mechanize-Cached, perl-File-XDG, perl-Path-Tiny, perl-YAML-Syck, postgresql15, and rclone), <b>SUSE</b> (agama, alloy, cacti, cloud-init, dnsmasq, emacs, firefox, glibc, go1.25, go1.26, google-cloud-sap-agent, google-guest-agent, ibus-rime, librime, imagemagick, kernel, libsndfile, nginx, ongres-scram, ongres-stringprep, plexus-testing,, openexr, openssh, PackageKit, perl-Text-CSV_XS, php-composer2, php8, postgresql16, postgresql18, python-lxml, python-python-multipart, python3, python311-urllib3, rmt-server, rsync, tiff, tree-sitter, util-linux, and xen), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure, linux-azure-5.4, linux-azure-fips, linux-bluefield, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-raspi, and linux-xilinx-zynqmp).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073470/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 19 May 2026 12:05:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073470/" title="https://lwn.net/Articles/1073470/">pgBackRest will continue</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>In April, David Steele, maintainer of the popular <a
+href="https://pgbackrest.org/">pgBackRest</a> backup and restore project for
+PostgreSQL, announced that he had <a
+href="https://github.com/pgbackrest/pgbackrest#notice-of-obsolescence">archived
+the project</a> and it would no longer be maintained due to lack of
+sponsorship. On May&#160;18, he <a
+href="https://pgbackrest.org/news.html#will-continue">announced</a>
+that a number of sponsors have stepped forward to ensure its continued
+development:</p>
+
+<blockquote class="bq">
+<p>Over the last few weeks, a coalition of sponsors has come together
+to fund ongoing development. Their support means the project is no
+longer reliant on a single sponsor, giving pgBackRest the stability it
+needs for the long term.</p>
+
+<p>[...]  I'm looking forward to getting back to work. There are
+features and optimizations in the pipeline that I'm excited to share
+in upcoming releases. Thank you to our sponsors for making this
+possible, and thank you to the community for your patience and support
+during this transition.</p>
+</blockquote>
+
+<p>Thanks to Paul Wise for the tip.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072657/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 18 May 2026 13:16:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -258,48 +311,6 @@ May&#160;13, but do include many other important fixes throughout the
 tree. Users are, as always, advised to upgrade.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072378/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 14 May 2026 13:14:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072378/" title="https://lwn.net/Articles/1072378/">[$] Keeping COWs in context (a.k.a. anonymous reverse mapping)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's reverse-mapping machinery is charged with locating the
-page-table entries that refer to a given page in memory.  The reverse
-mapping of anonymous pages is handled differently than for file-backed
-pages.  The kernel's implementation of reverse mapping for anonymous pages
-is, according to Lorenzo Stoakes in his <a
-href="https://lwn.net/ml/all/aec533b2-37a7-4f44-a279-c4aa604206ac@lucifer.local/">proposal</a>
-for a memory-management-track session at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, "<q>a very broken
-abstraction</q>", due to its complexity.  It also has some performance
-problems.  Stoakes was there to present, in raw form, a proposed
-replacement that he calls a "COW context".
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072838/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 14 May 2026 13:09:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072838/" title="https://lwn.net/Articles/1072838/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gimp, jq, and yggdrasil), <b>Debian</b> (nghttp2 and thunderbird), <b>Fedora</b> (chromium, firefox, freerdp, GitPython, kernel, kernel-headers, krb5, nano, nix, nodejs20, php, python-click, python-django5, SDL2_image, and xen), <b>Mageia</b> (dnsmasq, flatpak, kernel, kmod-virtualbox, kernel-linus, perl-Net-CIDR-Lite, perl-XML-LibXML, and redis), <b>SUSE</b> (dnsmasq, firefox, jupyter-jupyterlab, kernel, krb5, libvinylapi3, log4j, Mesa, mozjs60, NetworkManager, OpenImageIO, python-Mako, python-Pillow, and python39), and <b>Ubuntu</b> (dnsmasq and nginx).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071535/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 14 May 2026 01:04:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071535/" title="https://lwn.net/Articles/1071535/">[$] LWN.net Weekly Edition for May 14, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1071535/">Front</a>: Fedora AI; Forgejo &quot;carrot&quot; disclosure; memory-management maintainership; huge THPs; mshare; 64KB base pages; DAMON; direct map.
-            <li> <a href="https://lwn.net/Articles/1071537/">Briefs</a>: Dirty Frag; Fragnesia; Mythos and curl; killswitch; Debian reproducible builds; KDE investment; Quotes ...
-            <li> <a href="https://lwn.net/Articles/1071538/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>

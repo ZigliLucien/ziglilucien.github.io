@@ -3,8 +3,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of rain showers before 10am, then showers and thunderstorms likely between 10am and 1pm, then showers and thunderstorms
-         likely. Partly sunny. High near 84, with temperatures falling to around 80 in the afternoon. Southwest wind 10 to 15 mph,
-         with gusts as high as 26 mph. Chance of precipitation is 60%.<br></div>
+         likely. Partly sunny. High near 84, with temperatures falling to around 78 in the afternoon. Southwest wind 9 to 15 mph, with
+         gusts as high as 25 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
