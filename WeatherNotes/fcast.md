@@ -2,20 +2,20 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of rain showers between 8am and 10am, then a chance of showers and thunderstorms between 10am and 1pm, then
-         showers and thunderstorms likely. Mostly sunny. High near 84, with temperatures falling to around 80 in the afternoon. South
-         southwest wind 10 to 15 mph, with gusts as high as 26 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Today</h3>A chance of rain showers before 10am, then showers and thunderstorms likely between 10am and 1pm, then showers and thunderstorms
+         likely. Partly sunny. High near 84, with temperatures falling to around 80 in the afternoon. Southwest wind 10 to 15 mph,
+         with gusts as high as 26 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms likely before 7pm, then showers and thunderstorms between 7pm and 9pm, then showers and thunderstorms
-         likely. Mostly cloudy. Low around 62, with temperatures rising to around 66 overnight. West wind 2 to 9 mph. Chance of precipitation
-         is 80%.<br></div>
+         <h3>Tonight</h3>Showers and thunderstorms likely before 10pm, then showers and thunderstorms likely between 10pm and 2am, then a chance of
+         showers and thunderstorms between 2am and 3am, then showers and thunderstorms likely. Mostly cloudy. Low around 62, with temperatures
+         rising to around 66 overnight. West wind 2 to 9 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of rain showers before 1pm. Mostly cloudy. High near 72, with temperatures falling to around 70 in the afternoon.
-         North wind around 8 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Wednesday</h3>Showers and thunderstorms likely before 1pm. Mostly cloudy. High near 72, with temperatures falling to around 70 in the afternoon.
+         North wind around 8 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
