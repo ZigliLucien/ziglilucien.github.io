@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Showers and thunderstorms likely. Mostly cloudy. High near 84, with temperatures falling to around 76 in the afternoon. Southwest
-         wind 8 to 13 mph, with gusts as high as 23 mph. Chance of precipitation is 70%.<br></div>
+         wind 8 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -14,8 +14,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>Showers and thunderstorms likely before 1pm, then a slight chance of showers and thunderstorms between 1pm and 5pm. Mostly
-         cloudy. High near 70, with temperatures falling to around 68 in the afternoon. North northeast wind around 9 mph. Chance of
-         precipitation is 60%.<br></div>
+         cloudy, with a high near 67. North northeast wind around 9 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
