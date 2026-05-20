@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1072866/" title="See Description">[$] What is to be done about MGLRU?</a></li>
+<li><a href="#https://lwn.net/Articles/1073713/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1072870/" title="See Description">[$] The tenth OpenPGP email summit</a></li>
 <li><a href="#https://lwn.net/Articles/1073579/" title="See Description">Firefox 151.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1072689/" title="See Description">[$] openSUSE "terms of site" raise complaints about age restrictions</a></li>
@@ -51,11 +53,46 @@
 <li><a href="#https://lwn.net/Articles/1073193/" title="See Description">Kernel prepatch 7.1-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1073186/" title="See Description">RIP Peter G. Neumann</a></li>
 <li><a href="#https://lwn.net/Articles/1073161/" title="See Description">Some weekend stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1072538/" title="See Description">[$] Controlling memory management with BPF</a></li>
-<li><a href="#https://lwn.net/Articles/1073060/" title="See Description">Seven new stable kernels with patches for CVE-2026-46333</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1072866/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 May 2026 13:14:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072866/" title="https://lwn.net/Articles/1072866/">[$] What is to be done about MGLRU?</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>"Reclaim" is the task of finding memory that can be taken away from its
+current user and put to better uses within the system; it is a core part of
+the memory-management picture.  The addition of the <a
+href="https://lwn.net/Articles/851184/">multi-generational LRU</a> (MGLRU) was meant to
+provide a better reclaim implementation than the "traditional LRU" that
+preceded it, but MGLRU has complicated the situation instead.  No fewer than
+three memory-management-track sessions at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> were focused on MGLRU,
+with an eye toward integrating it more fully, improving its performance,
+and addressing some problems encountered with Android systems.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073713/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 20 May 2026 13:04:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073713/" title="https://lwn.net/Articles/1073713/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, libpng, nginx, nginx:1.24, ruby, and ruby:3.3), <b>Debian</b> (gnutls28 and linux-6.1), <b>Fedora</b> (dnsmasq, kernel, keylime-agent-rust, perl-Net-CIDR-Lite, python-pysam, python-urllib3, rust-cargo-vendor-filterer, rust-ingredients, rust-oo7-cli, rust-rpki, rust-sevctl, and rust-tealdeer), <b>Mageia</b> (bind), <b>Oracle</b> (bind, giflib, gimp:2.8, kernel, libpng, rsync, ruby, and vim), <b>Slackware</b> (haveged and mozilla), <b>SUSE</b> (cockpit, dnsmasq, erlang26, freeipmi, git-bug, glibc, GraphicsMagick, haveged, ImageMagick, iproute2, kernel, openssh, perl-CryptX, perl-HTTP-Tiny, postgresql14, postgresql15, postgresql16, python-Pillow, rsync, tiff, and traefik), and <b>Ubuntu</b> (Highlight.js, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-fips, linux-gcp,
+ linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm,
+ linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm,
+ linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle,
+ linux-raspi, linux-realtime, linux, linux-aws, linux-aws-fips, linux-bluefield, linux-fips, linux-gcp,
+ linux-gcp-5.4, linux-gcp-fips, linux-ibm, linux-ibm-5.4, linux-kvm,
+ linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-fips, linux-fips, linux-gcp-4.15,
+ linux-gcp-fips, linux-kvm, linux-oracle, linux, linux-aws, linux-aws-fips, linux-gcp, linux-gcp-fips, linux-gke,
+ linux-gkeop, linux-ibm, linux-ibm-6.8, linux-lowlatency,
+ linux-lowlatency-hwe-6.8, linux-raspi, linux-raspi-realtime,
+ linux-realtime, linux-realtime-6.8, linux, linux-aws, linux-hwe-6.17, linux-oem-6.17, linux-oracle,
+ linux-raspi, linux-realtime, linux-realtime-6.17, and smarty3).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1072870/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 20 May 2026 11:00:15 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -272,48 +309,6 @@ obituary</a> of Dr. Neumann.</blockquote></blockquote></div></td></tr>
 <a href="https://lwn.net/Articles/1073164/">6.12.90</a>, and
 <a href="https://lwn.net/Articles/1073165/">6.6.140</a> stable kernels have been released.
 Each contains yet another set of important fixes.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072538/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 May 2026 14:54:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072538/" title="https://lwn.net/Articles/1072538/">[$] Controlling memory management with BPF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Roman Gushchin began his session in the memory-management track of the
-2026 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> by saying that the
-community has seen a lot of proposals adding BPF-based interfaces for
-memory management.  None of them have made their way into the mainline,
-though.  He wanted to explore the ways in which BPF might be helpful and
-the obstacles that have kept BPF-based solutions out so far.  This session
-was followed by a discussion led by Shakeel Butt on what the requirements
-for a new, BPF-based interface for memory control groups might look like.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073060/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 15 May 2026 13:34:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073060/" title="https://lwn.net/Articles/1073060/">Seven new stable kernels with patches for CVE-2026-46333</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the <a
-href="https://lwn.net/Articles/1073061/">7.0.8</a>, <a
-href="https://lwn.net/Articles/1073062/">6.18.31</a>, <a
-href="https://lwn.net/Articles/1073063/">6.12.89</a>, <a
-href="https://lwn.net/Articles/1073064/">6.6.139</a>, <a
-href="https://lwn.net/Articles/1073065/">6.1.173</a>, <a
-href="https://lwn.net/Articles/1073066/">5.15.207</a>, and <a
-href="https://lwn.net/Articles/1073067/">5.10.256</a> stable kernels. These kernels
-contain a patch for <a
-href="https://lwn.net/ml/all/2026051554-CVE-2026-46333-662a%40gregkh/">CVE-2026-46333</a>
-a vulnerability <a
-href="https://lwn.net/ml/all/20260515022033.GA10889%40localhost.localdomain/">reported
-by the Qualys Security Advisory team</a>, though Jann Horn <a
-href="https://lwn.net/ml/all/20201016230915.1972840-1-jannh%40google.com/">proposed
-a patch</a> in 2020. The vulnerability has a <a
-href="https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn#ssh-keysign-pwn">proof-of-concept
-exploit</a> published already. Some of the kernels have additional
-patches for other bugs; as always, users are advised to upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
