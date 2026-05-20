@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A chance of showers and thunderstorms before 4am, then showers and thunderstorms likely. Mostly cloudy. Low around 59, with
-         temperatures rising to around 63 overnight. North wind 3 to 7 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Overnight</h3>A chance of showers and thunderstorms before 4am, then showers and thunderstorms likely. Cloudy. Low around 59, with temperatures
+         rising to around 63 overnight. North wind 3 to 7 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -38,21 +38,21 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 64. South southeast wind around 3 mph.<br></div>
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 65. South southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 80. South
-         southwest wind around 3 mph.<br></div>
+         <h3>Sunday</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms likely between 7am and 1pm, then a chance
+         of showers and thunderstorms. Mostly cloudy, with a high near 80. South southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around
+         <h3>Sunday Night</h3>A chance of showers and thunderstorms before 1am, then showers and thunderstorms likely. Mostly cloudy, with a low around
          65. East southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Memorial Day</h3>Showers and thunderstorms likely. Partly sunny, with a high near 81. East southeast wind around 5 mph.<br></div>
+         <h3>Memorial Day</h3>Showers and thunderstorms likely. Mostly cloudy, with a high near 81. East southeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,6 +60,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Showers and thunderstorms likely. Partly sunny, with a high near 83. South southeast wind 3 to 7 mph.<br></div>
+         <h3>Tuesday</h3>A chance of rain showers before 7am, then a chance of showers and thunderstorms between 7am and 1pm, then a chance of showers
+         and thunderstorms. Partly sunny, with a high near 83. South southeast wind 3 to 7 mph.<br></div>
    </p>
 </div>
