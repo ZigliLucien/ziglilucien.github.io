@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>A chance of showers and thunderstorms before 4am, then showers and thunderstorms likely. Cloudy. Low around 59, with temperatures
-         rising to around 63 overnight. North wind 3 to 7 mph. Chance of precipitation is 70%.<br></div>
+         rising to around 63 overnight. North wind around 7 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
