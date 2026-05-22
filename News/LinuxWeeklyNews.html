@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1073103/" title="See Description">[$] Custom page-cache policies with BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1073071/" title="See Description">[$] Toward better handling of major page faults</a></li>
 <li><a href="#https://lwn.net/Articles/1074040/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1073944/" title="See Description">Vulnerabilities in various GTK-based PDF readers</a></li>
@@ -52,10 +53,26 @@
 <li><a href="#https://lwn.net/Articles/1073579/" title="See Description">Firefox 151.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1072689/" title="See Description">[$] openSUSE "terms of site" raise complaints about age restrictions</a></li>
 <li><a href="#https://lwn.net/Articles/1073395/" title="See Description">[$] In search of faster this_cpu operations</a></li>
-<li><a href="#https://lwn.net/Articles/1072858/" title="See Description">[$] What's brewing in CXL</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1073103/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 22 May 2026 14:37:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073103/" title="https://lwn.net/Articles/1073103/">[$] Custom page-cache policies with BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's page cache is charged with maintaining pages (or, more
+correctly, <a href="https://lwn.net/Articles/1064861/">folios</a>) containing copies of
+data from files in the filesystem; its performance has a big effect on the
+performance of the system as a whole.  One of the key decisions the kernel
+must make is when to evict folios from the page cache.  At the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Tal Zussman ran a
+memory-management-track session on how the page cache could be better
+customized for specific workloads.  It will not be much of a spoiler to say
+that it involves BPF.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1073071/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 22 May 2026 13:50:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,23 +295,6 @@ href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
 Filesystem, Memory Management, and BPF Summit</a>, Yang Shi proposed a
 fundamental, and somewhat controversial, change to how these operations
 work in order to provide better performance on a wider range of architectures.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072858/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 19 May 2026 14:15:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072858/" title="https://lwn.net/Articles/1072858/">[$] What's brewing in CXL</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://en.wikipedia.org/wiki/Compute_Express_Link">Compute
-Express Link (CXL)</a> is a technology intended to enable the provision of
-"memory nodes" in data centers that provide (possibly shared) memory to
-nearby CPUs.  It has, Dan Williams said at the beginning of his
-memory-management-track session on the topic at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, "<q>been making
-memory-management problems worse since 2021</q>".  He used the session to
-provide an overview of the ways in which CXL can be expected to extend that
-record into the future.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
