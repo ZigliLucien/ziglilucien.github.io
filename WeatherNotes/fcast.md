@@ -4,20 +4,20 @@
       <div style="font-size:120%">
          <h3>Today</h3>Rain showers likely before 1pm, then showers and thunderstorms likely between 1pm and 3pm, then a chance of showers and thunderstorms.
          Cloudy. High near 70, with temperatures falling to around 68 in the afternoon. Northeast wind around 6 mph. Chance of precipitation
-         is 70%.<br></div>
+         is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 5am. Mostly cloudy. Low around 59, with temperatures rising to around 62 overnight.
-         North wind 1 to 6 mph. Chance of precipitation is 50%.<br></div>
+         North northwest wind 1 to 6 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Partly sunny. High near 80, with temperatures falling to around 78 in the afternoon. West wind around 2 mph.<br></div>
+         <h3>Saturday</h3>Partly sunny. High near 80, with temperatures falling to around 78 in the afternoon. West wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of rain showers after 1am. Mostly cloudy, with a low around 62. South southeast wind around 2 mph. Chance of precipitation
+         <h3>Saturday Night</h3>A chance of rain showers after 1am. Partly cloudy, with a low around 62. South southeast wind around 2 mph. Chance of precipitation
          is 30%.<br></div>
    </p>
    <p>
