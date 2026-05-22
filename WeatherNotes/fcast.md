@@ -2,11 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Showers and thunderstorms. Cloudy. High near 70, with temperatures falling to around 66 in the afternoon. Northeast wind around
-         3 mph. Chance of precipitation is 80%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>Showers and thunderstorms likely before 1am. Mostly cloudy, with a low around 59. North northwest wind 1 to 5 mph. Chance
          of precipitation is 70%.<br></div>
    </p>
@@ -16,8 +11,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A slight chance of rain showers between 3am and 4am, then a chance of showers and thunderstorms. Partly cloudy, with a low
-         around 62. South wind around 2 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Saturday Night</h3>A slight chance of rain showers between 3am and 4am, then a chance of showers and thunderstorms. Partly cloudy. Low around
+         62, with temperatures rising to around 65 overnight. South wind around 2 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -32,7 +27,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Memorial Day</h3>A chance of rain showers between 7am and 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near
-         81. East northeast wind 0 to 5 mph.<br></div>
+         81. East northeast wind 0 to 5 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -64,5 +59,10 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 67. East northeast wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 81. Northeast
+         wind 5 to 8 mph.<br></div>
    </p>
 </div>

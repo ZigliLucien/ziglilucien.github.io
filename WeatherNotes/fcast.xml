@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-05-22T21:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-05-22T21:26:23+00:00</updateTime>
-		<validTimes type="str">2026-05-22T15:00:00+00:00/P7DT10H</validTimes>
+		<generatedAt type="str">2026-05-22T23:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-05-22T22:46:20+00:00</updateTime>
+		<validTimes type="str">2026-05-22T16:00:00+00:00/P7DT9H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,25 +51,6 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">This Afternoon</name>
-				<startTime type="str">2026-05-22T16:00:00-05:00</startTime>
-				<endTime type="str">2026-05-22T18:00:00-05:00</endTime>
-				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">70</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">83</value>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra,80?size=medium</icon>
-				<shortForecast type="str">Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms. Cloudy. High near 70, with temperatures falling to around 66 in the afternoon. Northeast wind around 3 mph. Chance of precipitation is 80%.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
 				<name type="str">Tonight</name>
 				<startTime type="str">2026-05-22T18:00:00-05:00</startTime>
 				<endTime type="str">2026-05-23T06:00:00-05:00</endTime>
@@ -88,7 +69,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely before 1am. Mostly cloudy, with a low around 59. North northwest wind 1 to 5 mph. Chance of precipitation is 70%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
+				<number type="int">2</number>
 				<name type="str">Saturday</name>
 				<startTime type="str">2026-05-23T06:00:00-05:00</startTime>
 				<endTime type="str">2026-05-23T18:00:00-05:00</endTime>
@@ -107,7 +88,7 @@
 				<detailedForecast type="str">Partly sunny, with a high near 80. West wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Saturday Night</name>
 				<startTime type="str">2026-05-23T18:00:00-05:00</startTime>
 				<endTime type="str">2026-05-24T06:00:00-05:00</endTime>
@@ -123,10 +104,10 @@
 				<windDirection type="str">S</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/sct/tsra_hi,40?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy then Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers between 3am and 4am, then a chance of showers and thunderstorms. Partly cloudy, with a low around 62. South wind around 2 mph. Chance of precipitation is 40%.</detailedForecast>
+				<detailedForecast type="str">A slight chance of rain showers between 3am and 4am, then a chance of showers and thunderstorms. Partly cloudy. Low around 62, with temperatures rising to around 65 overnight. South wind around 2 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Sunday</name>
 				<startTime type="str">2026-05-24T06:00:00-05:00</startTime>
 				<endTime type="str">2026-05-24T18:00:00-05:00</endTime>
@@ -145,7 +126,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely. Mostly cloudy, with a high near 81. West northwest wind 0 to 3 mph. Chance of precipitation is 60%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Sunday Night</name>
 				<startTime type="str">2026-05-24T18:00:00-05:00</startTime>
 				<endTime type="str">2026-05-25T06:00:00-05:00</endTime>
@@ -164,7 +145,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely before 7pm. Mostly cloudy, with a low around 63. North wind around 2 mph. Chance of precipitation is 60%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Memorial Day</name>
 				<startTime type="str">2026-05-25T06:00:00-05:00</startTime>
 				<endTime type="str">2026-05-25T18:00:00-05:00</endTime>
@@ -180,10 +161,10 @@
 				<windDirection type="str">ENE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,30/tsra_sct,30?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers then Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of rain showers between 7am and 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 81. East northeast wind 0 to 5 mph.</detailedForecast>
+				<detailedForecast type="str">A chance of rain showers between 7am and 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 81. East northeast wind 0 to 5 mph. Chance of precipitation is 30%.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2026-05-25T18:00:00-05:00</startTime>
 				<endTime type="str">2026-05-26T06:00:00-05:00</endTime>
@@ -202,7 +183,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 65. East wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Tuesday</name>
 				<startTime type="str">2026-05-26T06:00:00-05:00</startTime>
 				<endTime type="str">2026-05-26T18:00:00-05:00</endTime>
@@ -221,7 +202,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely. Mostly cloudy, with a high near 79. East wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Tuesday Night</name>
 				<startTime type="str">2026-05-26T18:00:00-05:00</startTime>
 				<endTime type="str">2026-05-27T06:00:00-05:00</endTime>
@@ -240,7 +221,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely. Mostly cloudy, with a low around 67. Southeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Wednesday</name>
 				<startTime type="str">2026-05-27T06:00:00-05:00</startTime>
 				<endTime type="str">2026-05-27T18:00:00-05:00</endTime>
@@ -259,7 +240,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely. Partly sunny, with a high near 82. South southeast wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">12</number>
+				<number type="int">11</number>
 				<name type="str">Wednesday Night</name>
 				<startTime type="str">2026-05-27T18:00:00-05:00</startTime>
 				<endTime type="str">2026-05-28T06:00:00-05:00</endTime>
@@ -278,7 +259,7 @@
 				<detailedForecast type="str">Showers and thunderstorms likely before 7pm, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 67. Southeast wind 1 to 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">13</number>
+				<number type="int">12</number>
 				<name type="str">Thursday</name>
 				<startTime type="str">2026-05-28T06:00:00-05:00</startTime>
 				<endTime type="str">2026-05-28T18:00:00-05:00</endTime>
@@ -297,7 +278,7 @@
 				<detailedForecast type="str">A chance of rain showers before 7am, then showers and thunderstorms likely. Partly sunny, with a high near 82. East southeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Thursday Night</name>
 				<startTime type="str">2026-05-28T18:00:00-05:00</startTime>
 				<endTime type="str">2026-05-29T06:00:00-05:00</endTime>
@@ -314,6 +295,25 @@
 				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,60/tsra_sct,40?size=medium</icon>
 				<shortForecast type="str">Showers And Thunderstorms Likely</shortForecast>
 				<detailedForecast type="str">Showers and thunderstorms likely. Mostly cloudy, with a low around 67. East northeast wind around 5 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Friday</name>
+				<startTime type="str">2026-05-29T06:00:00-05:00</startTime>
+				<endTime type="str">2026-05-29T18:00:00-05:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">81</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="int">44</value>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">5 to 8 mph</windSpeed>
+				<windDirection type="str">NE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,30/tsra_sct,40?size=medium</icon>
+				<shortForecast type="str">Chance Rain Showers then Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 81. Northeast wind 5 to 8 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
