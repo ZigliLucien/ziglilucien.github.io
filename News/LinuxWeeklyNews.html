@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1073071/" title="See Description">[$] Toward better handling of major page faults</a></li>
+<li><a href="#https://lwn.net/Articles/1074040/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1073944/" title="See Description">Vulnerabilities in various GTK-based PDF readers</a></li>
 <li><a href="#https://lwn.net/Articles/1071973/" title="See Description">[$] BPF support in GCC 16 and beyond</a></li>
 <li><a href="#https://lwn.net/Articles/1073933/" title="See Description">OpenBSD 7.9 released</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1072689/" title="See Description">[$] openSUSE "terms of site" raise complaints about age restrictions</a></li>
 <li><a href="#https://lwn.net/Articles/1073395/" title="See Description">[$] In search of faster this_cpu operations</a></li>
 <li><a href="#https://lwn.net/Articles/1072858/" title="See Description">[$] What's brewing in CXL</a></li>
-<li><a href="#https://lwn.net/Articles/1072840/" title="See Description">[$] Improving the per-CPU memory allocator</a></li>
-<li><a href="#https://lwn.net/Articles/1073542/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1073071/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 22 May 2026 13:50:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073071/" title="https://lwn.net/Articles/1073071/">[$] Toward better handling of major page faults</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A major page fault occurs when a process attempts to access a page that is
+not currently present in RAM; satisfying such faults usually involves <span
+class="nobreak">I/O</span>, and can thus take some time.  When many threads
+sharing an address space are generating page faults, the result can be
+significant lock contention while that <span class="nobreak">I/O</span>
+takes place.  During the memory-management track at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Barry Song led a session
+to try, yet again, to find an enduring solution to this problem.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1074040/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 22 May 2026 13:07:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074040/" title="https://lwn.net/Articles/1074040/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox), <b>Debian</b> (chromium, nss, openvpn, and thunderbird), <b>Fedora</b> (cockpit, kernel, and linux-firmware), <b>Oracle</b> (gdk-pixbuf2, kernel, and libsndfile), <b>SUSE</b> (container-suseconnect, cpp-httplib, dnsmasq, firefox, glibc, GraphicsMagick, java-1_8_0-openj9, kernel, mozjs115, php8, python-urllib3, rekor, rootlesskit, rsync, tiff, ucode-intel, util-linux, and xz), and <b>Ubuntu</b> (bind9, bubblewrap, libarchive, linux-intel-iot-realtime, postgresql-14, postgresql-16, postgresql-17, postgresql-18, and xdg-desktop-portal).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1073944/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 21 May 2026 21:05:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -271,29 +295,6 @@ Filesystem, Memory Management, and BPF Summit</a>, "<q>been making
 memory-management problems worse since 2021</q>".  He used the session to
 provide an overview of the ways in which CXL can be expected to extend that
 record into the future.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072840/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 19 May 2026 13:27:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072840/" title="https://lwn.net/Articles/1072840/">[$] Improving the per-CPU memory allocator</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There are many places in the kernel where performance can be improved by
-using per-CPU data.  But, as it turns out, the kernel's allocator for
-per-CPU data has some performance problems of its own.  Harry Yoo led a
-session in the memory-management track of the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> to explore ways to
-address those problems and accelerate the allocation and initialization of
-per-CPU data.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073542/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 19 May 2026 13:24:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073542/" title="https://lwn.net/Articles/1073542/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libpng and nginx), <b>Debian</b> (erlang, netatalk, and nginx), <b>Fedora</b> (mod_md and SDL2_image), <b>Mageia</b> (perl-libwww-perl, perl-HTTP-Message, perl-WWW-Mechanize-Cached, perl-File-XDG, perl-Path-Tiny, perl-YAML-Syck, postgresql15, and rclone), <b>SUSE</b> (agama, alloy, cacti, cloud-init, dnsmasq, emacs, firefox, glibc, go1.25, go1.26, google-cloud-sap-agent, google-guest-agent, ibus-rime, librime, imagemagick, kernel, libsndfile, nginx, ongres-scram, ongres-stringprep, plexus-testing,, openexr, openssh, PackageKit, perl-Text-CSV_XS, php-composer2, php8, postgresql16, postgresql18, python-lxml, python-python-multipart, python3, python311-urllib3, rmt-server, rsync, tiff, tree-sitter, util-linux, and xen), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure, linux-azure-5.4, linux-azure-fips, linux-bluefield, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-raspi, and linux-xilinx-zynqmp).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
