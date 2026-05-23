@@ -2,23 +2,19 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Patchy fog and a slight chance of rain showers. Cloudy. Low around 62, with temperatures rising to around 64 overnight. West
-         northwest wind around 2 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Today</h3>A chance of rain showers before 11am. Partly sunny, with a high near 80. West southwest wind around 3 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of rain showers before 9am. Mostly cloudy, with a high near 80. West southwest wind around 3 mph. Chance of precipitation
-         is 20%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms between 10pm and 1am, then a chance of showers and thunderstorms. Mostly cloudy.
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms between 10pm and 1am, then a chance of showers and thunderstorms. Mostly cloudy.
          Low around 62, with temperatures rising to around 64 overnight. South wind around 2 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>A chance of rain showers before 7am, then a chance of showers and thunderstorms between 7am and 1pm, then a chance of showers
-         and thunderstorms. Mostly cloudy, with a high near 81. South wind around 2 mph. Chance of precipitation is 50%.<br></div>
+         and thunderstorms. Mostly cloudy. High near 81, with temperatures falling to around 79 in the afternoon. South wind around
+         2 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -33,7 +29,8 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday Night</h3>A chance of showers and thunderstorms before 7pm, then a slight chance of showers and thunderstorms between 7pm and 1am, then
-         showers and thunderstorms likely. Mostly cloudy, with a low around 66. East wind around 5 mph.<br></div>
+         showers and thunderstorms likely. Mostly cloudy, with a low around 66. East wind around 5 mph. Chance of precipitation is
+         60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -65,5 +62,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>A chance of rain showers. Partly sunny, with a high near 80. Northeast wind 3 to 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday Night</h3>A chance of rain showers before 1am. Partly cloudy, with a low around 63. Northeast wind 6 to 9 mph.<br></div>
    </p>
 </div>
