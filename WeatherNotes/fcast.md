@@ -40,7 +40,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>A slight chance of rain showers between 7am and 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high
-         near 84. East wind 0 to 3 mph.<br></div>
+         near 82. East northeast wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -49,7 +49,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of rain showers before 7am, then showers and thunderstorms likely. Mostly cloudy, with a high near 81. East wind
+         <h3>Friday</h3>A chance of rain showers before 7am, then showers and thunderstorms likely. Mostly cloudy, with a high near 79. East wind
          around 5 mph.<br></div>
    </p>
    <p>
@@ -58,7 +58,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 79. East wind
+         <h3>Saturday</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 76. East wind
          around 7 mph.<br></div>
    </p>
    <p>
