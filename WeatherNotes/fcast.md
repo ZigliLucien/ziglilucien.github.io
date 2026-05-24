@@ -2,23 +2,22 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms between 1pm and 4pm, then a chance
-         of showers and thunderstorms between 4pm and 5pm, then a slight chance of showers and thunderstorms. Mostly cloudy, with a
-         high near 77. Northwest wind 2 to 7 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Today</h3>Showers and thunderstorms likely before 3pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 77.
+         North northwest wind around 3 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly cloudy. Low around 62, with temperatures rising to around 64 overnight. Northeast wind 1 to 6 mph.<br></div>
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms before 7pm. Partly cloudy. Low around 62, with temperatures rising to around
+         64 overnight. North northeast wind 0 to 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Memorial Day</h3>A slight chance of rain showers between noon and 1pm, then a slight chance of showers and thunderstorms. Partly sunny, with
-         a high near 79. East northeast wind 2 to 9 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Memorial Day</h3>Partly sunny, with a high near 79. Northeast wind 2 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 65. East wind 2 to 6 mph. Chance of precipitation
-         is 40%.<br></div>
+         <h3>Monday Night</h3>A chance of rain showers between 1am and 4am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around
+         65. East wind 2 to 6 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
