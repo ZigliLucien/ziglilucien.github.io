@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1074172/" title="See Description">Kernel prepatch 7.1-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/1074117/" title="See Description">A large set of stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1073103/" title="See Description">[$] Custom page-cache policies with BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1073071/" title="See Description">[$] Toward better handling of major page faults</a></li>
@@ -52,10 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1073713/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1072870/" title="See Description">[$] The tenth OpenPGP email summit</a></li>
 <li><a href="#https://lwn.net/Articles/1073579/" title="See Description">Firefox 151.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1072689/" title="See Description">[$] openSUSE "terms of site" raise complaints about age restrictions</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1074172/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 24 May 2026 22:59:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074172/" title="https://lwn.net/Articles/1074172/">Kernel prepatch 7.1-rc5</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1074171/">7.1-rc5</a> kernel prepatch is out for
+testing.  Quoth Linus:
+<p>
+<blockquote class="bq">
+	I'm not entirely happy about it - most of this is totally trivial
+	stuff to random drivers, which obviously makes it all less scary,
+	but at the same time I'm really not convinced the churn is worth it
+	at rc5 time. These things are "fixes", sure, but at the same time a
+	lot of them are simply so irrelevant that I think they'd be better
+	off in a linux-next tree and get merged during the merge window.
+<p>
+	So I think I'll start being a bit more hardnosed about this kind of
+	unnecessary churn this late in the game. We are supposed to look
+	for *regressions*. Non-critical fixes to long-standing issues are
+	simply not appropriate for this late in the release cycle.
+<P>
+	End result: this is too big, and this is the heads-up that I'll be
+	pushing back on pointless pull requests with fixes that just aren't
+	that important. And yes, several of these series were triggered by
+	AI code review.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1074117/"></a></td></tr>
 <tr><td><div class="date"><tt>Sat, 23 May 2026 13:55:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -281,22 +308,6 @@ href="https://www.firefox.com/en-US/firefox/151.0/releasenotes/">Version
 include the ability to clear and restart a private-browsing session, better
 fingerprinting protection, control over the apparent location when using the
 Firefox VPN, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072689/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 19 May 2026 15:27:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072689/" title="https://lwn.net/Articles/1072689/">[$] openSUSE "terms of site" raise complaints about age restrictions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Many people in the Linux community began using the operating system&mdash;and
-contributing to open source&mdash;at a tender age, often well before
-their 16th birthday. Thus, a recent change in openSUSE's <a
-href="https://en.opensuse.org/Terms_of_site">terms of site</a> (ToS)
-that required users of the project's web site to be "<q>at least 16
-years of age or the age of majority</q>" in their jurisdiction has
-raised objections. The terms have since been modified, though users
-must still have parental approval to create accounts if they are
-younger than 16.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
