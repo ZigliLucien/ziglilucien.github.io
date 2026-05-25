@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1074286/" title="See Description">Comprehensive Response to Bambu's AGPLv3 Violations (Software Freedom Conservancy)</a></li>
+<li><a href="#https://lwn.net/Articles/1073400/" title="See Description">[$] Tier-aware memory-controller limits</a></li>
+<li><a href="#https://lwn.net/Articles/1074280/" title="See Description">Security updates for Monday</a></li>
+<li><a href="#https://lwn.net/Articles/1073761/" title="See Description">[$] Dirk and Linus discuss AI and kernel development</a></li>
 <li><a href="#https://lwn.net/Articles/1074172/" title="See Description">Kernel prepatch 7.1-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/1074117/" title="See Description">A large set of stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1073103/" title="See Description">[$] Custom page-cache policies with BPF</a></li>
@@ -49,13 +53,68 @@
 <li><a href="#https://lwn.net/Articles/1072881/" title="See Description">[$] Support for private memory nodes</a></li>
 <li><a href="#https://lwn.net/Articles/1073860/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1072730/" title="See Description">[$] LWN.net Weekly Edition for May 21, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1072866/" title="See Description">[$] What is to be done about MGLRU?</a></li>
-<li><a href="#https://lwn.net/Articles/1073713/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1072870/" title="See Description">[$] The tenth OpenPGP email summit</a></li>
-<li><a href="#https://lwn.net/Articles/1073579/" title="See Description">Firefox 151.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1074286/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 25 May 2026 16:48:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074286/" title="https://lwn.net/Articles/1074286/">Comprehensive Response to Bambu's AGPLv3 Violations (Software Freedom Conservancy)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://sfconservancy.org/">Software Freedom Conservancy</a> (SFC)
+published a <a
+href="https://sfconservancy.org/news/2026/may/18/bambu-studio-3d-printer-agpl-violation-response/">news
+item</a> on May 18 about its response to violations of the AGPLv3 by Bambu
+Lab in its 3D printers.  The company has not provided the source code to
+its modifications to a 3D "slicer" program that was released under the
+AGPLv3 and it has also threatened Paweł Jarczak who created a fork of a
+different slicer (<a href="https://www.orcaslicer.com/">Orca Slicer</a>) released under AGPLv3 in order to interoperate with his
+Bambu printer. Based on that, the SFC has created the <a
+href="https://f.sfconservancy.org/baltobu/reverse-networking">baltobu
+project</a> aimed at reverse-engineering and reimplementing the Bambu code
+while also hosting the Orca Slicer fork.
+
+<blockquote class="bq">
+Bambu has behaved badly for years and made multiple, provably false public statements regarding the AGPLv3 and its requirements. The recent aggressive behavior toward Paweł Jarczak was a last straw for us: we have decided to launch a multi-pronged effort that will assist consumers and users in the short-term, and <i>also</i> work toward a long-term strategy to improve the software right to repair for all 3D printer consumers.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073400/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 25 May 2026 15:03:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073400/" title="https://lwn.net/Articles/1073400/">[$] Tier-aware memory-controller limits</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Joshua Hahn began his session in the memory-management track of the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> by saying that the memory
+controller for control groups is intended to provide resource allocation,
+accounting, and protection from interference by other tasks.  But
+it was not really designed for tiered-memory systems; he is looking for a
+way to improve that situation.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1074280/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 25 May 2026 14:40:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074280/" title="https://lwn.net/Articles/1074280/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (atril, evince, gnutls28, haproxy, haveged, jq, kernel, krb5, libgcrypt20, nodejs, and thunderbird), <b>Fedora</b> (aw-server-rust, awatcher, bind, bind-dyndb-ldap, chromium, composer, docker-buildkit, docker-buildx, dotnet10.0, dotnet8.0, dotnet9.0, evince, firefox, httpd, kernel, nodejs-aw-webui, nss, perl-Apache-Session-Browseable, pie, python-pulp-glue, python-requests, and python3.15), <b>Slackware</b> (kernel), <b>SUSE</b> (apptainer, chromium, cockpit, dnsmasq, google-guest-agent, hauler, iproute2, jfrog-cli, kernel, libecpg6, libsolv, libzypp, zypper, mcphost, oci-cli, perl-YAML-Syck, python-lxml, python-urllib3, python311-impacket, rqlite, rsync, util-linux, and xz), and <b>Ubuntu</b> (evince, linux-azure, linux-azure-5.4, linux-azure-fips, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp-5.15, linux-lowlatency-hwe-5.15, linux-oracle-6.17, node-path-to-regexp, and rclone).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073761/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 25 May 2026 14:20:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073761/" title="https://lwn.net/Articles/1073761/">[$] Dirk and Linus discuss AI and kernel development</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Linus Torvalds does not enjoy giving talks, but he does consent to
+the occasional on-stage conversation with Dirk Hohndel at Linux
+Foundation events. The pair held the 30th of their fire-less fireside
+chats during a keynote session on May&#160;20, at the 2026 <a
+href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
+Source Summit North America</a>. Topics included 3D printing, guitar
+pedals, the recent 7.1-rc4 release of the kernel, and Torvalds's
+complicated relationship with AI tooling.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1074172/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 24 May 2026 22:59:14 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -239,75 +298,6 @@ they might be implemented.
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072866/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 May 2026 13:14:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072866/" title="https://lwn.net/Articles/1072866/">[$] What is to be done about MGLRU?</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>"Reclaim" is the task of finding memory that can be taken away from its
-current user and put to better uses within the system; it is a core part of
-the memory-management picture.  The addition of the <a
-href="https://lwn.net/Articles/851184/">multi-generational LRU</a> (MGLRU) was meant to
-provide a better reclaim implementation than the "traditional LRU" that
-preceded it, but MGLRU has complicated the situation instead.  No fewer than
-three memory-management-track sessions at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> were focused on MGLRU,
-with an eye toward integrating it more fully, improving its performance,
-and addressing some problems encountered with Android systems.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073713/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 May 2026 13:04:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073713/" title="https://lwn.net/Articles/1073713/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, libpng, nginx, nginx:1.24, ruby, and ruby:3.3), <b>Debian</b> (gnutls28 and linux-6.1), <b>Fedora</b> (dnsmasq, kernel, keylime-agent-rust, perl-Net-CIDR-Lite, python-pysam, python-urllib3, rust-cargo-vendor-filterer, rust-ingredients, rust-oo7-cli, rust-rpki, rust-sevctl, and rust-tealdeer), <b>Mageia</b> (bind), <b>Oracle</b> (bind, giflib, gimp:2.8, kernel, libpng, rsync, ruby, and vim), <b>Slackware</b> (haveged and mozilla), <b>SUSE</b> (cockpit, dnsmasq, erlang26, freeipmi, git-bug, glibc, GraphicsMagick, haveged, ImageMagick, iproute2, kernel, openssh, perl-CryptX, perl-HTTP-Tiny, postgresql14, postgresql15, postgresql16, python-Pillow, rsync, tiff, and traefik), and <b>Ubuntu</b> (Highlight.js, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-fips, linux-gcp,
- linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm,
- linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm,
- linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle,
- linux-raspi, linux-realtime, linux, linux-aws, linux-aws-fips, linux-bluefield, linux-fips, linux-gcp,
- linux-gcp-5.4, linux-gcp-fips, linux-ibm, linux-ibm-5.4, linux-kvm,
- linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-fips, linux-fips, linux-gcp-4.15,
- linux-gcp-fips, linux-kvm, linux-oracle, linux, linux-aws, linux-aws-fips, linux-gcp, linux-gcp-fips, linux-gke,
- linux-gkeop, linux-ibm, linux-ibm-6.8, linux-lowlatency,
- linux-lowlatency-hwe-6.8, linux-raspi, linux-raspi-realtime,
- linux-realtime, linux-realtime-6.8, linux, linux-aws, linux-hwe-6.17, linux-oem-6.17, linux-oracle,
- linux-raspi, linux-realtime, linux-realtime-6.17, and smarty3).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072870/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 20 May 2026 11:00:15 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072870/" title="https://lwn.net/Articles/1072870/">[$] The tenth OpenPGP email summit</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.openpgp.org/">OpenPGP</a> Email Summit is
-an annual meeting for those who work on encrypted email and related
-topics. The <a
-href="https://www.openpgp.org/community/email-summit/2026/">tenth
-installment</a> of this meeting took place in March 2026 and the <a
-href="https://www.openpgp.org/community/email-summit/2026/minutes/">minutes</a>
-have now been published. As usual, a wide range of topics were
-discussed. Highlights included support for post-quantum cryptography
-(PQC) with multiple actors planning rollouts within this year, a
-promising new approach for making email signatures ubiquitous with the
-plan of making OpenPGP signed email a default, a new draft that brings
-reliable deletion (or "forward secrecy") features to OpenPGP, as well
-as a plan for transferring ownership of the OpenPGP.org domain.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073579/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 19 May 2026 16:10:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073579/" title="https://lwn.net/Articles/1073579/">Firefox 151.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a
-href="https://www.firefox.com/en-US/firefox/151.0/releasenotes/">Version
-151.0</a> of the Firefox browser has been released.  Significant changes
-include the ability to clear and restart a private-browsing session, better
-fingerprinting protection, control over the apparent location when using the
-Firefox VPN, and more.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
