@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1074449/" title="See Description">Stenberg: The pressure</a></li>
+<li><a href="#https://lwn.net/Articles/1073407/" title="See Description">[$] Better automatic management of transparent huge pages</a></li>
+<li><a href="#https://lwn.net/Articles/1074443/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1073583/" title="See Description">[$] Reviewing kernel patches with LLMs</a></li>
 <li><a href="#https://lwn.net/Articles/1074286/" title="See Description">Comprehensive Response to Bambu's AGPLv3 Violations (Software Freedom Conservancy)</a></li>
 <li><a href="#https://lwn.net/Articles/1073400/" title="See Description">[$] Tier-aware memory-controller limits</a></li>
@@ -50,12 +53,63 @@
 <li><a href="#https://lwn.net/Articles/1074040/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1073944/" title="See Description">Vulnerabilities in various GTK-based PDF readers</a></li>
 <li><a href="#https://lwn.net/Articles/1071973/" title="See Description">[$] BPF support in GCC 16 and beyond</a></li>
-<li><a href="#https://lwn.net/Articles/1073933/" title="See Description">OpenBSD 7.9 released</a></li>
-<li><a href="#https://lwn.net/Articles/1072881/" title="See Description">[$] Support for private memory nodes</a></li>
-<li><a href="#https://lwn.net/Articles/1073860/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1074449/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 26 May 2026 13:40:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074449/" title="https://lwn.net/Articles/1074449/">Stenberg: The pressure</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Curl maintainer Daniel Stenberg <a
+href="https://daniel.haxx.se/blog/2026/05/26/the-pressure/">writes about
+the stress</a> of keeping up with the current flood of security reports.
+<p>
+<blockquote class="bq">
+	This is a never-before seen or experienced pressure on the curl
+	project and its security team members. An avalanche of high
+	priority work that trumps all other things in the project that is
+	primarily mental because we certainly could ignore them all if we
+	wanted, but we feel a responsibility, we have a conscience and we
+	are proud about our work. We feel obliged to fix security problems
+	in the software we have helped shipped to every device on the
+	globe. This is personal to us.
+<p>
+	With about half the release cycle left until the pending release
+	ships, we already have twelve <i>confirmed vulnerabilities</i>
+	meaning twelve pending CVE announcements. That's a new project
+	record and it also means we will reach <i>thirty</i> published CVEs
+	in 2026 even before half the calendar year has passed. The
+	projected total amount of curl CVEs published through the whole
+	year is therefore at least double this number!
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073407/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 26 May 2026 13:23:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073407/" title="https://lwn.net/Articles/1073407/">[$] Better automatic management of transparent huge pages</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Huge pages can improve performance by increasing translation lookaside
+buffer (TLB) utilization and reducing memory-management overhead.
+<i>Transparent</i> huge pages (THPs) are supposed to make huge-page usage,
+well, transparent, Nico Pache said at the beginning of his session in the
+memory-management track of the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  That transparency has
+never worked as well as many would like; he has been working on
+improvements to make it easier for applications to use huge pages on Linux
+systems.  A following session, led by David Hildenbrand, was focused on how
+THPs could be taken away from processes that are not using them fully.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1074443/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 26 May 2026 13:10:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074443/" title="https://lwn.net/Articles/1074443/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (postorius and spip), <b>Fedora</b> (bind, bind-dyndb-ldap, linux-firmware, tor, and unbound), <b>Mageia</b> (ffmpeg, nginx, perl-Imager, and tigervnc, x11-server, x11-server-xwayland), <b>Oracle</b> (firefox and kernel), <b>Red Hat</b> (buildah, git-lfs, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, gvisor-tap-vsock, java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, opentelemetry-collector, osbuild-composer, podman, rhc, rhc-worker-playbook, skopeo, and yggdrasil), <b>SUSE</b> (amazon-ecs-init, assimp, azure-storage-azcopy, busybox, firefox, gnutls, graphicsmagick, helm, kernel, leancrypto, libpng16, libppsdocument4_0-6, libsndfile, mcphost, nano, nginx, perl-http-tiny, perl-XML-LibXML, python-urllib3, python-urllib3_1, python311-ocrmypdf, python312, rclone, rsync, xen, and xz), and <b>Ubuntu</b> (dotnet8, dotnet9, dotnet10, linux-intel-iot-realtime, linux-lowlatency, linux-nvidia-6.8, linux-nvidia-tegra, linux-nvidia-tegra-igx, nltk, simpleeval, and vim).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1073583/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 25 May 2026 21:27:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -260,45 +314,6 @@ updates in
 feature parity with the LLVM toolchain — as the <a
 href="https://drive.google.com/file/d/1MLTPaBBCTAVwN31fC8FhfGDq2Uq18uOT/view">slides</a> detail.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073933/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 21 May 2026 14:27:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073933/" title="https://lwn.net/Articles/1073933/">OpenBSD 7.9 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://www.openbsd.org/79.html">OpenBSD 7.9</a> release is
-out, right on schedule.  There is the usual long list of new features,
-including improved architecture support, CPU scheduling on heterogeneous
-systems, the ability to hibernate a suspended system after a configurable
-delay, <a href="https://man.openbsd.org/sosplice.9">socket splicing</a>, a
-<a
-href="https://man.openbsd.org/__pledge_open.2"><tt>__pledge_open()</tt></a>
-system call giving special access to the C library, and much more.  See the
-announcement and <a href="https://www.openbsd.org/plus79.html">the full
-changelog</a> for details.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1072881/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 21 May 2026 13:22:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1072881/" title="https://lwn.net/Articles/1072881/">[$] Support for private memory nodes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Gregory Price started his session in the memory-management track of the
-2026 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> by saying that, in
-current kernels, if a NUMA node has memory, the assumption is that anybody can
-make use of it.  He is trying to implement the opposite policy — to make
-some memory off-limits for all processes except those designed specifically
-to use it.  The session was used to present his goals and to discuss how
-they might be implemented.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073860/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 21 May 2026 13:19:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073860/" title="https://lwn.net/Articles/1073860/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and libsndfile), <b>Debian</b> (bind9, evince, firefox-esr, openjpeg2, pdns, and rsync), <b>Fedora</b> (erlang-cowlib, evince, expat, firefox, kernel, mingw-expat, mysql8.0, mysql8.4, nss, opencryptoki, pgadmin4, proftpd, python-django5, python-django6, python-dotenv, rsync, rust-nu, rustup, and strongswan), <b>Oracle</b> (nginx, nginx:1.24, ruby, ruby:3.3, and squid), <b>Slackware</b> (bind and rsync), <b>SUSE</b> (buildah, distribution, distribution-registry, docker, firefox-esr, helm, libpainter0, libsdb2_4_2, postgresql-jdbc, runc, and vim), and <b>Ubuntu</b> (gnutls28, gst-plugins-good1.0, jq, linux-nvidia, linux-nvidia-lowlatency, openvpn, rsync, and unbound).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
