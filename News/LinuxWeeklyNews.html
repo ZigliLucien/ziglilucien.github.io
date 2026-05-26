@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1074534/" title="See Description">Arias: Human proof for FOSS contributions</a></li>
 <li><a href="#https://lwn.net/Articles/1074449/" title="See Description">Stenberg: The pressure</a></li>
 <li><a href="#https://lwn.net/Articles/1073407/" title="See Description">[$] Better automatic management of transparent huge pages</a></li>
 <li><a href="#https://lwn.net/Articles/1074443/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,41 @@
 <li><a href="#https://lwn.net/Articles/1073071/" title="See Description">[$] Toward better handling of major page faults</a></li>
 <li><a href="#https://lwn.net/Articles/1074040/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1073944/" title="See Description">Vulnerabilities in various GTK-based PDF readers</a></li>
-<li><a href="#https://lwn.net/Articles/1071973/" title="See Description">[$] BPF support in GCC 16 and beyond</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1074534/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 26 May 2026 17:50:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074534/" title="https://lwn.net/Articles/1074534/">Arias: Human proof for FOSS contributions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Rodrigo Arias Mallo, maintainer of the <a
+href="https://dillo-browser.org/">Dillo</a> web browser, has written a
+<a href="https://dillo-browser.org/lab/human-proof/">blog post</a>
+with a proposal on one way to ensure that a contribution is written by
+a human and not AI; he suggests asking new contributors to record
+their programming session using <a
+href="https://asciinema.org/">asciinema</a>.</p>
+
+<blockquote class="bq">
+<p>In the same way that LLMs generate patches, they can also generate
+the asciinema recordings themselves. Then, the contributors can lie to
+the reviewers pretending to have made the edits. Perhaps surprisingly,
+this is not a easy task for LLMs, at least from my observations. The
+corpus of recordings of developers making mistakes and thinking the
+whole process of editing a file is not as large as the corpus of FOSS
+programs and patches in which to train an LLM. During my very simple
+tests I haven't been able to generate an asciinema session that
+remotely resembles what I would expect from a human, and even less so
+from a human with a nice editor theme and editing an existing Dillo
+source file.</p>
+</blockquote>
+
+<p>The Dillo project is not yet requiring asciinema recordings, but he
+said that he would like to test the theory further. LWN <a
+href="https://lwn.net/Articles/1053355/">covered</a> asciinema in
+January 2026.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1074449/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 26 May 2026 13:40:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -293,28 +325,6 @@ readers; exploits included:
 	which is why the vulnerability is much less serious for Papers than
 	it is for Evince, Atril, and Xreader.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1071973/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 21 May 2026 14:52:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1071973/" title="https://lwn.net/Articles/1071973/">[$] BPF support in GCC 16 and beyond</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-José Marchesi and the GCC-BPF developers opened the BPF track at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage,
-Filesystem, Memory-management, and BPF Summit</a>
-with a 90-minute summary of what has changed for GCC's BPF support in the past year.
-This kind of session has become something of a tradition. There were similar
-updates in
-<a href="https://lwn.net/Articles/1015747/">
-2025</a> and
-<a href="https://lwn.net/Articles/975412/">
-2024</a>. This time around, GCC seems to be closing in on
-feature parity with the LLVM toolchain — as the <a
-href="https://drive.google.com/file/d/1MLTPaBBCTAVwN31fC8FhfGDq2Uq18uOT/view">slides</a> detail.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
