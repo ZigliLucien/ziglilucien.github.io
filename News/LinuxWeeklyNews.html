@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1073420/" title="See Description">[$] MOT: a tool to fight openwashing in AI</a></li>
+<li><a href="#https://lwn.net/Articles/1070746/" title="See Description">Andrew Morton's 2004 OLS keynote</a></li>
 <li><a href="#https://lwn.net/Articles/1073418/" title="See Description">[$] Further progress toward removing the page map count</a></li>
 <li><a href="#https://lwn.net/Articles/1074840/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1074534/" title="See Description">Arias: Human proof for FOSS contributions</a></li>
@@ -51,11 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1073761/" title="See Description">[$] Dirk and Linus discuss AI and kernel development</a></li>
 <li><a href="#https://lwn.net/Articles/1074172/" title="See Description">Kernel prepatch 7.1-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/1074117/" title="See Description">A large set of stable kernel updates</a></li>
-<li><a href="#https://lwn.net/Articles/1073103/" title="See Description">[$] Custom page-cache policies with BPF</a></li>
-<li><a href="#https://lwn.net/Articles/1073071/" title="See Description">[$] Toward better handling of major page faults</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1073420/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 27 May 2026 15:52:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073420/" title="https://lwn.net/Articles/1073420/">[$] MOT: a tool to fight openwashing in AI</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Many large language models (LLMs) are described as open source, but
+if one looks a bit deeper it turns out that is not actually so; the
+model may be free to download, it may be "<a
+href="https://opensource.org/ai/open-weights">open weight</a>", but it
+does not fit the <a href="http://opensource.org/">Open Source
+Initiative</a> (OSI) <a href="https://opensource.org/osd">Open Source
+Definition</a> (OSD). Assessing the actual openness of models is not
+easy, as Arnaud&#160;Le&#160;Hors explained in his talk about the <a
+href="https://mot.isitopen.ai/">Model Openness Tool</a> (MOT) at <a
+href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
+Source Summit North America</a> 2026. The tool is designed to help
+users of LLMs understand to what degree a model is (or is not) open,
+and to combat the <a href="https://openwashing.org/">openwashing</a>
+that is prevalent with LLMs.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1070746/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 27 May 2026 14:35:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070746/" title="https://lwn.net/Articles/1070746/">Andrew Morton's 2004 OLS keynote</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>I recently presented a brief tribute to Andrew Morton at the <a
+href="https://lwn.net/Articles/lsfmmbpf2026">2026 Linux Storage, Filesystem, Memory
+Management, and BPF Summit</a>; it included a suggestion that reading (or
+re-reading) his 2004 Ottawa Linux Symposium keynote would be instructive.
+This talk, given immediately after <a href="https://lwn.net/Articles/94386/">the Kernel
+Summit session</a> that decided to fundamentally change the kernel's
+development model, tells a lot about how the kernel project got to where it
+is today.  The text of that speech was hosted on Groklaw, and has since
+been replaced by crypto spam, which is rather less useful.  In the hopes of
+preserving this seminal moment, the transcript has been rescued thanks to <a
+href="https://web.archive.org/web/20190809094732/http://www.groklaw.net/article.php?story=20040802115731932">the
+Wayback Machine</a> and is presented here.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1073418/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 27 May 2026 13:16:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -285,39 +325,6 @@ stable kernel updates have all been released.   The first four are huge
 (the <a href="https://lwn.net/ml/all/20260520162148.390695140@linuxfoundation.org">7.0.10
 review version</a> had 1,146 commits) while 6.1.174, 5.15.208, and 5.10.257
 are small updates for the "Fragnesia" vulnerability.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073103/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 22 May 2026 14:37:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073103/" title="https://lwn.net/Articles/1073103/">[$] Custom page-cache policies with BPF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's page cache is charged with maintaining pages (or, more
-correctly, <a href="https://lwn.net/Articles/1064861/">folios</a>) containing copies of
-data from files in the filesystem; its performance has a big effect on the
-performance of the system as a whole.  One of the key decisions the kernel
-must make is when to evict folios from the page cache.  At the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Tal Zussman ran a
-memory-management-track session on how the page cache could be better
-customized for specific workloads.  It will not be much of a spoiler to say
-that it involves BPF.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073071/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 22 May 2026 13:50:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073071/" title="https://lwn.net/Articles/1073071/">[$] Toward better handling of major page faults</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>A major page fault occurs when a process attempts to access a page that is
-not currently present in RAM; satisfying such faults usually involves <span
-class="nobreak">I/O</span>, and can thus take some time.  When many threads
-sharing an address space are generating page faults, the result can be
-significant lock contention while that <span class="nobreak">I/O</span>
-takes place.  During the memory-management track at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Barry Song led a session
-to try, yet again, to find an enduring solution to this problem.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
