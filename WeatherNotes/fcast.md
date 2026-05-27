@@ -2,8 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of rain showers before 7am. Partly sunny. High near 82, with temperatures falling to around 80 in the afternoon.
-         West wind 1 to 5 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Today</h3>Mostly sunny. High near 82, with temperatures falling to around 80 in the afternoon. West northwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

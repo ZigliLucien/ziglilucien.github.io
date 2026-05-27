@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1073418/" title="See Description">[$] Further progress toward removing the page map count</a></li>
+<li><a href="#https://lwn.net/Articles/1074840/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1074534/" title="See Description">Arias: Human proof for FOSS contributions</a></li>
 <li><a href="#https://lwn.net/Articles/1074449/" title="See Description">Stenberg: The pressure</a></li>
 <li><a href="#https://lwn.net/Articles/1073407/" title="See Description">[$] Better automatic management of transparent huge pages</a></li>
@@ -51,11 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1074117/" title="See Description">A large set of stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1073103/" title="See Description">[$] Custom page-cache policies with BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1073071/" title="See Description">[$] Toward better handling of major page faults</a></li>
-<li><a href="#https://lwn.net/Articles/1074040/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1073944/" title="See Description">Vulnerabilities in various GTK-based PDF readers</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1073418/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 27 May 2026 13:16:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073418/" title="https://lwn.net/Articles/1073418/">[$] Further progress toward removing the page map count</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <tt>mapcount</tt> field was created to track the number of mappings
+(page-table entries) that refer to the given page.  Among other things, a
+<tt>mapcount</tt> of zero means that the page has no references and can be
+reclaimed.  Maintaining <tt>mapcount</tt> has become increasingly
+challenging and expensive as the memory-management system has grown in
+complexity, so Hildenbrand has been looking for ways to get rid of it.
+This session was, he said, maybe one of the last times he will have to
+bring up this topic.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1074840/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 27 May 2026 13:14:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074840/" title="https://lwn.net/Articles/1074840/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, buildah, compat-libtiff3, compat-openssl11, containernetworking-plugins, crun, delve, dnsmasq, dovecot, edk2, firefox, freeipmi, gdk-pixbuf2, giflib, git-lfs, glib2, go-fdo-client, go-fdo-server, golang, grafana, grafana-pcp, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, and gstreamer1-plugins-ugly-free, iputils, jq, kernel, krb5, libcap, LibRaw, libsndfile, libsoup, libsoup3, libssh, libtiff, libvirt, linux-sgx, luksmeta, mingw-glib2, NetworkManager, nginx, nginx:1.24, nginx:1.26, openexr, openssh, openssl, opentelemetry-collector, p11-kit, PackageKit, podman, python-jwcrypto, python-markdown, python-tornado, python3.11, python3.12, python3.14, python3.9, qemu-kvm, rsync, skopeo, sudo, systemd, thunderbird, tomcat, unbound, vim, xorg-x11-server, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Debian</b> (imagemagick, kdenlive, memcached, node-shell-quote, and samba), <b>Fedora</b> (chromium, curl, editorconfig, haproxy, perl-Crypt-DSA, perl-HTTP-Tiny, poppler, rust-afterburn, rust-coreos-installer, rust-eif_build, rust-rpm-sequoia, rust-sequoia-chameleon-gnupg, rust-sequoia-git, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-openpgp, rust-sequoia-sop, rust-sequoia-sq, rust-sequoia-sqv, and uriparser), <b>Oracle</b> (compat-libtiff3, dnsmasq, firefox, freeipmi, kernel, and uek-kernel), <b>Slackware</b> (mozilla), <b>SUSE</b> (assimp, firefox, glibc, gnutls, go1.25-openssl, go1.26-openssl, kernel, kubevirt, leancrypto, libarchive, libsndfile, mcphost, nginx, openssh, podman, python-GitPython, rsync, and samba), and <b>Ubuntu</b> (ayttm, dnsmasq, libssh2, linux-azure, linux-azure, linux-azure-6.17, linux-iot, linux-lowlatency-hwe-5.15, ngtcp2, onnx, opencc, protobuf, python-git, samba, xdg-dbus-proxy, and xmlrpc-c).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1074534/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 26 May 2026 17:50:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -295,36 +318,6 @@ href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
 Filesystem, Memory Management, and BPF Summit</a>, Barry Song led a session
 to try, yet again, to find an enduring solution to this problem.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074040/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 22 May 2026 13:07:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074040/" title="https://lwn.net/Articles/1074040/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox), <b>Debian</b> (chromium, nss, openvpn, and thunderbird), <b>Fedora</b> (cockpit, kernel, and linux-firmware), <b>Oracle</b> (gdk-pixbuf2, kernel, and libsndfile), <b>SUSE</b> (container-suseconnect, cpp-httplib, dnsmasq, firefox, glibc, GraphicsMagick, java-1_8_0-openj9, kernel, mozjs115, php8, python-urllib3, rekor, rootlesskit, rsync, tiff, ucode-intel, util-linux, and xz), and <b>Ubuntu</b> (bind9, bubblewrap, libarchive, linux-intel-iot-realtime, postgresql-14, postgresql-16, postgresql-17, postgresql-18, and xdg-desktop-portal).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073944/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 21 May 2026 21:05:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073944/" title="https://lwn.net/Articles/1073944/">Vulnerabilities in various GTK-based PDF readers</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Michael Catanzaro has disclosed <a
-href="https://lwn.net/ml/all/ce81312b-99e1-4305-a816-e74b2bd1ffd5@app.fastmail.com">a
-command-injection vulnerability</a> affecting a number of GTK-based PDF
-readers; exploits included:
-<p>
-<blockquote class="bq">
-	They contain a script for building malicious polyglot PDFs that are
-	simultaneously both valid PDF files and also valid ELF
-	binaries. When the user opens the PDF in the PDF viewer and clicks
-	on a malicious link embedded in the PDF, the PDF abuses the command
-	injection vulnerability to load itself as a GTK module using the
-	`--gtk-module` command line flag. It can then execute arbitrary
-	code via its library constructor. That flag was removed in GTK 4,
-	which is why the vulnerability is much less serious for Papers than
-	it is for Evince, Atril, and Xreader.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
