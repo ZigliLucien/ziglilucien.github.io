@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1073782/" title="See Description">[$] LWN.net Weekly Edition for May 28, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1074907/" title="See Description">Interview session with Jonathan Corbet</a></li>
 <li><a href="#https://lwn.net/Articles/1073420/" title="See Description">[$] MOT: a tool to fight openwashing in AI</a></li>
 <li><a href="#https://lwn.net/Articles/1070746/" title="See Description">Andrew Morton's 2004 OLS keynote</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1073400/" title="See Description">[$] Tier-aware memory-controller limits</a></li>
 <li><a href="#https://lwn.net/Articles/1074280/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1073761/" title="See Description">[$] Dirk and Linus discuss AI and kernel development</a></li>
-<li><a href="#https://lwn.net/Articles/1074172/" title="See Description">Kernel prepatch 7.1-rc5</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1073782/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 28 May 2026 01:04:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073782/" title="https://lwn.net/Articles/1073782/">[$] LWN.net Weekly Edition for May 28, 2026</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1073782/">Front</a>: Dirk and Linus talk; BPF and GCC; private memory modes; BPF page-cache policies; major page faults; LLM kernel review; tiered-memory support; transparent huge pages; page mappings; Model Openness Tool.
+            <li> <a href="https://lwn.net/Articles/1073784/">Briefs</a>: Stenberg security stress; GTK PDF problems; Morton 2004 keynote; OpenBSD 7.9; Bambu's AGPLv3 violations; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1073785/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1074907/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 27 May 2026 19:32:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -292,33 +307,6 @@ Source Summit North America</a>. Topics included 3D printing, guitar
 pedals, the recent 7.1-rc4 release of the kernel, and Torvalds's
 complicated relationship with AI tooling.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074172/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 24 May 2026 22:59:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074172/" title="https://lwn.net/Articles/1074172/">Kernel prepatch 7.1-rc5</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1074171/">7.1-rc5</a> kernel prepatch is out for
-testing.  Quoth Linus:
-<p>
-<blockquote class="bq">
-	I'm not entirely happy about it - most of this is totally trivial
-	stuff to random drivers, which obviously makes it all less scary,
-	but at the same time I'm really not convinced the churn is worth it
-	at rc5 time. These things are "fixes", sure, but at the same time a
-	lot of them are simply so irrelevant that I think they'd be better
-	off in a linux-next tree and get merged during the merge window.
-<p>
-	So I think I'll start being a bit more hardnosed about this kind of
-	unnecessary churn this late in the game. We are supposed to look
-	for *regressions*. Non-critical fixes to long-standing issues are
-	simply not appropriate for this late in the release cycle.
-<P>
-	End result: this is too big, and this is the heads-up that I'll be
-	pushing back on pointless pull requests with fixes that just aren't
-	that important. And yes, several of these series were triggered by
-	AI code review.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>

@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>Patchy fog after 3am. Partly cloudy. Low around 65, with temperatures rising to around 67 overnight. North northeast wind
-         around 2 mph.<br></div>
+         around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
