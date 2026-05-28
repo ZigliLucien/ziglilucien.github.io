@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1075065/" title="See Description">IBM's "Project Lightwell"</a></li>
+<li><a href="#https://lwn.net/Articles/1073425/" title="See Description">[$] Separating memory descriptors from struct page</a></li>
+<li><a href="#https://lwn.net/Articles/1075060/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1073782/" title="See Description">[$] LWN.net Weekly Edition for May 28, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1074907/" title="See Description">Interview session with Jonathan Corbet</a></li>
 <li><a href="#https://lwn.net/Articles/1073420/" title="See Description">[$] MOT: a tool to fight openwashing in AI</a></li>
@@ -50,12 +53,58 @@
 <li><a href="#https://lwn.net/Articles/1074443/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1073583/" title="See Description">[$] Reviewing kernel patches with LLMs</a></li>
 <li><a href="#https://lwn.net/Articles/1074286/" title="See Description">Comprehensive Response to Bambu's AGPLv3 Violations (Software Freedom Conservancy)</a></li>
-<li><a href="#https://lwn.net/Articles/1073400/" title="See Description">[$] Tier-aware memory-controller limits</a></li>
-<li><a href="#https://lwn.net/Articles/1074280/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1073761/" title="See Description">[$] Dirk and Linus discuss AI and kernel development</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1075065/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 28 May 2026 13:30:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075065/" title="https://lwn.net/Articles/1075065/">IBM's "Project Lightwell"</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>IBM has sent out <a
+href="https://newsroom.ibm.com/2026-05-28-ibm-and-red-hat-commit-5-billion-to-redefine-the-future-of-open-source-in-the-ai-era">a
+press release</a> touting a claimed $5&#160;billion investment into an
+operation called Project Lightwell:
+<p>
+<blockquote class="bq">
+	Project Lightwell will establish a trusted enterprise clearinghouse
+	combined with a global force of engineers to identify and fix
+	vulnerabilities at scale. The clearinghouse will serve as a
+	security coordination layer, using advanced AI capabilities to
+	validate and test fixes across an unprecedented volume of open
+	source code. These capabilities will be offered through commercial
+	subscriptions, allowing enterprises to integrate secure patches
+	directly into their existing software supply chains with
+	enterprise-grade validation and lifecycle management.
+</blockquote>
+<p>
+Toward the bottom, it does also mention sharing vulnerability information
+with upstream projects.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073425/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 28 May 2026 13:09:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073425/" title="https://lwn.net/Articles/1073425/">[$] Separating memory descriptors from struct page</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's memory-management subsystem is currently partway through a
+multi-year project to replace the <tt>page</tt> structure (which represents
+a page of physical memory) with <a
+href="https://kernelnewbies.org/MatthewWilcox/Memdescs">memory
+descriptors</a>.  At the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Vishal Moola ran a
+fast-paced session in the memory-management track to describe the current
+state of that work and what is likely to happen next.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1075060/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 28 May 2026 13:05:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075060/" title="https://lwn.net/Articles/1075060/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, gdk-pixbuf2, glibc, gnutls, kernel, libexif, mysql8.4, postgresql16, postgresql18, python3.14, ruby:3.3, and ruby:4.0), <b>Debian</b> (krb5, roundcube, starlette, unbound, and varnish), <b>Fedora</b> (kernel, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-js-challenge, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, perl-Imager, poppler, python-uv-build, rrdtool, rust-astral-tokio-tar, rust-astral_async_http_range_reader, rust-astral_async_zip, uv, and xen), <b>Oracle</b> (.NET 10.0, .NET 9.0, glibc, ruby:3.3, and thunderbird), <b>Red Hat</b> (.NET 10.0, .NET 8.0, .NET 9.0, containernetworking-plugins, gvisor-tap-vsock, podman, runc, and skopeo), <b>SUSE</b> (agama, alloy, bubblewrap, cockpit, cups, dnsmasq, emacs, glibc, gnutls, go1.25, go1.25-openssl, go1.26, go1.26-openssl, google-guest-agent, hplip, ibus-rime, librime, kernel, libarchive, libzypp, nginx, openexr, openssh, php7, postgresql14, postgresql15, postgresql16, python311-pytest-html, redis, redis7, rsync, tree-sitter, valkey, xen, and yq), and <b>Ubuntu</b> (cableswig, commons-beanutils, dnsmasq, ffmpeg, foomuuri, gst-plugins-good1.0, libcaca, libgcrypt20, mediawiki, memcached, papers, postorius, tgt, and tika).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1073782/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 28 May 2026 01:04:49 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -270,43 +319,6 @@ while also hosting the Orca Slicer fork.
 <blockquote class="bq">
 Bambu has behaved badly for years and made multiple, provably false public statements regarding the AGPLv3 and its requirements. The recent aggressive behavior toward Paweł Jarczak was a last straw for us: we have decided to launch a multi-pronged effort that will assist consumers and users in the short-term, and <i>also</i> work toward a long-term strategy to improve the software right to repair for all 3D printer consumers.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073400/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 25 May 2026 15:03:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073400/" title="https://lwn.net/Articles/1073400/">[$] Tier-aware memory-controller limits</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Joshua Hahn began his session in the memory-management track of the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> by saying that the memory
-controller for control groups is intended to provide resource allocation,
-accounting, and protection from interference by other tasks.  But
-it was not really designed for tiered-memory systems; he is looking for a
-way to improve that situation.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074280/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 25 May 2026 14:40:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074280/" title="https://lwn.net/Articles/1074280/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (atril, evince, gnutls28, haproxy, haveged, jq, kernel, krb5, libgcrypt20, nodejs, and thunderbird), <b>Fedora</b> (aw-server-rust, awatcher, bind, bind-dyndb-ldap, chromium, composer, docker-buildkit, docker-buildx, dotnet10.0, dotnet8.0, dotnet9.0, evince, firefox, httpd, kernel, nodejs-aw-webui, nss, perl-Apache-Session-Browseable, pie, python-pulp-glue, python-requests, and python3.15), <b>Slackware</b> (kernel), <b>SUSE</b> (apptainer, chromium, cockpit, dnsmasq, google-guest-agent, hauler, iproute2, jfrog-cli, kernel, libecpg6, libsolv, libzypp, zypper, mcphost, oci-cli, perl-YAML-Syck, python-lxml, python-urllib3, python311-impacket, rqlite, rsync, util-linux, and xz), and <b>Ubuntu</b> (evince, linux-azure, linux-azure-5.4, linux-azure-fips, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp-5.15, linux-lowlatency-hwe-5.15, linux-oracle-6.17, node-path-to-regexp, and rclone).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073761/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 25 May 2026 14:20:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073761/" title="https://lwn.net/Articles/1073761/">[$] Dirk and Linus discuss AI and kernel development</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Linus Torvalds does not enjoy giving talks, but he does consent to
-the occasional on-stage conversation with Dirk Hohndel at Linux
-Foundation events. The pair held the 30th of their fire-less fireside
-chats during a keynote session on May&#160;20, at the 2026 <a
-href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
-Source Summit North America</a>. Topics included 3D printing, guitar
-pedals, the recent 7.1-rc4 release of the kernel, and Torvalds's
-complicated relationship with AI tooling.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
