@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1074557/" title="See Description">[$] Policies for merging new filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/1075065/" title="See Description">IBM's "Project Lightwell"</a></li>
 <li><a href="#https://lwn.net/Articles/1073425/" title="See Description">[$] Separating memory descriptors from struct page</a></li>
 <li><a href="#https://lwn.net/Articles/1075060/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/1073407/" title="See Description">[$] Better automatic management of transparent huge pages</a></li>
 <li><a href="#https://lwn.net/Articles/1074443/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1073583/" title="See Description">[$] Reviewing kernel patches with LLMs</a></li>
-<li><a href="#https://lwn.net/Articles/1074286/" title="See Description">Comprehensive Response to Bambu's AGPLv3 Violations (Software Freedom Conservancy)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1074557/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 28 May 2026 14:29:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074557/" title="https://lwn.net/Articles/1074557/">[$] Policies for merging new filesystems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>In a filesystem-track session at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Amir Goldstein wanted to
+discuss his <a
+href="https://lwn.net/ml/all/20260417142503.1436446-1-amir73il@gmail.com/">proposed
+documentation on adding new filesystems</a> to the kernel.  There are a
+number of unmaintained and untestable filesystems already in the kernel,
+which are a burden to VFS-layer developers who are trying to make sweeping
+changes, such as switching to folios and the "new" mount API.  Goldstein's
+document is an attempt to head off the addition of filesystems that may
+increase that burden down the road.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1075065/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 28 May 2026 13:30:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -297,28 +315,6 @@ Gushchin, Chris Mason, Josef Bacik, and Sasha Levin, resulted in a quite bit
 of discussion, so much that a second filesystem-track-only (though others
 surely sat in) slot was used to continue it later in the day.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074286/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 25 May 2026 16:48:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074286/" title="https://lwn.net/Articles/1074286/">Comprehensive Response to Bambu's AGPLv3 Violations (Software Freedom Conservancy)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://sfconservancy.org/">Software Freedom Conservancy</a> (SFC)
-published a <a
-href="https://sfconservancy.org/news/2026/may/18/bambu-studio-3d-printer-agpl-violation-response/">news
-item</a> on May 18 about its response to violations of the AGPLv3 by Bambu
-Lab in its 3D printers.  The company has not provided the source code to
-its modifications to a 3D "slicer" program that was released under the
-AGPLv3 and it has also threatened Paweł Jarczak who created a fork of a
-different slicer (<a href="https://www.orcaslicer.com/">Orca Slicer</a>) released under AGPLv3 in order to interoperate with his
-Bambu printer. Based on that, the SFC has created the <a
-href="https://f.sfconservancy.org/baltobu/reverse-networking">baltobu
-project</a> aimed at reverse-engineering and reimplementing the Bambu code
-while also hosting the Orca Slicer fork.
-
-<blockquote class="bq">
-Bambu has behaved badly for years and made multiple, provably false public statements regarding the AGPLv3 and its requirements. The recent aggressive behavior toward Paweł Jarczak was a last straw for us: we have decided to launch a multi-pronged effort that will assist consumers and users in the short-term, and <i>also</i> work toward a long-term strategy to improve the software right to repair for all 3D printer consumers.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
