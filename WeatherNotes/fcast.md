@@ -4,8 +4,7 @@
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of rain showers between 8am and 9am, then a slight chance of showers and thunderstorms between 1pm and 2pm,
          then a chance of showers and thunderstorms between 2pm and 4pm, then a chance of showers and thunderstorms. Mostly cloudy.
-         High near 80, with temperatures falling to around 78 in the afternoon. East wind around 6 mph. Chance of precipitation is
-         30%.<br></div>
+         High near 80, with temperatures falling to around 78 in the afternoon. East wind 2 to 6 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
