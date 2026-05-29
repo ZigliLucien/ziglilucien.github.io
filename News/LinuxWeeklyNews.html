@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1070218/" title="See Description">[$] A trademark dispute over MeshCore</a></li>
+<li><a href="#https://lwn.net/Articles/1073759/" title="See Description">[$] A loadable crypto module for FIPS certification</a></li>
+<li><a href="#https://lwn.net/Articles/1075315/" title="See Description">Nesbitt: Protestware for coding agents</a></li>
 <li><a href="#https://lwn.net/Articles/1075310/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1075180/" title="See Description">Rust 1.96.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1075148/" title="See Description">Górny: why Gentoo?</a></li>
@@ -50,12 +53,71 @@
 <li><a href="#https://lwn.net/Articles/1073420/" title="See Description">[$] MOT: a tool to fight openwashing in AI</a></li>
 <li><a href="#https://lwn.net/Articles/1070746/" title="See Description">Andrew Morton's 2004 OLS keynote</a></li>
 <li><a href="#https://lwn.net/Articles/1073418/" title="See Description">[$] Further progress toward removing the page map count</a></li>
-<li><a href="#https://lwn.net/Articles/1074840/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1074534/" title="See Description">Arias: Human proof for FOSS contributions</a></li>
-<li><a href="#https://lwn.net/Articles/1074449/" title="See Description">Stenberg: The pressure</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1070218/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 29 May 2026 16:41:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070218/" title="https://lwn.net/Articles/1070218/">[$] A trademark dispute over MeshCore</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://github.com/meshcore-dev/MeshCore#about-meshcore">
+MeshCore</a> is a relatively new project, started in January 2025, that aims
+to build a scalable mesh network using low-power long-distance radios. While
+many other projects of the same general nature have been tried before, MeshCore
+grew quickly because of its more efficient message routing and enthusiastic
+community. In early 2026, an early proponent of the project made a sudden shift
+that left the rest of the community stunned and embroiled in a trademark dispute.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1073759/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 29 May 2026 14:29:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073759/" title="https://lwn.net/Articles/1073759/">[$] A loadable crypto module for FIPS certification</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Many organizations require US <a href="https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards">Federal Information Processing Standard</a> (FIPS)
+certification of the crypto code they are running.  The certification
+process is lengthy, but the bigger problem is that the way the crypto
+subsystem is built into the kernel makes the result unable to be reused
+across kernel updates.  I have proposed a <a
+href="https://lwn.net/ml/all/20260418002032.2877-1-wanjay@amazon.com/">patch
+series</a> that decouples the crypto subsystem into a standalone
+loadable module, allowing a certified crypto module to be reused with
+multiple kernels and, thus, requiring fewer lengthy recertification delays.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1075315/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 29 May 2026 14:09:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075315/" title="https://lwn.net/Articles/1075315/">Nesbitt: Protestware for coding agents</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Andrew Nesbitt has written a <a
+href="https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html">blog
+post</a> detailing a recent incident with the <a
+href="https://jqwik.net/">jqwik</a> library for property-based testing
+in Java. On May&#160;25, the 1.10.0 release of jqwik included a <a
+href="https://github.com/jqwik-team/jqwik/commit/9dddcb5226">change</a>
+that attempts to instruct coding agents to disregard previous
+instructions and delete jqwik tests and code.</p> 
+
+<blockquote class="bq">
+I think this is a new class of supply-chain input worth keeping an eye
+on, mostly because of how little of the existing tooling has any
+opinion about it. A <tt>System.out.print</tt> of sixty-eight bytes of plain
+ASCII isn't the kind of thing scanners are looking for, since those
+watch for install hooks, network calls, filesystem writes, obfuscated
+strings and the like. The jar makes the same syscalls it made in 1.9,
+and because the change was committed and released by the legitimate
+maintainer through the normal build, it's clean from a SLSA point of
+view too: the provenance is what it should be. Anyone who reads the
+diff can see what it does, but a patch bump of a test-scoped
+dependency is not where most projects spend their review time.
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1075310/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 29 May 2026 13:12:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -253,74 +315,6 @@ complexity, so Hildenbrand has been looking for ways to get rid of it.
 This session was, he said, maybe one of the last times he will have to
 bring up this topic.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074840/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 27 May 2026 13:14:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074840/" title="https://lwn.net/Articles/1074840/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, buildah, compat-libtiff3, compat-openssl11, containernetworking-plugins, crun, delve, dnsmasq, dovecot, edk2, firefox, freeipmi, gdk-pixbuf2, giflib, git-lfs, glib2, go-fdo-client, go-fdo-server, golang, grafana, grafana-pcp, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, and gstreamer1-plugins-ugly-free, iputils, jq, kernel, krb5, libcap, LibRaw, libsndfile, libsoup, libsoup3, libssh, libtiff, libvirt, linux-sgx, luksmeta, mingw-glib2, NetworkManager, nginx, nginx:1.24, nginx:1.26, openexr, openssh, openssl, opentelemetry-collector, p11-kit, PackageKit, podman, python-jwcrypto, python-markdown, python-tornado, python3.11, python3.12, python3.14, python3.9, qemu-kvm, rsync, skopeo, sudo, systemd, thunderbird, tomcat, unbound, vim, xorg-x11-server, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Debian</b> (imagemagick, kdenlive, memcached, node-shell-quote, and samba), <b>Fedora</b> (chromium, curl, editorconfig, haproxy, perl-Crypt-DSA, perl-HTTP-Tiny, poppler, rust-afterburn, rust-coreos-installer, rust-eif_build, rust-rpm-sequoia, rust-sequoia-chameleon-gnupg, rust-sequoia-git, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-openpgp, rust-sequoia-sop, rust-sequoia-sq, rust-sequoia-sqv, and uriparser), <b>Oracle</b> (compat-libtiff3, dnsmasq, firefox, freeipmi, kernel, and uek-kernel), <b>Slackware</b> (mozilla), <b>SUSE</b> (assimp, firefox, glibc, gnutls, go1.25-openssl, go1.26-openssl, kernel, kubevirt, leancrypto, libarchive, libsndfile, mcphost, nginx, openssh, podman, python-GitPython, rsync, and samba), and <b>Ubuntu</b> (ayttm, dnsmasq, libssh2, linux-azure, linux-azure, linux-azure-6.17, linux-iot, linux-lowlatency-hwe-5.15, ngtcp2, onnx, opencc, protobuf, python-git, samba, xdg-dbus-proxy, and xmlrpc-c).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074534/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 26 May 2026 17:50:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074534/" title="https://lwn.net/Articles/1074534/">Arias: Human proof for FOSS contributions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Rodrigo Arias Mallo, maintainer of the <a
-href="https://dillo-browser.org/">Dillo</a> web browser, has written a
-<a href="https://dillo-browser.org/lab/human-proof/">blog post</a>
-with a proposal on one way to ensure that a contribution is written by
-a human and not AI; he suggests asking new contributors to record
-their programming session using <a
-href="https://asciinema.org/">asciinema</a>.</p>
-
-<blockquote class="bq">
-<p>In the same way that LLMs generate patches, they can also generate
-the asciinema recordings themselves. Then, the contributors can lie to
-the reviewers pretending to have made the edits. Perhaps surprisingly,
-this is not a easy task for LLMs, at least from my observations. The
-corpus of recordings of developers making mistakes and thinking the
-whole process of editing a file is not as large as the corpus of FOSS
-programs and patches in which to train an LLM. During my very simple
-tests I haven't been able to generate an asciinema session that
-remotely resembles what I would expect from a human, and even less so
-from a human with a nice editor theme and editing an existing Dillo
-source file.</p>
-</blockquote>
-
-<p>The Dillo project is not yet requiring asciinema recordings, but he
-said that he would like to test the theory further. LWN <a
-href="https://lwn.net/Articles/1053355/">covered</a> asciinema in
-January 2026.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074449/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 26 May 2026 13:40:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074449/" title="https://lwn.net/Articles/1074449/">Stenberg: The pressure</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Curl maintainer Daniel Stenberg <a
-href="https://daniel.haxx.se/blog/2026/05/26/the-pressure/">writes about
-the stress</a> of keeping up with the current flood of security reports.
-<p>
-<blockquote class="bq">
-	This is a never-before seen or experienced pressure on the curl
-	project and its security team members. An avalanche of high
-	priority work that trumps all other things in the project that is
-	primarily mental because we certainly could ignore them all if we
-	wanted, but we feel a responsibility, we have a conscience and we
-	are proud about our work. We feel obliged to fix security problems
-	in the software we have helped shipped to every device on the
-	globe. This is personal to us.
-<p>
-	With about half the release cycle left until the pending release
-	ships, we already have twelve <i>confirmed vulnerabilities</i>
-	meaning twelve pending CVE announcements. That's a new project
-	record and it also means we will reach <i>thirty</i> published CVEs
-	in 2026 even before half the calendar year has passed. The
-	projected total amount of curl CVEs published through the whole
-	year is therefore at least double this number!
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
