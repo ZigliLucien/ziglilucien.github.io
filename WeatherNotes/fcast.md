@@ -2,23 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Partly sunny. High near 84, with temperatures falling to around 82 in the afternoon. East wind around 5 mph.<br></div>
+         <h3>This Afternoon</h3>A slight chance of showers and thunderstorms between 4pm and 5pm. Partly sunny. High near 84, with temperatures falling to
+         around 82 in the afternoon. East wind around 3 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of rain showers between 9pm and 1am, then a slight chance of showers and thunderstorms between 4am and 5am, then
-         showers and thunderstorms likely. Partly cloudy. Low around 66, with temperatures rising to around 68 overnight. East southeast
-         wind 0 to 3 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms after 3am. Partly cloudy. Low around 65, with temperatures rising to around 67 overnight.
+         Southeast wind 0 to 3 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Showers and thunderstorms before 1pm, then a slight chance of showers and thunderstorms. Partly sunny, with a high near 84.
-         North northeast wind around 3 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Monday</h3>Showers and thunderstorms likely. Partly sunny, with a high near 83. North northeast wind 1 to 5 mph. Chance of precipitation
+         is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 63. Northeast wind around 5 mph.
-         Chance of precipitation is 20%.<br></div>
+         <h3>Monday Night</h3>A chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 63. Northeast wind around 5 mph. Chance
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
