@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1073762/" title="See Description">[$] Representing the true signatures of kernel functions</a></li>
+<li><a href="#https://lwn.net/Articles/1075806/" title="See Description">Seven stable kernels for the first day of June</a></li>
 <li><a href="#https://lwn.net/Articles/1075766/" title="See Description">DistroWatch turns 25</a></li>
 <li><a href="#https://lwn.net/Articles/1074897/" title="See Description">[$] Reconsidering x32 — again</a></li>
 <li><a href="#https://lwn.net/Articles/1075742/" title="See Description">Multiple redhat-cloud-services npm packages compromised (StepSecurity Blog)</a></li>
@@ -51,11 +53,46 @@
 <li><a href="#https://lwn.net/Articles/1075180/" title="See Description">Rust 1.96.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1075148/" title="See Description">Górny: why Gentoo?</a></li>
 <li><a href="#https://lwn.net/Articles/1074557/" title="See Description">[$] Policies for merging new filesystems</a></li>
-<li><a href="#https://lwn.net/Articles/1075065/" title="See Description">IBM's "Project Lightwell"</a></li>
-<li><a href="#https://lwn.net/Articles/1073425/" title="See Description">[$] Separating memory descriptors from struct page</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1073762/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Jun 2026 18:59:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073762/" title="https://lwn.net/Articles/1073762/">[$] Representing the true signatures of kernel functions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Optimizing compilers can, under some circumstances, infer when a parameter to a
+function is not needed, and remove it. This is all well and good until the
+kernel's tracing or BPF subsystems need information on how to call the function
+or where its arguments are stored.
+Alan Maguire and Yonghong Song spoke at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux
+Storage, Filesystem, Memory-Management, and BPF Summit</a> about their work on
+recording information regarding changed function signatures in the kernel's BTF debugging
+information, to better support tracing such functions.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1075806/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Jun 2026 17:38:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075806/" title="https://lwn.net/Articles/1075806/">Seven stable kernels for the first day of June</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1075807/">7.0.11</a>, <a
+href="https://lwn.net/Articles/1075808/">6.18.34</a>, <a
+href="https://lwn.net/Articles/1075809/">6.12.92</a>, <a
+href="https://lwn.net/Articles/1075810/">6.6.142</a>, <a
+href="https://lwn.net/Articles/1075811/">6.1.175</a>, <a
+href="https://lwn.net/Articles/1075812/">5.15.209</a>, and <a
+href="https://lwn.net/Articles/1075813/">5.10.258</a> stable kernels. As usual, each
+contains important fixes throughout the tree, including a <a href="https://lwn.net/ml/all/2026060140-CVE-2026-46243-3d1c%40gregkh/">fix</a> for the "<a href="https://heyitsas.im/posts/cifswitch/">CIFSwitch</a>" vulnerability (<a href="https://cve.org/CVERecord/?id=CVE-2026-46243">CVE-2026-46243</a>) which could allow a local-privilege-escalation exploit. Users are advised to
+upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1075766/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 01 Jun 2026 14:39:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -291,47 +328,6 @@ which are a burden to VFS-layer developers who are trying to make sweeping
 changes, such as switching to folios and the "new" mount API.  Goldstein's
 document is an attempt to head off the addition of filesystems that may
 increase that burden down the road.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075065/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 28 May 2026 13:30:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075065/" title="https://lwn.net/Articles/1075065/">IBM's "Project Lightwell"</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>IBM has sent out <a
-href="https://newsroom.ibm.com/2026-05-28-ibm-and-red-hat-commit-5-billion-to-redefine-the-future-of-open-source-in-the-ai-era">a
-press release</a> touting a claimed $5&#160;billion investment into an
-operation called Project Lightwell:
-<p>
-<blockquote class="bq">
-	Project Lightwell will establish a trusted enterprise clearinghouse
-	combined with a global force of engineers to identify and fix
-	vulnerabilities at scale. The clearinghouse will serve as a
-	security coordination layer, using advanced AI capabilities to
-	validate and test fixes across an unprecedented volume of open
-	source code. These capabilities will be offered through commercial
-	subscriptions, allowing enterprises to integrate secure patches
-	directly into their existing software supply chains with
-	enterprise-grade validation and lifecycle management.
-</blockquote>
-<p>
-Toward the bottom, it does also mention sharing vulnerability information
-with upstream projects.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073425/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 28 May 2026 13:09:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073425/" title="https://lwn.net/Articles/1073425/">[$] Separating memory descriptors from struct page</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's memory-management subsystem is currently partway through a
-multi-year project to replace the <tt>page</tt> structure (which represents
-a page of physical memory) with <a
-href="https://kernelnewbies.org/MatthewWilcox/Memdescs">memory
-descriptors</a>.  At the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Vishal Moola ran a
-fast-paced session in the memory-management track to describe the current
-state of that work and what is likely to happen next.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
