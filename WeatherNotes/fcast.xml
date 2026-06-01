@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-06-01T06:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-06-01T06:21:22+00:00</updateTime>
-		<validTimes type="str">2026-06-01T00:00:00+00:00/P8DT1H</validTimes>
+		<generatedAt type="str">2026-06-01T09:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-06-01T09:21:44+00:00</updateTime>
+		<validTimes type="str">2026-06-01T03:00:00+00:00/P7DT22H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-06-01T01:00:00-05:00</startTime>
+				<startTime type="str">2026-06-01T04:00:00-05:00</startTime>
 				<endTime type="str">2026-06-01T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">65</temperature>
@@ -63,10 +63,10 @@
 					<value type="int">49</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,50?size=medium</icon>
+				<windDirection type="str">SW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,50?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms after 2am. Partly cloudy. Low around 65, with temperatures rising to around 68 overnight. South southwest wind around 1 mph. Chance of precipitation is 50%.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly cloudy. Low around 65, with temperatures rising to around 67 overnight. Southwest wind around 1 mph. Chance of precipitation is 50%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -212,7 +212,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">3</value>
+					<value type="int">2</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 to 8 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
@@ -231,7 +231,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">10</value>
+					<value type="int">9</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 to 9 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
@@ -269,11 +269,11 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">47</value>
+					<value type="int">45</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 to 9 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,40/tsra_sct,50?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_hi,40/tsra_hi,50?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 84. South wind 5 to 9 mph.</detailedForecast>
 			</item>
@@ -288,7 +288,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">47</value>
+					<value type="int">45</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 to 8 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
@@ -307,13 +307,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">55</value>
+					<value type="int">53</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 to 8 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,50/tsra_sct,60?size=medium</icon>
-				<shortForecast type="str">Showers And Thunderstorms Likely</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms likely. Partly sunny, with a high near 85. South wind 5 to 8 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/tsra_sct,50?size=medium</icon>
+				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 85. South wind 5 to 8 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
