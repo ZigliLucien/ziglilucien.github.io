@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1075766/" title="See Description">DistroWatch turns 25</a></li>
+<li><a href="#https://lwn.net/Articles/1074897/" title="See Description">[$] Reconsidering x32 — again</a></li>
+<li><a href="#https://lwn.net/Articles/1075742/" title="See Description">Multiple redhat-cloud-services npm packages compromised (StepSecurity Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1075736/" title="See Description">Fedora F44 election interviews published</a></li>
 <li><a href="#https://lwn.net/Articles/1075733/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1075575/" title="See Description">Kernel prepatch 7.1-rc6</a></li>
@@ -50,12 +53,76 @@
 <li><a href="#https://lwn.net/Articles/1074557/" title="See Description">[$] Policies for merging new filesystems</a></li>
 <li><a href="#https://lwn.net/Articles/1075065/" title="See Description">IBM's "Project Lightwell"</a></li>
 <li><a href="#https://lwn.net/Articles/1073425/" title="See Description">[$] Separating memory descriptors from struct page</a></li>
-<li><a href="#https://lwn.net/Articles/1075060/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1073782/" title="See Description">[$] LWN.net Weekly Edition for May 28, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1074907/" title="See Description">Interview session with Jonathan Corbet</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1075766/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Jun 2026 14:39:35 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075766/" title="https://lwn.net/Articles/1075766/">DistroWatch turns 25</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The DistroWatch site is <a
+href="https://distrowatch.com/weekly.php?issue=20260601">celebrating its
+25th anniversary</a>.  "<q>All in all, it has been an incredible ride. Many
+of you who read these pages regularly know that downloading and testing
+distributions is a highly addictive pastime. I have been an avid
+distro-hopper for the last 25 years and I don't see myself abandoning this
+activity for many more years to come.</q>"  Congratulations to Ladislav
+Bodnar and all the others who have kept that resource going for so long.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1074897/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Jun 2026 14:22:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074897/" title="https://lwn.net/Articles/1074897/">[$] Reconsidering x32 — again</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://en.wikipedia.org/wiki/X32_ABI">x32 ABI</a> was meant
+to be the best of both worlds, providing the expanded registers and
+instruction set of the x86-64 architecture while preserving the lower
+memory use of 32-bit systems.  The Linux kernel has supported x32 since the
+3.4 release in 2012.  The initial excitement around x32 did not last,
+though, and kernel developers are considering removing that support — and
+not for the first time.  Even the most unloved features tend to have a few
+users, though, making removal hard.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1075742/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Jun 2026 14:05:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075742/" title="https://lwn.net/Articles/1075742/">Multiple redhat-cloud-services npm packages compromised (StepSecurity Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>StepSecurity is <a
+href="https://www.stepsecurity.io/blog/multiple-redhat-cloud-services-npm-packages-compromised">reporting</a>
+that a number of npm packages in the <tt>@redhat-cloud-services</tt>
+scope include malware that runs automatically on every <tt>npm
+install</tt>:</p>
+
+<blockquote class="bq">
+<p>The payload is a multi-stage credential harvester that sweeps
+GitHub Actions secrets along with AWS, GCP, Azure, Kubernetes,
+HashiCorp Vault, npm, and CircleCI tokens, and it is purpose-built to
+evade detection, including an explicit attempt to bypass StepSecurity
+Harden-Runner.</p>
+
+<p>StepSecurity analyzed <tt>@redhat-cloud-services/host-inventory-client@5.0.3</tt> in full. Its
+<tt>index.js</tt>, executed at install time, is 4.2 MB, a file that should
+weigh a few kilobytes, with the real payload buried under three
+separate layers of obfuscation. The malware is also a self-propagating
+worm: using stolen npm tokens and npm's <tt>bypass_2fa</tt> parameter, it
+republishes backdoored versions of other packages on its own, even
+against accounts protected by two-factor authentication, so every
+infected machine can seed the next wave with no attacker
+involvement. All affected packages were published via GitHub Actions
+OIDC from the <tt>RedHatInsights/javascript-clients</tt> repository, indicating
+the upstream CI/CD pipeline itself was compromised. Analysis of the
+remaining packages is ongoing.</p>
+</blockquote>
+
+<p>A <a
+href="https://safedep.io/redhat-cloud-services-hit-by-mini-shai-hulud-npm-worm/">blog
+post</a> from SafeDep has additional analysis about the incident. We did not find an advisory from Red Hat on this yet.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1075736/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 01 Jun 2026 13:20:00 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,40 +333,6 @@ Filesystem, Memory Management, and BPF Summit</a>, Vishal Moola ran a
 fast-paced session in the memory-management track to describe the current
 state of that work and what is likely to happen next.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075060/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 28 May 2026 13:05:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075060/" title="https://lwn.net/Articles/1075060/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, gdk-pixbuf2, glibc, gnutls, kernel, libexif, mysql8.4, postgresql16, postgresql18, python3.14, ruby:3.3, and ruby:4.0), <b>Debian</b> (krb5, roundcube, starlette, unbound, and varnish), <b>Fedora</b> (kernel, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-js-challenge, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, perl-Imager, poppler, python-uv-build, rrdtool, rust-astral-tokio-tar, rust-astral_async_http_range_reader, rust-astral_async_zip, uv, and xen), <b>Oracle</b> (.NET 10.0, .NET 9.0, glibc, ruby:3.3, and thunderbird), <b>Red Hat</b> (.NET 10.0, .NET 8.0, .NET 9.0, containernetworking-plugins, gvisor-tap-vsock, podman, runc, and skopeo), <b>SUSE</b> (agama, alloy, bubblewrap, cockpit, cups, dnsmasq, emacs, glibc, gnutls, go1.25, go1.25-openssl, go1.26, go1.26-openssl, google-guest-agent, hplip, ibus-rime, librime, kernel, libarchive, libzypp, nginx, openexr, openssh, php7, postgresql14, postgresql15, postgresql16, python311-pytest-html, redis, redis7, rsync, tree-sitter, valkey, xen, and yq), and <b>Ubuntu</b> (cableswig, commons-beanutils, dnsmasq, ffmpeg, foomuuri, gst-plugins-good1.0, libcaca, libgcrypt20, mediawiki, memcached, papers, postorius, tgt, and tika).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073782/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 28 May 2026 01:04:49 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073782/" title="https://lwn.net/Articles/1073782/">[$] LWN.net Weekly Edition for May 28, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1073782/">Front</a>: Dirk and Linus talk; BPF and GCC; private memory modes; BPF page-cache policies; major page faults; LLM kernel review; tiered-memory support; transparent huge pages; page mappings; Model Openness Tool.
-            <li> <a href="https://lwn.net/Articles/1073784/">Briefs</a>: Stenberg security stress; GTK PDF problems; Morton 2004 keynote; OpenBSD 7.9; Bambu's AGPLv3 violations; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1073785/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074907/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 27 May 2026 19:32:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074907/" title="https://lwn.net/Articles/1074907/">Interview session with Jonathan Corbet</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Linux Foundation will be hosting <a
-href="https://www.linuxfoundation.org/webinars/my-life-as-a-linux-kernel-developer-and-maintainer-with-jonathan-corbet?hsLang=en">a
-live interview</a> with LWN co-founder Jonathan Corbet.  The event will
-take place on Tuesday, June&#160;2 at 8:00AM Pacific daylight time (UTC-7).
-Registration is open for those who would like to attend.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
