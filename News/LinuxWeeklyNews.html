@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1075832/" title="See Description">Ombredanne: An AI agent ported our codebase from Python to Rust</a></li>
 <li><a href="#https://lwn.net/Articles/1073762/" title="See Description">[$] Representing the true signatures of kernel functions</a></li>
 <li><a href="#https://lwn.net/Articles/1075806/" title="See Description">Seven stable kernels for the first day of June</a></li>
 <li><a href="#https://lwn.net/Articles/1075766/" title="See Description">DistroWatch turns 25</a></li>
@@ -52,10 +53,34 @@
 <li><a href="#https://lwn.net/Articles/1075310/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1075180/" title="See Description">Rust 1.96.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1075148/" title="See Description">Górny: why Gentoo?</a></li>
-<li><a href="#https://lwn.net/Articles/1074557/" title="See Description">[$] Policies for merging new filesystems</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1075832/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 01 Jun 2026 20:55:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075832/" title="https://lwn.net/Articles/1075832/">Ombredanne: An AI agent ported our codebase from Python to Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Over on the <a href="https://www.aboutcode.org/">AboutCode</a> blog, lead
+maintainer Philippe Ombredanne <a
+href="https://www.aboutcode.org/blog/agentic-scancode-port-case-study/">writes</a>
+about an agentic LLM system porting the <a
+href="https://github.com/aboutcode-org/scancode-toolkit#scancode-toolkit">ScanCode
+Toolkit</a> to Rust.  In the process, the LLM (or the people behind it)
+infringed the ScanCode trademark, stripped copyright and license notices,
+"<q>and started an outreach campaign, without ever engaging the AboutCode
+community</q>".  Ironically, the toolkit is used to scan source code and binaries in
+order to figure out licensing and copyright information; it also reports on
+package
+dependencies, vulnerabilities, and more.
+
+
+<blockquote class="bq">
+This is worth repeating: A comprehensive test suite, decent documentation, and curated datasets is what makes automated porting possible. It is also what makes a codebase easier to replicate without understanding it.
+<p>
+The agent's initial approach, using an existing Rust license-detection library, failed to match ScanCode's output quality. The agent then did what any translator would do when a loose paraphrase fails: it copied the original more closely. The final port reproduces ScanCode's core algorithms, code organization, and data-driven architecture in Rust, not because the agent understood them, but because it had enough training data and test feedback to converge on equivalent code.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1073762/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 01 Jun 2026 18:59:43 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -311,24 +336,6 @@ to be a system that doesn't betray you.</p>
 </blockquote>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074557/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 28 May 2026 14:29:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074557/" title="https://lwn.net/Articles/1074557/">[$] Policies for merging new filesystems</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In a filesystem-track session at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Amir Goldstein wanted to
-discuss his <a
-href="https://lwn.net/ml/all/20260417142503.1436446-1-amir73il@gmail.com/">proposed
-documentation on adding new filesystems</a> to the kernel.  There are a
-number of unmaintained and untestable filesystems already in the kernel,
-which are a burden to VFS-layer developers who are trying to make sweeping
-changes, such as switching to folios and the "new" mount API.  Goldstein's
-document is an attempt to head off the addition of filesystems that may
-increase that burden down the road.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
