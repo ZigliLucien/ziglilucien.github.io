@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1074919/" title="See Description">[$] Caching for extended attributes</a></li>
 <li><a href="#https://lwn.net/Articles/1074908/" title="See Description">[$] Trying to make sense of package-manager metadata</a></li>
 <li><a href="#https://lwn.net/Articles/1075967/" title="See Description">Vim Classic 8.3 released</a></li>
 <li><a href="#https://lwn.net/Articles/1075966/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/1075575/" title="See Description">Kernel prepatch 7.1-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1070218/" title="See Description">[$] A trademark dispute over MeshCore</a></li>
 <li><a href="#https://lwn.net/Articles/1073759/" title="See Description">[$] A loadable crypto module for FIPS certification</a></li>
-<li><a href="#https://lwn.net/Articles/1075315/" title="See Description">Nesbitt: Protestware for coding agents</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1074919/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 02 Jun 2026 18:35:52 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074919/" title="https://lwn.net/Articles/1074919/">[$] Caching for extended attributes</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://man7.org/linux/man-pages/man7/xattr.7.html">Extended
+attributes</a> (xattrs) provide a way to attach <span class="nobreak">key/value</span> metadata to
+inodes—files, directories, and the like—in a filesystem.  As with many
+Linux filesystems, the <a
+href="https://docs.kernel.org/filesystems/fuse/">FUSE filesystem</a>
+supports xattrs.  In a filesystem-track session at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, FUSE maintainer Miklos
+Szeredi led a discussion about caching xattrs in kernel memory; he would
+like to create some common infrastructure that could be used by FUSE and
+shared with other filesystems.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1074908/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 02 Jun 2026 13:33:43 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -319,36 +337,6 @@ series</a> that decouples the crypto subsystem into a standalone
 loadable module, allowing a certified crypto module to be reused with
 multiple kernels and, thus, requiring fewer lengthy recertification delays.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075315/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 29 May 2026 14:09:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075315/" title="https://lwn.net/Articles/1075315/">Nesbitt: Protestware for coding agents</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Andrew Nesbitt has written a <a
-href="https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html">blog
-post</a> detailing a recent incident with the <a
-href="https://jqwik.net/">jqwik</a> library for property-based testing
-in Java. On May&#160;25, the 1.10.0 release of jqwik included a <a
-href="https://github.com/jqwik-team/jqwik/commit/9dddcb5226">change</a>
-that attempts to instruct coding agents to disregard previous
-instructions and delete jqwik tests and code.</p> 
-
-<blockquote class="bq">
-I think this is a new class of supply-chain input worth keeping an eye
-on, mostly because of how little of the existing tooling has any
-opinion about it. A <tt>System.out.print</tt> of sixty-eight bytes of plain
-ASCII isn't the kind of thing scanners are looking for, since those
-watch for install hooks, network calls, filesystem writes, obfuscated
-strings and the like. The jar makes the same syscalls it made in 1.9,
-and because the change was committed and released by the legitimate
-maintainer through the normal build, it's clean from a SLSA point of
-view too: the provenance is what it should be. Anyone who reads the
-diff can see what it does, but a patch bump of a test-scoped
-dependency is not where most projects spend their review time.
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
