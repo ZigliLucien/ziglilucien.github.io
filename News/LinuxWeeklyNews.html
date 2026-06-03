@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1075067/" title="See Description">[$] BPF in the agentic era</a></li>
+<li><a href="#https://lwn.net/Articles/1076040/" title="See Description">Tridgell: rsync and outrage</a></li>
+<li><a href="#https://lwn.net/Articles/1076117/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1074919/" title="See Description">[$] Caching for extended attributes</a></li>
 <li><a href="#https://lwn.net/Articles/1074908/" title="See Description">[$] Trying to make sense of package-manager metadata</a></li>
 <li><a href="#https://lwn.net/Articles/1075967/" title="See Description">Vim Classic 8.3 released</a></li>
@@ -50,12 +53,80 @@
 <li><a href="#https://lwn.net/Articles/1075742/" title="See Description">Multiple redhat-cloud-services npm packages compromised (StepSecurity Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1075736/" title="See Description">Fedora F44 election interviews published</a></li>
 <li><a href="#https://lwn.net/Articles/1075733/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1075575/" title="See Description">Kernel prepatch 7.1-rc6</a></li>
-<li><a href="#https://lwn.net/Articles/1070218/" title="See Description">[$] A trademark dispute over MeshCore</a></li>
-<li><a href="#https://lwn.net/Articles/1073759/" title="See Description">[$] A loadable crypto module for FIPS certification</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1075067/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Jun 2026 13:14:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075067/" title="https://lwn.net/Articles/1075067/">[$] BPF in the agentic era</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Alexei Starovoitov gave "<q>less of a presentation, more of a scream of
+realization</q>" at the BPF track of the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem,
+Memory-Management, and BPF Summit</a>. He shared a set of ideas for how BPF could
+change to avoid being swept away by the sea-change in programming represented by modern
+large language models (LLMs) and the coding agents based on them.
+In a follow-up session, the discussion covered
+more problems with how coding agents use tools like bpftrace, and the current deluge of
+patches in need of review in the BPF subsystem.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1076040/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Jun 2026 13:00:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076040/" title="https://lwn.net/Articles/1076040/">Tridgell: rsync and outrage</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Andrew Tridgell has written a <a
+href="https://medium.com/@tridge60/rsync-and-outrage-d9849599e5a0">blog
+post</a> responding to complaints that he has begun using LLM tools in
+his work maintaining <a href="https://rsync.samba.org/">rsync</a>:</p>
+
+<blockquote class="bq">
+<p>Like many developers of open source packages I've been hit by a
+flood of security reports lately in my role as the rsync
+maintainer. Many of those reports are AI generated (not all though,
+there are some notable ones with very careful and high quality manual
+analysis).</p>
+
+<p>As this flood started to get more intense I realised I needed to
+raise the defences on rsync a lot — we needed much more thorough test
+suites, code coverage analysis, CI testing on a lot more platforms,
+deliberate and thorough scanning for possible security issues (so I
+find at least some of them before other people!) and the addition of a
+whole lot of defence-in-depth hardening techniques.</p>
+
+<p>[...] Now to the future, because we're not done yet by a long
+shot. The security reports keep rolling in. I'm working on a bunch of
+CVEs right now. Luckily I've been joined by some other very good
+developers with great systems development skills and security
+knowledge. Some of these people came to my attention partly because of
+all the rage happening at the moment, so I get some rage storm clouds
+have silver linings. Watch out for some credits for some great new
+rsync developers in the next release.</p>
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1076117/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 03 Jun 2026 12:59:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076117/" title="https://lwn.net/Articles/1076117/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (php-twig), <b>Fedora</b> (hplip, python-wsgidav, roundcubemail, and xorg-x11-server), <b>Oracle</b> (compat-openssl10, httpd:2.4, and kernel), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (busybox, cloudflared, cockpit, cups, ffmpeg-4, gnutls, google-osconfig-agent, helm, hplip, kernel, kubelogin, libjxl, libsoup, libunbound8, LibVNCServer-devel, mapserver, nvidia-open-driver-G06-signed, nvidia-open-driver-G07-signed, openssh, python-idna, qemu, rqlite, shadowsocks-v2ray-plugin, ucode-intel, unbound, vim, vorbis-tools, and xorg-x11-server), and <b>Ubuntu</b> (age, dovecot, editorconfig-core, gobgp, libapache-mod-jk, libcommons-lang-java, libcommons-lang3-java, libeconf, linux, linux-aws, linux-aws-6.8, linux-aws-fips, linux-azure, linux-fips,
+ linux-gcp, linux-gcp-6.8, linux-gcp-fips, linux-gke, linux-gkeop,
+ linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-nvidia, linux-nvidia-6.8,
+ linux-nvidia-lowlatency, linux-nvidia-tegra, linux-oracle,
+ linux-oracle-6.8, linux-raspi, linux-raspi-realtime, linux-realtime,
+ linux-realtime-6.8, linux, linux-aws, linux-azure, linux-azure-6.17, linux-hwe-6.17,
+ linux-nvidia-6.17, linux-oem-6.17, linux-oracle, linux-oracle-6.17,
+ linux-raspi, linux-realtime, linux-realtime-6.17, linux, linux-aws, linux-gcp, linux-ibm, linux-nvidia, linux-oracle,
+ linux-raspi, linux-realtime, linux-aws-6.17, linux-gcp, linux-gcp-6.17, luanti, mysql-8.0, mysql-8.4, node-tar-fs, and unbound).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1074919/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 02 Jun 2026 18:35:52 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -293,49 +364,6 @@ June 12 at 23:59 UTC.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 9.0, firefox, flatpak, httpd, and thunderbird), <b>Debian</b> (chromium, corosync, cyborg, dovecot, exim4, git-lfs, imagemagick, kernel, keystone, linux-6.1, php-twig, python-aiohttp, sentry-python, swift, and symfony), <b>Fedora</b> (chromium, djvulibre, docker-compose, giflib, haveged, libsoup3, libssh2, mingw-objfw, netatalk, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, objfw, pdns, perl-Crypt-PasswdMD5, perl-libwww-perl, python-urllib3, suricata, and xrdp), <b>Mageia</b> (perl-Template-Toolkit and vim), <b>Oracle</b> (.NET 8.0, cockpit, firefox, flatpak, freerdp, kernel, and libexif), <b>Red Hat</b> (containernetworking-plugins, libsoup, libsoup3, multiple packages, php:8.2, php:8.3, podman, rhc, and skopeo), <b>SUSE</b> (amazon-ecs-init, amazon-ssm-agent, apptainer, azure-storage-azcopy, bind, chromium, csync2, cups, docker-stable, frr, gdk-pixbuf-loader-libheif, gnutls, hauler, helm, helm3, ignition, java-1_8_0-ibm, kernel, libBasicUsageEnvironment2, libredwg-devel, localsearch, memcached, openexr, perl-Net-CIDR-Lite, perl-YAML-Syck, postgresql14, python-mistune, python-pillow, python-pytest-html, python-urllib3, python311-Authlib, strongswan, trivy, vim, and xz), and <b>Ubuntu</b> (gdal, python-pip, qtwebengine-opensource-src, rsync, and texmaker).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075575/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 01 Jun 2026 03:26:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075575/" title="https://lwn.net/Articles/1075575/">Kernel prepatch 7.1-rc6</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1075574/">7.1-rc6</a> kernel prepatch is out for
-testing.  Linus said: "<q>Well, I wouldn't call this 'small', but it is
-certainly smaller than rc5 was. And I don't think there's anything
-particularly scary here, so maybe we're still on track for a normal release
-cycle. Let's see.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1070218/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 29 May 2026 16:41:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1070218/" title="https://lwn.net/Articles/1070218/">[$] A trademark dispute over MeshCore</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://github.com/meshcore-dev/MeshCore#about-meshcore">
-MeshCore</a> is a relatively new project, started in January 2025, that aims
-to build a scalable mesh network using low-power long-distance radios. While
-many other projects of the same general nature have been tried before, MeshCore
-grew quickly because of its more efficient message routing and enthusiastic
-community. In early 2026, an early proponent of the project made a sudden shift
-that left the rest of the community stunned and embroiled in a trademark dispute.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1073759/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 29 May 2026 14:29:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1073759/" title="https://lwn.net/Articles/1073759/">[$] A loadable crypto module for FIPS certification</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Many organizations require US <a href="https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards">Federal Information Processing Standard</a> (FIPS)
-certification of the crypto code they are running.  The certification
-process is lengthy, but the bigger problem is that the way the crypto
-subsystem is built into the kernel makes the result unable to be reused
-across kernel updates.  I have proposed a <a
-href="https://lwn.net/ml/all/20260418002032.2877-1-wanjay@amazon.com/">patch
-series</a> that decouples the crypto subsystem into a standalone
-loadable module, allowing a certified crypto module to be reused with
-multiple kernels and, thus, requiring fewer lengthy recertification delays.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
