@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-06-03T05:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-06-03T05:31:14+00:00</updateTime>
-		<validTimes type="str">2026-06-02T23:00:00+00:00/P8DT2H</validTimes>
+		<generatedAt type="str">2026-06-03T06:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-06-03T06:26:11+00:00</updateTime>
+		<validTimes type="str">2026-06-03T00:00:00+00:00/P8DT1H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-06-03T00:00:00-05:00</startTime>
+				<startTime type="str">2026-06-03T01:00:00-05:00</startTime>
 				<endTime type="str">2026-06-03T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">56</temperature>
@@ -63,10 +63,10 @@
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">ENE</windDirection>
+				<windDirection type="str">E</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
 				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear, with a low around 56. East northeast wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Clear, with a low around 56. East wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -212,7 +212,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">19</value>
+					<value type="int">18</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 to 8 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
@@ -250,11 +250,11 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">46</value>
+					<value type="int">43</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">SSE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,40/tsra_sct,50?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,40?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">A chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 70. South southeast wind around 5 mph.</detailedForecast>
 			</item>
@@ -292,7 +292,7 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 to 5 mph</windSpeed>
 				<windDirection type="str">SE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,70/tsra_hi,40?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_sct,70/tsra_sct,40?size=medium</icon>
 				<shortForecast type="str">Showers And Thunderstorms Likely then Chance Showers And Thunderstorms</shortForecast>
 				<detailedForecast type="str">Showers and thunderstorms likely before 7pm, then a chance of showers and thunderstorms between 7pm and 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 70. Southeast wind 1 to 5 mph.</detailedForecast>
 			</item>
