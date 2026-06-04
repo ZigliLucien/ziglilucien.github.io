@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1076364/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1074950/" title="See Description">[$] LWN.net Weekly Edition for June 4, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1075741/" title="See Description">[$] Open-source security is not a solo activity</a></li>
 <li><a href="#https://lwn.net/Articles/1075067/" title="See Description">[$] BPF in the agentic era</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1075806/" title="See Description">Seven stable kernels for the first day of June</a></li>
 <li><a href="#https://lwn.net/Articles/1075766/" title="See Description">DistroWatch turns 25</a></li>
 <li><a href="#https://lwn.net/Articles/1074897/" title="See Description">[$] Reconsidering x32 — again</a></li>
-<li><a href="#https://lwn.net/Articles/1075742/" title="See Description">Multiple redhat-cloud-services npm packages compromised (StepSecurity Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1076364/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 04 Jun 2026 13:17:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076364/" title="https://lwn.net/Articles/1076364/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, compat-openssl10, compat-openssl11, delve, expat, httpd:2.4, libexif, mod_http2, openssl, ruby4.0, samba, thunderbird, unbound, and vim), <b>Debian</b> (ceph and sudo), <b>Fedora</b> (libsoup3, pie, roundcubemail, and xorg-x11-server-Xwayland), <b>Mageia</b> (lxc), <b>Oracle</b> (expat, gnutls, kernel, php:8.2, thunderbird, and uek-kernel), <b>Slackware</b> (httpd, net, proftpd, tigervnc, and xorg), <b>SUSE</b> (apache-sshd, apptainer, atril, bind, busybox, cloudflared, evolution-data-server, golang-github-prometheus-prometheus, golang-github-v2fly-v2ray-core, grafana, helm, kernel, libgphoto2-6, libjxl-devel, libsoup, libsoup-2_4-1, libsoup-3_0-0, memcached, ovmf, python-cairosvg, python-flask, python-pip, python-pymupdf, python-pyOpenSSL, python-urllib3, python-urllib3_1, python3-pyOpenSSL, restic, rsync, salt, sdbootutil, tor, tree-sitter, vorbis-tools, and yq), and <b>Ubuntu</b> (exim4, frr, gst-plugins-base1.0, libtemplate-perl, libwww-perl, mysql-8.0, nginx, python-pip, python-urllib3, and twisted).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1074950/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 04 Jun 2026 01:31:14 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -331,44 +339,6 @@ though, and kernel developers are considering removing that support — and
 not for the first time.  Even the most unloved features tend to have a few
 users, though, making removal hard.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075742/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 01 Jun 2026 14:05:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075742/" title="https://lwn.net/Articles/1075742/">Multiple redhat-cloud-services npm packages compromised (StepSecurity Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>StepSecurity is <a
-href="https://www.stepsecurity.io/blog/multiple-redhat-cloud-services-npm-packages-compromised">reporting</a>
-that a number of npm packages in the <tt>@redhat-cloud-services</tt>
-scope include malware that runs automatically on every <tt>npm
-install</tt>:</p>
-
-<blockquote class="bq">
-<p>The payload is a multi-stage credential harvester that sweeps
-GitHub Actions secrets along with AWS, GCP, Azure, Kubernetes,
-HashiCorp Vault, npm, and CircleCI tokens, and it is purpose-built to
-evade detection, including an explicit attempt to bypass StepSecurity
-Harden-Runner.</p>
-
-<p>StepSecurity analyzed <tt>@redhat-cloud-services/host-inventory-client@5.0.3</tt> in full. Its
-<tt>index.js</tt>, executed at install time, is 4.2 MB, a file that should
-weigh a few kilobytes, with the real payload buried under three
-separate layers of obfuscation. The malware is also a self-propagating
-worm: using stolen npm tokens and npm's <tt>bypass_2fa</tt> parameter, it
-republishes backdoored versions of other packages on its own, even
-against accounts protected by two-factor authentication, so every
-infected machine can seed the next wave with no attacker
-involvement. All affected packages were published via GitHub Actions
-OIDC from the <tt>RedHatInsights/javascript-clients</tt> repository, indicating
-the upstream CI/CD pipeline itself was compromised. Analysis of the
-remaining packages is ongoing.</p>
-</blockquote>
-
-<p>A <a
-href="https://safedep.io/redhat-cloud-services-hit-by-mini-shai-hulud-npm-worm/">blog
-post</a> from SafeDep has additional analysis about the incident. We did not find an advisory from Red Hat on this yet.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
