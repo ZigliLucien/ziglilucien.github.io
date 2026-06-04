@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1075838/" title="See Description">[$] Splicing out vmsplice()</a></li>
+<li><a href="#https://lwn.net/Articles/1076377/" title="See Description">One step forward, two steps back on CA age bill (EFF Deeplinks Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1076364/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1074950/" title="See Description">[$] LWN.net Weekly Edition for June 4, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1075741/" title="See Description">[$] Open-source security is not a solo activity</a></li>
@@ -51,11 +53,66 @@
 <li><a href="#https://lwn.net/Articles/1075832/" title="See Description">Ombredanne: An AI agent ported our codebase from Python to Rust</a></li>
 <li><a href="#https://lwn.net/Articles/1073762/" title="See Description">[$] Representing the true signatures of kernel functions</a></li>
 <li><a href="#https://lwn.net/Articles/1075806/" title="See Description">Seven stable kernels for the first day of June</a></li>
-<li><a href="#https://lwn.net/Articles/1075766/" title="See Description">DistroWatch turns 25</a></li>
-<li><a href="#https://lwn.net/Articles/1074897/" title="See Description">[$] Reconsidering x32 — again</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1075838/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 04 Jun 2026 16:22:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075838/" title="https://lwn.net/Articles/1075838/">[$] Splicing out vmsplice()</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://man7.org/linux/man-pages/man2/splice.2.html"><tt>splice()</tt></a>
+and <a
+href="https://man7.org/linux/man-pages/man2/vmsplice.2.html"><tt>vmsplice()</tt></a>
+system calls are meant to improve performance for certain data-movement
+tasks by minimizing (or avoiding altogether) system calls and the copying
+of data.  They also have a long history of security problems.  The recent
+flood of LLM-discovered vulnerabilities has drawn attention, once again, to
+<tt>splice()</tt> and <tt>vmsplice()</tt>; as a result, they may end up
+being removed altogether.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1076377/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 04 Jun 2026 14:53:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076377/" title="https://lwn.net/Articles/1076377/">One step forward, two steps back on CA age bill (EFF Deeplinks Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The EFF has a <a
+href="https://www.eff.org/deeplinks/2026/05/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-expands-age-gating">blog
+post</a> looking at a new bill in California that would exempt
+open-source operating systems from the Digital Age Assurance Act
+passed last year, but has problems of its own:</p>
+
+<blockquote class="bq">
+<p>While the open source exemption, if passed, would improve the law, the
+remaining amendments proposed by AB 1856 would require all web
+browsers and websites to request and collect users' ages. This is an
+expansion of last year's AB 1043's age-bracketing system that
+compounds its constitutional harms to users' speech, privacy, and
+security.</p>
+
+<p>[...] EFF understands this amendment to exempt open-source
+operating systems from the requirement to collect and transmit users'
+age-bracket data. That is a definite win for open-source
+developers. The bill is narrower now than it was before, and lawmakers
+clearly responded to concerns raised by EFF and the broader
+open-source community.</p>
+
+<p>Some important questions still remain—for example, it is unclear
+how the law would apply when an open-source operating system is
+incorporated into a commercial product or service. And, given the
+structure of where the exemption is placed under the "operating system
+provider" definition, lawmakers could stand to clarify that the
+exemption applies to open-source operating systems and
+applications.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1064706/">covered</a>
+California's age-attestation law in March.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1076364/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 04 Jun 2026 13:17:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -310,35 +367,6 @@ contains important fixes throughout the tree, including a <a href="https://lwn.n
 upgrade.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075766/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 01 Jun 2026 14:39:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075766/" title="https://lwn.net/Articles/1075766/">DistroWatch turns 25</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The DistroWatch site is <a
-href="https://distrowatch.com/weekly.php?issue=20260601">celebrating its
-25th anniversary</a>.  "<q>All in all, it has been an incredible ride. Many
-of you who read these pages regularly know that downloading and testing
-distributions is a highly addictive pastime. I have been an avid
-distro-hopper for the last 25 years and I don't see myself abandoning this
-activity for many more years to come.</q>"  Congratulations to Ladislav
-Bodnar and all the others who have kept that resource going for so long.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074897/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 01 Jun 2026 14:22:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074897/" title="https://lwn.net/Articles/1074897/">[$] Reconsidering x32 — again</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://en.wikipedia.org/wiki/X32_ABI">x32 ABI</a> was meant
-to be the best of both worlds, providing the expanded registers and
-instruction set of the x86-64 architecture while preserving the lower
-memory use of 32-bit systems.  The Linux kernel has supported x32 since the
-3.4 release in 2012.  The initial excitement around x32 did not last,
-though, and kernel developers are considering removing that support — and
-not for the first time.  Even the most unloved features tend to have a few
-users, though, making removal hard.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
