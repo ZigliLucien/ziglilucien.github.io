@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1076018/" title="See Description">[$] Moving beyond fork() + exec()</a></li>
 <li><a href="#https://lwn.net/Articles/1076526/" title="See Description">Ruby's Bundler adds a cooldown feature</a></li>
 <li><a href="#https://lwn.net/Articles/1076605/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1076478/" title="See Description">Dave Airlie on Linux Kernel Maintenance (SE Radio)</a></li>
@@ -52,10 +53,30 @@
 <li><a href="#https://lwn.net/Articles/1074919/" title="See Description">[$] Caching for extended attributes</a></li>
 <li><a href="#https://lwn.net/Articles/1074908/" title="See Description">[$] Trying to make sense of package-manager metadata</a></li>
 <li><a href="#https://lwn.net/Articles/1075967/" title="See Description">Vim Classic 8.3 released</a></li>
-<li><a href="#https://lwn.net/Articles/1075966/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1076018/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 05 Jun 2026 14:06:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076018/" title="https://lwn.net/Articles/1076018/">[$] Moving beyond fork() + exec()</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Since the earliest days of Unix, two of the core process-oriented system
+calls have been <tt>fork()</tt>, which creates a child process as a copy of
+the parent, and <tt>exec()</tt>, which runs a new program in the place of
+the current one.  In Linux kernels, those system calls are better known as
+<a
+href="https://man7.org/linux/man-pages/man2/clone.2.html"><tt>clone()</tt></a>
+and <a
+href="https://man7.org/linux/man-pages/man2/execve.2.html"><tt>execve()</tt></a>,
+but the core functionality remains the same.  While there is elegance to
+this process-creation model, there are shortcomings as well.  A recent <a
+href="https://lwn.net/ml/all/20260528095235.2491226-1-me@linux.beauty">proposal</a> from
+Li Chen to add "spawn templates" to the kernel will not be accepted in its
+current form, but it may point the way toward a new process-creation
+primitive in the future.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1076526/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 05 Jun 2026 12:57:00 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -373,14 +394,6 @@ that we may have overlooked some bugs.</p>
 Classic and another Vim fork, <a href="https://codeberg.org/evi-editor/evi#evi">EVi</a>, in April.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075966/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 02 Jun 2026 13:06:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075966/" title="https://lwn.net/Articles/1075966/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (php:8.2 and php:8.3), <b>Debian</b> (gst-plugins-good1.0, symfony, and yelp), <b>Fedora</b> (dovecot, freeipa, hplip, libpng, perl-Catalyst-Plugin-Authentication, postfix, samba, unbound, and vim), <b>Mageia</b> (assimp, libcaca, sdl2_sound, and tar), <b>Slackware</b> (kernel), <b>SUSE</b> (alloy, apache-commons-lang3, apache-commons-text,, apache2, bubblewrap, busybox, chromium, cups, docker-stable, ffmpeg-8, google-osconfig-agent, gsasl, ignition, java-26-openjdk, kernel, libsolv-demo, libsoup, libzypp, localsearch, openjpeg2, postgresql-jdbc, putty, python-mistune, python-Pillow, python-python-multipart, python-Twisted, python3-Twisted, re, roundcubemail, vim, wireshark, and xz), and <b>Ubuntu</b> (evolution-data-server, exim4, gsasl, haveged, lcms2, libreoffice, linux-aws, linux-lts-xenial, linux-lowlatency, linux-nvidia-tegra, nginx, nncp, qtdeclarative-opensource-src, sslh, sssd, and xz-utils).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
