@@ -2,17 +2,13 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy, with a low around 71. South southwest wind around 1 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday</h3>A slight chance of rain showers between noon and 1pm, then a chance of showers and thunderstorms. Partly sunny. High near
+         <h3>Today</h3>A slight chance of rain showers between noon and 1pm, then a chance of showers and thunderstorms. Partly sunny. High near
          87, with temperatures falling to around 85 in the afternoon. South southeast wind 2 to 10 mph. Chance of precipitation is
          30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of showers and thunderstorms before 1am, then showers and thunderstorms likely. Mostly cloudy. Low around 71, with
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 1am, then showers and thunderstorms likely. Mostly cloudy. Low around 71, with
          temperatures rising to around 73 overnight. South southeast wind 6 to 9 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
@@ -32,7 +28,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 74. South southwest wind around 7 mph.<br></div>
+         <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 74. South southwest wind around 7 mph. Chance
+         of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -65,5 +62,9 @@
       <div style="font-size:120%">
          <h3>Saturday</h3>A slight chance of rain showers before 7am, then a slight chance of showers and thunderstorms. Mostly sunny, with a high near
          86. Southwest wind around 6 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms. Partly cloudy, with a low around 69. South wind 1 to 5 mph.<br></div>
    </p>
 </div>
