@@ -2,23 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of rain showers between noon and 1pm, then a chance of showers and thunderstorms. Partly sunny. High near
-         87, with temperatures falling to around 85 in the afternoon. South southeast wind 3 to 10 mph. Chance of precipitation is
-         30%.<br></div>
+         <h3>Today</h3>A chance of showers and thunderstorms after 4pm. Partly sunny. High near 87, with temperatures falling to around 85 in the
+         afternoon. South southeast wind 5 to 9 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms before 1am, then showers and thunderstorms likely. Mostly cloudy. Low around 71, with
-         temperatures rising to around 73 overnight. South southeast wind 6 to 9 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms. Mostly cloudy. Low around 71, with temperatures rising to around 73 overnight. South
+         southeast wind 5 to 9 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Showers and thunderstorms likely before 5pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 85.
-         South wind 6 to 9 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Monday</h3>A chance of showers and thunderstorms before 11am, then showers and thunderstorms between 11am and 3pm, then showers and thunderstorms
+         likely. Partly sunny, with a high near 85. South southwest wind 6 to 9 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A chance of showers and thunderstorms before 7pm, then showers and thunderstorms likely. Mostly cloudy, with a low around
+         <h3>Monday Night</h3>A chance of showers and thunderstorms before 9pm, then showers and thunderstorms likely between 9pm and 10pm, then a chance
+         of showers and thunderstorms between 10pm and 11pm, then showers and thunderstorms likely. Mostly cloudy, with a low around
          72. South wind 5 to 8 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
