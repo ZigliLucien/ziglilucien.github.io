@@ -11,140 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.59662af99e2684f9487f8096e284add99f639710.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6940a80491bb6131756a69dd95a5fad177cfc24.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.59662af99e2684f9487f8096e284add99f639710.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b6940a80491bb6131756a69dd95a5fad177cfc24.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.59662af99e2684f9487f8096e284add99f639710.001.1</id>
-				<areaDesc type="str">Jackson; Union; Alexander; Pulaski; Massac; Hickman; Carlisle; Ballard; McCracken; Graves; Perry</areaDesc>
-				<geocode type="dict">
-					<SAME type="list">
-						<item type="str">017077</item>
-						<item type="str">017181</item>
-						<item type="str">017003</item>
-						<item type="str">017153</item>
-						<item type="str">017127</item>
-						<item type="str">021105</item>
-						<item type="str">021039</item>
-						<item type="str">021007</item>
-						<item type="str">021145</item>
-						<item type="str">021083</item>
-						<item type="str">029157</item>
-					</SAME>
-					<UGC type="list">
-						<item type="str">ILZ084</item>
-						<item type="str">ILZ088</item>
-						<item type="str">ILZ092</item>
-						<item type="str">ILZ093</item>
-						<item type="str">ILZ094</item>
-						<item type="str">KYZ002</item>
-						<item type="str">KYZ003</item>
-						<item type="str">KYZ004</item>
-						<item type="str">KYZ005</item>
-						<item type="str">KYZ006</item>
-						<item type="str">MOZ076</item>
-					</UGC>
-				</geocode>
-				<affectedZones type="list">
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ093</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ094</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ002</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ003</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ004</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ005</item>
-					<item type="str">https://api.weather.gov/zones/forecast/KYZ006</item>
-					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
-				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2026-06-08T14:31:00-05:00</sent>
-				<effective type="str">2026-06-08T14:31:00-05:00</effective>
-				<onset type="str">2026-06-08T14:31:00-05:00</onset>
-				<expires type="str">2026-06-09T03:15:00-05:00</expires>
-				<ends type="str">2026-06-09T07:00:00-05:00</ends>
-				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
-				<category type="str">Met</category>
-				<severity type="str">Severe</severity>
-				<certainty type="str">Possible</certainty>
-				<urgency type="str">Future</urgency>
-				<event type="str">Flood Watch</event>
-				<sender type="str">w-nws.webmaster@noaa.gov</sender>
-				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Flood Watch issued June 8 at 2:31PM CDT until June 9 at 7:00AM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Flooding caused by excessive rainfall continues to be
-possible.
-
-* WHERE...Portions of southern Illinois, including the following
-areas, Alexander, Jackson, Massac, Pulaski and Union, western
-Kentucky, including the following areas, Ballard, Carlisle,
-Graves, Hickman and McCracken, and southeast Missouri, including
-the following area, Perry MO.
-
-* WHEN...Through Tuesday morning.
-
-* IMPACTS...Excessive runoff may result in flooding of rivers,
-creeks, streams, and other low-lying and flood-prone locations.
-
-* ADDITIONAL DETAILS...
-- Repetitive thunderstorms producing heavy rainfall.
-- http://www.weather.gov/safety/flood</description>
-				<instruction type="str">You should monitor later forecasts and be alert for possible Flood
-Warnings. Those living in areas prone to flooding should be prepared
-to take action should flooding develop.</instruction>
-				<response type="str">Prepare</response>
-				<note type="null"/>
-				<parameters type="dict">
-					<AWIPSidentifier type="list">
-						<item type="str">FFAPAH</item>
-					</AWIPSidentifier>
-					<WMOidentifier type="list">
-						<item type="str">WGUS63 KPAH 081931</item>
-					</WMOidentifier>
-					<NWSheadline type="list">
-						<item type="str">FLOOD WATCH IN EFFECT THROUGH TUESDAY MORNING</item>
-					</NWSheadline>
-					<BLOCKCHANNEL type="list">
-						<item type="str">EAS</item>
-						<item type="str">NWEM</item>
-						<item type="str">CMAS</item>
-					</BLOCKCHANNEL>
-					<EAS-ORG type="list">
-						<item type="str">WXR</item>
-					</EAS-ORG>
-					<VTEC type="list">
-						<item type="str">/O.EXA.KPAH.FA.A.0003.000000T0000Z-260609T1200Z/</item>
-					</VTEC>
-					<eventEndingTime type="list">
-						<item type="str">2026-06-09T07:00:00-05:00</item>
-					</eventEndingTime>
-				</parameters>
-				<scope type="str">Public</scope>
-				<code type="str">IPAWSv1.0</code>
-				<language type="str">en-US</language>
-				<web type="str">http://www.weather.gov</web>
-				<eventCode type="dict">
-					<SAME type="list">
-						<item type="str">FFA</item>
-					</SAME>
-					<NationalWeatherService type="list">
-						<item type="str">FAA</item>
-					</NationalWeatherService>
-				</eventCode>
-			</properties>
-		</item>
-		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.af252d470cc4af55c7e69569136acf6d2c2f62fe.001.1</id>
-			<type type="str">Feature</type>
-			<geometry type="null"/>
-			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.af252d470cc4af55c7e69569136acf6d2c2f62fe.001.1</key>
-				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.af252d470cc4af55c7e69569136acf6d2c2f62fe.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.b6940a80491bb6131756a69dd95a5fad177cfc24.001.1</id>
 				<areaDesc type="str">Perry; Jackson; Union; Alexander; Pulaski; Fulton; Hickman; Carlisle; Ballard; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -214,14 +87,21 @@ to take action should flooding develop.</instruction>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2026-06-08T13:52:00-05:00</sent>
-				<effective type="str">2026-06-08T13:52:00-05:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.af252d470cc4af55c7e69569136acf6d2c2f62fe.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.af252d470cc4af55c7e69569136acf6d2c2f62fe.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2026-06-08T13:52:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2026-06-09T01:08:00-05:00</sent>
+				<effective type="str">2026-06-09T01:08:00-05:00</effective>
 				<onset type="str">2026-06-09T11:00:00-05:00</onset>
-				<expires type="str">2026-06-09T03:00:00-05:00</expires>
+				<expires type="str">2026-06-09T16:00:00-05:00</expires>
 				<ends type="str">2026-06-09T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -229,13 +109,13 @@ to take action should flooding develop.</instruction>
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued June 8 at 1:52PM CDT until June 9 at 8:00PM CDT by NWS Paducah KY</headline>
+				<headline type="str">Heat Advisory issued June 9 at 1:08AM CDT until June 9 at 8:00PM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Heat index values up to 105 expected.
 
 * WHERE...Portions of southern Illinois, western Kentucky, and
 southeast Missouri.
 
-* WHEN...From 11 AM to 8 PM CDT Tuesday.
+* WHEN...From 11 AM this morning to 8 PM CDT this evening.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
 illnesses.</description>
@@ -248,10 +128,10 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 081852</item>
+						<item type="str">WWUS73 KPAH 090608</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HEAT ADVISORY IN EFFECT FROM 11 AM TO 8 PM CDT TUESDAY</item>
+						<item type="str">HEAT ADVISORY REMAINS IN EFFECT FROM 11 AM THIS MORNING TO 8 PM CDT THIS EVENING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -259,7 +139,7 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.HT.Y.0001.260609T1600Z-260610T0100Z/</item>
+						<item type="str">/O.CON.KPAH.HT.Y.0001.260609T1600Z-260610T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2026-06-09T20:00:00-05:00</item>
@@ -279,7 +159,142 @@ the sun, and check up on relatives and neighbors.</instruction>
 				</eventCode>
 			</properties>
 		</item>
+		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2127124c34260e749836418ef3d6dacbe278964c.002.1</id>
+			<type type="str">Feature</type>
+			<geometry type="null"/>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2127124c34260e749836418ef3d6dacbe278964c.002.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.2127124c34260e749836418ef3d6dacbe278964c.002.1</id>
+				<areaDesc type="str">Jackson; Union; Alexander; Pulaski; Massac; Hickman; Carlisle; Ballard; McCracken; Graves; Perry</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017077</item>
+						<item type="str">017181</item>
+						<item type="str">017003</item>
+						<item type="str">017153</item>
+						<item type="str">017127</item>
+						<item type="str">021105</item>
+						<item type="str">021039</item>
+						<item type="str">021007</item>
+						<item type="str">021145</item>
+						<item type="str">021083</item>
+						<item type="str">029157</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ084</item>
+						<item type="str">ILZ088</item>
+						<item type="str">ILZ092</item>
+						<item type="str">ILZ093</item>
+						<item type="str">ILZ094</item>
+						<item type="str">KYZ002</item>
+						<item type="str">KYZ003</item>
+						<item type="str">KYZ004</item>
+						<item type="str">KYZ005</item>
+						<item type="str">KYZ006</item>
+						<item type="str">MOZ076</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ093</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ094</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ002</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ003</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ004</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ005</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ006</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ076</item>
+				</affectedZones>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.59662af99e2684f9487f8096e284add99f639710.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.59662af99e2684f9487f8096e284add99f639710.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2026-06-08T14:31:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2026-06-09T01:05:00-05:00</sent>
+				<effective type="str">2026-06-09T01:05:00-05:00</effective>
+				<onset type="str">2026-06-09T01:05:00-05:00</onset>
+				<expires type="str">2026-06-09T16:00:00-05:00</expires>
+				<ends type="str">2026-06-09T19:00:00-05:00</ends>
+				<status type="str">Actual</status>
+				<messageType type="str">Update</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Severe</severity>
+				<certainty type="str">Possible</certainty>
+				<urgency type="str">Future</urgency>
+				<event type="str">Flood Watch</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Flood Watch issued June 9 at 1:05AM CDT until June 9 at 7:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Flooding caused by excessive rainfall continues to be
+possible.
+
+* WHERE...Portions of southern Illinois, including the following
+areas, Alexander, Jackson, Massac, Pulaski and Union, western
+Kentucky, including the following areas, Ballard, Carlisle,
+Graves, Hickman and McCracken, and southeast Missouri, including
+the following area, Perry MO.
+
+* WHEN...Through this evening.
+
+* IMPACTS...Excessive runoff may result in flooding of rivers,
+creeks, streams, and other low-lying and flood-prone locations.
+
+* ADDITIONAL DETAILS...
+- Slow moving storms capable of intense rainfall rates could
+lead to isolated areas of Flash Flooding today.
+- http://www.weather.gov/safety/flood</description>
+				<instruction type="str">You should monitor later forecasts and be alert for possible Flood
+Warnings. Those living in areas prone to flooding should be prepared
+to take action should flooding develop.</instruction>
+				<response type="str">Prepare</response>
+				<note type="null"/>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">FFAPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WGUS63 KPAH 090605</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">FLOOD WATCH NOW IN EFFECT THROUGH THIS EVENING</item>
+					</NWSheadline>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+					<VTEC type="list">
+						<item type="str">/O.EXT.KPAH.FA.A.0003.000000T0000Z-260610T0000Z/</item>
+					</VTEC>
+					<eventEndingTime type="list">
+						<item type="str">2026-06-09T19:00:00-05:00</item>
+					</eventEndingTime>
+				</parameters>
+				<scope type="str">Public</scope>
+				<code type="str">IPAWSv1.0</code>
+				<language type="str">en-US</language>
+				<web type="str">http://www.weather.gov</web>
+				<eventCode type="dict">
+					<SAME type="list">
+						<item type="str">FFA</item>
+					</SAME>
+					<NationalWeatherService type="list">
+						<item type="str">FAA</item>
+					</NationalWeatherService>
+				</eventCode>
+			</properties>
+		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-06-09T05:35:05+00:00</updated>
+	<updated type="str">2026-06-09T06:34:32+00:00</updated>
 </all>

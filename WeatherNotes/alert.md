@@ -1,5 +1,18 @@
 <p>
-   <h2>Flood Watch issued June 8 at 2:31PM CDT until June 9 at 7:00AM CDT by NWS Paducah KY</h2>
+   <h2>Heat Advisory issued June 9 at 1:08AM CDT until June 9 at 8:00PM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Heat index values up to 105 expected.
+      
+      * WHERE...Portions of southern Illinois, western Kentucky, and
+      southeast Missouri.
+      
+      * WHEN...From 11 AM this morning to 8 PM CDT this evening.
+      
+      * IMPACTS...Hot temperatures and high humidity may cause heat
+      illnesses.
+   </div>
+</p>
+<p>
+   <h2>Flood Watch issued June 9 at 1:05AM CDT until June 9 at 7:00PM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Flooding caused by excessive rainfall continues to be
       possible.
       
@@ -9,26 +22,14 @@
       Graves, Hickman and McCracken, and southeast Missouri, including
       the following area, Perry MO.
       
-      * WHEN...Through Tuesday morning.
+      * WHEN...Through this evening.
       
       * IMPACTS...Excessive runoff may result in flooding of rivers,
       creeks, streams, and other low-lying and flood-prone locations.
       
       * ADDITIONAL DETAILS...
-      - Repetitive thunderstorms producing heavy rainfall.
+      - Slow moving storms capable of intense rainfall rates could
+      lead to isolated areas of Flash Flooding today.
       - http://www.weather.gov/safety/flood
-   </div>
-</p>
-<p>
-   <h2>Heat Advisory issued June 8 at 1:52PM CDT until June 9 at 8:00PM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...Heat index values up to 105 expected.
-      
-      * WHERE...Portions of southern Illinois, western Kentucky, and
-      southeast Missouri.
-      
-      * WHEN...From 11 AM to 8 PM CDT Tuesday.
-      
-      * IMPACTS...Hot temperatures and high humidity may cause heat
-      illnesses.
    </div>
 </p>
