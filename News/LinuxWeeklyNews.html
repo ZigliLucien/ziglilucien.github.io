@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1076121/" title="See Description">[$] BPF loop verification with scalar evolution</a></li>
+<li><a href="#https://lwn.net/Articles/1077163/" title="See Description">Security updates for Tuesday</a></li>
+<li><a href="#https://lwn.net/Articles/1077084/" title="See Description">Linux App Summit 2026 (Heise)</a></li>
+<li><a href="#https://lwn.net/Articles/1077078/" title="See Description">Three stable kernels for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1075829/" title="See Description">[$] An update on fanotify</a></li>
 <li><a href="#https://lwn.net/Articles/1076989/" title="See Description">rsync 3.4.4 released with regression fixes</a></li>
 <li><a href="#https://lwn.net/Articles/1076983/" title="See Description">Security updates for Monday</a></li>
@@ -49,13 +53,72 @@
 <li><a href="#https://lwn.net/Articles/1075838/" title="See Description">[$] Splicing out vmsplice()</a></li>
 <li><a href="#https://lwn.net/Articles/1076377/" title="See Description">One step forward, two steps back on CA age bill (EFF Deeplinks Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1076364/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1074950/" title="See Description">[$] LWN.net Weekly Edition for June 4, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1075741/" title="See Description">[$] Open-source security is not a solo activity</a></li>
-<li><a href="#https://lwn.net/Articles/1075067/" title="See Description">[$] BPF in the agentic era</a></li>
-<li><a href="#https://lwn.net/Articles/1076040/" title="See Description">Tridgell: rsync and outrage</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1076121/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jun 2026 13:37:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076121/" title="https://lwn.net/Articles/1076121/">[$] BPF loop verification with scalar evolution</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The BPF verifier has, in the course of wrestling with the difficult problem of
+statically analyzing loops, grown special support for many kinds of loops over its
+history, but its fundamental approach to simple <tt>for</tt> loops has not
+changed.
+When it encounters a loop, it evaluates it, iteration by iteration, until reaching
+an exit condition — a process that can cause the verifier to mistakenly hit the
+limit on the number of allowed instructions where a better implementation
+would not.
+Eduard Zingerman
+spoke at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>
+about his in-progress work on improving the verifier's treatment of loops, especially nested
+loops.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1077163/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jun 2026 13:03:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077163/" title="https://lwn.net/Articles/1077163/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind and libyang), <b>Debian</b> (keystone and openssl), <b>Fedora</b> (mingw-objfw, objfw, sentencepiece, and tailscale), <b>Mageia</b> (packagekit and suricata), <b>Oracle</b> (bind, bind9.16, go-toolset:ol8, ImageMagick, kernel, samba, and vim), <b>SUSE</b> (apache-commons-lang3, apache-commons-text, apache-commons- configuration2, apache-commons-cli, apache-commons-io, apache-commons-codec, avahi, busybox, chromedriver, chromium, csync2, firewalld, frr, gleam, helm, kernel-devel, keybase-client, libmozjs-140-0, libopenvswitch-3_7-0, libsoup, memcached, mutt, openjpeg2, ovmf, perl-HTML-Parser, perl-Net-CIDR-Set, perl-Protocol-HTTP2, postgresql-jdbc, postgresql17, python-CairoSVG, python-Flask, python-pip, python-pyOpenSSL, python-python-multipart, python-Twisted, python-urllib3, python-urllib3_1, python-uv, python311, rsync, tomcat, and tree-sitter), and <b>Ubuntu</b> (alsa-lib, cups, inetutils, isc-kea, jpeg-xl, libnet-cidr-lite-perl, netatalk, netty, nginx, node-shell-quote, php-twig, pillow, poppler, rsync, strongswan, systemd, and transmission).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1077084/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jun 2026 12:52:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077084/" title="https://lwn.net/Articles/1077084/">Linux App Summit 2026 (Heise)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Heise is carrying <a
+href="https://www.heise.de/en/background/Linux-App-Summit-2026-Meeting-of-the-Linux-Desktop-Avant-garde-11316647.html">a
+report from the Linux App Summit</a>, held in Berlin in May.
+<p>
+<blockquote class="bq">
+	The slightly more than a dozen talks were symbolically framed
+	between the opening keynote by systemd creator Lennart Poettering
+	and the closing talk by Jorge Castro, initiator of the Universal
+	Blue project, from which the modern Linux systems Bluefin and
+	Bazzite emerged. Both Castro and Poettering call for a fundamental
+	rethink of how Linux operating systems are delivered but pursue
+	different approaches.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1077078/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jun 2026 11:44:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077078/" title="https://lwn.net/Articles/1077078/">Three stable kernels for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1077079/">7.0.12</a>, <a
+href="https://lwn.net/Articles/1077080/">6.18.35</a>, and <a
+href="https://lwn.net/Articles/1077081/">6.12.93</a> stable kernels. Each contains
+important fixes throughout the tree. Users are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1075829/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 08 Jun 2026 15:35:10 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,94 +347,6 @@ California's age-attestation law in March.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, compat-openssl10, compat-openssl11, delve, expat, httpd:2.4, libexif, mod_http2, openssl, ruby4.0, samba, thunderbird, unbound, and vim), <b>Debian</b> (ceph and sudo), <b>Fedora</b> (libsoup3, pie, roundcubemail, and xorg-x11-server-Xwayland), <b>Mageia</b> (lxc), <b>Oracle</b> (expat, gnutls, kernel, php:8.2, thunderbird, and uek-kernel), <b>Slackware</b> (httpd, net, proftpd, tigervnc, and xorg), <b>SUSE</b> (apache-sshd, apptainer, atril, bind, busybox, cloudflared, evolution-data-server, golang-github-prometheus-prometheus, golang-github-v2fly-v2ray-core, grafana, helm, kernel, libgphoto2-6, libjxl-devel, libsoup, libsoup-2_4-1, libsoup-3_0-0, memcached, ovmf, python-cairosvg, python-flask, python-pip, python-pymupdf, python-pyOpenSSL, python-urllib3, python-urllib3_1, python3-pyOpenSSL, restic, rsync, salt, sdbootutil, tor, tree-sitter, vorbis-tools, and yq), and <b>Ubuntu</b> (exim4, frr, gst-plugins-base1.0, libtemplate-perl, libwww-perl, mysql-8.0, nginx, python-pip, python-urllib3, and twisted).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074950/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 04 Jun 2026 01:31:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074950/" title="https://lwn.net/Articles/1074950/">[$] LWN.net Weekly Edition for June 4, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1074950/">Front</a>: MeshCore; x32 ABI; Open-source security; Package-manager metadata; More LSFMM+BPF coverage; Loadable crypto module.
-            <li> <a href="https://lwn.net/Articles/1074952/">Briefs</a>: Lightwell; jqwik protestware; RedHat package compromise; DistroWatch; Fedora election; Rust 1.96.0; rsync; Vim Classic 8.3; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1074953/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075741/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 03 Jun 2026 15:02:35 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075741/" title="https://lwn.net/Articles/1075741/">[$] Open-source security is not a solo activity</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Over time, many open-source maintainers face the same problem: they
-lack the time to do all of the work that their project needs, and no
-one else is stepping up to provide adequate help. Maintainers, though,
-are often reluctant to throw in the towel. The result is suboptimal
-all around; the maintainer is stressed out, project quality suffers,
-and users face security risks that they may not be fully aware of. At
-the 2026 <a
-href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
-Source Summit North America</a>, Robin Bender&#160;Ginn spoke about this
-problem, when it might be time for maintainers to pass the torch, and
-the responsibilities of users.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075067/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 03 Jun 2026 13:14:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075067/" title="https://lwn.net/Articles/1075067/">[$] BPF in the agentic era</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Alexei Starovoitov gave "<q>less of a presentation, more of a scream of
-realization</q>" at the BPF track of the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem,
-Memory-Management, and BPF Summit</a>. He shared a set of ideas for how BPF could
-change to avoid being swept away by the sea-change in programming represented by modern
-large language models (LLMs) and the coding agents based on them.
-In a follow-up session, the discussion covered
-more problems with how coding agents use tools like bpftrace, and the current deluge of
-patches in need of review in the BPF subsystem.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1076040/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 03 Jun 2026 13:00:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076040/" title="https://lwn.net/Articles/1076040/">Tridgell: rsync and outrage</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Andrew Tridgell has written a <a
-href="https://medium.com/@tridge60/rsync-and-outrage-d9849599e5a0">blog
-post</a> responding to complaints that he has begun using LLM tools in
-his work maintaining <a href="https://rsync.samba.org/">rsync</a>:</p>
-
-<blockquote class="bq">
-<p>Like many developers of open source packages I've been hit by a
-flood of security reports lately in my role as the rsync
-maintainer. Many of those reports are AI generated (not all though,
-there are some notable ones with very careful and high quality manual
-analysis).</p>
-
-<p>As this flood started to get more intense I realised I needed to
-raise the defences on rsync a lot — we needed much more thorough test
-suites, code coverage analysis, CI testing on a lot more platforms,
-deliberate and thorough scanning for possible security issues (so I
-find at least some of them before other people!) and the addition of a
-whole lot of defence-in-depth hardening techniques.</p>
-
-<p>[...] Now to the future, because we're not done yet by a long
-shot. The security reports keep rolling in. I'm working on a bunch of
-CVEs right now. Luckily I've been joined by some other very good
-developers with great systems development skills and security
-knowledge. Some of these people came to my attention partly because of
-all the rage happening at the moment, so I get some rage storm clouds
-have silver linings. Watch out for some credits for some great new
-rsync developers in the next release.</p>
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
