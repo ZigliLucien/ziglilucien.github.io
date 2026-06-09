@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1077221/" title="See Description">Future of Ubuntu MATE</a></li>
+<li><a href="#https://lwn.net/Articles/1076205/" title="See Description">[$] Eliminating long-lived credentials with trusted publishing</a></li>
 <li><a href="#https://lwn.net/Articles/1077209/" title="See Description">Asahi Linux warns users not to upgrade to macOS 27 beta</a></li>
 <li><a href="#https://lwn.net/Articles/1076121/" title="See Description">[$] BPF loop verification with scalar evolution</a></li>
 <li><a href="#https://lwn.net/Articles/1077163/" title="See Description">Security updates for Tuesday</a></li>
@@ -51,11 +53,62 @@
 <li><a href="#https://lwn.net/Articles/1076526/" title="See Description">Ruby's Bundler adds a cooldown feature</a></li>
 <li><a href="#https://lwn.net/Articles/1076605/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1076478/" title="See Description">Dave Airlie on Linux Kernel Maintenance (SE Radio)</a></li>
-<li><a href="#https://lwn.net/Articles/1075838/" title="See Description">[$] Splicing out vmsplice()</a></li>
-<li><a href="#https://lwn.net/Articles/1076377/" title="See Description">One step forward, two steps back on CA age bill (EFF Deeplinks Blog)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1077221/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jun 2026 18:00:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077221/" title="https://lwn.net/Articles/1077221/">Future of Ubuntu MATE</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Thomas Ward has <a
+href="https://discourse.ubuntu.com/t/mate-no-26-04-release-how-does-that-affect-you-and-what-is-the-future-of-ubuntu-mate/83877">published</a>
+an update about the future of the Ubuntu <a
+href="https://ubuntu-mate.org/">MATE</a> project, which did not have a
+26.04&#160;release with the other <a
+href="https://ubuntu.com/desktop/flavors">Ubuntu flavors</a> in
+April:</p>
+
+<blockquote class="bq">
+<p>There is a new team working on Ubuntu MATE who have stepped up to
+help take over flavor management. They haven't formally introduced
+themselves yet, but I can safely say that other developers HAVE
+stepped up for the future of the MATE flavor, despite its prior team
+lead having stepped down.</p>
+
+<p>[...] Ultimately, this means that they are working to cover the
+missed items and gaps, and may quite possibly have a 26.10 release in
+October of 2026, which I believe they most likely are targeting.</p>
+
+<p>This also means that bugs in the MATE environment and in packages
+they normally would have shipped had they have a 26.04 release are
+still going to get attention and fixes. So, effectively, nothing has
+changed. The only difference is that there was no 26.04 installer
+image released.</p>
+</blockquote>
+
+<p>For those looking to install a MATE desktop on a "clean" install of
+Ubuntu&#160;26.04, Ward <a href="https://discourse.ubuntu.com/t/mate-no-26-04-release-how-does-that-affect-you-and-what-is-the-future-of-ubuntu-mate/83877/4">suggests</a> installing Ubuntu Server and then
+installing the <tt>ubuntu-mate-desktop</tt> package.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1076205/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 09 Jun 2026 17:50:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076205/" title="https://lwn.net/Articles/1076205/">[$] Eliminating long-lived credentials with trusted publishing</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://blog.trailofbits.com/2023/05/23/trusted-publishing-a-new-benchmark-for-packaging-security/">Trusted
+publishing</a> is an authentication mechanism that relies on
+short-lived credentials to reduce the risk of supply-chain attacks. At
+the 2026 <a
+href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
+Source Summit North America</a>, Mike Fiedler walked the audience
+through why trusted publishing exists, how it works, and made the case
+for its adoption. It is not a silver bullet against all attacks, but
+it does offer protection against theft of long-lived credentials used
+to publish to package registries.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1077209/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 09 Jun 2026 14:30:25 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -308,63 +361,6 @@ the life of a large-subsystem maintainer.
 	thought that I should be supportive of bringing Rust into the
 	kernel.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075838/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 04 Jun 2026 16:22:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075838/" title="https://lwn.net/Articles/1075838/">[$] Splicing out vmsplice()</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a
-href="https://man7.org/linux/man-pages/man2/splice.2.html"><tt>splice()</tt></a>
-and <a
-href="https://man7.org/linux/man-pages/man2/vmsplice.2.html"><tt>vmsplice()</tt></a>
-system calls are meant to improve performance for certain data-movement
-tasks by minimizing (or avoiding altogether) system calls and the copying
-of data.  They also have a long history of security problems.  The recent
-flood of LLM-discovered vulnerabilities has drawn attention, once again, to
-<tt>splice()</tt> and <tt>vmsplice()</tt>; as a result, they may end up
-being removed altogether.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1076377/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 04 Jun 2026 14:53:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076377/" title="https://lwn.net/Articles/1076377/">One step forward, two steps back on CA age bill (EFF Deeplinks Blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The EFF has a <a
-href="https://www.eff.org/deeplinks/2026/05/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-expands-age-gating">blog
-post</a> looking at a new bill in California that would exempt
-open-source operating systems from the Digital Age Assurance Act
-passed last year, but has problems of its own:</p>
-
-<blockquote class="bq">
-<p>While the open source exemption, if passed, would improve the law, the
-remaining amendments proposed by AB 1856 would require all web
-browsers and websites to request and collect users' ages. This is an
-expansion of last year's AB 1043's age-bracketing system that
-compounds its constitutional harms to users' speech, privacy, and
-security.</p>
-
-<p>[...] EFF understands this amendment to exempt open-source
-operating systems from the requirement to collect and transmit users'
-age-bracket data. That is a definite win for open-source
-developers. The bill is narrower now than it was before, and lawmakers
-clearly responded to concerns raised by EFF and the broader
-open-source community.</p>
-
-<p>Some important questions still remain—for example, it is unclear
-how the law would apply when an open-source operating system is
-incorporated into a commercial product or service. And, given the
-structure of where the exemption is placed under the "operating system
-provider" definition, lawmakers could stand to clarify that the
-exemption applies to open-source operating systems and
-applications.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1064706/">covered</a>
-California's age-attestation law in March.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
