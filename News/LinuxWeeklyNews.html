@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1077413/" title="See Description">Larson: Are insecure code completions a vulnerability?</a></li>
+<li><a href="#https://lwn.net/Articles/1077035/" title="See Description">[$] AI agent runs amok in Fedora and elsewhere</a></li>
 <li><a href="#https://lwn.net/Articles/1077379/" title="See Description">Buildroot 2026.05 released</a></li>
 <li><a href="#https://lwn.net/Articles/1077362/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1077221/" title="See Description">Future of Ubuntu MATE</a></li>
@@ -51,11 +53,69 @@
 <li><a href="#https://lwn.net/Articles/1076989/" title="See Description">rsync 3.4.4 released with regression fixes</a></li>
 <li><a href="#https://lwn.net/Articles/1076983/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1076835/" title="See Description">Kernel prepatch 7.1-rc7</a></li>
-<li><a href="#https://lwn.net/Articles/1076018/" title="See Description">[$] Moving beyond fork() + exec()</a></li>
-<li><a href="#https://lwn.net/Articles/1076526/" title="See Description">Ruby's Bundler adds a cooldown feature</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1077413/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 10 Jun 2026 16:43:14 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077413/" title="https://lwn.net/Articles/1077413/">Larson: Are insecure code completions a vulnerability?</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Seth Larson, the Python Software Foundation's <a
+href="https://pyfound.blogspot.com/2023/06/announcing-our-new-security-developer.html">security
+developer-in-residence</a>, has <a
+href="https://sethmlarson.dev/are-insecure-code-completions-a-vulnerability">written
+about</a> the difficulty in classifying insecure code completion in
+the <a href="https://www.jetbrains.com/pycharm/">PyCharm IDE</a> using
+its <a
+href="https://www.jetbrains.com/help/pycharm/full-line-code-completion.html">Full
+Line code completion</a> plugin. Larson discovered that the plugin,
+which uses a local "deep learning module" to offer code completions,
+suggests code that would lead to severe vulnerabilities. He was unsure
+whether it warranted a CVE or not, however:</p>
+
+<blockquote class="bq">
+<p>I reported this behavior to JetBrains for "Full Line Code Completion" v253.29346.142
+and clearly their support staff weren't certain whether this defect
+was a security vulnerability or not either. When I asked to
+publish a blog post about this behavior after they confirmed
+this report wasn't a "direct security vulnerability" (which
+I agree with) but then was asked not to publicize my report and referred to
+PyCharm's <a href="https://www.jetbrains.com/legal/docs/terms/coordinated-disclosure/">Coordinated Disclosure Policy</a>
+so... which is it? Security vulnerability or not?</p>
+
+<p>I ended up waiting the 90 days anyway and I didn't hear back with
+any substantive update from the development team. I double-checked
+again today using "Full Line Code Completion" v261.24374.152 and the
+behavior is identical, suggesting the same insecure code for both
+contexts.</p>
+
+<p>This isn't meant to be a specific dig at PyCharm or JetBrains, I
+have no-doubt that examples like this exist in every code generation
+model available.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1077035/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 10 Jun 2026 14:35:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077035/" title="https://lwn.net/Articles/1077035/">[$] AI agent runs amok in Fedora and elsewhere</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Agentic AI systems can be used to do a variety of things
+autonomously on behalf of a human user: open or manage bugs, generate
+code, submit pull-requests, and (apparently) even <a
+href="https://lwn.net/Articles/1058643/">complain about
+rejection</a>. In May, a Fedora developer discovered that an allegedly
+rogue agent had been pestering the project in a number of ways:
+reassigning bugs, fabricating unhelpful replies to bugs, and even
+persuading maintainers to merge questionable code into the <a
+href="https://github.com/rhinstaller/anaconda#anaconda">Anaconda
+installer</a>. It also submitted a number of pull requests (PRs),
+some accepted, to several upstream projects. The Fedora account
+associated with the agent has had its group privileges revoked and the
+messes have been mopped up, but the motive behind the agent's actions is still
+a mystery.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1077379/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 10 Jun 2026 14:03:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,65 +350,6 @@ help.</p>
 testing.  Linus said: "<q>Anyway, as things look now this is the last
 rc. Something can obviously always come up and force us to change that, but
 please give rc7 a whirl and keep testing for one more week.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1076018/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 05 Jun 2026 14:06:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076018/" title="https://lwn.net/Articles/1076018/">[$] Moving beyond fork() + exec()</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Since the earliest days of Unix, two of the core process-oriented system
-calls have been <tt>fork()</tt>, which creates a child process as a copy of
-the parent, and <tt>exec()</tt>, which runs a new program in the place of
-the current one.  In Linux kernels, those system calls are better known as
-<a
-href="https://man7.org/linux/man-pages/man2/clone.2.html"><tt>clone()</tt></a>
-and <a
-href="https://man7.org/linux/man-pages/man2/execve.2.html"><tt>execve()</tt></a>,
-but the core functionality remains the same.  While there is elegance to
-this process-creation model, there are shortcomings as well.  A recent <a
-href="https://lwn.net/ml/all/20260528095235.2491226-1-me@linux.beauty">proposal</a> from
-Li Chen to add "spawn templates" to the kernel will not be accepted in its
-current form, but it may point the way toward a new process-creation
-primitive in the future.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1076526/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 05 Jun 2026 12:57:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076526/" title="https://lwn.net/Articles/1076526/">Ruby's Bundler adds a cooldown feature</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://blog.rubygems.org/2026/06/03/4.0.13-released.html">Version
-4.0.13</a> of Ruby's <a href="https://bundler.io/">Bundler</a>
-package-manager has <a
-href="https://blog.rubygems.org/2026/06/03/cooldown-let-new-gems-be-vetted.html">added
-dependency cooldowns</a> in order to help mitigate the effect of
-supply-chain attacks:</p>
-
-<blockquote class="bq">
-<p>Most supply-chain attacks against RubyGems exploit a narrow window:
-an account is compromised, a malicious version ships, and any
-<tt>bundle&#160;install</tt> in the minutes that follow resolves
-straight to it. Bundler 4.0.13 introduces cooldown, a time-based
-filter that refuses to resolve to a version until it has been public
-for at least <em>N</em> days. Releases too new to have been scrutinized are
-passed over in favor of ones that have aged past the window.</p>
-
-<p>The feature was <a
-href="https://github.com/ruby/rubygems/discussions/9113">designed in
-the open</a>, drawing on <a
-href="https://dev.to/hsbt/should-rubygemsbundler-have-a-cooldown-feature-40cp">how
-other ecosystems approach the same problem</a>. It is opt-in, and
-complements rather than replaces existing defenses like mandatory 2FA
-and trusted publishing.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1068692/">covered</a>
-dependency cooldowns in April, and the <a
-href="https://lwn.net/Articles/1040778/">takeover of RubyGems and
-Bundler</a> in October 2025.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
