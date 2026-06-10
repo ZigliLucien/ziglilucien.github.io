@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny, with a high near 91. South southwest wind 7 to 14 mph, with gusts as high as 23 mph.<br></div>
+         <h3>This Afternoon</h3>Sunny, with a high near 91. South southwest wind 10 to 14 mph, with gusts as high as 23 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -33,7 +33,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 1am, then showers and thunderstorms. Mostly cloudy, with a low around 69. South
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 1am, then showers and thunderstorms. Mostly cloudy, with a low around 70. South
          southwest wind around 5 mph.<br></div>
    </p>
    <p>
@@ -43,16 +43,16 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 62. North northeast wind 3 to 8 mph.<br></div>
+         <h3>Sunday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 63. North northeast wind 3 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 77. North
+         <h3>Monday</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 76. North
          northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 59. North northwest wind around 3 mph.<br></div>
+         <h3>Monday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 60. North northwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,6 +60,6 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Partly cloudy, with a low around 60. West southwest wind around 2 mph.<br></div>
+         <h3>Tuesday Night</h3>Partly cloudy, with a low around 62. West southwest wind around 2 mph.<br></div>
    </p>
 </div>
