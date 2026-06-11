@@ -2,12 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny, with a high near 93. South southwest wind around 10 mph, with gusts as high as 30 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms between 8pm and 11pm, then showers and thunderstorms between 11pm and 4am. Partly cloudy,
-         with a low around 69. West wind 7 to 15 mph, with gusts as high as 29 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms between 8pm and 11pm, then showers and thunderstorms between 11pm and 4am. Mostly cloudy,
+         with a low around 69. West wind 7 to 13 mph, with gusts as high as 29 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -15,7 +11,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Partly cloudy, with a low around 63. North northeast wind 0 to 3 mph.<br></div>
+         <h3>Friday Night</h3>Partly cloudy. Low around 63, with temperatures rising to around 65 overnight. North northeast wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -30,7 +26,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>Showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 1pm. Partly sunny, with a
-         high near 79. West northwest wind around 10 mph.<br></div>
+         high near 79. West northwest wind around 10 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,5 +56,10 @@
       <div style="font-size:120%">
          <h3>Wednesday Night</h3>A chance of showers and thunderstorms after 7pm. Mostly clear, with a low around 70. South southwest wind around 16 mph, with
          gusts as high as 24 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Thursday</h3>A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near
+         91. Southwest wind around 14 mph, with gusts as high as 24 mph.<br></div>
    </p>
 </div>
