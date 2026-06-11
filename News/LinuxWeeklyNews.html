@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1077587/" title="See Description">Homebrew 6.0.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1077208/" title="See Description">[$] Automatic mTHP creation in 7.2</a></li>
 <li><a href="#https://lwn.net/Articles/1077536/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1076254/" title="See Description">[$] LWN.net Weekly Edition for June 11, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1077413/" title="See Description">Larson: Are insecure code completions a vulnerability?</a></li>
@@ -51,11 +53,47 @@
 <li><a href="#https://lwn.net/Articles/1077163/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1077084/" title="See Description">Linux App Summit 2026 (Heise)</a></li>
 <li><a href="#https://lwn.net/Articles/1077078/" title="See Description">Three stable kernels for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1075829/" title="See Description">[$] An update on fanotify</a></li>
-<li><a href="#https://lwn.net/Articles/1076989/" title="See Description">rsync 3.4.4 released with regression fixes</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1077587/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 11 Jun 2026 14:49:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077587/" title="https://lwn.net/Articles/1077587/">Homebrew 6.0.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://brew.sh/2026/06/11/homebrew-6.0.0/">Version
+6.0.0</a> of the <a href="https://brew.sh/">Homebrew</a>
+package-management system has been released. Notable changes in this
+release include the introduction of <a
+href="https://docs.brew.sh/Tap-Trust">tap trust</a> to improve
+supply-chain security, improvements in sandboxing on Linux, a number
+of performance tweaks, and many other changes.</p>
+
+<p>See the <a
+href="https://github.com/Homebrew/brew/releases/tag/6.0.0">changelog</a>
+for a full list. LWN <a
+href="https://lwn.net/Articles/1046236/">covered</a> Homebrew in
+November 2025.</p>
+
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1077208/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 11 Jun 2026 14:33:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077208/" title="https://lwn.net/Articles/1077208/">[$] Automatic mTHP creation in 7.2</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Linux kernel has long tried to use huge pages as a way to improve
+performance, sometimes with more success than others.  The size of huge
+pages has traditionally been imposed by the hardware, which typically only
+offers a couple of relatively large options.  In more recent times, though,
+the use of multi-size transparent huge pages (mTHPs), with more flexible
+sizing implemented in software, has been growing.  If all goes well, the
+7.2 development cycle will include the addition of <a
+href="https://lwn.net/ml/all/20260605161422.213817-1-npache@redhat.com">a new feature</a>,
+contributed by Nico Pache, to make the use of mTHPs even more transparent.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1077536/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 11 Jun 2026 13:08:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -306,54 +344,6 @@ href="https://lwn.net/Articles/1077080/">6.18.35</a>, and <a
 href="https://lwn.net/Articles/1077081/">6.12.93</a> stable kernels. Each contains
 important fixes throughout the tree. Users are advised to upgrade.</p>
 
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1075829/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 08 Jun 2026 15:35:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1075829/" title="https://lwn.net/Articles/1075829/">[$] An update on fanotify</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>In a filesystem-track session at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Amir Goldstein updated
-attendees on the <a
-href="https://man7.org/linux/man-pages/man7/fanotify.7.html">fanotify</a>
-filesystem-event monitoring 
-subsystem.  He wanted to describe changes that had come in the last year or
-so, as well as upcoming features and some remaining challenges in his
-efforts <a href="https://lwn.net/Articles/981392/">to use fanotify for hierarchical
-storage management</a> (HSM).  Fanotify is the user-space API for monitoring
-files, directories, and filesystems for events of various sorts
-(e.g. opening or deleting a file).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1076989/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 08 Jun 2026 14:23:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076989/" title="https://lwn.net/Articles/1076989/">rsync 3.4.4 released with regression fixes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Andrew Tridgell has <a
-href="https://lwn.net/ml/all/CAAbv5GYjCWdvALZHZ5B-ep4p7tvMDYrQWKexjM2fLM%2BhtGyVGg%40mail.gmail.com/">announced</a>
-the release of <a href="https://rsync.samba.org/">rsync</a> 3.4.4 with
-fixes for the regressions introduced in the 3.4.3 release. He also
-notes there will be an rsync 3.5.0 soon, with many more security
-updates:</p>
-
-<blockquote class="bq">
-<p>As part of the 3.5.0 release update I have created a
-rsync-security@lists.samba.org mailing list for anyone who is willing
-to do testing of the 3.5.0 release. The idea is to try to reduce the
-chance of more regressions by expanding the set of testers of this
-release. I have seeded it with people who were involved in past rsync
-security issues. If you want to join this list then the easiest way
-would be for you to be vouched for by someone on the
-distros@vs.openwall.org list or someone else I already trust.</p>
-
-<p>My apologies for the regressions in the 3.4.3 release and I hope future
-security updates for rsync will have less issues. The greatly expanded test
-suite in rsync 3.5 combined with the rsync-security mailing list should
-help.</p>
-</blockquote>
 <p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
