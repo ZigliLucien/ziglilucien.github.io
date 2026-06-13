@@ -2,23 +2,24 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A chance of showers and thunderstorms. Partly sunny. High near 85, with temperatures falling to around 80 in the afternoon.
-         South wind around 6 mph. Chance of precipitation is 50%.<br></div>
+         <h3>This Afternoon</h3>A slight chance of showers and thunderstorms. Partly sunny. High near 85, with temperatures falling to around 80 in the afternoon.
+         South wind around 3 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms before 2am, then showers and thunderstorms. Mostly cloudy. Low around 68, with temperatures
-         rising to around 72 overnight. Southwest wind around 6 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 4am, then showers and thunderstorms likely. Some of the storms could produce
+         heavy rain. Mostly cloudy. Low around 68, with temperatures rising to around 73 overnight. South southwest wind 3 to 7 mph.
+         Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of showers and thunderstorms before 8am, then a slight chance of showers and thunderstorms between 8am and noon.
-         Partly sunny. High near 78, with temperatures falling to around 76 in the afternoon. West northwest wind 6 to 10 mph, with
-         gusts as high as 18 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Sunday</h3>Showers and thunderstorms likely before 10am, then a slight chance of showers and thunderstorms between 10am and 3pm. Some
+         of the storms could produce heavy rain. Mostly cloudy. High near 78, with temperatures falling to around 76 in the afternoon.
+         West northwest wind 7 to 13 mph, with gusts as high as 20 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Partly cloudy, with a low around 58. North northwest wind 1 to 9 mph.<br></div>
+         <h3>Sunday Night</h3>Partly cloudy, with a low around 58. North northwest wind 1 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
