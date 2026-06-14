@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1077758/" title="See Description">The 7.1 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1077052/" title="See Description">[$] An overlayfs update</a></li>
 <li><a href="#https://lwn.net/Articles/1077718/" title="See Description">Hundreds of AUR packages compromised</a></li>
 <li><a href="#https://lwn.net/Articles/1077703/" title="See Description">Security updates for Friday</a></li>
@@ -52,10 +53,37 @@
 <li><a href="#https://lwn.net/Articles/1077221/" title="See Description">Future of Ubuntu MATE</a></li>
 <li><a href="#https://lwn.net/Articles/1076205/" title="See Description">[$] Eliminating long-lived credentials with trusted publishing</a></li>
 <li><a href="#https://lwn.net/Articles/1077209/" title="See Description">Asahi Linux warns users not to upgrade to macOS 27 beta</a></li>
-<li><a href="#https://lwn.net/Articles/1076121/" title="See Description">[$] BPF loop verification with scalar evolution</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1077758/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 14 Jun 2026 18:47:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077758/" title="https://lwn.net/Articles/1077758/">The 7.1 kernel has been released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus has <a href="https://lwn.net/Articles/1077814/">released the 7.1 kernel</a>.
+"<q>So it's only Sunday morning back home, but it's Sunday afternoon where
+I am right now, so I'm doing the 7.1 release at the regular time -
+just not in the regular timezone.</q>"
+<p>
+
+Significant changes in 7.1 include
+the removal of support for some old 486-based architectures,
+some <a href="https://lwn.net/Articles/1059673/">new <tt>clone()</tt> flags</a> making
+process management easier,
+<a href="https://lwn.net/Articles/1062286/">BPF support</a> for io_uring,
+zero-copy-I/O support for the <a
+href="https://docs.kernel.org/block/ublk.html">ublk</a> user-space block
+driver,
+initial (incomplete) <a href="https://lwn.net/Articles/1056014/">sub-scheduler support</a>
+in sched_ext,
+more <a href="https://lwn.net/Articles/1057102/">swapping improvements</a>,
+a <a href="https://lwn.net/Articles/1055062/#ntfs">completely rewritten NTFS
+implementation</a>,
+and much more.  See the LWN merge-window summaries (<a
+href="https://lwn.net/Articles/1067250/">part&#160;1</a>, <a
+href="https://lwn.net/Articles/1067785/">part&#160;2</a>) for details.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1077052/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 12 Jun 2026 19:38:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -327,29 +355,6 @@ is still there, and you have not lost any data.</p>
 <p>The Asahi Linux installer has been patched to prevent use with
 macOS&#160;27 for now, but any users already bitten by the change will
 need to use macOS&#160;26 to restore access to Asahi Linux.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1076121/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 09 Jun 2026 13:37:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076121/" title="https://lwn.net/Articles/1076121/">[$] BPF loop verification with scalar evolution</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The BPF verifier has, in the course of wrestling with the difficult problem of
-statically analyzing loops, grown special support for many kinds of loops over its
-history, but its fundamental approach to simple <tt>for</tt> loops has not
-changed.
-When it encounters a loop, it evaluates it, iteration by iteration, until reaching
-an exit condition — a process that can cause the verifier to mistakenly hit the
-limit on the number of allowed instructions where a better implementation
-would not.
-Eduard Zingerman
-spoke at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>
-about his in-progress work on improving the verifier's treatment of loops, especially nested
-loops.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
