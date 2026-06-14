@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 4am, then showers and thunderstorms likely. Some of the storms could produce
-         heavy rain. Mostly cloudy. Low around 68, with temperatures rising to around 73 overnight. Southwest wind 1 to 7 mph. Chance
+         heavy rain. Mostly cloudy. Low around 68, with temperatures rising to around 73 overnight. Southwest wind 2 to 7 mph. Chance
          of precipitation is 60%.<br></div>
    </p>
    <p>
