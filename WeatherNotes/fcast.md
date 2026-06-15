@@ -47,7 +47,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny, with a high near 85. South wind 1 to 5 mph.<br></div>
+         <h3>Saturday</h3>Sunny, with a high near 86. South wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -55,11 +55,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of showers and thunderstorms. Partly sunny, with a high near 85. South wind 5 to 12 mph, with gusts as high as 21
+         <h3>Sunday</h3>A chance of showers and thunderstorms. Partly sunny, with a high near 87. South wind 6 to 12 mph, with gusts as high as 21
          mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 70. South wind 7 to 12 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Sunday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 70. South wind 7 to 10 mph, with gusts as high as 18 mph.<br></div>
    </p>
 </div>
