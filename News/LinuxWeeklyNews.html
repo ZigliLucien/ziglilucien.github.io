@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1077832/" title="See Description">[$] The state of Fedora in 2026</a></li>
+<li><a href="#https://lwn.net/Articles/1078191/" title="See Description">Firefox 152.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1078160/" title="See Description">KDE Plasma 6.7 released</a></li>
 <li><a href="#https://lwn.net/Articles/1078158/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1077425/" title="See Description">[$] Development statistics for the 7.1 kernel</a></li>
@@ -51,11 +53,39 @@
 <li><a href="#https://lwn.net/Articles/1077208/" title="See Description">[$] Automatic mTHP creation in 7.2</a></li>
 <li><a href="#https://lwn.net/Articles/1077536/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1076254/" title="See Description">[$] LWN.net Weekly Edition for June 11, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1077413/" title="See Description">Larson: Are insecure code completions a vulnerability?</a></li>
-<li><a href="#https://lwn.net/Articles/1077035/" title="See Description">[$] AI agent runs amok in Fedora and elsewhere</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1077832/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 16 Jun 2026 15:31:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077832/" title="https://lwn.net/Articles/1077832/">[$] The state of Fedora in 2026</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>On June 15 at Fedora's <a
+href="https://fedoraproject.org/flock/2026/">Flock</a> conference, held in
+Prague, Fedora Project Leader (FPL) Jef Spaleta delivered a short "State of
+Fedora" keynote that provided a bit of insight into the status of the
+project. Topics included the overall growth for Fedora usage, ways to increase
+contributions, and an alarming decline in the number of active packagers working
+on the project.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1078191/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 16 Jun 2026 14:18:07 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078191/" title="https://lwn.net/Articles/1078191/">Firefox 152.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://www.firefox.com/en-US/firefox/152.0/releasenotes/">Version
+152.0</a> of the Firefox web browser has been released. Notable
+changes in this release include a brand-new look for the Firefox
+Settings interface, the ability to disable tracker blocking in private
+browsing tabs, a feature to mute browser sound from the address bar,
+experimental support for the <a href="https://jpegxl.info/">JPEG
+XL</a> image format, and more.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1078160/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 16 Jun 2026 13:22:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -269,66 +299,6 @@ contributed by Nico Pache, to make the use of mTHPs even more transparent.
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1077413/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 10 Jun 2026 16:43:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077413/" title="https://lwn.net/Articles/1077413/">Larson: Are insecure code completions a vulnerability?</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Seth Larson, the Python Software Foundation's <a
-href="https://pyfound.blogspot.com/2023/06/announcing-our-new-security-developer.html">security
-developer-in-residence</a>, has <a
-href="https://sethmlarson.dev/are-insecure-code-completions-a-vulnerability">written
-about</a> the difficulty in classifying insecure code completion in
-the <a href="https://www.jetbrains.com/pycharm/">PyCharm IDE</a> using
-its <a
-href="https://www.jetbrains.com/help/pycharm/full-line-code-completion.html">Full
-Line code completion</a> plugin. Larson discovered that the plugin,
-which uses a local "deep learning module" to offer code completions,
-suggests code that would lead to severe vulnerabilities. He was unsure
-whether it warranted a CVE or not, however:</p>
-
-<blockquote class="bq">
-<p>I reported this behavior to JetBrains for "Full Line Code Completion" v253.29346.142
-and clearly their support staff weren't certain whether this defect
-was a security vulnerability or not either. When I asked to
-publish a blog post about this behavior after they confirmed
-this report wasn't a "direct security vulnerability" (which
-I agree with) but then was asked not to publicize my report and referred to
-PyCharm's <a href="https://www.jetbrains.com/legal/docs/terms/coordinated-disclosure/">Coordinated Disclosure Policy</a>
-so... which is it? Security vulnerability or not?</p>
-
-<p>I ended up waiting the 90 days anyway and I didn't hear back with
-any substantive update from the development team. I double-checked
-again today using "Full Line Code Completion" v261.24374.152 and the
-behavior is identical, suggesting the same insecure code for both
-contexts.</p>
-
-<p>This isn't meant to be a specific dig at PyCharm or JetBrains, I
-have no-doubt that examples like this exist in every code generation
-model available.</p>
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1077035/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 10 Jun 2026 14:35:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077035/" title="https://lwn.net/Articles/1077035/">[$] AI agent runs amok in Fedora and elsewhere</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Agentic AI systems can be used to do a variety of things
-autonomously on behalf of a human user: open or manage bugs, generate
-code, submit pull-requests, and (apparently) even <a
-href="https://lwn.net/Articles/1058643/">complain about
-rejection</a>. In May, a Fedora developer discovered that an allegedly
-rogue agent had been pestering the project in a number of ways:
-reassigning bugs, fabricating unhelpful replies to bugs, and even
-persuading maintainers to merge questionable code into the <a
-href="https://github.com/rhinstaller/anaconda#anaconda">Anaconda
-installer</a>. It also submitted a number of pull requests (PRs),
-some accepted, to several upstream projects. The Fedora account
-associated with the agent has had its group privileges revoked and the
-messes have been mopped up, but the motive behind the agent's actions is still
-a mystery.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
