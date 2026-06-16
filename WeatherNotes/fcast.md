@@ -4,7 +4,7 @@
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of showers and thunderstorms between 1pm and 3pm, then a chance of showers and thunderstorms between 3pm and
          4pm, then a chance of showers and thunderstorms. Mostly sunny. High near 83, with temperatures falling to around 79 in the
-         afternoon. Southwest wind 2 to 9 mph. Chance of precipitation is 40%.<br></div>
+         afternoon. West southwest wind 2 to 9 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
