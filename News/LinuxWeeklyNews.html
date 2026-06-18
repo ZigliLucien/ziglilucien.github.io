@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1078068/" title="See Description">[$] The first half of the 7.2 merge window</a></li>
+<li><a href="#https://lwn.net/Articles/1078466/" title="See Description">Mastodon 4.6 released</a></li>
+<li><a href="#https://lwn.net/Articles/1074291/" title="See Description">[$] Single-hop block replication with RMR and BRMR</a></li>
+<li><a href="#https://lwn.net/Articles/1078465/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1077459/" title="See Description">[$] LWN.net Weekly Edition for June 18, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1078366/" title="See Description">Fedora F44 election results</a></li>
 <li><a href="#https://lwn.net/Articles/1078361/" title="See Description">Everything security at PyCon US 2026</a></li>
@@ -49,13 +53,76 @@
 <li><a href="#https://lwn.net/Articles/1078191/" title="See Description">Firefox 152.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1078160/" title="See Description">KDE Plasma 6.7 released</a></li>
 <li><a href="#https://lwn.net/Articles/1078158/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1077425/" title="See Description">[$] Development statistics for the 7.1 kernel</a></li>
-<li><a href="#https://lwn.net/Articles/1077946/" title="See Description">Stenberg: curl summer of bliss</a></li>
-<li><a href="#https://lwn.net/Articles/1077945/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1077758/" title="See Description">The 7.1 kernel has been released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1078068/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 18 Jun 2026 13:47:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078068/" title="https://lwn.net/Articles/1078068/">[$] The first half of the 7.2 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The 7.2 merge window started with the <a
+href="https://lwn.net/ml/all/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/">7.1
+kernel release</a> on June&#160;14.  As of this writing, just over 7,000
+non-merge changesets have been pulled into the mainline for the next kernel
+release.  Many of the core subsystems have been pulled at this point,
+meaning that most of the changes that can be expected in 7.2 have now come
+into focus.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1078466/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 18 Jun 2026 13:28:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078466/" title="https://lwn.net/Articles/1078466/">Mastodon 4.6 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.joinmastodon.org/2026/06/mastodon-4.6/">Version
+4.6</a> of the Mastodon fediverse platform has been released.
+<p>
+<blockquote class="bq">
+	The headliner of this release is Collections, a way to create and
+	share curated collections of profiles. Part of Mastodon's work
+	ethos is our commitment to trust and safety, so we've put a lot of
+	thought and care into the design of this feature to avoid some of
+	the pitfalls and abuse people have experienced with similar
+	features on other platforms, while focusing on its primary goal:
+	Helping new users discover more of the Fediverse.
+</blockquote>
+<p>
+Other new features include support for subscribing to posts via email, the
+ability to generate a "year in review" post, accessibility improvements,
+and more.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1074291/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 18 Jun 2026 13:25:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074291/" title="https://lwn.net/Articles/1074291/">[$] Single-hop block replication with RMR and BRMR</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+How can cloud providers efficiently supply durable virtual block devices? Remote
+Direct Memory Access (RDMA) provides a way for servers in a cluster to share
+chunks of memory, but there still needs to be a protocol that operates on top of
+RDMA to provide the guarantees expected of a block device. The kernel's RDMA transport
+library (RTRS) provides a way to send messages via RDMA. I
+<a href="https://lwn.net/images/2026/RMR_BRMR.pdf">presented</a> about two
+new components built on top of RTRS at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
+Storage, Filesystem, Memory Management and BPF Summit</a>: Reliable Multicast
+over RTRS (RMR) and Block device over RMR (BRMR). These modules, which I
+am working on with Jia Li, could be a way for cloud providers to
+expose durable block devices with as little overhead as possible. To accomplish
+that, however, we need some discussion and feedback from the community before
+sending the modules upstream.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1078465/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 18 Jun 2026 13:16:11 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078465/" title="https://lwn.net/Articles/1078465/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (dracut, podman, postfix, rsync, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (atril, firefox-esr, and nginx), <b>Mageia</b> (libcap, perl, and python-pillow), <b>Oracle</b> (firefox, gstreamer-plugins-base and gstreamer-plugins-good, httpd:2.4, kernel, libpng12, libpng15, libxml2, libxslt, opencryptoki, openssl, postfix, rsync, webkit2gtk3, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (bind, libidn, mozilla, and openssl), <b>SUSE</b> (alloy, docker, elemental-system-agent, glibc, grafana, helm, LibVNCServer, openssh8.4, perl-GD, perl-HTTP-Daemon, python-WebOb-doc, python311-google-adk, rustup, traefik2, wireshark, and xwayland), and <b>Ubuntu</b> (dolibarr, golang-go.crypto, graphite2, gst-plugins-bad1.0, kitty, libconfig-inifiles-perl, libnginx-mod-js, and webpy).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1077459/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 18 Jun 2026 00:55:14 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -274,83 +341,6 @@ for a list of all commits in this release.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (mod_http2, postfix, and webkit2gtk3), <b>Debian</b> (bird2, libgd-perl, and libreoffice), <b>Fedora</b> (7zip, ack, hugo, and perl-Mojo-JWT), <b>Mageia</b> (atril, evince, xreader, emacs, lcms2, libgcrypt, libinput, libsndfile, putty, and sudo), <b>Red Hat</b> (openssl and osbuild-composer), <b>SUSE</b> (cheat, chromedriver, containerized-data-importer, cyrus-imapd, freeipmi, graphicsmagick, java-11-openj9, java-17-openj9, kitty, kubevirt, kubevirt-1.6, libcaca, libopenssl-3-devel, librav1e0_8, neonmodem, opensc, openssh, openssl-1_0_0, openssl-1_1, openssl-3, perl-HTTP-Daemon, perl-XML-LibXML, python-python-dotenv, python311-paramiko, python311-PyJWT, python311-starlette, python311-tornado6, qemu, restic, and trivy), and <b>Ubuntu</b> (adsys, cups, fastnetmon, freerdp2, freerdp3, mesa, nginx, rsync, ruby2.3, ruby2.5, and tmux).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1077425/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 15 Jun 2026 16:36:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077425/" title="https://lwn.net/Articles/1077425/">[$] Development statistics for the 7.1 kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds <a
-href="https://lwn.net/ml/all/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/">released
-the 7.1 kernel</a> as expected on June&#160;14.  This development cycle
-brought in a lot of new features — and a lot of new developers as well.
-The time has come for our traditional look at where the changes in 7.1 came
-from, with a digression into how our community may be changing in general.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1077946/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 15 Jun 2026 13:32:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077946/" title="https://lwn.net/Articles/1077946/">Stenberg: curl summer of bliss</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Daniel Stenberg has <a
-href="https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/">announced</a>
-that curl will not be accepting vulnerability reports from July&#160;1
-through August&#160;3, unless the submitter has a paid support
-contract. He is calling it the "curl summer of bliss".</p>
-
-<blockquote class="bq">
-<p>As previously mentioned, we have been under a huge <a
-href="https://daniel.haxx.se/blog/2026/05/26/the-pressure/">pressure</a>
-for the last four months or so. Now we need some rest. We do not
-expect this deluge to be over.</p>
-<p>[...] If you and your Open Source projects also want to participate
-in the summer of bliss 2026: just do it and let us know! I would of
-course encourage you to do so. To take care of yourself as a top
-priority.</p>
-</blockquote>
-
-<p>The project's issue and pull-request trackers on GitHub will remain
-open. The planned release date for curl 8.22.0 has been pushed back
-two weeks to September&#160;2,&#160;2026.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1077945/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 15 Jun 2026 13:04:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077945/" title="https://lwn.net/Articles/1077945/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 9.0), <b>Debian</b> (apache2, chromium, jpeg-xl, librabbitmq, and openssl), <b>Fedora</b> (apptainer, bind9-next, chezmoi, chromium, collectd, composer, dnsdist, gh, python-django5, python-python-multipart, varnish, varnish-modules, vmod-querystring, vmod-uuid, weasyprint, and xorg-x11-server-Xwayland), <b>Mageia</b> (cups, expat, libpng, libssh, memcached, nghttp2, openimageio, packages, proftpd, and radare2), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, and firefox), <b>Red Hat</b> (postfix and valkey), and <b>SUSE</b> (afl, alloy, ansible-core, apache-pdfbox, chromedriver, chromium, cpp-httplib-devel, dpkg, elemental-operator, elemental-toolkit, enc, erlang, ffmpeg-7, firewalld, git-bug, golang-github-prometheus-prometheus, grafana, GraphicsMagick, graphite2, kernel, kernel-devel, lcms2, ldns, libsoup, libyang, libzypp, logback, mariadb, NetworkManager, openssh, openvswitch, perl-GD, perl-XML-LibXML, polkit, postgresql-jdbc, postgresql18, python, python-django, python-M2Crypto-doc, python-Pygments, python-pygments, python-requests, python313-Django6, qemu, rpcbind, samba, strongswan, tmux, uriparser, and xdg-dbus-proxy).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1077758/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 14 Jun 2026 18:47:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077758/" title="https://lwn.net/Articles/1077758/">The 7.1 kernel has been released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus has <a href="https://lwn.net/Articles/1077814/">released the 7.1 kernel</a>.
-"<q>So it's only Sunday morning back home, but it's Sunday afternoon where
-I am right now, so I'm doing the 7.1 release at the regular time -
-just not in the regular timezone.</q>"
-<p>
-
-Significant changes in 7.1 include
-the removal of support for some old 486-based architectures,
-some <a href="https://lwn.net/Articles/1059673/">new <tt>clone()</tt> flags</a> making
-process management easier,
-<a href="https://lwn.net/Articles/1062286/">BPF support</a> for io_uring,
-zero-copy-I/O support for the <a
-href="https://docs.kernel.org/block/ublk.html">ublk</a> user-space block
-driver,
-initial (incomplete) <a href="https://lwn.net/Articles/1056014/">sub-scheduler support</a>
-in sched_ext,
-more <a href="https://lwn.net/Articles/1057102/">swapping improvements</a>,
-a <a href="https://lwn.net/Articles/1055062/#ntfs">completely rewritten NTFS
-implementation</a>,
-and much more.  See the LWN merge-window summaries (<a
-href="https://lwn.net/Articles/1067250/">part&#160;1</a>, <a
-href="https://lwn.net/Articles/1067785/">part&#160;2</a>) for details.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
