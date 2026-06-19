@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1076210/" title="See Description">[$] Suspending and resuming BPF programs</a></li>
+<li><a href="#https://lwn.net/Articles/1077619/" title="See Description">[$] AURpocalypse now: a look at the recent AUR attacks</a></li>
 <li><a href="#https://lwn.net/Articles/1078662/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1078590/" title="See Description">Eight new stable kernels for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1078521/" title="See Description">The Software Freedom Conservancy's LLM-backed generative AI recommendations</a></li>
@@ -51,11 +53,45 @@
 <li><a href="#https://lwn.net/Articles/1077767/" title="See Description">[$] Some buffer-heads cleanup work</a></li>
 <li><a href="#https://lwn.net/Articles/1078242/" title="See Description">FairScan 2.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1078339/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1078039/" title="See Description">The LWN public topics list</a></li>
-<li><a href="#https://lwn.net/Articles/1077832/" title="See Description">[$] The state of Fedora in 2026</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1076210/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 19 Jun 2026 15:55:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076210/" title="https://lwn.net/Articles/1076210/">[$] Suspending and resuming BPF programs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+BPF programs can be used to extend many aspects the Linux kernel, but
+BPF programs must run to completion in the same context that they began.
+Kumar Kartikeya Dwivedi is working on changing that by
+allowing BPF programs to be expressed as coroutines. He spoke about his work at
+the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management and BPF Summit</a>. While
+still experimental, the change promises to make long-running BPF tasks
+significantly easier to write.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1077619/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 19 Jun 2026 14:40:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077619/" title="https://lwn.net/Articles/1077619/">[$] AURpocalypse now: a look at the recent AUR attacks</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://aur.archlinux.org/">Arch User Repository</a> (AUR) has
+been subjected to a sustained attack recently. The attacker, or attackers, have
+spun up a series of new accounts then used them to adopt orphaned
+packages and push malicious updates that would install malware on users' systems.
+It is unclear how many users were compromised in the attack, but the maintainers
+were playing Whac-A-Mole for several days to respond to each newly compromised
+package. The project has <a
+href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/4JRS73YVTE7JUYHHE3ZDUIHXYHXZ3YQQ/">turned
+off the AUR's new-user registration</a>, for now, but it is unclear what its  
+long-term response will be or if the AUR can be secured without major changes to
+its existing collaboration model.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1078662/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 19 Jun 2026 13:24:01 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -315,48 +351,6 @@ Play</a> or <a href="https://f-droid.org/en/packages/org.fairscan.app/">F-Droid<
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (hplip, kernel, kernel-rt, libpng12, libpng15, libxml2, libxslt, mysql:8.0, mysql:8.4, opencryptoki, openssl, postfix, postgresql:15, rsync, and webkit2gtk3), <b>Debian</b> (asterisk, atril, gsasl, and libreoffice), <b>Fedora</b> (ack, bird, chromium, firefox, ldns, librabbitmq, nextcloud, nss, openslide, perl-Protocol-HTTP2, tig, vorbis-tools, and xen), <b>Mageia</b> (coturn, log4cxx, and python-tornado), <b>SUSE</b> (389-ds, buildah, container-suseconnect, distribution, editorconfig-core-c, elemental-system-agent, glib-networking, google-guest-agent, google-osconfig-agent, kernel, libcaca, libXpm, opensc, openssl-3, openvswitch, perl-Crypt-PBKDF2, python-python-dotenv, python311-aiosmtplib, python311-zeroconf, runc, shim, and sqlite3), and <b>Ubuntu</b> (ca-certificates, keystone, librabbitmq, linux, linux-aws, linux-kvm, linux-aws-hwe, linux-azure, linux-gcp, linux-hwe, linux-oracle, linux-azure, linux-azure, linux-gcp, linux-hwe, linux-oracle, linux-azure-6.8, linux-oracle-5.15, nova, openimageio, qemu, and squid).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1078039/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 16 Jun 2026 17:22:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078039/" title="https://lwn.net/Articles/1078039/">The LWN public topics list</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Part of running LWN is keeping a list of potentially interesting topics
-that may merit the effort to turn into articles.  As an experiment, we are
-<a href="https://lwn.net/TopicList/">now exposing that list</a> to our subscribers at the
-Project Leader and Supporter levels.  The hope is that this list will
-provide useful insights into what is on our radar and which might be coming
-to LWN in the near future.
-<p>
-<blockquote>
-<a href="https://lwn.net/TopicList/"><img src="https://lwn.net/images/2026/topiclist.png" alt="[Topic
-list screenshot]" class="photo" width=1146 border=0></a>
-</blockquote>
-<p>
-With this feature, we hope to give our most committed subscribers a look
-behind the curtain and the ability to provide input on the topics they are
-most interested in reading about.  There, is, thus, a simple voting
-mechanism built into this list.  No topic will be chosen (or rejected)
-solely on the basis of votes; there are a lot of considerations that go
-into topic selection, and that will not change.  But more information about
-where our readers' interests lie will, hopefully, be helpful.
-<p>
-For all readers: we are always happy to welcome topic suggestions sent to
-<a href="mailto:lwn@lwn.net"><tt>lwn@lwn.net</tt></a>.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1077832/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 16 Jun 2026 15:31:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077832/" title="https://lwn.net/Articles/1077832/">[$] The state of Fedora in 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>On June 15 at Fedora's <a
-href="https://fedoraproject.org/flock/2026/">Flock</a> conference, held in
-Prague, Fedora Project Leader (FPL) Jef Spaleta delivered a short "State of
-Fedora" keynote that provided a bit of insight into the status of the
-project. Topics included the overall growth for Fedora usage, ways to increase
-contributions, and an alarming decline in the number of active packagers working
-on the project.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
