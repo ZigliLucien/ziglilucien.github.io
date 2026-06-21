@@ -3,13 +3,13 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A chance of showers and thunderstorms. Mostly cloudy. High near 88, with temperatures falling to around 83 in the afternoon.
-         South wind around 9 mph, with gusts as high as 25 mph. Chance of precipitation is 30%.<br></div>
+         South southwest wind around 7 mph, with gusts as high as 25 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 8pm, then showers and thunderstorms between 8pm and 11pm, then showers and thunderstorms
          likely between 11pm and 1am, then showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy. Low
-         around 69, with temperatures rising to around 72 overnight. Southwest wind 7 to 13 mph, with gusts as high as 25 mph. Chance
+         around 69, with temperatures rising to around 72 overnight. Southwest wind 7 to 12 mph, with gusts as high as 25 mph. Chance
          of precipitation is 90%.<br></div>
    </p>
    <p>
