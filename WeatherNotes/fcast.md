@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A chance of showers and thunderstorms. Mostly cloudy. High near 88, with temperatures falling to around 85 in the afternoon.
-         South wind 8 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 40%.<br></div>
+         South wind 5 to 15 mph, with gusts as high as 25 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
