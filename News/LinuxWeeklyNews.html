@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1077740/" title="See Description">[$] KASAN for JIT-compiled BPF code</a></li>
 <li><a href="#https://lwn.net/Articles/1079119/" title="See Description">Sunsetting Tor 0.4.8</a></li>
 <li><a href="#https://lwn.net/Articles/1079083/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1078969/" title="See Description">GIMP 0.54.1 in a Flatpak</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/1078590/" title="See Description">Eight new stable kernels for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1078521/" title="See Description">The Software Freedom Conservancy's LLM-backed generative AI recommendations</a></li>
 <li><a href="#https://lwn.net/Articles/1078068/" title="See Description">[$] The first half of the 7.2 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1078466/" title="See Description">Mastodon 4.6 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1077740/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 23 Jun 2026 15:53:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077740/" title="https://lwn.net/Articles/1077740/">[$] KASAN for JIT-compiled BPF code</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Alexis Lothoré has been working to add support for the kernel's memory-access
+checker,
+<a href="https://docs.kernel.org/dev-tools/kasan.html">
+KASAN</a>, to just-in-time-compiled BPF code. He spoke about that work at
+the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>.
+KASAN support is needed, he said, to help catch bugs in the BPF just-in-time (JIT)
+compiler. KASAN is a great tool for catching memory-management problems in the
+kernel, but only in code that can be monitored by it.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1079119/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 23 Jun 2026 13:56:01 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -315,28 +334,6 @@ release.  Many of the core subsystems have been pulled at this point,
 meaning that most of the changes that can be expected in 7.2 have now come
 into focus.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1078466/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 18 Jun 2026 13:28:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078466/" title="https://lwn.net/Articles/1078466/">Mastodon 4.6 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.joinmastodon.org/2026/06/mastodon-4.6/">Version
-4.6</a> of the Mastodon fediverse platform has been released.
-<p>
-<blockquote class="bq">
-	The headliner of this release is Collections, a way to create and
-	share curated collections of profiles. Part of Mastodon's work
-	ethos is our commitment to trust and safety, so we've put a lot of
-	thought and care into the design of this feature to avoid some of
-	the pitfalls and abuse people have experienced with similar
-	features on other platforms, while focusing on its primary goal:
-	Helping new users discover more of the Fediverse.
-</blockquote>
-<p>
-Other new features include support for subscribing to posts via email, the
-ability to generate a "year in review" post, accessibility improvements,
-and more.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
