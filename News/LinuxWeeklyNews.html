@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1079119/" title="See Description">Sunsetting Tor 0.4.8</a></li>
+<li><a href="#https://lwn.net/Articles/1079083/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1078969/" title="See Description">GIMP 0.54.1 in a Flatpak</a></li>
 <li><a href="#https://lwn.net/Articles/1078367/" title="See Description">[$] Free-threaded Python: past, present, and future</a></li>
 <li><a href="#https://lwn.net/Articles/1078942/" title="See Description">First preview release of Xfce's Wayland compositor</a></li>
@@ -51,11 +53,57 @@
 <li><a href="#https://lwn.net/Articles/1078521/" title="See Description">The Software Freedom Conservancy's LLM-backed generative AI recommendations</a></li>
 <li><a href="#https://lwn.net/Articles/1078068/" title="See Description">[$] The first half of the 7.2 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1078466/" title="See Description">Mastodon 4.6 released</a></li>
-<li><a href="#https://lwn.net/Articles/1074291/" title="See Description">[$] Single-hop block replication with RMR and BRMR</a></li>
-<li><a href="#https://lwn.net/Articles/1078465/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1079119/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 23 Jun 2026 13:56:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079119/" title="https://lwn.net/Articles/1079119/">Sunsetting Tor 0.4.8</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Tor Project has <a
+href="https://blog.torproject.org/sunsetting-tor-048/">announced</a>
+that it is planning to actively stop supporting Tor 0.4.8 and earlier
+C Tor versions soon.</p>
+
+<blockquote class="bq">
+<p>Usually, we try not to break existing releases, even if they are
+unsupported, unless we have a pretty good reason.  In this case, we
+have several reasons. [...]</p>
+
+<p>The most important reason is this: in 0.4.9, we have made some
+former fields in our directory data obsolete -- specifically, <a
+href="https://spec.torproject.org/proposals/350-remove-tap.html">TAP
+onion keys</a> and <a
+href="https://spec.torproject.org/proposals/321-happy-families.html">family
+lines</a>. Removing these fields will let us save a great deal of
+client directory bandwidth for everyone. This, in turn, will make all
+Tor clients bootstrap a little faster, especially those on slow
+connections. But when we remove these fields, clients and relays
+running earlier versions of Tor will no longer work, since they expect
+the TAP onion keys to be present. Therefore, in order to deliver
+improved performance faster, we need to accelerate the date on which
+0.4.8 will stop working.</p>
+</blockquote>
+
+<p>The target sunset date is currently September&#160;1,
+2026, after which any version prior to Tor 0.4.9 will cease to work on
+the network. The first stable release in the 0.4.9.x series was
+<a
+href="https://forum.torproject.org/t/stable-release-0-4-9-5/21227">announced</a>
+in February&#160;2026, and the Tor 0.4.8.x series reached end of life on
+June&#160;1.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1079083/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 23 Jun 2026 13:09:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079083/" title="https://lwn.net/Articles/1079083/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (ffmpeg), <b>Fedora</b> (erlang, ffmpeg, prometheus, python-scrapy, python3-docs, python3.14, thorvg, tigervnc, and vips), <b>Mageia</b> (mumble and sslh), <b>Oracle</b> (389-ds:1.4, dracut, firefox, hplip, kernel, openssh, postgresql:15, redis:6, and uek-kernel), <b>Red Hat</b> (delve, gvisor-tap-vsock, nginx, nginx:1.24, nginx:1.26, osbuild-composer, podman, rhc, skopeo, and yggdrasil), <b>SUSE</b> (containerized-data-importer, graphite2, kernel, libarchive, openssh, openssh-askpass-gnome, openvswitch, openvswitch3, postfix, python-lxml, python-nltk, python-python-multipart, python-urllib3, rmt-server, terraform-provider-local, terraform-provider-null, and util-linux), and <b>Ubuntu</b> (google-guest-agent, haproxy, libxml2, linux-azure, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle-5.15, mysql-8.0, mysql-8.4, and nginx).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1078969/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 22 Jun 2026 20:25:07 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -289,37 +337,6 @@ into focus.
 Other new features include support for subscribing to posts via email, the
 ability to generate a "year in review" post, accessibility improvements,
 and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1074291/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 18 Jun 2026 13:25:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1074291/" title="https://lwn.net/Articles/1074291/">[$] Single-hop block replication with RMR and BRMR</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-How can cloud providers efficiently supply durable virtual block devices? Remote
-Direct Memory Access (RDMA) provides a way for servers in a cluster to share
-chunks of memory, but there still needs to be a protocol that operates on top of
-RDMA to provide the guarantees expected of a block device. The kernel's RDMA transport
-library (RTRS) provides a way to send messages via RDMA. I
-<a href="https://lwn.net/images/2026/RMR_BRMR.pdf">presented</a> about two
-new components built on top of RTRS at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
-Storage, Filesystem, Memory Management and BPF Summit</a>: Reliable Multicast
-over RTRS (RMR) and Block device over RMR (BRMR). These modules, which I
-am working on with Jia Li, could be a way for cloud providers to
-expose durable block devices with as little overhead as possible. To accomplish
-that, however, we need some discussion and feedback from the community before
-sending the modules upstream.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1078465/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 18 Jun 2026 13:16:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078465/" title="https://lwn.net/Articles/1078465/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (dracut, podman, postfix, rsync, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (atril, firefox-esr, and nginx), <b>Mageia</b> (libcap, perl, and python-pillow), <b>Oracle</b> (firefox, gstreamer-plugins-base and gstreamer-plugins-good, httpd:2.4, kernel, libpng12, libpng15, libxml2, libxslt, opencryptoki, openssl, postfix, rsync, webkit2gtk3, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (bind, libidn, mozilla, and openssl), <b>SUSE</b> (alloy, docker, elemental-system-agent, glibc, grafana, helm, LibVNCServer, openssh8.4, perl-GD, perl-HTTP-Daemon, python-WebOb-doc, python311-google-adk, rustup, traefik2, wireshark, and xwayland), and <b>Ubuntu</b> (dolibarr, golang-go.crypto, graphite2, gst-plugins-bad1.0, kitty, libconfig-inifiles-perl, libnginx-mod-js, and webpy).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
