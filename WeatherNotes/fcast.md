@@ -50,7 +50,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Clear, with a low around 76. South southwest wind 5 to 10 mph.<br></div>
+         <h3>Sunday Night</h3>Mostly clear, with a low around 76. South southwest wind 5 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
