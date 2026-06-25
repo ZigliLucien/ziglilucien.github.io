@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1078699/" title="See Description">[$] Hardening the kernel with allocation tokens and bootpatch-SLR</a></li>
+<li><a href="#https://lwn.net/Articles/1079551/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1078380/" title="See Description">[$] LWN.net Weekly Edition for June 25, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1078964/" title="See Description">[$] Fedora: 2FA, or not 2FA, that is the question</a></li>
 <li><a href="#https://lwn.net/Articles/1078526/" title="See Description">[$] A helper library for BPF arenas</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1078942/" title="See Description">First preview release of Xfce's Wayland compositor</a></li>
 <li><a href="#https://lwn.net/Articles/1077759/" title="See Description">[$] Reports from OSPM 2026, day one</a></li>
 <li><a href="#https://lwn.net/Articles/1078922/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1078708/" title="See Description">Systemd v261 released</a></li>
-<li><a href="#https://lwn.net/Articles/1076210/" title="See Description">[$] Suspending and resuming BPF programs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1078699/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 25 Jun 2026 14:02:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078699/" title="https://lwn.net/Articles/1078699/">[$] Hardening the kernel with allocation tokens and bootpatch-SLR</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>There is a lot of work going into eliminating exploitable bugs from the
+kernel and preventing the addition of new ones.  Even if this work is
+maximally successful, though, there is no chance that the kernel will be
+free of these bugs anytime soon.  Thus, there is also ongoing interest in
+hardening the kernel to make the existing bugs more difficult to exploit.
+The upcoming 7.2 kernel release will include a change to how dynamically
+allocated structures are placed in memory to make them harder to overwrite,
+while a project to randomize structure layout at boot time has a rather
+longer timeline.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1079551/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 25 Jun 2026 13:13:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079551/" title="https://lwn.net/Articles/1079551/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libpng, libsolv, libtasn1, libxml2, libxslt, python3.14, tigervnc, and vim), <b>Debian</b> (cloud-init, postgresql-13, and yelp), <b>Mageia</b> (nats-server), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind9.18, cockpit, compat-openssl11, dnsmasq, dovecot, evince, expat, flatpak, freerdp, gimp, golang, grafana, grafana-pcp, httpd, jmc, jq, kernel, libsndfile, libsoup, libtiff, mod_http2, mysql:8.0, nginx, nginx:1.24, openexr, php:8.2, poppler, pyOpenSSL, python-markdown, redis:7, samba, thunderbird, tigervnc, unbound, and vim), <b>Red Hat</b> (libpng, libpng12, and libpng15), <b>SUSE</b> (apptainer, bind, crun, freeipmi, ghc-crypton-x509-store, ghc-crypton-x509-system, google-guest-agent, google-osconfig-agent, GraphicsMagick, gstreamer-plugins-bad, hamlib, iproute2, java-1_8_0-openjdk, kubevirt1, libarchive, libheif, libpng15, mbedtls, mbedtls-2, openssl-1_1, python-biopython, python-PyJWT, tar, webkit2gtk3, and xen), and <b>Ubuntu</b> (ffmpeg, libdbi-perl, and perl).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1078380/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 25 Jun 2026 00:54:46 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,38 +308,6 @@ sched_ext, lock-holder preemption, and much more.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, kernel, and kernel-rt), <b>Debian</b> (gst-libav1.0, gst-plugins-good1.0, imagemagick, kernel, libconfig-inifiles-perl, libgd-perl, libhttp-daemon-perl, mediawiki, pillow, and squid), <b>Fedora</b> (389-ds-base, alertmanager, ansible-core, buildah, chromium, erlang-cowboy, erlang-cowlib, erlang-gun, freerdp, kubernetes1.33, kubernetes1.34, kubernetes1.35, mingw-SDL2_image, ongres-scram, ongres-stringprep, openssl, perl-Config-IniFiles, perl-Crypt-PBKDF2, podman, postgresql-jdbc, python3.13, strongswan, webkitgtk, xdg-desktop-portal, and yt-dlp), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (alloy, amazon-ssm-agent, ansible-core, apache-sshd, jpgpj, azure-storage-azcopy, chromedriver, containerized-data-importer, firefox, glibc, graphite2, inspektor-gadget, kubevirt, lemon, openvswitch, python-starlette, python311, python311-joserfc, python313, and tinyproxy), and <b>Ubuntu</b> (netatalk).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1078708/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 19 Jun 2026 18:56:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078708/" title="https://lwn.net/Articles/1078708/">Systemd v261 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Systemd v261 has been released with a long list of changes, including a new
-cloud "Instance Metadata Service" (IMDS) subsystem, "boot secret"
-functionality for use on systems that lack a physical TPM, as well as
-support for the kernel's Live Update Orchestration (LUO) / Kexec
-Handover (KHO) systems when they are present and enabled. See the
-<a href="https://github.com/systemd/systemd/releases/tag/v261">release notes</a> for the full list of changes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1076210/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 19 Jun 2026 15:55:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1076210/" title="https://lwn.net/Articles/1076210/">[$] Suspending and resuming BPF programs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-BPF programs can be used to extend many aspects the Linux kernel, but
-BPF programs must run to completion in the same context that they began.
-Kumar Kartikeya Dwivedi is working on changing that by
-allowing BPF programs to be expressed as coroutines. He spoke about his work at
-the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management and BPF Summit</a>. While
-still experimental, the change promises to make long-running BPF tasks
-significantly easier to write.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
