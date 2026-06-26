@@ -11,6 +11,181 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bbfd228767e7d70c4f8030241c2e049df36b01f9.001.1</id>
+			<type type="str">Feature</type>
+			<geometry type="dict">
+				<type type="str">Polygon</type>
+				<coordinates type="list">
+					<item type="list">
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">38.13</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.13</item>
+							<item type="float">38.12</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.14</item>
+							<item type="float">38.1</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.12</item>
+							<item type="float">38.09</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.12</item>
+							<item type="float">38.06</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.14</item>
+							<item type="float">38.03</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.14</item>
+							<item type="int">38</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.97</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.18</item>
+							<item type="float">37.95</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.95</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">37.6</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.51</item>
+							<item type="float">37.32</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.39</item>
+							<item type="float">37.95</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">38.15</item>
+						</item>
+						<item type="list">
+							<item type="float">-89.15</item>
+							<item type="float">38.13</item>
+						</item>
+					</item>
+				</coordinates>
+			</geometry>
+			<properties type="dict">
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bbfd228767e7d70c4f8030241c2e049df36b01f9.001.1</key>
+				<key name="@type" type="str">wx:Alert</key>
+				<id type="str">urn:oid:2.49.0.1.840.0.bbfd228767e7d70c4f8030241c2e049df36b01f9.001.1</id>
+				<areaDesc type="str">Perry; Jackson; Union; Cape Girardeau</areaDesc>
+				<geocode type="dict">
+					<SAME type="list">
+						<item type="str">017145</item>
+						<item type="str">017077</item>
+						<item type="str">017181</item>
+						<item type="str">029031</item>
+					</SAME>
+					<UGC type="list">
+						<item type="str">ILZ080</item>
+						<item type="str">ILZ084</item>
+						<item type="str">ILZ088</item>
+						<item type="str">MOZ087</item>
+					</UGC>
+				</geocode>
+				<affectedZones type="list">
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
+					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
+				</affectedZones>
+				<references type="list"/>
+				<sent type="str">2026-06-25T22:23:00-05:00</sent>
+				<effective type="str">2026-06-25T22:23:00-05:00</effective>
+				<onset type="str">2026-06-25T22:23:00-05:00</onset>
+				<expires type="str">2026-06-25T23:15:00-05:00</expires>
+				<ends type="null"/>
+				<status type="str">Actual</status>
+				<messageType type="str">Alert</messageType>
+				<category type="str">Met</category>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Observed</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Special Weather Statement</event>
+				<sender type="str">w-nws.webmaster@noaa.gov</sender>
+				<senderName type="str">NWS Paducah KY</senderName>
+				<headline type="str">Special Weather Statement issued June 25 at 10:23PM CDT by NWS Paducah KY</headline>
+				<description type="str">At 1023 PM CDT, Doppler radar was tracking strong thunderstorms along
+a line extending from near Elkville to near Trail Of Tears State
+Park. Movement was northeast at 40 mph.
+
+HAZARD...Wind gusts up to 40 mph and torrential rainfall.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around
+unsecured objects.
+
+Locations impacted include...
+Cape Girardeau, Carbondale, Murphysboro, Du Quoin, Trail Of Tears
+State Park, De Soto, Cobden, Elkville, Hurst, Ware, Cedar Lake Area,
+Makanda, Dowell, Alto Pass, Vergennes, and St. Johns.</description>
+				<instruction type="str">If outdoors, consider seeking shelter inside a building.
+
+Torrential rainfall is also occurring with these storms and may lead
+to localized flooding. Do not drive your vehicle through flooded
+roadways.</instruction>
+				<response type="str">Execute</response>
+				<note type="null"/>
+				<parameters type="dict">
+					<AWIPSidentifier type="list">
+						<item type="str">SPSPAH</item>
+					</AWIPSidentifier>
+					<WMOidentifier type="list">
+						<item type="str">WWUS83 KPAH 260323</item>
+					</WMOidentifier>
+					<NWSheadline type="list">
+						<item type="str">STRONG THUNDERSTORMS WILL IMPACT SOUTHEASTERN PERRY...NORTHWESTERN UNION...EASTERN JACKSON AND EAST CENTRAL CAPE GIRARDEAU COUNTIES THROUGH 1115 PM CDT</item>
+					</NWSheadline>
+					<eventMotionDescription type="list">
+						<item type="str">2026-06-26T03:23:00-00:00...storm...222DEG...34KT...37.9,-89.3 37.45,-89.44</item>
+					</eventMotionDescription>
+					<maxWindGust type="list">
+						<item type="str">40 MPH</item>
+					</maxWindGust>
+					<maxHailSize type="list">
+						<item type="str">0.00</item>
+					</maxHailSize>
+					<BLOCKCHANNEL type="list">
+						<item type="str">EAS</item>
+						<item type="str">NWEM</item>
+						<item type="str">CMAS</item>
+					</BLOCKCHANNEL>
+					<EAS-ORG type="list">
+						<item type="str">WXR</item>
+					</EAS-ORG>
+				</parameters>
+				<scope type="str">Public</scope>
+				<code type="str">IPAWSv1.0</code>
+				<language type="str">en-US</language>
+				<web type="str">http://www.weather.gov</web>
+				<eventCode type="dict">
+					<SAME type="list">
+						<item type="str">SPS</item>
+					</SAME>
+					<NationalWeatherService type="list">
+						<item type="str">SPS</item>
+					</NationalWeatherService>
+				</eventCode>
+			</properties>
+		</item>
+		<item type="dict">
 			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff466445f68c5a073c259cec7dbfab41916ccdd9.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
@@ -220,5 +395,5 @@ to take action should flooding develop.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-06-26T02:35:48+00:00</updated>
+	<updated type="str">2026-06-26T03:35:17+00:00</updated>
 </all>
