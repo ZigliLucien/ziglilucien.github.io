@@ -4,51 +4,54 @@
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Showers and thunderstorms likely before 3pm, then a chance of showers and thunderstorms between 3pm and 4pm, then showers
          and thunderstorms likely between 4pm and 5pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near
-         82. South wind 6 to 9 mph, with gusts as high as 18 mph. Chance of precipitation is 70%.<br></div>
+         82. South wind around 9 mph, with gusts as high as 18 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 8pm, then showers and thunderstorms likely between 8pm and 10pm, then a chance
-         of showers and thunderstorms between 10pm and 4am, then a chance of showers and thunderstorms. Mostly cloudy. Low around 71,
-         with temperatures rising to around 73 overnight. Southwest wind 3 to 8 mph. Chance of precipitation is 70%.<br></div>
+         of showers and thunderstorms between 10pm and 2am, then showers and thunderstorms likely between 2am and 5am, then a chance
+         of showers and thunderstorms. Mostly cloudy. Low around 71, with temperatures rising to around 73 overnight. South southwest
+         wind 3 to 8 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of showers and thunderstorms before 8am, then a chance of showers and thunderstorms. Partly sunny, with a high near
-         86. West southwest wind around 3 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Saturday</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms likely between 7am and 8am, then a chance
+         of showers and thunderstorms between 8am and 3pm, then showers and thunderstorms likely between 3pm and 4pm, then a chance
+         of showers and thunderstorms. Partly sunny. High near 84, with temperatures falling to around 82 in the afternoon. West southwest
+         wind around 5 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 10pm, then a chance of showers and thunderstorms between 10pm and 1am. Partly
-         cloudy, with a low around 73. South wind around 3 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 2am. Mostly cloudy, with a low around 73. South wind around 3 mph. Chance of
+         precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Sunny, with a high near 93. South southwest wind 3 to 9 mph.<br></div>
+         <h3>Sunday</h3>Sunny, with a high near 92. South wind 3 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Mostly clear, with a low around 76. South southwest wind 3 to 9 mph.<br></div>
+         <h3>Sunday Night</h3>Mostly clear, with a low around 75. South southwest wind 3 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny, with a high near 95. South southwest wind 3 to 7 mph.<br></div>
+         <h3>Monday</h3>Sunny, with a high near 94. South southwest wind 3 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Clear, with a low around 76. South southwest wind 2 to 6 mph.<br></div>
+         <h3>Monday Night</h3>Mostly clear, with a low around 76. South southwest wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Sunny, with a high near 97. South southwest wind around 5 mph.<br></div>
+         <h3>Tuesday</h3>Sunny, with a high near 96. South southwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Clear, with a low around 77. South southwest wind 1 to 5 mph.<br></div>
+         <h3>Tuesday Night</h3>Clear, with a low around 76. South wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Sunny, with a high near 97. South southwest wind 0 to 3 mph.<br></div>
+         <h3>Wednesday</h3>Sunny, with a high near 96. South wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -56,10 +59,10 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny, with a high near 98. South southeast wind around 2 mph.<br></div>
+         <h3>Thursday</h3>Sunny, with a high near 96. South wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 78. East northeast wind around 2 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly clear, with a low around 77. East southeast wind around 2 mph.<br></div>
    </p>
 </div>
