@@ -2,15 +2,10 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A chance of showers and thunderstorms. Mostly cloudy. High near 82, with temperatures falling to around 78 in the afternoon.
-         South southwest wind around 7 mph. Chance of precipitation is 50%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 8pm, then showers and thunderstorms likely between 8pm and 10pm, then a chance
          of showers and thunderstorms between 10pm and 2am, then showers and thunderstorms likely between 2am and 5am, then a chance
          of showers and thunderstorms. Mostly cloudy. Low around 71, with temperatures rising to around 73 overnight. South southwest
-         wind 3 to 8 mph. Chance of precipitation is 80%.<br></div>
+         wind around 6 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -21,12 +16,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 2am. Mostly cloudy, with a low around 73. South wind around 3 mph. Chance of
-         precipitation is 50%.<br></div>
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 2am. Mostly cloudy. Low around 73, with temperatures rising to around 75 overnight.
+         South wind around 3 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Sunny, with a high near 92. South wind 3 to 9 mph.<br></div>
+         <h3>Sunday</h3>Sunny, with a high near 92. Heat index values as high as 106. South wind 3 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -63,5 +58,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday Night</h3>Mostly clear, with a low around 77. East southeast wind around 2 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday</h3>A chance of showers and thunderstorms after 1pm. Sunny, with a high near 96. Southwest wind 0 to 3 mph.<br></div>
    </p>
 </div>
