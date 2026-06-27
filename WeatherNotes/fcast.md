@@ -2,25 +2,24 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms likely before 10pm, then a chance of showers and thunderstorms between 10pm and 2am, then showers
-         and thunderstorms likely between 2am and 5am, then a chance of showers and thunderstorms. Mostly cloudy. Low around 71, with
-         temperatures rising to around 73 overnight. South southwest wind around 3 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 11pm, then showers and thunderstorms. Mostly cloudy. Low around 71, with temperatures
+         rising to around 73 overnight. Southwest wind around 6 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of showers and thunderstorms before 7am, then showers and thunderstorms likely between 7am and 8am, then a chance
-         of showers and thunderstorms between 8am and 3pm, then showers and thunderstorms likely between 3pm and 4pm, then a chance
-         of showers and thunderstorms. Partly sunny. High near 84, with temperatures falling to around 82 in the afternoon. West southwest
-         wind around 5 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Saturday</h3>Showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 8am, then showers and thunderstorms
+         likely between 8am and noon, then a chance of showers and thunderstorms between noon and 1pm, then showers and thunderstorms
+         likely between 1pm and 2pm, then a chance of showers and thunderstorms. Mostly cloudy. High near 84, with temperatures falling
+         to around 82 in the afternoon. Southwest wind around 7 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 2am. Mostly cloudy. Low around 73, with temperatures rising to around 75 overnight.
-         South wind around 3 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms. Partly cloudy. Low around 73, with temperatures rising to around 75 overnight. South
+         southwest wind 2 to 6 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Sunny, with a high near 92. Heat index values as high as 106. South wind 3 to 9 mph.<br></div>
+         <h3>Sunday</h3>Sunny, with a high near 92. Heat index values as high as 106. South southwest wind 3 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
