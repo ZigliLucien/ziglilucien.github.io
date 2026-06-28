@@ -34,18 +34,3 @@
       humidity may cause heat illnesses.
    </div>
 </p>
-<p>
-   <h2>Flood Watch issued June 27 at 9:26PM CDT until June 28 at 7:00AM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...Flooding caused by excessive rainfall continues to be
-      possible.
-      
-      * WHERE...Portions of southern Illinois, southwest Indiana, and
-      western Kentucky.
-      
-      * WHEN...Until 7 AM CDT /8 AM EDT/ Sunday.
-      
-      * IMPACTS...Excessive runoff may result in flooding of rivers,
-      creeks, streams, and other low-lying and flood-prone locations.
-      Low-water crossings may be flooded.
-   </div>
-</p>
