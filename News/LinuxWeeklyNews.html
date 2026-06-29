@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1078539/" title="See Description">[$] The rest of the 7.2 merge window</a></li>
+<li><a href="#https://lwn.net/Articles/1079385/" title="See Description">[$] Xsnow "protestware" in Debian</a></li>
+<li><a href="#https://lwn.net/Articles/1080144/" title="See Description">Open source maintainership in the age of AI (Kubernetes blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1080143/" title="See Description">Mageia 10 released</a></li>
 <li><a href="#https://lwn.net/Articles/1080075/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1079891/" title="See Description">Kernel prepatch 7.2-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/1079852/" title="See Description">Three stable kernel updates</a></li>
@@ -49,13 +53,93 @@
 <li><a href="#https://lwn.net/Articles/1079657/" title="See Description">The "Akrites" vulnerability-mitigation project launches</a></li>
 <li><a href="#https://lwn.net/Articles/1077739/" title="See Description">[$] A look at MinIO alternatives: Ceph and Garage</a></li>
 <li><a href="#https://lwn.net/Articles/1079600/" title="See Description">Podman 6.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1078699/" title="See Description">[$] Hardening the kernel with allocation tokens and bootpatch-SLR</a></li>
-<li><a href="#https://lwn.net/Articles/1079551/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1078380/" title="See Description">[$] LWN.net Weekly Edition for June 25, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1078964/" title="See Description">[$] Fedora: 2FA, or not 2FA, that is the question</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1078539/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 29 Jun 2026 15:50:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078539/" title="https://lwn.net/Articles/1078539/">[$] The rest of the 7.2 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds released <a
+href="https://lwn.net/ml/all/CAHk-=wiMaLpPbO+46RqC1=tYBYt9Z2yPJvswjKBJXh3FDxaaog@mail.gmail.com/">7.2-rc1</a>
+and closed the 7.2 merge window on June&#160;28; by that time, 13,412
+non-merge commits had found their way into the mainline.  That makes this
+the busiest merge window since the 6.7 development cycle in 2024 (15,418
+commits, including 2,800 for the entire bcachefs development history).
+Just under half of those commits arrived after <a
+href="https://lwn.net/Articles/1078068/">LWN's summary of the first half of the merge
+window</a> was written.  As usual, the commits in the latter part of the
+merge window were more heavily focused on fixes, but there were still a lot
+of new features and significant changes merged as well.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1079385/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 29 Jun 2026 15:13:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079385/" title="https://lwn.net/Articles/1079385/">[$] Xsnow "protestware" in Debian</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a
+href="https://www.ratrabbit.nl/ratrabbit/xsnow/index.html">xsnow</a>
+application, which generates an animated snowfall effect (and other
+pleasant diversions) for X11 desktops, does not seem like an obvious
+channel for political statements. Nevertheless, xsnow's maintainer
+seems to have included a political protest in the program: an
+Easter egg that is triggered when the program's language is set to Russia
+("ru"). One user has complained that this functionality should be
+removed from the Debian <a
+href="https://packages.debian.org/STABLE/games/xsnow">xsnow
+package</a>, but Debian does not seem to have any rules that forbid
+such a feature outright.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1080144/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 29 Jun 2026 15:01:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1080144/" title="https://lwn.net/Articles/1080144/">Open source maintainership in the age of AI (Kubernetes blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Kubernetes project has published a <a
+href="https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/">blog
+post</a> explaining its <a
+href="https://www.kubernetes.dev/docs/guide/pull-requests/#ai-guidance">AI
+policy</a>:</p>
+
+<blockquote class="bq">
+<p>The main problem is that AI has made generating code fast but there
+has been very little improvement in maintaining code bases. In this
+post, we will highlight the ways the Kubernetes community is adapting
+to the world of AI assisted coding.</p>
+
+<p>The first step of this journey was to develop an AI policy. This
+seems mundane and bureaucratic but there were many PRs that derailed
+into discussions around AI usage. The AI policy helps steer the
+conversation around the project's stance on AI and provides a clear
+signal to contributors on how to use these tools responsibly.</p>
+</blockquote>
+
+<p>Of note, the project requires disclosure when AI tools have been
+used to assist in the creation of a contribution but <em>forbids</em> the use
+of listing AI as a co-author or including "assisted-by" or
+"co-developed" trailers to attribute work to an LLM tool.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1080143/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 29 Jun 2026 14:50:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1080143/" title="https://lwn.net/Articles/1080143/">Mageia 10 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.mageia.org/en/10/">Mageia 10</a> has been
+released with the 6.18 Linux kernel, DNF&#160;5.4.0, RPM&#160;4.20.1,
+and an increase in hardware requirements for x86&#160;32-bit systems; users now
+need a CPU with SSE2 features. See the <a
+href="https://wiki.mageia.org/en/Mageia_10_Release_Notes">release
+notes</a> for a full list of updates, and the <a
+href="https://wiki.mageia.org/en/Mageia_10_Errata">errata page</a>
+for known problems.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1080075/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 29 Jun 2026 13:16:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -223,64 +307,6 @@ rewrite of Podman's configuration file handling</a>. There are many
 breaking changes; see the <a
 href="https://github.com/podman-container-tools/podman/releases/tag/v6.0.0">release
 notes</a> for a full list of all new features, changes, and bug fixes.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1078699/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Jun 2026 14:02:39 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078699/" title="https://lwn.net/Articles/1078699/">[$] Hardening the kernel with allocation tokens and bootpatch-SLR</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>There is a lot of work going into eliminating exploitable bugs from the
-kernel and preventing the addition of new ones.  Even if this work is
-maximally successful, though, there is no chance that the kernel will be
-free of these bugs anytime soon.  Thus, there is also ongoing interest in
-hardening the kernel to make the existing bugs more difficult to exploit.
-The upcoming 7.2 kernel release will include a change to how dynamically
-allocated structures are placed in memory to make them harder to overwrite,
-while a project to randomize structure layout at boot time has a rather
-longer timeline.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1079551/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Jun 2026 13:13:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079551/" title="https://lwn.net/Articles/1079551/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (libpng, libsolv, libtasn1, libxml2, libxslt, python3.14, tigervnc, and vim), <b>Debian</b> (cloud-init, postgresql-13, and yelp), <b>Mageia</b> (nats-server), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind9.18, cockpit, compat-openssl11, dnsmasq, dovecot, evince, expat, flatpak, freerdp, gimp, golang, grafana, grafana-pcp, httpd, jmc, jq, kernel, libsndfile, libsoup, libtiff, mod_http2, mysql:8.0, nginx, nginx:1.24, openexr, php:8.2, poppler, pyOpenSSL, python-markdown, redis:7, samba, thunderbird, tigervnc, unbound, and vim), <b>Red Hat</b> (libpng, libpng12, and libpng15), <b>SUSE</b> (apptainer, bind, crun, freeipmi, ghc-crypton-x509-store, ghc-crypton-x509-system, google-guest-agent, google-osconfig-agent, GraphicsMagick, gstreamer-plugins-bad, hamlib, iproute2, java-1_8_0-openjdk, kubevirt1, libarchive, libheif, libpng15, mbedtls, mbedtls-2, openssl-1_1, python-biopython, python-PyJWT, tar, webkit2gtk3, and xen), and <b>Ubuntu</b> (ffmpeg, libdbi-perl, and perl).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1078380/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 25 Jun 2026 00:54:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078380/" title="https://lwn.net/Articles/1078380/">[$] LWN.net Weekly Edition for June 25, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1078380/">Front</a>: Free-threaded Python; AUR attacks; Fedora 2FA; 7.2 merge window; BPF arenas; BPF coroutines; BPF JIT; RMR and BRMR; OSPM.
-            <li> <a href="https://lwn.net/Articles/1078382/">Briefs</a>: Tor deprecations; GIMP 0.54.1 flatpak; Mastodon 4.6; Systemd v261; Xfce on Wayland; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1078383/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1078964/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 24 Jun 2026 17:01:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078964/" title="https://lwn.net/Articles/1078964/">[$] Fedora: 2FA, or not 2FA, that is the question</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Compromised accounts are one of the most common ways that attackers
-can sneak malware into the open-source supply chain. One way to
-reduce account compromise is for projects to require two-factor
-authentication (2FA) or multi-factor authentication (MFA), but that is
-easier said than done. However, Fedora is currently discussing putting
-2FA requirements in place soon, following an <a
-href="https://lwn.net/Articles/1077035/">an alleged account
-compromise</a> that led to an AI agent causing a number of problems
-for the project. After some discussion, Fedora will begin by requiring
-packagers in the "<a
-href="https://docs.fedoraproject.org/en-US/fesco/Provenpackager_policy/">provenpackager</a>"
-group to enable 2FA within the next three months or so.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
