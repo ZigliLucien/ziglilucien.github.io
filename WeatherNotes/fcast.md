@@ -2,13 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 95, with temperatures falling to around 92 in the afternoon. Heat index values as high as 106. South southwest
-         wind 7 to 10 mph, with gusts as high as 18 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear. Low around 76, with temperatures rising to around 78 overnight. Heat index values as high as 105. South southwest
-         wind 5 to 9 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear. Low around 76, with temperatures rising to around 78 overnight. South southwest wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -16,11 +10,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Clear, with a low around 75. Heat index values as high as 106. South southwest wind 1 to 7 mph.<br></div>
+         <h3>Tuesday Night</h3>Clear. Low around 75, with temperatures rising to around 77 overnight. Heat index values as high as 106. South southwest wind
+         1 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Sunny, with a high near 95. South southwest wind 1 to 6 mph.<br></div>
+         <h3>Wednesday</h3>Sunny, with a high near 95. Heat index values as high as 106. South southwest wind 1 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -59,5 +54,10 @@
       <div style="font-size:120%">
          <h3>Sunday Night</h3>A chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Partly cloudy, with a low around
          74. West southwest wind around 3 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday</h3>A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms. Mostly sunny, with a high near
+         90. West wind 1 to 5 mph.<br></div>
    </p>
 </div>
