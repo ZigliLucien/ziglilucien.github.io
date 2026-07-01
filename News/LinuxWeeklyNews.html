@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1078968/" title="See Description">[$] Efficient access to local storage for BPF programs</a></li>
 <li><a href="#https://lwn.net/Articles/1079808/" title="See Description">[$] Secure Boot certificate expiration is here</a></li>
 <li><a href="#https://lwn.net/Articles/1080689/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1080518/" title="See Description">Creative Commons founders' fireside chat (Creative Commons blog)</a></li>
@@ -52,10 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1079891/" title="See Description">Kernel prepatch 7.2-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/1079852/" title="See Description">Three stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1078697/" title="See Description">[$] Reports from OSPM 2026, day three</a></li>
-<li><a href="#https://lwn.net/Articles/1078767/" title="See Description">[$] Initiating writeback earlier</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1078968/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 01 Jul 2026 17:07:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078968/" title="https://lwn.net/Articles/1078968/">[$] Efficient access to local storage for BPF programs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+When a BPF program is used to filter or redirect packets in the networking
+subsystem, the program will often want to associate data with each packet as it
+moves through the kernel. The kernel's
+<a href="https://docs.ebpf.io/linux/helper-function/bpf_get_local_storage/">
+local BPF storage API</a>, which
+associates extra data with some kernel objects, provides a way to do that. (See also
+the <a href="https://docs.kernel.org/bpf/maps.html">BPF map types</a> that end
+in <tt>STORAGE</tt>.)
+Amery Hung and Jakub Sitnicki led two sessions
+at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>
+about how to make accesses to local storage data more efficient. Hung spoke
+about general performance problems related to locking, while Sitnicki examined
+the use of local storage in the networking subsystem in particular.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1079808/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 01 Jul 2026 13:18:52 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -285,21 +309,6 @@ summaries of their sessions, and this work has kindly been made available
 to LWN for publication.  The third day's sessions covered a wide range of
 topics, including GPU affinity, profile-guided scheduling,
 paravirtualization scheduling, quality of service, and more.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1078767/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 26 Jun 2026 17:14:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078767/" title="https://lwn.net/Articles/1078767/">[$] Initiating writeback earlier</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Writeback is the process of ensuring that dirty pages or folios in the page
-cache are flushed to the disk, so that changes to those files are made
-persistent.  In a filesystem-track session at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Jeff Layton wanted to
-discuss whether the writeback operation should be initiated earlier than it
-is today.  The consensus seemed to be that it should be done earlier, but
-the path toward making that happen was less clear.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
