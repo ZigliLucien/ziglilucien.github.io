@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1079808/" title="See Description">[$] Secure Boot certificate expiration is here</a></li>
+<li><a href="#https://lwn.net/Articles/1080689/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1080518/" title="See Description">Creative Commons founders' fireside chat (Creative Commons blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1079001/" title="See Description">[$] Flexible metaprogramming with Rhombus</a></li>
 <li><a href="#https://lwn.net/Articles/1080439/" title="See Description">Security updates for Tuesday</a></li>
@@ -51,11 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1079852/" title="See Description">Three stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1078697/" title="See Description">[$] Reports from OSPM 2026, day three</a></li>
 <li><a href="#https://lwn.net/Articles/1078767/" title="See Description">[$] Initiating writeback earlier</a></li>
-<li><a href="#https://lwn.net/Articles/1079806/" title="See Description">Lots of stories about systemd v261</a></li>
-<li><a href="#https://lwn.net/Articles/1079596/" title="See Description">[$] What's coming in Git 2.55</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1079808/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 01 Jul 2026 13:18:52 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079808/" title="https://lwn.net/Articles/1079808/">[$] Secure Boot certificate expiration is here</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Linux users who have <a
+href="https://en.wikipedia.org/wiki/UEFI#Secure_Boot">Secure Boot</a> enabled on
+their systems rely on certificates issued by Microsoft to verify the software
+used to boot a system is trusted by the user. One of those certificates expired
+recently, but that will not cause systems that are able to boot to stop doing
+so. There are situations where the expiration may cause problems, however, and
+the window for relying on existing signed binaries is shorter than it might
+appear. Users and administrators will want to stay on top of these changes. Over
+the last year, part of my job at Microsoft has been to work on this
+problem. <a href="https://lwn.net/Articles/1029767/">LWN wrote about the
+certificate expiration in July 2025</a>, and this article follows up with where
+we are now.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1080689/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 01 Jul 2026 13:15:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1080689/" title="https://lwn.net/Articles/1080689/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (coreutils, galera and mariadb11.8, giflib, git-lfs, glibc, httpd, kernel, mariadb10.11, mod_md, perl-Archive-Tar, perl-IO-Compress, perl:5.32, rrdtool, ruby, ruby4.0, and thunderbird), <b>Debian</b> (debian-security-support, librabbitmq, and nginx), <b>Fedora</b> (chromium, collectd, maradns, python-django-haystack, python-jupytext, varnish, varnish-modules, and vmod-querystring), <b>Oracle</b> (firefox, git-lfs, kernel, nginx:1.24, openssl, perl-Archive-Tar, perl-IO-Compress, and uek-kernel), <b>Red Hat</b> (container-tools:rhel8), <b>SUSE</b> (7zip, apache2, buildah, cifs-utils, curl, docker, exiv2-0_26, libonnxruntime1, libsoup, nodejs22, opensc, pacemaker, perl-Config-IniFiles, podman, sg3_utils, socat, tar, tracker, and xdg-desktop-portal), and <b>Ubuntu</b> (curl, hplip, libgd-perl, libssh2, libyang, ruby2.7, ruby3.0, ruby3.2, ruby3.3, and tar).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1080518/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 30 Jun 2026 17:53:49 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -273,31 +300,6 @@ Filesystem, Memory Management, and BPF Summit</a>, Jeff Layton wanted to
 discuss whether the writeback operation should be initiated earlier than it
 is today.  The consensus seemed to be that it should be done earlier, but
 the path toward making that happen was less clear.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1079806/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 26 Jun 2026 14:56:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079806/" title="https://lwn.net/Articles/1079806/">Lots of stories about systemd v261</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Lennart Poettering has posted <a
-href="https://0pointer.net/blog/mastodon-stories-for-systemd-v261.html">a
-list of Mastodon posts</a> about the changes in the systemd v261 release.
-The Mastodon format makes the reading harder, but there is a lot of useful
-information there.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1079596/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 26 Jun 2026 14:03:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079596/" title="https://lwn.net/Articles/1079596/">[$] What's coming in Git 2.55</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/ml/all/xmqqv7b9mcfx.fsf@gitster.g">Git v2.55.0-rc2</a>
-testing release appeared on June&#160;23, suggesting that the final Git
-2.55 release can be expected in the near future.  While this Git update
-lacks radical new features, it does include a number of improvements that
-regular Git users will appreciate, including commands to easily edit the
-commit history, more formatting options, fsmonitor support for Linux, and
-more.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
