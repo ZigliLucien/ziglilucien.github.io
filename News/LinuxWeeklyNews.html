@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1081038/" title="See Description">CalyxOS is back</a></li>
 <li><a href="#https://lwn.net/Articles/1081015/" title="See Description">Kernel archive /pub tree restoring</a></li>
 <li><a href="#https://lwn.net/Articles/1081012/" title="See Description">Spoofed email from LWN</a></li>
 <li><a href="#https://lwn.net/Articles/1081013/" title="See Description">Fedora Council proposes pausing Community Initiatives</a></li>
@@ -52,10 +53,47 @@
 <li><a href="#https://lwn.net/Articles/1080439/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1080188/" title="See Description">Git 2.55.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1078539/" title="See Description">[$] The rest of the 7.2 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1079385/" title="See Description">[$] Xsnow "protestware" in Debian</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1081038/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 02 Jul 2026 20:58:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081038/" title="https://lwn.net/Articles/1081038/">CalyxOS is back</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>In August 2025, the <a href="https://calyxos.org/">CalyxOS</a> privacy-focused
+Android distribution <a
+href="https://calyxos.org/news/2025/08/01/a-letter-to-our-community/">announced</a>
+that it was pausing all releases while it reworked its
+release process, security protocols, and changed its signing keys
+following the departure of one of its founders. The project has now <a
+href="https://calyxos.org/news/2026/07/01/calyxos-official-release-is-back/">announced</a>
+that it is "<q>officially back from the hiatus</q>" with the
+7.2.2.0 release.</p>
+
+<blockquote class="bq">
+<p>CalyxOS 7.2.2.0 is signed by us using <a
+href="https://calyxos.org/news/2026/02/10/calyxos-hsm-signing/">a new
+HSM-based, open-source signing solution</a> we designed to enhance the
+security of the entire signing process, ensure redundancy, and remove
+single points of failure. You can verify CalyxOS 7.2.2.0 and future
+builds following <a href="https://calyxos.org/install/verify/">these
+instructions</a>. For anyone who is interested, the security audit
+report of the HSM provisioning ceremony script can be found <a
+href="https://github.com/trailofbits/publications/blob/master/reviews/2026-01-calyx-hsm-provisioning-ceremony-scripts-securityreview.pdf">here</a>.</p>
+
+<p>In addition, we also went through significant infrastructure
+improvements. In particular, we have set up a cleaner server structure
+to streamline each release. In response to Google's less frequent AOSP
+source code releases, our team developed scripts to reduce the
+overhead in applying monthly patches and updates. Please keep in mind,
+additional manual steps are still needed to compensate for AOSP
+changes, such as requesting and storing kernel sources with each
+update. Currently, our lead engineer is continuing the maintenance of
+the base device trees for both LineageOS and CalyxOS to bridge the gap
+created by the absence of Google Pixel device trees.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1081015/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 02 Jul 2026 16:39:26 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -333,25 +371,6 @@ href="https://lwn.net/Articles/1078068/">LWN's summary of the first half of the 
 window</a> was written.  As usual, the commits in the latter part of the
 merge window were more heavily focused on fixes, but there were still a lot
 of new features and significant changes merged as well.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1079385/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 29 Jun 2026 15:13:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079385/" title="https://lwn.net/Articles/1079385/">[$] Xsnow "protestware" in Debian</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a
-href="https://www.ratrabbit.nl/ratrabbit/xsnow/index.html">xsnow</a>
-application, which generates an animated snowfall effect (and other
-pleasant diversions) for X11 desktops, does not seem like an obvious
-channel for political statements. Nevertheless, xsnow's maintainer
-seems to have included a political protest in the program: an
-Easter egg that is triggered when the program's language is set to Russia
-("ru"). One user has complained that this functionality should be
-removed from the Debian <a
-href="https://packages.debian.org/STABLE/games/xsnow">xsnow
-package</a>, but Debian does not seem to have any rules that forbid
-such a feature outright.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
