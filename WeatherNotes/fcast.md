@@ -2,12 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 95, with temperatures falling to around 93 in the afternoon. Heat index values as high as 107. South wind
-         around 5 mph.<br></div>
+         <h3>This Afternoon</h3>Sunny. High near 95, with temperatures falling to around 93 in the afternoon. Heat index values as high as 107. South southeast
+         wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear. Low around 76, with temperatures rising to around 78 overnight. Heat index values as high as 105. South wind
+         <h3>Tonight</h3>Mostly clear. Low around 76, with temperatures rising to around 78 overnight. Heat index values as high as 106. South wind
          0 to 5 mph.<br></div>
    </p>
    <p>
@@ -36,19 +36,19 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 72. South southwest wind around 2 mph.<br></div>
+         <h3>Sunday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 72. South wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A chance of showers and thunderstorms. Mostly sunny, with a high near 91. West northwest wind 0 to 3 mph.<br></div>
+         <h3>Monday</h3>A chance of showers and thunderstorms. Mostly sunny, with a high near 91. Northwest wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 72. North wind 0 to 3 mph.<br></div>
+         <h3>Monday Night</h3>A chance of showers and thunderstorms before 1am. Partly cloudy, with a low around 72. North wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of showers and thunderstorms. Mostly sunny, with a high near 90. North northeast wind 0 to 3 mph.<br></div>
+         <h3>Tuesday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 90. North northeast wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,6 +60,6 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of showers and thunderstorms. Mostly clear, with a low around 72. South southeast wind around 2 mph.<br></div>
+         <h3>Wednesday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 72. East southeast wind around 2 mph.<br></div>
    </p>
 </div>
