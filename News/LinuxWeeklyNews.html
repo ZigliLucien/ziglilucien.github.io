@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1081199/" title="See Description">Four vulnerabilities in Guix</a></li>
+<li><a href="#https://lwn.net/Articles/1079407/" title="See Description">[$] Limiting negative dentries</a></li>
 <li><a href="#https://lwn.net/Articles/1081187/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1081038/" title="See Description">CalyxOS is back</a></li>
 <li><a href="#https://lwn.net/Articles/1081015/" title="See Description">Kernel archive /pub tree restoring</a></li>
@@ -51,11 +53,67 @@
 <li><a href="#https://lwn.net/Articles/1080689/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1080518/" title="See Description">Creative Commons founders' fireside chat (Creative Commons blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1079001/" title="See Description">[$] Flexible metaprogramming with Rhombus</a></li>
-<li><a href="#https://lwn.net/Articles/1080439/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1080188/" title="See Description">Git 2.55.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1081199/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 03 Jul 2026 15:54:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081199/" title="https://lwn.net/Articles/1081199/">Four vulnerabilities in Guix</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://guix.gnu.org/">GNU Guix</a> project has <a
+href="https://guix.gnu.org/blog/2026/guix-substitute-pull-vulnerabilities/">announced</a>
+three vulnerabilities in the <tt>guix substitute</tt> utility as well
+as a fourth that affects the <tt>guix pull</tt> and <tt>guix
+time-machine</tt> commands. The impact of the vulnerabilities ranges from remote privilege
+escalation to local disclosure of sensitive files.</p>
+
+<blockquote class="bq">
+<p>The remote exploitation of <tt>guix substitute</tt> only requires that the
+vulnerable system attempt to download a binary substitute. Any
+configured substitute server, including ones discovered using
+<tt>guix-daemon</tt>'s <tt>--discover</tt> option, can exploit this, and so can a
+man-in-the-middle (MITM), regardless of whether <tt>https</tt> is used in the
+substitute server urls.</p>
+
+<p>The local exploitation of <tt>guix substitute</tt> only requires
+the ability to connect to guix-daemon's socket, which by default any
+user can do.</p>
+
+<p>Separately, another security issue (CVE ID pending) was identified
+in <tt>guix pull</tt> and <tt>guix time-machine</tt>, which enables anyone who can
+control the channels file used by these commands to cause a file to be
+created or overwritten wherever the user running the command in
+question has permission to create them.</p>
+</blockquote>
+
+<p>The project is recommending that all users upgrade <tt>guix</tt>
+and <tt>guix-daemon</tt> immediately. See the announcement for
+instructions, how to test for the vulnerabilities, the disclosure
+timeline, and more.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1079407/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 03 Jul 2026 14:10:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079407/" title="https://lwn.net/Articles/1079407/">[$] Limiting negative dentries</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>A number of problems related to negative directory entries (dentries) were
+the topic of a filesystem-track session at
+the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  Negative dentries are
+used to indicate that a file of a given name does not exist in a directory;
+it is an optimization that short-circuits the lookup of the file name when
+the answer is already known.
+
+Miklos Szeredi led a
+session that discussed
+some problems that come from having too many negative dentries for a
+directory.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1081187/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 03 Jul 2026 13:03:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -337,31 +395,6 @@ metaprogramming capabilities to a simple Python-like syntax and reasonable
 standard-library defaults.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1080439/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 30 Jun 2026 13:03:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1080439/" title="https://lwn.net/Articles/1080439/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (git-lfs, perl-Archive-Tar, perl-IO-Compress, python3.12-urllib3, and runc), <b>Debian</b> (sogo), <b>Fedora</b> (perl-DBI and perl-Socket), <b>Oracle</b> (firefox, freerdp, git-lfs, libsoup, libxml2, mod_md, mysql, perl-Archive-Tar, perl-IO-Compress, python, python3.12-urllib3, rsync, thunderbird, tomcat, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (389-ds, 7zip, alsa, amazon-ecs-init, amazon-ssm-agent, ansible-core, apache2, atril, avahi, bind, bitcoin, capnproto, chromedriver, chromium, cosign, distribution, dnsdist, docker, dovecot24, dracut, firefox, firewalld, freeipmi, freerdp, giflib, gimp, gleam, glib-networking, glibc, glycin-loaders, golang-github-prometheus-alertmanager, google-cloud-sap-agent, google-guest-agent, graphite2, gsasl, hamlib, helm, himmelblau, ignition, imagemagick, istioctl, jackson-databind, jq, jupyter-jupyterlab-templates, keylime, krb5, ldns, libaom, libcaca, libgcrypt, libheif, libinput, libjxl, libnfs, libslirp-devel, libsolv, libzypp, zypper, libssh2_org, libvncserver, libyang, lldpd, logback, loupe, mbedtls, mbedtls-2, mcphost, mozjs128, mutt, nano, nginx, ocaml, ofono, openCryptoki, opencryptoki, opensc, openssh, openssl-3, papers, perl-compress-raw-zlib, perl-config-inifiles, perl-cpanel-json-xs, perl-crypt-passwdmd5, perl-DBI, perl-dbi, perl-html-parser, perl-http-daemon, perl-libwww-perl, perl-protocol-http2, postfix, postgresql14, postgresql15, postgresql16, python-aiohttp, python-biopython, python-click, python-ecdsa, python-idna, python-markdown, python-joblib,, python-paramiko, python-pdm, python-pip, python-py7zr, python-pydata-sphinx-theme, python-pyjwt, python-python-multipart, python-starlette, python-tornado6, python311-jupyter-ydoc, rpcbind, sed, sg3_utils, sqlite3, strongswan, tar, thunderbird, tomcat, tomcat10, tomcat11, trivy, unbound, util-linux, warewulf4, webkit2gtk3, xar, xwayland, yt-dlp, and zypper, libzypp, libsolv), and <b>Ubuntu</b> (libheif, nss, qemu, roundcube, and sqlite3).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1080188/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 29 Jun 2026 20:22:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1080188/" title="https://lwn.net/Articles/1080188/">Git 2.55.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Git maintainer Junio Hamano has <a
-href="https://lwn.net/ml/all/xmqqv7b1w9vr.fsf%40gitster.g/">announced</a>
-Git&#160;2.55.0, which has non-merge commits from 100 people; 33 of
-those are first-time contributors to the project. LWN <a
-href="https://lwn.net/Articles/1079596/">recently covered</a> some of
-the noteworthy changes in 2.55, including new features for the
-experimental "<tt>git history</tt>" command, addition of the Git <a
-href="https://www.man7.org/linux/man-pages/man1/git-fsmonitor--daemon.1.html">fsmonitor</a>
-daemon for Linux systems, and more.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
