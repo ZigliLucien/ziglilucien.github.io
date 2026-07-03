@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72d968722abeb617a48a12980883ca2ff7f8f103.001.2</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.892806c78d8e1004d37e1bd98d4d4c63d0353513.001.2</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72d968722abeb617a48a12980883ca2ff7f8f103.001.2</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.892806c78d8e1004d37e1bd98d4d4c63d0353513.001.2</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.72d968722abeb617a48a12980883ca2ff7f8f103.001.2</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.892806c78d8e1004d37e1bd98d4d4c63d0353513.001.2</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,54 +203,49 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.775d5605e1764dc96ba1b931ee9a57aeec14ae80.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.775d5605e1764dc96ba1b931ee9a57aeec14ae80.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72d968722abeb617a48a12980883ca2ff7f8f103.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.72d968722abeb617a48a12980883ca2ff7f8f103.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-07-02T03:33:00-05:00</sent>
+						<sent type="str">2026-07-02T10:16:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2026-07-02T10:16:00-05:00</sent>
-				<effective type="str">2026-07-02T10:16:00-05:00</effective>
-				<onset type="str">2026-07-02T10:16:00-05:00</onset>
-				<expires type="str">2026-07-03T07:15:00-05:00</expires>
-				<ends type="str">2026-07-03T20:00:00-05:00</ends>
+				<sent type="str">2026-07-03T03:21:00-05:00</sent>
+				<effective type="str">2026-07-03T03:21:00-05:00</effective>
+				<onset type="str">2026-07-03T20:00:00-05:00</onset>
+				<expires type="str">2026-07-03T16:00:00-05:00</expires>
+				<ends type="str">2026-07-04T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
-				<severity type="str">Severe</severity>
+				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
 				<urgency type="str">Expected</urgency>
-				<event type="str">Extreme Heat Warning</event>
+				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Extreme Heat Warning issued July 2 at 10:16AM CDT until July 3 at 8:00PM CDT by NWS Paducah KY</headline>
+				<headline type="str">Heat Advisory issued July 3 at 3:21AM CDT until July 4 at 8:00PM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...For the Extreme Heat Warning, dangerously hot conditions
-with peak afternoon heat index values up to around 110 degrees can
-be expected. For the Heat Advisory on Independence Day, peak
-afternoon heat index values up to around 105 degrees are
-anticipated.
+with heat index values from 105 to 112 degrees can be expected.
+For the Heat Advisory, heat index values will reach from 102 to
+107 degrees.
 
 * WHERE...All of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
 * WHEN...For the Extreme Heat Warning, until 8 PM CDT /9 PM EDT/
-Friday. For the Heat Advisory, from 8 PM CDT /9 PM EDT/ Friday to
-8 PM CDT /9 PM EDT/ Saturday.
+this evening. For the Heat Advisory, from 8 PM CDT /9 PM EDT/ this
+evening to 8 PM CDT /9 PM EDT/ Saturday.
 
 * IMPACTS...Heat related illnesses increase significantly during
-prolonged duration extreme heat and high humidity events. Hot
-temperatures and high humidity may cause heat illnesses.
-
-* ADDITIONAL DETAILS...Overnight lows will only fall into the mid
-70s, providing little relief during this prolonged, extended
-duration of dangerously high heat and humidity.</description>
+extreme heat and high humidity events. Hot temperatures and high
+humidity may cause heat illnesses.</description>
 				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
 the sun, and check up on relatives and neighbors.
 
-Take extra precautions when outside this holiday weekend. Wear
-lightweight and loose fitting clothing. Try to limit strenuous
-activities to early morning or evening. Take action when you see
-symptoms of heat exhaustion and heat stroke.
+Take extra precautions when outside. Wear lightweight and loose
+fitting clothing. Try to limit strenuous activities to early morning
+or evening. Take action when you see symptoms of heat exhaustion and
+heat stroke.
 
 Monitor the latest forecasts and warnings for updates.
 
@@ -266,10 +261,10 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 021516</item>
+						<item type="str">WWUS73 KPAH 030821</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">EXTREME HEAT WARNING REMAINS IN EFFECT UNTIL 8 PM CDT /9 PM EDT/ FRIDAY... ...HEAT ADVISORY IN EFFECT FROM 8 PM CDT /9 PM EDT/ FRIDAY TO 8 PM CDT /9 PM EDT/ SATURDAY</item>
+						<item type="str">EXTREME HEAT WARNING REMAINS IN EFFECT UNTIL 8 PM CDT /9 PM EDT/ THIS EVENING... ...HEAT ADVISORY REMAINS IN EFFECT FROM 8 PM CDT /9 PM EDT/ THIS EVENING TO 8 PM CDT /9 PM EDT/ SATURDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -277,14 +272,11 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.XH.W.0001.000000T0000Z-260704T0100Z/</item>
+						<item type="str">/O.CON.KPAH.HT.Y.0003.260704T0100Z-260705T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
-						<item type="str">2026-07-03T20:00:00-05:00</item>
+						<item type="str">2026-07-04T20:00:00-05:00</item>
 					</eventEndingTime>
-					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7394acea95b5d0bdbd9e9d9c1808e091d815a319.001.1,2026-07-01T13:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fc20c4d515db39330a8d04377ee4eb23a4705327.001.1,2026-07-01T03:33:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a767650c3e202d242ca53974f884e570b9ffadca.001.1,2026-06-30T11:22:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.56ccddc0d78414892372b1257da9a0e2b98384b3.001.1,2026-06-30T04:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2991044ee9012e70787d3f2834ce151707dc0c41.001.1,2026-06-29T20:37:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.51db3506fde60618d972c3d2147d593f23b6357e.001.1,2026-06-29T13:19:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f025762e277778c646a84da10864289e33ac389c.001.1,2026-06-29T01:49:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.29759eafb1648f67335338fe3f3856dc536c2790.001.2,2026-06-28T11:28:00-05:00</item>
-					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -295,19 +287,19 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">NWS</item>
 					</SAME>
 					<NationalWeatherService type="list">
-						<item type="str">XHW</item>
+						<item type="str">HTY</item>
 					</NationalWeatherService>
 				</eventCode>
 			</properties>
 		</item>
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72d968722abeb617a48a12980883ca2ff7f8f103.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.892806c78d8e1004d37e1bd98d4d4c63d0353513.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72d968722abeb617a48a12980883ca2ff7f8f103.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.892806c78d8e1004d37e1bd98d4d4c63d0353513.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.72d968722abeb617a48a12980883ca2ff7f8f103.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.892806c78d8e1004d37e1bd98d4d4c63d0353513.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -491,49 +483,51 @@ emergency! Call 9 1 1.</instruction>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2026-07-02T10:16:00-05:00</sent>
-				<effective type="str">2026-07-02T10:16:00-05:00</effective>
-				<onset type="str">2026-07-03T20:00:00-05:00</onset>
-				<expires type="str">2026-07-03T07:15:00-05:00</expires>
-				<ends type="str">2026-07-04T20:00:00-05:00</ends>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72d968722abeb617a48a12980883ca2ff7f8f103.001.2</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.72d968722abeb617a48a12980883ca2ff7f8f103.001.2</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2026-07-02T10:16:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2026-07-03T03:21:00-05:00</sent>
+				<effective type="str">2026-07-03T03:21:00-05:00</effective>
+				<onset type="str">2026-07-03T03:21:00-05:00</onset>
+				<expires type="str">2026-07-03T16:00:00-05:00</expires>
+				<ends type="str">2026-07-03T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
-				<severity type="str">Moderate</severity>
+				<severity type="str">Severe</severity>
 				<certainty type="str">Likely</certainty>
 				<urgency type="str">Expected</urgency>
-				<event type="str">Heat Advisory</event>
+				<event type="str">Extreme Heat Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued July 2 at 10:16AM CDT until July 4 at 8:00PM CDT by NWS Paducah KY</headline>
+				<headline type="str">Extreme Heat Warning issued July 3 at 3:21AM CDT until July 3 at 8:00PM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...For the Extreme Heat Warning, dangerously hot conditions
-with peak afternoon heat index values up to around 110 degrees can
-be expected. For the Heat Advisory on Independence Day, peak
-afternoon heat index values up to around 105 degrees are
-anticipated.
+with heat index values from 105 to 112 degrees can be expected.
+For the Heat Advisory, heat index values will reach from 102 to
+107 degrees.
 
 * WHERE...All of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
 * WHEN...For the Extreme Heat Warning, until 8 PM CDT /9 PM EDT/
-Friday. For the Heat Advisory, from 8 PM CDT /9 PM EDT/ Friday to
-8 PM CDT /9 PM EDT/ Saturday.
+this evening. For the Heat Advisory, from 8 PM CDT /9 PM EDT/ this
+evening to 8 PM CDT /9 PM EDT/ Saturday.
 
 * IMPACTS...Heat related illnesses increase significantly during
-prolonged duration extreme heat and high humidity events. Hot
-temperatures and high humidity may cause heat illnesses.
-
-* ADDITIONAL DETAILS...Overnight lows will only fall into the mid
-70s, providing little relief during this prolonged, extended
-duration of dangerously high heat and humidity.</description>
+extreme heat and high humidity events. Hot temperatures and high
+humidity may cause heat illnesses.</description>
 				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
 the sun, and check up on relatives and neighbors.
 
-Take extra precautions when outside this holiday weekend. Wear
-lightweight and loose fitting clothing. Try to limit strenuous
-activities to early morning or evening. Take action when you see
-symptoms of heat exhaustion and heat stroke.
+Take extra precautions when outside. Wear lightweight and loose
+fitting clothing. Try to limit strenuous activities to early morning
+or evening. Take action when you see symptoms of heat exhaustion and
+heat stroke.
 
 Monitor the latest forecasts and warnings for updates.
 
@@ -549,10 +543,10 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 021516</item>
+						<item type="str">WWUS73 KPAH 030821</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">EXTREME HEAT WARNING REMAINS IN EFFECT UNTIL 8 PM CDT /9 PM EDT/ FRIDAY... ...HEAT ADVISORY IN EFFECT FROM 8 PM CDT /9 PM EDT/ FRIDAY TO 8 PM CDT /9 PM EDT/ SATURDAY</item>
+						<item type="str">EXTREME HEAT WARNING REMAINS IN EFFECT UNTIL 8 PM CDT /9 PM EDT/ THIS EVENING... ...HEAT ADVISORY REMAINS IN EFFECT FROM 8 PM CDT /9 PM EDT/ THIS EVENING TO 8 PM CDT /9 PM EDT/ SATURDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -560,11 +554,14 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.HT.Y.0003.260704T0100Z-260705T0100Z/</item>
+						<item type="str">/O.CON.KPAH.XH.W.0001.000000T0000Z-260704T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
-						<item type="str">2026-07-04T20:00:00-05:00</item>
+						<item type="str">2026-07-03T20:00:00-05:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.775d5605e1764dc96ba1b931ee9a57aeec14ae80.001.1,2026-07-02T03:33:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7394acea95b5d0bdbd9e9d9c1808e091d815a319.001.1,2026-07-01T13:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fc20c4d515db39330a8d04377ee4eb23a4705327.001.1,2026-07-01T03:33:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a767650c3e202d242ca53974f884e570b9ffadca.001.1,2026-06-30T11:22:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.56ccddc0d78414892372b1257da9a0e2b98384b3.001.1,2026-06-30T04:17:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2991044ee9012e70787d3f2834ce151707dc0c41.001.1,2026-06-29T20:37:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.51db3506fde60618d972c3d2147d593f23b6357e.001.1,2026-06-29T13:19:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f025762e277778c646a84da10864289e33ac389c.001.1,2026-06-29T01:49:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.29759eafb1648f67335338fe3f3856dc536c2790.001.2,2026-06-28T11:28:00-05:00</item>
+					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -575,12 +572,12 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">NWS</item>
 					</SAME>
 					<NationalWeatherService type="list">
-						<item type="str">HTY</item>
+						<item type="str">XHW</item>
 					</NationalWeatherService>
 				</eventCode>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-07-03T07:35:49+00:00</updated>
+	<updated type="str">2026-07-03T08:35:23+00:00</updated>
 </all>
