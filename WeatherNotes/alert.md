@@ -1,9 +1,9 @@
 <p>
-   <h2>Heat Advisory issued July 3 at 3:21AM CDT until July 4 at 8:00PM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...For the Extreme Heat Warning, dangerously hot conditions
-      with heat index values from 105 to 112 degrees can be expected.
-      For the Heat Advisory, heat index values will reach from 102 to
-      107 degrees.
+   <h2>Extreme Heat Warning issued July 3 at 10:41AM CDT until July 3 at 8:00PM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...For the Extreme Heat Warning today, dangerously hot
+      conditions with peak heat index values up to near 110 degrees. For
+      the Heat Advisory tomorrow, heat index values peak up to around
+      105 degrees.
       
       * WHERE...All of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
@@ -15,14 +15,18 @@
       * IMPACTS...Heat related illnesses increase significantly during
       extreme heat and high humidity events. Hot temperatures and high
       humidity may cause heat illnesses.
+      
+      * ADDITIONAL DETAILS...Overnight lows in the mid 70s will provide
+      little relief during this prolonged, extended duration of
+      dangerously high heat and humidity.
    </div>
 </p>
 <p>
-   <h2>Extreme Heat Warning issued July 3 at 3:21AM CDT until July 3 at 8:00PM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...For the Extreme Heat Warning, dangerously hot conditions
-      with heat index values from 105 to 112 degrees can be expected.
-      For the Heat Advisory, heat index values will reach from 102 to
-      107 degrees.
+   <h2>Heat Advisory issued July 3 at 10:41AM CDT until July 4 at 8:00PM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...For the Extreme Heat Warning today, dangerously hot
+      conditions with peak heat index values up to near 110 degrees. For
+      the Heat Advisory tomorrow, heat index values peak up to around
+      105 degrees.
       
       * WHERE...All of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
@@ -34,5 +38,9 @@
       * IMPACTS...Heat related illnesses increase significantly during
       extreme heat and high humidity events. Hot temperatures and high
       humidity may cause heat illnesses.
+      
+      * ADDITIONAL DETAILS...Overnight lows in the mid 70s will provide
+      little relief during this prolonged, extended duration of
+      dangerously high heat and humidity.
    </div>
 </p>
