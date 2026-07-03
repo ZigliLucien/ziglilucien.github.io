@@ -1,5 +1,5 @@
 <p>
-   <h2>Extreme Heat Warning issued July 3 at 10:41AM CDT until July 3 at 8:00PM CDT by NWS Paducah KY</h2>
+   <h2>Heat Advisory issued July 3 at 10:41AM CDT until July 4 at 8:00PM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...For the Extreme Heat Warning today, dangerously hot
       conditions with peak heat index values up to near 110 degrees. For
       the Heat Advisory tomorrow, heat index values peak up to around
@@ -22,7 +22,7 @@
    </div>
 </p>
 <p>
-   <h2>Heat Advisory issued July 3 at 10:41AM CDT until July 4 at 8:00PM CDT by NWS Paducah KY</h2>
+   <h2>Extreme Heat Warning issued July 3 at 10:41AM CDT until July 3 at 8:00PM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...For the Extreme Heat Warning today, dangerously hot
       conditions with peak heat index values up to near 110 degrees. For
       the Heat Advisory tomorrow, heat index values peak up to around
