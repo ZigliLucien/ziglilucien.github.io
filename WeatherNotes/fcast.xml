@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-07-03T23:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-07-03T22:31:27+00:00</updateTime>
-		<validTimes type="str">2026-07-03T16:00:00+00:00/P7DT9H</validTimes>
+		<generatedAt type="str">2026-07-04T03:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-07-04T03:25:58+00:00</updateTime>
+		<validTimes type="str">2026-07-03T21:00:00+00:00/P7DT4H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2026-07-03T18:00:00-05:00</startTime>
+				<startTime type="str">2026-07-03T22:00:00-05:00</startTime>
 				<endTime type="str">2026-07-04T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">76</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">18</value>
+					<value type="int">10</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">0 to 5 mph</windSpeed>
-				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/few?size=medium</icon>
-				<shortForecast type="str">Slight Chance Rain Showers then Mostly Clear</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers between 7pm and 9pm. Mostly clear. Low around 76, with temperatures rising to around 78 overnight. South wind 0 to 5 mph. Chance of precipitation is 20%.</detailedForecast>
+				<windSpeed type="str">0 to 6 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
+				<shortForecast type="str">Mostly Clear</shortForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 76. South southwest wind 0 to 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,13 +79,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">39</value>
+					<value type="int">58</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">1 to 5 mph</windSpeed>
+				<windSpeed type="str">1 to 6 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct/tsra_hi,40?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct/tsra_hi,60?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny then Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms after 1pm. Mostly sunny. High near 94, with temperatures falling to around 91 in the afternoon. Southwest wind 1 to 5 mph. Chance of precipitation is 40%.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms between noon and 2pm, then showers and thunderstorms likely between 2pm and 3pm, then a chance of showers and thunderstorms. Mostly sunny. High near 94, with temperatures falling to around 91 in the afternoon. Southwest wind 1 to 6 mph. Chance of precipitation is 60%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -98,13 +98,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">25</value>
+					<value type="int">42</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 to 5 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,30?size=medium</icon>
+				<windDirection type="str">SSW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,40/tsra_hi,30?size=medium</icon>
 				<shortForecast type="str">Chance Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">A chance of showers and thunderstorms. Partly cloudy. Low around 75, with temperatures rising to around 77 overnight. Southwest wind 1 to 5 mph. Chance of precipitation is 30%.</detailedForecast>
+				<detailedForecast type="str">A chance of showers and thunderstorms. Partly cloudy. Low around 75, with temperatures rising to around 77 overnight. South southwest wind 1 to 5 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
