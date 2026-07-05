@@ -2,23 +2,22 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of showers and thunderstorms before 5pm, then showers and thunderstorms likely. Partly sunny. High near 86, with
-         temperatures falling to around 83 in the afternoon. North northwest wind around 5 mph. Chance of precipitation is 60%.<br></div>
+         <h3>This Afternoon</h3>A chance of showers and thunderstorms. Partly sunny. High near 86, with temperatures falling to around 83 in the afternoon.
+         Northwest wind around 3 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms likely before 7pm, then a chance of showers and thunderstorms between 7pm and 1am. Partly cloudy.
-         Low around 70, with temperatures rising to around 72 overnight. North northwest wind 0 to 3 mph. Chance of precipitation is
-         60%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 8pm. Partly cloudy. Low around 70, with temperatures rising to around 72 overnight.
+         North northwest wind 0 to 3 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A chance of showers and thunderstorms after 1pm. Partly sunny. High near 86, with temperatures falling to around 83 in the
-         afternoon. North northwest wind 2 to 6 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Monday</h3>A chance of showers and thunderstorms after 4pm. Mostly sunny. High near 86, with temperatures falling to around 83 in the
+         afternoon. North wind 2 to 6 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 69. North wind 1 to 6 mph. Chance of precipitation
+         <h3>Monday Night</h3>A chance of showers and thunderstorms before 9pm. Partly cloudy, with a low around 69. North wind 1 to 6 mph. Chance of precipitation
          is 30%.<br></div>
    </p>
    <p>
