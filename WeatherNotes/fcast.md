@@ -22,12 +22,12 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 88. West southwest wind around 2 mph. Chance
-         of precipitation is 40%.<br></div>
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Wednesday Night</h3>A chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 71. South wind around 3 mph. Chance of precipitation
-         is 40%.<br></div>
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -35,25 +35,26 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 75. South southwest wind around 8 mph.<br></div>
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Mostly clear, with a low around 74. South southwest wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of showers and thunderstorms before 1pm, then showers and thunderstorms likely. Partly sunny, with a high near 91.
+         <h3>Friday</h3>A chance of showers and thunderstorms before 1pm, then showers and thunderstorms likely. Mostly sunny, with a high near 91.
          Southwest wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 73. Southwest wind 2 to 7 mph.<br></div>
+         <h3>Friday Night</h3>Showers and thunderstorms likely before 1am, then a chance of showers and thunderstorms. Partly cloudy, with a low around
+         73. Southwest wind 2 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Showers and thunderstorms likely before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 89.
-         Southwest wind around 5 mph.<br></div>
+         <h3>Saturday</h3>A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 1pm, then a chance
+         of showers and thunderstorms. Partly sunny, with a high near 89. Southwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 72. Southwest wind around 3 mph.<br></div>
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 72. Southwest wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
