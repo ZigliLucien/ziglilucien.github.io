@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1081536/" title="See Description">OpenSSH 10.4 released</a></li>
+<li><a href="#https://lwn.net/Articles/1079415/" title="See Description">[$] The kernel's iomap layer</a></li>
 <li><a href="#https://lwn.net/Articles/1081495/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1081367/" title="See Description">Kernel prepatch 7.2-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/1081230/" title="See Description">Seven stable kernels for Saturday including two security fixes</a></li>
@@ -51,11 +53,43 @@
 <li><a href="#https://lwn.net/Articles/1080162/" title="See Description">[$] Two LLM-assisted memory-management patch sets</a></li>
 <li><a href="#https://lwn.net/Articles/1080956/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1079457/" title="See Description">[$] LWN.net Weekly Edition for July 2, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1078968/" title="See Description">[$] Efficient access to local storage for BPF programs</a></li>
-<li><a href="#https://lwn.net/Articles/1079808/" title="See Description">[$] Secure Boot certificate expiration is here</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1081536/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 06 Jul 2026 16:13:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081536/" title="https://lwn.net/Articles/1081536/">OpenSSH 10.4 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>OpenSSH 10.4 has been released. In addition to a number of security
+and bug fixes, there are a few notable changes; this release adds
+experimental support for a composite post-quantum signature scheme
+combining ML-DSA 44 and Ed25519 as described in <a
+href="https://datatracker.ietf.org/doc/draft-miller-sshm-mldsa44-ed25519-composite-sigs/">this
+IETF draft</a>. With 10.4, if OpenSSH is compiled with sandbox support
+it will fail on Linux systems that have not enabled <tt>SECCOMP</tt>
+or <tt>NO_NEW_PRIVS</tt>; prior to this release, <tt><a
+href="https://man.openbsd.org/sshd.8">sshd</a></tt> would log an error
+but continue operation. See the <a
+href="https://www.openssh.org/txt/release-10.4">release notes</a> for
+a full list of changes.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1079415/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 06 Jul 2026 14:37:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079415/" title="https://lwn.net/Articles/1079415/">[$] The kernel's iomap layer</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Conversations about the kernel's filesystem implementations often involve a
+layer called "iomap", but relatively few people can reliably say what iomap
+actually is.  That is just the kind of gap that LWN exists to fill.  In
+short, iomap handles the mapping between data in the filesystem space
+(identified by a file of interest, and an offset within that file) and in
+the storage space (which may be a memory location, or a set of blocks on a
+storage device).  Using that mapping, iomap handles a long list of common,
+filesystem-related tasks, allowing a lot of boilerplate code to be removed
+from individual filesystem implementations.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1081495/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 06 Jul 2026 13:13:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -344,49 +378,6 @@ forward.
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1078968/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 01 Jul 2026 17:07:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1078968/" title="https://lwn.net/Articles/1078968/">[$] Efficient access to local storage for BPF programs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-When a BPF program is used to filter or redirect packets in the networking
-subsystem, the program will often want to associate data with each packet as it
-moves through the kernel. The kernel's
-<a href="https://docs.ebpf.io/linux/helper-function/bpf_get_local_storage/">
-local BPF storage API</a>, which
-associates extra data with some kernel objects, provides a way to do that. (See also
-the <a href="https://docs.kernel.org/bpf/maps.html">BPF map types</a> that end
-in <tt>STORAGE</tt>.)
-Amery Hung and Jakub Sitnicki led two sessions
-at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>
-about how to make accesses to local storage data more efficient. Hung spoke
-about general performance problems related to locking, while Sitnicki examined
-the use of local storage in the networking subsystem in particular.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1079808/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 01 Jul 2026 13:18:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1079808/" title="https://lwn.net/Articles/1079808/">[$] Secure Boot certificate expiration is here</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Linux users who have <a
-href="https://en.wikipedia.org/wiki/UEFI#Secure_Boot">Secure Boot</a> enabled on
-their systems rely on certificates issued by Microsoft to verify the software
-used to boot a system is trusted by the user. One of those certificates expired
-recently, but that will not cause systems that are able to boot to stop doing
-so. There are situations where the expiration may cause problems, however, and
-the window for relying on existing signed binaries is shorter than it might
-appear. Users and administrators will want to stay on top of these changes. Over
-the last year, part of my job at Microsoft has been to work on this
-problem. <a href="https://lwn.net/Articles/1029767/">LWN wrote about the
-certificate expiration in July 2025</a>, and this article follows up with where
-we are now.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
