@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Patchy fog before 8am, then a chance of showers and thunderstorms. Partly sunny. High near 86, with temperatures falling to
-         around 83 in the afternoon. North wind 1 to 5 mph. Chance of precipitation is 50%.<br></div>
+         around 83 in the afternoon. North wind around 5 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
