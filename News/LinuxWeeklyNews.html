@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1081690/" title="See Description">Woodruff: You shouldn't trust trusted publishing</a></li>
 <li><a href="#https://lwn.net/Articles/1081009/" title="See Description">[$] Faster RCUs and lockless memory allocation</a></li>
 <li><a href="#https://lwn.net/Articles/1081644/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1081536/" title="See Description">OpenSSH 10.4 released</a></li>
@@ -52,10 +53,43 @@
 <li><a href="#https://lwn.net/Articles/1081015/" title="See Description">Kernel archive /pub tree restoring</a></li>
 <li><a href="#https://lwn.net/Articles/1081012/" title="See Description">Spoofed email from LWN</a></li>
 <li><a href="#https://lwn.net/Articles/1081013/" title="See Description">Fedora Council proposes pausing Community Initiatives</a></li>
-<li><a href="#https://lwn.net/Articles/1080162/" title="See Description">[$] Two LLM-assisted memory-management patch sets</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1081690/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 07 Jul 2026 14:27:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081690/" title="https://lwn.net/Articles/1081690/">Woodruff: You shouldn't trust trusted publishing</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>William Woodruff, better known online as "yossarian", has <a
+href="https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing">published</a>
+a blog post to make the case that users should not place their trust
+in <a href="https://docs.pypi.org/trusted-publishers/">trusted
+publishing</a>:</p>
+
+<blockquote class="bq">
+<p>Trusted Publishing is a mechanism for establishing trust between an
+external machine identity (like a CI/CD workflow) and one or more
+projects on a package index/registry. The "trust" in "Trusted
+Publishing" refers to that trust relationship, and not to anything
+else.</p>
+
+<p>It is not, and cannot be, a signal for package trust or
+quality. You cannot use it to determine whether a package is safe or
+"good," and PyPI consciously stymies attempts to misuse it for that
+purpose by not rendering it as a "green checkmark" or anything else of
+the sort.</p>
+
+<p>Or as another framing: Trusted Publishing is just a form of
+authentication. It doesn't tell you anything other than that an upload
+was authenticated, which all uploads to PyPI are.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1076205/">covered</a> trusted
+publishing in June.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1081009/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 07 Jul 2026 13:39:34 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -85,7 +119,7 @@ together and in the reverse order, to provide that missing context.
 <div style="float:left" class="link"><a href="https://lwn.net/Articles/1081644/" title="https://lwn.net/Articles/1081644/">Security updates for Tuesday</a></div>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (nodejs22 and nodejs24), <b>Fedora</b> (clamav, hplip, kernel, kernel-headers, librabbitmq, mingw-expat, mir, perl-Imager, podman-tui, prometheus-podman-exporter, python-rpds-py, rust-ashpd, rust-busd, rust-gtk4-macros, rust-inferno, rust-quick-xml, rust-reqsign-aws-v4, rust-wayland-scanner, and sandogasa), <b>Oracle</b> (container-tools:rhel8, kernel, mariadb:10.11, mariadb:11.8, nginx, perl:5.32, php, php:7.4, rrdtool, ruby:2.5, ruby:3.3, ruby:4.0, and uek-kernel), <b>Red Hat</b> (kernel, opentelemetry-collector, and python-urllib3), <b>Slackware</b> (c and openssh), <b>SUSE</b> (bind, chromedriver, cryptsetup, s390-tools, dnsmasq, jackson-annotations, jackson-core, jackson-databind, lcms2, pacemaker, perl-Cpanel-JSON-XS, perl-Crypt-SaltedHash, postfix, and python-mistune), and <b>Ubuntu</b> (gnutls28, gzip, openssh, php7.0, python-parsl, python3.10, python3.12, python3.14, request-tracker5, socat, sogo, and tar).
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (nodejs22 and nodejs24), <b>Fedora</b> (clamav, hplip, kernel, kernel-headers, librabbitmq, mingw-expat, mir, perl-Imager, podman-tui, prometheus-podman-exporter, python-rpds-py, rust-ashpd, rust-busd, rust-gtk4-macros, rust-inferno, rust-quick-xml, rust-reqsign-aws-v4, rust-wayland-scanner, and sandogasa), <b>Oracle</b> (container-tools:rhel8, kernel, mariadb:10.11, mariadb:11.8, nginx, perl:5.32, php, php:7.4, rrdtool, ruby:2.5, ruby:3.3, ruby:4.0, and uek-kernel), <b>Red Hat</b> (kernel, opentelemetry-collector, and python-urllib3), <b>Slackware</b> (c-ares and openssh), <b>SUSE</b> (bind, chromedriver, cryptsetup, s390-tools, dnsmasq, jackson-annotations, jackson-core, jackson-databind, lcms2, pacemaker, perl-Cpanel-JSON-XS, perl-Crypt-SaltedHash, postfix, and python-mistune), and <b>Ubuntu</b> (gnutls28, gzip, openssh, php7.0, python-parsl, python3.10, python3.12, python3.14, request-tracker5, socat, sogo, and tar).
 </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1081536/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 06 Jul 2026 16:13:19 +0000</tt></div></td></tr>
@@ -370,22 +404,6 @@ alternative or supplement to a process that replaces the Community
 Initiatives.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1080162/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 02 Jul 2026 14:06:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1080162/" title="https://lwn.net/Articles/1080162/">[$] Two LLM-assisted memory-management patch sets</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel community (like many other free-software projects) has recently
-seen a large influx of patches developed with the assistance of large
-language models (LLMs).  Those patches tend to come from developers who
-were previously unknown to the community.  At the moment, though, the
-memory-management developers are evaluating two large patch sets, developed
-with LLM assistance, that were submitted by established and well-respected
-developers.  The rather different reception accorded to that work may give
-insights into how LLM-generated contributions will be handled going
-forward.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
