@@ -2,23 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Patchy fog before 8am, then a chance of showers and thunderstorms. Partly sunny. High near 86, with temperatures falling to
-         around 83 in the afternoon. North wind around 5 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Today</h3>A chance of showers and thunderstorms after 1pm. Partly sunny. High near 86, with temperatures falling to around 83 in the
+         afternoon. North northwest wind around 5 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms before 9pm. Partly cloudy. Low around 70, with temperatures rising to around 72 overnight.
-         North northeast wind around 2 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 7pm. Partly cloudy. Low around 70, with temperatures rising to around 72 overnight.
+         North wind 0 to 3 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of showers and thunderstorms after 10am. Mostly sunny. High near 88, with temperatures falling to around 85 in the
-         afternoon. Northwest wind around 2 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Wednesday</h3>A chance of showers and thunderstorms after 7am. Mostly sunny. High near 88, with temperatures falling to around 85 in the
+         afternoon. East wind around 2 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 71. South wind 0 to 3 mph. Chance of precipitation
-         is 30%.<br></div>
+         <h3>Wednesday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 71. South wind 0 to 3 mph. Chance
+         of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
