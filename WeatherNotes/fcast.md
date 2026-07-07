@@ -8,12 +8,12 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>Patchy fog before 8am, then a chance of showers and thunderstorms. Partly sunny. High near 86, with temperatures falling to
-         around 84 in the afternoon. North wind 1 to 5 mph. Chance of precipitation is 50%.<br></div>
+         around 83 in the afternoon. North wind 1 to 5 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 9pm. Partly cloudy, with a low around 70. North northeast wind around 2 mph.
-         Chance of precipitation is 40%.<br></div>
+         <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 9pm. Partly cloudy. Low around 70, with temperatures rising to around 72 overnight.
+         North northeast wind around 2 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -32,7 +32,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Mostly clear, with a low around 75. South southwest wind around 7 mph.<br></div>
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 75. South southwest wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
