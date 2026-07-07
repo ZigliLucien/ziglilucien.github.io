@@ -2,23 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Patchy fog after 3am. Mostly cloudy. Low around 70, with temperatures rising to around 72 overnight. North northwest wind
-         around 1 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tuesday</h3>Patchy fog before 8am, then a chance of showers and thunderstorms. Partly sunny. High near 86, with temperatures falling to
+         <h3>Today</h3>Patchy fog before 8am, then a chance of showers and thunderstorms. Partly sunny. High near 86, with temperatures falling to
          around 83 in the afternoon. North wind 1 to 5 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 9pm. Partly cloudy. Low around 70, with temperatures rising to around 72 overnight.
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 9pm. Partly cloudy. Low around 70, with temperatures rising to around 72 overnight.
          North northeast wind around 2 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of showers and thunderstorms after 10am. Mostly sunny, with a high near 88. Northwest wind around 2 mph. Chance of
-         precipitation is 40%.<br></div>
+         <h3>Wednesday</h3>A chance of showers and thunderstorms after 10am. Mostly sunny. High near 88, with temperatures falling to around 85 in the
+         afternoon. Northwest wind around 2 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -32,7 +27,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 75. South southwest wind around 7 mph.<br></div>
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 75. South southwest wind around 7 mph. Chance of precipitation
+         is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -64,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Monday</h3>Sunny, with a high near 90. North northeast wind 1 to 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday Night</h3>Mostly clear, with a low around 71. East northeast wind 0 to 3 mph.<br></div>
    </p>
 </div>
