@@ -1,11 +1,13 @@
 <p>
-   <h2>Flood Watch issued July 8 at 10:34AM CDT until July 12 at 1:00AM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...Flooding caused by excessive rainfall is possible.
+   <h2>Flood Watch issued July 9 at 3:32AM CDT until July 12 at 1:00AM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Flooding caused by excessive rainfall continues to be
+      possible.
       
       * WHERE...All of southeast Missouri, southern Illinois, southwest
       Indiana, and western Kentucky.
       
-      * WHEN...From Thursday afternoon through late Saturday night.
+      * WHEN...From 1 PM CDT  /2 PM EDT/ this afternoon through late
+      Saturday night.
       
       * IMPACTS...Excessive runoff may result in flooding of rivers,
       creeks, streams, and other low-lying and flood-prone locations.
