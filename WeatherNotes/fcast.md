@@ -6,20 +6,18 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of showers and thunderstorms after 3pm. Mostly sunny. High near 92, with temperatures falling to around 90 in the
-         afternoon. South southwest wind 3 to 7 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Thursday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny. High near 92, with temperatures falling to around 90 in the
+         afternoon. South southwest wind 3 to 8 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms before 1am, then showers and thunderstorms likely between 1am and 2am, then a chance
-         of showers and thunderstorms between 2am and 3am, then showers and thunderstorms likely between 3am and 4am, then a chance
-         of showers and thunderstorms between 4am and 5am, then showers and thunderstorms likely. Some of the storms could produce
-         heavy rain. Mostly cloudy, with a low around 75. Southwest wind around 7 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Thursday Night</h3>Showers and thunderstorms likely before 3am, then showers and thunderstorms. Mostly cloudy, with a low around 75. South southwest
+         wind around 7 mph. Chance of precipitation is 80%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Showers and thunderstorms likely. Partly sunny, with a high near 90. Southwest wind around 7 mph. Chance of precipitation
-         is 60%.<br></div>
+         <h3>Friday</h3>Showers and thunderstorms likely before 7am, then a chance of showers and thunderstorms between 7am and 10am, then showers
+         and thunderstorms likely. Partly sunny, with a high near 90. Southwest wind around 7 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
