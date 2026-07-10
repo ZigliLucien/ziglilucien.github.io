@@ -2,18 +2,13 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Showers and thunderstorms likely. Cloudy, with a low around 71. South southwest wind around 5 mph. Chance of precipitation
-         is 70%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Friday</h3>Showers and thunderstorms likely before 9am, then a slight chance of showers and thunderstorms between 9am and 3pm, then a
+         <h3>Today</h3>Showers and thunderstorms likely before 9am, then a slight chance of showers and thunderstorms between 9am and 3pm, then a
          chance of showers and thunderstorms between 3pm and 4pm, then a chance of showers and thunderstorms. Partly sunny, with a
          high near 89. Southwest wind around 6 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Showers and thunderstorms likely before 4am, then showers and thunderstorms likely between 4am and 5am, then a chance of showers
+         <h3>Tonight</h3>Showers and thunderstorms likely before 4am, then showers and thunderstorms likely between 4am and 5am, then a chance of showers
          and thunderstorms. Mostly cloudy, with a low around 72. West southwest wind 0 to 3 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
@@ -34,7 +29,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 68. Northeast wind 1 to 6 mph.<br></div>
+         <h3>Sunday Night</h3>A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 68. Northeast wind 1 to 6 mph. Chance of
+         precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -63,5 +59,10 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>A slight chance of showers and thunderstorms after 1pm. Sunny, with a high near 91. Southwest wind 1 to 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Thursday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 73. South southwest wind around 3
+         mph.<br></div>
    </p>
 </div>
