@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb6ca1200528437f910203c9e3fa094a23fe9bd4.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c01525748ffe36af2a3f273299608759225cff5.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb6ca1200528437f910203c9e3fa094a23fe9bd4.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c01525748ffe36af2a3f273299608759225cff5.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.bb6ca1200528437f910203c9e3fa094a23fe9bd4.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.3c01525748ffe36af2a3f273299608759225cff5.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,16 +203,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb5a11bce09ddbf1cd695ccbe1bb810236e43deb.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.bb5a11bce09ddbf1cd695ccbe1bb810236e43deb.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb6ca1200528437f910203c9e3fa094a23fe9bd4.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.bb6ca1200528437f910203c9e3fa094a23fe9bd4.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-07-10T07:19:00-05:00</sent>
+						<sent type="str">2026-07-11T04:43:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2026-07-11T04:43:00-05:00</sent>
-				<effective type="str">2026-07-11T04:43:00-05:00</effective>
-				<onset type="str">2026-07-11T04:43:00-05:00</onset>
-				<expires type="str">2026-07-11T16:00:00-05:00</expires>
+				<sent type="str">2026-07-11T12:13:00-05:00</sent>
+				<effective type="str">2026-07-11T12:13:00-05:00</effective>
+				<onset type="str">2026-07-11T12:13:00-05:00</onset>
+				<expires type="str">2026-07-12T01:00:00-05:00</expires>
 				<ends type="str">2026-07-12T01:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -223,7 +223,7 @@
 				<event type="str">Flood Watch</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Flood Watch issued July 11 at 4:43AM CDT until July 12 at 1:00AM CDT by NWS Paducah KY</headline>
+				<headline type="str">Flood Watch issued July 11 at 12:13PM CDT until July 12 at 1:00AM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Flooding caused by excessive rainfall continues to be
 possible.
 
@@ -239,12 +239,11 @@ possible. Area creeks and streams are running high and could flood
 with more heavy rain.
 
 * ADDITIONAL DETAILS...
-- Additional rounds of rainfall are expected this afternoon and
+- An additional round of rainfall is expected this afternoon and
 evening across portions of the area. An additional 0.75-2 inches
 of rain is possible. Should storms manage to train over areas
 that are already heavily saturated, flash flooding will be a
-concern.
-- http://www.weather.gov/safety/flood</description>
+concern.</description>
 				<instruction type="str">You should monitor later forecasts and be alert for possible Flood
 Warnings. Those living in areas prone to flooding should be prepared
 to take action should flooding develop.</instruction>
@@ -255,7 +254,7 @@ to take action should flooding develop.</instruction>
 						<item type="str">FFAPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WGUS63 KPAH 110943</item>
+						<item type="str">WGUS63 KPAH 111713</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">FLOOD WATCH REMAINS IN EFFECT THROUGH LATE TONIGHT</item>
@@ -275,7 +274,7 @@ to take action should flooding develop.</instruction>
 						<item type="str">2026-07-12T01:00:00-05:00</item>
 					</eventEndingTime>
 					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ff1c4dfbec46373958f713a5f0a72c927b7d41eb.001.1,2026-07-10T04:00:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fb4a1d573371493443d5d0ec97615de574853fdf.001.1,2026-07-09T10:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b6bc25f94aca05b23bd53441a4a7be1c8c224e3b.001.1,2026-07-09T03:32:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.27863ee3138bd26f7daa8345937012c37948cde6.001.1,2026-07-08T10:34:00-05:00</item>
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bb5a11bce09ddbf1cd695ccbe1bb810236e43deb.001.1,2026-07-10T07:19:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ff1c4dfbec46373958f713a5f0a72c927b7d41eb.001.1,2026-07-10T04:00:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fb4a1d573371493443d5d0ec97615de574853fdf.001.1,2026-07-09T10:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b6bc25f94aca05b23bd53441a4a7be1c8c224e3b.001.1,2026-07-09T03:32:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.27863ee3138bd26f7daa8345937012c37948cde6.001.1,2026-07-08T10:34:00-05:00</item>
 					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
@@ -294,5 +293,5 @@ to take action should flooding develop.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-07-11T16:36:04+00:00</updated>
+	<updated type="str">2026-07-11T17:35:41+00:00</updated>
 </all>

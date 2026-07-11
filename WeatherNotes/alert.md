@@ -1,5 +1,5 @@
 <p>
-   <h2>Flood Watch issued July 11 at 4:43AM CDT until July 12 at 1:00AM CDT by NWS Paducah KY</h2>
+   <h2>Flood Watch issued July 11 at 12:13PM CDT until July 12 at 1:00AM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Flooding caused by excessive rainfall continues to be
       possible.
       
@@ -15,11 +15,10 @@
       with more heavy rain.
       
       * ADDITIONAL DETAILS...
-      - Additional rounds of rainfall are expected this afternoon and
+      - An additional round of rainfall is expected this afternoon and
       evening across portions of the area. An additional 0.75-2 inches
       of rain is possible. Should storms manage to train over areas
       that are already heavily saturated, flash flooding will be a
       concern.
-      - http://www.weather.gov/safety/flood
    </div>
 </p>
