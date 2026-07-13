@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1081546/" title="See Description">[$] Shielding running kernels against exploits with BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1082647/" title="See Description">Final normal Debian bookworm release</a></li>
 <li><a href="#https://lwn.net/Articles/1082642/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1082487/" title="See Description">Kernel prepatch 7.2-rc3</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/1077427/" title="See Description">[$] Progress in modernizing kernel cryptography</a></li>
 <li><a href="#https://lwn.net/Articles/1081798/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1081690/" title="See Description">Woodruff: You shouldn't trust trusted publishing</a></li>
-<li><a href="#https://lwn.net/Articles/1081009/" title="See Description">[$] Faster RCUs and lockless memory allocation</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1081546/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 13 Jul 2026 14:14:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081546/" title="https://lwn.net/Articles/1081546/">[$] Shielding running kernels against exploits with BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Cisco has some unusual challenges when it comes to deploying security patches
+across the company's many devices running custom kernels. John Fastabend spoke
+about his work preventing exploits with BPF at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage,
+Filesystem, Memory-Management, and BPF Summit</a>.
+The technique could substantially reduce the time necessary to respond to kernel
+vulnerabilities, but it will not be fully effective unless more hooks are added
+to the kernel.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1082647/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 13 Jul 2026 13:26:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -264,29 +282,6 @@ was authenticated, which all uploads to PyPI are.</p>
 publishing in June.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1081009/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 07 Jul 2026 13:39:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081009/" title="https://lwn.net/Articles/1081009/">[$] Faster RCUs and lockless memory allocation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Puranjay Mohan shared some of the
-<a href="https://lwn.net/ml/all/20260417231203.785172-1-puranjay@kernel.org/">
-work</a> he's been doing recently on improving the
-performance of read-copy-update (RCU) at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux
-Storage, Filesystem, Memory-Management, and BPF Summit</a>; his talk would have
-been nice context to have earlier in the day when Harry Yoo and Alexei
-Starovoitov led a session about the
-<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=af92793e52c3">
-new <tt>kmalloc_nolock()</tt> function</a> that
-allows for lockless allocation from any kernel context, and which interacts with
-the RCU subsystem to allow that. This article therefore covers the two sessions
-together and in the reverse order, to provide that missing context.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
