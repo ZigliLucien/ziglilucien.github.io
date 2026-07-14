@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1082838/" title="See Description">Call for topics for the 2026 Maintainers Summit</a></li>
+<li><a href="#https://lwn.net/Articles/1081696/" title="See Description">[$] Sending packets directly from BPF</a></li>
+<li><a href="#https://lwn.net/Articles/1082832/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1081546/" title="See Description">[$] Shielding running kernels against exploits with BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1082647/" title="See Description">Final normal Debian bookworm release</a></li>
 <li><a href="#https://lwn.net/Articles/1082642/" title="See Description">Security updates for Monday</a></li>
@@ -50,12 +53,53 @@
 <li><a href="#https://lwn.net/Articles/1082030/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1080835/" title="See Description">[$] LWN.net Weekly Edition for July 9, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1081884/" title="See Description">OpenMandriva: Statement regarding attempted distribution sabotage</a></li>
-<li><a href="#https://lwn.net/Articles/1077427/" title="See Description">[$] Progress in modernizing kernel cryptography</a></li>
-<li><a href="#https://lwn.net/Articles/1081798/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1081690/" title="See Description">Woodruff: You shouldn't trust trusted publishing</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1082838/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 14 Jul 2026 13:41:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082838/" title="https://lwn.net/Articles/1082838/">Call for topics for the 2026 Maintainers Summit</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Maintainers Summit is an annual, invitation-only gathering of kernel
+developers and maintainers to discuss development-process issues; see <a
+href="https://lwn.net/Articles/1049982/">LWN's 2025 Maintainers Summit coverage</a> for an
+example.  The <a href="https://lwn.net/ml/all/alW3eJ9x6iJ8Juhi@mit.edu">call for
+topics</a> for the 2026 gathering (Prague, October&#160;8) has gone out.
+One of the best ways to obtain an invitation to the Summit is with a good
+topic proposal.  For best consideration, topics should be submitted before
+July&#160;24.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1081696/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 14 Jul 2026 13:16:52 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081696/" title="https://lwn.net/Articles/1081696/">[$] Sending packets directly from BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://tetragon.io/">
+Tetragon</a>, the BPF-based security monitoring tool,
+uses BPF to monitor different aspects of a running kernel and
+enforce user-specified policies. It sends its data to a user-space process,
+which forwards the data to a central monitoring service elsewhere in the
+network, however. This
+presents a point of vulnerability: if an attacker can kill Tetragon's user-space
+agent, it won't be able to properly report on the situation. Song Liu, Mahé
+Tardy, and Liam Wiseheart spoke about their work removing the need for the
+user-space agent at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management, and
+BPF Summit</a>.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1082832/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 14 Jul 2026 13:16:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082832/" title="https://lwn.net/Articles/1082832/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, buildah, freeipmi, freerdp, gegl, gimp, golang, kernel, libreoffice, maven:3.9, openexr, perl-DBI, plexus-utils, podman, tomcat, tomcat9, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (imagemagick, p7zip, and redis), <b>Fedora</b> (breezy, calibre, and golang-github-openprinting-ipp-usb), <b>Mageia</b> (ffmpeg, gzip, haproxy, libheif, libtiff, libxml2, packages, perl-List-SomeUtils-XS, and perl-Socket), <b>SUSE</b> (alsa, chromedriver, curl, dhcpcd, docker-compose, glibc, haproxy, ImageMagick, jq, kernel, kubernetes, libpng15, libredwg-devel, libslirp, nghttp2, php8, python-Pillow, python313-Django, python313-weasyprint, qemu, rust-keylime, sccache, and systemd), and <b>Ubuntu</b> (cifs-utils, libexif, libreoffice, libssh2, openssh, and pipewire).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1081546/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 13 Jul 2026 14:14:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -226,62 +270,6 @@ the functionality of the obsolete packages.
 [...] We performed a full system audit and, aside from the removed
 packages, we found no other violations. 
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1077427/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 08 Jul 2026 13:14:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1077427/" title="https://lwn.net/Articles/1077427/">[$] Progress in modernizing kernel cryptography</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>At the 2026 <a href="https://events.linuxfoundation.org/linux-security-summit-north-america/">Linux Security Summit North America</a>, Eric Biggers spoke about
-some of the problems with the kernel's cryptography framework, as well
-as the recent progress in adding library APIs to allow developers to
-use cryptographic functions without using the traditional crypto
-API. He walked through a couple of examples to demonstrate the
-frailty of the original API and showed how the new library API made
-life easier for developers and kernel maintainers.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1081798/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 08 Jul 2026 12:50:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081798/" title="https://lwn.net/Articles/1081798/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, kernel-rt, libreoffice, nodejs:22, nodejs:24, opentelemetry-collector, perl-HTTP-Daemon, and python-markdown), <b>Debian</b> (dpkg, imagemagick, and postfix), <b>Fedora</b> (betterleaks, docker-compose, firefox, helm, perl-Compress-Raw-Bzip2, perl-IO-Compress, perl-JavaScript-Minifier-XS, python-cramjam, python-fastar, python-pillow-jxl-plugin, python-rignore, and tor), <b>Oracle</b> (grafana, grafana-pcp, and ruby:4.0), <b>Slackware</b> (tftp), <b>SUSE</b> (gi-docgen, glibc, helm, helm3, json-c-devel, kubevirt-1.6, librpmbuild10, python313-dulwich, python313-lxml_html_clean, python313-openapi-spec-validator, and sdbootutil), and <b>Ubuntu</b> (ruby-addressable).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1081690/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 07 Jul 2026 14:27:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081690/" title="https://lwn.net/Articles/1081690/">Woodruff: You shouldn't trust trusted publishing</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>William Woodruff, better known online as "yossarian", has <a
-href="https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing">published</a>
-a blog post to make the case that users should not place their trust
-in <a href="https://docs.pypi.org/trusted-publishers/">trusted
-publishing</a>:</p>
-
-<blockquote class="bq">
-<p>Trusted Publishing is a mechanism for establishing trust between an
-external machine identity (like a CI/CD workflow) and one or more
-projects on a package index/registry. The "trust" in "Trusted
-Publishing" refers to that trust relationship, and not to anything
-else.</p>
-
-<p>It is not, and cannot be, a signal for package trust or
-quality. You cannot use it to determine whether a package is safe or
-"good," and PyPI consciously stymies attempts to misuse it for that
-purpose by not rendering it as a "green checkmark" or anything else of
-the sort.</p>
-
-<p>Or as another framing: Trusted Publishing is just a form of
-authentication. It doesn't tell you anything other than that an upload
-was authenticated, which all uploads to PyPI are.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1076205/">covered</a> trusted
-publishing in June.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
