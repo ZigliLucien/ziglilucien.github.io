@@ -2,22 +2,19 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly clear. Low around 71, with temperatures rising to around 73 overnight. Wind around 0 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of showers and thunderstorms after noon. Mostly sunny. High near 88, with temperatures falling to around 86 in the
+         <h3>Today</h3>A chance of showers and thunderstorms after noon. Mostly sunny. High near 88, with temperatures falling to around 86 in the
          afternoon. East wind 0 to 5 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of showers and thunderstorms before 8pm. Partly cloudy. Low around 72, with temperatures rising to around 74 overnight.
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 8pm. Partly cloudy. Low around 72, with temperatures rising to around 74 overnight.
          East southeast wind around 2 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of showers and thunderstorms between noon and 1pm, then a chance of showers and thunderstorms. Partly sunny, with
-         a high near 88. South southwest wind 0 to 3 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Thursday</h3>A chance of showers and thunderstorms between noon and 1pm, then a chance of showers and thunderstorms. Partly sunny. High
+         near 88, with temperatures falling to around 86 in the afternoon. South southwest wind 0 to 3 mph. Chance of precipitation
+         is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -32,7 +29,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday Night</h3>Showers and thunderstorms likely before 7pm, then a slight chance of showers and thunderstorms. Partly cloudy, with a low
-         around 73. West southwest wind around 3 mph.<br></div>
+         around 73. West southwest wind around 3 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +58,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>A slight chance of rain showers before 7am. Mostly sunny, with a high near 91. Northwest wind 5 to 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>Partly cloudy, with a low around 67. North wind 3 to 7 mph.<br></div>
    </p>
 </div>
