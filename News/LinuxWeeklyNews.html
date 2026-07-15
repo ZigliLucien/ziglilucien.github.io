@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1081871/" title="See Description">[$] Lockless MPSC FIFO queues for io_uring</a></li>
+<li><a href="#https://lwn.net/Articles/1083044/" title="See Description">Security updates for Wednesday</a></li>
+<li><a href="#https://lwn.net/Articles/1082940/" title="See Description">Many old shim versions are still accepted by secure boot</a></li>
 <li><a href="#https://lwn.net/Articles/1082901/" title="See Description">The Linux.org story</a></li>
 <li><a href="#https://lwn.net/Articles/1082838/" title="See Description">Call for topics for the 2026 Maintainers Summit</a></li>
 <li><a href="#https://lwn.net/Articles/1081696/" title="See Description">[$] Sending packets directly from BPF</a></li>
@@ -50,12 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1080519/" title="See Description">[$] QBE 1.3: metaprogramming, performance, and cross-platform support</a></li>
 <li><a href="#https://lwn.net/Articles/1082272/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1080821/" title="See Description">[$] Kitty chases the mouse</a></li>
-<li><a href="#https://lwn.net/Articles/1082032/" title="See Description">Rust 1.97.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1082030/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1080835/" title="See Description">[$] LWN.net Weekly Edition for July 9, 2026</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1081871/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 15 Jul 2026 13:35:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081871/" title="https://lwn.net/Articles/1081871/">[$] Lockless MPSC FIFO queues for io_uring</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Processes that use <a
+href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring</a>
+tend to keep a lot of balls in the air; being able to have many operations
+underway at any given time is part of the point of that API in the first
+place.  The io_uring subsystem must, as a result, keep track of a lot of
+tasks that have to be performed at the right time.  In current kernels,
+io_uring uses a standard kernel linked-list primitive to track those work
+items.  As of the 7.2 kernel release, though, io_uring will, instead, use a
+new lockless, multi-producer, single-consumer (MPSC) queue, resulting in
+some notable performance gains.  Lockless algorithms tend to be tricky, but
+the one used here is relatively approachable and shows how these algorithms
+can work.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1083044/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 15 Jul 2026 13:19:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083044/" title="https://lwn.net/Articles/1083044/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cifs-utils, corosync, cups, freerdp, git-lfs, go-fdo-client and go-fdo-server, go-toolset:rhel8, kernel, kernel-rt, libinput, libxml2, nginx:1.24, openssl, pacemaker, perl-DBI:1.641, php8.4, python-pillow, python3, and python3.12), <b>Debian</b> (grub2, libxfont, opam, and wolfssl), <b>Fedora</b> (freerdp, kernel, and prometheus), <b>Mageia</b> (imagemagick), <b>Oracle</b> (buildah, freerdp, gimp, kernel, nginx, openexr, openssl, perl-DBI, podman, vim, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (python3.12), <b>SUSE</b> (afterburn, buildah, busybox, enc, freetype2-devel, go1.25, go1.25-openssl, go1.26-openssl, gosec, grafana, helm, krb5, kubernetes-old, libopenbabel8, libxml2, libxml2-16, nasm, openssl-3, patch, python-Authlib, python-mistune, python-soupsieve, python-sqlparse, python3-dulwich, python313-Pillow, rootlesskit, sbootutil-1, tomcat, and tomcat11), and <b>Ubuntu</b> (alsa-lib, dnsmasq, gnutls28, libheif, linux-aws, linux-fips, linux-lts-xenial, linux-gcp-5.15, linux-intel-iotg-5.15, linux-hwe-6.17, linux-raspi, mariadb, openvpn, python-httplib2, vim, and wget).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1082940/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 15 Jul 2026 12:49:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082940/" title="https://lwn.net/Articles/1082940/">Many old shim versions are still accepted by secure boot</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The CMU CERT Coordination Center has put out <a
+href="https://kb.cert.org/vuls/id/616257">an advisory</a> that many
+exploitable versions of the shim binary, used to boot Linux on systems with
+UEFI secure boot enabled, were never added to the revocation list.
+<p>
+<blockquote class="bq">
+	An attacker with administrative privileges or the ability to modify
+	the boot process could use one of the vulnerable shim bootloaders
+	to bypass Secure Boot protections and execute arbitrary code before
+	the operating system loads. Code executed during this early boot
+	phase may achieve persistent compromise of the platform, including
+	the ability to load unsigned or malicious kernel components that
+	can survive system reboots and, in some cases, operating system
+	reinstallation.
+</blockquote>
+<p>
+The advisory contains a list of vulnerable shims.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1082901/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 14 Jul 2026 16:50:47 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -146,9 +196,17 @@ to the kernel.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote><p>
-Debian has
-<a href="https://lwn.net/Articles/1082645/">announced</a> the final normal update for Debian 12 ("bookworm"). Long-term-support updates will <a href="https://lwn.net/ml/all/a27c47d0f34f36e497d2596a9adfbcb662cd4439.camel%40debian.org/">continue until 2028</a>. As may be expected from a stable version, the update is mostly limited to security fixes. Still, it may be time for Debian users to look into upgrading to a more recent version. Conveniently, Debian 13 ("trixie") also
-<a href="https://lwn.net/Articles/1082646/">received an update</a> this weekend, with many of the same security fixes.
+Debian has <a
+href="https://lwn.net/ml/all/e0718a5433efa5ba4a71fd3b671aab06f1441a07.camel@debian.org">announced</a>
+the final normal update for Debian 12 ("bookworm"). Long-term-support
+updates will <a
+href="https://lwn.net/ml/all/a27c47d0f34f36e497d2596a9adfbcb662cd4439.camel%40debian.org/">continue
+until 2028</a>. As may be expected from a stable version, the update is
+mostly limited to security fixes. Still, it may be time for Debian users to
+look into upgrading to a more recent version. Conveniently, Debian 13
+("trixie") also <a
+href="https://lwn.net/ml/all/baf38e8be7c03f43ace7fb06433aed0aac8196de.camel@debian.org">received
+an update</a> this weekend, with many of the same security fixes.
 </p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1082642/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 13 Jul 2026 12:40:26 +0000</tt></div></td></tr>
@@ -230,40 +288,6 @@ and show how the program can also be used as platform for
 text-based applications. Kitty is free software, released
 under the GPLv3.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082032/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 09 Jul 2026 13:19:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082032/" title="https://lwn.net/Articles/1082032/">Rust 1.97.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/">Version
-1.97.0</a> of the Rust programming language has been released.  Changes
-include using a new symbol-mangling scheme by default, support for denying
-warnings in Cargo, and an end to the practice of hiding the linker's output
-after a successful build.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082030/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 09 Jul 2026 13:00:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082030/" title="https://lwn.net/Articles/1082030/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, aardvark-dns, buildah, compat-openssl10, freeipmi, frr, gnutls, grafana, grafana-pcp, kernel, kernel-rt, libyang, nginx, openexr, pcs, perl-HTTP-Daemon, postgresql:18, python3.14-pip, skopeo, tomcat9, and wireshark), <b>Debian</b> (chromium and pgextwlist), <b>Fedora</b> (openssh, opkssh, perl-CSS-Minifier-XS, python-jiter, python-nh3, python-pendulum, rust-jiter, and upower), <b>Mageia</b> (openvpn and vips), <b>Oracle</b> (389-ds-base, aardvark-dns, compat-openssl10, container-tools:ol8, freeipmi, kernel, libyang, perl-HTTP-Daemon, python3.14-pip, and skopeo), <b>Slackware</b> (libXfont2, proftpd, and xorg-server), <b>SUSE</b> (alloy, apache2, apptainer, assimp, chromium, clamav, docker, docker-compose, dracut, glib-networking, go-sendxmpp, go1.26-openssl, gstreamer-plugins-good, haproxy, hauler, jackson-annotations, jackson-bom, jackson-core, jackson- databind, jackson-dataformats-binary, jackson-modules-base, jackson-parent, kernel, krb5, kubevirt, libslirp, libXfont2, mpv, libkpipewirerecord6, ffmpegthumbs-kf5, netty, netty-tcnative, openqa, os-autoinst, podman, python-maturin, python-msgpack, python313-yt-dlp, radare2, rust-keylime, systemd, systemd, systemd-mini, tomcat11, trivy, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (apache2, clamav, linux-raspi, and mailcap).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1080835/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 09 Jul 2026 01:12:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1080835/" title="https://lwn.net/Articles/1080835/">[$] LWN.net Weekly Edition for July 9, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1080835/">Front</a>: Cryptography API; Iomap explanation; Negative dentries; Faster RCUs and lockless allocation for BPF; LLMs in memory-management code
-            <li> <a href="https://lwn.net/Articles/1080837/">Briefs</a>: Guix vulnerabilities; OpenSSH 10.4; trusted publishing; kernel archive; CalyxOS; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1080838/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>

@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A chance of showers and thunderstorms after noon. Mostly sunny. High near 88, with temperatures falling to around 86 in the
-         afternoon. East wind 0 to 5 mph. Chance of precipitation is 50%.<br></div>
+         afternoon. East northeast wind 1 to 5 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
