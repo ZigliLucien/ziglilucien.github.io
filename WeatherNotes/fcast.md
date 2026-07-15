@@ -44,11 +44,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Sunny, with a high near 92. West wind around 6 mph.<br></div>
+         <h3>Sunday</h3>A slight chance of showers and thunderstorms after 1pm. Sunny, with a high near 92. West wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Mostly clear, with a low around 74. Southwest wind around 3 mph.<br></div>
+         <h3>Sunday Night</h3>A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 74. Southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
