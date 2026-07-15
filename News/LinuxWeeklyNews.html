@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1082342/" title="See Description">[$] Topics in filesystem testing</a></li>
+<li><a href="#https://lwn.net/Articles/1083076/" title="See Description">Local DoS attack vectors in seunshare 3.10 (SUSE Security Team Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1081871/" title="See Description">[$] Lockless MPSC FIFO queues for io_uring</a></li>
 <li><a href="#https://lwn.net/Articles/1083044/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1082940/" title="See Description">Many old shim versions are still accepted by secure boot</a></li>
@@ -51,11 +53,69 @@
 <li><a href="#https://lwn.net/Articles/1082487/" title="See Description">Kernel prepatch 7.2-rc3</a></li>
 <li><a href="#https://lwn.net/Articles/1080822/" title="See Description">[$] An update on the scraper situation</a></li>
 <li><a href="#https://lwn.net/Articles/1080519/" title="See Description">[$] QBE 1.3: metaprogramming, performance, and cross-platform support</a></li>
-<li><a href="#https://lwn.net/Articles/1082272/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1080821/" title="See Description">[$] Kitty chases the mouse</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1082342/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 15 Jul 2026 16:19:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082342/" title="https://lwn.net/Articles/1082342/">[$] Topics in filesystem testing</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>It should come as no surprise that a gathering of filesystem developers
+would discuss filesystem testing; it has been a mainstay of the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> over the years and the
+2026 summit was no exception.  Ted Ts'o led the discussion this time; he
+had a few different topics to raise, including his perception of increasing
+regressions for ext4 in the stable kernels and what can be done to help
+reduce them.  As <a href="https://lwn.net/Articles/789225/">with</a> <a
+href="https://lwn.net/Articles/896523/">other</a> <a href="https://lwn.net/Articles/937830/">similar</a>
+<a href="https://lwn.net/Articles/982099/">sessions</a> at the summit over the years,
+there is a lot of interest in collaborating on test inputs and outputs, but
+finding a way to centralize that information has so far eluded the
+filesystem community.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1083076/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 15 Jul 2026 15:52:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083076/" title="https://lwn.net/Articles/1083076/">Local DoS attack vectors in seunshare 3.10 (SUSE Security Team Blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The SUSE Security Team Blog has a <a
+href="https://security.opensuse.org/2026/07/15/selinux-seunshare.html">post</a>
+with an analysis of <a
+href="https://man7.org/linux/man-pages/man8/seunshare.8.html"><tt>seunshare</tt></a>,
+which is used by SELinux to confine untrusted programs. During a
+review of <a
+href="https://github.com/SELinuxProject/selinux/releases/tag/3.10">version
+3.10</a> of the program, the team identified two local
+Denial-of-Service (DoS) vectors.</p>
+
+<blockquote class="bq">
+<p>Since <tt>seunshare</tt> is supposed to run on SELinux-enabled systems, it
+is important to understand what kind of privilege escalation can be
+achieved when vulnerabilities are exploited in a setuid-root binary
+like this. Many SELinux-enabled systems, such as Fedora and openSUSE,
+ship with the "targeted" SELinux policy by default. This policy is
+focused on confining well-known system services, but assigns an
+unconfined SELinux context to interactive users by default to achieve
+a balance between security and usability.</p>
+
+<p>There is currently no domain transition from the unconfined domain
+to the more restricted <tt>seunshare_t</tt> defined in the SELinux policy for
+<tt>seunshare</tt>. This means the execution of <tt>seunshare</tt> continues in the
+unconfined domain. Thus in the context of attacks carried out by
+interactive users, the impact of the vulnerabilities below will be a
+root-like privilege escalation despite the system running in SELinux
+enforced mode.</p>
+</blockquote>
+
+<p>See the post for the full write-up of the team's discoveries and timeline. The
+vulnerabilities have been fixed in <a
+href="https://github.com/SELinuxProject/selinux/releases/tag/3.11">version&#160;3.11</a>.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1081871/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 15 Jul 2026 13:35:43 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,32 +321,6 @@ emit the textual form of QBE's IR directly; QBE then takes care of register allo
 optimization, and native-code generation, producing assembly for the target
 architecture.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082272/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 10 Jul 2026 13:41:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082272/" title="https://lwn.net/Articles/1082272/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (aardvark-dns, cups, edk2, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, kernel, libsolv, libtasn1, libxml2, nginx:1.24, nginx:1.26, oci-seccomp-bpf-hook, python-urllib3, and tomcat), <b>Debian</b> (rlottie), <b>Fedora</b> (c-ares, k9s, kind, libXfont2, nmap, pam, perl-DBI, php, python-pendulum, tmux, and xorg-x11-server-Xwayland), <b>Mageia</b> (7zip and ack), <b>Slackware</b> (tigervnc), <b>SUSE</b> (alloy, cargo-c, chromium, clamav, cosign, dirmngr, firefox, flannel, fluidsynth, gnutls, go1.25, go1.26, gol, GraphicsMagick, helm, kernel-devel, libaom, libexif, openQA, os-autoinst, python-Django, python-idna, python-sqlparse, rust-keylime, rustup, sccache, SUSE Manager Client Tools, SUSE_Multi-Linux_Manager Client Tools, transmission, and warewulf4), and <b>Ubuntu</b> (curl, expat, golang-go.crypto, libheif, libidn, libraw, libsoup2.4, linux, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp-4.15, linux-gcp-fips, linux-kvm, linux-oracle, linux-aws, linux-aws-fips, linux-azure-fips, linux-fips, linux-raspi, linux-xilinx-zynqmp, and python2.7, python3.5).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1080821/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 09 Jul 2026 14:25:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1080821/" title="https://lwn.net/Articles/1080821/">[$] Kitty chases the mouse</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://sw.kovidgoyal.net/kitty/">Kitty</a> is a terminal
-emulator that
-runs on Linux, macOS, and the BSDs, which is notable for its <a
-href="https://sw.kovidgoyal.net/kitty/performance/">speed</a> and features
-such as image support and advanced font handling. It is under active development; a
-recent major <a
-href="https://sw.kovidgoyal.net/kitty/changelog/#id5">release</a> adds a
-new level of mouse support. Here, we will look at some of those features
-and show how the program can also be used as platform for
-text-based applications. Kitty is free software, released
-under the GPLv3.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
