@@ -2,22 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy. Low around 72, with temperatures rising to around 74 overnight. Wind around 0 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of showers and thunderstorms after 10am. Mostly sunny. High near 88, with temperatures falling to around 85 in the
+         <h3>Today</h3>A chance of showers and thunderstorms after 10am. Mostly sunny. High near 88, with temperatures falling to around 85 in the
          afternoon. South southwest wind 0 to 3 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms before 9pm. Partly cloudy. Low around 73, with temperatures rising to around 75 overnight.
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 9pm. Partly cloudy. Low around 73, with temperatures rising to around 75 overnight.
          West southwest wind around 2 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of showers and thunderstorms after 7am. Mostly sunny, with a high near 90. West wind 1 to 6 mph. Chance of precipitation
-         is 30%.<br></div>
+         <h3>Friday</h3>A chance of showers and thunderstorms after 7am. Mostly sunny. High near 90, with temperatures falling to around 87 in the
+         afternoon. West wind 1 to 6 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -31,7 +27,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 1am. Partly cloudy, with a low around 74. West wind around 5 mph.<br></div>
+         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 1am. Partly cloudy, with a low around 74. West wind around 5 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,5 +57,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>Mostly sunny, with a high near 88. North northeast wind 3 to 8 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>Partly cloudy, with a low around 68. Northeast wind 2 to 8 mph.<br></div>
    </p>
 </div>
