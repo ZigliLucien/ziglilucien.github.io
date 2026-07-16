@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1082717/" title="See Description">[$] Sched-ext: enqueue() for sub-schedulers and proxy-execution support</a></li>
+<li><a href="#https://lwn.net/Articles/1083201/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1081915/" title="See Description">[$] LWN.net Weekly Edition for July 16, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1082342/" title="See Description">[$] Topics in filesystem testing</a></li>
 <li><a href="#https://lwn.net/Articles/1083076/" title="See Description">Local DoS attack vectors in seunshare 3.10 (SUSE Security Team Blog)</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1081546/" title="See Description">[$] Shielding running kernels against exploits with BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1082647/" title="See Description">Final normal Debian bookworm release</a></li>
 <li><a href="#https://lwn.net/Articles/1082642/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1082487/" title="See Description">Kernel prepatch 7.2-rc3</a></li>
-<li><a href="#https://lwn.net/Articles/1080822/" title="See Description">[$] An update on the scraper situation</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1082717/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 16 Jul 2026 14:00:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082717/" title="https://lwn.net/Articles/1082717/">[$] Sched-ext: enqueue() for sub-schedulers and proxy-execution support</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://docs.kernel.org/scheduler/sched-ext.html">extensible
+scheduler class</a> (sched_ext) allows the installation of custom CPU
+schedulers as a set of BPF programs.  While sched_ext, in its current form,
+has already led to a lot of interesting scheduler-development work, the
+subsystem itself is still undergoing rapid evolution.  Among other work,
+the ability to set up a hierarchy of <a
+href="https://lwn.net/Articles/1056014/">sub-schedulers</a> is approaching completion, and
+a longstanding incompatibility with <a href="https://lwn.net/Articles/934114/">proxy
+execution</a> is coming to an end.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1083201/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 16 Jul 2026 13:02:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083201/" title="https://lwn.net/Articles/1083201/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cups, git-lfs, kernel, libsolv, libxml2, python3.12, and python3.9), <b>Debian</b> (chromium, dhcpcd5, and ntfs-3g), <b>Fedora</b> (firefox, perl-Imager, python-bcrypt, python-tiktoken, roundcubemail, and xrdp), <b>Mageia</b> (openssl, poppler, python-mistune, and tmux), <b>Oracle</b> (389-ds-base, cups, git-lfs, glibc, host-metering, kernel, libsolv, libxml2, nginx:1.24, PackageKit, python-pillow, and qemu-kvm), <b>Red Hat</b> (buildah, containernetworking-plugins, and skopeo), <b>SUSE</b> (buildah, cosign, curl, distribution, dnsmasq, glib-networking, glibc, gnutls, gstreamer-plugins-bad, ImageMagick, kernel, podman, python-cryptography, python313-django-debug-toolbar, rekor, sccache, sssd, and yelp), and <b>Ubuntu</b> (dotnet8, dotnet10, libslirp, luajit, python-idna, sympa, and tomcat8).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1081915/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 16 Jul 2026 01:24:55 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,32 +314,6 @@ an update</a> this weekend, with many of the same security fixes.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, libxfont, mesa, opam, and wireless-regdb), <b>Fedora</b> (acl, attr, chromium, cjson, composer, docker-compose, jfrog-cli, librabbitmq, libssh2, libXfont2, log4cxx, OpenImageIO, openssh, p11-kit, perl-Crypt-DSA, perl-HTML-Gumbo, prometheus, python-dulwich, python-idna, python-pillow, python-tornado, sssd, tmux, upower, webkitgtk, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Mageia</b> (libarchive and vim), <b>Oracle</b> (389-ds:1.4, buildah, cups, edk2, freerdp, golang, grafana, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, kernel, libexif, libsolv, libtasn1, libxml2, nginx:1.24, nginx:1.26, nodejs:22, nodejs:24, oci-seccomp-bpf-hook, podman, postgresql:18, python-urllib3, tigervnc, tomcat, unbound, and xorg-x11-server), <b>Slackware</b> (p11-kit), and <b>SUSE</b> (agama, dash, dracut, flannel, go1.26, gsasl, gstreamer-plugins-good, ImageMagick, imagemagick, kernel, krb5, krb5, krb5-mini, libIex-3_4-33, libmbedtls23, libxfont2, nasm, nghttp2, perl-CGI-Session, perl-dbi, perl-List-SomeUtils-XS, python-pillow, python-social-auth-app-django, python-urllib3, python313-Django4, python313-Django6, python313-pytest-html, python313-sqlparse, python313-websockets, rclone, rust-keylime, rustup, sccache, spectre-meltdown-checker, sssd, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, thunderbird, tiff, traefik2, xorg-x11-server, and xwayland).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082487/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 12 Jul 2026 23:29:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082487/" title="https://lwn.net/Articles/1082487/">Kernel prepatch 7.2-rc3</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1082486/">7.2-rc3</a> kernel prepatch is out for
-testing.  Linus said: "<q>Things continue to look normal (the 'new normal'
-with slightly higher rates of commits, although I do get the feeling that
-we're seeing that slightly balanced out by people starting to go on summer
-vacation)</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1080822/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 10 Jul 2026 15:20:51 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1080822/" title="https://lwn.net/Articles/1080822/">[$] An update on the scraper situation</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Our article "<a href="https://lwn.net/Articles/1008897/">Fighting the AI scraper bot
-scourge</a>", published in early 2025, discussed the problem of widespread
-scraping of web sites in search of training data for large language models
-and related projects.  This activity overwhelms sites with traffic.  Over a
-year after that article is published, the problem is still growing.  The
-hammering of sites by shadowy actors has reached new heights, and the open
-web is becoming increasingly difficult to maintain.  Where is this traffic
-coming from, and what can be done about it?
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
