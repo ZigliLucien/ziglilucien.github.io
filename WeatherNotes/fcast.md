@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 10pm. Partly cloudy. Low around 73, with temperatures rising to around 75 overnight.
-         West southwest wind around 2 mph. Chance of precipitation is 40%.<br></div>
+         West northwest wind around 1 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
