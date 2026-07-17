@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1083392/" title="See Description">Building an Arch Linux aarch64 port for Holo Core (Collabora blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1082111/" title="See Description">[$] Securing BPF LSMs against tampering</a></li>
 <li><a href="#https://lwn.net/Articles/1083388/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1082717/" title="See Description">[$] Sched-ext: enqueue() for sub-schedulers and proxy-execution support</a></li>
 <li><a href="#https://lwn.net/Articles/1083201/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,64 @@
 <li><a href="#https://lwn.net/Articles/1082838/" title="See Description">Call for topics for the 2026 Maintainers Summit</a></li>
 <li><a href="#https://lwn.net/Articles/1081696/" title="See Description">[$] Sending packets directly from BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1082832/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1081546/" title="See Description">[$] Shielding running kernels against exploits with BPF</a></li>
-<li><a href="#https://lwn.net/Articles/1082647/" title="See Description">Final normal Debian bookworm release</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1083392/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 Jul 2026 17:03:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083392/" title="https://lwn.net/Articles/1083392/">Building an Arch Linux aarch64 port for Holo Core (Collabora blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Collabora has published a <a
+href="https://www.collabora.com/news-and-blog/news-and-events/building-an-arch-linux-aarch64-port-for-holo-core.html">blog
+post</a> about its work with Valve on Holo Core, which is a port of Arch Linux to
+aarch64 to be used as the the operating system on Valve's
+64-bit Arm Steam Frame gaming system. Collabora has released the
+<a
+href="https://gitlab.steamos.cloud/holo/holo-core-aarch64-preview">sources</a>,
+<a
+href="https://steamdeck-packages.steamos.cloud/holo-core-aarch64-preview/mash-20251118.3/">binary
+packages</a>, and a container image for aarch64 devices. The post
+describes some of the challenges in porting Arch Linux to a new
+architecture, and what remains to be done:</p>
+
+<blockquote class="bq">
+<p>Whilst the infrastructure developed to this point is capable of
+building from first principles up until a point-in-time snapshot, the
+next step is to build this into a system which can track Arch Linux as
+it is developed. This work will serve as the basis of a
+continuously-operating CI system capable of shadowing Arch Linux
+itself. We will work with the upstream Arch Linux project to help Arch
+with their efforts to port the distribution to <tt>aarch64</tt> architecture
+and work towards automated repeatable builds.</p>
+</blockquote>
+
+<p>The post also includes instructions on how to create and test an
+aarch64 build container on an x86_64 host, for users who would like to
+follow along at home but lack a 64-bit Arm device.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1082111/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 17 Jul 2026 15:58:17 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082111/" title="https://lwn.net/Articles/1082111/">[$] Securing BPF LSMs against tampering</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Since 2020, BPF programs have been able to
+<a href="https://docs.kernel.org/bpf/prog_lsm.html">
+act as</a> Linux security modules
+(LSMs). Several projects, including systemd, have been working to use
+that capability to provide more security to users. Christian Brauner
+spoke at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>
+about some of the limitations of using BPF in this way, and the changes he
+would like to see for systemd's use. In particular, he would like a way to make
+sure that BPF programs cannot be removed or have their private data tampered with.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1083388/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 17 Jul 2026 13:06:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -278,43 +333,6 @@ BPF Summit</a>.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, buildah, freeipmi, freerdp, gegl, gimp, golang, kernel, libreoffice, maven:3.9, openexr, perl-DBI, plexus-utils, podman, tomcat, tomcat9, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (imagemagick, p7zip, and redis), <b>Fedora</b> (breezy, calibre, and golang-github-openprinting-ipp-usb), <b>Mageia</b> (ffmpeg, gzip, haproxy, libheif, libtiff, libxml2, packages, perl-List-SomeUtils-XS, and perl-Socket), <b>SUSE</b> (alsa, chromedriver, curl, dhcpcd, docker-compose, glibc, haproxy, ImageMagick, jq, kernel, kubernetes, libpng15, libredwg-devel, libslirp, nghttp2, php8, python-Pillow, python313-Django, python313-weasyprint, qemu, rust-keylime, sccache, and systemd), and <b>Ubuntu</b> (cifs-utils, libexif, libreoffice, libssh2, openssh, and pipewire).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1081546/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 13 Jul 2026 14:14:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081546/" title="https://lwn.net/Articles/1081546/">[$] Shielding running kernels against exploits with BPF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Cisco has some unusual challenges when it comes to deploying security patches
-across the company's many devices running custom kernels. John Fastabend spoke
-about his work preventing exploits with BPF at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage,
-Filesystem, Memory-Management, and BPF Summit</a>.
-The technique could substantially reduce the time necessary to respond to kernel
-vulnerabilities, but it will not be fully effective unless more hooks are added
-to the kernel.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082647/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 13 Jul 2026 13:26:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082647/" title="https://lwn.net/Articles/1082647/">Final normal Debian bookworm release</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Debian has <a
-href="https://lwn.net/ml/all/e0718a5433efa5ba4a71fd3b671aab06f1441a07.camel@debian.org">announced</a>
-the final normal update for Debian 12 ("bookworm"). Long-term-support
-updates will <a
-href="https://lwn.net/ml/all/a27c47d0f34f36e497d2596a9adfbcb662cd4439.camel%40debian.org/">continue
-until 2028</a>. As may be expected from a stable version, the update is
-mostly limited to security fixes. Still, it may be time for Debian users to
-look into upgrading to a more recent version. Conveniently, Debian 13
-("trixie") also <a
-href="https://lwn.net/ml/all/baf38e8be7c03f43ace7fb06433aed0aac8196de.camel@debian.org">received
-an update</a> this weekend, with many of the same security fixes.
-</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
