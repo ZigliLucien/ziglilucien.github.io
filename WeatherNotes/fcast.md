@@ -6,13 +6,13 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A slight chance of showers and thunderstorms between 1pm and 2pm. Mostly sunny. High near 92, with temperatures falling to
-         around 89 in the afternoon. West wind 3 to 7 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Saturday</h3>A slight chance of showers and thunderstorms between 1pm and 2pm. Sunny. High near 92, with temperatures falling to around
+         89 in the afternoon. West wind 3 to 7 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms between midnight and 1am. Partly cloudy, with a low around 75. West wind 1 to
-         5 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms between midnight and 1am. Partly cloudy, with a low around 75. West southwest
+         wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
