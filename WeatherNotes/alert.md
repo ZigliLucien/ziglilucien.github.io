@@ -1,11 +1,11 @@
 <p>
-   <h2>Heat Advisory issued July 17 at 11:01AM CDT until July 21 at 7:00PM CDT by NWS Paducah KY</h2>
+   <h2>Heat Advisory issued July 18 at 12:43AM CDT until July 21 at 7:00PM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Heat index values between 100 to 105 expected.
       
       * WHERE...Portions of southern Illinois, western Kentucky, and
       southeast Missouri.
       
-      * WHEN...From noon Saturday to 7 PM CDT Tuesday.
+      * WHEN...From noon today to 7 PM CDT Tuesday.
       
       * IMPACTS...Hot temperatures and high humidity may cause heat
       illnesses.

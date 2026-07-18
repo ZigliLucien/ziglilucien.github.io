@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e8b2823acf34d7ca6e0400033d1cd2d0f8860a9.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19c7429850159c87eda1ffcc5cc129ed1b06f84c.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e8b2823acf34d7ca6e0400033d1cd2d0f8860a9.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19c7429850159c87eda1ffcc5cc129ed1b06f84c.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.6e8b2823acf34d7ca6e0400033d1cd2d0f8860a9.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.19c7429850159c87eda1ffcc5cc129ed1b06f84c.001.1</id>
 				<areaDesc type="str">Perry; Franklin; Jackson; Williamson; Saline; Union; Johnson; Pope; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -120,14 +120,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2026-07-17T11:01:00-05:00</sent>
-				<effective type="str">2026-07-17T11:01:00-05:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e8b2823acf34d7ca6e0400033d1cd2d0f8860a9.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.6e8b2823acf34d7ca6e0400033d1cd2d0f8860a9.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2026-07-17T11:01:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2026-07-18T00:43:00-05:00</sent>
+				<effective type="str">2026-07-18T00:43:00-05:00</effective>
 				<onset type="str">2026-07-18T12:00:00-05:00</onset>
-				<expires type="str">2026-07-18T04:15:00-05:00</expires>
+				<expires type="str">2026-07-18T17:00:00-05:00</expires>
 				<ends type="str">2026-07-21T19:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -135,13 +142,13 @@
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued July 17 at 11:01AM CDT until July 21 at 7:00PM CDT by NWS Paducah KY</headline>
+				<headline type="str">Heat Advisory issued July 18 at 12:43AM CDT until July 21 at 7:00PM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Heat index values between 100 to 105 expected.
 
 * WHERE...Portions of southern Illinois, western Kentucky, and
 southeast Missouri.
 
-* WHEN...From noon Saturday to 7 PM CDT Tuesday.
+* WHEN...From noon today to 7 PM CDT Tuesday.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
 illnesses.
@@ -158,10 +165,10 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 171601</item>
+						<item type="str">WWUS73 KPAH 180543</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HEAT ADVISORY IN EFFECT FROM NOON SATURDAY TO 7 PM CDT TUESDAY</item>
+						<item type="str">HEAT ADVISORY REMAINS IN EFFECT FROM NOON TODAY TO 7 PM CDT TUESDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -169,7 +176,7 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.HT.Y.0004.260718T1700Z-260722T0000Z/</item>
+						<item type="str">/O.CON.KPAH.HT.Y.0004.260718T1700Z-260722T0000Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2026-07-21T19:00:00-05:00</item>
@@ -191,5 +198,5 @@ the sun, and check up on relatives and neighbors.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-07-18T05:35:41+00:00</updated>
+	<updated type="str">2026-07-18T06:35:48+00:00</updated>
 </all>
