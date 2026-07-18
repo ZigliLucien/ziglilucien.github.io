@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1083466/" title="See Description">"Half a Second" — a book on the XZ backdoor</a></li>
+<li><a href="#https://lwn.net/Articles/1083462/" title="See Description">Three stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1083392/" title="See Description">Building an Arch Linux aarch64 port for Holo Core (Collabora blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1082111/" title="See Description">[$] Securing BPF LSMs against tampering</a></li>
 <li><a href="#https://lwn.net/Articles/1083388/" title="See Description">Security updates for Friday</a></li>
@@ -51,11 +53,40 @@
 <li><a href="#https://lwn.net/Articles/1082940/" title="See Description">Many old shim versions are still accepted by secure boot</a></li>
 <li><a href="#https://lwn.net/Articles/1082901/" title="See Description">The Linux.org story</a></li>
 <li><a href="#https://lwn.net/Articles/1082838/" title="See Description">Call for topics for the 2026 Maintainers Summit</a></li>
-<li><a href="#https://lwn.net/Articles/1081696/" title="See Description">[$] Sending packets directly from BPF</a></li>
-<li><a href="#https://lwn.net/Articles/1082832/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1083466/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 18 Jul 2026 16:52:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083466/" title="https://lwn.net/Articles/1083466/">"Half a Second" — a book on the XZ backdoor</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Adrian Mastronardi has released a book called <a
+href="https://www.half-second.com/"><i>Half a Second</i></a>; it is a
+detailed look into the <a href="https://lwn.net/Articles/967866/">XZ backdoor attempt</a>
+of 2024.  The book is freely available under a (non-free) noncommercial,
+no-derivatives CC license.
+<p>
+<blockquote class="bq">
+	<i>Half a Second</i> tells that story as one continuous narrative:
+	the burned-out volunteer who maintained the code alone and was
+	patiently, expertly manipulated into giving it up; the engineer
+	whose half-second of curiosity caught the attack through a chain of
+	luck and hard-won instinct; and the operator who built it, who has
+	never been identified and, this book argues, may never be.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1083462/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 18 Jul 2026 16:41:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083462/" title="https://lwn.net/Articles/1083462/">Three stable kernel updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The
+<a href="https://lwn.net/Articles/1083463/">7.1.4</a>,
+<a href="https://lwn.net/Articles/1083464/">6.18.39</a>, and
+<a href="https://lwn.net/Articles/1083465/">6.12.96</a> stable kernel updates have been
+released; each contains a fairly large set of important fixes.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1083392/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 17 Jul 2026 17:03:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -303,36 +334,6 @@ topics</a> for the 2026 gathering (Prague, October&#160;8) has gone out.
 One of the best ways to obtain an invitation to the Summit is with a good
 topic proposal.  For best consideration, topics should be submitted before
 July&#160;24.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1081696/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 Jul 2026 13:16:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081696/" title="https://lwn.net/Articles/1081696/">[$] Sending packets directly from BPF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-<a href="https://tetragon.io/">
-Tetragon</a>, the BPF-based security monitoring tool,
-uses BPF to monitor different aspects of a running kernel and
-enforce user-specified policies. It sends its data to a user-space process,
-which forwards the data to a central monitoring service elsewhere in the
-network, however. This
-presents a point of vulnerability: if an attacker can kill Tetragon's user-space
-agent, it won't be able to properly report on the situation. Song Liu, Mahé
-Tardy, and Liam Wiseheart spoke about their work removing the need for the
-user-space agent at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management, and
-BPF Summit</a>.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082832/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 Jul 2026 13:16:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082832/" title="https://lwn.net/Articles/1082832/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, buildah, freeipmi, freerdp, gegl, gimp, golang, kernel, libreoffice, maven:3.9, openexr, perl-DBI, plexus-utils, podman, tomcat, tomcat9, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (imagemagick, p7zip, and redis), <b>Fedora</b> (breezy, calibre, and golang-github-openprinting-ipp-usb), <b>Mageia</b> (ffmpeg, gzip, haproxy, libheif, libtiff, libxml2, packages, perl-List-SomeUtils-XS, and perl-Socket), <b>SUSE</b> (alsa, chromedriver, curl, dhcpcd, docker-compose, glibc, haproxy, ImageMagick, jq, kernel, kubernetes, libpng15, libredwg-devel, libslirp, nghttp2, php8, python-Pillow, python313-Django, python313-weasyprint, qemu, rust-keylime, sccache, and systemd), and <b>Ubuntu</b> (cifs-utils, libexif, libreoffice, libssh2, openssh, and pipewire).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
