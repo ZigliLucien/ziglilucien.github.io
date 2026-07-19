@@ -55,7 +55,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A slight chance of rain showers between 7am and 1pm. Mostly sunny, with a high near 84. East southeast wind around 5 mph.<br></div>
+         <h3>Friday</h3>A slight chance of rain showers between 7am and 1pm. Mostly sunny, with a high near 83. East southeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

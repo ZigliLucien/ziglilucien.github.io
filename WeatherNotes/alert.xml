@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a55e287d0e6c05492d8d676ad5a0ed103c6cc80e.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1512aa0b8d52acc77a944068db2c036447d51b28.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a55e287d0e6c05492d8d676ad5a0ed103c6cc80e.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1512aa0b8d52acc77a944068db2c036447d51b28.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.a55e287d0e6c05492d8d676ad5a0ed103c6cc80e.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.1512aa0b8d52acc77a944068db2c036447d51b28.001.1</id>
 				<areaDesc type="str">Jefferson; Perry; Franklin; Hamilton; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -162,14 +162,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2026-07-18T20:17:00-05:00</sent>
-				<effective type="str">2026-07-18T20:17:00-05:00</effective>
-				<onset type="str">2026-07-18T20:17:00-05:00</onset>
-				<expires type="str">2026-07-19T07:00:00-05:00</expires>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a55e287d0e6c05492d8d676ad5a0ed103c6cc80e.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.a55e287d0e6c05492d8d676ad5a0ed103c6cc80e.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2026-07-18T20:17:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2026-07-19T01:26:00-05:00</sent>
+				<effective type="str">2026-07-19T01:26:00-05:00</effective>
+				<onset type="str">2026-07-19T01:26:00-05:00</onset>
+				<expires type="str">2026-07-19T17:00:00-05:00</expires>
 				<ends type="str">2026-07-21T19:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -177,7 +184,7 @@
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued July 18 at 8:17PM CDT until July 21 at 7:00PM CDT by NWS Paducah KY</headline>
+				<headline type="str">Heat Advisory issued July 19 at 1:26AM CDT until July 21 at 7:00PM CDT by NWS Paducah KY</headline>
 				<description type="str">* WHAT...Heat index values between 100 to 105 expected.
 
 * WHERE...Portions of southern Illinois, western Kentucky, and
@@ -200,7 +207,7 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 190117</item>
+						<item type="str">WWUS73 KPAH 190626</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">HEAT ADVISORY REMAINS IN EFFECT UNTIL 7 PM CDT TUESDAY</item>
@@ -236,5 +243,5 @@ the sun, and check up on relatives and neighbors.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-07-19T05:35:41+00:00</updated>
+	<updated type="str">2026-07-19T06:35:38+00:00</updated>
 </all>
