@@ -2,18 +2,14 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Partly cloudy. Low around 75, with temperatures rising to around 77 overnight. Wind around 0 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday</h3>A slight chance of rain showers between 7am and 8am, then a chance of showers and thunderstorms between 1pm and 2pm, then
+         <h3>Today</h3>A slight chance of rain showers between 7am and 8am, then a chance of showers and thunderstorms between 1pm and 2pm, then
          showers and thunderstorms likely between 2pm and 4pm, then a chance of showers and thunderstorms between 4pm and 5pm, then
          showers and thunderstorms likely. Mostly sunny. High near 90, with temperatures falling to around 86 in the afternoon. North
          wind around 3 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Showers and thunderstorms likely before 7pm, then a slight chance of showers and thunderstorms between 7pm and 8pm. Partly
+         <h3>Tonight</h3>Showers and thunderstorms likely before 7pm, then a slight chance of showers and thunderstorms between 7pm and 8pm. Partly
          cloudy. Low around 72, with temperatures rising to around 74 overnight. Northeast wind 0 to 3 mph. Chance of precipitation
          is 60%.<br></div>
    </p>
@@ -34,7 +30,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday Night</h3>A slight chance of showers and thunderstorms before 1am. Mostly clear, with a low around 73. North northwest wind around 6
-         mph.<br></div>
+         mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -64,5 +60,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A slight chance of showers and thunderstorms. Mostly sunny, with a high near 89. South southeast wind 3 to 7 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 70. Southeast wind 2 to 7 mph.<br></div>
    </p>
 </div>
