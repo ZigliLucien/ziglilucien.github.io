@@ -2,14 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Showers and thunderstorms likely before 4pm, then showers and thunderstorms likely. Partly sunny. High near 92, with temperatures
-         falling to around 87 in the afternoon. Heat index values as high as 105. North northwest wind around 3 mph. Chance of precipitation
-         is 60%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms before 10pm. Partly cloudy. Low around 72, with temperatures rising to around 74 overnight.
-         Northeast wind 0 to 3 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 9pm. Partly cloudy. Low around 72, with temperatures rising to around 74 overnight.
+         Northeast wind around 2 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -17,12 +11,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Mostly clear, with a low around 76. South southwest wind 0 to 5 mph.<br></div>
+         <h3>Monday Night</h3>Mostly clear. Low around 76, with temperatures rising to around 78 overnight. South southwest wind 0 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>A chance of showers and thunderstorms between 1pm and 4pm, then a chance of showers and thunderstorms. Sunny, with a high
-         near 97. West southwest wind around 6 mph. Chance of precipitation is 30%.<br></div>
+         near 97. Heat index values as high as 110. West southwest wind around 6 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday Night</h3>Partly cloudy, with a low around 69. East southeast wind 1 to 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Sunday</h3>Mostly sunny, with a high near 91. Southeast wind 2 to 6 mph.<br></div>
    </p>
 </div>
