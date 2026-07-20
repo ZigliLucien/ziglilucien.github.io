@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1083754/" title="See Description">Catanzaro: Some changes to GNOME security tracking</a></li>
 <li><a href="#https://lwn.net/Articles/1082687/" title="See Description">[$] Merging famfs?</a></li>
 <li><a href="#https://lwn.net/Articles/1083708/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1083543/" title="See Description">Kernel prepatch 7.2-rc4</a></li>
@@ -52,10 +53,40 @@
 <li><a href="#https://lwn.net/Articles/1082342/" title="See Description">[$] Topics in filesystem testing</a></li>
 <li><a href="#https://lwn.net/Articles/1083076/" title="See Description">Local DoS attack vectors in seunshare 3.10 (SUSE Security Team Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1081871/" title="See Description">[$] Lockless MPSC FIFO queues for io_uring</a></li>
-<li><a href="#https://lwn.net/Articles/1083044/" title="See Description">Security updates for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1083754/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Jul 2026 15:52:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083754/" title="https://lwn.net/Articles/1083754/">Catanzaro: Some changes to GNOME security tracking</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Michael Catanzaro, who has been managing GNOME security issue tracking since
+November 2020, has written a <a href="https://blogs.gnome.org/mcatanzaro/2026/07/20/some-changes-to-gnome-security-tracking/">blog post</a> that details some changes in how he will
+be managing GNOME vulnerability reports from now on due to an increase in
+AI-generated security reports. He will be switching from a 90-day deadline for
+disclosures to 30 days for issues reported on August&#160;1, or later. "<q>The
+shorter deadline would probably work better for GNOME even if not for the
+increase in AI-generated issue reports.</q>"</p>
+
+<p>He also has indicated that he will be stepping away from the task of managing
+security issue tracking entirely by December 1, 2026, which means that there
+will be a gap to fill:</p>
+
+<blockquote class="bq">
+<p>Currently nobody else is tracking GNOME security issues. If you are an
+experienced GNOME community member and you are interested in taking over this
+work, let me know and I will help you get started. (Security tracking is not a
+good task for newcomers.)</p>
+
+<p>This may also be an opportunity to improve our tracking infrastructure. I use
+a <a href="https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home">wiki
+page</a>, but this is fairly primitive and requires considerable manual
+upkeep. It's easy to forget to update the page when an issue report is closed,
+for example. Ideally, we would replace the wiki with a proper web app that
+dynamically updates based on the actual state of the issue.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1082687/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 20 Jul 2026 13:15:47 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -304,14 +335,6 @@ new lockless, multi-producer, single-consumer (MPSC) queue, resulting in
 some notable performance gains.  Lockless algorithms tend to be tricky, but
 the one used here is relatively approachable and shows how these algorithms
 can work.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1083044/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 15 Jul 2026 13:19:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083044/" title="https://lwn.net/Articles/1083044/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cifs-utils, corosync, cups, freerdp, git-lfs, go-fdo-client and go-fdo-server, go-toolset:rhel8, kernel, kernel-rt, libinput, libxml2, nginx:1.24, openssl, pacemaker, perl-DBI:1.641, php8.4, python-pillow, python3, and python3.12), <b>Debian</b> (grub2, libxfont, opam, and wolfssl), <b>Fedora</b> (freerdp, kernel, and prometheus), <b>Mageia</b> (imagemagick), <b>Oracle</b> (buildah, freerdp, gimp, kernel, nginx, openexr, openssl, perl-DBI, podman, vim, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (python3.12), <b>SUSE</b> (afterburn, buildah, busybox, enc, freetype2-devel, go1.25, go1.25-openssl, go1.26-openssl, gosec, grafana, helm, krb5, kubernetes-old, libopenbabel8, libxml2, libxml2-16, nasm, openssl-3, patch, python-Authlib, python-mistune, python-soupsieve, python-sqlparse, python3-dulwich, python313-Pillow, rootlesskit, sbootutil-1, tomcat, and tomcat11), and <b>Ubuntu</b> (alsa-lib, dnsmasq, gnutls28, libheif, linux-aws, linux-fips, linux-lts-xenial, linux-gcp-5.15, linux-intel-iotg-5.15, linux-hwe-6.17, linux-raspi, mariadb, openvpn, python-httplib2, vim, and wget).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
