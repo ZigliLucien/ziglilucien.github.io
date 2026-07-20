@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1082687/" title="See Description">[$] Merging famfs?</a></li>
+<li><a href="#https://lwn.net/Articles/1083708/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1083543/" title="See Description">Kernel prepatch 7.2-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1083466/" title="See Description">"Half a Second" — a book on the XZ backdoor</a></li>
 <li><a href="#https://lwn.net/Articles/1083462/" title="See Description">Three stable kernel updates</a></li>
@@ -51,11 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1083076/" title="See Description">Local DoS attack vectors in seunshare 3.10 (SUSE Security Team Blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1081871/" title="See Description">[$] Lockless MPSC FIFO queues for io_uring</a></li>
 <li><a href="#https://lwn.net/Articles/1083044/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1082940/" title="See Description">Many old shim versions are still accepted by secure boot</a></li>
-<li><a href="#https://lwn.net/Articles/1082901/" title="See Description">The Linux.org story</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1082687/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Jul 2026 13:15:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082687/" title="https://lwn.net/Articles/1082687/">[$] Merging famfs?</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://github.com/cxl-micron-reskit/famfs#famfs-shared-memory-filesystem-framework---user-space-repo">famfs filesystem</a>, which is meant to provide shared access to huge
+memory-resident files on  <a
+href="https://en.wikipedia.org/wiki/Compute_Express_Link">CXL</a> and other
+devices, returned to
+the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> (LSFMM+BPF) in 2026.
+It was <a
+href="https://lwn.net/Articles/983105/">first discussed at LSFMM+BPF 2024</a> and a <a
+href="https://lwn.net/Articles/1020170/">new implementation was described at the 2025
+gathering</a>, but it still has not made its way into the kernel;  LWN <a href="https://lwn.net/Articles/1068686/">looked
+at a discussion about merging famfs</a> back in April 2026.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1083708/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Jul 2026 13:10:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083708/" title="https://lwn.net/Articles/1083708/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (kernel, libnfs, roundcube, and tiff), <b>Fedora</b> (antlr4-project, chromium, erlang, libseccomp, libtiff, log4cxx, mbedtls, node-exporter, opam, openssh, proftpd, python-asyncssh, python-django5, python-libcst, python-orjson, python-uv-build, ruby, rust-astral_async_zip, spoofdpi, uv, and yq), <b>Mageia</b> (bind, clamav, erlang, libidn, libreoffice, nmap, nodejs, perl-Bytes-Random-Secure, perl-Config-IniFiles, perl-CSS-Minifier-XS, perl-HTML-Parser, perl-Mojolicious, perl-String-Util, python-pydantic-settings, rsync, and upower), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, cockpit, cockpit-image-builder, coreutils, delve, dnsmasq, dovecot, expat, fence-agents, flatpak, frr, gdk-pixbuf2, giflib, glib2, go-fdo-client and go-fdo-server, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, httpd, jq, kernel, keylime, krb5, libcap, libexif, libpng, libsndfile, libsolv, libsoup3, libtasn1, libtiff, libxslt, libyang, mariadb10.11, mod_http2, mod_md, opencryptoki, PackageKit, perl-Archive-Tar, perl-IO-Compress, poppler, postfix, postgresql-jdbc, python-urllib3, python3.14, python3.14-pip, python3.14-urllib3, qt6-qtdeclarative, rrdtool, rsync, ruby, ruby4.0, samba, skopeo, thunderbird, valkey, wireshark, xorg-x11-server-Xwayland, and yggdrasil-worker-package-manager), and <b>SUSE</b> (blender, chromium, containerized-data-importer1, cyrus-imapd, go1.26-openssl, gomuks, grafana, gstreamer-plugins-bad, kbfs, kubevirt1.8-container-disk, libxml2, lux, mariadb-connector-c, nginx, opam, openssl-3, oras, perl-DBI, php-composer2, python-django-haystack, python-paramiko, python-weasyprint, python311, python313-Pillow, python315, shibboleth-sp, system-user-zabbix, and wget).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1083543/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 19 Jul 2026 22:11:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -286,50 +313,6 @@ can work.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cifs-utils, corosync, cups, freerdp, git-lfs, go-fdo-client and go-fdo-server, go-toolset:rhel8, kernel, kernel-rt, libinput, libxml2, nginx:1.24, openssl, pacemaker, perl-DBI:1.641, php8.4, python-pillow, python3, and python3.12), <b>Debian</b> (grub2, libxfont, opam, and wolfssl), <b>Fedora</b> (freerdp, kernel, and prometheus), <b>Mageia</b> (imagemagick), <b>Oracle</b> (buildah, freerdp, gimp, kernel, nginx, openexr, openssl, perl-DBI, podman, vim, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (python3.12), <b>SUSE</b> (afterburn, buildah, busybox, enc, freetype2-devel, go1.25, go1.25-openssl, go1.26-openssl, gosec, grafana, helm, krb5, kubernetes-old, libopenbabel8, libxml2, libxml2-16, nasm, openssl-3, patch, python-Authlib, python-mistune, python-soupsieve, python-sqlparse, python3-dulwich, python313-Pillow, rootlesskit, sbootutil-1, tomcat, and tomcat11), and <b>Ubuntu</b> (alsa-lib, dnsmasq, gnutls28, libheif, linux-aws, linux-fips, linux-lts-xenial, linux-gcp-5.15, linux-intel-iotg-5.15, linux-hwe-6.17, linux-raspi, mariadb, openvpn, python-httplib2, vim, and wget).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082940/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 15 Jul 2026 12:49:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082940/" title="https://lwn.net/Articles/1082940/">Many old shim versions are still accepted by secure boot</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The CMU CERT Coordination Center has put out <a
-href="https://kb.cert.org/vuls/id/616257">an advisory</a> that many
-exploitable versions of the shim binary, used to boot Linux on systems with
-UEFI secure boot enabled, were never added to the revocation list.
-<p>
-<blockquote class="bq">
-	An attacker with administrative privileges or the ability to modify
-	the boot process could use one of the vulnerable shim bootloaders
-	to bypass Secure Boot protections and execute arbitrary code before
-	the operating system loads. Code executed during this early boot
-	phase may achieve persistent compromise of the platform, including
-	the ability to load unsigned or malicious kernel components that
-	can survive system reboots and, in some cases, operating system
-	reinstallation.
-</blockquote>
-<p>
-The advisory contains a list of vulnerable shims.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082901/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 14 Jul 2026 16:50:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082901/" title="https://lwn.net/Articles/1082901/">The Linux.org story</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Rob Kennedy has <a
-href="https://www.linux.org/threads/the-linux-org-story.68810/">posted the
-story</a> of the birth of <a href="https://linux.org/">Linux.org</a> — one
-of the earliest Linux-related web sites — and its more recent rebirth.
-<p>
-<blockquote class="bq">
-	The site was founded in May 1994 by Michael McLagan, at a time when
-	Linux itself was barely three years old. Linus Torvalds had only
-	just released it to the world, there was no real way for a newcomer
-	to find their footing, no search engines, no Wikipedia, none of the
-	infrastructure people take for granted now for figuring out a new
-	piece of technology. Michael built linux.org to fill that gap, a
-	place for people to learn about Linux and follow the movement as it
-	grew.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
