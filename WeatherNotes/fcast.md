@@ -45,7 +45,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A slight chance of showers and thunderstorms. Partly cloudy, with a low around 66. East northeast wind 1 to 5 mph.<br></div>
+         <h3>Friday Night</h3>A slight chance of showers and thunderstorms. Mostly cloudy, with a low around 67. East northeast wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -53,7 +53,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Mostly clear, with a low around 69. Southeast wind around 3 mph.<br></div>
+         <h3>Saturday Night</h3>Partly cloudy, with a low around 69. Southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
