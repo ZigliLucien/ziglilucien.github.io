@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1081557/" title="See Description">[$] Fedora grapples with change</a></li>
 <li><a href="#https://lwn.net/Articles/1083754/" title="See Description">Catanzaro: Some changes to GNOME security tracking</a></li>
 <li><a href="#https://lwn.net/Articles/1082687/" title="See Description">[$] Merging famfs?</a></li>
 <li><a href="#https://lwn.net/Articles/1083708/" title="See Description">Security updates for Monday</a></li>
@@ -52,10 +53,32 @@
 <li><a href="#https://lwn.net/Articles/1081915/" title="See Description">[$] LWN.net Weekly Edition for July 16, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1082342/" title="See Description">[$] Topics in filesystem testing</a></li>
 <li><a href="#https://lwn.net/Articles/1083076/" title="See Description">Local DoS attack vectors in seunshare 3.10 (SUSE Security Team Blog)</a></li>
-<li><a href="#https://lwn.net/Articles/1081871/" title="See Description">[$] Lockless MPSC FIFO queues for io_uring</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1081557/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 20 Jul 2026 18:26:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081557/" title="https://lwn.net/Articles/1081557/">[$] Fedora grapples with change</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://fedoraproject.org/">Fedora Project</a> is known for,
+among other things, having a well-defined set of processes for just about
+everything. It has extensive <a
+href="https://docs.fedoraproject.org/en-US/packaging-guidelines/">packaging
+guidelines</a> that deal with the complexities of creating RPMs to install
+software, as well as processes for managing the <a
+href="https://docs.fedoraproject.org/en-US/legal/">legal questions</a> that
+arise around shipping software. Fedora also has a well-defined <a
+href="https://docs.fedoraproject.org/en-US/operations/changes_guide/">change
+process</a> for dealing with <a
+href="https://docs.fedoraproject.org/en-US/operations/changes_policy/#_self_contained_changes">self-contained technical changes</a> as well as <a
+href="https://docs.fedoraproject.org/en-US/operations/changes_policy/#_system_wide_changes">major
+changes to the distribution</a>, and other issues as they arise. At the moment,
+though, the project seems to be experiencing a sort of midlife crisis as it
+re-examines several of its change processes at once to determine if they are
+still effective.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1083754/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 20 Jul 2026 15:52:44 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -317,25 +340,6 @@ vulnerabilities have been fixed in <a
 href="https://github.com/SELinuxProject/selinux/releases/tag/3.11">version&#160;3.11</a>.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1081871/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 15 Jul 2026 13:35:43 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081871/" title="https://lwn.net/Articles/1081871/">[$] Lockless MPSC FIFO queues for io_uring</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Processes that use <a
-href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring</a>
-tend to keep a lot of balls in the air; being able to have many operations
-underway at any given time is part of the point of that API in the first
-place.  The io_uring subsystem must, as a result, keep track of a lot of
-tasks that have to be performed at the right time.  In current kernels,
-io_uring uses a standard kernel linked-list primitive to track those work
-items.  As of the 7.2 kernel release, though, io_uring will, instead, use a
-new lockless, multi-producer, single-consumer (MPSC) queue, resulting in
-some notable performance gains.  Lockless algorithms tend to be tricky, but
-the one used here is relatively approachable and shows how these algorithms
-can work.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
