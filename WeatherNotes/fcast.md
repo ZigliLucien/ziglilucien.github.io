@@ -2,11 +2,11 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Partly cloudy. Low around 72, with temperatures rising to around 74 overnight. Northeast wind around 1 mph.<br></div>
+         <h3>Overnight</h3>Patchy fog after 3am. Partly cloudy. Low around 72, with temperatures rising to around 74 overnight. East wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Mostly sunny, with a high near 92. South southwest wind around 2 mph.<br></div>
+         <h3>Monday</h3>Areas of fog before 9am. Mostly sunny, with a high near 92. Northwest wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -14,12 +14,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of showers and thunderstorms between 1pm and 4pm, then a chance of showers and thunderstorms. Sunny, with a high
-         near 97. Heat index values as high as 110. West southwest wind around 6 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tuesday</h3>A chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 97. Heat index values as high as 110. West
+         southwest wind around 7 mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 1am. Mostly clear, with a low around 72. North northwest wind around 6 mph. Chance
+         <h3>Tuesday Night</h3>A chance of showers and thunderstorms before 1am. Partly cloudy, with a low around 71. North northwest wind 3 to 7 mph. Chance
          of precipitation is 30%.<br></div>
    </p>
    <p>
@@ -28,7 +28,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Partly cloudy, with a low around 64. Northeast wind 3 to 9 mph.<br></div>
+         <h3>Wednesday Night</h3>Partly cloudy, with a low around 64. North northeast wind 3 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -36,27 +36,27 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Partly cloudy, with a low around 64. East northeast wind 1 to 5 mph.<br></div>
+         <h3>Thursday Night</h3>Partly cloudy, with a low around 64. Northeast wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of rain showers between 7am and 1pm, then a slight chance of showers and thunderstorms. Partly sunny, with a high
-         near 83. East wind around 5 mph.<br></div>
+         <h3>Friday</h3>A slight chance of rain showers between 7am and 1pm, then a slight chance of showers and thunderstorms. Partly sunny, with
+         a high near 82. East northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 66. East northeast wind 1 to 5 mph.<br></div>
+         <h3>Friday Night</h3>A slight chance of showers and thunderstorms. Partly cloudy, with a low around 66. East northeast wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of showers and thunderstorms before 1pm. Partly sunny, with a high near 87. East northeast wind 2 to 6 mph.<br></div>
+         <h3>Saturday</h3>A slight chance of rain showers before 1pm. Mostly sunny, with a high near 87. East wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Partly cloudy, with a low around 69. East southeast wind 1 to 5 mph.<br></div>
+         <h3>Saturday Night</h3>Mostly clear, with a low around 69. Southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Mostly sunny, with a high near 91. Southeast wind 2 to 6 mph.<br></div>
+         <h3>Sunday</h3>Sunny, with a high near 91. South wind around 5 mph.<br></div>
    </p>
 </div>
