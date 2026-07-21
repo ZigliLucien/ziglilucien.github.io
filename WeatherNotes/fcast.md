@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A slight chance of showers and thunderstorms before 4pm. Mostly sunny. High near 97, with temperatures falling to around 93
-         in the afternoon. Heat index values as high as 112. Northwest wind 5 to 9 mph. Chance of precipitation is 20%.<br></div>
+         in the afternoon. Heat index values as high as 108. Northwest wind around 9 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
