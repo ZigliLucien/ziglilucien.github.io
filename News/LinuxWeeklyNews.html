@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1083750/" title="See Description">[$] Save and restore may be coming to GNOME</a></li>
+<li><a href="#https://lwn.net/Articles/1084218/" title="See Description">PyPI now rejects new files after 14 days</a></li>
+<li><a href="#https://lwn.net/Articles/1082948/" title="See Description">[$] Attaching programs to multiple tracepoints</a></li>
+<li><a href="#https://lwn.net/Articles/1084210/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1083981/" title="See Description">Firefox 153 released</a></li>
 <li><a href="#https://lwn.net/Articles/1083275/" title="See Description">[$] Debating the role of large language models in the kernel community</a></li>
 <li><a href="#https://lwn.net/Articles/1083948/" title="See Description">Security updates for Tuesday</a></li>
@@ -49,13 +53,93 @@
 <li><a href="#https://lwn.net/Articles/1083466/" title="See Description">"Half a Second" — a book on the XZ backdoor</a></li>
 <li><a href="#https://lwn.net/Articles/1083462/" title="See Description">Three stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1083392/" title="See Description">Building an Arch Linux aarch64 port for Holo Core (Collabora blog)</a></li>
-<li><a href="#https://lwn.net/Articles/1082111/" title="See Description">[$] Securing BPF LSMs against tampering</a></li>
-<li><a href="#https://lwn.net/Articles/1083388/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1082717/" title="See Description">[$] Sched-ext: enqueue() for sub-schedulers and proxy-execution support</a></li>
-<li><a href="#https://lwn.net/Articles/1083201/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1083750/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Jul 2026 17:01:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083750/" title="https://lwn.net/Articles/1083750/">[$] Save and restore may be coming to GNOME</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>One of the features that users often miss when moving from X11 to Wayland is
+the ability to save and restore the position of windows between sessions. At <a
+href="https://events.gnome.org/event/306/">GUADEC&#160;2026</a>, held in
+A&#160;Coruña, Spain, Adrian Vovk provided an overview of work that has gone
+into providing a platform-wide save and restore framework for GNOME. After two
+failed attempts at landing an API, he believes that the third try will be the
+one to succeed&mdash;though not in time for the upcoming GNOME&#160;51 release
+due in October.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1084218/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Jul 2026 16:05:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1084218/" title="https://lwn.net/Articles/1084218/">PyPI now rejects new files after 14 days</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Python Software Foundation security developer-in-residence Seth
+Larson has <a
+href="https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/">announced</a>
+that the <a href="https://pypi.org/">Python Package Index</a> (PyPI) will now reject new files that
+are uploaded to releases older than 14 days. The restriction is to
+prevent the poisoning of old releases if publishing tokens or
+workflows of PyPI projects are compromised.</p>
+
+<blockquote class="bq">
+<p>The <a
+href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566">discussion
+of this behavior began</a> during PEP 740 (Digital Attestations) back in January
+2024. The discussion was <a
+href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566/34">restarted
+in March 2026</a> after the popular packages <a
+href="https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/">LiteLLM
+and Telnyx were compromised</a>. These packages were compromised due to a "<a
+href="https://mikael.barbero.tech/blog/post/2026-03-24-stop-trusting-mutable-references/">mutable
+reference</a>" in these projects' usage of the Trivy GitHub Action.</p>
+
+<p>Originally the discussion stalled due to some projects depending on this behavior
+to add support for new Python versions to already-published releases. To quantify how
+disruptive this change would be to existing workflows, the PyPI database was queried
+for <a
+href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566/48">projects
+that have published new files to old releases</a> (bucketed by number of days since
+the release). Later, specifically <code>cp314</code> wheels were queried for the top
+15,000 packages, revealing that <a
+href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566/63">only
+56 projects of 15,000</a> had published a 3.14-compatible wheel more than 14 days
+after a release was available.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1064693/">covered</a> the LiteLLM compromise
+in March.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1082948/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Jul 2026 15:08:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082948/" title="https://lwn.net/Articles/1082948/">[$] Attaching programs to multiple tracepoints</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Tracepoints in the kernel are useful for a variety of purposes: debugging,
+active monitoring, and performance measurements, among other things. Previously,
+any given BPF program could only be attached to a single tracepoint.
+Jiri Olsa has been working to change that, and led a discussion about
+his progress at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management, and BPF
+Summit</a>. That work has since been
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c49f336dbcf30ff8622d3725c54fe1c90e8ccd9c">
+merged</a>, and can be expected as part of the 7.2
+kernel.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1084210/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 22 Jul 2026 14:58:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1084210/" title="https://lwn.net/Articles/1084210/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, c-ares, dovecot, freerdp, glib2, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, hplip, kernel, kernel-rt, nodejs:22, perl-XML-LibXML, webkit2gtk3, and yggdrasil), <b>Debian</b> (kernel, nss, roundcube, rtpengine, and xz-utils), <b>Fedora</b> (btrbk, kernel, mupdf, nuclei, perl-Crypt-OpenSSL-X509, rust-fern, rust-ifcfg-devname, rust-routinator, rust-rpki, and rust-syslog), <b>Mageia</b> (tig), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, acl, dovecot, glib2, httpd, libtiff, pacemaker, perl-IO-Compress, plexus-utils, python3, and webkit2gtk3), <b>Slackware</b> (libssh and mozilla-firefox), <b>SUSE</b> (acl, avahi, aws-nitro-enclaves-cli, beets, chromium, firefox, go1.25-openssl, ImageMagick, iscsiuio, kernel, kubevirt1.8-container-disk, libgit2-1_9, libkrun, libsoup-3_0-0, nghttp2, opam, php7, python-aiohttp, python-tornado6, and vim), and <b>Ubuntu</b> (accountsservice, CUPS, imagemagick, jbig2dec, openssh, and snapd).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1083981/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 21 Jul 2026 15:15:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,58 +345,6 @@ aarch64 build container on an x86_64 host, for users who would like to
 follow along at home but lack a 64-bit Arm device.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082111/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 17 Jul 2026 15:58:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082111/" title="https://lwn.net/Articles/1082111/">[$] Securing BPF LSMs against tampering</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Since 2020, BPF programs have been able to
-<a href="https://docs.kernel.org/bpf/prog_lsm.html">
-act as</a> Linux security modules
-(LSMs). Several projects, including systemd, have been working to use
-that capability to provide more security to users. Christian Brauner
-spoke at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>
-about some of the limitations of using BPF in this way, and the changes he
-would like to see for systemd's use. In particular, he would like a way to make
-sure that BPF programs cannot be removed or have their private data tampered with.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1083388/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 17 Jul 2026 13:06:22 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083388/" title="https://lwn.net/Articles/1083388/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cifs-utils, container-tools:rhel8, libreoffice, nodejs:24, perl-XML-LibXML, and python3.12), <b>Fedora</b> (ansible-collection-ansible-posix, firefox, freerdp, ImageMagick, mingw-glib2, perl-DBI, perl-HTTP-Date, rust-cargo-rpmstatus, and rust-opendal), <b>Oracle</b> (cifs-utils, gegl, gimp, git-lfs, go-toolset:ol8, hplip, kernel, libreoffice, maven:3.9, perl-XML-LibXML, python3, python3.12, python3.9, and uek-kernel), <b>Red Hat</b> (kernel, kernel-rt, and podman), <b>Slackware</b> (netatalk), <b>SUSE</b> (agama, aws-nitro-enclaves-binaryblobs-upstream, gimp, gpsd, grafana, hostapd, ImageMagick, jackson-databind, kernel, libssh2_org, nm-configurator, opennlp, perl-Mojolicious, python-Pillow, python-python-engineio, python-python-socketio, and tomcat11), and <b>Ubuntu</b> (ntfs-3g, python-authlib, ruby2.3, tar, and ubuntu-advantage-tools).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082717/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 Jul 2026 14:00:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082717/" title="https://lwn.net/Articles/1082717/">[$] Sched-ext: enqueue() for sub-schedulers and proxy-execution support</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://docs.kernel.org/scheduler/sched-ext.html">extensible
-scheduler class</a> (sched_ext) allows the installation of custom CPU
-schedulers as a set of BPF programs.  While sched_ext, in its current form,
-has already led to a lot of interesting scheduler-development work, the
-subsystem itself is still undergoing rapid evolution.  Among other work,
-the ability to set up a hierarchy of <a
-href="https://lwn.net/Articles/1056014/">sub-schedulers</a> is approaching completion, and
-a longstanding incompatibility with <a href="https://lwn.net/Articles/934114/">proxy
-execution</a> is coming to an end.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1083201/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 16 Jul 2026 13:02:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083201/" title="https://lwn.net/Articles/1083201/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cups, git-lfs, kernel, libsolv, libxml2, python3.12, and python3.9), <b>Debian</b> (chromium, dhcpcd5, and ntfs-3g), <b>Fedora</b> (firefox, perl-Imager, python-bcrypt, python-tiktoken, roundcubemail, and xrdp), <b>Mageia</b> (openssl, poppler, python-mistune, and tmux), <b>Oracle</b> (389-ds-base, cups, git-lfs, glibc, host-metering, kernel, libsolv, libxml2, nginx:1.24, PackageKit, python-pillow, and qemu-kvm), <b>Red Hat</b> (buildah, containernetworking-plugins, and skopeo), <b>SUSE</b> (buildah, cosign, curl, distribution, dnsmasq, glib-networking, glibc, gnutls, gstreamer-plugins-bad, ImageMagick, kernel, podman, python-cryptography, python313-django-debug-toolbar, rekor, sccache, sssd, and yelp), and <b>Ubuntu</b> (dotnet8, dotnet10, libslirp, luajit, python-idna, sympa, and tomcat8).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
