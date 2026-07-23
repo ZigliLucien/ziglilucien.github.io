@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1083094/" title="See Description">[$] An operations structure for swap devices</a></li>
 <li><a href="#https://lwn.net/Articles/1084404/" title="See Description">Codeberg: Protecting our FLOSS commons from LLMs</a></li>
 <li><a href="#https://lwn.net/Articles/1084401/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1083123/" title="See Description">[$] LWN.net Weekly Edition for July 23, 2026</a></li>
@@ -52,10 +53,28 @@
 <li><a href="#https://lwn.net/Articles/1083754/" title="See Description">Catanzaro: Some changes to GNOME security tracking</a></li>
 <li><a href="#https://lwn.net/Articles/1082687/" title="See Description">[$] Merging famfs?</a></li>
 <li><a href="#https://lwn.net/Articles/1083708/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1083543/" title="See Description">Kernel prepatch 7.2-rc4</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1083094/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 23 Jul 2026 14:25:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083094/" title="https://lwn.net/Articles/1083094/">[$] An operations structure for swap devices</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>One of the ideas raised at the <a href="https://lwn.net/Articles/lsfmmbpf2026/">2026 Linux
+Storage, Filesystem, Memory Management, and BPF Summit</a> (LSFMM+BPF) was
+the creation of <a
+href="https://lwn.net/Articles/1072657/#:~:text=Abstracting%20the%20swap%20backend">an
+operations structure</a> for the swap subsystem.  Like many parts of the
+kernel, the swap layer evolved over time, with pieces being added as
+needed; the end result of this evolution is rarely what one would expect
+had the subsystem been designed today.  The interface between the swap
+layer and the devices it uses is just one example.  It appears that one
+result of the swap subsystem's evolution — the lack of an abstraction layer
+to interface with underlying storage — will soon be addressed, but in a
+different way than was initially envisioned.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1084404/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 Jul 2026 13:27:38 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -316,16 +335,6 @@ at a discussion about merging famfs</a> back in April 2026.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (kernel, libnfs, roundcube, and tiff), <b>Fedora</b> (antlr4-project, chromium, erlang, libseccomp, libtiff, log4cxx, mbedtls, node-exporter, opam, openssh, proftpd, python-asyncssh, python-django5, python-libcst, python-orjson, python-uv-build, ruby, rust-astral_async_zip, spoofdpi, uv, and yq), <b>Mageia</b> (bind, clamav, erlang, libidn, libreoffice, nmap, nodejs, perl-Bytes-Random-Secure, perl-Config-IniFiles, perl-CSS-Minifier-XS, perl-HTML-Parser, perl-Mojolicious, perl-String-Util, python-pydantic-settings, rsync, and upower), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, cockpit, cockpit-image-builder, coreutils, delve, dnsmasq, dovecot, expat, fence-agents, flatpak, frr, gdk-pixbuf2, giflib, glib2, go-fdo-client and go-fdo-server, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, httpd, jq, kernel, keylime, krb5, libcap, libexif, libpng, libsndfile, libsolv, libsoup3, libtasn1, libtiff, libxslt, libyang, mariadb10.11, mod_http2, mod_md, opencryptoki, PackageKit, perl-Archive-Tar, perl-IO-Compress, poppler, postfix, postgresql-jdbc, python-urllib3, python3.14, python3.14-pip, python3.14-urllib3, qt6-qtdeclarative, rrdtool, rsync, ruby, ruby4.0, samba, skopeo, thunderbird, valkey, wireshark, xorg-x11-server-Xwayland, and yggdrasil-worker-package-manager), and <b>SUSE</b> (blender, chromium, containerized-data-importer1, cyrus-imapd, go1.26-openssl, gomuks, grafana, gstreamer-plugins-bad, kbfs, kubevirt1.8-container-disk, libxml2, lux, mariadb-connector-c, nginx, opam, openssl-3, oras, perl-DBI, php-composer2, python-django-haystack, python-paramiko, python-weasyprint, python311, python313-Pillow, python315, shibboleth-sp, system-user-zabbix, and wget).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1083543/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 19 Jul 2026 22:11:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083543/" title="https://lwn.net/Articles/1083543/">Kernel prepatch 7.2-rc4</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1083542/">7.2-rc4</a> kernel prepatch is out for
-testing.  Linus said: "<q>This whole week I had the feeling that people
-were starting to go on summer vacation, but running the numbers shows that
-I must have been wrong - it all looks pretty normal.</q>"</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
