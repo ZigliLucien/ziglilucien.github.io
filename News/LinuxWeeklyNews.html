@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1083418/" title="See Description">[$] An update on netkit and the use of BPF in user space</a></li>
+<li><a href="#https://lwn.net/Articles/1084861/" title="See Description">Home Assistant Device Database public preview</a></li>
+<li><a href="#https://lwn.net/Articles/1084860/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1084545/" title="See Description">Mourning Dan Williams</a></li>
 <li><a href="#https://lwn.net/Articles/1083094/" title="See Description">[$] An operations structure for swap devices</a></li>
 <li><a href="#https://lwn.net/Articles/1084404/" title="See Description">Codeberg: Protecting our FLOSS commons from LLMs</a></li>
@@ -50,12 +53,69 @@
 <li><a href="#https://lwn.net/Articles/1083981/" title="See Description">Firefox 153 released</a></li>
 <li><a href="#https://lwn.net/Articles/1083275/" title="See Description">[$] Debating the role of large language models in the kernel community</a></li>
 <li><a href="#https://lwn.net/Articles/1083948/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1081557/" title="See Description">[$] Fedora grapples with change</a></li>
-<li><a href="#https://lwn.net/Articles/1083754/" title="See Description">Catanzaro: Some changes to GNOME security tracking</a></li>
-<li><a href="#https://lwn.net/Articles/1082687/" title="See Description">[$] Merging famfs?</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1083418/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 Jul 2026 13:17:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083418/" title="https://lwn.net/Articles/1083418/">[$] An update on netkit and the use of BPF in user space</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Daniel Borkmann led a session at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Filesystem, Memory-Management,
+and BPF Summit</a> about the progress that has been made with netkit, the subsystem
+that allows virtual machines (VMs) running on Linux to perform networking efficiently.
+When that did not fill the full time, he went on to discuss his idea for
+using BPF to live-patch user-space applications. While netkit is making
+progress, and can now support zero-copy receipt of packets into a VM in a
+network namespace, the idea of using BPF for patching user-space programs
+remains entirely speculative.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1084861/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 Jul 2026 13:16:47 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1084861/" title="https://lwn.net/Articles/1084861/">Home Assistant Device Database public preview</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.openhomefoundation.org/">Open Home
+Foundation</a>, which governs the <a
+href="https://www.home-assistant.io/">Home Assistant</a>
+home-automation project, has <a
+href="https://www.openhomefoundation.org/blog/building-the-device-database-together/">announced</a>
+the "public preview" of its <a
+href="https://device-database-preview.openhomefoundation.org/">Device
+Database</a>:</p>
+
+<blockquote class="bq">
+<p>Providing a public, open way to browse the anonymous, aggregated
+device data we collect was always part of the plan, and this preview
+is our first step toward it.</p>
+
+<p>You can already use it to search and filter devices to see
+aggregated community insights, starting with a deliberately focused
+set of specifics, such as whether a device requires an internet
+connection, and which protocols and integrations it works with. We've
+kept that initial scope narrow on purpose, giving us a solid
+foundation we can build on together with you, our community, as the
+database grows.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1017945/">looked at</a> Home
+Assistant in May 2025.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1084860/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 24 Jul 2026 13:05:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1084860/" title="https://lwn.net/Articles/1084860/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (glibc, java-21-openjdk, kernel, and libpq), <b>Debian</b> (imagemagick, spice-vdagent, and webkit2gtk), <b>Fedora</b> (cryptlib, dotnet8.0, dotnet9.0, firefox, python-black, python-lsp-black, and python-pytokens), <b>Mageia</b> (apache, cifs-utils, dnsmasq, lrzip, and socat), <b>Oracle</b> (.NET 10.0, .NET 9.0, 389-ds-base, cups, edk2, fence-agents, firefox, freeipmi, freerdp, git-lfs, glib2, gnutls, golang, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, hplip, libinput, libvirt, libxml2, memcached, nginx, openexr, perl-DBI, perl-XML-LibXML, php, php8.4, plexus-utils, postgresql16, python3.12, python3.14, sssd, tomcat, tomcat9, unbound, vim, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Red Hat</b> (container-tools:rhel8, git-lfs, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, host-metering, java-1.8.0-openjdk, java-11-openjdk with Extended Lifecycle Support, java-17-openjdk, java-21-openjdk, oci-seccomp-bpf-hook, rhc, rhc-worker-playbook, skopeo, xorg-x11-server, xorg-x11-server-Xwayland, and yggdrasil), <b>Slackware</b> (mozilla-thunderbird), <b>SUSE</b> (afterburn, alloy, apache-sshd, apache2, avahi, chromium, clamav, curl, dhcpcd, dnsmasq, docker-compose, ffmpeg-7, firefox-esr, gawk, glibc, gnutls, go1.26-openssl, google-osconfig-agent, gpg2, haproxy, ImageMagick, imagemagick, jline3, jq, kernel, libgcrypt, libgnt, meson, pidgin, nmap, nodejs24, pacemaker, patch, perl-HTML-Parser, perl-libwww-perl, perl-List-SomeUtils-XS, python-aiohttp, python-WebOb, qemu, rust-keylime, SVT-AV1, libyuv0, libaom3, trivy, ucode-intel, and wireshark), and <b>Ubuntu</b> (libhttp-date-perl, libxpm, linux-azure, linux-azure-fde, pam, and rsyslog).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1084545/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 23 Jul 2026 18:44:26 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -272,79 +332,6 @@ about the ethics of LLMs.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (capstone, fence-agents, gimp, glib2, hplip, httpd, jackson-annotations, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, libtiff, maven:3.8, pacemaker, python3.14, and webkit2gtk3), <b>Debian</b> (samba), <b>Fedora</b> (c-ares, dnsx, freerdp, gpsd, libreswan, libseccomp, libtiff, mingw-python-idna, mingw-python-pip, openssh, python-pillow, wget1, and wireshark), <b>Mageia</b> (golang, graphicsmagick, haveged, libssh2, nginx, nilfs-utils, perl-CGI-Session, perl-Imager, perl-JavaScript-Minifier-XS, php, php8.4, php8.5, python-nltk, sqlite3, and xmlstarlet), <b>Oracle</b> (.NET 10.0, .NET 9.0, container-tools:ol8, firefox, giflib, glibc, go-fdo-client, go-fdo-server, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, hplip, httpd, image-builder, kernel, libtiff, mod_http2, pacemaker, perl-DBI:1.641, perl-HTTP-Daemon, php:8.2, python-markdown, ruby4.0, systemd, and thunderbird), <b>Red Hat</b> (buildah, container-tools:rhel8, dracut, golang-github-openprinting-ipp-usb, libtiff, osbuild-composer, python-urllib3, python3.12-urllib3, python3.14-urllib3, and runc), <b>SUSE</b> (389-ds, chromedriver, gstreamer-plugins-bad, libreoffice, libsuricata8_0_6, podman, python311, and sssd), and <b>Ubuntu</b> (apache2, freerdp3, freetype, libde265, libxfont, linux, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop, linux-realtime, linux-realtime-6.8, linux, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-realtime, linux-xilinx-zynqmp, linux, linux-gcp, linux-gke, linux-realtime, linux-gcp-6.17, linux-realtime-6.17, linux-gcp-fips, linux-hwe-7.0, linux-nvidia-tegra-5.15, linux-oem-7.0, nginx, php8.1, php8.3, php8.5, rlottie, sqlite3, and wget).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1081557/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Jul 2026 18:26:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1081557/" title="https://lwn.net/Articles/1081557/">[$] Fedora grapples with change</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://fedoraproject.org/">Fedora Project</a> is known for,
-among other things, having a well-defined set of processes for just about
-everything. It has extensive <a
-href="https://docs.fedoraproject.org/en-US/packaging-guidelines/">packaging
-guidelines</a> that deal with the complexities of creating RPMs to install
-software, as well as processes for managing the <a
-href="https://docs.fedoraproject.org/en-US/legal/">legal questions</a> that
-arise around shipping software. Fedora also has a well-defined <a
-href="https://docs.fedoraproject.org/en-US/operations/changes_guide/">change
-process</a> for dealing with <a
-href="https://docs.fedoraproject.org/en-US/operations/changes_policy/#_self_contained_changes">self-contained technical changes</a> as well as <a
-href="https://docs.fedoraproject.org/en-US/operations/changes_policy/#_system_wide_changes">major
-changes to the distribution</a>, and other issues as they arise. At the moment,
-though, the project seems to be experiencing a sort of midlife crisis as it
-re-examines several of its change processes at once to determine if they are
-still effective.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1083754/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Jul 2026 15:52:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083754/" title="https://lwn.net/Articles/1083754/">Catanzaro: Some changes to GNOME security tracking</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Michael Catanzaro, who has been managing GNOME security issue tracking since
-November 2020, has written a <a href="https://blogs.gnome.org/mcatanzaro/2026/07/20/some-changes-to-gnome-security-tracking/">blog post</a> that details some changes in how he will
-be managing GNOME vulnerability reports from now on due to an increase in
-AI-generated security reports. He will be switching from a 90-day deadline for
-disclosures to 30 days for issues reported on August&#160;1, or later. "<q>The
-shorter deadline would probably work better for GNOME even if not for the
-increase in AI-generated issue reports.</q>"</p>
-
-<p>He also has indicated that he will be stepping away from the task of managing
-security issue tracking entirely by December 1, 2026, which means that there
-will be a gap to fill:</p>
-
-<blockquote class="bq">
-<p>Currently nobody else is tracking GNOME security issues. If you are an
-experienced GNOME community member and you are interested in taking over this
-work, let me know and I will help you get started. (Security tracking is not a
-good task for newcomers.)</p>
-
-<p>This may also be an opportunity to improve our tracking infrastructure. I use
-a <a href="https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home">wiki
-page</a>, but this is fairly primitive and requires considerable manual
-upkeep. It's easy to forget to update the page when an issue report is closed,
-for example. Ideally, we would replace the wiki with a proper web app that
-dynamically updates based on the actual state of the issue.</p>
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1082687/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 20 Jul 2026 13:15:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1082687/" title="https://lwn.net/Articles/1082687/">[$] Merging famfs?</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://github.com/cxl-micron-reskit/famfs#famfs-shared-memory-filesystem-framework---user-space-repo">famfs filesystem</a>, which is meant to provide shared access to huge
-memory-resident files on  <a
-href="https://en.wikipedia.org/wiki/Compute_Express_Link">CXL</a> and other
-devices, returned to
-the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> (LSFMM+BPF) in 2026.
-It was <a
-href="https://lwn.net/Articles/983105/">first discussed at LSFMM+BPF 2024</a> and a <a
-href="https://lwn.net/Articles/1020170/">new implementation was described at the 2025
-gathering</a>, but it still has not made its way into the kernel;  LWN <a href="https://lwn.net/Articles/1068686/">looked
-at a discussion about merging famfs</a> back in April 2026.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
