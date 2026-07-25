@@ -38,15 +38,15 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Partly cloudy, with a low around 74. North northeast wind 3 to 7 mph.<br></div>
+         <h3>Tuesday Night</h3>Partly cloudy, with a low around 72. North northeast wind 3 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Sunny, with a high near 92. North northeast wind 2 to 7 mph.<br></div>
+         <h3>Wednesday</h3>Mostly sunny, with a high near 92. North northeast wind 2 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Mostly clear, with a low around 71. Northeast wind 1 to 5 mph.<br></div>
+         <h3>Wednesday Night</h3>Mostly clear, with a low around 70. Northeast wind 1 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -54,7 +54,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Partly cloudy, with a low around 72. Southeast wind 0 to 5 mph.<br></div>
+         <h3>Thursday Night</h3>Partly cloudy, with a low around 72. Southeast wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
