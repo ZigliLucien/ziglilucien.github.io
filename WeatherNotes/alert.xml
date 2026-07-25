@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8c8f2a534f7789bda6ce79ee642d8764a5b8475.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b9a8ed22f8ff46cd75c8608d7a23eb5490d8598.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8c8f2a534f7789bda6ce79ee642d8764a5b8475.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b9a8ed22f8ff46cd75c8608d7a23eb5490d8598.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.f8c8f2a534f7789bda6ce79ee642d8764a5b8475.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.7b9a8ed22f8ff46cd75c8608d7a23eb5490d8598.001.1</id>
 				<areaDesc type="str">Jefferson; Perry; Franklin; Jackson; Williamson; Union; Johnson; Pope; Alexander; Pulaski; Massac; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -122,16 +122,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7b3cc082ce1a5e5ce2e4d4e852c9aae0f0fd6de.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.b7b3cc082ce1a5e5ce2e4d4e852c9aae0f0fd6de.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f8c8f2a534f7789bda6ce79ee642d8764a5b8475.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.f8c8f2a534f7789bda6ce79ee642d8764a5b8475.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-07-24T12:18:00-05:00</sent>
+						<sent type="str">2026-07-24T19:32:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2026-07-24T19:32:00-05:00</sent>
-				<effective type="str">2026-07-24T19:32:00-05:00</effective>
+				<sent type="str">2026-07-25T00:15:00-05:00</sent>
+				<effective type="str">2026-07-25T00:15:00-05:00</effective>
 				<onset type="str">2026-07-26T11:00:00-05:00</onset>
-				<expires type="str">2026-07-25T05:00:00-05:00</expires>
+				<expires type="str">2026-07-25T16:00:00-05:00</expires>
 				<ends type="str">2026-07-28T19:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -142,18 +142,26 @@
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued July 24 at 7:32PM CDT until July 28 at 7:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heat index values up to 111 expected.
+				<headline type="str">Heat Advisory issued July 25 at 12:15AM CDT until July 28 at 7:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Heat index values up to near 110 degrees expected.
 
-* WHERE...Portions of southern Illinois, western Kentucky, and
-southeast Missouri.
+* WHERE...All of southeast Missouri, and neighboring portions of
+southwest Illinois and far western Kentucky.
 
 * WHEN...From 11 AM Sunday to 7 PM CDT Tuesday.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.</description>
+illnesses.
+
+* ADDITIONAL DETAILS...The Advisory is in effect along and west of a
+line from Mount Vernon, Illinois, to Cadiz, Kentucky.</description>
 				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
-the sun, and check up on relatives and neighbors.</instruction>
+the sun, and check up on relatives and neighbors.
+
+Take extra precautions when outside. Wear lightweight and loose
+fitting clothing. Try to limit strenuous activities to early morning
+or evening. Take action when you see symptoms of heat exhaustion and
+heat stroke.</instruction>
 				<response type="str">Execute</response>
 				<note type="null"/>
 				<parameters type="dict">
@@ -161,7 +169,7 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 250032</item>
+						<item type="str">WWUS73 KPAH 250515</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
 						<item type="str">HEAT ADVISORY REMAINS IN EFFECT FROM 11 AM SUNDAY TO 7 PM CDT TUESDAY</item>
@@ -177,6 +185,9 @@ the sun, and check up on relatives and neighbors.</instruction>
 					<eventEndingTime type="list">
 						<item type="str">2026-07-28T19:00:00-05:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b7b3cc082ce1a5e5ce2e4d4e852c9aae0f0fd6de.001.1,2026-07-24T12:18:00-05:00</item>
+					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -194,5 +205,5 @@ the sun, and check up on relatives and neighbors.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-07-25T04:35:41+00:00</updated>
+	<updated type="str">2026-07-25T05:35:40+00:00</updated>
 </all>
