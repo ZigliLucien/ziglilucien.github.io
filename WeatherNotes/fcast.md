@@ -2,14 +2,14 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 68. Southwest wind around 1 mph. Chance of precipitation
-         is 30%.<br></div>
+         <h3>Overnight</h3>A chance of showers and thunderstorms. Mostly cloudy. Low around 68, with temperatures rising to around 70 overnight. Wind
+         around 0 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 8am, then showers
          and thunderstorms likely between 8am and 9am, then a chance of showers and thunderstorms between 9am and 11am. Partly sunny,
-         with a high near 86. South southwest wind around 5 mph. Chance of precipitation is 60%.<br></div>
+         with a high near 86. South southwest wind 1 to 5 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
