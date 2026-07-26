@@ -1,4 +1,16 @@
 <p>
+   <h2>Special Weather Statement issued July 26 at 3:58AM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">Expect patchy fog to perhaps be locally dense at times early this
+      morning. In some locations, the fog may be light but there could
+      be a low hanging overcast cloud. In any case, be prepared for the
+      chance of encountering a rapid drop in visibility. The fog is
+      patchy and intermittent and may not last long in any one location,
+      but it could seem really dense at times where it does exist. Allow
+      a little extra time to reach your destination and remember to drive
+      with your low beam headlights in fog, not your high beams.
+   </div>
+</p>
+<p>
    <h2>Heat Advisory issued July 26 at 12:14AM CDT until July 28 at 7:00PM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...For the Extreme Heat Warning, Dangerously hot conditions
       with heat index values up to 112 degrees expected, with locally
