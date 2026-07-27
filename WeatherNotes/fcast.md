@@ -26,41 +26,42 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Mostly clear, with a low around 67. Northeast wind 1 to 7 mph.<br></div>
+         <h3>Wednesday Night</h3>Mostly clear, with a low around 66. Northeast wind 1 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny, with a high near 89. East northeast wind around 3 mph.<br></div>
+         <h3>Thursday</h3>Sunny, with a high near 90. East northeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Partly cloudy, with a low around 68. East wind around 2 mph.<br></div>
+         <h3>Thursday Night</h3>A slight chance of rain showers after 1am. Partly cloudy, with a low around 68. East southeast wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of rain showers between 7am and 1pm, then a slight chance of showers and thunderstorms. Partly sunny, with a high
-         near 86. South southeast wind 0 to 6 mph.<br></div>
+         <h3>Friday</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 86. South
+         wind 0 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around
-         69. East southeast wind around 5 mph.<br></div>
+         <h3>Friday Night</h3>A chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 1am, then showers
+         and thunderstorms likely. Mostly cloudy, with a low around 70. South southeast wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near
-         83. Northeast wind 3 to 9 mph.<br></div>
+         <h3>Saturday</h3>Showers and thunderstorms likely. Mostly cloudy, with a high near 83. East southeast wind 6 to 10 mph, with gusts as high
+         as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of showers and thunderstorms before 1am. Partly cloudy, with a low around 67. North wind 3 to 8 mph.<br></div>
+         <h3>Saturday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 68. North wind 5 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Mostly sunny, with a high near 85. North wind 3 to 8 mph.<br></div>
+         <h3>Sunday</h3>A slight chance of rain showers before 1pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 86.
+         North northeast wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Mostly clear, with a low around 67. North northeast wind 1 to 6 mph.<br></div>
+         <h3>Sunday Night</h3>A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 68. Northeast wind 1 to 7 mph.<br></div>
    </p>
 </div>
