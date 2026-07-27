@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms before 2am. Partly cloudy, with a low around 78. Heat index values as high as 105. South
-         southwest wind around 2 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 2am. Partly cloudy, with a low around 78. South southwest wind around 2 mph.
+         Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
