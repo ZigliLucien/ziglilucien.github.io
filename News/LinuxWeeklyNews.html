@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1084015/" title="See Description">[$] Hazard pointers for the kernel</a></li>
+<li><a href="#https://lwn.net/Articles/1085566/" title="See Description">GNU Binutils 2.47 released</a></li>
 <li><a href="#https://lwn.net/Articles/1085554/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1085422/" title="See Description">Kernel prepatch 7.2-rc5</a></li>
 <li><a href="#https://lwn.net/Articles/1085314/" title="See Description">A Debian general resolution on LLM usage</a></li>
@@ -51,11 +53,44 @@
 <li><a href="#https://lwn.net/Articles/1083418/" title="See Description">[$] An update on netkit and the use of BPF in user space</a></li>
 <li><a href="#https://lwn.net/Articles/1084861/" title="See Description">Home Assistant Device Database public preview</a></li>
 <li><a href="#https://lwn.net/Articles/1084860/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1084545/" title="See Description">Mourning Dan Williams</a></li>
-<li><a href="#https://lwn.net/Articles/1083094/" title="See Description">[$] An operations structure for swap devices</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1084015/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Jul 2026 16:51:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1084015/" title="https://lwn.net/Articles/1084015/">[$] Hazard pointers for the kernel</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's read-copy-update (RCU) subsystem ensures that data will not be
+deleted until it is known that there are no threads holding references to
+it.  RCU works well and is widely used throughout the kernel, but it can
+increase memory use and add significant delays before unused kernel objects
+are cleaned up.  <a
+href="https://en.wikipedia.org/wiki/Hazard_pointer">Hazard pointers</a> are
+an alternative approach to lockless data updates that offers better
+performance, for some situations at least.  The kernel community is
+currently considering <a
+href="https://lwn.net/ml/all/23e34c2e-67fd-45da-b130-e70a131a59ea@paulmck-laptop">a
+hazard-pointer implementation</a> by Mathieu Desnoyers and Paul McKenney.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1085566/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 27 Jul 2026 15:46:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085566/" title="https://lwn.net/Articles/1085566/">GNU Binutils 2.47 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a
+href="https://inbox.sourceware.org/binutils/87o6fty5pz.fsf@redhat.com/">Version
+2.47</a> of <a href="https://www.gnu.org/software/binutils/">GNU
+Binutils</a> has been released. In addition to the usual bug fixes
+there are some notable new features in this release including added
+support for a number of RISC-V standard extensions, a command-line
+option (<tt>-M&#160;annotate</tt>) which displays the symbol for
+undefined instructions for AArch64, and more. The 32-bit s390 target
+has been deprecated with this release.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1085554/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 27 Jul 2026 13:10:20 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -243,44 +278,6 @@ Assistant in May 2025.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (glibc, java-21-openjdk, kernel, and libpq), <b>Debian</b> (imagemagick, spice-vdagent, and webkit2gtk), <b>Fedora</b> (cryptlib, dotnet8.0, dotnet9.0, firefox, python-black, python-lsp-black, and python-pytokens), <b>Mageia</b> (apache, cifs-utils, dnsmasq, lrzip, and socat), <b>Oracle</b> (.NET 10.0, .NET 9.0, 389-ds-base, cups, edk2, fence-agents, firefox, freeipmi, freerdp, git-lfs, glib2, gnutls, golang, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, hplip, libinput, libvirt, libxml2, memcached, nginx, openexr, perl-DBI, perl-XML-LibXML, php, php8.4, plexus-utils, postgresql16, python3.12, python3.14, sssd, tomcat, tomcat9, unbound, vim, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Red Hat</b> (container-tools:rhel8, git-lfs, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, host-metering, java-1.8.0-openjdk, java-11-openjdk with Extended Lifecycle Support, java-17-openjdk, java-21-openjdk, oci-seccomp-bpf-hook, rhc, rhc-worker-playbook, skopeo, xorg-x11-server, xorg-x11-server-Xwayland, and yggdrasil), <b>Slackware</b> (mozilla-thunderbird), <b>SUSE</b> (afterburn, alloy, apache-sshd, apache2, avahi, chromium, clamav, curl, dhcpcd, dnsmasq, docker-compose, ffmpeg-7, firefox-esr, gawk, glibc, gnutls, go1.26-openssl, google-osconfig-agent, gpg2, haproxy, ImageMagick, imagemagick, jline3, jq, kernel, libgcrypt, libgnt, meson, pidgin, nmap, nodejs24, pacemaker, patch, perl-HTML-Parser, perl-libwww-perl, perl-List-SomeUtils-XS, python-aiohttp, python-WebOb, qemu, rust-keylime, SVT-AV1, libyuv0, libaom3, trivy, ucode-intel, and wireshark), and <b>Ubuntu</b> (libhttp-date-perl, libxpm, linux-azure, linux-azure-fde, pam, and rsyslog).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1084545/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 Jul 2026 18:44:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1084545/" title="https://lwn.net/Articles/1084545/">Mourning Dan Williams</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/Articles/1072861/"><img
-src="https://lwn.net/images/conf/2026/lsfmm/DanWilliams-sm.png" alt="[Dan Williams in May 2026]"
-title="Dan Williams" class="lthumb"></a>
-
-I have just received the shocking news that Dan Williams, a longtime,
-high-profile kernel developer, has passed away.  I knew him primarily
-through his long service on the Linux Foundation Technical Advisory Board;
-he was always a strong, thoughtful, and intelligent presence.  Dan will be
-deeply missed.
-<p>
-There is <a href="https://www.mealtrain.com/trains/mekrzl">a support
-effort</a> underway for Dan's family as they come to terms with this loss.
-<br class="clear"></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1083094/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 23 Jul 2026 14:25:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083094/" title="https://lwn.net/Articles/1083094/">[$] An operations structure for swap devices</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>One of the ideas raised at the <a href="https://lwn.net/Articles/lsfmmbpf2026/">2026 Linux
-Storage, Filesystem, Memory Management, and BPF Summit</a> (LSFMM+BPF) was
-the creation of <a
-href="https://lwn.net/Articles/1072657/#:~:text=Abstracting%20the%20swap%20backend">an
-operations structure</a> for the swap subsystem.  Like many parts of the
-kernel, the swap layer evolved over time, with pieces being added as
-needed; the end result of this evolution is rarely what one would expect
-had the subsystem been designed today.  The interface between the swap
-layer and the devices it uses is just one example.  It appears that one
-result of the swap subsystem's evolution — the lack of an abstraction layer
-to interface with underlying storage — will soon be addressed, but in a
-different way than was initially envisioned.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
