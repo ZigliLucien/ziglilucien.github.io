@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1085894/" title="See Description">Wayfire 0.11 released</a></li>
+<li><a href="#https://lwn.net/Articles/1084499/" title="See Description">[$] A report from Debian's new DFSG team</a></li>
 <li><a href="#https://lwn.net/Articles/1085855/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1084015/" title="See Description">[$] Hazard pointers for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1085566/" title="See Description">GNU Binutils 2.47 released</a></li>
@@ -51,11 +53,49 @@
 <li><a href="#https://lwn.net/Articles/1084921/" title="See Description">Hefty stable kernel updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1084938/" title="See Description">Linux Plumbers Conference 2026 registration open</a></li>
 <li><a href="#https://lwn.net/Articles/1084920/" title="See Description">De Vlieger: The Fedora 45 sausage factory</a></li>
-<li><a href="#https://lwn.net/Articles/1083418/" title="See Description">[$] An update on netkit and the use of BPF in user space</a></li>
-<li><a href="#https://lwn.net/Articles/1084861/" title="See Description">Home Assistant Device Database public preview</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1085894/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 28 Jul 2026 14:54:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085894/" title="https://lwn.net/Articles/1085894/">Wayfire 0.11 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://wayfire.org/2026/07/24/Wayfire-0-11.html">Version
+0.11</a> of the <a
+href="https://gitlab.freedesktop.org/wlroots/wlroots#wlroots">wlroots</a>-based
+<a href="https://wayfire.org/">Wayfire</a> Wayland compositor has been
+released. Notable changes include better fractional scaling,
+per-output <a href="https://en.wikipedia.org/wiki/ICC_profile">ICC
+profiles</a>, support for additional Wayland protocols, and more.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1084499/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 28 Jul 2026 14:21:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1084499/" title="https://lwn.net/Articles/1084499/">[$] A report from Debian's new DFSG team</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://wiki.debian.org/Teams/DFSG">DFSG, Licensing
+&amp; New Packages Team</a> (usually shortened to "DFSG team") was
+created in October 2025 as part of the <a
+href="https://lwn.net/Articles/1043364/">ftpmaster team split</a>. Its
+job is to review packages in the <a
+href="https://wiki.debian.org/NewQueue">new queue</a> for compliance
+with the <a
+href="https://wiki.debian.org/DebianFreeSoftwareGuidelines">Debian
+Free Software Guidelines</a> (DFSG), among other things, before the
+packages are allowed to enter the <a
+href="https://www.debian.org/doc/manuals/debian-faq/ftparchives.en">Debian
+archive</a>. The change was long in coming, and some questions
+remained after the split whether it was the right move. Andrew
+McMillan provided an overview of the team's activities and its current
+status during <a
+href="https://debconf26.debconf.org/">DebConf26</a>. While it may be
+too early to say with certainty, his report suggests that the new
+division of duties is working out well.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1085855/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 28 Jul 2026 13:11:16 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -225,58 +265,6 @@ Fedora 45, things change all the time; I hope to have time to update
 this document every cycle or every few cycles of Fedora releases so
 there's both history and people can find up to date information.</p>
 </blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1083418/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 Jul 2026 13:17:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083418/" title="https://lwn.net/Articles/1083418/">[$] An update on netkit and the use of BPF in user space</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Daniel Borkmann led a session at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Filesystem, Memory-Management,
-and BPF Summit</a> about the progress that has been made with netkit, the subsystem
-that allows virtual machines (VMs) running on Linux to perform networking efficiently.
-When that did not fill the full time, he went on to discuss his idea for
-using BPF to live-patch user-space applications. While netkit is making
-progress, and can now support zero-copy receipt of packets into a VM in a
-network namespace, the idea of using BPF for patching user-space programs
-remains entirely speculative.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1084861/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 Jul 2026 13:16:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1084861/" title="https://lwn.net/Articles/1084861/">Home Assistant Device Database public preview</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.openhomefoundation.org/">Open Home
-Foundation</a>, which governs the <a
-href="https://www.home-assistant.io/">Home Assistant</a>
-home-automation project, has <a
-href="https://www.openhomefoundation.org/blog/building-the-device-database-together/">announced</a>
-the "public preview" of its <a
-href="https://device-database-preview.openhomefoundation.org/">Device
-Database</a>:</p>
-
-<blockquote class="bq">
-<p>Providing a public, open way to browse the anonymous, aggregated
-device data we collect was always part of the plan, and this preview
-is our first step toward it.</p>
-
-<p>You can already use it to search and filter devices to see
-aggregated community insights, starting with a deliberately focused
-set of specifics, such as whether a device requires an internet
-connection, and which protocols and integrations it works with. We've
-kept that initial scope narrow on purpose, giving us a solid
-foundation we can build on together with you, our community, as the
-database grows.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1017945/">looked at</a> Home
-Assistant in May 2025.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
 </table>
