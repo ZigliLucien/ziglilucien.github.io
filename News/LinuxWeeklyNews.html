@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1083202/" title="See Description">[$] Progress toward compiling Linux with gccrs</a></li>
 <li><a href="#https://lwn.net/Articles/1085894/" title="See Description">Wayfire 0.11 released</a></li>
 <li><a href="#https://lwn.net/Articles/1084499/" title="See Description">[$] A report from Debian's new DFSG team</a></li>
 <li><a href="#https://lwn.net/Articles/1085855/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1085026/" title="See Description">New stable kernel for ext4 users</a></li>
 <li><a href="#https://lwn.net/Articles/1084921/" title="See Description">Hefty stable kernel updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1084938/" title="See Description">Linux Plumbers Conference 2026 registration open</a></li>
-<li><a href="#https://lwn.net/Articles/1084920/" title="See Description">De Vlieger: The Fedora 45 sausage factory</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1083202/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 28 Jul 2026 17:40:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083202/" title="https://lwn.net/Articles/1083202/">[$] Progress toward compiling Linux with gccrs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The <a href="https://rust-gcc.github.io/">
+<tt>gccrs</tt> project</a>, which is creating a Rust frontend for the GCC compiler, has
+spent the first half of 2026 focusing on compiling the Linux
+kernel. By testing the compiler against the kernel crates, the
+development team has made significant progress toward generating correct code
+for other Rust programs. As detailed in the project's
+<a href="https://github.com/Rust-GCC/Reporting/tree/main/2026">
+weekly</a> and
+<a href="https://rust-gcc.github.io/#status-reports">
+monthly</a> reports, this effort has uncovered and resolved problems
+in areas such as
+attribute handling (described in the
+<a href="https://rust-gcc.github.io/2026/03/10/2026-02-monthly-report.html">
+report for February</a>), name resolution, and resource management (both
+<a href="https://rust-gcc.github.io/2026/06/02/2026-05-monthly-report.html">
+detailed in the May report</a>). Currently, the compiler can only handle simple
+standalone programs, but that situation could change rapidly in the coming
+months.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1085894/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 28 Jul 2026 14:54:01 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -244,29 +271,6 @@ included 1,611 patches, and so forth. Users are advised to upgrade.</p></blockqu
 open</a> for the 2026 Linux Plumbers Conference, to be held October&#160;5
 to&#160;7 in Prague, Czechia.  Tickets to this event tend to sell out
 quickly, so interested attendees probably should not procrastinate.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1084920/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 Jul 2026 15:11:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1084920/" title="https://lwn.net/Articles/1084920/">De Vlieger: The Fedora 45 sausage factory</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Fedora contributor Simon de Vlieger has published a <a
-href="https://supakeen.com/weblog/the-fedora-45-sausage-factory/">blog
-post</a> with a walkthrough of how the project turns source code and
-packages into the final release that users install on their systems.</p>
-
-<blockquote class="bq">
-<p>It follows the a package from a packager's git push to a composed
-release: ISOs, cloud images, container images, and OSTree
-deployments.</p>
-
-<p>The walkthrough describes how the Fedora 'sausage' is created as of
-Fedora 45, things change all the time; I hope to have time to update
-this document every cycle or every few cycles of Fedora releases so
-there's both history and people can find up to date information.</p>
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
