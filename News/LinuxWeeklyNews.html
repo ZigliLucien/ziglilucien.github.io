@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1086047/" title="See Description">Three stable kernels for Wednesday fix a single regression</a></li>
+<li><a href="#https://lwn.net/Articles/1085609/" title="See Description">[$] Fedora approves a smaller GRUB</a></li>
+<li><a href="#https://lwn.net/Articles/1086041/" title="See Description">GCC steering committee announces AI policy</a></li>
 <li><a href="#https://lwn.net/Articles/1086031/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1083202/" title="See Description">[$] Progress toward compiling Linux with gccrs</a></li>
 <li><a href="#https://lwn.net/Articles/1085894/" title="See Description">Wayfire 0.11 released</a></li>
@@ -50,12 +53,75 @@
 <li><a href="#https://lwn.net/Articles/1085314/" title="See Description">A Debian general resolution on LLM usage</a></li>
 <li><a href="#https://lwn.net/Articles/1085021/" title="See Description">In remembrance of Dan Williams</a></li>
 <li><a href="#https://lwn.net/Articles/1085272/" title="See Description">Security updates for Saturday</a></li>
-<li><a href="#https://lwn.net/Articles/1085030/" title="See Description">GNU C Library 2.44 released</a></li>
-<li><a href="#https://lwn.net/Articles/1085026/" title="See Description">New stable kernel for ext4 users</a></li>
-<li><a href="#https://lwn.net/Articles/1084921/" title="See Description">Hefty stable kernel updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1086047/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 29 Jul 2026 17:00:36 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086047/" title="https://lwn.net/Articles/1086047/">Three stable kernels for Wednesday fix a single regression</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1086049/">6.12.99</a>, <a
+href="https://lwn.net/Articles/1086050/">6.6.146</a>, <a
+href="https://lwn.net/Articles/1086051/">6.1.179</a> stable kernels. This batch of
+stable kernels includes a single fix for a <a
+href="https://lore.kernel.org/all/CAHmU7GkfHNdA-sph9mBf-s+a=9m22KcGTq6r=78=qSf5BKBgag@mail.gmail.com/">regression</a>
+caused by <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=6650527444dadc63d84aa939d14ecba4fadb2f69">this
+commit</a>. Users of those kernels should upgrade.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1085609/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 29 Jul 2026 15:44:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085609/" title="https://lwn.net/Articles/1085609/">[$] Fedora approves a smaller GRUB</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Leo Sandoval and Marta Lewandowska have put forward a <a
+href="https://fedoraproject.org/wiki/Changes/Grub2LightForConfidentialComputing#Detailed_Description">change
+proposal</a> for Fedora&#160;45, which is expected in October, to
+provide a separate, slimmed-down version of <a
+href="https://www.gnu.org/software/grub/">GRUB</a> for a niche use
+case. The new package would be in addition to the main GRUB package
+and would not replace it for the majority of Fedora users. The idea
+met with some resistance from Fedora contributors who thought that it
+would be better to use <a
+href="https://www.freedesktop.org/software/systemd/man/latest/systemd-boot.html">systemd-boot</a>,
+or another modern bootloader, rather than trying to wrangle GRUB into
+a suitable state for the use case. The Fedora Engineering Steering
+Council (FESCo), however, <a
+href="https://forge.fedoraproject.org/fesco/tickets/issues/3626#issuecomment-1058486">voted
+to accept the change</a> on July&#160;7.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1086041/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 29 Jul 2026 14:38:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086041/" title="https://lwn.net/Articles/1086041/">GCC steering committee announces AI policy</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The GCC steering committee has <a
+href="https://lwn.net/ml/all/CAGWvny=KZcazorvmCU3gdT4dBcMJm6S_769Ne+aTfbO_nZ_HsQ@mail.gmail.com/">announced</a>
+that it has accepted <a
+href="https://forge.sourceware.org/redi/gcc-wwwdocs/commit/4d0793a6a14bf9bfe9e92ac1599840780355199d">an
+AI contributions policy</a> recommended by the GCC AI policy working
+group.</p>
+
+<p>The policy, in part, states that the project will decline any
+"<q>legally significant contributions which include LLM-generated
+content or are derived from LLM-generated content</q>". It uses the <a
+href="https://www.gnu.org/prep/maintain/maintain.html#Legally-Significant">definition</a>
+of "legally significant" from the GNU Project maintainer guidelines,
+which holds that the threshold is "<q>around 15 lines of code and/or
+text</q>" to qualify as significant for copyright purposes. GCC
+maintainers may, however, choose to accept legally significant test
+cases that are generated by an LLM.</p>
+
+<p>The policy does not forbid use of LLMs for research, analysis, bug
+discovery and reporting, patch review, etc. as long as the output is
+not included in contributions. The committee says that it expects the
+policy will evolve and will be revisited periodically.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1086031/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 29 Jul 2026 13:11:23 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -227,48 +293,6 @@ him by.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (compat-openssl11, java-1.8.0-openjdk, java-17-openjdk, kernel, kernel-rt, and sssd), <b>Debian</b> (exim4), <b>Fedora</b> (chromium, dotnet10.0, mbedtls, mupdf, netatalk, python-django5, skopeo, sssd, and wget1), <b>Mageia</b> (libevent and transmission), <b>Oracle</b> (.NET 8.0, 389-ds-base, aardvark-dns, acl, buildah, cifs-utils, dovecot, dracut, galera and mariadb11.8, glibc, hplip, kernel, libxml2, nginx, openexr, podman, postgresql18, rsync, thunderbird, and vim), and <b>SUSE</b> (389-ds, afterburn, agama, alsa, apache-commons-compress, apache-ivy, brotli-java, zstd-jni, avahi, aws-nitro-enclaves-cli, cockpit, cockpit-machines, cockpit-packages, cockpit- podman, cockpit-repos, cockpit-subscriptions, container-suseconnect, containerd, cosign, cryptsetup, curl, dash, dnsmasq, docker, docker-compose, ffmpeg, firefox, freetype2, gawk, gh, glib-networking, glib2, go1.25, go1.25-openssl, go1.26, go1.26-openssl, google-guest-agent, google-osconfig-agent, gpg2, gsasl, gstreamer-plugins-bad, gzip, haproxy, hauler, helm, helm3, ImageMagick, imagemagick, iproute2, java-11-openjdk, java-26-openjdk, jline3, joe, jq, kernel, kernel-devel, krb5, kubevirt, libgcrypt, libpng12, libqt4, libssh2_org, libXfont2, libxml2, mariadb-connector-c, microcode_ctl, multipath-tools, nasm, net-tools, nghttp2, nmap, ntfs-3g_ntfsprogs, openexr, packagekit, pam, patch, perl, perl-DBI, perl-dbi, perl-http-date, perl-libwww-perl, perl-xml-bare, php8, prometheus-ha_cluster_exporter, python-aiohttp, python-cryptography, python-dulwich, python-idna, python-maturin, python-mistune, python-msgpack, python-paramiko, python-Pillow, python-pyasn1, python-soupsieve, python-sqlparse, python-tornado, python-tornado6, python-urllib3, python313, python313-pandas, python314, qemu, radvd, rootlesskit, rpcbind, ruby3.4, runc, s390-tools, shibboleth-sp, sssd, systemd, systemd, systemd-mini, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, terraform-provider-susepubliccloud, tiff, tomcat, tomcat10, tomcat11, uriparser, vim, vorbis-tools, wget, wpa_supplicant, xwayland, and yelp).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1085030/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 25 Jul 2026 13:44:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085030/" title="https://lwn.net/Articles/1085030/">GNU C Library 2.44 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://lwn.net/ml/all/teaVXxrfQH2qv0xBul7sXg@gentoo.org">Version 2.44</a> of the
-GNU C Library has been released.  Changes include a new
-<tt>/etc/tunables.conf</tt> file for the system-wide setting of tunable
-parameters, a new tunable to control the use of transparent huge pages for
-read-only executable segments, a number of math-function improvements, a
-handful of security fixes, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1085026/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 25 Jul 2026 13:09:38 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085026/" title="https://lwn.net/Articles/1085026/">New stable kernel for ext4 users</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1085025/">6.12.98</a> stable Linux kernel with a
-single fix for a file descriptor leak in ext4. Users of the ext4
-filesystem should upgrade.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1084921/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 24 Jul 2026 17:01:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1084921/" title="https://lwn.net/Articles/1084921/">Hefty stable kernel updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1084922/">7.1.5</a>, <a
-href="https://lwn.net/Articles/1084923/">6.18.40</a>, <a
-href="https://lwn.net/Articles/1084924/">6.12.97</a>, <a
-href="https://lwn.net/Articles/1084925/">6.6.145</a>, <a
-href="https://lwn.net/Articles/1084926/">6.1.178</a>, <a
-href="https://lwn.net/Articles/1084927/">5.15.212</a>, and <a
-href="https://lwn.net/Articles/1084928/">5.10.261</a> stable Linux kernels.</p>
-
-<p>This batch of kernels includes a hefty set of updates, possibly the largest ever. <a
-href="https://lwn.net/ml/all/20260721152552.646164743@linuxfoundation.org/">7.1.5-rc1</a>,
-for example, included more than 2,000 patches, <a
-href="https://lwn.net/ml/all/20260721152514.750365251@linuxfoundation.org/">6.18.40-rc1</a>
-included 1,611 patches, and so forth. Users are advised to upgrade.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
