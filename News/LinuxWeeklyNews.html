@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1085617/" title="See Description">[$] Reconsidering O_CREAT|O_DIRECTORY</a></li>
+<li><a href="#https://lwn.net/Articles/1086226/" title="See Description">Another batch of single-fix stable kernels</a></li>
+<li><a href="#https://lwn.net/Articles/1086225/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1084315/" title="See Description">[$] LWN.net Weekly Edition for July 30, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1083985/" title="See Description">[$] Debugging information for inlined functions</a></li>
 <li><a href="#https://lwn.net/Articles/1086047/" title="See Description">Three stable kernels for Wednesday fix a single regression</a></li>
@@ -50,12 +53,56 @@
 <li><a href="#https://lwn.net/Articles/1085855/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1084015/" title="See Description">[$] Hazard pointers for the kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1085566/" title="See Description">GNU Binutils 2.47 released</a></li>
-<li><a href="#https://lwn.net/Articles/1085554/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1085422/" title="See Description">Kernel prepatch 7.2-rc5</a></li>
-<li><a href="#https://lwn.net/Articles/1085314/" title="See Description">A Debian general resolution on LLM usage</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1085617/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Jul 2026 14:00:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085617/" title="https://lwn.net/Articles/1085617/">[$] Reconsidering O_CREAT|O_DIRECTORY</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linux provides a system call (<a
+href="https://man7.org/linux/man-pages/man2/mkdir.2.html"><tt>mkdir()</tt></a>)
+to create a directory, and <a
+href="https://man7.org/linux/man-pages/man2/open.2.html">a few variants of
+<tt>open()</tt></a> that can open a directory.  There is, however, no
+system call in Linux that can create and open a directory in a single,
+race-free call.   Jori Koolstra has been working on remedying that
+situation, most recently by repurposing a set of <tt>open()</tt> flags that currently
+return an error.  There are, however, concerns that show just how hard it
+can be to create user-space interfaces that do not present traps for
+application developers.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1086226/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Jul 2026 13:47:45 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086226/" title="https://lwn.net/Articles/1086226/">Another batch of single-fix stable kernels</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1086227/">6.18.41</a>, <a
+href="https://lwn.net/Articles/1086228/">6.12.100</a>, <a
+href="https://lwn.net/Articles/1086229/">6.6.147</a>, <a
+href="https://lwn.net/Articles/1086230/">6.1.180</a>, <a
+href="https://lwn.net/Articles/1086231/">5.15.213</a>, and <a
+href="https://lwn.net/Articles/1086233/">5.10.262</a> stable kernels.</p>
+
+<p>Each of these kernels contains a single fix for a <a
+href="https://git.kernel.org/pub/scm/linux/security/vulns.git/commit/?id=081d2ff9592751aa400828237f17c108e4e1f513">use-after-free
+vulnerability</a> (<a
+href="https://www.cve.org/CVERecord?id=CVE-2026-64560">CVE-2026-64560</a>). Users
+of these kernels are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1086225/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 30 Jul 2026 13:12:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086225/" title="https://lwn.net/Articles/1086225/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gstreamer1-plugins-bad-free, libtiff, libXfont2, nodejs:22, nodejs:24, and rest), <b>Debian</b> (expat and nss), <b>Fedora</b> (libssh, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, nodejs24, perl-HTTP-Date, proftpd, squid, unbound, and wordpress), <b>Oracle</b> (c-ares, edk2, freerdp, go-fdo-server, libreswan, mariadb-connector-c, and nginx), <b>SUSE</b> (alloy, apache-commons-lang3, google-guice, maven, maven-resolver, xmvn, apache-sshd, apptainer, avahi, distribution, glib2, go1.26-openssl, go1.25-openssl, go1.24-openssl, go1.23-openssl, go1.22-openssl, go1.26, go1.25, go1.24, go1.23, go1.22, go1.21, gstreamer-plugins-bad, helm, ImageMagick, java-17-openjdk, java-25-openjdk, liboqs, oqs-provider, libssh, nginx, nm-configurator, nmap, openssl-3, openvpn, PackageKit, perl, perl-DBI, perl-HTTP-Date, perl-XML-Bare, python-msgpack-python, python-sh, python-ujson, python-urllib3, runc, samba, sssd, wget, wpa_supplicant, and xen), and <b>Ubuntu</b> (linux-nvidia, linux-nvidia-7.0 and linux-nvidia-6.17).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1084315/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 30 Jul 2026 00:01:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -275,39 +322,6 @@ undefined instructions for AArch64, and more. The 32-bit s390 target
 has been deprecated with this release.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1085554/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 27 Jul 2026 13:10:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085554/" title="https://lwn.net/Articles/1085554/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, hplip, and linux-6.1), <b>Fedora</b> (firefox, GitPython, google-osconfig-agent, lego, libgit2, libreswan, libwebsockets, moby-engine, p11-kit, pam, python-idna, rust-libgit2-sys, skopeo, systemd, trafficserver, webkitgtk, and xrdp), <b>Mageia</b> (giflib, graphite2, libnfs, vorbis-tools, wget, and yelp), <b>Red Hat</b> (firefox, thunderbird, and webkit2gtk3), and <b>SUSE</b> (amazon-ecs-init, chromedriver, ffmpeg-7, ffmpeg-8, firefox, google-osconfig-agent, gpg2, java-17-openjdk, java-25-openjdk, kernel, libsrt1_5, nginx, perl-HTTP-Date, perl-XML-Bare, proftpd, python-pyasn1, python-soupsieve, python313-astropy, python313-urwid, systemd, thunderbird, and trivy).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1085422/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 26 Jul 2026 22:10:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085422/" title="https://lwn.net/Articles/1085422/">Kernel prepatch 7.2-rc5</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1085421/">7.2-rc5</a> kernel prepatch is out for
-testing.  Linus said: "<q>So it's a bit too big for my liking, but nothing
-in there strikes me as particularly strange or scary</q>".</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1085314/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 25 Jul 2026 23:14:16 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085314/" title="https://lwn.net/Articles/1085314/">A Debian general resolution on LLM usage</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Debian project is <a
-href="https://www.debian.org/vote/2026/vote_002">considering a general
-resolution</a> on the use of large language models in the creation of the
-distribution.  There are three alternatives to consider: a
-total ban on LLM usage, rejecting LLMs "<q>as far as practical</q>", or
-explicitly allowing LLM usage subject to a set of conditions.  The
-discussion period has just begun; the beginning of the voting period does
-not yet appear to have been set.  Those who want to look over the
-discussion ahead of the inevitable LWN article can find it <a
-href="https://lwn.net/ml/all/til24c.3ns3jl2mkmzmn@riseup.net">over here</a>.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
