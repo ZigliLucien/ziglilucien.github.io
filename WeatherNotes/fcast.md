@@ -2,26 +2,26 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of rain showers between noon and 1pm, then a chance of showers and thunderstorms between 1pm and 3pm, then
-         a chance of showers and thunderstorms between 3pm and 5pm, then a slight chance of showers and thunderstorms. Partly sunny.
-         High near 86, with temperatures falling to around 82 in the afternoon. South southeast wind 5 to 8 mph. Chance of precipitation
-         is 40%.<br></div>
+         <h3>This Afternoon</h3>A slight chance of rain showers before 1pm, then a chance of showers and thunderstorms between 1pm and 5pm. Mostly cloudy.
+         High near 86, with temperatures falling to around 82 in the afternoon. South wind around 9 mph. Chance of precipitation is
+         60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms before 10pm, then showers and thunderstorms between 10pm and 3am, then a chance of showers
-         and thunderstorms. Mostly cloudy. Low around 71, with temperatures rising to around 73 overnight. South wind around 9 mph.
-         Chance of precipitation is 80%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms between 8pm and midnight, then showers and thunderstorms between midnight and 2am, then
+         a chance of showers and thunderstorms. Mostly cloudy. Low around 71, with temperatures rising to around 73 overnight. South
+         wind around 10 mph, with gusts as high as 18 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A chance of rain showers. Partly sunny. High near 80, with temperatures falling to around 76 in the afternoon. West southwest
-         wind around 10 mph, with gusts as high as 18 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Saturday</h3>A chance of rain showers between 11am and 4pm, then a slight chance of showers and thunderstorms between 4pm and 5pm. Mostly
+         cloudy. High near 80, with temperatures falling to around 76 in the afternoon. West southwest wind 8 to 12 mph, with gusts
+         as high as 20 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 67. West northwest wind around 10 mph. Chance of precipitation
-         is 50%.<br></div>
+         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms. Mostly cloudy, with a
+         low around 67. West northwest wind around 10 mph, with gusts as high as 18 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
