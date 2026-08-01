@@ -2,23 +2,24 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A chance of showers and thunderstorms after 4pm. Partly sunny. High near 79, with temperatures falling to around 75 in the
-         afternoon. West wind around 9 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Today</h3>A slight chance of rain showers after 2pm. Partly sunny. High near 79, with temperatures falling to around 75 in the afternoon.
+         West wind around 9 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms. Mostly cloudy. Low around 67, with temperatures rising to around 69 overnight. West
-         northwest wind 8 to 12 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Tonight</h3>A chance of rain showers. Mostly cloudy. Low around 67, with temperatures rising to around 69 overnight. West northwest wind
+         8 to 12 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of rain showers. Mostly cloudy. High near 79, with temperatures falling to around 76 in the afternoon. North northwest
-         wind around 13 mph, with gusts as high as 22 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Sunday</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Mostly cloudy. High near 79, with temperatures
+         falling to around 76 in the afternoon. North northwest wind around 13 mph, with gusts as high as 22 mph. Chance of precipitation
+         is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Rain showers likely before 7pm. Partly cloudy, with a low around 66. North northwest wind 5 to 12 mph, with gusts as high
-         as 20 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Sunday Night</h3>A chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 66. North northwest wind 5 to 12 mph, with
+         gusts as high as 20 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
