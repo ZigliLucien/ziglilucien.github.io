@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of drizzle. Mostly cloudy, with a high near 79. North northwest wind around 13 mph, with gusts as high as
+         <h3>This Afternoon</h3>A slight chance of drizzle. Mostly cloudy, with a high near 79. North northwest wind around 13 mph, with gusts as high as
          22 mph.<br></div>
    </p>
    <p>
