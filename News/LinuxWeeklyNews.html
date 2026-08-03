@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1086900/" title="See Description">Four stable kernels for Monday</a></li>
+<li><a href="#https://lwn.net/Articles/1086898/" title="See Description">NetBSD 11.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1086897/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1086727/" title="See Description">Kernel prepatch 7.2-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1086555/" title="See Description">Servo 0.4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1084869/" title="See Description">[$] The future of libraries in BPF</a></li>
@@ -50,12 +53,64 @@
 <li><a href="#https://lwn.net/Articles/1083985/" title="See Description">[$] Debugging information for inlined functions</a></li>
 <li><a href="#https://lwn.net/Articles/1086047/" title="See Description">Three stable kernels for Wednesday fix a single regression</a></li>
 <li><a href="#https://lwn.net/Articles/1085609/" title="See Description">[$] Fedora approves a smaller GRUB</a></li>
-<li><a href="#https://lwn.net/Articles/1086041/" title="See Description">GCC steering committee announces AI policy</a></li>
-<li><a href="#https://lwn.net/Articles/1086031/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1083202/" title="See Description">[$] Progress toward compiling Linux with gccrs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1086900/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Aug 2026 13:42:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086900/" title="https://lwn.net/Articles/1086900/">Four stable kernels for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1086901/">7.1.6</a>, <a
+href="https://lwn.net/Articles/1086903/">6.18.42</a>, <a
+href="https://lwn.net/Articles/1086904/">6.12.101</a>, and <a
+href="https://lwn.net/Articles/1086905/">6.6.148</a> stable kernels. Each contains
+hundreds of patches&mdash;the 7.1.6 kernel has more than
+700&mdash;with fixes throughout the tree. Users are advised to
+upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1086898/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Aug 2026 13:33:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086898/" title="https://lwn.net/Articles/1086898/">NetBSD 11.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The release of <a
+href="https://netbsd.org/">NetBSD</a> 11.0, the 19th major version of the operating
+system, has been <a href="https://lwn.net/Articles/1086899/">announced</a>. There are
+many changes and enhancements since the 10.1 release, including a new
+port to RISC-V, better support for Linux system calls in <a
+href="https://man.netbsd.org/NetBSD-11.0/compat_linux.8"><tt>compat_linux()</tt></a>,
+as well as improvements to the <a
+href="https://man.netbsd.org/NetBSD-11.x-BRANCH/npf.7">NPF</a>
+firewall.</p>
+
+<blockquote class="bq">
+<p>As you are probably aware, the number of security issues found or
+suspected everywhere has massively increased with the advent of AI
+tools. As a consequence, we can't publish a release without open
+issues. Instead of delaying the release further to fix them (new ones
+are being reported all the time), we've instead chosen to be
+transparent about this.</p>
+</blockquote>
+
+<p>See the full <a
+href="https://netbsd.org/releases/formal-11/NetBSD-11.0.html">release
+notes</a> for links to the binary distributions and links to the full
+change logs.</p>
+
+<p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1086897/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Aug 2026 13:12:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086897/" title="https://lwn.net/Articles/1086897/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, fence-agents, kernel, kernel-rt, openssh, osbuild-composer, perl-Archive-Tar, perl-DBI, perl:5.32, pipewire, python-pillow, qemu-kvm, unbound, and vim), <b>Debian</b> (chromium, incus, kernel, kissfft, libgd2, libmodbus, libssh, node-tar, php8.4, poppler, python-authlib, sslh, and starlette), <b>Fedora</b> (borgbackup, coturn, curl, exim, fuse-overlayfs, gh, GitPython, goaccess, lemonldap-ng, libgit2, nextcloud, nsd, php, postgresql16, python3.12, rabbitmq-server, rust-libgit2-sys, and xen), <b>Mageia</b> (bluez, firmware, kernel, kmod, wireless-regdb), <b>Oracle</b> (buildah, compat-libtiff3, dovecot, fence-agents, firefox, gimp, glibc, grafana, gstreamer1-plugins-bad-free, java-25-openjdk, kernel, libgcrypt, libtiff, libXfont2, nodejs24, nodejs:22, nodejs:24, openssh, openssl, PackageKit, pipewire, python-pillow, rest, sssd, vim, and yelp), <b>SUSE</b> (bind, chromium, dnsdist, gdk-pixbuf-loader-libheif, gio-branding-upstream, google-guest-agent, govulncheck-vulndb, GraphicsMagick, ignition, ImageMagick, keybase-client, kronosnet, libblkid-devel, libntpc1, libpng16, nano, openssh, openssl-1_0_0, openssl-3, openvpn, PackageKit, perl-mojolicious, php8, python-nltk, python313-asteval, python313-certifi, python313-GitPython, python313-huggingface-hub, rsyslog, tomcat, tomcat10, tomcat11, traefik2, valkey, warewulf4, webkit2gtk3, and yq), and <b>Ubuntu</b> (linux-intel-iotg).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1086727/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 03 Aug 2026 00:11:08 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -266,70 +321,6 @@ a suitable state for the use case. The Fedora Engineering Steering
 Council (FESCo), however, <a
 href="https://forge.fedoraproject.org/fesco/tickets/issues/3626#issuecomment-1058486">voted
 to accept the change</a> on July&#160;7.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1086041/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 Jul 2026 14:38:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086041/" title="https://lwn.net/Articles/1086041/">GCC steering committee announces AI policy</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The GCC steering committee has <a
-href="https://lwn.net/ml/all/CAGWvny=KZcazorvmCU3gdT4dBcMJm6S_769Ne+aTfbO_nZ_HsQ@mail.gmail.com/">announced</a>
-that it has accepted <a
-href="https://forge.sourceware.org/redi/gcc-wwwdocs/commit/4d0793a6a14bf9bfe9e92ac1599840780355199d">an
-AI contributions policy</a> recommended by the GCC AI policy working
-group.</p>
-
-<p>The policy, in part, states that the project will decline any
-"<q>legally significant contributions which include LLM-generated
-content or are derived from LLM-generated content</q>". It uses the <a
-href="https://www.gnu.org/prep/maintain/maintain.html#Legally-Significant">definition</a>
-of "legally significant" from the GNU Project maintainer guidelines,
-which holds that the threshold is "<q>around 15 lines of code and/or
-text</q>" to qualify as significant for copyright purposes. GCC
-maintainers may, however, choose to accept legally significant test
-cases that are generated by an LLM.</p>
-
-<p>The policy does not forbid use of LLMs for research, analysis, bug
-discovery and reporting, patch review, etc. as long as the output is
-not included in contributions. The committee says that it expects the
-policy will evolve and will be revisited periodically.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1086031/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 Jul 2026 13:11:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086031/" title="https://lwn.net/Articles/1086031/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (dovecot, go-fdo-client, go-fdo-server, kernel, kernel-rt, and sssd), <b>Debian</b> (calibre, hplip, libraw, and samba), <b>Fedora</b> (btrbk, chromium, gpsd, kronosnet, and restic), <b>Mageia</b> (gstreamer1.0-libav and libslirp), <b>Slackware</b> (libarchive, samba, and seamonkey), <b>SUSE</b> (agama-web-ui, chromium, gimp, glib2, GraphicsMagick, ignition, ImageMagick, java-21-openjdk, libssh, libssh-config, nginx, nmap, nsd, python-urllib3, python313-CherryPy, rsyslog, samba, sssd, valkey, webkit2gtk3, and yq), and <b>Ubuntu</b> (freerdp3, linux, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure, linux-azure-5.4, linux-azure-fips, linux-bluefield, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-iot, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-azure-fips, linux-ibm, linux-ibm-5.4, linux-kvm, and linux-raspi, linux-raspi-5.4).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1083202/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 28 Jul 2026 17:40:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083202/" title="https://lwn.net/Articles/1083202/">[$] Progress toward compiling Linux with gccrs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The <a href="https://rust-gcc.github.io/">
-<tt>gccrs</tt> project</a>, which is creating a Rust frontend for the GCC compiler, has
-spent the first half of 2026 focusing on compiling the Linux
-kernel. By testing the compiler against the kernel crates, the
-development team has made significant progress toward generating correct code
-for other Rust programs. As detailed in the project's
-<a href="https://github.com/Rust-GCC/Reporting/tree/main/2026">
-weekly</a> and
-<a href="https://rust-gcc.github.io/#status-reports">
-monthly</a> reports, this effort has uncovered and resolved problems
-in areas such as
-attribute handling (described in the
-<a href="https://rust-gcc.github.io/2026/03/10/2026-02-monthly-report.html">
-report for February</a>), name resolution, and resource management (both
-<a href="https://rust-gcc.github.io/2026/06/02/2026-05-monthly-report.html">
-detailed in the May report</a>). Currently, the compiler can only handle simple
-standalone programs, but that situation could change rapidly in the coming
-months.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
