@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-08-03T08:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-08-03T06:56:01+00:00</updateTime>
-		<validTimes type="str">2026-08-03T00:00:00+00:00/P8DT1H</validTimes>
+		<generatedAt type="str">2026-08-03T10:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-08-03T09:31:11+00:00</updateTime>
+		<validTimes type="str">2026-08-03T03:00:00+00:00/P7DT22H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-08-03T03:00:00-05:00</startTime>
+				<startTime type="str">2026-08-03T05:00:00-05:00</startTime>
 				<endTime type="str">2026-08-03T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">64</temperature>
@@ -62,11 +62,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">N</windDirection>
+				<windSpeed type="str">1 mph</windSpeed>
+				<windDirection type="str">NW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/fog?size=medium</icon>
 				<shortForecast type="str">Patchy Fog</shortForecast>
-				<detailedForecast type="str">Patchy fog. Mostly clear, with a low around 64. North wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Patchy fog. Mostly clear. Low around 64, with temperatures rising to around 67 overnight. Northwest wind around 1 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -82,10 +82,10 @@
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">NNE</windDirection>
+				<windDirection type="str">N</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/fog/few?size=medium</icon>
 				<shortForecast type="str">Patchy Fog then Sunny</shortForecast>
-				<detailedForecast type="str">Patchy fog before 9am. Sunny, with a high near 85. North northeast wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Patchy fog before 9am. Sunny, with a high near 85. North wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
