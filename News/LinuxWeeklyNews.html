@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1086953/" title="See Description">C-Kermit 11 released</a></li>
 <li><a href="#https://lwn.net/Articles/1085618/" title="See Description">[$] Buffer sizes for FUSE io_uring</a></li>
 <li><a href="#https://lwn.net/Articles/1086936/" title="See Description">SQLite Critical CVEs or LLM Slop? (JFrog blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1086900/" title="See Description">Four stable kernels for Monday</a></li>
@@ -52,10 +53,37 @@
 <li><a href="#https://lwn.net/Articles/1086226/" title="See Description">Another batch of single-fix stable kernels</a></li>
 <li><a href="#https://lwn.net/Articles/1086225/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1084315/" title="See Description">[$] LWN.net Weekly Edition for July 30, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1083985/" title="See Description">[$] Debugging information for inlined functions</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1086953/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Aug 2026 18:15:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086953/" title="https://lwn.net/Articles/1086953/">C-Kermit 11 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>For those of us with a long memory: John Goerzen has <a
+href="https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase">announced</a>
+the release of C-Kermit&#160;11, the first release of this file-transfer
+utility in 15&#160;years.
+<p>
+<blockquote class="bq">
+	As Debian maintainer of Kermit, I noticed some areas where it
+	wasn't matching modern expectations. One area was, not surprising
+	for a project of its age, security. Another area was that its
+	character set or line-ending conversions are usually not desired
+	now; we are used to byte-identical binary transfers, and the
+	defaults caused confusion and even some rare instances of data
+	corruption. So I started making a few patches last year.
+</blockquote>
+<p>
+See <a
+href="https://github.com/OpenKermit/ckermit/releases/tag/v11.0.506">the
+changelog</a> for details on the work that has been done.
+<p>
+Most of us probably haven't thought about C-Kermit in years (if ever), but
+there was a time when it was an essential tool for moving files between
+machines.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1085618/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 03 Aug 2026 16:05:10 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -314,26 +342,6 @@ of these kernels are advised to upgrade.</p>
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1083985/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 Jul 2026 18:05:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1083985/" title="https://lwn.net/Articles/1083985/">[$] Debugging information for inlined functions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-BPF programs use
-<a href="https://docs.kernel.org/bpf/btf.html">
-BPF type format</a> (BTF) debugging information in order to
-determine how to interact with functions in the kernel. Specifically, tracing a
-kernel function involves finding its address in the kernel's BTF section — but
-that doesn't work for functions that have been inlined, and therefore don't have
-a single, specific address. Alan Maguire wants to add information about inlined
-functions to BTF in order to allow them to be traced, and led a session on that
-topic at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
