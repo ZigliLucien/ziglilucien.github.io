@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1085618/" title="See Description">[$] Buffer sizes for FUSE io_uring</a></li>
+<li><a href="#https://lwn.net/Articles/1086936/" title="See Description">SQLite Critical CVEs or LLM Slop? (JFrog blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1086900/" title="See Description">Four stable kernels for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1086898/" title="See Description">NetBSD 11.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1086897/" title="See Description">Security updates for Monday</a></li>
@@ -51,11 +53,58 @@
 <li><a href="#https://lwn.net/Articles/1086225/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1084315/" title="See Description">[$] LWN.net Weekly Edition for July 30, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1083985/" title="See Description">[$] Debugging information for inlined functions</a></li>
-<li><a href="#https://lwn.net/Articles/1086047/" title="See Description">Three stable kernels for Wednesday fix a single regression</a></li>
-<li><a href="#https://lwn.net/Articles/1085609/" title="See Description">[$] Fedora approves a smaller GRUB</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1085618/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Aug 2026 16:05:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085618/" title="https://lwn.net/Articles/1085618/">[$] Buffer sizes for FUSE io_uring</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://docs.kernel.org/filesystems/fuse/">Filesystem in
+Userspace</a> (FUSE) subsystem provides a way to service filesystem
+requests from a user-space server, which moves the format-handling code out
+of the kernel.  The FUSE server can <a
+href="https://www.kernel.org/doc/html/next/filesystems/fuse-io-uring.html">use</a> the <a
+href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring</a>
+facility for better performance, but Bernd Schubert is concerned that
+memory is being wasted because the current implementation has a single,
+large buffer size that is excessive for small <span
+class="nobreak">I/O</span> operations.  He led a discussion on that topic
+in the filesystem track of the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> in Zagreb, Croatia.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1086936/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 03 Aug 2026 14:59:31 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086936/" title="https://lwn.net/Articles/1086936/">SQLite Critical CVEs or LLM Slop? (JFrog blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The JFrog blog <a
+href="https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/">examines
+some reported vulnerabilities in SQLite</a>, some of which made their way
+into high-profile vulnerability databases, that turned out to be entirely
+fabricated by LLMs.
+<p>
+<blockquote class="bq">
+	These LLM slop CVEs can cause organizations to waste time
+	investigating and patching vulnerabilities that do not actually
+	exist, as well as polluting vulnerability databases. In
+	environments where Critical vulnerabilities are automatically
+	prioritized or tickets are opened based on vulnerability scores,
+	such fabricated CVEs can turn into a real burden.
+<p>
+	In environments where AI is used to automate vulnerability triage
+	and remediation this becomes even more concerning. An AI agent that
+	encounters a fabricated CVE may attempt to locate the vulnerable
+	function, generate a patch, or recommend changes based on code that
+	does not even exist. Instead of helping security teams remediate
+	real vulnerabilities, it can lead them down a completely wrong
+	path, potentially introducing unnecessary changes and wasting time.
+</blockquote>
+<p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1086900/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 03 Aug 2026 13:42:58 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,43 +333,6 @@ topic at the 2026
 <a href="https://events.linuxfoundation.org/lsfmmbpf/">
 Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1086047/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 Jul 2026 17:00:36 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086047/" title="https://lwn.net/Articles/1086047/">Three stable kernels for Wednesday fix a single regression</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1086049/">6.12.99</a>, <a
-href="https://lwn.net/Articles/1086050/">6.6.146</a>, and <a
-href="https://lwn.net/Articles/1086051/">6.1.179</a> stable kernels. This batch of
-stable kernels includes a single fix for a <a
-href="https://lore.kernel.org/all/CAHmU7GkfHNdA-sph9mBf-s+a=9m22KcGTq6r=78=qSf5BKBgag@mail.gmail.com/">regression</a>
-caused by <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=6650527444dadc63d84aa939d14ecba4fadb2f69">this
-commit</a>. Users of those kernels should upgrade.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1085609/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 29 Jul 2026 15:44:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085609/" title="https://lwn.net/Articles/1085609/">[$] Fedora approves a smaller GRUB</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Leo Sandoval and Marta Lewandowska have put forward a <a
-href="https://fedoraproject.org/wiki/Changes/Grub2LightForConfidentialComputing#Detailed_Description">change
-proposal</a> for Fedora&#160;45, which is expected in October, to
-provide a separate, slimmed-down version of <a
-href="https://www.gnu.org/software/grub/">GRUB</a> for a niche use
-case. The new package would be in addition to the main GRUB package
-and would not replace it for the majority of Fedora users. The idea
-met with some resistance from Fedora contributors who thought that it
-would be better to use <a
-href="https://www.freedesktop.org/software/systemd/man/latest/systemd-boot.html">systemd-boot</a>,
-or another modern bootloader, rather than trying to wrangle GRUB into
-a suitable state for the use case. The Fedora Engineering Steering
-Council (FESCo), however, <a
-href="https://forge.fedoraproject.org/fesco/tickets/issues/3626#issuecomment-1058486">voted
-to accept the change</a> on July&#160;7.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
