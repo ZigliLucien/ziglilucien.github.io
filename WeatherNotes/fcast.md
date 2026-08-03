@@ -2,8 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of drizzle before 7pm, then patchy fog. Mostly clear, with a low around 64. North northwest wind around 6
-         mph, with gusts as high as 18 mph.<br></div>
+         <h3>Tonight</h3>Patchy fog after 4am. Mostly clear, with a low around 64. North northwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
