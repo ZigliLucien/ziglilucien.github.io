@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1086488/" title="See Description">[$] Fedora considers conflict-of-interest policy</a></li>
+<li><a href="#https://lwn.net/Articles/1087108/" title="See Description">Another npm worm</a></li>
 <li><a href="#https://lwn.net/Articles/1086330/" title="See Description">[$] The beginning of a process-builder API</a></li>
 <li><a href="#https://lwn.net/Articles/1087068/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1086976/" title="See Description">Twenty years of Pandoc</a></li>
@@ -51,11 +53,51 @@
 <li><a href="#https://lwn.net/Articles/1086555/" title="See Description">Servo 0.4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1084869/" title="See Description">[$] The future of libraries in BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1086489/" title="See Description">Arch Linux disables AUR package adoption</a></li>
-<li><a href="#https://lwn.net/Articles/1086487/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1085617/" title="See Description">[$] Reconsidering O_CREAT|O_DIRECTORY</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1086488/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 04 Aug 2026 16:43:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086488/" title="https://lwn.net/Articles/1086488/">[$] Fedora considers conflict-of-interest policy</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://docs.fedoraproject.org/en-US/council/">Fedora
+Council</a> is <a
+href="https://forge.fedoraproject.org/council/tickets/issues/513">considering</a>
+a conflict-of-interest (COI) policy for its decision-making bodies,
+such as the <a
+href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering
+Steering Committee</a> (FESCo), special-interest groups (SIGs), and
+any other groups or individuals that report to the council and
+are responsible for decisions that impact the Fedora project. The
+current draft does not, however, apply to the council itself. The <a
+href="https://discussion.fedoraproject.org/t/conflict-of-interest-guidelines-policy-draft-feedback-please/197508">public
+discussion</a> for the COI policy began on July&#160;23 and seems to be
+nearing completion, with the council set to discuss the topic again
+during its meeting on August&#160;13.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1087108/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 04 Aug 2026 14:54:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087108/" title="https://lwn.net/Articles/1087108/">Another npm worm</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+<a href="https://www.stepsecurity.io">
+StepSecurity</a> is 
+<a href="https://www.stepsecurity.io/blog/chaindrop-npm-worm">
+reporting</a> the emergence of a new worm affecting npm packages.
+The design of the worm is nothing new, but the rapidity with which it is
+exploiting captured npm
+packager credentials is noteworthy.
+</p>
+
+<blockquote class="bq">
+<p>
+TL;DR: A self-propagating worm, which we are calling ChainDrop, is spreading rapidly through the npm ecosystem. So far 435 packages and more than 1,550 compromised versions have been flagged, starting with keyv@6.0.0. If you are using any of the packages listed below, assume your environment is compromised. We are still investigating the full scope; check back on this post for updates.
+</p>
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1086330/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 04 Aug 2026 13:27:51 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -335,32 +377,6 @@ on July&#160;13 after the DevOps team added some minor, and apparently
 ineffective, restrictions on creating new accounts.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1086487/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 31 Jul 2026 13:08:05 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086487/" title="https://lwn.net/Articles/1086487/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, nodejs-nodemon, nodejs22, nodejs24, openssh, and vim), <b>Debian</b> (gsasl and ruby-rack), <b>Fedora</b> (dokuwiki, lego, libnbd, nasm, pack, unbound, and valkey), <b>Mageia</b> (389-ds-base, libxfont2, nghttp2, and perl-DBI), <b>SUSE</b> (apptainer, bind, ffmpeg-7, freerdp, google-osconfig-agent, graphicsmagick, helm, ImageMagick, java-17-openjdk, java-25-openjdk, keybase-client, kubernetes1.34-apiserver, kubernetes1.35-apiserver, kubernetes1.36-apiserver, kubevirt1.8-container-disk, libarchive, logcli, net-tools, openssl-3, PackageKit, perl-Net-DNS, prometheus-ha_cluster_exporter, python-dulwich, python-sqlparse, python-urwid, python3-pyOpenSSL, python313, python3, runc, s2n, tomcat, tomcat10, tomcat11, and valkey), and <b>Ubuntu</b> (libinput, linux-intel-iot-realtime, linux-intel-iotg-5.15, openssl, python2.7, python3.5, and ruby-sinatra).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1085617/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 30 Jul 2026 14:00:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085617/" title="https://lwn.net/Articles/1085617/">[$] Reconsidering O_CREAT|O_DIRECTORY</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linux provides a system call (<a
-href="https://man7.org/linux/man-pages/man2/mkdir.2.html"><tt>mkdir()</tt></a>)
-to create a directory, and <a
-href="https://man7.org/linux/man-pages/man2/open.2.html">a few variants of
-<tt>open()</tt></a> that can open a directory.  There is, however, no
-system call in Linux that can create and open a directory in a single,
-race-free call.   Jori Koolstra has been working on remedying that
-situation, most recently by repurposing a set of <tt>open()</tt> flags that currently
-return an error.  There are, however, concerns that show just how hard it
-can be to create user-space interfaces that do not present traps for
-application developers.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
