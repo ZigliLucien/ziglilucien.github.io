@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1087162/" title="See Description">An LLM agent attempts to compromise a project on GitHub</a></li>
 <li><a href="#https://lwn.net/Articles/1086488/" title="See Description">[$] Fedora considers conflict-of-interest policy</a></li>
 <li><a href="#https://lwn.net/Articles/1087108/" title="See Description">Another npm worm</a></li>
 <li><a href="#https://lwn.net/Articles/1086330/" title="See Description">[$] The beginning of a process-builder API</a></li>
@@ -52,10 +53,45 @@
 <li><a href="#https://lwn.net/Articles/1086727/" title="See Description">Kernel prepatch 7.2-rc6</a></li>
 <li><a href="#https://lwn.net/Articles/1086555/" title="See Description">Servo 0.4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1084869/" title="See Description">[$] The future of libraries in BPF</a></li>
-<li><a href="#https://lwn.net/Articles/1086489/" title="See Description">Arch Linux disables AUR package adoption</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1087162/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 04 Aug 2026 23:04:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087162/" title="https://lwn.net/Articles/1087162/">An LLM agent attempts to compromise a project on GitHub</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The AI Security Institute has released <a
+href="https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing">a
+detailed report</a> on an security incident of its own making.  The
+Institute set some LLM agents loose on the Internet with a security
+challenge; soon they were creating malware-laden pull requests and
+sock-puppet accounts to promote them.
+<p>
+<blockquote class="bq">
+	The agent opened a malicious pull request (PR) to ⟨REPO_A⟩ and
+	pursued a number of strategies to get it merged:
+<ol class="spacylist">
+<li> Repeatedly commented on the PR with sockpuppet accounts to manufacture
+     consensus and pressure the maintainer into approving with minimal
+     review.
+
+<li> Opened a GitHub Issue in another repository (also owned by ⟨PERSON_A⟩)
+     containing a prompt injection for other coding agents. The malicious
+     instructions were addressed to issue-triage AI coding agents and
+     invisible to humans viewing the website.
+
+<li> Sent multiple emails to ⟨PERSON_A⟩ and ⟨PERSON_B⟩, with different
+     pretexts to get them to run malicious code. Over the course of the
+     sample, the agent sent five emails, some containing malware, others
+     aimed at persuading a maintainer to accept the pull request.
+</ol>
+</blockquote>
+<p>
+It would be surprising if this were the only incident of this type; the
+only real difference here is that the people involved are documenting what
+happened.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1086488/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 04 Aug 2026 16:43:25 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -346,37 +382,6 @@ ecosystem of Rust BPF packages developing, which is significant because BPF
 does not really have a package manager at the moment.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1086489/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 31 Jul 2026 13:38:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086489/" title="https://lwn.net/Articles/1086489/">Arch Linux disables AUR package adoption</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Arch Linux DevOps team has <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/DRDEU3JUSC72CB265XHXPFA3DFSLXPBP/">announced</a>
-that adoption of orphaned packages in the Arch User Repository (AUR)
-has been disabled due to "<q>the current influx of malicious package
-adoptions and follow-up commits made via the AUR</q>". Michael Taggart
-has posted <a
-href="https://discourse.ifin.network/t/new-aur-attack-prompts-adoption-lock/698?">a brief analysis</a> of the malware being added to a <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/P4WIRHTFNH2YZWQHGBAKQWX5YOAFIDLY/">long
-list of packages</a> in this round of attacks. The payload <a
-href="https://gist.github.com/ysf/57850cdee152da066ac51c07a452e883">appears
-to be</a> an remote-access trojan (RAT) that takes commands over the
-Tor network and attempts to upload a wide range of user data.</p>
-
-<p>The project had <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/4JRS73YVTE7JUYHHE3ZDUIHXYHXZ3YQQ/">suspended
-new account registration</a> in June. That followed <a
-href="https://lwn.net/Articles/1077619/">a campaign</a> in which an
-attacker or attackers created new accounts to adopt orphaned packages
-and push malicious updates to them that would install malware on user
-systems. AUR registration was <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/TT3OCFFNM6SBMUBKIVTHTKA6UZJNMXIJ/">reopened</a>
-on July&#160;13 after the DevOps team added some minor, and apparently
-ineffective, restrictions on creating new accounts.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
