@@ -2,25 +2,25 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Showers and thunderstorms likely before 1pm, then a chance of showers and thunderstorms between 1pm and 4pm. Partly sunny,
-         with a high near 84. South southwest wind around 3 mph. Chance of precipitation is 60%.<br></div>
+         <h3>This Afternoon</h3>A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near
+         84. South southwest wind around 5 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms after 8pm. Mostly cloudy. Low around 71, with temperatures rising to around 73 overnight.
-         Southeast wind around 3 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Tonight</h3>A slight chance of showers and thunderstorms between 10pm and midnight, then a chance of showers and thunderstorms between
+         midnight and 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 71. South southeast wind around
+         5 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 11am, then a
-         chance of showers and thunderstorms. Partly sunny. High near 90, with temperatures falling to around 88 in the afternoon.
-         South southwest wind 2 to 6 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Friday</h3>A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 4pm, then a slight
+         chance of showers and thunderstorms. Partly sunny, with a high near 89. South southwest wind 2 to 6 mph. Chance of precipitation
+         is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 10pm, then a
-         chance of showers and thunderstorms between 10pm and 4am, then a chance of showers and thunderstorms. Partly cloudy, with
-         a low around 71. Southwest wind around 5 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Friday Night</h3>A chance of showers and thunderstorms before 4am, then a chance of showers and thunderstorms. Partly cloudy, with a low around
+         71. Southwest wind around 5 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
