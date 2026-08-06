@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1087567/" title="See Description">Six stable kernels with a security fix</a></li>
 <li><a href="#https://lwn.net/Articles/1086947/" title="See Description">[$] Bringing BPF to binfmt_misc</a></li>
 <li><a href="#https://lwn.net/Articles/1087490/" title="See Description">Rust Coreutils 0.10 released</a></li>
 <li><a href="#https://lwn.net/Articles/1087489/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,30 @@
 <li><a href="#https://lwn.net/Articles/1087108/" title="See Description">Another npm worm</a></li>
 <li><a href="#https://lwn.net/Articles/1086330/" title="See Description">[$] The beginning of a process-builder API</a></li>
 <li><a href="#https://lwn.net/Articles/1087068/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1086976/" title="See Description">Twenty years of Pandoc</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1087567/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 06 Aug 2026 18:13:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087567/" title="https://lwn.net/Articles/1087567/">Six stable kernels with a security fix</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1087568/">7.1.7</a>, <a
+href="https://lwn.net/Articles/1087569/">6.18.43</a>, <a
+href="https://lwn.net/Articles/1087570/">6.6.149</a>, <a
+href="https://lwn.net/Articles/1087571/">6.1.181</a>, <a
+href="https://lwn.net/Articles/1087572/">5.15.214</a>, and <a
+href="https://lwn.net/Articles/1087573/">5.10.263</a> stable kernels. These kernels
+fix a <a
+href="https://lwn.net/ml/all/2026080631-CVE-2026-68480-ad40%40gregkh/">single
+security vulnerability</a> (<a
+href="https://www.cve.org/CVERecord/?id=CVE-2026-68480">CVE-2026-68480</a>)
+that could allow data leakage through speculative execution. Users of
+those kernels are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1086947/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 06 Aug 2026 13:47:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -320,42 +341,6 @@ API for Linux might look like.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (frr, ldns, mingw-glib2, and perl-Archive-Tar), <b>Debian</b> (ruby2.7), <b>Fedora</b> (borgbackup, nebula, python-nh3, rust-ammonia, and seamonkey), <b>Mageia</b> (librabbitmq, libvncserver, packages, perl, perl-GD, perl-Unicode-LineBreak, squid, and unbound), <b>Oracle</b> (compat-libtiff3, frr, gstreamer1-plugins-good, javapackages-tools:201801, libreswan, nodejs:22, nodejs:24, p11-kit, perl-Archive-Tar, perl-DBI, php, pki-deps:10.6, and python-tornado), and <b>SUSE</b> (aws-iam-authenticator, bind, containerd, gawk, google-cloud-sap-agent, ignition, ImageMagick, java-11-openjdk, libpng16, libssh, mcphost, nginx, openssh, openssl-1_1, perl-DBI, perl-HTTP-Date, perl-Net-DNS, python-urwid, python3-dulwich, python312, python313, python3, python313-pydantic, python313-sentry-sdk, rrdtool, s390-tools, samba, spice-vdagent, vim, and xen).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1086976/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 03 Aug 2026 21:18:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086976/" title="https://lwn.net/Articles/1086976/">Twenty years of Pandoc</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>John MacFarlane has published a <a
-href="https://pandoc.org/twenty-years-of-pandoc.html">lengthy
-retrospective</a> to commemorate twenty years of the <a
-href="https://pandoc.org/">Pandoc</a> document converter.</p>
-
-<blockquote class="bq">
-<p>On August 3, 2006, I uploaded the first version of pandoc to my
-website, releasing it under the free GPL license. Pandoc 0.1 consisted
-of about 3000 lines of Haskell code, with no dependencies aside from
-GHC's standard library. It could convert Markdown, reStructuredText,
-HTML, and LaTeX documents into any of these formats, plus RTF or S5. I
-had no idea at the time that this would just be the first of over two
-hundred releases over the next twenty years; that the project would
-become the <a
-href="https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Haskell.md">most
-popular program written in Haskell</a>; that I would spend countless
-hours on bug-fixes, improvement, and project management; that I would
-collaborate with programmers in many other countries; that pandoc
-would come to support over fifty document formats; that it would allow
-automatic generation of citations and bibliographies; that it would
-become integrated into academic writing tools like <a
-href="https://quarto.org/">Quarto</a> and <a
-href="https://jupyter.org/">Jupyter Notebook</a>; that it would be
-installed on millions of computers around the world.</p>
-
-<p>How did this happen? I want to take advantage of pandoc's birthday
-to tell the story of the project, as best I can remember it.</p>
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
