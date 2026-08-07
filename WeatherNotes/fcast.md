@@ -2,24 +2,23 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>A slight chance of showers and thunderstorms before midnight, then a chance of showers and thunderstorms between midnight
-         and 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 71. South southeast wind around 3 mph.
-         Chance of precipitation is 50%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms after midnight. Mostly cloudy, with a low around 71. South southeast wind around 2 mph.
+         Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A chance of showers and thunderstorms before 7am, then a chance of showers and thunderstorms between 7am and 4pm, then a slight
-         chance of showers and thunderstorms. Partly sunny. High near 89, with temperatures falling to around 86 in the afternoon.
-         South southwest wind 2 to 6 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Friday</h3>A chance of showers and thunderstorms. Mostly sunny. High near 89, with temperatures falling to around 86 in the afternoon.
+         South southwest wind 2 to 7 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A slight chance of showers and thunderstorms. Partly cloudy, with a low around 72. Southwest wind around 5 mph. Chance of
-         precipitation is 20%.<br></div>
+         <h3>Friday Night</h3>A slight chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 8pm, then
+         a slight chance of showers and thunderstorms between 8pm and 9pm. Mostly cloudy, with a low around 72. South southwest wind
+         around 6 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>A slight chance of showers and thunderstorms before 1pm. Mostly sunny, with a high near 90. Southwest wind around 3 mph. Chance
+         <h3>Saturday</h3>A slight chance of rain showers between 11am and 1pm. Mostly sunny, with a high near 90. Southwest wind around 3 mph. Chance
          of precipitation is 20%.<br></div>
    </p>
    <p>
