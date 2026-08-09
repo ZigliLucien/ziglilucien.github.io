@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-08-09T06:36:02+00:00</generatedAt>
-		<updateTime type="str">2026-08-09T06:26:05+00:00</updateTime>
-		<validTimes type="str">2026-08-09T00:00:00+00:00/P8DT1H</validTimes>
+		<generatedAt type="str">2026-08-09T11:36:05+00:00</generatedAt>
+		<updateTime type="str">2026-08-09T11:06:40+00:00</updateTime>
+		<validTimes type="str">2026-08-09T05:00:00+00:00/P7DT20H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,26 +51,7 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Overnight</name>
-				<startTime type="str">2026-08-09T01:00:00-05:00</startTime>
-				<endTime type="str">2026-08-09T06:00:00-05:00</endTime>
-				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">71</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">0</value>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
-				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear. Low around 71, with temperatures rising to around 73 overnight. South southwest wind around 2 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
-				<name type="str">Sunday</name>
+				<name type="str">Today</name>
 				<startTime type="str">2026-08-09T06:00:00-05:00</startTime>
 				<endTime type="str">2026-08-09T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
@@ -88,8 +69,8 @@
 				<detailedForecast type="str">Patchy fog before 8am. Sunny, with a high near 93. South southwest wind 2 to 10 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
-				<name type="str">Sunday Night</name>
+				<number type="int">2</number>
+				<name type="str">Tonight</name>
 				<startTime type="str">2026-08-09T18:00:00-05:00</startTime>
 				<endTime type="str">2026-08-10T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
@@ -107,7 +88,7 @@
 				<detailedForecast type="str">Mostly clear. Low around 74, with temperatures rising to around 76 overnight. South southwest wind around 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Monday</name>
 				<startTime type="str">2026-08-10T06:00:00-05:00</startTime>
 				<endTime type="str">2026-08-10T18:00:00-05:00</endTime>
@@ -123,10 +104,10 @@
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/hot?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 97. Heat index values as high as 106. South southwest wind around 9 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny. High near 97, with temperatures falling to around 95 in the afternoon. Heat index values as high as 106. South southwest wind around 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2026-08-10T18:00:00-05:00</startTime>
 				<endTime type="str">2026-08-11T06:00:00-05:00</endTime>
@@ -142,10 +123,10 @@
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 77. South southwest wind around 9 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 77. Heat index values as high as 105. South southwest wind around 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Tuesday</name>
 				<startTime type="str">2026-08-11T06:00:00-05:00</startTime>
 				<endTime type="str">2026-08-11T18:00:00-05:00</endTime>
@@ -164,7 +145,7 @@
 				<detailedForecast type="str">Sunny, with a high near 98. Southwest wind 7 to 10 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Tuesday Night</name>
 				<startTime type="str">2026-08-11T18:00:00-05:00</startTime>
 				<endTime type="str">2026-08-12T06:00:00-05:00</endTime>
@@ -183,7 +164,7 @@
 				<detailedForecast type="str">Mostly clear, with a low around 78. South southwest wind 7 to 12 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Wednesday</name>
 				<startTime type="str">2026-08-12T06:00:00-05:00</startTime>
 				<endTime type="str">2026-08-12T18:00:00-05:00</endTime>
@@ -202,7 +183,7 @@
 				<detailedForecast type="str">A slight chance of showers and thunderstorms after 7am. Mostly sunny, with a high near 96. Southwest wind around 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Wednesday Night</name>
 				<startTime type="str">2026-08-12T18:00:00-05:00</startTime>
 				<endTime type="str">2026-08-13T06:00:00-05:00</endTime>
@@ -221,7 +202,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms. Partly cloudy, with a low around 74. Southwest wind around 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Thursday</name>
 				<startTime type="str">2026-08-13T06:00:00-05:00</startTime>
 				<endTime type="str">2026-08-13T18:00:00-05:00</endTime>
@@ -240,7 +221,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms. Partly sunny, with a high near 89. South southwest wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Thursday Night</name>
 				<startTime type="str">2026-08-13T18:00:00-05:00</startTime>
 				<endTime type="str">2026-08-14T06:00:00-05:00</endTime>
@@ -259,7 +240,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 72. East wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">12</number>
+				<number type="int">11</number>
 				<name type="str">Friday</name>
 				<startTime type="str">2026-08-14T06:00:00-05:00</startTime>
 				<endTime type="str">2026-08-14T18:00:00-05:00</endTime>
@@ -278,7 +259,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms before 1pm, then a slight chance of showers and thunderstorms. Mostly cloudy, with a high near 88. East northeast wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">13</number>
+				<number type="int">12</number>
 				<name type="str">Friday Night</name>
 				<startTime type="str">2026-08-14T18:00:00-05:00</startTime>
 				<endTime type="str">2026-08-15T06:00:00-05:00</endTime>
@@ -297,7 +278,7 @@
 				<detailedForecast type="str">A chance of showers and thunderstorms. Mostly cloudy, with a low around 70. East southeast wind around 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Saturday</name>
 				<startTime type="str">2026-08-15T06:00:00-05:00</startTime>
 				<endTime type="str">2026-08-15T18:00:00-05:00</endTime>
@@ -314,6 +295,25 @@
 				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,30/rain_showers,20?size=medium</icon>
 				<shortForecast type="str">Chance Rain Showers</shortForecast>
 				<detailedForecast type="str">A chance of rain showers before 1pm. Mostly sunny, with a high near 88. South southeast wind 5 to 9 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Saturday Night</name>
+				<startTime type="str">2026-08-15T18:00:00-05:00</startTime>
+				<endTime type="str">2026-08-16T06:00:00-05:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">70</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="int">27</value>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">6 to 9 mph</windSpeed>
+				<windDirection type="str">S</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,20/tsra_hi,30?size=medium</icon>
+				<shortForecast type="str">Slight Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A slight chance of showers and thunderstorms between 7pm and 1am, then a chance of showers and thunderstorms. Partly cloudy, with a low around 70. South wind 6 to 9 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
