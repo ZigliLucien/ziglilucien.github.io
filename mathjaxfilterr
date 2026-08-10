@@ -1,0 +1,43 @@
+#!/usr/bin/perl
+
+$flag=0;
+
+while(<>){
+
+if(/\<head\>/){
+	$flag=1;
+	print;
+	next;
+}
+
+
+if(/\<\/head\>/ and $flag){
+
+	$flag=0;
+
+print 
+"<script type=\"text/x-mathjax-config\">
+   MathJax.Hub.Config({tex2jax: {inlineMath: [['\$','\$'], ['\\\\(','\\\\)']]}}); </script>
+    <script src=\"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\" type=\"text/javascript\">
+     </script>
+<script type='text/javascript' src='/ServPak/js/jquery.js'></script>
+<script type='text/javascript' src='/ServPak/js/mathformat.js'></script>
+<link rel='stylesheet' type='text/css' href='/ServPak/css/math.css'/>
+</head>
+";
+next;
+
+}
+
+if(/\<\/body\>/){
+
+print "
+<p/><br/><p/>
+<p/><br/><p/>
+<a href=\"index.html\"> <font color=\"blue\"> To Index </font></a>
+";
+
+}
+
+print;
+}
