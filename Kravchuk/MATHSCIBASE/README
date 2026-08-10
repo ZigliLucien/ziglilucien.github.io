@@ -1,0 +1,38 @@
+bibtex2xml applies to downloaded html files bibtex format from MathSciNet
+(test.xml)
+
+then: dress the full xml file
+(data.xml)
+
+run PreProcess.xsl on data.xml output to MathSci.xml
+
+run: 
+
+perl DBMaker.pl MathSci year author journal author
+
+
+All of the above is done by the shell script: 
+
+>>>> MakeDB <<<<
+
+*******************************************************************
+
+Potential problems: 
+
+look for author line that is split. put all on one line.
+
+*******************************************************************
+
+
+TO RUN:
+
+java DATABASE.Data portnum MathSci.properties
+
+FROM THE BROWSER:
+
+Start at MathSci.searchpage.html ... 
+
+########
+NOTE: You do not need to restart the server when remaking the database nor #######
+when reconfiguring the output style file `runit.xsl'                       #######
+########

@@ -1,0 +1,116 @@
+<html>
+<head><title> Search MathSci </title>
+<style type="text/css">
+
+input { color: red; background-color: white}
+input.res { color: green; background-color: white}
+option { color: white; background-color: blue}
+
+</style>
+</head>
+<body>
+<h1> Search</h1>
+
+Click on the field you wish to search on. Select from the available choices.
+<p>
+
+<form method="get">
+
+Author <select name="Author">
+<option>All</option><option value=AlvarezNodarse>Alvarez-Nodarse, R. </option>
+<option value=Area>Area, I. </option>
+<option value=Atakishiyev>Atakishiyev, N. M. </option>
+<option value=Bose>Bose, R. C. </option>
+<option value=Delsarte>Delsarte, P.</option>
+<option value=Dette>Dette, Holger</option>
+<option value=Dunkl>Dunkl, Charles F. </option>
+<option value=Feinsilver>Feinsilver, P. </option>
+<option value=Fitzgerald>Fitzgerald, Robert</option>
+<option value=Foupouagnigni>Foupouagnigni, M. </option>
+<option value=Garcia>Garcia, A. G. </option>
+<option value=Godoy>Godoy, E.</option>
+<option value=Groza>Groza, V. A.</option>
+<option value=Ismail>Ismail, Mourad E. H. </option>
+<option value=James>James, A. T.</option>
+<option value=Koepf>Koepf, Wolfram</option>
+<option value=Krasikov>Krasikov, Ilia</option>
+<option value=Kuijlaars>Kuijlaars, A. B. J. </option>
+<option value=Levenshtein>Levenshtein, Vladimir I.</option>
+<option value=Litsyn>Litsyn, Simon</option>
+<option value=MacWilliams>MacWilliams, F. J. </option>
+<option value=Marcellan>Marcellan, F.</option>
+<option value=Mesner>Mesner, Dale M.</option>
+<option value=Prizva>Prizva, G. I.</option>
+<option value=Rakhmanov>Rakhmanov, E. A.</option>
+<option value=Ramirez>Ramirez, Donald E.</option>
+<option value=Ronveaux>Ronveaux, A. </option>
+<option value=Schmersau>Schmersau, Dieter</option>
+<option value=Schott>Schott, R.</option>
+<option value=Schoutens>Schoutens, Wim</option>
+<option value=Shimamoto>Shimamoto, T.</option>
+<option value=Simeonov>Simeonov, Plamen</option>
+<option value=Sloane>Sloane, N. J. A.</option>
+<option value=Smirnov>Smirnov, Yu. F.</option>
+<option value=Sookoo>Sookoo, Norris</option>
+<option value=Tratnik>Tratnik, M. V.</option>
+<option value=VereJones>Vere-Jones, D.</option>
+<option value=Vicent>Vicent, Luis Edgar</option>
+<option value=Wolf>Wolf, K. B.</option>
+<option value=Zarzo>Zarzo, A. </option>
+<option value=Zeng>Zeng, Jiang</option>
+</select><p>
+Journal <select name="Journal">
+<option>All</option><option value=AnnMathStatist>Ann. Math. Statist.</option>
+<option value=ArchMathBrno>Arch. Math. (Brno)</option>
+<option value=DiscreteMath>Discrete Math.</option>
+<option value=ElectronTransNumerAnal>Electron. Trans. Numer. Anal.</option>
+<option value=IEEETransInformTheory>IEEE Trans. Inform. Theory</option>
+<option value=IndianaUnivMathJ>Indiana Univ. Math. J.</option>
+<option value=InformationandControl>Information and Control</option>
+<option value=IntegralTransformSpecFunct>Integral Transform. Spec. Funct.</option>
+<option value=JAmerStatistAssoc>J. Amer. Statist. Assoc.</option>
+<option value=JCombinTheorySerA>J. Combin. Theory Ser. A</option>
+<option value=JComputApplMath>J. Comput. Appl. Math.</option>
+<option value=JMathPhys>J. Math. Phys.</option>
+<option value=JOptSocAmerA>J. Opt. Soc. Amer. A</option>
+<option value=LinearAlgebraAppl>Linear Algebra Appl.</option>
+<option value=PhilipsResRep>Philips Res. Rep.</option>
+<option value=PhilipsResRepSuppl>Philips Res. Rep. Suppl.</option>
+<option value=QuartJMathOxfordSer2>Quart. J. Math. Oxford Ser. (2)</option>
+<option value=RevMexicanaFis>Rev. Mexicana Fi s.</option>
+<option value=SIAMJMathAnal>SIAM J. Math. Anal.</option>
+<option value=TeoretMatFiz>Teoret. Mat. Fiz.</option>
+<option value=UkrainMatZh>Ukrai n. Mat. Zh.</option>
+</select><p>
+Year <select name="Year">
+<option>All</option><option value=1952>1952</option>
+<option value=1957>1957</option>
+<option value=1959>1959</option>
+<option value=1971>1971</option>
+<option value=1972>1972</option>
+<option value=1973>1973</option>
+<option value=1974>1974</option>
+<option value=1976>1976</option>
+<option value=1977>1977</option>
+<option value=1989>1989</option>
+<option value=1991>1991</option>
+<option value=1992>1992</option>
+<option value=1994>1994</option>
+<option value=1995>1995</option>
+<option value=1996>1996</option>
+<option value=1997>1997</option>
+<option value=1998>1998</option>
+<option value=1999>1999</option>
+<option value=2000>2000</option>
+</select><p>
+<input type=submit><br><input type=reset class=res>
+<p>
+
+Option - Sort by: <select name="Sort">
+<option> Author </option>
+<option> Journal </option><option> Year </option></select><p>
+
+</form>
+
+</body>
+</html>

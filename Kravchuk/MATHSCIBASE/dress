@@ -1,0 +1,27 @@
+#!/usr/bin/perl
+
+$filename = $ARGV[0];
+
+($file,$ext) = split(/\./,$filename);
+
+open(OUT,">data.xml");
+
+select OUT;
+
+print '<?xml version="1.0"?>
+
+<biblio>
+
+';
+
+while(<>) {
+
+next if /html/i;
+
+print;
+
+}
+
+print "\n<\/biblio>";
+
+close OUT;

@@ -1,0 +1,60 @@
+
+<html>
+<head><title> Kravchuk:Introduction Other_Examples </title></head>
+<body>
+<p>
+<H2> Other_Examples </H2>
+ 
+Let us look at a few examples where Krawtchouk polynomials
+appear quite naturally.
+ 
+<p>
+<h4> Random_walk </h4>
+ 
+The following three examples do not exemplify the Krawtchouk polynomials
+directly, but lead to them as solutions of the problems.  As shown
+later, they all are actually paraphrase of the same idea.
+  
+Consider one-dimensional random walk of finite step size (1) on a grid
+of integers.  Say, a step is made  every second.  After n seconds the
+drunker, who made in total i steps ahead and j steps backwards
+(clearly n=i+j) is located in position x=i-j.  Notice that as before
+there are two sets of variables that are natural in the drunker
+space-time (see Figure ....) and which determine the space time
+location (event):  regular coordinates of space and time \{x,n\}, and
+isotropic variables \{i,j\}, with the obvious coordinate-change rules:
+<p>
+\cases{ x =<td align=right> i-j </tr>
+<tr><td align=right>\cr        n =<td align=right> i+j </tr>
+</table>  \textrm{\qquad  and  \qquad}\cases{ i =<td align=right> {1 \over 2} (n-j) </tr>
+<tr><td align=right>\cr        j =<td align=right> {1 \over 2} (n+j) </tr>
+</table><p>
+Analogy with space-time of relativity theory is clear: ...  determine
+the max speed possible, ``light cone''.
+<p>
+<h4> Urn_model_(or_mathematics_of<sub> \it_I_Ching </sub>) </h4>
+ 
+Suppose you have an urn that contains n balls of two sorts: blue and
+red. Suppose that every minute one ball changes its color (Feinsilver's
+Demon draws randomly a ball, repaints it, and locates back in the urn).
+The question is what states are stable in this process.
+<p>
+\begin{quotation}Comment: This is Western paraphrase of the ancient Chinese divination
+philosophical formal system of <i> I Ching</i> where all situations are
+modeled into 64 hexagrams, each consisting of six lines. A line may be
+whole or broken, representing principle Yang or In, respectively.  The
+story of the Universe, or development of a real situation is believed to
+consist of mutual changes of particular line of a current hexagram
+between these two states.
+\end{quotation}
+<p>
+<h4> Binary_space_representation_(or_random_walk_on_an_n-cube) </h4>
+<p>
+<!-- \include{k1} --><p>
+
+<a href=Pascal's_Triangle.html> * Pascal's_Triangle * </a><p>
+
+<!-- hhmts start -->
+<!-- hhmts end -->
+</body>
+</html>

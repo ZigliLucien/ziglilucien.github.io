@@ -1,0 +1,78 @@
+
+<html>
+<head><title> Kravchuk:Introduction Krawtchouk_Polynomials </title></head>
+<body>
+<p>
+<H2> Krawtchouk_Polynomials </H2>
+<p>
+ 
+Krawtchouk <i> polynomial</i> is a mere different view at the Krawtchouk <i> matrix</i>.
+Pick up a row in \FFF n{}, and consider its entries as a
+function of the column's index as the variable.
+This function will be called a <i> Krawtchouk polynomial</i>.
+Thus every matrix K<sup> n </sup> of order n defines n+1 Krawtchouk polynomials
+indexed by row index p, and denoted by K<sup> (n) </sup>_p(j).
+<p>
+For example, Krawtchouk matrix of order n=3 defines four Krawtchouk
+polynomials indexed by p=0,1,2,3 and denoted by K<sup> (n) </sup>_p(j), where
+j is an integer (or real) variable.  For instance, values of K_2(j) are
+<p>
+3 \quad 1 \quad -1 \quad -3
+<p>
+for j=0,1,2,3 respectively.
+<p>
+<!--  \caption{  Krawtchouk polynomials as rows in Krawtchouk matrices} --><p>
+ 
+<dl><dt> <b> Definition </b> <dd> 
+A p-th Krawtchouk polynomial of order N is <br>
+       <sup> N </sup> K<sup> _ </sup>p(j) =: <sup> N </sup>K<sub> pj </sub>
+</dl>
+<p>
+<b> Problem.</b>  Show that this function is indeed a polynomial in j.
+Note also that the degree of <sup> N </sup>K_p(j) is p.
+ 
+\begin{ex}{\rm Check that the following polynomials indeed reconstructthe rows of matrix K<sup> 3 </sup>.}
+\end{ex}
+<p>
+ 
+<p>
+In order to ``center'' the polynomials around the mid-value of the index
+j, we may consider a change of variable into x=i-j.  This
+composition will be also called Krawtchouk polynomial and will be denoted
+<p>
+k<sup> (n) </sup>_p (x) = K<sup> (n) </sup>_p(i-x) = K<sup> (n) </sup>_p({n-x\over 2})
+<p>
+Clearly, k_p(x) is also a polynomial in x of degree p.
+<p>
+ 
+<b> Problem.</b> Show that the two forms of Krawtchouk polynomials are:
+<p>
+<table align=center><tr><td align=center>K<sup> (n) </sup>(j) <td align=right>=<td align=right>\sum<sub> a=0 </sub><sup> p </sup> (-)<sup> p </sup> {i\choose {p-a}} {j\choose a}</tr>
+<tr><td align=right>  k<sup> (n) </sup>(x) <td align=right>=<td align=right>...</tr>
+</table>
+<p>
+ Graphs of Krawtchouk polynomials.
+<p>
+This is a matter of convention which is chosen as the definition of Krawtchouk
+polynomials; we shall continue rather with symmetrized version K.  The
+crucial property of Krawtchouk polynomials is that the family of n+1 polynomialsof order n forms an orthogonal basis in n dimensional space they
+span, where the scalar product has binary coefficients on diagonal,
+i.e.:
+<p>
+\dirac{K_p}{K_q}  = \sum_x {n \choose x} K_p(x) K_q(x)
+                   = \delta<sub> p\;q </sub>
+<p>
+for any two polynomials of order n. This orthogonal system ....
+<p>
+ 
+\begin{rem}{\rm  Polynomials in v of the algebraic mnemotechnic rule (1)form {columns} of K while Krawtchouk polynomials (in x or j) form
+its <i> rows</i>, and these two should not be confused.}
+\end{rem}
+<p>
+
+<a href=Introduction.html> * Introduction * </a><p>
+
+<!-- hhmts start -->
+<!-- hhmts end -->
+</body>
+</html>

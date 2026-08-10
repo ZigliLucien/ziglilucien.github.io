@@ -1,0 +1,105 @@
+
+<html>
+<head><title> Kravchuk:Introduction Twistons </title></head>
+<body>
+<p>
+<H2> Twistons </H2>
+ 
+This example, provides some heuristics
+ rather then really proposes a ``physical theory.''
+Treat it as a ``toy theory'' that describes hypothetical particles called``twistons.''  Krawtchouk polynomials may be treated as generalized potentials
+of interaction.
+ 
+<p>
+A twiston may have one of two states: regular or twisted. This can be
+viewed as two possible states of a piece of a ribbon band (representing
+a twiston):
+\begin{figure}[htp]     % FIGURE
+\caption{M\" obius band.}
+\end{figure}
+<p>
+As well, we may associate ``spin up'' and ``spin down'' respectively as an
+... aid, but notice the difference: spin is interchangeable with respect
+to viewer position, twist is not.
+<p>
+Now, let a system be composed of n such particles.  One may calculate
+the total twist of a system; this will be just the number j of twisted
+particles among the n particles.
+<p>
+The system state may be thus described by two numbers \{i,j\} <p>
+Define the ``1-st potential'' of a
+system of n twistons with j twistons twisted as
+<dl>
+<dt>1.<dd> k<sup> (n) </sup>_1(j) =j
+ 
+or in terms of x:
+ 
+<dt>1'. <dd> K<sup> (n) </sup>_1(x)={1 \over 2} (n-x)
+ 
+Next question is the potential coming from pairwise interactions. Two
+particles interact by opening themselves and forming a new particle, as
+these two example show:
+<p>
+      
+<p>
+Gluing two twisted particles cancels the twist.  In other sense, the
+potential of interaction of a pair is the product of the sum of two
+twists modulo 2.  Define the total pairwise interaction potential
+(energy) of a system of n twistons with j particles twisted to be
+the sum of such potentials over all pairs in the system:
+ 
+<dt>2.<dd> k<sup> (n) </sup>_2(j) = {j \choose 2} - {j \choose 1}\cdot{i \choose 1}
+                  + {i \choose 2}
+              = jjjj
+ 
+where i was understood in terms of i=n-j; or in terms of x:
+<p>
+ 
+<dt>2'.<dd> K<sup> (n) </sup>_2(x) = xxxx
+ 
+<p>
+Hypothesizing, but still in the spirit of modern physics, one may want to
+add also higher order interactions.  Thus, every triple of the system,
+when interacting, forms a ribbon that is twisted as a sum of twists
+modulo 2.  See the example:
+<p>
+      
+<p>
+This leads two the following total energy of 3-degree interaction,
+depending on j or x:
+<p>
+ 
+<dt>3.<dd> k<sup> (n) </sup>_3 (j) = {j \choose 3} - {j \choose 2}\cdot{i \choose 1}
+                  +{j \choose 2}\cdot {i \choose 2} - {i\choose 3}
+              = jjjj
+ 
+or in terms of x:
+<p>
+ 
+<dt>3'.<dd> K<sup> (n) </sup>_3(x) = xxxx
+ 
+Notice that the values of these polynomials coincide exactly with the
+entries of the corresponding Krawtchouk matrix K<sup> (3) </sup>.  In general, one
+may define the p-th Krawtchouk polynomial of order n as
+<p>
+K<sup> (n) </sup>_p(j) = \sum <sub> k=0 </sub><sup> p </sup> \ {j \choose k}{{n-j}\choose {p-k}}
+<p>
+Interestingly, in terms of variable x, Krawtchouk polynomials turn out to be
+mere symmetric functions:
+<p>
+k<sup> (n) </sup>_p(j) = \sum<sub> k=0 </sub><sup> p </sup> \ {j \choose k}{{n-j}\choose {p-k}}
+<p>
+Thus Krawtchouk polynomials may be interpreted as symmetric functions in ....
+<p>
+K<sup> (n) </sup>_p(i,j) = \sum \prod<sub> k=1 </sub><sup> p </sup> \  s<sub> i_k </sub>
+<p>
+where sum is taken over all choices of p indices out of n.
+</dl>
+<p>
+
+<a href=Introduction.html> * Introduction * </a><p>
+
+<!-- hhmts start -->
+<!-- hhmts end -->
+</body>
+</html>

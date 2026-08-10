@@ -1,0 +1,87 @@
+#!/usr/bin/perl
+
+
+
+while (<>) {
+
+next if /fjournal/i;
+
+if (/^\@/)
+  {
+@info = split(/\@|{|,/);
+($entrytype = lc $info[1]) =~ s/(.*\b)\s/$1/;
+($key = lc $info[2]) =~ s/mr(.*)/$1/;
+print "<$entrytype key=\"$key\">\n";
+next;
+	    }
+	
+if (/= {/) 
+{
+@line = split(/= {/);
+
+$line[0] =~ s/\s//g;
+
+$tag = lc $line[0];
+
+$flag = 1;
+
+}
+
+if($flag)
+{
+$flag=0 if /},/;
+
+$ttag = $tag;
+
+if (/journal/i){
+($key = join "",@line[1..$#line]) =~ s/\W//g; 
+$ttag = $tag." key=".'"'.$key.'"';
+}
+
+s/.*= {(.*)/<$ttag>$1/;
+s/},$/<\/$tag>/;
+print;
+}
+
+if(/author|editor/){
+
+@aukeys=();
+%aukeys=();
+
+@lline = split(/and/,$line[1]);
+
+  for(@lline){
+
+chomp;
+
+s/},$//;
+
+($auattkey = $_) =~ s/\s*(\b.*\b)\s*/$1/;
+@aukey = split(/,/);
+$aukey[0] =~ s/\s*(\b.*\b)\s*/$1/;
+$aukey[0] =~ s/\s|\{|\}|\\|~//g;
+$auattkey =~ s/\{|\}|\'|\\//g;
+$aukeys{$aukey[0]}= $auattkey ;
+}
+
+}
+
+
+
+
+if(/^}/)
+{
+  for(keys %aukeys){
+
+$content = $aukeys{$_};
+
+s/\W//g;
+
+print "<authorcode key=\"$_\">$content</authorcode>\n";
+}
+print "<\/$entrytype>\n\n";
+}
+
+}
+
+

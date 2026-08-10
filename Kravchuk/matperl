@@ -1,0 +1,189 @@
+#!/usr/bin/perl
+
+
+if (-f "krav.html") { rename("krav.html","krav.html.bak"); }
+
+
+open(KRAV,"> krav.html");
+
+$name="krav";
+
+print KRAV "
+<html>
+<head><title> Kravchuk Encyclopedia: $name <\/title><\/head>
+<body>
+<p>
+<H1> Kravchuk Encyclopedia <\/H1>
+";
+
+&chapit ;
+
+while (<>){
+
+s/\\\\/<br>/g;
+
+$flag=1 if (/^\n/);
+if ($flag && /^\n/) {s/\n//; next;}
+if ($flag) {print "<p>\n"; $flag=0;}
+s/(\\bigskip|\\medskip)/<p>/;
+
+if (/documentclass/|/documentstyle/) { print "<html>\n"; next; }
+s/\\begin\{document\}/<body>/;
+s/\\end\{document\}/<\/body><\/html>/;
+
+if (/^%(.*)/) {print "<!-- $1 -->"; next; }
+
+s/\\begin\{enumerate\}/<ol>/;
+s/\\begin\{itemize\}/<ul>/;
+s/\\end\{itemize\}/<\/ul>/;
+s/\\item/<li>/;
+s/\\vfill/<p>/;
+s/\\end\{enumerate\}/<\/ol>/;
+
+
+s/\\begin\{eqnarray\*?\}/<table align=center><tr><td align=center>/;
+s/\\end\{eqnarray\*?\}/<\/td><\/tr>\n<\/table>/;
+
+if (/\\frac=(\d+)=/) {
+$ww=$1;
+s/\*\*/<br><hr align="center" noshade="noshade" width="$ww">/;
+}
+s/\\frac=\d+=/<td align=center>/;
+
+if (/\\sumnolimits/) {
+s/\\sumnolimits/<td align=center><b>Sum<\/b>/;
+}
+
+if (/\\sumbottomlimits/) {
+s/\\sumbottomlimits/<td align=center><br><b>Sum<\/b>/;
+}
+
+if (/\\sum/) {
+s/\*\*/<br><b>Sum<\/b><br>/;
+}
+s/\\sum/<td align=center>/;
+
+
+if (/\\begin\{choose\}/) {
+s/\*\*/<br>/;
+}
+s/\\begin\{choose\}/<td><font size=+2>(<\/font><\/td><td align=center>/;
+s/\\end\{choose\}/<\/td><td><font size=+2>)<\/font><\/td>/;
+
+s/\\begin\{quotation\}/<center><tt><p>/;
+s/\\end\{quotation\}/<\/center><\/tt><p>/;
+
+s/\\begin\{defn\}/<dl><dt> <b> Definition. <\/b> <dd>/;
+s/\\end\{defn\}/<\/dl>/;
+
+
+s/\\the//;
+s/\\Phi/K/g;
+s/\\matrix\{/<table border=4 align=center cellpadding=10 cellspacing=0><tr><td align=right>/;
+
+s/\\cr\s?\}/<\/tr>\n<\/table>/;
+s/\\cr/<\/tr>\n<tr><td align=right>/;
+
+s/(\^\{)(.*?)(\})/<sup> $2 <\/sup>/g;
+s/(_\{)(.*?)(\})/<sub> $2 <\/sub>/g;
+s/(\^)(.)/<sup> $2 <\/sup>/g ;
+s/(_)(.)/<sub> $2 <\/sub>/g unless (/section/|/href/);
+
+s/(\{\\bf)(.*?)(\})/<b>$2<\/b>/g;
+s/(\{\\it)(.*?)(\})/<i>$2<\/i>/g;
+s/(\{\\sl)(.*?)(\})/<tt>$2<\/tt>/g;
+
+s/\\left\[//g;
+s/\\right\]//g;
+
+s/\\pagebreak//;
+s/\\quad//g;
+s/(\\subsection\{)(.*?)(\})/<h4> $2 <\/h4>/;
+s/(\\subsubsection\{)(.*?)(\})/<h5> $2 <\/h5>/;
+s/(\\paragraph\{)(.*?)(\})/<h6> $2 <\/h6>/;
+
+
+if (/\\chname=\{(.*?)\}/) { &wrapit; $name=$1; 
+print KRAV "
+<a href=\"$name.html\"> $name <\/a>
+<p>
+"; 
+next; 
+}
+
+
+&chapit && next if (/\\chapter/) ;
+
+# s/(\\section\{)(.*?)(\})/<h3> $2 <\/h3>/;
+
+
+if (/\\close/) { &wrapsec ; next ;}
+
+if (/(\\section\{)(.*?)(\})/) { 
+$secname=$2;
+&newsec ;
+print OUT "
+<a href=\"$secname.html\"> $secname <\/a>
+<p>
+";
+next;}
+
+
+
+
+print && next if (/&.*?;/);
+chop if (/cr/|/&/|/\\begin/|/<table al/) ;
+
+s/&/<td align=right>/g unless (/;/);
+
+s/\\begin\{displaymath\}/<table align=center><tr><td align=center>/ ;
+s/\\end\{displaymath\}/<\/td><\/tr>\n<\/table>/ ;
+
+s/\$//g;
+print;
+}
+
+sub chapit {
+open(OUT,">$name.html");
+select OUT;
+print "
+<html>
+<head><title> Kravchuk Encyclopedia: $name <\/title><\/head>
+<body>
+<p>
+<H1> $name <\/H1>
+";
+}
+
+sub wrapit {
+print OUT "
+<a href=krav.html> To Contents <\/a>
+<\/body>
+<\/html>
+";
+close(OUT);
+}
+
+sub newsec {
+open(SECOUT,">$secname.html");
+select SECOUT;
+print "
+<html>
+<head><title> Kravchuk:$name $secname <\/title><\/head>
+<body>
+<p>
+<H2> $secname <\/H2>
+";
+}
+
+sub wrapsec {
+print "
+<a href=$name.html> * $name * <\/a><p>
+<\/body>
+<\/html>
+";
+close(SECOUT);
+}
+
+
+close(KRAV);

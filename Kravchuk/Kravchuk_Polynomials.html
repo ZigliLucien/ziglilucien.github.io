@@ -1,0 +1,81 @@
+
+<html>
+<head><title> Kravchuk:Introduction Kravchuk Polynomials </title></head>
+<body>
+<p>
+<H2> Kravchuk Polynomials </H2>
+<p>
+Kravchuk <i> polynomials </i> are, in some sense, simply a different way
+of viewing the Kravchuk <i> matrix</i>.
+Take a row in <sup> N </sup>K, and consider its entries as a
+function of the column index.
+This function is a <i> Kravchuk polynomial</i>.
+Thus every matrix <sup> N </sup>K of order N defines N+1 Kravchuk polynomials,
+one for each row, which we denote by <sup> N </sup>K<sub> n </sub>(j). I.e.,
+<p>
+<dl><dt> <b> Definition. </b> <dd> 
+The n<i>th</i> Kravchuk polynomial of order N, K<sub> n </sub>(j,N), is determined by the
+values K<sub> n </sub>(j,N)= <sup> N </sup>K<sub> nj </sub> from the Kravchuk matrix <sup> N </sup>K.
+</dl>
+<p>
+For example, the Kravchuk matrix of order N=3 defines four Kravchuk
+polynomials indexed by n=0,1,2,3 and denoted by K<sub> n </sub>(j,3), where
+j is an integer variable. For instance, the values of K<sub> 2 </sub>(j,3) are
+3,  -1, -1, 3
+corresponding to j=0,1,2,3. Once given as a polynomial in j, we extend
+j to all real values. 
+<p>
+<b> Problem.</b>  Show that this function is indeed a polynomial in j.
+Note also that the degree of K<sub> n </sub>(j,N) is n.
+<p> 
+<b> Exercise. </b> Check that the following polynomials indeed reconstruct
+the rows of <sup> 3 </sup>K:
+<p>
+<table align=center><tr><td align=center>1, <td align=right> 3-2j, <td align=right> 3 - 6 j + 2 j<sup> 2 </sup>, <td align=right> <td align=center> 1<br><hr align="center" noshade="noshade" width="10">3 <td> (3-20j+18j<sup> 2 </sup>-4j<sup> 3 </sup>) </td></tr>
+</table>
+<p>
+In order to ``center'' the polynomials around the mid-value of the index
+j, we may consider a change of variable to x=i-j.  This
+yields a Kravchuk polynomial as well and will be denoted
+<p>
+<table align=center><tr><td align=center>k<sub> n </sub>(x,N)<td align=right> =<td align=right> K<sub> n </sub>(i-x,N) <td align=right>=<td align=right> K<sub> n </sub><td>(<td align=center> N-x<br><hr align="center" noshade="noshade" width="30">2</td><td>,N</td><td>)</td></tr>
+</table>
+<p>
+For every N, k<sub> n </sub>(x,N) is a polynomial in x of degree n.
+<p>
+ 
+<b> Problem.</b> Show that
+<p>
+<table align=center><tr><td align=center>K<sub> n </sub>(j,N)<td align=right>= <td align=center> n<br><b>Sum</b><br>k=0 <td><td><font size=+2>(</font></td><td align=center>N-j<br>n-k</td><td><font size=+2>)</font></td><td>
+<td><font size=+2>(</font></td><td align=center>j<br>k </td><td><font size=+2>)</font></td><td>(-1)<sup> k </sup>
+</td></tr>
+</table>
+<p>
+and, as well,
+<p>
+<table align=center><tr><td align=center>K<sub> n </sub>(j,N)<td align=right>= <td align=center> n<br><b>Sum</b><br>k=0 <td><td><font size=+2>(</font></td><td align=center>N-k<br>n-k</td><td><font size=+2>)</font></td><td>
+<td><font size=+2>(</font></td><td align=center>j<br>k </td><td><font size=+2>)</font></td><td>(-2)<sup> k </sup>
+</td></tr>
+</table>
+<p>
+<h4> Orthogonality of Kravchuk polynomials </h4>
+<p>
+For functions of the integer variable j=0, 1, 2, . . ., N, denote the inner product:
+<p>
+<table align=center><tr><td align=center>&lt;fg&gt;<td> =<td align=center> N<br><b>Sum</b><br>j=0<td><td><font size=+2>(</font></td><td align=center>N<br>j</td><td><font size=+2>)</font></td><td>
+f(j) g(j)
+</td></tr>
+</table>
+ Then for the Kravchuk polynomials, suppressing the index N,
+<p>
+<table align=center><tr><td align=center>&lt;K<sub> n </sub>K<sub> m </sub>&gt;=<td><font size=+2>(</font></td><td align=center>N<br>n</td><td><font size=+2>)</font></td><td>2<sup> n </sup><b> delta</b><sub> mn </sub>
+</td></tr>
+</table>
+<p>
+
+<a href=Introduction.html>  Introduction  </a><p>
+
+<!-- hhmts start -->
+<!-- hhmts end -->
+</body>
+</html>

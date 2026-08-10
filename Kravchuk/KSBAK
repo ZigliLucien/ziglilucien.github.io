@@ -1,0 +1,230 @@
+import java.net.*;
+import java.io.*;
+import java.util.*;
+
+
+public class KravServer  { 
+    //Class
+
+    ServerSocket ss;
+    KravConnection Terry;
+
+    public KravServer(int port,String propFile) throws IOException {
+        ss = new ServerSocket(port);
+	System.out.println("Starting server on port "+port);    
+try{        while ( true ){ 
+      Terry = new KravConnection( ss.accept(),propFile );
+      Terry.start();
+}}catch (IOException ioe){System.exit(0);}
+
+    }
+    public static void main(String [] qubits) throws Exception{
+	
+	int port = Integer.parseInt(qubits[0]);
+	String pFile = qubits[1];
+	           new KravServer(port,pFile);
+  }
+
+}
+
+class KravConnection extends Thread{
+    //Class Connection
+
+           Socket client;
+    static FileInputStream fis;         
+    static PrintWriter pout;
+    static boolean scaled;
+
+static		String value ;
+static		Traxit transformer;
+
+static		String request;
+
+static	     String testvalu,objectvalu;
+
+static	     String infoline;
+static	     StringTokenizer info;
+
+static	     OutputStream out;  
+static	     BufferedReader in;
+
+    String propertiesFile;
+    String datafile;
+    String stringProcessFile;
+    String sortFile;
+ 
+    static Properties fileinfo = new Properties();
+
+    KravConnection ( Socket client,String _propertiesFile ) throws SocketException {
+        this.client = client;
+        setPriority( NORM_PRIORITY - 1 );
+        this.propertiesFile = _propertiesFile;
+
+	try{
+	    InputStream infile = new FileInputStream(propertiesFile);
+
+	    fileinfo.load(infile);
+	    datafile = fileinfo.getProperty("datafile");
+	    stringProcessFile = fileinfo.getProperty("stringProcessFile");
+	    sortFile = fileinfo.getProperty("sortFile");
+           } catch (Exception e){}
+    }
+
+    public void run(){
+	//run
+
+        InetAddress addrss = client.getInetAddress();
+	String addr        = addrss.toString();
+
+
+	        String path; String [] ls;
+		File localfile,filetype; 
+                long size; 
+
+	System.out.println("Connected to "+addr);
+	   
+
+try{
+	                 out = client.getOutputStream();
+                        pout = new PrintWriter( 
+                new OutputStreamWriter(out), true );
+
+                           in = new BufferedReader( 
+                new InputStreamReader(client.getInputStream()) );
+
+                 request = in.readLine();
+
+            StringTokenizer st = new StringTokenizer( request );
+
+            if ( (st.countTokens() >= 2) && st.nextToken().equals("GET") ) {
+		// Start GET
+
+		request = st.nextToken() ; 
+                   
+		  if (request.endsWith("/")){
+		      request = request.substring(0,request.lastIndexOf("/"));
+		  }
+
+                System.out.println("REQUEST: "+request);
+
+		filetype = new File(request);
+
+		if (filetype.isDirectory()) {
+
+                           ls   = filetype.list();
+			   Arrays.sort(ls);
+			   
+pout.println("<html>\n<body>\n<table align=\"left\" width=\"25%\">\n");
+pout.println("<tr><th> File/Directory Name</th><th> Size</th></tr>\n");
+                   
+		    for ( int y=0;y<ls.length;y++) {
+
+                    localfile = new File(ls[y]);
+                    path = localfile.getPath();
+                    size = localfile.length();
+                    
+pout.println("<tr><td align=\"center\"><a href="+request+"/"+path+"> "+ls[y]+" </a></td><td align=\"center\"> "+size+" </td></tr>");
+		    }
+	    pout.println("</table>\n</body>\n</html>");
+
+		} else { 
+                     // get file           
+
+		    if(request.indexOf("?")>0){
+			//Process QUERY_STRING
+
+			infoline = request.substring(request.indexOf("?")+1);
+
+			info = new StringTokenizer(infoline,"&");
+			String infotok=null;
+
+			value = null;
+
+	    while(info.hasMoreTokens()){
+		infotok = info.nextToken();
+		 testvalu = infotok.substring(0,infotok.indexOf("="));
+		 objectvalu = infotok.substring(infotok.indexOf("=")+1);
+                 if(!testvalu.equals(objectvalu)) {
+		     if(value != null) {
+			 value += "!"+objectvalu;
+		     }else{
+		     value = objectvalu; 
+		     }
+		 }
+	     }
+
+		     pout.println(runem(value));
+
+	 
+		    } else {
+
+          if(request.indexOf(".")>0) {
+	  
+	  
+           fis = new FileInputStream ( request );	
+
+	   byte data[] = new byte[fis.available()];
+
+	                   fis.read(data);
+		           out.write( data );
+	                   out.flush(); 
+	  } }
+	   
+}
+	    }	
+
+               client.close();
+	    
+            }  catch(Exception e3){}
+    }
+
+String runem(String val) throws Exception{
+
+	StringTokenizer valley = new StringTokenizer(val,"!");
+
+	int numtokens = valley.countTokens();
+
+	Traxit[] transforms = new Traxit[numtokens];
+        Traxit txresult = null;
+ 
+	if( numtokens>1) {
+
+	for(int q=0;q<numtokens;q++){
+	    if(q==0){
+ transforms[0] = new Traxit(datafile,stringProcessFile,valley.nextToken());	   
+	    } 
+
+if ((q>0) & (q<numtokens-1)){
+
+transforms[q] = 
+new Traxit(transforms[q-1].result,stringProcessFile,valley.nextToken(),true);
+
+	    }                
+
+if(q == numtokens-1) {
+
+txresult =
+new Traxit(transforms[q-1].result,sortFile,valley.nextToken().toLowerCase(),true);
+
+}
+	}
+	} else {
+
+txresult = 
+new Traxit(datafile,sortFile,valley.nextToken().toLowerCase());
+
+	}
+
+	String searchResults = txresult.result;
+
+	if( searchResults != null ) {
+
+return searchResults;          
+
+	} else {
+
+	    return "No matches found.";
+
+	}
+        }
+}

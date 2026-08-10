@@ -1,0 +1,168 @@
+<html>
+<head><title> Kravchuk:Introduction Krawtchouk Matrices </title></head>
+<body>
+<p>
+<H2> Krawtchouk Matrices </H2>
+    <blockquote>
+Kravchuk matrices?  You have seen them since your algebra classes in
+high school.   
+<p>
+The reader is asked not to feel offended if we start from such a personal
+experience as his/her first intimate encounter with the charm of
+algebra concentrated around ``multiplication rules.''  Perhaps the first
+vibes came at (a &plusmn;  b)<sup> 2 </sup>=a<sup> 2 </sup> &plusmn; 2ab+ b<sup> 2 </sup>.  Let us recall the first
+amazement caused by vanishing middle terms in the product (a+b)(a-b).
+These memories of the initiation to the mysteries of mathematics are
+recalled now, for they are going to be developed on a deeper level and are basic
+for our main subject.  The three rules
+<p>
+<table align=center><tr><td align=center> (a+b)<sup> 2 </sup>   <td align=right>=<td align=right>a<sup> 2 </sup>+2ab+b<sup> 2 </sup>   </tr>
+<tr><td align=right>          (a+b)(a-b)<td align=right>=<td align=right>a<sup> 2 </sup>-b<sup> 2 </sup> </tr>
+<tr><td align=right>            (a-b)<sup> 2 </sup>   <td align=right>=<td align=right>a<sup> 2 </sup>-2ab+b<sup> 2 </sup>  </tr>
+<tr><td align=right></td></tr>
+</table>
+<p>
+ can be coded into a single mnemotechnic matrix:
+<p>
+ <table border=4 align=center cellpadding=10 cellspacing=0><tr><td align=right>  1 <td align=right>  2 <td align=right>  1 </tr>
+<tr><td align=right>                 1 <td align=right>  0 <td align=right> -1 </tr>
+<tr><td align=right>                 1 <td align=right> -2 <td align=right>  1 </tr>
+</table><p>
+Believe it or not, we are looking at Kravchuk polynomials! Before we show it,
+let us write the coefficients as columns and define a
+``second-order Krawtchouk matrix'' as:
+<p>
+<sup> 2 </sup>K = 
+<p>
+<table border=4 align=center cellpadding=10 cellspacing=0><tr><td align=right>  1 <td align=right>  1 <td align=right>  1 </tr>
+<tr><td align=right>                             2 <td align=right>  0 <td align=right> -2 </tr>
+<tr><td align=right>                             1 <td align=right> -1 <td align=right>  1 </tr>
+</table><p>
+Similarly, the algebraic rules of degree three translate into a
+``third-order Krawtchouk matrix'':
+<p>
+<table align=center><tr><td align=center> (a+b)<sup> 3 </sup>      <td align=right>=<td align=right> a<sup> 3 </sup>+3a<sup> 2 </sup>b+3ab<sup> 2 </sup>+b<sup> 3 </sup>  </tr>
+<tr><td align=right>          (a+b)<sup> 2 </sup>(a-b) <td align=right>=<td align=right> a<sup> 3 </sup>+a<sup> 2 </sup>b-ab<sup> 2 </sup>-b<sup> 3 </sup>    </tr>
+<tr><td align=right>          (a+b)(a-b)<sup> 2 </sup> <td align=right>=<td align=right> a<sup> 3 </sup>-a<sup> 2 </sup>b-ab<sup> 2 </sup>+b<sup> 3 </sup>    </tr>
+<tr><td align=right>          (a-b)<sup> 3 </sup>      <td align=right>=<td align=right> a<sup> 3 </sup>-3a<sup> 2 </sup>b+3ab<sup> 2 </sup>+b<sup> 3 </sup> </td></tr>
+</table>
+<p>
+are encoded in the matrix
+<p>
+<sup> 3 </sup>K =
+<p>
+       <table border=4 align=center cellpadding=10 cellspacing=0><tr><td align=right> 1 <td align=right>  1 <td align=right>  1  <td align=right>  1 </tr>
+<tr><td align=right>                      3 <td align=right>  1 <td align=right> -1  <td align=right> -3 </tr>
+<tr><td align=right>                      3 <td align=right> -1 <td align=right> -1  <td align=right>  3 </tr>
+<tr><td align=right>                      1 <td align=right> -1 <td align=right>  1  <td align=right> -1 </tr>
+</table><p>
+Similarly, for order 4 one gets:
+<p>
+<sup> 4 </sup>K =
+<p>
+       <table border=4 align=center cellpadding=10 cellspacing=0><tr><td align=right> 1 <td align=right>  1 <td align=right>  1  <td align=right>  1  <td align=right>  1 </tr>
+<tr><td align=right>                      4 <td align=right>  2 <td align=right>  0  <td align=right> -2  <td align=right> -4 </tr>
+<tr><td align=right>                      6 <td align=right>  0 <td align=right> -2  <td align=right>  0  <td align=right>  6 </tr>
+<tr><td align=right>                      4 <td align=right> -2 <td align=right>  0  <td align=right>  2  <td align=right> -4 </tr>
+<tr><td align=right>                      1 <td align=right> -1 <td align=right>  1  <td align=right> -1  <td align=right>  1 </tr>
+</table><p>
+You may also include Krawtchouk matrices of order one and zero:
+<p>
+<sup> 0 </sup>K=
+<p>
+<table border=4 align=center cellpadding=10 cellspacing=0><tr><td align=right> 1 </tr>
+</table> 
+<p>
+<sup> 1 </sup>K=
+<p>
+<table border=4 align=center cellpadding=10 cellspacing=0><tr><td align=right> 1 <td align=right>  1 </tr>
+<tr><td align=right>                          1 <td align=right> -1 </tr>
+</table><p>
+Thus, rewriting the algebraic rules and normalizing to a=1, b=v, one gets the
+general definition of Krawtchouk matrices:
+<p>
+<dl>
+<dt><b>Definition</b> <dd> 
+The N<i>th</i>-order Krawtchouk matrix <sup> N </sup>K is an (N+1)&times;(N+1) matrix, the
+nj entry defined by:
+<p>
+<table align=center><tr><td align=center>    (1+v)<sup> i </sup> (1-v)<sup> j </sup> </td><td align=right>= <td align=center> N <br><b>Sum</b><br> n=0 <td>  <sup> N </sup>K<sub> nj </sub> v<sup> n </sup> 
+</td></tr>
+</table>
+<p>
+where N=i+j, and where the polynomial on the left-hand side <a name=kravgen>
+<p>
+              G(v)= (1+v)<sup> i </sup> (1-v)<sup> j </sup>                            </a> 
+<p>
+is viewed as the <i> generating function</i> for <sup> N </sup>K.
+</dl>
+<p>
+ 
+<p>
+To recover the algebraic rules, one can use matrix multiplication <br>
+<b> v</b>K where <b> v</b> = [1,v,v<sup> 2 </sup>, . . . ,v<sup> N </sup>].
+ 
+<p>
+Krawtchouk matrices have numerous beautiful symmetry properties
+and satisfy many algebraic identities.  One remarkable identity (to be proven later)
+concerns the entries of a single matrix:  <br> in any (sub)square of four adjacent
+matrix entries, the three upper right numbers sum to the fourth, the
+entry in the bottom left corner. This is called a ``square identity''. 
+<p>
+       <table border=4 align=center cellpadding=10 cellspacing=0><tr><td align=right> 1 <td align=right>  1 <td align=right>  1  <td align=right>  1  <td align=right>  1 </tr>
+<tr><td align=right>                      4 <td align=right>  2 <td align=right>  0  <td align=right> -2  <td align=right> -4 </tr>
+<tr><td align=right>                      6 <td align=right>  0 <td align=right> -2  <td align=right>  0  <td align=right>  6 </tr>
+<tr><td align=right>                      4 <td align=right> -2 <td align=right>  0  <td align=right>  2  <td align=right> -4 </tr>
+<tr><td align=right>                      1 <td align=right> -1 <td align=right>  1  <td align=right> -1  <td align=right>  1 </tr>
+</table><p>
+ 
+<tt> Test the square identity: In any square of four cells, the left-bottom value is the sum of the other three numbers.</tt>
+<p>
+ 
+<b> Problems.</b>
+<ul>
+<li> Notice that the n<i>th</i> row of the matrix <sup> N-1 </sup>K may be recovered
+from the (n-1)<i> st</i> row of the succeeding matrix <sup> N </sup>K by pairwise subtraction.
+<p>
+<li> Averaging entries two-by-two along a row recovers the row of the previous matrix. 
+<p>
+<li> Subtracting a column of <sup> N </sup>K from its own copy
+shifted up by one place reconstructs the next column over of the next Krawtchouk
+matrix, <sup> N+1 </sup>K.  Explain this, starting from
+<p>
+(a+b)<sup> i </sup>(a-b)<sup> j+1 </sup>= (a-b) &times; (a+b)<sup> i </sup>(a-b)<sup> j </sup> .
+<p>
+Write this in matrix terms.
+</ul>
+ 
+<b> Problem.</b>  Pascal's triangle is clearly valid for the leftmost
+column, j=0.  Does it generalize for the other columns?
+<p>
+ 
+<b> Problem.</b>  Find a substitute for Pascal's triangle for rows.  
+<p>
+<b> Exercise.</b> Calculate the matrix powers $K<sup> m </sup>$ for integer m &gt; 0.
+<p>
+The corresponding symmetric 
+S-matrix is constructed from a K-matrix by multiplying each column by the 
+corresponding binomial coefficient, K<sub> j0 </sub>. See the examples indicated below.
+<p>
+<a name=matref> Links to View Some Kravchuk Matrices: </a>
+<ul>
+<li> <a href=Some_K_and_S_Matrices.html#kravmat> Some Kravchuk K-matrices (to order 6). </a> 
+<p>
+<li> <a href=Some_K_and_S_Matrices.html#kravsymm> 
+Some symmetric Kravchuk matrices (to order 6). </a>
+<p>
+<li> <a href=../kravinterface.html> 
+To View K-matrices up to any order less than 17 </a>
+</ul>
+<p>
+
+<a href=Introduction.html>  Introduction  </a><p>
+</blockquote>
+
+<!-- hhmts start -->
+<!-- hhmts end -->
+</body>
+</html>

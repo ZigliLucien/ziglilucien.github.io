@@ -1,0 +1,7 @@
+#!/bin/sh
+
+bibtex2xml MathSciGet > test.xml
+dress test.xml
+java com.icl.saxon.StyleSheet -o MathSci.xml data.xml PreProcess.xsl
+perl DBMaker.pl MathSci author year journal author
+
