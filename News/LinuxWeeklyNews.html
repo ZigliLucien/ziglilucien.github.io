@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1087069/" title="See Description">[$] Even more formal verification for BPF</a></li>
+<li><a href="#https://lwn.net/Articles/1088059/" title="See Description">Django moves to an annual release cycle</a></li>
+<li><a href="#https://lwn.net/Articles/1088057/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1087961/" title="See Description">Kernel prepatch 7.2-rc7</a></li>
 <li><a href="#https://lwn.net/Articles/1087949/" title="See Description">Four weekend stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1086949/" title="See Description">[$] Changes in shadow-utils password-expiration features</a></li>
@@ -50,12 +53,67 @@
 <li><a href="#https://lwn.net/Articles/1087490/" title="See Description">Rust Coreutils 0.10 released</a></li>
 <li><a href="#https://lwn.net/Articles/1087489/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1086134/" title="See Description">[$] LWN.net Weekly Edition for August 6, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1087388/" title="See Description">b4 0.16.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1085896/" title="See Description">[$] Examining other network namespaces using BPF</a></li>
-<li><a href="#https://lwn.net/Articles/1086336/" title="See Description">[$] FUSE status and plans</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1087069/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 10 Aug 2026 13:59:33 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087069/" title="https://lwn.net/Articles/1087069/">[$] Even more formal verification for BPF</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+BPF offers useful safety guarantees, but Kumar Kartikeya Dwivedi wants BPF
+programs to be even safer. At the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem,
+Memory-Management, and BPF Summit</a>, he led a session
+(<a href="https://drive.google.com/file/d/1qeLgPaOvwKMHQmyGHeNWQUBQstQeDR2v/view">slides</a>)
+discussing the possibility
+of adding domain-specific invariants to BPF programs. It was not a discussion
+intended to lead to the implementation of any particular kernel feature, but
+rather an overview of why additional formal verification might be needed, and
+how it could work with the existing BPF ecosystem.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1088059/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 10 Aug 2026 13:31:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088059/" title="https://lwn.net/Articles/1088059/">Django moves to an annual release cycle</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.djangoproject.com/">Django</a> Python web-framework
+project has <a
+href="https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/">announced</a>
+that it has accepted an <a
+href="https://github.com/django/deps/blob/main/accepted/0020-annual-release-cycle.rst">annual
+release cycle proposal</a>. This means that the project is moving from a <a
+href="https://github.com/django/deps/blob/main/final/0004-release-schedule.rst">somewhat
+complicated schedule</a> that interspersed short-lived feature releases and
+long-term-support (LTS) releases to a simpler annual cycle where each release is
+supported for three years.</p>
+
+<blockquote class="bq">
+<p>Every feature release gets three years of support: one year of mainstream
+bugfixes, then two years of security and data-loss fixes. The "LTS" label is
+retired — every feature release now carries that same, unique commitment.</p>
+
+<p>No more LTS gap: no racing a deadline to jump two years of changes at
+once. Upgrade one year at a time, whenever suits you within the support
+window. Three versions are supported at any time, giving third-party packages a
+clear, rolling target.</p>
+</blockquote>
+
+<p>This will take effect with the upcoming Django&#160;2028 release, expected in
+January&#160;2028.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1088057/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 10 Aug 2026 13:07:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088057/" title="https://lwn.net/Articles/1088057/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, gpsd-minimal, kernel, libarchive, libgcrypt, and LibRaw), <b>Debian</b> (bind9, ca-certificates, chromium, dnsdist, icinga2, kitty, libheif, openjdk-21, pdns, pdns-recursor, thunderbird, and xen), <b>Fedora</b> (bird, erlang, kernel, mingw-glib2, nghttp2, p11-kit, perl, perl-Devel-Cover, perl-PAR-Packer, pgadmin4, polymake, python-nh3, python-wsgidav, python3.12, rabbitmq-server, rust-ammonia, seamonkey, and udisks2), <b>Mageia</b> (python-starlette), <b>Oracle</b> (gnutls, kernel, and LibRaw), <b>Red Hat</b> (container-tools:rhel8), <b>Slackware</b> (wpa_supplicant), and <b>SUSE</b> (azure-storage-azcopy, bouncycastle, ffmpeg-4, fuse-overlayfs, gleam, gstreamer-plugins-bad, libssh2-1, libssh2_org, libwireshark19, libXfont2-2, perl-Mojo-JWT, perl-Mojolicious, podman, python310, python313-Django4, and tekton-cli).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1087961/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 09 Aug 2026 22:39:56 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -276,67 +334,6 @@ February 2025.</p>
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1087388/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Aug 2026 17:24:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087388/" title="https://lwn.net/Articles/1087388/">b4 0.16.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Konstantin Ryabitsev has announced the release of version 0.16.0 of the <a
-href="https://b4.docs.kernel.org/en/latest/">b4</a> 
-software-development tool.  The biggest change is the addition of
-bug-tracking support:
-<p>
-<blockquote class="bq">
-	The new "b4 bugs" command integrates with git-bug to let you track
-	bug reports alongside your git repository. Bugs are stored as git
-	objects inside the repo, so they travel with the code and can be
-	shared via git push/pull without any external service.
-</blockquote>
-<p>
-There are also a lot of improvements to <tt>b4 review</tt> (which was <a
-href="https://lwn.net/Articles/1063303/#:~:text=entirely%2E-,b4%20review">covered
-here</a> in March), better conflict resolution in <tt>b4 shazam</tt>,
-improved history rewriting, and more.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1085896/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Aug 2026 16:59:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1085896/" title="https://lwn.net/Articles/1085896/">[$] Examining other network namespaces using BPF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Jordan Rife's work involves writing BPF programs for
-<a href="https://cilium.io/">
-Cilium</a> that interface with
-<a href="https://kubernetes.io/">
-Kubernetes</a>
-networking. As part of that work, he wants to enable BPF programs with
-appropriate permissions to iterate through the sockets of a different network
-namespace. He led a session about the idea at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage,
-Filesystem, Memory-Management, and BPF Summit</a> where the BPF developers in
-attendance were quick to suggest a number of related alternatives.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1086336/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 05 Aug 2026 15:59:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086336/" title="https://lwn.net/Articles/1086336/">[$] FUSE status and plans</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a
-href="https://docs.kernel.org/filesystems/fuse/">Filesystem in
-Userspace</a> (FUSE) maintainer Miklos Szeredi led a birds-of-a-feather
-(BoF) discussion about the subsystem at
-the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  In it, he talked about
-maintenance challenges, proposed features and their status, and his plans
-for  a new FUSE API.  There is a lot of interest and activity in the
-FUSE community these days it seems.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
