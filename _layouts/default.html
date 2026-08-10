@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		    <meta charset="utf-8">
+		        <title>{{ page.title }}</title>
+
+			    {{ '/assets/css/site.css' | relative_url }}
+	</head>
+	<body>
+
+		<header>
+			    {{ '/' | relative_url }}Home</a>
+		        {{ '/docs/' | relative_url }}Docs</a>
+		</header>
+
+		<main>
+			{{ content }}
+		</main>
+
+		https://code.jquery.com/jquery-3.7.1.min.jsscript>
+		{{ '/assets/js/site.js' | relative_url }}script>
+
+	</body>
+</html>
+
