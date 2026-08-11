@@ -52,11 +52,10 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 93. North wind around 6 mph.<br></div>
+         <h3>Monday</h3>A slight chance of showers and thunderstorms after 1pm. Mostly sunny, with a high near 92. North wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>A slight chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 71. North northeast wind around
-         5 mph.<br></div>
+         <h3>Monday Night</h3>A slight chance of showers and thunderstorms. Partly cloudy, with a low around 71. North northeast wind around 5 mph.<br></div>
    </p>
 </div>
