@@ -1,9 +1,10 @@
 <p>
-   <h2>Heat Advisory issued August 11 at 12:53AM CDT until August 13 at 8:00PM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...Maximum daily heat index values up to near 110 degrees.
+   <h2>Heat Advisory issued August 11 at 10:47AM CDT until August 13 at 8:00PM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Very hot with peak heat index values up to near 110 degrees.
       
-      * WHERE...Portions of southern Illinois, southwest Indiana, western
-      Kentucky, and southeast Missouri.
+      * WHERE...All of southwest Indiana, western Kentucky, southeast
+      Missouri, and southern Illinois excepting Perry County IL, where a
+      Warning is in effect.
       
       * WHEN...Until 8 PM CDT /9 PM EDT/ Thursday.
       
@@ -11,6 +12,6 @@
       illnesses.
       
       * ADDITIONAL DETAILS...Daily heat index values will remain elevated
-      near or above 100 degrees through next weekend.
+      in the triple digits into and through the weekend.
    </div>
 </p>
