@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1087635/" title="See Description">[$] A look at CrossPoint e-reader firmware</a></li>
+<li><a href="#https://lwn.net/Articles/1088490/" title="See Description">QEMU 11.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1088476/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1087590/" title="See Description">[$] KVM planes head for takeoff</a></li>
 <li><a href="#https://lwn.net/Articles/1088238/" title="See Description">Bernard: GNOME Shell design dreams</a></li>
@@ -51,11 +53,44 @@
 <li><a href="#https://lwn.net/Articles/1087812/" title="See Description">The Software Stewardship Lab launches</a></li>
 <li><a href="#https://lwn.net/Articles/1087759/" title="See Description">LightDM lives: version 1.33.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1087743/" title="See Description">Stable kernel releases for Friday with a single bug fix</a></li>
-<li><a href="#https://lwn.net/Articles/1087742/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1087567/" title="See Description">Six stable kernels with a security fix</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1087635/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Aug 2026 15:33:41 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087635/" title="https://lwn.net/Articles/1087635/">[$] A look at CrossPoint e-reader firmware</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>There are <a href="https://crosspointreader.com/devices">a number of small,
+inexpensive, low-powered e-reader or e-paper devices</a> that have promise as
+ebook readers with one minor problem: the firmware they ship with does not
+realize their full potential. To solve that problem, the <a
+href="https://crosspointreader.com/">CrossPoint Reader project</a> looks to
+provide replacement firmware that offers necessary features, better performance,
+and a more pleasant reading experience. On August&#160;7, the project released <a
+href="https://github.com/crosspoint-reader/crosspoint-reader/releases/tag/v1.5.0">version
+1.5.0</a>, which opens large <a
+href="https://en.wikipedia.org/wiki/EPUB">EPUBs</a> more quickly, provides
+offline dictionary lookups, and has reworked settings for changing layout and
+font options. The release also improves support for right-to-left text as well
+as <a href="https://en.wikipedia.org/wiki/CJK_characters">Chinese, Japanese, and
+Korean</a> (CJK) text rendering.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1088490/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Aug 2026 15:28:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088490/" title="https://lwn.net/Articles/1088490/">QEMU 11.1 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.qemu.org/2026/08/11/qemu-11-1-0/">Version
+11.1</a> of the QEMU emulator has been released. The release contains
+more than 3,200 commits from 285 authors and includes a long list of
+improvements; see the announcement and <a
+href="https://wiki.qemu.org/ChangeLog/11.1">changelog</a> for the
+details.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1088476/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 12 Aug 2026 13:03:48 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -294,35 +329,6 @@ that could allow data leakage through speculative execution.</p>
 
 <p>The 6.12.102 release adds the backported security fix for CVE-2026-68480 to the 6.12
 series. As always, users are advised to upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1087742/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 07 Aug 2026 13:12:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087742/" title="https://lwn.net/Articles/1087742/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (compat-libtiff3, fence-agents, firefox, freerdp, frr, gimp, gstreamer1-plugins-bad-free, java-25-openjdk, kernel, kernel-rt, ldns, libgcrypt, libXfont2, nodejs:22, nodejs:24, p11-kit, pipewire, resource-agents, sg3_utils, thunderbird, and yelp), <b>Debian</b> (async-http-client, jq, kernel, linux-6.1, linux-6.12, redis, and udisks2), <b>Fedora</b> (abrt, chromium, coreutils, curl, freeipa, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, ImageMagick, kernel, libXfont2, php, python-gstreamer1, samba, tcpreplay, and trafficserver), <b>Mageia</b> (firefox, nss, rootcerts, python-django, and thunderbird), <b>Oracle</b> (freerdp, gimp, gpsd, kernel, kernel-uek, and osbuild-composer), <b>Red Hat</b> (buildah and container-tools:rhel8), <b>Slackware</b> (libXfont2 and p11-kit), and <b>SUSE</b> (amazon-ecs-init, azure-storage-azcopy, bind, bouncycastle, cockpit-repos, cockpit-subscriptions, dnsdist, ffmpeg-4, hawk-apiserver, nodejs22, nodejs24, OpenImageIO, openssl-1_1, openssl-3, perl-Mojo-JWT, php8, rsyslog, sssd, and wireshark).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1087567/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 06 Aug 2026 18:13:15 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087567/" title="https://lwn.net/Articles/1087567/">Six stable kernels with a security fix</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1087568/">7.1.7</a>, <a
-href="https://lwn.net/Articles/1087569/">6.18.43</a>, <a
-href="https://lwn.net/Articles/1087570/">6.6.149</a>, <a
-href="https://lwn.net/Articles/1087571/">6.1.181</a>, <a
-href="https://lwn.net/Articles/1087572/">5.15.214</a>, and <a
-href="https://lwn.net/Articles/1087573/">5.10.263</a> stable kernels. These kernels
-fix a <a
-href="https://lwn.net/ml/all/2026080631-CVE-2026-68480-ad40%40gregkh/">single
-security vulnerability</a> (<a
-href="https://www.cve.org/CVERecord/?id=CVE-2026-68480">CVE-2026-68480</a>)
-that could allow data leakage through speculative execution. Users of
-those kernels are advised to upgrade.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
 </table>
