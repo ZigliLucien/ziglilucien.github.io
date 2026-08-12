@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1086344/" title="See Description">[$] Block-layer error injection</a></li>
 <li><a href="#https://lwn.net/Articles/1087635/" title="See Description">[$] A look at CrossPoint e-reader firmware</a></li>
 <li><a href="#https://lwn.net/Articles/1088490/" title="See Description">QEMU 11.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1088476/" title="See Description">Security updates for Wednesday</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1086949/" title="See Description">[$] Changes in shadow-utils password-expiration features</a></li>
 <li><a href="#https://lwn.net/Articles/1087812/" title="See Description">The Software Stewardship Lab launches</a></li>
 <li><a href="#https://lwn.net/Articles/1087759/" title="See Description">LightDM lives: version 1.33.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1087743/" title="See Description">Stable kernel releases for Friday with a single bug fix</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1086344/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 12 Aug 2026 18:34:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086344/" title="https://lwn.net/Articles/1086344/">[$] Block-layer error injection</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Storage code has to cope with hardware that fails in inconvenient
+ways, but coaxing a healthy disk into producing those failures on
+demand, for testing, is usually not possible. The kernel
+provides several ways to inject block-layer <span
+class="nobreak">I/O</span> errors, but none of those can select the  
+operation to fail, pick the status code to return, or target a disk
+directly without employing a stacked device on top. Use of a stacked device means
+the test runs against the mapper device, not the disk it was meant to
+exercise. A <a href="https://lwn.net/ml/all/20260611140703.2401204-1-hch@lst.de/">patch
+series</a> from Christoph Hellwig adds a configurable error-injection
+interface that does all three things that the current error-injection code
+lacks, controlled by a per-disk debugfs
+file.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1087635/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 12 Aug 2026 15:33:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -305,32 +325,6 @@ Peisach and Neal Gompa.</p>
 list of other fixes that had been in limbo pending a new release.</p>
 
 <p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1087743/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 07 Aug 2026 13:35:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087743/" title="https://lwn.net/Articles/1087743/">Stable kernel releases for Friday with a single bug fix</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1087744/">6.12.102</a>, <a
-href="https://lwn.net/Articles/1087745/">6.6.150</a>, <a
-href="https://lwn.net/Articles/1087746/">6.1.182</a>, <a
-href="https://lwn.net/Articles/1087747/">5.15.215</a>, <a
-href="https://lwn.net/Articles/1087748/">5.10.264</a> stable kernels. This round of
-stable kernel releases contains a fix for a single bug, <a
-href="https://lwn.net/ml/all/e6168644-1943-403e-98f7-e03b86db2ff2@proxmox.com/">found
-by Thomas Lamprecht</a>, that affected several of the kernels <a
-href="https://lwn.net/Articles/1087567/">released yesterday</a> in
-response to a <a
-href="https://lwn.net/ml/all/2026080631-CVE-2026-68480-ad40%40gregkh/">security
-vulnerability</a> (<a
-href="https://www.cve.org/CVERecord/?id=CVE-2026-68480">CVE-2026-68480</a>)
-that could allow data leakage through speculative execution.</p>
-
-<p>The 6.12.102 release adds the backported security fix for CVE-2026-68480 to the 6.12
-series. As always, users are advised to upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
