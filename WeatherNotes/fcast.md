@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Mostly sunny. High near 96, with temperatures falling to around 92 in the afternoon. Heat index values as high as 106. West
-         southwest wind around 9 mph.<br></div>
+         southwest wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
