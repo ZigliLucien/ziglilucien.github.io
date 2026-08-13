@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1088778/" title="See Description">Domas: Bypassing memory protection with AMD's memory controllers</a></li>
 <li><a href="#https://lwn.net/Articles/1088759/" title="See Description">rsync 3.5.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1088125/" title="See Description">[$] 128-Bit page tables for Arm</a></li>
 <li><a href="#https://lwn.net/Articles/1088715/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/1087069/" title="See Description">[$] Even more formal verification for BPF</a></li>
 <li><a href="#https://lwn.net/Articles/1088059/" title="See Description">Django moves to an annual release cycle</a></li>
 <li><a href="#https://lwn.net/Articles/1088057/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1087961/" title="See Description">Kernel prepatch 7.2-rc7</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1088778/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 13 Aug 2026 19:06:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088778/" title="https://lwn.net/Articles/1088778/">Domas: Bypassing memory protection with AMD's memory controllers</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Christopher Domas has
+<a href="https://github.com/xoreaxeaxeax/skitter-creek-bath-salts#skitter-creek-bath-salts">published</a> a proof of concept with a description showing how to use AMD memory controllers' bank swizzle mode to bypass memory protection and read or write arbitrary data, including CPU microcode definitions and memory belonging to the 
+<a href="https://en.wikipedia.org/wiki/AMD_Platform_Security_Processor">
+platform security processor</a>. Among other things, this allows code running at the kernel level to directly manipulate the meaning of processor instructions, potentially bypassing other security measures such as memory encryption and virtual machine isolation.
+</p>
+
+<p>
+This is not, strictly, unexpected behavior: it is 
+<a href="https://www.amd.com/content/dam/amd/en/documents/archived-tech-docs/programmer-references/32559.pdf">
+documented in AMD's manual</a> (on page 113 of that PDF). But the fact that it can be used to access arbitrary memory and thereby rewrite supposedly immutable parts of the computer's firmware without crashing the host machine seems like an unintentional side-effect of the design. Fortunately, since enabling bank swizzle mode requires kernel-level privileges, the vulnerability is not an immediate problem for most software. Still, it seems likely that this technique will end up being used for nefarious purposes eventually.
+</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1088759/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 13 Aug 2026 13:47:49 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -301,17 +319,6 @@ January&#160;2028.</p></blockquote></blockquote></div></td></tr>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, gpsd-minimal, kernel, libarchive, libgcrypt, and LibRaw), <b>Debian</b> (bind9, ca-certificates, chromium, dnsdist, icinga2, kitty, libheif, openjdk-21, pdns, pdns-recursor, thunderbird, and xen), <b>Fedora</b> (bird, erlang, kernel, mingw-glib2, nghttp2, p11-kit, perl, perl-Devel-Cover, perl-PAR-Packer, pgadmin4, polymake, python-nh3, python-wsgidav, python3.12, rabbitmq-server, rust-ammonia, seamonkey, and udisks2), <b>Mageia</b> (python-starlette), <b>Oracle</b> (gnutls, kernel, and LibRaw), <b>Red Hat</b> (container-tools:rhel8), <b>Slackware</b> (wpa_supplicant), and <b>SUSE</b> (azure-storage-azcopy, bouncycastle, ffmpeg-4, fuse-overlayfs, gleam, gstreamer-plugins-bad, libssh2-1, libssh2_org, libwireshark19, libXfont2-2, perl-Mojo-JWT, perl-Mojolicious, podman, python310, python313-Django4, and tekton-cli).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1087961/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 09 Aug 2026 22:39:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087961/" title="https://lwn.net/Articles/1087961/">Kernel prepatch 7.2-rc7</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1087960/">7.2-rc7</a> kernel prepatch is out for
-testing.  It is still bigger than Linus would like, but he said
-nonetheless: "<q>I don't currently see any value in delaying the 7.2
-release, so I would expect that to happen next weekend unless something
-really bad pops up.</q>"</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
