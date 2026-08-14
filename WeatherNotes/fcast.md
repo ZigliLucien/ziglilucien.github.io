@@ -2,10 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny, with a high near 97. Heat index values as high as 114. South wind around 2 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>Clear. Low around 75, with temperatures rising to around 78 overnight. Heat index values as high as 109. South wind around
          5 mph.<br></div>
    </p>
@@ -16,11 +12,12 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Clear, with a low around 75. Heat index values as high as 105. South southwest wind around 6 mph.<br></div>
+         <h3>Saturday Night</h3>Clear. Low around 75, with temperatures rising to around 78 overnight. Heat index values as high as 105. South southwest wind
+         around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Sunny, with a high near 99. West southwest wind around 6 mph.<br></div>
+         <h3>Sunday</h3>Sunny, with a high near 99. Heat index values as high as 107. West southwest wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -30,7 +27,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A chance of showers and thunderstorms. Partly sunny, with a high near 89. North northwest wind around 6 mph.<br></div>
+         <h3>Monday</h3>A chance of showers and thunderstorms. Partly sunny, with a high near 89. North northwest wind around 6 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -61,5 +59,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday Night</h3>A slight chance of showers and thunderstorms. Partly cloudy, with a low around 68. North northeast wind around 6 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday</h3>A slight chance of rain showers before 7am. Mostly sunny, with a high near 84. North wind around 6 mph.<br></div>
    </p>
 </div>
