@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1087823/" title="See Description">[$] BPF, continuous testing, and stable kernels</a></li>
+<li><a href="#https://lwn.net/Articles/1088920/" title="See Description">Python packaging council candidates announced</a></li>
 <li><a href="#https://lwn.net/Articles/1088919/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1088778/" title="See Description">Domas: Bypassing memory protection with AMD's memory controllers</a></li>
 <li><a href="#https://lwn.net/Articles/1088759/" title="See Description">rsync 3.5.0 released</a></li>
@@ -51,11 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1087590/" title="See Description">[$] KVM planes head for takeoff</a></li>
 <li><a href="#https://lwn.net/Articles/1088238/" title="See Description">Bernard: GNOME Shell design dreams</a></li>
 <li><a href="#https://lwn.net/Articles/1088226/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1087069/" title="See Description">[$] Even more formal verification for BPF</a></li>
-<li><a href="#https://lwn.net/Articles/1088059/" title="See Description">Django moves to an annual release cycle</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1087823/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 14 Aug 2026 14:46:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087823/" title="https://lwn.net/Articles/1087823/">[$] BPF, continuous testing, and stable kernels</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Ihor Solodrai and Shung-Hsi Yu wrapped up the BPF track at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux
+Storage, Filesystem, Memory-Management, and BPF Summit</a> with a pair of
+sessions related to testing.
+Solodrai spoke about what has changed for BPF's continuous-integration (CI)
+testing. Yu spoke about what may be
+needed to test BPF updates in stable kernels more thoroughly. The
+BPF subsystem's CI tests are in a good place, they said; even so, Solodrai and Yu have a
+handful of possible avenues toward enabling better test coverage in the future.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1088920/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 14 Aug 2026 14:07:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088920/" title="https://lwn.net/Articles/1088920/">Python packaging council candidates announced</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Python Software Foundation (PSF) has <a
+href="https://pyfound.blogspot.com/2026/08/announcing-packaging-council-election.html">announced</a>
+the <a
+href="https://www.python.org/nominations/elections/2026-python-packaging-council/nominees/">candidates</a>
+running for the Python packaging council that was <a
+href="https://lwn.net/Articles/1068704/">approved by the Python steering council
+in April</a>.</p>
+
+<blockquote class="bq">
+<p>This inaugural election fills all five seats on the PPC. The two candidates
+receiving the highest number of votes shall be designated Cohort A with a two
+year term, and the three candidates receiving the next highest number of votes
+shall be designated Cohort B with a one year term.</p>
+
+<p>In future elections, each cohort will be elected for a full two-year term in
+alternating years, so that roughly half of the PPC turns over each cycle.</p>
+</blockquote>
+
+<p>There are 17 candidates running for the five open seats. PSF voting-eligible
+members must <a
+href="https://pyfound.blogspot.com/2026/07/affirm-PSF-voting-status-2026.html">affirm
+their intention to vote</a> in this election by August&#160;25. Voting begins on
+September&#160;1, and ends on September&#160;15.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1088919/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 14 Aug 2026 13:18:05 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -270,56 +320,6 @@ more visibility.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gpsd), <b>Debian</b> (caddy, libyaml-syck-perl, nss, and wordpress), <b>Fedora</b> (chezmoi, chromium, emacs, kernel, knot, libcupsfilters, mingw-gstreamer1-plugins-good, mingw-libidn, mingw-python-pip, nghttp2, p11-kit, python-webob, suricata, and xen), <b>Mageia</b> (bind, openslide, php8.4, and php8.5), <b>Oracle</b> (gpsd-minimal, kernel, libarchive, libpng12, nodejs-nodemon, php:8.3, ruby:3.3, and ruby:4.0), <b>SUSE</b> (agama-web-ui, bind, bouncycastle, dhcpcd, ffmpeg, ffmpeg-4, freerdp, gd, gitoxide, kak-lsp, kernel-devel, librest-1_0-0, libsdb2_5_0, libssh2_org, nodejs22, PackageKit, perl, perl-Date-Manip, python-ujson, python3-sqlparse, python311, python312, python313-pymongo, ruby2.5, runc, suseconnect-ng, thunderbird, vlang, webkit2gtk3, and weechat), and <b>Ubuntu</b> (imagemagick and systemd).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1087069/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 10 Aug 2026 13:59:33 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087069/" title="https://lwn.net/Articles/1087069/">[$] Even more formal verification for BPF</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-BPF offers useful safety guarantees, but Kumar Kartikeya Dwivedi wants BPF
-programs to be even safer. At the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem,
-Memory-Management, and BPF Summit</a>, he led a session
-(<a href="https://drive.google.com/file/d/1qeLgPaOvwKMHQmyGHeNWQUBQstQeDR2v/view">slides</a>)
-discussing the possibility
-of adding domain-specific invariants to BPF programs. It was not a discussion
-intended to lead to the implementation of any particular kernel feature, but
-rather an overview of why additional formal verification might be needed, and
-how it could work with the existing BPF ecosystem.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1088059/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 10 Aug 2026 13:31:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088059/" title="https://lwn.net/Articles/1088059/">Django moves to an annual release cycle</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://www.djangoproject.com/">Django</a> Python web-framework
-project has <a
-href="https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/">announced</a>
-that it has accepted an <a
-href="https://github.com/django/deps/blob/main/accepted/0020-annual-release-cycle.rst">annual
-release cycle proposal</a>. This means that the project is moving from a <a
-href="https://github.com/django/deps/blob/main/final/0004-release-schedule.rst">somewhat
-complicated schedule</a> that interspersed short-lived feature releases and
-long-term-support (LTS) releases to a simpler annual cycle where each release is
-supported for three years.</p>
-
-<blockquote class="bq">
-<p>Every feature release gets three years of support: one year of mainstream
-bugfixes, then two years of security and data-loss fixes. The "LTS" label is
-retired — every feature release now carries that same, unique commitment.</p>
-
-<p>No more LTS gap: no racing a deadline to jump two years of changes at
-once. Upgrade one year at a time, whenever suits you within the support
-window. Three versions are supported at any time, giving third-party packages a
-clear, rolling target.</p>
-</blockquote>
-
-<p>This will take effect with the upcoming Django&#160;2028 release, expected in
-January&#160;2028.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
