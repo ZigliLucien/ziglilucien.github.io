@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>Sunny. High near 97, with temperatures falling to around 95 in the afternoon. Heat index values as high as 107. West southwest
-         wind 2 to 6 mph.<br></div>
+         wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
