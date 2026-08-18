@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1088489/" title="See Description">[$] Fedora prepares for the end of AF_ALG</a></li>
+<li><a href="#https://lwn.net/Articles/1089338/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1088776/" title="See Description">[$] Development statistics for the 7.2 kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1088279/" title="See Description">[$] Bootstrappable builds: how and why</a></li>
 <li><a href="#https://lwn.net/Articles/1089211/" title="See Description">GNU poke 5.0 released</a></li>
@@ -51,11 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1088759/" title="See Description">rsync 3.5.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1088125/" title="See Description">[$] 128-Bit page tables for Arm</a></li>
 <li><a href="#https://lwn.net/Articles/1088715/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1087432/" title="See Description">[$] LWN.net Weekly Edition for August 13, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1086344/" title="See Description">[$] Block-layer error injection</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1088489/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 18 Aug 2026 13:48:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088489/" title="https://lwn.net/Articles/1088489/">[$] Fedora prepares for the end of AF_ALG</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The Linux kernel's <a
+href="https://docs.kernel.org/crypto/userspace-if.html">user-space interface
+(<tt>AF_ALG</tt>)</a> to the <a href="https://docs.kernel.org/crypto/index.html">Crypto
+API</a> has been linked to a number of recent high-profile security problems,
+including <a href="https://copy.fail/">Copy Fail</a> and successor
+vulnerabilities. It was <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a67afb1884ba">deprecated</a>
+earlier this year. Eric Biggers, and other kernel developers,
+have been <a href="https://lwn.net/Articles/1077427/#alf">working to remove it
+from the kernel</a>. With that in mind, the Fedora Project is planning to
+restrict use of <tt>AF_ALG</tt> in the next Fedora release in the hopes of nudging
+remaining users of the API to prepare for its eventual removal.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1089338/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 18 Aug 2026 13:09:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089338/" title="https://lwn.net/Articles/1089338/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, 389-ds:1.4, bind, haproxy, kernel, kernel-rt, libXfont2, nghttp2, and unbound), <b>Debian</b> (calibre, expat, ironic, and linux-6.12), <b>Fedora</b> (coturn, linux-firmware, php-phpseclib, and sqlite), <b>Red Hat</b> (fence-agents, osbuild-composer, pam, resource-agents, and sg3_utils), <b>SUSE</b> (ffmpeg, jetty-minimal, open-iscsi, python, python313-h2, python313-pysaml2, redis, redis7, rsync, sccache, texlive, and wasm-bindgen), and <b>Ubuntu</b> (engrampa, linux-aws-7.0, and linux-azure-fde-5.15).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1088776/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 17 Aug 2026 16:27:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -313,41 +340,6 @@ who will benefit from this capability is not entirely clear.
  linux-fips, linux-gcp-4.15, linux-gcp-fips, linux-kvm, linux, linux-aws, linux-azure, linux-azure-fde, linux-ibm, linux-oracle,
  linux-raspi, linux-realtime, linux-azure, linux-azure-6.17, linux-gcp-6.17, linux-hwe-6.17, linux-oem-6.17,
  linux-realtime-6.17, node-follow-redirects, and yelp).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1087432/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 13 Aug 2026 00:23:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1087432/" title="https://lwn.net/Articles/1087432/">[$] LWN.net Weekly Edition for August 13, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1087432/">Front</a>: BPF and binfmt_misc; CrossPoint ebook firmware; KVM planes; BPF formal verification; shadow-utils; new storage-code testing features.
-            <li> <a href="https://lwn.net/Articles/1087434/">Briefs</a>: Django releases; GNOME shell; LightDM 1.33.0; QEMU 11.1; uutils 0.10; Software Stewardship Lab; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1087435/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1086344/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 12 Aug 2026 18:34:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1086344/" title="https://lwn.net/Articles/1086344/">[$] Block-layer error injection</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Storage code has to cope with hardware that fails in inconvenient
-ways, but coaxing a healthy disk into producing those failures on
-demand, for testing, is usually not possible. The kernel
-provides several ways to inject block-layer <span
-class="nobreak">I/O</span> errors, but none of those can select the  
-operation to fail, pick the status code to return, or target a disk
-directly without employing a stacked device on top. Use of a stacked device means
-the test runs against the mapper device, not the disk it was meant to
-exercise. A <a href="https://lwn.net/ml/all/20260611140703.2401204-1-hch@lst.de/">patch
-series</a> from Christoph Hellwig adds a configurable error-injection
-interface that does all three things that the current error-injection code
-lacks, controlled by a per-disk debugfs
-file.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
