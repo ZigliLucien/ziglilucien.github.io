@@ -38,7 +38,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>Mostly clear, with a low around 66. Northwest wind around 2 mph.<br></div>
+         <h3>Friday Night</h3>Clear, with a low around 66. Northwest wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">

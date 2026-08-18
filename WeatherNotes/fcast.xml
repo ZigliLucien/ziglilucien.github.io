@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-08-18T05:36:02+00:00</generatedAt>
-		<updateTime type="str">2026-08-18T05:16:31+00:00</updateTime>
-		<validTimes type="str">2026-08-17T23:00:00+00:00/P8DT2H</validTimes>
+		<generatedAt type="str">2026-08-18T06:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-08-18T06:21:10+00:00</updateTime>
+		<validTimes type="str">2026-08-18T00:00:00+00:00/P8DT1H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-08-18T00:00:00-05:00</startTime>
+				<startTime type="str">2026-08-18T01:00:00-05:00</startTime>
 				<endTime type="str">2026-08-18T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">64</temperature>
@@ -216,9 +216,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
 				<windDirection type="str">NW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
-				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 66. Northwest wind around 2 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
+				<shortForecast type="str">Clear</shortForecast>
+				<detailedForecast type="str">Clear, with a low around 66. Northwest wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">10</number>
@@ -231,7 +231,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">9</value>
+					<value type="int">8</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">0 to 6 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
@@ -250,7 +250,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">9</value>
+					<value type="int">8</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 to 5 mph</windSpeed>
 				<windDirection type="str">N</windDirection>
