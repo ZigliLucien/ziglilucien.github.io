@@ -2,14 +2,10 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>A slight chance of showers and thunderstorms before 3pm. Mostly sunny. High near 83, with temperatures falling to around 81
-         in the afternoon. South southwest wind around 6 mph. Chance of precipitation is 20%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>A chance of showers and thunderstorms between 7pm and 8pm, then showers and thunderstorms likely between 8pm and 10pm, then
-         a chance of showers and thunderstorms between 10pm and 3am. Some of the storms could produce heavy rain. Mostly cloudy. Low
-         around 69, with temperatures rising to around 71 overnight. East southeast wind around 3 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 9pm, then showers and thunderstorms likely between 9pm and 1am, then a chance
+         of showers and thunderstorms between 1am and 4am, then a chance of showers and thunderstorms between 4am and 5am, then a slight
+         chance of showers and thunderstorms. Some of the storms could produce heavy rain. Mostly cloudy. Low around 69, with temperatures
+         rising to around 71 overnight. South southeast wind around 5 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -18,7 +14,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 67. North northeast wind 0 to 5 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly clear. Low around 67, with temperatures rising to around 69 overnight. North northeast wind 0 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,5 +56,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday Night</h3>A slight chance of showers and thunderstorms after 7pm. Partly cloudy, with a low around 68. East wind around 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday</h3>A slight chance of showers and thunderstorms before 7am. Mostly sunny, with a high near 90. North wind 2 to 6 mph.<br></div>
    </p>
 </div>
