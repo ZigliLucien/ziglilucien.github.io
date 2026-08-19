@@ -2,22 +2,24 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear. Low around 69, with temperatures rising to around 71 overnight. South southeast wind around 3 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear. Low around 69, with temperatures rising to around 71 overnight. South wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Showers and thunderstorms likely before 1pm, then a slight chance of showers and thunderstorms. Partly sunny. High near 85,
-         with temperatures falling to around 83 in the afternoon. South southwest wind around 5 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Wednesday</h3>A slight chance of showers and thunderstorms before 7am, then showers and thunderstorms between 7am and 11am, then a chance
+         of showers and thunderstorms. Mostly cloudy. High near 85, with temperatures falling to around 83 in the afternoon. South
+         southwest wind around 5 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of showers and thunderstorms before midnight, then showers and thunderstorms likely. Mostly cloudy. Low around 68,
-         with temperatures rising to around 70 overnight. North northeast wind around 3 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Wednesday Night</h3>A chance of showers and thunderstorms before 8pm, then showers and thunderstorms likely between 8pm and 3am, then a chance
+         of showers and thunderstorms between 3am and 5am, then a chance of showers and thunderstorms. Mostly cloudy. Low around 68,
+         with temperatures rising to around 70 overnight. Northeast wind around 3 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of showers and thunderstorms before 10am, then a chance of showers and thunderstorms between 10am and 1pm. Partly
-         sunny, with a high near 84. North northeast wind around 5 mph. Chance of precipitation is 50%.<br></div>
+         <h3>Thursday</h3>A chance of showers and thunderstorms between 10am and 1pm. Partly sunny, with a high near 84. North northeast wind around
+         5 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
