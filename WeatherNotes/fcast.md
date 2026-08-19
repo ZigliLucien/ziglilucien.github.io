@@ -2,23 +2,19 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Mostly cloudy. Low around 69, with temperatures rising to around 73 overnight. South wind around 2 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Wednesday</h3>A slight chance of showers and thunderstorms before 7am, then showers and thunderstorms between 7am and 11am, then a chance
+         <h3>Today</h3>A slight chance of showers and thunderstorms before 7am, then showers and thunderstorms between 7am and 11am, then a chance
          of showers and thunderstorms. Mostly cloudy. High near 84, with temperatures falling to around 82 in the afternoon. South
          southwest wind around 5 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of showers and thunderstorms before 8pm, then showers and thunderstorms likely between 8pm and 3am, then a chance
+         <h3>Tonight</h3>A chance of showers and thunderstorms before 8pm, then showers and thunderstorms likely between 8pm and 3am, then a chance
          of showers and thunderstorms between 3am and 5am, then a chance of showers and thunderstorms. Mostly cloudy. Low around 68,
          with temperatures rising to around 70 overnight. Northeast wind around 3 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Partly sunny, with a high near 84. North wind around 5 mph.<br></div>
+         <h3>Thursday</h3>Partly sunny. High near 84, with temperatures falling to around 82 in the afternoon. North wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -59,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Tuesday</h3>Sunny, with a high near 88. East northeast wind around 6 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Tuesday Night</h3>A slight chance of rain showers after 1am. Partly cloudy, with a low around 68. East northeast wind around 5 mph.<br></div>
    </p>
 </div>
