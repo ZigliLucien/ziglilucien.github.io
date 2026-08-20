@@ -12,7 +12,7 @@
 	<atom:link href="https://www.raspberrypi.org/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.raspberrypi.org/</link>
 	<description>Teach, learn and make with Raspberry Pi</description>
-	<lastBuildDate>Thu, 13 Aug 2026 09:22:26 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 20 Aug 2026 10:31:35 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,159 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Keep coding when your internet drops: Offline support in the Code Editor</title>
+		<link>https://www.raspberrypi.org/blog/offline-support-in-the-code-editor/</link>
+					<comments>https://www.raspberrypi.org/blog/offline-support-in-the-code-editor/#respond</comments>
+		
+		<dc:creator><![CDATA[Greg Annandale]]></dc:creator>
+		<pubDate>Thu, 20 Aug 2026 10:31:34 +0000</pubDate>
+				<category><![CDATA[Code Editor]]></category>
+		<category><![CDATA[accessibility]]></category>
+		<category><![CDATA[safe and responsible design]]></category>
+		<guid isPermaLink="false">https://www.raspberrypi.org/?p=93622</guid>
+
+					<description><![CDATA[<p>Our free, browser-based Code Editor now keeps working when your internet connection doesn&#8217;t. If your connection breaks in the middle of a lesson or a project, you can carry on writing and running your code without disruption, even if the page is reloaded. Why we built this An unstable internet connection is a minor annoyance&#8230;</p>
+<p>The post <a href="https://www.raspberrypi.org/blog/offline-support-in-the-code-editor/">Keep coding when your internet drops: Offline support in the Code Editor</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Our free, browser-based <a href="https://editor.raspberrypi.org/">Code Editor</a> now keeps working when your internet connection doesn&#8217;t. If your connection breaks in the middle of a lesson or a project, you can carry on writing and running your code without disruption, even if the page is reloaded.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img fetchpriority="high" decoding="async" width="500" height="334" src="https://www.raspberrypi.org/app/uploads/2023/11/20221021_Kenya_Connect_Launch_HW_07416-500x334.jpg" alt="Learners in a classroom in Kenya." class="wp-image-85478" srcset="https://www.raspberrypi.org/app/uploads/2023/11/20221021_Kenya_Connect_Launch_HW_07416-500x334.jpg 500w, https://www.raspberrypi.org/app/uploads/2023/11/20221021_Kenya_Connect_Launch_HW_07416-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2023/11/20221021_Kenya_Connect_Launch_HW_07416-768x513.jpg 768w, https://www.raspberrypi.org/app/uploads/2023/11/20221021_Kenya_Connect_Launch_HW_07416-1536x1026.jpg 1536w, https://www.raspberrypi.org/app/uploads/2023/11/20221021_Kenya_Connect_Launch_HW_07416-2048x1368.jpg 2048w, https://www.raspberrypi.org/app/uploads/2023/11/20221021_Kenya_Connect_Launch_HW_07416-800x534.jpg 800w, https://www.raspberrypi.org/app/uploads/2023/11/20221021_Kenya_Connect_Launch_HW_07416-450x301.jpg 450w, https://www.raspberrypi.org/app/uploads/2023/11/20221021_Kenya_Connect_Launch_HW_07416-900x601.jpg 900w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
+</div>
+
+
+<h2 class="wp-block-heading">Why we built this</h2>
+
+
+
+<p class="wp-block-paragraph">An unstable internet connection is a minor annoyance when you&#8217;re reading a web page, but it&#8217;s a much bigger problem when you&#8217;re 20 minutes into creating a program.</p>
+
+
+
+<p class="wp-block-paragraph">Until now, losing your connection while using the Code Editor could mean losing your work: if you refreshed the page at the wrong moment, you might have seen a blank screen or a browser error instead of your program.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-blog-entry"><img decoding="async" width="800" height="434" src="https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-used-offline-800x434.png" alt="A screenshot of the Code Editor being used without internet connection." class="wp-image-93635" srcset="https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-used-offline-800x434.png 800w, https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-used-offline-300x163.png 300w, https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-used-offline-500x271.png 500w, https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-used-offline-768x417.png 768w, https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-used-offline-1536x833.png 1536w, https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-used-offline-450x244.png 450w, https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-used-offline-900x488.png 900w, https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-used-offline.png 1915w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption class="wp-element-caption">Better offline support means the Code Editor can be more useful for learning and teaching.</figcaption></figure>
+</div>
+
+
+<p class="wp-block-paragraph">When we wanted to understand better what learners and educators around the world need from the Code Editor, we carried out research in countries including <a href="https://www.raspberrypi.org/blog/tag/india/">India</a>, <a href="https://www.raspberrypi.org/blog/tag/kenya/">Kenya</a>, and <a href="https://www.raspberrypi.org/blog/tag/south-africa/">South Africa</a>. One topic we explored was the availability and reliability of internet connections in metropolitan and rural areas. While it was no surprise that internet access is often slow, unreliable, or expensive in rural areas, we learned that issues related to electricity supply, such as load-shedding and brownouts, are also prevalent in metropolitan areas. All this shapes what is realistically possible in a programming activity using an online editor.</p>
+
+
+
+<p class="wp-block-paragraph">And connectivity issues can occur in any school computing lab where 30 learners are all accessing the same WiFi at once, or for a Code Club running off a mobile hotspot in a community centre, or for someone finishing their homework on patchy mobile data.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s why it became a priority for us to improve the Code Editor&#8217;s offline support by making it resilient to disconnection.</p>
+
+
+
+<p class="wp-block-paragraph">As we describe in our recently shared <a href="https://www.raspberrypi.org/blog/draft-principles-for-safe-responsible-edtech/">draft principles for safe and responsible education technology</a>, one of our commitments is to design for diverse needs, abilities, and contexts — including not to assume constant internet connectivity. This Code Editor update is a small, practical piece of that commitment.</p>
+
+
+
+<h2 class="wp-block-heading">What this means for learners and teachers</h2>
+
+
+
+<p class="wp-block-paragraph">The Code Editor was built with resilience in mind from the start, for example running code in your browser rather than on a server, and saving your project locally on your device as you go.</p>
+
+
+
+<p class="wp-block-paragraph">Our recent additions ensure that once you&#8217;ve opened the Code Editor while online, your browser holds on to even more of the parts you need to keep coding without a connection. Now if you go offline midway through using the Editor:</p>
+
+
+
+<ul class="wp-block-list">
+<li>You&#8217;ll see a clear message in the Editor flagging that you&#8217;re offline</li>
+
+
+
+<li>A full page refresh won&#8217;t result in a connection error or blank screen</li>
+
+
+
+<li>If you&#8217;re logged in, everything you do in the Editor while offline is saved to your account automatically once you&#8217;re back online</li>
+
+
+
+<li>You can still download your code using the &#8216;download&#8217; button, in case you know you&#8217;re going to be offline for a while and need to save your program file on your computer or a storage device</li>
+</ul>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" width="500" height="295" src="https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-offline-message-500x295.png" alt="A screenshot of the message the Code Editor shows when it is being used offline." class="wp-image-93636" srcset="https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-offline-message-500x295.png 500w, https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-offline-message-300x177.png 300w, https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-offline-message-450x266.png 450w, https://www.raspberrypi.org/app/uploads/2026/08/Code-Editor-offline-message.png 753w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">A message shows in the Editor when the internet connection is down.</figcaption></figure>
+</div>
+
+
+<h2 class="wp-block-heading">How it works, in brief</h2>
+
+
+
+<p class="wp-block-paragraph">This update is built on a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API" target="_blank" rel="noreferrer noopener">service worker</a>, a script your internet browser runs in the background. When you first load the Code Editor, the service worker stores the files the Editor needs in your browser&#8217;s cache. If the network connection then breaks, the service worker serves those stored files instead of trying and failing to fetch them. When you come back online, it automatically refreshes the cache so you&#8217;re not left running old files.</p>
+
+
+
+<h2 class="wp-block-heading">What is not possible at the moment</h2>
+
+
+
+<p class="wp-block-paragraph">The Code Editor isn&#8217;t a full offline app that you install. It&#8217;s a browser-based app that we have now upgraded to better cope with losing its internet connection, which means:</p>
+
+
+
+<ul class="wp-block-list">
+<li>You need to have loaded the Code Editor at least once while online, in the browser and on the device you&#8217;re going to use</li>
+
+
+
+<li>When you go offline, you can&#8217;t open projects you haven&#8217;t already loaded</li>
+
+
+
+<li>If you clear your browser data while offline, any changes you&#8217;ve made to projects will disappear</li>
+
+
+
+<li>You can&#8217;t log into or out of your account while offline, and saving to your account pauses until you&#8217;re back online</li>
+
+
+
+<li>Any feature that needs the network, such as sharing projects with students in <a href="https://classroom.raspberrypi.org/" target="_blank" rel="noreferrer noopener">Code Classroom</a>, won&#8217;t be available until you reconnect</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">We&#8217;ll keep working to extend what parts of the Editor work offline.</p>
+
+
+
+<h2 class="wp-block-heading">Try it and tell us how you get on</h2>
+
+
+
+<p class="wp-block-paragraph">The <a href="https://editor.raspberrypi.org/" target="_blank" rel="noreferrer noopener">Code Editor</a> works in your browser with no setup and will always be free for educators and learners. We hope this update makes it more useful for people in lots of different settings.</p>
+
+
+
+<p class="wp-block-paragraph">The update is one of those features some people will never notice, which is rather the point: it should feel like nothing went wrong. If your connection is unreliable and you try out the updated Code Editor, we&#8217;d love you to <a href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank" rel="noreferrer noopener">tell us whether or not it works well for you</a>.</p>
+
+
+
+<p class="wp-block-paragraph">We would like to thank Cisco for the generous funding that made this work possible.</p>
+<p>The post <a href="https://www.raspberrypi.org/blog/offline-support-in-the-code-editor/">Keep coding when your internet drops: Offline support in the Code Editor</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.raspberrypi.org/blog/offline-support-in-the-code-editor/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>How to improve students’ problem-solving skills using subgoal labels</title>
 		<link>https://www.raspberrypi.org/blog/how-to-improve-students-problem-solving-skills-using-subgoal-labels/</link>
 					<comments>https://www.raspberrypi.org/blog/how-to-improve-students-problem-solving-skills-using-subgoal-labels/#respond</comments>
@@ -35,10 +188,10 @@
 		<dc:creator><![CDATA[Sean Sayers]]></dc:creator>
 		<pubDate>Thu, 13 Aug 2026 09:22:24 +0000</pubDate>
 				<category><![CDATA[Education]]></category>
-		<category><![CDATA[computing education]]></category>
-		<category><![CDATA[pedagogy]]></category>
 		<category><![CDATA[quick reads]]></category>
 		<category><![CDATA[research and impact]]></category>
+		<category><![CDATA[computing education]]></category>
+		<category><![CDATA[pedagogy]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=93599</guid>
 
 					<description><![CDATA[<p>When faced with a programming problem, computing educators often start solving it without a second thought. Before writing a single line of code, experienced programmers use a range of skills to choose their approach and make other key decisions. Thanks to repeated practice, many of these decisions feel automatic and require little conscious thought. However,&#8230;</p>
@@ -49,7 +202,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img fetchpriority="high" decoding="async" width="500" height="281" src="https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-500x281.png" alt="Graphic displaying the Raspberry Pi Foundation's Subgoal labels Quick Read" class="wp-image-93600" srcset="https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-500x281.png 500w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-768x432.png 768w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-1536x864.png 1536w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-800x450.png 800w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-450x253.png 450w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-900x506.png 900w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read.png 1600w" sizes="(max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">The Quick Read on subgoal labels</figcaption></figure>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="281" src="https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-500x281.png" alt="Graphic displaying the Raspberry Pi Foundation's Subgoal labels Quick Read" class="wp-image-93600" srcset="https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-500x281.png 500w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-300x169.png 300w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-768x432.png 768w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-1536x864.png 1536w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-800x450.png 800w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-450x253.png 450w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read-900x506.png 900w, https://www.raspberrypi.org/app/uploads/2026/08/Subgoal-labels-Quick-Read.png 1600w" sizes="auto, (max-width: 500px) 100vw, 500px" /><figcaption class="wp-element-caption">The Quick Read on subgoal labels</figcaption></figure>
 </div>
 
 
@@ -83,7 +236,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-500x333.jpg" alt="Photo of educators programming on Scratch in a computing classroom" class="wp-image-93601" style="aspect-ratio:1.5015719581436817;width:500px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-2048x1365.jpg 2048w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-900x600.jpg 900w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-500x333.jpg" alt="Photo of educators programming on Scratch in a computing classroom" class="wp-image-93601" style="aspect-ratio:1.5015719581436817;width:500px;height:auto" srcset="https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-2048x1365.jpg 2048w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-800x533.jpg 800w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2026/08/Clubs-Con_2024_HQ-85-1-900x600.jpg 900w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure>
 </div>
 
 
@@ -188,9 +341,9 @@
 		<dc:creator><![CDATA[Sophie Ashford]]></dc:creator>
 		<pubDate>Tue, 11 Aug 2026 10:25:11 +0000</pubDate>
 				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Code Club]]></category>
 		<category><![CDATA[young people]]></category>
 		<category><![CDATA[Community stories]]></category>
-		<category><![CDATA[Code Club]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=93570</guid>
 
 					<description><![CDATA[<p>We love hearing from members of the community and sharing the stories of amazing young people, volunteers, and educators who are using their passion for technology to create positive change in the world around them. Last year, we shared the story of Douglas, founder and director of Oasis Mathare, an organisation using technology to open&#8230;</p>
@@ -214,7 +367,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="My coding story: Douglas, breaking boundaries through code" width="500" height="281" src="https://www.youtube.com/embed/Ta-IDBsLgKM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" title="My coding story: Douglas, breaking boundaries through code" width="500" height="281" src="https://www.youtube.com/embed/Ta-IDBsLgKM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -936,11 +1089,11 @@
 		<dc:creator><![CDATA[Laura Kirsop]]></dc:creator>
 		<pubDate>Thu, 16 Jul 2026 08:46:53 +0000</pubDate>
 				<category><![CDATA[Foundation]]></category>
-		<category><![CDATA[safe and responsible design]]></category>
-		<category><![CDATA[thought leadership]]></category>
 		<category><![CDATA[edtech]]></category>
 		<category><![CDATA[education technology]]></category>
 		<category><![CDATA[children's rights]]></category>
+		<category><![CDATA[safe and responsible design]]></category>
+		<category><![CDATA[thought leadership]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=93414</guid>
 
 					<description><![CDATA[<p>Millions of young people and educators around the world use our technology to teach, learn, and create with code. Building it safely and responsibly is intrinsic to who we are and what we stand for. A growing body of research and public commentary links the use of social media, smartphones, and algorithmic platforms to declining&#8230;</p>
@@ -1102,13 +1255,13 @@
 		<dc:creator><![CDATA[Bobby Whyte]]></dc:creator>
 		<pubDate>Tue, 14 Jul 2026 09:49:47 +0000</pubDate>
 				<category><![CDATA[Research]]></category>
+		<category><![CDATA[research seminar]]></category>
 		<category><![CDATA[data science]]></category>
 		<category><![CDATA[AI education]]></category>
 		<category><![CDATA[AI literacy]]></category>
 		<category><![CDATA[data literacy]]></category>
 		<category><![CDATA[Applied AI]]></category>
 		<category><![CDATA[research]]></category>
-		<category><![CDATA[research seminar]]></category>
 		<guid isPermaLink="false">https://www.raspberrypi.org/?p=93394</guid>
 
 					<description><![CDATA[<p>The development of AI and data science has transformed how we gain insights from data. In healthcare, AI tools are being used in the development of new treatments as researchers apply machine learning methods to datasets. However, applying AI in healthcare also brings risks, particularly when systems amplify existing biases in data or design. In&#8230;</p>
@@ -1333,121 +1486,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.raspberrypi.org/blog/hello-world-30-out-now-critical-thinking-in-the-age-of-ai/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Empowering global AI literacy: Translating Experience AI resources into Croatian</title>
-		<link>https://www.raspberrypi.org/blog/empowering-global-ai-literacy-translating-experience-ai-resources-into-croatian/</link>
-					<comments>https://www.raspberrypi.org/blog/empowering-global-ai-literacy-translating-experience-ai-resources-into-croatian/#respond</comments>
-		
-		<dc:creator><![CDATA[Zeljka Novak Baxter]]></dc:creator>
-		<pubDate>Fri, 10 Jul 2026 14:51:24 +0000</pubDate>
-				<category><![CDATA[Experience AI]]></category>
-		<category><![CDATA[computing education]]></category>
-		<category><![CDATA[localisation]]></category>
-		<guid isPermaLink="false">https://www.raspberrypi.org/?p=93363</guid>
-
-					<description><![CDATA[<p>We work with partners globally to promote AI literacy through Experience AI, our programme created in collaboration with Google DeepMind. With resources available in 19+ languages and a network of partners in over 38 countries, a key part of our work is translating and localising our materials so as many young people around the world&#8230;</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/empowering-global-ai-literacy-translating-experience-ai-resources-into-croatian/">Empowering global AI literacy: Translating Experience AI resources into Croatian</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">We work with partners globally to promote AI literacy through <a href="https://experience-ai.org/en/">Experience AI</a>, our programme created in collaboration with Google DeepMind. With resources available in 19+ languages and <a href="https://www.raspberrypi.org/blog/experience-ai-reaching-millions-of-young-people-with-ai-literacy/">a network of partners in over 38 countries</a>, a key part of our work is translating and localising our materials so as many young people around the world as possible build the confidence to engage with AI critically and responsibly.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="500" height="333" src="https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-2-500x333.jpg" alt="Educators at a workshop" class="wp-image-90151" srcset="https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-2-500x333.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-2-300x200.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-2-768x512.jpg 768w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-2-1536x1024.jpg 1536w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-2-800x534.jpg 800w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-2-450x300.jpg 450w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-2-900x600.jpg 900w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-2.jpg 1600w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure>
-</div>
-
-
-<p class="wp-block-paragraph">But localisation introduces a unique hurdle: sometimes, languages are divided into ‘small languages’ and ‘big languages’.</p>
-
-
-
-<p class="wp-block-paragraph">As a speaker of Croatian, a ‘small language’, I think about this divide often. What makes a language small? A small language has a small number of speakers and is usually not considered a key market. Practically, this means resources for translation are often directed towards ‘big languages’. This makes sense from an impact perspective: translating into languages with more speakers maximises reach.</p>
-
-
-
-<p class="wp-block-paragraph">That is why, as a localisation coordinator at the Foundation, I am delighted that we partnered with Croatian organisation <em>Suradnici u učenju</em> to ensure that for Experience AI, Croatian is not treated as a small language — it is simply a language.</p>
-
-
-
-<h2 class="wp-block-heading">Translating text about emerging technologies is not easy</h2>
-
-
-
-<p class="wp-block-paragraph">But translating into Croatian can present hurdles. When I got my first computer in Croatia, the user interface was in English. As a result, I never learned how to say “copy/paste” in Croatian. Those types of menus and tools had simply not been translated yet when I lived there. This happens a lot, especially with software and fast-emerging technologies like AI. Native speakers have no other choice but to use English words: the English words enter the language, and sometimes they stay.</p>
-
-
-
-<p class="wp-block-paragraph">As a result, translating key Experience AI terms into Croatian wasn’t easy. Even terms like ‘AI’ went through several rounds of discussion. Should we use the English ‘AI’ (artificial intelligence) or the Croatian ‘UI’ (umjetna inteligencija)? How should we pronounce ‘AI’ or ‘UI’ in spoken language?</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-blog-entry"><img loading="lazy" decoding="async" width="800" height="467" src="https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-800x467.jpg" alt="" class="wp-image-90148" srcset="https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-800x467.jpg 800w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-300x175.jpg 300w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-500x292.jpg 500w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-768x449.jpg 768w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-450x263.jpg 450w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai-900x526.jpg 900w, https://www.raspberrypi.org/app/uploads/2025/05/experience-ai.jpg 1000w" sizes="auto, (max-width: 800px) 100vw, 800px" /></figure>
-</div>
-
-
-<p class="wp-block-paragraph">Sometimes, it can be hard to know what the right thing to do is. While the English terms have been normalised, the Croatian word can seem foreign and out of place. When making a decision about how we translate terms for Experience AI resources, we also have to think about fairness and accessibility. Is it fair to assume that all young people and educators understand English words? If we assume incorrectly, we are preventing some learners from fully accessing and understanding our materials.</p>
-
-
-
-<p class="wp-block-paragraph">That’s why our in-country partners are a big part of our translation process. When we aren’t sure about whether we are making the right choice for educators and learners, we can rely on their expertise. They are not only native speakers, but also subject matter experts. For Croatian specifically, <em>Suradnici u učenju</em> did a very thorough review of the translation.</p>
-
-
-
-<h2 class="wp-block-heading">It&#8217;s about more than just words</h2>
-
-
-
-<p class="wp-block-paragraph">Beyond AI terminology, localisation also meant aligning resources with the terminology and conventions already used in Croatian schools and curricula. This ensured that the resources felt familiar to teachers and reflected the language they already use in classrooms, textbooks, and educational guidance.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="1600" height="1065" src="https://www.raspberrypi.org/app/uploads/2025/05/image-11.jpeg" alt="A group of educators looking at a laptop screen." class="wp-image-90289" srcset="https://www.raspberrypi.org/app/uploads/2025/05/image-11.jpeg 1600w, https://www.raspberrypi.org/app/uploads/2025/05/image-11-300x200.jpeg 300w, https://www.raspberrypi.org/app/uploads/2025/05/image-11-500x333.jpeg 500w, https://www.raspberrypi.org/app/uploads/2025/05/image-11-768x511.jpeg 768w, https://www.raspberrypi.org/app/uploads/2025/05/image-11-1536x1022.jpeg 1536w, https://www.raspberrypi.org/app/uploads/2025/05/image-11-800x533.jpeg 800w, https://www.raspberrypi.org/app/uploads/2025/05/image-11-450x300.jpeg 450w, https://www.raspberrypi.org/app/uploads/2025/05/image-11-900x599.jpeg 900w" sizes="auto, (max-width: 1600px) 100vw, 1600px" /></figure>
-</div>
-
-
-<p class="wp-block-paragraph">As Lidija Kralj, from <em>Suradnici u učenju</em> explained:</p>
-
-
-
-<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
-<p class="wp-block-paragraph">&#8220;It was very important that an Informatics subject expert worked together with a Croatian language expert, and that both of us are teachers. We discussed whether to use the English abbreviation &#8216;AI&#8217; or the Croatian &#8216;UI&#8217;, and ultimately felt it was our responsibility as educators to use Croatian terms where they already exist. We also wanted to be consistent with terminology that teachers already know from textbooks and the Croatian education system.</p>
-
-
-
-<p class="wp-block-paragraph">This combination — a subject expert, a language expert, and a Raspberry Pi Foundation localisation expert who understands our language — helped us create resources that feel natural and ready for classroom use. The response from participants in our first Experience AI course in Croatian has already shown us how much teachers value having fully localised materials.&#8221;</p>
-</blockquote>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-blog-entry"><img loading="lazy" decoding="async" width="800" height="373" src="https://www.raspberrypi.org/app/uploads/2026/04/expai-uzbekistan-6-800x373.jpg" alt="" class="wp-image-92942" srcset="https://www.raspberrypi.org/app/uploads/2026/04/expai-uzbekistan-6-800x373.jpg 800w, https://www.raspberrypi.org/app/uploads/2026/04/expai-uzbekistan-6-300x140.jpg 300w, https://www.raspberrypi.org/app/uploads/2026/04/expai-uzbekistan-6-500x233.jpg 500w, https://www.raspberrypi.org/app/uploads/2026/04/expai-uzbekistan-6-768x359.jpg 768w, https://www.raspberrypi.org/app/uploads/2026/04/expai-uzbekistan-6-1536x717.jpg 1536w, https://www.raspberrypi.org/app/uploads/2026/04/expai-uzbekistan-6-450x210.jpg 450w, https://www.raspberrypi.org/app/uploads/2026/04/expai-uzbekistan-6-900x420.jpg 900w, https://www.raspberrypi.org/app/uploads/2026/04/expai-uzbekistan-6.jpg 2048w" sizes="auto, (max-width: 800px) 100vw, 800px" /></figure>
-</div>
-
-
-<p class="wp-block-paragraph">We opted for the approach where, if a Croatian word exists, we will use the Croatian word. Personally, I enjoyed seeing words like ‘offline activity’ slowly disappear from our resources and get replaced with Croatian words like “aktivnost bez računala” (activity without a computer).</p>
-
-
-
-<p class="wp-block-paragraph">As a result, the Croatian translation of our resources now flows very naturally, is accessible, and doesn’t read like a translation. You can check out our <a href="https://experience-ai.org/hr-HR/units">Croatian resources</a> online.</p>
-
-
-
-<h2 class="wp-block-heading">AI literacy education with a global network of partners</h2>
-
-
-
-<p class="wp-block-paragraph">We work with partners worldwide to bring AI literacy education to <a href="https://www.raspberrypi.org/blog/experience-ai-reaching-millions-of-young-people-with-ai-literacy/">millions of young people</a>. Discover all <a href="https://experience-ai.org/en/partners">Experience AI partners</a> here.</p>
-
-
-
-<p class="wp-block-paragraph">And to learn more about our resources and to see what other languages we translate into, check out the <a href="https://experience-ai.org/">Experience AI website</a>.</p>
-<p>The post <a href="https://www.raspberrypi.org/blog/empowering-global-ai-literacy-translating-experience-ai-resources-into-croatian/">Empowering global AI literacy: Translating Experience AI resources into Croatian</a> appeared first on <a href="https://www.raspberrypi.org">Raspberry Pi Foundation</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.raspberrypi.org/blog/empowering-global-ai-literacy-translating-experience-ai-resources-into-croatian/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
