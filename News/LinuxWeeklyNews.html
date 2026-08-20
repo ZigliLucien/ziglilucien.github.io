@@ -38,6 +38,11 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1089721/" title="See Description">KDE Gear 26.08 released</a></li>
+<li><a href="#https://lwn.net/Articles/1089720/" title="See Description">Supply chain attack on arrayref (Rust blog)</a></li>
+<li><a href="#https://lwn.net/Articles/1089719/" title="See Description">RPM 6.1.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1089244/" title="See Description">[$] The beginning of the 7.3 merge window</a></li>
+<li><a href="#https://lwn.net/Articles/1089717/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1088565/" title="See Description">[$] LWN.net Weekly Edition for August 20, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1089559/" title="See Description">Go 1.27 released</a></li>
 <li><a href="#https://lwn.net/Articles/1089557/" title="See Description">Seven stable kernels for Wednesday</a></li>
@@ -48,14 +53,89 @@
 <li><a href="#https://lwn.net/Articles/1089386/" title="See Description">Firefox 154.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1088489/" title="See Description">[$] Fedora prepares for the end of AF_ALG</a></li>
 <li><a href="#https://lwn.net/Articles/1089338/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1088776/" title="See Description">[$] Development statistics for the 7.2 kernel</a></li>
-<li><a href="#https://lwn.net/Articles/1088279/" title="See Description">[$] Bootstrappable builds: how and why</a></li>
-<li><a href="#https://lwn.net/Articles/1089211/" title="See Description">GNU poke 5.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1089208/" title="See Description">Mark J. Wielaard receives Distinguished Service Award in Software Freedom</a></li>
-<li><a href="#https://lwn.net/Articles/1089205/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1089721/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Aug 2026 13:37:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089721/" title="https://lwn.net/Articles/1089721/">KDE Gear 26.08 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://kde.org/announcements/gear/26.08.0/">Version 26.08</a> of
+the <a href="https://en.wikipedia.org/wiki/KDE_Gear">KDE&#160;Gear</a>
+collection of applications has been released. Notable changes in this release
+include improvements in the <a
+href="https://docs.kde.org/stable_kf6/en/okular/okular/signatures.html">signing</a>
+features of <a href="https://okular.kde.org/">Okular</a>, improved file-grouping
+features in the <a href="https://apps.kde.org/dolphin/">Dolphin</a> file
+manager, and a number of enhancements to the <a
+href="https://kdenlive.org/">Kdenlive</a> video editor. See the <a
+href="https://kde.org/announcements/changelogs/gear/26.08.0/">changelog</a> for
+a full list of updates, enhancements, and bug fixes.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1089720/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Aug 2026 13:26:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089720/" title="https://lwn.net/Articles/1089720/">Supply chain attack on arrayref (Rust blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Rust blog <a
+href="https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/">reports</a>
+on a malicious crate, called <tt>proc-macro1</tt>, that was uploaded to the
+crates.io repository.
+<p>
+<blockquote class="bq">
+	Furthermore, we discovered that the popular <tt>arrayref</tt> crate
+	had recently been republished and made to depend on this crate,
+	with the most recent versions yanked. We have removed the malicious
+	version and unyanked the maliciously-yanked versions. Other crates
+	by that author (<tt>internment</tt>, <tt>append-only-vec</tt>) were
+	also affected so we have done the same for those, and locked the
+	account as a precaution. We do not believe the author of
+	<tt>arrayref</tt> to be acting maliciously, but their computer or
+	credentials are likely compromised, and we are attempting to
+	contact them.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1089719/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Aug 2026 13:22:03 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089719/" title="https://lwn.net/Articles/1089719/">RPM 6.1.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://rpm.org/releases/6.1.0">Version 6.1.0</a> of the <a
+href="https://rpm.org/">RPM Package Manager</a> has been released. Notable
+changes include the ability to provide modifiers to <a
+href="https://rpm.org/docs/6.1.x/man/rpm-macros.7">RPM macros</a> at definition
+time, improved build and verification error handling, support for signing files
+with PKCS11 tokens using <a
+href="https://rpm.org/docs/6.1.x/man/rpmsign.1"><tt>rpmsign</tt></a>, as well as
+the addition of several new man pages. The 6.1.0 release also debuts a <a
+href="https://rpm.org/2026/05/11/release-cycle.html">new release model</a>
+inspired by the Linux kernel's.</p>
+
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1089244/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Aug 2026 13:11:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089244/" title="https://lwn.net/Articles/1089244/">[$] The beginning of the 7.3 merge window</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>As of this writing, 2,346 non-merge changesets have been pulled into the
+mainline repository for the 7.3 kernel release.  That, clearly, is a mere
+down payment on the flood that is to come.  Even so, those early pulls
+brought in some noteworthy changes, including (but not limited to) a
+significant reworking of how group scheduling works on multiprocessor
+systems.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1089717/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Aug 2026 13:09:04 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089717/" title="https://lwn.net/Articles/1089717/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind9.18, glib2, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, kernel-rt, libcupsfilters, mysql8.4, mysql:8.4, pcp, perl-Date-Manip, php8.4, php:7.4, php:8.2, php:8.3, python3, and yggdrasil), <b>Debian</b> (designate, firefox-esr, and swift), <b>Gentoo</b> (acl, attr, Emacs, libssh2, and quickjs-ng), <b>Oracle</b> (.NET 10.0, .NET 9.0, attr, bind9.18, curl, glib2, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, kernel, libXfont2, mysql8.4, nghttp2, nodejs:22, nodejs:24, pam, pcp, perl-Date-Manip, php8.4, python3, sg3_utils, and yggdrasil), <b>Slackware</b> (mozilla-firefox and mozilla-thunderbird), <b>SUSE</b> (open-iscsi, podman, python311, and python313), and <b>Ubuntu</b> (bind9, capnproto, curl, libheif, libpng, libpng1.6, libssh, nginx, and tiff).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1088565/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 20 Aug 2026 00:05:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -195,93 +275,6 @@ remaining users of the API to prepare for its eventual removal.</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, 389-ds:1.4, bind, haproxy, kernel, kernel-rt, libXfont2, nghttp2, and unbound), <b>Debian</b> (calibre, expat, ironic, and linux-6.12), <b>Fedora</b> (coturn, linux-firmware, php-phpseclib, and sqlite), <b>Red Hat</b> (fence-agents, osbuild-composer, pam, resource-agents, and sg3_utils), <b>SUSE</b> (ffmpeg, jetty-minimal, open-iscsi, python, python313-h2, python313-pysaml2, redis, redis7, rsync, sccache, texlive, and wasm-bindgen), and <b>Ubuntu</b> (engrampa, linux-aws-7.0, and linux-azure-fde-5.15).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1088776/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Aug 2026 16:27:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088776/" title="https://lwn.net/Articles/1088776/">[$] Development statistics for the 7.2 kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds <a
-href="https://lwn.net/ml/all/CAHk-=wjk5StpAmUKHacj=GPKwA88y_YRHK=i_YAJFgmxn1=k4w@mail.gmail.com/">released
-the 7.2 kernel</a> on August&#160;17, after noting that the number of fixes
-coming in was still "<q>bigger than I would have wished for</q>".  In fact,
-7.2 was one of the busiest development cycles in the kernel's history,
-adding nearly 600,000 lines of code.  It's time to look at some statistics
-to get a handle on how the kernel's development community is changing.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1088279/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Aug 2026 16:12:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088279/" title="https://lwn.net/Articles/1088279/">[$] Bootstrappable builds: how and why</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://2026.fossy.ca/">This year's edition of the Free and Open
-Source Software Yearly conference</a>, better known as "FOSSY", moved north to the
-beautiful (and enormous) campus of the University of British Columbia (UBC)
-in Vancouver, Canada from its home for the three previous editions:
-Portland, Oregon, in the US.  There were many different types of talks at
-FOSSY, from deeply technical kernel-track topics, through talks on legal
-and community issues, to the "FOSS in Daily Life" talks. In the "Toolchains
-and Other Development Tools" track, Timothy Sample gave a presentation
-about <a href="https://bootstrappable.org/">bootstrappable builds</a>,
-which is somewhat less well-known than its cousin, <a
-href="https://reproducible-builds.org/">reproducible builds</a>, though LWN
-did <a href="https://lwn.net/Articles/983340/">look at the topic</a> just over two years
-ago.  In short, a bootstrappable build is one that starts with a tiny
-program that can build another slightly larger program, which can build yet
-another, and so on, until the entirety of a modern Linux user space is
-built from a small seed.  Ultimately, it results in code with a
-completely understood origin—unlike a typical Linux user space today.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1089211/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Aug 2026 14:00:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089211/" title="https://lwn.net/Articles/1089211/">GNU poke 5.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 5.0 of <a href="https://www.jemarch.net/poke">GNU Poke</a>,
-a binary-data editor, has been released. This release includes a
-number of improvements to the Poke compiler, additions to the Poke
-language, as well as runtime and standard library updates. See below
-for the full list of changes.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1089208/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Aug 2026 13:44:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089208/" title="https://lwn.net/Articles/1089208/">Mark J. Wielaard receives Distinguished Service Award in Software Freedom</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://sfconservancy.org/">Software Freedom
-Conservancy</a> has <a
-href="https://sfconservancy.org/news/2026/aug/12/mark-j-wielaard-receives-2-annual-award/">announced</a>
-that Mark J. Wielaard has been honored with the second annual
-Distinguished Service Award in Software Freedom for his many years of
-service to software freedom.</p>
-
-<blockquote class="bq">
-Mark is one of many key FOSS developers who has designed his career so
-that his employers have funded much of his FOSS work. Nevertheless,
-Mark continues his volunteer work after hours as a key contributor who
-maintains <a href="https://sourceware.org/">Sourceware</a> — the
-oldest FOSS collaboration and developer infrastructure hosting site in
-history.
-</blockquote>
-
-<p>In addition to his work on Sourceware, Wielaard is a member of the <a
-href="https://dwarfstd.org/">DWARF Debugging Standard Committee</a>,
-the maintainer for <a href="https://valgrind.org/">Valgrind</a> and <a
-href="https://elfutils.org/">elfutils</a>, as well as a contributor to
-various other GNU projects.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1089205/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 17 Aug 2026 13:23:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089205/" title="https://lwn.net/Articles/1089205/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, bind, dracut, freerdp, gnome-remote-desktop, kernel, and nghttp2), <b>Debian</b> (apr-util, docker.io, ironic, neutron, postgresql-15, unzip, and util-linux), <b>Fedora</b> (chromium, jfrog-cli, jrnl, libgsasl, libsoup3, pdns, pdns-recursor, perl-Archive-Tar, php-pear-PHP-CodeSniffer, rust-bat, rust-git-delta, rust-git-interactive-rebase-tool, rust-lsd, rust-pretty-git-prompt, rust-tokei, and stunnel), <b>Gentoo</b> (haveged, HTTP-Daemon, nginx, NTFS-3G, Portage, PostgreSQL, and X.Org X server, XWayland), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, dhcpcd, dracut, grafana, iscsi-initiator-utils, kernel, nodejs:24, openssh, osbuild-composer, python-idna, ruby, and ruby4.0), <b>Slackware</b> (proftpd), and <b>SUSE</b> (7zip, afterburn, ansible-lint, bouncycastle, cargo-audit, cargo-c, chromedriver, chromium, containerized-data-importer, dnsdist, dracut-112, ffmpeg-9-libavcodec-devel, firefox, freetype2, git-cliff, glib2, go1.25, go1.26, google-guest-agent, google-osconfig-agent, gzip, himmelblau, java-1_8_0-openjdk, kernel, kernel-devel, kubeshark-cli, kubevirt1.9-continer-disk, libkrun, libXfont2, molecule, net-tools, nginx, nodejs22, nodejs24, open-iscsi, perl, pgadmin4, php-composer2, php8, python-httplib2, python-sh, python-ujson, python3-ansible-compat, python313-nltk, rrdtool, rsyslog, samba, spice-vdagent, sssd, webkit2gtk3, wireshark, and wpa_supplicant).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
