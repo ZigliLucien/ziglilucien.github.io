@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1088565/" title="See Description">[$] LWN.net Weekly Edition for August 20, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1089559/" title="See Description">Go 1.27 released</a></li>
 <li><a href="#https://lwn.net/Articles/1089557/" title="See Description">Seven stable kernels for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1087134/" title="See Description">[$] Debian weighs eight options in vote on LLM usage</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1089211/" title="See Description">GNU poke 5.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1089208/" title="See Description">Mark J. Wielaard receives Distinguished Service Award in Software Freedom</a></li>
 <li><a href="#https://lwn.net/Articles/1089205/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1088991/" title="See Description">The 7.2 kernel has been released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1088565/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 20 Aug 2026 00:05:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088565/" title="https://lwn.net/Articles/1088565/">[$] LWN.net Weekly Edition for August 20, 2026</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1088565/">Front</a>: Debian AI GR; Python pathlib; bootstrappable builds; Fedora and AF_ALG; Arm 128-bit PTEs; BPF CI; 7.2 statistics.
+            <li> <a href="https://lwn.net/Articles/1088567/">Briefs</a>: Brief news items from throughout the community.
+            <li> <a href="https://lwn.net/Articles/1088568/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1089559/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 19 Aug 2026 18:30:44 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -268,39 +283,6 @@ various other GNU projects.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, bind, dracut, freerdp, gnome-remote-desktop, kernel, and nghttp2), <b>Debian</b> (apr-util, docker.io, ironic, neutron, postgresql-15, unzip, and util-linux), <b>Fedora</b> (chromium, jfrog-cli, jrnl, libgsasl, libsoup3, pdns, pdns-recursor, perl-Archive-Tar, php-pear-PHP-CodeSniffer, rust-bat, rust-git-delta, rust-git-interactive-rebase-tool, rust-lsd, rust-pretty-git-prompt, rust-tokei, and stunnel), <b>Gentoo</b> (haveged, HTTP-Daemon, nginx, NTFS-3G, Portage, PostgreSQL, and X.Org X server, XWayland), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, dhcpcd, dracut, grafana, iscsi-initiator-utils, kernel, nodejs:24, openssh, osbuild-composer, python-idna, ruby, and ruby4.0), <b>Slackware</b> (proftpd), and <b>SUSE</b> (7zip, afterburn, ansible-lint, bouncycastle, cargo-audit, cargo-c, chromedriver, chromium, containerized-data-importer, dnsdist, dracut-112, ffmpeg-9-libavcodec-devel, firefox, freetype2, git-cliff, glib2, go1.25, go1.26, google-guest-agent, google-osconfig-agent, gzip, himmelblau, java-1_8_0-openjdk, kernel, kernel-devel, kubeshark-cli, kubevirt1.9-continer-disk, libkrun, libXfont2, molecule, net-tools, nginx, nodejs22, nodejs24, open-iscsi, perl, pgadmin4, php-composer2, php8, python-httplib2, python-sh, python-ujson, python3-ansible-compat, python313-nltk, rrdtool, rsyslog, samba, spice-vdagent, sssd, webkit2gtk3, wireshark, and wpa_supplicant).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1088991/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 16 Aug 2026 23:11:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088991/" title="https://lwn.net/Articles/1088991/">The 7.2 kernel has been released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1089033/">7.2 kernel</a> has been released.
-Linus said:
-<p>
-<blockquote class="bq">
-	Well, this last week of the release was - once again - bigger than
-	I would have wished for, but hey, with the whole "new normal"
-	thing, if I delayed releases for that reason we'd probably never
-	have a release at all.
-</blockquote>
-<p>
-Significant features in this release include
-<a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6318f11d53a3">common
-attributes support</a> in the <tt>bpf()</tt> system call,
-<a href="https://lwn.net/Articles/1018334/">cache-aware load balancing</a> for the CPU
-scheduler,
-large-folio support in the Btrfs filesystem,
-further <a href="https://lwn.net/Articles/1072657/">swap subsystem improvements</a>,
-improvements to the Landlock security module,
-support for block devices with inline encryption hardware via the <a
-href="https://docs.kernel.org/next/admin-guide/device-mapper/dm-inlinecrypt.html">dm-inlinecrypt</a>
-device-mapper target, and much more.
-See the LWN merge window summaries
-(<a href="https://lwn.net/Articles/1078068/">part&#160;1</a>, <a
-href="https://lwn.net/Articles/1078539/">part&#160;2</a>) and <a
-href="https://kernelnewbies.org/Linux_7.2">the KernelNewbies 7.2 page</a>
-for more information.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
