@@ -6,7 +6,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny. High near 86, with temperatures falling to around 84 in the afternoon. West northwest wind 2 to 9 mph.<br></div>
+         <h3>Saturday</h3>A chance of showers and thunderstorms before 8am. Sunny. High near 86, with temperatures falling to around 84 in the afternoon.
+         West northwest wind 2 to 9 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
