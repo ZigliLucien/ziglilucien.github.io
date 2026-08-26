@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1090741/" title="See Description">Armbian 26.8 released</a></li>
+<li><a href="#https://lwn.net/Articles/1090732/" title="See Description">Security updates for Wednesday</a></li>
+<li><a href="#https://lwn.net/Articles/1090606/" title="See Description">LibreOffice 26.8 released</a></li>
 <li><a href="#https://lwn.net/Articles/1090582/" title="See Description">mklinux-v7.0-mk2 released</a></li>
 <li><a href="#https://lwn.net/Articles/1090376/" title="See Description">[$] Old-school calendaring at the command line with Remind</a></li>
 <li><a href="#https://lwn.net/Articles/1090527/" title="See Description">Vanilla OS 3 released</a></li>
@@ -50,12 +53,83 @@
 <li><a href="#https://lwn.net/Articles/1089251/" title="See Description">[$] Considering the OpenMDW license</a></li>
 <li><a href="#https://lwn.net/Articles/1089999/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1083090/" title="See Description">[$] A look at the Quickshell desktop-component toolkit</a></li>
-<li><a href="#https://lwn.net/Articles/1089721/" title="See Description">KDE Gear 26.08 released</a></li>
-<li><a href="#https://lwn.net/Articles/1089720/" title="See Description">Supply chain attack on arrayref (Rust blog)</a></li>
-<li><a href="#https://lwn.net/Articles/1089719/" title="See Description">RPM 6.1.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1090741/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Aug 2026 13:54:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090741/" title="https://lwn.net/Articles/1090741/">Armbian 26.8 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://blog.armbian.com/armbian-release-26-8/">Version 26.8</a> of
+the <a href="https://armbian.com/">Armbian</a> distribution for Arm hardware has
+been released.</p>
+
+<blockquote class="bq">
+<p>Most releases are a long list of small improvements. This one had three
+larger pieces landing at roughly the same time, and all three touch parts of
+Armbian that people use directly rather than parts they only read about in
+changelogs.</p>
+
+<p>The installer was rewritten. Armbian Imager reached 2.0. And our CI moved out
+of the repository it had outgrown into one built for the job. None of these were
+planned to coincide; they simply reached the point where postponing them again
+would have cost more than doing them.</p>
+
+<p>The installer rewrite is the one I expect people to notice first. It now
+ships as an armbian-config module, which means it is unit-tested, the same way
+the rest of armbian-config is tested, rather than living as a script that
+everyone was slightly afraid to touch. It can target SPI and MTD, treats eMMC
+and NVMe as separate flows instead of pretending they are the same thing, can
+flash a bootloader on its own, and — this one is overdue — reports when a
+bootloader write fails instead of printing "Done." and leaving you to find out
+at the next boot.</p>
+</blockquote>
+
+<p>See the <a href="https://docs.armbian.com/releases/26.8/">release notes</a>
+for a full list of changes.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1090732/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Aug 2026 13:16:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090732/" title="https://lwn.net/Articles/1090732/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, gstreamer1-plugins-base, kernel, kernel-rt, and sqlite), <b>Debian</b> (freecad, kernel, libvncserver, and openssl), <b>Fedora</b> (apr-util, chromium, nnn, perl-DBI, python-tablib, python3.10, python3.11, python3.12, and sympa), <b>Gentoo</b> (DTrace, GNU screen, UnrealIRCd, and Vinyl Cache), <b>Oracle</b> (389-ds-base, attr, firefox, gegl04, grafana, gstreamer1-plugins-base, gstreamer1-plugins-good, httpd, mod_http2, nginx, pam, python-pyasn1, python-urwid, python3.12, python3.14, sqlite, and xorg-x11-server), <b>SUSE</b> (amazon-ecs-init, containerd, curl, distribution, dracut, ffmpeg-7, fuse-overlayfs, gd, git-lfs, go1.25-openssl, go1.26-openssl, govulncheck-vulndb, hauler, himmelblau, kernel, librest, libssh2_org, open-iscsi, openssh, patch, perl-Date-Manip, podman, postgresql14, postgresql16, python-cryptography, python-Pillow, python311, rmt-server, rootlesskit, rpm, rsync, runc, snpguest, sssd, suseconnect-ng, unbound, and util-linux), and <b>Ubuntu</b> (curl, ffmpeg, linux-aws-6.8, linux-azure-fde, linux-azure-fde-6.8, linux-azure-fips,
+ linux-nvidia-tegra, linux-azure, linux-azure-fde, linux-azure, linux-azure-fde, linux-nvidia-tegra-igx, linux-azure-5.4, linux-azure-fips, linux-oracle, linux-raspi, linux-raspi-realtime, openjdk-17, openjdk-21, openjdk-25, openjdk-8, openjdk-lts, openssl, perl, and vim).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1090606/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 26 Aug 2026 12:50:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090606/" title="https://lwn.net/Articles/1090606/">LibreOffice 26.8 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a
+href="https://blog.documentfoundation.org/blog/2026/08/26/libreoffice-26-8/">Version
+26.8</a> of the LibreOffice suite has been released.</p>
+
+<blockquote class="bq">
+<p>LibreOffice 26.8 concentrates on three areas: the typographic quality of what
+the suite produces, the range of writing systems it handles correctly, and the
+fidelity with which documents survive exchange with other office suites.</p>
+
+<p>The largest single body of work in this release addresses bidirectional and
+complex text. Writer now detects paragraph direction automatically when
+documents or plain text are opened or pasted. Line wrapping places end-of-line
+spaces according to the direction of the paragraph rather than that of the
+adjacent characters. Object resize handles behave correctly in right-to-left and
+vertical CJK documents. Bidirectional control characters are now visible
+alongside other formatting marks. In Calc, typing right-to-left text into an
+empty cell sets the direction of that cell automatically.</p>
+</blockquote>
+
+<p>See the <a
+href="https://wiki.documentfoundation.org/ReleaseNotes/26.8">release notes</a>
+for a full list of changes.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1090582/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 25 Aug 2026 20:34:31 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -257,65 +331,6 @@ provide desktop environments for minimal window managers like <a
 href="https://swaywm.org/">Sway</a> and <a
 href="https://niri-wm.github.io/niri/">niri</a>.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1089721/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Aug 2026 13:37:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089721/" title="https://lwn.net/Articles/1089721/">KDE Gear 26.08 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://kde.org/announcements/gear/26.08.0/">Version 26.08</a> of
-the <a href="https://en.wikipedia.org/wiki/KDE_Gear">KDE&#160;Gear</a>
-collection of applications has been released. Notable changes in this release
-include improvements in the <a
-href="https://docs.kde.org/stable_kf6/en/okular/okular/signatures.html">signing</a>
-features of <a href="https://okular.kde.org/">Okular</a>, improved file-grouping
-features in the <a href="https://apps.kde.org/dolphin/">Dolphin</a> file
-manager, and a number of enhancements to the <a
-href="https://kdenlive.org/">Kdenlive</a> video editor. See the <a
-href="https://kde.org/announcements/changelogs/gear/26.08.0/">changelog</a> for
-a full list of updates, enhancements, and bug fixes.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1089720/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Aug 2026 13:26:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089720/" title="https://lwn.net/Articles/1089720/">Supply chain attack on arrayref (Rust blog)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Rust blog <a
-href="https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/">reports</a>
-on a malicious crate, called <tt>proc-macro1</tt>, that was uploaded to the
-crates.io repository.
-<p>
-<blockquote class="bq">
-	Furthermore, we discovered that the popular <tt>arrayref</tt> crate
-	had recently been republished and made to depend on this crate,
-	with the most recent versions yanked. We have removed the malicious
-	version and unyanked the maliciously-yanked versions. Other crates
-	by that author (<tt>internment</tt>, <tt>append-only-vec</tt>) were
-	also affected so we have done the same for those, and locked the
-	account as a precaution. We do not believe the author of
-	<tt>arrayref</tt> to be acting maliciously, but their computer or
-	credentials are likely compromised, and we are attempting to
-	contact them.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1089719/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 20 Aug 2026 13:22:03 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089719/" title="https://lwn.net/Articles/1089719/">RPM 6.1.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://rpm.org/releases/6.1.0">Version 6.1.0</a> of the <a
-href="https://rpm.org/">RPM Package Manager</a> has been released. Notable
-changes include the ability to provide modifiers to <a
-href="https://rpm.org/docs/6.1.x/man/rpm-macros.7">RPM macros</a> at definition
-time, improved build and verification error handling, support for signing files
-with PKCS11 tokens using <a
-href="https://rpm.org/docs/6.1.x/man/rpmsign.1"><tt>rpmsign</tt></a>, as well as
-the addition of several new man pages. The 6.1.0 release also debuts a <a
-href="https://rpm.org/2026/05/11/release-cycle.html">new release model</a>
-inspired by the Linux kernel's.</p>
-
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
