@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1090381/" title="See Description">[$] Using steal time to moderate CPU demands</a></li>
 <li><a href="#https://lwn.net/Articles/1090940/" title="See Description">Eight stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1090938/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1089643/" title="See Description">[$] LWN.net Weekly Edition for August 27, 2026</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/1088305/" title="See Description">[$] How to be safe from quantum computing</a></li>
 <li><a href="#https://lwn.net/Articles/1090308/" title="See Description">Emacs 31.1 released</a></li>
 <li><a href="#https://lwn.net/Articles/1090304/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1090099/" title="See Description">Sunday's stable kernel set</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1090381/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 27 Aug 2026 14:11:52 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090381/" title="https://lwn.net/Articles/1090381/">[$] Using steal time to moderate CPU demands</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Virtualization can increase CPU utilization by allowing a large number of
+virtual CPUs to share a smaller number of physical CPUs.  The amount of CPU
+time that is actually available does not change, though, so heavy activity
+on too many virtual CPUs can lead to contention and significant performance
+loss.  The <a
+href="https://lwn.net/ml/all/20260825103855.721013-1-sshegde@linux.ibm.com">steal governor
+patch series</a> from Shrikanth Hegde is an attempt to address that problem
+with a mechanism that allows virtual machines to voluntarily reduce the
+number of virtual CPUs they use when contention is high.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1090940/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 27 Aug 2026 13:10:02 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -304,22 +320,6 @@ of some of the quality-of-life features appearing in this release.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (ansible-core, cups-filters, curl, java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, java-25-openjdk, kbd, kernel, perl-Date-Manip, php:8.2, and php:8.3), <b>Debian</b> (designate, firefox-esr, gst-plugins-bad1.0, libnet-dns-perl, nvidia-graphics-drivers, openjdk-21, openjdk-25, spip, and thunderbird), <b>Fedora</b> (AusweisApp2, bluez, calibre, ceph, chromium, GitPython, kernel, pack, perl-URI, rsync, and tcpreplay), <b>Gentoo</b> (GNU Emacs and needrestart), <b>Oracle</b> (ansible-core, java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, java-25-openjdk, kbd, kernel, mysql:8.4, perl-Date-Manip, perl:5.32, and sssd), <b>Red Hat</b> (curl, dnsmasq, kbd, kernel, libcap, libreswan, openssh, rsync, samba, unbound, and vim), <b>SUSE</b> (389-ds, apptainer, avahi, bugwarden, chromium, ffmpeg-9-libavcodec-devel, firefox, firefox-esr, gimp, go1.27, helm, ignition, libarchive, libjxl-devel, libssh, multipath-tools, openssl-3, pcp, perl-Net-CIDR-Set, perl-Net-OAuth, postgresql14, postgresql15, python-msgpack, python-pyasn1, python-urllib3, python313, python313-pytest-html, redis, runc, sccache, sssd, util-linux, vim, weechat, and wget), and <b>Ubuntu</b> (linux-fips, linux-gcp-5.15, linux-hwe-7.0, linux-ibm, linux-kvm, linux-lowlatency, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and linux-nvidia-6.17).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1090099/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 23 Aug 2026 13:46:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090099/" title="https://lwn.net/Articles/1090099/">Sunday's stable kernel set</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The
-<a href="https://lwn.net/Articles/1090100/">7.1.10</a>,
-<a href="https://lwn.net/Articles/1090101/">6.18.46</a>,
-<a href="https://lwn.net/Articles/1090102/">6.12.105</a>,
-<a href="https://lwn.net/Articles/1090103/">6.6.153</a>,
-<a href="https://lwn.net/Articles/1090104/">6.1.184</a>,
-<a href="https://lwn.net/Articles/1090105/">5.15.217</a>, and
-<a href="https://lwn.net/Articles/1090106/">5.10.266</a>
-stable kernels have all been released; each contains another set of
-important fixes.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
