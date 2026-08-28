@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1091118/" title="See Description">Eight stable kernels with fix for a single vulnerability</a></li>
+<li><a href="#https://lwn.net/Articles/1091117/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1090381/" title="See Description">[$] Using steal time to moderate CPU demands</a></li>
 <li><a href="#https://lwn.net/Articles/1090940/" title="See Description">Eight stable kernels for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1090938/" title="See Description">Security updates for Thursday</a></li>
@@ -51,11 +53,43 @@
 <li><a href="#https://lwn.net/Articles/1090527/" title="See Description">Vanilla OS 3 released</a></li>
 <li><a href="#https://lwn.net/Articles/1090524/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1088305/" title="See Description">[$] How to be safe from quantum computing</a></li>
-<li><a href="#https://lwn.net/Articles/1090308/" title="See Description">Emacs 31.1 released</a></li>
-<li><a href="#https://lwn.net/Articles/1090304/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1091118/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 28 Aug 2026 13:42:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1091118/" title="https://lwn.net/Articles/1091118/">Eight stable kernels with fix for a single vulnerability</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1091120/">7.2.2</a>, <a href="https://lwn.net/Articles/1091121/">7.1.12</a>, <a
+href="https://lwn.net/Articles/1091122/">6.18.48</a>, <a
+href="https://lwn.net/Articles/1091123/">6.12.107</a>, <a
+href="https://lwn.net/Articles/1091124/">6.6.155</a>, <a href="https://lwn.net/Articles/1091125/">6.1.186</a>,
+<a href="https://lwn.net/Articles/1091126/">5.15.219</a>, and <a
+href="https://lwn.net/Articles/1091127/">5.10.268</a> stable kernels.</p>
+
+<p>Each of these contains a
+single fix for <a
+href="https://lwn.net/ml/all/2026082816-CVE-2026-80590-241e%40gregkh/">a
+vulnerability</a> (<a
+href="https://www.cve.org/CVERecord/?id=CVE-2026-80590">CVE-2026-80590</a>)
+that allows marking IPv4 or IPv6 fragments as <a
+href="https://docs.kernel.org/networking/segmentation-offloads.html#generic-segmentation-offload">GSO</a>,
+which can allow an unprivileged user to cause a kernel panic. This vulnerability
+has been present since Linux&#160;2.6.27. Users are advised to upgrade.</p>
+
+<p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1091117/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 28 Aug 2026 13:16:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1091117/" title="https://lwn.net/Articles/1091117/">Security updates for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (assertj-core, golang, httpd, kernel, and libxml2), <b>Debian</b> (chromium and suricata-update), <b>Fedora</b> (rust-h2), <b>Mageia</b> (avahi and python-django), <b>Oracle</b> (kernel and mingw-openssl), <b>SUSE</b> (c-ares-devel, dracut, gh, gstreamer-plugins-bad, java-11-openjdk, liboqs, librest0_7, openssl, openssl-3, pcp, python313-mistune, python36-pip, qt6-svg, rmt-server, rsync, suseconnect-ng, texlive, tor, wicked, and xmlrpc-c), and <b>Ubuntu</b> (linux-azure, linux-azure-4.15, linux-azure-fips, linux-azure-6.8, linux-ibm, linux-ibm-6.8, linux-oracle-6.8, linux-raspi,
+ linux-raspi-realtime, linux-azure-fde-5.15, linux-fips, linux-gke, linux-gcp-fips, opencryptoki, and pam).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1090381/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 27 Aug 2026 14:11:52 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -294,31 +328,6 @@ Given how slowly software updates filter out to stable systems, it's worth
 looking at what configuration changes and protocol updates are needed to be safe
 from quantum computers now.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1090308/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 24 Aug 2026 13:36:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090308/" title="https://lwn.net/Articles/1090308/">Emacs 31.1 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Version 31.1 of the Emacs editor has been released. There is a long list of
-changes including the removal of the <a
-href="https://lwn.net/Articles/707615/">Emacs dumper</a>, a new user Lisp
-directory feature, a "Send to..." menu item in <tt>context-menu-mode</tt>, and
-many other changes; see <a
-href="https://www.gnu.org/software/emacs/news/NEWS.31.1">the NEWS file</a> for
-more information. Mickey Petersen, author of <em>Mastering Emacs</em>, also has
-a <a
-href="https://www.masteringemacs.org/article/whats-new-in-emacs-311">rundown</a>
-of some of the quality-of-life features appearing in this release.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1090304/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 24 Aug 2026 13:02:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090304/" title="https://lwn.net/Articles/1090304/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (ansible-core, cups-filters, curl, java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, java-25-openjdk, kbd, kernel, perl-Date-Manip, php:8.2, and php:8.3), <b>Debian</b> (designate, firefox-esr, gst-plugins-bad1.0, libnet-dns-perl, nvidia-graphics-drivers, openjdk-21, openjdk-25, spip, and thunderbird), <b>Fedora</b> (AusweisApp2, bluez, calibre, ceph, chromium, GitPython, kernel, pack, perl-URI, rsync, and tcpreplay), <b>Gentoo</b> (GNU Emacs and needrestart), <b>Oracle</b> (ansible-core, java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, java-25-openjdk, kbd, kernel, mysql:8.4, perl-Date-Manip, perl:5.32, and sssd), <b>Red Hat</b> (curl, dnsmasq, kbd, kernel, libcap, libreswan, openssh, rsync, samba, unbound, and vim), <b>SUSE</b> (389-ds, apptainer, avahi, bugwarden, chromium, ffmpeg-9-libavcodec-devel, firefox, firefox-esr, gimp, go1.27, helm, ignition, libarchive, libjxl-devel, libssh, multipath-tools, openssl-3, pcp, perl-Net-CIDR-Set, perl-Net-OAuth, postgresql14, postgresql15, python-msgpack, python-pyasn1, python-urllib3, python313, python313-pytest-html, redis, runc, sccache, sssd, util-linux, vim, weechat, and wget), and <b>Ubuntu</b> (linux-fips, linux-gcp-5.15, linux-hwe-7.0, linux-ibm, linux-kvm, linux-lowlatency, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and linux-nvidia-6.17).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
