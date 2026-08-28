@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1091177/" title="See Description">Car: Dolphin 26.08 and KIO performance improvements</a></li>
+<li><a href="#https://lwn.net/Articles/1090378/" title="See Description">[$] The "rnull" Rust block driver</a></li>
 <li><a href="#https://lwn.net/Articles/1091118/" title="See Description">Eight stable kernels with fix for a single vulnerability</a></li>
 <li><a href="#https://lwn.net/Articles/1091117/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1090381/" title="See Description">[$] Using steal time to moderate CPU demands</a></li>
@@ -51,11 +53,61 @@
 <li><a href="#https://lwn.net/Articles/1090582/" title="See Description">mklinux-v7.0-mk2 released</a></li>
 <li><a href="#https://lwn.net/Articles/1090376/" title="See Description">[$] Old-school calendaring at the command line with Remind</a></li>
 <li><a href="#https://lwn.net/Articles/1090527/" title="See Description">Vanilla OS 3 released</a></li>
-<li><a href="#https://lwn.net/Articles/1090524/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1088305/" title="See Description">[$] How to be safe from quantum computing</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1091177/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 28 Aug 2026 20:00:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1091177/" title="https://lwn.net/Articles/1091177/">Car: Dolphin 26.08 and KIO performance improvements</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Méven Car has written a pair of interesting blog posts (<a
+href="https://blogs.kde.org/2026/08/26/dolphin-26.08-and-kio-perf-improvements/">part&#160;1</a>,
+<a
+href="https://blogs.kde.org/2026/08/27/dolphin-26.08-and-kio-part-two-what-got-faster-and-smaller/">part&#160;2</a>). The
+first post is largely about some of the recent new features and performance work
+that have gone into the <a href="https://apps.kde.org/dolphin/">Dolphin</a> file
+manager 26.08 release, as well as the <a
+href="https://en.wikipedia.org/wiki/KIO">KIO</a> framework. The second looks at
+the performance improvements and benchmarks for previous, current, and upcoming
+releases.</p>
+
+<blockquote class="bq">
+<p>Copying many small files is more than twice as fast as it was in April. The
+gain falls off as files get larger, which is what you would expect: the fix is
+to the per-file overhead, and once each file carries a megabyte of actual I/O
+the overhead stops being what you are waiting for.</p>
+
+<p>There is still a gap with <tt>cp</tt>, discussed at length in <a
+href="https://blogs.kde.org/2026/07/28/making-kio-copy-many-files-fast/">the
+July post</a>. KIO is doing more than <tt>cp</tt> does, but not five times more,
+and the batching work that closes most of the rest of that gap is still in
+progress.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1090378/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 28 Aug 2026 18:26:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090378/" title="https://lwn.net/Articles/1090378/">[$] The "rnull" Rust block driver</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The
+<a href="https://www.kernel.org/doc/html/latest/block/null_blk.html">null block
+driver</a> (<tt>null_blk</tt>)
+is a small driver that is mostly useful for benchmarking block-layer
+implementations. It accepts all requests and marks them complete as quickly as
+possible, doing as little work as possible. In June&#160;2026, Andreas Hindborg shared
+<a href="https://lwn.net/ml/all/20260609-rnull-v6-19-rc5-send-v2-0-82c7404542e2@kernel.org/">
+a patch set</a> implementing the same functionality in Rust, in order to show
+that a simple block driver is now possible to write using the kernel's
+Rust APIs and to enable comparisons between the C and Rust
+implementations.
+A minimal version of the "rnull" driver is already present in the mainline
+kernel, but Hindborg's patch set brings it up to feature parity with the C
+version.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1091118/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 28 Aug 2026 13:42:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -295,40 +347,6 @@ href="https://lwn.net/Articles/989629/">covered</a> Vanilla&#160;OS&#160;2 in
 2024.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1090524/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 25 Aug 2026 13:12:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090524/" title="https://lwn.net/Articles/1090524/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cups-filters, gstreamer1-plugins-base, gstreamer1-plugins-good, kernel, mrtg, NetworkManager, nginx, nginx:1.24, nodejs24, perl-Date-Manip, python-pyasn1, python-urwid, python3.12, python3.14, and qemu-kvm), <b>Debian</b> (erlang, thunderbird, webkit2gtk, and zfs-linux), <b>Fedora</b> (calibre, chromium, freeipa, java-21-openjdk, java-21-openjdk-portable, java-25-openjdk, java-latest-openjdk, jfrog-cli, kernel, libxls, nextcloud, perl-URI, and samba), <b>Gentoo</b> (Incus), <b>Mageia</b> (kernel and kernel-linus), <b>Oracle</b> (ansible-core, cups-filters, curl, firefox, kernel, libcupsfilters, libreoffice, mrtg, NetworkManager, perl-Date-Manip, php:8.2, php:8.3, python-urwid, python3.14, qemu-kvm, and sqlite), <b>Red Hat</b> (assertj-core, httpd, and osbuild-composer), <b>SUSE</b> (buildah, comfyui, dracut, erlang, erlang27, grafana, kernel, libssh2_org, openvswitch, perl-Dancer2-Plugin-Auth-Extensible, postgresql17, python-cryptography, python-sqlparse, python311, python313-hpack, rpm, suseconnect-ng, thunderbird, and vim), and <b>Ubuntu</b> (async-http-client, curl, and ffmpeg).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1088305/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 24 Aug 2026 14:57:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1088305/" title="https://lwn.net/Articles/1088305/">[$] How to be safe from quantum computing</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Practical quantum computers have been ten years away for the last several
-decades. Now, however, it's beginning to look as though they will be
-possible in just a few years. Recent
-<a href="https://lwn.net/Articles/1066156/">
-research with obfuscated results</a> demonstrated much lower memory requirements to factor
-<a href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm">
-ECDSA</a> keys on a quantum computer, with
-<a href="https://www.ecdsa.fail/">
-work by other researchers in the open</a> more than halving memory use compared
-to the state of the art in 2023.
-At the same time, computer
-manufacturers are
-<a href="https://abit.ee/en/processors/ibm-quantum-processor-nighthawk-ibm-miami-quantum-computing-qubits-coherence-heron-r3-quantum-advant-en">
-boasting</a> quantum processors that retain viable superpositions over longer periods.
-Given how slowly software updates filter out to stable systems, it's worth
-looking at what configuration changes and protocol updates are needed to be safe
-from quantum computers now.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
