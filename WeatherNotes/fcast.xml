@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-08-29T05:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-08-29T05:31:10+00:00</updateTime>
-		<validTimes type="str">2026-08-28T23:00:00+00:00/P8DT2H</validTimes>
+		<generatedAt type="str">2026-08-29T06:36:09+00:00</generatedAt>
+		<updateTime type="str">2026-08-29T06:26:20+00:00</updateTime>
+		<validTimes type="str">2026-08-29T00:00:00+00:00/P8DT1H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-08-29T00:00:00-05:00</startTime>
+				<startTime type="str">2026-08-29T01:00:00-05:00</startTime>
 				<endTime type="str">2026-08-29T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">65</temperature>
@@ -269,13 +269,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">7</value>
+					<value type="int">15</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/hot?size=medium</icon>
-				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 98. Southwest wind around 6 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/hot/tsra_hi,20?size=medium</icon>
+				<shortForecast type="str">Sunny then Slight Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">A slight chance of showers and thunderstorms after 1pm. Sunny, with a high near 98. Southwest wind around 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">13</number>
@@ -288,13 +288,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">13</value>
+					<value type="int">15</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
-				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 75. South wind around 3 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra_hi,20/few?size=medium</icon>
+				<shortForecast type="str">Slight Chance Showers And Thunderstorms then Mostly Clear</shortForecast>
+				<detailedForecast type="str">A slight chance of showers and thunderstorms before 7pm. Mostly clear, with a low around 75. South wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">14</number>
