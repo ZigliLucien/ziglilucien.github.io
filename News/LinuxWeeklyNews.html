@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1091203/" title="See Description">Ryabitsev: Creepy crawlies</a></li>
 <li><a href="#https://lwn.net/Articles/1091177/" title="See Description">Car: Dolphin 26.08 and KIO performance improvements</a></li>
 <li><a href="#https://lwn.net/Articles/1090378/" title="See Description">[$] The "rnull" Rust block driver</a></li>
 <li><a href="#https://lwn.net/Articles/1091118/" title="See Description">Eight stable kernels with fix for a single vulnerability</a></li>
@@ -52,10 +53,36 @@
 <li><a href="#https://lwn.net/Articles/1090606/" title="See Description">LibreOffice 26.8 released</a></li>
 <li><a href="#https://lwn.net/Articles/1090582/" title="See Description">mklinux-v7.0-mk2 released</a></li>
 <li><a href="#https://lwn.net/Articles/1090376/" title="See Description">[$] Old-school calendaring at the command line with Remind</a></li>
-<li><a href="#https://lwn.net/Articles/1090527/" title="See Description">Vanilla OS 3 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1091203/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 29 Aug 2026 09:32:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1091203/" title="https://lwn.net/Articles/1091203/">Ryabitsev: Creepy crawlies</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Konstantin Ryabitsev has written a <a
+href="https://people.kernel.org/monsieuricon/creepy-crawlies">blog post with
+hard numbers</a> about the impact of AI crawlers on the Linux kernel
+repositories at <a href="https://git.kernel.org/">git.kernel.org</a>:</p>
+
+<blockquote class="bq">
+<p>Today, git.kernel.org receives about 6M daily requests demanding to see
+random commits. Of these, 66% are still immediately batted away with the Anubis
+challenge, but 33% are now solving the math and getting through to the main site
+— because apparently what we have to offer is worth spending a ton of cycles to
+calculate the Anubis challenge.</p>
+
+<p>It's impossible to tell with certainty which of these are bots and which are
+real humans — but chances are, if it's asking for an old commit in a random old
+fork, it's probably not a real developer trying to do their work.</p>
+
+<p>With a bunch of generous assumptions, legitimate requests are only about 2%
+of git.kernel.org traffic — everything else are scrapers.</p>
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1091177/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 28 Aug 2026 20:00:27 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -330,23 +357,6 @@ invitations; however, it may be precisely the calendaring tool for users who
 prefer the command line and fast, flexible tools that can help keep track of
 messy schedules.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1090527/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 25 Aug 2026 13:54:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090527/" title="https://lwn.net/Articles/1090527/">Vanilla OS 3 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://vanillaos.org/blog/article/2026-08-24/vanilla-os-3-reunion---stable-release">Vanilla
-OS 3</a>, an immutable desktop Linux distribution, has been released. Notable
-changes in this release include support for Arm64, introduction of a <a
-href="https://github.com/Vanilla-OS/sdk#vanilla-os-sdk">Vanilla&#160;OS&#160;SDK</a>,
-a rewrite of the <a href="https://github.com/Vanilla-OS/apx#apx">Apx package
-manager</a> using the new SDK, and much more. LWN <a
-href="https://lwn.net/Articles/989629/">covered</a> Vanilla&#160;OS&#160;2 in
-2024.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
