@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-08-30T03:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-08-30T01:25:51+00:00</updateTime>
-		<validTimes type="str">2026-08-29T19:00:00+00:00/P7DT6H</validTimes>
+		<generatedAt type="str">2026-08-30T04:36:08+00:00</generatedAt>
+		<updateTime type="str">2026-08-30T04:21:11+00:00</updateTime>
+		<validTimes type="str">2026-08-29T22:00:00+00:00/P7DT3H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Tonight</name>
-				<startTime type="str">2026-08-29T22:00:00-05:00</startTime>
+				<startTime type="str">2026-08-29T23:00:00-05:00</startTime>
 				<endTime type="str">2026-08-30T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">68</temperature>
@@ -63,10 +63,10 @@
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">S</windDirection>
+				<windDirection type="str">SSE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 68. South wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 68. South southeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -100,11 +100,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 mph</windSpeed>
+				<windSpeed type="str">5 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear. Low around 72, with temperatures rising to around 74 overnight. South wind around 6 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear. Low around 72, with temperatures rising to around 74 overnight. South wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -119,11 +119,11 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 mph</windSpeed>
+				<windSpeed type="str">5 to 8 mph</windSpeed>
 				<windDirection type="str">SSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/skc?size=medium</icon>
+				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 96. South southwest wind around 8 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 96. South southwest wind 5 to 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
