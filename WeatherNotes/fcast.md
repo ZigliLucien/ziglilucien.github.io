@@ -42,11 +42,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny, with a high near 96. West northwest wind around 3 mph.<br></div>
+         <h3>Saturday</h3>Sunny, with a high near 96. West northwest wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Mostly clear, with a low around 73. East wind around 2 mph.<br></div>
+         <h3>Saturday Night</h3>Mostly clear, with a low around 73. East wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
