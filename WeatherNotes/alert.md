@@ -1,5 +1,5 @@
 <p>
-   <h2>Extreme Heat Watch issued August 30 at 12:20PM CDT until September 4 at 8:00PM CDT by NWS Paducah KY</h2>
+   <h2>Extreme Heat Watch issued August 30 at 7:52PM CDT until September 4 at 8:00PM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...For the Heat Advisory, heat index values up to 103 expected.
       For the Extreme Heat Watch, dangerously hot conditions with heat
       index values up to 107 possible.
@@ -17,7 +17,7 @@
    </div>
 </p>
 <p>
-   <h2>Heat Advisory issued August 30 at 12:20PM CDT until September 1 at 10:00AM CDT by NWS Paducah KY</h2>
+   <h2>Heat Advisory issued August 30 at 7:52PM CDT until September 1 at 10:00AM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...For the Heat Advisory, heat index values up to 103 expected.
       For the Extreme Heat Watch, dangerously hot conditions with heat
       index values up to 107 possible.
