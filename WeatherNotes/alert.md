@@ -1,36 +1,17 @@
 <p>
-   <h2>Extreme Heat Watch issued August 30 at 7:52PM CDT until September 4 at 8:00PM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...For the Heat Advisory, heat index values up to 103 expected.
-      For the Extreme Heat Watch, dangerously hot conditions with heat
-      index values up to 107 possible.
+   <h2>Heat Advisory issued August 30 at 10:48PM CDT until September 4 at 8:00PM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Daily heat index values up to 100-106 expected.
       
       * WHERE...Portions of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
       
-      * WHEN...For the Heat Advisory, from 10 AM CDT /11 AM EDT/ Monday to
-      10 AM CDT /11 AM EDT/ Tuesday. For the Extreme Heat Watch, from
-      Tuesday morning through Friday evening.
+      * WHEN...From 10 AM CDT /11 AM EDT/ Monday to 8 PM CDT /9 PM EDT/
+      Friday.
       
-      * IMPACTS...Heat related illnesses increase significantly during
-      extreme heat and high humidity events. Hot temperatures and high
-      humidity may cause heat illnesses.
-   </div>
-</p>
-<p>
-   <h2>Heat Advisory issued August 30 at 7:52PM CDT until September 1 at 10:00AM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...For the Heat Advisory, heat index values up to 103 expected.
-      For the Extreme Heat Watch, dangerously hot conditions with heat
-      index values up to 107 possible.
+      * IMPACTS...Hot temperatures and high humidity may cause heat
+      illnesses.
       
-      * WHERE...Portions of southern Illinois, southwest Indiana, western
-      Kentucky, and southeast Missouri.
-      
-      * WHEN...For the Heat Advisory, from 10 AM CDT /11 AM EDT/ Monday to
-      10 AM CDT /11 AM EDT/ Tuesday. For the Extreme Heat Watch, from
-      Tuesday morning through Friday evening.
-      
-      * IMPACTS...Heat related illnesses increase significantly during
-      extreme heat and high humidity events. Hot temperatures and high
-      humidity may cause heat illnesses.
+      * ADDITIONAL DETAILS...Heat index values will be closer to 100 on
+      Monday. Low rain chances on Friday may provide limited relief.
    </div>
 </p>
