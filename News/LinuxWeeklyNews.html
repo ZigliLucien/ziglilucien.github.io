@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1090385/" title="See Description">[$] A pause for the Python JIT</a></li>
+<li><a href="#https://lwn.net/Articles/1091926/" title="See Description">Firefox 155 released</a></li>
 <li><a href="#https://lwn.net/Articles/1091919/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1091606/" title="See Description">OpenShot 4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1091600/" title="See Description">Netdev 0x1A videos and slides are now live</a></li>
@@ -51,11 +53,57 @@
 <li><a href="#https://lwn.net/Articles/1091118/" title="See Description">Eight stable kernels with fix for a single vulnerability</a></li>
 <li><a href="#https://lwn.net/Articles/1091117/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1090381/" title="See Description">[$] Using steal time to moderate CPU demands</a></li>
-<li><a href="#https://lwn.net/Articles/1090940/" title="See Description">Eight stable kernels for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1090938/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1090385/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 01 Sep 2026 14:40:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090385/" title="https://lwn.net/Articles/1090385/">[$] A pause for the Python JIT</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>In 2024 the <a
+href="https://www.python.org/downloads/release/python-3130/">Python&#160;3.13</a>
+release added an <a
+href="https://docs.python.org/3.13/whatsnew/3.13.html#an-experimental-just-in-time-jit-compiler">experimental
+just-in-time (JIT) compiler</a> to optimize the way that CPython executes Python
+code. Since then, work has proceeded on the JIT, albeit perhaps less formally
+than some might like. In June, Python's <a
+href="https://peps.python.org/pep-0013/#the-steering-council">steering
+council</a> (SC) put out an <a
+href="https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638">announcement</a>
+that no new development on the JIT land (with the exception of bug and security
+fixes) in Python's main branch, until it accepts a <a
+href="https://peps.python.org/pep-0001">Python Enhancement Proposal</a> (PEP)
+that would make the case for the JIT as a supported part of CPython. That has
+led to the creation of <a
+href="https://peps.python.org/pep-0836/">PEP&#160;836</a> ("JIT Go Brrr: The
+Path to a Supported JIT Compiler for CPython"), which is currently under
+discussion. As it stands, it seems likely that work on JIT will continue, but
+when that will happen is less certain.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1091926/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 01 Sep 2026 14:03:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1091926/" title="https://lwn.net/Articles/1091926/">Firefox 155 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.firefox.com/en-US/firefox/155.0/releasenotes/">Version
+155</a> of the Firefox web browser has been released. Notable changes include a
+count in the address bar of how many ad trackers Firefox has blocked, container
+reordering, and ensuring that <tt>mailto:</tt> links are only opened by explicit
+user actions. There is also a change of the domain used for "captive portals"
+(such as the ones used to sign into hotel WiFI): Firefox now uses
+"firefox-portal-detection.com" instead of "detectportal.firefox.com", which may
+require a change in network allow lists.</p>
+
+<p>The release also includes a number of <a
+href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/155">changes
+that may impact web developers</a>, as well as a number of bug fixes and <a
+href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-82/">security
+fixes</a>.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1091919/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 01 Sep 2026 13:17:25 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -297,30 +345,6 @@ href="https://lwn.net/ml/all/20260825103855.721013-1-sshegde@linux.ibm.com">stea
 patch series</a> from Shrikanth Hegde is an attempt to address that problem
 with a mechanism that allows virtual machines to voluntarily reduce the
 number of virtual CPUs they use when contention is high.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1090940/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 27 Aug 2026 13:10:02 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090940/" title="https://lwn.net/Articles/1090940/">Eight stable kernels for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1090942/">7.2.1</a>, <a href="https://lwn.net/Articles/1090943/">7.1.11</a>, <a
-href="https://lwn.net/Articles/1090944/">6.18.47</a>, <a
-href="https://lwn.net/Articles/1090945/">6.12.106</a>, <a
-href="https://lwn.net/Articles/1090946/">6.6.154</a>, <a href="https://lwn.net/Articles/1090947/">6.1.185</a>,
-<a href="https://lwn.net/Articles/1090948/">5.15.218</a>, and <a
-href="https://lwn.net/Articles/1090949/">5.10.267</a> stable kernels. Each of these has
-important updates throughout the tree; users are advised to upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1090938/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 27 Aug 2026 13:00:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090938/" title="https://lwn.net/Articles/1090938/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (assertj-core, attr, firefox, go-toolset:rhel8, golang, grafana, gstreamer1-plugins-good, httpd, kernel, mingw-openssl, mod_http2, nginx, nginx:1.24, pam, polkit, and sqlite), <b>Debian</b> (bubblewrap, cockpit, emacs, gimp, libdbi-perl, openjdk-11, openjdk-17, wireshark, and xrdp), <b>Fedora</b> (bluez, curl, emacs, golang, knot, libopenmpt, libsoup3, openbao, openssh, rsync, rust-anstyle-hyperlink, rust-anstyle-progress, rust-cargo, rust-cargo-c, rust-cargo-credential-libsecret, rust-cargo-util, rust-cargo-util-schemas, rust-cargo-util-terminal, rust-crates-io, and rust-rustfix), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge, Opera, Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi, Chromium, Google Chrome, Microsoft Edge. Opera, and OpenRGB), <b>Oracle</b> (abrt, assertj-core, attr, gstreamer1-plugins-base, gstreamer1-plugins-good, httpd, nginx:1.24, nginx:1.26, nodejs24, and polkit), <b>SUSE</b> (apache2-mod_auth_openidc, buildah, curl, docker, dracut, evince, go1.25-openssl, go1.26-openssl, go1.27, gstreamer-plugins-bad, kernel, kubernetes, kubernetes-old, libarchive, LibVNCServer, libwireshark19, pcp, python310-pip, qemu, rootlesskit, rsync, snpguest, and util-linux), and <b>Ubuntu</b> (bind9, libheif, and openssl, openssl1.0).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
