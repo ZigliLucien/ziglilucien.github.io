@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1090568/" title="See Description">[$] Securely suspending LUKS-encrypted disks</a></li>
 <li><a href="#https://lwn.net/Articles/1091619/" title="See Description">[$] Governing GNOMEs: how the project's technical decision-making is evolving</a></li>
 <li><a href="#https://lwn.net/Articles/1092229/" title="See Description">Incus 7.4 released</a></li>
 <li><a href="#https://lwn.net/Articles/1092151/" title="See Description">Eight stable kernels for Wednesday</a></li>
@@ -52,10 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1091536/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1091421/" title="See Description">Kernel prepatch 7.3-rc1</a></li>
 <li><a href="#https://lwn.net/Articles/1091231/" title="See Description">Debian votes to allow "responsible use of generative AI"</a></li>
-<li><a href="#https://lwn.net/Articles/1091203/" title="See Description">Ryabitsev: Creepy crawlies</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1090568/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 02 Sep 2026 17:14:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090568/" title="https://lwn.net/Articles/1090568/">[$] Securely suspending LUKS-encrypted disks</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+When a laptop is asleep, its memory is not unreadable. The right
+tooling can attach to the computer's memory bus and read out its contents, and
+<a href="https://en.wikipedia.org/wiki/Cold_boot_attack">
+cold-boot attacks</a> can theoretically read values from memory for a short time
+after the computer loses power. That
+is really an unavoidable fact about the hardware, but some users would still
+like to ensure that, even if this happens, their long-term encryption keys, such as
+the key for full-disk encryption, remain unreadable. In June&#160;2026, Ingo
+Blechschmidt
+<a href="https://mathstodon.xyz/@iblech/116769502749142438">
+discovered</a> that Linux kernel versions after 6.9 (released in
+May&#160;2024)
+were not erasing disk-encryption keys when a laptop was put to sleep, even
+when configured to do so. He quickly identified a potential fix, which has been
+merged, but it was not a comprehensive solution.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1091619/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 02 Sep 2026 15:03:58 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -283,33 +307,6 @@ Responsible Use of Generative AI</a>.
 	test, and, where appropriate, modify AI-assisted output before
 	incorporating it into Debian.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1091203/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 29 Aug 2026 09:32:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1091203/" title="https://lwn.net/Articles/1091203/">Ryabitsev: Creepy crawlies</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Konstantin Ryabitsev has written a <a
-href="https://people.kernel.org/monsieuricon/creepy-crawlies">blog post with
-hard numbers</a> about the impact of AI crawlers on the Linux kernel
-repositories at <a href="https://git.kernel.org/">git.kernel.org</a>:</p>
-
-<blockquote class="bq">
-<p>Today, git.kernel.org receives about 6M daily requests demanding to see
-random commits. Of these, 66% are still immediately batted away with the Anubis
-challenge, but 33% are now solving the math and getting through to the main site
-— because apparently what we have to offer is worth spending a ton of cycles to
-calculate the Anubis challenge.</p>
-
-<p>It's impossible to tell with certainty which of these are bots and which are
-real humans — but chances are, if it's asking for an old commit in a random old
-fork, it's probably not a real developer trying to do their work.</p>
-
-<p>With a bunch of generous assumptions, legitimate requests are only about 2%
-of git.kernel.org traffic — everything else are scrapers.</p>
-</blockquote>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
