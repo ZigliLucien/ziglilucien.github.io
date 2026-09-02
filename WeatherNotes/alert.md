@@ -1,5 +1,5 @@
 <p>
-   <h2>Extreme Heat Warning issued September 1 at 11:46AM CDT until September 5 at 8:00PM CDT by NWS Paducah KY</h2>
+   <h2>Extreme Heat Warning issued September 2 at 12:36AM CDT until September 5 at 8:00PM CDT by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...Dangerously hot conditions with peak daily heat index values
       103 to 109 degrees; actual maximum air temperatures will range from
       95 to 101 degrees daily!

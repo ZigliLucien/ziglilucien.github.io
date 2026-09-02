@@ -35,7 +35,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms before 7pm. Partly cloudy, with a low around 73. Northeast wind around 1 mph.<br></div>
+         <h3>Saturday Night</h3>A slight chance of showers and thunderstorms before 1am. Partly cloudy, with a low around 73. Northeast wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -51,7 +51,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Partly cloudy, with a low around 70. East wind around 5 mph.<br></div>
+         <h3>Monday Night</h3>Mostly clear, with a low around 70. East wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
