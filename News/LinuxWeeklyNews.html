@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1092001/" title="See Description">[$] Recent work in memory tiering</a></li>
 <li><a href="#https://lwn.net/Articles/1092439/" title="See Description">Audacity 4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1092419/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1090824/" title="See Description">[$] LWN.net Weekly Edition for September 3, 2026</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/1091919/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1091606/" title="See Description">OpenShot 4.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1091600/" title="See Description">Netdev 0x1A videos and slides are now live</a></li>
-<li><a href="#https://lwn.net/Articles/1089791/" title="See Description">[$] The rest of the 7.3 merge window</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1092001/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 03 Sep 2026 14:11:26 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092001/" title="https://lwn.net/Articles/1092001/">[$] Recent work in memory tiering</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Tiered-memory systems are built with multiple types of memory, each of
+which has different performance characteristics.  In addition to the usual
+DRAM, a tiered system might also provide faster high-bandwidth memory or
+slower CXL memory.  On these systems, the placement of memory allocations
+has a significant effect on the performance that a workload will obtain.
+While work on tiered-memory improvements has been ongoing for years, it
+feels like the pace has slowed a bit recently.  Even so, there are a few
+efforts underway, but they are facing questions about whether the tiering
+design makes sense.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1092439/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 03 Sep 2026 13:58:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -282,22 +298,6 @@ available. Topics include Linux QUIC, shared memory socket transport, eBPF-based
 DDoS protection, and more.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1089791/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 31 Aug 2026 14:12:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1089791/" title="https://lwn.net/Articles/1089791/">[$] The rest of the 7.3 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>By the time Linus Torvalds <a
-href="https://lwn.net/ml/all/CAHk-=wjpN3XkKU+JX6zoh_bzJXr1aPYN4FY14UX0z7yCidosPQ@mail.gmail.com/">released
-7.3-rc1</a> and closed the merge window for this release, 15,267 non-merge
-changesets had been pulled into the mainline repository.  That is the
-second-highest commit count for an -rc1 release in the kernel's history;
-only the 6.7-rc1 release, which included nearly 3,000 commits of bcachefs
-history, had more.  About 13,000 of those commits entered the mainline
-after <a href="https://lwn.net/Articles/1089244/">the first 7.3 merge-window summary</a>
-was written so, needless to say, there are a lot of changes to cover.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
