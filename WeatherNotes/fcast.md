@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of rain showers after 1pm. Sunny. High near 99, with temperatures falling to around 97 in the afternoon. Heat
-         index values as high as 107. Southwest wind around 3 mph. Chance of precipitation is 20%.<br></div>
+         index values as high as 107. West southwest wind around 3 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
