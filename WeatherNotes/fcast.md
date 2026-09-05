@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Sunny. High near 99, with temperatures falling to around 97 in the afternoon. Heat index values as high as 108. West northwest
-         wind 0 to 5 mph.<br></div>
+         <h3>Today</h3>Sunny. High near 99, with temperatures falling to around 97 in the afternoon. Heat index values as high as 108. North northwest
+         wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
