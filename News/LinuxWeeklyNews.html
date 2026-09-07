@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1092512/" title="See Description">[$] CERN's migration path from CentOS Linux to Debian</a></li>
+<li><a href="#https://lwn.net/Articles/1092984/" title="See Description">Three stable kernels for Monday</a></li>
+<li><a href="#https://lwn.net/Articles/1092555/" title="See Description">[$] Fixing the TCMalloc regression with RSEQ operations</a></li>
 <li><a href="#https://lwn.net/Articles/1092913/" title="See Description">Buildroot 2026.08 released</a></li>
 <li><a href="#https://lwn.net/Articles/1092911/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1092768/" title="See Description">Asahi Linux now supports M3-series Macs</a></li>
@@ -50,12 +53,62 @@
 <li><a href="#https://lwn.net/Articles/1092419/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1090824/" title="See Description">[$] LWN.net Weekly Edition for September 3, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1090568/" title="See Description">[$] Securely suspending LUKS-encrypted disks</a></li>
-<li><a href="#https://lwn.net/Articles/1091619/" title="See Description">[$] Governing GNOMEs: how the project's technical decision-making is evolving</a></li>
-<li><a href="#https://lwn.net/Articles/1092229/" title="See Description">Incus 7.4 released</a></li>
-<li><a href="#https://lwn.net/Articles/1092151/" title="See Description">Eight stable kernels for Wednesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1092512/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 07 Sep 2026 16:57:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092512/" title="https://lwn.net/Articles/1092512/">[$] CERN's migration path from CentOS Linux to Debian</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The European Laboratory for Particle Physics, usually just called <a
+href="https://home.cern/">CERN</a>, is not only the <a
+href="https://home.cern/science/computing/the-birth-of-the-web/">birthplace of
+the World Wide Web</a>, it is home to the <a
+href="https://en.wikipedia.org/wiki/Large_Hadron_Collider">Large Hadron
+Collider</a> (LHC), the world's largest and highest-energy <a
+href="https://en.wikipedia.org/wiki/Particle_accelerator">particle
+accelerator</a>. As such, its computing environment is both truly unique and of
+great interest to people outside of CERN who hope to find lessons applicable to
+their own computing needs. The upcoming migration of some of CERN's systems from
+CentOS&#160;Linux to Debian, which was the topic of a talk at the recent <a
+href="https://ch2026.mini.debconf.org/">MiniDebConf&#160;Winterthur&#160;2026</a>,
+is of particular interest.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1092984/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 07 Sep 2026 16:50:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092984/" title="https://lwn.net/Articles/1092984/">Three stable kernels for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1092985/">7.2.4</a>, <a href="https://lwn.net/Articles/1092986/">6.18.50</a>,
+and <a href="https://lwn.net/Articles/1092987/">6.12.109</a> stable kernels. Each contains
+important fixes throughout the tree. Users are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1092555/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 07 Sep 2026 14:33:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092555/" title="https://lwn.net/Articles/1092555/">[$] Fixing the TCMalloc regression with RSEQ operations</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/697979/">restartable sequences</a> feature is one of
+the stranger corners of the kernel's user-space interface; it provides a
+way for user space to carry out simple lockless operations and be informed
+if it is preempted over the course of an operation (and must, thus,
+restart).  Work merged in the 6.19 release to <a
+href="https://lwn.net/Articles/1033955/">improve the performance of restartable
+sequences</a> broke the <a
+href="https://github.com/google/tcmalloc#tcmalloc">TCMalloc allocator</a>,
+which was relying on an undocumented (and unintended) kernel behavior.
+Now, Olivier Dion is <a
+href="https://lwn.net/ml/all/20260828153349.8061-1-odion@efficios.com">proposing an
+addition</a> to the restartable-sequences API that will bring TCMalloc back
+into the fold; it does not make the restartable-sequences API any less
+strange, though.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1092913/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 07 Sep 2026 13:18:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -245,51 +298,6 @@ when configured to do so. He quickly identified a potential fix, which has been
 merged, but it was not a comprehensive solution.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1091619/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 02 Sep 2026 15:03:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1091619/" title="https://lwn.net/Articles/1091619/">[$] Governing GNOMEs: how the project's technical decision-making is evolving</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Emmanuele Bassi kicked off a project to improve GNOME's technical governance
-with a <a href="https://lwn.net/Articles/1034684/">presentation about his
-ideas</a> (<a href="https://www.youtube.com/watch?v=n3SviPlMyhM">video</a>) at
-<a href="https://events.gnome.org/event/259/">GUADEC&#160;2025</a>. His nudging
-has led the project to, slowly, work on creating more formal structures for
-technical governance. It is adopting a teams structure and looking toward
-creating a steering committee, as well as bootstrapping a Request for Comments
-(RFC) process. If adopted, GNOME would require RFCs for design, user experience,
-architectural, and other changes that carry a major impact on the project.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1092229/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 02 Sep 2026 15:03:21 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092229/" title="https://lwn.net/Articles/1092229/">Incus 7.4 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://discuss.linuxcontainers.org/t/incus-7-4-has-been-released/27169">Version
-7.4</a> of the Incus container and virtual-machine management system has been
-released. Notable changes in this release include UEFI Secure Boot key
-management, "near-live" migration of containers between Incus instances, as well
-as <span class="nobreak">burst I/O</span> limits for disk and network
-devices.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1092151/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 02 Sep 2026 13:28:26 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092151/" title="https://lwn.net/Articles/1092151/">Eight stable kernels for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the <a href="https://lwn.net/Articles/1092153/">7.2.3</a>,
-<a href="https://lwn.net/Articles/1092154/">7.1.13</a>, <a
-href="https://lwn.net/Articles/1092156/">6.18.49</a>, <a
-href="https://lwn.net/Articles/1092157/">6.12.108</a>, <a
-href="https://lwn.net/Articles/1092158/">6.6.156</a>, <a href="https://lwn.net/Articles/1092159/">6.1.187</a>,
-<a href="https://lwn.net/Articles/1092160/">5.15.220</a>, and <a
-href="https://lwn.net/Articles/1092161/">5.10.269</a> stable kernels. Each contains a number of
-important fixes throughout the tree. Users are advised to upgrade.</p>
-
-<p>Note that 7.1.13 is the last of the 7.1 updates</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
