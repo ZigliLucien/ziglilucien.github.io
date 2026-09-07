@@ -6,7 +6,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear. Low around 65, with temperatures rising to around 67 overnight. East wind 1 to 5 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear. Low around 65, with temperatures rising to around 67 overnight. East northeast wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
