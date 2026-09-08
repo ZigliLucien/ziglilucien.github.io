@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1091015/" title="See Description">[$] Stabilizing Rust's never type</a></li>
+<li><a href="#https://lwn.net/Articles/1093145/" title="See Description">Jellyfin 12.0 released</a></li>
+<li><a href="#https://lwn.net/Articles/1093144/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1092512/" title="See Description">[$] CERN's migration path from CentOS Linux to Debian</a></li>
 <li><a href="#https://lwn.net/Articles/1092984/" title="See Description">Three stable kernels for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1092555/" title="See Description">[$] Fixing the TCMalloc regression with RSEQ operations</a></li>
@@ -50,12 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1092659/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1092001/" title="See Description">[$] Recent work in memory tiering</a></li>
 <li><a href="#https://lwn.net/Articles/1092439/" title="See Description">Audacity 4.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1092419/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1090824/" title="See Description">[$] LWN.net Weekly Edition for September 3, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1090568/" title="See Description">[$] Securely suspending LUKS-encrypted disks</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1091015/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 08 Sep 2026 13:34:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1091015/" title="https://lwn.net/Articles/1091015/">[$] Stabilizing Rust's never type</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+A function's return type is supposed to indicate the kind of data that it
+produces. 
+Rust's "never" type, which is
+<a href="https://doc.rust-lang.org/stable/std/primitive.never.html">
+denoted by an exclamation mark</a> ("<tt>!</tt>"), is the type the language uses to mark
+a function that never returns and other places where a value can never occur. For
+a long time, the never type was used internally by the compiler, but was
+considered an unstable feature. On
+<a href="https://github.com/rust-lang/rust/pull/155499">
+August&#160;24</a>, after more than two years of work,
+Rust-compiler-contributor "waffle" finally managed to stabilize the type. It
+took so long, in part, because it involved a small breaking
+change to previous Rust editions, which the compiler maintainers needed to
+ensure did not impact much real code.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1093145/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 08 Sep 2026 13:20:02 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093145/" title="https://lwn.net/Articles/1093145/">Jellyfin 12.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://jellyfin.org/posts/jellyfin-release-12.0/">Version 12</a> of
+the <a href="https://jellyfin.org/">Jellyfin</a> media-management system has
+been released. Notable changes include <a
+href="https://jellyfin.org/posts/jellyfin-release-12.0/#tuning-the-new-database">database
+performance improvements</a>, <a
+href="https://jellyfin.org/posts/jellyfin-release-12.0/#transcoding-and-media-handling">an
+upgrade to FFmpeg&#160;8.1 for media transcoding</a>, as well as <a
+href="https://jellyfin.org/posts/jellyfin-release-12.0/#books-and-comics-properly-this-time">better
+handling of book and comic media</a>. See the release notes for the <a
+href="https://github.com/jellyfin/jellyfin-web/releases/tag/v12.0">web
+client</a> and <a
+href="https://github.com/jellyfin/jellyfin/releases/tag/v12.0">server</a> for a
+full list of changes.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1093144/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 08 Sep 2026 13:11:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093144/" title="https://lwn.net/Articles/1093144/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (expat, git-lfs, grafana-pcp, kernel-rt, python3.14-cryptography, redis:6, skopeo, and xmlrpc-c), <b>Debian</b> (jbig2dec and strongswan), <b>Fedora</b> (baresip, chirp, chromium, corosync, emacs, GitPython, libre, libsoup3, nsd, perl-Net-OAuth, and perl-XML-Bare), <b>Mageia</b> (apache-mod_auth_openidc, exiv2, freerdp, python-pyasn1, and tor), <b>Red Hat</b> (buildah, cockpit-image-builder, container-tools:rhel8, containernetworking-plugins, delve, linux-sgx, osbuild-composer, pcs, and runc), <b>SUSE</b> (amazon-cloudwatch-agent, aws-nitro-enclaves-cli, bzip2, c-ares, curl, dracut, emacs, fuse-overlayfs, gegl, GraphicsMagick, httpcomponents-client, java-1_8_0-openjdk, java-25-openjdk, lcms2, libidn, libusb-1_0, LibVNCServer, microcode_ctl, multipath-tools, NetworkManager, nghttp2, openexr, openssl-1_1, openssl-3, perl-URI, php-composer2, postgresql15, postgresql17, postgresql18, python-GitPython, python-tornado6, python313-pip, redis, redis7, ucode-intel, wget, and wireshark), and <b>Ubuntu</b> (gzip and php7.0).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1092512/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 07 Sep 2026 16:57:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -249,55 +299,6 @@ layouts as "Workspaces", improvements in working with audio clips, and a new
 series; see the <a
 href="https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0#:~:text=Compatibility%20notes">compatibility
 notes</a> for a list of missing features.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1092419/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 03 Sep 2026 13:07:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092419/" title="https://lwn.net/Articles/1092419/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (freerdp, go-fdo-server, golang-github-openprinting-ipp-usb, kernel, kernel-rt, nodejs:24, perl-DBI, and php), <b>Debian</b> (firefox-esr, libapache2-mod-auth-openidc, and libass), <b>Fedora</b> (dracut, exiv2, firefox, freerdp, gvfs, mingw-expat, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-openexr, nss, proftpd, and syncthing), <b>Mageia</b> (apr-util, bubblewrap, libalsa2, libarchive, perl-Net-OAuth, perl-Text-CSV_XS, perl-XML-Bare, and perl-YAML-Syck), <b>Oracle</b> (freerdp, gimp, golang, iperf3, nginx:1.24, nodejs:22, nodejs:24, pipewire, wget, xmlrpc-c, and xorg-x11-server-Xwayland), <b>SUSE</b> (apache2-mod_auth_openidc, apptainer, apr-util, bzip2, c-ares, cosign, dhcpcd, dovecot22, emacs, erlang, gegl, gopass, gzip, httpcomponents-client, incus, kernel-devel, libgpg-error, libsoup2, mozillafirefox, mozilla-nss, mozilla-nspr,, MozillaFirefox, mozilla-nss, mozilla-nspr, rust-cbindgen, nodejs20, orthanc, orthanc-authorization, orthanc-postgresql,, postgresql14, python-cryptography, python-msgpack, quagga, snpguest, snphost, texlive, tuxguitar, udisks2, vim, wget, and yast2-users), and <b>Ubuntu</b> (apr-util, biosig, linux, linux-aws, linux-azure, linux-azure-fips, linux-fips,
- linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm,
- linux-oracle, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux-aws-5.15, linux-gcp-5.15, linux-oracle-5.4, sssd, and tika).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1090824/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 03 Sep 2026 00:22:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090824/" title="https://lwn.net/Articles/1090824/">[$] LWN.net Weekly Edition for September 3, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1090824/">Front</a>: Python JIT; rnull block driver; steal time; GNOME governance; 7.3 merge window; LUKS.
-            <li> <a href="https://lwn.net/Articles/1090826/">Briefs</a>: Kernel infrastructure; Debian AI; Dolphin 26.08; Firefox 155; Incus 7.4; OpenShot 4.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1090827/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1090568/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 02 Sep 2026 17:14:15 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1090568/" title="https://lwn.net/Articles/1090568/">[$] Securely suspending LUKS-encrypted disks</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-When a laptop is asleep, its memory is not unreadable. The right
-tooling can attach to the computer's memory bus and read out its contents, and
-<a href="https://en.wikipedia.org/wiki/Cold_boot_attack">
-cold-boot attacks</a> can theoretically read values from memory for a short time
-after the computer loses power. That
-is really an unavoidable fact about the hardware, but some users would still
-like to ensure that, even if this happens, their long-term encryption keys, such as
-the key for full-disk encryption, remain unreadable. In June&#160;2026, Ingo
-Blechschmidt
-<a href="https://mathstodon.xyz/@iblech/116769502749142438">
-discovered</a> that Linux kernel versions after 6.9 (released in
-May&#160;2024)
-were not erasing disk-encryption keys when a laptop was put to sleep, even
-when configured to do so. He quickly identified a potential fix, which has been
-merged, but it was not a comprehensive solution.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
