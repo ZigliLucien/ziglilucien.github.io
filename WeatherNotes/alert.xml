@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a62647c539282c1dfacf2e58aee9f035fb6761b5.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42ef5feded3281171fda3dba76b264b9da4218fd.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a62647c539282c1dfacf2e58aee9f035fb6761b5.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42ef5feded3281171fda3dba76b264b9da4218fd.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.a62647c539282c1dfacf2e58aee9f035fb6761b5.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.42ef5feded3281171fda3dba76b264b9da4218fd.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -201,14 +201,21 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
-				<references type="list"/>
-				<sent type="str">2026-09-08T12:44:00-05:00</sent>
-				<effective type="str">2026-09-08T12:44:00-05:00</effective>
+				<references type="list">
+					<item type="dict">
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a62647c539282c1dfacf2e58aee9f035fb6761b5.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.a62647c539282c1dfacf2e58aee9f035fb6761b5.001.1</identifier>
+						<sender type="str">w-nws.webmaster@noaa.gov</sender>
+						<sent type="str">2026-09-08T12:44:00-05:00</sent>
+					</item>
+				</references>
+				<sent type="str">2026-09-09T03:14:00-05:00</sent>
+				<effective type="str">2026-09-09T03:14:00-05:00</effective>
 				<onset type="str">2026-09-09T11:00:00-05:00</onset>
-				<expires type="str">2026-09-09T05:00:00-05:00</expires>
+				<expires type="str">2026-09-09T16:00:00-05:00</expires>
 				<ends type="str">2026-09-09T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Alert</messageType>
+				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
 				<severity type="str">Moderate</severity>
 				<certainty type="str">Likely</certainty>
@@ -216,22 +223,25 @@
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued September 8 at 12:44PM CDT until September 9 at 8:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heat index values of 103 to 108 expected.
+				<headline type="str">Heat Advisory issued September 9 at 3:14AM CDT until September 9 at 8:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Heat index values up to 109 degrees are expected.
 
 * WHERE...All of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From 11 AM CDT /noon EDT/ to 8 PM CDT /9 PM EDT/ Wednesday.
+* WHEN...From 11 AM CDT /noon EDT/ this morning to 8 PM CDT /9 PM
+EDT/ this evening.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.
-
-* ADDITIONAL DETAILS...Isolated to scattered thunderstorms are
-possible during the afternoon in the northern half of the Quad
-State, which could bring earlier relief from the heat.</description>
+illnesses.</description>
 				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
-the sun, and check up on relatives and neighbors.</instruction>
+the sun, and check up on relatives and neighbors.
+
+To reduce risk during outdoor work, the Occupational Safety and
+Health Administration recommends scheduling frequent rest breaks in
+shaded or air conditioned environments. Anyone overcome by heat
+should be moved to a cool and shaded location. Heat stroke is an
+emergency! Call 9 1 1.</instruction>
 				<response type="str">Execute</response>
 				<note type="null"/>
 				<parameters type="dict">
@@ -239,10 +249,10 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 081744</item>
+						<item type="str">WWUS73 KPAH 090814</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HEAT ADVISORY IN EFFECT FROM 11 AM CDT /NOON EDT/ TO 8 PM CDT /9 PM EDT/ WEDNESDAY</item>
+						<item type="str">HEAT ADVISORY REMAINS IN EFFECT FROM 11 AM CDT /NOON EDT/ THIS MORNING TO 8 PM CDT /9 PM EDT/ THIS EVENING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -250,7 +260,7 @@ the sun, and check up on relatives and neighbors.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.NEW.KPAH.HT.Y.0011.260909T1600Z-260910T0100Z/</item>
+						<item type="str">/O.CON.KPAH.HT.Y.0011.260909T1600Z-260910T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2026-09-09T20:00:00-05:00</item>
@@ -272,5 +282,5 @@ the sun, and check up on relatives and neighbors.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-09-09T07:35:51+00:00</updated>
+	<updated type="str">2026-09-09T08:31:12+00:00</updated>
 </all>
