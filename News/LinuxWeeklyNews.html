@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1093391/" title="See Description">A decade of Rustls</a></li>
+<li><a href="#https://lwn.net/Articles/1093388/" title="See Description">LibreOffice Base survey results</a></li>
 <li><a href="#https://lwn.net/Articles/1092993/" title="See Description">[$] Typst makes big strides</a></li>
 <li><a href="#https://lwn.net/Articles/1093342/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1091015/" title="See Description">[$] Stabilizing Rust's never type</a></li>
@@ -51,11 +53,69 @@
 <li><a href="#https://lwn.net/Articles/1092768/" title="See Description">Asahi Linux now supports M3-series Macs</a></li>
 <li><a href="#https://lwn.net/Articles/1092757/" title="See Description">Kernel prepatch 7.3-rc2</a></li>
 <li><a href="#https://lwn.net/Articles/1090579/" title="See Description">[$] Deterministic testing for multithreaded Python</a></li>
-<li><a href="#https://lwn.net/Articles/1092660/" title="See Description">Grml 2026.09 released</a></li>
-<li><a href="#https://lwn.net/Articles/1092659/" title="See Description">Security updates for Friday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1093391/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 09 Sep 2026 18:11:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093391/" title="https://lwn.net/Articles/1093391/">A decade of Rustls</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Joe Birr-Pixton has written <a
+href="https://rustls.dev/blog/2026-09-08-a-decade-of-rustls/">a blog post</a>
+reflecting on a decade of the Rustls TLS-library project and looking ahead to
+the upcoming&#160;0.24 release and an eventual&#160;1.0 release.</p>
+
+<blockquote class="bq">
+<p>Rustls began with <a
+href="https://github.com/rustls/rustls/commit/4460bbe15b4df1f6e6efea4f9f06fbd0fb278077">a
+first commit</a> on May&#160;2,&#160;2016. Progress was quick: a month later, on June&#160;5,
+it could interoperate with most sites on the web. The first release,&#160;0.1.0,
+followed on August&#160;27,&#160;2016 – less than four months after the first commit.</p>
+
+<p>[...] From the&#160;0.1.0 release, the project moved through a long series of
+releases over the following eight years, building out functionality, hardening
+and refining the API. That sequence of release lines culminated in&#160;0.23,
+released on February&#160;29,&#160;2024.</p>
+
+<p>The&#160;0.23 release line has been a stable one: in the time since, it has
+seen&#160;43 non-breaking releases. That stability didn't come with
+stagnation. The&#160;0.23 line delivered a wide range of important features,
+including a FIPS-certified cryptography option, certificate compression,
+Encrypted ClientHello, post-quantum cryptography, and performance
+improvements.</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1093388/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 09 Sep 2026 17:07:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093388/" title="https://lwn.net/Articles/1093388/">LibreOffice Base survey results</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Heiko Tietze has <a
+href="https://design.blog.documentfoundation.org/2026/09/03/results-from-the-survey-about-libreoffice-base/">published
+a blog post</a> summarizing the results of a <a
+href="https://design.blog.documentfoundation.org/2026/07/30/please-participate-in-a-survey-about-libreoffice-base/">recent
+survey</a> about the use of LibreOffice's database application, Base. 455 people
+participated in the survey, including more than 330 who use Base on Linux, with
+use cases ranging from maintaining records of personal media such as CDs or DVDs
+to use enterprise-resource planning (ERP) and finance. Of course, users had many
+ideas how to improve the application:</p>
+
+<blockquote class="bq">
+<p>The majority asks for improvements to the user interface with less
+clutter and a more attractive design. The workflow and user experience should
+become either simplified or more powerful, depending on the expertise and the
+scenario. For example, an elaborate search function is something that
+many people expect. [...]</p>
+
+<p>Almost the same number of answers requests bug fixes, improvements to
+stability, and better performance. Issues with queries, forms, and reports were
+mentioned equally often. In this regard, many replies suggest to remove the Java
+dependencies.</p>
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1092993/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 09 Sep 2026 15:37:55 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -265,29 +325,6 @@ href="https://www.youtube.com/watch?v=S3LUpx0hzkw&t=96s">YouTube video</a>)
 about his <a href="https://pypi.org/project/blanket/">blanket</a> project,
 which is meant to provide mechanisms for deterministic testing of
 multithreaded Python code.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1092660/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 04 Sep 2026 13:30:13 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092660/" title="https://lwn.net/Articles/1092660/">Grml 2026.09 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://grml.org/changelogs/README-grml-2026.09/">Version
-2026.09</a>, <a href="https://grml.org/faq/#releasename">code-named</a>
-"Hättiwaritätti", of the Debian-based Grml live Linux distribution for system
-administrators has been released. It is based on packages from the upcoming
-Debian&#160;14 ("forky") release. Notable changes include an update to the Linux
-7.1.8 kernel, support for booting from exfat-formatted USB devices, and an
-update to GNU&#160;Screen&#160;5.0.1.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1092659/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 04 Sep 2026 13:18:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092659/" title="https://lwn.net/Articles/1092659/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (chromium, firefox-esr, and pcre2), <b>Fedora</b> (cockpit, expat, freeipa, kbd, kernel, mrtg, python-pip, and valkey), <b>Mageia</b> (libopenmpt and python-gitpython), <b>Oracle</b> (dbus-broker, freerdp, gegl, gegl04, gimp:2.8, go-fdo-client, go-fdo-server, golang-github-openprinting-ipp-usb, grafana, gzip, image-builder, iperf3, kernel, libssh, libxml2, microcode_ctl, nodejs:22, nodejs:24, openssl-fips-provider, pam, php:7.4, php:8.2, tar, and wget), <b>SUSE</b> (apache2-mod_auth_openidc, apptainer, busybox, cpio, cups-filters, curl, dracut, ffmpeg, file-roller, glibc, grafana, kubevirt, virt-pr-helper-container, lcms2, libtree-sitter0_26, libvirt, postgresql14, postgresql15, postgresql16, postgresql18, suseconnect-ng, terraform-provider-susepubliccloud, and yast2-users), and <b>Ubuntu</b> (FFmpeg, gnupg2, librabbitmq, libssh2, openssh, and spice-vdagent).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>

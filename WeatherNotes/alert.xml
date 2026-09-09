@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42ef5feded3281171fda3dba76b264b9da4218fd.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1e98840c20f581d4ebb5ed34f5dee2344f1867e.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42ef5feded3281171fda3dba76b264b9da4218fd.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1e98840c20f581d4ebb5ed34f5dee2344f1867e.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.42ef5feded3281171fda3dba76b264b9da4218fd.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.c1e98840c20f581d4ebb5ed34f5dee2344f1867e.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,16 +203,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a62647c539282c1dfacf2e58aee9f035fb6761b5.001.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.a62647c539282c1dfacf2e58aee9f035fb6761b5.001.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.42ef5feded3281171fda3dba76b264b9da4218fd.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.42ef5feded3281171fda3dba76b264b9da4218fd.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-09-08T12:44:00-05:00</sent>
+						<sent type="str">2026-09-09T03:14:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2026-09-09T03:14:00-05:00</sent>
-				<effective type="str">2026-09-09T03:14:00-05:00</effective>
-				<onset type="str">2026-09-09T11:00:00-05:00</onset>
-				<expires type="str">2026-09-09T16:00:00-05:00</expires>
+				<sent type="str">2026-09-09T15:14:00-05:00</sent>
+				<effective type="str">2026-09-09T15:14:00-05:00</effective>
+				<onset type="str">2026-09-09T15:14:00-05:00</onset>
+				<expires type="str">2026-09-09T20:00:00-05:00</expires>
 				<ends type="str">2026-09-09T20:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -223,17 +223,20 @@
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued September 9 at 3:14AM CDT until September 9 at 8:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heat index values up to 109 degrees are expected.
+				<headline type="str">Heat Advisory issued September 9 at 3:14PM CDT until September 9 at 8:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Heat index values up to 108.
 
 * WHERE...All of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From 11 AM CDT /noon EDT/ this morning to 8 PM CDT /9 PM
-EDT/ this evening.
+* WHEN...Until 8 PM CDT /9 PM EDT/ this evening.
 
 * IMPACTS...Hot temperatures and high humidity may cause heat
-illnesses.</description>
+illnesses.
+
+* ADDITIONAL DETAILS...Areas which receive heavy rain or
+thunderstorms this afternoon will see earlier relief from today's
+heat.</description>
 				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
 the sun, and check up on relatives and neighbors.
 
@@ -249,10 +252,10 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 090814</item>
+						<item type="str">WWUS73 KPAH 092014</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HEAT ADVISORY REMAINS IN EFFECT FROM 11 AM CDT /NOON EDT/ THIS MORNING TO 8 PM CDT /9 PM EDT/ THIS EVENING</item>
+						<item type="str">HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM CDT /9 PM EDT/ THIS EVENING</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -260,11 +263,14 @@ emergency! Call 9 1 1.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.HT.Y.0011.260909T1600Z-260910T0100Z/</item>
+						<item type="str">/O.CON.KPAH.HT.Y.0011.000000T0000Z-260910T0100Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2026-09-09T20:00:00-05:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a62647c539282c1dfacf2e58aee9f035fb6761b5.001.1,2026-09-08T12:44:00-05:00</item>
+					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -282,5 +288,5 @@ emergency! Call 9 1 1.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-09-09T19:32:36+00:00</updated>
+	<updated type="str">2026-09-09T20:34:31+00:00</updated>
 </all>

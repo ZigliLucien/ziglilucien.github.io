@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A chance of showers and thunderstorms before 4pm, then showers and thunderstorms likely. Partly sunny. High near 91, with
-         temperatures falling to around 89 in the afternoon. Southwest wind around 6 mph. Chance of precipitation is 60%.<br></div>
+         temperatures falling to around 89 in the afternoon. West southwest wind around 6 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
