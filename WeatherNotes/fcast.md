@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of rain showers between 11am and noon, then a chance of showers and thunderstorms. Mostly sunny. High near
-         99, with temperatures falling to around 93 in the afternoon. Heat index values as high as 107. Southwest wind 6 to 10 mph.
+         97, with temperatures falling to around 93 in the afternoon. Heat index values as high as 107. Southwest wind 6 to 10 mph.
          Chance of precipitation is 50%.<br></div>
    </p>
    <p>
