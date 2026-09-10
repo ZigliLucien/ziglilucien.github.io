@@ -40,11 +40,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Mostly clear, with a low around 69. Southeast wind around 3 mph.<br></div>
+         <h3>Sunday Night</h3>Mostly clear, with a low around 69. Southeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny, with a high near 91. South wind 5 to 9 mph.<br></div>
+         <h3>Monday</h3>Sunny, with a high near 92. South wind 5 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -56,10 +56,10 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of showers and thunderstorms. Partly cloudy, with a low around 68. North northeast wind around 6 mph.<br></div>
+         <h3>Tuesday Night</h3>A chance of showers and thunderstorms. Mostly clear, with a low around 66. North northeast wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of rain showers. Mostly sunny, with a high near 88. North northeast wind around 5 mph.<br></div>
+         <h3>Wednesday</h3>A chance of rain showers. Mostly sunny, with a high near 87. North northeast wind around 5 mph.<br></div>
    </p>
 </div>
