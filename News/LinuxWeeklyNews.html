@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1092003/" title="See Description">[$] PostgreSQL 19's "scary patch contest"</a></li>
 <li><a href="#https://lwn.net/Articles/1093567/" title="See Description">Julia 1.13 released</a></li>
 <li><a href="#https://lwn.net/Articles/1093566/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1092273/" title="See Description">[$] LWN.net Weekly Edition for September 10, 2026</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1092984/" title="See Description">Three stable kernels for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1092555/" title="See Description">[$] Fixing the TCMalloc regression with RSEQ operations</a></li>
 <li><a href="#https://lwn.net/Articles/1092913/" title="See Description">Buildroot 2026.08 released</a></li>
-<li><a href="#https://lwn.net/Articles/1092911/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1092003/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 10 Sep 2026 17:29:06 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092003/" title="https://lwn.net/Articles/1092003/">[$] PostgreSQL 19's "scary patch contest"</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.postgresql.org/docs/release/19.0/">PostgreSQL 19</a> was 
+expected to be released in September, in keeping with the database
+project's longstanding tradition of a major release every year. However,
+some late-breaking concerns about several of the features slated for inclusion
+has some developers worried about the quality of the release. On August 25, PostgreSQL
+contributor Robert Haas <a
+href="https://lwn.net/ml/all/CA+Tgmob9NY6m0YNFTQ4nFH2d0iC9SQRruDYxfndGKKzh8OC80w@mail.gmail.com/">sent
+an email</a> with the subject "<q>scary patch contest</q>" about several patches
+that have required an unusually large number of bug fixes leading up to the
+release, which has raised questions about their readiness for a stable
+release. One of the patches has been reverted, but several are still under heavy
+revision, and an extra beta release has been slotted in to allow for additional
+testing.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1093567/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 10 Sep 2026 13:23:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -299,14 +319,6 @@ Linux&#160;7.1.x, Binutils 2.46.1, GCC 16.2.0, glibc 2.44, as well as adding the
 M68K and IBM Power 10/11 architectures.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1092911/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 07 Sep 2026 13:07:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092911/" title="https://lwn.net/Articles/1092911/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, freerdp, gegl04, go-fdo-client, grafana, grafana-pcp, kernel, and pipewire), <b>Debian</b> (aom, chromium, libde265, libssh2, thunderbird, and tryton-server), <b>Fedora</b> (chromium, composer, cosmic-greeter, gegl04, greetd, ibus-table, jss, libheif, lightdm, lxdm, memcached, perl-DBD-Pg, plasma-login-manager, rust-webbrowser, sddm, selinux-policy, slitherer, and tkimg), <b>Mageia</b> (expat, mingw-expat, mbedtls, microcode, python-linkify-it-py, and tomcat), <b>Oracle</b> (buildah, container-tools:ol8, dbus-broker, freerdp, go-toolset:ol8, grafana-pcp, kernel, kernel-uek, nodejs24, php, and pipewire), <b>Slackware</b> (libpcap, libxml2, mozilla-firefox, mozilla-thunderbird, and util-linux), <b>SUSE</b> (bson-devel, busybox, bzip2, c-ares, cpio, cups-filters, dracut, ffmpeg-7, ffmpeg-8, file-roller, firefox, firefox-esr, glances-common, grafana, hauler, helm, helm3, java-17-openjdk, java-21-openjdk, lcms2, libcupsfilters, libheif, libmsgpack-c2, libsoup, libsoup2, libusb-1_0, libvirt, LibVNCServer, mcphost, ollama, opencode, openssl-1_1, openssl-3, php-composer2, podman, postgresql15, postgresql17, postgresql18, python, python-aiohttp, python-h2, python-sqlparse, python310, rpcbind, sssd, thunderbird, trivy, ucode-intel, and webkit2gtk3), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-7.0, linux-gcp, linux-gke, linux-hwe-7.0, linux-realtime, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux, linux-fips, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-raspi, linux-realtime, linux-realtime-6.8, linux, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-realtime, linux-aws-5.4, linux-gcp, linux-gcp-5.4, linux-gcp-7.0, linux-oem-7.0, minetest, and miniupnpd).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
