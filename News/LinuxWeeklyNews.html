@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1093671/" title="See Description">Forgejo 16.0.4 and 15.0.8 address critical security vulnerability</a></li>
 <li><a href="#https://lwn.net/Articles/1092003/" title="See Description">[$] PostgreSQL 19's "scary patch contest"</a></li>
 <li><a href="#https://lwn.net/Articles/1093567/" title="See Description">Julia 1.13 released</a></li>
 <li><a href="#https://lwn.net/Articles/1093566/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,41 @@
 <li><a href="#https://lwn.net/Articles/1092512/" title="See Description">[$] CERN's migration path from CentOS Linux to Debian</a></li>
 <li><a href="#https://lwn.net/Articles/1092984/" title="See Description">Three stable kernels for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1092555/" title="See Description">[$] Fixing the TCMalloc regression with RSEQ operations</a></li>
-<li><a href="#https://lwn.net/Articles/1092913/" title="See Description">Buildroot 2026.08 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1093671/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 10 Sep 2026 20:05:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093671/" title="https://lwn.net/Articles/1093671/">Forgejo 16.0.4 and 15.0.8 address critical security vulnerability</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://forgejo.org/">Forgejo</a> software-forge project has <a
+href="https://floss.social/@forgejo/117246761534398489">announced</a> the
+release of versions <a
+href="https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md">16.0.4</a>
+and <a
+href="https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/15.0.8.md">15.0.8</a>,
+which fixes two security vulnerabilities. One is a critical flaw that would
+allow remote-code execution (RCE):</p>
+
+<blockquote class="bq">
+When generating a new repository from a template repository, Forgejo clones the
+template repository, removes the <tt>.git</tt> folder, performs variable template
+expansion on files listed in <tt>.forgejo/template</tt>, and initializes a new git
+repository. During this process, variable template expansion could be misused in
+order to create a new <tt>.git</tt> folder, which git would adopt and incorporate during
+its initialization of a new git repository. A malicious template repository
+could be used to read arbitrary data from the Forgejo host, and to execute
+arbitrary processes on the Forgejo host, as a remote code execution attack. To
+address this issue, after variable expansion is completed, any existing <tt>.git</tt>
+folder is removed from the directory before the git repository is initialized.
+</blockquote>
+
+<p>The project recommends upgrading to the latest version as soon as
+possible.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1092003/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 10 Sep 2026 17:29:06 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -304,21 +336,6 @@ addition</a> to the restartable-sequences API that will bring TCMalloc back
 into the fold; it does not make the restartable-sequences API any less
 strange, though.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1092913/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 07 Sep 2026 13:18:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092913/" title="https://lwn.net/Articles/1092913/">Buildroot 2026.08 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a
-href="https://lore.kernel.org/buildroot/878q5hf0yd.fsf@dell.be.48ers.dk/">Version
-2026.08</a> of the <a href="https://buildroot.net/">Buildroot</a> embedded Linux
-system builder has been released. Buildroot 2026.08 includes nearly 1,000
-changes from 100 contributors; some of the notable changes include support for
-Linux&#160;7.1.x, Binutils 2.46.1, GCC 16.2.0, glibc 2.44, as well as adding the
-M68K and IBM Power 10/11 architectures.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
