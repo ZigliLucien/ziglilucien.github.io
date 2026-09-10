@@ -8,7 +8,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Thursday</h3>Showers and thunderstorms likely before 11am, then a chance of showers and thunderstorms. Mostly cloudy. High near 84, with
-         temperatures falling to around 80 in the afternoon. Northwest wind 3 to 7 mph. Chance of precipitation is 70%.<br></div>
+         temperatures falling to around 82 in the afternoon. Northwest wind 3 to 7 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
