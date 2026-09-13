@@ -43,7 +43,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Partly cloudy, with a low around 71. Southwest wind around 3 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly clear, with a low around 71. Southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
