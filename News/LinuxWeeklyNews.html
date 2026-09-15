@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1093661/" title="See Description">[$] Adding BPF to blk-iocost</a></li>
 <li><a href="#https://lwn.net/Articles/1094470/" title="See Description">Vondra: PostgreSQL development activity</a></li>
 <li><a href="#https://lwn.net/Articles/1094469/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1094312/" title="See Description">GNU Core Utilities 9.12 released</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1093766/" title="See Description">Two stable kernel updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1093765/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1093671/" title="See Description">Forgejo 16.0.4 and 15.0.8 address critical security vulnerability</a></li>
-<li><a href="#https://lwn.net/Articles/1092003/" title="See Description">[$] PostgreSQL 19's "scary patch contest"</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1093661/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 15 Sep 2026 14:37:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093661/" title="https://lwn.net/Articles/1093661/">[$] Adding BPF to blk-iocost</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The scheduling of block <span class="nobreak">I/O</span> requests has long
+been a challenge for operating-system kernels.  For many years, the
+performance characteristics of rotating drives meant that putting
+considerable resources into request ordering was worthwhile.  In a world
+with fast, solid-state drives, scheduling is more concerned with enforcing
+fairness between competing users while being fast enough to keep up with
+drives that can perform millions of <span class="nobreak">I/O</span>
+operations per second.  The blk-iocost <span class="nobreak">I/O</span>
+controller was designed for the solid-state world and generally performs
+well, but there is always a desire to do better.  <a
+href="https://lwn.net/ml/all/20260914073356.791518-1-cui.tao@linux.dev">This patch
+series</a> from Tao Cui aims to make blk-iocost more flexible by enabling
+the loading of a BPF program to make cost decisions.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1094470/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 15 Sep 2026 13:20:30 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -277,26 +297,6 @@ folder is removed from the directory before the git repository is initialized.
 possible.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1092003/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 10 Sep 2026 17:29:06 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1092003/" title="https://lwn.net/Articles/1092003/">[$] PostgreSQL 19's "scary patch contest"</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.postgresql.org/docs/release/19.0/">PostgreSQL 19</a> was 
-expected to be released in September, in keeping with the database
-project's longstanding tradition of a major release every year. However,
-some late-breaking concerns about several of the features slated for inclusion
-has some developers worried about the quality of the release. On August 25, PostgreSQL
-contributor Robert Haas <a
-href="https://lwn.net/ml/all/CA+Tgmob9NY6m0YNFTQ4nFH2d0iC9SQRruDYxfndGKKzh8OC80w@mail.gmail.com/">sent
-an email</a> with the subject "<q>scary patch contest</q>" about several patches
-that have required an unusually large number of bug fixes leading up to the
-release, which has raised questions about their readiness for a stable
-release. One of the patches has been reverted, but several are still under heavy
-revision, and an extra beta release has been slotted in to allow for additional
-testing.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
