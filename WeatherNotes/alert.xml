@@ -11,14 +11,14 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c437079c00b02455fc671b29ff70b871bd6cb3e.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9d1ce8302e32b3a778d4c025efb9a3e529d07b8.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c437079c00b02455fc671b29ff70b871bd6cb3e.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c9d1ce8302e32b3a778d4c025efb9a3e529d07b8.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.7c437079c00b02455fc671b29ff70b871bd6cb3e.001.1</id>
-				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Ballard; McCracken; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.c9d1ce8302e32b3a778d4c025efb9a3e529d07b8.001.1</id>
+				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
 						<item type="str">017081</item>
@@ -46,8 +46,12 @@
 						<item type="str">018163</item>
 						<item type="str">018173</item>
 						<item type="str">018147</item>
+						<item type="str">021075</item>
+						<item type="str">021105</item>
+						<item type="str">021039</item>
 						<item type="str">021007</item>
 						<item type="str">021145</item>
+						<item type="str">021083</item>
 						<item type="str">021139</item>
 						<item type="str">021157</item>
 						<item type="str">021035</item>
@@ -68,6 +72,13 @@
 						<item type="str">029017</item>
 						<item type="str">029031</item>
 						<item type="str">029223</item>
+						<item type="str">029035</item>
+						<item type="str">029181</item>
+						<item type="str">029023</item>
+						<item type="str">029207</item>
+						<item type="str">029201</item>
+						<item type="str">029133</item>
+						<item type="str">029143</item>
 					</SAME>
 					<UGC type="list">
 						<item type="str">ILZ075</item>
@@ -95,8 +106,12 @@
 						<item type="str">INZ086</item>
 						<item type="str">INZ087</item>
 						<item type="str">INZ088</item>
+						<item type="str">KYZ001</item>
+						<item type="str">KYZ002</item>
+						<item type="str">KYZ003</item>
 						<item type="str">KYZ004</item>
 						<item type="str">KYZ005</item>
+						<item type="str">KYZ006</item>
 						<item type="str">KYZ007</item>
 						<item type="str">KYZ008</item>
 						<item type="str">KYZ009</item>
@@ -117,6 +132,13 @@
 						<item type="str">MOZ086</item>
 						<item type="str">MOZ087</item>
 						<item type="str">MOZ100</item>
+						<item type="str">MOZ107</item>
+						<item type="str">MOZ108</item>
+						<item type="str">MOZ109</item>
+						<item type="str">MOZ110</item>
+						<item type="str">MOZ111</item>
+						<item type="str">MOZ112</item>
+						<item type="str">MOZ114</item>
 					</UGC>
 				</geocode>
 				<affectedZones type="list">
@@ -145,8 +167,12 @@
 					<item type="str">https://api.weather.gov/zones/forecast/INZ086</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ087</item>
 					<item type="str">https://api.weather.gov/zones/forecast/INZ088</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ001</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ002</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ003</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ004</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ005</item>
+					<item type="str">https://api.weather.gov/zones/forecast/KYZ006</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ007</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ008</item>
 					<item type="str">https://api.weather.gov/zones/forecast/KYZ009</item>
@@ -167,20 +193,27 @@
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ086</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ087</item>
 					<item type="str">https://api.weather.gov/zones/forecast/MOZ100</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ107</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ108</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ109</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ110</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ111</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ112</item>
+					<item type="str">https://api.weather.gov/zones/forecast/MOZ114</item>
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3a1d6564b326cb8601ff3cdb2671a17dce3f7033.002.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.3a1d6564b326cb8601ff3cdb2671a17dce3f7033.002.1</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e1409be19f4ba43a14f24635b91f534870bedffb.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.e1409be19f4ba43a14f24635b91f534870bedffb.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-09-14T22:23:00-05:00</sent>
+						<sent type="str">2026-09-15T23:46:00-05:00</sent>
 					</item>
 				</references>
-				<sent type="str">2026-09-15T11:16:00-05:00</sent>
-				<effective type="str">2026-09-15T11:16:00-05:00</effective>
-				<onset type="str">2026-09-15T11:16:00-05:00</onset>
-				<expires type="str">2026-09-16T04:15:00-05:00</expires>
-				<ends type="str">2026-09-18T19:00:00-05:00</ends>
+				<sent type="str">2026-09-16T11:24:00-05:00</sent>
+				<effective type="str">2026-09-16T11:24:00-05:00</effective>
+				<onset type="str">2026-09-16T11:24:00-05:00</onset>
+				<expires type="str">2026-09-17T05:00:00-05:00</expires>
+				<ends type="str">2026-09-20T19:00:00-05:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
 				<category type="str">Met</category>
@@ -190,19 +223,22 @@
 				<event type="str">Heat Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Heat Advisory issued September 15 at 11:16AM CDT until September 18 at 7:00PM CDT by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Peak Daily Heat Index Values up to around 105 degrees.
+				<headline type="str">Heat Advisory issued September 16 at 11:24AM CDT until September 20 at 7:00PM CDT by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Daily peak heat index values of 100 to 106.
 
 * WHERE...All of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...Until 7 PM CDT /8 PM EDT/ Friday.
+* WHEN...Until 7 PM CDT /8 PM EDT/ Sunday.
 
 * IMPACTS...Record to near record hot temperatures and high humidity
 may cause heat illnesses.
 
 * ADDITIONAL DETAILS...The Heat Advisory has been extended thru
-Friday for the entire Quad State Region.</description>
+Sunday for the entire Quad State Region. Although heat index values
+will only be near 100, the prolonged period of late season hot
+temperatures and high humidity will continue to elevate
+heat-related health impacts.</description>
 				<instruction type="str">Drink plenty of fluids, stay in an air-conditioned room, stay out of
 the sun, and check up on relatives and neighbors.
 
@@ -217,10 +253,10 @@ heat stroke.</instruction>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 151616</item>
+						<item type="str">WWUS73 KPAH 161624</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">HEAT ADVISORY NOW IN EFFECT UNTIL 7 PM CDT /8 PM EDT/ FRIDAY</item>
+						<item type="str">HEAT ADVISORY NOW IN EFFECT UNTIL 7 PM CDT /8 PM EDT/ SUNDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -228,13 +264,13 @@ heat stroke.</instruction>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.EXT.KPAH.HT.Y.0013.000000T0000Z-260919T0000Z/</item>
+						<item type="str">/O.EXT.KPAH.HT.Y.0013.000000T0000Z-260921T0000Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
-						<item type="str">2026-09-18T19:00:00-05:00</item>
+						<item type="str">2026-09-20T19:00:00-05:00</item>
 					</eventEndingTime>
 					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7918d836a9aa2064485ea23c41052f887d0ad3d1.002.1,2026-09-14T11:22:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ee0b5bd142ee04c3f854f5de32e0d1151b7aa8fd.003.1,2026-09-13T23:06:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2b7855cad0ae4492dd436e83550522da108f557a.002.1,2026-09-13T11:12:00-05:00</item>
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7c437079c00b02455fc671b29ff70b871bd6cb3e.002.1,2026-09-15T11:16:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7c437079c00b02455fc671b29ff70b871bd6cb3e.001.1,2026-09-15T11:16:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3a1d6564b326cb8601ff3cdb2671a17dce3f7033.002.1,2026-09-14T22:23:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3a1d6564b326cb8601ff3cdb2671a17dce3f7033.001.1,2026-09-14T22:23:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7918d836a9aa2064485ea23c41052f887d0ad3d1.002.1,2026-09-14T11:22:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7918d836a9aa2064485ea23c41052f887d0ad3d1.001.1,2026-09-14T11:22:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ee0b5bd142ee04c3f854f5de32e0d1151b7aa8fd.002.1,2026-09-13T23:06:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ee0b5bd142ee04c3f854f5de32e0d1151b7aa8fd.001.2,2026-09-13T23:06:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ee0b5bd142ee04c3f854f5de32e0d1151b7aa8fd.003.1,2026-09-13T23:06:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2b7855cad0ae4492dd436e83550522da108f557a.002.1,2026-09-13T11:12:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2b7855cad0ae4492dd436e83550522da108f557a.001.2,2026-09-13T11:12:00-05:00</item>
 					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
@@ -253,5 +289,5 @@ heat stroke.</instruction>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-09-15T17:35:58+00:00</updated>
+	<updated type="str">2026-09-16T16:35:56+00:00</updated>
 </all>
