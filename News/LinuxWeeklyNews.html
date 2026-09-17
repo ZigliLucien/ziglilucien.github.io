@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1094303/" title="See Description">[$] Thread-identity switcheroo for io_uring</a></li>
+<li><a href="#https://lwn.net/Articles/1094963/" title="See Description">GNOME 51 released</a></li>
+<li><a href="#https://lwn.net/Articles/1094962/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1093434/" title="See Description">[$] LWN.net Weekly Edition for September 17, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1094762/" title="See Description">Fedora 45 beta drags the Linux console into the 21st century (Register)</a></li>
 <li><a href="#https://lwn.net/Articles/1092553/" title="See Description">[$] Ways to encrypt data on servers</a></li>
@@ -50,12 +53,44 @@
 <li><a href="#https://lwn.net/Articles/1094224/" title="See Description">Emacs arbitrary code execution flaw</a></li>
 <li><a href="#https://lwn.net/Articles/1094211/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1093985/" title="See Description">More than 9,000 patches total in the seven stable kernels for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1093929/" title="See Description">Reminder: subscription price change coming</a></li>
-<li><a href="#https://lwn.net/Articles/1093962/" title="See Description">Kernel prepatch 7.3-rc3</a></li>
-<li><a href="#https://lwn.net/Articles/1093825/" title="See Description">EuroPython 2026 videos published</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1094303/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 17 Sep 2026 13:49:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094303/" title="https://lwn.net/Articles/1094303/">[$] Thread-identity switcheroo for io_uring</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a
+href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring
+subsystem</a> is all about asynchronous execution; applications count on it
+to not block — unless explicitly requested to.  Within io_uring, maintaining
+the "never blocks" guarantee has sometimes been a challenge, given that
+many paths in the kernel were never designed for asynchronous execution.
+This problem has been worked around, but at a significant cost to
+performance.  Now, io_uring maintainer Jens Axboe has posted <a
+href="https://lwn.net/ml/all/20260911154148.644489-1-axboe@kernel.dk">an RFC patch set</a>
+with a somewhat radical (and potentially scary) solution to the problem.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1094963/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 17 Sep 2026 13:08:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094963/" title="https://lwn.net/Articles/1094963/">GNOME 51 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://release.gnome.org/51/">Version 51</a> of the GNOME desktop
+environment has been released.  The list of changes includes a number of
+performance improvements, offline data and better transit information in
+the Maps application, a new interface for the file previewer, and more.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1094962/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 17 Sep 2026 12:48:01 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094962/" title="https://lwn.net/Articles/1094962/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, corosync, firewalld, kernel, kernel-rt, libevent, libsoup, microcode_ctl, nginx:1.26, python-lxml, rsyslog, tesseract, and unbound), <b>Debian</b> (firefox-esr, mkvtoolnix, thunderbird, and tor), <b>Fedora</b> (open62541, php-pecl-mongodb2, python-django6, python-jwcrypto, and roundcubemail), <b>Mageia</b> (aom, cockpit, libgd, packagekit, and python-h2), <b>Red Hat</b> (corosync, delve, git-lfs, grafana-pcp, gstreamer1-plugins-base, libvirt, opentelemetry-collector, and rhc-worker-playbook), <b>Slackware</b> (mozilla-firefox and mozilla-thunderbird), <b>SUSE</b> (acl, attr, alloy, ansible-core, clamav, containerized-data-importer, corosync, cups, distribution, glibc, google-cloud-sap-agent, govulncheck-vulndb, gvfs, helm, jq, kbd, kubernetes1.34-apiserver, kubernetes1.35-apiserver, lcms2, libcupsfilters, liblzmasdk26, libzypp, zypper, mistral-vibe, opensc, openvpn, pcre2, python-jwcrypto, tomcat, tomcat10, and tomcat11), and <b>Ubuntu</b> (guix, libheif, perl, python-cryptography, sqlite3, and valkey).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1093434/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 17 Sep 2026 01:12:53 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -254,41 +289,6 @@ more than 9,000 in total between them. There are more than <a
 href="https://lwn.net/ml/linux-kernel/20260912065648.999753832@linuxfoundation.org/">1,800
 patches</a> in 7.2.6 alone. Users of these kernels are, of course, advised to
 upgrade.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1093929/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 13 Sep 2026 22:34:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093929/" title="https://lwn.net/Articles/1093929/">Reminder: subscription price change coming</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Just a reminder that prices for LWN subscriptions will increase after
-September&#160;15.  Until then, the older rate still applies.  See <a
-href="https://lwn.net/Articles/1090585/">this article</a> for details on this change.
-Thanks, yet again, to all of our subscribers for your support — that is
-what keeps LWN going.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1093962/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 13 Sep 2026 22:32:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093962/" title="https://lwn.net/Articles/1093962/">Kernel prepatch 7.3-rc3</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1093961/">7.3-rc3</a> kernel prepatch is out for
-testing.  Linus said: "<q>Another fairly large rc release, and again one
-with a bigger filesystem footprint that we usually see.</q>"</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1093825/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 11 Sep 2026 15:08:45 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093825/" title="https://lwn.net/Articles/1093825/">EuroPython 2026 videos published</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>All of the videos from the <a
-href="https://ep2026.europython.eu/">EuroPython&#160;2026</a> conference, held
-in Kraków, Poland from July&#160;13 through July&#160;19, are <a
-href="https://www.youtube.com/watch?v=9ZuZfG8_jH8&list=PLd3Y9yzyC5Uo">now
-online</a> along with a <a
-href="https://blog.europython.eu/europython-2026-videos-published/">recap</a> of
-the event from conference organizers.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
