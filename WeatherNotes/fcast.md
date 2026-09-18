@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Today</h3>A slight chance of showers and thunderstorms after 5pm. Sunny. High near 97, with temperatures falling to around 95 in the
-         afternoon. Heat index values as high as 105. West wind around 2 mph. Chance of precipitation is 20%.<br></div>
+         afternoon. Heat index values as high as 105. West northwest wind around 2 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
