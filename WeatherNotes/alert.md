@@ -1,6 +1,6 @@
 <p>
-   <h2>Heat Advisory issued September 18 at 2:41PM CDT until September 20 at 7:00PM CDT by NWS Paducah KY</h2>
-   <div style="font-size:120%">* WHAT...Heat index values up to around 105 degrees can be expected.
+   <h2>Heat Advisory issued September 19 at 1:37AM CDT until September 20 at 7:00PM CDT by NWS Paducah KY</h2>
+   <div style="font-size:120%">* WHAT...Heat index values up to 102 degrees are expected.
       
       * WHERE...all of southern Illinois, southwest Indiana, western
       Kentucky, and southeast Missouri.
