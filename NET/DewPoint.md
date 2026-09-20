@@ -25,7 +25,7 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 <p/><br/><p/>
 
 ## Current
-<div id='c'><strong>Temp</strong>  <strong>Dew Point</strong> </div>
+<div id='c'><strong>Temp</strong> 69.8 F. <strong>Dew Point</strong> 64.4 F.</div>
 
 <p/><br/><p/>
 
@@ -570,3 +570,4 @@ black;width:35%;margin-left:auto;margin-right:auto;margin-bottom:5em
 | Sun Sep 20 03:08:04 2026 |  | |
 | Sun Sep 20 04:08:05 2026 |  | |
 | Sun Sep 20 05:08:04 2026 |  | |
+| Sun Sep 20 06:08:05 2026 | 69.8 F. | 64.4 F.|
