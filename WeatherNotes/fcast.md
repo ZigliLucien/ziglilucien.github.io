@@ -3,12 +3,12 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>A slight chance of showers and thunderstorms. Mostly cloudy. Low around 70, with temperatures rising to around 72 overnight.
-         North northeast wind around 5 mph. Chance of precipitation is 20%.<br></div>
+         North wind around 5 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A slight chance of showers and thunderstorms between 9am and 2pm. Mostly cloudy. High near 85, with temperatures falling to
-         around 82 in the afternoon. North northeast wind 3 to 7 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Monday</h3>A slight chance of showers and thunderstorms between 9am and 2pm. Mostly cloudy, with a high near 83. North northeast wind
+         3 to 7 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
