@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1095723/" title="See Description">Igalia celebrates "Twenty-Five Years Upstream"</a></li>
+<li><a href="#https://lwn.net/Articles/1095703/" title="See Description">Three new stable kernels</a></li>
+<li><a href="#https://lwn.net/Articles/1094310/" title="See Description">[$] Testing compat_linux on NetBSD with the Linux Test Project</a></li>
+<li><a href="#https://lwn.net/Articles/1095702/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1095491/" title="See Description">Kernel prepatch 7.3-rc4</a></li>
 <li><a href="#https://lwn.net/Articles/1094575/" title="See Description">[$] Looking forward to Git 2.56 — and 3.0</a></li>
 <li><a href="#https://lwn.net/Articles/1095220/" title="See Description">Systemtap 5.6 released</a></li>
@@ -49,13 +53,69 @@
 <li><a href="#https://lwn.net/Articles/1094762/" title="See Description">Fedora 45 beta drags the Linux console into the 21st century (Register)</a></li>
 <li><a href="#https://lwn.net/Articles/1092553/" title="See Description">[$] Ways to encrypt data on servers</a></li>
 <li><a href="#https://lwn.net/Articles/1094720/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1093661/" title="See Description">[$] Adding BPF to blk-iocost</a></li>
-<li><a href="#https://lwn.net/Articles/1094470/" title="See Description">Vondra: PostgreSQL development activity</a></li>
-<li><a href="#https://lwn.net/Articles/1094469/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1094312/" title="See Description">GNU Core Utilities 9.12 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1095723/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Sep 2026 16:35:32 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1095723/" title="https://lwn.net/Articles/1095723/">Igalia celebrates "Twenty-Five Years Upstream"</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The open-source consulting firm <a
+href="https://www.igalia.com/">Igalia</a> has put out <a
+href="https://www.igalia.com/2026/09/21/Twenty-Five-Years-Upstream.html">an
+announcement celebrating 25 years</a> of working on upstream FOSS projects
+for its clients.  The list of projects the company has worked on is rather
+eye-opening: WebKit, mobile-browser rendering (on Maemo, Moblin, MeeGo, and
+Tizen), the Linux kernel (CPU and GPU scheduling), 3D graphics drivers, the
+Orca screen reader, 
+GStreamer, and lots more.  Beyond that, the company, which is a
+worker-owned cooperative, does its work in ways that benefit the community
+as well as its clients:
+
+<blockquote class="bq">
+None of this is charity. Igalia is a consultancy, and most of the work above was paid for by someone with a product to ship: a device maker who needs the web to run well on their hardware, a platform that needs a feature its users keep asking for, a company whose roadmap depends on something deep in the stack working better than it does today. What they get from us is not a patch to carry forever. We do the work upstream, in the project itself, so it arrives in the next release and keeps working long after the contract ends. Our customers ship products built on code that nobody has to maintain alone, and everyone else gets the same code. That has been the arrangement from the start.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1095703/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Sep 2026 14:43:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1095703/" title="https://lwn.net/Articles/1095703/">Three new stable kernels</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Greg Kroah-Hartman has released the <a href="https://lwn.net/Articles/1095704/">7.2.7</a>,
+<a href="https://lwn.net/Articles/1095705/">6.18.53</a>, and <a
+href="https://lwn.net/Articles/1095706/">6.12.111</a> stable kernels. As is usual these days, they are
+quite large; also no surprise is that they provide many important fixes
+throughout the kernel tree.  Users of those kernels are advised to update.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1094310/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Sep 2026 14:22:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094310/" title="https://lwn.net/Articles/1094310/">[$] Testing compat_linux on NetBSD with the Linux Test Project</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://netbsd.org/">NetBSD</a> has long had support for
+running Linux binaries via its kernel-level <a
+href="https://man.netbsd.org/compat_linux.8"><tt>compat_linux</tt></a>
+feature, but test coverage for it was less complete than some might
+hope. In order to provide better testing for <tt>compat_linux</tt>,
+Google Summer of Code (GSoC) participant Henrique Brito opted to work
+on enabling the <a
+href="https://linux-test-project.readthedocs.io/en/latest/">Linux Test
+Project (LTP)</a> test suite to compile and run on NetBSD. At <a
+href="https://2026.eurobsdcon.org/">EuroBSDCon&#160;2026</a>, Brito's
+mentor, Stephen Borrill, provided a report on the project, and the
+status of LTP on NetBSD. The work has already resulted in some minor
+fixes, and a good list of additional problems to solve.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1095702/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 21 Sep 2026 14:13:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1095702/" title="https://lwn.net/Articles/1095702/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, perl-Net-DNS, sudo, tomcat, and tomcat9), <b>Debian</b> (chromium, gimp, libde265, libevent, linux-6.12, ruby-jwt, and unbound), <b>Fedora</b> (asterisk, chromium, doctl, dovecot, evolution, firefox, forgejo, freeciv, freeipa, gegl04, gimp, libheif, nss, opkssh, parted, ruby, stb, thunderbird, unbound, and webkitgtk), <b>Mageia</b> (bind, gawk, gdk-pixbuf2.0, graphicsmagick, gstreamer1.0-plugins-base, libde265, libpcap, libssh, mpg123, ntfs-3g, ntpsec, patch, perl-YAML, postfix, python-configargparse, and python-httplib2), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, firefox, image-builder, kernel, libevent, libsoup, libsoup3, perl-Net-DNS, python-lxml, sudo, tomcat, tomcat9, and unbound), <b>Slackware</b> (stunnel), <b>SUSE</b> (alloy, dovecot22, ffmpeg-8, firefox, firefox-esr, freeipmi, glibc, google-guest-agent, google-osconfig-agent, helm, ImageMagick, jq, kbd, kernel-devel, libpcap, libsoup, libzypp, zypper, NetworkManager-applet-l2tp, nginx, openCryptoki, pcre2, python311, python313-aiosmtplib, python313-litellm, rpm, and thunderbird), and <b>Ubuntu</b> (linux-aws, linux-aws-fips, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-azure-5.4, linux-gcp-fips, linux-azure-fips, linux-nvidia-tegra, linux-raspi, linux-raspi-realtime, and rclone).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1095491/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 20 Sep 2026 22:52:25 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -197,78 +257,6 @@ the talk.
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, libkcapi, nginx, nginx:1.24, openssl, osbuild-composer, perl, perl:5.32, python-tornado, rsync, and rust), <b>Debian</b> (cjose and nginx), <b>Fedora</b> (environment-modules, erlang, GitPython, knot, perl-Authen-SASL, python-configargparse, ruby, rubygems, and sblim-sfcb), <b>Oracle</b> (firefox, git-lfs, gstreamer1-plugins-base, kernel, libkcapi, nginx, nginx:1.26, openssl, osbuild-composer, perl, perl-YAML-Syck, postgresql18, python-tornado, and rust), <b>Red Hat</b> (fence-agents, git-lfs, microcode_ctl, osbuild-composer, podman, python-pyasn1, and resource-agents), <b>SUSE</b> (389-ds, ant, bson-devel, chirp-20260911, docker, gimp, google-cloud-sap-agent, hauler, kernel, kimi-code, libpcap, python-GitPython, python310, syncthing, yast2-samba-client, and zstd-jni), and <b>Ubuntu</b> (aom, imagemagick, kitty, openssh, phpseclib, policykit-1, python-sql, python-webob, shibboleth-sp, simplesamlphp, snapcast, srt, and suricata-update).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1093661/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 15 Sep 2026 14:37:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093661/" title="https://lwn.net/Articles/1093661/">[$] Adding BPF to blk-iocost</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The scheduling of block <span class="nobreak">I/O</span> requests has long
-been a challenge for operating-system kernels.  For many years, the
-performance characteristics of rotating drives meant that putting
-considerable resources into request ordering was worthwhile.  In a world
-with fast, solid-state drives, scheduling is more concerned with enforcing
-fairness between competing users while being fast enough to keep up with
-drives that can perform millions of <span class="nobreak">I/O</span>
-operations per second.  The blk-iocost <span class="nobreak">I/O</span>
-controller was designed for the solid-state world and generally performs
-well, but there is always a desire to do better.  <a
-href="https://lwn.net/ml/all/20260914073356.791518-1-cui.tao@linux.dev">This patch
-series</a> from Tao Cui aims to make blk-iocost more flexible by enabling
-the loading of a BPF program to make cost decisions.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1094470/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 15 Sep 2026 13:20:30 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094470/" title="https://lwn.net/Articles/1094470/">Vondra: PostgreSQL development activity</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>PostgreSQL contributor Tomas Vondra has <a
-href="https://vondra.me/posts/postgres-development-activity/">published a blog
-post</a> looking at development activity in the project, with data from the late
-1990s to today.</p>
-
-<blockquote class="bq">
-<p>We're doing ~50 commits per week, give or take. In ~2010 we were doing maybe
-25/week, and the trend seems to be a slow and consistent growth. The monthly
-average makes the trend a bit easier to spot. Which is good, although there's a
-lot of other important details (size of commits, are they new features or fixes,
-...).</p>
-
-<p>It however nicely aligns with the number of active committers, which also
-grew ~2x between 2010 and today. So maybe that's working as expected.</p>
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1094469/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 15 Sep 2026 13:10:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094469/" title="https://lwn.net/Articles/1094469/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (network-manager-l2tp and urwid), <b>Fedora</b> (perl-Dancer2, perl-Data-Entropy, perl-DBI, perl-Protocol-HTTP2, podman-tui, rust-lru, and rust-lru0.16), <b>Mageia</b> (bzip2, cups-filters, libcupsfilters, libssh2, perl-Authen-SASL, perl-HTML-FormFu, tar, unzip, and zip), <b>Red Hat</b> (grafana and image-builder), <b>SUSE</b> (389-ds, acl, attr, apache2-mod_auth_openidc, apr-util, aws-nitro-enclaves-cli, bzip2, c-ares, clamav, cpio, curl, dhcpcd, dovecot23, dovecot24, dracut, emacs, fuse-overlayfs, go1.25-openssl, go1.26-openssl, google-cloud-sap-agent, google-osconfig-agent, govulncheck-vulndb, gstreamer-devtools, gzip, helm, java-17-openjdk, java-21-openjdk, java-25-openjdk, jq, libBasicUsageEnvironment2, libgpg-error, libidn, librest, libusb-1_0, libvirt, LibVNCServer, libzypp, zypper, lkl, mcphost, MozillaFirefox, mozilla-nspr, mozilla-nss, rust-cbindgen, MozillaFirefox, mozilla-nss, mozilla-nspr, rust-cbindgen, MozillaFirefox, MozillaFirefox-branding-SLE, mozilla-nspr, mozilla-nss, rust-cbindgen, msgpack-c, multipath-tools, NetworkManager, openexr, openssl-3, perl-Protocol-HTTP2, perl-URI, php-composer2, postgresql14, postgresql15, postgresql16, postgresql17, postgresql18, python-aiohttp, python-cryptography, python-h2, python-ruff, python-sqlparse, python311, python312, python39.SUSE_SLE-15-SP3_Update, rav1e, rpcbind, sssd, systemd, tomcat, tomcat11, ucode-intel, udisks2, vim, and wicked2nm), and <b>Ubuntu</b> (cgit, dracut, freeciv, konsole, libinput, linux-azure, linux-nvidia-7.0, nginx, vips, and yelp).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1094312/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 14 Sep 2026 19:53:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094312/" title="https://lwn.net/Articles/1094312/">GNU Core Utilities 9.12 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Pádraig Brady has <a
-href="https://lists.gnu.org/archive/html/coreutils-announce/2026-09/msg00000.html">announced</a>
-GNU Core Utilities (coreutils) version 9.12. "<q>There have been 288 commits by
-16 people in the 21 weeks since 9.11</q>". New features include an <tt>-A</tt>
-option for <a
-href="https://man7.org/linux/man-pages/man1/uname.1.html"><tt>uname</tt></a>
-which labels all output, as well as adding awareness of the <a
-href="https://docs.kernel.org/filesystems/failfs.html">failfs</a> and <a href="https://lwn.net/Articles/1062163/">nullfs</a> filesystem types to <a
-href="https://www.man7.org/linux/man-pages/man1/stat.1.html"><tt>stat</tt></a>
-and <a
-href="https://www.man7.org/linux/man-pages/man1/tail.1.html"><tt>tail</tt></a>.</p>
-
-<p>There are many bug fixes in this release as well, including one for a bug "<q>present
-in 'the beginning'</q>" that caused some utilities to fail when traversing
-hierarchies if files are being removed in parallel.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
