@@ -6,7 +6,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Partly sunny, with a high near 76. North northeast wind 6 to 10 mph.<br></div>
+         <h3>Tuesday</h3>Partly sunny, with a high near 75. North northeast wind 6 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
