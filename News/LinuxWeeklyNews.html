@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1096195/" title="See Description">Critical WordPress RCE vulnerability announced</a></li>
+<li><a href="#https://lwn.net/Articles/1096191/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1095553/" title="See Description">[$] Compiling the kernel with gccrs</a></li>
 <li><a href="#https://lwn.net/Articles/1096022/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1095723/" title="See Description">Igalia celebrates "Twenty-Five Years Upstream"</a></li>
@@ -51,11 +53,43 @@
 <li><a href="#https://lwn.net/Articles/1094303/" title="See Description">[$] Thread-identity switcheroo for io_uring</a></li>
 <li><a href="#https://lwn.net/Articles/1094963/" title="See Description">GNOME 51 released</a></li>
 <li><a href="#https://lwn.net/Articles/1094962/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1093434/" title="See Description">[$] LWN.net Weekly Edition for September 17, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1094762/" title="See Description">Fedora 45 beta drags the Linux console into the 21st century (Register)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1096195/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Sep 2026 13:55:40 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1096195/" title="https://lwn.net/Articles/1096195/">Critical WordPress RCE vulnerability announced</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>A <a
+href="https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp">critical
+vulnerability</a> has been discovered in <a
+href="https://wordpress.org/">WordPress</a>'s <a
+href="https://developer.wordpress.org/reference/functions/get_page_template/"><tt>get_page_template()</tt></a>
+function for page-template resolution that could allow remote-code execution
+(RCE) by an unauthenticated attacker, in some limited circumstances. The project
+has provided an update for the most recent branch of WordPress, as well as
+backports of the fix for branches back to <a
+href="https://wordpress.org/download/releases/#branch-47">4.7</a>. See the
+vulnerability for the conditions required for an RCE attack to be successful.</p>
+
+<p>The vulnerability <a
+href="https://forums.classicpress.net/t/critical-unauthenticated-path-traversal-vulnerability-patched-in-wordpress-core/6775">also
+affects</a> the <a href="https://www.classicpress.net/">ClassicPress</a> fork of
+WordPress, though a security update has not been provided for that project
+yet. LWN <a href="https://lwn.net/Articles/992219/">covered</a> ClassicPress in
+2024. Users of either content-management system should update soon.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1096191/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Sep 2026 13:20:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1096191/" title="https://lwn.net/Articles/1096191/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (coreutils, postgresql18-postgis, and postgresql:16), <b>Debian</b> (memcached), <b>Fedora</b> (chromium, cyrus-imapd, dotnet10.0, dotnet8.0, dotnet9.0, freeipmi, kernel, libxmp, perl-Net-DNS, and postgresql16-anonymizer), <b>Mageia</b> (cpio, diffutils, perl-Dancer2, and rest), <b>Oracle</b> (389-ds-base and firefox), <b>Red Hat</b> (opentelemetry-collector and osbuild-composer), <b>SUSE</b> (amazon-cloudwatch-agent, amazon-ssm-agent, apko, apptainer, bazel-rules-python-source, bind, cups, firefox, freeipmi, gdb, google-osconfig-agent, kernel, kyverno, libipa_hbac-devel, libsoup, libsoup-3_0-0, libtpms, openssl-certs, perl-Authen-SASL, php-composer2, python313-PyMuPDF, thunderbird, and util-linux), and <b>Ubuntu</b> (gzip, linux-aws, linux-aws-5.15, linux-aws-fips, linux-nvidia-tegra-igx, linux-azure, linux-oracle, linux-azure-7.0, linux-azure-fde-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-oracle, linux-oracle-6.8, linux-raspi, openssh, and sudo).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1095553/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 22 Sep 2026 15:27:35 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -230,40 +264,6 @@ the Maps application, a new interface for the file previewer, and more.</blockqu
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, corosync, firewalld, kernel, kernel-rt, libevent, libsoup, microcode_ctl, nginx:1.26, python-lxml, rsyslog, tesseract, and unbound), <b>Debian</b> (firefox-esr, mkvtoolnix, thunderbird, and tor), <b>Fedora</b> (open62541, php-pecl-mongodb2, python-django6, python-jwcrypto, and roundcubemail), <b>Mageia</b> (aom, cockpit, libgd, packagekit, and python-h2), <b>Red Hat</b> (corosync, delve, git-lfs, grafana-pcp, gstreamer1-plugins-base, libvirt, opentelemetry-collector, and rhc-worker-playbook), <b>Slackware</b> (mozilla-firefox and mozilla-thunderbird), <b>SUSE</b> (acl, attr, alloy, ansible-core, clamav, containerized-data-importer, corosync, cups, distribution, glibc, google-cloud-sap-agent, govulncheck-vulndb, gvfs, helm, jq, kbd, kubernetes1.34-apiserver, kubernetes1.35-apiserver, lcms2, libcupsfilters, liblzmasdk26, libzypp, zypper, mistral-vibe, opensc, openvpn, pcre2, python-jwcrypto, tomcat, tomcat10, and tomcat11), and <b>Ubuntu</b> (guix, libheif, perl, python-cryptography, sqlite3, and valkey).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1093434/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Sep 2026 01:12:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1093434/" title="https://lwn.net/Articles/1093434/">[$] LWN.net Weekly Edition for September 17, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1093434/">Front</a>: Server-data encryption; PostgreSQL scary patches; Faster kernel builds; BPF for blk-iocost; Lessons learned as DPL.
-            <li> <a href="https://lwn.net/Articles/1093436/">Briefs</a>: Brief news items from throughout the community. 
-            <li> <a href="https://lwn.net/Articles/1093437/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1094762/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 16 Sep 2026 16:24:46 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094762/" title="https://lwn.net/Articles/1094762/">Fedora 45 beta drags the Linux console into the 21st century (Register)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Register <a
-href="https://www.theregister.com/software/2026/09/16/fedora-45-beta-drags-the-linux-console-into-the-21st-century/5296873">looks
-forward</a> to the upcoming Fedora&#160;45 release.
-<p>
-<blockquote class="bq">
-	The biggest surprise is that Linux's legacy in-kernel console – the
-	text-mode interface normally hidden beneath the GUI – has been
-	replaced with a software-controlled alternative.
-	The replacement is <a
-	href="https://github.com/kmscon/kmscon#kmscon">kmscon</a>, a
-	userspace terminal emulator that has been in development for more
-	than a decade.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
