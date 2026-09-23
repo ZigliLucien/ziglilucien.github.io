@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1095425/" title="See Description">[$] Ideas on modernizing the open-source desktop</a></li>
+<li><a href="#https://lwn.net/Articles/1096204/" title="See Description">Systemd v262 released</a></li>
+<li><a href="#https://lwn.net/Articles/1096200/" title="See Description">Critical security vulnerabilities in the Radicle network protocol</a></li>
 <li><a href="#https://lwn.net/Articles/1096195/" title="See Description">Critical WordPress RCE vulnerability announced</a></li>
 <li><a href="#https://lwn.net/Articles/1096191/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1095553/" title="See Description">[$] Compiling the kernel with gccrs</a></li>
@@ -50,12 +53,71 @@
 <li><a href="#https://lwn.net/Articles/1094575/" title="See Description">[$] Looking forward to Git 2.56 — and 3.0</a></li>
 <li><a href="#https://lwn.net/Articles/1095220/" title="See Description">Systemtap 5.6 released</a></li>
 <li><a href="#https://lwn.net/Articles/1095219/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1094303/" title="See Description">[$] Thread-identity switcheroo for io_uring</a></li>
-<li><a href="#https://lwn.net/Articles/1094963/" title="See Description">GNOME 51 released</a></li>
-<li><a href="#https://lwn.net/Articles/1094962/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1095425/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Sep 2026 15:39:30 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1095425/" title="https://lwn.net/Articles/1095425/">[$] Ideas on modernizing the open-source desktop</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Scott Jenson has been working on user interfaces (UIs) and user experience (UX)
+for many years at Apple, Google, and other companies. Now, he's trying to convince
+open-source projects to experiment more and drive the desktop beyond the age-old "<a
+href="https://en.wikipedia.org/wiki/WIMP_(computing)">windows, icons, menus,
+pointer</a>" (WIMP) model. At <a
+href="https://akademy.kde.org/2026/">Akademy&#160;2026</a>, KDE's annual developer
+conference, he shared his complaints and ideas in a talk aimed
+at convincing those in attendance to take the lead on desktop design.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1096204/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Sep 2026 14:51:37 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1096204/" title="https://lwn.net/Articles/1096204/">Systemd v262 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Systemd v262 has been released. Some of the notable new features include the
+ability to build systemd as a single statically linked binary for small
+containers, support for the kernel coredump socket protocol introduced with
+Linux&#160;6.17, addition of OpenSSL&#160;4 support, and many other changes. See
+the <a href="https://github.com/systemd/systemd/releases/tag/v262">release
+notes</a> for a full list of changes.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1096200/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 23 Sep 2026 14:20:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1096200/" title="https://lwn.net/Articles/1096200/">Critical security vulnerabilities in the Radicle network protocol</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://radicle.dev/">Radicle</a> peer-to-peer
+code-collaboration project has <a
+href="https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol">disclosed
+two critical vulnerabilities</a> in the network protocol used by Radicle
+nodes. The first flaw is that the network protocol used by Radicle "<q>does not
+give the confidentiality it was expected to give</q>", which allows anyone who
+can observe the network between two nodes to read the data exchanged. The second
+is that peer authentication is broken and allows impersonation, so an attacker
+can spoof their Node ID and read private repositories they should not be able to
+read.</p>
+
+<blockquote class="bq">
+<p>In practice, the two flaws are most useful when they can be exploited
+together: an attacker on the path sees the Node IDs at both ends of a
+connection, and both are normally on the allow-list. That attacker can read
+whatever is exchanged while they watch, and can then use a Node ID they saw to
+fetch the whole repository on demand. The realistic threat is anyone on the path
+between your node and node it syncs with, and no setting or allow-list protects
+against them.</p>
+
+<p>We are publishing this before the security update is available. You can act
+on it today, and no fix we release later can undo an exposure that has already
+happened.</p>
+</blockquote>
+
+<p>See the post for workarounds that can be used today; a major update that will
+be backward-incompatible is underway.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1096195/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 23 Sep 2026 13:55:40 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -72,7 +134,7 @@ function for page-template resolution that could allow remote-code execution
 has provided an update for the most recent branch of WordPress, as well as
 backports of the fix for branches back to <a
 href="https://wordpress.org/download/releases/#branch-47">4.7</a>. See the
-vulnerability for the conditions required for an RCE attack to be successful.</p>
+vulnerability report for the conditions required for an RCE attack to be successful.</p>
 
 <p>The vulnerability <a
 href="https://forums.classicpress.net/t/critical-unauthenticated-path-traversal-vulnerability-patched-in-wordpress-core/6775">also
@@ -228,41 +290,6 @@ might be the long-awaited Git 3.0, may well be.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, coreutils, kernel, libevent, libsoup3, microcode_ctl, perl-Net-DNS, postgresql18, postgresql:16, postgresql:18, tomcat, and unbound), <b>Debian</b> (bind9, chromium, libapache2-mod-auth-openidc, nginx, xz-utils, and zip), <b>Fedora</b> (chromium, freeipmi, GitPython, gnatcoll, nodejs-undici, parted, python-django5, and sblim-cmpi-base), <b>Mageia</b> (imagemagick and python-starlette), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, coreutils, corosync, firewalld, kernel, libevent, libsoup, microcode_ctl, nginx:1.24, perl, perl:5.32, postgresql:16, postgresql:18, redis, rsync, rsyslog, tesseract, and unbound), <b>Red Hat</b> (vim), <b>SUSE</b> (alsa, chirp, chromium, cjose, cups, discount, firefox, gh, glibc, gvfs, jq, kernel, libcjose-devel, libmbedcrypto7, libpcap, mbedtls-2, netcdf, nodejs18, openai-codex, openvpn, pcre2, perl-net-dns, sngrep, tiff, and znc), and <b>Ubuntu</b> (bison, bubblewrap, and gst-plugins-good1.0).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1094303/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Sep 2026 13:49:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094303/" title="https://lwn.net/Articles/1094303/">[$] Thread-identity switcheroo for io_uring</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a
-href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring
-subsystem</a> is all about asynchronous execution; applications count on it
-to not block — unless explicitly requested to.  Within io_uring, maintaining
-the "never blocks" guarantee has sometimes been a challenge, given that
-many paths in the kernel were never designed for asynchronous execution.
-This problem has been worked around, but at a significant cost to
-performance.  Now, io_uring maintainer Jens Axboe has posted <a
-href="https://lwn.net/ml/all/20260911154148.644489-1-axboe@kernel.dk">an RFC patch set</a>
-with a somewhat radical (and potentially scary) solution to the problem.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1094963/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Sep 2026 13:08:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094963/" title="https://lwn.net/Articles/1094963/">GNOME 51 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://release.gnome.org/51/">Version 51</a> of the GNOME desktop
-environment has been released.  The list of changes includes a number of
-performance improvements, offline data and better transit information in
-the Maps application, a new interface for the file previewer, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1094962/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 17 Sep 2026 12:48:01 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094962/" title="https://lwn.net/Articles/1094962/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, corosync, firewalld, kernel, kernel-rt, libevent, libsoup, microcode_ctl, nginx:1.26, python-lxml, rsyslog, tesseract, and unbound), <b>Debian</b> (firefox-esr, mkvtoolnix, thunderbird, and tor), <b>Fedora</b> (open62541, php-pecl-mongodb2, python-django6, python-jwcrypto, and roundcubemail), <b>Mageia</b> (aom, cockpit, libgd, packagekit, and python-h2), <b>Red Hat</b> (corosync, delve, git-lfs, grafana-pcp, gstreamer1-plugins-base, libvirt, opentelemetry-collector, and rhc-worker-playbook), <b>Slackware</b> (mozilla-firefox and mozilla-thunderbird), <b>SUSE</b> (acl, attr, alloy, ansible-core, clamav, containerized-data-importer, corosync, cups, distribution, glibc, google-cloud-sap-agent, govulncheck-vulndb, gvfs, helm, jq, kbd, kubernetes1.34-apiserver, kubernetes1.35-apiserver, lcms2, libcupsfilters, liblzmasdk26, libzypp, zypper, mistral-vibe, opensc, openvpn, pcre2, python-jwcrypto, tomcat, tomcat10, and tomcat11), and <b>Ubuntu</b> (guix, libheif, perl, python-cryptography, sqlite3, and valkey).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
