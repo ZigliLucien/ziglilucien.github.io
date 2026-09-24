@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-09-24T06:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-09-24T06:26:17+00:00</updateTime>
-		<validTimes type="str">2026-09-24T00:00:00+00:00/P8DT1H</validTimes>
+		<generatedAt type="str">2026-09-24T08:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-09-24T07:51:04+00:00</updateTime>
+		<validTimes type="str">2026-09-24T01:00:00+00:00/P8D</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-09-24T01:00:00-05:00</startTime>
+				<startTime type="str">2026-09-24T03:00:00-05:00</startTime>
 				<endTime type="str">2026-09-24T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">57</temperature>
@@ -63,10 +63,10 @@
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">NE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy. Low around 57, with temperatures rising to around 59 overnight. Northeast wind around 3 mph.</detailedForecast>
+				<windDirection type="str">NNE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
+				<shortForecast type="str">Partly Cloudy</shortForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 57. North northeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -74,7 +74,7 @@
 				<startTime type="str">2026-09-24T06:00:00-05:00</startTime>
 				<endTime type="str">2026-09-24T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">79</temperature>
+				<temperature type="int">73</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -85,7 +85,7 @@
 				<windDirection type="str">NNE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/rain/bkn?size=medium</icon>
 				<shortForecast type="str">Patchy Drizzle then Partly Sunny</shortForecast>
-				<detailedForecast type="str">Patchy drizzle between 8am and 9am. Partly sunny. High near 79, with temperatures falling to around 77 in the afternoon. North northeast wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Patchy drizzle between 8am and 9am. Partly sunny, with a high near 73. North northeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -93,7 +93,7 @@
 				<startTime type="str">2026-09-24T18:00:00-05:00</startTime>
 				<endTime type="str">2026-09-25T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">60</temperature>
+				<temperature type="int">56</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -102,9 +102,9 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">NNE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
-				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy. Low around 60, with temperatures rising to around 62 overnight. North northeast wind around 3 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy. Low around 56, with temperatures rising to around 61 overnight. North northeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -112,7 +112,7 @@
 				<startTime type="str">2026-09-25T06:00:00-05:00</startTime>
 				<endTime type="str">2026-09-25T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">80</temperature>
+				<temperature type="int">78</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -123,7 +123,7 @@
 				<windDirection type="str">NE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 80. Northeast wind 2 to 6 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 78. Northeast wind 2 to 6 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
