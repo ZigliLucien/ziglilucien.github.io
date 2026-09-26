@@ -30,7 +30,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Mostly cloudy, with a low around 65. South southeast wind around 5 mph.<br></div>
+         <h3>Tuesday Night</h3>Partly cloudy, with a low around 65. South southeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -55,6 +55,6 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 63. East wind around 5 mph.<br></div>
+         <h3>Friday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 63. East wind 2 to 6 mph.<br></div>
    </p>
 </div>
