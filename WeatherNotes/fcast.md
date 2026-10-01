@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>Partly sunny. High near 91, with temperatures falling to around 88 in the afternoon. South southwest wind around 13 mph, with
-         gusts as high as 22 mph.<br></div>
+         gusts as high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
