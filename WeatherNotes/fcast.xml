@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-10-02T05:36:04+00:00</generatedAt>
-		<updateTime type="str">2026-10-02T05:31:21+00:00</updateTime>
-		<validTimes type="str">2026-10-01T23:00:00+00:00/P8DT2H</validTimes>
+		<generatedAt type="str">2026-10-02T06:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-10-02T06:27:24+00:00</updateTime>
+		<validTimes type="str">2026-10-02T00:00:00+00:00/P8DT1H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-10-02T00:00:00-05:00</startTime>
+				<startTime type="str">2026-10-02T01:00:00-05:00</startTime>
 				<endTime type="str">2026-10-02T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">68</temperature>
@@ -63,10 +63,10 @@
 					<value type="int">93</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">WNW</windDirection>
+				<windDirection type="str">NNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/tsra,90?size=medium</icon>
 				<shortForecast type="str">Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy. Low around 68, with temperatures rising to around 71 overnight. West northwest wind around 3 mph. Chance of precipitation is 90%.</detailedForecast>
+				<detailedForecast type="str">Showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy. Low around 68, with temperatures rising to around 71 overnight. North northwest wind around 3 mph. Chance of precipitation is 90%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -207,7 +207,7 @@
 				<startTime type="str">2026-10-05T18:00:00-05:00</startTime>
 				<endTime type="str">2026-10-06T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">47</temperature>
+				<temperature type="int">46</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -218,7 +218,7 @@
 				<windDirection type="str">NE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
 				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear, with a low around 47. Northeast wind around 5 mph.</detailedForecast>
+				<detailedForecast type="str">Clear, with a low around 46. Northeast wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">10</number>
@@ -264,7 +264,7 @@
 				<startTime type="str">2026-10-07T06:00:00-05:00</startTime>
 				<endTime type="str">2026-10-07T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">76</temperature>
+				<temperature type="int">77</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -275,7 +275,7 @@
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 76. South southwest wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 77. South southwest wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">13</number>
@@ -288,7 +288,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">2</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>
@@ -307,7 +307,7 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">2</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 to 5 mph</windSpeed>
 				<windDirection type="str">WSW</windDirection>

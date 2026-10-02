@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Overnight</h3>Showers and thunderstorms. Some of the storms could produce heavy rain. Cloudy. Low around 68, with temperatures rising to
-         around 71 overnight. West northwest wind around 3 mph. Chance of precipitation is 90%.<br></div>
+         around 71 overnight. North northwest wind around 3 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -35,7 +35,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Clear, with a low around 47. Northeast wind around 5 mph.<br></div>
+         <h3>Monday Night</h3>Clear, with a low around 46. Northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -47,7 +47,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Sunny, with a high near 76. South southwest wind around 2 mph.<br></div>
+         <h3>Wednesday</h3>Sunny, with a high near 77. South southwest wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
