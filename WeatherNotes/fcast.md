@@ -46,14 +46,14 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny, with a high near 80. Southwest wind around 3 mph.<br></div>
+         <h3>Thursday</h3>Sunny, with a high near 81. Southwest wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Clear, with a low around 54. South wind around 2 mph.<br></div>
+         <h3>Thursday Night</h3>Clear, with a low around 53. South wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Sunny, with a high near 83. South southwest wind 1 to 5 mph.<br></div>
+         <h3>Friday</h3>Sunny, with a high near 82. South southwest wind 1 to 5 mph.<br></div>
    </p>
 </div>
