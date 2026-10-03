@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-10-03T20:36:02+00:00</generatedAt>
-		<updateTime type="str">2026-10-03T19:41:01+00:00</updateTime>
-		<validTimes type="str">2026-10-03T13:00:00+00:00/P7DT12H</validTimes>
+		<generatedAt type="str">2026-10-03T21:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-10-03T21:16:22+00:00</updateTime>
+		<validTimes type="str">2026-10-03T15:00:00+00:00/P7DT10H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,21 +52,21 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">This Afternoon</name>
-				<startTime type="str">2026-10-03T15:00:00-05:00</startTime>
+				<startTime type="str">2026-10-03T16:00:00-05:00</startTime>
 				<endTime type="str">2026-10-03T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">74</temperature>
+				<temperature type="int">75</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">8 mph</windSpeed>
+				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">ENE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
-				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 74. East northeast wind around 8 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
+				<shortForecast type="str">Mostly Sunny</shortForecast>
+				<detailedForecast type="str">Mostly sunny. High near 75, with temperatures falling to around 72 in the afternoon. East northeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -82,10 +82,10 @@
 					<value type="int">3</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
-				<windDirection type="str">NE</windDirection>
+				<windDirection type="str">NNE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy. Low around 51, with temperatures rising to around 54 overnight. Northeast wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy. Low around 51, with temperatures rising to around 54 overnight. North northeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
