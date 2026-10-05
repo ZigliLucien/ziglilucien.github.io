@@ -34,7 +34,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 55. East wind around 3 mph.<br></div>
+         <h3>Thursday Night</h3>Clear, with a low around 55. East wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
