@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1097760/" title="See Description">[$] Last rites for Gentoo's Chromium package</a></li>
+<li><a href="#https://lwn.net/Articles/1098980/" title="See Description">OpenSSH 10.6 released</a></li>
+<li><a href="#https://lwn.net/Articles/1098979/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1098610/" title="See Description">RustConf recordings</a></li>
 <li><a href="#https://lwn.net/Articles/1096963/" title="See Description">[$] An update on the Sashiko patch-review system</a></li>
 <li><a href="#https://lwn.net/Articles/1098600/" title="See Description">Picard 3.0 released</a></li>
@@ -50,12 +53,64 @@
 <li><a href="#https://lwn.net/Articles/1098312/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1096908/" title="See Description">[$] Coping with the onslaught of kernel security bugs</a></li>
 <li><a href="#https://lwn.net/Articles/1098068/" title="See Description">Rust 1.99.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1098067/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1096293/" title="See Description">[$] LWN.net Weekly Edition for October 1, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1096518/" title="See Description">[$] The year in Plasma and what's ahead</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1097760/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 06 Oct 2026 13:44:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1097760/" title="https://lwn.net/Articles/1097760/">[$] Last rites for Gentoo's Chromium package</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.chromium.org/Home/">Chromium</a>, the open-source
+upstream project for Google's Chrome web browser, is the browser of choice for
+many Linux users. It has also gained a reputation as being <a
+href="https://lwn.net/Articles/619158/">difficult for Linux distributions to
+package and build</a>: Chromium has a complex build system, the project bundles
+many of its dependencies, and it has frequent releases. All of that, plus user
+complaints, has led the maintainers of the <a
+href="https://packages.gentoo.org/packages/www-client/chromium">Gentoo Chromium
+package</a> to give up on trying to maintain the package.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1098980/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 06 Oct 2026 13:42:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098980/" title="https://lwn.net/Articles/1098980/">OpenSSH 10.6 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://www.openssh.org/txt/release-10.6">Version 10.6</a> of OpenSSH
+has been released. The announcement notes that the OpenSSH team has been
+receiving a large number of AI-assisted security bug reports. "<q>We very much
+welcome these reports, especially when combined with human triage, analysis,
+test-cases and particularly when accompanied by proposed fixes</q>". As a
+result, the project expects to be making more frequent releases to get updates
+to users more quickly rather than batching the bug fixes until the next planned
+release.</p>
+
+<p>Notable changes in this release include enabling the hybrid post-quantum
+ssh-mldsa44-ed25519 signature algorithm, addition of a <tt>-p</tt> option for <a
+href="https://man.openbsd.org/sftp"><tt>sftp</tt></a>'s <a
+href="https://man.openbsd.org/sftp#lmkdir"><tt>lmkdir</tt></a>/<a
+href="https://man.openbsd.org/sftp#mkdir"><tt>mkdir</tt></a> commands, as well
+as disabling the LZ77 dictionary coder in <a
+href="https://man.openbsd.org/ssh"><tt>ssh</tt></a> and <a
+href="https://man.openbsd.org/sshd"><tt>sshd</tt></a> to mitigate side-channel
+leaks (which will result in reduced effectiveness of the Compression
+option). The <a
+href="https://man.openbsd.org/scp#R"><tt>scp&#160;-R</tt></a> option, which
+allows copies between two remote hosts, is being deprecated due to security
+risks; the option will be ignored in the future. See the announcement for full
+details of all changes and bug fixes.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1098979/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 06 Oct 2026 13:12:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098979/" title="https://lwn.net/Articles/1098979/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gd, gimp, kernel, kernel-rt, libpcap, librabbitmq, mariadb-connector-c, osbuild-composer, ruby:2.5, and sudo), <b>Debian</b> (libmodule-cpants-analyse-perl, libpng1.6, libreoffice, roundcube, ruby-oauth2, and sabnzbdplus), <b>Fedora</b> (0install, alt-ergo, apron, brltty, chromium, coccinelle, cri-o1.36, emacs-common-tuareg, flocq, frama-c, freetennis, gappalib-coq, guestfs-tools, haxe, hevea, hivex, kernel, lem, libguestfs, libnbd, nbdkit, not-ocamlfind, ocaml, ocaml-afl-persistent, ocaml-alcotest, ocaml-astring, ocaml-atd, ocaml-augeas, ocaml-b0, ocaml-base, ocaml-base64, ocaml-benchmark, ocaml-bin-prot, ocaml-biniou, ocaml-bisect-ppx, ocaml-bos, ocaml-cairo, ocaml-calendar, ocaml-camlbz2, ocaml-camlidl, ocaml-camlimages, ocaml-camlp-streams, ocaml-camlp5, ocaml-camlp5-buildscripts, ocaml-camlpdf, ocaml-camomile, ocaml-capitalization, ocaml-cinaps, ocaml-cmdliner, ocaml-compiler-libs-janestreet, ocaml-cpdf, ocaml-cppo, ocaml-crowbar, ocaml-cryptokit, ocaml-csexp, ocaml-csv, ocaml-ctypes, ocaml-cudf, ocaml-curl, ocaml-curses, ocaml-dbus, ocaml-domain-name, ocaml-dose3, ocaml-dune, ocaml-easy-format, ocaml-expat, ocaml-extlib, ocaml-facile, ocaml-fieldslib, ocaml-fileutils, ocaml-findlib, ocaml-fmt, ocaml-fpath, ocaml-gen, ocaml-gettext, ocaml-graphics, ocaml-gsl, ocaml-integers, ocaml-intrinsics-kernel, ocaml-jane-street-headers, ocaml-jsonm, ocaml-jst-config, ocaml-lablgl, ocaml-lablgtk, ocaml-lablgtk3, ocaml-labltk, ocaml-lacaml, ocaml-lambda-term, ocaml-libvirt, ocaml-linenoise, ocaml-logs, ocaml-luv, ocaml-lwt, ocaml-mccs, ocaml-mdx, ocaml-menhir, ocaml-merlin, ocaml-mew, ocaml-mew-vi, ocaml-mlgmpidl, ocaml-mlmpfr, ocaml-monolith, ocaml-mtime, ocaml-mysql, ocaml-num, ocaml-obuild, ocaml-ocamlbuild, ocaml-ocamlgraph, ocaml-ocamlnet, ocaml-ocp-indent, ocaml-ocplib-endian, ocaml-ocplib-simplex, ocaml-omake, ocaml-omd, ocaml-opam-0install-cudf, ocaml-opam-file-format, ocaml-ounit, ocaml-parmap, ocaml-parsexp, ocaml-patch, ocaml-pcre2, ocaml-perl4caml, ocaml-postgresql, ocaml-pp, ocaml-pprint, ocaml-ppx-assert, ocaml-ppx-base, ocaml-ppx-bench, ocaml-ppx-bin-prot, ocaml-ppx-cold, ocaml-ppx-compare, ocaml-ppx-custom-printf, ocaml-ppx-derivers, ocaml-ppx-deriving, ocaml-ppx-deriving-yaml, ocaml-ppx-deriving-yojson, ocaml-ppx-enumerate, ocaml-ppx-expect, ocaml-ppx-fields-conv, ocaml-ppx-globalize, ocaml-ppx-hash, ocaml-ppx-here, ocaml-ppx-inline-test, ocaml-ppx-let, ocaml-ppx-optcomp, ocaml-ppx-sexp-conv, ocaml-ppx-stable-witness, ocaml-ppx-variants-conv, ocaml-ppxlib, ocaml-ppxlib-jane, ocaml-psmt2-frontend, ocaml-ptmap, ocaml-pyml, ocaml-qcheck, ocaml-qtest, ocaml-re, ocaml-react, ocaml-res, ocaml-result, ocaml-rresult, ocaml-SDL, ocaml-sedlex, ocaml-sexplib, ocaml-sexplib0, ocaml-sha, ocaml-spdx-licenses, ocaml-sqlite, ocaml-ssl, ocaml-stdcompat, ocaml-stdio, ocaml-stdlib-random, ocaml-store, ocaml-swhid-core, ocaml-testo, ocaml-time-now, ocaml-topkg, ocaml-trie, ocaml-unionfind, ocaml-uucd, ocaml-uucp, ocaml-uunf, ocaml-uuseg, ocaml-uutf, ocaml-variantslib, ocaml-version, ocaml-xml-light, ocaml-xmlm, ocaml-xmlrpc-light, ocaml-yaml, ocaml-yamlx, ocaml-yojson, ocaml-zarith, ocaml-zed, ocaml-zip, ocaml-zmq, ocamlify, ocamlmod, opam, perl-DBI, planets, plplot, prooftree, python3.12, rocq, rocq-stdlib, supermin, unison, utop, virt-top, virt-v2v, why3, xen, z3, and zenon), <b>Oracle</b> (bind, expat, gawk, gdb, ghostscript, gimp, gvfs, kernel, libpcap, libvirt, mod_auth_openidc, openssh, rsync, thunderbird, and webkit2gtk3), <b>Red Hat</b> (vim), <b>Slackware</b> (cups), <b>SUSE</b> (apache-sshd, binutils, cups, docker-stable, java-11-openjdk, libraw-devel, libX11, pcre2, perl-DBI, python-msgpack, python312, python313-tokenizers, rpcbind, rpm, rubygem-rails-html-sanitizer, squid, sssd, terraform-provider-susepubliccloud, valkey, and wpa_supplicant), and <b>Ubuntu</b> (aodh, watcher, edk2, libreoffice, libxmltok, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-azure, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle, linux-realtime, linux-xilinx-zynqmp, linux-azure-5.4, linux-azure-fde, linux-gcp, linux-gcp-fips, linux-gcp-5.15, linux-oracle-5.15, linux-raspi, rabbitmq-server, and unbound).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1098610/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 05 Oct 2026 15:11:11 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -242,44 +297,6 @@ kernel's security team is handling this deluge.  His core message was
 include support for <tt>extern "C"</tt> variadic functions, the
 establishment of functions for obtaining the size and alignment of raw
 pointers, a number of stabilized APIs, and more.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098067/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 01 Oct 2026 13:12:52 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098067/" title="https://lwn.net/Articles/1098067/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (corosync, gawk, gdb, nodejs24, and thunderbird), <b>Debian</b> (expat, firefox-esr, libsmpp34, mkvtoolnix, network-manager-l2tp, pgextwlist, python-django, ruby-oj, and tor), <b>Fedora</b> (apptainer, ckermit, ffmpeg, freerdp, librabbitmq, openbao, php, python-cssselect2, python-uv-build, ruff, rust-libcst, rust-libcst_derive, rust-salsa, rust-salsa-macro-rules, rust-salsa-macros, sos, ty, uv, weasyprint, and xdg-dbus-proxy), <b>Mageia</b> (python-pillow), <b>Red Hat</b> (acl, glib2, go-toolset:rhel8, golang, libxml2, mingw-sqlite, nodejs-nodemon, nodejs22, nodejs24, nodejs:22, nodejs:24, sqlite, tesseract, and vim), <b>Slackware</b> (libpng and mozilla-thunderbird), <b>SUSE</b> (alloy, chromedriver, emacs, gdb, gimp, gpsd, jawn, libpoppler-cpp3, libtesseract5, multipath-tools, netty, ntfs-3g_ntfsprogs, pcapplusplus-devel, pi-coding-agent, python-PyYAML, python-tornado, python-tornado6, python311, python313, and wicked2nm), and <b>Ubuntu</b> (designate, gst-plugins-bad1.0, gvfs, imagemagick, kdenlive, mlt, keystone, libauthen-sasl-perl, linux-aws, linux-aws-6.8, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-oracle-7.0, opensbi, openvpn, and python-django).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1096293/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 01 Oct 2026 00:30:07 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1096293/" title="https://lwn.net/Articles/1096293/">[$] LWN.net Weekly Edition for October 1, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1096293/">Front</a>: PostgreSQL and the kernel; Rust on the GPU; KDE Plasma; C and memory safety; Rust radio; KDE funding; Chromium development.
-            <li> <a href="https://lwn.net/Articles/1096295/">Briefs</a>: File-notification attacks; Kernel report; TAB election; F-Droid 2.0; Firefox 157.0; GDB 18.1; Git v2.56.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1096296/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1096518/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 30 Sep 2026 15:31:42 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1096518/" title="https://lwn.net/Articles/1096518/">[$] The year in Plasma and what's ahead</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>A lot has happened in the <a href="https://kde.org/plasma-desktop/">KDE
-Plasma desktop environment</a> in the last year. Marco Martin, a KDE contributor
-who spends most of his time working on Plasma, took the stage at <a
-href="https://akademy.kde.org/2026/">Akademy 2026</a> in Graz, Austria to give
-an update on Plasma's major new features, some of the minor-but-interesting
-ones, and a preview of what's coming soon. The biggest upcoming change, dropping
-X11 support from Plasma, has been well-advertised; but there are also plans
-afoot to further improve remote-desktop support and more.</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
