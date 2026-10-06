@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1097468/" title="See Description">[$] Python's two modules for random numbers</a></li>
 <li><a href="#https://lwn.net/Articles/1097760/" title="See Description">[$] Last rites for Gentoo's Chromium package</a></li>
 <li><a href="#https://lwn.net/Articles/1098980/" title="See Description">OpenSSH 10.6 released</a></li>
 <li><a href="#https://lwn.net/Articles/1098979/" title="See Description">Security updates for Tuesday</a></li>
@@ -52,10 +53,26 @@
 <li><a href="#https://lwn.net/Articles/1098313/" title="See Description">Linux Test Project suite stable release for September 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1098312/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1096908/" title="See Description">[$] Coping with the onslaught of kernel security bugs</a></li>
-<li><a href="#https://lwn.net/Articles/1098068/" title="See Description">Rust 1.99.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1097468/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 06 Oct 2026 15:02:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1097468/" title="https://lwn.net/Articles/1097468/">[$] Python's two modules for random numbers</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Python's <a
+href="https://docs.python.org/3/library/random.html"><tt>random</tt></a>
+and <a
+href="https://docs.python.org/3/library/secrets.html"><tt>secrets</tt></a>
+modules both include utilities for obtaining random values, but only one of them is suitable for generating passwords and security tokens.
+For much of Python's history, <tt>random</tt> was used for passwords and tokens anyway, despite documentation that called it unsuitable for cryptography.
+In 2015, Python's core team debated whether to fix that misuse by making <tt>random</tt> secure by default.
+Instead, in 2016, Python 3.6 added a second module: <tt>secrets</tt>.  The
+<tt>random</tt> module is still misused at times, so it is instructive
+to look into how the random-number modules should be used.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1097760/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 06 Oct 2026 13:44:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -286,17 +303,6 @@ Recipes</a>, Greg Kroah-Hartman took the stage to talk about how the
 kernel's security team is handling this deluge.  His core message was
 "<q>don't panic</q>".
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098068/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 01 Oct 2026 13:25:17 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098068/" title="https://lwn.net/Articles/1098068/">Rust 1.99.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/">Version
-1.99.0</a> of the Rust language has been released.  Changes this time
-include support for <tt>extern "C"</tt> variadic functions, the
-establishment of functions for obtaining the size and alignment of raw
-pointers, a number of stabilized APIs, and more.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
