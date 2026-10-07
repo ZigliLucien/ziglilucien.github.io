@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1097209/" title="See Description">[$] Evolving the LAVD scheduler from gaming to servers</a></li>
+<li><a href="#https://lwn.net/Articles/1099206/" title="See Description">A new Raspberry Pi Desktop release is finally available for x86-64</a></li>
+<li><a href="#https://lwn.net/Articles/1099202/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1097468/" title="See Description">[$] Python's two modules for random numbers</a></li>
 <li><a href="#https://lwn.net/Articles/1097760/" title="See Description">[$] Last rites for Gentoo's Chromium package</a></li>
 <li><a href="#https://lwn.net/Articles/1098980/" title="See Description">OpenSSH 10.6 released</a></li>
@@ -50,12 +53,68 @@
 <li><a href="#https://lwn.net/Articles/1098412/" title="See Description">Zig 0.17 released</a></li>
 <li><a href="#https://lwn.net/Articles/1098404/" title="See Description">Seven stable kernels for Saturday</a></li>
 <li><a href="#https://lwn.net/Articles/1096028/" title="See Description">[$] Beyond the &</a></li>
-<li><a href="#https://lwn.net/Articles/1098313/" title="See Description">Linux Test Project suite stable release for September 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1098312/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1096908/" title="See Description">[$] Coping with the onslaught of kernel security bugs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1097209/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 07 Oct 2026 13:33:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1097209/" title="https://lwn.net/Articles/1097209/">[$] Evolving the LAVD scheduler from gaming to servers</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/922405/">extensible scheduler class</a>, which
+enables the creation of custom CPU schedulers with BPF, has led to a burst
+of innovation in this area; <a
+href="https://github.com/sched-ext/scx/tree/main/scheds/rust/scx_lavd#scx_lavd">the
+LAVD scheduler</a> has, perhaps, been one of the most noteworthy schedulers
+to emerge.  Though it was originally <a href="https://lwn.net/Articles/1051430/">designed
+for gaming applications</a>, the LAVD scheduler has since grown to serve
+other types of workloads as well.  At the 2026 edition of <a
+href="https://kernel-recipes.org/en/2026/">Kernel Recipes</a>, Changwoo Min
+and Gavin Guo presented an overview of this scheduler and how it has
+evolved over time.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1099206/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 07 Oct 2026 13:26:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099206/" title="https://lwn.net/Articles/1099206/">A new Raspberry Pi Desktop release is finally available for x86-64</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Simon Long has <a
+href="https://www.raspberrypi.com/news/raspberry-pi-desktop-now-available-for-pc-and-mac/">announced</a>
+a long-awaited release of Raspberry Pi OS, based on <a
+href="https://www.debian.org/releases/trixie/">Debian&#160;13 ("trixie")</a>,
+for x86-64 systems.</p>
+
+<blockquote class="bq">
+<p>We managed to find the time to update the Desktop for the Buster and Bullseye
+releases of Debian, but then we all just got too busy with other things, and,
+while we left the Bullseye version on the website for anyone who wanted it, we
+simply didn't have time to release any newer versions. But people kept on asking
+for it – we get two or three emails every week asking when the PC Desktop will
+be updated, and we haven't had an answer, because we honestly didn't know when
+we might get a chance to do it. We've continually tried to allocate time to be
+able to work on this, but it hasn't been easy. [...]</p>
+
+<p>Earlier this year, we (or rather Serge) finally got the latest version of the
+Desktop running on top of a Debian Trixie image. It's now based on 64-bit Debian
+(the amd64 architecture) rather than the older 32-bit version, as Debian itself
+has stopped supporting 32-bit for PC architectures. This shouldn't be a major
+problem – most PCs made in the last 15 years or so will quite happily run the
+64-bit version of Debian, as will most Intel-based Macs. (Debian support for
+Apple Silicon is still experimental, so unfortunately those of you with the
+latest and greatest shiny fruit products will not be able to run this.)</p>
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1099202/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 07 Oct 2026 13:08:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099202/" title="https://lwn.net/Articles/1099202/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, dovecot, freerdp, kernel, mariadb-connector-c, mod_auth_openidc, nodejs22, nodejs:22, sudo, and vim), <b>Debian</b> (node-shell-quote, puma, rails, ruby-jwt, and suricata-update), <b>Fedora</b> (chromium, cockpit, flocq, freerdp, gappalib-coq, golang-x-mod, httpd, janus, libical, musescore, python3-docs, python3.14, python3.15, rocq, rocq-stdlib, tesseract, why3, and zenon), <b>Mageia</b> (srt and tor), <b>Oracle</b> (freerdp, kernel, libpcap, mariadb-connector-c, nodejs22, sudo, and vim), <b>Red Hat</b> (expat and grafana), <b>Slackware</b> (openssh), <b>SUSE</b> (chromium, docker-stable, firefox, jupyter-jupyterlab, libtcnative-1-0, tomcat, tomcat10, libtcnative-1-0, tomcat11, openexr, python310, python313-azure-storage-queue, python313-langchain-anthropic, python313-sglang, python313-Werkzeug, and valkey), and <b>Ubuntu</b> (fluidsynth, freerdp3, freetype, golang-1.18, golang-1.21, golang-1.24, gst-plugins-good1.0, libsoup2.4, libsoup3, libwebsockets, linux, linux-aws, linux-gcp, linux-gke, linux-ibm, linux-oracle, linux-realtime, linux-azure, linux-azure-fde, linux-nvidia-tegra, linux-oem-7.0, redis, sg3-utils, tesseract, and u-boot).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1097468/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 06 Oct 2026 15:02:09 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -263,45 +322,6 @@ language team</a>, spoke at
 RustConf 2026</a> about the lengthy effort to change that, and make smart pointers
 just as flexible as built-in references.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098313/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 02 Oct 2026 13:40:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098313/" title="https://lwn.net/Articles/1098313/">Linux Test Project suite stable release for September 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a
-href="https://github.com/linux-test-project/ltp#linux-test-project">Linux Test
-Project</a> has <a
-href="https://lwn.net/ml/all/ar4TexudzfhsKBwT%40yuki.lan/">announced</a> its
-latest stable release for September&#160;2026. There have been&#160;382 patches
-from&#160;41 authors since the <a
-href="https://lwn.net/ml/all/ahmZ_HcEEuyPzPFq%40yuki.lan/">May&#160;2026
-release</a>. See the announcement for a list of new tests, changes, and
-more.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098312/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 02 Oct 2026 13:21:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098312/" title="https://lwn.net/Articles/1098312/">Security updates for Friday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (dogtag-pki, expat, freerdp, gawk, gdb, ghostscript, gvfs, kernel, kernel-rt, libpcap, openssh, pki-core, rsync, thunderbird, and webkit2gtk3), <b>Debian</b> (chromium, firefox-esr, libio-compress-perl, libpng1.6, nodejs, open-iscsi, redis, thunderbird, and webkit2gtk), <b>Fedora</b> (sos), <b>Mageia</b> (libgcrypt, python-tornado, python-urwid, python-wcwidth, and wireshark), <b>Oracle</b> (corosync, dogtag-pki, expat, firefox, freerdp, gawk, glib2, ipa, kernel, libXfont2, nodejs:24, openssh, osbuild-composer, perl-DBI, pki-core, postgresql:12, python-cryptography, resteasy, ruby, ruby4.0, ruby:3.3, ruby:4.0, thunderbird, and xmlrpc-c), <b>Red Hat</b> (skopeo), <b>SUSE</b> (chromium, emacs, glib2, glibc, gnome-shell, helm3, ImageMagick, imagemagick, kernel-devel, libtcnative-1-0, libtcnative-1-0, libtcnative-2-0, tomcat, tomcat10,, libtcnative-2-0, libX11, libX11-6, libXi-devel, libXpm-devel, libXtst-devel, mistral-vibe, openssl-3, perl-DBI, perl-Protocol-HTTP2, php-composer2, php8, python, rpcbind, sccache, and valkey), and <b>Ubuntu</b> (kf6-kcoreaddons, libxpm, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux-fips, linux-gke, linux-raspi-5.4, and openssl).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1096908/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 01 Oct 2026 15:03:25 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1096908/" title="https://lwn.net/Articles/1096908/">[$] Coping with the onslaught of kernel security bugs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>By now it is no secret that large language models (LLMs) have made it easy
-for people to identify security bugs, and that has resulted in a flood of
-bug reports to almost every free-software project, including the kernel.
-At the 2026 edition of <a href="https://kernel-recipes.org/en/2026/">Kernel
-Recipes</a>, Greg Kroah-Hartman took the stage to talk about how the
-kernel's security team is handling this deluge.  His core message was
-"<q>don't panic</q>".
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
