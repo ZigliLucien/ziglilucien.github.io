@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1098399/" title="See Description">[$] The [vx]swap showdown</a></li>
+<li><a href="#https://lwn.net/Articles/1099388/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1097859/" title="See Description">[$] LWN.net Weekly Edition for October 8, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1097198/" title="See Description">[$] Analyzing Rust programs with Charon</a></li>
 <li><a href="#https://lwn.net/Articles/1097209/" title="See Description">[$] Evolving the LAVD scheduler from gaming to servers</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1096963/" title="See Description">[$] An update on the Sashiko patch-review system</a></li>
 <li><a href="#https://lwn.net/Articles/1098600/" title="See Description">Picard 3.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1098599/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1098476/" title="See Description">Kernel prepatch 7.3-rc6</a></li>
-<li><a href="#https://lwn.net/Articles/1098412/" title="See Description">Zig 0.17 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1098399/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 08 Oct 2026 13:43:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098399/" title="https://lwn.net/Articles/1098399/">[$] The [vx]swap showdown</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The kernel's swap layer has undergone <a href="https://lwn.net/Articles/1057102/">some
+significant changes</a> over the course of the last year and a number of
+longstanding problems have been addressed.  One problem that has <i>not</i>
+yet been solved in the mainline is the direct tie between slots in the swap
+cache and space in persistent swap files, which can cause highly
+inefficient resource use.  There are two competing solutions for this
+problem, neither of which has, as yet, reached readiness for merging; a
+lengthy discussion on possible paths forward shows ongoing disagreement
+over the best path forward.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1099388/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 08 Oct 2026 13:11:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099388/" title="https://lwn.net/Articles/1099388/">Security updates for Thursday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, firefox, freerdp, ghostscript, glibc, kernel, kernel-rt, perl-DBI, python3.12, rust-rpm-sequoia, rust-sequoia-sq, rust-sequoia-sqv, and vim), <b>Debian</b> (gst-plugins-base1.0, python3.11, and xz-utils), <b>Fedora</b> (7zip, chromium, curl, docker-buildx, kernel, Lmod, and sos), <b>Mageia</b> (tesseract), <b>Oracle</b> (dovecot, firefox, freerdp, gd, ghostscript, kernel, librabbitmq, perl-DBI, python3.12, rust-rpm-sequoia, rust-sequoia-sqv, sg3_utils, vim, and virtuoso-opensource), <b>Slackware</b> (xorg-server), <b>SUSE</b> (aliyun-cli, busybox, cadvisor, chromedriver, chromium, crane, distribution-registry, fetchmail, fio, ghostscript, golang-github-prometheus-alertmanager, google-osconfig-agent, govulncheck-vulndb, libsoup, libXtst, openexr, prometheus-blackbox_exporter, python-fsspec, rpcbind, rsyslog, rustup, wireshark, wpa_supplicant, and zcode), and <b>Ubuntu</b> (erlang, golang-golang-x-net, gst-plugins-ugly1.0, lxml, poppler, and sudo).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1097859/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 08 Oct 2026 00:22:31 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -275,52 +299,6 @@ April.</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (ghostscript, libvirt, and osbuild-composer), <b>Debian</b> (freecad, linux-6.12, node-lodash, pcre2, perl, php8.2, ruby-rack-session, wireshark, and xen), <b>Fedora</b> (assimp, budgie-control-center, budgie-desktop, budgie-desktop-services, budgie-desktop-view, chromium, cri-o1.36, curl, flatpak, lemonldap-ng, libX11, nagios-plugins, nanosvg, noctalia, openssl, pgbouncer, pocillo-gtk-theme, prometheus, python-streamlink, python-urllib3, python-uv-build, python3.12, ruff, rust-libcst, rust-libcst_derive, rust-salsa, rust-salsa-macro-rules, rust-salsa-macros, ty, and uv), <b>Red Hat</b> (rhc-worker-script), <b>SUSE</b> (amazon-ecs-init, binaryen-133, bind, chromium, distribution, firefox, firefox-esr, glib2, gnumeric, helm, jline3, kubevirt-1.6, libparted-fs-resize0, libslirp-devel, libtcnative-1-0, libtcnative-2-0, tomcat, tomcat10, tomcat11, libwireshark19, openai-codex, python313-litellm, rpcbind, rustup, sccache, suseconnect-ng, valkey, wget, and xdg-dbus-proxy), and <b>Ubuntu</b> (ceph).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098476/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 05 Oct 2026 05:47:41 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098476/" title="https://lwn.net/Articles/1098476/">Kernel prepatch 7.3-rc6</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1098475/">7.3-rc6</a> kernel prepatch is out for
-testing.  Linus said:
-<p>
-<blockquote class="bq">
-	Next week might look a bit different: we've got the annual
-	maintainer summit and the Linux plumbers conference going on , so
-	I'll be on the road, as will a number of other maintainers. That
-	may or may not end up changing the stats for -rc7. But it's
-	unlikely to affect the release schedule, although the fact that I
-	have my yearly family vacation the week after that might make the
-	next merge window a bit wonky.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098412/"></a></td></tr>
-<tr><td><div class="date"><tt>Sat, 03 Oct 2026 11:31:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098412/" title="https://lwn.net/Articles/1098412/">Zig 0.17 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://ziglang.org/download/0.17.0/release-notes.html">Version
-0.17</a> of the Zig programming language has been released.</p>
-
-<blockquote class="bq">
-<p>This release features <strong>5 months of work</strong>: changes from
-<strong>206 different contributors</strong>, spread among <strong>925
-commits</strong>.</p>
-
-<p>Originally predicted to be shorter, this release cycle ended up [being]
-substantial, with the <a
-href="https://ziglang.org/download/0.17.0/release-notes.html#Build-System">Build
-System</a> reworked, including the introduction of the <a
-href="https://ziglang.org/download/0.17.0/release-notes.html#Build-Server-Protocol">Build
-Server Protocol</a>, and the <a
-href="https://ziglang.org/download/0.17.0/release-notes.html#ELF">ELF Linker</a>
-enhanced to the point where we expect <a
-href="https://ziglang.org/download/0.17.0/release-notes.html#Incremental-Compilation">Incremental
-Compilation</a> to work for everyone on x86_64-linux.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1046084/">last covered</a> Zig in
-December 2025.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
