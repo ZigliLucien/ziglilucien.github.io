@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1098670/" title="See Description">[$] Adding kernel control-flow-integrity checking to GCC</a></li>
+<li><a href="#https://lwn.net/Articles/1099024/" title="See Description">[$] The state of systemd: 2026 edition</a></li>
 <li><a href="#https://lwn.net/Articles/1099588/" title="See Description">Let's Encrypt moving to 64-day certificate lifetimes in 2027</a></li>
 <li><a href="#https://lwn.net/Articles/1099587/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1098617/" title="See Description">[$] An update on Rust's project goals</a></li>
@@ -51,11 +53,38 @@
 <li><a href="#https://lwn.net/Articles/1097468/" title="See Description">[$] Python's two modules for random numbers</a></li>
 <li><a href="#https://lwn.net/Articles/1097760/" title="See Description">[$] Last rites for Gentoo's Chromium package</a></li>
 <li><a href="#https://lwn.net/Articles/1098980/" title="See Description">OpenSSH 10.6 released</a></li>
-<li><a href="#https://lwn.net/Articles/1098979/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1098610/" title="See Description">RustConf recordings</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1098670/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 09 Oct 2026 17:06:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098670/" title="https://lwn.net/Articles/1098670/">[$] Adding kernel control-flow-integrity checking to GCC</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>While many developers are struggling to keep up with the flood of
+vulnerability reports, others are still focused on preventing those reports
+from happening in the first place.  Control-flow integrity (CFI) is the
+term for preventing (or at least detecting) exploits that divert the flow
+of control from its intended paths.  At the 2026 <a
+href="https://gnu-tools-cauldron.org/">GNU Tools Cauldron</a>, Kees Cook
+presented his changes to the GCC compiler suite to support forward-edge CFI
+for the kernel.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1099024/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 09 Oct 2026 14:58:15 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099024/" title="https://lwn.net/Articles/1099024/">[$] The state of systemd: 2026 edition</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>At the 2026 <a href="https://all-systems-go.io/">All Systems Go!</a>
+conference, systemd maintainers Luca Boccassi and Zbigniew Jędrzejewski-Szmek
+delivered the traditional "state of the project" session with an overview of the
+systemd project's accomplishments in the past year. That was followed by a
+maintainer round table where Boccassi, Jędrzejewski-Szmek, Daan De&#160;Meyer, and
+project leader Lennart Poettering fielded questions about systemd's size,
+health, and if it might replace Kubernetes. (It will not.)</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1099588/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 09 Oct 2026 14:02:44 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -291,29 +320,6 @@ risks; the option will be ignored in the future. See the announcement for full
 details of all changes and bug fixes.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098979/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 06 Oct 2026 13:12:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098979/" title="https://lwn.net/Articles/1098979/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (gd, gimp, kernel, kernel-rt, libpcap, librabbitmq, mariadb-connector-c, osbuild-composer, ruby:2.5, and sudo), <b>Debian</b> (libmodule-cpants-analyse-perl, libpng1.6, libreoffice, roundcube, ruby-oauth2, and sabnzbdplus), <b>Fedora</b> (0install, alt-ergo, apron, brltty, chromium, coccinelle, cri-o1.36, emacs-common-tuareg, flocq, frama-c, freetennis, gappalib-coq, guestfs-tools, haxe, hevea, hivex, kernel, lem, libguestfs, libnbd, nbdkit, not-ocamlfind, ocaml, ocaml-afl-persistent, ocaml-alcotest, ocaml-astring, ocaml-atd, ocaml-augeas, ocaml-b0, ocaml-base, ocaml-base64, ocaml-benchmark, ocaml-bin-prot, ocaml-biniou, ocaml-bisect-ppx, ocaml-bos, ocaml-cairo, ocaml-calendar, ocaml-camlbz2, ocaml-camlidl, ocaml-camlimages, ocaml-camlp-streams, ocaml-camlp5, ocaml-camlp5-buildscripts, ocaml-camlpdf, ocaml-camomile, ocaml-capitalization, ocaml-cinaps, ocaml-cmdliner, ocaml-compiler-libs-janestreet, ocaml-cpdf, ocaml-cppo, ocaml-crowbar, ocaml-cryptokit, ocaml-csexp, ocaml-csv, ocaml-ctypes, ocaml-cudf, ocaml-curl, ocaml-curses, ocaml-dbus, ocaml-domain-name, ocaml-dose3, ocaml-dune, ocaml-easy-format, ocaml-expat, ocaml-extlib, ocaml-facile, ocaml-fieldslib, ocaml-fileutils, ocaml-findlib, ocaml-fmt, ocaml-fpath, ocaml-gen, ocaml-gettext, ocaml-graphics, ocaml-gsl, ocaml-integers, ocaml-intrinsics-kernel, ocaml-jane-street-headers, ocaml-jsonm, ocaml-jst-config, ocaml-lablgl, ocaml-lablgtk, ocaml-lablgtk3, ocaml-labltk, ocaml-lacaml, ocaml-lambda-term, ocaml-libvirt, ocaml-linenoise, ocaml-logs, ocaml-luv, ocaml-lwt, ocaml-mccs, ocaml-mdx, ocaml-menhir, ocaml-merlin, ocaml-mew, ocaml-mew-vi, ocaml-mlgmpidl, ocaml-mlmpfr, ocaml-monolith, ocaml-mtime, ocaml-mysql, ocaml-num, ocaml-obuild, ocaml-ocamlbuild, ocaml-ocamlgraph, ocaml-ocamlnet, ocaml-ocp-indent, ocaml-ocplib-endian, ocaml-ocplib-simplex, ocaml-omake, ocaml-omd, ocaml-opam-0install-cudf, ocaml-opam-file-format, ocaml-ounit, ocaml-parmap, ocaml-parsexp, ocaml-patch, ocaml-pcre2, ocaml-perl4caml, ocaml-postgresql, ocaml-pp, ocaml-pprint, ocaml-ppx-assert, ocaml-ppx-base, ocaml-ppx-bench, ocaml-ppx-bin-prot, ocaml-ppx-cold, ocaml-ppx-compare, ocaml-ppx-custom-printf, ocaml-ppx-derivers, ocaml-ppx-deriving, ocaml-ppx-deriving-yaml, ocaml-ppx-deriving-yojson, ocaml-ppx-enumerate, ocaml-ppx-expect, ocaml-ppx-fields-conv, ocaml-ppx-globalize, ocaml-ppx-hash, ocaml-ppx-here, ocaml-ppx-inline-test, ocaml-ppx-let, ocaml-ppx-optcomp, ocaml-ppx-sexp-conv, ocaml-ppx-stable-witness, ocaml-ppx-variants-conv, ocaml-ppxlib, ocaml-ppxlib-jane, ocaml-psmt2-frontend, ocaml-ptmap, ocaml-pyml, ocaml-qcheck, ocaml-qtest, ocaml-re, ocaml-react, ocaml-res, ocaml-result, ocaml-rresult, ocaml-SDL, ocaml-sedlex, ocaml-sexplib, ocaml-sexplib0, ocaml-sha, ocaml-spdx-licenses, ocaml-sqlite, ocaml-ssl, ocaml-stdcompat, ocaml-stdio, ocaml-stdlib-random, ocaml-store, ocaml-swhid-core, ocaml-testo, ocaml-time-now, ocaml-topkg, ocaml-trie, ocaml-unionfind, ocaml-uucd, ocaml-uucp, ocaml-uunf, ocaml-uuseg, ocaml-uutf, ocaml-variantslib, ocaml-version, ocaml-xml-light, ocaml-xmlm, ocaml-xmlrpc-light, ocaml-yaml, ocaml-yamlx, ocaml-yojson, ocaml-zarith, ocaml-zed, ocaml-zip, ocaml-zmq, ocamlify, ocamlmod, opam, perl-DBI, planets, plplot, prooftree, python3.12, rocq, rocq-stdlib, supermin, unison, utop, virt-top, virt-v2v, why3, xen, z3, and zenon), <b>Oracle</b> (bind, expat, gawk, gdb, ghostscript, gimp, gvfs, kernel, libpcap, libvirt, mod_auth_openidc, openssh, rsync, thunderbird, and webkit2gtk3), <b>Red Hat</b> (vim), <b>Slackware</b> (cups), <b>SUSE</b> (apache-sshd, binutils, cups, docker-stable, java-11-openjdk, libraw-devel, libX11, pcre2, perl-DBI, python-msgpack, python312, python313-tokenizers, rpcbind, rpm, rubygem-rails-html-sanitizer, squid, sssd, terraform-provider-susepubliccloud, valkey, and wpa_supplicant), and <b>Ubuntu</b> (aodh, watcher, edk2, libreoffice, libxmltok, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-azure, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle, linux-realtime, linux-xilinx-zynqmp, linux-azure-5.4, linux-azure-fde, linux-gcp, linux-gcp-fips, linux-gcp-5.15, linux-oracle-5.15, linux-raspi, rabbitmq-server, and unbound).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098610/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 05 Oct 2026 15:11:11 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098610/" title="https://lwn.net/Articles/1098610/">RustConf recordings</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The Rust Foundation has posted the
-<a href="https://youtube.com/playlist?list=PLCIkLZab-UIM&si=3D0SOWZ4GWCtD5GC">recordings</a> from
-<a href="https://rustconf.com/">RustConf 2026</a> in Montreal, Canada.
-<a href="https://www.flickr.com/photos/rustfoundation/collections/72157725686653391/">
-Photos</a> of the event are also available. LWN covered
-<a href="https://lwn.net/Archives/ConferenceIndex/#RustConf-2026">
-four talks from RustConf</a> this year.
-</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
