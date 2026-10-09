@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1099602/" title="See Description">Python 3.15 released</a></li>
 <li><a href="#https://lwn.net/Articles/1098670/" title="See Description">[$] Adding kernel control-flow-integrity checking to GCC</a></li>
 <li><a href="#https://lwn.net/Articles/1099024/" title="See Description">[$] The state of systemd: 2026 edition</a></li>
 <li><a href="#https://lwn.net/Articles/1099588/" title="See Description">Let's Encrypt moving to 64-day certificate lifetimes in 2027</a></li>
@@ -52,10 +53,31 @@
 <li><a href="#https://lwn.net/Articles/1099202/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1097468/" title="See Description">[$] Python's two modules for random numbers</a></li>
 <li><a href="#https://lwn.net/Articles/1097760/" title="See Description">[$] Last rites for Gentoo's Chromium package</a></li>
-<li><a href="#https://lwn.net/Articles/1098980/" title="See Description">OpenSSH 10.6 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1099602/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 09 Oct 2026 17:15:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099602/" title="https://lwn.net/Articles/1099602/">Python 3.15 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.python.org/downloads/release/python-3150/">Version
+3.15</a> of the Python programming language has been released. Notable changes
+in this release include the addition of the <tt>sentinel</tt> and <a
+href="https://lwn.net/Articles/1047238/"><tt>frozendict</tt></a> built-in types,
+the use of UTF-8 encoding by default, <a
+href="https://docs.python.org/3.15/library/site.html#site-start-files">package
+start-up configuration files</a>, as well as improvements in the <a
+href="https://docs.python.org/3/whatsnew/3.15.html#whatsnew315-jit">experimental
+JIT compiler</a>. See the "<a
+href="https://docs.python.org/3/whatsnew/3.15.html">What's new in Python
+3.15</a>" article for an in-depth look at new features in this release, and the
+<a
+href="https://docs.python.org/3/whatsnew/changelog.html#changelog">changelog</a>
+for a full list of changes.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1098670/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 09 Oct 2026 17:06:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -289,37 +311,6 @@ complaints, has led the maintainers of the <a
 href="https://packages.gentoo.org/packages/www-client/chromium">Gentoo Chromium
 package</a> to give up on trying to maintain the package.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098980/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 06 Oct 2026 13:42:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098980/" title="https://lwn.net/Articles/1098980/">OpenSSH 10.6 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><a href="https://www.openssh.org/txt/release-10.6">Version 10.6</a> of OpenSSH
-has been released. The announcement notes that the OpenSSH team has been
-receiving a large number of AI-assisted security bug reports. "<q>We very much
-welcome these reports, especially when combined with human triage, analysis,
-test-cases and particularly when accompanied by proposed fixes</q>". As a
-result, the project expects to be making more frequent releases to get updates
-to users more quickly rather than batching the bug fixes until the next planned
-release.</p>
-
-<p>Notable changes in this release include enabling the hybrid post-quantum
-ssh-mldsa44-ed25519 signature algorithm, addition of a <tt>-p</tt> option for <a
-href="https://man.openbsd.org/sftp"><tt>sftp</tt></a>'s <a
-href="https://man.openbsd.org/sftp#lmkdir"><tt>lmkdir</tt></a>/<a
-href="https://man.openbsd.org/sftp#mkdir"><tt>mkdir</tt></a> commands, as well
-as disabling the LZ77 dictionary coder in <a
-href="https://man.openbsd.org/ssh"><tt>ssh</tt></a> and <a
-href="https://man.openbsd.org/sshd"><tt>sshd</tt></a> to mitigate side-channel
-leaks (which will result in reduced effectiveness of the Compression
-option). The <a
-href="https://man.openbsd.org/scp#R"><tt>scp&#160;-R</tt></a> option, which
-allows copies between two remote hosts, is being deprecated due to security
-risks; the option will be ignored in the future. See the announcement for full
-details of all changes and bug fixes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
