@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Cloudy. High near 73, with temperatures falling to around 71 in the afternoon. East northeast wind 2 to 7 mph.<br></div>
+         <h3>This Afternoon</h3>Cloudy. High near 73, with temperatures falling to around 71 in the afternoon. East wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -19,45 +19,47 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Columbus Day</h3>Sunny, with a high near 89. Southwest wind 5 to 12 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Columbus Day</h3>Sunny, with a high near 90. Southwest wind 5 to 12 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Clear, with a low around 66. South southwest wind around 9 mph.<br></div>
+         <h3>Monday Night</h3>Clear, with a low around 67. South southwest wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Sunny, with a high near 89. Southwest wind around 8 mph.<br></div>
+         <h3>Tuesday</h3>Sunny, with a high near 91. Southwest wind 7 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A slight chance of rain showers after 1am. Mostly clear, with a low around 66. South southwest wind around 6 mph.<br></div>
+         <h3>Tuesday Night</h3>Mostly clear, with a low around 70. Southwest wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A slight chance of rain showers before 7am, then a chance of showers and thunderstorms. Mostly sunny, with a high near 81.
-         Southeast wind around 8 mph.<br></div>
+         <h3>Wednesday</h3>A chance of rain showers between 7am and 1pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 86.
+         West wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms. Partly cloudy, with a low around
-         61. East southeast wind around 7 mph.<br></div>
+         <h3>Wednesday Night</h3>A chance of showers and thunderstorms before 7pm, then a chance of showers and thunderstorms between 7pm and 1am, then a chance
+         of showers and thunderstorms. Mostly cloudy, with a low around 66. East wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>A chance of rain showers before 1pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 79. South
-         wind 7 to 10 mph.<br></div>
+         <h3>Thursday</h3>A chance of showers and thunderstorms before 1pm, then a chance of showers and thunderstorms. Mostly cloudy, with a high near
+         80. South southeast wind 7 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>A chance of showers and thunderstorms. Mostly cloudy, with a low around 55. West southwest wind 5 to 8 mph.<br></div>
+         <h3>Thursday Night</h3>A chance of showers and thunderstorms before 1am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around
+         58. Southwest wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>A slight chance of rain showers. Partly sunny, with a high near 71. Northwest wind 7 to 13 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Friday</h3>A chance of showers and thunderstorms before 1pm. Mostly sunny, with a high near 72. Northwest wind 7 to 14 mph, with gusts
+         as high as 20 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday Night</h3>A slight chance of rain showers before 7pm. Partly cloudy, with a low around 46. North northwest wind 7 to 12 mph.<br></div>
+         <h3>Friday Night</h3>Partly cloudy, with a low around 47. North northwest wind 9 to 13 mph, with gusts as high as 18 mph.<br></div>
    </p>
 </div>
