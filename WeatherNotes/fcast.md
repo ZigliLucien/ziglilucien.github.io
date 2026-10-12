@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Columbus Day</h3>Sunny. High near 90, with temperatures falling to around 87 in the afternoon. Southwest wind 9 to 13 mph, with gusts as high
-         as 18 mph.<br></div>
+         <h3>Columbus Day</h3>Sunny. High near 90, with temperatures falling to around 87 in the afternoon. Southwest wind around 13 mph, with gusts as
+         high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
