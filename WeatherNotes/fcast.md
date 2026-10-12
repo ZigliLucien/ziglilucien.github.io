@@ -2,11 +2,6 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Columbus Day</h3>Sunny. High near 90, with temperatures falling to around 87 in the afternoon. Southwest wind around 13 mph, with gusts as
-         high as 18 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Tonight</h3>Clear. Low around 65, with temperatures rising to around 68 overnight. South southwest wind 6 to 9 mph.<br></div>
    </p>
    <p>
@@ -15,8 +10,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of rain showers between 1am and 2am, then a chance of showers and thunderstorms. Mostly clear, with a low around
-         73. South southwest wind around 7 mph. Chance of precipitation is 30%.<br></div>
+         <h3>Tuesday Night</h3>A chance of rain showers between 1am and 2am, then a chance of showers and thunderstorms. Mostly clear. Low around 73, with
+         temperatures rising to around 75 overnight. South southwest wind around 7 mph. Chance of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -28,7 +23,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Showers and thunderstorms likely. Partly sunny, with a high near 85. South wind 1 to 8 mph.<br></div>
+         <h3>Thursday</h3>Showers and thunderstorms likely. Partly sunny, with a high near 85. South wind 1 to 8 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -59,5 +54,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday Night</h3>Mostly clear, with a low around 47. South southeast wind around 3 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday</h3>Mostly sunny, with a high near 73. South wind 3 to 7 mph.<br></div>
    </p>
 </div>
