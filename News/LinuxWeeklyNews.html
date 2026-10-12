@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1099798/" title="See Description">Kernel prepatch 7.3-rc7</a></li>
 <li><a href="#https://lwn.net/Articles/1099764/" title="See Description">Stable kernels 7.2.10 and 6.18.56</a></li>
 <li><a href="#https://lwn.net/Articles/1099602/" title="See Description">Python 3.15 released</a></li>
 <li><a href="#https://lwn.net/Articles/1098670/" title="See Description">[$] Adding kernel control-flow-integrity checking to GCC</a></li>
@@ -52,10 +53,26 @@
 <li><a href="#https://lwn.net/Articles/1097209/" title="See Description">[$] Evolving the LAVD scheduler from gaming to servers</a></li>
 <li><a href="#https://lwn.net/Articles/1099206/" title="See Description">A new Raspberry Pi Desktop release is finally available for x86-64</a></li>
 <li><a href="#https://lwn.net/Articles/1099202/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1097468/" title="See Description">[$] Python's two modules for random numbers</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1099798/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 12 Oct 2026 03:31:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099798/" title="https://lwn.net/Articles/1099798/">Kernel prepatch 7.3-rc7</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1099809/">7.3-rc7</a> kernel prepatch is out for
+testing.  According to Linus: "<q>As always, I would have preferred to see a smaller
+rc, but it's not like anything in here looks like a reason to delay
+the final release. So that's still set for next weekend unless
+something new comes up.</q>"
+<p>
+
+One notable change that slipped into the mainline this week is the <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3e78d7b06323">deprecation</a>
+of the ext4 <tt>data=journal</tt> mode; it will be removed entirely at the
+beginning of 2028.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1099764/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 11 Oct 2026 14:35:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -286,23 +303,6 @@ latest and greatest shiny fruit products will not be able to run this.)</p>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, dovecot, freerdp, kernel, mariadb-connector-c, mod_auth_openidc, nodejs22, nodejs:22, sudo, and vim), <b>Debian</b> (node-shell-quote, puma, rails, ruby-jwt, and suricata-update), <b>Fedora</b> (chromium, cockpit, flocq, freerdp, gappalib-coq, golang-x-mod, httpd, janus, libical, musescore, python3-docs, python3.14, python3.15, rocq, rocq-stdlib, tesseract, why3, and zenon), <b>Mageia</b> (srt and tor), <b>Oracle</b> (freerdp, kernel, libpcap, mariadb-connector-c, nodejs22, sudo, and vim), <b>Red Hat</b> (expat and grafana), <b>Slackware</b> (openssh), <b>SUSE</b> (chromium, docker-stable, firefox, jupyter-jupyterlab, libtcnative-1-0, tomcat, tomcat10, libtcnative-1-0, tomcat11, openexr, python310, python313-azure-storage-queue, python313-langchain-anthropic, python313-sglang, python313-Werkzeug, and valkey), and <b>Ubuntu</b> (fluidsynth, freerdp3, freetype, golang-1.18, golang-1.21, golang-1.24, gst-plugins-good1.0, libsoup2.4, libsoup3, libwebsockets, linux, linux-aws, linux-gcp, linux-gke, linux-ibm, linux-oracle, linux-realtime, linux-azure, linux-azure-fde, linux-nvidia-tegra, linux-oem-7.0, redis, sg3-utils, tesseract, and u-boot).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1097468/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 06 Oct 2026 15:02:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1097468/" title="https://lwn.net/Articles/1097468/">[$] Python's two modules for random numbers</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Python's <a
-href="https://docs.python.org/3/library/random.html"><tt>random</tt></a>
-and <a
-href="https://docs.python.org/3/library/secrets.html"><tt>secrets</tt></a>
-modules both include utilities for obtaining random values, but only one of them is suitable for generating passwords and security tokens.
-For much of Python's history, <tt>random</tt> was used for passwords and tokens anyway, despite documentation that called it unsuitable for cryptography.
-In 2015, Python's core team debated whether to fix that misuse by making <tt>random</tt> secure by default.
-Instead, in 2016, Python 3.6 added a second module: <tt>secrets</tt>.  The
-<tt>random</tt> module is still misused at times, so it is instructive
-to look into how the random-number modules should be used.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
