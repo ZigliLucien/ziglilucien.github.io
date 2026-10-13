@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1099015/" title="See Description">[$] Owning C types from Rust code</a></li>
+<li><a href="#https://lwn.net/Articles/1100182/" title="See Description">Eisentraut: The reverts will continue until morale improves</a></li>
+<li><a href="#https://lwn.net/Articles/1100181/" title="See Description">Security updates for Tuesday</a></li>
+<li><a href="#https://lwn.net/Articles/1100055/" title="See Description">Asterinas 0.19.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1099594/" title="See Description">[$] The 2026 Maintainers Summit</a></li>
 <li><a href="#https://lwn.net/Articles/1099950/" title="See Description">LineageOS 24 released</a></li>
 <li><a href="#https://lwn.net/Articles/1099949/" title="See Description">Security updates for Monday</a></li>
@@ -49,13 +53,89 @@
 <li><a href="#https://lwn.net/Articles/1099588/" title="See Description">Let's Encrypt moving to 64-day certificate lifetimes in 2027</a></li>
 <li><a href="#https://lwn.net/Articles/1099587/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1098617/" title="See Description">[$] An update on Rust's project goals</a></li>
-<li><a href="#https://lwn.net/Articles/1098399/" title="See Description">[$] The [vx]swap showdown</a></li>
-<li><a href="#https://lwn.net/Articles/1099388/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1097859/" title="See Description">[$] LWN.net Weekly Edition for October 8, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1097198/" title="See Description">[$] Analyzing Rust programs with Charon</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1099015/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 13 Oct 2026 13:33:13 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099015/" title="https://lwn.net/Articles/1099015/">[$] Owning C types from Rust code</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Rust's system of ownership and borrowed references is convenient when it can
+correctly model a program's needs. The
+<a href="https://rust-for-linux.com/">
+Rust for Linux project</a> has worked to
+provide adapters between Rust's semantics and the existing C code
+in the kernel. At Kangrejos 2026, Andreas Hindborg spoke about a
+<a href="https://lwn.net/ml/all/20260910-unique-ref-v21-0-e83257373062@kernel.org/">
+patch
+series</a> implementing the next such adaptor: an <tt>Ownable</tt> trait for
+representing objects that are allocated in C code, but which Rust code is responsible
+for cleaning up (if not necessarily deallocating) when it is done with them.
+He hoped to finally reach a consensus on the patch series, after months of
+discussion on the mailing list.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1100182/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 13 Oct 2026 13:21:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100182/" title="https://lwn.net/Articles/1100182/">Eisentraut: The reverts will continue until morale improves</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>PostgreSQL <a href="https://www.postgresql.org/community/contributors/">core
+team member</a> Peter Eisentraut has written a <a
+href="https://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves">blog
+post</a> reflecting on the "<q>unusually high number of features</q>" that have
+been taken out of the upcoming PostgreSQL&#160;19 release since the beta period
+began.</p>
+
+<blockquote class="bq">
+<p>Some of the reverted features had significant architectural defects that
+would have been hard to fix quickly and during beta. But there was also a long
+tail of relatively harmless issues involving various edge cases. In past times,
+many of these would not have surfaced until much later and we would have fixed
+them bit by bit over the subsequent five years. But with LLM-assisted code
+review, these kinds of things can get found much faster, and then you're staring
+at a list of like forty defect reports. And even if each of them requires only a
+three-line fix on average, there is a fixed overhead to dealing with each of
+these, and then you run out of time. Most if not all of the affected reverted
+features were written a long time ago when LLM-assisted code review was not as
+useful as it is now, meaning that the effective quality bar has been raised
+after the time the feature was written and committed. Unless the capabilities of
+LLM-assisted code review keep improving at the current rate, this situation
+should sort itself out for future development cycles.</p>
+
+<p>A corollary of that is that, at least for the most part, as far as I can
+tell, this situation is not due to "vibe coding". This code was written well
+before that was a possibility.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1092003/">covered</a> the unusually
+large number of bug fixes required for PostgreSQL&#160;19 features in
+September.</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1100181/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 13 Oct 2026 13:10:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100181/" title="https://lwn.net/Articles/1100181/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cjose, curl, emacs, environment-modules, flatpak, flatpak-builder, gd, glibc, kernel, libxml2, pcre2, and rsyslog), <b>Debian</b> (chromium, keystone, libgit2, librsvg, nagios4, and ntfs-3g), <b>Fedora</b> (baresip, bcm283x-firmware, curl, flare-im, GitPython, iperf3, kernel, libebml, libmatroska, libre, mkvtoolnix, python-mkdocs-rss-plugin, radicale, uboot-tools, and xiphos), <b>Mageia</b> (antlr4-project, cjose, cups, firefox, nss, golang, libextractor, nginx, ntfs-3g, openvpn, perl-DBI, perl-Imager, polkit, rsync, strongswan, thunderbird, tor, ugrep, vlc, and wireshark), <b>Oracle</b> (bind, bind9.16, cjose, compat-openssl10, compat-openssl11, curl, dovecot, emacs, flatpak, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, kernel, mod_auth_openidc, nodejs:22, tftp, and thunderbird), <b>SUSE</b> (bind, gcc13, gcc48, ghostscript, go1.26, go1.27, helm, libpng16, librsvg, libsoup, libX11, libXi, python, python-anyio, python-Django, python-PyJWT, python-tornado6, python-urllib3, python310, python313-bugzilla, python313-cmarkgfm, python313-colander, python313-configobj, python313-confluent-kafka, python313-django-registration, python313-ecdsa, python313-httptools, python313-imagecodecs, python313-impacket, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, thunderbird, unbound, virtiofsd, and xorg-x11-server), and <b>Ubuntu</b> (ffmpeg, google-guest-agent, google-osconfig-agent, and libx11).
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1100055/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 13 Oct 2026 12:55:20 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100055/" title="https://lwn.net/Articles/1100055/">Asterinas 0.19.0 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://asterinas.github.io/">Asterinas</a> is a project to build
+a new operating-system kernel in Rust; it was <a
+href="https://lwn.net/Articles/1022920/">covered here</a> in 2025.  <a
+href="https://asterinas.github.io/2026/10/13/announcing-asterinas-0.19.0.html">Version
+0.19.0</a> of the Asterinas kernel has been released; changes include a new
+graphics subsystem capable of running X.org, "<q>minimal but usable</q>"
+64-bit Arm support, better virtualization support, and more.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1099594/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 12 Oct 2026 15:27:27 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -237,61 +317,6 @@ The
 Rust for Linux project</a>
 has inspired several current project goals, so he thought that getting an inside
 view of the process might be helpful.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098399/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 08 Oct 2026 13:43:27 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098399/" title="https://lwn.net/Articles/1098399/">[$] The [vx]swap showdown</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The kernel's swap layer has undergone <a href="https://lwn.net/Articles/1057102/">some
-significant changes</a> over the course of the last year and a number of
-longstanding problems have been addressed.  One problem that has <i>not</i>
-yet been solved in the mainline is the direct tie between slots in the swap
-cache and space in persistent swap files, which can cause highly
-inefficient resource use.  There are two competing solutions for this
-problem, neither of which has, as yet, reached readiness for merging; a
-lengthy discussion on possible paths forward shows ongoing disagreement
-over the best path forward.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1099388/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 08 Oct 2026 13:11:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099388/" title="https://lwn.net/Articles/1099388/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, firefox, freerdp, ghostscript, glibc, kernel, kernel-rt, perl-DBI, python3.12, rust-rpm-sequoia, rust-sequoia-sq, rust-sequoia-sqv, and vim), <b>Debian</b> (gst-plugins-base1.0, python3.11, and xz-utils), <b>Fedora</b> (7zip, chromium, curl, docker-buildx, kernel, Lmod, and sos), <b>Mageia</b> (tesseract), <b>Oracle</b> (dovecot, firefox, freerdp, gd, ghostscript, kernel, librabbitmq, perl-DBI, python3.12, rust-rpm-sequoia, rust-sequoia-sqv, sg3_utils, vim, and virtuoso-opensource), <b>Slackware</b> (xorg-server), <b>SUSE</b> (aliyun-cli, busybox, cadvisor, chromedriver, chromium, crane, distribution-registry, fetchmail, fio, ghostscript, golang-github-prometheus-alertmanager, google-osconfig-agent, govulncheck-vulndb, libsoup, libXtst, openexr, prometheus-blackbox_exporter, python-fsspec, rpcbind, rsyslog, rustup, wireshark, wpa_supplicant, and zcode), and <b>Ubuntu</b> (erlang, golang-golang-x-net, gst-plugins-ugly1.0, lxml, poppler, and sudo).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1097859/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 08 Oct 2026 00:22:31 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1097859/" title="https://lwn.net/Articles/1097859/">[$] LWN.net Weekly Edition for October 8, 2026</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1097859/">Front</a>: Kernel bugs; Gentoo's Chromium package; Rust smart pointers; Sashiko; Charon; LAVD scheduler; Python random-number modules.
-            <li> <a href="https://lwn.net/Articles/1097861/">Briefs</a>: OpenSSH 10.6; RustConf recordings; Rust 1.99.0; Picard 3.0; Zig 0.17; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1097862/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>
-
-        </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1097198/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 07 Oct 2026 15:19:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1097198/" title="https://lwn.net/Articles/1097198/">[$] Analyzing Rust programs with Charon</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Nadrieril is a long-time Rust contributor, and the maintainer of the rustc
-pattern-matching infrastructure. During his involvement with Rust, he has
-noticed a problem with the usability of the language: it is difficult to
-automatically extract information from a Rust crate for use with other tooling.
-<a href="https://github.com/AeneasVerif/charon#charon">
-The Charon project</a> aims to fix that by providing a stable API for accessing
-internal information from the Rust compiler.
 </p>
 </blockquote></blockquote></div></td></tr>
 </table>
