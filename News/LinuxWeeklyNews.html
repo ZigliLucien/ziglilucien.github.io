@@ -38,6 +38,11 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1099300/" title="See Description">[$] Collaborating with out-of-tree tracers</a></li>
+<li><a href="#https://lwn.net/Articles/1100449/" title="See Description">Linus Torvalds's first LLM-assisted patch series</a></li>
+<li><a href="#https://lwn.net/Articles/1100429/" title="See Description">KDE Plasma 6.8 released</a></li>
+<li><a href="#https://lwn.net/Articles/1098672/" title="See Description">[$] GCC development with large-language models</a></li>
+<li><a href="#https://lwn.net/Articles/1100426/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1099486/" title="See Description">[$] KDE Linux at two</a></li>
 <li><a href="#https://lwn.net/Articles/1100247/" title="See Description">Nix and Lix local root-privilege-escalation vulnerabilities</a></li>
 <li><a href="#https://lwn.net/Articles/1099015/" title="See Description">[$] Owning C types from Rust code</a></li>
@@ -48,14 +53,115 @@
 <li><a href="#https://lwn.net/Articles/1099950/" title="See Description">LineageOS 24 released</a></li>
 <li><a href="#https://lwn.net/Articles/1099949/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1099798/" title="See Description">Kernel prepatch 7.3-rc7</a></li>
-<li><a href="#https://lwn.net/Articles/1099764/" title="See Description">Stable kernels 7.2.10 and 6.18.56</a></li>
-<li><a href="#https://lwn.net/Articles/1099602/" title="See Description">Python 3.15 released</a></li>
-<li><a href="#https://lwn.net/Articles/1098670/" title="See Description">[$] Adding kernel control-flow-integrity checking to GCC</a></li>
-<li><a href="#https://lwn.net/Articles/1099024/" title="See Description">[$] The state of systemd: 2026 edition</a></li>
-<li><a href="#https://lwn.net/Articles/1099588/" title="See Description">Let's Encrypt moving to 64-day certificate lifetimes in 2027</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1099300/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 14 Oct 2026 13:56:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099300/" title="https://lwn.net/Articles/1099300/">[$] Collaborating with out-of-tree tracers</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><a href="https://lttng.org/">LTTng</a> creator Mathieu Desnoyers seems a
+bit trapped in something of a <a
+href="https://dictionary.cambridge.org/dictionary/english/catch-22">catch-22</a>.
+At the 2026 <a href="https://lpc.events/">Linux Plumbers Conference</a>
+(LPC), he led a discussion on the problem he is having in trying to
+collaborate with other tracing projects (e.g. <a
+href="https://docs.kernel.org/trace/ftrace.html">ftrace</a>, <a
+href="https://perfwiki.github.io/main/">perf</a>) in the kernel.  The
+feedback he has gotten, both over the years and more recently, does not
+show a path that would allow him to contribute the 21-year-old
+GPLv2-licensed LTTng tracing framework, or, incrementally, features from
+it, to the mainline kernel.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1100449/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 14 Oct 2026 13:50:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100449/" title="https://lwn.net/Articles/1100449/">Linus Torvalds's first LLM-assisted patch series</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>At the recently concluded <a href="https://lwn.net/Articles/1099594/">Maintainers
+Summit</a>, Linus Torvalds said that he had been using a large language
+model to work on a patch series addressing a longstanding problem; he has
+now <a
+href="https://lwn.net/ml/all/CAHk-=wjLjgfwgSZ1RDk4YdNFcV0ntosMO5AmBoHD76Zb3HFY7Q@mail.gmail.com">posted
+that series for review</a>.
+<p>
+<blockquote class="bq">
+	The fairly short series of ten patches basically enhances folio
+	lookup by noticing when folios are hot, and setting a "delay
+	releasing this folio until after a RCU period", and then using that
+	RCU delay it does not just the folio lookup itself under RCU (which
+	we've done forever), but also the actual folio data accesses
+	themselves under RCU. No refcount taking needed for the fastpath
+	where we can just read the data from the folio entirely in an
+	RCU-protected region when the user copy doesn't cause page faults.
+</blockquote>
+<p>
+The end result is an order-of-magnitude speedup for a <tt>read()</tt>-heavy
+benchmark.  Review has already <a
+href="https://lwn.net/ml/all/as6vBoWQGglxXxb0@thinkstation">identified a race
+condition</a> in the code, though, so further work will be needed.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1100429/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 14 Oct 2026 13:41:09 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100429/" title="https://lwn.net/Articles/1100429/">KDE Plasma 6.8 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://kde.org/announcements/plasma/6/6.8.0/">Version 6.8</a> of
+the <a href="https://kde.org/plasma-desktop/">KDE Plasma desktop</a> has been
+released. The The KDE project has timed the release to coincide with the 30th
+anniversary of Matthias Ettrich's <a
+href="https://kde.org/announcements/announcement/">email announcing</a> the
+project:</p>
+
+<blockquote class="bq">
+Unix popularity grows thanks to the free variants, mostly Linux. But still a
+consistent, nice looking free desktop-environment is missing. There are several
+nice either free or low-priced applications available, so that Linux/X11 would
+almost fit everybody needs if we could offer a real GUI.
+</blockquote>
+
+<p>Notable changes include accessibility improvements, inclusion
+of the <a href="https://github.com/KDE/kup#kup-backup-system">Kup</a> backup
+tool as part of Plasma, as well as the ability to include system audio and
+microphone input in <a href="https://apps.kde.org/spectacle/">Spectacle</a>
+screen recordings. Plasma 6.8 also drops support for Plasma X11 sessions, as was <a
+href="https://blogs.kde.org/2025/11/26/going-all-in-on-a-wayland-future/">announced</a>
+in November 2025. X11 applications are still supported via XWayland, and KDE
+applications will continue to support X11 "<q>for the foreseeable
+future</q>".</p>
+
+<p>See the <a
+href="https://community.kde.org/Plasma/Plasma_6#Plasma_6.8">KDE wiki</a> for a
+list of major user-facing changes, and the <a
+href="https://kde.org/announcements/changelogs/plasma/6/6.7.5-6.8.0/">changelog</a>
+for all changes since Plasma&#160;6.7.5.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1098672/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 14 Oct 2026 13:13:53 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098672/" title="https://lwn.net/Articles/1098672/">[$] GCC development with large-language models</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>After much deliberation, the GCC project recently came up with <a
+href="https://gcc.gnu.org/ai-policy.html">a policy on the use of large
+language models</a> for development of the compiler suite.  It is somewhat
+restrictive, but still leaves room for LLMs in the development process.  At
+the 2026 <a href="https://gnu-tools-cauldron.org/">GNU Tools Cauldron</a>,
+Jeff Law and Kyrill Tkachov discussed how these tools have been useful for
+them.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1100426/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 14 Oct 2026 13:02:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100426/" title="https://lwn.net/Articles/1100426/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind9.18, dovecot, flatpak, gd, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, kernel, opentelemetry-collector, pcre2, and tftp), <b>Debian</b> (curl and keystone), <b>Fedora</b> (aegisub, arm-none-eabi-binutils-cs, avr-binutils, chromium, curl, firefox, kernel, python-jupytext, and xdg-dbus-proxy), <b>Mageia</b> (apache, freeciv, gnumeric, mingw-gdk-pixbuf, and patool), <b>Red Hat</b> (cockpit-image-builder, fence-agents, firefox, ipa, kernel, kernel-rt, pcre2, python-tornado, qt6-qtdeclarative, thunderbird, and webkit2gtk3), <b>Slackware</b> (expat), <b>SUSE</b> (bind, busybox, containerd, cups-filters, fixme, gimp, glibc, google-osconfig-agent, kernel, libtcnative-2-0, openssh, openssl-3, php8, podman, python-oauthlib, python-PyJWT, python-urllib3, python-virtualenv, python311, python313-jupyter-server, python313-kubernetes, python313-logilab-common, python313-markdown-it-py, python313-markdown2, python313-marshmallow, python313-mpmath, python313-mysql-connector-python, python313-oci-sdk, python313-oic, unbound, wpa_supplicant, xen, and xorg-x11-server), and <b>Ubuntu</b> (kernel, libyaml-perl, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-hwe, linux-kvm, linux, linux-aws, linux-aws-fips, linux-fips, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-ibm, linux-lowlatency, linux-oracle, linux-realtime, linux, linux-aws, linux-azure, linux-azure-5.4, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux-aws-5.4, linux-aws-fips, linux-azure-fips, linux-ibm, linux-ibm-5.4, linux-azure, linux-azure-fde, linux-azure-fips, linux-oracle, and pyjwt).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1099486/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 13 Oct 2026 17:21:14 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -238,91 +344,6 @@ One notable change that slipped into the mainline this week is the <a
 href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3e78d7b06323">deprecation</a>
 of the ext4 <tt>data=journal</tt> mode; it will be removed entirely at the
 beginning of 2028.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1099764/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 11 Oct 2026 14:35:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099764/" title="https://lwn.net/Articles/1099764/">Stable kernels 7.2.10 and 6.18.56</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1099765/">7.2.10</a> and <a
-href="https://lwn.net/Articles/1099766/">6.18.56</a> stable kernels have been released.
-Each contains another several hundred important fixes.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1099602/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 09 Oct 2026 17:15:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099602/" title="https://lwn.net/Articles/1099602/">Python 3.15 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.python.org/downloads/release/python-3150/">Version
-3.15</a> of the Python programming language has been released. Notable changes
-in this release include the addition of the <tt>sentinel</tt> and <a
-href="https://lwn.net/Articles/1047238/"><tt>frozendict</tt></a> built-in types,
-the use of UTF-8 encoding by default, <a
-href="https://docs.python.org/3.15/library/site.html#site-start-files">package
-start-up configuration files</a>, as well as improvements in the <a
-href="https://docs.python.org/3/whatsnew/3.15.html#whatsnew315-jit">experimental
-JIT compiler</a>. See the "<a
-href="https://docs.python.org/3/whatsnew/3.15.html">What's new in Python
-3.15</a>" article for an in-depth look at new features in this release, and the
-<a
-href="https://docs.python.org/3/whatsnew/changelog.html#changelog">changelog</a>
-for a full list of changes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098670/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 09 Oct 2026 17:06:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098670/" title="https://lwn.net/Articles/1098670/">[$] Adding kernel control-flow-integrity checking to GCC</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>While many developers are struggling to keep up with the flood of
-vulnerability reports, others are still focused on preventing those reports
-from happening in the first place.  Control-flow integrity (CFI) is the
-term for preventing (or at least detecting) exploits that divert the flow
-of control from its intended paths.  At the 2026 <a
-href="https://gnu-tools-cauldron.org/">GNU Tools Cauldron</a>, Kees Cook
-presented his changes to the GCC compiler suite to support forward-edge CFI
-for the kernel.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1099024/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 09 Oct 2026 14:58:15 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099024/" title="https://lwn.net/Articles/1099024/">[$] The state of systemd: 2026 edition</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>At the 2026 <a href="https://all-systems-go.io/">All Systems Go!</a>
-conference, systemd maintainers Luca Boccassi and Zbigniew Jędrzejewski-Szmek
-delivered the traditional "state of the project" session with an overview of the
-systemd project's accomplishments in the past year. That was followed by a
-maintainer round table where Boccassi, Jędrzejewski-Szmek, Daan De&#160;Meyer, and
-project leader Lennart Poettering fielded questions about systemd's size,
-health, and if it might replace Kubernetes. (It will not.)</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1099588/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 09 Oct 2026 14:02:44 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099588/" title="https://lwn.net/Articles/1099588/">Let's Encrypt moving to 64-day certificate lifetimes in 2027</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://letsencrypt.org/2026/10/07/64-day-certs.html">Let's
-Encrypt</a>, the nonprofit that provides free TLS certificates for millions of
-sites, has <a
-href="https://letsencrypt.org/2026/10/07/64-day-certs.html">announced</a> that
-it will be moving to certificates with 64-day lifetimes on February&#160;10,
-2027:</p>
-
-<blockquote class="bq">
-<p>This means that any certificate we issue or renew on and after that date will
-have a 64 day validity period, and we expect the last 90-day certificate to
-expire on May 11, 2027. We will not revoke valid certificates as a part of this
-process.</p>
-</blockquote>
-
-<p>This is the second stage of Let's Encrypt's plan, <a
-href="https://letsencrypt.org/2025/12/02/from-90-to-45">announced in 2025</a>,
-to move to 45-day certificate lifetimes as required by the the <a
-href="https://cabforum.org/working-groups/server/baseline-requirements/requirements/">CA/Browser
-Forum Baseline Requirements</a>. In 2028, Let's Encrypt will switch to 45-day certificates.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
