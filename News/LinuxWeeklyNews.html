@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1099247/" title="See Description">[$] LWN.net Weekly Edition for October 15, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1099300/" title="See Description">[$] Collaborating with out-of-tree tracers</a></li>
 <li><a href="#https://lwn.net/Articles/1100449/" title="See Description">Linus Torvalds's first LLM-assisted patch series</a></li>
 <li><a href="#https://lwn.net/Articles/1100429/" title="See Description">KDE Plasma 6.8 released</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1099594/" title="See Description">[$] The 2026 Maintainers Summit</a></li>
 <li><a href="#https://lwn.net/Articles/1099950/" title="See Description">LineageOS 24 released</a></li>
 <li><a href="#https://lwn.net/Articles/1099949/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1099798/" title="See Description">Kernel prepatch 7.3-rc7</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1099247/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 15 Oct 2026 00:04:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099247/" title="https://lwn.net/Articles/1099247/">[$] LWN.net Weekly Edition for October 15, 2026</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1099247/">Front</a>: 2026 Maintainers Summit; Rust goals; GCC and LLMs; GCC CFI; systemd; C types in Rust; LTTng; Swap showdown; KDE Linux.
+            <li> <a href="https://lwn.net/Articles/1099249/">Briefs</a>: 64-day certificates; Nix and Lix security; Asterinas 0.19.0; LineageOS 24; KDE 6.8; Python 3.15; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1099250/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1099300/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 14 Oct 2026 13:56:50 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -327,23 +342,6 @@ you read that right: We're early this year!</p>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cjose, compat-openssl10, compat-openssl11, curl, dogtag-pki, dovecot, emacs, glibc, kernel, openssl, python3.12, python3.14, and sssd), <b>Debian</b> (chromium, ghostscript, tor, and vips), <b>Fedora</b> (kernel, libical, markdownlint-cli2, openbao, openvpn, php-getid3, python3.10, python3.11, and python3.13), <b>Mageia</b> (capnproto, chirp, flatpak, freetype2, hamlib, mingw-pcre2, pcre2, openssl, tomcat, tomcat-native, and xdg-dbus-proxy), <b>Oracle</b> (bind, cjose, dogtag-pki, dovecot, firefox, kernel, nodejs:24, openssl, pki-core:10.6, python3.12, python3.14, ruby:2.5, rust-sequoia-sq, sssd, and tftp), <b>Red Hat</b> (libxml2), <b>Slackware</b> (mutt), <b>SUSE</b> (apache-sshd, bind, ccache, chromium, cpp13, dash, expat, fetchmail, flatpak, golang-github-prometheus-prometheus, grafana, system-user-grafana, incus, libpng16-16, libsoup, logback, openssh8.4, perl-DBI, php8, python3-paramiko, python312, python313-asyncpg, python313-azure-identity, python313-Babel, python313-Beaker, python313-bjoern, python313-black, python313-Brotli, python313-CairoSVG, python313-Flask-Cors, python313-FontTools, python313-Jinja2, python313-jwcrypto, python313-MechanicalSoup, python313-oauthlib, python313-PyJWT, python313-PyMySQL, python313-PyYAML, python313-virtualenv, python313-XStatic-jquery-ui, qemu, rsyslog, shadowsocks-rust, squid, stunnel, swtpm, trivy, unbound, wpa_supplicant, and yast2-users), and <b>Ubuntu</b> (libdbi-perl).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1099798/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 12 Oct 2026 03:31:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099798/" title="https://lwn.net/Articles/1099798/">Kernel prepatch 7.3-rc7</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1099809/">7.3-rc7</a> kernel prepatch is out for
-testing.  According to Linus: "<q>As always, I would have preferred to see a smaller
-rc, but it's not like anything in here looks like a reason to delay
-the final release. So that's still set for next weekend unless
-something new comes up.</q>"
-<p>
-
-One notable change that slipped into the mainline this week is the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3e78d7b06323">deprecation</a>
-of the ext4 <tt>data=journal</tt> mode; it will be removed entirely at the
-beginning of 2028.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
