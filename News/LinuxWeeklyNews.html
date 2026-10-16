@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1101057/" title="See Description">Introducing GNOME OS Preview</a></li>
+<li><a href="#https://lwn.net/Articles/1099224/" title="See Description">[$] Safe self-referential data structures in kernel Rust</a></li>
 <li><a href="#https://lwn.net/Articles/1098611/" title="See Description">[$] Recent and future changes to the Linux NFS server</a></li>
 <li><a href="#https://lwn.net/Articles/1101020/" title="See Description">Results from the 2026 TAB election</a></li>
 <li><a href="#https://lwn.net/Articles/1101015/" title="See Description">Security updates for Friday</a></li>
@@ -51,11 +53,66 @@
 <li><a href="#https://lwn.net/Articles/1100449/" title="See Description">Linus Torvalds's first LLM-assisted patch series</a></li>
 <li><a href="#https://lwn.net/Articles/1100429/" title="See Description">KDE Plasma 6.8 released</a></li>
 <li><a href="#https://lwn.net/Articles/1098672/" title="See Description">[$] GCC development with large-language models</a></li>
-<li><a href="#https://lwn.net/Articles/1100426/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1099486/" title="See Description">[$] KDE Linux at two</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1101057/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 16 Oct 2026 19:05:57 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1101057/" title="https://lwn.net/Articles/1101057/">Introducing GNOME OS Preview</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://gnome.org/">GNOME Project</a> has provided <a
+href="https://os.gnome.org/">GNOME&#160;OS</a> for some time; until now, the
+project only provided a "Nightly" edition that was built from the latest commits
+and was aimed solely at GNOME developers. Adrian Vovk has now <a
+href="https://blogs.gnome.org/adrianvovk/2026/10/16/gnome-os-preview/">announced</a>
+the release of GNOME&#160;OS&#160;Preview, which is intended for a non-developer 
+audience:</p>
+
+<blockquote class="bq">
+<p>GNOME OS Preview is the current GNOME OS Nightly, but without the "nightly"
+aspect. Instead, it's built from the latest stable GNOME release (GNOME 51.1, at
+the time of writing). GNOME OS Preview lives in the same branches on GitLab as
+the stable org.gnome.Platform Flatpak runtimes.</p>
+
+<p>GNOME OS Preview is only a few weeks old, so it has only seen limited
+real-life testing so far. We therefore expect people will uncover some issues
+initially. That said, Preview is significantly more stable than Nightly, which
+dozens of people have been daily driving without major issues for over a
+year. Thus, we're feeling confident that Preview is going to be reliable enough
+for daily use by non-developer enthusiasts.</p>
+</blockquote>
+
+<p>While Preview is meant for non-developers, it is not considered complete or
+stable for the broader public. There are a number of features, listed in Vovk's
+post, that need to be implemented before the project is ready to declare
+GNOME&#160;OS "<q>ready for prime time</q>". Adventurous users, who might not
+mind having to reinstall the OS once a stable version is declared, can
+download and start using GNOME&#160;OS&#160;Preview today.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1099224/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 16 Oct 2026 18:30:00 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099224/" title="https://lwn.net/Articles/1099224/">[$] Safe self-referential data structures in kernel Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Self-referential structures that can be used without unsafe code
+have posed a problem for Rust for years.
+There are many cases where a self-referential data structure is the elegant
+algorithmic choice, but implementing it in accordance with Rust's lifetime rules
+is all but impossible. At Kangrejos 2026, Gary Guo presented a clever solution
+to the problem in the context of the kernel's
+<a href="https://rust.docs.kernel.org/pin_init/index.html">
+pin_init crate</a>, which helps with the creation of immovable data structures,
+typically for interoperability with C. Guo's changes could help remove most of
+the unsafe code related to lifetimes in the
+<a href="https://rust-for-linux.com/nova-gpu-driver">
+Nova driver</a> and, eventually, other Rust components.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1098611/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 16 Oct 2026 14:26:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -301,34 +358,6 @@ restrictive, but still leaves room for LLMs in the development process.  At
 the 2026 <a href="https://gnu-tools-cauldron.org/">GNU Tools Cauldron</a>,
 Jeff Law and Kyrill Tkachov discussed how these tools have been useful for
 them.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1100426/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 14 Oct 2026 13:02:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100426/" title="https://lwn.net/Articles/1100426/">Security updates for Wednesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind9.18, dovecot, flatpak, gd, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, kernel, opentelemetry-collector, pcre2, and tftp), <b>Debian</b> (curl and keystone), <b>Fedora</b> (aegisub, arm-none-eabi-binutils-cs, avr-binutils, chromium, curl, firefox, kernel, python-jupytext, and xdg-dbus-proxy), <b>Mageia</b> (apache, freeciv, gnumeric, mingw-gdk-pixbuf, and patool), <b>Red Hat</b> (cockpit-image-builder, fence-agents, firefox, ipa, kernel, kernel-rt, pcre2, python-tornado, qt6-qtdeclarative, thunderbird, and webkit2gtk3), <b>Slackware</b> (expat), <b>SUSE</b> (bind, busybox, containerd, cups-filters, fixme, gimp, glibc, google-osconfig-agent, kernel, libtcnative-2-0, openssh, openssl-3, php8, podman, python-oauthlib, python-PyJWT, python-urllib3, python-virtualenv, python311, python313-jupyter-server, python313-kubernetes, python313-logilab-common, python313-markdown-it-py, python313-markdown2, python313-marshmallow, python313-mpmath, python313-mysql-connector-python, python313-oci-sdk, python313-oic, unbound, wpa_supplicant, xen, and xorg-x11-server), and <b>Ubuntu</b> (kernel, libyaml-perl, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-hwe, linux-kvm, linux, linux-aws, linux-aws-fips, linux-fips, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-ibm, linux-lowlatency, linux-oracle, linux-realtime, linux, linux-aws, linux-azure, linux-azure-5.4, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux-aws-5.4, linux-aws-fips, linux-azure-fips, linux-ibm, linux-ibm-5.4, linux-azure, linux-azure-fde, linux-azure-fips, linux-oracle, and pyjwt).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1099486/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 13 Oct 2026 17:21:14 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099486/" title="https://lwn.net/Articles/1099486/">[$] KDE Linux at two</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://linux.kde.org/">KDE&#160;Linux</a>, the KDE Project's second
-stab at creating its own distribution, was first introduced as "Project Banana"
-at the <a href="https://akademy.kde.org/2024/">Akademy conference in 2024</a> by
-Harald Sitter. Nate Graham <a
-href="https://pointieststick.com/2025/09/06/announcing-the-alpha-release-of-kde-linux/">announced</a>
-the first alpha-quality release during <a
-href="https://akademy.kde.org/2025/">Akademy&#160;2025</a>. Graham and Sitter
-paired up at <a href="https://akademy.kde.org/2026/">Akademy&#160;2026</a> to 
-provide an update on its progress, lay out plans for refining the distribution to
-address user feedback, and discuss some of the problems that still need to be
-dealt with. KDE Linux is still not-quite-ready for prime time, but Graham hopes
-that it will be suitable for widespread use soon&mdash;for an undefined value of
-"soon".</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
