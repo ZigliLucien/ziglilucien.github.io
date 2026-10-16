@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Tonight</h3>A chance of showers and thunderstorms before 10pm, then a chance of showers and thunderstorms. Mostly cloudy. Low around 49,
-         with temperatures rising to around 54 overnight. West wind 5 to 16 mph, with gusts as high as 24 mph. Chance of precipitation
+         with temperatures rising to around 54 overnight. West wind 3 to 16 mph, with gusts as high as 24 mph. Chance of precipitation
          is 50%.<br></div>
    </p>
    <p>
