@@ -34,11 +34,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Mostly clear, with a low around 45. North northeast wind around 1 mph.<br></div>
+         <h3>Wednesday Night</h3>Clear, with a low around 45. North northeast wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny, with a high near 77. North northeast wind 0 to 3 mph.<br></div>
+         <h3>Thursday</h3>Sunny, with a high near 78. North northeast wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -46,7 +46,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Sunny, with a high near 76. East northeast wind 0 to 5 mph.<br></div>
+         <h3>Friday</h3>Sunny, with a high near 78. East northeast wind 0 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -54,6 +54,6 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Sunny, with a high near 77. Southeast wind around 3 mph.<br></div>
+         <h3>Saturday</h3>Sunny, with a high near 78. Southeast wind around 3 mph.<br></div>
    </p>
 </div>
