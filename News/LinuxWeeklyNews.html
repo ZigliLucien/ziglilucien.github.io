@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1101143/" title="See Description">The 7.3 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1101057/" title="See Description">Introducing GNOME OS Preview</a></li>
 <li><a href="#https://lwn.net/Articles/1099224/" title="See Description">[$] Safe self-referential data structures in kernel Rust</a></li>
 <li><a href="#https://lwn.net/Articles/1098611/" title="See Description">[$] Recent and future changes to the Linux NFS server</a></li>
@@ -52,10 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1099300/" title="See Description">[$] Collaborating with out-of-tree tracers</a></li>
 <li><a href="#https://lwn.net/Articles/1100449/" title="See Description">Linus Torvalds's first LLM-assisted patch series</a></li>
 <li><a href="#https://lwn.net/Articles/1100429/" title="See Description">KDE Plasma 6.8 released</a></li>
-<li><a href="#https://lwn.net/Articles/1098672/" title="See Description">[$] GCC development with large-language models</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1101143/"></a></td></tr>
+<tr><td><div class="date"><tt>Sun, 18 Oct 2026 23:45:23 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1101143/" title="https://lwn.net/Articles/1101143/">The 7.3 kernel has been released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds has <a href="https://lwn.net/Articles/1101170/">released</a> the 7.3
+kernel, as expected.
+<p>
+<blockquote class="bq">
+	It's Sunday afternoon, and this week I somehow kept my wits
+	together long enough to keep track of the day of the week, so the
+	release isn't randomly delayed. Will wonders never cease?
+<p>
+	Anyway, nothing very special seems to have happened this last week,
+	so as expected the final 7.3 is out, and thus tomorrow the merge
+	window for 7.4 opens. Except I'm on my annual family vacation, so
+	instead of merging anything first thing in the morning, I'll spend
+	most of the day on a boat and under water. I'll get back to merging
+	in the afternoon, but I expect my schedule to be a bit unusual for
+	a while.
+</blockquote>
+<p>
+
+This release is a record-breaker on all fronts; it brought in 18,765
+non-merge commits from 3,021 developers, 807 of whom were first-time kernel
+developers. 
+<p>
+Significant changes in this release include some <a
+href="https://lwn.net/Articles/1086947/">significant binfmt_misc extensions</a>, some <a
+href="https://lwn.net/Articles/1089244/#:~:text=There%20have%20been%20some%20subtle%20but%20significant%20changes">group-scheduling work</a>
+aimed at improving performance on large systems, the new <a
+href="https://docs.kernel.org/next/filesystems/failfs.html">failfs</a>
+filesystem that fails all operations, the <tt>fchroot()</tt> system call,
+global per-CPU data for BPF programs, the <a
+href="https://lwn.net/Articles/1082717/">completion</a> of <a
+href="https://lwn.net/Articles/1056014/">the sched_ext subscheduler feature</a>,
+<a href="https://lwn.net/Articles/1080162/#uffd">working-set tracking</a> for virtual
+machines,
+<a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=be310476e8868ebe7a2ce8fb0e7b229535723963">alternative
+data-stream support</a> in the ntfs3 filesystem,
+a <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=61a09cfc121472013f99ae75066676739a5db626">long
+list of SMB server improvements</a>,
+and much more.  See the LWN merge-window summaries 
+(<a href="https://lwn.net/Articles/1089244/">part&#160;1</a>, <a
+href="https://lwn.net/Articles/1089791/">part&#160;2</a>) and <a
+href="https://kernelnewbies.org/Linux_7.3">the KernelNewbies 7.3 page</a>
+for details.</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1101057/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 16 Oct 2026 19:05:57 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -345,20 +395,6 @@ href="https://kde.org/announcements/changelogs/plasma/6/6.7.5-6.8.0/">changelog<
 for all changes since Plasma&#160;6.7.5.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098672/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 14 Oct 2026 13:13:53 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098672/" title="https://lwn.net/Articles/1098672/">[$] GCC development with large-language models</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>After much deliberation, the GCC project recently came up with <a
-href="https://gcc.gnu.org/ai-policy.html">a policy on the use of large
-language models</a> for development of the compiler suite.  It is somewhat
-restrictive, but still leaves room for LLMs in the development process.  At
-the 2026 <a href="https://gnu-tools-cauldron.org/">GNU Tools Cauldron</a>,
-Jeff Law and Kyrill Tkachov discussed how these tools have been useful for
-them.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
