@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1099596/" title="See Description">[$] Cross-crate forward declarations in Rust</a></li>
+<li><a href="#https://lwn.net/Articles/1101421/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1101143/" title="See Description">The 7.3 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1101057/" title="See Description">Introducing GNOME OS Preview</a></li>
 <li><a href="#https://lwn.net/Articles/1099224/" title="See Description">[$] Safe self-referential data structures in kernel Rust</a></li>
@@ -51,11 +53,35 @@
 <li><a href="#https://lwn.net/Articles/1100611/" title="See Description">Seven stable kernels for Thursday with fix for critical vulnerability</a></li>
 <li><a href="#https://lwn.net/Articles/1099247/" title="See Description">[$] LWN.net Weekly Edition for October 15, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1099300/" title="See Description">[$] Collaborating with out-of-tree tracers</a></li>
-<li><a href="#https://lwn.net/Articles/1100449/" title="See Description">Linus Torvalds's first LLM-assisted patch series</a></li>
-<li><a href="#https://lwn.net/Articles/1100429/" title="See Description">KDE Plasma 6.8 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1099596/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 19 Oct 2026 13:50:49 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099596/" title="https://lwn.net/Articles/1099596/">[$] Cross-crate forward declarations in Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Rust has several ad-hoc mechanisms to allow user code to influence how the
+standard library executes. For example, custom panic handlers and custom
+allocators both involve registering functions that core standard library code
+needs to call. With more similar features planned,
+Jana Dönszelmann spotted the developing pattern and put together a
+general solution, introducing a safer, checked analogue of C's weak symbol
+linking. At Kangrejos 2026, she explained how this new language feature works,
+and proposed using it to clean up the kernel's handling of integer overflows in
+Rust code.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1101421/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 19 Oct 2026 13:10:19 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1101421/" title="https://lwn.net/Articles/1101421/">Security updates for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (idm:DL1, kernel, libsoup, perl-URI, python3.14-urllib3, and webkit2gtk3), <b>Debian</b> (apache2, cifs-utils, haproxy, jq, kernel, and xen), <b>Fedora</b> (aom, chezmoi, chromium, docker-buildx, freeipa, freerdp, GitPython, httpd, jfrog-cli, kernel, knot, libheif, log4net, mongo-c-driver, nant, NetworkManager, openssl, plasma-nm, python-cairosvg, python-django5, python-django6, qt5-qtbase, radicale, rust-faster-hex, rust-onefetch, SDL3_image, syncthing, thunderbird, tor, webkitgtk, and wordpress), <b>Mageia</b> (curl, libreoffice, mozjs140, mutt, nodejs-braces, parted, perl-Net-Whois-Raw, perl-XS-Parse-Keyword, and python-django), <b>Oracle</b> (kernel, kernel-uek, python36:3.6, and wireshark), <b>Red Hat</b> (gvfs, kernel, and kernel-rt), <b>Slackware</b> (libXtst), and <b>SUSE</b> (agama, ansible-core, bcel, bind, buildah, busybox, cadvisor, chromium, cosign, cups-filters, distribution-registry, fetchmail, gcc13, ghostscript, gimp, glib2, go1.26, go1.27, golang-github-lusitaniae-apache_exporter, golang-github-prometheus-alertmanager, google-osconfig-agent, grype-db, hauler, hawk2, helm, ImageMagick, iperf, kernel, libheif, libpng16, librsvg, libsoup, libsoup2, libthrift-0_25_0, libx11, libxi, libxpm, mutt, ntfs-3g_ntfsprogs, nvidia-open-driver-g07-signed, nvidia-open-driver-G07-signed-check, openssl-3, openvpn, p11-kit, pacemaker, perl-xs-parse-keyword, pgvector, php8, podman, psqlodbc, python-anyio, python-hpack, python-jwcrypto, python-oauthlib, python-pyjwt, python-tornado6, python-urllib3, python-virtualenv, python313-ruff, python313-social-auth-app-django, python313-urllib3, python313-urllib3_1, python313-validators, python313-waitress, python313-zipp, qemu, qsnapper, squid, strongswan, stunnel, swtpm, unbound, virtiofsd, webkit2gtk3, xen, and xwayland).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1101143/"></a></td></tr>
 <tr><td><div class="date"><tt>Sun, 18 Oct 2026 23:45:23 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -330,71 +356,6 @@ show a path that would allow him to contribute the 21-year-old
 GPLv2-licensed LTTng tracing framework, or, incrementally, features from
 it, to the mainline kernel.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1100449/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 14 Oct 2026 13:50:29 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100449/" title="https://lwn.net/Articles/1100449/">Linus Torvalds's first LLM-assisted patch series</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>At the recently concluded <a href="https://lwn.net/Articles/1099594/">Maintainers
-Summit</a>, Linus Torvalds said that he had been using a large language
-model to work on a patch series addressing a longstanding problem; he has
-now <a
-href="https://lwn.net/ml/all/CAHk-=wjLjgfwgSZ1RDk4YdNFcV0ntosMO5AmBoHD76Zb3HFY7Q@mail.gmail.com">posted
-that series for review</a>.
-<p>
-<blockquote class="bq">
-	The fairly short series of ten patches basically enhances folio
-	lookup by noticing when folios are hot, and setting a "delay
-	releasing this folio until after a RCU period", and then using that
-	RCU delay it does not just the folio lookup itself under RCU (which
-	we've done forever), but also the actual folio data accesses
-	themselves under RCU. No refcount taking needed for the fastpath
-	where we can just read the data from the folio entirely in an
-	RCU-protected region when the user copy doesn't cause page faults.
-</blockquote>
-<p>
-The end result is an order-of-magnitude speedup for a <tt>read()</tt>-heavy
-benchmark.  Review has already <a
-href="https://lwn.net/ml/all/as6vBoWQGglxXxb0@thinkstation">identified a race
-condition</a> in the code, though, so further work will be needed.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1100429/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 14 Oct 2026 13:41:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100429/" title="https://lwn.net/Articles/1100429/">KDE Plasma 6.8 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://kde.org/announcements/plasma/6/6.8.0/">Version 6.8</a> of
-the <a href="https://kde.org/plasma-desktop/">KDE Plasma desktop</a> has been
-released. The The KDE project has timed the release to coincide with the 30th
-anniversary of Matthias Ettrich's <a
-href="https://kde.org/announcements/announcement/">email announcing</a> the
-project:</p>
-
-<blockquote class="bq">
-Unix popularity grows thanks to the free variants, mostly Linux. But still a
-consistent, nice looking free desktop-environment is missing. There are several
-nice either free or low-priced applications available, so that Linux/X11 would
-almost fit everybody needs if we could offer a real GUI.
-</blockquote>
-
-<p>Notable changes include accessibility improvements, inclusion
-of the <a href="https://github.com/KDE/kup#kup-backup-system">Kup</a> backup
-tool as part of Plasma, as well as the ability to include system audio and
-microphone input in <a href="https://apps.kde.org/spectacle/">Spectacle</a>
-screen recordings. Plasma 6.8 also drops support for Plasma X11 sessions, as was <a
-href="https://blogs.kde.org/2025/11/26/going-all-in-on-a-wayland-future/">announced</a>
-in November 2025. X11 applications are still supported via XWayland, and KDE
-applications will continue to support X11 "<q>for the foreseeable
-future</q>".</p>
-
-<p>See the <a
-href="https://community.kde.org/Plasma/Plasma_6#Plasma_6.8">KDE wiki</a> for a
-list of major user-facing changes, and the <a
-href="https://kde.org/announcements/changelogs/plasma/6/6.7.5-6.8.0/">changelog</a>
-for all changes since Plasma&#160;6.7.5.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
