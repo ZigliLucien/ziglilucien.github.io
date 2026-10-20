@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1100257/" title="See Description">[$] SUSE's efforts to disable setuid system-wide</a></li>
 <li><a href="#https://lwn.net/Articles/1100520/" title="See Description">[$] Discussing a rewrite of XArray</a></li>
 <li><a href="#https://lwn.net/Articles/1101643/" title="See Description">eMudhra intermediate CA compromise</a></li>
 <li><a href="#https://lwn.net/Articles/1101536/" title="See Description">OpenBSD 8.0 released</a></li>
@@ -52,10 +53,26 @@
 <li><a href="#https://lwn.net/Articles/1098611/" title="See Description">[$] Recent and future changes to the Linux NFS server</a></li>
 <li><a href="#https://lwn.net/Articles/1101020/" title="See Description">Results from the 2026 TAB election</a></li>
 <li><a href="#https://lwn.net/Articles/1101015/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1098493/" title="See Description">[$] Vendor hooks in the Android kernel</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1100257/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 20 Oct 2026 18:36:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100257/" title="https://lwn.net/Articles/1100257/">[$] SUSE's efforts to disable setuid system-wide</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Setuid (and setgid) binaries have long been a source of headaches, and security
+vulnerabilities, on Linux systems. They are largely seen as something to be
+avoided; SUSE's security team, for example, <a
+href="https://en.opensuse.org/openSUSE:Package_security_guidelines#Setuid_Binaries">forbids
+the inclusion of setuid or setgid binaries in packages</a> unless they have been
+reviewed and explicitly allowed. Thorsten Kukuk wants to go a step further and
+disallow them entirely. At the <a
+href="https://all-systems-go.io/">2026&#160;All&#160;Systems&#160;Go!</a> conference, he spoke
+about his work to disable setuid system-wide, as well as some of the hurdles
+that remain.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1100520/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 20 Oct 2026 15:46:37 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -338,24 +355,6 @@ be joining the board.</blockquote></blockquote></div></td></tr>
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (ghostscript, grafana, hplip, libsoup3, lrzsz, rpcbind, and wireshark), <b>Debian</b> (chromium, cifs-utils, expat, gst-plugins-bad1.0, gst-plugins-good1.0, jpeg-xl, mutt, and spip), <b>Mageia</b> (gpsd, libx11, and roundcubemail), <b>Oracle</b> (389-ds-base, compat-libtiff3, environment-modules, ghostscript, grafana, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, hplip, idm:DL1, kernel, kernel-uek, libsoup, libsoup3, lrzsz, rpcbind, and wireshark), <b>Red Hat</b> (gd), <b>SUSE</b> (alloy, amazon-ecs-init, bind, busybox, chromium, distribution, govulncheck-vulndb, iperf, jackson-annotations, jackson-core, jackson-databind, kernel, libXtst, mutt, openssh, php8, python313-python-multipart, python313-python-rapidjson, python313-python3-saml, python313-pywbem, python313-redis, python313-reportlab, python313-requests, python313-rope, python313-rpyc, python313-rsa, qemu, swtpm, the Java stack, and wpa_supplicant), and <b>Ubuntu</b> (golang-1.23, linux-azure, and rabbitmq-server).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098493/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 15 Oct 2026 15:09:15 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098493/" title="https://lwn.net/Articles/1098493/">[$] Vendor hooks in the Android kernel</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Since Android's inception, the kernels it has used have diverged
-significantly from the mainline.  While many of those differences have been
-resolved over time, and the move to the <a
-href="https://source.android.com/docs/core/architecture/kernel/generic-kernel-image">generic
-kernel image</a> has helped to bring Android closer, current devices still
-carry a lot of out-of-tree changes.  The preferred form for such changes is
-by way of <a
-href="https://source.android.com/docs/core/architecture/kernel/kernel-code#vendor-hooks">vendor
-hooks</a>.  At the <a href="https://lpc.events/event/20/">2026 Linux
-Plumbers Conference</a>, Todd Kjos ran a fast-paced session in the Android
-track to discuss vendor hooks and how they are used.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
