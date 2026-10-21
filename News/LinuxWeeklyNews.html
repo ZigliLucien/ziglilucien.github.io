@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1102014/" title="See Description">PHP patches released for two critical RCEs</a></li>
+<li><a href="#https://lwn.net/Articles/1101758/" title="See Description">Four stable kernels for Wednesday</a></li>
+<li><a href="#https://lwn.net/Articles/1102005/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1101687/" title="See Description">Critical PHP security update coming</a></li>
 <li><a href="#https://lwn.net/Articles/1100257/" title="See Description">[$] SUSE's efforts to disable setuid system-wide</a></li>
 <li><a href="#https://lwn.net/Articles/1100520/" title="See Description">[$] Discussing a rewrite of XArray</a></li>
@@ -50,12 +53,75 @@
 <li><a href="#https://lwn.net/Articles/1101421/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1101143/" title="See Description">The 7.3 kernel has been released</a></li>
 <li><a href="#https://lwn.net/Articles/1101057/" title="See Description">Introducing GNOME OS Preview</a></li>
-<li><a href="#https://lwn.net/Articles/1099224/" title="See Description">[$] Safe self-referential data structures in kernel Rust</a></li>
-<li><a href="#https://lwn.net/Articles/1098611/" title="See Description">[$] Recent and future changes to the Linux NFS server</a></li>
-<li><a href="#https://lwn.net/Articles/1101020/" title="See Description">Results from the 2026 TAB election</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1102014/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 21 Oct 2026 13:53:18 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102014/" title="https://lwn.net/Articles/1102014/">PHP patches released for two critical RCEs</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The PHP project has <a
+href="https://www.php.net/archive/2026.php#2026-10-21-5">published</a> PHP
+versions <a href="https://www.php.net/archive/2026.php#2026-10-21-4">8.5.12</a>,
+<a href="https://www.php.net/archive/2026.php#2026-10-21-3">8.4.27</a>, <a
+href="https://www.php.net/archive/2026.php#2026-10-21-2">8.3.36</a> and <a
+href="https://www.php.net/archive/2026.php#2026-10-21-1">8.2.35</a> to address
+two critical vulnerabilities that could allow unauthenticated remote code
+execution.</p>
+
+<blockquote class="bq">
+<strong>Who is at risk:</strong> all PHP installations serving web requests,
+including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We
+consider the risk highest for mod_php, with a demonstrated exploit where an
+unauthenticated request can trigger the attack before any application code
+runs.</p>
+
+<p><strong>The vulnerabilities:</strong></p>
+
+<ul class="spacylist">
+<li><strong>RCE via OOM corruption</strong>, CVE-2026-109618 (<a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w">GHSA-w8hw-w9fx-j79w</a>): out-of-memory
+handling can interrupt PHP while internal request data is only partially initialized. Request cleanup may then treat the invalid data as valid.</li>
+<li><strong>RCE via stale global state</strong>, CVE-2026-109619 (<a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp">GHSA-6wmf-4rv5-p3rp</a>): request-owned
+internal state can survive after its backing memory has been freed. A later
+request handled by the same worker may use that stale state before normal
+initialization resets it.</li>
+</ul>
+</blockquote>
+
+<p>PHP versions older than 8.1 will not receive updates from the project, though
+the project has provided some patches for <a
+href="https://github.com/php/php-src/tree/PHP-7.4-CVE-2026-109618-109619">PHP
+7.4</a>, <a
+href="https://github.com/php/php-src/tree/PHP-8.0-CVE-2026-109618-109619">PHP
+8.0</a>, and <a
+href="https://github.com/php/php-src/tree/PHP-8.1-CVE-2026-109618-109619">PHP
+8.1</a> to assist in creating backports. According to the
+announcement, Linux distributions and vendors received patches in advance, so
+updated packages should be coming soon.</P></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1101758/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 21 Oct 2026 13:24:25 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1101758/" title="https://lwn.net/Articles/1101758/">Four stable kernels for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1101759/">7.2.12</a>,
+<a href="https://lwn.net/Articles/1101760/">6.18.58</a>,
+<a href="https://lwn.net/Articles/1101761/">6.12.114</a>, and 
+<a href="https://lwn.net/Articles/1101762/">6.6.160</a> stable kernels. Each contains a number
+of important fixes; users are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1102005/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 21 Oct 2026 13:13:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102005/" title="https://lwn.net/Articles/1102005/">Security updates for Wednesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bubblewrap, emacs, gimp:2.8, glibc, jackson-databind, kernel, kernel-rt, librabbitmq, openexr, openssh, postgresql:16, postgresql:18, python3, resteasy, wireshark, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (ca-certificates, firefox-esr, git-lfs, and libssh), <b>Fedora</b> (aom, assimp, bind, bind-dyndb-ldap, freerdp, ghostscript, gopass, gopass-jsonapi, ImageMagick, libpng12, libpng15, nebula, perl-GD-SecurityImage, perl-Net-IDN-Encode, perl-Net-Whois-Raw, rust-backtrace, rust-object, rust-object0.37, rust-object0.38, rust-object0.39, rust-ruzstd, and xen), <b>Gentoo</b> (ca-certificates), <b>Mageia</b> (x11-server, x11-server-wayland, tigervnc), <b>Oracle</b> (bubblewrap, ca-certificates, emacs, fetchmail, gimp:2.8, hostapd, jackson-databind, librabbitmq, lrzsz, openexr, openssh, openssl, postgresql:18, python-urllib3, python3, python3.12-urllib3, resteasy, webkit2gtk3, wireshark, and xorg-x11-server-Xwayland), <b>Red Hat</b> (.NET 8.0, dogtag-pki, flatpak-builder, ghostscript, glycin-loaders, go-toolset:rhel8, golang, gvfs, jackson-core, jackson-databind, librsvg2, multiple packages, pki-core, pki-core:10.6, sudo, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (c-ares, ca-certificates, mozilla-firefox, mozilla-nss, mozilla-thunderbird, and python-certifi), <b>SUSE</b> (agama, aspell, bcel, bind, bouncycastle, busybox, chromium, containerd, coredns, cosign, cpp15, cups-filters, cyrus-sasl, fetchmail, firefox, gcc13, gh, ghostscript, gitoxide, glibc, go1.26, go1.27, google-osconfig-agent, grafana, grok-build, hashcat, hawk2, helm, ImageMagick, inspektor-gadget, iperf, jupyter-jupyterlab-templates, kernel, kernel-devel, libheif, libpng16, librsvg, libX11, libXi, libxls, libXpm, libxreaderdocument3, mutt, ntfs-3g_ntfsprogs, openssl-1_0_0, openssl-3, openvpn, pacemaker, perl-DBI, perl-XS-Parse-Keyword, pgvector, podman, putty, python-anyio, python-hpack, python-joserfc, python-jwcrypto, python-oauthlib, python-PyJWT, python-tornado6, python-urllib3, python-virtualenv, python-WebOb, python3, python311, rekor, squid, strongswan, stunnel, suseconnect-ng, tinyproxy, traefik, unbound, varnish, virtiofsd, webkit2gtk3, and xwayland), and <b>Ubuntu</b> (ca-certificates, dotnet8, dotnet10, dotnet11, protobuf, rust-sudo-rs, squid, squid3, and xz-utils).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1101687/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 20 Oct 2026 21:05:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -313,53 +379,6 @@ mind having to reinstall the OS once a stable version is declared, can
 download and start using GNOME&#160;OS&#160;Preview today.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1099224/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 16 Oct 2026 18:30:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099224/" title="https://lwn.net/Articles/1099224/">[$] Safe self-referential data structures in kernel Rust</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Self-referential structures that can be used without unsafe code
-have posed a problem for Rust for years.
-There are many cases where a self-referential data structure is the elegant
-algorithmic choice, but implementing it in accordance with Rust's lifetime rules
-is all but impossible. At Kangrejos 2026, Gary Guo presented a clever solution
-to the problem in the context of the kernel's
-<a href="https://rust.docs.kernel.org/pin_init/index.html">
-pin_init crate</a>, which helps with the creation of immovable data structures,
-typically for interoperability with C. Guo's changes could help remove most of
-the unsafe code related to lifetimes in the
-<a href="https://rust-for-linux.com/nova-gpu-driver">
-Nova driver</a> and, eventually, other Rust components.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1098611/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 16 Oct 2026 14:26:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1098611/" title="https://lwn.net/Articles/1098611/">[$] Recent and future changes to the Linux NFS server</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The NFS network filesystem protocol has a long history on Unix-like
-operating systems (and beyond).  NFS is still evolving, though, and
-implementations need to keep up.  At the 2026 <a
-href="https://lpc.events/">Linux Plumbers Conference</a>, NFS developer
-Jeff Layton gave an overview of recent enhancements to the Linux
-implementation, along with some hints for what will be coming in the near
-future.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1101020/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 16 Oct 2026 14:09:20 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1101020/" title="https://lwn.net/Articles/1101020/">Results from the 2026 TAB election</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a
-href="https://lwn.net/ml/all/9fae8567-0943-47e2-a04d-4e75e1c0cb6d@kernel.org">results</a>
-from the 2026 election for members of the Linux Foundation Technical
-Advisory Board (TAB) have been announced.  Kees Cook, Dave Hansen, Miguel
-Ojeda, and Shuah Khan have all been re-elected, and Laurent Pinchart will
-be joining the board.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
