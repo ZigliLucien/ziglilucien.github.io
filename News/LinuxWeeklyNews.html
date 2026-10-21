@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1102044/" title="See Description">More vulnerabilities in widely deployed software</a></li>
 <li><a href="#https://lwn.net/Articles/1100026/" title="See Description">[$] Hash-based module integrity for reproducible distributions</a></li>
 <li><a href="#https://lwn.net/Articles/1102024/" title="See Description">Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)</a></li>
 <li><a href="#https://lwn.net/Articles/1094226/" title="See Description">[$] Understanding Nix flakes</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1101617/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1101483/" title="See Description">Linux Plumbers Conference videos now available</a></li>
 <li><a href="#https://lwn.net/Articles/1100241/" title="See Description">[$] Development statistics for the 7.3 kernel</a></li>
-<li><a href="#https://lwn.net/Articles/1099596/" title="See Description">[$] Cross-crate forward declarations in Rust</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1102044/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 21 Oct 2026 17:09:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102044/" title="https://lwn.net/Articles/1102044/">More vulnerabilities in widely deployed software</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The Node.js project has
+<a
+href="https://nodejs.org/en/blog/vulnerability/october-2026-security-releases">released
+a number of security updates</a> to fix, among other vulnerabilities, a
+remote-code-execution bug affecting programs that use Brotli compression. And,
+in case any programmers who use compiled languages thought they could relax, the
+<a href="https://musl.libc.org/">musl libc project</a> has also announced a
+new vulnerability: an
+<a
+href="https://lwn.net/ml/all/20261021154307.GA4413%40brightrain.aerifal.cx/">out-of-bounds
+write</a> that could potentially lead to remote code execution, although that
+has not been demonstrated.
+</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1100026/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 21 Oct 2026 16:14:55 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -325,24 +345,6 @@ compiled some statistics showing how this release, which is expected to be
 the next long-term-support (LTS) kernel, came together.  Also included is
 an attempt to determine whether automated patch review is actually reducing
 the number of bugs introduced into the kernel.
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1099596/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 19 Oct 2026 13:50:49 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099596/" title="https://lwn.net/Articles/1099596/">[$] Cross-crate forward declarations in Rust</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Rust has several ad-hoc mechanisms to allow user code to influence how the
-standard library executes. For example, custom panic handlers and custom
-allocators both involve registering functions that core standard library code
-needs to call. With more similar features planned,
-Jana Dönszelmann spotted the developing pattern and put together a
-general solution, introducing a safer, checked analogue of C's weak symbol
-linking. At Kangrejos 2026, she explained how this new language feature works,
-and proposed using it to clean up the kernel's handling of integer overflows in
-Rust code.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
