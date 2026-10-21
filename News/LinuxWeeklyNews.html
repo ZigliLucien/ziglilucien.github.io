@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1100026/" title="See Description">[$] Hash-based module integrity for reproducible distributions</a></li>
+<li><a href="#https://lwn.net/Articles/1102024/" title="See Description">Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)</a></li>
+<li><a href="#https://lwn.net/Articles/1094226/" title="See Description">[$] Understanding Nix flakes</a></li>
 <li><a href="#https://lwn.net/Articles/1102014/" title="See Description">PHP patches released for two critical RCEs</a></li>
 <li><a href="#https://lwn.net/Articles/1101758/" title="See Description">Four stable kernels for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1102005/" title="See Description">Security updates for Wednesday</a></li>
@@ -50,12 +53,68 @@
 <li><a href="#https://lwn.net/Articles/1101483/" title="See Description">Linux Plumbers Conference videos now available</a></li>
 <li><a href="#https://lwn.net/Articles/1100241/" title="See Description">[$] Development statistics for the 7.3 kernel</a></li>
 <li><a href="#https://lwn.net/Articles/1099596/" title="See Description">[$] Cross-crate forward declarations in Rust</a></li>
-<li><a href="#https://lwn.net/Articles/1101421/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1101143/" title="See Description">The 7.3 kernel has been released</a></li>
-<li><a href="#https://lwn.net/Articles/1101057/" title="See Description">Introducing GNOME OS Preview</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1100026/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 21 Oct 2026 16:14:55 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100026/" title="https://lwn.net/Articles/1100026/">[$] Hash-based module integrity for reproducible distributions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>We last looked in on <a href="https://lwn.net/Articles/1012946/">hash-based integrity
+checking for kernel modules</a> just over a year and half ago.  Since that time,
+the <a
+href="https://lwn.net/ml/all/20260505-module-hashes-v5-0-e174a5a49fce@weissschuh.net/">patch
+set</a> has undergone multiple revisions.  At the 2026 <a href="https://lpc.events/">Linux Plumbers Conference</a>
+(LPC),  Thomas Weißschuh described the need for kernel-module integrity
+guarantees while still providing reproducible builds, how his patches implement that, and some ideas for possible
+further work.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1102024/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 21 Oct 2026 14:58:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102024/" title="https://lwn.net/Articles/1102024/">Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Collabora blog <a
+href="https://www.collabora.com/news-and-blog/blog/2026/10/21/upstreaming-tyr-rust-drm-and-the-linux-kernel/">provides
+an update on Tyr</a>, a driver for Arm Mali GPUs.
+<p>
+<blockquote class="bq">
+	One of our biggest challenges has been developing Tyr while the
+	Rust kernel abstractions and driver interfaces are also being
+	developed. As the driver interfaces are naturally revised and
+	improved, we have rewritten Tyr several times to adapt to the
+	larger Rust ecosystem. This not only makes progress much slower
+	than it would be with a mature API, but also stalls progress for
+	capabilities, such as job scheduling, while the abstraction is
+	properly designed, reviewed, tested, and merged upstream.
+<p>
+	But working in this evolving environment is also precisely where
+	Tyr is able to provide the most value. As a user of these new Rust
+	abstractions, Tyr helps to expose their requirements and
+	limitations. 
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1094226/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 21 Oct 2026 14:33:54 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094226/" title="https://lwn.net/Articles/1094226/">[$] Understanding Nix flakes</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://wiki.nixos.org/wiki/Flakes">Nix flakes</a> are an
+experimental feature of the <a
+href="https://wiki.nixos.org/wiki/Nix_(package_manager)">Nix package-management
+tool</a> designed to build projects in a more self-contained and reproducible
+way. Despite the feature's experimental status, it has become increasingly
+popular for open-source projects to publish <tt>flake.nix</tt> files that offer
+predefined development environments and build automation even when those
+repositories may not offer an upstream package or module for the <a
+href="https://wiki.nixos.org/wiki/NixOS">NixOS Linux distribution</a>. Although
+Nix flakes have a complicated history, and the path for stabilization is
+uncertain, flakes can provide useful capabilities for projects that choose to
+include them.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1102014/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 21 Oct 2026 13:53:18 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -285,100 +344,6 @@ and proposed using it to clean up the kernel's handling of integer overflows in
 Rust code.
 </p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1101421/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 19 Oct 2026 13:10:19 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1101421/" title="https://lwn.net/Articles/1101421/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (idm:DL1, kernel, libsoup, perl-URI, python3.14-urllib3, and webkit2gtk3), <b>Debian</b> (apache2, cifs-utils, haproxy, jq, kernel, and xen), <b>Fedora</b> (aom, chezmoi, chromium, docker-buildx, freeipa, freerdp, GitPython, httpd, jfrog-cli, kernel, knot, libheif, log4net, mongo-c-driver, nant, NetworkManager, openssl, plasma-nm, python-cairosvg, python-django5, python-django6, qt5-qtbase, radicale, rust-faster-hex, rust-onefetch, SDL3_image, syncthing, thunderbird, tor, webkitgtk, and wordpress), <b>Mageia</b> (curl, libreoffice, mozjs140, mutt, nodejs-braces, parted, perl-Net-Whois-Raw, perl-XS-Parse-Keyword, and python-django), <b>Oracle</b> (kernel, kernel-uek, python36:3.6, and wireshark), <b>Red Hat</b> (gvfs, kernel, and kernel-rt), <b>Slackware</b> (libXtst), and <b>SUSE</b> (agama, ansible-core, bcel, bind, buildah, busybox, cadvisor, chromium, cosign, cups-filters, distribution-registry, fetchmail, gcc13, ghostscript, gimp, glib2, go1.26, go1.27, golang-github-lusitaniae-apache_exporter, golang-github-prometheus-alertmanager, google-osconfig-agent, grype-db, hauler, hawk2, helm, ImageMagick, iperf, kernel, libheif, libpng16, librsvg, libsoup, libsoup2, libthrift-0_25_0, libx11, libxi, libxpm, mutt, ntfs-3g_ntfsprogs, nvidia-open-driver-g07-signed, nvidia-open-driver-G07-signed-check, openssl-3, openvpn, p11-kit, pacemaker, perl-xs-parse-keyword, pgvector, php8, podman, psqlodbc, python-anyio, python-hpack, python-jwcrypto, python-oauthlib, python-pyjwt, python-tornado6, python-urllib3, python-virtualenv, python313-ruff, python313-social-auth-app-django, python313-urllib3, python313-urllib3_1, python313-validators, python313-waitress, python313-zipp, qemu, qsnapper, squid, strongswan, stunnel, swtpm, unbound, virtiofsd, webkit2gtk3, xen, and xwayland).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1101143/"></a></td></tr>
-<tr><td><div class="date"><tt>Sun, 18 Oct 2026 23:45:23 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1101143/" title="https://lwn.net/Articles/1101143/">The 7.3 kernel has been released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds has <a href="https://lwn.net/Articles/1101170/">released</a> the 7.3
-kernel, as expected.
-<p>
-<blockquote class="bq">
-	It's Sunday afternoon, and this week I somehow kept my wits
-	together long enough to keep track of the day of the week, so the
-	release isn't randomly delayed. Will wonders never cease?
-<p>
-	Anyway, nothing very special seems to have happened this last week,
-	so as expected the final 7.3 is out, and thus tomorrow the merge
-	window for 7.4 opens. Except I'm on my annual family vacation, so
-	instead of merging anything first thing in the morning, I'll spend
-	most of the day on a boat and under water. I'll get back to merging
-	in the afternoon, but I expect my schedule to be a bit unusual for
-	a while.
-</blockquote>
-<p>
-
-This release is a record-breaker on all fronts; it brought in 18,765
-non-merge commits from 3,021 developers, 807 of whom were first-time kernel
-developers. 
-<p>
-Significant changes in this release include some <a
-href="https://lwn.net/Articles/1086947/">significant binfmt_misc extensions</a>, some <a
-href="https://lwn.net/Articles/1089244/#:~:text=There%20have%20been%20some%20subtle%20but%20significant%20changes">group-scheduling work</a>
-aimed at improving performance on large systems, the new <a
-href="https://docs.kernel.org/next/filesystems/failfs.html">failfs</a>
-filesystem that fails all operations, the <tt>fchroot()</tt> system call,
-global per-CPU data for BPF programs, the <a
-href="https://lwn.net/Articles/1082717/">completion</a> of <a
-href="https://lwn.net/Articles/1056014/">the sched_ext subscheduler feature</a>,
-<a href="https://lwn.net/Articles/1080162/#uffd">working-set tracking</a> for virtual
-machines,
-<a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=be310476e8868ebe7a2ce8fb0e7b229535723963">alternative
-data-stream support</a> in the ntfs3 filesystem,
-a <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=61a09cfc121472013f99ae75066676739a5db626">long
-list of SMB server improvements</a>,
-and much more.  See the LWN merge-window summaries 
-(<a href="https://lwn.net/Articles/1089244/">part&#160;1</a>, <a
-href="https://lwn.net/Articles/1089791/">part&#160;2</a>) and <a
-href="https://kernelnewbies.org/Linux_7.3">the KernelNewbies 7.3 page</a>
-for details.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1101057/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 16 Oct 2026 19:05:57 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1101057/" title="https://lwn.net/Articles/1101057/">Introducing GNOME OS Preview</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://gnome.org/">GNOME Project</a> has provided <a
-href="https://os.gnome.org/">GNOME&#160;OS</a> for some time; until now, the
-project only provided a "Nightly" edition that was built from the latest commits
-and was aimed solely at GNOME developers. Adrian Vovk has now <a
-href="https://blogs.gnome.org/adrianvovk/2026/10/16/gnome-os-preview/">announced</a>
-the release of GNOME&#160;OS&#160;Preview, which is intended for a non-developer 
-audience:</p>
-
-<blockquote class="bq">
-<p>GNOME OS Preview is the current GNOME OS Nightly, but without the "nightly"
-aspect. Instead, it's built from the latest stable GNOME release (GNOME 51.1, at
-the time of writing). GNOME OS Preview lives in the same branches on GitLab as
-the stable org.gnome.Platform Flatpak runtimes.</p>
-
-<p>GNOME OS Preview is only a few weeks old, so it has only seen limited
-real-life testing so far. We therefore expect people will uncover some issues
-initially. That said, Preview is significantly more stable than Nightly, which
-dozens of people have been daily driving without major issues for over a
-year. Thus, we're feeling confident that Preview is going to be reliable enough
-for daily use by non-developer enthusiasts.</p>
-</blockquote>
-
-<p>While Preview is meant for non-developers, it is not considered complete or
-stable for the broader public. There are a number of features, listed in Vovk's
-post, that need to be implemented before the project is ready to declare
-GNOME&#160;OS "<q>ready for prime time</q>". Adventurous users, who might not
-mind having to reinstall the OS once a stable version is declared, can
-download and start using GNOME&#160;OS&#160;Preview today.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
