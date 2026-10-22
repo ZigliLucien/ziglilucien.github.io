@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-10-22T06:36:05+00:00</generatedAt>
-		<updateTime type="str">2026-10-22T06:26:03+00:00</updateTime>
-		<validTimes type="str">2026-10-22T00:00:00+00:00/P8DT1H</validTimes>
+		<generatedAt type="str">2026-10-22T16:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-10-22T15:46:05+00:00</updateTime>
+		<validTimes type="str">2026-10-22T09:00:00+00:00/P7DT16H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -51,27 +51,8 @@
 		<periods type="list">
 			<item type="dict">
 				<number type="int">1</number>
-				<name type="str">Overnight</name>
-				<startTime type="str">2026-10-22T01:00:00-05:00</startTime>
-				<endTime type="str">2026-10-22T06:00:00-05:00</endTime>
-				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">46</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">0</value>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">0 mph</windSpeed>
-				<windDirection type="str"/>
-				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
-				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear, with a low around 46. Wind around 0 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">2</number>
-				<name type="str">Thursday</name>
-				<startTime type="str">2026-10-22T06:00:00-05:00</startTime>
+				<name type="str">Today</name>
+				<startTime type="str">2026-10-22T11:00:00-05:00</startTime>
 				<endTime type="str">2026-10-22T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">76</temperature>
@@ -81,19 +62,19 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">0 to 5 mph</windSpeed>
-				<windDirection type="str">N</windDirection>
+				<windSpeed type="str">3 mph</windSpeed>
+				<windDirection type="str">NE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/skc?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny. High near 76, with temperatures falling to around 74 in the afternoon. North wind 0 to 5 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny. High near 76, with temperatures falling to around 74 in the afternoon. Northeast wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">3</number>
-				<name type="str">Thursday Night</name>
+				<number type="int">2</number>
+				<name type="str">Tonight</name>
 				<startTime type="str">2026-10-22T18:00:00-05:00</startTime>
 				<endTime type="str">2026-10-23T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">46</temperature>
+				<temperature type="int">47</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -101,13 +82,13 @@
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">E</windDirection>
+				<windDirection type="str">ENE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
 				<shortForecast type="str">Clear</shortForecast>
-				<detailedForecast type="str">Clear. Low around 46, with temperatures rising to around 48 overnight. East wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Clear. Low around 47, with temperatures rising to around 49 overnight. East northeast wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">4</number>
+				<number type="int">3</number>
 				<name type="str">Friday</name>
 				<startTime type="str">2026-10-23T06:00:00-05:00</startTime>
 				<endTime type="str">2026-10-23T18:00:00-05:00</endTime>
@@ -117,21 +98,21 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">0</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 to 5 mph</windSpeed>
 				<windDirection type="str">E</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/skc?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 74. East wind 1 to 5 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny. High near 74, with temperatures falling to around 72 in the afternoon. East wind 1 to 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">5</number>
+				<number type="int">4</number>
 				<name type="str">Friday Night</name>
 				<startTime type="str">2026-10-23T18:00:00-05:00</startTime>
 				<endTime type="str">2026-10-24T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">44</temperature>
+				<temperature type="int">46</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -140,12 +121,12 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">E</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
-				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 44. East wind around 3 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/skc?size=medium</icon>
+				<shortForecast type="str">Clear</shortForecast>
+				<detailedForecast type="str">Clear, with a low around 46. East wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">6</number>
+				<number type="int">5</number>
 				<name type="str">Saturday</name>
 				<startTime type="str">2026-10-24T06:00:00-05:00</startTime>
 				<endTime type="str">2026-10-24T18:00:00-05:00</endTime>
@@ -158,18 +139,18 @@
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">SE</windDirection>
+				<windDirection type="str">ESE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 75. Southeast wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 75. East southeast wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">7</number>
+				<number type="int">6</number>
 				<name type="str">Saturday Night</name>
 				<startTime type="str">2026-10-24T18:00:00-05:00</startTime>
 				<endTime type="str">2026-10-25T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">47</temperature>
+				<temperature type="int">48</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -178,17 +159,17 @@
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">1 mph</windSpeed>
 				<windDirection type="str">SE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
-				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around 47. Southeast wind around 1 mph.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
+				<shortForecast type="str">Mostly Clear</shortForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 48. Southeast wind around 1 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">8</number>
+				<number type="int">7</number>
 				<name type="str">Sunday</name>
 				<startTime type="str">2026-10-25T06:00:00-05:00</startTime>
 				<endTime type="str">2026-10-25T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">76</temperature>
+				<temperature type="int">77</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -199,15 +180,15 @@
 				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 76. South southwest wind 0 to 3 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 77. South southwest wind 0 to 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">9</number>
+				<number type="int">8</number>
 				<name type="str">Sunday Night</name>
 				<startTime type="str">2026-10-25T18:00:00-05:00</startTime>
 				<endTime type="str">2026-10-26T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">48</temperature>
+				<temperature type="int">50</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -218,10 +199,10 @@
 				<windDirection type="str">SSE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 48. South southeast wind around 1 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 50. South southeast wind around 1 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">10</number>
+				<number type="int">9</number>
 				<name type="str">Monday</name>
 				<startTime type="str">2026-10-26T06:00:00-05:00</startTime>
 				<endTime type="str">2026-10-26T18:00:00-05:00</endTime>
@@ -233,87 +214,106 @@
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">0 to 3 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
+				<windSpeed type="str">1 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
 				<shortForecast type="str">Partly Sunny</shortForecast>
-				<detailedForecast type="str">Partly sunny, with a high near 75. Southwest wind 0 to 3 mph.</detailedForecast>
+				<detailedForecast type="str">Partly sunny, with a high near 75. South southwest wind around 1 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">11</number>
+				<number type="int">10</number>
 				<name type="str">Monday Night</name>
 				<startTime type="str">2026-10-26T18:00:00-05:00</startTime>
 				<endTime type="str">2026-10-27T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">47</temperature>
+				<temperature type="int">50</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="int">0</value>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">0 mph</windSpeed>
+				<windDirection type="str"/>
+				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 50. Wind around 0 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">11</number>
+				<name type="str">Tuesday</name>
+				<startTime type="str">2026-10-27T06:00:00-05:00</startTime>
+				<endTime type="str">2026-10-27T18:00:00-05:00</endTime>
+				<isDaytime type="bool">True</isDaytime>
+				<temperature type="int">73</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">1</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">1 mph</windSpeed>
-				<windDirection type="str">W</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 47. West wind around 1 mph.</detailedForecast>
+				<windSpeed type="str">0 to 3 mph</windSpeed>
+				<windDirection type="str">SSE</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
+				<shortForecast type="str">Partly Sunny</shortForecast>
+				<detailedForecast type="str">Partly sunny, with a high near 73. South southeast wind 0 to 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">12</number>
-				<name type="str">Tuesday</name>
-				<startTime type="str">2026-10-27T06:00:00-05:00</startTime>
-				<endTime type="str">2026-10-27T18:00:00-05:00</endTime>
-				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">72</temperature>
-				<temperatureUnit type="str">F</temperatureUnit>
-				<temperatureTrend type="null"/>
-				<probabilityOfPrecipitation type="dict">
-					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">2</value>
-				</probabilityOfPrecipitation>
-				<windSpeed type="str">0 to 3 mph</windSpeed>
-				<windDirection type="str">SW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
-				<shortForecast type="str">Partly Sunny</shortForecast>
-				<detailedForecast type="str">Partly sunny, with a high near 72. Southwest wind 0 to 3 mph.</detailedForecast>
-			</item>
-			<item type="dict">
-				<number type="int">13</number>
 				<name type="str">Tuesday Night</name>
 				<startTime type="str">2026-10-27T18:00:00-05:00</startTime>
 				<endTime type="str">2026-10-28T06:00:00-05:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">47</temperature>
+				<temperature type="int">50</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">2</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">NE</windDirection>
+				<windDirection type="str">SE</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 47. Northeast wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 50. Southeast wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
-				<number type="int">14</number>
+				<number type="int">13</number>
 				<name type="str">Wednesday</name>
 				<startTime type="str">2026-10-28T06:00:00-05:00</startTime>
 				<endTime type="str">2026-10-28T18:00:00-05:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">70</temperature>
+				<temperature type="int">73</temperature>
+				<temperatureUnit type="str">F</temperatureUnit>
+				<temperatureTrend type="null"/>
+				<probabilityOfPrecipitation type="dict">
+					<unitCode type="str">wmoUnit:percent</unitCode>
+					<value type="int">3</value>
+				</probabilityOfPrecipitation>
+				<windSpeed type="str">1 to 6 mph</windSpeed>
+				<windDirection type="str">SSW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
+				<shortForecast type="str">Mostly Sunny</shortForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 73. South southwest wind 1 to 6 mph.</detailedForecast>
+			</item>
+			<item type="dict">
+				<number type="int">14</number>
+				<name type="str">Wednesday Night</name>
+				<startTime type="str">2026-10-28T18:00:00-05:00</startTime>
+				<endTime type="str">2026-10-29T06:00:00-05:00</endTime>
+				<isDaytime type="bool">False</isDaytime>
+				<temperature type="int">49</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">2</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">1 to 5 mph</windSpeed>
-				<windDirection type="str">NW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
-				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 70. Northwest wind 1 to 5 mph.</detailedForecast>
+				<windSpeed type="str">3 mph</windSpeed>
+				<windDirection type="str">S</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
+				<shortForecast type="str">Mostly Clear</shortForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 49. South wind around 3 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
