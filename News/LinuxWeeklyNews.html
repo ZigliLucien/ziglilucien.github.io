@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1102061/" title="See Description">[$] The end of __get_user() and __put_user()</a></li>
 <li><a href="#https://lwn.net/Articles/1102270/" title="See Description">KeePassXC 2.8.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1099606/" title="See Description">[$] Rust features in the future</a></li>
 <li><a href="#https://lwn.net/Articles/1102265/" title="See Description">Security updates for Thursday</a></li>
@@ -52,10 +53,25 @@
 <li><a href="#https://lwn.net/Articles/1102005/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1101687/" title="See Description">Critical PHP security update coming</a></li>
 <li><a href="#https://lwn.net/Articles/1100257/" title="See Description">[$] SUSE's efforts to disable setuid system-wide</a></li>
-<li><a href="#https://lwn.net/Articles/1100520/" title="See Description">[$] Discussing a rewrite of XArray</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1102061/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 22 Oct 2026 16:25:50 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102061/" title="https://lwn.net/Articles/1102061/">[$] The end of __get_user() and __put_user()</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds rarely writes significant amounts kernel code these days, so
+the <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=22a78a25438d">merging</a>
+of a 48-part patch series from him is an unusual event.  This series,
+destined for the 7.4 kernel release, performs some long-delayed kernel
+cleanup by removing a couple of the primitives used to access user-space memory
+from the kernel.  What was once a best practice has long been superseded,
+but it can take time for such changes to work their way through a body of
+code this large.
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1102270/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 22 Oct 2026 13:34:37 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -317,25 +333,6 @@ disallow them entirely. At the <a
 href="https://all-systems-go.io/">2026&#160;All&#160;Systems&#160;Go!</a> conference, he spoke
 about his work to disable setuid system-wide, as well as some of the hurdles
 that remain.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1100520/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 20 Oct 2026 15:46:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100520/" title="https://lwn.net/Articles/1100520/">[$] Discussing a rewrite of XArray</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The work to support block sizes larger than the page size on XFS has been
-difficult. Many users of XFS run stable kernels, which means that they aren't testing
-new XFS code as it is released. That has made Daniel Gomez wonder whether
-adopting Rust for some of the data structures underlying XFS, particularly
-<a href="https://docs.kernel.org/core-api/xarray.html">
-XArrays</a>, could reduce the number of bugs lurking in the code. At
-Kangrejos 2026, he led a discussion about the potential problems with converting
-XArray to Rust. The assembled kernel developers had a number of reasons to be
-cautious about replacing the XArray code, but Gomez was determined to experiment
-with the possibility, citing both security and performance improvements.
-</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
