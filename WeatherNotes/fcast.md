@@ -54,6 +54,6 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>A chance of rain showers. Partly sunny, with a high near 74. South southeast wind around 6 mph.<br></div>
+         <h3>Sunday</h3>A chance of rain showers. Mostly cloudy, with a high near 74. South southeast wind around 6 mph.<br></div>
    </p>
 </div>
