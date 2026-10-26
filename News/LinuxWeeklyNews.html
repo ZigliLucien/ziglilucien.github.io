@@ -38,6 +38,9 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1102102/" title="See Description">[$] Python's experimental JIT to be removed</a></li>
+<li><a href="#https://lwn.net/Articles/1102973/" title="See Description">Two stable kernels for Monday</a></li>
+<li><a href="#https://lwn.net/Articles/1102970/" title="See Description">Systemd adds support for components written in Rust</a></li>
 <li><a href="#https://lwn.net/Articles/1102946/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1101211/" title="See Description">[$] The first part of the 7.4 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1100271/" title="See Description">[$] Seeking smaller kernel stacks</a></li>
@@ -50,12 +53,65 @@
 <li><a href="#https://lwn.net/Articles/1102060/" title="See Description">Today's PHP Security Release, and How We're Strengthening PHP Security (PHP Foundation)</a></li>
 <li><a href="#https://lwn.net/Articles/1102044/" title="See Description">More vulnerabilities in widely deployed software</a></li>
 <li><a href="#https://lwn.net/Articles/1100026/" title="See Description">[$] Hash-based module integrity for reproducible distributions</a></li>
-<li><a href="#https://lwn.net/Articles/1102024/" title="See Description">Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)</a></li>
-<li><a href="#https://lwn.net/Articles/1094226/" title="See Description">[$] Understanding Nix flakes</a></li>
-<li><a href="#https://lwn.net/Articles/1102014/" title="See Description">PHP patches released for two critical RCEs</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1102102/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 26 Oct 2026 15:45:58 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102102/" title="https://lwn.net/Articles/1102102/">[$] Python's experimental JIT to be removed</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Python's <a
+href="https://docs.python.org/3.13/whatsnew/3.13.html#an-experimental-just-in-time-jit-compiler">experimental
+just-in-time (JIT) compiler</a>, which was added to CPython in 2024 for the <a
+href="https://www.python.org/downloads/release/python-3130/">3.13&#160;release</a>,
+is on its way out. In June, the Python steering council <a
+href="https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638">announced</a>
+that it was pausing work on the JIT in CPython's main branch until there was an
+accepted <a href="https://peps.python.org/pep-0001">Python Enhancement
+Proposal</a> (PEP) that addressed concerns about maintenance, compatibility, and
+set clear success metrics as well as a timeline for completion. After creating
+<a href="https://peps.python.org/pep-0836/">PEP&#160;836</a> ("JIT Go Brrr: The
+Path to a Supported JIT Compiler for CPython")
+to try to meet the council's request, and after months of discussion, the
+JIT maintainers have withdrawn the PEP. For now, it appears that development on
+the once-promising project has come to an end.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1102973/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 26 Oct 2026 15:45:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102973/" title="https://lwn.net/Articles/1102973/">Two stable kernels for Monday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1102974/">7.2.13</a> and <a
+href="https://lwn.net/Articles/1102975/">6.18.59</a> stable kernels. Each contains a number of
+fixes throughout the tree. Users are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1102970/"></a></td></tr>
+<tr><td><div class="date"><tt>Mon, 26 Oct 2026 15:13:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102970/" title="https://lwn.net/Articles/1102970/">Systemd adds support for components written in Rust</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Christian Brauner has <a
+href="https://mastodon.social/@brauner/117494833311192688">announced</a> that he
+has <a href="https://github.com/systemd/systemd/pull/44324">merged support</a>
+for writing leaf components of systemd in Rust. Rust will be used only for new
+leaf components, existing code is not being ported to Rust and nothing that
+other components depend on is written in Rust.</p>
+
+<p>Brauner <a
+href="https://mastodon.social/@brauner/117494833657858840">said</a> that the
+project would like to move forward with Rust support in core systemd, "<q>but
+there are several blockers in Rust's support for dynamic libraries which
+prevents us from doing that without massively bloating every binary we
+build</q>". Assuming all goes well, it seems likely this work will appear in the
+systemd v263 release expected in December.</p>
+
+<p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1102946/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 26 Oct 2026 13:12:04 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -240,94 +296,6 @@ set</a> has undergone multiple revisions.  At the 2026 <a href="https://lpc.even
 guarantees while still providing reproducible builds, how his patches implement that, and some ideas for possible
 further work.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102024/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 Oct 2026 14:58:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102024/" title="https://lwn.net/Articles/1102024/">Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Collabora blog <a
-href="https://www.collabora.com/news-and-blog/blog/2026/10/21/upstreaming-tyr-rust-drm-and-the-linux-kernel/">provides
-an update on Tyr</a>, a driver for Arm Mali GPUs.
-<p>
-<blockquote class="bq">
-	One of our biggest challenges has been developing Tyr while the
-	Rust kernel abstractions and driver interfaces are also being
-	developed. As the driver interfaces are naturally revised and
-	improved, we have rewritten Tyr several times to adapt to the
-	larger Rust ecosystem. This not only makes progress much slower
-	than it would be with a mature API, but also stalls progress for
-	capabilities, such as job scheduling, while the abstraction is
-	properly designed, reviewed, tested, and merged upstream.
-<p>
-	But working in this evolving environment is also precisely where
-	Tyr is able to provide the most value. As a user of these new Rust
-	abstractions, Tyr helps to expose their requirements and
-	limitations. 
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1094226/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 Oct 2026 14:33:54 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1094226/" title="https://lwn.net/Articles/1094226/">[$] Understanding Nix flakes</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://wiki.nixos.org/wiki/Flakes">Nix flakes</a> are an
-experimental feature of the <a
-href="https://wiki.nixos.org/wiki/Nix_(package_manager)">Nix package-management
-tool</a> designed to build projects in a more self-contained and reproducible
-way. Despite the feature's experimental status, it has become increasingly
-popular for open-source projects to publish <tt>flake.nix</tt> files that offer
-predefined development environments and build automation even when those
-repositories may not offer an upstream package or module for the <a
-href="https://wiki.nixos.org/wiki/NixOS">NixOS Linux distribution</a>. Although
-Nix flakes have a complicated history, and the path for stabilization is
-uncertain, flakes can provide useful capabilities for projects that choose to
-include them.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102014/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 Oct 2026 13:53:18 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102014/" title="https://lwn.net/Articles/1102014/">PHP patches released for two critical RCEs</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The PHP project has <a
-href="https://www.php.net/archive/2026.php#2026-10-21-5">published</a> PHP
-versions <a href="https://www.php.net/archive/2026.php#2026-10-21-4">8.5.12</a>,
-<a href="https://www.php.net/archive/2026.php#2026-10-21-3">8.4.27</a>, <a
-href="https://www.php.net/archive/2026.php#2026-10-21-2">8.3.36</a> and <a
-href="https://www.php.net/archive/2026.php#2026-10-21-1">8.2.35</a> to address
-two critical vulnerabilities that could allow unauthenticated remote code
-execution.</p>
-
-<blockquote class="bq">
-<strong>Who is at risk:</strong> all PHP installations serving web requests,
-including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We
-consider the risk highest for mod_php, with a demonstrated exploit where an
-unauthenticated request can trigger the attack before any application code
-runs.</p>
-
-<p><strong>The vulnerabilities:</strong></p>
-
-<ul class="spacylist">
-<li><strong>RCE via OOM corruption</strong>, CVE-2026-109618 (<a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w">GHSA-w8hw-w9fx-j79w</a>): out-of-memory
-handling can interrupt PHP while internal request data is only partially initialized. Request cleanup may then treat the invalid data as valid.</li>
-<li><strong>RCE via stale global state</strong>, CVE-2026-109619 (<a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp">GHSA-6wmf-4rv5-p3rp</a>): request-owned
-internal state can survive after its backing memory has been freed. A later
-request handled by the same worker may use that stale state before normal
-initialization resets it.</li>
-</ul>
-</blockquote>
-
-<p>PHP versions older than 8.1 will not receive updates from the project, though
-the project has provided some patches for <a
-href="https://github.com/php/php-src/tree/PHP-7.4-CVE-2026-109618-109619">PHP
-7.4</a>, <a
-href="https://github.com/php/php-src/tree/PHP-8.0-CVE-2026-109618-109619">PHP
-8.0</a>, and <a
-href="https://github.com/php/php-src/tree/PHP-8.1-CVE-2026-109618-109619">PHP
-8.1</a> to assist in creating backports. According to the
-announcement, Linux distributions and vendors received patches in advance, so
-updated packages should be coming soon.</P></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
