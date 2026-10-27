@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1103212/" title="See Description">Robinson: Raspberry Pi 5 on Fedora</a></li>
 <li><a href="#https://lwn.net/Articles/1100873/" title="See Description">[$] Guidelines for panics in kernel code</a></li>
 <li><a href="#https://lwn.net/Articles/1103188/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1102102/" title="See Description">[$] Python's experimental JIT to be removed</a></li>
@@ -52,10 +53,37 @@
 <li><a href="#https://lwn.net/Articles/1099606/" title="See Description">[$] Rust features in the future</a></li>
 <li><a href="#https://lwn.net/Articles/1102265/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1100612/" title="See Description">[$] LWN.net Weekly Edition for October 22, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1102060/" title="See Description">Today's PHP Security Release, and How We're Strengthening PHP Security (PHP Foundation)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1103212/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 27 Oct 2026 18:11:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1103212/" title="https://lwn.net/Articles/1103212/">Robinson: Raspberry Pi 5 on Fedora</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Peter Robinson has written a <a
+href="https://nullr0ute.com/2026/10/raspberry-pi-5-on-fedora/">blog post</a> about
+the current state of Fedora support for Raspberry&#160;Pi&#160;5
+devices. According to Robinson, the upcoming Fedora&#160;45 release will
+work&mdash;with caveats&mdash;on
+all variants of the Raspberry&#160;Pi Model&#160;5B; the
+Compute&#160;Module&#160;5 and Pi&#160;500+ are still works in progress.
+
+<blockquote class="bq">
+For Fedora 44 release you need to have a temporary workaround when booting. If
+you update to the latest kernel/firmware straight away this isn't then needed
+beyond the first boot. The workaround isn't needed for Fedora 45 so if you're
+going to try this out I suggest you go and grab your favourite flavour of Fedora
+from the Fedora 45 release candidates and jump straight in there! You will get
+an accelerated desktop with storage/network/USB. There's not currently any
+support for sound and a number of other things.
+</blockquote>
+
+<p>See Robinson's post for instructions on creating an Fedora image to use with
+a Raspberry Pi&#160;5.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1100873/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 27 Oct 2026 13:56:24 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -259,32 +287,6 @@ smarter borrow checker.
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102060/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 Oct 2026 20:20:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102060/" title="https://lwn.net/Articles/1102060/">Today's PHP Security Release, and How We're Strengthening PHP Security (PHP Foundation)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The PHP Foundation has put out <a
-href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">a
-blog entry</a> explaining how the vulnerabilities disclosed today came
-about and why they took so long to fix.
-<p>
-<blockquote class="bq">
-	To fix the OOM problem, the PHP security team developed several
-	competing approaches, but each came with its own trade-offs:
-	backward compatibility breaks, new denial-of-service potential, or
-	requiring changes to many third-party extensions which seemed
-	impossible to coordinate. The PHP security team, operating on
-	consensus, struggled to choose between these and feared the
-	repercussions of shipping the wrong choice. Combined with the lack
-	of a known path to remote code execution and the small team of core
-	developers with the necessary deep knowledge of the engine occupied
-	with many responsibilities, this decision process caused work on a
-	fix to stall and restart repeatedly over months. We won't pretend
-	otherwise: the delay was a structural failure, caused by both the
-	security team's decision process and its lack of resources.
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
