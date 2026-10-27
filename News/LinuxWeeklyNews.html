@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1100873/" title="See Description">[$] Guidelines for panics in kernel code</a></li>
+<li><a href="#https://lwn.net/Articles/1103188/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1102102/" title="See Description">[$] Python's experimental JIT to be removed</a></li>
 <li><a href="#https://lwn.net/Articles/1102973/" title="See Description">Two stable kernels for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1102970/" title="See Description">Systemd adds support for components written in Rust</a></li>
@@ -51,11 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1102265/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1100612/" title="See Description">[$] LWN.net Weekly Edition for October 22, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1102060/" title="See Description">Today's PHP Security Release, and How We're Strengthening PHP Security (PHP Foundation)</a></li>
-<li><a href="#https://lwn.net/Articles/1102044/" title="See Description">More vulnerabilities in widely deployed software</a></li>
-<li><a href="#https://lwn.net/Articles/1100026/" title="See Description">[$] Hash-based module integrity for reproducible distributions</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1100873/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 27 Oct 2026 13:56:24 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100873/" title="https://lwn.net/Articles/1100873/">[$] Guidelines for panics in kernel code</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Alexandre Courbot spends most of his time working on the kernel doing code
+reviews. Recently, he's been wondering about what the standards should be for
+when Rust code is allowed to panic, and how it should do error handling more
+generally. Unlike many of the other talks at Kangrejos 2026, his talk was not
+presenting some existing work, but rather hoping to solicit opinions on the
+topic from the assembled Rust for Linux developers. He brought along a collection of tricky
+cases that he had run into recently to prompt discussion.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1103188/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 27 Oct 2026 13:37:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1103188/" title="https://lwn.net/Articles/1103188/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.18, brotli, buildah, container-tools:4.0, container-tools:rhel8, firefox, flatpak, freeipmi, gcc, golang, grafana, httpd, kernel, kernel-rt, libreswan, libX11, lrzsz, nodejs:14, nodejs:18, oci-seccomp-bpf-hook, podman, python-urllib3, python3.9, python38:3.8 and python38-devel:3.8, skopeo, thunderbird, xorg-x11-server, and xz), <b>Debian</b> (inkscape, swupdate, thunderbird, and valkey), <b>Fedora</b> (brotli, dolphin, helix, kernel, libical, mingw-python3, nsd, perl-Alien-Brotli, perl-Plack, perl-Plack-Middleware-ReverseProxy, rust-dua-cli, rust-gengo-bin, rust-gitui, stgit, unshield, and webkitgtk), <b>Mageia</b> (evolution, freetype2, ghostscript, kronosnet, libde265, libical, libjxl, packages, perl-DBI, perl-ExtUtils-Typemaps-Default, perl-Imager, vim, and webkit2), <b>Oracle</b> (bind, bind9.18, brotli, buildah, ca-certificates, firefox, flatpak, freeipmi, grafana, httpd, kernel, libreswan, libX11, lrzsz, nodejs22, nodejs24, nodejs:22, oci-seccomp-bpf-hook, perl-DBI:1.641, perl:5.32, postfix, postgresql16-pgvector, postgresql18-pgvector, python3.9, skopeo, unbound, xorg-x11-server, and xz), <b>Red Hat</b> (grafana, grafana-pcp, python3.12-urllib3, and python3.14-urllib3), <b>SUSE</b> (ca-certificates-mozilla, chromium, gn, cifs-utils, containerd, cpupower, cyrus-sasl, gcc13, gcc7, go1.26, go1.27, google-osconfig-agent, kernel, kubernetes-old, libsoup, libX11, libXi, openssh, podman, python-nltk, python-PyJWT, python-social-auth-core, rekor, runc, suseconnect-ng, and unbound), and <b>Ubuntu</b> (brotli and nginx).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1102102/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 26 Oct 2026 15:45:58 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,41 +285,6 @@ about and why they took so long to fix.
 	otherwise: the delay was a structural failure, caused by both the
 	security team's decision process and its lack of resources.
 </blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102044/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 Oct 2026 17:09:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102044/" title="https://lwn.net/Articles/1102044/">More vulnerabilities in widely deployed software</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The Node.js project has
-<a
-href="https://nodejs.org/en/blog/vulnerability/october-2026-security-releases">released
-a number of security updates</a> to fix, among other vulnerabilities, a
-remote-code-execution bug affecting programs that use Brotli compression. And,
-in case any programmers who use compiled languages thought they could relax, the
-<a href="https://musl.libc.org/">musl libc project</a> has also announced a
-new vulnerability: an
-<a
-href="https://lwn.net/ml/all/20261021154307.GA4413%40brightrain.aerifal.cx/">out-of-bounds
-write</a> that could potentially lead to remote code execution, although that
-has not been demonstrated.
-</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1100026/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 21 Oct 2026 16:14:55 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100026/" title="https://lwn.net/Articles/1100026/">[$] Hash-based module integrity for reproducible distributions</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>We last looked in on <a href="https://lwn.net/Articles/1012946/">hash-based integrity
-checking for kernel modules</a> just over a year and half ago.  Since that time,
-the <a
-href="https://lwn.net/ml/all/20260505-module-hashes-v5-0-e174a5a49fce@weissschuh.net/">patch
-set</a> has undergone multiple revisions.  At the 2026 <a href="https://lpc.events/">Linux Plumbers Conference</a>
-(LPC),  Thomas Weißschuh described the need for kernel-module integrity
-guarantees while still providing reproducible builds, how his patches implement that, and some ideas for possible
-further work.
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
