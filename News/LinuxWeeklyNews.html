@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1102738/" title="See Description">[$] The campaign to push Northstar into Linux distributions</a></li>
+<li><a href="#https://lwn.net/Articles/1103359/" title="See Description">Redox OS ring buffers project summary</a></li>
 <li><a href="#https://lwn.net/Articles/1103357/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1103212/" title="See Description">Robinson: Raspberry Pi 5 on Fedora</a></li>
 <li><a href="#https://lwn.net/Articles/1100873/" title="See Description">[$] Guidelines for panics in kernel code</a></li>
@@ -51,11 +53,59 @@
 <li><a href="#https://lwn.net/Articles/1102546/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1102061/" title="See Description">[$] The end of __get_user() and __put_user()</a></li>
 <li><a href="#https://lwn.net/Articles/1102270/" title="See Description">KeePassXC 2.8.0 released</a></li>
-<li><a href="#https://lwn.net/Articles/1099606/" title="See Description">[$] Rust features in the future</a></li>
-<li><a href="#https://lwn.net/Articles/1102265/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1102738/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 28 Oct 2026 14:26:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102738/" title="https://lwn.net/Articles/1102738/">[$] The campaign to push Northstar into Linux distributions</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>There is not a broad selection of mature, open-source web-browser engines
+for Linux users. Most of the browsers available for Linux are based on one of
+just three projects: Chromium's <a
+href="https://en.wikipedia.org/wiki/Blink_(browser_engine)">Blink</a>, Firefox's
+<a href="https://en.wikipedia.org/wiki/Gecko_(software)">Gecko</a>, or <a
+href="https://en.wikipedia.org/wiki/WebKit">WebKit</a>. A new entrant would
+generally be seen as a welcome alternative, but the recent campaign to push one
+of the LLM-written <a href="https://nordstjernen.org/">Nordstjernen</a> browsers
+into <a href="https://debian.org/">Debian</a> and  <a
+href="https://archlinux.org/">Arch Linux</a> has raised some questions about
+the project's development and security processes.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1103359/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 28 Oct 2026 14:05:05 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1103359/" title="https://lwn.net/Articles/1103359/">Redox OS ring buffers project summary</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>The <a href="https://redox-os.org/">Redox OS</a> project, which is a
+Unix-like microkernel-based operating system written in Rust, has published a <a
+href="https://www.redox-os.org/news/nlnet-rb-summary/">report</a> on the work
+that it has done in the last year to <a
+href="https://nlnet.nl/project/RedoxOS-ringbuffer/">implement io_uring-like
+<span class="nobreak">I/O</span></a>.</p>
+
+<blockquote class="bq">
+<p>Last year, the Redox team received a grant to develop io_uring-like Ring
+Buffer support at the system task level, as a first step towards ring buffer
+communications between the application and the majority of system services. This
+phase of the work finished up in September, as the last pieces were put in
+place.</p>
+
+<p>[...] In addition to implementing the Ring Buffer machinery for our system
+services and drivers that can support it, an <tt>io_uring</tt> and
+<tt>liburing</tt>-like API for applications was completed and
+demonstrated. There was also substantial work done on support crates, including
+an async executor for drivers.</p>
+
+<p>And there was some very exciting work on various performance improvements, to
+allow much faster switching between applications and their system services. But
+I will let the team tell you all the technical details.</p>
+</blockquote>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1103357/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 28 Oct 2026 13:10:19 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -256,30 +306,6 @@ AArch64 (i.e., ARM64) AppImage for Linux.
 <p>See the <a
 href="https://github.com/keepassxreboot/keepassxc/releases/tag/2.8.0">changelog</a>
 for a full list of new features, major changes, and bug fixes.</p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1099606/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 Oct 2026 13:19:56 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1099606/" title="https://lwn.net/Articles/1099606/">[$] Rust features in the future</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-There are several Rust features that kernel developers have been hoping to
-stabilize, but Josh Triplett wanted to describe all of the <em>other</em>
-features that the Rust project is currently working on. He spoke about the topic
-at Kangrejos 2026, leaving the assembled kernel developers with several ideas
-about how to use these upcoming Rust features in the kernel.
-The features included refinements to the type system, small syntax improvements, and a
-smarter borrow checker.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102265/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 Oct 2026 13:09:09 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102265/" title="https://lwn.net/Articles/1102265/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, go-toolset:rhel8, golang, hostapd, jackson-core, kernel, kernel-rt, librsvg2, lrzsz, mariadb11.8, openexr, openssh, openssl, perl-DBI:1.641, python-urllib3, python3.12-urllib3, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland), <b>Arch Linux</b> (php and php-legacy), <b>Debian</b> (bind9, firefox-esr, nginx, php8.2, and php8.4), <b>Fedora</b> (ca-certificates, dolphin, gnome-shell-extension-gsconnect, libdigidocpp, linux-firmware, nicotine+, perl-ExtUtils-Typemaps-Default, php, python-cairosvg, qdigidoc, rust-rustls-webpki, rust-webpki-root-certs, and rust-webpki-roots), <b>Gentoo</b> (PHP), <b>Mageia</b> (php8.5, php8.4), <b>Oracle</b> (perl-URI), <b>Red Hat</b> (go-toolset:rhel8, golang, grafana-pcp, kernel, kernel-rt, nodejs-nodemon, nodejs22, nodejs24, nodejs:22, nodejs:24, rhc, and sudo), <b>Slackware</b> (php), <b>SUSE</b> (aliyun-cli, bouncycastle, buildah, ca-certificates-mozilla, chromedriver, cifs-utils, cyrus-sasl, docker, firefox, gimp, git-bug, GraphicsMagick, libheif, libpng16, libraw, libsoup-2_4-1, mutt, onefetch, openexr, openssh, openssl-certs, php7, php8, poppler, python-hpack, python310, python313-Django4, qemu, rootlesskit, tiff, xwayland, and yt-dlp), and <b>Ubuntu</b> (c-ares, ghostscript, libsoup3, libxs-parse-keyword-perl, nss, php5, php7.0, php7.2, php7.4, php8.1, php8.3, php8.5, poppler, pyjwt, u-boot, and unbound).
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
