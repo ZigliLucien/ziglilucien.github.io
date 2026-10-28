@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1103426/" title="See Description">A report from the LPC sched_ext microconference</a></li>
 <li><a href="#https://lwn.net/Articles/1102738/" title="See Description">[$] The campaign to push Northstar into Linux distributions</a></li>
 <li><a href="#https://lwn.net/Articles/1103359/" title="See Description">Redox OS ring buffers project summary</a></li>
 <li><a href="#https://lwn.net/Articles/1103357/" title="See Description">Security updates for Wednesday</a></li>
@@ -52,10 +53,33 @@
 <li><a href="#https://lwn.net/Articles/1100271/" title="See Description">[$] Seeking smaller kernel stacks</a></li>
 <li><a href="#https://lwn.net/Articles/1102546/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1102061/" title="See Description">[$] The end of __get_user() and __put_user()</a></li>
-<li><a href="#https://lwn.net/Articles/1102270/" title="See Description">KeePassXC 2.8.0 released</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1103426/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 28 Oct 2026 22:11:43 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1103426/" title="https://lwn.net/Articles/1103426/">A report from the LPC sched_ext microconference</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Linux Plumbers Conference blog has <a
+href="https://lpc.events/blog/current/index.php/2026/10/28/the-sched_exit-microconference/">a
+report</a> from the sched_ext microconference held in Prague.
+<p>
+<blockquote class="bq">
+	Three main topics dominated the discussions
+	<ul class="spacylist">
+	<li> <b>Priority inversion and how to handle it in sched_ext</b>: lock holder and
+  	     lock waiter preemption, time slice extension, and making proxy execution
+  	     work together with BPF schedulers.</li>
+        <li> <b>Paravirtualized scheduling</b>: letting the host and guest schedulers
+  	     cooperate across the VM boundary, with sched_ext as the policy engine on
+  	     the host.</li>
+        <li> <b>Device and topology-aware scheduling</b>: using hardware feedback (Intel
+  	     HFI), device/accelerator locality and cache topology to drive task
+  	     placement.</li>
+	</ul>
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1102738/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 28 Oct 2026 14:26:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -283,29 +307,6 @@ from the kernel.  What was once a best practice has long been superseded,
 but it can take time for such changes to work their way through a body of
 code this large.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102270/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 Oct 2026 13:34:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102270/" title="https://lwn.net/Articles/1102270/">KeePassXC 2.8.0 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://keepassxc.org/blog/2026-10-21-2.8.0-released/">Version
-2.8.0</a> of the <a href="https://keepassxc.org/">KeePassXC</a> password-management application has been
-released.</p>
-
-<blockquote class="bq">
-The new release brings a lot of long-awaited new features, many bugfixes, and
-several security updates. Among the major features are the migration from Qt5 to
-Qt6, Auto-Type on Wayland (Linux), configurable keyboard shortcuts, remote
-database synchronization with external tools, quick unlock with password on
-macOS, and quick unlock via Polkit on Linux. Version 2.8.0 is also the first
-version for which we ship native ARM64 builds for Windows and an experimental
-AArch64 (i.e., ARM64) AppImage for Linux.
-</blockquote>
-
-<p>See the <a
-href="https://github.com/keepassxreboot/keepassxc/releases/tag/2.8.0">changelog</a>
-for a full list of new features, major changes, and bug fixes.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
