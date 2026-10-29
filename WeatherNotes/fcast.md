@@ -35,7 +35,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A slight chance of rain showers. Mostly cloudy, with a high near 71. South southeast wind 6 to 10 mph.<br></div>
+         <h3>Monday</h3>A slight chance of rain showers. Cloudy, with a high near 71. South southeast wind 6 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -44,19 +44,19 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>A chance of rain showers. Mostly cloudy, with a high near 73. South southeast wind 12 to 16 mph, with gusts as high as 23
+         <h3>Tuesday</h3>A chance of rain showers. Mostly cloudy, with a high near 74. South southeast wind 12 to 16 mph, with gusts as high as 23
          mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Rain showers likely. Mostly cloudy, with a low around 58. South southeast wind around 12 mph.<br></div>
+         <h3>Tuesday Night</h3>Rain showers likely. Mostly cloudy, with a low around 57. South southeast wind around 12 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Rain showers likely. Partly sunny, with a high near 70. South wind 6 to 13 mph, with gusts as high as 18 mph.<br></div>
+         <h3>Wednesday</h3>Rain showers likely. Mostly cloudy, with a high near 70. South wind 7 to 13 mph, with gusts as high as 18 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain showers before midnight. Mostly cloudy, with a low around 51. South southwest wind around 5 mph.<br></div>
+         <h3>Wednesday Night</h3>A chance of rain showers before midnight. Partly cloudy, with a low around 50. South southwest wind around 5 mph.<br></div>
    </p>
 </div>
