@@ -2,19 +2,15 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Clear. Low around 52, with temperatures rising to around 54 overnight. South southwest wind 1 to 5 mph.<br></div>
+         <h3>Today</h3>Sunny. High near 80, with temperatures falling to around 78 in the afternoon. South southwest wind 5 to 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday</h3>Sunny. High near 80, with temperatures falling to around 78 in the afternoon. South southwest wind 5 to 8 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy. Low around 53, with temperatures rising to around 55 overnight. South wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Partly cloudy. Low around 53, with temperatures rising to around 55 overnight. South wind 0 to 3 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Friday</h3>Mostly sunny, with a high near 79. East wind 0 to 5 mph.<br></div>
+         <h3>Friday</h3>Mostly sunny. High near 79, with temperatures falling to around 77 in the afternoon. East wind 0 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -26,7 +22,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>A chance of rain showers after 1am. Cloudy, with a low around 55. East southeast wind around 3 mph.<br></div>
+         <h3>Saturday Night</h3>A chance of rain showers after 1am. Cloudy, with a low around 55. East southeast wind around 3 mph. Chance of precipitation
+         is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -57,5 +54,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>A chance of rain showers. Mostly cloudy, with a high near 69. South southeast wind 6 to 9 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>A slight chance of rain showers. Mostly cloudy, with a low around 47. South wind around 5 mph.<br></div>
    </p>
 </div>
