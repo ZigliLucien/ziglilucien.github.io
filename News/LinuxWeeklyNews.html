@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1102136/" title="See Description">[$] LWN.net Weekly Edition for October 29, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1103426/" title="See Description">A report from the LPC sched_ext microconference</a></li>
 <li><a href="#https://lwn.net/Articles/1102738/" title="See Description">[$] The campaign to push Northstar into Linux distributions</a></li>
 <li><a href="#https://lwn.net/Articles/1103359/" title="See Description">Redox OS ring buffers project summary</a></li>
@@ -52,10 +53,24 @@
 <li><a href="#https://lwn.net/Articles/1101211/" title="See Description">[$] The first part of the 7.4 merge window</a></li>
 <li><a href="#https://lwn.net/Articles/1100271/" title="See Description">[$] Seeking smaller kernel stacks</a></li>
 <li><a href="#https://lwn.net/Articles/1102546/" title="See Description">Security updates for Friday</a></li>
-<li><a href="#https://lwn.net/Articles/1102061/" title="See Description">[$] The end of __get_user() and __put_user()</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1102136/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 29 Oct 2026 00:19:08 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102136/" title="https://lwn.net/Articles/1102136/">[$] LWN.net Weekly Edition for October 29, 2026</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1102136/">Front</a>: Python JIT; Kernel clean up; Rust panics; Future Rust features; Northstar browser; 7.4 merge window; Smaller kernel stacks.
+            <li> <a href="https://lwn.net/Articles/1102138/">Briefs</a>: KeePassXC 2.8.0; Redox ring buffers; Rust in systemd; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1102139/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>
+
+        </blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1103426/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 28 Oct 2026 22:11:43 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,22 +305,6 @@ re-examined: kernel stacks.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (buildah, expat, grafana, grafana-pcp, httpd, iperf3, openssh, php, php8.4, php:7.4, php:8.2, and php:8.3), <b>Debian</b> (aide, chromium, clamav, erlang, linux-6.12, roundcube, unbound, and webkit2gtk), <b>Fedora</b> (bind9-next, ca-certificates, clevis-pin-trustee, golang-x-mobile, knot-resolver, maradns, ntpsec, php, socat, and vlc), <b>Mageia</b> (golang, jq, msgpack, open-isns, perl-Mozilla-CA, roundcubemail, and sudo), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, golang, jackson-core, librsvg2, mariadb11.8, openexr, openssh, php, php8.4, php:7.4, php:8.2, php:8.3, postgresql:16, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland), <b>Red Hat</b> (ca-certificates and opentelemetry-collector), <b>SUSE</b> (aliyun-cli, amazon-ecs-init, bcel, coreutils, cups-filters, cyrus-sasl, distribution, expat, firefox, go1.26, go1.26-openssl, go1.27, guava, mutt, nvidia-open-driver-G07-signed, p11-kit, php74, php8, podman, python-soupsieve, python313-datamodel-code-generator, python313-Django5, thunderbird, and webkit2gtk3), and <b>Ubuntu</b> (openvpn, python-tornado, and zlib).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102061/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 22 Oct 2026 16:25:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102061/" title="https://lwn.net/Articles/1102061/">[$] The end of __get_user() and __put_user()</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Linus Torvalds rarely writes significant amounts of kernel code these days, so
-the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=22a78a25438d">merging</a>
-of a 48-part patch series from him is an unusual event.  This series,
-destined for the 7.4 kernel release, performs some long-delayed kernel
-cleanup by removing a couple of the primitives used to access user-space memory
-from the kernel.  What was once a best practice has long been superseded,
-but it can take time for such changes to work their way through a body of
-code this large.
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
