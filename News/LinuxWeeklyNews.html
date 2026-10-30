@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1104210/" title="See Description">Haas: Postgres 19 is late, and it's AI's fault</a></li>
+<li><a href="#https://lwn.net/Articles/1104192/" title="See Description">Remote code execution on Linux systems with multipath TCP</a></li>
+<li><a href="#https://lwn.net/Articles/1101647/" title="See Description">[$] System-call wrappers for glibc</a></li>
+<li><a href="#https://lwn.net/Articles/1104177/" title="See Description">Eight more stable kernel updates</a></li>
 <li><a href="#https://lwn.net/Articles/1104174/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1102593/" title="See Description">[$] Containers as a recognized kernel object</a></li>
 <li><a href="#https://lwn.net/Articles/1103666/" title="See Description">Security updates for Thursday</a></li>
@@ -49,13 +53,106 @@
 <li><a href="#https://lwn.net/Articles/1103212/" title="See Description">Robinson: Raspberry Pi 5 on Fedora</a></li>
 <li><a href="#https://lwn.net/Articles/1100873/" title="See Description">[$] Guidelines for panics in kernel code</a></li>
 <li><a href="#https://lwn.net/Articles/1103188/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1102102/" title="See Description">[$] Python's experimental JIT to be removed</a></li>
-<li><a href="#https://lwn.net/Articles/1102973/" title="See Description">Two stable kernels for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1102970/" title="See Description">Systemd adds support for components written in Rust</a></li>
-<li><a href="#https://lwn.net/Articles/1102946/" title="See Description">Security updates for Monday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1104210/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Oct 2026 16:52:59 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1104210/" title="https://lwn.net/Articles/1104210/">Haas: Postgres 19 is late, and it's AI's fault</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>PostgreSQL developer Robert Haas <a
+href="https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html">writes
+about the struggles</a> the project has encountered in putting together its
+next release.
+<p>
+<blockquote class="bq">
+	In the end, I don't think that the delay in shipping PostgreSQL 19
+	is particularly concerning. It is not a long delay in the grand
+	scheme of things, and it emerges directly from the project's
+	concern for quality.
+<p>
+	The long-term picture is less clear and in some ways more
+	troubling: given that we have forty years of bugs that humans were
+	unable to find but LLMs are quite capable of discovering, how are
+	we ever going to catch up, and how will PostgreSQL continue to
+	innovate? Right now, I'm not sure. What I do know is that I, and
+	many others, are working really hard to figure it out.
+</blockquote>
+<p>
+LWN <a href="https://lwn.net/Articles/1092003/">looked at the PostgreSQL 19 release</a>
+and its challenges in September.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1104192/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Oct 2026 15:45:27 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1104192/" title="https://lwn.net/Articles/1104192/">Remote code execution on Linux systems with multipath TCP</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+On October 27, LLM provider Anthropic
+<a
+href="https://www.anthropic.com/research/discovering-vulnerabilities-with-claude">reported
+on</a> a
+<a href="https://nvd.nist.gov/vuln/detail/cve-2026-98432">
+remotely exploitable use-after-free bug</a> affecting systems with
+multipath TCP listeners open. The bug works by triggering a response to a
+retransmitted SYN packet at the same moment that the TCP connection is
+established in another thread, causing the first thread to access the
+connection's options structure after the second thread has freed it. The first
+thread can then disclose kernel memory or cause a buffer overflow, writing an
+attacker-controlled payload. The fix was
+<a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e3f33b0a1d89d738e2b913dab519226eaf76e15b">
+to only free the structure after an RCU grace period</a>.
+On October 29, the Go security team
+<a
+href="https://lwn.net/ml/all/bdb0066d-471b-4689-bb85-bfcb08774706@oracle.com/">advised
+that all programs written in Go use multipath TCP by default</a>, so many
+systems may be unknowingly vulnerable. And, of course, there is always the
+possibility of related bugs in other sections of the TCP stack. Users may be
+wise to update to a patched kernel as soon as one becomes available for their
+distribution.
+</p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1101647/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Oct 2026 15:07:29 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1101647/" title="https://lwn.net/Articles/1101647/">[$] System-call wrappers for glibc</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>In a followup to his 
+<a href="https://lpc.events/event/19/contributions/2220/">session at the
+2025 Linux Plumbers Conference</a> (LPC), Carlos O'Donell returned to the topic
+of <a href="https://lpc.events/event/20/contributions/2397/">system-call
+wrappers for the GNU C library</a> (glibc) at this year's event.  This time
+around, he was joined by Florian Weimer, who is another glibc maintainer.
+The idea was to give an update on what has happened over the last year with
+regard to Linux system calls that lack a glibc wrapper, thus are only
+accessible via
+<a
+href="https://man7.org/linux/man-pages/man2/syscall.2.html"><tt>syscall()</tt></a>.  In addition, they wanted to hear from attendees about their
+needs in this area.
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1104177/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Oct 2026 14:22:39 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1104177/" title="https://lwn.net/Articles/1104177/">Eight more stable kernel updates</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1104178/">7.3.1</a>,
+<a href="https://lwn.net/Articles/1104179/">7.2.14</a>,
+<a href="https://lwn.net/Articles/1104180/">6.18.60</a>,
+<a href="https://lwn.net/Articles/1104181/">6.12.115</a>,
+<a href="https://lwn.net/Articles/1104182/">6.6.161</a>,
+<a href="https://lwn.net/Articles/1104183/">6.1.191</a>,
+<a href="https://lwn.net/Articles/1104184/">5.15.224</a>, and
+<a href="https://lwn.net/Articles/1104185/">5.10.273</a> stable kernels. As usual, he advises
+all users to update—advice that seems especially wise given the
+increased number of security-relevant bug fixes that the kernel is seeing these days.
+[Edit: the 7.2.15 stable release is already <a href="https://lwn.net/Articles/1104186">in review</a> as well.]
+</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1104174/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 30 Oct 2026 13:37:12 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -238,70 +335,6 @@ cases that he had run into recently to prompt discussion.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.18, brotli, buildah, container-tools:4.0, container-tools:rhel8, firefox, flatpak, freeipmi, gcc, golang, grafana, httpd, kernel, kernel-rt, libreswan, libX11, lrzsz, nodejs:14, nodejs:18, oci-seccomp-bpf-hook, podman, python-urllib3, python3.9, python38:3.8 and python38-devel:3.8, skopeo, thunderbird, xorg-x11-server, and xz), <b>Debian</b> (inkscape, swupdate, thunderbird, and valkey), <b>Fedora</b> (brotli, dolphin, helix, kernel, libical, mingw-python3, nsd, perl-Alien-Brotli, perl-Plack, perl-Plack-Middleware-ReverseProxy, rust-dua-cli, rust-gengo-bin, rust-gitui, stgit, unshield, and webkitgtk), <b>Mageia</b> (evolution, freetype2, ghostscript, kronosnet, libde265, libical, libjxl, packages, perl-DBI, perl-ExtUtils-Typemaps-Default, perl-Imager, vim, and webkit2), <b>Oracle</b> (bind, bind9.18, brotli, buildah, ca-certificates, firefox, flatpak, freeipmi, grafana, httpd, kernel, libreswan, libX11, lrzsz, nodejs22, nodejs24, nodejs:22, oci-seccomp-bpf-hook, perl-DBI:1.641, perl:5.32, postfix, postgresql16-pgvector, postgresql18-pgvector, python3.9, skopeo, unbound, xorg-x11-server, and xz), <b>Red Hat</b> (grafana, grafana-pcp, python3.12-urllib3, and python3.14-urllib3), <b>SUSE</b> (ca-certificates-mozilla, chromium, gn, cifs-utils, containerd, cpupower, cyrus-sasl, gcc13, gcc7, go1.26, go1.27, google-osconfig-agent, kernel, kubernetes-old, libsoup, libX11, libXi, openssh, podman, python-nltk, python-PyJWT, python-social-auth-core, rekor, runc, suseconnect-ng, and unbound), and <b>Ubuntu</b> (brotli and nginx).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102102/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 26 Oct 2026 15:45:58 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102102/" title="https://lwn.net/Articles/1102102/">[$] Python's experimental JIT to be removed</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Python's <a
-href="https://docs.python.org/3.13/whatsnew/3.13.html#an-experimental-just-in-time-jit-compiler">experimental
-just-in-time (JIT) compiler</a>, which was added to CPython in 2024 for the <a
-href="https://www.python.org/downloads/release/python-3130/">3.13&#160;release</a>,
-is on its way out. In June, the Python steering council <a
-href="https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638">announced</a>
-that it was pausing work on the JIT in CPython's main branch until there was an
-accepted <a href="https://peps.python.org/pep-0001">Python Enhancement
-Proposal</a> (PEP) that addressed concerns about maintenance, compatibility, and
-set clear success metrics as well as a timeline for completion. After creating
-<a href="https://peps.python.org/pep-0836/">PEP&#160;836</a> ("JIT Go Brrr: The
-Path to a Supported JIT Compiler for CPython")
-to try to meet the council's request, and after months of discussion, the
-JIT maintainers have withdrawn the PEP. For now, it appears that development on
-the once-promising project has come to an end.</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102973/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 26 Oct 2026 15:45:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102973/" title="https://lwn.net/Articles/1102973/">Two stable kernels for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1102974/">7.2.13</a> and <a
-href="https://lwn.net/Articles/1102975/">6.18.59</a> stable kernels. Each contains a number of
-fixes throughout the tree. Users are advised to upgrade.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102970/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 26 Oct 2026 15:13:59 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102970/" title="https://lwn.net/Articles/1102970/">Systemd adds support for components written in Rust</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Christian Brauner has <a
-href="https://mastodon.social/@brauner/117494833311192688">announced</a> that he
-has <a href="https://github.com/systemd/systemd/pull/44324">merged support</a>
-for writing leaf components of systemd in Rust. Rust will be used only for new
-leaf components, existing code is not being ported to Rust and nothing that
-other components depend on is written in Rust.</p>
-
-<p>Brauner <a
-href="https://mastodon.social/@brauner/117494833657858840">said</a> that the
-project would like to move forward with Rust support in core systemd, "<q>but
-there are several blockers in Rust's support for dynamic libraries which
-prevents us from doing that without massively bloating every binary we
-build</q>". Assuming all goes well, it seems likely this work will appear in the
-systemd v263 release expected in December.</p>
-
-<p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102946/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 26 Oct 2026 13:12:04 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102946/" title="https://lwn.net/Articles/1102946/">Security updates for Monday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php:8.1, podman, postgresql16-pgvector, postgresql18-pgvector, and python39:3.9 and python39-devel:3.9), <b>Debian</b> (brotli, caddy, imagemagick, libdatetime-timezone-perl, libheif, openjdk-17, openssl, thunderbird, tzdata, varnish, and xdg-dbus-proxy), <b>Fedora</b> (btrfs-backup-ng, chromium, dotnet10.0, dotnet8.0, dotnet9.0, firefox, gegl04, GitPython, ImageMagick, jfrog-cli, libindi, mingw-libpng, mingw-LibRaw, mingw-python-lxml, mupdf, nix, openssh, perl-Badger, perl-CLI-Simple, perl-Cpanel-JSON-XS, perl-CSS-Inliner, perl-Encoding-FixLatin, perl-HTML-Query, perl-Markdown-Render, perl-Text-CSV_XS, perl-Text-Markdown-Discount, pgbouncer, php-pecl-mongodb2, podofo, rt, and thunderbird), <b>Mageia</b> (bind, bluez, iperf, kernel-linus, and nss, rootcerts), <b>Oracle</b> (ca-certificates, cockpit-machines, expat, go-toolset:ol8, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, httpd, iperf3, openssh, and podman), <b>Red Hat</b> (freeipmi), and <b>SUSE</b> (alloy, amazon-ecs-init, aspell, aws-iam-authenticator, ca-certificates-mozilla, cifs-utils, container-suseconnect, cosign, cpupower, docker, elemental3, emacs, expat, fetchmail, ffmpeg-7, firefox-esr, ghostscript, gimp, glibc, go1.26, go1.27, google-osconfig-agent, guava, haproxy, helm, iscsiuio, jfrog-cli, kernel, kernel-devel, krb5, kubernetes, libmodplug, libsbc1, libvpx-devel, libxls-devel, mozilla-nss, mozillafirefox, openssh8.4, openssl-3, php8, python, python-base, python-doc, python-weasyprint, python311, python312, python313, python313-CairoSVG, python313-Django, python313-multidict, python313-sglang, python313-urllib3_1, python313-vllm, python314, python315, rabbitmq-server, rclone, rpcbind, squid, trivy, wpa_supplicant, xorg-x11-server, and xwayland).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
