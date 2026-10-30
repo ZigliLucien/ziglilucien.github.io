@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1102982/" title="See Description">[$] Removing binder.c</a></li>
 <li><a href="#https://lwn.net/Articles/1104210/" title="See Description">Haas: Postgres 19 is late, and it's AI's fault</a></li>
 <li><a href="#https://lwn.net/Articles/1104192/" title="See Description">Remote code execution on Linux systems with multipath TCP</a></li>
 <li><a href="#https://lwn.net/Articles/1101647/" title="See Description">[$] System-call wrappers for glibc</a></li>
@@ -52,10 +53,27 @@
 <li><a href="#https://lwn.net/Articles/1103357/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1103212/" title="See Description">Robinson: Raspberry Pi 5 on Fedora</a></li>
 <li><a href="#https://lwn.net/Articles/1100873/" title="See Description">[$] Guidelines for panics in kernel code</a></li>
-<li><a href="#https://lwn.net/Articles/1103188/" title="See Description">Security updates for Tuesday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1102982/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 30 Oct 2026 17:46:46 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102982/" title="https://lwn.net/Articles/1102982/">[$] Removing binder.c</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+The final talk at Kangrejos 2026 was about the removal of the C implementation
+of Android's
+<a href="https://source.android.com/docs/core/architecture/ipc/binder-overview">
+Binder driver</a>, the primary interprocess communication mechanism
+used on Android devices. Carlos Llamas announced that he had deleted the C
+code to general applause, and then shared some insights about what went into
+replacing the C implementation. Alice Ryhl, who has worked on the Rust
+implementation for some years, added her own thoughts about what the most
+difficult and interesting parts of the transition were.
+</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1104210/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 30 Oct 2026 16:52:59 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -327,14 +345,6 @@ presenting some existing work, but rather hoping to solicit opinions on the
 topic from the assembled Rust for Linux developers. He brought along a collection of tricky
 cases that he had run into recently to prompt discussion.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1103188/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 27 Oct 2026 13:37:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1103188/" title="https://lwn.net/Articles/1103188/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.18, brotli, buildah, container-tools:4.0, container-tools:rhel8, firefox, flatpak, freeipmi, gcc, golang, grafana, httpd, kernel, kernel-rt, libreswan, libX11, lrzsz, nodejs:14, nodejs:18, oci-seccomp-bpf-hook, podman, python-urllib3, python3.9, python38:3.8 and python38-devel:3.8, skopeo, thunderbird, xorg-x11-server, and xz), <b>Debian</b> (inkscape, swupdate, thunderbird, and valkey), <b>Fedora</b> (brotli, dolphin, helix, kernel, libical, mingw-python3, nsd, perl-Alien-Brotli, perl-Plack, perl-Plack-Middleware-ReverseProxy, rust-dua-cli, rust-gengo-bin, rust-gitui, stgit, unshield, and webkitgtk), <b>Mageia</b> (evolution, freetype2, ghostscript, kronosnet, libde265, libical, libjxl, packages, perl-DBI, perl-ExtUtils-Typemaps-Default, perl-Imager, vim, and webkit2), <b>Oracle</b> (bind, bind9.18, brotli, buildah, ca-certificates, firefox, flatpak, freeipmi, grafana, httpd, kernel, libreswan, libX11, lrzsz, nodejs22, nodejs24, nodejs:22, oci-seccomp-bpf-hook, perl-DBI:1.641, perl:5.32, postfix, postgresql16-pgvector, postgresql18-pgvector, python3.9, skopeo, unbound, xorg-x11-server, and xz), <b>Red Hat</b> (grafana, grafana-pcp, python3.12-urllib3, and python3.14-urllib3), <b>SUSE</b> (ca-certificates-mozilla, chromium, gn, cifs-utils, containerd, cpupower, cyrus-sasl, gcc13, gcc7, go1.26, go1.27, google-osconfig-agent, kernel, kubernetes-old, libsoup, libX11, libXi, openssh, podman, python-nltk, python-PyJWT, python-social-auth-core, rekor, runc, suseconnect-ng, and unbound), and <b>Ubuntu</b> (brotli and nginx).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
