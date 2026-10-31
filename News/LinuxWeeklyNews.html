@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1104262/" title="See Description">How We Could Have Backdoored Bash (Hacktron blog)</a></li>
 <li><a href="#https://lwn.net/Articles/1102982/" title="See Description">[$] Removing binder.c</a></li>
 <li><a href="#https://lwn.net/Articles/1104210/" title="See Description">Haas: Postgres 19 is late, and it's AI's fault</a></li>
 <li><a href="#https://lwn.net/Articles/1104192/" title="See Description">Remote code execution on Linux systems with multipath TCP</a></li>
@@ -52,10 +53,29 @@
 <li><a href="#https://lwn.net/Articles/1103359/" title="See Description">Redox OS ring buffers project summary</a></li>
 <li><a href="#https://lwn.net/Articles/1103357/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1103212/" title="See Description">Robinson: Raspberry Pi 5 on Fedora</a></li>
-<li><a href="#https://lwn.net/Articles/1100873/" title="See Description">[$] Guidelines for panics in kernel code</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1104262/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 31 Oct 2026 14:00:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1104262/" title="https://lwn.net/Articles/1104262/">How We Could Have Backdoored Bash (Hacktron blog)</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Hacktron blog <a
+href="https://www.hacktron.ai/blog/hacking-gnu-savannah">documents</a> how
+the group was able to compromise the GNU Savannah forge and could have
+pushed malware into any of the projects hosted there.
+<p>
+<blockquote class="bq">
+	Using Hacktron, we found that an email address like
+	<tt>`touch${IFS}/tmp/savane-rce-proof`@attacker.example</tt> gave any
+	registered user code execution on its backend. From there, we made
+	our account a superuser, impersonated Bash's maintainer, and
+	confirmed we could add an SSH key with push access to the upstream
+	Bash repository. An unpatched kernel gave us root access and access
+	to a GNU backup server. We reported it to the FSF on May 11, 2026.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1102982/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 30 Oct 2026 17:46:46 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -330,22 +350,6 @@ support for sound and a number of other things.
 a Raspberry Pi&#160;5.</p>
 
 <p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1100873/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 27 Oct 2026 13:56:24 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1100873/" title="https://lwn.net/Articles/1100873/">[$] Guidelines for panics in kernel code</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-Alexandre Courbot spends most of his time working on the kernel doing code
-reviews. Recently, he's been wondering about what the standards should be for
-when Rust code is allowed to panic, and how it should do error handling more
-generally. Unlike many of the other talks at Kangrejos 2026, his talk was not
-presenting some existing work, but rather hoping to solicit opinions on the
-topic from the assembled Rust for Linux developers. He brought along a collection of tricky
-cases that he had run into recently to prompt discussion.
-</p>
-</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
