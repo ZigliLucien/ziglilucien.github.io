@@ -36,8 +36,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A chance of rain showers before midnight, then showers and thunderstorms likely. Mostly cloudy, with a low around 55. South
-         wind 5 to 10 mph.<br></div>
+         <h3>Tuesday Night</h3>A chance of rain showers before midnight, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 55.
+         South wind 5 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -45,7 +45,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A slight chance of rain showers before midnight. Partly cloudy, with a low around 47. West northwest wind around 2 mph.<br></div>
+         <h3>Wednesday Night</h3>A slight chance of rain showers. Partly cloudy, with a low around 47. West northwest wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
