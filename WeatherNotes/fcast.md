@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Rain showers likely. Cloudy, with a high near 63. Southeast wind around 9 mph. Chance of precipitation is 60%.<br></div>
+         <h3>Today</h3>Rain showers likely. Cloudy, with a high near 63. East southeast wind 5 to 9 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
