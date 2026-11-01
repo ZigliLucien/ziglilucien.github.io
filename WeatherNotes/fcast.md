@@ -2,16 +2,11 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A chance of rain showers. Cloudy. Low around 55, with temperatures rising to around 57 overnight. Southeast wind around 6
-         mph. Chance of precipitation is 50%.<br></div>
+         <h3>Today</h3>Rain showers likely. Cloudy, with a high near 63. Southeast wind around 9 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Rain showers likely. Cloudy, with a high near 63. Southeast wind around 9 mph. Chance of precipitation is 60%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Sunday Night</h3>A slight chance of rain showers. Mostly cloudy. Low around 53, with temperatures rising to around 55 overnight. Southeast
+         <h3>Tonight</h3>A slight chance of rain showers. Mostly cloudy. Low around 53, with temperatures rising to around 55 overnight. Southeast
          wind around 7 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
@@ -30,7 +25,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 57. South wind 6 to 13 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Tuesday Night</h3>Showers and thunderstorms likely. Mostly cloudy, with a low around 57. South wind 6 to 13 mph, with gusts as high as 20 mph.
+         Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -59,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Saturday</h3>Partly sunny, with a high near 66. North northwest wind 1 to 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Saturday Night</h3>Partly cloudy, with a low around 42. North northwest wind around 2 mph.<br></div>
    </p>
 </div>
