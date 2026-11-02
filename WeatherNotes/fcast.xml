@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-11-02T14:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-11-02T10:51:24+00:00</updateTime>
-		<validTimes type="str">2026-11-02T04:00:00+00:00/P7DT21H</validTimes>
+		<generatedAt type="str">2026-11-02T15:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-11-02T15:21:14+00:00</updateTime>
+		<validTimes type="str">2026-11-02T09:00:00+00:00/P7DT16H</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Today</name>
-				<startTime type="str">2026-11-02T08:00:00-06:00</startTime>
+				<startTime type="str">2026-11-02T09:00:00-06:00</startTime>
 				<endTime type="str">2026-11-02T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
 				<temperature type="int">68</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">19</value>
+					<value type="int">41</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">12 mph</windSpeed>
-				<windDirection type="str">SSE</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/rain,20/ovc?size=medium</icon>
-				<shortForecast type="str">Slight Chance Drizzle then Cloudy</shortForecast>
-				<detailedForecast type="str">A slight chance of drizzle before noon. Cloudy, with a high near 68. South southeast wind around 12 mph, with gusts as high as 20 mph. Chance of precipitation is 20%.</detailedForecast>
+				<windSpeed type="str">5 to 12 mph</windSpeed>
+				<windDirection type="str">S</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/rain_showers,40/bkn?size=medium</icon>
+				<shortForecast type="str">Chance Rain Showers then Mostly Cloudy</shortForecast>
+				<detailedForecast type="str">A chance of rain showers before noon. Mostly cloudy, with a high near 68. South wind 5 to 12 mph, with gusts as high as 21 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
@@ -79,13 +79,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">5</value>
+					<value type="int">3</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">9 to 16 mph</windSpeed>
-				<windDirection type="str">SSE</windDirection>
+				<windDirection type="str">S</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/bkn?size=medium</icon>
 				<shortForecast type="str">Mostly Cloudy</shortForecast>
-				<detailedForecast type="str">Mostly cloudy, with a low around 61. South southeast wind 9 to 16 mph, with gusts as high as 26 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly cloudy, with a low around 61. South wind 9 to 16 mph, with gusts as high as 25 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">3</number>
@@ -93,18 +93,18 @@
 				<startTime type="str">2026-11-03T06:00:00-06:00</startTime>
 				<endTime type="str">2026-11-03T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">75</temperature>
+				<temperature type="int">76</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">66</value>
+					<value type="int">42</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">15 to 20 mph</windSpeed>
+				<windSpeed type="str">16 to 20 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/bkn/tsra,70?size=medium</icon>
-				<shortForecast type="str">Mostly Cloudy then Showers And Thunderstorms Likely</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers between 2pm and 3pm, then showers and thunderstorms likely. Mostly cloudy. High near 75, with temperatures falling to around 73 in the afternoon. South wind 15 to 20 mph, with gusts as high as 30 mph. Chance of precipitation is 70%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn/rain_showers,40?size=medium</icon>
+				<shortForecast type="str">Mostly Cloudy then Chance Rain Showers</shortForecast>
+				<detailedForecast type="str">A chance of rain showers after 2pm. Mostly cloudy. High near 76, with temperatures falling to around 74 in the afternoon. South wind 16 to 20 mph, with gusts as high as 31 mph. Chance of precipitation is 40%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">4</number>
@@ -112,18 +112,18 @@
 				<startTime type="str">2026-11-03T18:00:00-06:00</startTime>
 				<endTime type="str">2026-11-04T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">56</temperature>
+				<temperature type="int">55</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">94</value>
+					<value type="int">96</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">6 to 13 mph</windSpeed>
 				<windDirection type="str">S</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/tsra,90/tsra,60?size=medium</icon>
-				<shortForecast type="str">Showers And Thunderstorms</shortForecast>
-				<detailedForecast type="str">Showers and thunderstorms. Mostly cloudy, with a low around 56. South wind 6 to 13 mph, with gusts as high as 21 mph. Chance of precipitation is 90%.</detailedForecast>
+				<icon type="str">https://api.weather.gov/icons/land/night/tsra,100/tsra,40?size=medium</icon>
+				<shortForecast type="str">Showers And Thunderstorms then Chance Showers And Thunderstorms</shortForecast>
+				<detailedForecast type="str">Showers and thunderstorms before 11pm, then a chance of showers and thunderstorms between 11pm and 5am. Mostly cloudy, with a low around 55. South wind 6 to 13 mph, with gusts as high as 22 mph. Chance of precipitation is 100%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">5</number>
@@ -131,18 +131,18 @@
 				<startTime type="str">2026-11-04T06:00:00-06:00</startTime>
 				<endTime type="str">2026-11-04T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">69</temperature>
+				<temperature type="int">67</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">12</value>
+					<value type="int">8</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">6 to 9 mph</windSpeed>
-				<windDirection type="str">WSW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
-				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 69. West southwest wind 6 to 9 mph.</detailedForecast>
+				<windSpeed type="str">6 to 10 mph</windSpeed>
+				<windDirection type="str">SW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
+				<shortForecast type="str">Partly Sunny</shortForecast>
+				<detailedForecast type="str">Partly sunny, with a high near 67. Southwest wind 6 to 10 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">6</number>
@@ -150,18 +150,18 @@
 				<startTime type="str">2026-11-04T18:00:00-06:00</startTime>
 				<endTime type="str">2026-11-05T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">45</temperature>
+				<temperature type="int">44</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">1</value>
+					<value type="int">0</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">3 mph</windSpeed>
 				<windDirection type="str">SW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/few?size=medium</icon>
 				<shortForecast type="str">Mostly Clear</shortForecast>
-				<detailedForecast type="str">Mostly clear, with a low around 45. Southwest wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly clear, with a low around 44. Southwest wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">7</number>
@@ -169,18 +169,18 @@
 				<startTime type="str">2026-11-05T06:00:00-06:00</startTime>
 				<endTime type="str">2026-11-05T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">68</temperature>
+				<temperature type="int">69</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">2</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 7 mph</windSpeed>
-				<windDirection type="str">WSW</windDirection>
+				<windSpeed type="str">3 to 9 mph</windSpeed>
+				<windDirection type="str">SW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/few?size=medium</icon>
 				<shortForecast type="str">Sunny</shortForecast>
-				<detailedForecast type="str">Sunny, with a high near 68. West southwest wind 2 to 7 mph.</detailedForecast>
+				<detailedForecast type="str">Sunny, with a high near 69. Southwest wind 3 to 9 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">8</number>
@@ -193,13 +193,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">2</value>
+					<value type="int">6</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">WNW</windDirection>
+				<windSpeed type="str">3 mph</windSpeed>
+				<windDirection type="str">W</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around 44. West northwest wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 44. West wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">9</number>
@@ -207,18 +207,18 @@
 				<startTime type="str">2026-11-06T06:00:00-06:00</startTime>
 				<endTime type="str">2026-11-06T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">63</temperature>
+				<temperature type="int">61</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 7 mph</windSpeed>
-				<windDirection type="str">NNW</windDirection>
+				<windSpeed type="str">3 to 8 mph</windSpeed>
+				<windDirection type="str">NW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 63. North northwest wind 2 to 7 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 61. Northwest wind 3 to 8 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">10</number>
@@ -226,7 +226,7 @@
 				<startTime type="str">2026-11-06T18:00:00-06:00</startTime>
 				<endTime type="str">2026-11-07T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">40</temperature>
+				<temperature type="int">38</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
@@ -237,7 +237,7 @@
 				<windDirection type="str">NNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around 40. North northwest wind around 3 mph.</detailedForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 38. North northwest wind around 3 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">11</number>
@@ -245,18 +245,18 @@
 				<startTime type="str">2026-11-07T06:00:00-06:00</startTime>
 				<endTime type="str">2026-11-07T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">62</temperature>
+				<temperature type="int">59</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
 					<value type="int">0</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">1 to 5 mph</windSpeed>
-				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
-				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 62. North northwest wind 1 to 5 mph.</detailedForecast>
+				<windSpeed type="str">5 mph</windSpeed>
+				<windDirection type="str">NW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/day/bkn?size=medium</icon>
+				<shortForecast type="str">Partly Sunny</shortForecast>
+				<detailedForecast type="str">Partly sunny, with a high near 59. Northwest wind around 5 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">12</number>
@@ -264,18 +264,18 @@
 				<startTime type="str">2026-11-07T18:00:00-06:00</startTime>
 				<endTime type="str">2026-11-08T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">39</temperature>
+				<temperature type="int">36</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">5</value>
+					<value type="int">1</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">2 mph</windSpeed>
-				<windDirection type="str">SE</windDirection>
+				<windDirection type="str">W</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
 				<shortForecast type="str">Partly Cloudy</shortForecast>
-				<detailedForecast type="str">Partly cloudy, with a low around 39. Southeast wind around 2 mph.</detailedForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 36. West wind around 2 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">13</number>
@@ -283,18 +283,18 @@
 				<startTime type="str">2026-11-08T06:00:00-06:00</startTime>
 				<endTime type="str">2026-11-08T18:00:00-06:00</endTime>
 				<isDaytime type="bool">True</isDaytime>
-				<temperature type="int">63</temperature>
+				<temperature type="int">61</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">11</value>
+					<value type="int">9</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">2 to 9 mph</windSpeed>
+				<windSpeed type="str">2 to 7 mph</windSpeed>
 				<windDirection type="str">WNW</windDirection>
 				<icon type="str">https://api.weather.gov/icons/land/day/sct?size=medium</icon>
 				<shortForecast type="str">Mostly Sunny</shortForecast>
-				<detailedForecast type="str">Mostly sunny, with a high near 63. West northwest wind 2 to 9 mph.</detailedForecast>
+				<detailedForecast type="str">Mostly sunny, with a high near 61. West northwest wind 2 to 7 mph.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">14</number>
@@ -302,18 +302,18 @@
 				<startTime type="str">2026-11-08T18:00:00-06:00</startTime>
 				<endTime type="str">2026-11-09T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
-				<temperature type="int">38</temperature>
+				<temperature type="int">36</temperature>
 				<temperatureUnit type="str">F</temperatureUnit>
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">15</value>
+					<value type="int">5</value>
 				</probabilityOfPrecipitation>
-				<windSpeed type="str">5 mph</windSpeed>
-				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,20/sct?size=medium</icon>
-				<shortForecast type="str">Slight Chance Rain Showers then Partly Cloudy</shortForecast>
-				<detailedForecast type="str">A slight chance of rain showers before midnight. Partly cloudy, with a low around 38. North northwest wind around 5 mph.</detailedForecast>
+				<windSpeed type="str">2 mph</windSpeed>
+				<windDirection type="str">NW</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/sct?size=medium</icon>
+				<shortForecast type="str">Partly Cloudy</shortForecast>
+				<detailedForecast type="str">Partly cloudy, with a low around 36. Northwest wind around 2 mph.</detailedForecast>
 			</item>
 		</periods>
 	</properties>
