@@ -7,7 +7,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>A slight chance of drizzle before noon. Cloudy, with a high near 70. South southeast wind 7 to 12 mph, with gusts as high
+         <h3>Monday</h3>A slight chance of drizzle before noon. Cloudy, with a high near 68. South southeast wind 7 to 12 mph, with gusts as high
          as 20 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
