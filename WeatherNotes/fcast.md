@@ -3,7 +3,7 @@
    <p>
       <div style="font-size:120%">
          <h3>This Afternoon</h3>A chance of showers and thunderstorms. Partly sunny. High near 77, with temperatures falling to around 74 in the afternoon.
-         South wind around 10 mph, with gusts as high as 26 mph. Chance of precipitation is 50%.<br></div>
+         South wind around 10 mph, with gusts as high as 25 mph. Chance of precipitation is 50%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
