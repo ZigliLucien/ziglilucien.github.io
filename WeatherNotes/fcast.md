@@ -2,22 +2,22 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>A slight chance of rain showers between 3pm and 4pm, then a chance of showers and thunderstorms between 4pm and 5pm, then
-         a chance of showers and thunderstorms. Mostly cloudy. High near 77, with temperatures falling to around 74 in the afternoon.
-         South wind 12 to 18 mph, with gusts as high as 33 mph. Chance of precipitation is 40%.<br></div>
+         <h3>Today</h3>A slight chance of showers and thunderstorms between 4pm and 5pm, then a chance of showers and thunderstorms. Partly sunny.
+         High near 77, with temperatures falling to around 74 in the afternoon. South wind around 18 mph, with gusts as high as 30
+         mph. Chance of precipitation is 40%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Showers and thunderstorms before 3am. Mostly cloudy. Low around 56, with temperatures rising to around 59 overnight. South
-         wind 7 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 100%.<br></div>
+         <h3>Tonight</h3>Showers and thunderstorms before 2am. Mostly cloudy. Low around 56, with temperatures rising to around 59 overnight. South
+         southwest wind 7 to 14 mph, with gusts as high as 23 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>Partly sunny. High near 68, with temperatures falling to around 66 in the afternoon. West southwest wind 5 to 8 mph.<br></div>
+         <h3>Wednesday</h3>Partly sunny. High near 68, with temperatures falling to around 66 in the afternoon. West southwest wind 5 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Mostly clear, with a low around 45. Southwest wind around 3 mph.<br></div>
+         <h3>Wednesday Night</h3>Partly cloudy, with a low around 45. Southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
