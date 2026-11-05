@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1105464/" title="See Description">Critical security vulnerability affects OpenSSH on Alpine Linux systems</a></li>
 <li><a href="#https://lwn.net/Articles/1103480/" title="See Description">[$] LWN.net Weekly Edition for November 5, 2026</a></li>
 <li><a href="#https://lwn.net/Articles/1105130/" title="See Description">[$] Plasma X11 session removal surprises some Fedora users</a></li>
 <li><a href="#https://lwn.net/Articles/1105395/" title="See Description">Bazzite 45 released</a></li>
@@ -52,10 +53,40 @@
 <li><a href="#https://lwn.net/Articles/1100894/" title="See Description">[$] Managing the kernel CVE flood</a></li>
 <li><a href="#https://lwn.net/Articles/1104846/" title="See Description">Tor Browser 16.0 released</a></li>
 <li><a href="#https://lwn.net/Articles/1104844/" title="See Description">Security updates for Monday</a></li>
-<li><a href="#https://lwn.net/Articles/1104654/" title="See Description">Kernel prepatch 7.4-rc1</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1105464/"></a></td></tr>
+<tr><td><div class="date"><tt>Thu, 05 Nov 2026 11:39:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105464/" title="https://lwn.net/Articles/1105464/">Critical security vulnerability affects OpenSSH on Alpine Linux systems</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://openssh.com/releasenotes.html#10.6p2">Version 10.6p2</a> of
+OpenSSH has been released with a workaround for a critical vulnerability that
+affects Linux systems that use <a href="https://musl.libc.org/">musl libc</a>
+with PAM disabled, such as <a href="https://www.alpinelinux.org/">Alpine
+Linux</a>. OpenSSH developer Damien Miller <a
+href="https://hachyderm.io/@damienmiller/117563026759098135">said</a>:</p>
+
+<blockquote class="bq">
+<p>If you operate a Linux system that uses musl libc without PAM (Alpine Linux
+is one example) then stop reading and set <tt>PasswordAuthentication=no</tt> or disable
+SSH for these systems IMMEDIATELY.</p>
+
+<p>This vulnerability does not exist on non-Linux systems, Linux/glibc systems
+and Linux systems that use PAM for password authentication.</p>
+
+<p>We consider the root cause of this bug to be outside OpenSSH itself, but
+we're in a good position to deliver a mitigation quickly.</p>
+</blockquote>
+
+<p>The Alpine Linux project has <a
+href="https://fosstodon.org/@alpinelinux/117563196640515820">announced</a> that
+it will be backporting the OpenSSH fix "<q>all the way back to Alpine 3.16</q>",
+which was <a
+href="https://alpinelinux.org/posts/alpine-3.16.0-released/">released</a> in May
+2022.</p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1103480/"></a></td></tr>
 <tr><td><div class="date"><tt>Thu, 05 Nov 2026 00:42:51 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -289,32 +320,6 @@ changelog</a> for all of the updates and bug fixes.</p></blockquote></blockquote
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (firefox, java-17-openjdk, kernel, kernel-rt, mariadb:10.5, podman, python-jwt, python27:2.7, python38:3.8 and python38-devel:3.8, python39:3.9 and python39-devel:3.9, ruby:2.5, ruby:2.7, thunderbird, util-linux, and virt:rhel and virt-devel:rhel), <b>Debian</b> (chromium, eog, imagemagick, python-aiohttp, thunderbird, and vim), <b>Fedora</b> (asciinema, atuin, btrfs-backup-ng, clevis, gcc, janus, kernel, libheif, libreswan, mingw-expat, mupdf, nautilus, nicotine+, ntpd-rs, openscap, perl-DBI, python-streamlink, python3.12, retsnoop, ruby, rust-cargo-deny, rust-cargo-rpmstatus, rust-ctutils, rust-gst-plugin-reqwest, rust-rbspy, rust-resctl-bench, rust-rpki, rust-rustls-webpki, rust-sequoia-chameleon-gnupg, rust-sequoia-git, rust-sequoia-octopus-librnp, rust-webpki-root-certs, rust-webpki-roots, tpm2-tss, and vhs), <b>Oracle</b> (.NET 8.0, .NET 9.0, aspell, bind9.18, curl, httpd:2.4, java-1.8.0-openjdk, kernel, libXi, mod_auth_openidc:2.3, nodejs:24, python-pillow, and tomcat), <b>Red Hat</b> (libxml2), <b>Slackware</b> (libarchive), and <b>SUSE</b> (buildah, curl, docker, gnutls, nodejs22, and suseconnect-ng).
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1104654/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Nov 2026 00:17:08 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1104654/" title="https://lwn.net/Articles/1104654/">Kernel prepatch 7.4-rc1</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The <a href="https://lwn.net/Articles/1104653/">7.4-rc1</a> kernel prepatch is out, and
-the merge window is closed for this development cycle.
-<p>
-<blockquote class="bq">
-	This is a *BIG* merge window. I think the reason is the by now
-	obvious one, but I'm actually taking it as a good sign: I'm *much*
-	happier with the flood of AI triggered work going into the merge
-	window than it showing up mainly as extra fixes during the -rc
-	period. So I'm hoping that this merge window being larger than
-	usual is a sign that the AI fixes are becoming more part of the
-	"normal development" than a flood of fixes that go into the whole
-	stabilization phase. I think that's a much healthier model.
-</blockquote>
-<p>
-There were 18,591 non-merge changesets brought in during this merge window
-— this is not just a record, but it nearly matches the patch volume during
-the entire (record-setting) 7.3 development cycle.  So far, 2,678
-developers have contributed to 7.4; 625 of them are first-time kernel
-contributors.  Subscribers can find more details in <a
-href="https://lwn.net/ksdb/releases/v7.4/">the KSDB 7.4 page</a>.</blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
