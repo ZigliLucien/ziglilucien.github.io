@@ -1,8 +1,8 @@
 <p>
-   <h2>Freeze Watch issued November 6 at 12:11AM CST until November 8 at 8:00AM CST by NWS Paducah KY</h2>
+   <h2>Freeze Warning issued November 6 at 10:56AM CST until November 7 at 8:00AM CST by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...For the Freeze Warning, sub-freezing temperatures as low as
-      30 expected. For the Freeze Watch, sub-freezing temperatures as low
-      as 29 possible.
+      31 expected. For the Freeze Watch, sub-freezing temperatures as low
+      as 30 possible.
       
       * WHERE...Portions of the Ozark Foothills of southeast Missouri and
       south and southwest Illinois.
@@ -20,10 +20,10 @@
    </div>
 </p>
 <p>
-   <h2>Freeze Warning issued November 6 at 12:11AM CST until November 7 at 8:00AM CST by NWS Paducah KY</h2>
+   <h2>Freeze Watch issued November 6 at 10:56AM CST until November 8 at 8:00AM CST by NWS Paducah KY</h2>
    <div style="font-size:120%">* WHAT...For the Freeze Warning, sub-freezing temperatures as low as
-      30 expected. For the Freeze Watch, sub-freezing temperatures as low
-      as 29 possible.
+      31 expected. For the Freeze Watch, sub-freezing temperatures as low
+      as 30 possible.
       
       * WHERE...Portions of the Ozark Foothills of southeast Missouri and
       south and southwest Illinois.
