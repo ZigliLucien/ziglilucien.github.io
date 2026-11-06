@@ -38,6 +38,10 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1105913/" title="See Description">Videos from XDC 2026 are available</a></li>
+<li><a href="#https://lwn.net/Articles/1103190/" title="See Description">[$] Locking down hibernation for the winter</a></li>
+<li><a href="#https://lwn.net/Articles/1105902/" title="See Description">Seven stable kernels with fixes for three Xen vulnerabilities</a></li>
+<li><a href="#https://lwn.net/Articles/1105899/" title="See Description">Two stable kernels for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1105881/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1103429/" title="See Description">[$] User namespaces + file capabilities = trouble</a></li>
 <li><a href="#https://lwn.net/Articles/1105639/" title="See Description">Security updates for Thursday</a></li>
@@ -49,13 +53,74 @@
 <li><a href="#https://lwn.net/Articles/1105378/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1105131/" title="See Description">OpenSUSE Leap 16.1</a></li>
 <li><a href="#https://lwn.net/Articles/1103674/" title="See Description">[$] LLM reviews for Debian's new queue spark debate</a></li>
-<li><a href="#https://lwn.net/Articles/1105121/" title="See Description">Fedora Linux 45 released</a></li>
-<li><a href="#https://lwn.net/Articles/1105111/" title="See Description">Security updates for Tuesday</a></li>
-<li><a href="#https://lwn.net/Articles/1102739/" title="See Description">[$] The second part of the 7.4 merge window</a></li>
-<li><a href="#https://lwn.net/Articles/1104847/" title="See Description">Shutting the Door on the XCPE Botnet (Threat Intelligence)</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1105913/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Nov 2026 20:25:22 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105913/" title="https://lwn.net/Articles/1105913/">Videos from XDC 2026 are available</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Videos from the <a href="https://indico.freedesktop.org/event/12/">2026 X.Org Developers Conference</a> (XDC) are now <a href="https://www.youtube.com/@XOrgFoundation/videos">available on YouTube</a>.  XDC was held in Toronto, Ontario, Canada September 28-30.</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1103190/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Nov 2026 18:51:28 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1103190/" title="https://lwn.net/Articles/1103190/">[$] Locking down hibernation for the winter</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+When a computer hibernates, the kernel writes the contents of memory to disk and
+then shuts the system down. Resuming from hibernation involves reading that data
+back into memory, and then having the kernel pick up where it left off.
+Unfortunately, the kernel does not have
+any way to know that the data it is reading back has not been tampered with,
+which is why <a href="https://lwn.net/Articles/791863/">lockdown</a>, an optional kernel
+feature that attempts to prevent modifications to the running kernel, disables hibernation.
+Matthew Garrett, who has been working on lockdown for many years, has shared
+<a href="https://lwn.net/ml/linux-pm/20261008132532.1155166-1-matthewg@nvidia.com/">
+a patch set</a> that aims to fix this problem. His solution must also protect
+against downgrade attacks (where an attacker reboots the computer with an older
+kernel version to bypass new protections), which complicates the implementation.
+</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1105902/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Nov 2026 18:48:34 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105902/" title="https://lwn.net/Articles/1105902/">Seven stable kernels with fixes for three Xen vulnerabilities</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Hot on the heels of the <a href="https://lwn.net/Articles/1105899/">previous
+two stable kernels</a>, Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1105903/">7.3.3</a>, <a href="https://lwn.net/Articles/1105904/">6.18.62</a>,
+<a href="https://lwn.net/Articles/1105905/">6.12.116</a>, <a
+href="https://lwn.net/Articles/1105906/">6.6.162</a>, <a href="https://lwn.net/Articles/1105907/">6.1.192</a>,
+<a href="https://lwn.net/Articles/1105908/">5.15.225</a>, and <a
+href="https://lwn.net/Articles/1105909/">5.10.274</a> stable kernels. Each one only contains
+fixes for three use-after-free vulnerabilities announced today by the Xen
+security team.</p>
+
+<p>Two of the vulnerabilities could allow an attacker to cause a denial of service (DoS) for the
+entire Xen host machine with possible information leakage (<a
+href="https://lwn.net/ml/all/E1xPLfb-0000000A5rj-1W0D%40xenbits.xenproject.org/">CVE-2026-100080</a>,
+<a
+href="https://lwn.net/ml/all/E1xPLfh-0000000A5vb-11J3%40xenbits.xenproject.org/">CVE-2026-100082</a>),
+and one may allow privilege escalation as well as a DoS of the host machine (<a
+href="https://lwn.net/ml/all/E1xPLfe-0000000A5tc-0wMP%40xenbits.xenproject.org/">CVE-2026-100081</a>). Users
+should, of course, upgrade if they are using Xen.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1105899/"></a></td></tr>
+<tr><td><div class="date"><tt>Fri, 06 Nov 2026 18:09:16 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105899/" title="https://lwn.net/Articles/1105899/">Two stable kernels for Friday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Greg Kroah-Hartman has released the <a href="https://lwn.net/Articles/1105900/">7.3.2</a>
+and <a href="https://lwn.net/Articles/1105901/">6.18.61</a> stable kernels. Each contains quite
+a few changes throughout the tree; users are advised to upgrade.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1105881/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 06 Nov 2026 14:04:54 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -230,85 +295,6 @@ sending out reviews of packages entering Debian's <a href="https://wiki.debian.o
 raised a number of objections and questions about where lines should be drawn in
 the use of LLM-generated output.</p>
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1105121/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 03 Nov 2026 15:11:32 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105121/" title="https://lwn.net/Articles/1105121/">Fedora Linux 45 released</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://fedoramagazine.org/announcing-fedora-linux-45/">Fedora Linux
-45</a> has been released. This includes all editions: <a
-href="https://fedoraproject.org/workstation/">Fedora Workstation</a>, <a
-href="https://fedoraproject.org/kde/">Fedora KDE Plasma Desktop</a>, <a
-href="https://fedoraproject.org/server/">Fedora Server</a>, <a
-href="https://fedoraproject.org/cloud/">Fedora Cloud</a>, <a
-href="https://fedoraproject.org/coreos/">Fedora CoreOS</a>, and <a
-href="https://fedoraproject.org/iot/">Fedora IoT</a>, as well as the <a
-href="https://fedoraproject.org/atomic-desktops/">Atomic Desktops</a> and <a
-href="https://fedoraproject.org/spins/">Spins</a>.</p>
-
-<p>This release adds support for <a
-href="https://fedoraproject.org/wiki/Releases/45/ChangeSet#oo7_Secrets_Service_Provider">installation
-on Stratis storage</a> using Anaconda or Kickstart installs, <a
-href="https://fedoramagazine.org/migrating-away-from-unmaintained-networkmanager-vpnpluginsvpnc-and-fortisslvpn/">retires
-unmaintained VPN plugins</a> for NetworkManager, and updates Fedora's desktop
-environments, developer toolchains, and system packages. See the <a
-href="https://fedoraproject.org/wiki/Releases/45/ChangeSet">Fedora wiki
-ChangeSet page</a> for a list of major changes.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1105111/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 03 Nov 2026 14:10:12 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105111/" title="https://lwn.net/Articles/1105111/">Security updates for Tuesday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, firefox, freerdp, ghostscript, kernel, kernel-rt, libXi, perl-YAML:1.24, perl:5.32, pipewire, qt5-qtbase, redis:6, tomcat, and wireshark), <b>Debian</b> (chromium, git-annex, incus, kernel, and strongswan), <b>Fedora</b> (barman, erlang-hex_core, glib-networking, kernel, knot, liblerc, libsoup3, mingw-cfitsio, openjpeg, perl-libnet, pipx, python-pillow, python-uv-build, radicale, ruff, rust-archive-trait, rust-astral-ini, rust-astral-mail-headers, rust-astral-pubgrub, rust-astral-version-ranges, rust-astral_async_zip, rust-quick-junit, rust-tar-codec, rust-tar-framing, tpm2-tss, ty, uv, and zvbi), <b>Mageia</b> (unbound), <b>Red Hat</b> (buildah, compat-openssl10, compat-openssl11, container-tools:rhel8, delve, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, kernel, oci-seccomp-bpf-hook, openssl, opentelemetry-collector, osbuild-composer, podman, rhc, and skopeo), <b>Slackware</b> (expat), <b>SUSE</b> (ansible-core, apache-arrow, apache-commons-codec, apache-commons-io, apache-commons- logging, avalon-framework, avalon-logkit, glassfish-jsp, jsch, maven-file- management, opentest4j, aws-nitro-enclaves-cli, bouncycastle, chromedriver, chromium, cifs-utils, expat, firefox, gcc48, ghostscript, GraphicsMagick, guava, j2objc-annotations, gvfs, ImageMagick, in-toto, libsoup, nodejs22, nodejs24, praat, python-Pillow, python-PyJWT, python-soupsieve, python-sqlparse, python313-OpenEXR, python313-vllm, rootlesskit, and rqlite), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-azure, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-5.15, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux-oracle-5.15, linux-realtime, linux, linux-aws, linux-aws-fips, linux-azure, linux-azure-5.4, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux, linux-aws, linux-gcp, linux-hwe-7.0, linux-ibm, linux-oracle, linux-aws, linux-azure-fde, linux-bluefield, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, and linux-oem-7.0).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1102739/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Nov 2026 17:51:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102739/" title="https://lwn.net/Articles/1102739/">[$] The second part of the 7.4 merge window</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The 7.4 merge window, which
-<a href="https://lwn.net/Articles/1104653/">closed</a> on November 1,
-included a record-breaking 18,591 non-merge changesets.
-That is almost as many as the entire 7.3 development cycle, which had 18,765, itself a record breaker. Of
-those, 11,838 landed after <a href="https://lwn.net/Articles/1101211/">the article covering the
-first part of the merge window</a>. Most of those were bug fixes of
-various forms; it seems as though bug fixes may be crowding out feature
-additions <a href="https://lwn.net/Articles/1104210/">across the open-source ecosystem</a> to
-some extent. Still, a good number of new features were included, and a handful
-removed, in the tail end of the merge window.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1104847/"></a></td></tr>
-<tr><td><div class="date"><tt>Mon, 02 Nov 2026 14:29:37 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1104847/" title="https://lwn.net/Articles/1104847/">Shutting the Door on the XCPE Botnet (Threat Intelligence)</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>The Google Threat Intelligence blog <a
-href="https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/">describes,
-in great detail</a>, the XCPE botnet, which has just been taken down.
-<p>
-<blockquote class="bq">
-	Last week, Google and industry partners dismantled the XCPE
-	backdoor which enrolled more than 1.3 million set-top boxes into a
-	botnet. We assess with high confidence that the backdoor and botnet
-	were intentionally developed, deployed, and operated for financial
-	gain by Videostrong Technology Co., an Android Original Equipment
-	Manufacturer (OEM) and Original Device Manufacturer (ODM).
-<p>
-	Videostrong monetized the backdoor by selling access to criminal
-	affiliates and loading those affiliates' malware modules onto
-	infected devices. These secondary modules were conducting ad-fraud;
-	silently enrolling infected devices into residential proxy
-	networks; and loading additional malware onto XCPE-compromised
-	devices. 
-</blockquote></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
