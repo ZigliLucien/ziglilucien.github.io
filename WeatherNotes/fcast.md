@@ -19,7 +19,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Widespread frost after 1am. Mostly clear, with a low around 31. Wind around 0 mph.<br></div>
+         <h3>Saturday Night</h3>Widespread frost after midnight. Mostly clear, with a low around 31. Wind around 0 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -27,11 +27,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Patchy frost after 4am. Clear, with a low around 36. West southwest wind around 2 mph.<br></div>
+         <h3>Sunday Night</h3>Clear, with a low around 36. West southwest wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Patchy frost before 7am. Sunny, with a high near 67. Southwest wind 0 to 6 mph.<br></div>
+         <h3>Monday</h3>Sunny, with a high near 67. Southwest wind 0 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
