@@ -2,34 +2,33 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Widespread frost before 9am. Mostly sunny. High near 55, with temperatures falling to around 51 in the afternoon. North northwest
-         wind 0 to 3 mph.<br></div>
+         <h3>Today</h3>Mostly sunny. High near 55, with temperatures falling to around 52 in the afternoon. North northwest wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Widespread frost after midnight. Mostly clear. Low around 32, with temperatures rising to around 34 overnight. West wind around
-         1 mph.<br></div>
+         <h3>Tonight</h3>Areas of frost after midnight. Mostly clear. Low around 32, with temperatures rising to around 34 overnight. West northwest
+         wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Widespread frost before 8am. Sunny. High near 63, with temperatures falling to around 58 in the afternoon. Southwest wind
-         around 5 mph.<br></div>
+         <h3>Sunday</h3>Areas of frost before 8am. Sunny. High near 64, with temperatures falling to around 59 in the afternoon. Southwest wind 1
+         to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Mostly clear, with a low around 38. West wind around 2 mph.<br></div>
+         <h3>Sunday Night</h3>Patchy fog after 10pm. Mostly clear, with a low around 37. West wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny, with a high near 68. Southwest wind 0 to 3 mph.<br></div>
+         <h3>Monday</h3>Patchy fog before 10am. Sunny, with a high near 67. Southwest wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Clear, with a low around 42. South southwest wind around 3 mph.<br></div>
+         <h3>Monday Night</h3>Clear, with a low around 41. South southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Sunny, with a high near 70. West southwest wind around 5 mph.<br></div>
+         <h3>Tuesday</h3>Sunny, with a high near 70. Southwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
