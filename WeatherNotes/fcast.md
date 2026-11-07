@@ -2,8 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Widespread frost after 1am. Clear. Low around 31, with temperatures rising to around 33 overnight. North northwest wind around
-         2 mph.<br></div>
+         <h3>Overnight</h3>Widespread frost. Clear. Low around 31, with temperatures rising to around 33 overnight. North northwest wind around 1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
