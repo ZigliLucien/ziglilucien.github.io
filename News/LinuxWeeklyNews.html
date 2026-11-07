@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1105936/" title="See Description">Asahi Linux 7.3 progress report</a></li>
+<li><a href="#https://lwn.net/Articles/1105934/" title="See Description">Amutable Foundations: A Technical Overview</a></li>
 <li><a href="#https://lwn.net/Articles/1105913/" title="See Description">Videos from XDC 2026 are available</a></li>
 <li><a href="#https://lwn.net/Articles/1103190/" title="See Description">[$] Locking down hibernation for the winter</a></li>
 <li><a href="#https://lwn.net/Articles/1105902/" title="See Description">Seven stable kernels with fixes for three Xen vulnerabilities</a></li>
@@ -51,11 +53,65 @@
 <li><a href="#https://lwn.net/Articles/1105395/" title="See Description">Bazzite 45 released</a></li>
 <li><a href="#https://lwn.net/Articles/1104646/" title="See Description">[$] Portable Python scripts with dependencies</a></li>
 <li><a href="#https://lwn.net/Articles/1105378/" title="See Description">Security updates for Wednesday</a></li>
-<li><a href="#https://lwn.net/Articles/1105131/" title="See Description">OpenSUSE Leap 16.1</a></li>
-<li><a href="#https://lwn.net/Articles/1103674/" title="See Description">[$] LLM reviews for Debian's new queue spark debate</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1105936/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 07 Nov 2026 09:49:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105936/" title="https://lwn.net/Articles/1105936/">Asahi Linux 7.3 progress report</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>The Asahi Linux developers have put out <a
+href="https://asahilinux.org/2026/11/progress-report-7-3/">a new report</a>
+on their progress toward a Linux distribution for Apple devices.
+<p>
+<blockquote class="bq">
+	Some time ago, we were made aware of multiple attempts to exploit
+	our permissive licensing to hijack our work, with a direct view to
+	replacing the project and aggressively monetising Linux on Apple
+	Silicon. In some extreme cases, in-development feature code was
+	being lifted straight out of our personal forks and published
+	without attribution or lazily rewritten with LLM assistance to
+	obfuscate its origin. The MIT licence explicitly allows this, and
+	has no carveouts to protect against bad faith actors.
+<p>
+	As such, we made the difficult decision to begin the process of
+	transitioning all of our repositories to the GNU General Public
+	License version 2 or later. Going forward all Asahi Linux code will
+	be licenced under strong copyleft licences only. Those who do not
+	learn from history are doomed to repeat it.
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1105934/"></a></td></tr>
+<tr><td><div class="date"><tt>Sat, 07 Nov 2026 09:32:56 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105934/" title="https://lwn.net/Articles/1105934/">Amutable Foundations: A Technical Overview</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Lennart Poettering, Michael Vogt, and Joaquim Rocha have put together <a
+href="https://amutable.com/blog/amutable-foundations-technical-overview">a
+detailed overview</a> of what the Amutable Operating System (AOS) and
+associated infrastructure will look like.
+<p>
+<blockquote class="bq">
+	The image-based OS approach enables us to enforce some very strict
+	but powerful security properties, which elevate the security
+	posture of the system substantially above traditional Linux
+	systems. Specifically, let's highlight seven major essential
+	security properties of AOS here:
+<ol class="spacylist">
+<li> <b>No Shell + No SSH + No Language Interpreters</b>. By default AOS
+     does not install a UNIX shell, nor makes remote access via SSH
+     available on the nodes. Moreover, we do not install any of the usual
+     language interpreters (Python, Perl, …) by default. For most nodes a
+     shell or interpreted language support is not required and it removes a
+     whole class of attacks.
+<li> <b>Signed Images Only</b>. On AOS only images that come with Verity
+     data signed by a signing key listed in the Verity keyring may be
+     activated.
+<li> [...]
+</ol>
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1105913/"></a></td></tr>
 <tr><td><div class="date"><tt>Fri, 06 Nov 2026 20:25:22 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -261,39 +317,6 @@ Several third-party tools can now automatically install and manage those depende
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), <b>Debian</b> (apt and squid), <b>Fedora</b> (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp, rust-redlib, and selenium-manager), <b>Mageia</b> (java-latest-openjdk, java-17-openjdk, java-21-openjdk, timezone), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, bind9.16, cockpit, firefox, freerdp, gcc, ghostscript, glibc, grafana, java-17-openjdk, java-21-openjdk, kernel, kernel-uek, libXi, pipewire, pki-deps:10.6, podman, python-jwt, python-pillow, python-pyasn1, qt5-qtbase, thunderbird, tomcat, util-linux, and wireshark), <b>Red Hat</b> (dnsmasq, fence-agents, freerdp, pki-core:10.6, and thunderbird), <b>SUSE</b> (amazon-ssm-agent, aom-tools, apache2, brotli, cadvisor, chromium, cups, curl, distribution-registry, eog, gh, go-containerregistry, google-guest-agent, gvfs, haproxy, hauler, helm3, kernel, libBasicUsageEnvironment2, libcdio, libinstpatch-1_0-2, libosmocore, libreoffice, libX11, nodejs22, nvidia-open-driver-G06-signed, openssh, parted, perl-DBI, perl-mime-tools, python-pypdf, rootlesskit, rqlite, rsyslog, sssd, tomcat10, warewulf4, and xen), and <b>Ubuntu</b> (apt-cacher, bind9, bitlbee, cakephp, deluge, dmitry, e17, feh, gnome-shell, golang-github-gin-contrib-cors, gvfs, haproxy, jabberd2, libmspack, libnet-easytcp-perl, libphp-swiftmailer, libsoup2.4, libsoup3, libuser, pcre2, rear, ruby-rack, ruby-sprockets, rxvt-unicode, shapelib, sogo, vips, and yaws).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1105131/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 03 Nov 2026 17:09:48 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105131/" title="https://lwn.net/Articles/1105131/">OpenSUSE Leap 16.1</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-The openSUSE project has <a href="https://news.opensuse.org/2026/11/03/leap-unites-traditional-and-immutable/">announced</a> the release of openSUSE Leap 16.1. The release is notable for allowing both traditional installations and immutable images with transactional updates. While immutable images had previously been available for Leap Micro, they are now available across all platforms that Leap supports, including servers, desktops, and virtual machines.
-</p>
-
-<blockquote class="bq">
-"Leap's image gives the best of both for traditional and immutable users, and we expect that Tumbleweed will follow when Agama becomes the default installer for Tumbleweed as well." said Leap release manager Lubos Kocman. "The Leap Micro experience people relied on is still here, but now it shares the same release, the same life cycle and the same maintenance updates as the rest of Leap, so users only have to pick the mode that fits their workload."
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1103674/"></a></td></tr>
-<tr><td><div class="date"><tt>Tue, 03 Nov 2026 16:28:40 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1103674/" title="https://lwn.net/Articles/1103674/">[$] LLM reviews for Debian's new queue spark debate</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>The Debian project has wrestled with the topic of LLM usage for years, which
-culminated in a <a href="https://lwn.net/Articles/1087134/">general-resolution
-vote</a> this August. The project <a
-href="https://lwn.net/Articles/1091231/">voted in favor</a> of the fifth, out of
-eight, option: "<a
-href="https://www.debian.org/vote/2026/vote_002#texte">Responsible Use of
-Generative AI</a>". With the door open to LLM use, the <a
-href="https://wiki.debian.org/Teams/DFSG">DFSG, Licensing &amp; New Packages
-Team</a> (usually shortened to "DFSG team"), which is <a
-href="https://lwn.net/Articles/1043364/">relatively new</a>, has started to employ LLMs in
-sending out reviews of packages entering Debian's <a href="https://wiki.debian.org/NewQueue?pow_referer=https%3A%2F%2Fkagi.com%2F">new queue</a>. The practice has
-raised a number of objections and questions about where lines should be drawn in
-the use of LLM-generated output.</p>
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>

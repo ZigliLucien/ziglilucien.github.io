@@ -2,21 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Widespread frost. Clear. Low around 31, with temperatures rising to around 34 overnight. West northwest wind around 1 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Saturday</h3>Widespread frost before 9am. Mostly sunny. High near 55, with temperatures falling to around 51 in the afternoon. North northwest
+         <h3>Today</h3>Widespread frost before 9am. Mostly sunny. High near 55, with temperatures falling to around 51 in the afternoon. North northwest
          wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Widespread frost after midnight. Mostly clear. Low around 32, with temperatures rising to around 34 overnight. West wind around
+         <h3>Tonight</h3>Widespread frost after midnight. Mostly clear. Low around 32, with temperatures rising to around 34 overnight. West wind around
          1 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Widespread frost before 8am. Sunny, with a high near 63. Southwest wind around 5 mph.<br></div>
+         <h3>Sunday</h3>Widespread frost before 8am. Sunny. High near 63, with temperatures falling to around 58 in the afternoon. Southwest wind
+         around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -57,5 +54,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Friday</h3>Mostly sunny, with a high near 51. North northwest wind 5 to 9 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Friday Night</h3>Mostly clear, with a low around 33. North northwest wind around 3 mph.<br></div>
    </p>
 </div>
