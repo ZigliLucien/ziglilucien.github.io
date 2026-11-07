@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Areas of frost after 1am. Mostly clear. Low around 31, with temperatures rising to around 33 overnight. North northwest wind
-         around 2 mph.<br></div>
+         <h3>Overnight</h3>Widespread frost after 1am. Clear. Low around 31, with temperatures rising to around 33 overnight. North northwest wind around
+         2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -21,11 +21,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Patchy frost after 5am. Mostly clear, with a low around 38. West wind around 2 mph.<br></div>
+         <h3>Sunday Night</h3>Mostly clear, with a low around 38. West wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Patchy frost before 7am. Sunny, with a high near 68. Southwest wind 0 to 3 mph.<br></div>
+         <h3>Monday</h3>Sunny, with a high near 68. Southwest wind 0 to 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -41,11 +41,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Veterans Day</h3>A slight chance of rain showers after noon. Mostly sunny, with a high near 68. Northwest wind 1 to 6 mph.<br></div>
+         <h3>Veterans Day</h3>Mostly sunny, with a high near 68. Northwest wind 1 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A slight chance of rain showers before midnight. Partly cloudy, with a low around 42. North northwest wind 2 to 6 mph.<br></div>
+         <h3>Wednesday Night</h3>A slight chance of rain showers. Partly cloudy, with a low around 42. North northwest wind 2 to 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -53,10 +53,10 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Partly cloudy, with a low around 35. North wind around 6 mph.<br></div>
+         <h3>Thursday Night</h3>A slight chance of rain showers before midnight. Partly cloudy, with a low around 35. North wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Mostly sunny, with a high near 54. North northwest wind 5 to 9 mph.<br></div>
+         <h3>Friday</h3>Mostly sunny, with a high near 51. North northwest wind 5 to 9 mph.<br></div>
    </p>
 </div>
