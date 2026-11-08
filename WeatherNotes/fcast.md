@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Areas of frost after midnight. Mostly clear. Low around 32, with temperatures rising to around 34 overnight. North northwest
+         <h3>Tonight</h3>Areas of frost after midnight. Mostly clear. Low around 32, with temperatures rising to around 34 overnight. West northwest
          wind around 1 mph.<br></div>
    </p>
    <p>
