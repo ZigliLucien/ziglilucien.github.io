@@ -11,13 +11,13 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63128d6bfb394597214f7f153083510c49ba95e0.001.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a8be440e14d77a6bb44a32baa25106a58f2b42d.001.1</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63128d6bfb394597214f7f153083510c49ba95e0.001.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a8be440e14d77a6bb44a32baa25106a58f2b42d.001.1</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.63128d6bfb394597214f7f153083510c49ba95e0.001.1</id>
+				<id type="str">urn:oid:2.49.0.1.840.0.8a8be440e14d77a6bb44a32baa25106a58f2b42d.001.1</id>
 				<areaDesc type="str">Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
@@ -203,22 +203,16 @@
 				</affectedZones>
 				<references type="list">
 					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73e8bd76c8756004c29617ff8231429d1d1707bf.001.2</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.73e8bd76c8756004c29617ff8231429d1d1707bf.001.2</identifier>
+						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63128d6bfb394597214f7f153083510c49ba95e0.001.1</key>
+						<identifier type="str">urn:oid:2.49.0.1.840.0.63128d6bfb394597214f7f153083510c49ba95e0.001.1</identifier>
 						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-11-06T23:22:00-06:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73e8bd76c8756004c29617ff8231429d1d1707bf.002.2</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.73e8bd76c8756004c29617ff8231429d1d1707bf.002.2</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-11-06T23:22:00-06:00</sent>
+						<sent type="str">2026-11-07T10:30:00-06:00</sent>
 					</item>
 				</references>
-				<sent type="str">2026-11-07T10:30:00-06:00</sent>
-				<effective type="str">2026-11-07T10:30:00-06:00</effective>
-				<onset type="str">2026-11-07T23:00:00-06:00</onset>
-				<expires type="str">2026-11-08T03:00:00-06:00</expires>
+				<sent type="str">2026-11-07T23:05:00-06:00</sent>
+				<effective type="str">2026-11-07T23:05:00-06:00</effective>
+				<onset type="str">2026-11-07T23:05:00-06:00</onset>
+				<expires type="str">2026-11-08T08:00:00-06:00</expires>
 				<ends type="str">2026-11-08T08:00:00-06:00</ends>
 				<status type="str">Actual</status>
 				<messageType type="str">Update</messageType>
@@ -229,14 +223,13 @@
 				<event type="str">Freeze Warning</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Freeze Warning issued November 7 at 10:30AM CST until November 8 at 8:00AM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Sub-freezing temperatures as low as 31 expected.
+				<headline type="str">Freeze Warning issued November 7 at 11:05PM CST until November 8 at 8:00AM CST by NWS Paducah KY</headline>
+				<description type="str">* WHAT...Sub-freezing temperatures as low as 29.
 
-* WHERE...All of southern Illinois, southwest Indiana, western
+* WHERE...Portions of southern Illinois, southwest Indiana, western
 Kentucky, and southeast Missouri.
 
-* WHEN...From 11 PM CST /midnight EST/ this evening to 8 AM CST /9 AM
-EST/ Sunday.
+* WHEN...Until 8 AM CST /9 AM EST/ Sunday.
 
 * IMPACTS...Frost and freeze conditions could kill crops, other
 sensitive vegetation and possibly damage unprotected outdoor
@@ -249,10 +242,10 @@ plumbing.</description>
 						<item type="str">NPWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS73 KPAH 071630</item>
+						<item type="str">WWUS73 KPAH 080505</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">FREEZE WARNING REMAINS IN EFFECT FROM 11 PM CST /MIDNIGHT EST/ THIS EVENING TO 8 AM CST /9 AM EST/ SUNDAY</item>
+						<item type="str">FREEZE WARNING REMAINS IN EFFECT UNTIL 8 AM CST /9 AM EST/ SUNDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
@@ -260,11 +253,14 @@ plumbing.</description>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.FZ.W.0003.261108T0500Z-261108T1400Z/</item>
+						<item type="str">/O.CON.KPAH.FZ.W.0003.000000T0000Z-261108T1400Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2026-11-08T08:00:00-06:00</item>
 					</eventEndingTime>
+					<expiredReferences type="list">
+						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.73e8bd76c8756004c29617ff8231429d1d1707bf.002.2,2026-11-06T23:22:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.73e8bd76c8756004c29617ff8231429d1d1707bf.001.2,2026-11-06T23:22:00-06:00</item>
+					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -282,5 +278,5 @@ plumbing.</description>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-11-08T04:35:02+00:00</updated>
+	<updated type="str">2026-11-08T05:35:05+00:00</updated>
 </all>
