@@ -2,20 +2,16 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Patchy fog. Mostly clear. Low around 39, with temperatures rising to around 41 overnight. South wind around 1 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Monday</h3>Areas of fog before 9am. Sunny. High near 69, with temperatures falling to around 62 in the afternoon. Southwest wind 0 to
+         <h3>Today</h3>Areas of fog before 9am. Sunny. High near 69, with temperatures falling to around 62 in the afternoon. Southwest wind 0 to
          3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Clear. Low around 43, with temperatures rising to around 45 overnight. South southwest wind around 3 mph.<br></div>
+         <h3>Tonight</h3>Clear. Low around 43, with temperatures rising to around 45 overnight. South southwest wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Sunny, with a high near 70. Southwest wind around 5 mph.<br></div>
+         <h3>Tuesday</h3>Sunny. High near 70, with temperatures falling to around 63 in the afternoon. Southwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -28,7 +24,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 42. Northwest wind 6 to 15 mph, with gusts as high as 20 mph.<br></div>
+         <h3>Wednesday Night</h3>A chance of rain showers. Mostly cloudy, with a low around 42. Northwest wind 6 to 15 mph, with gusts as high as 20 mph. Chance
+         of precipitation is 30%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -57,5 +54,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday</h3>Sunny, with a high near 58. South southwest wind 1 to 5 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Sunday Night</h3>Mostly clear, with a low around 38. South wind around 2 mph.<br></div>
    </p>
 </div>
