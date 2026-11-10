@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1102549/" title="See Description">[$] Synaptics patent claims stop work on DisplayLink drivers</a></li>
+<li><a href="#https://lwn.net/Articles/1106542/" title="See Description">Firefox 160 released</a></li>
 <li><a href="#https://lwn.net/Articles/1106522/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1104195/" title="See Description">[$] Git considers voting to determine its LLM policy</a></li>
 <li><a href="#https://lwn.net/Articles/1106300/" title="See Description">Kernel prepatch 7.4-rc2</a></li>
@@ -51,11 +53,48 @@
 <li><a href="#https://lwn.net/Articles/1105899/" title="See Description">Two stable kernels for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1105881/" title="See Description">Security updates for Friday</a></li>
 <li><a href="#https://lwn.net/Articles/1103429/" title="See Description">[$] User namespaces + file capabilities = trouble</a></li>
-<li><a href="#https://lwn.net/Articles/1105639/" title="See Description">Security updates for Thursday</a></li>
-<li><a href="#https://lwn.net/Articles/1105464/" title="See Description">Critical security vulnerability affects OpenSSH on Alpine Linux systems</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1102549/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Nov 2026 15:38:10 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1102549/" title="https://lwn.net/Articles/1102549/">[$] Synaptics patent claims stop work on DisplayLink drivers</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>Mike Lothian owns a docking station (or dock) that uses a <a
+href="https://en.wikipedia.org/wiki/DisplayLink">DisplayLink</a> chipset
+that had, at least in his opinion, subpar performance on Linux. He
+decided to try improving the Linux driver, with LLM assistance, but ran into one
+problem that he could not solve&mdash;so he asked for help, hoping that
+Synaptics's developers would lend a hand. (DisplayLink was <a
+href="https://www.synaptics.com/company/news/displaylink">acquired by
+Synaptics</a> in 2022.) Rather than help him in improving the
+driver, however, the Synaptics legal team responded with patent infringement
+claims, a <a
+href="https://lists.freedesktop.org/archives/dri-devel/attachments/20261006/d690bb16/attachment-0001.pdf">demand</a>
+that he cease unauthorized implementation of DisplayLink technology, and threats
+of expensive legal penalties. For now, it appears that Linux users of the
+company's docks will have to continue to live without feature parity with other
+platforms.</p>
+</blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1106542/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 10 Nov 2026 15:37:42 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1106542/" title="https://lwn.net/Articles/1106542/">Firefox 160 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://www.firefox.com/en-US/firefox/160.0/releasenotes/">Version
+160</a> of the Firefox web browser has been released. Notable features in this
+release include the ability to block sites from asking to handle
+"<tt>mailto:</tt>" links, ability to play Matroska files with FLAC, MP3, or PCM
+audio, playback speed controls in the <a
+href="https://support.mozilla.org/kb/about-picture-picture-firefox">picture-in-picture</a>
+video player, and a new <a
+href="https://connect.mozilla.org/t5/discussions/mini-window-beta-is-going-live-in-firefox-160-and-we-want-your/m-p/144137#M59048">Mini
+Window feature</a> that is in early development.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1106522/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 10 Nov 2026 14:03:54 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -282,45 +321,6 @@ small patch series</a> from Josef Bacik, which is intended to address some
 situations where a process within a user namespace can elevate the
 privileges of processes outside of it.
 </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1105639/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Nov 2026 14:11:50 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105639/" title="https://lwn.net/Articles/1105639/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (dpdk, httpd:2.4, kernel, kernel-rt, mysql:8.0, php:7.4, php:8.0, qt5, ruby:2.7, ruby:3.0, tesseract, webkit2gtk3, and xorg-x11-server-Xwayland), <b>Debian</b> (imagemagick, puppet-agent, symfony, trapperkeeper-authorization-clojure, and xen), <b>Fedora</b> (3proxy, bind, bind-dyndb-ldap, curl, dhcpcd, erlang-jose, forgejo, freetype, laszip, libical, libmongocrypt, markdownlint-cli2, mongo-c-driver, openbao, pipx, python-boto3, python-botocore, python-crate-ingredients, python-lxml-html-clean, python3.11, python3.13, python3.14, python3.15, roundcubemail, rply, ruby-build, rust-app-store-connect, rust-qemu-rdp, rust-redlib, scribus, and valkey), <b>Mageia</b> (minetest, python-pypdf, stunnel, znc, and zvbi), <b>Oracle</b> (.NET 10.0, bind, brotli, cockpit, dpdk, fence-agents, freerdp, gimp, glibc, grafana, gvfs, host-metering, kernel, python-dns, qemu-kvm, raptor2, tesseract, webkit2gtk3, and xorg-x11-server-Xwayland), <b>Red Hat</b> (grafana and pcs), <b>Slackware</b> (rsync), <b>SUSE</b> (amazon-cloudwatch-agent, apache2, aws-efs-utils, brotli, cephfs, coredns, cramfs-tools, firefox-esr, fuse-overlayfs, ghostscript, GraphicsMagick, libpolkit-agent-1-0-128, libsoup, nvidia-open-driver-G07-signed, perl-Dancer2, python-PyJWT, python313-joserfc, rsyslog, switcheroo, trivy, valkey, vexctl, and xdg-desktop-portal), and <b>Ubuntu</b> (apt, libphp-adodb, net-snmp, pillow, squid, and twisted).
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1105464/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 05 Nov 2026 11:39:10 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105464/" title="https://lwn.net/Articles/1105464/">Critical security vulnerability affects OpenSSH on Alpine Linux systems</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p><a href="https://openssh.com/releasenotes.html#10.6p2">Version 10.6p2</a> of
-OpenSSH has been released with a workaround for a critical vulnerability that
-affects Linux systems that use <a href="https://musl.libc.org/">musl libc</a>
-with PAM disabled, such as <a href="https://www.alpinelinux.org/">Alpine
-Linux</a>. OpenSSH developer Damien Miller <a
-href="https://hachyderm.io/@damienmiller/117563026759098135">said</a>:</p>
-
-<blockquote class="bq">
-<p>If you operate a Linux system that uses musl libc without PAM (Alpine Linux
-is one example) then stop reading and set <tt>PasswordAuthentication=no</tt> or disable
-SSH for these systems IMMEDIATELY.</p>
-
-<p>This vulnerability does not exist on non-Linux systems, Linux/glibc systems
-and Linux systems that use PAM for password authentication.</p>
-
-<p>We consider the root cause of this bug to be outside OpenSSH itself, but
-we're in a good position to deliver a mitigation quickly.</p>
-</blockquote>
-
-<p>The Alpine Linux project has <a
-href="https://fosstodon.org/@alpinelinux/117563196640515820">announced</a> that
-it will be backporting the OpenSSH fix "<q>all the way back to Alpine 3.16</q>",
-which was <a
-href="https://alpinelinux.org/posts/alpine-3.16.0-released/">released</a> in May
-2022.</p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
