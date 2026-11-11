@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1106903/" title="See Description">Zellij 0.46 released</a></li>
+<li><a href="#https://lwn.net/Articles/1106901/" title="See Description">In Memoriam: Tim Peters 1952–2026</a></li>
 <li><a href="#https://lwn.net/Articles/1105134/" title="See Description">[$] Additional hardening for the glibc dynamic linker</a></li>
 <li><a href="#https://lwn.net/Articles/1106876/" title="See Description">Security updates for Wednesday</a></li>
 <li><a href="#https://lwn.net/Articles/1106569/" title="See Description">Three new stable kernels for Tuesday</a></li>
@@ -51,11 +53,55 @@
 <li><a href="#https://lwn.net/Articles/1105936/" title="See Description">Asahi Linux 7.3 progress report</a></li>
 <li><a href="#https://lwn.net/Articles/1105934/" title="See Description">Amutable Foundations: A Technical Overview</a></li>
 <li><a href="#https://lwn.net/Articles/1105913/" title="See Description">Videos from XDC 2026 are available</a></li>
-<li><a href="#https://lwn.net/Articles/1103190/" title="See Description">[$] Locking down hibernation for the winter</a></li>
-<li><a href="#https://lwn.net/Articles/1105902/" title="See Description">Seven stable kernels with fixes for three Xen vulnerabilities</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1106903/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 11 Nov 2026 17:26:48 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1106903/" title="https://lwn.net/Articles/1106903/">Zellij 0.46 released</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://github.com/zellij-org/zellij/releases/tag/v0.46.0">Version
+0.46</a> of the <a href="https://zellij.dev/">Zellij</a> terminal workspace has
+been released.</p>
+
+<blockquote class="bq">
+<p>This release includes a major addition in Zellij: Zellij is now also a
+desktop terminal. To run it: <tt>zellij terminal</tt>. It works on linux, mac and
+windows.</p>
+
+<p>Nothing changes for the normal multiplexer - Zellij can still run inside
+another terminal. Both sessions are the same and can be shared.</p>
+</blockquote>
+
+<p>Additional features in this release include a
+GUI settings screen, session previews, and right-click menu. See <a
+href="https://zellij.dev/news/terminal-inbox-session-previews/">this walkthrough</a>
+for more on the 0.46 release.</p>
+
+<p></p></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1106901/"></a></td></tr>
+<tr><td><div class="date"><tt>Wed, 11 Nov 2026 17:12:51 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1106901/" title="https://lwn.net/Articles/1106901/">In Memoriam: Tim Peters 1952–2026</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Guido van Rossum <a
+href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028">conveys
+the sad (and somewhat delayed) news</a> of the passing of Tim Peters.
+<p>
+<blockquote class="bq">
+	It's hard to overestimate Tim's influence on Python. He's probably
+	best known for writing the Zen of Python (<a
+	href="https://peps.python.org/pep-0020/">PEP 20</a>), but to me he
+	was a mentor and language co-designer long before that.
+<p>
+	Tim found Python not long after its initial release. His first deed
+	was to convince me that Python should support mixed arithmetic
+	between int and float, because most users would expect them to work
+	that way. And he never stopped contributing.
+</blockquote></blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1105134/"></a></td></tr>
 <tr><td><div class="date"><tt>Wed, 11 Nov 2026 14:35:29 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -290,53 +336,6 @@ associated infrastructure will look like.
 <div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
 </div></td></tr>
 <tr><td><div class="item"><blockquote><blockquote>Videos from the <a href="https://indico.freedesktop.org/event/12/">2026 X.Org Developers Conference</a> (XDC) are now <a href="https://www.youtube.com/@XOrgFoundation/videos">available on YouTube</a>.  XDC was held in Toronto, Ontario, Canada September 28-30.</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1103190/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 06 Nov 2026 18:51:28 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1103190/" title="https://lwn.net/Articles/1103190/">[$] Locking down hibernation for the winter</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>
-When a computer hibernates, the kernel writes the contents of memory to disk and
-then shuts the system down. Resuming from hibernation involves reading that data
-back into memory, and then having the kernel pick up where it left off.
-Unfortunately, the kernel does not have
-any way to know that the data it is reading back has not been tampered with,
-which is why <a href="https://lwn.net/Articles/791863/">lockdown</a>, an optional kernel
-feature that attempts to prevent modifications to the running kernel, disables hibernation.
-Matthew Garrett, who has been working on lockdown for many years, has shared
-<a href="https://lwn.net/ml/linux-pm/20261008132532.1155166-1-matthewg@nvidia.com/">
-a patch set</a> that aims to fix this problem. His solution must also protect
-against downgrade attacks (where an attacker reboots the computer with an older
-kernel version to bypass new protections), which complicates the implementation.
-</p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1105902/"></a></td></tr>
-<tr><td><div class="date"><tt>Fri, 06 Nov 2026 18:48:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1105902/" title="https://lwn.net/Articles/1105902/">Seven stable kernels with fixes for three Xen vulnerabilities</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Hot on the heels of the <a href="https://lwn.net/Articles/1105899/">previous
-two stable kernels</a>, Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1105903/">7.3.3</a>, <a href="https://lwn.net/Articles/1105904/">6.18.62</a>,
-<a href="https://lwn.net/Articles/1105905/">6.12.116</a>, <a
-href="https://lwn.net/Articles/1105906/">6.6.162</a>, <a href="https://lwn.net/Articles/1105907/">6.1.192</a>,
-<a href="https://lwn.net/Articles/1105908/">5.15.225</a>, and <a
-href="https://lwn.net/Articles/1105909/">5.10.274</a> stable kernels. Each one only contains
-fixes for three use-after-free vulnerabilities announced today by the Xen
-security team.</p>
-
-<p>Two of the vulnerabilities could allow an attacker to cause a denial of service (DoS) for the
-entire Xen host machine with possible information leakage (<a
-href="https://lwn.net/ml/all/E1xPLfb-0000000A5rj-1W0D%40xenbits.xenproject.org/">CVE-2026-100080</a>,
-<a
-href="https://lwn.net/ml/all/E1xPLfh-0000000A5vb-11J3%40xenbits.xenproject.org/">CVE-2026-100082</a>),
-and one may allow privilege escalation as well as a DoS of the host machine (<a
-href="https://lwn.net/ml/all/E1xPLfe-0000000A5tc-0wMP%40xenbits.xenproject.org/">CVE-2026-100081</a>). Users
-should, of course, upgrade if they are using Xen.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>

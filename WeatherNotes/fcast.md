@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Veterans Day</h3>Sunny. High near 72, with temperatures falling to around 68 in the afternoon. West southwest wind 10 to 14 mph, with gusts
-         as high as 22 mph.<br></div>
+         <h3>Veterans Day</h3>Sunny. High near 72, with temperatures falling to around 68 in the afternoon. West wind around 14 mph, with gusts as high
+         as 22 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -40,11 +40,11 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Partly cloudy, with a low around 32. East northeast wind around 2 mph.<br></div>
+         <h3>Sunday Night</h3>Partly cloudy, with a low around 31. East northeast wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Sunny, with a high near 52. East northeast wind around 5 mph.<br></div>
+         <h3>Monday</h3>Mostly sunny, with a high near 52. East northeast wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -56,6 +56,6 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Mostly clear, with a low around 32. East wind around 2 mph.<br></div>
+         <h3>Tuesday Night</h3>Clear, with a low around 32. East wind around 2 mph.<br></div>
    </p>
 </div>
