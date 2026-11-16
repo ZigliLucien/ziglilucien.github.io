@@ -30,7 +30,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Mostly clear, with a low around 45. South southeast wind around 2 mph.<br></div>
+         <h3>Thursday Night</h3>Mostly clear, with a low around 44. South southeast wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
