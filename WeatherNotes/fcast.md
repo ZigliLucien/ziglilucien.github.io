@@ -6,15 +6,15 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Mostly clear, with a low around 34. East wind around 2 mph.<br></div>
+         <h3>Tonight</h3>Mostly clear, with a low around 34. East southeast wind around 2 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Sunny. High near 62, with temperatures falling to around 54 in the afternoon. Southeast wind 0 to 5 mph.<br></div>
+         <h3>Tuesday</h3>Sunny. High near 62, with temperatures falling to around 54 in the afternoon. Southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>Clear, with a low around 36. South southeast wind around 3 mph.<br></div>
+         <h3>Tuesday Night</h3>Mostly clear, with a low around 36. Southeast wind around 3 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
