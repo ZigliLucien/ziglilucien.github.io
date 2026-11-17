@@ -38,6 +38,8 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1108155/" title="See Description">Redict deprecated in favor of Valkey</a></li>
+<li><a href="#https://lwn.net/Articles/1106913/" title="See Description">[$] Zellij manages terminal workspaces with style</a></li>
 <li><a href="#https://lwn.net/Articles/1108142/" title="See Description">Three stable kernels for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1108140/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1102988/" title="See Description">[$] A new generation of futexes</a></li>
@@ -51,11 +53,52 @@
 <li><a href="#https://lwn.net/Articles/1107173/" title="See Description">Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)</a></li>
 <li><a href="#https://lwn.net/Articles/1107152/" title="See Description">Introducing Polo: a Wayland MATE compositor</a></li>
 <li><a href="#https://lwn.net/Articles/1105400/" title="See Description">[$] C++26 contract confusion</a></li>
-<li><a href="#https://lwn.net/Articles/1107151/" title="See Description">Stenberg: 30 years of Internet transfers with curl</a></li>
-<li><a href="#https://lwn.net/Articles/1107146/" title="See Description">Security updates for Thursday</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1108155/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 17 Nov 2026 16:20:44 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1108155/" title="https://lwn.net/Articles/1108155/">Redict deprecated in favor of Valkey</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p>
+Drew DeVault has
+<a href="https://redict.io/posts/2026-11-17-redict-deprecated/">announced</a> that
+<a href="https://redict.io">Redict</a>, a fork of <a href="https://redis.io/">Redis</a> that was created in response to
+<a href="https://lwn.net/Articles/966631/">Redis's 2024 license change</a>, has been deprecated. He recommends switching to <a href="https://valkey.io/">Valkey</a>, the permissively licensed Redis fork supported by the Linux Foundation. The two projects are mutually compatible, so switching should be as simple as changing which package is installed and renaming the configuration file.
+</p>
+
+<blockquote class="bq">
+<p>
+I had hoped to rally the Redis diaspora around a copyleft initiative, to protect ourselves from future rug-pulls, and made Redict to serve this purpose. However, with the valkey project's success, and Redis's return to a copyleft license, Redict was not able to build a sustainable community.
+</p>
+<p>
+We recommend that Redict users switch to valkey, which uses a permissive license but has better long-term prospects. We advise against switching back to Redis; though it is once again open source, and copyleft, it uses a contributor license agreement which will facilitate another rug-pull when Redis has a bad financial quarter.
+</p>
+</blockquote></blockquote></blockquote></div></td></tr>
+<tr><td><a name="https://lwn.net/Articles/1106913/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 17 Nov 2026 15:27:38 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1106913/" title="https://lwn.net/Articles/1106913/">[$] Zellij manages terminal workspaces with style</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote><p><a href="https://zellij.dev">Zellij</a> is a relatively new entrant in the
+<a
+href="https://en.wikipedia.org/wiki/Terminal_multiplexer">terminal-multiplexer</a>
+category. Like <a href="https://www.gnu.org/software/screen/">GNU
+Screen</a> and <a href="https://github.com/tmux/tmux/wiki">tmux</a> it gives
+users the ability to manage a workspace inside a terminal with split panes,
+provides session management, and so forth; but Zellij also includes a web server for
+browser access to a terminal session, is extensible via a plugin API, and is likely
+more beginner-friendly than its predecessors. Its most recent release, <a
+href="https://github.com/zellij-org/zellij/releases/tag/v0.46.0">version&#160;0.46</a>,
+adds a standalone terminal emulator, a built-in inbox for notifications, and a settings
+screen so users can configure the application without fussing with
+configuration files. While the low version number might suggest that it is not
+yet ready for serious use, it seems stable and full-featured enough to
+meet the needs of many users.</p>
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1108142/"></a></td></tr>
 <tr><td><div class="date"><tt>Tue, 17 Nov 2026 14:25:10 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -300,37 +343,6 @@ presented by Working Group 21, leaving the future of the C++26 standard in
 doubt. The decision was driven by controversy around a proposed new "contracts"
 feature that would add pre- and post-conditions to function signatures.
 </p>
-</blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1107151/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Nov 2026 14:24:47 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1107151/" title="https://lwn.net/Articles/1107151/">Stenberg: 30 years of Internet transfers with curl</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Daniel Stenberg <a
-href="https://daniel.haxx.se/blog/2026/11/11/30-years-of-internet-transfers-with-curl/">reflects</a>
-on the 30th anniversary of the curl project.
-<p>
-<blockquote class="bq">
-	libcurl runs in an estimated thirty billion installations today. It
-	is a rough estimate since the majority of all libcurl users never
-	tell us they use it, but we need to find it mentioned in their
-	credit screens, open source license windows or their manuals. A
-	super popular app might use libcurl today and not tomorrow, or vice
-	versa, which can make the numbers shift by several billions
-	overnight. In reality of course, once the pulse raise has calmed
-	down and your ego is content, these numbers do not matter. In our
-	corner of the world, things don't change notably when we go from a
-	thousand installs to billions. We still work with similar people,
-	in similar ways, with similar challenges.
-</blockquote></blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1107146/"></a></td></tr>
-<tr><td><div class="date"><tt>Thu, 12 Nov 2026 14:13:00 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1107146/" title="https://lwn.net/Articles/1107146/">Security updates for Thursday</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>Debian</b> (aodh, apache2, dnspython, firefox-esr, mutt, octavia, spip, thunderbird, and watcher), <b>Fedora</b> (epiphany, firefox, freerdp, java-25-openjdk, java-latest-openjdk, libsoup3, perl-HTTP-Parser-XS, perl-libnet, php-getid3, pipx, python-crate-ingredients, python-pillow, python-robotframework, python3.9, rsync, rubygem-nokogiri, tpm2-tss, udns, and xorg-x11-server-Xwayland), <b>Gentoo</b> (curl, ImageMagick, libheif, and PCRE2), <b>Mageia</b> (nginx and python-django), <b>Oracle</b> (go-toolset:rhel8, libimobiledevice, nodejs:22, util-linux, and vim), <b>Red Hat</b> (.NET 10.0, .NET 8.0, .NET 9.0, cockpit, freerdp, gdb, go-fdo-client, grafana-pcp, ignition, kernel, kernel-rt, krb5, openssh, openssl, osbuild-composer, rpm, rsync, and webkit2gtk3), <b>Slackware</b> (git, httpd, and tigervnc), <b>SUSE</b> (aliyun-cli, alloy, apache-parent, aqute-bnd, google-gson, logback, maven, maven-artifact-transfer, maven-parent, maven-resolver, methanol, osgi-service- subsystem, slf4j, xmvn, bcel, benchdnn, containerd, distribution, dpdk, efivar, elemental, elemental-register, elemental-system-agent, elemental-toolkit, firefox, kernel, liblldpctl4, libonnxruntime1, openssl-1_0_0, openssl-1_1, openvpn, pcre2, perl-Net-DNS, perl-Plack, perl-Starman, psqlODBC, python-M2Crypto, python-Pillow, python-Twisted, python-urllib3_1, python313-djangorestframework, python313-fpdf2, python313-langgraph-sdk, python313-nltk, rust-keylime, skopeo, traefik, zchunk, and zvbi), and <b>Ubuntu</b> (asyncpg, awl, btrbk, davical, dotnet8, dotnet10, dotnet11, libfcgi, linux-raspi, logback, mysql-8.0, mysql-8.4, mysql-9.7, network-manager-ssh, node-babel, php-pecl-http, prosody-modules, rkhunter, ruby-actionpack-page-caching, ruby-jwt, ruby-kramdown, shiro, snmptt, and yodl).
 </blockquote></blockquote></div></td></tr>
 </table>
 </body>
