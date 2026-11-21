@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Sunny. High near 73, with temperatures falling to around 67 in the afternoon. South wind around 8 mph.<br></div>
+         <h3>This Afternoon</h3>Sunny. High near 73, with temperatures falling to around 67 in the afternoon. South wind 6 to 9 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -35,15 +35,15 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A slight chance of rain and snow. Mostly cloudy, with a high near 45. North northeast wind around 7 mph.<br></div>
+         <h3>Wednesday</h3>A slight chance of rain and snow showers. Mostly cloudy, with a high near 45. North northeast wind around 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Partly cloudy, with a low around 25. North wind around 3 mph.<br></div>
+         <h3>Wednesday Night</h3>Mostly cloudy, with a low around 25. North wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thanksgiving Day</h3>Partly sunny, with a high near 48. North northwest wind around 5 mph.<br></div>
+         <h3>Thanksgiving Day</h3>Mostly sunny, with a high near 48. North northwest wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -51,7 +51,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Mostly sunny, with a high near 51. West wind around 3 mph.<br></div>
+         <h3>Friday</h3>Mostly sunny, with a high near 51. West wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
