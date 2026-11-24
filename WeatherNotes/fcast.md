@@ -6,17 +6,15 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday</h3>Partly sunny. High near 46, with temperatures falling to around 42 in the afternoon. North northeast wind 7 to 10 mph.<br></div>
+         <h3>Tuesday</h3>Partly sunny. High near 46, with temperatures falling to around 42 in the afternoon. Northeast wind 7 to 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A slight chance of snow after 5am. Mostly cloudy. Low around 26, with temperatures rising to around 29 overnight. North northeast
-         wind around 6 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Tuesday Night</h3>Mostly cloudy. Low around 26, with temperatures rising to around 29 overnight. North northeast wind around 6 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of snow before 9am, then rain. Cloudy, with a high near 41. North northeast wind around 8 mph. Chance of precipitation
-         is 90%.<br></div>
+         <h3>Wednesday</h3>Rain after 9am. Cloudy, with a high near 41. North northeast wind around 8 mph. Chance of precipitation is 90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
