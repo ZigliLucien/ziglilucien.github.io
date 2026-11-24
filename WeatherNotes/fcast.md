@@ -2,11 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>This Afternoon</h3>Sunny. High near 48, with temperatures falling to around 43 in the afternoon. North wind around 8 mph.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
-         <h3>Tonight</h3>Partly cloudy. Low around 24, with temperatures rising to around 26 overnight. North wind around 7 mph.<br></div>
+         <h3>Tonight</h3>Partly cloudy. Low around 24, with temperatures rising to around 26 overnight. North wind around 8 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -14,8 +10,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tuesday Night</h3>A slight chance of snow after 5am. Mostly cloudy, with a low around 26. North northeast wind around 6 mph. Chance of precipitation
-         is 20%.<br></div>
+         <h3>Tuesday Night</h3>A slight chance of snow after 5am. Mostly cloudy. Low around 26, with temperatures rising to around 29 overnight. North northeast
+         wind around 6 mph. Chance of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -29,8 +25,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thanksgiving Day</h3>Rain and snow likely. Mostly cloudy, with a high near 42. Northwest wind 10 to 14 mph, with gusts as high as 22 mph. New snow
-         accumulation of less than half an inch possible.<br></div>
+         <h3>Thanksgiving Day</h3>Rain and snow likely. Mostly cloudy, with a high near 42. Northwest wind 10 to 14 mph, with gusts as high as 22 mph. Chance
+         of precipitation is 70%. New snow accumulation of less than half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -60,5 +56,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Sunday Night</h3>Partly cloudy, with a low around 33. South southwest wind around 3 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Monday</h3>Mostly sunny, with a high near 59. South wind 2 to 6 mph.<br></div>
    </p>
 </div>
