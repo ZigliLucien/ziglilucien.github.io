@@ -10,9 +10,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A chance of snow showers between 8am and 9am, then rain showers between 9am and 2pm, then rain and snow showers between 2pm
-         and 4pm, then rain and snow showers. Cloudy. High near 38, with temperatures falling to around 34 in the afternoon. North
-         northeast wind around 8 mph. Chance of precipitation is 90%. Little or no snow accumulation expected.<br></div>
+         <h3>Wednesday</h3>Rain and snow showers after 8am. Cloudy, with a high near 38. North northeast wind around 8 mph. Chance of precipitation is
+         90%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -22,7 +21,7 @@
    <p>
       <div style="font-size:120%">
          <h3>Thanksgiving Day</h3>Rain and snow showers. Cloudy, with a high near 36. Northwest wind 9 to 13 mph, with gusts as high as 22 mph. Chance of precipitation
-         is 90%. New snow accumulation of less than half an inch possible.<br></div>
+         is 90%. New snow accumulation of less than one inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
