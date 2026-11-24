@@ -38,6 +38,7 @@
         listing all articles which are posted to the site front page.
 </h2>
 <br><ul>
+<li><a href="#https://lwn.net/Articles/1109472/" title="See Description">Security updates for Tuesday</a></li>
 <li><a href="#https://lwn.net/Articles/1109269/" title="See Description">CachyOS November 2026 release</a></li>
 <li><a href="#https://lwn.net/Articles/1109268/" title="See Description">Security updates for Monday</a></li>
 <li><a href="#https://lwn.net/Articles/1108909/" title="See Description">Seven stable kernels for Monday</a></li>
@@ -52,10 +53,17 @@
 <li><a href="#https://lwn.net/Articles/1108552/" title="See Description">Four PHP security releases including fixes for critical vulnerabilities</a></li>
 <li><a href="#https://lwn.net/Articles/1108551/" title="See Description">Security updates for Thursday</a></li>
 <li><a href="#https://lwn.net/Articles/1107147/" title="See Description">[$] LWN.net Weekly Edition for November 19, 2026</a></li>
-<li><a href="#https://lwn.net/Articles/1108362/" title="See Description">NGINX2Root: Remote Code Execution vulnerabilities in nginx</a></li>
 </ul>
 <p></p>
 <br><table align="center">
+<tr><td><a name="https://lwn.net/Articles/1109472/"></a></td></tr>
+<tr><td><div class="date"><tt>Tue, 24 Nov 2026 14:03:12 +0000</tt></div></td></tr>
+<tr><td><div>
+<div style="float:left" class="link"><a href="https://lwn.net/Articles/1109472/" title="https://lwn.net/Articles/1109472/">Security updates for Tuesday</a></div>
+<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
+</div></td></tr>
+<tr><td><div class="item"><blockquote><blockquote>Security updates have been issued by <b>AlmaLinux</b> (aspell, curl, fence-agents, flatpak, flatpak-builder, freerdp, git-lfs, golang, grafana, grafana-pcp, gstreamer1-plugins-good, kernel, kernel-rt, libgsf, liblerc, mutter, netpbm, nodejs26, openssh, patch, perl-CGI, php, php:8.2, php:8.3, php:8.4, podman, python-oauthlib, python36:3.6, qt6-qtbase, rsync, ruby, ruby4.0, skopeo, sqlite, virt:rhel and virt-devel:rhel, wayland, webkit2gtk3, and xdg-desktop-portal), <b>Debian</b> (chromium, mediawiki, pymongo, and radsecproxy), <b>Fedora</b> (c-ares, clamav, libmodulemd, mimedefang, mycli, poppler, sqlite, tpm2-tss, xfsprogs, and xorg-x11-server-Xwayland), <b>Gentoo</b> (GPGME and GPL Ghostscript), <b>Oracle</b> (bind, bind9.18, cifs-utils, cockpit-files, cockpit-machines, curl, dovecot, edk2, expat, fence-agents, firefox, freerdp, gfs2-utils, grafana-pcp, java-1.8.0-openjdk, kernel, libgsf, librabbitmq, mingw-expat, netpbm, nginx, nodejs:26, openssh, perl-URI, php8.4, python-oauthlib, python3.9, qt5-qtbase, skopeo, sos, thunderbird, and xdg-desktop-portal), <b>Red Hat</b> (curl, libevent, libvirt, mariadb-connector-c, php8.4, php:8.2, python, python3, python3.11, python3.9, sssd, and thunderbird), <b>SUSE</b> (bind, cockpit, dpdk, helm, libXi, mozilla-nss, MozillaFirefox, mtools, nginx, parted, pcre2, python-M2Crypto, python-maturin, python-tornado, ruby2.5, ruby3.4, sbc, and shadow), and <b>Ubuntu</b> (libssh, linux-aws, linux-azure, linux-azure-fde, linux-gcp, linux-oracle, linux-azure, linux-azure-5.15, linux-azure-fde-5.15, linux-raspi, linux-azure, linux-azure-6.8, linux-azure-fde, linux-azure-fde-6.8, linux-azure-fips, linux-azure-5.4, linux-azure-fips, linux-azure-fde, linux-azure-fips, linux-azure-fde, linux-oracle, linux-oracle-7.0, linux-raspi, linux-realtime, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, python-oauthlib, qt6-5compat, ruby2.7, ruby2.5, ruby2.3, and tomcat10, tomcat11).
+</blockquote></blockquote></div></td></tr>
 <tr><td><a name="https://lwn.net/Articles/1109269/"></a></td></tr>
 <tr><td><div class="date"><tt>Mon, 23 Nov 2026 14:21:41 +0000</tt></div></td></tr>
 <tr><td><div>
@@ -284,48 +292,6 @@ should be releasing updated packages soon.</p>
             </ul>
 
         </blockquote></blockquote></div></td></tr>
-<tr><td><a name="https://lwn.net/Articles/1108362/"></a></td></tr>
-<tr><td><div class="date"><tt>Wed, 18 Nov 2026 16:13:34 +0000</tt></div></td></tr>
-<tr><td><div>
-<div style="float:left" class="link"><a href="https://lwn.net/Articles/1108362/" title="https://lwn.net/Articles/1108362/">NGINX2Root: Remote Code Execution vulnerabilities in nginx</a></div>
-<div id="linkback" onclick="history.back()" onmouseout="this.className='off'" onmouseover="this.className='active'">back</div>
-</div></td></tr>
-<tr><td><div class="item"><blockquote><blockquote><p>Xint is <a
-href="https://xint.io/blog/nginx2root-remote-code-execution">reporting</a> that
-it has discovered a collection of <a
-href="https://xint.io/blog/nginx2root-remote-code-execution#5-technical-analysis-of-the-nginx-vulnerabilities-16">five
-critical vulnerabilities</a> in the <a href="https://nginx.org/">NGINX</a> web
-server. The worst flaw, it says, would <a
-href="https://xint.io/blog/nginx2root-remote-code-execution#what-an-attacker-can-do-2">allow
-an unauthenticated attacker to execute commands on an affected nginx server with
-HTTP/2 enabled</a>. The company also reports a local-privilege escalation (LPE) <a
-href="https://xint.io/blog/nginx2root-remote-code-execution#6-analysis-of-the-linux-kernel-lpe-vulnerability-22">kernel
-vulnerability</a>, which was introduced in the 4.15 kernel, in the <a
-href="https://docs.kernel.org/networking/sctp.html">Stream Control Transmission
-Protocol (SCTP)</a> subsystem. If chained with the NGINX vulnerability,
-it would allow an attacker to gain root privileges on the host. A kernel patch for this
-is not yet available.</p>
-
-<blockquote class="bq">
-We also obtained a root shell on the host in a setup where nginx was running in
-a Docker container. On many Linux distributions, the SCTP module is installed by
-default and the kernel loads it automatically the first time a program opens an
-SCTP socket. Whether SCTP is reachable on a given host still depends on the
-kernel, the available modules, and the container's restrictions. Where it is
-reachable, the attacker can take over the host kernel. Since all containers on
-the host share that kernel, this gives the attacker control of the host and
-every container on it.
-</blockquote>
-
-<p>Xint recommends updating to <a
-href="https://github.com/nginx/nginx/releases/tag/release-1.31.9">NGINX
-1.31.9</a>, which was just released, and to
-block the SCTP module on hosts that do not need it until a kernel fix is
-available. See the <a
-href="https://xint.io/blog/nginx2root-remote-code-execution#33-emergency-mitigations-before-patching-14">mitigations</a>
-section of their report for more information.</p>
-
-<p></p></blockquote></blockquote></div></td></tr>
 </table>
 </body>
 </html>
