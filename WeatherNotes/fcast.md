@@ -2,7 +2,7 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Today</h3>Mostly cloudy. High near 46, with temperatures falling to around 43 in the afternoon. Northeast wind around 10 mph.<br></div>
+         <h3>This Afternoon</h3>Mostly cloudy. High near 46, with temperatures falling to around 43 in the afternoon. Northeast wind around 10 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -10,19 +10,19 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday</h3>A slight chance of snow showers between 8am and 9am, then rain showers between 9am and 3pm, then rain and snow showers. Cloudy.
-         High near 39, with temperatures falling to around 37 in the afternoon. North northeast wind around 8 mph. Chance of precipitation
-         is 90%.<br></div>
+         <h3>Wednesday</h3>A chance of snow showers between 8am and 9am, then rain showers between 9am and 2pm, then rain and snow showers between 2pm
+         and 4pm, then rain and snow showers. Cloudy. High near 38, with temperatures falling to around 34 in the afternoon. North
+         northeast wind around 8 mph. Chance of precipitation is 90%. Little or no snow accumulation expected.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Wednesday Night</h3>Rain and snow showers. Cloudy, with a low around 26. North northwest wind 5 to 9 mph. Chance of precipitation is 100%. New
+         <h3>Wednesday Night</h3>Rain and snow showers. Cloudy, with a low around 30. North northwest wind 5 to 9 mph. Chance of precipitation is 100%. New
          snow accumulation of 1 to 2 inches possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thanksgiving Day</h3>Rain and snow showers. Cloudy, with a high near 40. Northwest wind 9 to 13 mph, with gusts as high as 22 mph. Chance of precipitation
-         is 80%. New snow accumulation of less than half an inch possible.<br></div>
+         <h3>Thanksgiving Day</h3>Rain and snow showers. Cloudy, with a high near 36. Northwest wind 9 to 13 mph, with gusts as high as 22 mph. Chance of precipitation
+         is 90%. New snow accumulation of less than half an inch possible.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -43,7 +43,7 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Mostly cloudy, with a low around 35. South wind around 5 mph.<br></div>
+         <h3>Saturday Night</h3>A slight chance of rain showers after midnight. Partly cloudy, with a low around 35. South wind around 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -51,14 +51,14 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>Partly cloudy, with a low around 30. Northwest wind 1 to 5 mph.<br></div>
+         <h3>Sunday Night</h3>Partly cloudy, with a low around 31. Northwest wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday</h3>Mostly sunny, with a high near 54. West southwest wind around 3 mph.<br></div>
+         <h3>Monday</h3>Mostly sunny, with a high near 54. West southwest wind 1 to 5 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Monday Night</h3>Partly cloudy, with a low around 30. South southeast wind around 2 mph.<br></div>
+         <h3>Monday Night</h3>A slight chance of rain showers after midnight. Partly cloudy, with a low around 32. South southeast wind around 2 mph.<br></div>
    </p>
 </div>
