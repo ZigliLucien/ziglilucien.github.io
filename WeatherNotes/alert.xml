@@ -11,112 +11,94 @@
 	<type type="str">FeatureCollection</type>
 	<features type="list">
 		<item type="dict">
-			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b1d023f88757a4a964756896bda16e30c5cd110.004.1</id>
+			<id type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c5a361d611f5e16df0ce51a0ef2cb45bff7f5a3.003.2</id>
 			<type type="str">Feature</type>
 			<geometry type="null"/>
 			<properties type="dict">
-				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6b1d023f88757a4a964756896bda16e30c5cd110.004.1</key>
+				<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c5a361d611f5e16df0ce51a0ef2cb45bff7f5a3.003.2</key>
 				<key name="@type" type="str">wx:Alert</key>
-				<id type="str">urn:oid:2.49.0.1.840.0.6b1d023f88757a4a964756896bda16e30c5cd110.004.1</id>
-				<areaDesc type="str">Jefferson; Perry; Franklin; Jackson; Williamson; Union; Alexander</areaDesc>
+				<id type="str">urn:oid:2.49.0.1.840.0.1c5a361d611f5e16df0ce51a0ef2cb45bff7f5a3.003.2</id>
+				<areaDesc type="str">Perry; Jackson; Union; Alexander</areaDesc>
 				<geocode type="dict">
 					<SAME type="list">
-						<item type="str">017081</item>
 						<item type="str">017145</item>
-						<item type="str">017055</item>
 						<item type="str">017077</item>
-						<item type="str">017199</item>
 						<item type="str">017181</item>
 						<item type="str">017003</item>
 					</SAME>
 					<UGC type="list">
-						<item type="str">ILZ075</item>
 						<item type="str">ILZ080</item>
-						<item type="str">ILZ081</item>
 						<item type="str">ILZ084</item>
-						<item type="str">ILZ085</item>
 						<item type="str">ILZ088</item>
 						<item type="str">ILZ092</item>
 					</UGC>
 				</geocode>
 				<affectedZones type="list">
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ075</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ080</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ081</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ084</item>
-					<item type="str">https://api.weather.gov/zones/forecast/ILZ085</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ088</item>
 					<item type="str">https://api.weather.gov/zones/forecast/ILZ092</item>
 				</affectedZones>
-				<references type="list">
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3f8a01331c1baaa2e71675e4d42831363522e16.004.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.b3f8a01331c1baaa2e71675e4d42831363522e16.004.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-11-24T20:57:00-06:00</sent>
-					</item>
-					<item type="dict">
-						<key name="@id" type="str">https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3f8a01331c1baaa2e71675e4d42831363522e16.005.1</key>
-						<identifier type="str">urn:oid:2.49.0.1.840.0.b3f8a01331c1baaa2e71675e4d42831363522e16.005.1</identifier>
-						<sender type="str">w-nws.webmaster@noaa.gov</sender>
-						<sent type="str">2026-11-24T20:57:00-06:00</sent>
-					</item>
-				</references>
-				<sent type="str">2026-11-24T21:13:00-06:00</sent>
-				<effective type="str">2026-11-24T21:13:00-06:00</effective>
+				<references type="list"/>
+				<sent type="str">2026-11-25T00:51:00-06:00</sent>
+				<effective type="str">2026-11-25T00:51:00-06:00</effective>
 				<onset type="str">2026-11-25T15:00:00-06:00</onset>
 				<expires type="str">2026-11-25T15:00:00-06:00</expires>
 				<ends type="str">2026-11-26T12:00:00-06:00</ends>
 				<status type="str">Actual</status>
-				<messageType type="str">Update</messageType>
+				<messageType type="str">Alert</messageType>
 				<category type="str">Met</category>
-				<severity type="str">Severe</severity>
-				<certainty type="str">Possible</certainty>
-				<urgency type="str">Future</urgency>
-				<event type="str">Winter Storm Watch</event>
+				<severity type="str">Moderate</severity>
+				<certainty type="str">Likely</certainty>
+				<urgency type="str">Expected</urgency>
+				<event type="str">Winter Weather Advisory</event>
 				<sender type="str">w-nws.webmaster@noaa.gov</sender>
 				<senderName type="str">NWS Paducah KY</senderName>
-				<headline type="str">Winter Storm Watch issued November 24 at 9:13PM CST until November 26 at 12:00PM CST by NWS Paducah KY</headline>
-				<description type="str">* WHAT...Heavy wet snow possible. Total snow accumulations of 3 to 6
-inches.
+				<headline type="str">Winter Weather Advisory issued November 25 at 12:51AM CST until November 26 at 12:00PM CST by NWS Paducah KY</headline>
+				<description type="str">Our first winter storm of the season is set to impact portions of
+our region as we head into the Thanksgiving holiday. A sharp gradient
+between very little snow and impactful snow amounts is expected. That
+sharp cutoff appears likely to setup within 25 miles of the
+Mississippi River, with latest trends shifting further west with the
+heavier axis.
 
-* WHERE...A portion of southern Illinois.
+* WHAT...Wet snow expected. Total snow accumulations of 1 to 2 inches
+with the highest totals potentially approaching 3 inches near the
+Mississippi River.
 
-* WHEN...From Wednesday afternoon through Thursday morning.
+* WHERE...Alexander, Jackson, Perry IL, and Union Counties in
+southern Illinois.
+
+* WHEN...From 3 PM this afternoon to noon CST Thursday.
 
 * IMPACTS...Plan on slippery road conditions. The hazardous
-conditions could impact the Wednesday evening and Thursday morning
+conditions will impact the Wednesday evening and Thursday morning
 commutes.</description>
-				<instruction type="str">Monitor the latest forecasts for updates on this situation.</instruction>
-				<response type="str">Prepare</response>
+				<instruction type="str">Slow down and use caution while traveling. The latest road conditions
+can be obtained by visiting www.weather.gov/pah/roads</instruction>
+				<response type="str">Execute</response>
 				<note type="null"/>
 				<parameters type="dict">
 					<AWIPSidentifier type="list">
 						<item type="str">WSWPAH</item>
 					</AWIPSidentifier>
 					<WMOidentifier type="list">
-						<item type="str">WWUS43 KPAH 250313</item>
+						<item type="str">WWUS43 KPAH 250651</item>
 					</WMOidentifier>
 					<NWSheadline type="list">
-						<item type="str">WINTER STORM WATCH REMAINS IN EFFECT FROM WEDNESDAY AFTERNOON THROUGH THURSDAY MORNING</item>
+						<item type="str">WINTER WEATHER ADVISORY IN EFFECT FROM 3 PM THIS AFTERNOON TO NOON CST THURSDAY</item>
 					</NWSheadline>
 					<BLOCKCHANNEL type="list">
 						<item type="str">EAS</item>
 						<item type="str">NWEM</item>
 						<item type="str">CMAS</item>
 					</BLOCKCHANNEL>
-					<EAS-ORG type="list">
-						<item type="str">WXR</item>
-					</EAS-ORG>
 					<VTEC type="list">
-						<item type="str">/O.CON.KPAH.WS.A.0002.261125T2100Z-261126T1800Z/</item>
+						<item type="str">/O.EXB.KPAH.WW.Y.0002.261125T2100Z-261126T1800Z/</item>
 					</VTEC>
 					<eventEndingTime type="list">
 						<item type="str">2026-11-26T12:00:00-06:00</item>
 					</eventEndingTime>
-					<expiredReferences type="list">
-						<item type="str">w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.255e92bcfe1f97553da83695790e02c3004504a1.001.1,2026-11-24T12:34:00-06:00</item>
-					</expiredReferences>
 				</parameters>
 				<scope type="str">Public</scope>
 				<code type="str">IPAWSv1.0</code>
@@ -124,15 +106,15 @@ commutes.</description>
 				<web type="str">http://www.weather.gov</web>
 				<eventCode type="dict">
 					<SAME type="list">
-						<item type="str">WSA</item>
+						<item type="str">NWS</item>
 					</SAME>
 					<NationalWeatherService type="list">
-						<item type="str">WSA</item>
+						<item type="str">WWY</item>
 					</NationalWeatherService>
 				</eventCode>
 			</properties>
 		</item>
 	</features>
 	<title type="str">Current watches, warnings, and advisories for Jackson (ILZ084) IL</title>
-	<updated type="str">2026-11-25T06:35:19+00:00</updated>
+	<updated type="str">2026-11-25T07:35:52+00:00</updated>
 </all>
