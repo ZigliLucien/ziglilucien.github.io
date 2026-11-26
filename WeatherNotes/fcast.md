@@ -2,22 +2,18 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>Rain showers. Cloudy. Low around 32, with temperatures rising to around 34 overnight. North northwest wind around 9 mph. Chance
-         of precipitation is 100%.<br></div>
-   </p>
-   <p>
-      <div style="font-size:120%">
          <h3>Thanksgiving Day</h3>Rain showers. Cloudy, with a high near 38. North northwest wind 10 to 17 mph, with gusts as high as 28 mph. Chance of precipitation
          is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Thursday Night</h3>Rain showers. Cloudy, with a low around 32. Northwest wind around 15 mph, with gusts as high as 25 mph. Chance of precipitation
+         <h3>Tonight</h3>Rain showers. Cloudy, with a low around 32. Northwest wind around 15 mph, with gusts as high as 25 mph. Chance of precipitation
          is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Friday</h3>Partly sunny, with a high near 45. West wind 5 to 13 mph, with gusts as high as 21 mph.<br></div>
+         <h3>Friday</h3>Partly sunny. High near 45, with temperatures falling to around 40 in the afternoon. West wind 5 to 13 mph, with gusts as
+         high as 21 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -29,7 +25,8 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Showers and thunderstorms likely after midnight. Mostly cloudy, with a low around 39. South wind 3 to 10 mph.<br></div>
+         <h3>Saturday Night</h3>Showers and thunderstorms likely after midnight. Mostly cloudy, with a low around 39. South wind 3 to 10 mph. Chance of precipitation
+         is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
@@ -58,5 +55,9 @@
    <p>
       <div style="font-size:120%">
          <h3>Wednesday</h3>Mostly sunny, with a high near 60. South wind 2 to 9 mph.<br></div>
+   </p>
+   <p>
+      <div style="font-size:120%">
+         <h3>Wednesday Night</h3>Partly cloudy, with a low around 46. South wind 7 to 12 mph, with gusts as high as 18 mph.<br></div>
    </p>
 </div>
