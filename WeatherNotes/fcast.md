@@ -2,12 +2,12 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Thanksgiving Day</h3>Rain showers. Cloudy, with a high near 38. North northwest wind 10 to 17 mph, with gusts as high as 28 mph. Chance of precipitation
+         <h3>Thanksgiving Day</h3>Rain showers. Cloudy, with a high near 38. North northwest wind 13 to 16 mph, with gusts as high as 28 mph. Chance of precipitation
          is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Rain showers. Cloudy, with a low around 32. Northwest wind around 15 mph, with gusts as high as 25 mph. Chance of precipitation
+         <h3>Tonight</h3>Rain showers. Cloudy, with a low around 31. Northwest wind around 15 mph, with gusts as high as 25 mph. Chance of precipitation
          is 100%.<br></div>
    </p>
    <p>
