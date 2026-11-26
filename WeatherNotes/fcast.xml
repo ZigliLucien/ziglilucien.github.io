@@ -41,9 +41,9 @@
 	<properties type="dict">
 		<units type="str">us</units>
 		<forecastGenerator type="str">BaselineForecastGenerator</forecastGenerator>
-		<generatedAt type="str">2026-11-26T06:36:03+00:00</generatedAt>
-		<updateTime type="str">2026-11-26T06:26:05+00:00</updateTime>
-		<validTimes type="str">2026-11-26T00:00:00+00:00/P8DT1H</validTimes>
+		<generatedAt type="str">2026-11-26T07:36:03+00:00</generatedAt>
+		<updateTime type="str">2026-11-26T07:15:55+00:00</updateTime>
+		<validTimes type="str">2026-11-26T01:00:00+00:00/P8D</validTimes>
 		<elevation type="dict">
 			<unitCode type="str">wmoUnit:m</unitCode>
 			<value type="float">152.0952</value>
@@ -52,7 +52,7 @@
 			<item type="dict">
 				<number type="int">1</number>
 				<name type="str">Overnight</name>
-				<startTime type="str">2026-11-26T00:00:00-06:00</startTime>
+				<startTime type="str">2026-11-26T01:00:00-06:00</startTime>
 				<endTime type="str">2026-11-26T06:00:00-06:00</endTime>
 				<isDaytime type="bool">False</isDaytime>
 				<temperature type="int">32</temperature>
@@ -60,13 +60,13 @@
 				<temperatureTrend type="null"/>
 				<probabilityOfPrecipitation type="dict">
 					<unitCode type="str">wmoUnit:percent</unitCode>
-					<value type="int">100</value>
+					<value type="int">99</value>
 				</probabilityOfPrecipitation>
 				<windSpeed type="str">9 mph</windSpeed>
-				<windDirection type="str">NNW</windDirection>
-				<icon type="str">https://api.weather.gov/icons/land/night/snow,100?size=medium</icon>
-				<shortForecast type="str">Snow Showers</shortForecast>
-				<detailedForecast type="str">Snow showers before 1am, then rain showers. Cloudy. Low around 32, with temperatures rising to around 34 overnight. North northwest wind around 9 mph. Chance of precipitation is 100%.</detailedForecast>
+				<windDirection type="str">N</windDirection>
+				<icon type="str">https://api.weather.gov/icons/land/night/rain_showers,100?size=medium</icon>
+				<shortForecast type="str">Rain Showers</shortForecast>
+				<detailedForecast type="str">Rain showers. Cloudy. Low around 32, with temperatures rising to around 34 overnight. North wind around 9 mph. Chance of precipitation is 100%.</detailedForecast>
 			</item>
 			<item type="dict">
 				<number type="int">2</number>
