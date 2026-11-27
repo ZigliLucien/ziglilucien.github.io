@@ -2,8 +2,8 @@
    <h2>Forecast for Jackson County</h2>
    <p>
       <div style="font-size:120%">
-         <h3>Overnight</h3>A chance of rain. Cloudy, with a low around 33. West northwest wind around 15 mph, with gusts as high as 24 mph. Chance of
-         precipitation is 30%.<br></div>
+         <h3>Overnight</h3>A slight chance of rain. Cloudy, with a low around 33. West northwest wind around 13 mph, with gusts as high as 24 mph. Chance
+         of precipitation is 20%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
