@@ -6,18 +6,18 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Tonight</h3>Rain showers likely after 3am. Mostly cloudy. Low around 45, with temperatures rising to around 49 overnight. South wind 3
-         to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 70%.<br></div>
+         <h3>Tonight</h3>Rain showers likely after 2am. Cloudy. Low around 45, with temperatures rising to around 49 overnight. South wind 3 to 12
+         mph, with gusts as high as 20 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Showers and thunderstorms. Cloudy. High near 56, with temperatures falling to around 43 in the afternoon. Southwest wind 10
-         to 20 mph, with gusts as high as 35 mph. Chance of precipitation is 100%.<br></div>
+         <h3>Sunday</h3>Showers and thunderstorms. Mostly cloudy. High near 56, with temperatures falling to around 43 in the afternoon. West wind
+         10 to 20 mph, with gusts as high as 39 mph. Chance of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday Night</h3>A slight chance of rain showers before midnight. Mostly cloudy, with a low around 28. Northwest wind 2 to 17 mph, with gusts
-         as high as 36 mph. Chance of precipitation is 20%.<br></div>
+         <h3>Sunday Night</h3>Rain showers likely before midnight. Mostly cloudy, with a low around 28. Northwest wind 2 to 20 mph, with gusts as high as
+         38 mph. Chance of precipitation is 60%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
