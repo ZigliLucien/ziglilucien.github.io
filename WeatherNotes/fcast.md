@@ -6,17 +6,17 @@
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday</h3>Partly sunny. High near 53, with temperatures falling to around 48 in the afternoon. South southwest wind around 7 mph.<br></div>
+         <h3>Saturday</h3>Partly sunny. High near 53, with temperatures falling to around 48 in the afternoon. South southwest wind 3 to 7 mph.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Saturday Night</h3>Rain showers likely between 1am and 3am, then showers and thunderstorms. Mostly cloudy. Low around 41, with temperatures rising
-         to around 47 overnight. South wind 3 to 8 mph. Chance of precipitation is 80%.<br></div>
+         <h3>Saturday Night</h3>Rain showers likely after 3am. Mostly cloudy. Low around 41, with temperatures rising to around 47 overnight. South wind 3
+         to 10 mph, with gusts as high as 18 mph. Chance of precipitation is 70%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
-         <h3>Sunday</h3>Rain showers. Mostly cloudy, with a high near 52. Southwest wind 8 to 20 mph, with gusts as high as 30 mph. Chance of precipitation
-         is 100%.<br></div>
+         <h3>Sunday</h3>Showers and thunderstorms. Cloudy, with a high near 52. Southwest wind 10 to 20 mph, with gusts as high as 30 mph. Chance
+         of precipitation is 100%.<br></div>
    </p>
    <p>
       <div style="font-size:120%">
